@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="Markdown Testing" />
+<meta property="og:description" content="#Testing
+Markdown: Syntax Main Basics Syntax License Dingus   Overview  Philosophy Inline HTML Automatic Escaping for Special Characters  Block Elements  Paragraphs and Line Breaks Headers Blockquotes Lists Code Blocks Horizontal Rules  Span Elements  Links Emphasis Code Images  Miscellaneous  Backslash Escapes Automatic Links   Note: This document is itself written using Markdown; you can see the source for it by adding &lsquo;." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/markdown-testing/" />
+
+
+
+<meta property="article:published_time" content="2018-05-23T14:48:02&#43;02:00"/>
+
+<meta property="article:modified_time" content="2018-05-23T14:48:02&#43;02:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Markdown Testing"/>
+<meta name="twitter:description" content="#Testing
+Markdown: Syntax Main Basics Syntax License Dingus   Overview  Philosophy Inline HTML Automatic Escaping for Special Characters  Block Elements  Paragraphs and Line Breaks Headers Blockquotes Lists Code Blocks Horizontal Rules  Span Elements  Links Emphasis Code Images  Miscellaneous  Backslash Escapes Automatic Links   Note: This document is itself written using Markdown; you can see the source for it by adding &lsquo;."/>
+<meta name="generator" content="Hugo 0.40.3" />
+
+
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Markdown Testing",
+  "url": "/posts/markdown-testing/",
+  "wordCount": "196",
+  "datePublished": "2018-05-23T14:48:02&#43;02:00",
+  "dateModified": "2018-05-23T14:48:02&#43;02:00",
+  "author": {
+    "@type": "Person",
+    "name": "Christian Mohn"
+  }
+}
+</script>
+
+
+
+    <link rel="canonical" href="/posts/markdown-testing/">
+
+    <title>Markdown Testing | Adventures in Hugo</title>
+
+    <!-- combined, minified CSS -->
+    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
+
+    
+
+    
+
+    
+
+    
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="/">Home</a>
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
+        <p class="lead blog-description">A simple Hugo theme based on the Bootstrap v4 blog example.</p>
+      </div>
+    </header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/markdown-testing/">Markdown Testing</a></h2>
+    <p class="blog-post-meta"><time datetime="2018-05-23T14:48:02&#43;02:00">Wed May 23, 2018</time> by Christian Mohn</p>
+  </header>
+  
+
+<p>#Testing</p>
+
+<h1 id="markdown-syntax">Markdown: Syntax</h1>
+
+<ul id="ProjectSubmenu">
+    <li><a href="/projects/markdown/" title="Markdown Project Page">Main</a></li>
+    <li><a href="/projects/markdown/basics" title="Markdown Basics">Basics</a></li>
+    <li><a class="selected" title="Markdown Syntax Documentation">Syntax</a></li>
+    <li><a href="/projects/markdown/license" title="Pricing and License Information">License</a></li>
+    <li><a href="/projects/markdown/dingus" title="Online Markdown Web Form">Dingus</a></li>
+</ul>
+
+<ul>
+<li><a href="#overview">Overview</a>
+
+<ul>
+<li><a href="#philosophy">Philosophy</a></li>
+<li><a href="#html">Inline HTML</a></li>
+<li><a href="#autoescape">Automatic Escaping for Special Characters</a></li>
+</ul></li>
+<li><a href="#block">Block Elements</a>
+
+<ul>
+<li><a href="#p">Paragraphs and Line Breaks</a></li>
+<li><a href="#header">Headers</a></li>
+<li><a href="#blockquote">Blockquotes</a></li>
+<li><a href="#list">Lists</a></li>
+<li><a href="#precode">Code Blocks</a></li>
+<li><a href="#hr">Horizontal Rules</a></li>
+</ul></li>
+<li><a href="#span">Span Elements</a>
+
+<ul>
+<li><a href="#link">Links</a></li>
+<li><a href="#em">Emphasis</a></li>
+<li><a href="#code">Code</a></li>
+<li><a href="#img">Images</a></li>
+</ul></li>
+<li><a href="#misc">Miscellaneous</a>
+
+<ul>
+<li><a href="#backslash">Backslash Escapes</a></li>
+<li><a href="#autolink">Automatic Links</a></li>
+</ul></li>
+</ul>
+
+<p><strong>Note:</strong> This document is itself written using Markdown; you
+can <a href="/projects/markdown/syntax.text">see the source for it by adding &lsquo;.text&rsquo; to the URL</a>.</p>
+
+<hr />
+
+<h2 id="overview">Overview</h2>
+
+<h3 id="philosophy">Philosophy</h3>
+
+<p>Markdown is intended to be as easy-to-read and easy-to-write as is feasible.</p>
+
+<p>Readability, however, is emphasized above all else. A Markdown-formatted
+document should be publishable as-is, as plain text, without looking
+like it&rsquo;s been marked up with tags or formatting instructions. While
+Markdown&rsquo;s syntax has been influenced by several existing text-to-HTML
+filters &ndash; including <a href="http://docutils.sourceforge.net/mirror/setext.html">Setext</a>, <a href="http://www.aaronsw.com/2002/atx/">atx</a>, <a href="http://textism.com/tools/textile/">Textile</a>, <a href="http://docutils.sourceforge.net/rst.html">reStructuredText</a>,
+<a href="http://www.triptico.com/software/grutatxt.html">Grutatext</a>, and <a href="http://ettext.taint.org/doc/">EtText</a> &ndash; the single biggest source of
+inspiration for Markdown&rsquo;s syntax is the format of plain text email.</p>
+
+<p>To this end, Markdown&rsquo;s syntax is comprised entirely of punctuation
+characters, which punctuation characters have been carefully chosen so
+as to look like what they mean. E.g., asterisks around a word actually
+look like *emphasis*. Markdown lists look like, well, lists. Even
+blockquotes look like quoted passages of text, assuming you&rsquo;ve ever
+used email.</p>
+
+
+  
+
+  
+  <hr>
+  <footer>
+
+  
+    <section>
+    <h4>Share</h4>
+    <nav class="nav sharing-icons">
+      <a class="nav-item" href="https://www.facebook.com/sharer/sharer.php?u=%2fposts%2fmarkdown-testing%2f" title="Share on Facebook"><span class="fa fa-facebook fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://plus.google.com/share?url=%2fposts%2fmarkdown-testing%2f" title="Share on Google+"><span class="fa fa-google-plus fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fposts%2fmarkdown-testing%2f" title="Share on LinkedIn"><span class="fa fa-linkedin fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://twitter.com/home?status=%2fposts%2fmarkdown-testing%2f" title="Tweet this"><span class="fa fa-twitter fa-2x"></span></a>
+    </nav>
+  </section>
+
+  
+
+  
+  </footer>
+  
+
+</article> 
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+  <section class="sidebar-module sidebar-module-inset">
+    <h4>About</h4>
+    <p>A simple Hugo theme based on the <a href="http://v4-alpha.getbootstrap.com/examples/blog/">Bootstrap v4 blog example</a>.</p>
+  </section>
+  
+
+  
+        <section class="sidebar-module">
+    <h4>Recent Posts</h4>
+    <ol class="list-unstyled">
+
+
+<li><a href="/posts/markdown-testing/">Markdown Testing</a></li>
+
+<li><a href="/posts/another-test.post/">Another Test</a></li>
+
+<li><a href="/posts/">Posts</a></li>
+
+    </ol>
+  </section>
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="https://example.com">Link 1</a></li>
+      
+      <li><a href="https://example.org">Link 2</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p>
+      
+      Blog template created by <a href="https://twitter.com/mdo">@mdo</a>, ported to Hugo by <a href='https://twitter.com/mralanorth'>@mralanorth</a>.
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>
