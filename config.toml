@@ -1,4 +1,4 @@
-baseURL = "https://hugodev.vninja.com/"
+baseURL = "/"
 languageCode = "en-us"
 title = "vNinja - Hugofied"
 theme = "bootstrap4-blog"
