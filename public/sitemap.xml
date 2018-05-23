@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://hugo.vninja.com/categories/</loc>
+    <loc>https://hugodev.vninja.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://hugo.vninja.com/tags/</loc>
+    <loc>https://hugodev.vninja.com/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://hugo.vninja.com/</loc>
+    <loc>https://hugodev.vninja.com/</loc>
     <priority>0</priority>
   </url>
   
