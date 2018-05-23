@@ -1,8 +1,8 @@
 # Hugo variables
 #
-baseurl = "https://hugodev.vninja.net"
+baseurl = "/"
 languageCode = "en-us"
-title = "Adventurs in Hugo"
+title = "Adventures in Hugo"
 theme = "bootstrap4-blog"
 # number of posts to show on home/category/tag pages (Default: 10)
 paginate = 5
