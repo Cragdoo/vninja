@@ -8,7 +8,7 @@ theme = "bootstrap4-blog"
 paginate = 5
 # optionally override the site's footer with custom copyright text
 # copyright = "Except where otherwise noted, content on this site is licensed under a [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by-sa/4.0/)."
-copyright "(c) Christian Mohn"
+copyright = "(c) Christian Mohn"
 #googleAnalytics = "UA-123-45"
 #disqusShortname = "XYW"
 
@@ -24,9 +24,9 @@ copyright "(c) Christian Mohn"
   name = "Link 2"
   url = "https://example.org"
 
-#[[menu.navbar]]
-#  name = "Link 1"
-#  url = "https://example.org"
+[[menu.navbar]]
+  name = "Link 1"
+  url = "https://example.org"
 
 
 # Theme variables
