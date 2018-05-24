@@ -11,6 +11,8 @@ categories:
 - Rant
 tags:
 - GDPR
+aliases:
+- /rant/ive-complied-i-think/
 ---
 
 Like Sam and Simon over at [definit.co.uk](https://www.definit.co.uk/2018/05/gdpr-blogging-and-definit/) I've done a quick GDPR-related overhaul of the site.
@@ -18,5 +20,3 @@ Like Sam and Simon over at [definit.co.uk](https://www.definit.co.uk/2018/05/gdp
 Like the two English scholars and gentlemen, I've created the required [Privacy Policy](http://vninja.net/privacy-policy/) page. I've also deleted all existing comments on the site, and disabled comments sitewide — hopefully that's enough.
 
 Oh, joy.
-
-
