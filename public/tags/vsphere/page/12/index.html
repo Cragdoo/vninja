@@ -12,7 +12,7 @@
 
 
 
-<meta property="og:updated_time" content="2010-10-18T20:16:28&#43;00:00"/>
+<meta property="og:updated_time" content="2010-10-18T07:00:55&#43;00:00"/>
 
 
 
@@ -83,28 +83,6 @@
         <div class="col-sm-8 blog-main">
 
           
-
-
-
-
-
-
-<article class="blog-post">
-  <header>
-    <h2 class="blog-post-title"><a href="/posts/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-3/">VMware vSphere Lab: Virtual Edition – Part 3</a></h2>
-    <p class="blog-post-meta"><time datetime="2010-10-18T20:16:28Z">Mon Oct 18, 2010</time> by cmohn in 
-<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/howto" rel="category tag">Howto</a>, <a href="/categories/virtualization" rel="category tag">Virtualization</a>
-
-
-<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/labs" rel="tag">labs</a>, <a href="/tags/vmware" rel="tag">VMware</a>, <a href="/tags/vmware-workstation" rel="tag">VMware Workstation</a>, <a href="/tags/vsphere" rel="tag">vSphere</a>
-
-</p>
-  </header>
-  This is the third post in a series outlining how to set up your own little virtualized Virtual vSphere Lab, if you missed part one or part two, be sure to check them out first!
-I&rsquo;m going to assume that you already have VMware Workstation 7.x installed and ready. If not, get it installed before continuing.
-Now that we have all the prerequisites in place, we&rsquo;re going to go straight to installing the first ESXi host for your lab.
-  <a href='/posts/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-3/'>Read more →</a>
-</article> 
 
 
 
@@ -191,6 +169,28 @@ The Virtual vSphere Lab In VMware Workstation 7.1, running vSphere 4.1 is suppor
 That might also be the case with your vCenter 4.1 database, as I experienced back in July.
 All of a sudden my vCenter Server stopped working. The symptoms where pretty obvious, my client couldn&rsquo;t connect to the vCenter server. Naturally I connected to the server, and noticed that the VMware VirtualCenter Server services had indeed stopped. No wonder the client couldn&rsquo;t connect to it.
   <a href='/posts/vcenter-4-1-database-recovery-model-defaults/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/redesigning-the-vcenter-client/">Redesigning the vCenter Client?</a></h2>
+    <p class="blog-post-meta"><time datetime="2010-09-20T22:12:48Z">Mon Sep 20, 2010</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/ops" rel="tag">Ops</a>, <a href="/tags/vcenter" rel="tag">vCenter</a>, <a href="/tags/virtualization" rel="tag">Virtualization</a>, <a href="/tags/vmware" rel="tag">VMware</a>, <a href="/tags/vsphere" rel="tag">vSphere</a>
+
+</p>
+  </header>
+  In fresh blog post, called &ldquo;Resource pools and simultaneous vMotions&rdquo; by Frank Denneman prompted a quick Twitter discussion regarding the vCenter client (and perhaps even vCenter itself). A simple
+Why are there no folders under Host and Clusters view ? from Maish Saidel-Keesing got the ball rolling.
+Could it be that the design of the client itself helps perpetuate the myth the resource pools is an organizational unit, one that should be used as a way of grouping VMs?
+  <a href='/posts/redesigning-the-vcenter-client/'>Read more →</a>
 </article> 
 
 

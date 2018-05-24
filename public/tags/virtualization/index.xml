@@ -118,23 +118,6 @@ For some reason, and I have yet to confirm that this is a bug with the vCenter 5
     </item>
     
     <item>
-      <title>vSphere Web or Desktop Client - Who´s Your Daddy?</title>
-      <link>/posts/vsphere-web-desktop-client-who%c2%b4s-daddy/</link>
-      <pubDate>Wed, 07 Nov 2012 14:33:52 +0000</pubDate>
-      
-      <guid>/posts/vsphere-web-desktop-client-who%c2%b4s-daddy/</guid>
-      <description>At the moment, VMware vSphere offers two different management clients, the vSphere Web Client and the vSphere Desktop Client.
-The feature comparison table looks like this: (Copied from &amp;ldquo;Which vSphere client should I use and when?&amp;rdquo;) vSphere Web Client Only 
-vSphere Desktop Client Only    vCenter Single Sign-On
- Authentication
- Administration
-  Navigation with Inventory Lists
- Inventory Tagging
- Work In Progress (Pause)
- Pre-emptive Searching</description>
-    </item>
-    
-    <item>
       <title>Shanghai...  we have a problem...</title>
       <link>/posts/shanghai-problem/</link>
       <pubDate>Mon, 20 Aug 2012 22:28:03 +0000</pubDate>

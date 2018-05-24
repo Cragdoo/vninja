@@ -42,23 +42,6 @@ A group of users, developers in this case, have VMware Workstation installed on 
     </item>
     
     <item>
-      <title>vSphere Web or Desktop Client - Who´s Your Daddy?</title>
-      <link>/posts/vsphere-web-desktop-client-who%c2%b4s-daddy/</link>
-      <pubDate>Wed, 07 Nov 2012 14:33:52 +0000</pubDate>
-      
-      <guid>/posts/vsphere-web-desktop-client-who%c2%b4s-daddy/</guid>
-      <description>At the moment, VMware vSphere offers two different management clients, the vSphere Web Client and the vSphere Desktop Client.
-The feature comparison table looks like this: (Copied from &amp;ldquo;Which vSphere client should I use and when?&amp;rdquo;) vSphere Web Client Only 
-vSphere Desktop Client Only    vCenter Single Sign-On
- Authentication
- Administration
-  Navigation with Inventory Lists
- Inventory Tagging
- Work In Progress (Pause)
- Pre-emptive Searching</description>
-    </item>
-    
-    <item>
       <title>Multi-Hypervisor Management and the Future</title>
       <link>/posts/multi-hypervisor-management-and-the-future/</link>
       <pubDate>Sun, 12 Jun 2011 20:34:52 +0000</pubDate>
