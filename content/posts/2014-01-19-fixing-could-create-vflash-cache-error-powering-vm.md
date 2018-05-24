@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2014-01-19 19:19:02+00:00
 layout: post
-link: http://vninja.net/virtualization/fixing-could-create-vflash-cache-error-powering-vm/
 slug: fixing-could-create-vflash-cache-error-powering-vm
 title: Fixing "Could not create vFlash cache" error when powering on a VM
+url: /virtualization/fixing-could-create-vflash-cache-error-powering-vm/
 wordpress_id: 3020
 categories:
 - Virtualization

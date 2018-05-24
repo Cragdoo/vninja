@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2015-02-27 20:23:54+00:00
 layout: post
-link: http://vninja.net/virtualization/starting-vmug/
 slug: starting-vmug
 title: Starting a VMUG
+url: /virtualization/starting-vmug/
 wordpress_id: 3640
 categories:
 - Virtualization

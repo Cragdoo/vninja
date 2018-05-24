@@ -14,10 +14,10 @@
     
     <item>
       <title>VMFS-5: Block Size Me</title>
-      <link>/posts/vmfs-5-block-size-me/</link>
+      <link>/virtualization/vmfs-5-block-size-me/</link>
       <pubDate>Fri, 05 Aug 2011 12:21:31 +0000</pubDate>
       
-      <guid>/posts/vmfs-5-block-size-me/</guid>
+      <guid>/virtualization/vmfs-5-block-size-me/</guid>
       <description>The up and coming release of VMware vSphere 5 comes with an upgraded versjon of the VMware vStorage VMFS volume file system. One of the problems with VMFS-3 an earlier is that the block size you define when you format the datastore, determines the maximum size of the VMDK files stored on it. This means that when planning your datastore infrastructure you must have an idea on how large your VMDK files will potentially be during the lifecycle of the datastore.</description>
     </item>
     

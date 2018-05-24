@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2017-11-24 12:33:04+00:00
 layout: post
-link: http://vninja.net/osx/macos-vanilla/
 slug: macos-vanilla
 title: 'macOS: Vanilla'
+url: /osx/macos-vanilla/
 wordpress_id: 4871
 categories:
 - OS X

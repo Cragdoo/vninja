@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2013-01-10 23:09:56+00:00
 layout: post
-link: http://vninja.net/virtualization/vmware-workstation-license/
 slug: vmware-workstation-license
 title: Want a VMware Workstation License?
+url: /virtualization/vmware-workstation-license/
 wordpress_id: 2332
 categories:
 - Virtualization

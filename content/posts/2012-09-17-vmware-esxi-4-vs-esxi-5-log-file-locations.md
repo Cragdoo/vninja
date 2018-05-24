@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2012-09-17 21:24:18+00:00
 layout: post
-link: http://vninja.net/virtualization/vmware-esxi-4-vs-esxi-5-log-file-locations/
 slug: vmware-esxi-4-vs-esxi-5-log-file-locations
 title: VMware ESXi 4 vs ESXi 5 Log File Locations
+url: /virtualization/vmware-esxi-4-vs-esxi-5-log-file-locations/
 wordpress_id: 1490
 categories:
 - Virtualization

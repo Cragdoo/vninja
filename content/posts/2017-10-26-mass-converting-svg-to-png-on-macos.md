@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2017-10-26 13:32:01+00:00
 layout: post
-link: http://vninja.net/osx/mass-converting-svg-to-png-on-macos/
 slug: mass-converting-svg-to-png-on-macos
 title: Mass Converting .svg to .png on macOS
+url: /osx/mass-converting-svg-to-png-on-macos/
 wordpress_id: 4813
 categories:
 - OS X

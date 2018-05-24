@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2011-03-08 08:00:02+00:00
 layout: post
-link: http://vninja.net/virtualization/using-rsync-to-distribute-patches-to-remote-a-vma/
 slug: using-rsync-to-distribute-patches-to-remote-a-vma
 title: 'Using rsync to Distribute Patches to a Remote vMA '
+url: /virtualization/using-rsync-to-distribute-patches-to-remote-a-vma/
 wordpress_id: 902
 categories:
 - Howto

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="The Curious Case of the Intel Microcode" />
+<meta property="og:description" content="This guest post by Bjørn Anders Jørgensen, Senior Systems Consultant Basefarm, first appeared on LinkedIn.
+Disclaimer: This is a report based on current development as of 7. January, the situation is changing by the hour so read this opinion piece with that in hindsight.
+Unless you have been living under a rock for the last week you will know by now that there is a universal design flaw in most modern microprocessors, leaving them vulnerable to a serious information disclosure problem that requires updates to all operating systems and processors." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/news/the-curious-case-of-the-intel-microcode/" />
+
+
+
+<meta property="article:published_time" content="2018-01-09T18:37:24&#43;00:00"/>
+
+<meta property="article:modified_time" content="2018-01-09T18:37:24&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="The Curious Case of the Intel Microcode"/>
+<meta name="twitter:description" content="This guest post by Bjørn Anders Jørgensen, Senior Systems Consultant Basefarm, first appeared on LinkedIn.
+Disclaimer: This is a report based on current development as of 7. January, the situation is changing by the hour so read this opinion piece with that in hindsight.
+Unless you have been living under a rock for the last week you will know by now that there is a universal design flaw in most modern microprocessors, leaving them vulnerable to a serious information disclosure problem that requires updates to all operating systems and processors."/>
+<meta name="generator" content="Hugo 0.40.3" />
+
+
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "The Curious Case of the Intel Microcode",
+  "url": "/news/the-curious-case-of-the-intel-microcode/",
+  "wordCount": "1034",
+  "datePublished": "2018-01-09T18:37:24&#43;00:00",
+  "dateModified": "2018-01-09T18:37:24&#43;00:00",
+  "author": {
+    "@type": "Person",
+    "name": "bajorgensen"
+  },
+  "keywords": "News, Analysis, Intel, Meltdown, Security, Spectre"
+}
+</script>
+
+
+
+    <link rel="canonical" href="/news/the-curious-case-of-the-intel-microcode/">
+
+    <title>The Curious Case of the Intel Microcode | Adventures in Hugo</title>
+
+    <!-- combined, minified CSS -->
+    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
+
+    
+
+    
+
+    
+
+    
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="/">Home</a>
+          
+          <a class="nav-link" href="https://example.org" title="">Link 1</a>
+          
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
+        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+      </div>
+    </header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/news/the-curious-case-of-the-intel-microcode/">The Curious Case of the Intel Microcode</a></h2>
+    <p class="blog-post-meta"><time datetime="2018-01-09T18:37:24Z">Tue Jan 09, 2018</time> by bajorgensen in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/news" rel="category tag">News</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/analysis" rel="tag">Analysis</a>, <a href="/tags/intel" rel="tag">Intel</a>, <a href="/tags/meltdown" rel="tag">Meltdown</a>, <a href="/tags/security" rel="tag">Security</a>, <a href="/tags/spectre" rel="tag">Spectre</a>
+
+</p>
+  </header>
+  <p>This guest post by <a href="https://twitter.com/bajorgensen">Bjørn Anders Jørgensen</a>, Senior Systems Consultant Basefarm, first appeared on <a href="https://www.linkedin.com/pulse/curious-case-intel-microcode-bjørn-anders-jørgensen/">LinkedIn</a>.</p>
+
+<p><strong>Disclaimer: This is a report based on current development as of 7. January, the situation is changing by the hour so read this opinion piece with that in hindsight.</strong></p>
+
+<p><img src="http://vninja.net/wordpress/wp-content/uploads/2018/01/spectre-text-252x300.png" alt="" /> <img src="http://vninja.net/wordpress/wp-content/uploads/2018/01/meltdown-text-154x300.png" alt="" /></p>
+
+<p>Unless you have been living under a rock for the last week you will know by now that there is a universal design flaw in most modern microprocessors, leaving them vulnerable to a serious information disclosure problem that requires updates to all operating systems and processors.</p>
+
+<p>If you are not familiar with the issue, start here: <a href="https://spectreattack.com">Meltdown and Spectre</a></p>
+
+<p><a href="https://plus.google.com/+jwildeboer">Jan Wildeboer</a> also has a comprehensive timeline: <a href="https://plus.google.com/+jwildeboer/posts/jj6a9JUaovP">How we got to #Spectre and #Meltdown A Timeline</a></p>
+
+<p>The issue has been known by Intel at least since June, and has been under embargo while everyone has been hammering out code to mitigate the threat and be ready when the embargo was lifted.</p>
+
+<p>So we have three vulnerabilities, one that requires microcode update:</p>
+
+<p><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-5715">CVE-2017-5715</a> (variant #2/Spectre) aka branch target injection</p>
+
+<p><a href="https://en.wikipedia.org/wiki/Microcode">Microcode</a> is a small piece of code that can be loaded by the processor at boot time, either from the BIOS or from the operating system. Intel has been using this method for more than a decade to solve bugs and issues. It is a well known process. All HW vendors ships regular BIOS updates containing microcode updates and most modern operating systems has facilities to distribute and deploy microcode updates. This includes Linux, Windows and ESXi server. While most Linux distros keep an updated microcode repository, Microsoft and VMware has occasionally added microcode updates for serious issues.</p>
+
+<p>So with everything blowing up this week, you&rsquo;d think Intel would prepare microcode updates and ensure that OS patches contained the updated microcode so that you were completely secure from the know vulnerabilities. (more on the unknowns later)</p>
+
+<p>No! We all have to wait for the HW vendors to release updated BIOS for all our computers. They are of course completely overloaded and will prioritize new models. Currently (7. Jan) on the server side, Dell has pretty good coverage for 13G and 14G servers and HPE has pretty good coverage for 9G and 10G servers. Anything older than 3 years are still vulnerable even after patching the OS/hypervisor. On the consumer side, it is all over the place.</p>
+
+<p>Disclaimer: <a href="https://www.theregister.co.uk/2018/01/05/spectre_flaws_explained/">The Register claims </a>that variant #2/Spectre only requires microcode updates for Skylake and newer microarchitecture, in which case the tier 1 vendors already have good coverage, but the tier 2 and tier 3 vendors will lag for months. Even <a href="https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180104-cpusidechannel">Cisco is not planning BIOS updates</a> until 14. February!</p>
+
+<p>Intel is as normal very, very quiet regarding microcode updates. They usually come with no or little release notes, and is basically treated like a black box, even though it becomes an integral part, changing critical functions in the CPU. The only content I&rsquo;ve found was from an updated <a href="https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=886367">Debian bug report</a>:</p>
+
+<pre><code>New upstream microcodes to partially address CVE-2017-5715
+     + Updated Microcodes:
+       sig 0x000306c3, pf_mask 0x32, 2017-11-20, rev 0x0023, size 23552
+       sig 0x000306d4, pf_mask 0xc0, 2017-11-17, rev 0x0028, size 18432
+       sig 0x000306f2, pf_mask 0x6f, 2017-11-17, rev 0x003b, size 33792
+       sig 0x00040651, pf_mask 0x72, 2017-11-20, rev 0x0021, size 22528
+       sig 0x000406e3, pf_mask 0xc0, 2017-11-16, rev 0x00c2, size 99328
+       sig 0x000406f1, pf_mask 0xef, 2017-11-18, rev 0xb000025, size 27648
+       sig 0x00050654, pf_mask 0xb7, 2017-11-21, rev 0x200003a, size 27648
+       sig 0x000506c9, pf_mask 0x03, 2017-11-22, rev 0x002e, size 16384
+       sig 0x000806e9, pf_mask 0xc0, 2017-12-03, rev 0x007c, size 98304
+       sig 0x000906e9, pf_mask 0x2a, 2017-12-03, rev 0x007c, size 98304
+   * Implements IBRS and IBPB support via new MSR (Spectre variant 2
+     mitigation, indirect branches).  Support is exposed through cpuid(7).EDX.
+   * LFENCE terminates all previous instructions (Spectre variant 2
+     mitigation, conditional branches).
+</code></pre>
+
+<p>Note the use of &ldquo;partially&rdquo;. We&rsquo;ll get back to that in a minute. Breaking open the package, the changelog says:</p>
+
+<pre><code>&quot;unofficial bundle with CVE-2017-5715 mitigation&quot;
+</code></pre>
+
+<p>So with six months lead time Intel has not been able to release an official microcode bundle update. The latest official one is from 17. November and does not seem to contain any Spectre fixes. Worse, it seems like the unofficial bundle is only partially fixing variant #2/Spectre.</p>
+
+<p>Why is it that Intel is not using the tried and tested OS microcode update method to resolve what is arguably one of the most serious IT security issues in history? It could easily be included with the patch sets for the major OS vendors, like for Debian and other Linux distros. It has been done for VMware ESXi server and Microsoft Windows for less serious issues. And with the microcode revision that &ldquo;partially address CVE-2017-5715&rdquo; matching what the server vendors are releasing, do we have more updates coming?</p>
+
+<p>Intel really needs to get a grip on this. These kind of side channel attacks are a completely new vulnerability category, and now that researchers are focusing on this, there will be more coming. As Anders Fogh said in a early <a href="https://cyber.wtf/2017/07/28/negative-result-reading-kernel-memory-from-user-mode/">blog post</a>:</p>
+
+<blockquote>"While I did set out to read kernel mode without privileges and that produced a negative result, I do feel like I opened a Pandora’s box. "</blockquote>
+
+<p>So we have possibly a partial patch currently and most likely new vulnerabilities coming down the road, I absolutely implore Intel to get a grip and prepare for a quick microcode update and distribution. There is no way that the server vendors will be able to release another BIOS update for a huge amount of servers. **The only sensible way is to use the OS update mechanism, even though that is not persistent and could potentially be tampered with. **And please, we need full disclosure. I suspect a lot of people believe they have resolved the vulnerability, while in fact they have not.</p>
+
+<p>For virtual machines there are more steps required for the VM to enable the patch. More on that in a follow up post.</p>
+
+<p><strong>Note:</strong> We do have some unofficial Intel microcode repositories by <a href="https://www.win-raid.com/t3355f47-Intel-AMD-amp-VIA-CPU-Microcode-Repositories.html#msg45886">BIOS modders</a> and <a href="https://vibsdepot.v-front.de/wiki/index.php/Cpu-microcode">enthusiasts</a>. While I applaud the effort and work, it really should not be necessary, and while the microcode is signed by Intel, modifying the inner workings of the CPU opens for absolutely undetectable persistent hacks and should only come from an official source.</p>
+
+
+  
+
+  
+  <hr>
+  <footer>
+
+  
+    <section>
+    <h4>Share</h4>
+    <nav class="nav sharing-icons">
+      <a class="nav-item" href="https://www.facebook.com/sharer/sharer.php?u=%2fnews%2fthe-curious-case-of-the-intel-microcode%2f" title="Share on Facebook"><span class="fa fa-facebook fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://plus.google.com/share?url=%2fnews%2fthe-curious-case-of-the-intel-microcode%2f" title="Share on Google+"><span class="fa fa-google-plus fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fnews%2fthe-curious-case-of-the-intel-microcode%2f" title="Share on LinkedIn"><span class="fa fa-linkedin fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://twitter.com/home?status=%2fnews%2fthe-curious-case-of-the-intel-microcode%2f" title="Tweet this"><span class="fa fa-twitter fa-2x"></span></a>
+    </nav>
+  </section>
+
+  
+
+  
+  </footer>
+  
+
+</article> 
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="https://example.com">Link 1</a></li>
+      
+      <li><a href="https://example.org">Link 2</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p>
+      
+      &copy; Christian Mohn
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>

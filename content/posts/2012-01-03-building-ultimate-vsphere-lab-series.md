@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2012-01-03 12:32:29+00:00
 layout: post
-link: http://vninja.net/news/building-ultimate-vsphere-lab-series/
 slug: building-ultimate-vsphere-lab-series
 title: Building The Ultimate vSphere Lab Series
+url: /news/building-ultimate-vsphere-lab-series/
 wordpress_id: 1686
 categories:
 - News

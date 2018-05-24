@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2016-05-22 19:19:52+00:00
 layout: post
-link: http://vninja.net/virtualization/vsphere-platform-services-controller-psc-topology-and-omnigraffle/
 slug: vsphere-platform-services-controller-psc-topology-and-omnigraffle
 title: vSphere Platform Services Controller (PSC) topology and Omnigraffle
+url: /virtualization/vsphere-platform-services-controller-psc-topology-and-omnigraffle/
 wordpress_id: 4100
 categories:
 - Virtualization

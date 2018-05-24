@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2011-01-17 08:37:37+00:00
 layout: post
-link: http://vninja.net/news/hp-proliant-microserver-%e2%80%93-oh-its-there/
 slug: hp-proliant-microserver-%e2%80%93-oh-its-there
 title: HP ProLiant MicroServer – Oh, it's there!
+url: /news/hp-proliant-microserver-%e2%80%93-oh-its-there/
 wordpress_id: 785
 categories:
 - Hardware

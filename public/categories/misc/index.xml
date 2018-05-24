@@ -14,10 +14,10 @@
     
     <item>
       <title>Evaluating 2017</title>
-      <link>/posts/evaluating-2017/</link>
+      <link>/misc/evaluating-2017/</link>
       <pubDate>Mon, 18 Dec 2017 14:00:55 +0000</pubDate>
       
-      <guid>/posts/evaluating-2017/</guid>
+      <guid>/misc/evaluating-2017/</guid>
       <description>Keeping up with tradition (you thought I was going to say Kardashians there, didn&amp;rsquo;t you?), it&amp;rsquo;s time to evaluate 2017.
 My list of goals for 2017 and the verdict is as follows:
  **Get that VCAP6-DCV Design exam out of the way **Done and dusted (for 6.5 that is, not 6.0). I&amp;rsquo;ve also updated my VCP to 6.5, and I&amp;rsquo;m currently waiting for the VCAP6.5-DCV Deploy exam. *Score: 10&amp;frasl;10*
@@ -26,19 +26,19 @@ My list of goals for 2017 and the verdict is as follows:
     
     <item>
       <title>PSA: Protect Your Email with DMARC</title>
-      <link>/posts/psa-protect-your-email-with-dmarc/</link>
+      <link>/misc/psa-protect-your-email-with-dmarc/</link>
       <pubDate>Sat, 15 Apr 2017 22:00:08 +0000</pubDate>
       
-      <guid>/posts/psa-protect-your-email-with-dmarc/</guid>
+      <guid>/misc/psa-protect-your-email-with-dmarc/</guid>
       <description>In the last few months, I&amp;rsquo;ve seen an uptick in spoofed emails being sent with my own personal email domain. Not only is this extremely annoying, but more problematic is that recipients receive spam and phishing emails from what seems to be my personal mail account, simply by spoofing the from address. I don&amp;rsquo;t know why domain and email address has been &amp;ldquo;chosen&amp;rdquo; for this, but I guess this is fallout from the LinkedIn breach way back in 2012.</description>
     </item>
     
     <item>
       <title>2017 — You Better Deliver</title>
-      <link>/posts/2017-you-better-deliver/</link>
+      <link>/misc/2017-you-better-deliver/</link>
       <pubDate>Sun, 15 Jan 2017 10:04:08 +0000</pubDate>
       
-      <guid>/posts/2017-you-better-deliver/</guid>
+      <guid>/misc/2017-you-better-deliver/</guid>
       <description>Considering it&amp;rsquo;s mid-january 2017 already, it&amp;rsquo;s time to do my annual goal list for the new year.
 My goals for 2017:  Get that VCAP6-DCV Design exam out of the way — I did the beta in march 2016, but missed the mark by a small margin.
  AWS Associate Certifications — Not sure how many of the three exams I want to do yet, but I&amp;rsquo;m going to at least give the AWS Certified Solutions Architect exam a go.</description>
@@ -46,39 +46,39 @@ My goals for 2017:  Get that VCAP6-DCV Design exam out of the way — I did th
     
     <item>
       <title>Evaluating 2016</title>
-      <link>/posts/evaluating-2016/</link>
+      <link>/misc/evaluating-2016/</link>
       <pubDate>Sun, 25 Dec 2016 12:03:33 +0000</pubDate>
       
-      <guid>/posts/evaluating-2016/</guid>
+      <guid>/misc/evaluating-2016/</guid>
       <description>Back in February 2016 I published my goals for 2016, and it&amp;rsquo;s time to review that list:
  Shake things up a bit – **Go big or go home. **This one is easy, in April 2016 I moved from EVRY to Proact, with a clear mission statement: Build and develop Norways best SDDC team. As is always the case when changing positions and companies, a lot of time is spent on getting to know the new organisation but we&amp;rsquo;re getting there.</description>
     </item>
     
     <item>
       <title>Using GitBook for Secrets</title>
-      <link>/posts/using-gitbook-for-secrets/</link>
+      <link>/misc/using-gitbook-for-secrets/</link>
       <pubDate>Tue, 08 Nov 2016 23:42:49 +0000</pubDate>
       
-      <guid>/posts/using-gitbook-for-secrets/</guid>
+      <guid>/misc/using-gitbook-for-secrets/</guid>
       <description>A while ago I decided to try and gather a bunch of non-public information in an easy to write and consume fashion. After a bit of fiddling, and testing different potential solutions, GitBook emerged as the best option. By using MarkDown as the markup language, it’s both cross-platform and easy to manage, as the content is nothing but raw text files.
 GitBook is awesome, no question about it, but in this case I didn&amp;rsquo;t want the content hosted publicly on gitbook.</description>
     </item>
     
     <item>
       <title>What&#39;s Really in the Bag?</title>
-      <link>/posts/whats-really-in-the-bag/</link>
+      <link>/misc/whats-really-in-the-bag/</link>
       <pubDate>Sat, 05 Nov 2016 23:16:06 +0000</pubDate>
       
-      <guid>/posts/whats-really-in-the-bag/</guid>
+      <guid>/misc/whats-really-in-the-bag/</guid>
       <description>#vDM30in30 progress:        Since I &amp;ldquo;launched&amp;rdquo; my In the Bag series of weekly links yesterday, I figured I should really show what is indeed in the bag. Lifehacker runs a series called Featured Bag and the voyeur in me finds it interesting what other people carry around, and how they organize it.</description>
     </item>
     
     <item>
       <title>Oh wow, it&#39;s already 2016.</title>
-      <link>/posts/oh-wow-its-already-2016/</link>
+      <link>/misc/oh-wow-its-already-2016/</link>
       <pubDate>Wed, 03 Feb 2016 14:22:39 +0000</pubDate>
       
-      <guid>/posts/oh-wow-its-already-2016/</guid>
+      <guid>/misc/oh-wow-its-already-2016/</guid>
       <description>A bit late, considering it&amp;rsquo;s already February, but here it is:
 My plan for 2016.  Shake things up a bit - Go big or go home. 2016 will be a year of changes. It&amp;rsquo;s about time I shake things up a bit, and 2016 will be that year. More details on this to come later, for now I have to keep it under wraps.
  Get VCIX certified - I&amp;rsquo;ve signed up for the new 3V0-622: VMware Certified Advanced Professional 6 - Data Center Virtualization Design Beta Exam.</description>
@@ -86,30 +86,30 @@ My plan for 2016.  Shake things up a bit - Go big or go home. 2016 will be a yea
     
     <item>
       <title>2015: The verdict</title>
-      <link>/posts/2015-the-verdict/</link>
+      <link>/misc/2015-the-verdict/</link>
       <pubDate>Sat, 30 Jan 2016 22:36:22 +0000</pubDate>
       
-      <guid>/posts/2015-the-verdict/</guid>
+      <guid>/misc/2015-the-verdict/</guid>
       <description>Last year, in January, I posted 2015: Let&amp;rsquo;s DOS IT! and it&amp;rsquo;s time to do some reviewing (again, inspired by Scott Lowe).
 So, how did I do?  Master Markdown: I&amp;rsquo;m happy to say that most of the writing I&amp;rsquo;ve done in 2015 has been done in Markdown. I haven&amp;rsquo;t really moved on to really create Markdown based documentation and convert it like I intended, but still, Markdown has become second nature in 2015.</description>
     </item>
     
     <item>
       <title>Presentation Media</title>
-      <link>/posts/presentation-media/</link>
+      <link>/misc/presentation-media/</link>
       <pubDate>Sat, 24 Jan 2015 10:20:06 +0000</pubDate>
       
-      <guid>/posts/presentation-media/</guid>
+      <guid>/misc/presentation-media/</guid>
       <description>I&amp;rsquo;ve made a few photos available on my Presentation Media page. Feel free to use any and all of these images in your presentations, blog posts or wherever you may see fit.
 All images are licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)</description>
     </item>
     
     <item>
       <title>2015: Let&#39;s DOS IT!</title>
-      <link>/posts/2015-dos-it/</link>
+      <link>/misc/2015-dos-it/</link>
       <pubDate>Fri, 16 Jan 2015 23:27:49 +0000</pubDate>
       
-      <guid>/posts/2015-dos-it/</guid>
+      <guid>/misc/2015-dos-it/</guid>
       <description>Inspired by Scott Lowe&amp;rsquo;s Looking Ahead: My 2015 Projects, I&amp;rsquo;ve decided to do something similar.
 Since I didn&amp;rsquo;t post anything like this in 2014, I can&amp;rsquo;t really go back and see how my plans turned out, or provide any assessement of it. I can say this though, 2014 was pretty awesome. I got a promotion, my vExpert status was renewed, vNinja was voted in the top 50 of the 2014 top VMware &amp;amp; virtualization vote, I published a book and finally got the Norwegian VMUG up and running.</description>
     </item>

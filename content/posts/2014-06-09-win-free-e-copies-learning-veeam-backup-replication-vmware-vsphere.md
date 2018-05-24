@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2014-06-09 08:42:28+00:00
 layout: post
-link: http://vninja.net/book/win-free-e-copies-learning-veeam-backup-replication-vmware-vsphere/
 slug: win-free-e-copies-learning-veeam-backup-replication-vmware-vsphere
 title: Win Free e-copies of Learning Veeam® Backup & Replication for VMware vSphere
+url: /book/win-free-e-copies-learning-veeam-backup-replication-vmware-vsphere/
 wordpress_id: 3174
 categories:
 - Book

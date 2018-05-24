@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2014-06-10 12:59:54+00:00
 layout: post
-link: http://vninja.net/vmware-2/marvin-acronym/
 slug: marvin-acronym
 title: Is Marvin an Acronym?
+url: /vmware-2/marvin-acronym/
 wordpress_id: 3223
 categories:
 - VMware

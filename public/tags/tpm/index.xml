@@ -14,10 +14,10 @@
     
     <item>
       <title>Creating and Using a Virtual Floppy in vSphere</title>
-      <link>/posts/creating-virtual-floppy-vsphere/</link>
+      <link>/virtualization/creating-virtual-floppy-vsphere/</link>
       <pubDate>Sat, 07 Jan 2012 22:44:33 +0000</pubDate>
       
-      <guid>/posts/creating-virtual-floppy-vsphere/</guid>
+      <guid>/virtualization/creating-virtual-floppy-vsphere/</guid>
       <description>My new colleague Olav Tvedt asked me if I could test his method of enabling Bitlocker in a VM, on VMware vSphere. Of course, I was happy to oblige.
 I followed the same steps as he did in his Running Bitlocker on a Virtual computer post, and it worked perfectly.
 The only real difference between doing this in Hyper-V and on ESXi, is that the virtual floppy drive on ESXi by default doesn&amp;rsquo;t emulate an empty floppy.</description>

@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2012-05-31 11:45:52+00:00
 layout: post
-link: http://vninja.net/vmware-2/thinapped-vsphere-client-updated-v5-0/
 slug: thinapped-vsphere-client-updated-v5-0
 title: Thinapped vSphere Client Updated to V5.0
+url: /vmware-2/thinapped-vsphere-client-updated-v5-0/
 wordpress_id: 1883
 categories:
 - VMware

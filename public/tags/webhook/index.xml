@@ -14,10 +14,10 @@
     
     <item>
       <title>HomeLabOps via Slack</title>
-      <link>/posts/homelabops-via-slack/</link>
+      <link>/homelab/homelabops-via-slack/</link>
       <pubDate>Thu, 06 Oct 2016 10:52:09 +0000</pubDate>
       
-      <guid>/posts/homelabops-via-slack/</guid>
+      <guid>/homelab/homelabops-via-slack/</guid>
       <description>Just like Lior Kamrat I&amp;rsquo;ve set up my own private Slack for messaging and alerting from various services running both in my lab and some external facing services. It&amp;rsquo;s only been running a few days, but so far it works brilliantly and helps me keep track.
 So far, I&amp;rsquo;ve set up Slack alerting and/or integrations for the following items:
  StatusCake monitoring for vNinja.net and other public facing web services</description>

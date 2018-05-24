@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2014-03-10 19:43:13+00:00
 layout: post
-link: http://vninja.net/vmware-2/fun-games-until/
 slug: fun-games-until
 title: It's All Fun and Games Until...
+url: /vmware-2/fun-games-until/
 wordpress_id: 3112
 categories:
 - VMware

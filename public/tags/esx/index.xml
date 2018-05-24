@@ -14,10 +14,10 @@
     
     <item>
       <title>vSphere 5: Creating a Hardware Version 4 VM</title>
-      <link>/posts/vsphere-5-creating-hardware-version-4-vm/</link>
+      <link>/virtualization/vsphere-5-creating-hardware-version-4-vm/</link>
       <pubDate>Mon, 02 Jul 2012 19:50:03 +0000</pubDate>
       
-      <guid>/posts/vsphere-5-creating-hardware-version-4-vm/</guid>
+      <guid>/virtualization/vsphere-5-creating-hardware-version-4-vm/</guid>
       <description>I recently had a need to create a VM for usage on ESX 3.x, but the only thing available to me in my lab was vSphere 5, which naturally creates new VMs with the latest and greatest version 8 virtual hardware.
 The following table lists the virtual hardware versions and the corresponding ESX and ESXi releases: Version 
 Virtual Hardware Version   ESXi 5.x 
@@ -26,39 +26,39 @@ Virtual Hardware Version   ESXi 5.x
     
     <item>
       <title>vCenter Update Manager - A Feature Request</title>
-      <link>/posts/vcenter-update-manager-a-feature-request/</link>
+      <link>/virtualization/vcenter-update-manager-a-feature-request/</link>
       <pubDate>Fri, 22 Apr 2011 21:07:35 +0000</pubDate>
       
-      <guid>/posts/vcenter-update-manager-a-feature-request/</guid>
+      <guid>/virtualization/vcenter-update-manager-a-feature-request/</guid>
       <description>Way back in August 24 2010 I wrote a post called vCenter Update Manager to lose it’s fat. I&amp;rsquo;m still very happy that VMware has decided to drop OS patching from the product, and I still mean that can only be a good thing. In fact, that article prompted Beth Pariseau Senior News Writer for searchservervirtualization.techtarget.com to call me when researching her VMware users eye changes to Update Manager article.</description>
     </item>
     
     <item>
       <title>Using rsync to Distribute Patches to a Remote vMA </title>
-      <link>/posts/using-rsync-to-distribute-patches-to-remote-a-vma/</link>
+      <link>/virtualization/using-rsync-to-distribute-patches-to-remote-a-vma/</link>
       <pubDate>Tue, 08 Mar 2011 08:00:02 +0000</pubDate>
       
-      <guid>/posts/using-rsync-to-distribute-patches-to-remote-a-vma/</guid>
+      <guid>/virtualization/using-rsync-to-distribute-patches-to-remote-a-vma/</guid>
       <description>I recently posted Using vMA as a local vSphere Patch Repository, where I outlined how you can use your vMA instances as local file repositories for updates.
 This post is a continuation of that concept, but this time I&amp;rsquo;ll take it a step further and utilize rsync to make sure my vMA instances all contain the same set of patches. Rsync is great for this, as it handles fast incremental file transfers, which is a real time and bandwidth saver in my particular scenario.</description>
     </item>
     
     <item>
       <title>Using vMA as a local vSphere Patch Repository</title>
-      <link>/posts/using-vma-as-a-local-vsphere-patch-repository/</link>
+      <link>/virtualization/using-vma-as-a-local-vsphere-patch-repository/</link>
       <pubDate>Mon, 07 Mar 2011 22:43:33 +0000</pubDate>
       
-      <guid>/posts/using-vma-as-a-local-vsphere-patch-repository/</guid>
+      <guid>/virtualization/using-vma-as-a-local-vsphere-patch-repository/</guid>
       <description>I like using http as the transport protocol when patching my vSphere hosts. It&amp;rsquo;s easy to use and in most cases immediately available over most networks. Since I want to use http as the transport, we need to make vMA work as a http server.
 Starting Apache inside vMA Luckily, the Apache http daemon is installed, by default, in vMA and to utilize it all you have to do is to start it!</description>
     </item>
     
     <item>
       <title>Installing vSphere Management Assistant (vMA)</title>
-      <link>/posts/installing-vsphere-management-assistant-vma/</link>
+      <link>/virtualization/installing-vsphere-management-assistant-vma/</link>
       <pubDate>Mon, 28 Feb 2011 23:26:15 +0000</pubDate>
       
-      <guid>/posts/installing-vsphere-management-assistant-vma/</guid>
+      <guid>/virtualization/installing-vsphere-management-assistant-vma/</guid>
       <description>The vMA is a Virtual Appliance that you can download from VMware. It&amp;rsquo;s primary function is to enable command line based management of your ESX/ESXi systems.
 Basically this is a pre-packaged virtual machine that includes vCLI and the vSphere SDK for Perl, which means that you don&amp;rsquo;t have to build your own management VM or install these tools locally on a management station.
 vMA is in many regards seen as a replacement for the ESX Service Console which no longer is present in ESXi.</description>
@@ -66,20 +66,20 @@ vMA is in many regards seen as a replacement for the ESX Service Console which n
     
     <item>
       <title>VMware vSphere Lab: Virtual Edition – Part 5</title>
-      <link>/posts/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-5/</link>
+      <link>/virtualization/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-5/</link>
       <pubDate>Wed, 20 Oct 2010 13:31:51 +0000</pubDate>
       
-      <guid>/posts/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-5/</guid>
+      <guid>/virtualization/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-5/</guid>
       <description>This is the fifth post in a series outlining how to set up your own little virtualized Virtual vSphere Lab, if you missed part one, part two, part three, or part four, be sure to check them out first!
 Ideally we would now install Microsoft Active Directory Domain Services (AD DS) on the Windows Server 2008 R2 VM we created in part four, but since VMware vCenter Server 4.1 also installs AD LDS (previously known as Active Directory Application Mode (ADAM)) it can not be installed on a AD Domain Controller.</description>
     </item>
     
     <item>
       <title>Using USB Pass-through in vSphere 4.1</title>
-      <link>/posts/using-usb-pass-through-in-vsphere-4-1/</link>
+      <link>/virtualization/using-usb-pass-through-in-vsphere-4-1/</link>
       <pubDate>Thu, 22 Jul 2010 23:03:27 +0000</pubDate>
       
-      <guid>/posts/using-usb-pass-through-in-vsphere-4-1/</guid>
+      <guid>/virtualization/using-usb-pass-through-in-vsphere-4-1/</guid>
       <description>Finally USB pass-through is possible on ESX hosts with the new vSphere 4.1 release! This feature ha been available in VMware Workstation/Fusion and Player for quite a while. The freshly added feature in vSphere 4.1 even works if you vMotion the guest from one host to another, which is in itself pretty amazing functionality!
 In this post, I&amp;rsquo;ll show how to setup and use the new USB pass-through feature in vSphere 4.</description>
     </item>

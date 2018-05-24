@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="VMware ESXi 4 vs ESXi 5 Log File Locations" />
+<meta property="og:description" content="This post is inspired by a tweet from Andrew Storrs, where he pinpoints that the host log file locations have changed between ESXi 4 and ESXi 5.
+Note: This post has been updated with new log files for ESXi 5.1
+ESXi 4 Log File Locations: [table id=6 /]
+ESXi 5 Log File Locations: [table id=5 /]
+Between version 5.0 and 5.1 the log file locations have not changed, but a couple of new logs have been added." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/virtualization/vmware-esxi-4-vs-esxi-5-log-file-locations/" />
+
+
+
+<meta property="article:published_time" content="2012-09-17T21:24:18&#43;00:00"/>
+
+<meta property="article:modified_time" content="2012-09-17T21:24:18&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="VMware ESXi 4 vs ESXi 5 Log File Locations"/>
+<meta name="twitter:description" content="This post is inspired by a tweet from Andrew Storrs, where he pinpoints that the host log file locations have changed between ESXi 4 and ESXi 5.
+Note: This post has been updated with new log files for ESXi 5.1
+ESXi 4 Log File Locations: [table id=6 /]
+ESXi 5 Log File Locations: [table id=5 /]
+Between version 5.0 and 5.1 the log file locations have not changed, but a couple of new logs have been added."/>
+<meta name="generator" content="Hugo 0.40.3" />
+
+
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "VMware ESXi 4 vs ESXi 5 Log File Locations",
+  "url": "/virtualization/vmware-esxi-4-vs-esxi-5-log-file-locations/",
+  "wordCount": "239",
+  "datePublished": "2012-09-17T21:24:18&#43;00:00",
+  "dateModified": "2012-09-17T21:24:18&#43;00:00",
+  "author": {
+    "@type": "Person",
+    "name": "cmohn"
+  },
+  "keywords": "Virtualization, VMware, ESXi, ESXi 4, ESXi 5, Log Files, Ops, vSphere"
+}
+</script>
+
+
+
+    <link rel="canonical" href="/virtualization/vmware-esxi-4-vs-esxi-5-log-file-locations/">
+
+    <title>VMware ESXi 4 vs ESXi 5 Log File Locations | Adventures in Hugo</title>
+
+    <!-- combined, minified CSS -->
+    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
+
+    
+
+    
+
+    
+
+    
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="/">Home</a>
+          
+          <a class="nav-link" href="https://example.org" title="">Link 1</a>
+          
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
+        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+      </div>
+    </header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/virtualization/vmware-esxi-4-vs-esxi-5-log-file-locations/">VMware ESXi 4 vs ESXi 5 Log File Locations</a></h2>
+    <p class="blog-post-meta"><time datetime="2012-09-17T21:24:18Z">Mon Sep 17, 2012</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>, <a href="/categories/vmware" rel="category tag">VMware</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/esxi" rel="tag">ESXi</a>, <a href="/tags/esxi-4" rel="tag">ESXi 4</a>, <a href="/tags/esxi-5" rel="tag">ESXi 5</a>, <a href="/tags/log-files" rel="tag">Log Files</a>, <a href="/tags/ops" rel="tag">Ops</a>, <a href="/tags/vmware" rel="tag">VMware</a>, <a href="/tags/vsphere" rel="tag">vSphere</a>
+
+</p>
+  </header>
+  
+
+<p>This post is inspired by a <a href="http://twitter.com/#!/astorrs/status/113710978868326400">tweet</a> from <a href="http://twitter.com/astorrs">Andrew Storrs</a>, where he pinpoints that the host log file locations have changed between ESXi 4 and ESXi 5.</p>
+
+<p><strong>Note: This post has been updated with new log files for ESXi 5.1</strong></p>
+
+<h3 id="esxi-4-log-file-locations">ESXi 4 Log File Locations:</h3>
+
+<p>[table id=6 /]</p>
+
+<h3 id="esxi-5-log-file-locations">ESXi 5 Log File Locations:</h3>
+
+<p>[table id=5 /]</p>
+
+<p>Between version 5.0 and 5.1 the log file locations have not changed, but a couple of new logs have been added.</p>
+
+<h3 id="esxi-5-1-new-log-file-locations">ESXi 5.1 New Log File Locations:</h3>
+
+<p>[table id=10 /]</p>
+
+<p>Clearly the number of host log file has increased in newer versions, and that should make it much easier to find the log entries you are looking for. A more granular logging into different specialized log files can only be a good thing.</p>
+
+<h3 id="logs-from-vcenter-server-components-on-esxi-5-1">Logs from vCenter Server Components on ESXi 5.1:</h3>
+
+<p>[table id=11 /]</p>
+
+<p><del>Just remember that ESXi only logs to memory, and that you need to set logging to a syslog server to preserve logs between reboots.</del> If ESXi 5 is installed on local disk, the log files will be <a href="http://vninja.net/virtualization/vmware-esxi-4-vs-esxi-5-log-file-locations/#comment-3971">persistent through reboots</a>, since it creates a zipped archive in <strong>/var/run/log</strong>. If ESXi is deployed via Auto Deploy, no local disk is used and <a href="http://vninja.net/virtualization/vmware-esxi-4-vs-esxi-5-log-file-locations/#comment-3973">the log files are not persistent</a>, and needs to be collected by an external syslog service.</p>
+
+<p>For more details about various VMware products and their log file locations, check <a href="http://kb.vmware.com/selfservice/search.do?cmd=displayKC&amp;docType=kc&amp;docTypeID=DT_KB_1_1&amp;externalId=1021806">VMware Knowledgebase article 1021806</a> and <a href="http://kb.vmware.com/selfservice/microsites/search.do?language=en_US&amp;cmd=displayKC&amp;externalId=2032076">VMware Knowledgebase article 2032076</a></p>
+
+
+  
+
+  
+  <hr>
+  <footer>
+
+  
+    <section>
+    <h4>Share</h4>
+    <nav class="nav sharing-icons">
+      <a class="nav-item" href="https://www.facebook.com/sharer/sharer.php?u=%2fvirtualization%2fvmware-esxi-4-vs-esxi-5-log-file-locations%2f" title="Share on Facebook"><span class="fa fa-facebook fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://plus.google.com/share?url=%2fvirtualization%2fvmware-esxi-4-vs-esxi-5-log-file-locations%2f" title="Share on Google+"><span class="fa fa-google-plus fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fvirtualization%2fvmware-esxi-4-vs-esxi-5-log-file-locations%2f" title="Share on LinkedIn"><span class="fa fa-linkedin fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://twitter.com/home?status=%2fvirtualization%2fvmware-esxi-4-vs-esxi-5-log-file-locations%2f" title="Tweet this"><span class="fa fa-twitter fa-2x"></span></a>
+    </nav>
+  </section>
+
+  
+
+  
+  </footer>
+  
+
+</article> 
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="https://example.com">Link 1</a></li>
+      
+      <li><a href="https://example.org">Link 2</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p>
+      
+      &copy; Christian Mohn
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>

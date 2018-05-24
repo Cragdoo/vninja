@@ -14,10 +14,10 @@
     
     <item>
       <title>VSAN - The Unspoken Future</title>
-      <link>/posts/vsan-unspoken-future/</link>
+      <link>/virtualization/vsan-unspoken-future/</link>
       <pubDate>Mon, 17 Mar 2014 22:41:34 +0000</pubDate>
       
-      <guid>/posts/vsan-unspoken-future/</guid>
+      <guid>/virtualization/vsan-unspoken-future/</guid>
       <description>This rather tongue-in-cheek title, is a play on Maish recent VSAN - The Unspoken Truth post where he highlights what he thinks is one of the hidden &amp;ldquo;problems&amp;rdquo; with the current version of VSAN is it&amp;rsquo;s inherent non-blade compatibility and current lack of &amp;ldquo;rack based VSAN ready nodes&amp;rdquo;.
 Of course, this is a reality; If you base your current infrastructure on blade servers, VSAN probably isn&amp;rsquo;t a good match as it stands today.</description>
     </item>

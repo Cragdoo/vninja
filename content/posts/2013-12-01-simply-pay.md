@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2013-12-01 10:35:24+00:00
 layout: post
-link: http://vninja.net/virtualization/simply-pay/
 slug: simply-pay
 title: Sometimes You Simply Get What You Pay For
+url: /virtualization/simply-pay/
 wordpress_id: 2883
 categories:
 - Virtualization

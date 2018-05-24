@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2015-03-13 11:34:21+00:00
 layout: post
-link: http://vninja.net/virtualization/vmware-software-manager-changing-download-directory/
 slug: vmware-software-manager-changing-download-directory
 title: VMware Software Manager - Changing Download Directory
+url: /virtualization/vmware-software-manager-changing-download-directory/
 wordpress_id: 3658
 categories:
 - Virtualization

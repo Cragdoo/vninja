@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2014-08-25 13:30:58+00:00
 layout: post
-link: http://vninja.net/vmware-2/official-evorail/
 slug: official-evorail
 title: It's official EVO:RAIL it is
+url: /vmware-2/official-evorail/
 wordpress_id: 3356
 categories:
 - VMware

@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2011-11-05 09:55:30+00:00
 layout: post
-link: http://vninja.net/virtualization/vmtn-subscription/
 slug: vmtn-subscription
 title: VMTN Subscription
+url: /virtualization/vmtn-subscription/
 wordpress_id: 1609
 categories:
 - Virtualization

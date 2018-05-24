@@ -14,10 +14,10 @@
     
     <item>
       <title>Using rsync to Distribute Patches to a Remote vMA </title>
-      <link>/posts/using-rsync-to-distribute-patches-to-remote-a-vma/</link>
+      <link>/virtualization/using-rsync-to-distribute-patches-to-remote-a-vma/</link>
       <pubDate>Tue, 08 Mar 2011 08:00:02 +0000</pubDate>
       
-      <guid>/posts/using-rsync-to-distribute-patches-to-remote-a-vma/</guid>
+      <guid>/virtualization/using-rsync-to-distribute-patches-to-remote-a-vma/</guid>
       <description>I recently posted Using vMA as a local vSphere Patch Repository, where I outlined how you can use your vMA instances as local file repositories for updates.
 This post is a continuation of that concept, but this time I&amp;rsquo;ll take it a step further and utilize rsync to make sure my vMA instances all contain the same set of patches. Rsync is great for this, as it handles fast incremental file transfers, which is a real time and bandwidth saver in my particular scenario.</description>
     </item>

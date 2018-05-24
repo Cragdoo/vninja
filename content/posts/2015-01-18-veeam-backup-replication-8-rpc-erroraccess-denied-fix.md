@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2015-01-18 22:57:34+00:00
 layout: post
-link: http://vninja.net/virtualization/veeam-backup-replication-8-rpc-erroraccess-denied-fix/
 slug: veeam-backup-replication-8-rpc-erroraccess-denied-fix
 title: 'Veeam Backup & Replication 8: RPC error:Access is denied Fix'
+url: /virtualization/veeam-backup-replication-8-rpc-erroraccess-denied-fix/
 wordpress_id: 3497
 categories:
 - Virtualization

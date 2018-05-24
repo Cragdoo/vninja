@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2013-02-19 23:50:20+00:00
 layout: post
-link: http://vninja.net/vmware-2/unsupported-network-configurations-virtual-appliances/
 slug: unsupported-network-configurations-virtual-appliances
 title: Unsupported Network Configurations in Virtual Appliances
+url: /vmware-2/unsupported-network-configurations-virtual-appliances/
 wordpress_id: 2378
 categories:
 - VMware

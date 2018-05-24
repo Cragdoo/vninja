@@ -91,7 +91,7 @@
 
 <article class="blog-post">
   <header>
-    <h2 class="blog-post-title"><a href="/posts/vmware-vsphere-6-5-psod-gp-exception-13/">VMware vSphere 6.5 PSOD: GP Exception 13</a></h2>
+    <h2 class="blog-post-title"><a href="/vmware-2/vmware-vsphere-6-5-psod-gp-exception-13/">VMware vSphere 6.5 PSOD: GP Exception 13</a></h2>
     <p class="blog-post-meta"><time datetime="2017-02-25T08:50:26Z">Sat Feb 25, 2017</time> by cmohn in 
 <i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/vmware" rel="category tag">VMware</a>
 
@@ -102,7 +102,7 @@
   </header>
   While at a customer site, migrating an old vSphere 5.5 environment to 6.5, several hosts suddenly crashed with a PSOD during the migration. Long story short, we got hit by this: VMware KB 2147958: _ESXi 6.5 host fails with PSOD: GP Exception 13 in multiple VMM world at VmAnonAllocVmmPages (2147958)
 It turned out that a bunch of the VMs we were vMotioning from the old environment had the cpuid.corePerSocket advanced setting set in the .
-  <a href='/posts/vmware-vsphere-6-5-psod-gp-exception-13/'>Read more →</a>
+  <a href='/vmware-2/vmware-vsphere-6-5-psod-gp-exception-13/'>Read more →</a>
 </article> 
 
 
@@ -112,7 +112,7 @@ It turned out that a bunch of the VMs we were vMotioning from the old environmen
 
 <article class="blog-post">
   <header>
-    <h2 class="blog-post-title"><a href="/posts/esxi-snapshot-problems-msg-snapshot-error-quiescingerror/">ESXi Snapshot Problems: msg.snapshot.error-QUIESCINGERROR</a></h2>
+    <h2 class="blog-post-title"><a href="/vmware-2/esxi-snapshot-problems-msg-snapshot-error-quiescingerror/">ESXi Snapshot Problems: msg.snapshot.error-QUIESCINGERROR</a></h2>
     <p class="blog-post-meta"><time datetime="2017-02-01T13:18:04Z">Wed Feb 01, 2017</time> by cmohn in 
 <i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/vmware" rel="category tag">VMware</a>
 
@@ -125,7 +125,7 @@ It turned out that a bunch of the VMs we were vMotioning from the old environmen
 Just a quick post about something I experienced at a client, with ESXi 6.0 hosts, today:
 If you have trouble performing VMware snapshots, and see a msg.snapshot.error-QUIESCINGERROR error, check the host time settings and NTP.
 In this case, snapshots of VMs located on other hosts in the cluster were fine, but once a VM was moved to the new host, snapshot operations failed after an hour or so.
-  <a href='/posts/esxi-snapshot-problems-msg-snapshot-error-quiescingerror/'>Read more →</a>
+  <a href='/vmware-2/esxi-snapshot-problems-msg-snapshot-error-quiescingerror/'>Read more →</a>
 </article> 
 
 
@@ -135,7 +135,7 @@ In this case, snapshots of VMs located on other hosts in the cluster were fine, 
 
 <article class="blog-post">
   <header>
-    <h2 class="blog-post-title"><a href="/posts/vcenter-sso-unable-to-retrieve-ad-information-error-while-extracting-local-sso-users/">vCenter / SSO unable to retrieve AD-information | Error while extracting local SSO users</a></h2>
+    <h2 class="blog-post-title"><a href="/virtualization/vcenter-sso-unable-to-retrieve-ad-information-error-while-extracting-local-sso-users/">vCenter / SSO unable to retrieve AD-information | Error while extracting local SSO users</a></h2>
     <p class="blog-post-meta"><time datetime="2015-11-10T19:30:20Z">Tue Nov 10, 2015</time> by esod in 
 <i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
 
@@ -148,7 +148,7 @@ In this case, snapshots of VMs located on other hosts in the cluster were fine, 
 After some serious head scratching, it dawned on me after checking the DNS records for the DC in the domain, from the vCenter Appliance itself:
 [cc lang=&ldquo;bash&rdquo; width=&ldquo;100%&rdquo; theme=&ldquo;blackboard&rdquo; nowrap=&ldquo;0&rdquo;] dig +noall +answer +search dc1.esod.local dc1.esod.local. 3600 IN A 10.0.1.201 [/cc]
 So far so good, the DNS lookup works as expected.
-  <a href='/posts/vcenter-sso-unable-to-retrieve-ad-information-error-while-extracting-local-sso-users/'>Read more →</a>
+  <a href='/virtualization/vcenter-sso-unable-to-retrieve-ad-information-error-while-extracting-local-sso-users/'>Read more →</a>
 </article> 
 
 
@@ -158,7 +158,7 @@ So far so good, the DNS lookup works as expected.
 
 <article class="blog-post">
   <header>
-    <h2 class="blog-post-title"><a href="/posts/vmware-update-manager-unsupported-configuration/">VMware Update Manager: Unsupported Configuration</a></h2>
+    <h2 class="blog-post-title"><a href="/vmware-2/vmware-update-manager-unsupported-configuration/">VMware Update Manager: Unsupported Configuration</a></h2>
     <p class="blog-post-meta"><time datetime="2015-08-28T10:46:24Z">Fri Aug 28, 2015</time> by cmohn in 
 <i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/vmware" rel="category tag">VMware</a>
 
@@ -169,7 +169,7 @@ So far so good, the DNS lookup works as expected.
   </header>
   During an upgrade from vSphere 5.1 to 5.5, I ran into a rather strange issue when trying to utilize VMware Update Manager to perform the ESXi upgrade.
 During scanning, VUM reported the ESXi host as &ldquo;Incompatible&rdquo;, without offering any other explanation. I spent ages looking through VUM logs, trying to find the culprit, suspecting it was an incompatible VIB. Without finding anything that gave me any indication on what the problem might be, I moved on to looking at the ESXi image I had imported into VUM.
-  <a href='/posts/vmware-update-manager-unsupported-configuration/'>Read more →</a>
+  <a href='/vmware-2/vmware-update-manager-unsupported-configuration/'>Read more →</a>
 </article> 
 
 
@@ -179,7 +179,7 @@ During scanning, VUM reported the ESXi host as &ldquo;Incompatible&rdquo;, witho
 
 <article class="blog-post">
   <header>
-    <h2 class="blog-post-title"><a href="/posts/update-esxi-embedded-host-client-fling/">Update ESXi Embedded Host Client Fling</a></h2>
+    <h2 class="blog-post-title"><a href="/vmware-2/update-esxi-embedded-host-client-fling/">Update ESXi Embedded Host Client Fling</a></h2>
     <p class="blog-post-meta"><time datetime="2015-08-26T16:45:10Z">Wed Aug 26, 2015</time> by cmohn in 
 <i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/vmware" rel="category tag">VMware</a>
 
@@ -190,7 +190,7 @@ During scanning, VUM reported the ESXi host as &ldquo;Incompatible&rdquo;, witho
   </header>
   The ESXi Embedded Host Client Fling got an upgrade today, and in addition to new features it now works properly on ESXi 5.5. In addition to this, it&rsquo;s also available as an offline bundle so you can distribute it with Update Manager.
 Since I&rsquo;ve spent most of my day in esxcli, here is a quick post on how to perform the upgrade from a local http repository hosting the .
-  <a href='/posts/update-esxi-embedded-host-client-fling/'>Read more →</a>
+  <a href='/vmware-2/update-esxi-embedded-host-client-fling/'>Read more →</a>
 </article> 
 
 

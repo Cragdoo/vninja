@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2011-04-22 21:07:35+00:00
 layout: post
-link: http://vninja.net/virtualization/vcenter-update-manager-a-feature-request/
 slug: vcenter-update-manager-a-feature-request
 title: vCenter Update Manager - A Feature Request
+url: /virtualization/vcenter-update-manager-a-feature-request/
 wordpress_id: 1079
 categories:
 - Virtualization

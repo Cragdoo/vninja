@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2014-09-05 18:38:58+00:00
 layout: post
-link: http://vninja.net/rant/vmworld-over-what/
 slug: vmworld-over-what
 title: VMworld US is over. Now what?
+url: /rant/vmworld-over-what/
 wordpress_id: 3367
 categories:
 - Rant

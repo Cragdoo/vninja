@@ -14,20 +14,20 @@
     
     <item>
       <title>Me too: VMware Cloud™ on AWS</title>
-      <link>/posts/me-too-vmware-cloud-on-aws/</link>
+      <link>/news/me-too-vmware-cloud-on-aws/</link>
       <pubDate>Fri, 14 Oct 2016 18:57:20 +0000</pubDate>
       
-      <guid>/posts/me-too-vmware-cloud-on-aws/</guid>
+      <guid>/news/me-too-vmware-cloud-on-aws/</guid>
       <description>After yesterdays announcement of VMware Cloud™ on AWS everyone and their distant relatives have published their opinion pieces on the relevance of the deal, and what who got the short end of the stick in this deal. I guess this is my attempt, or me too post if you will.
 First off, the best source for actual facts and not conjecture, besides the press releases and actual announcement, is Frank Denneman&amp;rsquo;s VMware Cloud™ on AWS – A Closer Look post (and by the way, it just_ feels right_ that Frank is back at VMware).</description>
     </item>
     
     <item>
       <title>What if it&#39;s Just Some Crazy Guy in a Clown Suit?</title>
-      <link>/posts/what-if-its-just-some-crazy-guy-in-a-clown-suit/</link>
+      <link>/news/what-if-its-just-some-crazy-guy-in-a-clown-suit/</link>
       <pubDate>Tue, 08 Sep 2015 21:51:44 +0000</pubDate>
       
-      <guid>/posts/what-if-its-just-some-crazy-guy-in-a-clown-suit/</guid>
+      <guid>/news/what-if-its-just-some-crazy-guy-in-a-clown-suit/</guid>
       <description>As a few of you have noticed, I recently changed my title on LinkedIn from Chief Consultant to Cloud Architect in the newly formed EVRY Cloud Consulting division, but what does that mean and perhaps more importantly, why?
 The closest description I have found to describe what my new role is this:
  Leads in the development of the technical solution or offering, in translating the business needs into technical requirements.</description>
@@ -35,10 +35,10 @@ The closest description I have found to describe what my new role is this:
     
     <item>
       <title>Autolab goes Cloudy with a Chance of Free Credits </title>
-      <link>/posts/autolab-meets-cloud/</link>
+      <link>/virtualization/autolab-meets-cloud/</link>
       <pubDate>Thu, 14 Mar 2013 00:02:35 +0000</pubDate>
       
-      <guid>/posts/autolab-meets-cloud/</guid>
+      <guid>/virtualization/autolab-meets-cloud/</guid>
       <description>Autolab, that awesome &amp;ldquo;little&amp;rdquo; thing that automagically builds a nested vSphere Lab environment for you, was definitely not put together by Flint Lockwood but by Alastair Cooke (www.demitasse.co.nz). Unlike Flint´s inventions, this one actually makes sense and serves a purpose!
 Now, how sweet would it be to deploy Autolab without having to invest time, money and effort into acquiring your own hardware?
 Well, thanks to baremetalcloud.com, you might now actually be able to do just that (and more, if you wish).</description>
@@ -46,10 +46,10 @@ Well, thanks to baremetalcloud.com, you might now actually be able to do just th
     
     <item>
       <title>VMware launches Public vCloud &#34;Test-Drive&#34;</title>
-      <link>/posts/vmware-launches-public-vcloud-test-driv/</link>
+      <link>/news/vmware-launches-public-vcloud-test-driv/</link>
       <pubDate>Thu, 16 Aug 2012 21:17:12 +0000</pubDate>
       
-      <guid>/posts/vmware-launches-public-vcloud-test-driv/</guid>
+      <guid>/news/vmware-launches-public-vcloud-test-driv/</guid>
       <description>VMware Offers vCloud “Test-Drive” with New Evaluation Service.
 This announcement doesn´t seem to be &amp;ldquo;Project Zephyr&amp;rdquo; which, if the rumors are true, is VMware´s own fully fledged IaaS service.
 This Public vCloud “Test-Drive” service, which VMware themselves describe as “white-label” from a vCloud service provider, seems like a way for VMware to provide cheap test-drive access, to vCloud through their existing service providers.

@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2015-02-18 10:31:53+00:00
 layout: post
-link: http://vninja.net/workflow/changelog/
 slug: changelog
 title: Do you ChangeLog?
+url: /workflow/changelog/
 wordpress_id: 3598
 categories:
 - Workflow

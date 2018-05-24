@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2015-09-08 21:51:44+00:00
 layout: post
-link: http://vninja.net/news/what-if-its-just-some-crazy-guy-in-a-clown-suit/
 slug: what-if-its-just-some-crazy-guy-in-a-clown-suit
 title: What if it's Just Some Crazy Guy in a Clown Suit?
+url: /news/what-if-its-just-some-crazy-guy-in-a-clown-suit/
 wordpress_id: 3778
 categories:
 - News

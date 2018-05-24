@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2014-08-21 22:21:59+00:00
 layout: post
-link: http://vninja.net/storage-2/problems-connecting-hp-insight-control-storage-module-storeserv-7200-3par/
 slug: problems-connecting-hp-insight-control-storage-module-storeserv-7200-3par
 title: Problems connecting HP Insight Control Storage Module to StoreServ 7200 (3Par)
+url: /storage-2/problems-connecting-hp-insight-control-storage-module-storeserv-7200-3par/
 wordpress_id: 3336
 categories:
 - Storage

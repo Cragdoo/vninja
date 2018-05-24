@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2017-12-13 15:07:40+00:00
 layout: post
-link: http://vninja.net/news/nordic-vmug-conference-2018/
 slug: nordic-vmug-conference-2018
 title: Nordic VMUG Conference 2018
+url: /news/nordic-vmug-conference-2018/
 wordpress_id: 4909
 categories:
 - News

@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2012-10-29 21:48:08+00:00
 layout: post
-link: http://vninja.net/vmware-2/hp-bl460c-g8-lose-its-datastore/
 slug: hp-bl460c-g8-lose-its-datastore
 title: Why Did the HP BL460c G8 Lose It's Datastore?
+url: /vmware-2/hp-bl460c-g8-lose-its-datastore/
 wordpress_id: 2166
 categories:
 - VMware

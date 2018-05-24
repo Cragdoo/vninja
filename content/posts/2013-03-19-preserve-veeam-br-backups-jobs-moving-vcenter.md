@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2013-03-19 21:13:20+00:00
 layout: post
-link: http://vninja.net/virtualization/preserve-veeam-br-backups-jobs-moving-vcenter/
 slug: preserve-veeam-br-backups-jobs-moving-vcenter
 title: Preserve your Veeam B&R Backups Jobs when Moving vCenter
+url: /virtualization/preserve-veeam-br-backups-jobs-moving-vcenter/
 wordpress_id: 2448
 categories:
 - Virtualization

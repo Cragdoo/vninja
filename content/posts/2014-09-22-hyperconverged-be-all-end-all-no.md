@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2014-09-22 21:48:40+00:00
 layout: post
-link: http://vninja.net/rant/hyperconverged-be-all-end-all-no/
 slug: hyperconverged-be-all-end-all-no
 title: Is Hyperconverged the be-all, end-all? No.
+url: /rant/hyperconverged-be-all-end-all-no/
 wordpress_id: 3404
 categories:
 - Rant

@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2016-11-23 13:57:56+00:00
 layout: post
-link: http://vninja.net/virtualization/vmware-vsan-2016-edition/
 slug: vmware-vsan-2016-edition
 title: 'VMware vSAN: 2016 Edition'
+url: /virtualization/vmware-vsan-2016-edition/
 wordpress_id: 4408
 categories:
 - Virtualization

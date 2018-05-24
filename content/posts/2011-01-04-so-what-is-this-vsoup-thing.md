@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2011-01-04 15:45:09+00:00
 layout: post
-link: http://vninja.net/news/so-what-is-this-vsoup-thing/
 slug: so-what-is-this-vsoup-thing
 title: So, what is this vSoup thing?
+url: /news/so-what-is-this-vsoup-thing/
 wordpress_id: 746
 categories:
 - News

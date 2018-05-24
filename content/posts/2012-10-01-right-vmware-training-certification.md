@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2012-10-01 21:28:24+00:00
 layout: post
-link: http://vninja.net/vmware-2/right-vmware-training-certification/
 slug: right-vmware-training-certification
 title: 'Getting It Right: VMware Training and Certification'
+url: /vmware-2/right-vmware-training-certification/
 wordpress_id: 2140
 categories:
 - VMware

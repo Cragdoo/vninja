@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2012-10-05 21:43:15+00:00
 layout: post
-link: http://vninja.net/vmware-2/vshield-endpoint-entitlement-vsphere-5-1/
 slug: vshield-endpoint-entitlement-vsphere-5-1
 title: vShield Endpoint Entitlement, not just for vSphere 5.1
+url: /vmware-2/vshield-endpoint-entitlement-vsphere-5-1/
 wordpress_id: 2149
 categories:
 - VMware

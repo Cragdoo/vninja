@@ -14,20 +14,20 @@
     
     <item>
       <title>VMware vSAN 6.6 - What&#39;s New for Day 2 Operations?</title>
-      <link>/posts/vmware-vsan-6-6-whats-new-for-day-2-operations/</link>
+      <link>/virtualization/vmware-vsan-6-6-whats-new-for-day-2-operations/</link>
       <pubDate>Tue, 11 Apr 2017 16:08:30 +0000</pubDate>
       
-      <guid>/posts/vmware-vsan-6-6-whats-new-for-day-2-operations/</guid>
+      <guid>/virtualization/vmware-vsan-6-6-whats-new-for-day-2-operations/</guid>
       <description>VMware has just announced vSAN v6.6, with over 20 new features. While new and shiny features are nice I&amp;rsquo;d like to highlight a couple that I think might be undervalued from release feature-set perspective, but highly valuable in day to day operations of a vSAN environment, otherwise known as Day 2 operations.
 vSAN Configuration Assist is one such new feature. While it&amp;rsquo;s true that it helps first time configuration of a greenfield installation with vSAN (no more bootstrapping, yay!</description>
     </item>
     
     <item>
       <title>VMware vSAN: 2016 Edition</title>
-      <link>/posts/vmware-vsan-2016-edition/</link>
+      <link>/virtualization/vmware-vsan-2016-edition/</link>
       <pubDate>Wed, 23 Nov 2016 13:57:56 +0000</pubDate>
       
-      <guid>/posts/vmware-vsan-2016-edition/</guid>
+      <guid>/virtualization/vmware-vsan-2016-edition/</guid>
       <description>Both in 2014 and in 2015 I wrote pieces on the current status of VMware vSAN, and it&amp;rsquo;s time to revisit it for 2016.
 My previous posts:
 2014: VSAN: The Unspoken Future 2015: VMware VSAN: More than meets the eye.
@@ -38,10 +38,10 @@ vSAN 6.5 was released with vSphere 6.5, and brings a few new features to the tab
     
     <item>
       <title>Running a VSAN PoC - Customer reactions</title>
-      <link>/posts/running-a-vsan-poc-customer-reactions/</link>
+      <link>/virtualization/running-a-vsan-poc-customer-reactions/</link>
       <pubDate>Wed, 24 Feb 2016 10:42:26 +0000</pubDate>
       
-      <guid>/posts/running-a-vsan-poc-customer-reactions/</guid>
+      <guid>/virtualization/running-a-vsan-poc-customer-reactions/</guid>
       <description>I recently set up a VMware Virtual SAN 6.1 Proof-of-Concept for a customer, configuring a 3-node cluster based on the following setup:
 Hardware:  HP ProLiant DL380 G9
  2 x Intel Xeon E5-2680 @ 2.50Ghz w/12 Cores
@@ -54,39 +54,39 @@ Hardware:  HP ProLiant DL380 G9
     
     <item>
       <title>VMware VSAN - More than meets the eye.</title>
-      <link>/posts/vmware-vsan-more-than-meets-the-eye/</link>
+      <link>/virtualization/vmware-vsan-more-than-meets-the-eye/</link>
       <pubDate>Fri, 13 Nov 2015 08:54:01 +0000</pubDate>
       
-      <guid>/posts/vmware-vsan-more-than-meets-the-eye/</guid>
+      <guid>/virtualization/vmware-vsan-more-than-meets-the-eye/</guid>
       <description>Way back in 2014 I wrote a piece called VSAN – The Unspoken Future, and I think it&amp;rsquo;s about time it got a revision. Of course, lots of things have happened to VSAN since then and even more is on the way, but I think there is more to this than adding features like erasure coding, deduplication and compression. All of these are important features, and frankly they need to be in a product that aims a lot higher than you might think.</description>
     </item>
     
     <item>
       <title>VSAN - The Unspoken Future</title>
-      <link>/posts/vsan-unspoken-future/</link>
+      <link>/virtualization/vsan-unspoken-future/</link>
       <pubDate>Mon, 17 Mar 2014 22:41:34 +0000</pubDate>
       
-      <guid>/posts/vsan-unspoken-future/</guid>
+      <guid>/virtualization/vsan-unspoken-future/</guid>
       <description>This rather tongue-in-cheek title, is a play on Maish recent VSAN - The Unspoken Truth post where he highlights what he thinks is one of the hidden &amp;ldquo;problems&amp;rdquo; with the current version of VSAN is it&amp;rsquo;s inherent non-blade compatibility and current lack of &amp;ldquo;rack based VSAN ready nodes&amp;rdquo;.
 Of course, this is a reality; If you base your current infrastructure on blade servers, VSAN probably isn&amp;rsquo;t a good match as it stands today.</description>
     </item>
     
     <item>
       <title>Configuring VSAN on a Dell PowerEdge VRTX</title>
-      <link>/posts/configuring-vsan-dell-poweredge-vrtx/</link>
+      <link>/virtualization/configuring-vsan-dell-poweredge-vrtx/</link>
       <pubDate>Wed, 19 Feb 2014 12:30:08 +0000</pubDate>
       
-      <guid>/posts/configuring-vsan-dell-poweredge-vrtx/</guid>
+      <guid>/virtualization/configuring-vsan-dell-poweredge-vrtx/</guid>
       <description>The Dell PowerEdge VRTX shared infrastructure platform is interesting, and I&amp;rsquo;ve been lucky enough to be able to borrow one from Dell for testing purposes.
 One of the things I wanted to test, was if it was possible to run VMware VSAN on it, even if the Shared PERC8 RAID controller it comes with is not on the VMware VSAN HCL, nor does it provide a method to do passthrough to present raw disks directly to the hosts.</description>
     </item>
     
     <item>
       <title>Automatically Name Datastores in vSphere?</title>
-      <link>/posts/automatically-datastores-vsphere/</link>
+      <link>/vmware-2/automatically-datastores-vsphere/</link>
       <pubDate>Tue, 18 Feb 2014 16:16:28 +0000</pubDate>
       
-      <guid>/posts/automatically-datastores-vsphere/</guid>
+      <guid>/vmware-2/automatically-datastores-vsphere/</guid>
       <description>William Lam posted &amp;ldquo;Why you should rename the default VSAN Datastore name&amp;rdquo; where he outlines why the default name for VSAN data stores should be changed. Of course, I completely agree with his views on this; Leaving it at the default might cause confusion down the line.
 At the end of the post, William asks the following:
 I wonder if it would be a useful to have a feature in VSAN to automatically append the vSphere Cluster name to the default VSAN Datastore name?</description>
@@ -94,10 +94,10 @@ I wonder if it would be a useful to have a feature in VSAN to automatically appe
     
     <item>
       <title>vSphere 5.5 Availability and VSAN Public Beta</title>
-      <link>/posts/vsphere-5-5-availability-vsan-public-beta/</link>
+      <link>/vmware-2/vsphere-5-5-availability-vsan-public-beta/</link>
       <pubDate>Thu, 12 Sep 2013 21:22:17 +0000</pubDate>
       
-      <guid>/posts/vsphere-5-5-availability-vsan-public-beta/</guid>
+      <guid>/vmware-2/vsphere-5-5-availability-vsan-public-beta/</guid>
       <description>As Eric Siebert has pointed out, the VMware vSphere release cycles are shortening.
 While vSphere 5.1 could be seen as a bit rushed, especially in regards to SSO, when it was released, the shorter release cycles seem to work out pretty well.
 This does make me think though; vSphere 5.5 is pretty much ready to be released to the general public, and the new VSAN component will be in a public beta at the same time.</description>

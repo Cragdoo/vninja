@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2015-02-11 23:28:23+00:00
 layout: post
-link: http://vninja.net/virtualization/real-vcdx-certification/
 slug: real-vcdx-certification
 title: The Real Value of the VCDX Certification
+url: /virtualization/real-vcdx-certification/
 wordpress_id: 3585
 categories:
 - Virtualization

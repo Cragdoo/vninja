@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2016-03-31 22:16:31+00:00
 layout: post
-link: http://vninja.net/news/i-made-something-happen/
 slug: i-made-something-happen
 title: I Made Something Happen
+url: /news/i-made-something-happen/
 wordpress_id: 4060
 categories:
 - News

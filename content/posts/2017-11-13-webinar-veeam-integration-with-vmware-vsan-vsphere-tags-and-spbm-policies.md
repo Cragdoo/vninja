@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2017-11-13 16:45:46+00:00
 layout: post
-link: http://vninja.net/virtualization/webinar-veeam-integration-with-vmware-vsan-vsphere-tags-and-spbm-policies/
 slug: webinar-veeam-integration-with-vmware-vsan-vsphere-tags-and-spbm-policies
 title: 'Webinar: Veeam integration with VMware vSAN, vSphere tags and SPBM policies'
+url: /virtualization/webinar-veeam-integration-with-vmware-vsan-vsphere-tags-and-spbm-policies/
 wordpress_id: 4826
 categories:
 - Virtualization

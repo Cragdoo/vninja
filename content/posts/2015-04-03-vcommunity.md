@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2015-04-03 22:22:13+00:00
 layout: post
-link: http://vninja.net/rant/vcommunity/
 slug: vcommunity
 title: The "vCommunity"
+url: /rant/vcommunity/
 wordpress_id: 3672
 categories:
 - Rant

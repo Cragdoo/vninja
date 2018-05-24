@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2017-10-24 10:38:13+00:00
 layout: post
-link: http://vninja.net/workflow/how-i-use-todoist/
 slug: how-i-use-todoist
 title: How I use Todoist
+url: /workflow/how-i-use-todoist/
 wordpress_id: 4796
 categories:
 - Workflow

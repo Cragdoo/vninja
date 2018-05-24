@@ -3,9 +3,9 @@ author: kwaeraas
 comments: true
 date: 2015-10-15 16:01:38+00:00
 layout: post
-link: http://vninja.net/virtualization/relax-and-virtualize-it/
 slug: relax-and-virtualize-it
 title: Relax and virtualize it!
+url: /virtualization/relax-and-virtualize-it/
 wordpress_id: 3853
 categories:
 - Howto

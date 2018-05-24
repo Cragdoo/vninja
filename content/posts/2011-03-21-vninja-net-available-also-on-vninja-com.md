@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2011-03-21 21:34:58+00:00
 layout: post
-link: http://vninja.net/news/vninja-net-available-also-on-vninja-com/
 slug: vninja-net-available-also-on-vninja-com
 title: vNinja.net available also on vNinja.com
+url: /news/vninja-net-available-also-on-vninja-com/
 wordpress_id: 993
 categories:
 - News

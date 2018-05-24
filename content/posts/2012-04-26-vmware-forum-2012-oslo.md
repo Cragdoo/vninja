@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2012-04-26 20:35:39+00:00
 layout: post
-link: http://vninja.net/virtualization/vmware-forum-2012-oslo/
 slug: vmware-forum-2012-oslo
 title: VMware Forum 2012 Oslo
+url: /virtualization/vmware-forum-2012-oslo/
 wordpress_id: 1850
 categories:
 - Virtualization

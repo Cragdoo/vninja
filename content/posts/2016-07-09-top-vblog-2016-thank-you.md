@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2016-07-09 20:59:02+00:00
 layout: post
-link: http://vninja.net/news/top-vblog-2016-thank-you/
 slug: top-vblog-2016-thank-you
 title: 'Top vBlog 2016: Thank you!'
+url: /news/top-vblog-2016-thank-you/
 wordpress_id: 4124
 categories:
 - News

@@ -14,20 +14,20 @@
     
     <item>
       <title>Markdown All the Things!</title>
-      <link>/posts/markdown-things/</link>
+      <link>/virtualization/markdown-things/</link>
       <pubDate>Mon, 12 Jan 2015 23:31:45 +0000</pubDate>
       
-      <guid>/posts/markdown-things/</guid>
+      <guid>/virtualization/markdown-things/</guid>
       <description>Obviously I&amp;rsquo;m a bit late to the party here, but I guess late is better than never. It recently dawned on me that mucking about with lots of different file formats, interfaces and ways of doing things is rather counterproductive.
 A lot of my work these days are related to generating content, be it a simple blog post like this or writing customer proposals and documentation. In the end, the deliverables are often quite different, but at the core they are strangely enough very similar.</description>
     </item>
     
     <item>
       <title>Check for OS X Updates Automatically</title>
-      <link>/posts/check-os-updates-automatically/</link>
+      <link>/osx/check-os-updates-automatically/</link>
       <pubDate>Tue, 22 Oct 2013 18:42:42 +0000</pubDate>
       
-      <guid>/posts/check-os-updates-automatically/</guid>
+      <guid>/osx/check-os-updates-automatically/</guid>
       <description>Yeah, I admit it. I want OS X Mavericks, and I want it now.
 Unfortunately, it´s not available yet from Software Update. So instead of manually checking every 5 minutes or so, I decided to create a small bash script that does it for me.
 It´s very, very simple, but I think it does the job:
@@ -37,10 +37,10 @@ First off, pop into Terminal and get root access:
     
     <item>
       <title>My Slate Setup</title>
-      <link>/posts/slate-setup/</link>
+      <link>/osx/slate-setup/</link>
       <pubDate>Wed, 31 Jul 2013 23:10:42 +0000</pubDate>
       
-      <guid>/posts/slate-setup/</guid>
+      <guid>/osx/slate-setup/</guid>
       <description>About a year and a half I go, I took the leap from running Microsoft Windows as my main operating system and switched into full &amp;ldquo;hipster mode&amp;rdquo;, i.e. switched to a Macbook Air and OS X.
 Simply put, &amp;ldquo;the change&amp;rdquo; was not that hard and most everything has worked without problems, and for those things that still require Microsoft Windows, well, there is VMware Fusion for that.
 While I´m admittedly still a novice OS X user, and not even close to mastering OS X, I´d like to share my current Slate setup.</description>
@@ -48,29 +48,29 @@ While I´m admittedly still a novice OS X user, and not even close to mastering 
     
     <item>
       <title>Verifying VMware Downloads</title>
-      <link>/posts/verifying-vmware-downloads/</link>
+      <link>/vmware-2/verifying-vmware-downloads/</link>
       <pubDate>Tue, 11 Sep 2012 21:19:12 +0000</pubDate>
       
-      <guid>/posts/verifying-vmware-downloads/</guid>
+      <guid>/vmware-2/verifying-vmware-downloads/</guid>
       <description>Now that vSphere 5.1 and assorted products have been released into the wild, how do you check the integrity of your downloaded file? As you might be aware of, VMware publishes both MD5 and SHA1 hashes for their files, making it possible to check if the file you just downloaded is identical to the file offered from VMware.
 Checking the MD5 or SHA1 hash for a single file is easy, at least in OS X where you don´t need any third party tools to check.</description>
     </item>
     
     <item>
       <title>Applescript, Desktop Wallpaper and Growl. Automagically.</title>
-      <link>/posts/applescript-desktop-wallpaper-growl-automatically/</link>
+      <link>/osx/applescript-desktop-wallpaper-growl-automatically/</link>
       <pubDate>Tue, 24 Jul 2012 23:31:12 +0000</pubDate>
       
-      <guid>/posts/applescript-desktop-wallpaper-growl-automatically/</guid>
+      <guid>/osx/applescript-desktop-wallpaper-growl-automatically/</guid>
       <description>I´ve been a Mac and OS X user now for about 7 months, but to be honest I have not been very experimental in my usage of my Macbook Air. Until now, my main focus has been basic usage of the hardware and operating systems, and making it work in my corporate environment. As I feel that I´ve reached mission accomplished status on that initial project, I decided to use some of my &amp;ldquo;free&amp;rdquo; vacation time to play around a bit and experiment a bit more.</description>
     </item>
     
     <item>
       <title>Iomega IX2 and Time Machine Support</title>
-      <link>/posts/iomega-ix2-time-machine-support/</link>
+      <link>/osx/iomega-ix2-time-machine-support/</link>
       <pubDate>Mon, 23 Jan 2012 19:57:49 +0000</pubDate>
       
-      <guid>/posts/iomega-ix2-time-machine-support/</guid>
+      <guid>/osx/iomega-ix2-time-machine-support/</guid>
       <description>As Mr. Simon Seagrave has pointed out, there is a fix available to enable OSX Lion Time Machine support for Iomega IX2 and IX4 NAS storage devices.
 I decided to take this a little step further, and try to upgrade my old (and discontinued) Iomega IX2-200 to the new IX2-200 Cloud Edition firmware.
 Initially this was a big failure, as I seemingly managed to brick my device. It was only responding to pings (so the TCP/IP stack was loaded and working), but I could not bring up the web based management tool nor connect via telnet or SSH.</description>

@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2012-01-07 22:44:33+00:00
 layout: post
-link: http://vninja.net/virtualization/creating-virtual-floppy-vsphere/
 slug: creating-virtual-floppy-vsphere
 title: Creating and Using a Virtual Floppy in vSphere
+url: /virtualization/creating-virtual-floppy-vsphere/
 wordpress_id: 1702
 categories:
 - Howto

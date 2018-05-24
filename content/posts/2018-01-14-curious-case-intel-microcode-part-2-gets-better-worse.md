@@ -3,9 +3,9 @@ author: bajorgensen
 comments: true
 date: 2018-01-14 16:00:00+00:00
 layout: post
-link: http://vninja.net/news/curious-case-intel-microcode-part-2-gets-better-worse/
 slug: curious-case-intel-microcode-part-2-gets-better-worse
 title: 'The Curious Case of the Intel Microcode Part #2 - It Gets Better — Then Worse'
+url: /news/curious-case-intel-microcode-part-2-gets-better-worse/
 wordpress_id: 4953
 categories:
 - News

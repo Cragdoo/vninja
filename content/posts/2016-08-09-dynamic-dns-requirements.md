@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2016-08-09 22:18:57+00:00
 layout: post
-link: http://vninja.net/homelab/dynamic-dns-requirements/
 slug: dynamic-dns-requirements
 title: Dynamic DNS Requirements
+url: /homelab/dynamic-dns-requirements/
 wordpress_id: 4143
 categories:
 - Homelab

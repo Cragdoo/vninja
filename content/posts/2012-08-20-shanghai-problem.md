@@ -3,9 +3,9 @@ author: eczerwin
 comments: true
 date: 2012-08-20 22:28:03+00:00
 layout: post
-link: http://vninja.net/virtualization/shanghai-problem/
 slug: shanghai-problem
 title: Shanghai...  we have a problem...
+url: /virtualization/shanghai-problem/
 wordpress_id: 1955
 categories:
 - Virtualization

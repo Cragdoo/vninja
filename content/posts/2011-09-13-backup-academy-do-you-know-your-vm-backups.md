@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2011-09-13 13:39:25+00:00
 layout: post
-link: http://vninja.net/virtualization/backup-academy-do-you-know-your-vm-backups/
 slug: backup-academy-do-you-know-your-vm-backups
 title: Backup Academy - Do You Know Your VM backups?
+url: /virtualization/backup-academy-do-you-know-your-vm-backups/
 wordpress_id: 1481
 categories:
 - Virtualization

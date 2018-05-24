@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2013-12-05 22:47:32+00:00
 layout: post
-link: http://vninja.net/virtualization/importing-ssl-certificates-raspberry-pi-thin-client/
 slug: importing-ssl-certificates-raspberry-pi-thin-client
 title: Importing SSL Certificates to Raspberry Pi Thin Client
+url: /virtualization/importing-ssl-certificates-raspberry-pi-thin-client/
 wordpress_id: 2916
 categories:
 - Virtualization

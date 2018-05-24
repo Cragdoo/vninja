@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2012-06-27 00:07:18+00:00
 layout: post
-link: http://vninja.net/virtualization/vmworld-session-reject-club/
 slug: vmworld-session-reject-club
 title: VMworld Session Reject Club
+url: /virtualization/vmworld-session-reject-club/
 wordpress_id: 1902
 categories:
 - Rant

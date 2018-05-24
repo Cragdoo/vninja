@@ -14,10 +14,10 @@
     
     <item>
       <title>Poor Man&#39;s WSUS</title>
-      <link>/posts/poor-mans-wsus/</link>
+      <link>/microsoft-2/poor-mans-wsus/</link>
       <pubDate>Thu, 25 Aug 2011 21:51:37 +0000</pubDate>
       
-      <guid>/posts/poor-mans-wsus/</guid>
+      <guid>/microsoft-2/poor-mans-wsus/</guid>
       <description>Not that WSUS is expensive, after all it&amp;rsquo;s a &amp;ldquo;free&amp;rdquo; addon to the server you&amp;rsquo;re already running if you need it. Of course, running your own Windows Server Update Services (WSUS) infrastructure is preferable in just about every scenario except for some edge cases where bandwidth or latency issues might prevent you from syncing the updates from a central repository. Sadly, these edge cases enter the fray from time to time and I recently found myself in the middle of such a scenario.</description>
     </item>
     

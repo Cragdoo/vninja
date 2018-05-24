@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2010-09-09 22:44:25+00:00
 layout: post
-link: http://vninja.net/news/hp-proliant-microserver-not-quite-there-yet/
 slug: hp-proliant-microserver-not-quite-there-yet
 title: HP ProLiant MicroServer - Not Quite There Yet?
+url: /news/hp-proliant-microserver-not-quite-there-yet/
 wordpress_id: 234
 categories:
 - Hardware

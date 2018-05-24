@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="Centrally Disable NAT in VMware Workstation" />
+<meta property="og:description" content="A fellow IT-professional, who works with the non-wired flavor of networking, contacted me with the following scenario:
+A group of users, developers in this case, have VMware Workstation installed on their laptops. This makes it easy for them to manage, test and develop their applications in a closed environment without having to install a bunch of tools/services on their centrally managed laptop environment. An excellent use case for VMware Workstation if there ever was one." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/vmware-2/centrally-disable-nat-vmware-workstation/" />
+
+
+
+<meta property="article:published_time" content="2013-06-25T08:52:03&#43;00:00"/>
+
+<meta property="article:modified_time" content="2013-06-25T08:52:03&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Centrally Disable NAT in VMware Workstation"/>
+<meta name="twitter:description" content="A fellow IT-professional, who works with the non-wired flavor of networking, contacted me with the following scenario:
+A group of users, developers in this case, have VMware Workstation installed on their laptops. This makes it easy for them to manage, test and develop their applications in a closed environment without having to install a bunch of tools/services on their centrally managed laptop environment. An excellent use case for VMware Workstation if there ever was one."/>
+<meta name="generator" content="Hugo 0.40.3" />
+
+
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Centrally Disable NAT in VMware Workstation",
+  "url": "/vmware-2/centrally-disable-nat-vmware-workstation/",
+  "wordCount": "588",
+  "datePublished": "2013-06-25T08:52:03&#43;00:00",
+  "dateModified": "2013-06-25T08:52:03&#43;00:00",
+  "author": {
+    "@type": "Person",
+    "name": "cmohn"
+  },
+  "keywords": "VMware, GPMC, Group Policy, Group Policy Preferences, management, VMware Workstation, Windows, Workstation"
+}
+</script>
+
+
+
+    <link rel="canonical" href="/vmware-2/centrally-disable-nat-vmware-workstation/">
+
+    <title>Centrally Disable NAT in VMware Workstation | Adventures in Hugo</title>
+
+    <!-- combined, minified CSS -->
+    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
+
+    
+
+    
+
+    
+
+    
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="/">Home</a>
+          
+          <a class="nav-link" href="https://example.org" title="">Link 1</a>
+          
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
+        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+      </div>
+    </header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/vmware-2/centrally-disable-nat-vmware-workstation/">Centrally Disable NAT in VMware Workstation</a></h2>
+    <p class="blog-post-meta"><time datetime="2013-06-25T08:52:03Z">Tue Jun 25, 2013</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/vmware" rel="category tag">VMware</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/gpmc" rel="tag">GPMC</a>, <a href="/tags/group-policy" rel="tag">Group Policy</a>, <a href="/tags/group-policy-preferences" rel="tag">Group Policy Preferences</a>, <a href="/tags/management" rel="tag">management</a>, <a href="/tags/vmware" rel="tag">VMware</a>, <a href="/tags/vmware-workstation" rel="tag">VMware Workstation</a>, <a href="/tags/windows" rel="tag">Windows</a>, <a href="/tags/workstation" rel="tag">Workstation</a>
+
+</p>
+  </header>
+  
+
+<p>A fellow IT-professional, who works with the non-wired flavor of networking, contacted me with the following scenario:</p>
+
+<p>A group of users, developers in this case, have VMware Workstation installed on their laptops. This makes it easy for them to manage, test and develop their applications in a closed environment without having to install a bunch of tools/services on their centrally managed laptop environment. An excellent use case for VMware Workstation if there ever was one.</p>
+
+<p>So far, so good. The problem in this particular case was that due to security policies in the network infrastructure there was a need to disable the NAT networking possibilities in VMware Workstation.</p>
+
+<blockquote>Network address translation (NAT) configures your virtual machine to share the IP and MAC addresses of the host. The virtual machine and the host share a single network identity that is not visible outside the network. NAT can be useful when you are allowed a single IP address or MAC address by your network administrator. You might also use NAT to configure separate virtual machines for handling http and ftp requests, with both virtual machines running off the same IP address or domain. See Network Address Translation (NAT).</blockquote>
+
+<p>[caption id=&ldquo;attachment_2602&rdquo; align=&ldquo;aligncenter&rdquo; width=&ldquo;300&rdquo;]<a href="http://pubs.vmware.com/workstation-9/index.jsp#com.vmware.ws.using.doc/GUID-89311E3D-CCA9-4ECC-AF5C-C52BE6A89A95.html"><img src="http://vninja.net/wordpress/wp-content/uploads/2013/06/GUID-4C1FE8E1-9C52-4A43-9C36-97AEC38C737B-high-1-300x125.png" alt="VMware Workstation NAT Configuration " /></a> VMware Workstation NAT Configuration[/caption]</p>
+
+<p>Since the VM shares the host MAC address and IP, blocking network access from the VM is not trivial in this scenario.</p>
+
+<p>Thankfully, in VMware Workstation for Windows, NAT is provided through a Windows Service that we can manipulate. By disabling the &ldquo;<em>VMware NAT Service</em>&rdquo; we can ensure that NAT does not work, and that the only real alternative is to run the VM in &ldquo;Bridged Mode&rdquo;.</p>
+
+<p>Bridged Mode makes it easier for network admins to manipulate access, since the virtual network adapter is exposed to the switches with their own MAC address, and thus possibly also their own IP address, and the VM is not &ldquo;hidden&rdquo; behind the hosts MAC. For instance, this makes it possible for the network gurus to limit the VMs physical network access to internet access only, and not exposing the internal network to the VM.</p>
+
+<p>Running around disabling the &rdquo;<em>VMware NAT Service</em>&rdquo; on all clients that run VMware Workstation is no fun job, so naturally we need to find a way to automate this as well.</p>
+
+<p>**Enter Group Policy Preferences!
+**</p>
+
+<ol>
+<li><p>On a computer that has VMware Workstation installed, run the Group Policy Management Console and create a new GPO.<a href="http://vninja.net/wordpress/wp-content/uploads/2013/06/1.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2013/06/1-300x277.png" alt="Group Policy Management Console" /></a></p></li>
+
+<li><p>In Computer Configuration &gt; Preferences &gt; Control Panel Settings select Services</p></li>
+
+<li><p>In the menu click on Action &gt; New &gt; Service and and click on  “…” next to the Service Name field</p></li>
+
+<li><p>Select the &ldquo;VMware NAT Service&rdquo;and click “Select”<a href="http://vninja.net/wordpress/wp-content/uploads/2013/06/5.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2013/06/5-300x191.png" alt="Services" /></a></p></li>
+
+<li><p>Set the Startup mode to &ldquo;disabled&rdquo;</p></li>
+
+<li><p>Assign this new Group Policy Preference to the OU that the clients that have VMware Workstation installed on resides in, and the next time the policies are refreshed, the &rdquo;VMware NAT Service&rdquo; should be set to disabled.Note: This might require a reboot of the client.</p></li>
+
+<li><p>Profit.</p></li>
+</ol>
+
+<p>And there it is, a workaround on how to disable the possibility for VMs running in VMware Workstation utilizing NAT mode. <em>A bit of a hack, but it works.</em></p>
+
+<h2 id="wishlist">Wishlist</h2>
+
+<p><em>I really wish VMware would include the possibility to configure and manage multiple VMware Workstation for Windows installs, through Group Policy and Group Policy Preferences.</em></p>
+
+<p>The ability to centrally manage configurations and settings would be a welcome addition to this already excellent piece of software, and I am sure that I am not alone in asking for this possibility. So how about it VMware, yay or nay?</p>
+
+
+  
+
+  
+  <hr>
+  <footer>
+
+  
+    <section>
+    <h4>Share</h4>
+    <nav class="nav sharing-icons">
+      <a class="nav-item" href="https://www.facebook.com/sharer/sharer.php?u=%2fvmware-2%2fcentrally-disable-nat-vmware-workstation%2f" title="Share on Facebook"><span class="fa fa-facebook fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://plus.google.com/share?url=%2fvmware-2%2fcentrally-disable-nat-vmware-workstation%2f" title="Share on Google+"><span class="fa fa-google-plus fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fvmware-2%2fcentrally-disable-nat-vmware-workstation%2f" title="Share on LinkedIn"><span class="fa fa-linkedin fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://twitter.com/home?status=%2fvmware-2%2fcentrally-disable-nat-vmware-workstation%2f" title="Tweet this"><span class="fa fa-twitter fa-2x"></span></a>
+    </nav>
+  </section>
+
+  
+
+  
+  </footer>
+  
+
+</article> 
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="https://example.com">Link 1</a></li>
+      
+      <li><a href="https://example.org">Link 2</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p>
+      
+      &copy; Christian Mohn
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>

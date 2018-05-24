@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2012-02-03 20:54:51+00:00
 layout: post
-link: http://vninja.net/vmware-2/vcp-5-certification-requirement-clarification/
 slug: vcp-5-certification-requirement-clarification
 title: VCP 5 Certification Requirements Clarification
+url: /vmware-2/vcp-5-certification-requirement-clarification/
 wordpress_id: 1750
 categories:
 - VMware

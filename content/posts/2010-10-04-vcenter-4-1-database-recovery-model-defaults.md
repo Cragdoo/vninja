@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2010-10-04 21:36:23+00:00
 layout: post
-link: http://vninja.net/virtualization/vcenter-4-1-database-recovery-model-defaults/
 slug: vcenter-4-1-database-recovery-model-defaults
 title: vCenter 4.1 Database Recovery Model Defaults
+url: /virtualization/vcenter-4-1-database-recovery-model-defaults/
 wordpress_id: 316
 categories:
 - Virtualization

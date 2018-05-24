@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2016-11-04 09:40:42+00:00
 layout: post
-link: http://vninja.net/inthebag/in-the-bag-1-week-44/
 slug: in-the-bag-1-week-44
 title: 'In The Bag #1 - Week 44'
+url: /inthebag/in-the-bag-1-week-44/
 wordpress_id: 4303
 categories:
 - InTheBag

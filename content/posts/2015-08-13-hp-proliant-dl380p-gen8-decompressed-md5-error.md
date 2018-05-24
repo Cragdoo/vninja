@@ -3,9 +3,9 @@ author: shane
 comments: true
 date: 2015-08-13 01:35:44+00:00
 layout: post
-link: http://vninja.net/virtualization/hp-proliant-dl380p-gen8-decompressed-md5-error/
 slug: hp-proliant-dl380p-gen8-decompressed-md5-error
 title: HP Proliant DL380p Gen8 "Decompressed MD5" error
+url: /virtualization/hp-proliant-dl380p-gen8-decompressed-md5-error/
 wordpress_id: 3721
 categories:
 - Virtualization

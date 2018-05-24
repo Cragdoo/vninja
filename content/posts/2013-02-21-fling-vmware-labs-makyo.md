@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2013-02-21 08:45:25+00:00
 layout: post
-link: http://vninja.net/vmware-2/fling-vmware-labs-makyo/
 slug: fling-vmware-labs-makyo
 title: 'New Fling from VMware Labs: Makyo'
+url: /vmware-2/fling-vmware-labs-makyo/
 wordpress_id: 2391
 categories:
 - VMware

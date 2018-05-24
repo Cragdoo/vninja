@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2012-01-23 19:57:49+00:00
 layout: post
-link: http://vninja.net/osx/iomega-ix2-time-machine-support/
 slug: iomega-ix2-time-machine-support
 title: Iomega IX2 and Time Machine Support
+url: /osx/iomega-ix2-time-machine-support/
 wordpress_id: 1735
 categories:
 - OS X

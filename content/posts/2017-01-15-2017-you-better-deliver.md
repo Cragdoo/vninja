@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2017-01-15 10:04:08+00:00
 layout: post
-link: http://vninja.net/misc/2017-you-better-deliver/
 slug: 2017-you-better-deliver
 title: 2017 — You Better Deliver
+url: /misc/2017-you-better-deliver/
 wordpress_id: 4524
 categories:
 - Misc

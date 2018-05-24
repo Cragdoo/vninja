@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2014-03-08 12:38:37+00:00
 layout: post
-link: http://vninja.net/vmware-2/vmware-certified-professional-recertification/
 slug: vmware-certified-professional-recertification
 title: VMware Certified Professional Recertification
+url: /vmware-2/vmware-certified-professional-recertification/
 wordpress_id: 3101
 categories:
 - VMware

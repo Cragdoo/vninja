@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2012-07-24 23:31:12+00:00
 layout: post
-link: http://vninja.net/osx/applescript-desktop-wallpaper-growl-automatically/
 slug: applescript-desktop-wallpaper-growl-automatically
 title: Applescript, Desktop Wallpaper and Growl. Automagically.
+url: /osx/applescript-desktop-wallpaper-growl-automatically/
 wordpress_id: 1927
 categories:
 - OS X

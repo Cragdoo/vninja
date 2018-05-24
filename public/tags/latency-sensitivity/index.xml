@@ -14,10 +14,10 @@
     
     <item>
       <title>Root Cause of Invalid memory setting: memory reservation (sched.mem.min) should be equal to memsize (memsize)</title>
-      <link>/posts/root-invalid-memory-setting-memory-reservation-sched-mem-min-equal-memsize-memsize/</link>
+      <link>/vmware-2/root-invalid-memory-setting-memory-reservation-sched-mem-min-equal-memsize-memsize/</link>
       <pubDate>Tue, 15 Jul 2014 10:59:42 +0000</pubDate>
       
-      <guid>/posts/root-invalid-memory-setting-memory-reservation-sched-mem-min-equal-memsize-memsize/</guid>
+      <guid>/vmware-2/root-invalid-memory-setting-memory-reservation-sched-mem-min-equal-memsize-memsize/</guid>
       <description>While working on reconfiguring my home lab setup, and migrating all the vSphere resources into a single cluster I ran into a problem powering on one of the VMs which used to run on a single host. The power on operation yielded the following error message:
 Invalid memory setting: memory reservation (sched.mem.min) should be equal to memsize (memsize) [showhide type=&amp;ldquo;errorstack&amp;rdquo; more_text=&amp;ldquo;Show error stack (%s More Words)&amp;rdquo;]
   **Task Details:**         Status:    Invalid memory setting: memory reservation (sched.</description>

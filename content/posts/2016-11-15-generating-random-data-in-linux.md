@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2016-11-15 12:00:50+00:00
 layout: post
-link: http://vninja.net/virtualization/generating-random-data-in-linux/
 slug: generating-random-data-in-linux
 title: Generating Random Data in Linux
+url: /virtualization/generating-random-data-in-linux/
 wordpress_id: 4359
 categories:
 - Virtualization

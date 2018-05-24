@@ -14,20 +14,20 @@
     
     <item>
       <title>Got VMware vRealize Log Insight?</title>
-      <link>/posts/got-vmware-vrealize-log-insight/</link>
+      <link>/virtualization/got-vmware-vrealize-log-insight/</link>
       <pubDate>Wed, 23 Nov 2016 17:37:07 +0000</pubDate>
       
-      <guid>/posts/got-vmware-vrealize-log-insight/</guid>
+      <guid>/virtualization/got-vmware-vrealize-log-insight/</guid>
       <description>Recent conversations with existing and potential clients made me realize that many are not aware that they most likely are entitled to use VMware vRealize Log Insight in their environment. For free.
 Back in March 2016 VMware announced that everyone with a valid VMware vCenter license are also entitled to 25-OSI pack of vRealize Log Insight for vCenter Server. This means that you can gather logs for up to 25 ESXi hosts, VMs or other devices, in your environment.</description>
     </item>
     
     <item>
       <title>Can Microsoft really be Fair and Balanced?</title>
-      <link>/posts/microsoft-fair-balanced/</link>
+      <link>/virtualization/microsoft-fair-balanced/</link>
       <pubDate>Tue, 29 Oct 2013 23:25:14 +0000</pubDate>
       
-      <guid>/posts/microsoft-fair-balanced/</guid>
+      <guid>/virtualization/microsoft-fair-balanced/</guid>
       <description>Microsoft has launched Virtualization2, a program to educate VMware administrators on Hyper-V and the System Center suite of tools. In short, these arefree online training sessiosn on November 19th and 20th, that also comes with a voucher for their new Microsoft virtualization certification exam (74-409).
 This comes in addition to their existing Microsoft Virtualization for VMware Professionals Jump Start training course.
 I think this is a good idea, and if you are able to close your eyes to the hyperbole, and disregard things like &amp;ldquo;Microsoft Wants to Help VMware Experts “Future-Proof “ Their Career&amp;rdquo;, I applaud this initiative.</description>

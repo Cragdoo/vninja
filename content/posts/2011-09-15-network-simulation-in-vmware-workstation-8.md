@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2011-09-15 09:18:44+00:00
 layout: post
-link: http://vninja.net/virtualization/network-simulation-in-vmware-workstation-8/
 slug: network-simulation-in-vmware-workstation-8
 title: Network Simulation in VMware Workstation 8
+url: /virtualization/network-simulation-in-vmware-workstation-8/
 wordpress_id: 1534
 categories:
 - Virtualization

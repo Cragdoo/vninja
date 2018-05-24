@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="Verifying VMware Downloads" />
+<meta property="og:description" content="Now that vSphere 5.1 and assorted products have been released into the wild, how do you check the integrity of your downloaded file? As you might be aware of, VMware publishes both MD5 and SHA1 hashes for their files, making it possible to check if the file you just downloaded is identical to the file offered from VMware.
+Checking the MD5 or SHA1 hash for a single file is easy, at least in OS X where you don´t need any third party tools to check." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/vmware-2/verifying-vmware-downloads/" />
+
+
+
+<meta property="article:published_time" content="2012-09-11T21:19:12&#43;00:00"/>
+
+<meta property="article:modified_time" content="2012-09-11T21:19:12&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Verifying VMware Downloads"/>
+<meta name="twitter:description" content="Now that vSphere 5.1 and assorted products have been released into the wild, how do you check the integrity of your downloaded file? As you might be aware of, VMware publishes both MD5 and SHA1 hashes for their files, making it possible to check if the file you just downloaded is identical to the file offered from VMware.
+Checking the MD5 or SHA1 hash for a single file is easy, at least in OS X where you don´t need any third party tools to check."/>
+<meta name="generator" content="Hugo 0.40.3" />
+
+
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Verifying VMware Downloads",
+  "url": "/vmware-2/verifying-vmware-downloads/",
+  "wordCount": "467",
+  "datePublished": "2012-09-11T21:19:12&#43;00:00",
+  "dateModified": "2012-09-11T21:19:12&#43;00:00",
+  "author": {
+    "@type": "Person",
+    "name": "cmohn"
+  },
+  "keywords": "VMware, Bash, Download, Integrity, MD5, OS X, SHA1, Terminal, vSphere"
+}
+</script>
+
+
+
+    <link rel="canonical" href="/vmware-2/verifying-vmware-downloads/">
+
+    <title>Verifying VMware Downloads | Adventures in Hugo</title>
+
+    <!-- combined, minified CSS -->
+    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
+
+    
+
+    
+
+    
+
+    
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="/">Home</a>
+          
+          <a class="nav-link" href="https://example.org" title="">Link 1</a>
+          
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
+        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+      </div>
+    </header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/vmware-2/verifying-vmware-downloads/">Verifying VMware Downloads</a></h2>
+    <p class="blog-post-meta"><time datetime="2012-09-11T21:19:12Z">Tue Sep 11, 2012</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/vmware" rel="category tag">VMware</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/bash" rel="tag">Bash</a>, <a href="/tags/download" rel="tag">Download</a>, <a href="/tags/integrity" rel="tag">Integrity</a>, <a href="/tags/md5" rel="tag">MD5</a>, <a href="/tags/os-x" rel="tag">OS X</a>, <a href="/tags/sha1" rel="tag">SHA1</a>, <a href="/tags/terminal" rel="tag">Terminal</a>, <a href="/tags/vmware" rel="tag">VMware</a>, <a href="/tags/vsphere" rel="tag">vSphere</a>
+
+</p>
+  </header>
+  
+
+<p>Now that <a href="http://www.vmware.com/products/datacenter-virtualization/vsphere/index.html">vSphere 5.1</a> and assorted products have been released into the wild, how do you check the integrity of your downloaded file? As you might be aware of, VMware publishes both <strong>MD5</strong> and <strong>SHA1</strong> hashes for their files, making it possible to check if the file you just downloaded is identical to the file offered from VMware.</p>
+
+<p>Checking the <strong>MD5</strong> or <strong>SHA1</strong> hash for a single file is easy, at least in OS X where you don´t need any third party tools to check.</p>
+
+<p>Open up <em>Terminal</em> and navigate to your download directory and run either the <em>md5</em> command, or the <em>shasum</em> command to verify the file signature. You can then compare the signature to the checksums provided by VMware on the download page.</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2012/09/VerifyingDownloads-1.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2012/09/VerifyingDownloads-1-300x131.png" alt="" /></a>  <a href="http://vninja.net/wordpress/wp-content/uploads/2012/09/VerifyingDownloads-21.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2012/09/VerifyingDownloads-21-300x57.png" alt="" /></a></p>
+
+<p>For a single file, this is not a problem, but what if you have downloaded a bunch of files into a directory and want to calculate the checksums for all of them in one go?</p>
+
+<p>Thankfully this is pretty simple as well, just add a little Terminal (It´s really bash, I know) magic and you´re all set:</p>
+
+<p><strong>MD5:</strong>
+[cci lang=&ldquo;bash&rdquo;]find . -type f -exec md5 &lsquo;{}&rsquo; \;[/cci]</p>
+
+<p><strong>SHA1:</strong>
+[cci lang=&ldquo;bash&rdquo;]find . -type f -exec shasum &lsquo;{}&rsquo; \;[/cci]</p>
+
+<p>These small bash one-liners will go through all the files in the current directory, and calculate checksums for each of them.</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2012/09/VerifyingDownloads-3.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2012/09/VerifyingDownloads-3-300x131.png" alt="" /></a></p>
+
+<p><em>There are tools available for Windows as well that perform the same operations, but I haven´t looked into those for this post.</em></p>
+
+<h3 id="a-collection-of-md5-sha1-checksums-for-the-vsphere-5-1-release">A collection of MD5/SHA1 checksums for the vSphere 5.1 Release:</h3>
+
+<p>[table id=9 /]</p>
+
+<p>As far as I can tell, VMware does not offer a single page that lists all of the checksums for their files, something that makes finding the checksums a bit tedious. I´ve found that the best way to find then, after you have downloaded the files, is to check the <a href="https://my.vmware.com/group/vmware/my-downloads">My VMware Downloads History</a>, page since it shows you all the downloads you have performed on one page, instead of going through multiple pages. Find the &ldquo;<em>Show Checksums</em>&rdquo; link to show the checksums, without having to open the download page for each item.</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2012/09/VerifyingDownloads-4.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2012/09/VerifyingDownloads-4-300x156.png" alt="" /></a>  <a href="http://vninja.net/wordpress/wp-content/uploads/2012/09/VerifyingDownloads-5.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2012/09/VerifyingDownloads-5-300x176.png" alt="" /></a></p>
+
+<h3 id="wishlist">Wishlist</h3>
+
+<p>I´m sure some scripting Wizkid could easily create a script that runs the checksum generation and then checks a given text file for a match, but I really wish VMware would create a service that enables you to easily check the checksums for a given file, without having to log on to VMware.com at all.</p>
+
+<p>If we could do a simple HTML request to a service that returns the checksum for a given file, that would easily be scriptable and comparisons could be performed automatically.</p>
+
+<p>That way, doing a request like this (yes, this is indeed a fake non-working URL):
+[cci lang=&ldquo;bash&rdquo;]curl vmware.com/integrity/md5/vCO_VA-5.1.0.0-817595_OVF10.cert[/cci]</p>
+
+<p>would return a simple</p>
+
+<pre><code>c636547afb4de258d9164a74ac622674
+</code></pre>
+
+<p><strong>Good idea? Bad Idea? Let me know!</strong></p>
+
+
+  
+
+  
+  <hr>
+  <footer>
+
+  
+    <section>
+    <h4>Share</h4>
+    <nav class="nav sharing-icons">
+      <a class="nav-item" href="https://www.facebook.com/sharer/sharer.php?u=%2fvmware-2%2fverifying-vmware-downloads%2f" title="Share on Facebook"><span class="fa fa-facebook fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://plus.google.com/share?url=%2fvmware-2%2fverifying-vmware-downloads%2f" title="Share on Google+"><span class="fa fa-google-plus fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fvmware-2%2fverifying-vmware-downloads%2f" title="Share on LinkedIn"><span class="fa fa-linkedin fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://twitter.com/home?status=%2fvmware-2%2fverifying-vmware-downloads%2f" title="Tweet this"><span class="fa fa-twitter fa-2x"></span></a>
+    </nav>
+  </section>
+
+  
+
+  
+  </footer>
+  
+
+</article> 
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="https://example.com">Link 1</a></li>
+      
+      <li><a href="https://example.org">Link 2</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p>
+      
+      &copy; Christian Mohn
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>

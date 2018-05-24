@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2013-02-22 08:55:41+00:00
 layout: post
-link: http://vninja.net/news/trainsignal-training-service-taas/
 slug: trainsignal-training-service-taas
 title: 'Trainsignal: Training as a Service (TaaS)'
+url: /news/trainsignal-training-service-taas/
 wordpress_id: 2396
 categories:
 - News

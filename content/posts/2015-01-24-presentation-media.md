@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2015-01-24 10:20:06+00:00
 layout: post
-link: http://vninja.net/misc/presentation-media/
 slug: presentation-media
 title: Presentation Media
+url: /misc/presentation-media/
 wordpress_id: 3518
 categories:
 - Misc

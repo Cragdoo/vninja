@@ -14,10 +14,10 @@
     
     <item>
       <title>Multi-Hypervisor Management and the Future</title>
-      <link>/posts/multi-hypervisor-management-and-the-future/</link>
+      <link>/news/multi-hypervisor-management-and-the-future/</link>
       <pubDate>Sun, 12 Jun 2011 20:34:52 +0000</pubDate>
       
-      <guid>/posts/multi-hypervisor-management-and-the-future/</guid>
+      <guid>/news/multi-hypervisor-management-and-the-future/</guid>
       <description>In a previous post, vCenter Integration Mantra, I made the point that vSphere vAdmins wants the 3rd party modules to integrate into the vCenter client and show their delicious addon-value there, and not in their own management interface. Give the vAdmins the info they need, where they do most, if not all their work. Open up the admin client and let us get all that juicy and fruity information we need.</description>
     </item>
     

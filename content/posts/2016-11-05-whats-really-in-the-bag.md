@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2016-11-05 23:16:06+00:00
 layout: post
-link: http://vninja.net/misc/whats-really-in-the-bag/
 slug: whats-really-in-the-bag
 title: What's Really in the Bag?
+url: /misc/whats-really-in-the-bag/
 wordpress_id: 4328
 categories:
 - Misc

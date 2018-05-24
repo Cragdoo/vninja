@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2016-04-08 17:03:23+00:00
 layout: post
-link: http://vninja.net/news/my-contribution-to-the-vsphere-design-pocketbook-v3/
 slug: my-contribution-to-the-vsphere-design-pocketbook-v3
 title: My Contribution to the vSphere Design Pocketbook v3
+url: /news/my-contribution-to-the-vsphere-design-pocketbook-v3/
 wordpress_id: 4071
 categories:
 - News

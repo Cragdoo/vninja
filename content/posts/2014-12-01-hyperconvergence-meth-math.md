@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2014-12-01 20:39:08+00:00
 layout: post
-link: http://vninja.net/virtualization/hyperconvergence-meth-math/
 slug: hyperconvergence-meth-math
 title: 'EVO:RAIL: Doing the methmath.'
+url: /virtualization/hyperconvergence-meth-math/
 wordpress_id: 3450
 categories:
 - Virtualization

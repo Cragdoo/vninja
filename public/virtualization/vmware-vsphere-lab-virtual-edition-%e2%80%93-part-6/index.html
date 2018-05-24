@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="VMware vSphere Lab: Virtual Edition – Part 6" />
+<meta property="og:description" content="This is the sixth post in a series outlining how to set up your own little virtualized Virtual vSphere Lab, if you missed part one, part two, part three, part four, or part five be sure to check them out first!
+Now that we have working DHCP and DNS services in our lab network, we&rsquo;re ready to get out two little ESXi friends connected to it&rsquo;s management service, VMware vCenter Server." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/virtualization/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-6/" />
+
+
+
+<meta property="article:published_time" content="2010-10-21T21:10:47&#43;00:00"/>
+
+<meta property="article:modified_time" content="2010-10-21T21:10:47&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="VMware vSphere Lab: Virtual Edition – Part 6"/>
+<meta name="twitter:description" content="This is the sixth post in a series outlining how to set up your own little virtualized Virtual vSphere Lab, if you missed part one, part two, part three, part four, or part five be sure to check them out first!
+Now that we have working DHCP and DNS services in our lab network, we&rsquo;re ready to get out two little ESXi friends connected to it&rsquo;s management service, VMware vCenter Server."/>
+<meta name="generator" content="Hugo 0.40.3" />
+
+
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "VMware vSphere Lab: Virtual Edition – Part 6",
+  "url": "/virtualization/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-6/",
+  "wordCount": "943",
+  "datePublished": "2010-10-21T21:10:47&#43;00:00",
+  "dateModified": "2010-10-21T21:10:47&#43;00:00",
+  "author": {
+    "@type": "Person",
+    "name": "cmohn"
+  },
+  "keywords": "Howto, Virtualization, labs, vCenter, VMware, VMware Workstation, vSphere"
+}
+</script>
+
+
+
+    <link rel="canonical" href="/virtualization/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-6/">
+
+    <title>VMware vSphere Lab: Virtual Edition – Part 6 | Adventures in Hugo</title>
+
+    <!-- combined, minified CSS -->
+    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
+
+    
+
+    
+
+    
+
+    
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="/">Home</a>
+          
+          <a class="nav-link" href="https://example.org" title="">Link 1</a>
+          
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
+        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+      </div>
+    </header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/virtualization/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-6/">VMware vSphere Lab: Virtual Edition – Part 6</a></h2>
+    <p class="blog-post-meta"><time datetime="2010-10-21T21:10:47Z">Thu Oct 21, 2010</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/howto" rel="category tag">Howto</a>, <a href="/categories/virtualization" rel="category tag">Virtualization</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/labs" rel="tag">labs</a>, <a href="/tags/vcenter" rel="tag">vCenter</a>, <a href="/tags/vmware" rel="tag">VMware</a>, <a href="/tags/vmware-workstation" rel="tag">VMware Workstation</a>, <a href="/tags/vsphere" rel="tag">vSphere</a>
+
+</p>
+  </header>
+  
+
+<p><img src="/images/logos/vmware-logo.gif" alt="" />This is the sixth post in a series outlining how to set up your own little virtualized <strong>Virtual vSphere Lab</strong>, if you missed <a href="http://vninja.net/virtualization/vmware-vsphere-lab-virtual-edition-part-1/">part one</a>, <a href="http://vninja.net/virtualization/vmware-vsphere-lab-virtual-edition-part-2/">part two</a>, <a href="http://vninja.net/virtualization/vmware-vsphere-lab-virtual-edition-%E2%80%93-part-3/">part three</a>, <a href="http://vninja.net/virtualization/vmware-vsphere-lab-virtual-edition-%E2%80%93-part-4/">part four</a>,  or <a href="http://vninja.net/virtualization/vmware-vsphere-lab-virtual-edition-%E2%80%93-part-5/">part five</a> be sure to check them out first!</p>
+
+<p>Now that we have working DHCP and DNS services in our lab network, we&rsquo;re ready to get out two little ESXi friends connected to it&rsquo;s management service, VMware vCenter Server.</p>
+
+<p>To be able to do that, we obviously need to install vCenter Server. Here it goes!</p>
+
+<h4 id="installing-vmware-vcenter-server">Installing VMware vCenter Server</h4>
+
+<p>Installing VMware vCenter Server is a pretty straight forward task.
+First off, connect the <strong>VMware-VIMSetup-all-4.1.0-259021.iso</strong> file to the <em>srv-vc1</em> server.
+<!-- more --></p>
+
+<p>To do this, right click <em>srv-vc1</em> and select &ldquo;<strong>Settings&hellip;</strong>&rdquo;.
+In the &ldquo;<strong>Virtual Machine Settings</strong>&rdquo; window find &ldquo;<strong>CD/DVD (IDE)</strong>&rdquo; and select &ldquo;<strong>Use ISO image file:</strong>&rdquo;. Then browse to your download location and find <strong>VMware-VIMSetup-all-4.1.0-259021.iso</strong></p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-1.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-1-300x260.png" alt="" /></a>
+Click on &ldquo;<strong>OK</strong>&rdquo; and the Windows AutoPlay feature shut prompt you what to do with the newly inserted DVD. Select &ldquo;<strong>Run autorun.exe</strong>&rdquo;.</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-2.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-2-300x286.png" alt="" /></a>
+If you don&rsquo;t get the <em>AutoPlay</em> window browse to the DVD in Windows Explorer and run the DVD from there. Select &ldquo;<strong>vCenter Server</strong>&ldquo;</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-3.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-3-300x232.png" alt="" /></a>
+Now, <strong>Windows User Account Control</strong> pops up, and since we know what we&rsquo;re doing, we&rsquo;ll just click on &ldquo;<strong>Yes</strong>&rdquo; and continue.</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-4.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-4-300x173.png" alt="" /></a></p>
+
+<p>Next up, select which language to use for the installation. Since I don&rsquo;t speak, or read, any of the other languages &ldquo;<strong>English</strong>&rdquo; is my obvious choice.</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-5.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-5-300x112.png" alt="" /></a></p>
+
+<p>Click &ldquo;<strong>OK</strong>&rdquo; and the installation starts.</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-6.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-6-300x143.png" alt="" /></a>
+<a href="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-7.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-7-300x225.png" alt="" /></a></p>
+
+<p>Once again, click &ldquo;<strong>Next</strong>&rdquo;, read the &ldquo;<strong>End-User Patent Agreement</strong>&rdquo; thoroughly and click on &ldquo;<strong>Next</strong>&rdquo; again to continue.</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-8.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-8-300x225.png" alt="" /></a></p>
+
+<p>Read the &ldquo;<strong>License Agreement</strong>&rdquo; before you click on &ldquo;<strong>I agree to the terms in the license agreement</strong>&rdquo; then click on &ldquo;<strong>Next</strong>&rdquo; to continue</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-9.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-9-300x225.png" alt="" /></a></p>
+
+<p>Now you need to fill our the &ldquo;<strong>Customer Information</strong>&rdquo; screen.
+Notice that if you don&rsquo;t provide a license key, it will run in evaluation mode, which is what we want for our lab.</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-10.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-10-300x225.png" alt="" /></a>
+click &ldquo;<strong>Next</strong>&rdquo; again to continue to the &ldquo;<strong>Database Options</strong>&rdquo; setup screen. The defaults are to install a local Microsoft SQL Server 2005 Enterprise instance for this vCenter installation, and in our little lab environment that&rsquo;s the perfect option.<br />
+Leave the defaults as they are, and click on &ldquo;<strong>Next</strong>&rdquo; . The next screen is where you configure which user account the vCenter Server Service runs as, and again accept the defaults and continue by clicking &ldquo;<strong>Next</strong>&ldquo;</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-11.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-11-300x225.png" alt="" /></a></p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-12.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-12-300x225.png" alt="" /></a></p>
+
+<p>The default destination folder is fine too, so we&rsquo;ll quickly click on &ldquo;<strong>Next</strong>&rdquo; to get going</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-13.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-13-300x225.png" alt="" /></a></p>
+
+<p>Next up is the &ldquo;<strong>vCenter Linked Mode Options</strong>&rdquo; window, and yet again the default of &ldquo;<strong>Create a standalone VMware vCenter Server instance</strong>&rdquo; is exactly what this lab requires, so we&rsquo;ll click on &ldquo;<strong>Next</strong>&rdquo; again</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-14.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-14-300x225.png" alt="" /></a></p>
+
+<p>In the &ldquo;<strong>Configure Ports</strong>&rdquo; window, we&rsquo;ll leave the defaults as is as well.
+There is no need to make things complicated by differing from the standard setup.</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-15.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-15-300x225.png" alt="" /></a></p>
+
+<p>&ldquo;<strong>Next</strong>&rdquo; again, which brings us to the &ldquo;vCenter Server JVM memory&rdquo; screen.
+Since I seriously doubt we will be running more than 100 hosts in our lab environment, the default of &ldquo;Small (Less than 100 hosts 1024 MB) will do just fine.</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-16.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-16-300x225.png" alt="" /></a></p>
+
+<p>After another exciting &ldquo;<strong>Next</strong>&rdquo; click, we&rsquo;re finally ready to start the actual installation.</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-16.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-16-300x225.png" alt="" /></a></p>
+
+<p>Click &ldquo;<strong>Install</strong>&rdquo; and the installation starts and runs without further interaction needed until it&rsquo;s finished.</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-18.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-18-300x225.png" alt="" /></a>
+<a href="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-19.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-19-300x273.png" alt="" /></a>
+<a href="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-21.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-21-300x225.png" alt="" /></a>
+<a href="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-22.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-22-300x225.png" alt="" /></a></p>
+
+<p>Click on &ldquo;<strong>Finish</strong>&rdquo; and your brand new vCenter Server is installed!
+Even if the vCenter Server installation is indeed finished, you still need to do at least one more step before you can start using it properly.
+You need to get the VMware vSphere Client client installed, to be able to connect to the vCenter Server and start configuring it.</p>
+
+<h4 id="installing-the-vmware-vsphere-client">Installing the VMware vSphere Client</h4>
+
+<p>There are several ways to get hold of the VMware vSphere Client installation files. You can open your browser and browse to the IP address of one of the ESXi hosts and download it from there or you can install it from the same DVD that you installed vCenter Server from.</p>
+
+<p>I chose to do the latter, and install it from the DVD. To install it from the dvd, open Windows Explorer, and double click the installation DVD.
+This will bring up the initial installer screen again, but this time we will select vSphere Client</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-23.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-23-300x232.png" alt="" /></a></p>
+
+<p>Once again the Windows &ldquo;<strong>User Account Control</strong>&rdquo; pops up, and we&rsquo;ll click on &ldquo;<strong>Yes</strong>&rdquo; to continue.
+Since this install is your basic &ldquo;<strong>Next</strong>&rdquo; &ldquo;<strong>Next</strong> &ldquo;<strong>Next</strong>&rdquo; installation, I&rsquo;ll just post the screenshots of the procedure. Accept all defaults, and you should be ready to go.</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-24.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-24-300x111.png" alt="" /></a>
+<a href="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-25.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-25-300x143.png" alt="" /></a></p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-26.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-26-300x225.png" alt="" /></a></p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-27.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-27-300x225.png" alt="" /></a></p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-28.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-28-300x225.png" alt="" /></a></p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-29.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-29-300x225.png" alt="" /></a></p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-30.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-30-300x225.png" alt="" /></a></p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-31.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-31-300x225.png" alt="" /></a></p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-32.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-32-300x225.png" alt="" /></a></p>
+
+<p>Now the the vSphere Client is installed, you get a new icon on your desktop called &ldquo;<strong>VMware vSphere Client</strong>&rdquo;, double click it to start the client.</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-34.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-34-300x265.png" alt="" /></a></p>
+
+<p>Fill out <em>lab-vc1</em> in the &ldquo;<strong>IP address / Name</strong>&rdquo; field and tick the &ldquo;<strong>Use Windows session credentials</strong>&rdquo; option. Click on &ldquo;<strong>Login</strong>&rdquo; to log into your fresh vCenter installation.</p>
+
+<p>You&rsquo;ll now get a security warning that tells you that the current SSL certificate installed on the vCenter is untrusted.
+This is because vCenter creates a self-signed certificate during installation. As this is in a lab environment, that&rsquo;s fine.
+Tick the &ldquo;<strong>Install this certificate and do not display any security warnings for &ldquo;lab-vc1&rdquo;</strong>.&rdquo; option and click on &ldquo;<strong>Ignore</strong>&rdquo;.</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-35.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-35-300x125.png" alt="" /></a></p>
+
+<p>This will save the certificate from the vCenter Server in your vCenter Client, and suppress the SSL certificate warnings for further sessions.</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-36.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-36-300x194.png" alt="" /></a></p>
+
+<p>Finally you get logged in, and presented with a warning that since you are running an unlicensed vCenter installation and that it will stop working after 60 days. Again, this is our lab, we don&rsquo;t care and click &ldquo;<strong>OK</strong>&rdquo;.</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-37.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/10/VMware-vSphere-Lab-Virtual-Edition-–-Part-6-Installing-vCenter-37-300x209.png" alt="" /></a></p>
+
+<p>And there it is, both vCenter Server and vCenter Client installed and ready for use! In part seven, I&rsquo;ll cover connecting the vCenter Server and the lab ESXi hosts.</p>
+
+
+  
+
+  
+  <hr>
+  <footer>
+
+  
+    <section>
+    <h4>Share</h4>
+    <nav class="nav sharing-icons">
+      <a class="nav-item" href="https://www.facebook.com/sharer/sharer.php?u=%2fvirtualization%2fvmware-vsphere-lab-virtual-edition-%25e2%2580%2593-part-6%2f" title="Share on Facebook"><span class="fa fa-facebook fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://plus.google.com/share?url=%2fvirtualization%2fvmware-vsphere-lab-virtual-edition-%25e2%2580%2593-part-6%2f" title="Share on Google+"><span class="fa fa-google-plus fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fvirtualization%2fvmware-vsphere-lab-virtual-edition-%25e2%2580%2593-part-6%2f" title="Share on LinkedIn"><span class="fa fa-linkedin fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://twitter.com/home?status=%2fvirtualization%2fvmware-vsphere-lab-virtual-edition-%25e2%2580%2593-part-6%2f" title="Tweet this"><span class="fa fa-twitter fa-2x"></span></a>
+    </nav>
+  </section>
+
+  
+
+  
+  </footer>
+  
+
+</article> 
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="https://example.com">Link 1</a></li>
+      
+      <li><a href="https://example.org">Link 2</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p>
+      
+      &copy; Christian Mohn
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>

@@ -14,29 +14,29 @@
     
     <item>
       <title>Me too: VMware Cloud™ on AWS</title>
-      <link>/posts/me-too-vmware-cloud-on-aws/</link>
+      <link>/news/me-too-vmware-cloud-on-aws/</link>
       <pubDate>Fri, 14 Oct 2016 18:57:20 +0000</pubDate>
       
-      <guid>/posts/me-too-vmware-cloud-on-aws/</guid>
+      <guid>/news/me-too-vmware-cloud-on-aws/</guid>
       <description>After yesterdays announcement of VMware Cloud™ on AWS everyone and their distant relatives have published their opinion pieces on the relevance of the deal, and what who got the short end of the stick in this deal. I guess this is my attempt, or me too post if you will.
 First off, the best source for actual facts and not conjecture, besides the press releases and actual announcement, is Frank Denneman&amp;rsquo;s VMware Cloud™ on AWS – A Closer Look post (and by the way, it just_ feels right_ that Frank is back at VMware).</description>
     </item>
     
     <item>
       <title>A great disturbance in the Force</title>
-      <link>/posts/great-disturbance-force/</link>
+      <link>/virtualization/great-disturbance-force/</link>
       <pubDate>Mon, 02 Feb 2015 22:36:30 +0000</pubDate>
       
-      <guid>/posts/great-disturbance-force/</guid>
+      <guid>/virtualization/great-disturbance-force/</guid>
       <description>So, the cat formerly known as vSphere.next is finally out of it&amp;rsquo;s rather big bag, and vSphere 6.0 has been officially announced and will be available some time in Q1 (no date has been announced yet). There is enough of posts going into details on what is new and what has been announced, so I won&amp;rsquo;t be going over that right now. If you want to hear me talk about vSphere 6.</description>
     </item>
     
     <item>
       <title>Marvin Related VMworld Sessions?</title>
-      <link>/posts/marvin-related-vmworld-sessions/</link>
+      <link>/vmware-2/marvin-related-vmworld-sessions/</link>
       <pubDate>Wed, 20 Aug 2014 13:05:41 +0000</pubDate>
       
-      <guid>/posts/marvin-related-vmworld-sessions/</guid>
+      <guid>/vmware-2/marvin-related-vmworld-sessions/</guid>
       <description>It&amp;rsquo;s been a while since I tried speculating on the soon-to-be-announced VMware Marvin project, but some very recent VMworld US 2014 session additions look really interesting in that regard:
 SDDC1818 - VMware Customers Share Experiences and Requirements for Hyper-Converged SDDC2095 - VMware and Hyper-Converged Infrastructure SDDC1767 - SDDC at Scale with VMware Hyper-Converged Infrastructure: Deeper Dive SDDC3245-S - Software-Defined Data Center through Hyper-Converged Infrastructure
 If you look at 1767 specifically, since the other sessions are still very light on details, it has a rather interesting description:</description>
@@ -44,10 +44,10 @@ If you look at 1767 specifically, since the other sessions are still very light
     
     <item>
       <title>Is Marvin an Acronym?</title>
-      <link>/posts/marvin-acronym/</link>
+      <link>/vmware-2/marvin-acronym/</link>
       <pubDate>Tue, 10 Jun 2014 12:59:54 +0000</pubDate>
       
-      <guid>/posts/marvin-acronym/</guid>
+      <guid>/vmware-2/marvin-acronym/</guid>
       <description>[caption id=&amp;ldquo;attachment_3213&amp;rdquo; align=&amp;ldquo;alignright&amp;rdquo; width=&amp;ldquo;164&amp;rdquo;] Marvin the Paranoid Android (HHGG)[/caption]
 The recent speculations surrounding Marvin has now hit The Register (to bad they don&amp;rsquo;t link this way, but I guess thats how it is) as well, but one piece is still missing, arguably the most important one. We all know that the most important piece of something like this is it&amp;rsquo;s name, or acronym, not it&amp;rsquo;s technical merit&amp;hellip;
 There has been a few attempts at guessing what Marvin is an acronym for, and here are some good ones from twitter:</description>
@@ -55,10 +55,10 @@ There has been a few attempts at guessing what Marvin is an acronym for, and her
     
     <item>
       <title>Some more Marvin Speculation</title>
-      <link>/posts/marvin-speculation/</link>
+      <link>/vmware-2/marvin-speculation/</link>
       <pubDate>Sun, 08 Jun 2014 22:24:23 +0000</pubDate>
       
-      <guid>/posts/marvin-speculation/</guid>
+      <guid>/vmware-2/marvin-speculation/</guid>
       <description>[caption id=&amp;ldquo;attachment_3213&amp;rdquo; align=&amp;ldquo;alignright&amp;rdquo; width=&amp;ldquo;121&amp;rdquo;]Marvin the Paranoid Android (HHGG)[/caption]
 After close to a full day of Twitter speculations and discussions on what Marvin really is, some thoughts kept stuck with me, and this is my attempt at articulating what I think VMware might be up to.
 _Please note that I have no real knowledge of the status of the project, nor if it really exists outside of a poster in a window in the VMware campus.</description>
@@ -66,10 +66,10 @@ _Please note that I have no real knowledge of the status of the project, nor if 
     
     <item>
       <title>What is VMware&#39;s Mystic Marvin Project?</title>
-      <link>/posts/vmwares-mystic-marvin-project/</link>
+      <link>/vmware-2/vmwares-mystic-marvin-project/</link>
       <pubDate>Sun, 08 Jun 2014 09:09:20 +0000</pubDate>
       
-      <guid>/posts/vmwares-mystic-marvin-project/</guid>
+      <guid>/vmware-2/vmwares-mystic-marvin-project/</guid>
       <description>Yesterday Fletcher Cocquyt posted a rather interesting photo on his Twitter account:
 This is, as far as I know, the first public sighting confirming the existence of the &amp;ldquo;mystic&amp;rdquo; project Marvin that VMware is working on. The text reads &amp;ldquo;Introducing the worlds first 100% VMware powered hyper converged infrastructure appliance.&amp;rdquo; I guess some of the VMware engineers forgot that the VMware campus get external visitors from time to time&amp;hellip;
 So what is it?</description>
@@ -77,10 +77,10 @@ So what is it?</description>
     
     <item>
       <title>vSphere 5.5 Availability and VSAN Public Beta</title>
-      <link>/posts/vsphere-5-5-availability-vsan-public-beta/</link>
+      <link>/vmware-2/vsphere-5-5-availability-vsan-public-beta/</link>
       <pubDate>Thu, 12 Sep 2013 21:22:17 +0000</pubDate>
       
-      <guid>/posts/vsphere-5-5-availability-vsan-public-beta/</guid>
+      <guid>/vmware-2/vsphere-5-5-availability-vsan-public-beta/</guid>
       <description>As Eric Siebert has pointed out, the VMware vSphere release cycles are shortening.
 While vSphere 5.1 could be seen as a bit rushed, especially in regards to SSO, when it was released, the shorter release cycles seem to work out pretty well.
 This does make me think though; vSphere 5.5 is pretty much ready to be released to the general public, and the new VSAN component will be in a public beta at the same time.</description>

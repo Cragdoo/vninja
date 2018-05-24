@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2016-08-13 09:45:13+00:00
 layout: post
-link: http://vninja.net/homelab/cloudflare-dynamic-dns-update-script-cf-ddns-sh/
 slug: cloudflare-dynamic-dns-update-script-cf-ddns-sh
 title: CloudFlare Dynamic DNS Update Script (cf-ddns.sh)
+url: /homelab/cloudflare-dynamic-dns-update-script-cf-ddns-sh/
 wordpress_id: 4173
 categories:
 - Homelab

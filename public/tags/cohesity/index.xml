@@ -14,10 +14,10 @@
     
     <item>
       <title>Cohesity: My Initial Impression</title>
-      <link>/posts/cohesity-my-initial-impression/</link>
+      <link>/virtualization/cohesity-my-initial-impression/</link>
       <pubDate>Tue, 22 Nov 2016 13:05:33 +0000</pubDate>
       
-      <guid>/posts/cohesity-my-initial-impression/</guid>
+      <guid>/virtualization/cohesity-my-initial-impression/</guid>
       <description>A few weeks back Cohesity gave me access to a lab environment, where I could play around with their HyperConverged Secondary Data solution. For those unaware of their offering entails, it&amp;rsquo;s simply put a solution for managing secondary storage. In this case, secondary storage is really everything that isn&amp;rsquo;t mission critical. It can be your backups, test/dev workloads, file shares and so on . The idea to place these unstructured data sets on a secondary storage platform, to ease management and analytics but at the same time keep it integrated with the rest of the existing environment.</description>
     </item>
     

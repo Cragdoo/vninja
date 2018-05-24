@@ -14,60 +14,60 @@
     
     <item>
       <title>VSAN - The Unspoken Future</title>
-      <link>/posts/vsan-unspoken-future/</link>
+      <link>/virtualization/vsan-unspoken-future/</link>
       <pubDate>Mon, 17 Mar 2014 22:41:34 +0000</pubDate>
       
-      <guid>/posts/vsan-unspoken-future/</guid>
+      <guid>/virtualization/vsan-unspoken-future/</guid>
       <description>This rather tongue-in-cheek title, is a play on Maish recent VSAN - The Unspoken Truth post where he highlights what he thinks is one of the hidden &amp;ldquo;problems&amp;rdquo; with the current version of VSAN is it&amp;rsquo;s inherent non-blade compatibility and current lack of &amp;ldquo;rack based VSAN ready nodes&amp;rdquo;.
 Of course, this is a reality; If you base your current infrastructure on blade servers, VSAN probably isn&amp;rsquo;t a good match as it stands today.</description>
     </item>
     
     <item>
       <title>Random VCDX Tips and Quotes?</title>
-      <link>/posts/random-vcdx-tips-quotes/</link>
+      <link>/virtualization/random-vcdx-tips-quotes/</link>
       <pubDate>Wed, 29 Jan 2014 15:58:10 +0000</pubDate>
       
-      <guid>/posts/random-vcdx-tips-quotes/</guid>
+      <guid>/virtualization/random-vcdx-tips-quotes/</guid>
       <description>I needed something to spruce up my desktop environment, and it seems that one of the more popular ways to do that is to display random quotes and such on your desktop. Instead of hooking up to an existing quotes database, I simply made my own.
 I have collected a few VCDX related tips and quotes, primarily from the archive Duncan Epping put together of VCDX Tips from VCDX 001 John Arrasjid, but also from the &amp;ldquo;submissions&amp;rdquo; I got from VCDX?</description>
     </item>
     
     <item>
       <title>Fixing &#34;Could not create vFlash cache&#34; error when powering on a VM</title>
-      <link>/posts/fixing-could-create-vflash-cache-error-powering-vm/</link>
+      <link>/virtualization/fixing-could-create-vflash-cache-error-powering-vm/</link>
       <pubDate>Sun, 19 Jan 2014 19:19:02 +0000</pubDate>
       
-      <guid>/posts/fixing-could-create-vflash-cache-error-powering-vm/</guid>
+      <guid>/virtualization/fixing-could-create-vflash-cache-error-powering-vm/</guid>
       <description>During some way overdue housekeeping in my HP Microserver-based &amp;ldquo;Homelab&amp;rdquo; today, I ran into a rather annoying issue that prevented me from starting one of my more important VMs; namely my home Domain Controller.
 In short, I removed an old SSD drive that I&amp;rsquo;ve used for vFlash Read Cache (vFRC) testing and installed a new 1TB drive instead. Since I have a rather beefy work lab now, I need space more than speed at home, so this seemed like a good idea at the time.</description>
     </item>
     
     <item>
       <title>Social Media, Karma and Being a Dick</title>
-      <link>/posts/social-media-karma-dick/</link>
+      <link>/rant/social-media-karma-dick/</link>
       <pubDate>Tue, 08 Oct 2013 13:12:13 +0000</pubDate>
       
-      <guid>/posts/social-media-karma-dick/</guid>
+      <guid>/rant/social-media-karma-dick/</guid>
       <description>Rant alert [@Acronis](https://twitter.com/Acronis) sorry, not happening. — Christian Mohn (@h0bbel) [October 8, 2013](https://twitter.com/h0bbel/statuses/387562111972683776) In and of itself, this tweet is fair enough, even if borderline spam. My reaction to it however, tells a different story. _I admit it, it´s a bit harsh and straight to the point, but something has to have triggered such a response, right? _Rewind back to VMworld US, and Acronis posted this:
 [@sbeloussov](https://twitter.com/sbeloussov) [@veeam](https://twitter.com/veeam) [@VMworld](https://twitter.com/VMworld) fortunately we don&#39;t need to make our customers drunk to persuade them to buy our soft.</description>
     </item>
     
     <item>
       <title>Can you combine vSphere Host Cache and vFlash on a single SSD?</title>
-      <link>/posts/combine-vsphere-host-cache-vflash-single-ssd/</link>
+      <link>/vmware-2/combine-vsphere-host-cache-vflash-single-ssd/</link>
       <pubDate>Mon, 30 Sep 2013 00:12:39 +0000</pubDate>
       
-      <guid>/posts/combine-vsphere-host-cache-vflash-single-ssd/</guid>
+      <guid>/vmware-2/combine-vsphere-host-cache-vflash-single-ssd/</guid>
       <description>One of the new features in vSphere 5.5 is the vSphere vFlash that enables you to use a SSD/Flash device as a read cache for your storage. Duncan Epping has a series of posts on vSphere Flash Cache that is well worth a read.
 vSphere vFlash caches your read IOs, but at the same time you can use it as a swap device if you run into memory contention issues. The vSphere vFlash Host Cache is similar to the older Host Cache feature, but if you are upgrading from an older version of ESXi there is a couple of things that needs to be done to be able to use this feature.</description>
     </item>
     
     <item>
       <title>vCenter Client Download URLs</title>
-      <link>/posts/vcenter-client-download-urls/</link>
+      <link>/vmware-2/vcenter-client-download-urls/</link>
       <pubDate>Mon, 12 Mar 2012 12:50:31 +0000</pubDate>
       
-      <guid>/posts/vcenter-client-download-urls/</guid>
+      <guid>/vmware-2/vcenter-client-download-urls/</guid>
       <description>Since the vCenter Client no longer is bundled with an ESXi host installation, I´ve compiled a quick list of direct download URLs for the most recent clients.
 Update 17th September 2014: VMware has published the official list in knowledge base article KB2089791, use that as the official list going forward.
 Remember, the client download URL is still available from the vCenter server, if you point your browser to it.</description>

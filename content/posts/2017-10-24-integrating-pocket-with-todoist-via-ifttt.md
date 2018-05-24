@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2017-10-24 13:47:35+00:00
 layout: post
-link: http://vninja.net/workflow/integrating-pocket-with-todoist-via-ifttt/
 slug: integrating-pocket-with-todoist-via-ifttt
 title: Integrating Pocket with Todoist via IFTTT
+url: /workflow/integrating-pocket-with-todoist-via-ifttt/
 wordpress_id: 4805
 categories:
 - Workflow

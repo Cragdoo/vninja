@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="Fixing &#34;Could not create vFlash cache&#34; error when powering on a VM" />
+<meta property="og:description" content="During some way overdue housekeeping in my HP Microserver-based &ldquo;Homelab&rdquo; today, I ran into a rather annoying issue that prevented me from starting one of my more important VMs; namely my home Domain Controller.
+In short, I removed an old SSD drive that I&rsquo;ve used for vFlash Read Cache (vFRC) testing and installed a new 1TB drive instead. Since I have a rather beefy work lab now, I need space more than speed at home, so this seemed like a good idea at the time." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/virtualization/fixing-could-create-vflash-cache-error-powering-vm/" />
+
+
+
+<meta property="article:published_time" content="2014-01-19T19:19:02&#43;00:00"/>
+
+<meta property="article:modified_time" content="2014-01-19T19:19:02&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Fixing &#34;Could not create vFlash cache&#34; error when powering on a VM"/>
+<meta name="twitter:description" content="During some way overdue housekeeping in my HP Microserver-based &ldquo;Homelab&rdquo; today, I ran into a rather annoying issue that prevented me from starting one of my more important VMs; namely my home Domain Controller.
+In short, I removed an old SSD drive that I&rsquo;ve used for vFlash Read Cache (vFRC) testing and installed a new 1TB drive instead. Since I have a rather beefy work lab now, I need space more than speed at home, so this seemed like a good idea at the time."/>
+<meta name="generator" content="Hugo 0.40.3" />
+
+
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Fixing &#34;Could not create vFlash cache&#34; error when powering on a VM",
+  "url": "/virtualization/fixing-could-create-vflash-cache-error-powering-vm/",
+  "wordCount": "736",
+  "datePublished": "2014-01-19T19:19:02&#43;00:00",
+  "dateModified": "2014-01-19T19:19:02&#43;00:00",
+  "author": {
+    "@type": "Person",
+    "name": "cmohn"
+  },
+  "keywords": "Virtualization, featured, SSD, vCenter, vCenter Appliance, VCSA, vFlash Read Cache, vFRC, vSphere, Web Client"
+}
+</script>
+
+
+
+    <link rel="canonical" href="/virtualization/fixing-could-create-vflash-cache-error-powering-vm/">
+
+    <title>Fixing &ldquo;Could not create vFlash cache&rdquo; error when powering on a VM | Adventures in Hugo</title>
+
+    <!-- combined, minified CSS -->
+    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
+
+    
+
+    
+
+    
+
+    
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="/">Home</a>
+          
+          <a class="nav-link" href="https://example.org" title="">Link 1</a>
+          
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
+        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+      </div>
+    </header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/virtualization/fixing-could-create-vflash-cache-error-powering-vm/">Fixing &ldquo;Could not create vFlash cache&rdquo; error when powering on a VM</a></h2>
+    <p class="blog-post-meta"><time datetime="2014-01-19T19:19:02Z">Sun Jan 19, 2014</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/featured" rel="tag">featured</a>, <a href="/tags/ssd" rel="tag">SSD</a>, <a href="/tags/vcenter" rel="tag">vCenter</a>, <a href="/tags/vcenter-appliance" rel="tag">vCenter Appliance</a>, <a href="/tags/vcsa" rel="tag">VCSA</a>, <a href="/tags/vflash-read-cache" rel="tag">vFlash Read Cache</a>, <a href="/tags/vfrc" rel="tag">vFRC</a>, <a href="/tags/vsphere" rel="tag">vSphere</a>, <a href="/tags/web-client" rel="tag">Web Client</a>
+
+</p>
+  </header>
+  <p>During some way overdue housekeeping in my HP Microserver-based &ldquo;Homelab&rdquo; today, I ran into a rather annoying issue that prevented me from starting one of my more important VMs; namely my home Domain Controller.</p>
+
+<p>In short, I removed an old SSD drive that I&rsquo;ve used for vFlash Read Cache (vFRC) testing and installed a new 1TB drive instead. Since I have a rather beefy work lab now, I need space more than speed at home, so this seemed like a good idea at the time.</p>
+
+<p>A good idea that is, until I tried starting my DC VM, which also is my DNS and DHCP server, and got greeted with this little gem:</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2014/01/Zappa-SSD-Failure.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2014/01/Zappa-SSD-Failure.png" alt="Zappa-SSD-Failure" /></a></p>
+
+<p>The &ldquo;_Could not create vFlash cache: msg.vflashcache.error.VFC<em>FAILURE</em>&rdquo; error is understandable, the SSD drive was removed, but I honestly did not think that even if a VM was configured to use it, that it&rsquo;s absence would prevent a power-on operation on that VM. I would have expected it to throw a warning about the cache location missing, and warn me that acceleration was not happening, not a flat out &ldquo;<em>cannot power on</em>&rdquo;.</p>
+
+<p>Normally the fix for this would be quick and easy, edit the VM and remove the <strong>vFRC</strong> configuration, but since my host has a whopping total of 8GB of memory I don&rsquo;t have vCenter running at all times.  Editing the VM settings through the vCenter Legacy Client (C#) does not work, since vFRC requires Virtual Hardware Version 10, which it cannot edit.</p>
+
+<p>Once I got the vCenter Server Appliance (vCSA) fired up, I realised that I have somehow forgotten the admin AND root passwords, and was completely unable to log-on. How that has happened is beyond me, but for the life of me I was not able to log on.</p>
+
+<p>Next step was to try and edit the VM from VMware Workstation 10 installed on one of the Windows boxes in my network. Sadly Workstation has no concept of <strong>vFRC</strong>, and it is not possible to edit that particular VM setting, even if you connect it to the vSphere host. I later on also realized that VMware Workstation 10 is also unable to host connect  USB peripherals, like printers, to a VM, but that&rsquo;s beside the point right now.<a href="https://www.google.com/search?client=safari&amp;rls=en&amp;q=peripherals&amp;spell=1&amp;sa=X&amp;ei=PCHcUtu7KoeS5ASH1IGoDw&amp;ved=0CCcQvwUoAA"><strong>_
+_</strong></a></p>
+
+<p>So, either trying to hack the VM Hardware Version to a value that the vSphere Client can handle, of  deploying a new <strong>vCSA</strong> instance, I was left with editing the VMs <em>vmx</em> file directly.</p>
+
+<p>Thankfully this was an easy way to fix the problem, and get the VM powered on. For each vmdk file that is configured to use <strong>vFRC</strong>, there is a corresponding entry in the <em>vmx</em> file, that controls <strong>vFRC</strong>.</p>
+
+<p>In order to turn off <strong>vFRC</strong> acceleration for a given disk, download the vmx file, and change the value for <device>.vFlash.enabled from
+[cc lang=&ldquo;bash&rdquo; width=&ldquo;100%&rdquo; theme=&ldquo;blackboard&rdquo; nowrap=&ldquo;0&rdquo;]
+sched.scsi0:2.vFlash.enabled = &ldquo;TRUE&rdquo;
+[/cc]
+to
+[cc lang=&ldquo;bash&rdquo; width=&ldquo;100%&rdquo; theme=&ldquo;blackboard&rdquo; nowrap=&ldquo;0&rdquo;]
+sched.scsi0:2.vFlash.enabled = &ldquo;FALSE&rdquo;
+[/cc]</p>
+
+<p>Re-upload the <em>vmx</em> file, and try to power on. In my case, this fixed the problem of powering on the VM.</p>
+
+<p>This problem again highlights one of the problems with the dependancy on the new vSphere Web Client. In a real production environment, the vCenter would be up and running at all times, and editing the VM would have been a small task, but what if you had used <strong>vFRC</strong> to speed up <strong>vCSA</strong> itself, and you had a failed SSD drive?</p>
+
+<p>Of course, in this case the fault is mostly mine. I removed a &ldquo;production SSD&rdquo;, without first removing the <strong>vFRC</strong> configuration. I did not have a working vCSA with Web Client up and running when this was done, and I had forgotten my passwords. A pretty specific error generating procedure if there ever was one.</p>
+
+<p>It&rsquo;s an easy fix to edit the <em>vmx</em> file, but it does at times feel a little bit like you are now able to cut of the branch you are sitting on with the new vSphere Web Client. In simpler days, you could pretty much fix anything by connecting the vSphere Client to the host and fix any errors there, but now the dependancy on the vCenter Server is stronger than ever.</p>
+
+<p>_ Before upgrading your VMs to Hardware Version 10, make sure you understand the implications of going all-in with dependancies on the Web Client and vCenter. It might just come back and bite you if you _<em>haven&rsquo;t thought through your design.</em></p>
+
+
+  
+
+  
+  <hr>
+  <footer>
+
+  
+    <section>
+    <h4>Share</h4>
+    <nav class="nav sharing-icons">
+      <a class="nav-item" href="https://www.facebook.com/sharer/sharer.php?u=%2fvirtualization%2ffixing-could-create-vflash-cache-error-powering-vm%2f" title="Share on Facebook"><span class="fa fa-facebook fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://plus.google.com/share?url=%2fvirtualization%2ffixing-could-create-vflash-cache-error-powering-vm%2f" title="Share on Google+"><span class="fa fa-google-plus fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fvirtualization%2ffixing-could-create-vflash-cache-error-powering-vm%2f" title="Share on LinkedIn"><span class="fa fa-linkedin fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://twitter.com/home?status=%2fvirtualization%2ffixing-could-create-vflash-cache-error-powering-vm%2f" title="Tweet this"><span class="fa fa-twitter fa-2x"></span></a>
+    </nav>
+  </section>
+
+  
+
+  
+  </footer>
+  
+
+</article> 
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="https://example.com">Link 1</a></li>
+      
+      <li><a href="https://example.org">Link 2</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p>
+      
+      &copy; Christian Mohn
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>

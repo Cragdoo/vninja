@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2015-07-27 13:38:49+00:00
 layout: post
-link: http://vninja.net/virtualization/veeam-vanguard-2015/
 slug: veeam-vanguard-2015
 title: Veeam Vanguard 2015
+url: /virtualization/veeam-vanguard-2015/
 wordpress_id: 3705
 categories:
 - Virtualization

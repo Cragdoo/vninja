@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2014-12-12 12:24:55+00:00
 layout: post
-link: http://vninja.net/vmware-2/importing-vcloud-air-ssl-certificate-vcenter-server-appliance-5-x/
 slug: importing-vcloud-air-ssl-certificate-vcenter-server-appliance-5-x
 title: Importing vCloud Air SSL Certificate on the vCenter Server Appliance 5.x
+url: /vmware-2/importing-vcloud-air-ssl-certificate-vcenter-server-appliance-5-x/
 wordpress_id: 3470
 categories:
 - VMware

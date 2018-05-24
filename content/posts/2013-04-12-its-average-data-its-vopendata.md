@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2013-04-12 23:09:20+00:00
 layout: post
-link: http://vninja.net/virtualization/its-average-data-its-vopendata/
 slug: its-average-data-its-vopendata
 title: It`s Not Your Average Data it`s vOpenData
+url: /virtualization/its-average-data-its-vopendata/
 wordpress_id: 2524
 categories:
 - Virtualization

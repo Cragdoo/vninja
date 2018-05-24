@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2018-01-29 22:49:53+00:00
 layout: post
-link: http://vninja.net/vmware-2/bootbank-cannot-be-found-at-path/
 slug: bootbank-cannot-be-found-at-path
 title: Alerting on "Bootbank cannot be found at path ‘/bootbank’" in vRealize Operations
+url: /vmware-2/bootbank-cannot-be-found-at-path/
 wordpress_id: 4963
 categories:
 - VMware

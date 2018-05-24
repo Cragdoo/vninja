@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2015-03-02 22:23:03+00:00
 layout: post
-link: http://vninja.net/virtualization/vvotemageddon-2015/
 slug: vvotemageddon-2015
 title: vVotemageddon 2015
+url: /virtualization/vvotemageddon-2015/
 wordpress_id: 3645
 categories:
 - Virtualization

@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2010-10-15 07:33:54+00:00
 layout: post
-link: http://vninja.net/virtualization/vmworld-europe-2010the-aftermath/
 slug: vmworld-europe-2010the-aftermath
 title: VMworld Europe 2010 – The aftermath
+url: /virtualization/vmworld-europe-2010the-aftermath/
 wordpress_id: 373
 categories:
 - Virtualization

@@ -14,19 +14,19 @@
     
     <item>
       <title>vCenter Update Manager - A Feature Request</title>
-      <link>/posts/vcenter-update-manager-a-feature-request/</link>
+      <link>/virtualization/vcenter-update-manager-a-feature-request/</link>
       <pubDate>Fri, 22 Apr 2011 21:07:35 +0000</pubDate>
       
-      <guid>/posts/vcenter-update-manager-a-feature-request/</guid>
+      <guid>/virtualization/vcenter-update-manager-a-feature-request/</guid>
       <description>Way back in August 24 2010 I wrote a post called vCenter Update Manager to lose it’s fat. I&amp;rsquo;m still very happy that VMware has decided to drop OS patching from the product, and I still mean that can only be a good thing. In fact, that article prompted Beth Pariseau Senior News Writer for searchservervirtualization.techtarget.com to call me when researching her VMware users eye changes to Update Manager article.</description>
     </item>
     
     <item>
       <title>vCenter Update Manager to lose it&#39;s fat</title>
-      <link>/posts/vcenter-update-manager-to-lose-its-fat/</link>
+      <link>/virtualization/vcenter-update-manager-to-lose-its-fat/</link>
       <pubDate>Tue, 24 Aug 2010 21:48:02 +0000</pubDate>
       
-      <guid>/posts/vcenter-update-manager-to-lose-its-fat/</guid>
+      <guid>/virtualization/vcenter-update-manager-to-lose-its-fat/</guid>
       <description>Dwayne Lessner who runs IT Blood Pressure, has written a guest post on GestaltIT called Is My Favourite VSphere Tool Is Going Away?
 In his article, Dwayne talks about vCenter Update Manager 4.1, and the fact that it seems to be the last version of the tools that will allow you to patch your Windows and Linux guests:
  VMware vCenter Update Manager Features. vCenter Update Manager 4.1 and its subesquent update releases are the last releases to support scanning and remediation of patches for Windows and Linux guest operating systems and applications running inside a virtual machine.</description>

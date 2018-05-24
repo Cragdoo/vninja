@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2017-11-22 16:09:38+00:00
 layout: post
-link: http://vninja.net/awesometalks/lisa17-dont-you-know-who-i-am-the-danger-of-celebrity-in-tech/
 slug: lisa17-dont-you-know-who-i-am-the-danger-of-celebrity-in-tech
 title: LISA17 - "Don't You Know Who I Am?!" The Danger of Celebrity in Tech
+url: /awesometalks/lisa17-dont-you-know-who-i-am-the-danger-of-celebrity-in-tech/
 wordpress_id: 4852
 categories:
 - AwesomeTalks

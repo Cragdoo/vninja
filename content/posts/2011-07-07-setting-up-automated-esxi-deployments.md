@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2011-07-07 08:10:55+00:00
 layout: post
-link: http://vninja.net/virtualization/setting-up-automated-esxi-deployments/
 slug: setting-up-automated-esxi-deployments
 title: Setting Up Automated ESXi Deployments
+url: /virtualization/setting-up-automated-esxi-deployments/
 wordpress_id: 724
 categories:
 - Howto

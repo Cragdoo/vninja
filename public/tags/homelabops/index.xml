@@ -14,10 +14,10 @@
     
     <item>
       <title>Logging SSH logins to Slack</title>
-      <link>/posts/logging-ssh-logins-to-slack/</link>
+      <link>/homelab/logging-ssh-logins-to-slack/</link>
       <pubDate>Thu, 06 Oct 2016 11:31:51 +0000</pubDate>
       
-      <guid>/posts/logging-ssh-logins-to-slack/</guid>
+      <guid>/homelab/logging-ssh-logins-to-slack/</guid>
       <description>I&amp;rsquo;m using Slack to alert and log a few things in my environment, and one of the things I use it for is to alert me if someone logs on via SSH to my public facing Jumphost.
 For a good walkthrough on how to set up such a host, check out Tunnel all your remote connections through ssh with a linux jumpbox by Luca Dell&amp;rsquo;Oca.
 My Ubuntu 16.04 Jumphost is set up to only accept Key-Based Authentication, to secure it as much as possible, but I would still like to get instant notification if someone logs into it interactively.</description>

@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2014-09-17 21:24:24+00:00
 layout: post
-link: http://vninja.net/vmware-2/vsphere-client-vmware-covered/
 slug: vsphere-client-vmware-covered
 title: Need the vSphere Client? VMware Has You Covered.
+url: /vmware-2/vsphere-client-vmware-covered/
 wordpress_id: 3398
 categories:
 - VMware

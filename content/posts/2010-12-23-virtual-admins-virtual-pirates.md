@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2010-12-23 22:20:15+00:00
 layout: post
-link: http://vninja.net/virtualization/virtual-admins-virtual-pirates/
 slug: virtual-admins-virtual-pirates
 title: Virtual Admins - Virtual Pirates?
+url: /virtualization/virtual-admins-virtual-pirates/
 wordpress_id: 678
 categories:
 - Virtualization

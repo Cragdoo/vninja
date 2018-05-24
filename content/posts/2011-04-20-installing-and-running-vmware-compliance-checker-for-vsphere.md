@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2011-04-20 07:01:37+00:00
 layout: post
-link: http://vninja.net/news/installing-and-running-vmware-compliance-checker-for-vsphere/
 slug: installing-and-running-vmware-compliance-checker-for-vsphere
 title: Installing and running VMware Compliance Checker for vSphere
+url: /news/installing-and-running-vmware-compliance-checker-for-vsphere/
 wordpress_id: 1055
 categories:
 - Howto

@@ -14,20 +14,20 @@
     
     <item>
       <title>Upgrading vSphere vCenter Appliance 5.1 to 5.5</title>
-      <link>/posts/upgrading-vsphere-vcenter-appliance-5-1-5-5/</link>
+      <link>/vmware-2/upgrading-vsphere-vcenter-appliance-5-1-5-5/</link>
       <pubDate>Mon, 30 Sep 2013 12:20:38 +0000</pubDate>
       
-      <guid>/posts/upgrading-vsphere-vcenter-appliance-5-1-5-5/</guid>
+      <guid>/vmware-2/upgrading-vsphere-vcenter-appliance-5-1-5-5/</guid>
       <description>In VMware KB Upgrading vCenter Server Appliance 5.0.x/5.1 to 5.5 (2058441) the procedure for upgrading an existing 5.0/5.1 vSphere vCenter Server Appliance is outlined, walking you through the steps required including deploying a new 5.5 vCSA and transferring the data from the old instance to the new one. Straight forward procedure, but there is one small caveat in this process.
 One important thing to remember, and something I don´t feel that the knowledge-base article highlights well enough is that the new v5.</description>
     </item>
     
     <item>
       <title>vSphere 5.5 Availability and VSAN Public Beta</title>
-      <link>/posts/vsphere-5-5-availability-vsan-public-beta/</link>
+      <link>/vmware-2/vsphere-5-5-availability-vsan-public-beta/</link>
       <pubDate>Thu, 12 Sep 2013 21:22:17 +0000</pubDate>
       
-      <guid>/posts/vsphere-5-5-availability-vsan-public-beta/</guid>
+      <guid>/vmware-2/vsphere-5-5-availability-vsan-public-beta/</guid>
       <description>As Eric Siebert has pointed out, the VMware vSphere release cycles are shortening.
 While vSphere 5.1 could be seen as a bit rushed, especially in regards to SSO, when it was released, the shorter release cycles seem to work out pretty well.
 This does make me think though; vSphere 5.5 is pretty much ready to be released to the general public, and the new VSAN component will be in a public beta at the same time.</description>

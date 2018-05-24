@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2012-11-30 09:12:50+00:00
 layout: post
-link: http://vninja.net/virtualization/exporting-vcenter-events-powercli/
 slug: exporting-vcenter-events-powercli
 title: Exporting vCenter Events with PowerCLI
+url: /virtualization/exporting-vcenter-events-powercli/
 wordpress_id: 2228
 categories:
 - Virtualization

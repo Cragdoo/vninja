@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2016-02-18 18:51:14+00:00
 layout: post
-link: http://vninja.net/vmware-2/vcenter-server-appliance-backups/
 slug: vcenter-server-appliance-backups
 title: vCenter Server Appliance Backups
+url: /vmware-2/vcenter-server-appliance-backups/
 wordpress_id: 4041
 categories:
 - VMware

@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2013-05-30 21:08:45+00:00
 layout: post
-link: http://vninja.net/storage-2/virtual-connect-flexfabric-direct-attach-fc-3par-caveat/
 slug: virtual-connect-flexfabric-direct-attach-fc-3par-caveat
 title: Virtual Connect FlexFabric and Direct-Attach FC 3Par Caveat
+url: /storage-2/virtual-connect-flexfabric-direct-attach-fc-3par-caveat/
 wordpress_id: 2588
 categories:
 - Storage

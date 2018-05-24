@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2010-10-15 20:29:14+00:00
 layout: post
-link: http://vninja.net/virtualization/developer-meets-powercli-awesomeness-ensues/
 slug: developer-meets-powercli-awesomeness-ensues
 title: Developer meets PowerCLI - awesomeness ensues
+url: /virtualization/developer-meets-powercli-awesomeness-ensues/
 wordpress_id: 397
 categories:
 - Virtualization

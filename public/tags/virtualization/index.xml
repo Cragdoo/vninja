@@ -14,20 +14,20 @@
     
     <item>
       <title>VSAN - The Unspoken Future</title>
-      <link>/posts/vsan-unspoken-future/</link>
+      <link>/virtualization/vsan-unspoken-future/</link>
       <pubDate>Mon, 17 Mar 2014 22:41:34 +0000</pubDate>
       
-      <guid>/posts/vsan-unspoken-future/</guid>
+      <guid>/virtualization/vsan-unspoken-future/</guid>
       <description>This rather tongue-in-cheek title, is a play on Maish recent VSAN - The Unspoken Truth post where he highlights what he thinks is one of the hidden &amp;ldquo;problems&amp;rdquo; with the current version of VSAN is it&amp;rsquo;s inherent non-blade compatibility and current lack of &amp;ldquo;rack based VSAN ready nodes&amp;rdquo;.
 Of course, this is a reality; If you base your current infrastructure on blade servers, VSAN probably isn&amp;rsquo;t a good match as it stands today.</description>
     </item>
     
     <item>
       <title>Automatically Name Datastores in vSphere?</title>
-      <link>/posts/automatically-datastores-vsphere/</link>
+      <link>/vmware-2/automatically-datastores-vsphere/</link>
       <pubDate>Tue, 18 Feb 2014 16:16:28 +0000</pubDate>
       
-      <guid>/posts/automatically-datastores-vsphere/</guid>
+      <guid>/vmware-2/automatically-datastores-vsphere/</guid>
       <description>William Lam posted &amp;ldquo;Why you should rename the default VSAN Datastore name&amp;rdquo; where he outlines why the default name for VSAN data stores should be changed. Of course, I completely agree with his views on this; Leaving it at the default might cause confusion down the line.
 At the end of the post, William asks the following:
 I wonder if it would be a useful to have a feature in VSAN to automatically append the vSphere Cluster name to the default VSAN Datastore name?</description>
@@ -35,20 +35,20 @@ I wonder if it would be a useful to have a feature in VSAN to automatically appe
     
     <item>
       <title>Can you combine vSphere Host Cache and vFlash on a single SSD?</title>
-      <link>/posts/combine-vsphere-host-cache-vflash-single-ssd/</link>
+      <link>/vmware-2/combine-vsphere-host-cache-vflash-single-ssd/</link>
       <pubDate>Mon, 30 Sep 2013 00:12:39 +0000</pubDate>
       
-      <guid>/posts/combine-vsphere-host-cache-vflash-single-ssd/</guid>
+      <guid>/vmware-2/combine-vsphere-host-cache-vflash-single-ssd/</guid>
       <description>One of the new features in vSphere 5.5 is the vSphere vFlash that enables you to use a SSD/Flash device as a read cache for your storage. Duncan Epping has a series of posts on vSphere Flash Cache that is well worth a read.
 vSphere vFlash caches your read IOs, but at the same time you can use it as a swap device if you run into memory contention issues. The vSphere vFlash Host Cache is similar to the older Host Cache feature, but if you are upgrading from an older version of ESXi there is a couple of things that needs to be done to be able to use this feature.</description>
     </item>
     
     <item>
       <title>Monitoring the ESXi Upgrade Process</title>
-      <link>/posts/monitoring-esxi-upgrade-process/</link>
+      <link>/vmware-2/monitoring-esxi-upgrade-process/</link>
       <pubDate>Wed, 26 Jun 2013 10:34:18 +0000</pubDate>
       
-      <guid>/posts/monitoring-esxi-upgrade-process/</guid>
+      <guid>/vmware-2/monitoring-esxi-upgrade-process/</guid>
       <description>When doing manual host upgrades, either through the direct method or via a locally placed upgrade bundle, there is a distinct lack of progress information available after running the esxcli command.
 Thankfully the ESXi host provides a running logfile of the upgrade process, which makes it much easier to keep track of what is going on and that the upgrade is indeed being performed.
 The esxupdate.log is located in /var/log, and by issuing the following command in a terminal window you can have a rolling log showing you the upgrade status and progress:</description>
@@ -56,10 +56,10 @@ The esxupdate.log is located in /var/log, and by issuing the following command i
     
     <item>
       <title>Adding a secondary NIC to the vCenter 5.1 Appliance (VCSA)</title>
-      <link>/posts/adding-secondary-nic-vcenter-5-1-appliance-vcsa/</link>
+      <link>/virtualization/adding-secondary-nic-vcenter-5-1-appliance-vcsa/</link>
       <pubDate>Thu, 25 Apr 2013 11:10:33 +0000</pubDate>
       
-      <guid>/posts/adding-secondary-nic-vcenter-5-1-appliance-vcsa/</guid>
+      <guid>/virtualization/adding-secondary-nic-vcenter-5-1-appliance-vcsa/</guid>
       <description>While building my lab environment, I ran into a situation where I wanted to have a completely sealed off networking segment that had no outside access.
 This is a trivial task on it`s own, just create a vSwitch with no physical NICs attached to it, and then connect the VMs to it. The VMs will then have interconnectivity, but no outside network access at all.
 In this particular case, I was setting up a couple of nested ESXi servers that I wanted to connect to the &amp;ldquo;outside&amp;rdquo; vCenter Appliance (VCSA).</description>
@@ -67,10 +67,10 @@ In this particular case, I was setting up a couple of nested ESXi servers that I
     
     <item>
       <title>Brilliant idea: VMware Hosted Beta</title>
-      <link>/posts/brilliant-idea-vmware-hosted-beta/</link>
+      <link>/vmware-2/brilliant-idea-vmware-hosted-beta/</link>
       <pubDate>Wed, 27 Mar 2013 08:50:29 +0000</pubDate>
       
-      <guid>/posts/brilliant-idea-vmware-hosted-beta/</guid>
+      <guid>/vmware-2/brilliant-idea-vmware-hosted-beta/</guid>
       <description>Duncan Epping rather unceremoniously published a blog post &amp;ldquo;New Beta Program offering: VMware Hosted Beta&amp;rdquo; yesterday, outlining the availability of the new hosted beta offering that companions some of the current VMware beta programs.
 _Due to the very NDA nature of the beta programs, I can´t really go into details on what is currently offered, but what I can say is this: Well done VMware!_
 The VMware Hosted Beta runs on the same engine that runs the VMware Hands on Labs Online – Beta, but with a little added twist.</description>
@@ -78,29 +78,29 @@ The VMware Hosted Beta runs on the same engine that runs the VMware Hands on La
     
     <item>
       <title>Purging the vCenter Operations Manager 5.x Database</title>
-      <link>/posts/purging-vcenter-operations-manager-5-x-database/</link>
+      <link>/vmware-2/purging-vcenter-operations-manager-5-x-database/</link>
       <pubDate>Tue, 05 Feb 2013 12:26:26 +0000</pubDate>
       
-      <guid>/posts/purging-vcenter-operations-manager-5-x-database/</guid>
+      <guid>/vmware-2/purging-vcenter-operations-manager-5-x-database/</guid>
       <description>A client of mine recently had their vCenter 5.0 appliance replaced with a new vCenter 5.1 appliance, something vCenter Operations Manager did not enjoy. In this case the original vCenter 5.0 Appliance was turned shut down, a new 5.1 Appliance deployed, with the same IP as the old one, and then configured. Naturally the existing hosts were added to the fresh vCenter, clusters recreated and in general everything was reconfigured.</description>
     </item>
     
     <item>
       <title>vCenter Operations Manager and vCenter Deployment Dependency</title>
-      <link>/posts/vcenter-operations-manager-vcenter-deployment-dependency/</link>
+      <link>/vmware-2/vcenter-operations-manager-vcenter-deployment-dependency/</link>
       <pubDate>Wed, 16 Jan 2013 21:59:07 +0000</pubDate>
       
-      <guid>/posts/vcenter-operations-manager-vcenter-deployment-dependency/</guid>
+      <guid>/vmware-2/vcenter-operations-manager-vcenter-deployment-dependency/</guid>
       <description>In order to be able to deploy vCenter Operations Manager, the ESXi host it is deployed to needs to be managed by a vCenter. At first glance, that seems like a fair and pretty straight forward requirement, right? But, is it?
 While I can see the need for a vCenter in the environment that vCenter Operations Manager is supposed to monitor, I don´t understand why the host you want to deploy the vApp on has to be managed by a vCenter instance as well?</description>
     </item>
     
     <item>
       <title>Dell (VKernel) vOPS Server Explorer 6.3 Released</title>
-      <link>/posts/dell-vkernel-vops-server-explorer-6-3-released/</link>
+      <link>/virtualization/dell-vkernel-vops-server-explorer-6-3-released/</link>
       <pubDate>Mon, 14 Jan 2013 23:53:50 +0000</pubDate>
       
-      <guid>/posts/dell-vkernel-vops-server-explorer-6-3-released/</guid>
+      <guid>/virtualization/dell-vkernel-vops-server-explorer-6-3-released/</guid>
       <description>[caption id=&amp;ldquo;attachment_2341&amp;rdquo; align=&amp;ldquo;alignright&amp;rdquo; width=&amp;ldquo;300&amp;rdquo;] vOPS 6.3 Environment Explorer[/caption]
 Yesterday fellow vExpert Mattias Sundling gave me a little pre-release briefing of the new Dell/VKernel vOPS Server Explorer 6.3 release.
 While I don´t normally do press release posts like these, I´m willing to make an exception in this case.
@@ -109,29 +109,29 @@ Not only is vOPS Server Explorer 6.3 available in a free version, with the famil
     
     <item>
       <title>Exporting vCenter Events with PowerCLI</title>
-      <link>/posts/exporting-vcenter-events-powercli/</link>
+      <link>/virtualization/exporting-vcenter-events-powercli/</link>
       <pubDate>Fri, 30 Nov 2012 09:12:50 +0000</pubDate>
       
-      <guid>/posts/exporting-vcenter-events-powercli/</guid>
+      <guid>/virtualization/exporting-vcenter-events-powercli/</guid>
       <description>One of my clients has recently been having issues with their storage solution, and wanted to export the events from vCenter that show storage performance degradation, to aid in troubleshooting with the vendor.
 For some reason, and I have yet to confirm that this is a bug with the vCenter 5.0 appliance or the vCenter Desktop Client, when an event export is done, the storage related events are not exported with the rest of the events.</description>
     </item>
     
     <item>
       <title>Shanghai...  we have a problem...</title>
-      <link>/posts/shanghai-problem/</link>
+      <link>/virtualization/shanghai-problem/</link>
       <pubDate>Mon, 20 Aug 2012 22:28:03 +0000</pubDate>
       
-      <guid>/posts/shanghai-problem/</guid>
+      <guid>/virtualization/shanghai-problem/</guid>
       <description>My Saturday morning started the same as any other. I checked my emails and my tweets, started a coffee, walked my dog and got into the shower. My iPhone buzzing on the sink caught my attention a few minutes into it. Covered in soap and the rest censored for the public here I answered the call. Without getting into too many details of my organization - my bosses-bossess-boss contacted me reporting a fire in one of our server rooms in Shanghai China.</description>
     </item>
     
     <item>
       <title>Building End-User Computing Solutions with VMware View Book Available</title>
-      <link>/posts/building-end-user-computing-solutions-vmware-view-book/</link>
+      <link>/virtualization/building-end-user-computing-solutions-vmware-view-book/</link>
       <pubDate>Fri, 03 Aug 2012 21:17:13 +0000</pubDate>
       
-      <guid>/posts/building-end-user-computing-solutions-vmware-view-book/</guid>
+      <guid>/virtualization/building-end-user-computing-solutions-vmware-view-book/</guid>
       <description>Mike Laverick and Barry Coombs has released their new book, elegantly titled &amp;ldquo;Building End-User Computing Solutions with VMware View&amp;rdquo;.
 Not only is this a great book, it is something that every existing and potential VMware View (and related technologies in the EUC area) administrator should add to their (digital) bookshelves.
 I´ll let the authors themselves describe it:
@@ -140,10 +140,10 @@ This book is all about VMware View 5.1 and ThinApp 4.7.2 administration - and it
     
     <item>
       <title>Vote for the Top VMware &amp; Virtualization Blogs </title>
-      <link>/posts/vote-top-vmware-virtualization-blogs/</link>
+      <link>/news/vote-top-vmware-virtualization-blogs/</link>
       <pubDate>Tue, 24 Jan 2012 08:46:24 +0000</pubDate>
       
-      <guid>/posts/vote-top-vmware-virtualization-blogs/</guid>
+      <guid>/news/vote-top-vmware-virtualization-blogs/</guid>
       <description>Eric Siebert has opened up the voting for the top VMware &amp;amp; virtualization blogs. Head on over and cast your votes!
 Votes for vNinja.net and vSoup.net would be greatly appreciated, but since we´re not affiliated with the Dutch vMaffia we promise that you will not have to wear concrete boots or wake up to a horses head in your bed if you don´t vote for us.
 We think.</description>
@@ -151,19 +151,19 @@ We think.</description>
     
     <item>
       <title>Auto Installation and Configuring of vSphere ESXi 5</title>
-      <link>/posts/auto-installation-and-configuring-of-vsphere-esxi-5/</link>
+      <link>/virtualization/auto-installation-and-configuring-of-vsphere-esxi-5/</link>
       <pubDate>Wed, 21 Dec 2011 23:36:19 +0000</pubDate>
       
-      <guid>/posts/auto-installation-and-configuring-of-vsphere-esxi-5/</guid>
+      <guid>/virtualization/auto-installation-and-configuring-of-vsphere-esxi-5/</guid>
       <description>One of the last projects I&amp;rsquo;ve been involved with at Seatrans, is to automate the installation and configuration of vSphere ESXi 5 hosts for deployment on vessels. I&amp;rsquo;ve talked a bit about this before, both on vSoup and in Setting Up Automated ESXi Deployments where I outlined my PXE and PowerCLI based installation and configuration scheme. Not much has changed since then, except updating the PXE server to offer ESXi 5, instead of ESXi 4 and a lot of work has been put into the scripting, including a front-end GUI for the PowerCLI script itself.</description>
     </item>
     
     <item>
       <title>Blatant Self Promotion</title>
-      <link>/posts/blatant-self-promotion/</link>
+      <link>/virtualization/blatant-self-promotion/</link>
       <pubDate>Mon, 28 Nov 2011 23:16:10 +0000</pubDate>
       
-      <guid>/posts/blatant-self-promotion/</guid>
+      <guid>/virtualization/blatant-self-promotion/</guid>
       <description>As the title says, it&amp;rsquo;s been one of my more &amp;ldquo;public&amp;rdquo; weeks ever. Besides my &amp;ldquo;normal&amp;rdquo; vSoup engagement, this week I&amp;rsquo;ve also been involved with Mike Laverick&amp;rsquo;s VMTN Subscription Movement Miniwags to voice some of my views about the #VMTNSubscriptionMovement.
 Fair warning: This is video, and please to remember that during recording Movember was nearing its final phase. VMTN Subscription Movement Miniwags – Christian Mohn
 Secondly, I was a guest on the Veeam Community Podcast Episode 45 – vSphere 5 Storage Potpourri.</description>
@@ -171,10 +171,10 @@ Secondly, I was a guest on the Veeam Community Podcast Episode 45 – vSphere 5 
     
     <item>
       <title>Installing Windows 8 Developer Preview in VMware Workstation 8</title>
-      <link>/posts/installing-windows-8-developer-preview-in-vmware-workstation-8/</link>
+      <link>/virtualization/installing-windows-8-developer-preview-in-vmware-workstation-8/</link>
       <pubDate>Wed, 14 Sep 2011 12:33:12 +0000</pubDate>
       
-      <guid>/posts/installing-windows-8-developer-preview-in-vmware-workstation-8/</guid>
+      <guid>/virtualization/installing-windows-8-developer-preview-in-vmware-workstation-8/</guid>
       <description>Installing Microsoft Windows 8 in a VMware Workstation 8 VM turned out to be a real piece of cake.
 Follow the screenshots for the procedure I used, but basically all I did was to create a new VM with the pre-configured &amp;ldquo;Windows 8 Server&amp;rdquo; preset and inserted the downloaded ISO file.
 Note: Windows 8 Server has been removed as a preset option in the final release of VMware Workstation 8, my screenshots are from the beta version.</description>
@@ -182,10 +182,10 @@ Note: Windows 8 Server has been removed as a preset option in the final release 
     
     <item>
       <title>Backup Academy - Do You Know Your VM backups?</title>
-      <link>/posts/backup-academy-do-you-know-your-vm-backups/</link>
+      <link>/virtualization/backup-academy-do-you-know-your-vm-backups/</link>
       <pubDate>Tue, 13 Sep 2011 13:39:25 +0000</pubDate>
       
-      <guid>/posts/backup-academy-do-you-know-your-vm-backups/</guid>
+      <guid>/virtualization/backup-academy-do-you-know-your-vm-backups/</guid>
       <description>The newly opened Backup Academy, by Veeam, aims to educate administrators, and others interested in virtual machine backup, in the required skills to maintain a proper backup strategy for your virtual infrastructure.
 Currently the site has 8 videos available, covering content from disaster recovery to backup integrity tools.
 Even if it is run by Veeam, it does not focus on Veeam specific products or services, but rather on the general ideas behind a successful backup and disaster recovery of both VMware and Hyper-V based environments.</description>
@@ -193,10 +193,10 @@ Even if it is run by Veeam, it does not focus on Veeam specific products or serv
     
     <item>
       <title>vSphere 5: ESXi Installation Video</title>
-      <link>/posts/vsphere-5-esxi-installation-video/</link>
+      <link>/virtualization/vsphere-5-esxi-installation-video/</link>
       <pubDate>Thu, 25 Aug 2011 09:28:03 +0000</pubDate>
       
-      <guid>/posts/vsphere-5-esxi-installation-video/</guid>
+      <guid>/virtualization/vsphere-5-esxi-installation-video/</guid>
       <description>To celebrate vSphere 5 GA release today, I&amp;rsquo;ve recorded a quick video of the old school CD/ISO based installation:
 vSphere 5 ESXi Install Video from Christian Mohn on Vimeo.
 Seems strangely familiar, right? Enjoy!</description>
@@ -204,48 +204,48 @@ Seems strangely familiar, right? Enjoy!</description>
     
     <item>
       <title>Setting Up Automated ESXi Deployments</title>
-      <link>/posts/setting-up-automated-esxi-deployments/</link>
+      <link>/virtualization/setting-up-automated-esxi-deployments/</link>
       <pubDate>Thu, 07 Jul 2011 08:10:55 +0000</pubDate>
       
-      <guid>/posts/setting-up-automated-esxi-deployments/</guid>
+      <guid>/virtualization/setting-up-automated-esxi-deployments/</guid>
       <description>Automating ESXi installs was made much easier after the release of vSphere 4.1 where the Scripted Install feature was added, and by using VMware Auto Deploy from VMware Labs. VMware Auto Deploy requires that you have vCenter and Host Profiles in your environment, and that again requires that you have Enterprise Plus licenses in your environment.
 It is, however, possible to deploy ESXi in an automated fashion completely without vCenter and Host Profiles!</description>
     </item>
     
     <item>
       <title>Zerto: Or What I Learned at Tech Field Day #6!</title>
-      <link>/posts/zerto-or-what-i-learned-at-tfd-6/</link>
+      <link>/virtualization/zerto-or-what-i-learned-at-tfd-6/</link>
       <pubDate>Mon, 27 Jun 2011 22:38:26 +0000</pubDate>
       
-      <guid>/posts/zerto-or-what-i-learned-at-tfd-6/</guid>
+      <guid>/virtualization/zerto-or-what-i-learned-at-tfd-6/</guid>
       <description>The last day of Tech Field Day #6 myself and all the other delegates were lucky enough to get a sneak peek at stealth startup &amp;lsquo;Zerto&amp;rsquo;. We weren&amp;rsquo;t allowed to talk about it until the 22nd and I know I am a little slow on the punch but I currently haven&amp;rsquo;t seen a lot of coverage. Just for an initial disclosure statement my trip to Tech Field Day 6 was paid for by the vendors we visited, however, I am in no way obligated to write about them or publicize them in any manner.</description>
     </item>
     
     <item>
       <title>7 Expert Tips for Managing Your Remote vSphere Infrastructure</title>
-      <link>/posts/7-expert-tips-for-managing-your-remote-vsphere-infrastructure/</link>
+      <link>/news/7-expert-tips-for-managing-your-remote-vsphere-infrastructure/</link>
       <pubDate>Mon, 20 Jun 2011 20:58:35 +0000</pubDate>
       
-      <guid>/posts/7-expert-tips-for-managing-your-remote-vsphere-infrastructure/</guid>
+      <guid>/news/7-expert-tips-for-managing-your-remote-vsphere-infrastructure/</guid>
       <description>Now there is a catchy title if I ever saw one. Only &amp;ldquo;problem&amp;rdquo; is that it&amp;rsquo;s a whitepaper that I have written for Veeam. In reality this is the first published article I have ever written, that I didn&amp;rsquo;t publish on my own. I&amp;rsquo;m excited about it, yet strangely nervous about how it will be received by the people who download it. If you happen to do so, make sure to let me know how you found it, all comments and criticism will be most appreciated.</description>
     </item>
     
     <item>
       <title>Tech Field Day #6 - Delegate I Am</title>
-      <link>/posts/tech-field-day-6-delegate-i-am/</link>
+      <link>/news/tech-field-day-6-delegate-i-am/</link>
       <pubDate>Mon, 16 May 2011 12:34:45 +0000</pubDate>
       
-      <guid>/posts/tech-field-day-6-delegate-i-am/</guid>
+      <guid>/news/tech-field-day-6-delegate-i-am/</guid>
       <description>A while ago I got a surprising email, stating the following:
 You could consider this a sincere compliment from the Gestalt IT community as your name was suggested and we think you are the kind of person we all would love to have as part of our community. This means you&#39;re independent-minded, technology-focused, community-oriented, and a thought leader in the area of IT infrastructure.  Of course, this is pretty much hogwash, but nevertheless I&amp;rsquo;m extremely honored to be invited as a delegate for Tech Field Day #6 in Boston, Mass.</description>
     </item>
     
     <item>
       <title>Installing and configuring VMware vCenter Operations</title>
-      <link>/posts/installing-and-configuring-vmware-vcenter-operations/</link>
+      <link>/virtualization/installing-and-configuring-vmware-vcenter-operations/</link>
       <pubDate>Mon, 21 Mar 2011 19:50:02 +0000</pubDate>
       
-      <guid>/posts/installing-and-configuring-vmware-vcenter-operations/</guid>
+      <guid>/virtualization/installing-and-configuring-vmware-vcenter-operations/</guid>
       <description>VMware vCenter Operations was released to the general public a week or so ago and is available for download right now. As usual you can download a 60 day trial, and get started immediately.
 Like other recent management utilities from VMware, vCenter Operations comes in the form of a .OVF template (like vCMA/vMA).
 Installing VMware vCenter Operations Download VMware vCenter Operations and import by starting vCenter Client, navigate to the “File” menu and select “Deploy OVF template…”</description>
@@ -253,20 +253,20 @@ Installing VMware vCenter Operations Download VMware vCenter Operations and impo
     
     <item>
       <title>vSphere iPad Client</title>
-      <link>/posts/vsphere-ipad-client/</link>
+      <link>/virtualization/vsphere-ipad-client/</link>
       <pubDate>Fri, 18 Mar 2011 09:18:44 +0000</pubDate>
       
-      <guid>/posts/vsphere-ipad-client/</guid>
+      <guid>/virtualization/vsphere-ipad-client/</guid>
       <description>Like everyone else in the vUniverse, I&amp;rsquo;ve had a play with the very recently released free vSphere Client for iPad. Since everyone, and their mother, has already blogged and reviewed it I don&amp;rsquo;t see much value in me doing the same.
 What I can say though, is that the first impression is pretty great. It looks good, works well and might be one of the apps that finally gives me an actual use case for the iPad.</description>
     </item>
     
     <item>
       <title>Passion in IT</title>
-      <link>/posts/passion-in-modern-it-organizations/</link>
+      <link>/rant/passion-in-modern-it-organizations/</link>
       <pubDate>Sun, 20 Feb 2011 20:45:55 +0000</pubDate>
       
-      <guid>/posts/passion-in-modern-it-organizations/</guid>
+      <guid>/rant/passion-in-modern-it-organizations/</guid>
       <description>Bob Plankers, akaThe Lone Sysadmin, has posted a series of posts on &amp;ldquo;the blame game&amp;rdquo; in modern IT organizations (Blame, Understanding Blame and Preventing Blame).
 Bob&amp;rsquo;s posts are most excellent, and well worth a thorough read. Feel free to head on over and read them now, this post will be waiting right here when you come back.
 Are you back yet? In fact, Bob&amp;rsquo;s excellent rants has inspired me to write my own!</description>
@@ -274,40 +274,40 @@ Are you back yet? In fact, Bob&amp;rsquo;s excellent rants has inspired me to wr
     
     <item>
       <title>vNinja used by VMware</title>
-      <link>/posts/vninja-used-by-vmware/</link>
+      <link>/news/vninja-used-by-vmware/</link>
       <pubDate>Mon, 27 Dec 2010 22:12:27 +0000</pubDate>
       
-      <guid>/posts/vninja-used-by-vmware/</guid>
+      <guid>/news/vninja-used-by-vmware/</guid>
       <description>Thanks to Maish Saidel-Keesing, vExpert 2010 and blogger over at Technodrone I have been made aware that VMware has used one of my posts here on vNinja in their internal presentation material.
 The material in question is vSphere 4.1 to 4.0 differences (page 44 and 45 in vSphere 4.1 Deep Dive - Part 1 - v6.pptx), where my post about Using USB Pass-through in vSphere 4.1 is quoted and my screenshots used.</description>
     </item>
     
     <item>
       <title>Virtual Admins - Virtual Pirates?</title>
-      <link>/posts/virtual-admins-virtual-pirates/</link>
+      <link>/virtualization/virtual-admins-virtual-pirates/</link>
       <pubDate>Thu, 23 Dec 2010 22:20:15 +0000</pubDate>
       
-      <guid>/posts/virtual-admins-virtual-pirates/</guid>
+      <guid>/virtualization/virtual-admins-virtual-pirates/</guid>
       <description>When Rich Brambley posted &amp;ldquo;A Pirate Invented Server Virtualization&amp;rdquo; today, it reminded me of a little story from my own production environment.
 This story is a couple of years old, but sadly it&amp;rsquo;s still valid. A very specialized application that we run, requires a SQL Server Express instance, a proxy/licensing server and client installation with license files to work. This application isn&amp;rsquo;t very advanced, nor very resource intensive so by nature it&amp;rsquo;s prime for running in a virtualized environment.</description>
     </item>
     
     <item>
       <title>Developer meets PowerCLI - awesomeness ensues</title>
-      <link>/posts/developer-meets-powercli-awesomeness-ensues/</link>
+      <link>/virtualization/developer-meets-powercli-awesomeness-ensues/</link>
       <pubDate>Fri, 15 Oct 2010 20:29:14 +0000</pubDate>
       
-      <guid>/posts/developer-meets-powercli-awesomeness-ensues/</guid>
+      <guid>/virtualization/developer-meets-powercli-awesomeness-ensues/</guid>
       <description>A couple of days ago, while I was at VMworld Europe I got the following tweet from Asbjørn A. Mikkelsen (@neslekkim) (translated from norwegian):
 @h0bbel Do you know if I can script something against vCenter to duplicate (or create from template) VMs, and also start/stop them? My immediate response, was of course to suggest using PowerCLI. Asbjørn, who works as a full time developer, jumped at PowerCLI immediately and within a very short time frame came up with a PowerCLI script for the task at hand.</description>
     </item>
     
     <item>
       <title>VMworld.next - a couple of suggestions</title>
-      <link>/posts/vmworld-next-a-couple-of-suggestions/</link>
+      <link>/virtualization/vmworld-next-a-couple-of-suggestions/</link>
       <pubDate>Fri, 15 Oct 2010 08:36:39 +0000</pubDate>
       
-      <guid>/posts/vmworld-next-a-couple-of-suggestions/</guid>
+      <guid>/virtualization/vmworld-next-a-couple-of-suggestions/</guid>
       <description>Now that the VMworld events are over for 2010, I&amp;rsquo;m still trying to digest a lot of the impressions I&amp;rsquo;ve had over the past few days.
 However, I do have a couple of suggestions I would like to voice:
  Add contact information to the attendee badge!
@@ -316,10 +316,10 @@ However, I do have a couple of suggestions I would like to voice:
     
     <item>
       <title>VMware vSphere Hypervisor Licensing and Cost</title>
-      <link>/posts/vmware-vsphere-hypervisor-licensing-and-cost/</link>
+      <link>/virtualization/vmware-vsphere-hypervisor-licensing-and-cost/</link>
       <pubDate>Wed, 22 Sep 2010 13:51:13 +0000</pubDate>
       
-      <guid>/posts/vmware-vsphere-hypervisor-licensing-and-cost/</guid>
+      <guid>/virtualization/vmware-vsphere-hypervisor-licensing-and-cost/</guid>
       <description>We all know, and love, the fact that vSphere Hypervisor is free of charge. The free version doesn&amp;rsquo;t come with all the bells and whistles of the fully licensed product, but it&amp;rsquo;s still very usable in many scenarios.
 Recently I&amp;rsquo;ve been investigating the possibilities of running vSphere Hypervisor on a number of floating branch offices, also known as vessels.
 I&amp;rsquo;m not going into details about the proposed setup, and how we intend to roll it and so on, but one of the things I really wanted to get out of this was to have all my off-site vSphere Hypervisor installs appear in my vCenter Client.</description>
@@ -327,20 +327,20 @@ I&amp;rsquo;m not going into details about the proposed setup, and how we intend
     
     <item>
       <title>P2V a Domain Controller? Why would you?</title>
-      <link>/posts/p2v-a-domain-controller-why-would-you/</link>
+      <link>/virtualization/p2v-a-domain-controller-why-would-you/</link>
       <pubDate>Tue, 21 Sep 2010 19:39:07 +0000</pubDate>
       
-      <guid>/posts/p2v-a-domain-controller-why-would-you/</guid>
+      <guid>/virtualization/p2v-a-domain-controller-why-would-you/</guid>
       <description>Some topics seem to pop up at random intervals, one of them being virtualizing Microsoft Active Directory Domain Controller servers. The question is often either &amp;ldquo;Should I virtualize my Domain Controllers, and if so should I virtualize all of them?&amp;rdquo; or &amp;ldquo;Should I do a P2V (Physical 2 Virtual) conversion of my existing Domain Controllers, or create new ones?&amp;ldquo;
 In this post, I&amp;rsquo;ll be talking about the second question. While there is a lot to be said about the first one as well, I&amp;rsquo;ll leave that for future post.</description>
     </item>
     
     <item>
       <title>Redesigning the vCenter Client?</title>
-      <link>/posts/redesigning-the-vcenter-client/</link>
+      <link>/virtualization/redesigning-the-vcenter-client/</link>
       <pubDate>Mon, 20 Sep 2010 22:12:48 +0000</pubDate>
       
-      <guid>/posts/redesigning-the-vcenter-client/</guid>
+      <guid>/virtualization/redesigning-the-vcenter-client/</guid>
       <description>In fresh blog post, called &amp;ldquo;Resource pools and simultaneous vMotions&amp;rdquo; by Frank Denneman prompted a quick Twitter discussion regarding the vCenter client (and perhaps even vCenter itself). A simple
 Why are there no folders under Host and Clusters view ? from Maish Saidel-Keesing got the ball rolling.
 Could it be that the design of the client itself helps perpetuate the myth the resource pools is an organizational unit, one that should be used as a way of grouping VMs?</description>
@@ -348,10 +348,10 @@ Could it be that the design of the client itself helps perpetuate the myth the r
     
     <item>
       <title>vCenter Update Manager to lose it&#39;s fat</title>
-      <link>/posts/vcenter-update-manager-to-lose-its-fat/</link>
+      <link>/virtualization/vcenter-update-manager-to-lose-its-fat/</link>
       <pubDate>Tue, 24 Aug 2010 21:48:02 +0000</pubDate>
       
-      <guid>/posts/vcenter-update-manager-to-lose-its-fat/</guid>
+      <guid>/virtualization/vcenter-update-manager-to-lose-its-fat/</guid>
       <description>Dwayne Lessner who runs IT Blood Pressure, has written a guest post on GestaltIT called Is My Favourite VSphere Tool Is Going Away?
 In his article, Dwayne talks about vCenter Update Manager 4.1, and the fact that it seems to be the last version of the tools that will allow you to patch your Windows and Linux guests:
  VMware vCenter Update Manager Features. vCenter Update Manager 4.1 and its subesquent update releases are the last releases to support scanning and remediation of patches for Windows and Linux guest operating systems and applications running inside a virtual machine.</description>
@@ -359,10 +359,10 @@ In his article, Dwayne talks about vCenter Update Manager 4.1, and the fact that
     
     <item>
       <title>Where in the world is VMware Server?</title>
-      <link>/posts/where-in-the-world-is-vmware-server/</link>
+      <link>/virtualization/where-in-the-world-is-vmware-server/</link>
       <pubDate>Fri, 13 Aug 2010 23:05:33 +0000</pubDate>
       
-      <guid>/posts/where-in-the-world-is-vmware-server/</guid>
+      <guid>/virtualization/where-in-the-world-is-vmware-server/</guid>
       <description>Over at PlanetVM Wil van Antwerpen posted The Future of VMware Server back in May 2010. Wil makes the argument that it seems like VMware is indeed abandoning VMware Server as a product, leaving us with VMware Workstation and VMware Player as the two Windows installable virtualization solutions from the company.
 This has caused some reactions, including my own comment, where I question the smartness of abandoning what might just be one of the best virtualization &amp;ldquo;gateway drugs&amp;rdquo; VMware has to offer.</description>
     </item>

@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2012-07-22 17:49:01+00:00
 layout: post
-link: http://vninja.net/vmware-2/techtalks-at-vmworld2012/
 slug: techtalks-at-vmworld2012
 title: 10 minute lightning Tech Talk at VMworld?
+url: /vmware-2/techtalks-at-vmworld2012/
 wordpress_id: 1924
 categories:
 - VMware

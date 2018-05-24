@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2011-03-18 09:18:44+00:00
 layout: post
-link: http://vninja.net/virtualization/vsphere-ipad-client/
 slug: vsphere-ipad-client
 title: vSphere iPad Client
+url: /virtualization/vsphere-ipad-client/
 wordpress_id: 931
 categories:
 - Virtualization

@@ -14,10 +14,10 @@
     
     <item>
       <title>Importing vCloud Air SSL Certificate on the vCenter Server Appliance 5.x</title>
-      <link>/posts/importing-vcloud-air-ssl-certificate-vcenter-server-appliance-5-x/</link>
+      <link>/vmware-2/importing-vcloud-air-ssl-certificate-vcenter-server-appliance-5-x/</link>
       <pubDate>Fri, 12 Dec 2014 12:24:55 +0000</pubDate>
       
-      <guid>/posts/importing-vcloud-air-ssl-certificate-vcenter-server-appliance-5-x/</guid>
+      <guid>/vmware-2/importing-vcloud-air-ssl-certificate-vcenter-server-appliance-5-x/</guid>
       <description>I&amp;rsquo;m playing around a bit with vCloud Air and Virtual Private Cloud OnDemand, and in order to set up the vCloud Hybrid Service plugin in the vSphere Web Client you need to import the vCloud Air SSL certificate into vCenter. If the certificate isn&amp;rsquo;t present in the vCSA keystore when you try to authenticate with vCloud Air, you get a &amp;ldquo;Server Certificate not Verified&amp;rdquo; error, and you will be unsuccessful in configuring the plugin.</description>
     </item>
     

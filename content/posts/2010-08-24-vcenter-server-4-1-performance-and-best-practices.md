@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2010-08-24 20:06:16+00:00
 layout: post
-link: http://vninja.net/virtualization/vcenter-server-4-1-performance-and-best-practices/
 slug: vcenter-server-4-1-performance-and-best-practices
 title: vCenter Server 4.1 Performance and Best Practices
+url: /virtualization/vcenter-server-4-1-performance-and-best-practices/
 wordpress_id: 169
 categories:
 - Virtualization

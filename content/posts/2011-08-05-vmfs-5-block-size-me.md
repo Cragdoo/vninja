@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2011-08-05 12:21:31+00:00
 layout: post
-link: http://vninja.net/virtualization/vmfs-5-block-size-me/
 slug: vmfs-5-block-size-me
 title: 'VMFS-5: Block Size Me'
+url: /virtualization/vmfs-5-block-size-me/
 wordpress_id: 1365
 categories:
 - Virtualization

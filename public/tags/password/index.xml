@@ -14,10 +14,10 @@
     
     <item>
       <title>VMware vShield Manager Upgrade - Password Issues</title>
-      <link>/posts/vmware-vshield-manager-upgrade-password-issues/</link>
+      <link>/vmware-2/vmware-vshield-manager-upgrade-password-issues/</link>
       <pubDate>Tue, 29 Apr 2014 08:18:35 +0000</pubDate>
       
-      <guid>/posts/vmware-vshield-manager-upgrade-password-issues/</guid>
+      <guid>/vmware-2/vmware-vshield-manager-upgrade-password-issues/</guid>
       <description>While upgrading a vShield Manager 5.1.1 install to 5.1.4 at a client, I ran into an issue with logging in after a completed upgrade. The username and password used to log in, and subsequently upload the upgrade file, was no longer working after the upgrade finished and the vShield Manager appliance had been rebooted.
 It turns out that this was due to using international characters in the password for the admin user, in this case the Norwegian specialities æ, ø or å.</description>
     </item>

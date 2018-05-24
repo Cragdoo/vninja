@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2012-03-12 12:50:31+00:00
 layout: post
-link: http://vninja.net/vmware-2/vcenter-client-download-urls/
 slug: vcenter-client-download-urls
 title: vCenter Client Download URLs
+url: /vmware-2/vcenter-client-download-urls/
 wordpress_id: 1830
 categories:
 - VMware

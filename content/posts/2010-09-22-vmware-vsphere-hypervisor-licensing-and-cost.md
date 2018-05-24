@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2010-09-22 13:51:13+00:00
 layout: post
-link: http://vninja.net/virtualization/vmware-vsphere-hypervisor-licensing-and-cost/
 slug: vmware-vsphere-hypervisor-licensing-and-cost
 title: VMware vSphere Hypervisor Licensing and Cost
+url: /virtualization/vmware-vsphere-hypervisor-licensing-and-cost/
 wordpress_id: 291
 categories:
 - Virtualization

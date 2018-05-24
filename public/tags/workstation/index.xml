@@ -14,20 +14,20 @@
     
     <item>
       <title>Centrally Disable NAT in VMware Workstation</title>
-      <link>/posts/centrally-disable-nat-vmware-workstation/</link>
+      <link>/vmware-2/centrally-disable-nat-vmware-workstation/</link>
       <pubDate>Tue, 25 Jun 2013 08:52:03 +0000</pubDate>
       
-      <guid>/posts/centrally-disable-nat-vmware-workstation/</guid>
+      <guid>/vmware-2/centrally-disable-nat-vmware-workstation/</guid>
       <description>A fellow IT-professional, who works with the non-wired flavor of networking, contacted me with the following scenario:
 A group of users, developers in this case, have VMware Workstation installed on their laptops. This makes it easy for them to manage, test and develop their applications in a closed environment without having to install a bunch of tools/services on their centrally managed laptop environment. An excellent use case for VMware Workstation if there ever was one.</description>
     </item>
     
     <item>
       <title>Want a VMware Workstation License?</title>
-      <link>/posts/vmware-workstation-license/</link>
+      <link>/virtualization/vmware-workstation-license/</link>
       <pubDate>Thu, 10 Jan 2013 23:09:56 +0000</pubDate>
       
-      <guid>/posts/vmware-workstation-license/</guid>
+      <guid>/virtualization/vmware-workstation-license/</guid>
       <description>Christopher Kusek, who runs pkguild.com, has just announced that he is running a contest where you can win a VMware Workstation 9 license.
 Seeing that announcement, and the fact that Christopher was nice enough to mention both me and vNinja.net in it, I have decided to also give away a license that has been lingering unused in my possession way to long.
 Instead of running my own contest, my license has been added to the existing contest so head on over there to read all the details.</description>
@@ -35,20 +35,20 @@ Instead of running my own contest, my license has been added to the existing con
     
     <item>
       <title>Building The Ultimate vSphere Lab Series</title>
-      <link>/posts/building-ultimate-vsphere-lab-series/</link>
+      <link>/news/building-ultimate-vsphere-lab-series/</link>
       <pubDate>Tue, 03 Jan 2012 12:32:29 +0000</pubDate>
       
-      <guid>/posts/building-ultimate-vsphere-lab-series/</guid>
+      <guid>/news/building-ultimate-vsphere-lab-series/</guid>
       <description>Sammy Bogaert has posted a 12 part series called &amp;ldquo;Building The Ultimate vSphere Lab&amp;rdquo;, which knocks the socks of my previous vSphere 4.x series.
 In reality this means that my planned series for vSphere 5.x is now cancelled, as there is no need to duplicate Sammy&amp;rsquo;s efforts. Be sure to check the series out!</description>
     </item>
     
     <item>
       <title>VMware Workstation 8 - What&#39;s new?</title>
-      <link>/posts/vmware-workstation-8-whats-new/</link>
+      <link>/virtualization/vmware-workstation-8-whats-new/</link>
       <pubDate>Wed, 07 Sep 2011 12:07:23 +0000</pubDate>
       
-      <guid>/posts/vmware-workstation-8-whats-new/</guid>
+      <guid>/virtualization/vmware-workstation-8-whats-new/</guid>
       <description>VMware is close (still in beta) to releasing the new major release of VMware Workstation.
 Update 14. September 2011: VMware Workstation 8 has now officially been released.
 VMware Workstation 8 brings a lot of new features and enhancements to the table, and I&amp;rsquo;ve been lucky enough to play around with it in the beta program.

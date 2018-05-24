@@ -14,20 +14,20 @@
     
     <item>
       <title>vNinja used by VMware</title>
-      <link>/posts/vninja-used-by-vmware/</link>
+      <link>/news/vninja-used-by-vmware/</link>
       <pubDate>Mon, 27 Dec 2010 22:12:27 +0000</pubDate>
       
-      <guid>/posts/vninja-used-by-vmware/</guid>
+      <guid>/news/vninja-used-by-vmware/</guid>
       <description>Thanks to Maish Saidel-Keesing, vExpert 2010 and blogger over at Technodrone I have been made aware that VMware has used one of my posts here on vNinja in their internal presentation material.
 The material in question is vSphere 4.1 to 4.0 differences (page 44 and 45 in vSphere 4.1 Deep Dive - Part 1 - v6.pptx), where my post about Using USB Pass-through in vSphere 4.1 is quoted and my screenshots used.</description>
     </item>
     
     <item>
       <title>vCenter Server 4.1 Performance and Best Practices</title>
-      <link>/posts/vcenter-server-4-1-performance-and-best-practices/</link>
+      <link>/virtualization/vcenter-server-4-1-performance-and-best-practices/</link>
       <pubDate>Tue, 24 Aug 2010 20:06:16 +0000</pubDate>
       
-      <guid>/posts/vcenter-server-4-1-performance-and-best-practices/</guid>
+      <guid>/virtualization/vcenter-server-4-1-performance-and-best-practices/</guid>
       <description>VMware has published a new whitepaper called VMware vCenter Server Performance and Best Practices.
 This is a must read if you manage a vCenter 4.1 installation, or are currently planning your upgrade.
 The whitepaper highlights the performance improvements in the latest version, sizing guidelines, best practices and some really good real world information from several case studies. One simple, but probably often overlooked tip, is that the amount of vCenter Clients connected to your vCenter Server has an impact on it&amp;rsquo;s performance.</description>

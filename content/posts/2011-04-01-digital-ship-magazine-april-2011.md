@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2011-04-01 09:20:20+00:00
 layout: post
-link: http://vninja.net/news/digital-ship-magazine-april-2011/
 slug: digital-ship-magazine-april-2011
 title: Digital Ship Magazine April 2011
+url: /news/digital-ship-magazine-april-2011/
 wordpress_id: 1014
 categories:
 - News

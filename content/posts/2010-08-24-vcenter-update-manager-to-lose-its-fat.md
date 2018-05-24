@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2010-08-24 21:48:02+00:00
 layout: post
-link: http://vninja.net/virtualization/vcenter-update-manager-to-lose-its-fat/
 slug: vcenter-update-manager-to-lose-its-fat
 title: vCenter Update Manager to lose it's fat
+url: /virtualization/vcenter-update-manager-to-lose-its-fat/
 wordpress_id: 176
 categories:
 - Virtualization

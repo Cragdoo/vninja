@@ -14,10 +14,10 @@
     
     <item>
       <title>Logging SSH logins to Slack</title>
-      <link>/posts/logging-ssh-logins-to-slack/</link>
+      <link>/homelab/logging-ssh-logins-to-slack/</link>
       <pubDate>Thu, 06 Oct 2016 11:31:51 +0000</pubDate>
       
-      <guid>/posts/logging-ssh-logins-to-slack/</guid>
+      <guid>/homelab/logging-ssh-logins-to-slack/</guid>
       <description>I&amp;rsquo;m using Slack to alert and log a few things in my environment, and one of the things I use it for is to alert me if someone logs on via SSH to my public facing Jumphost.
 For a good walkthrough on how to set up such a host, check out Tunnel all your remote connections through ssh with a linux jumpbox by Luca Dell&amp;rsquo;Oca.
 My Ubuntu 16.04 Jumphost is set up to only accept Key-Based Authentication, to secure it as much as possible, but I would still like to get instant notification if someone logs into it interactively.</description>
@@ -25,30 +25,30 @@ My Ubuntu 16.04 Jumphost is set up to only accept Key-Based Authentication, to s
     
     <item>
       <title>CloudFlare Dynamic DNS Update Script (cf-ddns.sh)</title>
-      <link>/posts/cloudflare-dynamic-dns-update-script-cf-ddns-sh/</link>
+      <link>/homelab/cloudflare-dynamic-dns-update-script-cf-ddns-sh/</link>
       <pubDate>Sat, 13 Aug 2016 09:45:13 +0000</pubDate>
       
-      <guid>/posts/cloudflare-dynamic-dns-update-script-cf-ddns-sh/</guid>
+      <guid>/homelab/cloudflare-dynamic-dns-update-script-cf-ddns-sh/</guid>
       <description>As a part of myHomelab project, I&amp;rsquo;ve created a proper bash script to provide dynamic DNS updates for external resources, via CloudFlare. More details on the reasoning behind it can be found in Using CloudFlare for Dynamic DNS, but since that was posted I&amp;rsquo;ve fleshed the script out quite a bit more.
 The new and updated script can be found on GitHub: cf-ddns.sh. It now writes events to syslog when it runs, so you can use VMware Log Insight (or another log solution) to capture the events, and use it to track public IP changes if you want.</description>
     </item>
     
     <item>
       <title>Using CloudFlare for Dynamic DNS</title>
-      <link>/posts/using-cloudflare-for-dynamic-dns/</link>
+      <link>/homelab/using-cloudflare-for-dynamic-dns/</link>
       <pubDate>Tue, 09 Aug 2016 22:21:07 +0000</pubDate>
       
-      <guid>/posts/using-cloudflare-for-dynamic-dns/</guid>
+      <guid>/homelab/using-cloudflare-for-dynamic-dns/</guid>
       <description>In my previous post, I tried to lay out the foundation and reasoning behind requiring a Dynamic DNS Service, and here is how I solved it using CloudFlare.
 First of all, I moved my chosen domain name to CloudFlare, and made sure everything resolved ok with static records. Once that was working, I started playing around with the CloudFlare API, using Cocoa Rest Client. I&amp;rsquo;m no developer (as is probably very apparent by the script below), nor API wizard of any kind, but it was fairly easy figuring out how to craft a request that lists my DNS zone.</description>
     </item>
     
     <item>
       <title>Dynamic DNS Requirements</title>
-      <link>/posts/dynamic-dns-requirements/</link>
+      <link>/homelab/dynamic-dns-requirements/</link>
       <pubDate>Tue, 09 Aug 2016 22:18:57 +0000</pubDate>
       
-      <guid>/posts/dynamic-dns-requirements/</guid>
+      <guid>/homelab/dynamic-dns-requirements/</guid>
       <description>While working on my new Homelab setup, I&amp;rsquo;ve been investigating ways to provide hostname based access to several web services located in my DMZ zone. Since my provider doesn&amp;rsquo;t provide static IP addresses, I also need an external Dynamic DNS service, to provide said hostname mappings through the reverse proxy on the inside.
 There are loads of Dynamic DNS services available, most of them lets you use some sort of predefined domain name scheme, and point it to your external IP, but I wanted to use a domain name that I own and control.</description>
     </item>

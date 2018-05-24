@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2011-12-21 23:36:19+00:00
 layout: post
-link: http://vninja.net/virtualization/auto-installation-and-configuring-of-vsphere-esxi-5/
 slug: auto-installation-and-configuring-of-vsphere-esxi-5
 title: Auto Installation and Configuring of vSphere ESXi 5
+url: /virtualization/auto-installation-and-configuring-of-vsphere-esxi-5/
 wordpress_id: 1658
 categories:
 - Virtualization

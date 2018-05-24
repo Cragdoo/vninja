@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2017-10-17 10:44:50+00:00
 layout: post
-link: http://vninja.net/virtualization/veeamon-tour-virtual-2017-reserve-your-spot/
 slug: veeamon-tour-virtual-2017-reserve-your-spot
 title: VeeamOn Tour Virtual 2017 - Reserve your spot!
+url: /virtualization/veeamon-tour-virtual-2017-reserve-your-spot/
 wordpress_id: 4780
 categories:
 - Virtualization

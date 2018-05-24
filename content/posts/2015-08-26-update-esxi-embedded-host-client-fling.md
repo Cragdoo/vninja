@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2015-08-26 16:45:10+00:00
 layout: post
-link: http://vninja.net/vmware-2/update-esxi-embedded-host-client-fling/
 slug: update-esxi-embedded-host-client-fling
 title: Update ESXi Embedded Host Client Fling
+url: /vmware-2/update-esxi-embedded-host-client-fling/
 wordpress_id: 3766
 categories:
 - VMware

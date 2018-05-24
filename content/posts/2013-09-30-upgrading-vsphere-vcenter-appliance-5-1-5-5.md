@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2013-09-30 12:20:38+00:00
 layout: post
-link: http://vninja.net/vmware-2/upgrading-vsphere-vcenter-appliance-5-1-5-5/
 slug: upgrading-vsphere-vcenter-appliance-5-1-5-5
 title: Upgrading vSphere vCenter Appliance 5.1 to 5.5
+url: /vmware-2/upgrading-vsphere-vcenter-appliance-5-1-5-5/
 wordpress_id: 2762
 categories:
 - VMware

@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2010-09-20 22:12:48+00:00
 layout: post
-link: http://vninja.net/virtualization/redesigning-the-vcenter-client/
 slug: redesigning-the-vcenter-client
 title: Redesigning the vCenter Client?
+url: /virtualization/redesigning-the-vcenter-client/
 wordpress_id: 264
 categories:
 - Virtualization

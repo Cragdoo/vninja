@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2011-03-13 21:29:42+00:00
 layout: post
-link: http://vninja.net/howto/custom-dictionary-syncronization-with-dropbox/
 slug: custom-dictionary-syncronization-with-dropbox
 title: Custom Dictionary Syncronization with Dropbox
+url: /howto/custom-dictionary-syncronization-with-dropbox/
 wordpress_id: 920
 categories:
 - Howto

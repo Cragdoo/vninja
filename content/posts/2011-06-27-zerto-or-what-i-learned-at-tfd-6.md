@@ -3,9 +3,9 @@ author: eczerwin
 comments: true
 date: 2011-06-27 22:38:26+00:00
 layout: post
-link: http://vninja.net/virtualization/zerto-or-what-i-learned-at-tfd-6/
 slug: zerto-or-what-i-learned-at-tfd-6
 title: 'Zerto: Or What I Learned at Tech Field Day #6!'
+url: /virtualization/zerto-or-what-i-learned-at-tfd-6/
 wordpress_id: 1206
 categories:
 - Virtualization

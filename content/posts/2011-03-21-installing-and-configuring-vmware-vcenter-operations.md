@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2011-03-21 19:50:02+00:00
 layout: post
-link: http://vninja.net/virtualization/installing-and-configuring-vmware-vcenter-operations/
 slug: installing-and-configuring-vmware-vcenter-operations
 title: Installing and configuring VMware vCenter Operations
+url: /virtualization/installing-and-configuring-vmware-vcenter-operations/
 wordpress_id: 945
 categories:
 - Howto

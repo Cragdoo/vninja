@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="SCCM 2007 Not a Virtualization Candidate?" />
+<meta property="og:description" content="The last couple of days I&rsquo;ve been in training class, taking the 6451B Planning, Deploying and Managing Microsoft System Center Configuration Manager 2007 course.
+One of the first things that got mentioned, was that for larger deployments you should not run System Center Configuration Manager virtually. Of course, this caught my eye as I&rsquo;m a proponent for the virtualize first &ldquo;movement&rdquo;.
+It runs out that the reason for this is that Configuration Manager is somewhat poorly designed, as just about everything it receives from the clients in the network is placed in text based log files (inbox folder) before being processed and pumped into the back-end SQL DB." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/microsoft-2/sccm-2007-not-a-virtualization-candidate/" />
+
+
+
+<meta property="article:published_time" content="2011-08-26T08:10:54&#43;00:00"/>
+
+<meta property="article:modified_time" content="2011-08-26T08:10:54&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="SCCM 2007 Not a Virtualization Candidate?"/>
+<meta name="twitter:description" content="The last couple of days I&rsquo;ve been in training class, taking the 6451B Planning, Deploying and Managing Microsoft System Center Configuration Manager 2007 course.
+One of the first things that got mentioned, was that for larger deployments you should not run System Center Configuration Manager virtually. Of course, this caught my eye as I&rsquo;m a proponent for the virtualize first &ldquo;movement&rdquo;.
+It runs out that the reason for this is that Configuration Manager is somewhat poorly designed, as just about everything it receives from the clients in the network is placed in text based log files (inbox folder) before being processed and pumped into the back-end SQL DB."/>
+<meta name="generator" content="Hugo 0.40.3" />
+
+
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "SCCM 2007 Not a Virtualization Candidate?",
+  "url": "/microsoft-2/sccm-2007-not-a-virtualization-candidate/",
+  "wordCount": "344",
+  "datePublished": "2011-08-26T08:10:54&#43;00:00",
+  "dateModified": "2011-08-26T08:10:54&#43;00:00",
+  "author": {
+    "@type": "Person",
+    "name": "cmohn"
+  },
+  "keywords": "Microsoft, Ops, realworld, SCCM, Windows"
+}
+</script>
+
+
+
+    <link rel="canonical" href="/microsoft-2/sccm-2007-not-a-virtualization-candidate/">
+
+    <title>SCCM 2007 Not a Virtualization Candidate? | Adventures in Hugo</title>
+
+    <!-- combined, minified CSS -->
+    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
+
+    
+
+    
+
+    
+
+    
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="/">Home</a>
+          
+          <a class="nav-link" href="https://example.org" title="">Link 1</a>
+          
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
+        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+      </div>
+    </header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/microsoft-2/sccm-2007-not-a-virtualization-candidate/">SCCM 2007 Not a Virtualization Candidate?</a></h2>
+    <p class="blog-post-meta"><time datetime="2011-08-26T08:10:54Z">Fri Aug 26, 2011</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/microsoft" rel="category tag">Microsoft</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/microsoft" rel="tag">Microsoft</a>, <a href="/tags/ops" rel="tag">Ops</a>, <a href="/tags/realworld" rel="tag">realworld</a>, <a href="/tags/sccm" rel="tag">SCCM</a>, <a href="/tags/windows" rel="tag">Windows</a>
+
+</p>
+  </header>
+  <p><a href="http://vninja.net/wordpress/wp-content/uploads/2011/08/6451b.jpg"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/08/6451b-150x150.jpg" alt="" /></a></p>
+
+<p>The last couple of days I&rsquo;ve been in training class, taking the <a href="http://www.microsoft.com/learning/en/us/Course.aspx?ID=6451B">6451B Planning, Deploying and Managing Microsoft System Center Configuration Manager 2007</a> course.</p>
+
+<p>One of the first things that got mentioned, was that for larger deployments you should not run System Center Configuration Manager virtually. Of course, this caught my eye as I&rsquo;m a proponent for the virtualize first &ldquo;movement&rdquo;.</p>
+
+<p>It runs out that the reason for this is that Configuration Manager is somewhat poorly designed, as just about everything it receives from the clients in the network is placed in <a href="http://systemcentercentral.com/BlogDetails/tabid/143/IndexID/80792/Default.aspx">text based log files (inbox folder)</a> before being processed and pumped into the back-end SQL DB. SCCM lives for and eats <a href="http://technet.microsoft.com/en-us/library/bb892790.aspx">log files</a> for a living.</p>
+
+<p>I&rsquo;m sure there are good reasons for this, especially back in the day when SCCM 2007 was developed, but in retrospect this seems to be a poor design choice. Especially since the IO intensity of writing text-based log files is high, and doesn&rsquo;t scale well when you have loads of clients which SCCM 2007 supposedly is designed for in the first place.</p>
+
+<p>There are ways of alleviating the strain on the machine running SCCM, like running the SQL server on a different server and running the management console on your local computer (remember a Windows server is tuned, by default, to prioritize background tasks), but the fact remains that sum of all the small write operations SCCM constantly does to your storage puts a heavy strain on it.</p>
+
+<p><strong>So, if you want to run SCCM 2007 virtualized in your environment, make sure your storage is up to the task and that you don&rsquo;t saturate it by deploying what is in essence management software. Perhaps it is better to run it on a physical server with adequate local storage, but don&rsquo;t blame it on virtualization, blame it on poor design in SCCM 2007.</strong></p>
+
+<p>Hopefully <a href="http://www.microsoft.com/systemcenter/en/us/configuration-manager/cm-vnext-beta.aspx">Configuration Manager 201</a>2, which is currently in beta 2, behaves better when it&rsquo;s released. If not, how will Microsoft defend not getting real performance when running it in Hyper-V (or any other Hypervisor).</p>
+
+
+  
+
+  
+  <hr>
+  <footer>
+
+  
+    <section>
+    <h4>Share</h4>
+    <nav class="nav sharing-icons">
+      <a class="nav-item" href="https://www.facebook.com/sharer/sharer.php?u=%2fmicrosoft-2%2fsccm-2007-not-a-virtualization-candidate%2f" title="Share on Facebook"><span class="fa fa-facebook fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://plus.google.com/share?url=%2fmicrosoft-2%2fsccm-2007-not-a-virtualization-candidate%2f" title="Share on Google+"><span class="fa fa-google-plus fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fmicrosoft-2%2fsccm-2007-not-a-virtualization-candidate%2f" title="Share on LinkedIn"><span class="fa fa-linkedin fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://twitter.com/home?status=%2fmicrosoft-2%2fsccm-2007-not-a-virtualization-candidate%2f" title="Tweet this"><span class="fa fa-twitter fa-2x"></span></a>
+    </nav>
+  </section>
+
+  
+
+  
+  </footer>
+  
+
+</article> 
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="https://example.com">Link 1</a></li>
+      
+      <li><a href="https://example.org">Link 2</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p>
+      
+      &copy; Christian Mohn
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>

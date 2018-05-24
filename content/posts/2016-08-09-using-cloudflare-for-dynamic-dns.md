@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2016-08-09 22:21:07+00:00
 layout: post
-link: http://vninja.net/homelab/using-cloudflare-for-dynamic-dns/
 slug: using-cloudflare-for-dynamic-dns
 title: Using CloudFlare for Dynamic DNS
+url: /homelab/using-cloudflare-for-dynamic-dns/
 wordpress_id: 4152
 categories:
 - Homelab

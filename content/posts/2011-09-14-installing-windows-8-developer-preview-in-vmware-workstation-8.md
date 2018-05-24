@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2011-09-14 12:33:12+00:00
 layout: post
-link: http://vninja.net/virtualization/installing-windows-8-developer-preview-in-vmware-workstation-8/
 slug: installing-windows-8-developer-preview-in-vmware-workstation-8
 title: Installing Windows 8 Developer Preview in VMware Workstation 8
+url: /virtualization/installing-windows-8-developer-preview-in-vmware-workstation-8/
 wordpress_id: 1501
 categories:
 - Virtualization

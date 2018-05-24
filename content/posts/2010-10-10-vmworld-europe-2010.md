@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2010-10-10 20:25:42+00:00
 layout: post
-link: http://vninja.net/virtualization/vmworld-europe-2010/
 slug: vmworld-europe-2010
 title: VMworld europe 2010
+url: /virtualization/vmworld-europe-2010/
 wordpress_id: 328
 categories:
 - Virtualization

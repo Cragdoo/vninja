@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2013-09-12 21:22:17+00:00
 layout: post
-link: http://vninja.net/vmware-2/vsphere-5-5-availability-vsan-public-beta/
 slug: vsphere-5-5-availability-vsan-public-beta
 title: vSphere 5.5 Availability and VSAN Public Beta
+url: /vmware-2/vsphere-5-5-availability-vsan-public-beta/
 wordpress_id: 2715
 categories:
 - VMware

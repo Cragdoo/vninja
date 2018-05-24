@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="Using CloudFlare for Dynamic DNS" />
+<meta property="og:description" content="In my previous post, I tried to lay out the foundation and reasoning behind requiring a Dynamic DNS Service, and here is how I solved it using CloudFlare.
+First of all, I moved my chosen domain name to CloudFlare, and made sure everything resolved ok with static records. Once that was working, I started playing around with the CloudFlare API, using Cocoa Rest Client. I&rsquo;m no developer (as is probably very apparent by the script below), nor API wizard of any kind, but it was fairly easy figuring out how to craft a request that lists my DNS zone." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/homelab/using-cloudflare-for-dynamic-dns/" />
+
+
+
+<meta property="article:published_time" content="2016-08-09T22:21:07&#43;00:00"/>
+
+<meta property="article:modified_time" content="2016-08-09T22:21:07&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Using CloudFlare for Dynamic DNS"/>
+<meta name="twitter:description" content="In my previous post, I tried to lay out the foundation and reasoning behind requiring a Dynamic DNS Service, and here is how I solved it using CloudFlare.
+First of all, I moved my chosen domain name to CloudFlare, and made sure everything resolved ok with static records. Once that was working, I started playing around with the CloudFlare API, using Cocoa Rest Client. I&rsquo;m no developer (as is probably very apparent by the script below), nor API wizard of any kind, but it was fairly easy figuring out how to craft a request that lists my DNS zone."/>
+<meta name="generator" content="Hugo 0.40.3" />
+
+
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Using CloudFlare for Dynamic DNS",
+  "url": "/homelab/using-cloudflare-for-dynamic-dns/",
+  "wordCount": "444",
+  "datePublished": "2016-08-09T22:21:07&#43;00:00",
+  "dateModified": "2016-08-09T22:21:07&#43;00:00",
+  "author": {
+    "@type": "Person",
+    "name": "cmohn"
+  },
+  "keywords": "Homelab, API, Cloudflare, DNS, Dynamic DNS, Scripting"
+}
+</script>
+
+
+
+    <link rel="canonical" href="/homelab/using-cloudflare-for-dynamic-dns/">
+
+    <title>Using CloudFlare for Dynamic DNS | Adventures in Hugo</title>
+
+    <!-- combined, minified CSS -->
+    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
+
+    
+
+    
+
+    
+
+    
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="/">Home</a>
+          
+          <a class="nav-link" href="https://example.org" title="">Link 1</a>
+          
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
+        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+      </div>
+    </header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/homelab/using-cloudflare-for-dynamic-dns/">Using CloudFlare for Dynamic DNS</a></h2>
+    <p class="blog-post-meta"><time datetime="2016-08-09T22:21:07Z">Tue Aug 09, 2016</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/homelab" rel="category tag">Homelab</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/api" rel="tag">API</a>, <a href="/tags/cloudflare" rel="tag">Cloudflare</a>, <a href="/tags/dns" rel="tag">DNS</a>, <a href="/tags/dynamic-dns" rel="tag">Dynamic DNS</a>, <a href="/tags/homelab" rel="tag">Homelab</a>, <a href="/tags/scripting" rel="tag">Scripting</a>
+
+</p>
+  </header>
+  
+
+<p><a href="http://vninja.net/homelab/dynamic-dns-requirements/">In my previous post</a>, I tried to lay out the foundation and reasoning behind requiring a Dynamic DNS Service, and here is how I solved it using CloudFlare.</p>
+
+<p>First of all, I moved my chosen domain name to CloudFlare, and made sure everything resolved ok with static records. Once that was working, I started playing around with the CloudFlare API, using <a href="http://mmattozzi.github.io/cocoa-rest-client/">Cocoa Rest Client</a>. I&rsquo;m no developer (as is probably very apparent by the script below), nor API wizard of any kind, but it was fairly easy figuring out how to craft a request that lists my DNS zone.</p>
+
+<p>By using the <a href="https://api.cloudflare.com/#dns-records-for-a-zone-list-dns-records">List DNS Records</a> query, I found the unique ID for the hostnames I wanted to update, and created a new <a href="https://api.cloudflare.com/#dns-records-for-a-zone-update-dns-record">Update DNS record query</a> to update it with a new IP address. Since the Cocoa Rest Client is pretty clever, it has an option to &ldquo;Copy Curl Command&rdquo;, that basically gives you a preformatted  curl command to run the query you just crafted in it. Pasting that into a Terminal window on my Mac, verified that it worked as intended. From there on, I simply wrapped these commands in a little bash script, to avoid hitting the API unless there was an actual public IP change.</p>
+
+<p>In the end, my script ended up looking like this.</p>
+
+<p>UPDATE:
+I&rsquo;ve published a more fleshed out script on GitHub, <a href="http://vninja.net/homelab/cloudflare-dynamic-dns-update-script-cf-ddns-sh/">details here</a>.
+<em>NOTE: You will need to fill out your own values for {TOKEN}, {EMAIL}, {DOMAIN}, {ID} and {HOSTNAME} in line 18 and 21 for this to work for you. </em></p>
+
+<p><strong>cloudflare-ddns.sh</strong>
+[cc lang=&ldquo;bash&rdquo; escaped=&ldquo;true&rdquo;]
+#!/bin/sh</p>
+
+<p>#get public ip</p>
+
+<p>MYIP=$(curl ifconfig.me/ip)
+OLDIP=<code>cat oldip.txt</code></p>
+
+<p>echo &ldquo;Current public IP is:&rdquo; $MYIP</p>
+
+<p>if [ &ldquo;$MYIP&rdquo; = &ldquo;$OLDIP&rdquo; ]
+then
+echo &ldquo;No change detected. Exiting&rdquo;
+else</p>
+
+<p>echo &ldquo;IP change detected, updating CloudFlare&rdquo;</p>
+
+<p>#WEB01
+curl -k -L -X POST -H &lsquo;Content-Type: application/x-www-form-urlencoded&rsquo; -d &lsquo;a=rec_edit&amp;tkn={TOKEN}&amp;email={EMAIL}&amp;z={DOMAIN}&amp;id={ID}&amp;type=A&amp;name={HOSTNAME}&amp;ttl=1&amp;content=&lsquo;$MYIP &lsquo;<a href="https://www.cloudflare.com/api_json.html'">https://www.cloudflare.com/api_json.html'</a></p>
+
+<p>#WEB02
+curl -k -L -X POST -H &lsquo;Content-Type: application/x-www-form-urlencoded&rsquo; -d &lsquo;a=rec_edit&amp;tkn={TOKEN}&amp;email={EMAIL}&amp;z={DOMAIN}&amp;id={ID}&amp;type=A&amp;name={HOSTNAME}&amp;ttl=1&amp;content=&lsquo;$MYIP &lsquo;<a href="https://www.cloudflare.com/api_json.html'">https://www.cloudflare.com/api_json.html'</a></p>
+
+<p>echo $MYIP &gt; oldip.txt
+fi
+[/cc]</p>
+
+<h5 id="explanation">Explanation:</h5>
+
+<p>First off, the script checks what the current public IP is (line 5), then goes on to compare that with the stored IP address in the oldip.txt file (line 10).</p>
+
+<p>If it matches, it ends execution as there is no need to update the public records. If there is a mismatch between the two, it goes on to execute the request to CloudFlare, replacing the currently configured IP with the new IP address stored in the $MYIP variable (lines 17-21).</p>
+
+<p>It then writes the new IP address to the oldip.txt file (line 23) and exits.</p>
+
+<p><strong>Configure this as a cronjob the runs every 5 - 10 minutes or so and you&rsquo;re set! Simple, not pretty, but oh-so awesome!</strong></p>
+
+
+  
+
+  
+  <hr>
+  <footer>
+
+  
+    <section>
+    <h4>Share</h4>
+    <nav class="nav sharing-icons">
+      <a class="nav-item" href="https://www.facebook.com/sharer/sharer.php?u=%2fhomelab%2fusing-cloudflare-for-dynamic-dns%2f" title="Share on Facebook"><span class="fa fa-facebook fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://plus.google.com/share?url=%2fhomelab%2fusing-cloudflare-for-dynamic-dns%2f" title="Share on Google+"><span class="fa fa-google-plus fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fhomelab%2fusing-cloudflare-for-dynamic-dns%2f" title="Share on LinkedIn"><span class="fa fa-linkedin fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://twitter.com/home?status=%2fhomelab%2fusing-cloudflare-for-dynamic-dns%2f" title="Tweet this"><span class="fa fa-twitter fa-2x"></span></a>
+    </nav>
+  </section>
+
+  
+
+  
+  </footer>
+  
+
+</article> 
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="https://example.com">Link 1</a></li>
+      
+      <li><a href="https://example.org">Link 2</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p>
+      
+      &copy; Christian Mohn
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>

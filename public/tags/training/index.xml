@@ -14,10 +14,10 @@
     
     <item>
       <title>Can Microsoft really be Fair and Balanced?</title>
-      <link>/posts/microsoft-fair-balanced/</link>
+      <link>/virtualization/microsoft-fair-balanced/</link>
       <pubDate>Tue, 29 Oct 2013 23:25:14 +0000</pubDate>
       
-      <guid>/posts/microsoft-fair-balanced/</guid>
+      <guid>/virtualization/microsoft-fair-balanced/</guid>
       <description>Microsoft has launched Virtualization2, a program to educate VMware administrators on Hyper-V and the System Center suite of tools. In short, these arefree online training sessiosn on November 19th and 20th, that also comes with a voucher for their new Microsoft virtualization certification exam (74-409).
 This comes in addition to their existing Microsoft Virtualization for VMware Professionals Jump Start training course.
 I think this is a good idea, and if you are able to close your eyes to the hyperbole, and disregard things like &amp;ldquo;Microsoft Wants to Help VMware Experts “Future-Proof “ Their Career&amp;rdquo;, I applaud this initiative.</description>
@@ -25,10 +25,10 @@ I think this is a good idea, and if you are able to close your eyes to the hyper
     
     <item>
       <title>Trainsignal: Training as a Service (TaaS)</title>
-      <link>/posts/trainsignal-training-service-taas/</link>
+      <link>/news/trainsignal-training-service-taas/</link>
       <pubDate>Fri, 22 Feb 2013 08:55:41 +0000</pubDate>
       
-      <guid>/posts/trainsignal-training-service-taas/</guid>
+      <guid>/news/trainsignal-training-service-taas/</guid>
       <description>Trainsignal has just launched a new Online Training bundle, and for $49 a month you can get unlimited access to their entire set of training courses and practice exams for Cisco, Apple, Microsoft, Citrix, CompTIA, and VMware.
 
 The new pricing is very attractive, especially since you no longer need to buy access on a course by course basis.
@@ -37,10 +37,10 @@ The courses are delivered in your browser, but Trainsignal also offers an offlin
     
     <item>
       <title>Getting It Right: VMware Training and Certification</title>
-      <link>/posts/right-vmware-training-certification/</link>
+      <link>/vmware-2/right-vmware-training-certification/</link>
       <pubDate>Mon, 01 Oct 2012 21:28:24 +0000</pubDate>
       
-      <guid>/posts/right-vmware-training-certification/</guid>
+      <guid>/vmware-2/right-vmware-training-certification/</guid>
       <description>Everyone, and probably their extended family including their mother-in-law, has heard me whine and complain about the VCP training requirements.
 VMware has unveiled a new lab, namely Project Nee (Next-Generation Education Environment)
 and this is something I´m really excited about.

@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2011-01-20 14:51:46+00:00
 layout: post
-link: http://vninja.net/howto/remote-desktop-connection-manager-rdcman-powershell-win/
 slug: remote-desktop-connection-manager-rdcman-powershell-win
 title: Remote Desktop Connection Manager (RDCMan) + Powershell = Win
+url: /howto/remote-desktop-connection-manager-rdcman-powershell-win/
 wordpress_id: 806
 categories:
 - Howto

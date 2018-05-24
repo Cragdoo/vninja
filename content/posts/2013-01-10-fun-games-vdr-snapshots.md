@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2013-01-10 13:47:50+00:00
 layout: post
-link: http://vninja.net/virtualization/fun-games-vdr-snapshots/
 slug: fun-games-vdr-snapshots
 title: Fun and Games with VDR and Snapshots
+url: /virtualization/fun-games-vdr-snapshots/
 wordpress_id: 2323
 categories:
 - Virtualization

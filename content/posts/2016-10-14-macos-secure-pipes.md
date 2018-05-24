@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2016-10-14 13:03:41+00:00
 layout: post
-link: http://vninja.net/osx/macos-secure-pipes/
 slug: macos-secure-pipes
 title: 'macOS: Secure Pipes'
+url: /osx/macos-secure-pipes/
 wordpress_id: 4253
 categories:
 - OS X

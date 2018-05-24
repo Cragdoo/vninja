@@ -14,10 +14,10 @@
     
     <item>
       <title>vPostgres Database Backup in vCSA 5.5</title>
-      <link>/posts/vpostgres-database-backup-vcsa-5-5/</link>
+      <link>/virtualization/vpostgres-database-backup-vcsa-5-5/</link>
       <pubDate>Tue, 01 Oct 2013 08:42:47 +0000</pubDate>
       
-      <guid>/posts/vpostgres-database-backup-vcsa-5-5/</guid>
+      <guid>/virtualization/vpostgres-database-backup-vcsa-5-5/</guid>
       <description>With the new vSphere 5.5 release, the VMware vCenter Appliance (vCSA) has grown up to be a viable alternative to the traditional Microsoft Windows based vCenter deployment scenario. The new vCSA version supports up to 100 hosts and 3000 (with an external Oracle database the values change to 1000&amp;frasl;10000) virtual machines, a big improvement from 5 hosts and 50 virtual machines in the previous version.
 Sadly, the only external database option available for vCSA 5.</description>
     </item>

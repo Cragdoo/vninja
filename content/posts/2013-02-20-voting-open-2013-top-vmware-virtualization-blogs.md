@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2013-02-20 08:14:29+00:00
 layout: post
-link: http://vninja.net/virtualization/voting-open-2013-top-vmware-virtualization-blogs/
 slug: voting-open-2013-top-vmware-virtualization-blogs
 title: 'Voting Open for the 2013 Top VMware & Virtualization Blogs '
+url: /virtualization/voting-open-2013-top-vmware-virtualization-blogs/
 wordpress_id: 2385
 categories:
 - Virtualization

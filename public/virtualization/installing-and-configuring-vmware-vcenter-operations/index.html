@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="Installing and configuring VMware vCenter Operations" />
+<meta property="og:description" content="VMware vCenter Operations was released to the general public a week or so ago and is available for download right now. As usual you can download a 60 day trial, and get started immediately.
+Like other recent management utilities from VMware, vCenter Operations comes in the form of a .OVF template (like vCMA/vMA).
+Installing VMware vCenter Operations Download VMware vCenter Operations and import by starting vCenter Client, navigate to the “File” menu and select “Deploy OVF template…”" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/virtualization/installing-and-configuring-vmware-vcenter-operations/" />
+
+
+
+<meta property="article:published_time" content="2011-03-21T19:50:02&#43;00:00"/>
+
+<meta property="article:modified_time" content="2011-03-21T19:50:02&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Installing and configuring VMware vCenter Operations"/>
+<meta name="twitter:description" content="VMware vCenter Operations was released to the general public a week or so ago and is available for download right now. As usual you can download a 60 day trial, and get started immediately.
+Like other recent management utilities from VMware, vCenter Operations comes in the form of a .OVF template (like vCMA/vMA).
+Installing VMware vCenter Operations Download VMware vCenter Operations and import by starting vCenter Client, navigate to the “File” menu and select “Deploy OVF template…”"/>
+<meta name="generator" content="Hugo 0.40.3" />
+
+
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Installing and configuring VMware vCenter Operations",
+  "url": "/virtualization/installing-and-configuring-vmware-vcenter-operations/",
+  "wordCount": "790",
+  "datePublished": "2011-03-21T19:50:02&#43;00:00",
+  "dateModified": "2011-03-21T19:50:02&#43;00:00",
+  "author": {
+    "@type": "Person",
+    "name": "cmohn"
+  },
+  "keywords": "Howto, Virtualization, Maintenance, Monitoring, Ops, realworld, vCenter, vCenter Operations, vSphere"
+}
+</script>
+
+
+
+    <link rel="canonical" href="/virtualization/installing-and-configuring-vmware-vcenter-operations/">
+
+    <title>Installing and configuring VMware vCenter Operations | Adventures in Hugo</title>
+
+    <!-- combined, minified CSS -->
+    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
+
+    
+
+    
+
+    
+
+    
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="/">Home</a>
+          
+          <a class="nav-link" href="https://example.org" title="">Link 1</a>
+          
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
+        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+      </div>
+    </header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/virtualization/installing-and-configuring-vmware-vcenter-operations/">Installing and configuring VMware vCenter Operations</a></h2>
+    <p class="blog-post-meta"><time datetime="2011-03-21T19:50:02Z">Mon Mar 21, 2011</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/howto" rel="category tag">Howto</a>, <a href="/categories/virtualization" rel="category tag">Virtualization</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/maintenance" rel="tag">Maintenance</a>, <a href="/tags/monitoring" rel="tag">Monitoring</a>, <a href="/tags/ops" rel="tag">Ops</a>, <a href="/tags/realworld" rel="tag">realworld</a>, <a href="/tags/vcenter" rel="tag">vCenter</a>, <a href="/tags/vcenter-operations" rel="tag">vCenter Operations</a>, <a href="/tags/virtualization" rel="tag">Virtualization</a>, <a href="/tags/vsphere" rel="tag">vSphere</a>
+
+</p>
+  </header>
+  
+
+<p>VMware vCenter Operations was released to the general public a week or so ago and is <a href="http://www.vmware.com/products/vcenter-operations/overview.html">available for download</a> right now. As usual you can download a 60 day trial, and get started immediately.</p>
+
+<p>Like other recent management utilities from VMware, vCenter Operations comes in the form of a .OVF template (like <a href="http://communities.vmware.com/community/beta/vcmobileaccess">vCMA</a>/<a href="http://www.vmware.com/support/developer/vima/">vMA</a>).</p>
+
+<h3 id="installing-vmware-vcenter-operations">Installing VMware vCenter Operations</h3>
+
+<p>Download <a href="http://www.vmware.com/products/vcenter-operations/overview.html">VMware vCenter Operations</a> and import by starting vCenter Client, navigate to the “<strong>File</strong>” menu and select “<strong>Deploy OVF template…</strong>”</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/1.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/1.png" alt="" /></a></p>
+
+<p>Browse to the download location, and find the “_VMware-vcops-1.0.0.0-373027_OVF10.ova_” file. Select it and click open.</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/2.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/2-300x208.png" alt="" /></a></p>
+
+<p>Click on “<strong>Next</strong>” and review the details.</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/3.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/3-300x225.png" alt="" /></a></p>
+
+<p>Hit “<strong>Next</strong>” once more, and click on “<strong>Accept</strong>” to accept the VMware EULA and enable the “<strong>Next</strong>” button.</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/4.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/4-300x225.png" alt="" /></a></p>
+
+<p>Specify the name and location of the VMware vCenter Operations VM, and click “<strong>Next</strong>” to continue.</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/5.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/5-300x225.png" alt="" /></a>
+Now we get to select which host or cluster the VM should be deployed to. Make your choices, and click on “<strong>Next</strong>”
+<a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/6.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/6-300x225.png" alt="" /></a>
+Select your preferred resource pool, if you have any, and once again click “<strong>Next</strong>”
+<a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/7.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/7-300x225.png" alt="" /></a>
+Now select your preferred datastore, and guess what? We get to click “<strong>Next</strong>” one more time!
+<a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/8.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/8-300x225.png" alt="" /></a>
+Decide if you want a thin or thick provisioned VM, the default is thick but I went with thin provisioned in this particular setup.
+<a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/9.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/9-300x225.png" alt="" /></a>
+The last configuration item, for now, is to map the networks. Select your network mappings and click on “<strong>Next</strong>”.
+<a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/10.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/10-300x225.png" alt="" /></a>
+Review the final setup screen, and once you are satisfied that your settings are correct, click on “<strong>Finish</strong>” to start the OVF template import.
+<a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/11.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/11-300x225.png" alt="" /></a>
+The import starts, and after a few minutes it should be ready to go!
+<a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/16.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/16-300x134.png" alt="" /></a>
+<a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/19.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/19-300x93.png" alt="" /></a>
+Success!
+<a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/20.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/20-300x221.png" alt="" /></a>
+Time to start it up!</p>
+
+<h3 id="configuring-vmware-vcenter-operations">Configuring VMware vCenter Operations</h3>
+
+<p>After the vCenter Operations VM has finished booting, it displays a little information screen showing the IP address and other tidbits of information. The most important piece of information right now is the DHCP assigned IP address. <em>Make a note of that IP for later.</em>
+<a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/21.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/21-300x166.png" alt="" /></a></p>
+
+<p>To make sure we don’t run into problems with time synchronization we need to make sure that the vCenter Operations VM time is synchronized with the ESX host time. To do so, right click on the VMware vCenter Operations VM inside of the vCenter Client, select “<strong>Edit Settings</strong>”.</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/21-2.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/21-2-275x300.png" alt="" /></a></p>
+
+<p>Select the “<strong>Options</strong>” tab, and find the VMware Tools section.
+<a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/21-3.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/21-3-300x264.png" alt="" /></a>
+Find the “<strong>Synchronize guest time with host</strong>” option, and select it.
+<a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/21-4.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/21-4.png" alt="" /></a>
+Open the vCenter Operations web page in a browser, and log in. The default username/password for vCenter Operations is <em>admin/admin</em>
+<a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/22.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/22-300x227.png" alt="" /></a>
+Log in, and follow the directions on screen to change the default username/password.
+<a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/23.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/23-300x227.png" alt="" /></a>
+<em>The new password must be at least 8 characters, and at least one digit and one character.</em>
+<strong>Note: This also changes the root account password for the vCenter Operations VM.</strong></p>
+
+<p>Next up is configuring the vCenter Operations connection to the vCenter.</p>
+
+<p>Fill out the vCenter Server information form, with information pertinent to your infrastructure.
+<em>Note that the registration credentials needs to have administrator privileges on the vCenter Server. You can use the same credentials for both registration and collection, or you can differentiate them if required in your environment.</em>
+<a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/24.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/24-300x227.png" alt="" /></a>
+Click on &ldquo;<strong>Save</strong>&rdquo;, and a test is performed to make sure that the information provided is correct.
+<a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/25.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/25-300x218.png" alt="" /></a>
+If registration is successful, a new popup appears explaining that you need to use the vSphere Client to assign the vCenter Operations licenses.
+<a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/26.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/26-300x227.png" alt="" /></a>
+Click on “<strong>Ok</strong>” and the vCenter Operations setup dashboard appears in your browser.
+<a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/27.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/27-300x227.png" alt="" /></a>
+Go back to your vCenter Client and navigate to the “<strong>Home</strong>” screen.
+<a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/28.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/28-300x288.png" alt="" /></a>
+You should now see the new &ldquo;<strong>vCenter Operations</strong>” icon under “<strong>Solutions and Applications</strong>”. If it does not appear immediately, close the vCenter Client and restart it to have it pick up the installation.
+To install the vCenter Operations license, go to “<strong>Home</strong>” and find the “<strong>Licensing</strong>” icon.
+<a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/29.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/29-300x288.png" alt="" /></a>
+Click on it, and change the “<strong>View by:</strong>” option to “<strong>Asset</strong>”
+Right click on “<strong>vCenter Operations</strong>” and select “<strong>Change License Key</strong>”
+<a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/30.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/30-300x44.png" alt="" /></a>
+Select “<strong>Assign new license key to this solution</strong>”, click on “<strong>Enter Key…</strong>” and enter your license key and optionally a label for the key. Click on “<strong>_O_K</strong>” to return to the “<strong><em>Assign License</em></strong>” window, and click on “<strong>OK</strong>” again to install the license.</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/31.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/31-300x111.png" alt="" /></a> <a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/32.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/32-300x289.png" alt="" /></a>
+Your license should now be installed and active.</p>
+
+<p>Go back to the vCenter Client “<strong>Hom</strong>e&rdquo; screen and find the vCenter Operations icon under “<strong>Solutions and Applications</strong>”. Click on it, and vCenter Operations should already be active monitoring your infrastructure.
+<a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/33.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/33-300x288.png" alt="" /></a></p>
+
+<p>Thats it! You now have VMware vCenter Operations running in your environment. For details on how it works and reports your operations refer to the <a href="http://www.vmware.com/products/vcenter-operations/overview.html">VMware vCenter Operations official documentation</a>. Eric Sloof has also posted a couple of great videos in his <a href="http://www.ntpro.nl/blog/archives/1712-Video-VMware-vCenter-Operations-Troubleshooting-Workflow.html">VMware vCenter Operations - Troubleshooting Workflow</a> post that gives an in-depth overview of what VMware vCenter Operations is capable of doing.</p>
+
+
+  
+
+  
+  <hr>
+  <footer>
+
+  
+    <section>
+    <h4>Share</h4>
+    <nav class="nav sharing-icons">
+      <a class="nav-item" href="https://www.facebook.com/sharer/sharer.php?u=%2fvirtualization%2finstalling-and-configuring-vmware-vcenter-operations%2f" title="Share on Facebook"><span class="fa fa-facebook fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://plus.google.com/share?url=%2fvirtualization%2finstalling-and-configuring-vmware-vcenter-operations%2f" title="Share on Google+"><span class="fa fa-google-plus fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fvirtualization%2finstalling-and-configuring-vmware-vcenter-operations%2f" title="Share on LinkedIn"><span class="fa fa-linkedin fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://twitter.com/home?status=%2fvirtualization%2finstalling-and-configuring-vmware-vcenter-operations%2f" title="Tweet this"><span class="fa fa-twitter fa-2x"></span></a>
+    </nav>
+  </section>
+
+  
+
+  
+  </footer>
+  
+
+</article> 
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="https://example.com">Link 1</a></li>
+      
+      <li><a href="https://example.org">Link 2</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p>
+      
+      &copy; Christian Mohn
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>

@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2018-05-09 13:12:07+00:00
 layout: post
-link: http://vninja.net/awesometalks/crossing-river-feeling-stones/
 slug: crossing-river-feeling-stones
 title: 'Keynote: Crossing the River by Feeling the Stones - Simon Wardley'
+url: /awesometalks/crossing-river-feeling-stones/
 wordpress_id: 5050
 categories:
 - AwesomeTalks

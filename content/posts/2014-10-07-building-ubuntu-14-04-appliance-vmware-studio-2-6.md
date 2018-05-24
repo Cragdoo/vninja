@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2014-10-07 23:26:03+00:00
 layout: post
-link: http://vninja.net/vmware-2/building-ubuntu-14-04-appliance-vmware-studio-2-6/
 slug: building-ubuntu-14-04-appliance-vmware-studio-2-6
 title: Building an Ubuntu 14.04 Appliance with VMware Studio 2.6
+url: /vmware-2/building-ubuntu-14-04-appliance-vmware-studio-2-6/
 wordpress_id: 3424
 categories:
 - VMware

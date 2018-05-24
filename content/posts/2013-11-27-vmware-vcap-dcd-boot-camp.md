@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2013-11-27 17:09:30+00:00
 layout: post
-link: http://vninja.net/virtualization/vmware-vcap-dcd-boot-camp/
 slug: vmware-vcap-dcd-boot-camp
 title: VMware VCAP-DCD Boot Camp
+url: /virtualization/vmware-vcap-dcd-boot-camp/
 wordpress_id: 2863
 categories:
 - Virtualization

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="Random VCDX Tips and Quotes?" />
+<meta property="og:description" content="I needed something to spruce up my desktop environment, and it seems that one of the more popular ways to do that is to display random quotes and such on your desktop. Instead of hooking up to an existing quotes database, I simply made my own.
+I have collected a few VCDX related tips and quotes, primarily from the archive Duncan Epping put together of VCDX Tips from VCDX 001 John Arrasjid, but also from the &ldquo;submissions&rdquo; I got from VCDX?" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/virtualization/random-vcdx-tips-quotes/" />
+
+
+
+<meta property="article:published_time" content="2014-01-29T15:58:10&#43;00:00"/>
+
+<meta property="article:modified_time" content="2014-01-29T15:58:10&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Random VCDX Tips and Quotes?"/>
+<meta name="twitter:description" content="I needed something to spruce up my desktop environment, and it seems that one of the more popular ways to do that is to display random quotes and such on your desktop. Instead of hooking up to an existing quotes database, I simply made my own.
+I have collected a few VCDX related tips and quotes, primarily from the archive Duncan Epping put together of VCDX Tips from VCDX 001 John Arrasjid, but also from the &ldquo;submissions&rdquo; I got from VCDX?"/>
+<meta name="generator" content="Hugo 0.40.3" />
+
+
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Random VCDX Tips and Quotes?",
+  "url": "/virtualization/random-vcdx-tips-quotes/",
+  "wordCount": "232",
+  "datePublished": "2014-01-29T15:58:10&#43;00:00",
+  "dateModified": "2014-01-29T15:58:10&#43;00:00",
+  "author": {
+    "@type": "Person",
+    "name": "cmohn"
+  },
+  "keywords": "Virtualization, Desktop, featured, fun, GeekTool, PHP, Quotes, Script, VCDX"
+}
+</script>
+
+
+
+    <link rel="canonical" href="/virtualization/random-vcdx-tips-quotes/">
+
+    <title>Random VCDX Tips and Quotes? | Adventures in Hugo</title>
+
+    <!-- combined, minified CSS -->
+    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
+
+    
+
+    
+
+    
+
+    
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="/">Home</a>
+          
+          <a class="nav-link" href="https://example.org" title="">Link 1</a>
+          
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
+        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+      </div>
+    </header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/virtualization/random-vcdx-tips-quotes/">Random VCDX Tips and Quotes?</a></h2>
+    <p class="blog-post-meta"><time datetime="2014-01-29T15:58:10Z">Wed Jan 29, 2014</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/desktop" rel="tag">Desktop</a>, <a href="/tags/featured" rel="tag">featured</a>, <a href="/tags/fun" rel="tag">fun</a>, <a href="/tags/geektool" rel="tag">GeekTool</a>, <a href="/tags/php" rel="tag">PHP</a>, <a href="/tags/quotes" rel="tag">Quotes</a>, <a href="/tags/script" rel="tag">Script</a>, <a href="/tags/vcdx" rel="tag">VCDX</a>
+
+</p>
+  </header>
+  <p><img src="http://vninja.net/wordpress/wp-content/uploads/2014/01/vNinja-Labs.png" alt="vNinja-Labs" />I needed something to spruce up my desktop environment, and it seems that one of the more popular ways to do that is to display random quotes and such on your desktop. Instead of hooking up to an existing quotes database, I simply made my own.</p>
+
+<p>I have collected a few VCDX related tips and quotes, primarily from the archive <a href="http://twitter.com/DuncanYB">Duncan Epping</a> put together of <a href="http://www.yellow-bricks.com/2009/10/01/vcdx-tips-from-vcdx-001-john-arrasjid/">VCDX Tips from VCDX 001 John Arrasjid</a>, but also from the &ldquo;submissions&rdquo; I got from <a href="http://vninja.net/news/vcdx-give-quote/">VCDX? Give Me a Quote!</a> <strong>If anyone else wants their quote/tip/hint added to the database, please let me know!</strong></p>
+
+<p>But gathering all of these in a single location has no real purpose, so I managed to code up a really small PHP script that picks a random quote, and return it with attribution. The output is available at <a href="http://vninja.net/labs/quotes/quote.php">http://vninja.net/labs/quotes/quote.php</a> and should return a random line from the db on each query.</p>
+
+<p>I use this in combination with <a href="http://projects.tynsoe.org/en/geektool/">GeekTool</a> to display a random, changing, quote right on my desktop:</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2014/01/VCDXQuotes.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2014/01/VCDXQuotes-1024x640.png" alt="VCDX Quotes on the Desktop" /></a></p>
+
+<p>Inside <a href="http://projects.tynsoe.org/en/geektool/">GeekTool</a>, I run the following command to generate the output:
+[cc lang=&ldquo;bash&rdquo; width=&ldquo;100%&rdquo; theme=&ldquo;blackboard&rdquo; nowrap=&ldquo;0&rdquo;]
+curl <a href="http://vninja.net/labs/quotes/quote.php">http://vninja.net/labs/quotes/quote.php</a>
+[/cc]</p>
+
+<p>This  is set to refresh every 120 seconds, as long as I have internet connectivity.</p>
+
+<p><em>Feel free to use the script to do something similar, or if you have a better idea for it&rsquo;s usage let me know!</em></p>
+
+<p>Seen &ldquo;In the Wild&rdquo; Gallery:</p>
+
+<p>[gallery ids=&ldquo;3065&rdquo;]</p>
+
+
+  
+
+  
+  <hr>
+  <footer>
+
+  
+    <section>
+    <h4>Share</h4>
+    <nav class="nav sharing-icons">
+      <a class="nav-item" href="https://www.facebook.com/sharer/sharer.php?u=%2fvirtualization%2frandom-vcdx-tips-quotes%2f" title="Share on Facebook"><span class="fa fa-facebook fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://plus.google.com/share?url=%2fvirtualization%2frandom-vcdx-tips-quotes%2f" title="Share on Google+"><span class="fa fa-google-plus fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fvirtualization%2frandom-vcdx-tips-quotes%2f" title="Share on LinkedIn"><span class="fa fa-linkedin fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://twitter.com/home?status=%2fvirtualization%2frandom-vcdx-tips-quotes%2f" title="Tweet this"><span class="fa fa-twitter fa-2x"></span></a>
+    </nav>
+  </section>
+
+  
+
+  
+  </footer>
+  
+
+</article> 
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="https://example.com">Link 1</a></li>
+      
+      <li><a href="https://example.org">Link 2</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p>
+      
+      &copy; Christian Mohn
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>

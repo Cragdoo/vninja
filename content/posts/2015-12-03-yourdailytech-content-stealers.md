@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2015-12-03 20:59:13+00:00
 layout: post
-link: http://vninja.net/news/yourdailytech-content-stealers/
 slug: yourdailytech-content-stealers
 title: YourDailyTech - Content Stealers
+url: /news/yourdailytech-content-stealers/
 wordpress_id: 3899
 categories:
 - News

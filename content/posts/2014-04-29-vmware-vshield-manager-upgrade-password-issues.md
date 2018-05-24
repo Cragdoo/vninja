@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2014-04-29 08:18:35+00:00
 layout: post
-link: http://vninja.net/vmware-2/vmware-vshield-manager-upgrade-password-issues/
 slug: vmware-vshield-manager-upgrade-password-issues
 title: VMware vShield Manager Upgrade - Password Issues
+url: /vmware-2/vmware-vshield-manager-upgrade-password-issues/
 wordpress_id: 3159
 categories:
 - VMware

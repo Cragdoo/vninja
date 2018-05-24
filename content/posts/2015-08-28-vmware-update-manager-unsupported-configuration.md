@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2015-08-28 10:46:24+00:00
 layout: post
-link: http://vninja.net/vmware-2/vmware-update-manager-unsupported-configuration/
 slug: vmware-update-manager-unsupported-configuration
 title: 'VMware Update Manager: Unsupported Configuration'
+url: /vmware-2/vmware-update-manager-unsupported-configuration/
 wordpress_id: 3769
 categories:
 - VMware

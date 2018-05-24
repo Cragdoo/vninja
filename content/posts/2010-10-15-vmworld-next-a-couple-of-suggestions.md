@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2010-10-15 08:36:39+00:00
 layout: post
-link: http://vninja.net/virtualization/vmworld-next-a-couple-of-suggestions/
 slug: vmworld-next-a-couple-of-suggestions
 title: VMworld.next - a couple of suggestions
+url: /virtualization/vmworld-next-a-couple-of-suggestions/
 wordpress_id: 387
 categories:
 - Virtualization

@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2013-01-14 23:53:50+00:00
 layout: post
-link: http://vninja.net/virtualization/dell-vkernel-vops-server-explorer-6-3-released/
 slug: dell-vkernel-vops-server-explorer-6-3-released
 title: Dell (VKernel) vOPS Server Explorer 6.3 Released
+url: /virtualization/dell-vkernel-vops-server-explorer-6-3-released/
 wordpress_id: 2335
 categories:
 - Virtualization

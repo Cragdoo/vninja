@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2015-01-12 23:31:45+00:00
 layout: post
-link: http://vninja.net/virtualization/markdown-things/
 slug: markdown-things
 title: Markdown All the Things!
+url: /virtualization/markdown-things/
 wordpress_id: 3483
 categories:
 - Virtualization

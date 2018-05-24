@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2014-06-08 09:09:20+00:00
 layout: post
-link: http://vninja.net/vmware-2/vmwares-mystic-marvin-project/
 slug: vmwares-mystic-marvin-project
 title: What is VMware's Mystic Marvin Project?
+url: /vmware-2/vmwares-mystic-marvin-project/
 wordpress_id: 3198
 categories:
 - VMware

@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2016-02-24 10:42:26+00:00
 layout: post
-link: http://vninja.net/virtualization/running-a-vsan-poc-customer-reactions/
 slug: running-a-vsan-poc-customer-reactions
 title: Running a VSAN PoC - Customer reactions
+url: /virtualization/running-a-vsan-poc-customer-reactions/
 wordpress_id: 4038
 categories:
 - Virtualization

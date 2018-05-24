@@ -91,7 +91,7 @@
 
 <article class="blog-post">
   <header>
-    <h2 class="blog-post-title"><a href="/posts/root-invalid-memory-setting-memory-reservation-sched-mem-min-equal-memsize-memsize/">Root Cause of Invalid memory setting: memory reservation (sched.mem.min) should be equal to memsize (memsize)</a></h2>
+    <h2 class="blog-post-title"><a href="/vmware-2/root-invalid-memory-setting-memory-reservation-sched-mem-min-equal-memsize-memsize/">Root Cause of Invalid memory setting: memory reservation (sched.mem.min) should be equal to memsize (memsize)</a></h2>
     <p class="blog-post-meta"><time datetime="2014-07-15T10:59:42Z">Tue Jul 15, 2014</time> by cmohn in 
 <i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/vmware" rel="category tag">VMware</a>
 
@@ -103,7 +103,7 @@
   While working on reconfiguring my home lab setup, and migrating all the vSphere resources into a single cluster I ran into a problem powering on one of the VMs which used to run on a single host. The power on operation yielded the following error message:
 Invalid memory setting: memory reservation (sched.mem.min) should be equal to memsize (memsize) [showhide type=&ldquo;errorstack&rdquo; more_text=&ldquo;Show error stack (%s More Words)&rdquo;]
   **Task Details:**         Status:    Invalid memory setting: memory reservation (sched.
-  <a href='/posts/root-invalid-memory-setting-memory-reservation-sched-mem-min-equal-memsize-memsize/'>Read more →</a>
+  <a href='/vmware-2/root-invalid-memory-setting-memory-reservation-sched-mem-min-equal-memsize-memsize/'>Read more →</a>
 </article> 
 
 
@@ -113,7 +113,7 @@ Invalid memory setting: memory reservation (sched.mem.min) should be equal to me
 
 <article class="blog-post">
   <header>
-    <h2 class="blog-post-title"><a href="/posts/combine-vsphere-host-cache-vflash-single-ssd/">Can you combine vSphere Host Cache and vFlash on a single SSD?</a></h2>
+    <h2 class="blog-post-title"><a href="/vmware-2/combine-vsphere-host-cache-vflash-single-ssd/">Can you combine vSphere Host Cache and vFlash on a single SSD?</a></h2>
     <p class="blog-post-meta"><time datetime="2013-09-30T00:12:39Z">Mon Sep 30, 2013</time> by cmohn in 
 <i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/vmware" rel="category tag">VMware</a>
 
@@ -124,7 +124,7 @@ Invalid memory setting: memory reservation (sched.mem.min) should be equal to me
   </header>
   One of the new features in vSphere 5.5 is the vSphere vFlash that enables you to use a SSD/Flash device as a read cache for your storage. Duncan Epping has a series of posts on vSphere Flash Cache that is well worth a read.
 vSphere vFlash caches your read IOs, but at the same time you can use it as a swap device if you run into memory contention issues. The vSphere vFlash Host Cache is similar to the older Host Cache feature, but if you are upgrading from an older version of ESXi there is a couple of things that needs to be done to be able to use this feature.
-  <a href='/posts/combine-vsphere-host-cache-vflash-single-ssd/'>Read more →</a>
+  <a href='/vmware-2/combine-vsphere-host-cache-vflash-single-ssd/'>Read more →</a>
 </article> 
 
 
@@ -134,7 +134,7 @@ vSphere vFlash caches your read IOs, but at the same time you can use it as a sw
 
 <article class="blog-post">
   <header>
-    <h2 class="blog-post-title"><a href="/posts/vmware-vcenter-server-appliance-error-vpxd-stopped-perform-operation/">VMware vCenter Server Appliance Error: VPXD must be stopped to perform this operation</a></h2>
+    <h2 class="blog-post-title"><a href="/vmware-2/vmware-vcenter-server-appliance-error-vpxd-stopped-perform-operation/">VMware vCenter Server Appliance Error: VPXD must be stopped to perform this operation</a></h2>
     <p class="blog-post-meta"><time datetime="2013-09-29T23:16:25Z">Sun Sep 29, 2013</time> by cmohn in 
 <i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/vmware" rel="category tag">VMware</a>
 
@@ -146,7 +146,7 @@ vSphere vFlash caches your read IOs, but at the same time you can use it as a sw
   While deploying a fresh vCenter Server 5.5 Appliance, I ran into an issue getting it configured.
 When the appliance is deployed, the first time you log in you get presented with the configuration wizard. The wizard clearly states that if you want to set a static ip, or hostname, you should cancel the wizard, do the network configuration and then re-run the wizard after the fact.
 Well, that´s what I did, and it resulted in the following error when trying to create the embedded database:
-  <a href='/posts/vmware-vcenter-server-appliance-error-vpxd-stopped-perform-operation/'>Read more →</a>
+  <a href='/vmware-2/vmware-vcenter-server-appliance-error-vpxd-stopped-perform-operation/'>Read more →</a>
 </article> 
 
 
@@ -156,7 +156,7 @@ Well, that´s what I did, and it resulted in the following error when trying to 
 
 <article class="blog-post">
   <header>
-    <h2 class="blog-post-title"><a href="/posts/quick-dirty-esxi-5-5-upgrade/">Quick and Dirty ESXi 5.5 Upgrade</a></h2>
+    <h2 class="blog-post-title"><a href="/virtualization/quick-dirty-esxi-5-5-upgrade/">Quick and Dirty ESXi 5.5 Upgrade</a></h2>
     <p class="blog-post-meta"><time datetime="2013-09-23T23:28:04Z">Mon Sep 23, 2013</time> by cmohn in 
 <i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
 
@@ -168,7 +168,7 @@ Well, that´s what I did, and it resulted in the following error when trying to 
   As I´ve posted about earlier, you can update your ESXi hosts to a new release from the command line. Now that ESXi 5.5 has been released, the same procedure can be applied to upgrade once more.
 Place the host in maintenance mode, then run the following command to do an online update to ESXi 5.5:
 [cc lang=&ldquo;bash&rdquo; width=&ldquo;100%&rdquo; theme=&ldquo;blackboard&rdquo; nowrap=&ldquo;0&rdquo;] ~ # esxcli software profile update -d https://hostupdate.vmware.com/software/VUM/PRODUCTION/main/vmw-depot-index.xml -p ESXi-5.
-  <a href='/posts/quick-dirty-esxi-5-5-upgrade/'>Read more →</a>
+  <a href='/virtualization/quick-dirty-esxi-5-5-upgrade/'>Read more →</a>
 </article> 
 
 

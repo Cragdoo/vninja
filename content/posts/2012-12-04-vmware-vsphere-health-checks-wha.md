@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2012-12-04 22:49:27+00:00
 layout: post
-link: http://vninja.net/vmware-2/vmware-vsphere-health-checks-wha/
 slug: vmware-vsphere-health-checks-wha
 title: VMware vSphere Health Check - What´s in it for You?
+url: /vmware-2/vmware-vsphere-health-checks-wha/
 wordpress_id: 2242
 categories:
 - VMware

@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2014-03-27 19:37:55+00:00
 layout: post
-link: http://vninja.net/virtualization/2014-top-vblog-results/
 slug: 2014-top-vblog-results
 title: '2014 Top vBlog Results '
+url: /virtualization/2014-top-vblog-results/
 wordpress_id: 3130
 categories:
 - Virtualization

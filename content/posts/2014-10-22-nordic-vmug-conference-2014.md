@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2014-10-22 21:18:23+00:00
 layout: post
-link: http://vninja.net/virtualization/nordic-vmug-conference-2014/
 slug: nordic-vmug-conference-2014
 title: Nordic VMUG Conference 2014
+url: /virtualization/nordic-vmug-conference-2014/
 wordpress_id: 3438
 categories:
 - Virtualization

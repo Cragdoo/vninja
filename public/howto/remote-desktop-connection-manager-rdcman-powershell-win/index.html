@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="Remote Desktop Connection Manager (RDCMan) &#43; Powershell = Win" />
+<meta property="og:description" content="Remote Desktop Connection Manager is a great tool from Microsoft which enables you to keep track of all your RDP sessions and targets in a nice GUI. One of the things it&rsquo;s lacking though, is some sort of Active Directory connection that allows you to import all your server objects directly, and not manually add/remove the serves as your infrastructure changes over time.
+In an attempt to bridge that gap, I&rsquo;ve made a very small PowerShell script that queries your Active Directory for server objects and dumps their names into a text file that you can import into RDCMan." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/howto/remote-desktop-connection-manager-rdcman-powershell-win/" />
+
+
+
+<meta property="article:published_time" content="2011-01-20T14:51:46&#43;00:00"/>
+
+<meta property="article:modified_time" content="2011-01-20T14:51:46&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Remote Desktop Connection Manager (RDCMan) &#43; Powershell = Win"/>
+<meta name="twitter:description" content="Remote Desktop Connection Manager is a great tool from Microsoft which enables you to keep track of all your RDP sessions and targets in a nice GUI. One of the things it&rsquo;s lacking though, is some sort of Active Directory connection that allows you to import all your server objects directly, and not manually add/remove the serves as your infrastructure changes over time.
+In an attempt to bridge that gap, I&rsquo;ve made a very small PowerShell script that queries your Active Directory for server objects and dumps their names into a text file that you can import into RDCMan."/>
+<meta name="generator" content="Hugo 0.40.3" />
+
+
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Remote Desktop Connection Manager (RDCMan) &#43; Powershell = Win",
+  "url": "/howto/remote-desktop-connection-manager-rdcman-powershell-win/",
+  "wordCount": "364",
+  "datePublished": "2011-01-20T14:51:46&#43;00:00",
+  "dateModified": "2011-01-20T14:51:46&#43;00:00",
+  "author": {
+    "@type": "Person",
+    "name": "cmohn"
+  },
+  "keywords": "Howto, Ops, Powershell, RDCMan, Windows"
+}
+</script>
+
+
+
+    <link rel="canonical" href="/howto/remote-desktop-connection-manager-rdcman-powershell-win/">
+
+    <title>Remote Desktop Connection Manager (RDCMan) &#43; Powershell = Win | Adventures in Hugo</title>
+
+    <!-- combined, minified CSS -->
+    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
+
+    
+
+    
+
+    
+
+    
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="/">Home</a>
+          
+          <a class="nav-link" href="https://example.org" title="">Link 1</a>
+          
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
+        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+      </div>
+    </header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/howto/remote-desktop-connection-manager-rdcman-powershell-win/">Remote Desktop Connection Manager (RDCMan) + Powershell = Win</a></h2>
+    <p class="blog-post-meta"><time datetime="2011-01-20T14:51:46Z">Thu Jan 20, 2011</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/howto" rel="category tag">Howto</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/ops" rel="tag">Ops</a>, <a href="/tags/powershell" rel="tag">Powershell</a>, <a href="/tags/rdcman" rel="tag">RDCMan</a>, <a href="/tags/windows" rel="tag">Windows</a>
+
+</p>
+  </header>
+  
+
+<p><a href="http://msexchangeteam.com/archive/2010/06/11/455115.aspx">Remote Desktop Connection Manager</a> is a great tool from Microsoft which enables you to keep track of all your RDP sessions and targets in a nice GUI. One of the things it&rsquo;s lacking though, is some sort of Active Directory connection that allows you to import all your server objects directly, and not manually add/remove the serves as your infrastructure changes over time.</p>
+
+<p>In an attempt to bridge that gap, I&rsquo;ve made a very small PowerShell script that queries your Active Directory for server objects and dumps their names into a text file that you can import into RDCMan. This is a very simple solution, but works great in my environment.</p>
+
+<h4 id="getallservers-ps1">GetAllServers.ps1</h4>
+
+<pre><code>Import-Module ActiveDirectory 
+
+$servers = Get-ADComputer -LDAPFilter &quot;(operatingsystem=*Windows Server*)&quot; | select name,dnshostname
+$Date = Get-Date
+$filename = &quot;Servers-{0}{1:d2}{2:d2}&quot; -f $date.year,$date.month,$date.day
+foreach ($server in $servers) { 
+
+$servername = $server.name
+
+#Customize this for your environment
+$servername | Out-File -append -encoding ASCII &lt;path&gt;\$filename.txt
+
+}
+</code></pre>
+
+<p>In short, replace the path in <strong>line 11</strong>, and you should be able to run the script. It will then create a file called servers-{current-date}.txt in the path you have specified. This is a simple text file with one server defined on each line.</p>
+
+<p>This file can then be imported into RDCMan by going to the <em>Edit</em> menu and select <em>Import Servers</em>. This brings up  the <em>Import Servers</em> dialog box where you can browse to the file that the PowerShell script created. Click on the <em>Import Button</em> and all your servers should now be listed in RDCMan. The next time you need to update, delete the existing servers, re-run the PowerShell script and import again.</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2011/01/RDCMan-1.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/01/RDCMan-1.png" alt="" /></a>
+<a href="http://vninja.net/wordpress/wp-content/uploads/2011/01/RDCMan-2.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/01/RDCMan-2-300x231.png" alt="" /></a></p>
+
+<p>While this isn&rsquo;t a fully automated solution, and I really wish RDCMan could do this for you by querying AD directly and finding new servers and removing the ones that are no longer present and so on, it is a quick way to get your current servers into RDCMan without manually creating each and every entry.</p>
+
+<h4 id="update">Update:</h4>
+
+<p>After I initially posted this, <a href="http://twitter.com/#!/janegilring">Jan Egil Ring</a>, pointed me to his solution which is a <em>bit</em> more elaborate. Have a look at his solution &ldquo;<a href="http://blog.powershell.no/2010/06/02/dynamic-remote-desktop-connection-manager-connection-list/">Dynamic Remote Desktop Connection Manager connection list</a>&rdquo;, which is how it really should be done&hellip;</p>
+
+
+  
+
+  
+  <hr>
+  <footer>
+
+  
+    <section>
+    <h4>Share</h4>
+    <nav class="nav sharing-icons">
+      <a class="nav-item" href="https://www.facebook.com/sharer/sharer.php?u=%2fhowto%2fremote-desktop-connection-manager-rdcman-powershell-win%2f" title="Share on Facebook"><span class="fa fa-facebook fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://plus.google.com/share?url=%2fhowto%2fremote-desktop-connection-manager-rdcman-powershell-win%2f" title="Share on Google+"><span class="fa fa-google-plus fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fhowto%2fremote-desktop-connection-manager-rdcman-powershell-win%2f" title="Share on LinkedIn"><span class="fa fa-linkedin fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://twitter.com/home?status=%2fhowto%2fremote-desktop-connection-manager-rdcman-powershell-win%2f" title="Tweet this"><span class="fa fa-twitter fa-2x"></span></a>
+    </nav>
+  </section>
+
+  
+
+  
+  </footer>
+  
+
+</article> 
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="https://example.com">Link 1</a></li>
+      
+      <li><a href="https://example.org">Link 2</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p>
+      
+      &copy; Christian Mohn
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>

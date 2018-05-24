@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2013-10-01 08:42:47+00:00
 layout: post
-link: http://vninja.net/virtualization/vpostgres-database-backup-vcsa-5-5/
 slug: vpostgres-database-backup-vcsa-5-5
 title: vPostgres Database Backup in vCSA 5.5
+url: /virtualization/vpostgres-database-backup-vcsa-5-5/
 wordpress_id: 2769
 categories:
 - Virtualization

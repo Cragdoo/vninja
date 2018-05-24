@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2012-07-02 19:50:03+00:00
 layout: post
-link: http://vninja.net/virtualization/vsphere-5-creating-hardware-version-4-vm/
 slug: vsphere-5-creating-hardware-version-4-vm
 title: 'vSphere 5: Creating a Hardware Version 4 VM'
+url: /virtualization/vsphere-5-creating-hardware-version-4-vm/
 wordpress_id: 1888
 categories:
 - Virtualization

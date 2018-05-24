@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2015-02-10 00:06:54+00:00
 layout: post
-link: http://vninja.net/vmware-2/vsphere-6-0-launch-misinformation-effect/
 slug: vsphere-6-0-launch-misinformation-effect
 title: The vSphere 6.0 Launch and The Misinformation Effect
+url: /vmware-2/vsphere-6-0-launch-misinformation-effect/
 wordpress_id: 3580
 categories:
 - VMware

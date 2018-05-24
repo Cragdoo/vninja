@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2016-01-06 13:51:58+00:00
 layout: post
-link: http://vninja.net/workflow/todoist-one-year-later/
 slug: todoist-one-year-later
 title: 'Todoist: One year later'
+url: /workflow/todoist-one-year-later/
 wordpress_id: 3921
 categories:
 - Workflow

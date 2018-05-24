@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2013-06-25 08:52:03+00:00
 layout: post
-link: http://vninja.net/vmware-2/centrally-disable-nat-vmware-workstation/
 slug: centrally-disable-nat-vmware-workstation
 title: Centrally Disable NAT in VMware Workstation
+url: /vmware-2/centrally-disable-nat-vmware-workstation/
 wordpress_id: 2601
 categories:
 - VMware

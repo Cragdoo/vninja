@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2011-03-28 09:32:09+00:00
 layout: post
-link: http://vninja.net/news/vsoup-episode-7-and-vmware-podcast-directory/
 slug: vsoup-episode-7-and-vmware-podcast-directory
 title: 'vSoup Episode #7 and VMware Podcast Directory'
+url: /news/vsoup-episode-7-and-vmware-podcast-directory/
 wordpress_id: 999
 categories:
 - News

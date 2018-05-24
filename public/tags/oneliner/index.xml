@@ -14,10 +14,10 @@
     
     <item>
       <title>Exporting vCenter Events with PowerCLI</title>
-      <link>/posts/exporting-vcenter-events-powercli/</link>
+      <link>/virtualization/exporting-vcenter-events-powercli/</link>
       <pubDate>Fri, 30 Nov 2012 09:12:50 +0000</pubDate>
       
-      <guid>/posts/exporting-vcenter-events-powercli/</guid>
+      <guid>/virtualization/exporting-vcenter-events-powercli/</guid>
       <description>One of my clients has recently been having issues with their storage solution, and wanted to export the events from vCenter that show storage performance degradation, to aid in troubleshooting with the vendor.
 For some reason, and I have yet to confirm that this is a bug with the vCenter 5.0 appliance or the vCenter Desktop Client, when an event export is done, the storage related events are not exported with the rest of the events.</description>
     </item>

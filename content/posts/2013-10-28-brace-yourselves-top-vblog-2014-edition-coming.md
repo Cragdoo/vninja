@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2013-10-28 17:21:46+00:00
 layout: post
-link: http://vninja.net/virtualization/brace-yourselves-top-vblog-2014-edition-coming/
 slug: brace-yourselves-top-vblog-2014-edition-coming
 title: 'Brace Yourselves: Top vBlog 2014 edition is coming'
+url: /virtualization/brace-yourselves-top-vblog-2014-edition-coming/
 wordpress_id: 2828
 categories:
 - Virtualization

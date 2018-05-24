@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2011-06-08 13:57:40+00:00
 layout: post
-link: http://vninja.net/news/tech-field-day-6-arriving-in-boston/
 slug: tech-field-day-6-arriving-in-boston
 title: 'Tech Field Day #6 - Arriving in Boston'
+url: /news/tech-field-day-6-arriving-in-boston/
 wordpress_id: 1143
 categories:
 - News

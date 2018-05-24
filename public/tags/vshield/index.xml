@@ -14,20 +14,20 @@
     
     <item>
       <title>VMware vShield Manager Upgrade - Password Issues</title>
-      <link>/posts/vmware-vshield-manager-upgrade-password-issues/</link>
+      <link>/vmware-2/vmware-vshield-manager-upgrade-password-issues/</link>
       <pubDate>Tue, 29 Apr 2014 08:18:35 +0000</pubDate>
       
-      <guid>/posts/vmware-vshield-manager-upgrade-password-issues/</guid>
+      <guid>/vmware-2/vmware-vshield-manager-upgrade-password-issues/</guid>
       <description>While upgrading a vShield Manager 5.1.1 install to 5.1.4 at a client, I ran into an issue with logging in after a completed upgrade. The username and password used to log in, and subsequently upload the upgrade file, was no longer working after the upgrade finished and the vShield Manager appliance had been rebooted.
 It turns out that this was due to using international characters in the password for the admin user, in this case the Norwegian specialities æ, ø or å.</description>
     </item>
     
     <item>
       <title>vShield Endpoint Entitlement, not just for vSphere 5.1</title>
-      <link>/posts/vshield-endpoint-entitlement-vsphere-5-1/</link>
+      <link>/vmware-2/vshield-endpoint-entitlement-vsphere-5-1/</link>
       <pubDate>Fri, 05 Oct 2012 21:43:15 +0000</pubDate>
       
-      <guid>/posts/vshield-endpoint-entitlement-vsphere-5-1/</guid>
+      <guid>/vmware-2/vshield-endpoint-entitlement-vsphere-5-1/</guid>
       <description>When VMware vSphere 5.1 and vCloud Networking and Security 5.1 was launched at VMworld US in late August, one of the news items was the change in licensing relating to vShield Endpoint.
 vShield Endpoint is now included in every vSphere edition, with the exception of the lowest tier vSphere Essentials package.
 I was under the impression that you had to upgrade to the new 5.1 version to take advantage of the licensing change, and get licenses available for vShield Endpoint, but a new VMware Knowledgebase article named KB: 2036875 Downloading and enabling vShield Endpoint on supported vSphere platforms debunks that.</description>

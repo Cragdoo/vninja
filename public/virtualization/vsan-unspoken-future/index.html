@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="VSAN - The Unspoken Future" />
+<meta property="og:description" content="This rather tongue-in-cheek title, is a play on Maish recent VSAN - The Unspoken Truth post where he highlights what he thinks is one of the hidden &ldquo;problems&rdquo; with the current version of VSAN is it&rsquo;s inherent non-blade compatibility and current lack of &ldquo;rack based VSAN ready nodes&rdquo;.
+Of course, this is a reality; If you base your current infrastructure on blade servers, VSAN probably isn&rsquo;t a good match as it stands today." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/virtualization/vsan-unspoken-future/" />
+
+
+
+<meta property="article:published_time" content="2014-03-17T22:41:34&#43;00:00"/>
+
+<meta property="article:modified_time" content="2014-03-17T22:41:34&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="VSAN - The Unspoken Future"/>
+<meta name="twitter:description" content="This rather tongue-in-cheek title, is a play on Maish recent VSAN - The Unspoken Truth post where he highlights what he thinks is one of the hidden &ldquo;problems&rdquo; with the current version of VSAN is it&rsquo;s inherent non-blade compatibility and current lack of &ldquo;rack based VSAN ready nodes&rdquo;.
+Of course, this is a reality; If you base your current infrastructure on blade servers, VSAN probably isn&rsquo;t a good match as it stands today."/>
+<meta name="generator" content="Hugo 0.40.3" />
+
+
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "VSAN - The Unspoken Future",
+  "url": "/virtualization/vsan-unspoken-future/",
+  "wordCount": "423",
+  "datePublished": "2014-03-17T22:41:34&#43;00:00",
+  "dateModified": "2014-03-17T22:41:34&#43;00:00",
+  "author": {
+    "@type": "Person",
+    "name": "cmohn"
+  },
+  "keywords": "Virtualization, Data Center, featured, Form Factor, Node, SDDC, Server, VSAN"
+}
+</script>
+
+
+
+    <link rel="canonical" href="/virtualization/vsan-unspoken-future/">
+
+    <title>VSAN - The Unspoken Future | Adventures in Hugo</title>
+
+    <!-- combined, minified CSS -->
+    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
+
+    
+
+    
+
+    
+
+    
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="/">Home</a>
+          
+          <a class="nav-link" href="https://example.org" title="">Link 1</a>
+          
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
+        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+      </div>
+    </header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/virtualization/vsan-unspoken-future/">VSAN - The Unspoken Future</a></h2>
+    <p class="blog-post-meta"><time datetime="2014-03-17T22:41:34Z">Mon Mar 17, 2014</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/data-center" rel="tag">Data Center</a>, <a href="/tags/featured" rel="tag">featured</a>, <a href="/tags/form-factor" rel="tag">Form Factor</a>, <a href="/tags/node" rel="tag">Node</a>, <a href="/tags/sddc" rel="tag">SDDC</a>, <a href="/tags/server" rel="tag">Server</a>, <a href="/tags/virtualization" rel="tag">Virtualization</a>, <a href="/tags/vsan" rel="tag">VSAN</a>
+
+</p>
+  </header>
+  <p>This rather <em>tongue-in-cheek</em> title, is a play on <a href="https://twitter.com/maishsk/">Maish </a>recent <a href="http://technodrone.blogspot.com/2014/03/vsan-unspoken-truth.html">VSAN - The Unspoken Truth</a> post where he highlights what he thinks is one of the hidden &ldquo;problems&rdquo; with the current version of VSAN is it&rsquo;s inherent non-blade compatibility and current lack of &ldquo;rack based VSAN ready nodes&rdquo;.</p>
+
+<p>Of course, this is a reality; If you base your current infrastructure on blade servers, <a href="http://www.vmware.com/products/virtual-san">VSAN</a> probably isn&rsquo;t a good match as it stands today. Chances are that if you are currently running a blade-based datacenter, you have traditional external storage on the back end of that, and that you for quite some time will be running a form factor that VSAN simply isn&rsquo;t designed for. I don&rsquo;t disagree with Maish in that conclusion, not a bit.</p>
+
+<p>But what about the next server refresh? One of the things that VSAN is a facilitator for, along with enhancements in the storage industry, is the ability to move to other form factors. Currently Supermicro offers their rather nice looking<a href="http://www.supermicro.nl/products/nfo/FatTwin.cfm"> FatTwin™ Server Solution</a>. If we look at what the <a href="http://www.supermicro.nl/products/system/4U/F617/SYS-F617R2-R72_.cfm">SYS-F617R2-R72+</a> box offers, in the total rack space of 4U (less than most blade chassis), it is clear that the form factor choices will not just be tower or blade, the will also include other new form factors that are currently not in the forefront of peoples minds when designing their data center.</p>
+
+<p>Looking at the Supermicro box again, in a 4U rack footprint, it offers these maximums pr node:</p>
+
+<ul>
+<li><p>2 x Intel® Xeon® processor E5-2600</p></li>
+
+<li><p>Up to 1TB DDR3 ECC LRDIMM</p></li>
+
+<li><p>6x Hot-swap 2.5&rdquo; SAS2/SATA HDD trays</p></li>
+</ul>
+
+<p><strong>So, in 4U, you can get 16 CPU, 8TB RAM and 48 SAS2/SATA bays.  Stick a couple of those in your rack, with a few 10GbE ports, and then try to do something similar with a blade infrastructure!</strong></p>
+
+<p>Now, of course, VSAN isn&rsquo;t for everyone, nor is it designed to be. In a way VSAN offers a peak to the future of datacenter design, in the same way that it shows us that Software Designed Data Center (SDDC) is not just about the software, it&rsquo;s about how we think, manage AND design our back-end infrastructure. It&rsquo;s not just storage vendors that need to take heed and look at what they are offering, the same also goes for &ldquo;traditional&rdquo; server/node vendors.</p>
+
+<p>That&rsquo;s right, a server is becoming a node and which vendors sticker is in the front, might not matter that much in the future.</p>
+
+<blockquote>The future is already here – it's just not evenly distributed.
+— William Gibson</blockquote>
+
+<p>[Header photo credit: <a href="www.LendingMemo.com">www.LendingMemo.com</a>]</p>
+
+
+  
+
+  
+  <hr>
+  <footer>
+
+  
+    <section>
+    <h4>Share</h4>
+    <nav class="nav sharing-icons">
+      <a class="nav-item" href="https://www.facebook.com/sharer/sharer.php?u=%2fvirtualization%2fvsan-unspoken-future%2f" title="Share on Facebook"><span class="fa fa-facebook fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://plus.google.com/share?url=%2fvirtualization%2fvsan-unspoken-future%2f" title="Share on Google+"><span class="fa fa-google-plus fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fvirtualization%2fvsan-unspoken-future%2f" title="Share on LinkedIn"><span class="fa fa-linkedin fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://twitter.com/home?status=%2fvirtualization%2fvsan-unspoken-future%2f" title="Tweet this"><span class="fa fa-twitter fa-2x"></span></a>
+    </nav>
+  </section>
+
+  
+
+  
+  </footer>
+  
+
+</article> 
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="https://example.com">Link 1</a></li>
+      
+      <li><a href="https://example.org">Link 2</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p>
+      
+      &copy; Christian Mohn
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>

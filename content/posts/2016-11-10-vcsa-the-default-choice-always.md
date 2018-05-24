@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2016-11-10 09:57:29+00:00
 layout: post
-link: http://vninja.net/virtualization/vcsa-the-default-choice-always/
 slug: vcsa-the-default-choice-always
 title: VCSA - The default choice. Always.
+url: /virtualization/vcsa-the-default-choice-always/
 wordpress_id: 4346
 categories:
 - Virtualization

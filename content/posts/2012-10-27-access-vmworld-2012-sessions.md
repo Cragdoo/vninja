@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2012-10-27 16:42:11+00:00
 layout: post
-link: http://vninja.net/vmware-2/access-vmworld-2012-sessions/
 slug: access-vmworld-2012-sessions
 title: Want Access to the VMworld 2012 Sessions?
+url: /vmware-2/access-vmworld-2012-sessions/
 wordpress_id: 2155
 categories:
 - VMware

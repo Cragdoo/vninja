@@ -14,10 +14,10 @@
     
     <item>
       <title>Check for OS X Updates Automatically</title>
-      <link>/posts/check-os-updates-automatically/</link>
+      <link>/osx/check-os-updates-automatically/</link>
       <pubDate>Tue, 22 Oct 2013 18:42:42 +0000</pubDate>
       
-      <guid>/posts/check-os-updates-automatically/</guid>
+      <guid>/osx/check-os-updates-automatically/</guid>
       <description>Yeah, I admit it. I want OS X Mavericks, and I want it now.
 Unfortunately, it´s not available yet from Software Update. So instead of manually checking every 5 minutes or so, I decided to create a small bash script that does it for me.
 It´s very, very simple, but I think it does the job:

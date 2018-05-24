@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2016-10-06 11:31:51+00:00
 layout: post
-link: http://vninja.net/homelab/logging-ssh-logins-to-slack/
 slug: logging-ssh-logins-to-slack
 title: Logging SSH logins to Slack
+url: /homelab/logging-ssh-logins-to-slack/
 wordpress_id: 4224
 categories:
 - Homelab

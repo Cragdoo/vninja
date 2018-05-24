@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2012-02-26 22:42:01+00:00
 layout: post
-link: http://vninja.net/rant/neil-armstrong/
 slug: neil-armstrong
 title: Being Neil Armstrong
+url: /rant/neil-armstrong/
 wordpress_id: 1783
 categories:
 - Rant

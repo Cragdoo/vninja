@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2013-03-25 09:03:41+00:00
 layout: post
-link: http://vninja.net/virtualization/backing-up-vcenter-db-with-veeam-br-6-5/
 slug: backing-up-vcenter-db-with-veeam-br-6-5
 title: Backing up vCenter DB with Veeam B&R 6.5
+url: /virtualization/backing-up-vcenter-db-with-veeam-br-6-5/
 wordpress_id: 2489
 categories:
 - Virtualization

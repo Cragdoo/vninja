@@ -3,9 +3,9 @@ author: bajorgensen
 comments: true
 date: 2018-01-09 18:37:24+00:00
 layout: post
-link: http://vninja.net/news/the-curious-case-of-the-intel-microcode/
 slug: the-curious-case-of-the-intel-microcode
 title: The Curious Case of the Intel Microcode
+url: /news/the-curious-case-of-the-intel-microcode/
 wordpress_id: 4944
 categories:
 - News

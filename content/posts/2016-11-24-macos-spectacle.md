@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2016-11-24 09:45:10+00:00
 layout: post
-link: http://vninja.net/osx/macos-spectacle/
 slug: macos-spectacle
 title: 'macOS: Spectacle'
+url: /osx/macos-spectacle/
 wordpress_id: 4448
 categories:
 - OS X

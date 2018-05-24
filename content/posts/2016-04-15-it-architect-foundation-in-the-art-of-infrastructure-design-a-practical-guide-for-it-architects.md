@@ -3,10 +3,10 @@ author: cmohn
 comments: true
 date: 2016-04-15 11:12:00+00:00
 layout: post
-link: http://vninja.net/news/it-architect-foundation-in-the-art-of-infrastructure-design-a-practical-guide-for-it-architects/
 slug: it-architect-foundation-in-the-art-of-infrastructure-design-a-practical-guide-for-it-architects
 title: 'IT Architect: Foundation in the Art of Infrastructure Design: A Practical
   Guide for IT Architects'
+url: /news/it-architect-foundation-in-the-art-of-infrastructure-design-a-practical-guide-for-it-architects/
 wordpress_id: 4080
 categories:
 - News

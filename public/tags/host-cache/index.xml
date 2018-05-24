@@ -14,20 +14,20 @@
     
     <item>
       <title>Can you combine vSphere Host Cache and vFlash on a single SSD?</title>
-      <link>/posts/combine-vsphere-host-cache-vflash-single-ssd/</link>
+      <link>/vmware-2/combine-vsphere-host-cache-vflash-single-ssd/</link>
       <pubDate>Mon, 30 Sep 2013 00:12:39 +0000</pubDate>
       
-      <guid>/posts/combine-vsphere-host-cache-vflash-single-ssd/</guid>
+      <guid>/vmware-2/combine-vsphere-host-cache-vflash-single-ssd/</guid>
       <description>One of the new features in vSphere 5.5 is the vSphere vFlash that enables you to use a SSD/Flash device as a read cache for your storage. Duncan Epping has a series of posts on vSphere Flash Cache that is well worth a read.
 vSphere vFlash caches your read IOs, but at the same time you can use it as a swap device if you run into memory contention issues. The vSphere vFlash Host Cache is similar to the older Host Cache feature, but if you are upgrading from an older version of ESXi there is a couple of things that needs to be done to be able to use this feature.</description>
     </item>
     
     <item>
       <title>Testing VMware vSphere 5 Swap to Host Cache</title>
-      <link>/posts/testing-vmware-vsphere-5-swap-to-host-cache/</link>
+      <link>/vmware-2/testing-vmware-vsphere-5-swap-to-host-cache/</link>
       <pubDate>Tue, 22 Nov 2011 22:59:30 +0000</pubDate>
       
-      <guid>/posts/testing-vmware-vsphere-5-swap-to-host-cache/</guid>
+      <guid>/vmware-2/testing-vmware-vsphere-5-swap-to-host-cache/</guid>
       <description>A little while ago I fitted a small 64GB SSD disk to my HP MicroServer just to have a quick look at the new vSphere 5 feature Swap to Host Cache, where vSphere 5 reclaims memory by storing the swapped out pages in the host cache on a solid-state drive. Naturally, this is a lot faster than swapping to non-SSD storage, but you will still see a performance hit when this happens.</description>
     </item>
     

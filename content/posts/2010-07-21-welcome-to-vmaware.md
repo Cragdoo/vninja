@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2010-07-21 10:09:43+00:00
 layout: post
-link: http://vninja.net/news/welcome-to-vmaware/
 slug: welcome-to-vmaware
 title: Welcome to vNinja!
+url: /news/welcome-to-vmaware/
 wordpress_id: 60
 categories:
 - News

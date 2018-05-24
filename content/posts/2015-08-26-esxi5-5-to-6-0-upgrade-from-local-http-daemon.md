@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2015-08-26 11:35:08+00:00
 layout: post
-link: http://vninja.net/vmware-2/esxi5-5-to-6-0-upgrade-from-local-http-daemon/
 slug: esxi5-5-to-6-0-upgrade-from-local-http-daemon
 title: ESXi5.5 to 6.0 Upgrade From Local HTTP Daemon
+url: /vmware-2/esxi5-5-to-6-0-upgrade-from-local-http-daemon/
 wordpress_id: 3750
 categories:
 - VMware

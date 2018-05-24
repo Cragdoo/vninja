@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2014-01-24 18:25:38+00:00
 layout: post
-link: http://vninja.net/news/vcdx-give-quote/
 slug: vcdx-give-quote
 title: VCDX? Give me a Quote!
+url: /news/vcdx-give-quote/
 wordpress_id: 3028
 categories:
 - News

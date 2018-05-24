@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2017-02-25 08:50:26+00:00
 layout: post
-link: http://vninja.net/vmware-2/vmware-vsphere-6-5-psod-gp-exception-13/
 slug: vmware-vsphere-6-5-psod-gp-exception-13
 title: 'VMware vSphere 6.5 PSOD: GP Exception 13'
+url: /vmware-2/vmware-vsphere-6-5-psod-gp-exception-13/
 wordpress_id: 4583
 categories:
 - VMware

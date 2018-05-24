@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2010-10-17 20:16:44+00:00
 layout: post
-link: http://vninja.net/virtualization/vmware-vsphere-lab-virtual-edition-part-1/
 slug: vmware-vsphere-lab-virtual-edition-part-1
 title: 'VMware vSphere Lab: Virtual Edition - Part 1'
+url: /virtualization/vmware-vsphere-lab-virtual-edition-part-1/
 wordpress_id: 154
 categories:
 - Howto

@@ -14,10 +14,10 @@
     
     <item>
       <title>macOS: Spectacle</title>
-      <link>/posts/macos-spectacle/</link>
+      <link>/osx/macos-spectacle/</link>
       <pubDate>Thu, 24 Nov 2016 09:45:10 +0000</pubDate>
       
-      <guid>/posts/macos-spectacle/</guid>
+      <guid>/osx/macos-spectacle/</guid>
       <description>Working with the keyboard to move resize, focus and arrange your applications is a great productivity tip. When I changed from Windows to macOS a few years ago, I had a pretty convoluted setup based on Slate for managing keyboard shortcuts, especially for moving applications around, but this has since been simplified by using Spectacle instead of Slate.
 Spectacle has everything I need, especially keyboard shortcuts for maximising an application, of &amp;ldquo;flinging&amp;rdquo; it over to another display.</description>
     </item>

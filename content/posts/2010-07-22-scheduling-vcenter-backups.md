@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2010-07-22 12:17:56+00:00
 layout: post
-link: http://vninja.net/virtualization/scheduling-vcenter-backups/
 slug: scheduling-vcenter-backups
 title: Scheduling vCenter Backups
+url: /virtualization/scheduling-vcenter-backups/
 wordpress_id: 91
 categories:
 - Virtualization

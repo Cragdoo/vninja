@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="Mass Converting .svg to .png on macOS" />
+<meta property="og:description" content="When playing around with Royal TSX I needed to mass convert the VMware Clarity .svg files to .png files that I could use as icons in Royal TSX.
+After trying a series of different approaches, I ended up with using rsvg-convert from libRSVG. In order to get rsvg-convert installed on my MacBook, I turned to HomeBrew.
+HomeBrew, which calls itself The missing package manager for macOS is in my opinion essential for any macOS user." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/osx/mass-converting-svg-to-png-on-macos/" />
+
+
+
+<meta property="article:published_time" content="2017-10-26T13:32:01&#43;00:00"/>
+
+<meta property="article:modified_time" content="2017-10-26T13:32:01&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Mass Converting .svg to .png on macOS"/>
+<meta name="twitter:description" content="When playing around with Royal TSX I needed to mass convert the VMware Clarity .svg files to .png files that I could use as icons in Royal TSX.
+After trying a series of different approaches, I ended up with using rsvg-convert from libRSVG. In order to get rsvg-convert installed on my MacBook, I turned to HomeBrew.
+HomeBrew, which calls itself The missing package manager for macOS is in my opinion essential for any macOS user."/>
+<meta name="generator" content="Hugo 0.40.3" />
+
+
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Mass Converting .svg to .png on macOS",
+  "url": "/osx/mass-converting-svg-to-png-on-macos/",
+  "wordCount": "179",
+  "datePublished": "2017-10-26T13:32:01&#43;00:00",
+  "dateModified": "2017-10-26T13:32:01&#43;00:00",
+  "author": {
+    "@type": "Person",
+    "name": "cmohn"
+  },
+  "keywords": "OS X, Blogtober, HomeBrew, macOS"
+}
+</script>
+
+
+
+    <link rel="canonical" href="/osx/mass-converting-svg-to-png-on-macos/">
+
+    <title>Mass Converting .svg to .png on macOS | Adventures in Hugo</title>
+
+    <!-- combined, minified CSS -->
+    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
+
+    
+
+    
+
+    
+
+    
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="/">Home</a>
+          
+          <a class="nav-link" href="https://example.org" title="">Link 1</a>
+          
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
+        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+      </div>
+    </header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/osx/mass-converting-svg-to-png-on-macos/">Mass Converting .svg to .png on macOS</a></h2>
+    <p class="blog-post-meta"><time datetime="2017-10-26T13:32:01Z">Thu Oct 26, 2017</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/os-x" rel="category tag">OS X</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/blogtober" rel="tag">Blogtober</a>, <a href="/tags/homebrew" rel="tag">HomeBrew</a>, <a href="/tags/macos" rel="tag">macOS</a>
+
+</p>
+  </header>
+  
+
+<p>When playing around with <a href="http://vninja.net/osx/making-royal-tsx-even-more-awesome/">Royal TSX</a> I needed to mass convert the <a href="https://github.com/vmware/clarity/tree/master/src/clarity-icons">VMware Clarity</a> .svg files to .png files that I could use as icons in Royal TSX.</p>
+
+<p>After trying a series of different approaches, I ended up with using <a href="https://wiki.gnome.org/action/show/Projects/LibRsvg?action=show&amp;redirect=LibRsvg">rsvg-convert from libRSVG</a>. In order to get <em>rsvg-convert</em> installed on my MacBook, I turned to <a href="https://brew.sh">HomeBrew</a>.</p>
+
+<p>HomeBrew, which calls itself <strong>The missing package manager for macOS </strong>is in my opinion essential for any macOS user. If you are missing a command or utility, chances are that HomeBrew has you covered.</p>
+
+<h3 id="mass-converting">Mass Converting:</h3>
+
+<p>Once you have HomeBrew installed, you&rsquo;re pretty much ready to go by running the following command in Terminal:</p>
+
+<pre><code>brew install librsvg
+</code></pre>
+
+<p>This installs the <a href="http://formulae.brew.sh/formula/librsvg">libRSVG</a> formulae, and all it&rsquo;s dependencies, and makes rsvg-convert available.</p>
+
+<p>Once libRSVG installed locally, you can mass-convert .svg files by running the following command in your terminal of choice.</p>
+
+<pre><code>for i in *; do rsvg-convert $i -o `echo $i | sed -e 's/svg$/png/'`; done
+</code></pre>
+
+<p>This loops through every .svg file in the current directory, and creates .png versions of them, for usage elsewhere.</p>
+
+
+  
+
+  
+  <hr>
+  <footer>
+
+  
+    <section>
+    <h4>Share</h4>
+    <nav class="nav sharing-icons">
+      <a class="nav-item" href="https://www.facebook.com/sharer/sharer.php?u=%2fosx%2fmass-converting-svg-to-png-on-macos%2f" title="Share on Facebook"><span class="fa fa-facebook fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://plus.google.com/share?url=%2fosx%2fmass-converting-svg-to-png-on-macos%2f" title="Share on Google+"><span class="fa fa-google-plus fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fosx%2fmass-converting-svg-to-png-on-macos%2f" title="Share on LinkedIn"><span class="fa fa-linkedin fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://twitter.com/home?status=%2fosx%2fmass-converting-svg-to-png-on-macos%2f" title="Tweet this"><span class="fa fa-twitter fa-2x"></span></a>
+    </nav>
+  </section>
+
+  
+
+  
+  </footer>
+  
+
+</article> 
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="https://example.com">Link 1</a></li>
+      
+      <li><a href="https://example.org">Link 2</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p>
+      
+      &copy; Christian Mohn
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>

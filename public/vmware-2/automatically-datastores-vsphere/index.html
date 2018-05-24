@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="Automatically Name Datastores in vSphere?" />
+<meta property="og:description" content="William Lam posted &ldquo;Why you should rename the default VSAN Datastore name&rdquo; where he outlines why the default name for VSAN data stores should be changed. Of course, I completely agree with his views on this; Leaving it at the default might cause confusion down the line.
+At the end of the post, William asks the following:
+I wonder if it would be a useful to have a feature in VSAN to automatically append the vSphere Cluster name to the default VSAN Datastore name?" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/vmware-2/automatically-datastores-vsphere/" />
+
+
+
+<meta property="article:published_time" content="2014-02-18T16:16:28&#43;00:00"/>
+
+<meta property="article:modified_time" content="2014-02-18T16:16:28&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Automatically Name Datastores in vSphere?"/>
+<meta name="twitter:description" content="William Lam posted &ldquo;Why you should rename the default VSAN Datastore name&rdquo; where he outlines why the default name for VSAN data stores should be changed. Of course, I completely agree with his views on this; Leaving it at the default might cause confusion down the line.
+At the end of the post, William asks the following:
+I wonder if it would be a useful to have a feature in VSAN to automatically append the vSphere Cluster name to the default VSAN Datastore name?"/>
+<meta name="generator" content="Hugo 0.40.3" />
+
+
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Automatically Name Datastores in vSphere?",
+  "url": "/vmware-2/automatically-datastores-vsphere/",
+  "wordCount": "316",
+  "datePublished": "2014-02-18T16:16:28&#43;00:00",
+  "dateModified": "2014-02-18T16:16:28&#43;00:00",
+  "author": {
+    "@type": "Person",
+    "name": "cmohn"
+  },
+  "keywords": "VMware, Datastore, ESXi, Ideas, Policy Based Computing, storage, vCenter, Virtualization, VSAN, vSphere"
+}
+</script>
+
+
+
+    <link rel="canonical" href="/vmware-2/automatically-datastores-vsphere/">
+
+    <title>Automatically Name Datastores in vSphere? | Adventures in Hugo</title>
+
+    <!-- combined, minified CSS -->
+    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
+
+    
+
+    
+
+    
+
+    
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="/">Home</a>
+          
+          <a class="nav-link" href="https://example.org" title="">Link 1</a>
+          
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
+        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+      </div>
+    </header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/vmware-2/automatically-datastores-vsphere/">Automatically Name Datastores in vSphere?</a></h2>
+    <p class="blog-post-meta"><time datetime="2014-02-18T16:16:28Z">Tue Feb 18, 2014</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/vmware" rel="category tag">VMware</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/datastore" rel="tag">Datastore</a>, <a href="/tags/esxi" rel="tag">ESXi</a>, <a href="/tags/ideas" rel="tag">Ideas</a>, <a href="/tags/policy-based-computing" rel="tag">Policy Based Computing</a>, <a href="/tags/storage" rel="tag">storage</a>, <a href="/tags/vcenter" rel="tag">vCenter</a>, <a href="/tags/virtualization" rel="tag">Virtualization</a>, <a href="/tags/vmware" rel="tag">VMware</a>, <a href="/tags/vsan" rel="tag">VSAN</a>, <a href="/tags/vsphere" rel="tag">vSphere</a>
+
+</p>
+  </header>
+  <p><a href="http://twitter.com/lamw">William Lam</a> posted &ldquo;<a href="http://www.virtuallyghetto.com/2014/02/why-you-should-rename-default-vsan.html">Why you should rename the default VSAN Datastore name</a>&rdquo; where he outlines why the default name for VSAN data stores should be changed. Of course, I completely agree with his views on this; <em>Leaving it at the default might cause confusion down the line.</em></p>
+
+<p>At the end of the post, William asks the following:</p>
+
+<blockquote>I wonder if it would be a useful to have a feature in VSAN to automatically append the vSphere Cluster name to the default VSAN Datastore name? What do you think?</blockquote>
+
+<p>**The answer to that is quite simple too; Yes. It would be great to be able to append the cluster name automatically. **</p>
+
+<p>But this got me thinking, wouldn&rsquo;t it be even better would be to use the same kind of <a href="http://pubs.vmware.com/view-50/index.jsp?topic=/com.vmware.view.administration.doc/GUID-26AD6C7D-553A-46CB-B8B3-DA3F6958CD9C.html">naming pattern scheme</a> we get when provisioning Horizon View desktops, when we provision datastores? In fact, this should also be an option for other datastores, not just when using VSAN.</p>
+
+<p>Imagine the possibilities if you could define datastore naming schemes in your vCenter, and add a few variables like this, for instance: <em>{datastoretype}-{datacentername}-{clustername/hostname}-{fixed:03}.</em></p>
+
+<p>Then you could get automatic, and perhaps even sensible, datastore naming like this:</p>
+
+<p><em>local-hqdc-esxi001-001
+iscsi-hqdc-cluster01-001
+nfs-hqdc-cluster01-001
+fc-hqdc-cluster01-001
+vsan-hqdc-cluster01-001 </em></p>
+
+<p>And so on&hellip; I&rsquo;m sure there are other potentially even more useful variables that could be used here, perhaps even incorporating something about tiering and SLA´s (platinum/gold/silver etc.) but that would require that you knew the storage characteristics and how it maps to your naming scheme when it gets defined. But yes, we do need to be able to automatically name our datastores in a coherent matter, regardless of storage type.  </p>
+
+<p><strong>After all, we&rsquo;re moving to a model of policy based computing, shouldn&rsquo;t naming of objects like datastores, also be ruled by policy, defined at a Datacenter level in vCenter?</strong>
+(wait a minute, why don&rsquo;t do the same for hosts joined to a datacenter or cluster?)</p>
+
+
+  
+
+  
+  <hr>
+  <footer>
+
+  
+    <section>
+    <h4>Share</h4>
+    <nav class="nav sharing-icons">
+      <a class="nav-item" href="https://www.facebook.com/sharer/sharer.php?u=%2fvmware-2%2fautomatically-datastores-vsphere%2f" title="Share on Facebook"><span class="fa fa-facebook fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://plus.google.com/share?url=%2fvmware-2%2fautomatically-datastores-vsphere%2f" title="Share on Google+"><span class="fa fa-google-plus fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fvmware-2%2fautomatically-datastores-vsphere%2f" title="Share on LinkedIn"><span class="fa fa-linkedin fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://twitter.com/home?status=%2fvmware-2%2fautomatically-datastores-vsphere%2f" title="Tweet this"><span class="fa fa-twitter fa-2x"></span></a>
+    </nav>
+  </section>
+
+  
+
+  
+  </footer>
+  
+
+</article> 
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="https://example.com">Link 1</a></li>
+      
+      <li><a href="https://example.org">Link 2</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p>
+      
+      &copy; Christian Mohn
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>

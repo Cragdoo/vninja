@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2013-02-05 12:26:26+00:00
 layout: post
-link: http://vninja.net/vmware-2/purging-vcenter-operations-manager-5-x-database/
 slug: purging-vcenter-operations-manager-5-x-database
 title: Purging the vCenter Operations Manager 5.x Database
+url: /vmware-2/purging-vcenter-operations-manager-5-x-database/
 wordpress_id: 2368
 categories:
 - VMware

@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2011-06-10 15:43:18+00:00
 layout: post
-link: http://vninja.net/news/vcenter-integration-mantra/
 slug: vcenter-integration-mantra
 title: vCenter Integration Mantra
+url: /news/vcenter-integration-mantra/
 wordpress_id: 1151
 categories:
 - News

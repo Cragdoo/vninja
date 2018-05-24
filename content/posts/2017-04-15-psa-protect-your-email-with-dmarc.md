@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2017-04-15 22:00:08+00:00
 layout: post
-link: http://vninja.net/misc/psa-protect-your-email-with-dmarc/
 slug: psa-protect-your-email-with-dmarc
 title: 'PSA: Protect Your Email with DMARC'
+url: /misc/psa-protect-your-email-with-dmarc/
 wordpress_id: 4650
 categories:
 - Misc

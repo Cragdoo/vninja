@@ -3,9 +3,9 @@ author: eczerwin
 comments: true
 date: 2011-07-17 19:31:22+00:00
 layout: post
-link: http://vninja.net/virtualization/smb-shared-storage-smackdown-part-1-nfs-performance/
 slug: smb-shared-storage-smackdown-part-1-nfs-performance
 title: SMB Shared Storage Smackdown - Part 1 NFS Performance
+url: /virtualization/smb-shared-storage-smackdown-part-1-nfs-performance/
 wordpress_id: 1310
 categories:
 - Virtualization

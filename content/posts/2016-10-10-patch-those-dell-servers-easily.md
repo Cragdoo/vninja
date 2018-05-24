@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2016-10-10 13:18:30+00:00
 layout: post
-link: http://vninja.net/hardware/patch-those-dell-servers-easily/
 slug: patch-those-dell-servers-easily
 title: Patch those Dell Servers easily!
+url: /hardware/patch-those-dell-servers-easily/
 wordpress_id: 4244
 categories:
 - Hardware

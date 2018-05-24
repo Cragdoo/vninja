@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2012-08-16 21:17:12+00:00
 layout: post
-link: http://vninja.net/news/vmware-launches-public-vcloud-test-driv/
 slug: vmware-launches-public-vcloud-test-driv
 title: VMware launches Public vCloud "Test-Drive"
+url: /news/vmware-launches-public-vcloud-test-driv/
 wordpress_id: 1950
 categories:
 - News

@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2016-09-29 12:08:21+00:00
 layout: post
-link: http://vninja.net/news/goodbye-fvp-and-architect/
 slug: goodbye-fvp-and-architect
 title: Goodbye PernixData FVP and Architect
+url: /news/goodbye-fvp-and-architect/
 wordpress_id: 4211
 categories:
 - News

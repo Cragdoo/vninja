@@ -14,10 +14,10 @@
     
     <item>
       <title>Backup Academy - Do You Know Your VM backups?</title>
-      <link>/posts/backup-academy-do-you-know-your-vm-backups/</link>
+      <link>/virtualization/backup-academy-do-you-know-your-vm-backups/</link>
       <pubDate>Tue, 13 Sep 2011 13:39:25 +0000</pubDate>
       
-      <guid>/posts/backup-academy-do-you-know-your-vm-backups/</guid>
+      <guid>/virtualization/backup-academy-do-you-know-your-vm-backups/</guid>
       <description>The newly opened Backup Academy, by Veeam, aims to educate administrators, and others interested in virtual machine backup, in the required skills to maintain a proper backup strategy for your virtual infrastructure.
 Currently the site has 8 videos available, covering content from disaster recovery to backup integrity tools.
 Even if it is run by Veeam, it does not focus on Veeam specific products or services, but rather on the general ideas behind a successful backup and disaster recovery of both VMware and Hyper-V based environments.</description>

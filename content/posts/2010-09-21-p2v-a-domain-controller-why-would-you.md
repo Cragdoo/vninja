@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2010-09-21 19:39:07+00:00
 layout: post
-link: http://vninja.net/virtualization/p2v-a-domain-controller-why-would-you/
 slug: p2v-a-domain-controller-why-would-you
 title: P2V a Domain Controller? Why would you?
+url: /virtualization/p2v-a-domain-controller-why-would-you/
 wordpress_id: 279
 categories:
 - Virtualization

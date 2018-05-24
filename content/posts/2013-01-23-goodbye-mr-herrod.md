@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2013-01-23 14:42:40+00:00
 layout: post
-link: http://vninja.net/vmware-2/goodbye-mr-herrod/
 slug: goodbye-mr-herrod
 title: Goodbye Mr. Herrod
+url: /vmware-2/goodbye-mr-herrod/
 wordpress_id: 2357
 categories:
 - VMware

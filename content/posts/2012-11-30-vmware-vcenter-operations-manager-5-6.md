@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2012-11-30 19:17:01+00:00
 layout: post
-link: http://vninja.net/virtualization/vmware-vcenter-operations-manager-5-6/
 slug: vmware-vcenter-operations-manager-5-6
 title: VMware vCenter Operations Manager 5.6 Available
+url: /virtualization/vmware-vcenter-operations-manager-5-6/
 wordpress_id: 2237
 categories:
 - Virtualization

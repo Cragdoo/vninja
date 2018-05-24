@@ -14,10 +14,10 @@
     
     <item>
       <title>Monitoring the ESXi Upgrade Process</title>
-      <link>/posts/monitoring-esxi-upgrade-process/</link>
+      <link>/vmware-2/monitoring-esxi-upgrade-process/</link>
       <pubDate>Wed, 26 Jun 2013 10:34:18 +0000</pubDate>
       
-      <guid>/posts/monitoring-esxi-upgrade-process/</guid>
+      <guid>/vmware-2/monitoring-esxi-upgrade-process/</guid>
       <description>When doing manual host upgrades, either through the direct method or via a locally placed upgrade bundle, there is a distinct lack of progress information available after running the esxcli command.
 Thankfully the ESXi host provides a running logfile of the upgrade process, which makes it much easier to keep track of what is going on and that the upgrade is indeed being performed.
 The esxupdate.log is located in /var/log, and by issuing the following command in a terminal window you can have a rolling log showing you the upgrade status and progress:</description>

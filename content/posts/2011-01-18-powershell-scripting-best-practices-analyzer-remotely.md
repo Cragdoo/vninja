@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2011-01-18 08:10:02+00:00
 layout: post
-link: http://vninja.net/windows/powershell-scripting-best-practices-analyzer-remotely/
 slug: powershell-scripting-best-practices-analyzer-remotely
 title: 'Powershell: Scripting Best Practices Analyzer remotely'
+url: /windows/powershell-scripting-best-practices-analyzer-remotely/
 wordpress_id: 800
 categories:
 - Windows

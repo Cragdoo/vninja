@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2011-08-25 21:51:37+00:00
 layout: post
-link: http://vninja.net/microsoft-2/poor-mans-wsus/
 slug: poor-mans-wsus
 title: Poor Man's WSUS
+url: /microsoft-2/poor-mans-wsus/
 wordpress_id: 1384
 categories:
 - Microsoft

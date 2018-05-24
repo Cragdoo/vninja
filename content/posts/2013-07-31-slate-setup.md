@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2013-07-31 23:10:42+00:00
 layout: post
-link: http://vninja.net/osx/slate-setup/
 slug: slate-setup
 title: My Slate Setup
+url: /osx/slate-setup/
 wordpress_id: 2623
 categories:
 - OS X

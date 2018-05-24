@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2016-01-14 12:32:59+00:00
 layout: post
-link: http://vninja.net/virtualization/running-dockerflix-on-ravello-systems/
 slug: running-dockerflix-on-ravello-systems
 title: Running Dockerflix on Ravello Systems
+url: /virtualization/running-dockerflix-on-ravello-systems/
 wordpress_id: 3970
 categories:
 - Virtualization

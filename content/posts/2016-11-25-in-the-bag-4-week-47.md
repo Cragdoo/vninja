@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2016-11-25 12:00:45+00:00
 layout: post
-link: http://vninja.net/inthebag/in-the-bag-4-week-47/
 slug: in-the-bag-4-week-47
 title: 'In The Bag #4 - Week 47'
+url: /inthebag/in-the-bag-4-week-47/
 wordpress_id: 4454
 categories:
 - InTheBag

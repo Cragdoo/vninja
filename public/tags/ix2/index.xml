@@ -14,10 +14,10 @@
     
     <item>
       <title>Iomega IX2 and Time Machine Support</title>
-      <link>/posts/iomega-ix2-time-machine-support/</link>
+      <link>/osx/iomega-ix2-time-machine-support/</link>
       <pubDate>Mon, 23 Jan 2012 19:57:49 +0000</pubDate>
       
-      <guid>/posts/iomega-ix2-time-machine-support/</guid>
+      <guid>/osx/iomega-ix2-time-machine-support/</guid>
       <description>As Mr. Simon Seagrave has pointed out, there is a fix available to enable OSX Lion Time Machine support for Iomega IX2 and IX4 NAS storage devices.
 I decided to take this a little step further, and try to upgrade my old (and discontinued) Iomega IX2-200 to the new IX2-200 Cloud Edition firmware.
 Initially this was a big failure, as I seemingly managed to brick my device. It was only responding to pings (so the TCP/IP stack was loaded and working), but I could not bring up the web based management tool nor connect via telnet or SSH.</description>

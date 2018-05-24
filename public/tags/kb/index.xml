@@ -14,10 +14,10 @@
     
     <item>
       <title>VMware vSphere 6.5 PSOD: GP Exception 13</title>
-      <link>/posts/vmware-vsphere-6-5-psod-gp-exception-13/</link>
+      <link>/vmware-2/vmware-vsphere-6-5-psod-gp-exception-13/</link>
       <pubDate>Sat, 25 Feb 2017 08:50:26 +0000</pubDate>
       
-      <guid>/posts/vmware-vsphere-6-5-psod-gp-exception-13/</guid>
+      <guid>/vmware-2/vmware-vsphere-6-5-psod-gp-exception-13/</guid>
       <description>While at a customer site, migrating an old vSphere 5.5 environment to 6.5, several hosts suddenly crashed with a PSOD during the migration. Long story short, we got hit by this: VMware KB 2147958: _ESXi 6.5 host fails with PSOD: GP Exception 13 in multiple VMM world at VmAnonAllocVmmPages (2147958)
 It turned out that a bunch of the VMs we were vMotioning from the old environment had the cpuid.corePerSocket advanced setting set in the .</description>
     </item>

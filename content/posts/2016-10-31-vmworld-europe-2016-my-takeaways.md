@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2016-10-31 23:07:40+00:00
 layout: post
-link: http://vninja.net/vmware-2/vmworld-europe-2016-my-takeaways/
 slug: vmworld-europe-2016-my-takeaways
 title: VMworld Europe 2016 - My takeaways
+url: /vmware-2/vmworld-europe-2016-my-takeaways/
 wordpress_id: 4268
 categories:
 - VMware

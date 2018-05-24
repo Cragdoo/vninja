@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2016-10-06 10:52:09+00:00
 layout: post
-link: http://vninja.net/homelab/homelabops-via-slack/
 slug: homelabops-via-slack
 title: HomeLabOps via Slack
+url: /homelab/homelabops-via-slack/
 wordpress_id: 4222
 categories:
 - Homelab

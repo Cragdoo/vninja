@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2014-08-20 13:05:41+00:00
 layout: post
-link: http://vninja.net/vmware-2/marvin-related-vmworld-sessions/
 slug: marvin-related-vmworld-sessions
 title: Marvin Related VMworld Sessions?
+url: /vmware-2/marvin-related-vmworld-sessions/
 wordpress_id: 3324
 categories:
 - VMware

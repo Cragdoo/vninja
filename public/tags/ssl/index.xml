@@ -14,19 +14,19 @@
     
     <item>
       <title>Importing vCloud Air SSL Certificate on the vCenter Server Appliance 5.x</title>
-      <link>/posts/importing-vcloud-air-ssl-certificate-vcenter-server-appliance-5-x/</link>
+      <link>/vmware-2/importing-vcloud-air-ssl-certificate-vcenter-server-appliance-5-x/</link>
       <pubDate>Fri, 12 Dec 2014 12:24:55 +0000</pubDate>
       
-      <guid>/posts/importing-vcloud-air-ssl-certificate-vcenter-server-appliance-5-x/</guid>
+      <guid>/vmware-2/importing-vcloud-air-ssl-certificate-vcenter-server-appliance-5-x/</guid>
       <description>I&amp;rsquo;m playing around a bit with vCloud Air and Virtual Private Cloud OnDemand, and in order to set up the vCloud Hybrid Service plugin in the vSphere Web Client you need to import the vCloud Air SSL certificate into vCenter. If the certificate isn&amp;rsquo;t present in the vCSA keystore when you try to authenticate with vCloud Air, you get a &amp;ldquo;Server Certificate not Verified&amp;rdquo; error, and you will be unsuccessful in configuring the plugin.</description>
     </item>
     
     <item>
       <title>Importing SSL Certificates to Raspberry Pi Thin Client</title>
-      <link>/posts/importing-ssl-certificates-raspberry-pi-thin-client/</link>
+      <link>/virtualization/importing-ssl-certificates-raspberry-pi-thin-client/</link>
       <pubDate>Thu, 05 Dec 2013 22:47:32 +0000</pubDate>
       
-      <guid>/posts/importing-ssl-certificates-raspberry-pi-thin-client/</guid>
+      <guid>/virtualization/importing-ssl-certificates-raspberry-pi-thin-client/</guid>
       <description>When playing around with the Raspberry Pi Thin Client, I ran into an issue with the SSL certificates for the Citrix Receiver client. For some reason it didn&amp;rsquo;t want to play with the certificates installed on the server side, and popped the following error message:
 **You have not chosen to trust &#34;AddTrust External CA Root&#34;, the issuer of the server&#39;s security certificate.** Thankfully there is a quick fix for this! Since Iceweasel is also in the RPTC distribution, and it has a lot more SSL root CA certificates included by default, all that was required (in my case) was to link the certificates it has with the certificates the Citrix Receiver client can use.</description>
     </item>

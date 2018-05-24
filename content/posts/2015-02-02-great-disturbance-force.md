@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2015-02-02 22:36:30+00:00
 layout: post
-link: http://vninja.net/virtualization/great-disturbance-force/
 slug: great-disturbance-force
 title: A great disturbance in the Force
+url: /virtualization/great-disturbance-force/
 wordpress_id: 3563
 categories:
 - Virtualization

@@ -14,10 +14,10 @@
     
     <item>
       <title>macOS: Vanilla</title>
-      <link>/posts/macos-vanilla/</link>
+      <link>/osx/macos-vanilla/</link>
       <pubDate>Fri, 24 Nov 2017 12:33:04 +0000</pubDate>
       
-      <guid>/posts/macos-vanilla/</guid>
+      <guid>/osx/macos-vanilla/</guid>
       <description>Small, unobtrusive and easy to use. That&amp;rsquo;s a pretty good description for a macOS utility I recently discovered: Vanilla (non-affiliate link).
 Simply put, this little gem let&amp;rsquo;s you hide any or all menu bar icons in macOS, while still keeping them easily accessible behind a small arrow:
 After hiding with Vanilla:
@@ -26,10 +26,10 @@ Expanded view:I for one like getting rid of the unnecessary clutter!</descriptio
     
     <item>
       <title>Mass Converting .svg to .png on macOS</title>
-      <link>/posts/mass-converting-svg-to-png-on-macos/</link>
+      <link>/osx/mass-converting-svg-to-png-on-macos/</link>
       <pubDate>Thu, 26 Oct 2017 13:32:01 +0000</pubDate>
       
-      <guid>/posts/mass-converting-svg-to-png-on-macos/</guid>
+      <guid>/osx/mass-converting-svg-to-png-on-macos/</guid>
       <description>When playing around with Royal TSX I needed to mass convert the VMware Clarity .svg files to .png files that I could use as icons in Royal TSX.
 After trying a series of different approaches, I ended up with using rsvg-convert from libRSVG. In order to get rsvg-convert installed on my MacBook, I turned to HomeBrew.
 HomeBrew, which calls itself The missing package manager for macOS is in my opinion essential for any macOS user.</description>
@@ -37,38 +37,38 @@ HomeBrew, which calls itself The missing package manager for macOS is in my op
     
     <item>
       <title>Making Royal TSX Even More Awesome</title>
-      <link>/posts/making-royal-tsx-even-more-awesome/</link>
+      <link>/osx/making-royal-tsx-even-more-awesome/</link>
       <pubDate>Wed, 11 Oct 2017 21:45:11 +0000</pubDate>
       
-      <guid>/posts/making-royal-tsx-even-more-awesome/</guid>
+      <guid>/osx/making-royal-tsx-even-more-awesome/</guid>
       <description>For those who don&amp;rsquo;t know, Royal TSX is an awesome Remote Management solution, which supports RDP, VNC, SSH, S/FTP and even ESXi and vCenter. I&amp;rsquo;ve been using it for years, not just because they offer free licenses for vExperts (and others), but simply because it works really well. Store it&amp;rsquo;s config file on a synchronized file area (like Dropbox), and boom, your config follows you around from machine to machine, including custom icons.</description>
     </item>
     
     <item>
       <title>macOS: Spectacle</title>
-      <link>/posts/macos-spectacle/</link>
+      <link>/osx/macos-spectacle/</link>
       <pubDate>Thu, 24 Nov 2016 09:45:10 +0000</pubDate>
       
-      <guid>/posts/macos-spectacle/</guid>
+      <guid>/osx/macos-spectacle/</guid>
       <description>Working with the keyboard to move resize, focus and arrange your applications is a great productivity tip. When I changed from Windows to macOS a few years ago, I had a pretty convoluted setup based on Slate for managing keyboard shortcuts, especially for moving applications around, but this has since been simplified by using Spectacle instead of Slate.
 Spectacle has everything I need, especially keyboard shortcuts for maximising an application, of &amp;ldquo;flinging&amp;rdquo; it over to another display.</description>
     </item>
     
     <item>
       <title>macOS: Secure Pipes</title>
-      <link>/posts/macos-secure-pipes/</link>
+      <link>/osx/macos-secure-pipes/</link>
       <pubDate>Fri, 14 Oct 2016 13:03:41 +0000</pubDate>
       
-      <guid>/posts/macos-secure-pipes/</guid>
+      <guid>/osx/macos-secure-pipes/</guid>
       <description>Since I set up a public jumphost for my homelab/network, I&amp;rsquo;ve been looking for an easy way to manage my SSH tunnels. After trying a couple of different managers, I&amp;rsquo;ve chosen to use Secure Pipes.This little piece of free software allows you to easily manage SSH tunnels, with features like Remote Forwards, Local Forwards and SOCKS proxies. It runs in the toolbar, and makes connections easily available. It even reconfigures your network settings to use the SOCKS proxy, if allowed to.</description>
     </item>
     
     <item>
       <title>Check for OS X Updates Automatically</title>
-      <link>/posts/check-os-updates-automatically/</link>
+      <link>/osx/check-os-updates-automatically/</link>
       <pubDate>Tue, 22 Oct 2013 18:42:42 +0000</pubDate>
       
-      <guid>/posts/check-os-updates-automatically/</guid>
+      <guid>/osx/check-os-updates-automatically/</guid>
       <description>Yeah, I admit it. I want OS X Mavericks, and I want it now.
 Unfortunately, it´s not available yet from Software Update. So instead of manually checking every 5 minutes or so, I decided to create a small bash script that does it for me.
 It´s very, very simple, but I think it does the job:
@@ -78,10 +78,10 @@ First off, pop into Terminal and get root access:
     
     <item>
       <title>My Slate Setup</title>
-      <link>/posts/slate-setup/</link>
+      <link>/osx/slate-setup/</link>
       <pubDate>Wed, 31 Jul 2013 23:10:42 +0000</pubDate>
       
-      <guid>/posts/slate-setup/</guid>
+      <guid>/osx/slate-setup/</guid>
       <description>About a year and a half I go, I took the leap from running Microsoft Windows as my main operating system and switched into full &amp;ldquo;hipster mode&amp;rdquo;, i.e. switched to a Macbook Air and OS X.
 Simply put, &amp;ldquo;the change&amp;rdquo; was not that hard and most everything has worked without problems, and for those things that still require Microsoft Windows, well, there is VMware Fusion for that.
 While I´m admittedly still a novice OS X user, and not even close to mastering OS X, I´d like to share my current Slate setup.</description>
@@ -89,19 +89,19 @@ While I´m admittedly still a novice OS X user, and not even close to mastering 
     
     <item>
       <title>Applescript, Desktop Wallpaper and Growl. Automagically.</title>
-      <link>/posts/applescript-desktop-wallpaper-growl-automatically/</link>
+      <link>/osx/applescript-desktop-wallpaper-growl-automatically/</link>
       <pubDate>Tue, 24 Jul 2012 23:31:12 +0000</pubDate>
       
-      <guid>/posts/applescript-desktop-wallpaper-growl-automatically/</guid>
+      <guid>/osx/applescript-desktop-wallpaper-growl-automatically/</guid>
       <description>I´ve been a Mac and OS X user now for about 7 months, but to be honest I have not been very experimental in my usage of my Macbook Air. Until now, my main focus has been basic usage of the hardware and operating systems, and making it work in my corporate environment. As I feel that I´ve reached mission accomplished status on that initial project, I decided to use some of my &amp;ldquo;free&amp;rdquo; vacation time to play around a bit and experiment a bit more.</description>
     </item>
     
     <item>
       <title>Iomega IX2 and Time Machine Support</title>
-      <link>/posts/iomega-ix2-time-machine-support/</link>
+      <link>/osx/iomega-ix2-time-machine-support/</link>
       <pubDate>Mon, 23 Jan 2012 19:57:49 +0000</pubDate>
       
-      <guid>/posts/iomega-ix2-time-machine-support/</guid>
+      <guid>/osx/iomega-ix2-time-machine-support/</guid>
       <description>As Mr. Simon Seagrave has pointed out, there is a fix available to enable OSX Lion Time Machine support for Iomega IX2 and IX4 NAS storage devices.
 I decided to take this a little step further, and try to upgrade my old (and discontinued) Iomega IX2-200 to the new IX2-200 Cloud Edition firmware.
 Initially this was a big failure, as I seemingly managed to brick my device. It was only responding to pings (so the TCP/IP stack was loaded and working), but I could not bring up the web based management tool nor connect via telnet or SSH.</description>

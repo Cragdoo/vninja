@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2013-10-22 18:42:42+00:00
 layout: post
-link: http://vninja.net/osx/check-os-updates-automatically/
 slug: check-os-updates-automatically
 title: Check for OS X Updates Automatically
+url: /osx/check-os-updates-automatically/
 wordpress_id: 2823
 categories:
 - OS X

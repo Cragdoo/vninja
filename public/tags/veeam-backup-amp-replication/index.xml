@@ -14,10 +14,10 @@
     
     <item>
       <title>Generating Random Data in Linux</title>
-      <link>/posts/generating-random-data-in-linux/</link>
+      <link>/virtualization/generating-random-data-in-linux/</link>
       <pubDate>Tue, 15 Nov 2016 12:00:50 +0000</pubDate>
       
-      <guid>/posts/generating-random-data-in-linux/</guid>
+      <guid>/virtualization/generating-random-data-in-linux/</guid>
       <description>I&amp;rsquo;ve been fleshing out a properVeeam Backup &amp;amp; Replication Demo lab at work, but doing demos on static VMs isn&amp;rsquo;t all that much fun and doesn&amp;rsquo;t really give us much. Doing scheduled backups of non-changing data is really boring.
 So, in order to get some changes done on the file system on a few Linux VMs running in the environment, I came up with the following solution:
 I set up a crontab entry that generates a file with random data in it a couple of times a day, just to make sure that there are some changes made to the VM.</description>
@@ -25,20 +25,20 @@ I set up a crontab entry that generates a file with random data in it a couple o
     
     <item>
       <title>VMware Update Manager: Unsupported Configuration</title>
-      <link>/posts/vmware-update-manager-unsupported-configuration/</link>
+      <link>/vmware-2/vmware-update-manager-unsupported-configuration/</link>
       <pubDate>Fri, 28 Aug 2015 10:46:24 +0000</pubDate>
       
-      <guid>/posts/vmware-update-manager-unsupported-configuration/</guid>
+      <guid>/vmware-2/vmware-update-manager-unsupported-configuration/</guid>
       <description>During an upgrade from vSphere 5.1 to 5.5, I ran into a rather strange issue when trying to utilize VMware Update Manager to perform the ESXi upgrade.
 During scanning, VUM reported the ESXi host as &amp;ldquo;Incompatible&amp;rdquo;, without offering any other explanation. I spent ages looking through VUM logs, trying to find the culprit, suspecting it was an incompatible VIB. Without finding anything that gave me any indication on what the problem might be, I moved on to looking at the ESXi image I had imported into VUM.</description>
     </item>
     
     <item>
       <title>Preserve your Veeam B&amp;R Backups Jobs when Moving vCenter</title>
-      <link>/posts/preserve-veeam-br-backups-jobs-moving-vcenter/</link>
+      <link>/virtualization/preserve-veeam-br-backups-jobs-moving-vcenter/</link>
       <pubDate>Tue, 19 Mar 2013 21:13:20 +0000</pubDate>
       
-      <guid>/posts/preserve-veeam-br-backups-jobs-moving-vcenter/</guid>
+      <guid>/virtualization/preserve-veeam-br-backups-jobs-moving-vcenter/</guid>
       <description>This week I´m working at a client site, upgrading their entire existing vSphere 4.1 infrastructure to vSphere 5.1. The customer engagement also includes upgrading Veeam Backup and Replication 6.0 to 6.5, and usually an isolated upgrade of Veeam B&amp;amp;R is a no-brainer next, next, next, done install.
 To complicate things in this particular environment, I also had to migrate the vCenter SQL DB from a local MS SQL Server 2005 Express instance to a full-fledged MS SQL Server 2008 R2 instance.</description>
     </item>

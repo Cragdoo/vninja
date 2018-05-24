@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="Adding Slack Notifications to phpipam" />
+<meta property="og:description" content="As mentioned before, I&rsquo;ve kinda turned my home lab into some sort of Slack-Ops deal, where various services in my home lab notify me of events in a private Slack channel.
+The latest rendition of that, is adding Slack notifications from phpipam. Once phpipam detects a new device picking up an IP in my network, it notifies me like this:
+In order to get this working, I had to edit the /var/www/phpipam/functions/scripts/discoveryCheck." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/virtualization/adding-slack-notifications-to-phpipam/" />
+
+
+
+<meta property="article:published_time" content="2016-11-03T21:41:07&#43;00:00"/>
+
+<meta property="article:modified_time" content="2016-11-03T21:41:07&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Adding Slack Notifications to phpipam"/>
+<meta name="twitter:description" content="As mentioned before, I&rsquo;ve kinda turned my home lab into some sort of Slack-Ops deal, where various services in my home lab notify me of events in a private Slack channel.
+The latest rendition of that, is adding Slack notifications from phpipam. Once phpipam detects a new device picking up an IP in my network, it notifies me like this:
+In order to get this working, I had to edit the /var/www/phpipam/functions/scripts/discoveryCheck."/>
+<meta name="generator" content="Hugo 0.40.3" />
+
+
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Adding Slack Notifications to phpipam",
+  "url": "/virtualization/adding-slack-notifications-to-phpipam/",
+  "wordCount": "222",
+  "datePublished": "2016-11-03T21:41:07&#43;00:00",
+  "dateModified": "2016-11-03T21:41:07&#43;00:00",
+  "author": {
+    "@type": "Person",
+    "name": "cmohn"
+  },
+  "keywords": "Virtualization"
+}
+</script>
+
+
+
+    <link rel="canonical" href="/virtualization/adding-slack-notifications-to-phpipam/">
+
+    <title>Adding Slack Notifications to phpipam | Adventures in Hugo</title>
+
+    <!-- combined, minified CSS -->
+    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
+
+    
+
+    
+
+    
+
+    
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="/">Home</a>
+          
+          <a class="nav-link" href="https://example.org" title="">Link 1</a>
+          
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
+        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+      </div>
+    </header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/virtualization/adding-slack-notifications-to-phpipam/">Adding Slack Notifications to phpipam</a></h2>
+    <p class="blog-post-meta"><time datetime="2016-11-03T21:41:07Z">Thu Nov 03, 2016</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
+
+
+</p>
+  </header>
+  <p><a href="http://vninja.net/homelab/homelabops-via-slack/">As mentioned before</a>, I&rsquo;ve kinda turned my home lab into some sort of Slack-Ops deal, where various services in my home lab notify me of events in a private Slack channel.</p>
+
+<p>The latest rendition of that, is adding Slack notifications from <a href="http://phpipam.net">phpipam</a>. Once phpipam detects a new device picking up an IP in my network, it notifies me like this:</p>
+
+<p><img src="http://vninja.net/wordpress/wp-content/uploads/2016/11/Screenshot-2016-11-03-22.24.18-1024x65.png" alt="screenshot-2016-11-03-22-24-18" /></p>
+
+<p>In order to get this working, I had to edit the <em>/var/www/phpipam/functions/scripts/discoveryCheck.php</em> file in phpipam. <em>discoveryCheck.php</em> is the script that is run when phpipam does local subnet discovery  check, so this was a natural place to add my custom curl command.</p>
+
+<p>I added the following code on <em>line 254</em> in that file, just below the  code block that ends with
+_$Addresses-&gt;modify<em>address($values);</em></p>
+
+<p>[cc lang=&ldquo;php&rdquo; escaped=&ldquo;true&rdquo;]
+// Log to Slack &ndash; Run custom CURL script
+$command = &ldquo;curl -s -X POST -H \&ldquo;Content-type: application/json\&rdquo; &ndash;data &lsquo;{\&ldquo;text\&rdquo;:\&ldquo;$values[lastSeen] - new host autodiscovered: IP: $ip Hostname: $values[dns_name] \&ldquo;} https://[WEBHOOK URL]&ldquo;;
+system($command);
+[/cc]</p>
+
+<p>Replace [WEBHOOK URL] with your actual URL. For more details on how to set up a webhook URL, check <a href="http://vninja.net/homelab/logging-ssh-logins-to-slack/">Logging SSH logins to Slack</a>.</p>
+
+<p>Pretty easy to do locally, but it would be nice of the phpipam developers could make alerting to third party services a native feature - I&rsquo;m sure there are other use cases for this as well.</p>
+
+<p>#vDM30in30 progress:
+[progressbar_circle percent= 10]</p>
+
+
+  
+
+  
+  <hr>
+  <footer>
+
+  
+    <section>
+    <h4>Share</h4>
+    <nav class="nav sharing-icons">
+      <a class="nav-item" href="https://www.facebook.com/sharer/sharer.php?u=%2fvirtualization%2fadding-slack-notifications-to-phpipam%2f" title="Share on Facebook"><span class="fa fa-facebook fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://plus.google.com/share?url=%2fvirtualization%2fadding-slack-notifications-to-phpipam%2f" title="Share on Google+"><span class="fa fa-google-plus fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fvirtualization%2fadding-slack-notifications-to-phpipam%2f" title="Share on LinkedIn"><span class="fa fa-linkedin fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://twitter.com/home?status=%2fvirtualization%2fadding-slack-notifications-to-phpipam%2f" title="Tweet this"><span class="fa fa-twitter fa-2x"></span></a>
+    </nav>
+  </section>
+
+  
+
+  
+  </footer>
+  
+
+</article> 
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="https://example.com">Link 1</a></li>
+      
+      <li><a href="https://example.org">Link 2</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p>
+      
+      &copy; Christian Mohn
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>

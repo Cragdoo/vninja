@@ -14,10 +14,10 @@
     
     <item>
       <title>Testing VMware vSphere 5 Swap to Host Cache</title>
-      <link>/posts/testing-vmware-vsphere-5-swap-to-host-cache/</link>
+      <link>/vmware-2/testing-vmware-vsphere-5-swap-to-host-cache/</link>
       <pubDate>Tue, 22 Nov 2011 22:59:30 +0000</pubDate>
       
-      <guid>/posts/testing-vmware-vsphere-5-swap-to-host-cache/</guid>
+      <guid>/vmware-2/testing-vmware-vsphere-5-swap-to-host-cache/</guid>
       <description>A little while ago I fitted a small 64GB SSD disk to my HP MicroServer just to have a quick look at the new vSphere 5 feature Swap to Host Cache, where vSphere 5 reclaims memory by storing the swapped out pages in the host cache on a solid-state drive. Naturally, this is a lot faster than swapping to non-SSD storage, but you will still see a performance hit when this happens.</description>
     </item>
     

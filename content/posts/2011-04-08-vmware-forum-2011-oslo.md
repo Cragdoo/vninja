@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2011-04-08 09:58:48+00:00
 layout: post
-link: http://vninja.net/news/vmware-forum-2011-oslo/
 slug: vmware-forum-2011-oslo
 title: 'VMware Forum 2011 Oslo '
+url: /news/vmware-forum-2011-oslo/
 wordpress_id: 1020
 categories:
 - News

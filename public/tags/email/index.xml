@@ -14,10 +14,10 @@
     
     <item>
       <title>PSA: Protect Your Email with DMARC</title>
-      <link>/posts/psa-protect-your-email-with-dmarc/</link>
+      <link>/misc/psa-protect-your-email-with-dmarc/</link>
       <pubDate>Sat, 15 Apr 2017 22:00:08 +0000</pubDate>
       
-      <guid>/posts/psa-protect-your-email-with-dmarc/</guid>
+      <guid>/misc/psa-protect-your-email-with-dmarc/</guid>
       <description>In the last few months, I&amp;rsquo;ve seen an uptick in spoofed emails being sent with my own personal email domain. Not only is this extremely annoying, but more problematic is that recipients receive spam and phishing emails from what seems to be my personal mail account, simply by spoofing the from address. I don&amp;rsquo;t know why domain and email address has been &amp;ldquo;chosen&amp;rdquo; for this, but I guess this is fallout from the LinkedIn breach way back in 2012.</description>
     </item>
     

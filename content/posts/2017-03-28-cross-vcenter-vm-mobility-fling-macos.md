@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2017-03-28 11:44:58+00:00
 layout: post
-link: http://vninja.net/vmware-2/cross-vcenter-vm-mobility-fling-macos/
 slug: cross-vcenter-vm-mobility-fling-macos
 title: Cross vCenter VM Mobility Fling - macOS?
+url: /vmware-2/cross-vcenter-vm-mobility-fling-macos/
 wordpress_id: 4612
 categories:
 - VMware

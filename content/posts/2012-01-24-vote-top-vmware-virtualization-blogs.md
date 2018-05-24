@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2012-01-24 08:46:24+00:00
 layout: post
-link: http://vninja.net/news/vote-top-vmware-virtualization-blogs/
 slug: vote-top-vmware-virtualization-blogs
 title: 'Vote for the Top VMware & Virtualization Blogs '
+url: /news/vote-top-vmware-virtualization-blogs/
 wordpress_id: 1741
 categories:
 - News

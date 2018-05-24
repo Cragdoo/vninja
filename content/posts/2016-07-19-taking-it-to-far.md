@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2016-07-19 12:32:02+00:00
 layout: post
-link: http://vninja.net/news/taking-it-to-far/
 slug: taking-it-to-far
 title: Taking IT too Far
+url: /news/taking-it-to-far/
 wordpress_id: 4129
 categories:
 - Homelab

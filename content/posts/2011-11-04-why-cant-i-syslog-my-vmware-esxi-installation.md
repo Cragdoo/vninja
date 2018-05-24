@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2011-11-04 22:06:32+00:00
 layout: post
-link: http://vninja.net/virtualization/why-cant-i-syslog-my-vmware-esxi-installation/
 slug: why-cant-i-syslog-my-vmware-esxi-installation
 title: Why Can't I Syslog my VMware ESXi Installation?
+url: /virtualization/why-cant-i-syslog-my-vmware-esxi-installation/
 wordpress_id: 1601
 categories:
 - Virtualization

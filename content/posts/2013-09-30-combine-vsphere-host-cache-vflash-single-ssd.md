@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2013-09-30 00:12:39+00:00
 layout: post
-link: http://vninja.net/vmware-2/combine-vsphere-host-cache-vflash-single-ssd/
 slug: combine-vsphere-host-cache-vflash-single-ssd
 title: Can you combine vSphere Host Cache and vFlash on a single SSD?
+url: /vmware-2/combine-vsphere-host-cache-vflash-single-ssd/
 wordpress_id: 2750
 categories:
 - VMware

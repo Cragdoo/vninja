@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2014-06-08 22:24:23+00:00
 layout: post
-link: http://vninja.net/vmware-2/marvin-speculation/
 slug: marvin-speculation
 title: Some more Marvin Speculation
+url: /vmware-2/marvin-speculation/
 wordpress_id: 3212
 categories:
 - VMware

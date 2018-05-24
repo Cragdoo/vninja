@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2013-10-29 23:25:14+00:00
 layout: post
-link: http://vninja.net/virtualization/microsoft-fair-balanced/
 slug: microsoft-fair-balanced
 title: Can Microsoft really be Fair and Balanced?
+url: /virtualization/microsoft-fair-balanced/
 wordpress_id: 2832
 categories:
 - Microsoft

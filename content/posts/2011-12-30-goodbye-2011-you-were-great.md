@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2011-12-30 18:40:41+00:00
 layout: post
-link: http://vninja.net/news/goodbye-2011-you-were-great/
 slug: goodbye-2011-you-were-great
 title: Goodbye 2011, you were great
+url: /news/goodbye-2011-you-were-great/
 wordpress_id: 1666
 categories:
 - News

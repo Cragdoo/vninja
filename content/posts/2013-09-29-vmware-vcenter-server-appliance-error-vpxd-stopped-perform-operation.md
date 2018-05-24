@@ -3,10 +3,10 @@ author: cmohn
 comments: true
 date: 2013-09-29 23:16:25+00:00
 layout: post
-link: http://vninja.net/vmware-2/vmware-vcenter-server-appliance-error-vpxd-stopped-perform-operation/
 slug: vmware-vcenter-server-appliance-error-vpxd-stopped-perform-operation
 title: 'VMware vCenter Server Appliance Error: VPXD must be stopped to perform this
   operation'
+url: /vmware-2/vmware-vcenter-server-appliance-error-vpxd-stopped-perform-operation/
 wordpress_id: 2751
 categories:
 - VMware

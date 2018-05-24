@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2015-08-12 16:11:16+00:00
 layout: post
-link: http://vninja.net/vmware-2/esxi-embedded-host-client/
 slug: esxi-embedded-host-client
 title: ESXi Embedded Host Client
+url: /vmware-2/esxi-embedded-host-client/
 wordpress_id: 3714
 categories:
 - VMware

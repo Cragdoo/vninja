@@ -14,10 +14,10 @@
     
     <item>
       <title>Autolab goes Cloudy with a Chance of Free Credits </title>
-      <link>/posts/autolab-meets-cloud/</link>
+      <link>/virtualization/autolab-meets-cloud/</link>
       <pubDate>Thu, 14 Mar 2013 00:02:35 +0000</pubDate>
       
-      <guid>/posts/autolab-meets-cloud/</guid>
+      <guid>/virtualization/autolab-meets-cloud/</guid>
       <description>Autolab, that awesome &amp;ldquo;little&amp;rdquo; thing that automagically builds a nested vSphere Lab environment for you, was definitely not put together by Flint Lockwood but by Alastair Cooke (www.demitasse.co.nz). Unlike Flint´s inventions, this one actually makes sense and serves a purpose!
 Now, how sweet would it be to deploy Autolab without having to invest time, money and effort into acquiring your own hardware?
 Well, thanks to baremetalcloud.com, you might now actually be able to do just that (and more, if you wish).</description>

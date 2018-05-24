@@ -3,9 +3,9 @@ author: eczerwin
 comments: true
 date: 2011-07-12 18:36:07+00:00
 layout: post
-link: http://vninja.net/news/vsphere-5-and-new-licensing-good-or-bad/
 slug: vsphere-5-and-new-licensing-good-or-bad
 title: vSphere 5 and new licensing - Good or bad?
+url: /news/vsphere-5-and-new-licensing-good-or-bad/
 wordpress_id: 1266
 categories:
 - News

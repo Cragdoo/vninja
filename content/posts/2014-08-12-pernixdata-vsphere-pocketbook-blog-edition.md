@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2014-08-12 15:03:06+00:00
 layout: post
-link: http://vninja.net/virtualization/pernixdata-vsphere-pocketbook-blog-edition/
 slug: pernixdata-vsphere-pocketbook-blog-edition
 title: PernixData vSphere Pocketbook Blog Edition
+url: /virtualization/pernixdata-vsphere-pocketbook-blog-edition/
 wordpress_id: 3310
 categories:
 - Virtualization

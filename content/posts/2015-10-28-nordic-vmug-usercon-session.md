@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2015-10-28 22:30:14+00:00
 layout: post
-link: http://vninja.net/virtualization/nordic-vmug-usercon-session/
 slug: nordic-vmug-usercon-session
 title: Nordic VMUG UserCon Session
+url: /virtualization/nordic-vmug-usercon-session/
 wordpress_id: 3870
 categories:
 - Virtualization

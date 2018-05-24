@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2014-06-10 12:48:10+00:00
 layout: post
-link: http://vninja.net/vmware-2/nsx-vsphere-6-0-4-documentation-download/
 slug: nsx-vsphere-6-0-4-documentation-download
 title: NSX for vSphere 6.0.4 - Documentation and Download?
+url: /vmware-2/nsx-vsphere-6-0-4-documentation-download/
 wordpress_id: 3219
 categories:
 - VMware

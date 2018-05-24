@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2013-12-04 23:23:23+00:00
 layout: post
-link: http://vninja.net/vmware-2/nordic-vmug-conference-thoughts/
 slug: nordic-vmug-conference-thoughts
 title: Nordic VMUG Conference - My Thoughts
+url: /vmware-2/nordic-vmug-conference-thoughts/
 wordpress_id: 2899
 categories:
 - VMware

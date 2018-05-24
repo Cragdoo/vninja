@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2011-01-07 22:07:31+00:00
 layout: post
-link: http://vninja.net/network/migrating-from-watchguard-firebox-x-to-xtm-series-firewalls/
 slug: migrating-from-watchguard-firebox-x-to-xtm-series-firewalls
 title: Migrating from Watchguard Firebox X to XTM Series Firewalls
+url: /network/migrating-from-watchguard-firebox-x-to-xtm-series-firewalls/
 wordpress_id: 760
 categories:
 - Network

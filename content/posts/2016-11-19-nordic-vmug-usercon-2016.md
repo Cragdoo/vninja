@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2016-11-19 13:04:50+00:00
 layout: post
-link: http://vninja.net/news/nordic-vmug-usercon-2016/
 slug: nordic-vmug-usercon-2016
 title: Nordic VMUG UserCon 2016
+url: /news/nordic-vmug-usercon-2016/
 wordpress_id: 4379
 categories:
 - News

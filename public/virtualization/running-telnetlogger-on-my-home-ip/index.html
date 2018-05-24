@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="Running telnetlogger on my home IP" />
+<meta property="og:description" content="Robert Graham of erratasec has created a small honeypot tool called telnetlogger.
+ This is a simple program to log login attempts on Telnet (port 23). It&#39;s designed to track the Mirai botnet. Right now (Oct 23, 2016) infected Mirai machines from around the world are trying to connect to Telnet on every IP address about once per minute. This program logs both which IP addresses are doing the attempts, and which passwords they are using." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/virtualization/running-telnetlogger-on-my-home-ip/" />
+
+
+
+<meta property="article:published_time" content="2016-11-02T00:19:30&#43;00:00"/>
+
+<meta property="article:modified_time" content="2016-11-02T00:19:30&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Running telnetlogger on my home IP"/>
+<meta name="twitter:description" content="Robert Graham of erratasec has created a small honeypot tool called telnetlogger.
+ This is a simple program to log login attempts on Telnet (port 23). It&#39;s designed to track the Mirai botnet. Right now (Oct 23, 2016) infected Mirai machines from around the world are trying to connect to Telnet on every IP address about once per minute. This program logs both which IP addresses are doing the attempts, and which passwords they are using."/>
+<meta name="generator" content="Hugo 0.40.3" />
+
+
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Running telnetlogger on my home IP",
+  "url": "/virtualization/running-telnetlogger-on-my-home-ip/",
+  "wordCount": "441",
+  "datePublished": "2016-11-02T00:19:30&#43;00:00",
+  "dateModified": "2016-11-02T00:19:30&#43;00:00",
+  "author": {
+    "@type": "Person",
+    "name": "cmohn"
+  },
+  "keywords": "Virtualization"
+}
+</script>
+
+
+
+    <link rel="canonical" href="/virtualization/running-telnetlogger-on-my-home-ip/">
+
+    <title>Running telnetlogger on my home IP | Adventures in Hugo</title>
+
+    <!-- combined, minified CSS -->
+    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
+
+    
+
+    
+
+    
+
+    
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="/">Home</a>
+          
+          <a class="nav-link" href="https://example.org" title="">Link 1</a>
+          
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
+        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+      </div>
+    </header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/virtualization/running-telnetlogger-on-my-home-ip/">Running telnetlogger on my home IP</a></h2>
+    <p class="blog-post-meta"><time datetime="2016-11-02T00:19:30Z">Wed Nov 02, 2016</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
+
+
+</p>
+  </header>
+  
+
+<p><a href="https://twitter.com/ErrataRob">Robert Graham</a> of <a href="http://blog.erratasec.com">erratasec</a> has created a small honeypot tool called <a href="https://github.com/robertdavidgraham/telnetlogger">telnetlogger</a>.</p>
+
+<blockquote>
+  This is a simple program to log login attempts on Telnet (port 23).
+  It's designed to track the Mirai botnet. Right now (Oct 23, 2016) infected Mirai machines from around the world are trying to connect to Telnet on every IP address about once per minute. This program logs both which IP addresses are doing the attempts, and which passwords they are using.
+</blockquote>
+
+<p>For those still unaware of what the Mirai botnet is, it&rsquo;s basically malware that scans for vulnerable devices with port 23 (telnet) open to the outside world, and tries to log on with known hardcoded credentials.</p>
+
+<p>Compromised devices have then been used to launch some of the largest DDoS attacks seen to date. For more details, check out <a href="https://www.incapsula.com/blog/malware-analysis-mirai-ddos-botnet.html">Breaking Down Mirai: An IoT DDoS Botnet Analysis</a> and <a href="http://arstechnica.com/security/2016/10/double-dip-internet-of-things-botnet-attack-felt-across-the-internet/">Double-dip Internet-of-Things botnet attack felt across the Internet</a></p>
+
+<p>[caption id=&ldquo;attachment_4288&rdquo; align=&ldquo;aligncenter&rdquo; width=&ldquo;620&rdquo;]<img src="http://vninja.net/wordpress/wp-content/uploads/2016/11/330H-1024x683.jpg" alt="Photo credit: gratisography.com" /> Photo credit: <a href="http://gratisography.com">gratisography.com</a>[/caption]</p>
+
+<p>Yes, Mirai is <strong>not</strong> your grandmothers botnet.</p>
+
+<p>I figured it would be a nice little thing to try out, so I spun up a small Linux VM, compiled telnetlogger <a href="https://github.com/robertdavidgraham/telnetlogger">telnetlogger</a>, ran it and opened inbound port 23 (telnet) on my firewall at home.</p>
+
+<p>And guess what, it took all of 1 second before I saw the first connection attempt! I let the honeypot service run for a few hours (about 8 or so), and here are the results, as aggregated by <a href="https://github.com/danielmiessler/HoneyCredIPTracker/blob/master/HoneyCredIPTracker.sh">HoneyCredIPTracker</a> by <a href="https://twitter.com/danielmiessler/status/793138522597187584">Daniel Miessler</a></p>
+
+<h4 id="top-connection-attempts-sorted-by-country">Top connection attempts, sorted by country</h4>
+
+<p>36 TW
+32 VN
+28 BR
+26 TR
+22 IN
+18 RU
+14 UA
+12 US
+12 CN
+8 PK
+8 MX
+8 FR
+6 TT
+6 PL
+6 KR
+4 TH
+4 SE
+4 RO
+4 PY
+4 MG
+4 KH
+4 IR
+4 GB
+4 CR
+4 CA</p>
+
+<h4 id="top-attempted-credentials">Top Attempted Credentials</h4>
+
+<p>415 root xc3511
+410 root vizxv
+385 root admin
+255 admin password
+250 admin admin
+240 root root
+235 root 888888
+215 root 123456
+175 root default
+170 root juantech
+170 root 54321
+165 support support
+155 root xmhdipc
+130 admin admin1234
+125 guest guest
+120 root Zte521
+120 root 12345
+115 root klv123
+100 admin smcadmin
+95 root anko
+90 root GM8182
+90 root 1234
+90 root 1111
+80 root pass
+75 guest 12345</p>
+
+<p><strong>In those 7 hours this was running, I saw a total of 15785 connection attempts, a connection attempt every 1.8 seconds - on average.</strong></p>
+
+<p>I guess it&rsquo;s best to close port 23 again, for good this time.</p>
+
+<p>Hat tip to a former colleague of mine, security afficionado and all around great guy <a href="https://twitter.com/thorsheim">Per Thorsheim</a> for letting me know about this <a href="https://twitter.com/thorsheim/status/793055315369549824">tool</a>.</p>
+
+<p>#vDM30in30 progress:
+[progressbar_circle percent= 6.66]</p>
+
+
+  
+
+  
+  <hr>
+  <footer>
+
+  
+    <section>
+    <h4>Share</h4>
+    <nav class="nav sharing-icons">
+      <a class="nav-item" href="https://www.facebook.com/sharer/sharer.php?u=%2fvirtualization%2frunning-telnetlogger-on-my-home-ip%2f" title="Share on Facebook"><span class="fa fa-facebook fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://plus.google.com/share?url=%2fvirtualization%2frunning-telnetlogger-on-my-home-ip%2f" title="Share on Google+"><span class="fa fa-google-plus fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fvirtualization%2frunning-telnetlogger-on-my-home-ip%2f" title="Share on LinkedIn"><span class="fa fa-linkedin fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://twitter.com/home?status=%2fvirtualization%2frunning-telnetlogger-on-my-home-ip%2f" title="Tweet this"><span class="fa fa-twitter fa-2x"></span></a>
+    </nav>
+  </section>
+
+  
+
+  
+  </footer>
+  
+
+</article> 
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="https://example.com">Link 1</a></li>
+      
+      <li><a href="https://example.org">Link 2</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p>
+      
+      &copy; Christian Mohn
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>

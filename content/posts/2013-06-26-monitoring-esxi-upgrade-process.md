@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2013-06-26 10:34:18+00:00
 layout: post
-link: http://vninja.net/vmware-2/monitoring-esxi-upgrade-process/
 slug: monitoring-esxi-upgrade-process
 title: Monitoring the ESXi Upgrade Process
+url: /vmware-2/monitoring-esxi-upgrade-process/
 wordpress_id: 2615
 categories:
 - VMware

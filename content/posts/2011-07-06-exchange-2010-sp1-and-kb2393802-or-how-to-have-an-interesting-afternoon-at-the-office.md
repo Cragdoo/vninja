@@ -3,10 +3,10 @@ author: eczerwin
 comments: true
 date: 2011-07-06 12:51:21+00:00
 layout: post
-link: http://vninja.net/microsoft-2/exchange-2010-sp1-and-kb2393802-or-how-to-have-an-interesting-afternoon-at-the-office/
 slug: exchange-2010-sp1-and-kb2393802-or-how-to-have-an-interesting-afternoon-at-the-office
 title: Exchange 2010 SP1 and KB2393802 or How to Have an Interesting Afternoon at
   the Office
+url: /microsoft-2/exchange-2010-sp1-and-kb2393802-or-how-to-have-an-interesting-afternoon-at-the-office/
 wordpress_id: 1228
 categories:
 - Microsoft

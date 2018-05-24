@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2011-11-16 23:05:06+00:00
 layout: post
-link: http://vninja.net/virtualization/vmware-horizon-application-manager-now-and-beyond/
 slug: vmware-horizon-application-manager-now-and-beyond
 title: VMware Horizon Application Manager Now and Beyond
+url: /virtualization/vmware-horizon-application-manager-now-and-beyond/
 wordpress_id: 1612
 categories:
 - Virtualization

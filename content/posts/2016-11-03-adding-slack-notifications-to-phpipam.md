@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2016-11-03 21:41:07+00:00
 layout: post
-link: http://vninja.net/virtualization/adding-slack-notifications-to-phpipam/
 slug: adding-slack-notifications-to-phpipam
 title: Adding Slack Notifications to phpipam
+url: /virtualization/adding-slack-notifications-to-phpipam/
 wordpress_id: 4294
 categories:
 - Virtualization

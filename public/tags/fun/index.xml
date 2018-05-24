@@ -14,10 +14,10 @@
     
     <item>
       <title>Generating Random Data in Linux</title>
-      <link>/posts/generating-random-data-in-linux/</link>
+      <link>/virtualization/generating-random-data-in-linux/</link>
       <pubDate>Tue, 15 Nov 2016 12:00:50 +0000</pubDate>
       
-      <guid>/posts/generating-random-data-in-linux/</guid>
+      <guid>/virtualization/generating-random-data-in-linux/</guid>
       <description>I&amp;rsquo;ve been fleshing out a properVeeam Backup &amp;amp; Replication Demo lab at work, but doing demos on static VMs isn&amp;rsquo;t all that much fun and doesn&amp;rsquo;t really give us much. Doing scheduled backups of non-changing data is really boring.
 So, in order to get some changes done on the file system on a few Linux VMs running in the environment, I came up with the following solution:
 I set up a crontab entry that generates a file with random data in it a couple of times a day, just to make sure that there are some changes made to the VM.</description>
@@ -25,10 +25,10 @@ I set up a crontab entry that generates a file with random data in it a couple o
     
     <item>
       <title>HomeLabOps via Slack</title>
-      <link>/posts/homelabops-via-slack/</link>
+      <link>/homelab/homelabops-via-slack/</link>
       <pubDate>Thu, 06 Oct 2016 10:52:09 +0000</pubDate>
       
-      <guid>/posts/homelabops-via-slack/</guid>
+      <guid>/homelab/homelabops-via-slack/</guid>
       <description>Just like Lior Kamrat I&amp;rsquo;ve set up my own private Slack for messaging and alerting from various services running both in my lab and some external facing services. It&amp;rsquo;s only been running a few days, but so far it works brilliantly and helps me keep track.
 So far, I&amp;rsquo;ve set up Slack alerting and/or integrations for the following items:
  StatusCake monitoring for vNinja.net and other public facing web services</description>
@@ -36,10 +36,10 @@ So far, I&amp;rsquo;ve set up Slack alerting and/or integrations for the followi
     
     <item>
       <title>PernixData vSphere Pocketbook Blog Edition</title>
-      <link>/posts/pernixdata-vsphere-pocketbook-blog-edition/</link>
+      <link>/virtualization/pernixdata-vsphere-pocketbook-blog-edition/</link>
       <pubDate>Tue, 12 Aug 2014 15:03:06 +0000</pubDate>
       
-      <guid>/posts/pernixdata-vsphere-pocketbook-blog-edition/</guid>
+      <guid>/virtualization/pernixdata-vsphere-pocketbook-blog-edition/</guid>
       <description>Following the success of the first vSphere Design Pocketbook, PernixData has created a new version, this time dubbed &amp;ldquo;Blog Edition&amp;rdquo;. Where the first book focused on small &amp;ldquo;tweet sized&amp;rdquo; design tips, the new one allows for more in-depth articles, lifting the first editions 200 character limit.
 For some reason, I have been lucky enough to be selected as one of the contributors!
 You can pick up a printed copy at the PernixData Booth (1017) at VMworld US, or pre-order your electronic copy today.</description>
@@ -47,10 +47,10 @@ You can pick up a printed copy at the PernixData Booth (1017) at VMworld US, or
     
     <item>
       <title>Win a eBook Copy of Disaster Recovery using VMware vSphere Replication and vCenter Site Recovery Manager</title>
-      <link>/posts/win-ebook-copy-disaster-recovery-vmware-vsphere-replication-vcenter-site-recovery-manager/</link>
+      <link>/news/win-ebook-copy-disaster-recovery-vmware-vsphere-replication-vcenter-site-recovery-manager/</link>
       <pubDate>Fri, 20 Jun 2014 12:34:49 +0000</pubDate>
       
-      <guid>/posts/win-ebook-copy-disaster-recovery-vmware-vsphere-replication-vcenter-site-recovery-manager/</guid>
+      <guid>/news/win-ebook-copy-disaster-recovery-vmware-vsphere-replication-vcenter-site-recovery-manager/</guid>
       <description>[caption id=&amp;ldquo;attachment_3241&amp;rdquo; align=&amp;ldquo;alignright&amp;rdquo; width=&amp;ldquo;221&amp;rdquo;] Disaster Recovery using VMware vSphere Replication and vCenter Site Recovery Manager[/caption]
 Hot off the heals of the Veeam® Backup &amp;amp; Replication for VMware vSphere giveaway, here is another one for you!
 Win a free eBook copy of Disaster Recovery using VMware vSphere Replication and vCenter Site Recovery Manager, just by commenting!
@@ -59,10 +59,10 @@ For the contest I have 2 eBook copies to be given away to 2 lucky winners.</de
     
     <item>
       <title>Win Free e-copies of Learning Veeam® Backup &amp; Replication for VMware vSphere</title>
-      <link>/posts/win-free-e-copies-learning-veeam-backup-replication-vmware-vsphere/</link>
+      <link>/book/win-free-e-copies-learning-veeam-backup-replication-vmware-vsphere/</link>
       <pubDate>Mon, 09 Jun 2014 08:42:28 +0000</pubDate>
       
-      <guid>/posts/win-free-e-copies-learning-veeam-backup-replication-vmware-vsphere/</guid>
+      <guid>/book/win-free-e-copies-learning-veeam-backup-replication-vmware-vsphere/</guid>
       <description>Update: The contest is now closed, and I have forwarded all comments to Packt Publishing, and they will contact the winners directly. Thanks to everyone who entered!
 I have teamed up with Packt Publishing to organize a giveaway of my new Veeam® Backup &amp;amp; Replication for VMware vSphere book.
 3 lucky winners stand a chance to win e-copies of their new book. Keep reading to find out how you can be one of them!</description>
@@ -70,30 +70,30 @@ I have teamed up with Packt Publishing to organize a giveaway of my new Veeam�
     
     <item>
       <title>And the Chromecast Winner is ...</title>
-      <link>/posts/chromecast-winner/</link>
+      <link>/virtualization/chromecast-winner/</link>
       <pubDate>Thu, 08 May 2014 11:21:00 +0000</pubDate>
       
-      <guid>/posts/chromecast-winner/</guid>
+      <guid>/virtualization/chromecast-winner/</guid>
       <description>A little over a month ago I announced the Want to Win a Google Chromecast contest and finally the winner has been selected. Since there was a grand total of 5 submissions, and one of them was immediately disqualified for a distinct lack of Ninja-presence, I decided to just do a random draw.
 The submitted photos were numbered by the order they appeared in on my post as I took this screenshot.</description>
     </item>
     
     <item>
       <title>Want to Win a Google Chromecast?</title>
-      <link>/posts/win-google-chromecast/</link>
+      <link>/news/win-google-chromecast/</link>
       <pubDate>Wed, 02 Apr 2014 18:51:05 +0000</pubDate>
       
-      <guid>/posts/win-google-chromecast/</guid>
+      <guid>/news/win-google-chromecast/</guid>
       <description>I have a free Google Chromecast to give a way to one lucky winner. As part of being voted into the top 50 VMware &amp;amp; virtualization blogs I was lucky enough to win one for myself, and as an added bonus I get to give away one to one of my readers too!
 To be able to find a worthy winner of it, I&amp;rsquo;ve decided to host a contest.</description>
     </item>
     
     <item>
       <title>2014 Top vBlog Results </title>
-      <link>/posts/2014-top-vblog-results/</link>
+      <link>/virtualization/2014-top-vblog-results/</link>
       <pubDate>Thu, 27 Mar 2014 19:37:55 +0000</pubDate>
       
-      <guid>/posts/2014-top-vblog-results/</guid>
+      <guid>/virtualization/2014-top-vblog-results/</guid>
       <description>Eric Siebert has yet again pulled through, and organized his annual top VMware &amp;amp; virtualization blogs vote, and the results are now in. Congratulations to everyone involved, be it bloggers, podcasters or otherwise engaged in making this possible.
 This year, Eric hosted a live Google Hangout session with John M. Troyer, David M. Davis and Rick Vanover where the top lists were revealed, be sure to check it out:
 http://www.youtube.com/watch?v=W2IVfOvKA5M</description>
@@ -101,30 +101,30 @@ http://www.youtube.com/watch?v=W2IVfOvKA5M</description>
     
     <item>
       <title>Rock the Vote 2014</title>
-      <link>/posts/rock-vote-2014/</link>
+      <link>/virtualization/rock-vote-2014/</link>
       <pubDate>Sat, 22 Feb 2014 18:00:25 +0000</pubDate>
       
-      <guid>/posts/rock-vote-2014/</guid>
+      <guid>/virtualization/rock-vote-2014/</guid>
       <description>Once again, it&amp;rsquo;s time to vote for the top VMware &amp;amp; virtualization blogs. As usual Eric Siebert has opened up the floodgates and set up a voting system, and once again managed to create a lot of work for himself.
 So, let&amp;rsquo;s all make it worth his while and get as many votes in as possible! There are a lot of blogs listed, this time there are over 300 in total.</description>
     </item>
     
     <item>
       <title>Random VCDX Tips and Quotes?</title>
-      <link>/posts/random-vcdx-tips-quotes/</link>
+      <link>/virtualization/random-vcdx-tips-quotes/</link>
       <pubDate>Wed, 29 Jan 2014 15:58:10 +0000</pubDate>
       
-      <guid>/posts/random-vcdx-tips-quotes/</guid>
+      <guid>/virtualization/random-vcdx-tips-quotes/</guid>
       <description>I needed something to spruce up my desktop environment, and it seems that one of the more popular ways to do that is to display random quotes and such on your desktop. Instead of hooking up to an existing quotes database, I simply made my own.
 I have collected a few VCDX related tips and quotes, primarily from the archive Duncan Epping put together of VCDX Tips from VCDX 001 John Arrasjid, but also from the &amp;ldquo;submissions&amp;rdquo; I got from VCDX?</description>
     </item>
     
     <item>
       <title>VCDX? Give me a Quote!</title>
-      <link>/posts/vcdx-give-quote/</link>
+      <link>/news/vcdx-give-quote/</link>
       <pubDate>Fri, 24 Jan 2014 18:25:38 +0000</pubDate>
       
-      <guid>/posts/vcdx-give-quote/</guid>
+      <guid>/news/vcdx-give-quote/</guid>
       <description>For a tiny project, I need some help from anyone who has completed (successfully or not) the VCDX process.
 _All I&amp;rsquo;m asking is that you provide me with a single line quote about the VCDX process, or the VCDX program itself. _
 Please send any quotes to me on Twitter, either as a mention or as a DM, your choice. Once I have a handful of quotes available, they will be made public for others to use as well&amp;hellip;</description>
@@ -132,19 +132,19 @@ Please send any quotes to me on Twitter, either as a mention or as a DM, your ch
     
     <item>
       <title>Quick and Dirty HTTP Based Deployment</title>
-      <link>/posts/quick-and-dirty-http-based-deployment/</link>
+      <link>/virtualization/quick-and-dirty-http-based-deployment/</link>
       <pubDate>Tue, 14 May 2013 11:23:13 +0000</pubDate>
       
-      <guid>/posts/quick-and-dirty-http-based-deployment/</guid>
+      <guid>/virtualization/quick-and-dirty-http-based-deployment/</guid>
       <description>A lot of the scripted installation tools that VMware offers allows the usage of a central HTTP based repository for hosting the files. Today I stumbled over a little gem that might just help you create a &amp;ldquo;quick and dirty&amp;rdquo; HTTP based deployment scenario by running a simple command in your terminal. By default, this command works on any system that has Python installed on it, so OS X and Linux should be ready to go as is.</description>
     </item>
     
     <item>
       <title>Autolab goes Cloudy with a Chance of Free Credits </title>
-      <link>/posts/autolab-meets-cloud/</link>
+      <link>/virtualization/autolab-meets-cloud/</link>
       <pubDate>Thu, 14 Mar 2013 00:02:35 +0000</pubDate>
       
-      <guid>/posts/autolab-meets-cloud/</guid>
+      <guid>/virtualization/autolab-meets-cloud/</guid>
       <description>Autolab, that awesome &amp;ldquo;little&amp;rdquo; thing that automagically builds a nested vSphere Lab environment for you, was definitely not put together by Flint Lockwood but by Alastair Cooke (www.demitasse.co.nz). Unlike Flint´s inventions, this one actually makes sense and serves a purpose!
 Now, how sweet would it be to deploy Autolab without having to invest time, money and effort into acquiring your own hardware?
 Well, thanks to baremetalcloud.com, you might now actually be able to do just that (and more, if you wish).</description>
@@ -152,10 +152,10 @@ Well, thanks to baremetalcloud.com, you might now actually be able to do just th
     
     <item>
       <title>Keep Calm And ...</title>
-      <link>/posts/calm/</link>
+      <link>/virtualization/calm/</link>
       <pubDate>Sat, 02 Mar 2013 22:46:13 +0000</pubDate>
       
-      <guid>/posts/calm/</guid>
+      <guid>/virtualization/calm/</guid>
       <description>I needed some new wall &amp;ldquo;art&amp;rdquo; for my home office, and decided that a couple of small &amp;ldquo;Keep Calm&amp;rdquo; posters would do the trick. Naturally I got a bit carried away, and created more than one, and of course, most of them are virtualization related:
 [gallery ids=&amp;ldquo;2412,2413,2414,2415,2416,2417,2418,2422,2424,2425,2427,2429,2431,2441,2444,2446,2452,2455,2459,2460,2461,2463,2469,2471,2476,2480,2483,2485,2487,2499,2511,2512,2547,2572,2575&amp;rdquo; orderby=&amp;ldquo;rand&amp;rdquo;]
 If you have some ideas, I´ll gladly create more, just leave a comment! I would also love photos if you printed out any of these and put them on a wall or in a frame somewhere.</description>
@@ -163,30 +163,30 @@ If you have some ideas, I´ll gladly create more, just leave a comment! I would 
     
     <item>
       <title>Want a Free Pass to TechEd 2013?</title>
-      <link>/posts/free-pass-teched-2013/</link>
+      <link>/news/free-pass-teched-2013/</link>
       <pubDate>Tue, 26 Feb 2013 16:14:48 +0000</pubDate>
       
-      <guid>/posts/free-pass-teched-2013/</guid>
+      <guid>/news/free-pass-teched-2013/</guid>
       <description>Our sponsor Veeam is giving away a free pass to TechEd 2013 in this months giveaway.
 Register now to be entered into the draw before March 18th when the winner will be announced.</description>
     </item>
     
     <item>
       <title>Unsupported Network Configurations in Virtual Appliances</title>
-      <link>/posts/unsupported-network-configurations-virtual-appliances/</link>
+      <link>/vmware-2/unsupported-network-configurations-virtual-appliances/</link>
       <pubDate>Tue, 19 Feb 2013 23:50:20 +0000</pubDate>
       
-      <guid>/posts/unsupported-network-configurations-virtual-appliances/</guid>
+      <guid>/vmware-2/unsupported-network-configurations-virtual-appliances/</guid>
       <description>My recent experience with setting up vCenter Operations Manager on a standalone ESXi host, and the always excellent William Lam´s post Automating VCSA Network Configurations For Greenfield Deployments got me thinking.
 There are several other appliances out there that require deployment to a vCenter, to be able to configure the networking options and not just default to DHCP. In many, and perhaps even most, cases you can work around that by running the _vami_set_network _command to change from DHCP to STATIC network configurations.</description>
     </item>
     
     <item>
       <title>Want a VMware Workstation License?</title>
-      <link>/posts/vmware-workstation-license/</link>
+      <link>/virtualization/vmware-workstation-license/</link>
       <pubDate>Thu, 10 Jan 2013 23:09:56 +0000</pubDate>
       
-      <guid>/posts/vmware-workstation-license/</guid>
+      <guid>/virtualization/vmware-workstation-license/</guid>
       <description>Christopher Kusek, who runs pkguild.com, has just announced that he is running a contest where you can win a VMware Workstation 9 license.
 Seeing that announcement, and the fact that Christopher was nice enough to mention both me and vNinja.net in it, I have decided to also give away a license that has been lingering unused in my possession way to long.
 Instead of running my own contest, my license has been added to the existing contest so head on over there to read all the details.</description>
@@ -194,10 +194,10 @@ Instead of running my own contest, my license has been added to the existing con
     
     <item>
       <title>VIP VCP Club 2012</title>
-      <link>/posts/vip-vcp-club-2012/</link>
+      <link>/vmware-2/vip-vcp-club-2012/</link>
       <pubDate>Thu, 15 Nov 2012 09:59:17 +0000</pubDate>
       
-      <guid>/posts/vip-vcp-club-2012/</guid>
+      <guid>/vmware-2/vip-vcp-club-2012/</guid>
       <description>VMware Norway held their first ever _VIP VCP Club_ yesterday in Oslo.
 **What is VIP VCP Club? ** This a new concept by VMware Norway, for certified VMware professionals, where the idea is to gather local certified VMware Professionals for a day of hands-on labs, specialized technical sessions and general community building.
 Agenda: [caption id=&amp;ldquo;attachment_2216&amp;rdquo; align=&amp;ldquo;alignright&amp;rdquo; width=&amp;ldquo;150&amp;rdquo;] Lee Dilworth
@@ -207,10 +207,10 @@ Juggling for the Crowd[/caption]
     
     <item>
       <title>Want Access to the VMworld 2012 Sessions?</title>
-      <link>/posts/access-vmworld-2012-sessions/</link>
+      <link>/vmware-2/access-vmworld-2012-sessions/</link>
       <pubDate>Sat, 27 Oct 2012 16:42:11 +0000</pubDate>
       
-      <guid>/posts/access-vmworld-2012-sessions/</guid>
+      <guid>/vmware-2/access-vmworld-2012-sessions/</guid>
       <description>Fellow vExpert Rick Scherer is giving away a voucher that provides free access to all of the VMworld 2012 sessions, including associated MP3′s and PDF’s.
 Have a look at his post Win Access to VMworld 2012 Sessions and enter to win now!
 Good stuff Rick, real good!
@@ -220,10 +220,10 @@ Fresh VCDX and fellow vExpert Joep Piscaer has followed suit and announced his 
     
     <item>
       <title>... and All I Asked for Was a Pin</title>
-      <link>/posts/all-i-asked-for-was-a-pin/</link>
+      <link>/virtualization/all-i-asked-for-was-a-pin/</link>
       <pubDate>Tue, 11 Sep 2012 17:33:35 +0000</pubDate>
       
-      <guid>/posts/all-i-asked-for-was-a-pin/</guid>
+      <guid>/virtualization/all-i-asked-for-was-a-pin/</guid>
       <description>Way back in the old days, you know when VMworld 2012 was held in San Francisco, I tweeted that if someone could get hold of a VCP pin for me, I would be very happy.
 Luckily Paul Valentino from vCommunity Trust picked that up, and apparently went on quite the scavenger hunt on my behalf.
 Imagine my surprise today when this little square meter of carton appeared, courtesy of Mr. Valentino:</description>
@@ -231,19 +231,19 @@ Imagine my surprise today when this little square meter of carton appeared, cour
     
     <item>
       <title>Applescript, Desktop Wallpaper and Growl. Automagically.</title>
-      <link>/posts/applescript-desktop-wallpaper-growl-automatically/</link>
+      <link>/osx/applescript-desktop-wallpaper-growl-automatically/</link>
       <pubDate>Tue, 24 Jul 2012 23:31:12 +0000</pubDate>
       
-      <guid>/posts/applescript-desktop-wallpaper-growl-automatically/</guid>
+      <guid>/osx/applescript-desktop-wallpaper-growl-automatically/</guid>
       <description>I´ve been a Mac and OS X user now for about 7 months, but to be honest I have not been very experimental in my usage of my Macbook Air. Until now, my main focus has been basic usage of the hardware and operating systems, and making it work in my corporate environment. As I feel that I´ve reached mission accomplished status on that initial project, I decided to use some of my &amp;ldquo;free&amp;rdquo; vacation time to play around a bit and experiment a bit more.</description>
     </item>
     
     <item>
       <title>Thinapped vSphere Client Updated to V5.0</title>
-      <link>/posts/thinapped-vsphere-client-updated-v5-0/</link>
+      <link>/vmware-2/thinapped-vsphere-client-updated-v5-0/</link>
       <pubDate>Thu, 31 May 2012 11:45:52 +0000</pubDate>
       
-      <guid>/posts/thinapped-vsphere-client-updated-v5-0/</guid>
+      <guid>/vmware-2/thinapped-vsphere-client-updated-v5-0/</guid>
       <description>The Thinapped vSphere Client has finally been updated to v5.0, and is readily available for download!
 Sadly the new version is v5.0 only, and will only allow you to connect to vSphere v5 hosts and since the new release has replaced the old release on the VMware Fling website, you´re out of luck if you haven´t already got the 4.0 version stowed away in your own private locker.
 I hope VMware decides to either make the 4.</description>
@@ -251,10 +251,10 @@ I hope VMware decides to either make the 4.</description>
     
     <item>
       <title>Vote for the Top VMware &amp; Virtualization Blogs </title>
-      <link>/posts/vote-top-vmware-virtualization-blogs/</link>
+      <link>/news/vote-top-vmware-virtualization-blogs/</link>
       <pubDate>Tue, 24 Jan 2012 08:46:24 +0000</pubDate>
       
-      <guid>/posts/vote-top-vmware-virtualization-blogs/</guid>
+      <guid>/news/vote-top-vmware-virtualization-blogs/</guid>
       <description>Eric Siebert has opened up the voting for the top VMware &amp;amp; virtualization blogs. Head on over and cast your votes!
 Votes for vNinja.net and vSoup.net would be greatly appreciated, but since we´re not affiliated with the Dutch vMaffia we promise that you will not have to wear concrete boots or wake up to a horses head in your bed if you don´t vote for us.
 We think.</description>
@@ -262,10 +262,10 @@ We think.</description>
     
     <item>
       <title>Goodbye 2011, you were great</title>
-      <link>/posts/goodbye-2011-you-were-great/</link>
+      <link>/news/goodbye-2011-you-were-great/</link>
       <pubDate>Fri, 30 Dec 2011 18:40:41 +0000</pubDate>
       
-      <guid>/posts/goodbye-2011-you-were-great/</guid>
+      <guid>/news/goodbye-2011-you-were-great/</guid>
       <description>Yes, this is YAEotYP, so if you&amp;rsquo;ve already read tons of them I apologize.
 2011 - My personal view 2011 has been a steamroller of a year.The vSoup Virtualization Podcast got aired the first time, and we&amp;rsquo;ve recorded and published 19 full episodes in the inaugural year. I was awarded the vExpert title for the first time, and even got invited to Tech Field Day #6 in Boston.
 In addition to this, I wrote a white paper for Veeam, was included in the Server Virtualization Advisory Board, joined Rick Vanover for a Veeam Community Podcast, and appeared in two video interviews.</description>
@@ -273,19 +273,19 @@ In addition to this, I wrote a white paper for Veeam, was included in the Server
     
     <item>
       <title>Auto Installation and Configuring of vSphere ESXi 5</title>
-      <link>/posts/auto-installation-and-configuring-of-vsphere-esxi-5/</link>
+      <link>/virtualization/auto-installation-and-configuring-of-vsphere-esxi-5/</link>
       <pubDate>Wed, 21 Dec 2011 23:36:19 +0000</pubDate>
       
-      <guid>/posts/auto-installation-and-configuring-of-vsphere-esxi-5/</guid>
+      <guid>/virtualization/auto-installation-and-configuring-of-vsphere-esxi-5/</guid>
       <description>One of the last projects I&amp;rsquo;ve been involved with at Seatrans, is to automate the installation and configuration of vSphere ESXi 5 hosts for deployment on vessels. I&amp;rsquo;ve talked a bit about this before, both on vSoup and in Setting Up Automated ESXi Deployments where I outlined my PXE and PowerCLI based installation and configuration scheme. Not much has changed since then, except updating the PXE server to offer ESXi 5, instead of ESXi 4 and a lot of work has been put into the scripting, including a front-end GUI for the PowerCLI script itself.</description>
     </item>
     
     <item>
       <title>DaaS or Having Fun with ThinApp</title>
-      <link>/posts/daas-or-having-fun-with-thinapp/</link>
+      <link>/virtualization/daas-or-having-fun-with-thinapp/</link>
       <pubDate>Fri, 09 Dec 2011 21:59:21 +0000</pubDate>
       
-      <guid>/posts/daas-or-having-fun-with-thinapp/</guid>
+      <guid>/virtualization/daas-or-having-fun-with-thinapp/</guid>
       <description>While using ThinApp to create a standalone version of TweetDeck 0.38.2, since the newly announced 1.0 version looks, acts and feels like a 0.1 version, I posed the following question on Twitter:
 [&#34;Hrm, what other apps should i #ThinApp while I&#39;m at it?&#34;](https://twitter.com/#!/h0bbel/status/145249562490179585). Kevin Kelling immediately responded with &amp;ldquo;Doom&amp;rdquo;.
 Naturally, I decided to give it a go. A quick download of ZDoom later, and a quick run through the ThinApp Setup Capture later, the following was born (view in full screen for better viewing):</description>
@@ -293,10 +293,10 @@ Naturally, I decided to give it a go. A quick download of ZDoom later, and a qui
     
     <item>
       <title>Installing Windows 8 Developer Preview in VMware Workstation 8</title>
-      <link>/posts/installing-windows-8-developer-preview-in-vmware-workstation-8/</link>
+      <link>/virtualization/installing-windows-8-developer-preview-in-vmware-workstation-8/</link>
       <pubDate>Wed, 14 Sep 2011 12:33:12 +0000</pubDate>
       
-      <guid>/posts/installing-windows-8-developer-preview-in-vmware-workstation-8/</guid>
+      <guid>/virtualization/installing-windows-8-developer-preview-in-vmware-workstation-8/</guid>
       <description>Installing Microsoft Windows 8 in a VMware Workstation 8 VM turned out to be a real piece of cake.
 Follow the screenshots for the procedure I used, but basically all I did was to create a new VM with the pre-configured &amp;ldquo;Windows 8 Server&amp;rdquo; preset and inserted the downloaded ISO file.
 Note: Windows 8 Server has been removed as a preset option in the final release of VMware Workstation 8, my screenshots are from the beta version.</description>
@@ -304,10 +304,10 @@ Note: Windows 8 Server has been removed as a preset option in the final release 
     
     <item>
       <title>vSphere 5: ESXi Installation Video</title>
-      <link>/posts/vsphere-5-esxi-installation-video/</link>
+      <link>/virtualization/vsphere-5-esxi-installation-video/</link>
       <pubDate>Thu, 25 Aug 2011 09:28:03 +0000</pubDate>
       
-      <guid>/posts/vsphere-5-esxi-installation-video/</guid>
+      <guid>/virtualization/vsphere-5-esxi-installation-video/</guid>
       <description>To celebrate vSphere 5 GA release today, I&amp;rsquo;ve recorded a quick video of the old school CD/ISO based installation:
 vSphere 5 ESXi Install Video from Christian Mohn on Vimeo.
 Seems strangely familiar, right? Enjoy!</description>
@@ -315,49 +315,49 @@ Seems strangely familiar, right? Enjoy!</description>
     
     <item>
       <title>Setting Up Automated ESXi Deployments</title>
-      <link>/posts/setting-up-automated-esxi-deployments/</link>
+      <link>/virtualization/setting-up-automated-esxi-deployments/</link>
       <pubDate>Thu, 07 Jul 2011 08:10:55 +0000</pubDate>
       
-      <guid>/posts/setting-up-automated-esxi-deployments/</guid>
+      <guid>/virtualization/setting-up-automated-esxi-deployments/</guid>
       <description>Automating ESXi installs was made much easier after the release of vSphere 4.1 where the Scripted Install feature was added, and by using VMware Auto Deploy from VMware Labs. VMware Auto Deploy requires that you have vCenter and Host Profiles in your environment, and that again requires that you have Enterprise Plus licenses in your environment.
 It is, however, possible to deploy ESXi in an automated fashion completely without vCenter and Host Profiles!</description>
     </item>
     
     <item>
       <title>vExpert 2011</title>
-      <link>/posts/vexpert-2011/</link>
+      <link>/news/vexpert-2011/</link>
       <pubDate>Fri, 01 Jul 2011 07:33:52 +0000</pubDate>
       
-      <guid>/posts/vexpert-2011/</guid>
+      <guid>/news/vexpert-2011/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tech Field Day #6 - Arriving in Boston</title>
-      <link>/posts/tech-field-day-6-arriving-in-boston/</link>
+      <link>/news/tech-field-day-6-arriving-in-boston/</link>
       <pubDate>Wed, 08 Jun 2011 13:57:40 +0000</pubDate>
       
-      <guid>/posts/tech-field-day-6-arriving-in-boston/</guid>
+      <guid>/news/tech-field-day-6-arriving-in-boston/</guid>
       <description>Yesterday I arrived at Logan International for Tech Field Day #6 in the greater Boston area. Christopher Wells had already arrived earlier in the day, and I was lucky enough to be picked up by Stephen Foskett at the airport and chauffeured to the Sheraton Framingham Hotel and Conference center.
 The travel itself was pretty uneventful, the only trouble I had was that when I landed at Schipol for transfer to the US flight, my boarding pass was nowhere to be found, and I don&amp;rsquo;t think I even received it when I checked in at Bergen Airport Flesland.</description>
     </item>
     
     <item>
       <title>Tech Field Day #6 - Delegate I Am</title>
-      <link>/posts/tech-field-day-6-delegate-i-am/</link>
+      <link>/news/tech-field-day-6-delegate-i-am/</link>
       <pubDate>Mon, 16 May 2011 12:34:45 +0000</pubDate>
       
-      <guid>/posts/tech-field-day-6-delegate-i-am/</guid>
+      <guid>/news/tech-field-day-6-delegate-i-am/</guid>
       <description>A while ago I got a surprising email, stating the following:
 You could consider this a sincere compliment from the Gestalt IT community as your name was suggested and we think you are the kind of person we all would love to have as part of our community. This means you&#39;re independent-minded, technology-focused, community-oriented, and a thought leader in the area of IT infrastructure.  Of course, this is pretty much hogwash, but nevertheless I&amp;rsquo;m extremely honored to be invited as a delegate for Tech Field Day #6 in Boston, Mass.</description>
     </item>
     
     <item>
       <title>vNinja enables HA</title>
-      <link>/posts/vninja-enables-h/</link>
+      <link>/news/vninja-enables-h/</link>
       <pubDate>Wed, 13 Apr 2011 21:02:28 +0000</pubDate>
       
-      <guid>/posts/vninja-enables-h/</guid>
+      <guid>/news/vninja-enables-h/</guid>
       <description>I&amp;rsquo;m happy to announce that my fellow vSoup Podcast co-host Ed Czerwin is on board as blogger here on vNinja.net! This means that from now on you won&amp;rsquo;t just have to put up with the content of one virtualization admin, but two!
 As all good vAdmins know, two is better than one, and it&amp;rsquo; so much easier to build HA solutions around!
 Welcome aboard Ed, glad to have you on!</description>
@@ -365,20 +365,20 @@ Welcome aboard Ed, glad to have you on!</description>
     
     <item>
       <title>vSphere iPad Client</title>
-      <link>/posts/vsphere-ipad-client/</link>
+      <link>/virtualization/vsphere-ipad-client/</link>
       <pubDate>Fri, 18 Mar 2011 09:18:44 +0000</pubDate>
       
-      <guid>/posts/vsphere-ipad-client/</guid>
+      <guid>/virtualization/vsphere-ipad-client/</guid>
       <description>Like everyone else in the vUniverse, I&amp;rsquo;ve had a play with the very recently released free vSphere Client for iPad. Since everyone, and their mother, has already blogged and reviewed it I don&amp;rsquo;t see much value in me doing the same.
 What I can say though, is that the first impression is pretty great. It looks good, works well and might be one of the apps that finally gives me an actual use case for the iPad.</description>
     </item>
     
     <item>
       <title>VMworld europe 2010</title>
-      <link>/posts/vmworld-europe-2010/</link>
+      <link>/virtualization/vmworld-europe-2010/</link>
       <pubDate>Sun, 10 Oct 2010 20:25:42 +0000</pubDate>
       
-      <guid>/posts/vmworld-europe-2010/</guid>
+      <guid>/virtualization/vmworld-europe-2010/</guid>
       <description>[VMworld Europe 2010 is close. Very close. In fact, lots of people are already in place in Copenhagen, personally I don’t get until tomorrow evening (the 11th).
 Since I get in pretty late, I really hope I’ll be able to get to my hotel quickly, and then find Custom House for the Tweetup/VMUG Party.
 Remember I have a little contest going, where you can win a copy of Trainsignal VMware vSphere Pro Series Training Vol.</description>

@@ -91,7 +91,7 @@
 
 <article class="blog-post">
   <header>
-    <h2 class="blog-post-title"><a href="/posts/upgrading-vsphere-vcenter-appliance-5-1-5-5/">Upgrading vSphere vCenter Appliance 5.1 to 5.5</a></h2>
+    <h2 class="blog-post-title"><a href="/vmware-2/upgrading-vsphere-vcenter-appliance-5-1-5-5/">Upgrading vSphere vCenter Appliance 5.1 to 5.5</a></h2>
     <p class="blog-post-meta"><time datetime="2013-09-30T12:20:38Z">Mon Sep 30, 2013</time> by cmohn in 
 <i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/vmware" rel="category tag">VMware</a>
 
@@ -102,7 +102,7 @@
   </header>
   In VMware KB Upgrading vCenter Server Appliance 5.0.x/5.1 to 5.5 (2058441) the procedure for upgrading an existing 5.0/5.1 vSphere vCenter Server Appliance is outlined, walking you through the steps required including deploying a new 5.5 vCSA and transferring the data from the old instance to the new one. Straight forward procedure, but there is one small caveat in this process.
 One important thing to remember, and something I don´t feel that the knowledge-base article highlights well enough is that the new v5.
-  <a href='/posts/upgrading-vsphere-vcenter-appliance-5-1-5-5/'>Read more →</a>
+  <a href='/vmware-2/upgrading-vsphere-vcenter-appliance-5-1-5-5/'>Read more →</a>
 </article> 
 
 
@@ -112,7 +112,7 @@ One important thing to remember, and something I don´t feel that the knowledge-
 
 <article class="blog-post">
   <header>
-    <h2 class="blog-post-title"><a href="/posts/combine-vsphere-host-cache-vflash-single-ssd/">Can you combine vSphere Host Cache and vFlash on a single SSD?</a></h2>
+    <h2 class="blog-post-title"><a href="/vmware-2/combine-vsphere-host-cache-vflash-single-ssd/">Can you combine vSphere Host Cache and vFlash on a single SSD?</a></h2>
     <p class="blog-post-meta"><time datetime="2013-09-30T00:12:39Z">Mon Sep 30, 2013</time> by cmohn in 
 <i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/vmware" rel="category tag">VMware</a>
 
@@ -123,7 +123,7 @@ One important thing to remember, and something I don´t feel that the knowledge-
   </header>
   One of the new features in vSphere 5.5 is the vSphere vFlash that enables you to use a SSD/Flash device as a read cache for your storage. Duncan Epping has a series of posts on vSphere Flash Cache that is well worth a read.
 vSphere vFlash caches your read IOs, but at the same time you can use it as a swap device if you run into memory contention issues. The vSphere vFlash Host Cache is similar to the older Host Cache feature, but if you are upgrading from an older version of ESXi there is a couple of things that needs to be done to be able to use this feature.
-  <a href='/posts/combine-vsphere-host-cache-vflash-single-ssd/'>Read more →</a>
+  <a href='/vmware-2/combine-vsphere-host-cache-vflash-single-ssd/'>Read more →</a>
 </article> 
 
 
@@ -133,7 +133,7 @@ vSphere vFlash caches your read IOs, but at the same time you can use it as a sw
 
 <article class="blog-post">
   <header>
-    <h2 class="blog-post-title"><a href="/posts/vmware-vcenter-server-appliance-error-vpxd-stopped-perform-operation/">VMware vCenter Server Appliance Error: VPXD must be stopped to perform this operation</a></h2>
+    <h2 class="blog-post-title"><a href="/vmware-2/vmware-vcenter-server-appliance-error-vpxd-stopped-perform-operation/">VMware vCenter Server Appliance Error: VPXD must be stopped to perform this operation</a></h2>
     <p class="blog-post-meta"><time datetime="2013-09-29T23:16:25Z">Sun Sep 29, 2013</time> by cmohn in 
 <i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/vmware" rel="category tag">VMware</a>
 
@@ -145,7 +145,7 @@ vSphere vFlash caches your read IOs, but at the same time you can use it as a sw
   While deploying a fresh vCenter Server 5.5 Appliance, I ran into an issue getting it configured.
 When the appliance is deployed, the first time you log in you get presented with the configuration wizard. The wizard clearly states that if you want to set a static ip, or hostname, you should cancel the wizard, do the network configuration and then re-run the wizard after the fact.
 Well, that´s what I did, and it resulted in the following error when trying to create the embedded database:
-  <a href='/posts/vmware-vcenter-server-appliance-error-vpxd-stopped-perform-operation/'>Read more →</a>
+  <a href='/vmware-2/vmware-vcenter-server-appliance-error-vpxd-stopped-perform-operation/'>Read more →</a>
 </article> 
 
 
@@ -155,7 +155,7 @@ Well, that´s what I did, and it resulted in the following error when trying to 
 
 <article class="blog-post">
   <header>
-    <h2 class="blog-post-title"><a href="/posts/adding-secondary-nic-vcenter-5-1-appliance-vcsa/">Adding a secondary NIC to the vCenter 5.1 Appliance (VCSA)</a></h2>
+    <h2 class="blog-post-title"><a href="/virtualization/adding-secondary-nic-vcenter-5-1-appliance-vcsa/">Adding a secondary NIC to the vCenter 5.1 Appliance (VCSA)</a></h2>
     <p class="blog-post-meta"><time datetime="2013-04-25T11:10:33Z">Thu Apr 25, 2013</time> by cmohn in 
 <i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
 
@@ -167,7 +167,7 @@ Well, that´s what I did, and it resulted in the following error when trying to 
   While building my lab environment, I ran into a situation where I wanted to have a completely sealed off networking segment that had no outside access.
 This is a trivial task on it`s own, just create a vSwitch with no physical NICs attached to it, and then connect the VMs to it. The VMs will then have interconnectivity, but no outside network access at all.
 In this particular case, I was setting up a couple of nested ESXi servers that I wanted to connect to the &ldquo;outside&rdquo; vCenter Appliance (VCSA).
-  <a href='/posts/adding-secondary-nic-vcenter-5-1-appliance-vcsa/'>Read more →</a>
+  <a href='/virtualization/adding-secondary-nic-vcenter-5-1-appliance-vcsa/'>Read more →</a>
 </article> 
 
 
@@ -177,7 +177,7 @@ In this particular case, I was setting up a couple of nested ESXi servers that I
 
 <article class="blog-post">
   <header>
-    <h2 class="blog-post-title"><a href="/posts/backing-up-vcenter-db-with-veeam-br-6-5/">Backing up vCenter DB with Veeam B&amp;R 6.5</a></h2>
+    <h2 class="blog-post-title"><a href="/virtualization/backing-up-vcenter-db-with-veeam-br-6-5/">Backing up vCenter DB with Veeam B&amp;R 6.5</a></h2>
     <p class="blog-post-meta"><time datetime="2013-03-25T09:03:41Z">Mon Mar 25, 2013</time> by cmohn in 
 <i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
 
@@ -190,7 +190,7 @@ In this particular case, I was setting up a couple of nested ESXi servers that I
 If you experience this problem, you will see entries like this in your Veeam B&amp;R backup logs:
 [caption id=&ldquo;attachment_2490&rdquo; align=&ldquo;aligncenter&rdquo; width=&ldquo;640&rdquo;] Veeam vCenterDB Backup Error[/caption]
 The workaround provided by Veeam is to create host VM-Host Affinity Rules, effectively pinning a VM to a given host, and then perform the VM backup through the host rather than through the vCenter.
-  <a href='/posts/backing-up-vcenter-db-with-veeam-br-6-5/'>Read more →</a>
+  <a href='/virtualization/backing-up-vcenter-db-with-veeam-br-6-5/'>Read more →</a>
 </article> 
 
 

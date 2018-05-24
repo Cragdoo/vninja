@@ -14,10 +14,10 @@
     
     <item>
       <title>Webinar: Veeam integration with VMware vSAN, vSphere tags and SPBM policies</title>
-      <link>/posts/webinar-veeam-integration-with-vmware-vsan-vsphere-tags-and-spbm-policies/</link>
+      <link>/virtualization/webinar-veeam-integration-with-vmware-vsan-vsphere-tags-and-spbm-policies/</link>
       <pubDate>Mon, 13 Nov 2017 16:45:46 +0000</pubDate>
       
-      <guid>/posts/webinar-veeam-integration-with-vmware-vsan-vsphere-tags-and-spbm-policies/</guid>
+      <guid>/virtualization/webinar-veeam-integration-with-vmware-vsan-vsphere-tags-and-spbm-policies/</guid>
       <description>Warning: Shameless self promotion ahead!
 November 30th I&amp;rsquo;ll be joining Martin Plesner-Jacobsen from Veeam for a Live Webinar: _Veeam integration with VMware vSAN, vSphere tags and SPBM policies. _
 Now that&amp;rsquo;s a lot of goodies in one place!
@@ -27,10 +27,10 @@ Click on the banner above to register now, and reserve your spot!</description>
     
     <item>
       <title>VeeamOn Tour Virtual 2017 - Reserve your spot!</title>
-      <link>/posts/veeamon-tour-virtual-2017-reserve-your-spot/</link>
+      <link>/virtualization/veeamon-tour-virtual-2017-reserve-your-spot/</link>
       <pubDate>Tue, 17 Oct 2017 10:44:50 +0000</pubDate>
       
-      <guid>/posts/veeamon-tour-virtual-2017-reserve-your-spot/</guid>
+      <guid>/virtualization/veeamon-tour-virtual-2017-reserve-your-spot/</guid>
       <description>Veeam is hosting their VeeamOn Tour Virtual 2017 event on December 5th, and I&amp;rsquo;ll be part of the panel of bloggers in the Expert Lounge!
 Veeam describes the event like this:
 The biggest online Availability event in EMEA — VeeamON Tour Virtual 2017 — is once again coming to your desktop! No need to leave your chair — Experience Availability simply by joining us for an ultimate digital journey! VeeamON Tour Virtual runs from 11 am to 5 pm CET, and offers three separate tracks; Business, Technical and Cloud.</description>
@@ -38,20 +38,20 @@ The biggest online Availability event in EMEA — VeeamON Tour Virtual 2017 — 
     
     <item>
       <title>VMware vSAN 6.6 - What&#39;s New for Day 2 Operations?</title>
-      <link>/posts/vmware-vsan-6-6-whats-new-for-day-2-operations/</link>
+      <link>/virtualization/vmware-vsan-6-6-whats-new-for-day-2-operations/</link>
       <pubDate>Tue, 11 Apr 2017 16:08:30 +0000</pubDate>
       
-      <guid>/posts/vmware-vsan-6-6-whats-new-for-day-2-operations/</guid>
+      <guid>/virtualization/vmware-vsan-6-6-whats-new-for-day-2-operations/</guid>
       <description>VMware has just announced vSAN v6.6, with over 20 new features. While new and shiny features are nice I&amp;rsquo;d like to highlight a couple that I think might be undervalued from release feature-set perspective, but highly valuable in day to day operations of a vSAN environment, otherwise known as Day 2 operations.
 vSAN Configuration Assist is one such new feature. While it&amp;rsquo;s true that it helps first time configuration of a greenfield installation with vSAN (no more bootstrapping, yay!</description>
     </item>
     
     <item>
       <title>In The Bag #9 - Week 7 2017</title>
-      <link>/posts/in-the-bag-9-week-7-2017/</link>
+      <link>/virtualization/in-the-bag-9-week-7-2017/</link>
       <pubDate>Fri, 17 Feb 2017 11:56:43 +0000</pubDate>
       
-      <guid>/posts/in-the-bag-9-week-7-2017/</guid>
+      <guid>/virtualization/in-the-bag-9-week-7-2017/</guid>
       <description>Welcome to the ninth edition of _In The Bag! _
 [caption id=&amp;ldquo;attachment_4580&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;644&amp;rdquo;] Photo by James Sutton[/caption]
 In The Bag #9 - Week 7 2017 Technology  Setting the record straight on DRS, pDRS and Workload Placement How does DRS and pDRS work, really? What metrics are the basis for decisions, and how often are the calculations done?
@@ -60,20 +60,20 @@ In The Bag #9 - Week 7 2017 Technology  Setting the record straight on DRS, pDR
     
     <item>
       <title>Got VMware vRealize Log Insight?</title>
-      <link>/posts/got-vmware-vrealize-log-insight/</link>
+      <link>/virtualization/got-vmware-vrealize-log-insight/</link>
       <pubDate>Wed, 23 Nov 2016 17:37:07 +0000</pubDate>
       
-      <guid>/posts/got-vmware-vrealize-log-insight/</guid>
+      <guid>/virtualization/got-vmware-vrealize-log-insight/</guid>
       <description>Recent conversations with existing and potential clients made me realize that many are not aware that they most likely are entitled to use VMware vRealize Log Insight in their environment. For free.
 Back in March 2016 VMware announced that everyone with a valid VMware vCenter license are also entitled to 25-OSI pack of vRealize Log Insight for vCenter Server. This means that you can gather logs for up to 25 ESXi hosts, VMs or other devices, in your environment.</description>
     </item>
     
     <item>
       <title>VMware vSAN: 2016 Edition</title>
-      <link>/posts/vmware-vsan-2016-edition/</link>
+      <link>/virtualization/vmware-vsan-2016-edition/</link>
       <pubDate>Wed, 23 Nov 2016 13:57:56 +0000</pubDate>
       
-      <guid>/posts/vmware-vsan-2016-edition/</guid>
+      <guid>/virtualization/vmware-vsan-2016-edition/</guid>
       <description>Both in 2014 and in 2015 I wrote pieces on the current status of VMware vSAN, and it&amp;rsquo;s time to revisit it for 2016.
 My previous posts:
 2014: VSAN: The Unspoken Future 2015: VMware VSAN: More than meets the eye.
@@ -84,19 +84,19 @@ vSAN 6.5 was released with vSphere 6.5, and brings a few new features to the tab
     
     <item>
       <title>Cohesity: My Initial Impression</title>
-      <link>/posts/cohesity-my-initial-impression/</link>
+      <link>/virtualization/cohesity-my-initial-impression/</link>
       <pubDate>Tue, 22 Nov 2016 13:05:33 +0000</pubDate>
       
-      <guid>/posts/cohesity-my-initial-impression/</guid>
+      <guid>/virtualization/cohesity-my-initial-impression/</guid>
       <description>A few weeks back Cohesity gave me access to a lab environment, where I could play around with their HyperConverged Secondary Data solution. For those unaware of their offering entails, it&amp;rsquo;s simply put a solution for managing secondary storage. In this case, secondary storage is really everything that isn&amp;rsquo;t mission critical. It can be your backups, test/dev workloads, file shares and so on . The idea to place these unstructured data sets on a secondary storage platform, to ease management and analytics but at the same time keep it integrated with the rest of the existing environment.</description>
     </item>
     
     <item>
       <title>In The Bag #3 - Week 46</title>
-      <link>/posts/in-the-bag-3-week-46/</link>
+      <link>/virtualization/in-the-bag-3-week-46/</link>
       <pubDate>Fri, 18 Nov 2016 22:38:33 +0000</pubDate>
       
-      <guid>/posts/in-the-bag-3-week-46/</guid>
+      <guid>/virtualization/in-the-bag-3-week-46/</guid>
       <description>Welcome to the third edition of In The Bag!
 [caption id=&amp;ldquo;attachment_4314&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;620&amp;rdquo;] Photo by Sonny Abesamis[/caption]
 In The Bag #3 - Week 46
@@ -105,10 +105,10 @@ Technology  Slow news week, not much happening really. Oh wait, there was this t
     
     <item>
       <title>Generating Random Data in Linux</title>
-      <link>/posts/generating-random-data-in-linux/</link>
+      <link>/virtualization/generating-random-data-in-linux/</link>
       <pubDate>Tue, 15 Nov 2016 12:00:50 +0000</pubDate>
       
-      <guid>/posts/generating-random-data-in-linux/</guid>
+      <guid>/virtualization/generating-random-data-in-linux/</guid>
       <description>I&amp;rsquo;ve been fleshing out a properVeeam Backup &amp;amp; Replication Demo lab at work, but doing demos on static VMs isn&amp;rsquo;t all that much fun and doesn&amp;rsquo;t really give us much. Doing scheduled backups of non-changing data is really boring.
 So, in order to get some changes done on the file system on a few Linux VMs running in the environment, I came up with the following solution:
 I set up a crontab entry that generates a file with random data in it a couple of times a day, just to make sure that there are some changes made to the VM.</description>
@@ -116,10 +116,10 @@ I set up a crontab entry that generates a file with random data in it a couple o
     
     <item>
       <title>VCSA - The default choice. Always.</title>
-      <link>/posts/vcsa-the-default-choice-always/</link>
+      <link>/virtualization/vcsa-the-default-choice-always/</link>
       <pubDate>Thu, 10 Nov 2016 09:57:29 +0000</pubDate>
       
-      <guid>/posts/vcsa-the-default-choice-always/</guid>
+      <guid>/virtualization/vcsa-the-default-choice-always/</guid>
       <description>I&amp;rsquo;ve been a big proponent of the VMware vCenter Appliance for a long time, I even did a talk called VCS to VCSA Converter or How a Fling Can Be Good for You! on migrating to the VCSA at the Nordic VMUG last year.
 The VCSA has gone through a few iterations and versions by now, coinciding with the vSphere releases.
 History [table id=14 /]
@@ -128,10 +128,10 @@ Since v6.0 scaling has been on par with it&amp;rsquo;s Windows based counterpart
     
     <item>
       <title>My vCenter Web Client Customization</title>
-      <link>/posts/my-vcenter-web-client-customization/</link>
+      <link>/virtualization/my-vcenter-web-client-customization/</link>
       <pubDate>Mon, 07 Nov 2016 22:51:03 +0000</pubDate>
       
-      <guid>/posts/my-vcenter-web-client-customization/</guid>
+      <guid>/virtualization/my-vcenter-web-client-customization/</guid>
       <description>William Lam has a repository of vCenter Web Client customizations hosted over on GitHub, and I decided to add one of my own.
 BotladySimple, but kind of fun. Photo credits go to gratisography.com
 I have a couple of other ideas as well, so I might make a few more, but I&amp;rsquo;ll wait until vSphere 6.5 is released in case the formats and paths change again. After all the new VCSA is based on VMware Photon, so things might just moved around a bit.</description>
@@ -139,10 +139,10 @@ I have a couple of other ideas as well, so I might make a few more, but I&amp;
     
     <item>
       <title>Adding Slack Notifications to phpipam</title>
-      <link>/posts/adding-slack-notifications-to-phpipam/</link>
+      <link>/virtualization/adding-slack-notifications-to-phpipam/</link>
       <pubDate>Thu, 03 Nov 2016 21:41:07 +0000</pubDate>
       
-      <guid>/posts/adding-slack-notifications-to-phpipam/</guid>
+      <guid>/virtualization/adding-slack-notifications-to-phpipam/</guid>
       <description>As mentioned before, I&amp;rsquo;ve kinda turned my home lab into some sort of Slack-Ops deal, where various services in my home lab notify me of events in a private Slack channel.
 The latest rendition of that, is adding Slack notifications from phpipam. Once phpipam detects a new device picking up an IP in my network, it notifies me like this:
 In order to get this working, I had to edit the /var/www/phpipam/functions/scripts/discoveryCheck.</description>
@@ -150,60 +150,60 @@ In order to get this working, I had to edit the /var/www/phpipam/functions/scri
     
     <item>
       <title>Running telnetlogger on my home IP</title>
-      <link>/posts/running-telnetlogger-on-my-home-ip/</link>
+      <link>/virtualization/running-telnetlogger-on-my-home-ip/</link>
       <pubDate>Wed, 02 Nov 2016 00:19:30 +0000</pubDate>
       
-      <guid>/posts/running-telnetlogger-on-my-home-ip/</guid>
+      <guid>/virtualization/running-telnetlogger-on-my-home-ip/</guid>
       <description>Robert Graham of erratasec has created a small honeypot tool called telnetlogger.
  This is a simple program to log login attempts on Telnet (port 23). It&#39;s designed to track the Mirai botnet. Right now (Oct 23, 2016) infected Mirai machines from around the world are trying to connect to Telnet on every IP address about once per minute. This program logs both which IP addresses are doing the attempts, and which passwords they are using.</description>
     </item>
     
     <item>
       <title>VMworld 2016 Europe</title>
-      <link>/posts/vmworld-2016-europe/</link>
+      <link>/virtualization/vmworld-2016-europe/</link>
       <pubDate>Thu, 06 Oct 2016 07:50:35 +0000</pubDate>
       
-      <guid>/posts/vmworld-2016-europe/</guid>
+      <guid>/virtualization/vmworld-2016-europe/</guid>
       <description>VMworld Europe is just a couple of weeks away now, and I can&amp;rsquo;t wait to spend a week in sunny Barcelona. Last year my trip got cancelled in the last minute, but that will not be the case this year.
 As usual I&amp;rsquo;m looking forward to a bunch of sessions, and general announcements, but for me the value of attending VMworld is in the networking with other people. Sessions and keynotes can be reviewed later, interacting with others can not.</description>
     </item>
     
     <item>
       <title>Goodbye PernixData FVP and Architect</title>
-      <link>/posts/goodbye-fvp-and-architect/</link>
+      <link>/news/goodbye-fvp-and-architect/</link>
       <pubDate>Thu, 29 Sep 2016 12:08:21 +0000</pubDate>
       
-      <guid>/posts/goodbye-fvp-and-architect/</guid>
+      <guid>/news/goodbye-fvp-and-architect/</guid>
       <description>As we all know by now, PernixData was gobbled up by Nutanix a while back, and since then there has been a nothing but silence on the future of the FVP and Architect products. Now it seems it&amp;rsquo;s over. The acquisition trigged a bunch of PernixData employees moving elsewhere, and now it&amp;rsquo;s the products time to move on as well.
 From what I&amp;rsquo;m hearing, End of Sale and End of Life for both products are due to be announced soon.</description>
     </item>
     
     <item>
       <title>Veeam vCenter Migration Utility</title>
-      <link>/posts/veeam-vcenter-migration-utility/</link>
+      <link>/virtualization/veeam-vcenter-migration-utility/</link>
       <pubDate>Mon, 08 Aug 2016 09:35:47 +0000</pubDate>
       
-      <guid>/posts/veeam-vcenter-migration-utility/</guid>
+      <guid>/virtualization/veeam-vcenter-migration-utility/</guid>
       <description>Way back in 2013, I published Preserve your Veeam B&amp;amp;R Backups Jobs when Moving vCenter, outlining how to &amp;ldquo;cheat&amp;rdquo; (by using a CNAME alias) to preserve your Veeam Backup &amp;amp; Replication jobs if you replace your VMware vCenter.
 Naturally, when there is a new vCenter instance, all the Virtual Machine Managed Object Reference&amp;rsquo;s (MoRef) change, which makes Veeam Backup &amp;amp; Replication start a new backup/replication chain, since all VMs are treated as new ones.</description>
     </item>
     
     <item>
       <title>vSphere Platform Services Controller (PSC) topology and Omnigraffle</title>
-      <link>/posts/vsphere-platform-services-controller-psc-topology-and-omnigraffle/</link>
+      <link>/virtualization/vsphere-platform-services-controller-psc-topology-and-omnigraffle/</link>
       <pubDate>Sun, 22 May 2016 19:19:52 +0000</pubDate>
       
-      <guid>/posts/vsphere-platform-services-controller-psc-topology-and-omnigraffle/</guid>
+      <guid>/virtualization/vsphere-platform-services-controller-psc-topology-and-omnigraffle/</guid>
       <description>A little while ago William Lam published a little python script called extract_vsphere_deployment_topology.py that basically lets you export your current vSphere PSC topology as a DOT (graph description language) file. Great stuff, and in itself useful as is, especially if you run it through webgraphviz.com as William suggests.
 The thing is, you might want to edit the topology map, change colours and fonts, and even move the boxes around, after you get the output.</description>
     </item>
     
     <item>
       <title>Running a VSAN PoC - Customer reactions</title>
-      <link>/posts/running-a-vsan-poc-customer-reactions/</link>
+      <link>/virtualization/running-a-vsan-poc-customer-reactions/</link>
       <pubDate>Wed, 24 Feb 2016 10:42:26 +0000</pubDate>
       
-      <guid>/posts/running-a-vsan-poc-customer-reactions/</guid>
+      <guid>/virtualization/running-a-vsan-poc-customer-reactions/</guid>
       <description>I recently set up a VMware Virtual SAN 6.1 Proof-of-Concept for a customer, configuring a 3-node cluster based on the following setup:
 Hardware:  HP ProLiant DL380 G9
  2 x Intel Xeon E5-2680 @ 2.50Ghz w/12 Cores
@@ -216,28 +216,28 @@ Hardware:  HP ProLiant DL380 G9
     
     <item>
       <title>Running Dockerflix on Ravello Systems</title>
-      <link>/posts/running-dockerflix-on-ravello-systems/</link>
+      <link>/virtualization/running-dockerflix-on-ravello-systems/</link>
       <pubDate>Thu, 14 Jan 2016 12:32:59 +0000</pubDate>
       
-      <guid>/posts/running-dockerflix-on-ravello-systems/</guid>
+      <guid>/virtualization/running-dockerflix-on-ravello-systems/</guid>
       <description>Dockerflix is a nice little project that allows you to route your Netflix (and other various streaming services) through a SNI Proxy to access content otherwise geo-blocked. Of course, this requires that you have a VM with for instance an US IP to provide the breakout network, and that&amp;rsquo;s where Ravello Systems comes into the equation. Luckily as a current vExpert I have access to 1000 free monthly CPU hours of personal/lab usage, all with a choice of regions to put the VM in.</description>
     </item>
     
     <item>
       <title>VMware VSAN - More than meets the eye.</title>
-      <link>/posts/vmware-vsan-more-than-meets-the-eye/</link>
+      <link>/virtualization/vmware-vsan-more-than-meets-the-eye/</link>
       <pubDate>Fri, 13 Nov 2015 08:54:01 +0000</pubDate>
       
-      <guid>/posts/vmware-vsan-more-than-meets-the-eye/</guid>
+      <guid>/virtualization/vmware-vsan-more-than-meets-the-eye/</guid>
       <description>Way back in 2014 I wrote a piece called VSAN – The Unspoken Future, and I think it&amp;rsquo;s about time it got a revision. Of course, lots of things have happened to VSAN since then and even more is on the way, but I think there is more to this than adding features like erasure coding, deduplication and compression. All of these are important features, and frankly they need to be in a product that aims a lot higher than you might think.</description>
     </item>
     
     <item>
       <title>vCenter / SSO unable to retrieve AD-information | Error while extracting local SSO users</title>
-      <link>/posts/vcenter-sso-unable-to-retrieve-ad-information-error-while-extracting-local-sso-users/</link>
+      <link>/virtualization/vcenter-sso-unable-to-retrieve-ad-information-error-while-extracting-local-sso-users/</link>
       <pubDate>Tue, 10 Nov 2015 19:30:20 +0000</pubDate>
       
-      <guid>/posts/vcenter-sso-unable-to-retrieve-ad-information-error-while-extracting-local-sso-users/</guid>
+      <guid>/virtualization/vcenter-sso-unable-to-retrieve-ad-information-error-while-extracting-local-sso-users/</guid>
       <description>After deploying a new VCSA 6.0u1 I was seeing some weird errors while trying to retrieve AD- users/groups (or anything from the esod.local domain):
 After some serious head scratching, it dawned on me after checking the DNS records for the DC in the domain, from the vCenter Appliance itself:
 [cc lang=&amp;ldquo;bash&amp;rdquo; width=&amp;ldquo;100%&amp;rdquo; theme=&amp;ldquo;blackboard&amp;rdquo; nowrap=&amp;ldquo;0&amp;rdquo;] dig +noall +answer +search dc1.esod.local dc1.esod.local. 3600 IN A 10.0.1.201 [/cc]
@@ -246,20 +246,20 @@ So far so good, the DNS lookup works as expected.</description>
     
     <item>
       <title>Nordic VMUG UserCon Session</title>
-      <link>/posts/nordic-vmug-usercon-session/</link>
+      <link>/virtualization/nordic-vmug-usercon-session/</link>
       <pubDate>Wed, 28 Oct 2015 22:30:14 +0000</pubDate>
       
-      <guid>/posts/nordic-vmug-usercon-session/</guid>
+      <guid>/virtualization/nordic-vmug-usercon-session/</guid>
       <description>VMUG Denmark is arranging the Nordic VMUG UserCon in Copenhagen December 1st 2015, and the agenda went live earlier today. I&amp;rsquo;m definitely going to be there, and as it turns out I even have my own session lined up:
 **Session Title: **VCS to VCVA Converter or how a fling can be good for you! ** Session Abstract: **Migrating from Windows vCenter to the VCVA? No worries, the VMware VCS to VCVA Converter fling has you covered!</description>
     </item>
     
     <item>
       <title>Relax and virtualize it!</title>
-      <link>/posts/relax-and-virtualize-it/</link>
+      <link>/virtualization/relax-and-virtualize-it/</link>
       <pubDate>Thu, 15 Oct 2015 16:01:38 +0000</pubDate>
       
-      <guid>/posts/relax-and-virtualize-it/</guid>
+      <guid>/virtualization/relax-and-virtualize-it/</guid>
       <description>This is a guest post from Kristian Wæraas Senior Consultant Datacenter at Datametrix AS VMware VCP3/5, MCTS Hyper-V, Horizon View and Trend Micro Security Expert.
 I am a curious by nature, and when my colleagues start talking frantic about some system that has crashed, I get curious and have to ask questions. Usually this ends up in me doing a lot of work.
 - This, however, was not one of those times.</description>
@@ -267,20 +267,20 @@ I am a curious by nature, and when my colleagues start talking frantic about som
     
     <item>
       <title>HP Proliant DL380p Gen8 &#34;Decompressed MD5&#34; error</title>
-      <link>/posts/hp-proliant-dl380p-gen8-decompressed-md5-error/</link>
+      <link>/virtualization/hp-proliant-dl380p-gen8-decompressed-md5-error/</link>
       <pubDate>Thu, 13 Aug 2015 01:35:44 +0000</pubDate>
       
-      <guid>/posts/hp-proliant-dl380p-gen8-decompressed-md5-error/</guid>
+      <guid>/virtualization/hp-proliant-dl380p-gen8-decompressed-md5-error/</guid>
       <description>This is a guest post from Shane Williford Sr. Systems Engineer, VCAP-DCA/EMCCAe/Pizza Connoisseur and vExpert.
 Problem History I work at a school district in the US (Kansas City area). After the school year ended, my Director decided he wanted to upgrade to vSphere6 from vSphere55U2 on a few Hosts we were using with XenApp. We are using XenApp to deliver apps to student labs that utilize an Autocad program. As such, our Hosts also have a graphics card in them – nVIDIA GRID K1.</description>
     </item>
     
     <item>
       <title>Veeam Vanguard 2015</title>
-      <link>/posts/veeam-vanguard-2015/</link>
+      <link>/virtualization/veeam-vanguard-2015/</link>
       <pubDate>Mon, 27 Jul 2015 13:38:49 +0000</pubDate>
       
-      <guid>/posts/veeam-vanguard-2015/</guid>
+      <guid>/virtualization/veeam-vanguard-2015/</guid>
       <description>Veeam has been &amp;ldquo;silently&amp;rdquo; working on their own global influencer program, and the inaugural list of Veeam Vanguards was published today. I am thrilled to be selected amongst the first 31 people awarded this title, it&amp;rsquo;s quite an exclusive list!
 So what&amp;rsquo;s up with the name? Well, here is one of the definitions of vanguard I found:
 &amp;lt;strong&amp;gt;vanguard&amp;lt;/strong&amp;gt; &amp;lt;em&amp;gt;ˈvanɡɑːd/&amp;lt;/em&amp;gt; noun a group of people leading the way in new developments or ideas.</description>
@@ -288,30 +288,30 @@ So what&amp;rsquo;s up with the name? Well, here is one of the definitions of va
     
     <item>
       <title>Ravello Offers Free Lab Service for all 2015 vExperts</title>
-      <link>/posts/ravello/</link>
+      <link>/virtualization/ravello/</link>
       <pubDate>Fri, 19 Jun 2015 10:10:52 +0000</pubDate>
       
-      <guid>/posts/ravello/</guid>
+      <guid>/virtualization/ravello/</guid>
       <description>RavelloSystems has announced free lab service for all 2015 vExperts, which offers 1,000 free CPU hours per month for personal or home lab use.
 I was lucky enough to be one of the early VMware on AWS VIP Pass users, and I&amp;rsquo;ve been working on several setups the last few weeks. Hopefully I&amp;rsquo;ll be able to make those available as blueprints in the new Ravello Repo, once they are ready for publishing.</description>
     </item>
     
     <item>
       <title>VMware Software Manager - Changing Download Directory</title>
-      <link>/posts/vmware-software-manager-changing-download-directory/</link>
+      <link>/virtualization/vmware-software-manager-changing-download-directory/</link>
       <pubDate>Fri, 13 Mar 2015 11:34:21 +0000</pubDate>
       
-      <guid>/posts/vmware-software-manager-changing-download-directory/</guid>
+      <guid>/virtualization/vmware-software-manager-changing-download-directory/</guid>
       <description>The new VMware Software Manager, which was released at the same time as vSphere 6, is a great way to get your download ducks in a row, and not manually download all the different vSphere pieces one by one.
 But all these downloads sure eat up disk space, and if you, like me, chose the wrong download location while installing VMware Software Manager what do you do? There is no way in the web interface to change the download directory after installation, so how do you change it?</description>
     </item>
     
     <item>
       <title>vVotemageddon 2015</title>
-      <link>/posts/vvotemageddon-2015/</link>
+      <link>/virtualization/vvotemageddon-2015/</link>
       <pubDate>Mon, 02 Mar 2015 22:23:03 +0000</pubDate>
       
-      <guid>/posts/vvotemageddon-2015/</guid>
+      <guid>/virtualization/vvotemageddon-2015/</guid>
       <description> As has become a yearly tradition, the vote is on. Pick your favorite VMware &amp;amp; virtualization blogs and give Eric Siebert loads of work.
 https://twitter.com/ericsiebert/status/572493098464370688
 I hope the good guys at Infinio who sponsors Top vBlog 2015 also offers some assistance in doing some of the legwork required to get the results accumulated. Also, don&amp;rsquo;t be an ass.
@@ -320,20 +320,20 @@ Go cast your vote now. </description>
     
     <item>
       <title>Starting a VMUG</title>
-      <link>/posts/starting-vmug/</link>
+      <link>/virtualization/starting-vmug/</link>
       <pubDate>Fri, 27 Feb 2015 20:23:54 +0000</pubDate>
       
-      <guid>/posts/starting-vmug/</guid>
+      <guid>/virtualization/starting-vmug/</guid>
       <description>Last year, in November, the first ever meeting in VMUG Norway took place in my hometown of Bergen, and since then there has been meetings in Oslo, Trondheim and a second one in Bergen as well.
 Getting the Norwegian VMUG up and running was a long process. I decided to have a go at it, and I spent a lot of time talking to people, thinking, planning and generally wondering how we could get it started and how to proceed.</description>
     </item>
     
     <item>
       <title>The Real Value of the VCDX Certification</title>
-      <link>/posts/real-vcdx-certification/</link>
+      <link>/virtualization/real-vcdx-certification/</link>
       <pubDate>Wed, 11 Feb 2015 23:28:23 +0000</pubDate>
       
-      <guid>/posts/real-vcdx-certification/</guid>
+      <guid>/virtualization/real-vcdx-certification/</guid>
       <description>The VMware Certified Design Expert: VCDX. THE certification of certifications, especially if you work with VMware based solutions. It&amp;rsquo;s often regarded as the holy grail of certifications, and rightfully so.
 But why is this the case, and why does &amp;ldquo;everyone&amp;rdquo; want to become one?
 The reasons for it being such a highly coveted title, are pretty obvious:
@@ -342,67 +342,67 @@ The reasons for it being such a highly coveted title, are pretty obvious:
     
     <item>
       <title>Dude, where is my VAIO?</title>
-      <link>/posts/dude-vaio/</link>
+      <link>/virtualization/dude-vaio/</link>
       <pubDate>Tue, 03 Feb 2015 13:17:28 +0000</pubDate>
       
-      <guid>/posts/dude-vaio/</guid>
+      <guid>/virtualization/dude-vaio/</guid>
       <description>New Update: Alex Jauch, VAIO Product Manager has provided an update on why there there has been so little information available, and when to expect that to change.
 Updated: Since this post was initially published, information about the VAIO capabilities in vSphere 6.0 has been published. In vSphere APIs for IO Filtering Ken Werneburg goes through the details on how it works, and how partners will get access through a SDK some time in the coming months.</description>
     </item>
     
     <item>
       <title>A great disturbance in the Force</title>
-      <link>/posts/great-disturbance-force/</link>
+      <link>/virtualization/great-disturbance-force/</link>
       <pubDate>Mon, 02 Feb 2015 22:36:30 +0000</pubDate>
       
-      <guid>/posts/great-disturbance-force/</guid>
+      <guid>/virtualization/great-disturbance-force/</guid>
       <description>So, the cat formerly known as vSphere.next is finally out of it&amp;rsquo;s rather big bag, and vSphere 6.0 has been officially announced and will be available some time in Q1 (no date has been announced yet). There is enough of posts going into details on what is new and what has been announced, so I won&amp;rsquo;t be going over that right now. If you want to hear me talk about vSphere 6.</description>
     </item>
     
     <item>
       <title>Veeam Backup &amp; Replication 8: RPC error:Access is denied Fix</title>
-      <link>/posts/veeam-backup-replication-8-rpc-erroraccess-denied-fix/</link>
+      <link>/virtualization/veeam-backup-replication-8-rpc-erroraccess-denied-fix/</link>
       <pubDate>Sun, 18 Jan 2015 22:57:34 +0000</pubDate>
       
-      <guid>/posts/veeam-backup-replication-8-rpc-erroraccess-denied-fix/</guid>
+      <guid>/virtualization/veeam-backup-replication-8-rpc-erroraccess-denied-fix/</guid>
       <description>I recently set up a new Veeam Backup &amp;amp; Replication v8 demo lab, and my intial small job that consisted of two different Linux VMs and one Windows Server 2012 R2 Domain Controller was chugging along nicely. I had one minor from the start though, and that was that file indexing consistently failed for the Windows VM. No big deal, but I thought it was strange at the time. After all, the Linux VMs were indexed just fine.</description>
     </item>
     
     <item>
       <title>Markdown All the Things!</title>
-      <link>/posts/markdown-things/</link>
+      <link>/virtualization/markdown-things/</link>
       <pubDate>Mon, 12 Jan 2015 23:31:45 +0000</pubDate>
       
-      <guid>/posts/markdown-things/</guid>
+      <guid>/virtualization/markdown-things/</guid>
       <description>Obviously I&amp;rsquo;m a bit late to the party here, but I guess late is better than never. It recently dawned on me that mucking about with lots of different file formats, interfaces and ways of doing things is rather counterproductive.
 A lot of my work these days are related to generating content, be it a simple blog post like this or writing customer proposals and documentation. In the end, the deliverables are often quite different, but at the core they are strangely enough very similar.</description>
     </item>
     
     <item>
       <title>EVO:RAIL: Doing the methmath.</title>
-      <link>/posts/hyperconvergence-meth-math/</link>
+      <link>/virtualization/hyperconvergence-meth-math/</link>
       <pubDate>Mon, 01 Dec 2014 20:39:08 +0000</pubDate>
       
-      <guid>/posts/hyperconvergence-meth-math/</guid>
+      <guid>/virtualization/hyperconvergence-meth-math/</guid>
       <description>Howard Marks has published a post I&amp;rsquo;ve been meaning do myself, but to be honest, I&amp;rsquo;m glad Howard put it out there. His is way more researched and comprehensive than mine would ever have been.
 In his The True Cost Of Hyperconvergence article, Howard compares buying a new EVO:RAIL system, with building your own. Complete with the required hardware, licenses and support contracts. The result might come as a surprise to some&amp;hellip;</description>
     </item>
     
     <item>
       <title>Nordic VMUG Conference 2014</title>
-      <link>/posts/nordic-vmug-conference-2014/</link>
+      <link>/virtualization/nordic-vmug-conference-2014/</link>
       <pubDate>Wed, 22 Oct 2014 21:18:23 +0000</pubDate>
       
-      <guid>/posts/nordic-vmug-conference-2014/</guid>
+      <guid>/virtualization/nordic-vmug-conference-2014/</guid>
       <description>Last year I was lucky enough to get to travel to Copenhagen and visit the Nordic VMUG conference. Sadly it doesn&amp;rsquo;t seem like I&amp;rsquo;ll be able to make it this year, but don&amp;rsquo;t let that stop you! While we in Norway are still trying to get our local VMUG up and running, more news on that in a very short while, the danish VMUG is really the driving force and the leading star for the rest of us in the nordics.</description>
     </item>
     
     <item>
       <title>PernixData vSphere Pocketbook Blog Edition</title>
-      <link>/posts/pernixdata-vsphere-pocketbook-blog-edition/</link>
+      <link>/virtualization/pernixdata-vsphere-pocketbook-blog-edition/</link>
       <pubDate>Tue, 12 Aug 2014 15:03:06 +0000</pubDate>
       
-      <guid>/posts/pernixdata-vsphere-pocketbook-blog-edition/</guid>
+      <guid>/virtualization/pernixdata-vsphere-pocketbook-blog-edition/</guid>
       <description>Following the success of the first vSphere Design Pocketbook, PernixData has created a new version, this time dubbed &amp;ldquo;Blog Edition&amp;rdquo;. Where the first book focused on small &amp;ldquo;tweet sized&amp;rdquo; design tips, the new one allows for more in-depth articles, lifting the first editions 200 character limit.
 For some reason, I have been lucky enough to be selected as one of the contributors!
 You can pick up a printed copy at the PernixData Booth (1017) at VMworld US, or pre-order your electronic copy today.</description>
@@ -410,19 +410,19 @@ You can pick up a printed copy at the PernixData Booth (1017) at VMworld US, or
     
     <item>
       <title>This Week in Virtualization</title>
-      <link>/posts/week-virtualization/</link>
+      <link>/virtualization/week-virtualization/</link>
       <pubDate>Fri, 18 Jul 2014 21:59:52 +0000</pubDate>
       
-      <guid>/posts/week-virtualization/</guid>
+      <guid>/virtualization/week-virtualization/</guid>
       <description>I was invited by Nick Martin and Tom Walat to join them in this pre-VMworld edition of the podcast, so if you&amp;rsquo;re not bored reading about my Marvin speculations already, you can now listen to them as well over at This Week in Virtualizationby SearchServerVirtualization. It also covers some expectation for VMworld 2014, which is rapidly getting closer.</description>
     </item>
     
     <item>
       <title>Disaster Recovery using VMware vSphere Replication and vCenter Site Recovery Manager eBook Winners</title>
-      <link>/posts/disaster-recovery-vmware-vsphere-replication-vcenter-site-recovery-manager-ebook-winners/</link>
+      <link>/virtualization/disaster-recovery-vmware-vsphere-replication-vcenter-site-recovery-manager-ebook-winners/</link>
       <pubDate>Mon, 07 Jul 2014 12:47:38 +0000</pubDate>
       
-      <guid>/posts/disaster-recovery-vmware-vsphere-replication-vcenter-site-recovery-manager-ebook-winners/</guid>
+      <guid>/virtualization/disaster-recovery-vmware-vsphere-replication-vcenter-site-recovery-manager-ebook-winners/</guid>
       <description>Packt Publishing has picked two winners in the Disaster Recovery using VMware vSphere Replication and vCenter Site Recovery Manager eBook contest.
 The lucky winners are :
 Dee Abson (@deeabson) and James Kilby (@jameskilbynet). Congratulations, Packt Publishing will be in touch with you ASAP.</description>
@@ -430,20 +430,20 @@ Dee Abson (@deeabson) and James Kilby (@jameskilbynet). Congratulations, Packt P
     
     <item>
       <title>And the Chromecast Winner is ...</title>
-      <link>/posts/chromecast-winner/</link>
+      <link>/virtualization/chromecast-winner/</link>
       <pubDate>Thu, 08 May 2014 11:21:00 +0000</pubDate>
       
-      <guid>/posts/chromecast-winner/</guid>
+      <guid>/virtualization/chromecast-winner/</guid>
       <description>A little over a month ago I announced the Want to Win a Google Chromecast contest and finally the winner has been selected. Since there was a grand total of 5 submissions, and one of them was immediately disqualified for a distinct lack of Ninja-presence, I decided to just do a random draw.
 The submitted photos were numbered by the order they appeared in on my post as I took this screenshot.</description>
     </item>
     
     <item>
       <title>2014 Top vBlog Results </title>
-      <link>/posts/2014-top-vblog-results/</link>
+      <link>/virtualization/2014-top-vblog-results/</link>
       <pubDate>Thu, 27 Mar 2014 19:37:55 +0000</pubDate>
       
-      <guid>/posts/2014-top-vblog-results/</guid>
+      <guid>/virtualization/2014-top-vblog-results/</guid>
       <description>Eric Siebert has yet again pulled through, and organized his annual top VMware &amp;amp; virtualization blogs vote, and the results are now in. Congratulations to everyone involved, be it bloggers, podcasters or otherwise engaged in making this possible.
 This year, Eric hosted a live Google Hangout session with John M. Troyer, David M. Davis and Rick Vanover where the top lists were revealed, be sure to check it out:
 http://www.youtube.com/watch?v=W2IVfOvKA5M</description>
@@ -451,70 +451,70 @@ http://www.youtube.com/watch?v=W2IVfOvKA5M</description>
     
     <item>
       <title>VSAN - The Unspoken Future</title>
-      <link>/posts/vsan-unspoken-future/</link>
+      <link>/virtualization/vsan-unspoken-future/</link>
       <pubDate>Mon, 17 Mar 2014 22:41:34 +0000</pubDate>
       
-      <guid>/posts/vsan-unspoken-future/</guid>
+      <guid>/virtualization/vsan-unspoken-future/</guid>
       <description>This rather tongue-in-cheek title, is a play on Maish recent VSAN - The Unspoken Truth post where he highlights what he thinks is one of the hidden &amp;ldquo;problems&amp;rdquo; with the current version of VSAN is it&amp;rsquo;s inherent non-blade compatibility and current lack of &amp;ldquo;rack based VSAN ready nodes&amp;rdquo;.
 Of course, this is a reality; If you base your current infrastructure on blade servers, VSAN probably isn&amp;rsquo;t a good match as it stands today.</description>
     </item>
     
     <item>
       <title>Rock the Vote 2014</title>
-      <link>/posts/rock-vote-2014/</link>
+      <link>/virtualization/rock-vote-2014/</link>
       <pubDate>Sat, 22 Feb 2014 18:00:25 +0000</pubDate>
       
-      <guid>/posts/rock-vote-2014/</guid>
+      <guid>/virtualization/rock-vote-2014/</guid>
       <description>Once again, it&amp;rsquo;s time to vote for the top VMware &amp;amp; virtualization blogs. As usual Eric Siebert has opened up the floodgates and set up a voting system, and once again managed to create a lot of work for himself.
 So, let&amp;rsquo;s all make it worth his while and get as many votes in as possible! There are a lot of blogs listed, this time there are over 300 in total.</description>
     </item>
     
     <item>
       <title>Configuring VSAN on a Dell PowerEdge VRTX</title>
-      <link>/posts/configuring-vsan-dell-poweredge-vrtx/</link>
+      <link>/virtualization/configuring-vsan-dell-poweredge-vrtx/</link>
       <pubDate>Wed, 19 Feb 2014 12:30:08 +0000</pubDate>
       
-      <guid>/posts/configuring-vsan-dell-poweredge-vrtx/</guid>
+      <guid>/virtualization/configuring-vsan-dell-poweredge-vrtx/</guid>
       <description>The Dell PowerEdge VRTX shared infrastructure platform is interesting, and I&amp;rsquo;ve been lucky enough to be able to borrow one from Dell for testing purposes.
 One of the things I wanted to test, was if it was possible to run VMware VSAN on it, even if the Shared PERC8 RAID controller it comes with is not on the VMware VSAN HCL, nor does it provide a method to do passthrough to present raw disks directly to the hosts.</description>
     </item>
     
     <item>
       <title>Random VCDX Tips and Quotes?</title>
-      <link>/posts/random-vcdx-tips-quotes/</link>
+      <link>/virtualization/random-vcdx-tips-quotes/</link>
       <pubDate>Wed, 29 Jan 2014 15:58:10 +0000</pubDate>
       
-      <guid>/posts/random-vcdx-tips-quotes/</guid>
+      <guid>/virtualization/random-vcdx-tips-quotes/</guid>
       <description>I needed something to spruce up my desktop environment, and it seems that one of the more popular ways to do that is to display random quotes and such on your desktop. Instead of hooking up to an existing quotes database, I simply made my own.
 I have collected a few VCDX related tips and quotes, primarily from the archive Duncan Epping put together of VCDX Tips from VCDX 001 John Arrasjid, but also from the &amp;ldquo;submissions&amp;rdquo; I got from VCDX?</description>
     </item>
     
     <item>
       <title>Fixing &#34;Could not create vFlash cache&#34; error when powering on a VM</title>
-      <link>/posts/fixing-could-create-vflash-cache-error-powering-vm/</link>
+      <link>/virtualization/fixing-could-create-vflash-cache-error-powering-vm/</link>
       <pubDate>Sun, 19 Jan 2014 19:19:02 +0000</pubDate>
       
-      <guid>/posts/fixing-could-create-vflash-cache-error-powering-vm/</guid>
+      <guid>/virtualization/fixing-could-create-vflash-cache-error-powering-vm/</guid>
       <description>During some way overdue housekeeping in my HP Microserver-based &amp;ldquo;Homelab&amp;rdquo; today, I ran into a rather annoying issue that prevented me from starting one of my more important VMs; namely my home Domain Controller.
 In short, I removed an old SSD drive that I&amp;rsquo;ve used for vFlash Read Cache (vFRC) testing and installed a new 1TB drive instead. Since I have a rather beefy work lab now, I need space more than speed at home, so this seemed like a good idea at the time.</description>
     </item>
     
     <item>
       <title>Importing SSL Certificates to Raspberry Pi Thin Client</title>
-      <link>/posts/importing-ssl-certificates-raspberry-pi-thin-client/</link>
+      <link>/virtualization/importing-ssl-certificates-raspberry-pi-thin-client/</link>
       <pubDate>Thu, 05 Dec 2013 22:47:32 +0000</pubDate>
       
-      <guid>/posts/importing-ssl-certificates-raspberry-pi-thin-client/</guid>
+      <guid>/virtualization/importing-ssl-certificates-raspberry-pi-thin-client/</guid>
       <description>When playing around with the Raspberry Pi Thin Client, I ran into an issue with the SSL certificates for the Citrix Receiver client. For some reason it didn&amp;rsquo;t want to play with the certificates installed on the server side, and popped the following error message:
 **You have not chosen to trust &#34;AddTrust External CA Root&#34;, the issuer of the server&#39;s security certificate.** Thankfully there is a quick fix for this! Since Iceweasel is also in the RPTC distribution, and it has a lot more SSL root CA certificates included by default, all that was required (in my case) was to link the certificates it has with the certificates the Citrix Receiver client can use.</description>
     </item>
     
     <item>
       <title>Sometimes You Simply Get What You Pay For</title>
-      <link>/posts/simply-pay/</link>
+      <link>/virtualization/simply-pay/</link>
       <pubDate>Sun, 01 Dec 2013 10:35:24 +0000</pubDate>
       
-      <guid>/posts/simply-pay/</guid>
+      <guid>/virtualization/simply-pay/</guid>
       <description>Some time during the Podcasting for Cancer fundraiser period I somehow suggested that we should pair it with this years Movember.
 Despite my wife and daughters strenuous protests, I signed up and went all in. By all in, I mean, all in. For the first time since I went to my then employers christmas party dressed as a woman, I shaved my whole face.
 My trusty goatee, who had been pretty much constantly with me since 1997, was gone.</description>
@@ -522,10 +522,10 @@ My trusty goatee, who had been pretty much constantly with me since 1997, was go
     
     <item>
       <title>VMware VCAP-DCD Boot Camp</title>
-      <link>/posts/vmware-vcap-dcd-boot-camp/</link>
+      <link>/virtualization/vmware-vcap-dcd-boot-camp/</link>
       <pubDate>Wed, 27 Nov 2013 17:09:30 +0000</pubDate>
       
-      <guid>/posts/vmware-vcap-dcd-boot-camp/</guid>
+      <guid>/virtualization/vmware-vcap-dcd-boot-camp/</guid>
       <description>[caption id=&amp;ldquo;&amp;rdquo; align=&amp;ldquo;alignright&amp;rdquo; width=&amp;ldquo;240&amp;rdquo;] Danbo Boot Camp &amp;copy; Daniel Lee[/caption]
 A while before VMworld Europe 2013 in Barcelona, I was lucky enough to be asked by John Arrasjid if I wanted to help out reviewing the new VCAP-DCD boot camp VMware Education has been working on. So far the VCAP Design Boot Camp has been tested in Spain, Singapore, and Malaysia, with over 300 participants so far.
 In addition to this, a two part vBrownbag series covering the boot camp content was recorded and released:</description>
@@ -533,10 +533,10 @@ In addition to this, a two part vBrownbag series covering the boot camp content 
     
     <item>
       <title>Can Microsoft really be Fair and Balanced?</title>
-      <link>/posts/microsoft-fair-balanced/</link>
+      <link>/virtualization/microsoft-fair-balanced/</link>
       <pubDate>Tue, 29 Oct 2013 23:25:14 +0000</pubDate>
       
-      <guid>/posts/microsoft-fair-balanced/</guid>
+      <guid>/virtualization/microsoft-fair-balanced/</guid>
       <description>Microsoft has launched Virtualization2, a program to educate VMware administrators on Hyper-V and the System Center suite of tools. In short, these arefree online training sessiosn on November 19th and 20th, that also comes with a voucher for their new Microsoft virtualization certification exam (74-409).
 This comes in addition to their existing Microsoft Virtualization for VMware Professionals Jump Start training course.
 I think this is a good idea, and if you are able to close your eyes to the hyperbole, and disregard things like &amp;ldquo;Microsoft Wants to Help VMware Experts “Future-Proof “ Their Career&amp;rdquo;, I applaud this initiative.</description>
@@ -544,20 +544,20 @@ I think this is a good idea, and if you are able to close your eyes to the hyper
     
     <item>
       <title>Brace Yourselves: Top vBlog 2014 edition is coming</title>
-      <link>/posts/brace-yourselves-top-vblog-2014-edition-coming/</link>
+      <link>/virtualization/brace-yourselves-top-vblog-2014-edition-coming/</link>
       <pubDate>Mon, 28 Oct 2013 17:21:46 +0000</pubDate>
       
-      <guid>/posts/brace-yourselves-top-vblog-2014-edition-coming/</guid>
+      <guid>/virtualization/brace-yourselves-top-vblog-2014-edition-coming/</guid>
       <description>Eric Siebert has just announced the preliminary details for next years Top vBlog vote. This time around it is sponsored by Veeam, and there are even prizes to be won, not only the notorious fame and fortune that comes with being voted in the top percentile.
 Thanks again to Eric for putting all of this together, there is a lot of work involved and the community really values the effort.</description>
     </item>
     
     <item>
       <title>VMworld Europe 2013 - Here I Come</title>
-      <link>/posts/vmworld-europe-2013/</link>
+      <link>/virtualization/vmworld-europe-2013/</link>
       <pubDate>Wed, 09 Oct 2013 18:04:02 +0000</pubDate>
       
-      <guid>/posts/vmworld-europe-2013/</guid>
+      <guid>/virtualization/vmworld-europe-2013/</guid>
       <description>For the first time since 2010 I will actually be physically attending VMworld Europe! I fly over from the very cold, rainy and generally very autumny Norway to sunny Barcelona on Sunday the 13th.
 Based on my past experience from VMworld in Copenhagen, I have decided to go easy on the session scheduling and not fill my calendar to the brim.
 Sure, the sessions provide insane amounts of useful content, but for me the main reason to attend VMworld is to physically meet up and talk to a lot of the people I usually spend a lot of time communicating with.</description>
@@ -565,20 +565,20 @@ Sure, the sessions provide insane amounts of useful content, but for me the main
     
     <item>
       <title>vPostgres Database Backup in vCSA 5.5</title>
-      <link>/posts/vpostgres-database-backup-vcsa-5-5/</link>
+      <link>/virtualization/vpostgres-database-backup-vcsa-5-5/</link>
       <pubDate>Tue, 01 Oct 2013 08:42:47 +0000</pubDate>
       
-      <guid>/posts/vpostgres-database-backup-vcsa-5-5/</guid>
+      <guid>/virtualization/vpostgres-database-backup-vcsa-5-5/</guid>
       <description>With the new vSphere 5.5 release, the VMware vCenter Appliance (vCSA) has grown up to be a viable alternative to the traditional Microsoft Windows based vCenter deployment scenario. The new vCSA version supports up to 100 hosts and 3000 (with an external Oracle database the values change to 1000&amp;frasl;10000) virtual machines, a big improvement from 5 hosts and 50 virtual machines in the previous version.
 Sadly, the only external database option available for vCSA 5.</description>
     </item>
     
     <item>
       <title>Quick and Dirty ESXi 5.5 Upgrade</title>
-      <link>/posts/quick-dirty-esxi-5-5-upgrade/</link>
+      <link>/virtualization/quick-dirty-esxi-5-5-upgrade/</link>
       <pubDate>Mon, 23 Sep 2013 23:28:04 +0000</pubDate>
       
-      <guid>/posts/quick-dirty-esxi-5-5-upgrade/</guid>
+      <guid>/virtualization/quick-dirty-esxi-5-5-upgrade/</guid>
       <description>As I´ve posted about earlier, you can update your ESXi hosts to a new release from the command line. Now that ESXi 5.5 has been released, the same procedure can be applied to upgrade once more.
 Place the host in maintenance mode, then run the following command to do an online update to ESXi 5.5:
 [cc lang=&amp;ldquo;bash&amp;rdquo; width=&amp;ldquo;100%&amp;rdquo; theme=&amp;ldquo;blackboard&amp;rdquo; nowrap=&amp;ldquo;0&amp;rdquo;] ~ # esxcli software profile update -d https://hostupdate.vmware.com/software/VUM/PRODUCTION/main/vmw-depot-index.xml -p ESXi-5.</description>
@@ -586,10 +586,10 @@ Place the host in maintenance mode, then run the following command to do an onli
     
     <item>
       <title>Podcasting for Cancer</title>
-      <link>/posts/podcasting-cancer/</link>
+      <link>/virtualization/podcasting-cancer/</link>
       <pubDate>Sat, 14 Sep 2013 20:14:03 +0000</pubDate>
       
-      <guid>/posts/podcasting-cancer/</guid>
+      <guid>/virtualization/podcasting-cancer/</guid>
       <description>Some times all it takes is one single tweet to set things in motion:
 Just a year after losing Dad to cancer, Mom&#39;s has now spread from lung to other areas. Too soon for this shit. — Gabriel Chapman (@Bacon_Is_King) [September 12, 2013](https://twitter.com/Bacon_Is_King/statuses/378283415839051776) This started a spiral of tweets, discussions and ideas being thrown around and has now resulted in Podcasting for Cancer.
 The current goal is to raise $5000 USD by November 12th - Let´s absolutely crush that goal!</description>
@@ -597,10 +597,10 @@ The current goal is to raise $5000 USD by November 12th - Let´s absolutely crus
     
     <item>
       <title>Veeam Webinar &amp; NFR Licenses</title>
-      <link>/posts/veeam-webinar-nfr-licenses/</link>
+      <link>/virtualization/veeam-webinar-nfr-licenses/</link>
       <pubDate>Thu, 05 Sep 2013 15:38:56 +0000</pubDate>
       
-      <guid>/posts/veeam-webinar-nfr-licenses/</guid>
+      <guid>/virtualization/veeam-webinar-nfr-licenses/</guid>
       <description>This coming tuesday the first ever Veeam Webinar held in Norwegian will be held by yours truly. Feel free to sign up now and listen to me speak for an hour or so.
 
 Also, Veeam is continuing it´s support of the virtualization community and is yet again offering free 180-days Veeam Backup Management Suite v7 NFR licenses for VMware and Hyper-V.
@@ -609,19 +609,19 @@ Note that this offer is only available to anyone who is one of the following: VM
     
     <item>
       <title>Quick and Dirty HTTP Based Deployment</title>
-      <link>/posts/quick-and-dirty-http-based-deployment/</link>
+      <link>/virtualization/quick-and-dirty-http-based-deployment/</link>
       <pubDate>Tue, 14 May 2013 11:23:13 +0000</pubDate>
       
-      <guid>/posts/quick-and-dirty-http-based-deployment/</guid>
+      <guid>/virtualization/quick-and-dirty-http-based-deployment/</guid>
       <description>A lot of the scripted installation tools that VMware offers allows the usage of a central HTTP based repository for hosting the files. Today I stumbled over a little gem that might just help you create a &amp;ldquo;quick and dirty&amp;rdquo; HTTP based deployment scenario by running a simple command in your terminal. By default, this command works on any system that has Python installed on it, so OS X and Linux should be ready to go as is.</description>
     </item>
     
     <item>
       <title>Adding a secondary NIC to the vCenter 5.1 Appliance (VCSA)</title>
-      <link>/posts/adding-secondary-nic-vcenter-5-1-appliance-vcsa/</link>
+      <link>/virtualization/adding-secondary-nic-vcenter-5-1-appliance-vcsa/</link>
       <pubDate>Thu, 25 Apr 2013 11:10:33 +0000</pubDate>
       
-      <guid>/posts/adding-secondary-nic-vcenter-5-1-appliance-vcsa/</guid>
+      <guid>/virtualization/adding-secondary-nic-vcenter-5-1-appliance-vcsa/</guid>
       <description>While building my lab environment, I ran into a situation where I wanted to have a completely sealed off networking segment that had no outside access.
 This is a trivial task on it`s own, just create a vSwitch with no physical NICs attached to it, and then connect the VMs to it. The VMs will then have interconnectivity, but no outside network access at all.
 In this particular case, I was setting up a couple of nested ESXi servers that I wanted to connect to the &amp;ldquo;outside&amp;rdquo; vCenter Appliance (VCSA).</description>
@@ -629,20 +629,20 @@ In this particular case, I was setting up a couple of nested ESXi servers that I
     
     <item>
       <title>Installing Dell Equallogic Multipathing Extension Module (MEM) in vSphere 5.1</title>
-      <link>/posts/installing-dell-equallogic-multipathing-extension-module-mem-vsphere-5-1/</link>
+      <link>/virtualization/installing-dell-equallogic-multipathing-extension-module-mem-vsphere-5-1/</link>
       <pubDate>Mon, 22 Apr 2013 21:31:46 +0000</pubDate>
       
-      <guid>/posts/installing-dell-equallogic-multipathing-extension-module-mem-vsphere-5-1/</guid>
+      <guid>/virtualization/installing-dell-equallogic-multipathing-extension-module-mem-vsphere-5-1/</guid>
       <description>Dell offers a Multipathing Extension Module (MEM) for vSphere, and in this post I´ll highlight how to &amp;ldquo;manually&amp;rdquo; install it on a ESXi 5.1 host. I will not cover the network setup part of the equation, but rather go through the simple steps required to get the MEM installed on the hosts in question.
 First of all, you need to download the MEM installation package. At the time of writing, the latest version is v1.</description>
     </item>
     
     <item>
       <title>It`s Not Your Average Data it`s vOpenData</title>
-      <link>/posts/its-average-data-its-vopendata/</link>
+      <link>/virtualization/its-average-data-its-vopendata/</link>
       <pubDate>Fri, 12 Apr 2013 23:09:20 +0000</pubDate>
       
-      <guid>/posts/its-average-data-its-vopendata/</guid>
+      <guid>/virtualization/its-average-data-its-vopendata/</guid>
       <description>So, what is the average airspeed velocity of an unladen swallow?
 As we all (should) know, that is very much a trick question.
 Now, consider this little non-trick question:
@@ -651,10 +651,10 @@ I wonder what the avg disk size is for your virtual machine these days. I do mos
     
     <item>
       <title>Backing up vCenter DB with Veeam B&amp;R 6.5</title>
-      <link>/posts/backing-up-vcenter-db-with-veeam-br-6-5/</link>
+      <link>/virtualization/backing-up-vcenter-db-with-veeam-br-6-5/</link>
       <pubDate>Mon, 25 Mar 2013 09:03:41 +0000</pubDate>
       
-      <guid>/posts/backing-up-vcenter-db-with-veeam-br-6-5/</guid>
+      <guid>/virtualization/backing-up-vcenter-db-with-veeam-br-6-5/</guid>
       <description>It´s a well known problem that with Veeam Backup &amp;amp; Recovery Replication 6.5, and earlier, backing up the SQL server that hosts the vCenter DB poses a problem. KB1051 VSS for vCenter outlines the issue well, and provides a workaround.
 If you experience this problem, you will see entries like this in your Veeam B&amp;amp;R backup logs:
 [caption id=&amp;ldquo;attachment_2490&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;640&amp;rdquo;] Veeam vCenterDB Backup Error[/caption]
@@ -663,20 +663,20 @@ The workaround provided by Veeam is to create host VM-Host Affinity Rules, effe
     
     <item>
       <title>Preserve your Veeam B&amp;R Backups Jobs when Moving vCenter</title>
-      <link>/posts/preserve-veeam-br-backups-jobs-moving-vcenter/</link>
+      <link>/virtualization/preserve-veeam-br-backups-jobs-moving-vcenter/</link>
       <pubDate>Tue, 19 Mar 2013 21:13:20 +0000</pubDate>
       
-      <guid>/posts/preserve-veeam-br-backups-jobs-moving-vcenter/</guid>
+      <guid>/virtualization/preserve-veeam-br-backups-jobs-moving-vcenter/</guid>
       <description>This week I´m working at a client site, upgrading their entire existing vSphere 4.1 infrastructure to vSphere 5.1. The customer engagement also includes upgrading Veeam Backup and Replication 6.0 to 6.5, and usually an isolated upgrade of Veeam B&amp;amp;R is a no-brainer next, next, next, done install.
 To complicate things in this particular environment, I also had to migrate the vCenter SQL DB from a local MS SQL Server 2005 Express instance to a full-fledged MS SQL Server 2008 R2 instance.</description>
     </item>
     
     <item>
       <title>Autolab goes Cloudy with a Chance of Free Credits </title>
-      <link>/posts/autolab-meets-cloud/</link>
+      <link>/virtualization/autolab-meets-cloud/</link>
       <pubDate>Thu, 14 Mar 2013 00:02:35 +0000</pubDate>
       
-      <guid>/posts/autolab-meets-cloud/</guid>
+      <guid>/virtualization/autolab-meets-cloud/</guid>
       <description>Autolab, that awesome &amp;ldquo;little&amp;rdquo; thing that automagically builds a nested vSphere Lab environment for you, was definitely not put together by Flint Lockwood but by Alastair Cooke (www.demitasse.co.nz). Unlike Flint´s inventions, this one actually makes sense and serves a purpose!
 Now, how sweet would it be to deploy Autolab without having to invest time, money and effort into acquiring your own hardware?
 Well, thanks to baremetalcloud.com, you might now actually be able to do just that (and more, if you wish).</description>
@@ -684,10 +684,10 @@ Well, thanks to baremetalcloud.com, you might now actually be able to do just th
     
     <item>
       <title>Keep Calm And ...</title>
-      <link>/posts/calm/</link>
+      <link>/virtualization/calm/</link>
       <pubDate>Sat, 02 Mar 2013 22:46:13 +0000</pubDate>
       
-      <guid>/posts/calm/</guid>
+      <guid>/virtualization/calm/</guid>
       <description>I needed some new wall &amp;ldquo;art&amp;rdquo; for my home office, and decided that a couple of small &amp;ldquo;Keep Calm&amp;rdquo; posters would do the trick. Naturally I got a bit carried away, and created more than one, and of course, most of them are virtualization related:
 [gallery ids=&amp;ldquo;2412,2413,2414,2415,2416,2417,2418,2422,2424,2425,2427,2429,2431,2441,2444,2446,2452,2455,2459,2460,2461,2463,2469,2471,2476,2480,2483,2485,2487,2499,2511,2512,2547,2572,2575&amp;rdquo; orderby=&amp;ldquo;rand&amp;rdquo;]
 If you have some ideas, I´ll gladly create more, just leave a comment! I would also love photos if you printed out any of these and put them on a wall or in a frame somewhere.</description>
@@ -695,10 +695,10 @@ If you have some ideas, I´ll gladly create more, just leave a comment! I would 
     
     <item>
       <title>Voting Open for the 2013 Top VMware &amp; Virtualization Blogs </title>
-      <link>/posts/voting-open-2013-top-vmware-virtualization-blogs/</link>
+      <link>/virtualization/voting-open-2013-top-vmware-virtualization-blogs/</link>
       <pubDate>Wed, 20 Feb 2013 08:14:29 +0000</pubDate>
       
-      <guid>/posts/voting-open-2013-top-vmware-virtualization-blogs/</guid>
+      <guid>/virtualization/voting-open-2013-top-vmware-virtualization-blogs/</guid>
       <description>Eric Siebert has yet again gone through the massive job of setting up his yearly Top VMware &amp;amp; Virtualization Blogs Vote.
 Huge kudos to Eric, I know this is a big undertaking for you, and myself and the rest of the community really appreciate the hard work you put into this each year!
 
@@ -708,10 +708,10 @@ vNinja.net is listed in the general section, feel free to vote for us if you fee
     
     <item>
       <title>Dell (VKernel) vOPS Server Explorer 6.3 Released</title>
-      <link>/posts/dell-vkernel-vops-server-explorer-6-3-released/</link>
+      <link>/virtualization/dell-vkernel-vops-server-explorer-6-3-released/</link>
       <pubDate>Mon, 14 Jan 2013 23:53:50 +0000</pubDate>
       
-      <guid>/posts/dell-vkernel-vops-server-explorer-6-3-released/</guid>
+      <guid>/virtualization/dell-vkernel-vops-server-explorer-6-3-released/</guid>
       <description>[caption id=&amp;ldquo;attachment_2341&amp;rdquo; align=&amp;ldquo;alignright&amp;rdquo; width=&amp;ldquo;300&amp;rdquo;] vOPS 6.3 Environment Explorer[/caption]
 Yesterday fellow vExpert Mattias Sundling gave me a little pre-release briefing of the new Dell/VKernel vOPS Server Explorer 6.3 release.
 While I don´t normally do press release posts like these, I´m willing to make an exception in this case.
@@ -720,10 +720,10 @@ Not only is vOPS Server Explorer 6.3 available in a free version, with the famil
     
     <item>
       <title>Want a VMware Workstation License?</title>
-      <link>/posts/vmware-workstation-license/</link>
+      <link>/virtualization/vmware-workstation-license/</link>
       <pubDate>Thu, 10 Jan 2013 23:09:56 +0000</pubDate>
       
-      <guid>/posts/vmware-workstation-license/</guid>
+      <guid>/virtualization/vmware-workstation-license/</guid>
       <description>Christopher Kusek, who runs pkguild.com, has just announced that he is running a contest where you can win a VMware Workstation 9 license.
 Seeing that announcement, and the fact that Christopher was nice enough to mention both me and vNinja.net in it, I have decided to also give away a license that has been lingering unused in my possession way to long.
 Instead of running my own contest, my license has been added to the existing contest so head on over there to read all the details.</description>
@@ -731,10 +731,10 @@ Instead of running my own contest, my license has been added to the existing con
     
     <item>
       <title>Fun and Games with VDR and Snapshots</title>
-      <link>/posts/fun-games-vdr-snapshots/</link>
+      <link>/virtualization/fun-games-vdr-snapshots/</link>
       <pubDate>Thu, 10 Jan 2013 13:47:50 +0000</pubDate>
       
-      <guid>/posts/fun-games-vdr-snapshots/</guid>
+      <guid>/virtualization/fun-games-vdr-snapshots/</guid>
       <description>One of the smaller improvements in vSphere 5 was the introduction of the &amp;ldquo;Virtual machine disks consolidation is needed&amp;rdquo; configuration alert if vSphere determines that there are orphaned snapshots for a given VM.
 
 Previous versions does not show this warning message, and datastore usage could potentially skyrocket for no apparent reason if something continues to create snapshots that are not properly cleaned up when they are no longer in use.</description>
@@ -742,10 +742,10 @@ Previous versions does not show this warning message, and datastore usage could 
     
     <item>
       <title>VMware vCenter Operations Manager 5.6 Available</title>
-      <link>/posts/vmware-vcenter-operations-manager-5-6/</link>
+      <link>/virtualization/vmware-vcenter-operations-manager-5-6/</link>
       <pubDate>Fri, 30 Nov 2012 19:17:01 +0000</pubDate>
       
-      <guid>/posts/vmware-vcenter-operations-manager-5-6/</guid>
+      <guid>/virtualization/vmware-vcenter-operations-manager-5-6/</guid>
       <description>The new vCenter Operations Manager 5.6 is now generally available, and one of many improvements from v5.5 is the new licensing scheme.
 The new foundation edition, is the new entry-level edition which from now on is included in every licensed vSphere edition free of charge. That´s right, you can now run vCenter Operations Manager 5.6 Foundation without purchasing any additional licenses.
 vCenter Operations Manager now comes in the following flavors:</description>
@@ -753,20 +753,20 @@ vCenter Operations Manager now comes in the following flavors:</description>
     
     <item>
       <title>Exporting vCenter Events with PowerCLI</title>
-      <link>/posts/exporting-vcenter-events-powercli/</link>
+      <link>/virtualization/exporting-vcenter-events-powercli/</link>
       <pubDate>Fri, 30 Nov 2012 09:12:50 +0000</pubDate>
       
-      <guid>/posts/exporting-vcenter-events-powercli/</guid>
+      <guid>/virtualization/exporting-vcenter-events-powercli/</guid>
       <description>One of my clients has recently been having issues with their storage solution, and wanted to export the events from vCenter that show storage performance degradation, to aid in troubleshooting with the vendor.
 For some reason, and I have yet to confirm that this is a bug with the vCenter 5.0 appliance or the vCenter Desktop Client, when an event export is done, the storage related events are not exported with the rest of the events.</description>
     </item>
     
     <item>
       <title>VMware ESXi 4 vs ESXi 5 Log File Locations</title>
-      <link>/posts/vmware-esxi-4-vs-esxi-5-log-file-locations/</link>
+      <link>/virtualization/vmware-esxi-4-vs-esxi-5-log-file-locations/</link>
       <pubDate>Mon, 17 Sep 2012 21:24:18 +0000</pubDate>
       
-      <guid>/posts/vmware-esxi-4-vs-esxi-5-log-file-locations/</guid>
+      <guid>/virtualization/vmware-esxi-4-vs-esxi-5-log-file-locations/</guid>
       <description>This post is inspired by a tweet from Andrew Storrs, where he pinpoints that the host log file locations have changed between ESXi 4 and ESXi 5.
 Note: This post has been updated with new log files for ESXi 5.1
 ESXi 4 Log File Locations: [table id=6 /]
@@ -776,10 +776,10 @@ Between version 5.0 and 5.1 the log file locations have not changed, but a coupl
     
     <item>
       <title>... and All I Asked for Was a Pin</title>
-      <link>/posts/all-i-asked-for-was-a-pin/</link>
+      <link>/virtualization/all-i-asked-for-was-a-pin/</link>
       <pubDate>Tue, 11 Sep 2012 17:33:35 +0000</pubDate>
       
-      <guid>/posts/all-i-asked-for-was-a-pin/</guid>
+      <guid>/virtualization/all-i-asked-for-was-a-pin/</guid>
       <description>Way back in the old days, you know when VMworld 2012 was held in San Francisco, I tweeted that if someone could get hold of a VCP pin for me, I would be very happy.
 Luckily Paul Valentino from vCommunity Trust picked that up, and apparently went on quite the scavenger hunt on my behalf.
 Imagine my surprise today when this little square meter of carton appeared, courtesy of Mr. Valentino:</description>
@@ -787,19 +787,19 @@ Imagine my surprise today when this little square meter of carton appeared, cour
     
     <item>
       <title>Shanghai...  we have a problem...</title>
-      <link>/posts/shanghai-problem/</link>
+      <link>/virtualization/shanghai-problem/</link>
       <pubDate>Mon, 20 Aug 2012 22:28:03 +0000</pubDate>
       
-      <guid>/posts/shanghai-problem/</guid>
+      <guid>/virtualization/shanghai-problem/</guid>
       <description>My Saturday morning started the same as any other. I checked my emails and my tweets, started a coffee, walked my dog and got into the shower. My iPhone buzzing on the sink caught my attention a few minutes into it. Covered in soap and the rest censored for the public here I answered the call. Without getting into too many details of my organization - my bosses-bossess-boss contacted me reporting a fire in one of our server rooms in Shanghai China.</description>
     </item>
     
     <item>
       <title>Building End-User Computing Solutions with VMware View Book Available</title>
-      <link>/posts/building-end-user-computing-solutions-vmware-view-book/</link>
+      <link>/virtualization/building-end-user-computing-solutions-vmware-view-book/</link>
       <pubDate>Fri, 03 Aug 2012 21:17:13 +0000</pubDate>
       
-      <guid>/posts/building-end-user-computing-solutions-vmware-view-book/</guid>
+      <guid>/virtualization/building-end-user-computing-solutions-vmware-view-book/</guid>
       <description>Mike Laverick and Barry Coombs has released their new book, elegantly titled &amp;ldquo;Building End-User Computing Solutions with VMware View&amp;rdquo;.
 Not only is this a great book, it is something that every existing and potential VMware View (and related technologies in the EUC area) administrator should add to their (digital) bookshelves.
 I´ll let the authors themselves describe it:
@@ -808,10 +808,10 @@ This book is all about VMware View 5.1 and ThinApp 4.7.2 administration - and it
     
     <item>
       <title>vSphere 5: Creating a Hardware Version 4 VM</title>
-      <link>/posts/vsphere-5-creating-hardware-version-4-vm/</link>
+      <link>/virtualization/vsphere-5-creating-hardware-version-4-vm/</link>
       <pubDate>Mon, 02 Jul 2012 19:50:03 +0000</pubDate>
       
-      <guid>/posts/vsphere-5-creating-hardware-version-4-vm/</guid>
+      <guid>/virtualization/vsphere-5-creating-hardware-version-4-vm/</guid>
       <description>I recently had a need to create a VM for usage on ESX 3.x, but the only thing available to me in my lab was vSphere 5, which naturally creates new VMs with the latest and greatest version 8 virtual hardware.
 The following table lists the virtual hardware versions and the corresponding ESX and ESXi releases: Version 
 Virtual Hardware Version   ESXi 5.x 
@@ -820,10 +820,10 @@ Virtual Hardware Version   ESXi 5.x
     
     <item>
       <title>VMworld Session Reject Club</title>
-      <link>/posts/vmworld-session-reject-club/</link>
+      <link>/virtualization/vmworld-session-reject-club/</link>
       <pubDate>Wed, 27 Jun 2012 00:07:18 +0000</pubDate>
       
-      <guid>/posts/vmworld-session-reject-club/</guid>
+      <guid>/virtualization/vmworld-session-reject-club/</guid>
       <description>**VMworld Session Reject Club 1st RULE: You do talk about Reject Club. **
 Today VMware has sent out notifications to VMworld 2012 session submitters, with a yay or nay email. Of course, this sparked a lot of conversation on Twitter, and Scott Lowe published a blog post proposing a VMworld Unconference, and exploring several options:
  A physical “unconference”
@@ -833,39 +833,39 @@ Today VMware has sent out notifications to VMworld 2012 session submitters, with
     
     <item>
       <title>VMware Forum 2012 Oslo</title>
-      <link>/posts/vmware-forum-2012-oslo/</link>
+      <link>/virtualization/vmware-forum-2012-oslo/</link>
       <pubDate>Thu, 26 Apr 2012 20:35:39 +0000</pubDate>
       
-      <guid>/posts/vmware-forum-2012-oslo/</guid>
+      <guid>/virtualization/vmware-forum-2012-oslo/</guid>
       <description>Just like last year, I got up really early and caught a 06:40 am flight from Bergen to Oslo to attend the VMware Forum. A couple of things have changed since the last time, one of them being the venue.
 This time around it was held at Ullevaal Business Class, and the venue itself worked great for a one day conference like this, divided into three sections, two for parallel sessions and one for the exhibitor area.</description>
     </item>
     
     <item>
       <title>VCDX Wannabe goes live</title>
-      <link>/posts/vcdx-wannabe-live/</link>
+      <link>/virtualization/vcdx-wannabe-live/</link>
       <pubDate>Tue, 27 Mar 2012 08:46:21 +0000</pubDate>
       
-      <guid>/posts/vcdx-wannabe-live/</guid>
+      <guid>/virtualization/vcdx-wannabe-live/</guid>
       <description>My little pet project VCDX Wannabe has now (finally) gone live. For now it´s mostly a collection of links and resources, but that will change over time.
 So, if you want to see me (and possibly a few others) either go down in flames, kicking and screaming, or succeed obtaining the VCDX certification you now have the opportunity to do so.</description>
     </item>
     
     <item>
       <title>My VCP 5 exam experience</title>
-      <link>/posts/vcp-5-exam-experience/</link>
+      <link>/virtualization/vcp-5-exam-experience/</link>
       <pubDate>Wed, 29 Feb 2012 20:00:42 +0000</pubDate>
       
-      <guid>/posts/vcp-5-exam-experience/</guid>
+      <guid>/virtualization/vcp-5-exam-experience/</guid>
       <description>Like many others I was a VCP 4 and needed to upgrade to VCP 5 by Feb 29th to avoid a pricey class and possible ribbing from my peers. I was well aware of this deadline since mid December, however, I procrastinated on studying and was mostly flinging myself around the globe doing implementations and having an all around good time. When Feb 1st came I was sitting on a flight from Saigon to Frankfurt and that is when panic struck.</description>
     </item>
     
     <item>
       <title>Vote for the Top VMware &amp; Virtualization Blogs </title>
-      <link>/posts/vote-top-vmware-virtualization-blogs/</link>
+      <link>/news/vote-top-vmware-virtualization-blogs/</link>
       <pubDate>Tue, 24 Jan 2012 08:46:24 +0000</pubDate>
       
-      <guid>/posts/vote-top-vmware-virtualization-blogs/</guid>
+      <guid>/news/vote-top-vmware-virtualization-blogs/</guid>
       <description>Eric Siebert has opened up the voting for the top VMware &amp;amp; virtualization blogs. Head on over and cast your votes!
 Votes for vNinja.net and vSoup.net would be greatly appreciated, but since we´re not affiliated with the Dutch vMaffia we promise that you will not have to wear concrete boots or wake up to a horses head in your bed if you don´t vote for us.
 We think.</description>
@@ -873,10 +873,10 @@ We think.</description>
     
     <item>
       <title>Creating and Using a Virtual Floppy in vSphere</title>
-      <link>/posts/creating-virtual-floppy-vsphere/</link>
+      <link>/virtualization/creating-virtual-floppy-vsphere/</link>
       <pubDate>Sat, 07 Jan 2012 22:44:33 +0000</pubDate>
       
-      <guid>/posts/creating-virtual-floppy-vsphere/</guid>
+      <guid>/virtualization/creating-virtual-floppy-vsphere/</guid>
       <description>My new colleague Olav Tvedt asked me if I could test his method of enabling Bitlocker in a VM, on VMware vSphere. Of course, I was happy to oblige.
 I followed the same steps as he did in his Running Bitlocker on a Virtual computer post, and it worked perfectly.
 The only real difference between doing this in Hyper-V and on ESXi, is that the virtual floppy drive on ESXi by default doesn&amp;rsquo;t emulate an empty floppy.</description>
@@ -884,19 +884,19 @@ The only real difference between doing this in Hyper-V and on ESXi, is that the 
     
     <item>
       <title>Auto Installation and Configuring of vSphere ESXi 5</title>
-      <link>/posts/auto-installation-and-configuring-of-vsphere-esxi-5/</link>
+      <link>/virtualization/auto-installation-and-configuring-of-vsphere-esxi-5/</link>
       <pubDate>Wed, 21 Dec 2011 23:36:19 +0000</pubDate>
       
-      <guid>/posts/auto-installation-and-configuring-of-vsphere-esxi-5/</guid>
+      <guid>/virtualization/auto-installation-and-configuring-of-vsphere-esxi-5/</guid>
       <description>One of the last projects I&amp;rsquo;ve been involved with at Seatrans, is to automate the installation and configuration of vSphere ESXi 5 hosts for deployment on vessels. I&amp;rsquo;ve talked a bit about this before, both on vSoup and in Setting Up Automated ESXi Deployments where I outlined my PXE and PowerCLI based installation and configuration scheme. Not much has changed since then, except updating the PXE server to offer ESXi 5, instead of ESXi 4 and a lot of work has been put into the scripting, including a front-end GUI for the PowerCLI script itself.</description>
     </item>
     
     <item>
       <title>DaaS or Having Fun with ThinApp</title>
-      <link>/posts/daas-or-having-fun-with-thinapp/</link>
+      <link>/virtualization/daas-or-having-fun-with-thinapp/</link>
       <pubDate>Fri, 09 Dec 2011 21:59:21 +0000</pubDate>
       
-      <guid>/posts/daas-or-having-fun-with-thinapp/</guid>
+      <guid>/virtualization/daas-or-having-fun-with-thinapp/</guid>
       <description>While using ThinApp to create a standalone version of TweetDeck 0.38.2, since the newly announced 1.0 version looks, acts and feels like a 0.1 version, I posed the following question on Twitter:
 [&#34;Hrm, what other apps should i #ThinApp while I&#39;m at it?&#34;](https://twitter.com/#!/h0bbel/status/145249562490179585). Kevin Kelling immediately responded with &amp;ldquo;Doom&amp;rdquo;.
 Naturally, I decided to give it a go. A quick download of ZDoom later, and a quick run through the ThinApp Setup Capture later, the following was born (view in full screen for better viewing):</description>
@@ -904,10 +904,10 @@ Naturally, I decided to give it a go. A quick download of ZDoom later, and a qui
     
     <item>
       <title>Blatant Self Promotion</title>
-      <link>/posts/blatant-self-promotion/</link>
+      <link>/virtualization/blatant-self-promotion/</link>
       <pubDate>Mon, 28 Nov 2011 23:16:10 +0000</pubDate>
       
-      <guid>/posts/blatant-self-promotion/</guid>
+      <guid>/virtualization/blatant-self-promotion/</guid>
       <description>As the title says, it&amp;rsquo;s been one of my more &amp;ldquo;public&amp;rdquo; weeks ever. Besides my &amp;ldquo;normal&amp;rdquo; vSoup engagement, this week I&amp;rsquo;ve also been involved with Mike Laverick&amp;rsquo;s VMTN Subscription Movement Miniwags to voice some of my views about the #VMTNSubscriptionMovement.
 Fair warning: This is video, and please to remember that during recording Movember was nearing its final phase. VMTN Subscription Movement Miniwags – Christian Mohn
 Secondly, I was a guest on the Veeam Community Podcast Episode 45 – vSphere 5 Storage Potpourri.</description>
@@ -915,20 +915,20 @@ Secondly, I was a guest on the Veeam Community Podcast Episode 45 – vSphere 5 
     
     <item>
       <title>VMware Horizon Application Manager Now and Beyond</title>
-      <link>/posts/vmware-horizon-application-manager-now-and-beyond/</link>
+      <link>/virtualization/vmware-horizon-application-manager-now-and-beyond/</link>
       <pubDate>Wed, 16 Nov 2011 23:05:06 +0000</pubDate>
       
-      <guid>/posts/vmware-horizon-application-manager-now-and-beyond/</guid>
+      <guid>/virtualization/vmware-horizon-application-manager-now-and-beyond/</guid>
       <description>VMware has announced Horizon Application Manager 1.2, and together with the new ThinApp 4.7 release it promises &amp;ldquo;end users access to Windows, SaaS and enterprise web applications across different devices while retaining control and visibility via policy-driven management&amp;rdquo;.
 VMware Horizon Application Manager now manages your ThinApp applications making it easier and faster to provide virtualized Windows applications to end users. From Horizon Administration, you can deploy ThinApp packages, entitle users and groups, track user licenses, and manage application updates.</description>
     </item>
     
     <item>
       <title>VMTN Subscription</title>
-      <link>/posts/vmtn-subscription/</link>
+      <link>/virtualization/vmtn-subscription/</link>
       <pubDate>Sat, 05 Nov 2011 09:55:30 +0000</pubDate>
       
-      <guid>/posts/vmtn-subscription/</guid>
+      <guid>/virtualization/vmtn-subscription/</guid>
       <description>Mike Laverick has started something of a petition to bring back the VMTN Subscription option, and I could not agree more!
 The VMTN Subscription was a way for interested parties to pay for a years subscription to VMware products, akin to the Microsoft Technet subscription program. It&amp;rsquo;s not intended for production use, but as a means to get hold of products for lab work, testing and development.
 I don&amp;rsquo;t understand why VMware pulled the plug on that option back in 2007, but I do understand why it&amp;rsquo;s time to bring it back to life.</description>
@@ -936,29 +936,29 @@ I don&amp;rsquo;t understand why VMware pulled the plug on that option back in 2
     
     <item>
       <title>Why Can&#39;t I Syslog my VMware ESXi Installation?</title>
-      <link>/posts/why-cant-i-syslog-my-vmware-esxi-installation/</link>
+      <link>/virtualization/why-cant-i-syslog-my-vmware-esxi-installation/</link>
       <pubDate>Fri, 04 Nov 2011 22:06:32 +0000</pubDate>
       
-      <guid>/posts/why-cant-i-syslog-my-vmware-esxi-installation/</guid>
+      <guid>/virtualization/why-cant-i-syslog-my-vmware-esxi-installation/</guid>
       <description>Juan Manuel Rey&amp;rsquo;s post Monitor ESX 4.x to ESXi 5.0 migration process show how you can watch the progress of an ESX 4 to ESXi 5 upgrade procedure, by looking at the live logs.
 While this is very useful, and in many cases a real learning experience, it got me thinking that these logs should be available remotely as well. Since ESXi supports, and actively encourages, the use of an external Syslog service for log file safekeeping and monitoring, shouldn&amp;rsquo;t the installation logs for ESXi also be logged externally if configured?</description>
     </item>
     
     <item>
       <title>Network Simulation in VMware Workstation 8</title>
-      <link>/posts/network-simulation-in-vmware-workstation-8/</link>
+      <link>/virtualization/network-simulation-in-vmware-workstation-8/</link>
       <pubDate>Thu, 15 Sep 2011 09:18:44 +0000</pubDate>
       
-      <guid>/posts/network-simulation-in-vmware-workstation-8/</guid>
+      <guid>/virtualization/network-simulation-in-vmware-workstation-8/</guid>
       <description>In the new VMware Workstation 8 release, VMware has added a rudimentary network simulation setting where you can tweak bandwidth and packet loss for a given network card. Very useful when testing applications and servers and want to know how they react to network issues, or if you want to simulate a WAN link. I know this was available in Workstation 7 as well, but it used to be a team feature.</description>
     </item>
     
     <item>
       <title>Installing Windows 8 Developer Preview in VMware Workstation 8</title>
-      <link>/posts/installing-windows-8-developer-preview-in-vmware-workstation-8/</link>
+      <link>/virtualization/installing-windows-8-developer-preview-in-vmware-workstation-8/</link>
       <pubDate>Wed, 14 Sep 2011 12:33:12 +0000</pubDate>
       
-      <guid>/posts/installing-windows-8-developer-preview-in-vmware-workstation-8/</guid>
+      <guid>/virtualization/installing-windows-8-developer-preview-in-vmware-workstation-8/</guid>
       <description>Installing Microsoft Windows 8 in a VMware Workstation 8 VM turned out to be a real piece of cake.
 Follow the screenshots for the procedure I used, but basically all I did was to create a new VM with the pre-configured &amp;ldquo;Windows 8 Server&amp;rdquo; preset and inserted the downloaded ISO file.
 Note: Windows 8 Server has been removed as a preset option in the final release of VMware Workstation 8, my screenshots are from the beta version.</description>
@@ -966,10 +966,10 @@ Note: Windows 8 Server has been removed as a preset option in the final release 
     
     <item>
       <title>Backup Academy - Do You Know Your VM backups?</title>
-      <link>/posts/backup-academy-do-you-know-your-vm-backups/</link>
+      <link>/virtualization/backup-academy-do-you-know-your-vm-backups/</link>
       <pubDate>Tue, 13 Sep 2011 13:39:25 +0000</pubDate>
       
-      <guid>/posts/backup-academy-do-you-know-your-vm-backups/</guid>
+      <guid>/virtualization/backup-academy-do-you-know-your-vm-backups/</guid>
       <description>The newly opened Backup Academy, by Veeam, aims to educate administrators, and others interested in virtual machine backup, in the required skills to maintain a proper backup strategy for your virtual infrastructure.
 Currently the site has 8 videos available, covering content from disaster recovery to backup integrity tools.
 Even if it is run by Veeam, it does not focus on Veeam specific products or services, but rather on the general ideas behind a successful backup and disaster recovery of both VMware and Hyper-V based environments.</description>
@@ -977,10 +977,10 @@ Even if it is run by Veeam, it does not focus on Veeam specific products or serv
     
     <item>
       <title>VMware Workstation 8 - What&#39;s new?</title>
-      <link>/posts/vmware-workstation-8-whats-new/</link>
+      <link>/virtualization/vmware-workstation-8-whats-new/</link>
       <pubDate>Wed, 07 Sep 2011 12:07:23 +0000</pubDate>
       
-      <guid>/posts/vmware-workstation-8-whats-new/</guid>
+      <guid>/virtualization/vmware-workstation-8-whats-new/</guid>
       <description>VMware is close (still in beta) to releasing the new major release of VMware Workstation.
 Update 14. September 2011: VMware Workstation 8 has now officially been released.
 VMware Workstation 8 brings a lot of new features and enhancements to the table, and I&amp;rsquo;ve been lucky enough to play around with it in the beta program.
@@ -989,10 +989,10 @@ VMware Workstation 8 System Requirements To be able to install VMware Workstatio
     
     <item>
       <title>VMworld Hands-on Labs going public in 2012</title>
-      <link>/posts/vmworld-hands-on-labs-going-public-in-2012/</link>
+      <link>/virtualization/vmworld-hands-on-labs-going-public-in-2012/</link>
       <pubDate>Tue, 30 Aug 2011 10:41:03 +0000</pubDate>
       
-      <guid>/posts/vmworld-hands-on-labs-going-public-in-2012/</guid>
+      <guid>/virtualization/vmworld-hands-on-labs-going-public-in-2012/</guid>
       <description>VMware Labs now has fixed data centers which means that the VMworld Hands-On labs are going to be publicly available in early 20112!
 Hear Mornay Van Der Walt, Senior Director R&amp;amp;D at VMware, explain the details in this video from VMworld TV:
 This is great news, and I&amp;rsquo;m sure I&amp;rsquo;m not the only one who thinks this is a really good idea.</description>
@@ -1000,10 +1000,10 @@ This is great news, and I&amp;rsquo;m sure I&amp;rsquo;m not the only one who th
     
     <item>
       <title>vSphere 5: ESXi Installation Video</title>
-      <link>/posts/vsphere-5-esxi-installation-video/</link>
+      <link>/virtualization/vsphere-5-esxi-installation-video/</link>
       <pubDate>Thu, 25 Aug 2011 09:28:03 +0000</pubDate>
       
-      <guid>/posts/vsphere-5-esxi-installation-video/</guid>
+      <guid>/virtualization/vsphere-5-esxi-installation-video/</guid>
       <description>To celebrate vSphere 5 GA release today, I&amp;rsquo;ve recorded a quick video of the old school CD/ISO based installation:
 vSphere 5 ESXi Install Video from Christian Mohn on Vimeo.
 Seems strangely familiar, right? Enjoy!</description>
@@ -1011,85 +1011,85 @@ Seems strangely familiar, right? Enjoy!</description>
     
     <item>
       <title>VMFS-5: Block Size Me</title>
-      <link>/posts/vmfs-5-block-size-me/</link>
+      <link>/virtualization/vmfs-5-block-size-me/</link>
       <pubDate>Fri, 05 Aug 2011 12:21:31 +0000</pubDate>
       
-      <guid>/posts/vmfs-5-block-size-me/</guid>
+      <guid>/virtualization/vmfs-5-block-size-me/</guid>
       <description>The up and coming release of VMware vSphere 5 comes with an upgraded versjon of the VMware vStorage VMFS volume file system. One of the problems with VMFS-3 an earlier is that the block size you define when you format the datastore, determines the maximum size of the VMDK files stored on it. This means that when planning your datastore infrastructure you must have an idea on how large your VMDK files will potentially be during the lifecycle of the datastore.</description>
     </item>
     
     <item>
       <title>Dear John</title>
-      <link>/posts/dear-john/</link>
+      <link>/virtualization/dear-john/</link>
       <pubDate>Sun, 24 Jul 2011 22:30:53 +0000</pubDate>
       
-      <guid>/posts/dear-john/</guid>
+      <guid>/virtualization/dear-john/</guid>
       <description>No, this is not a farewell post, but rather the opposite. It&amp;rsquo;s Dr John Troyer&amp;rsquo;s birthday!
 John lives and breathes his role, as Senior Social Media Strategist at VMware, and I have to say that one of the most brilliant moves VMware has done is to employ John in his current role. Lots of other corporation employ marketing people in their social media roles, VMware went the other way and put the very technically savvy Dr.</description>
     </item>
     
     <item>
       <title>SMB Shared Storage Smackdown - Part 1 NFS Performance</title>
-      <link>/posts/smb-shared-storage-smackdown-part-1-nfs-performance/</link>
+      <link>/virtualization/smb-shared-storage-smackdown-part-1-nfs-performance/</link>
       <pubDate>Sun, 17 Jul 2011 19:31:22 +0000</pubDate>
       
-      <guid>/posts/smb-shared-storage-smackdown-part-1-nfs-performance/</guid>
+      <guid>/virtualization/smb-shared-storage-smackdown-part-1-nfs-performance/</guid>
       <description>Recently at the office I was given the task to test out some SMB NAS products to use as potential candidates for some of our small branch offices all over the world. I did many tests relating from backup and replication to actually running VMs on them and pounding them with IOmeter. What I will share with you in this series of posts is my vSphere/IOmeter tests for NFS and iSCSI.</description>
     </item>
     
     <item>
       <title>vSphere 5 and new licensing - Good or bad?</title>
-      <link>/posts/vsphere-5-and-new-licensing-good-or-bad/</link>
+      <link>/news/vsphere-5-and-new-licensing-good-or-bad/</link>
       <pubDate>Tue, 12 Jul 2011 18:36:07 +0000</pubDate>
       
-      <guid>/posts/vsphere-5-and-new-licensing-good-or-bad/</guid>
+      <guid>/news/vsphere-5-and-new-licensing-good-or-bad/</guid>
       <description>As many of you did I watched todays Cloud Infrastructure Forum and the release of vSphere 5 today. I was very excited with many of the features such as Storage Profiling, Storage DRS, VMFS 5 release, and they have blown the top off of the resource limits on VMs to create Monster VMs - just to mention a few. However, one topic I notice causing quite a stir is the new licensing that seemed to be very briefly mentioned at the end of the webinar.</description>
     </item>
     
     <item>
       <title>Online Event: Raising the Bar, Part V</title>
-      <link>/posts/online-event-raising-the-bar-part-v/</link>
+      <link>/virtualization/online-event-raising-the-bar-part-v/</link>
       <pubDate>Thu, 07 Jul 2011 09:19:35 +0000</pubDate>
       
-      <guid>/posts/online-event-raising-the-bar-part-v/</guid>
+      <guid>/virtualization/online-event-raising-the-bar-part-v/</guid>
       <description>July 12, 2011 9am-Noon Pacific Time: Join this online event, and get all the details on &amp;ldquo;the next generation of cloud infrastructure&amp;rdquo;!
 VMware CEO Paul Maritz and CTO Steve Herrod will be presenting on the next generation of cloud infrastructure. Join us and experience how the virtualization journey is helping transform IT and ushering in the era of Cloud Computing. 9:00-9:45 Paul and Steve present - live online streaming 10:00-12:00 three tracks of deep dive breakout sessions 10:00-12:00 live Q&amp;A with VMware cloud and virtualization experts  Register for the event now!</description>
     </item>
     
     <item>
       <title>Setting Up Automated ESXi Deployments</title>
-      <link>/posts/setting-up-automated-esxi-deployments/</link>
+      <link>/virtualization/setting-up-automated-esxi-deployments/</link>
       <pubDate>Thu, 07 Jul 2011 08:10:55 +0000</pubDate>
       
-      <guid>/posts/setting-up-automated-esxi-deployments/</guid>
+      <guid>/virtualization/setting-up-automated-esxi-deployments/</guid>
       <description>Automating ESXi installs was made much easier after the release of vSphere 4.1 where the Scripted Install feature was added, and by using VMware Auto Deploy from VMware Labs. VMware Auto Deploy requires that you have vCenter and Host Profiles in your environment, and that again requires that you have Enterprise Plus licenses in your environment.
 It is, however, possible to deploy ESXi in an automated fashion completely without vCenter and Host Profiles!</description>
     </item>
     
     <item>
       <title>Zerto: Or What I Learned at Tech Field Day #6!</title>
-      <link>/posts/zerto-or-what-i-learned-at-tfd-6/</link>
+      <link>/virtualization/zerto-or-what-i-learned-at-tfd-6/</link>
       <pubDate>Mon, 27 Jun 2011 22:38:26 +0000</pubDate>
       
-      <guid>/posts/zerto-or-what-i-learned-at-tfd-6/</guid>
+      <guid>/virtualization/zerto-or-what-i-learned-at-tfd-6/</guid>
       <description>The last day of Tech Field Day #6 myself and all the other delegates were lucky enough to get a sneak peek at stealth startup &amp;lsquo;Zerto&amp;rsquo;. We weren&amp;rsquo;t allowed to talk about it until the 22nd and I know I am a little slow on the punch but I currently haven&amp;rsquo;t seen a lot of coverage. Just for an initial disclosure statement my trip to Tech Field Day 6 was paid for by the vendors we visited, however, I am in no way obligated to write about them or publicize them in any manner.</description>
     </item>
     
     <item>
       <title>Multi-Hypervisor Management and the Future</title>
-      <link>/posts/multi-hypervisor-management-and-the-future/</link>
+      <link>/news/multi-hypervisor-management-and-the-future/</link>
       <pubDate>Sun, 12 Jun 2011 20:34:52 +0000</pubDate>
       
-      <guid>/posts/multi-hypervisor-management-and-the-future/</guid>
+      <guid>/news/multi-hypervisor-management-and-the-future/</guid>
       <description>In a previous post, vCenter Integration Mantra, I made the point that vSphere vAdmins wants the 3rd party modules to integrate into the vCenter client and show their delicious addon-value there, and not in their own management interface. Give the vAdmins the info they need, where they do most, if not all their work. Open up the admin client and let us get all that juicy and fruity information we need.</description>
     </item>
     
     <item>
       <title>vCenter Integration Mantra</title>
-      <link>/posts/vcenter-integration-mantra/</link>
+      <link>/news/vcenter-integration-mantra/</link>
       <pubDate>Fri, 10 Jun 2011 15:43:18 +0000</pubDate>
       
-      <guid>/posts/vcenter-integration-mantra/</guid>
+      <guid>/news/vcenter-integration-mantra/</guid>
       <description>During Tech Field Day #6 in Boston one particular general feature request has become increasingly prominent;
 Can we have it inside the vCenter client?
 In short, what we want is for all those great third party vendors like VKernel, Solarwinds and others to be able to put their feature addons directly into the vCenter client. Currently most third party apps &amp;ldquo;integrate&amp;rdquo; by offering a new tab where you can access it, but I would love to see that being expanded even further.</description>
@@ -1097,39 +1097,39 @@ In short, what we want is for all those great third party vendors like VKernel, 
     
     <item>
       <title>vCenter Update Manager - A Feature Request</title>
-      <link>/posts/vcenter-update-manager-a-feature-request/</link>
+      <link>/virtualization/vcenter-update-manager-a-feature-request/</link>
       <pubDate>Fri, 22 Apr 2011 21:07:35 +0000</pubDate>
       
-      <guid>/posts/vcenter-update-manager-a-feature-request/</guid>
+      <guid>/virtualization/vcenter-update-manager-a-feature-request/</guid>
       <description>Way back in August 24 2010 I wrote a post called vCenter Update Manager to lose it’s fat. I&amp;rsquo;m still very happy that VMware has decided to drop OS patching from the product, and I still mean that can only be a good thing. In fact, that article prompted Beth Pariseau Senior News Writer for searchservervirtualization.techtarget.com to call me when researching her VMware users eye changes to Update Manager article.</description>
     </item>
     
     <item>
       <title>Installing and running VMware Compliance Checker for vSphere</title>
-      <link>/posts/installing-and-running-vmware-compliance-checker-for-vsphere/</link>
+      <link>/news/installing-and-running-vmware-compliance-checker-for-vsphere/</link>
       <pubDate>Wed, 20 Apr 2011 07:01:37 +0000</pubDate>
       
-      <guid>/posts/installing-and-running-vmware-compliance-checker-for-vsphere/</guid>
+      <guid>/news/installing-and-running-vmware-compliance-checker-for-vsphere/</guid>
       <description>The first version of the new VMware Compliance Checker for vSphere tool is now available for download.
 VMware Compliance Checker for vSphere lets you scan your ESX and ESXi hosts for compliance with the VMware vSphere hardening guidelines to make sure your hosts are properly configured. It also lets you save and print your assessment results, so you can track your compliance level over time, or use them as documentation for internal audits.</description>
     </item>
     
     <item>
       <title>Digital Ship Magazine April 2011</title>
-      <link>/posts/digital-ship-magazine-april-2011/</link>
+      <link>/news/digital-ship-magazine-april-2011/</link>
       <pubDate>Fri, 01 Apr 2011 09:20:20 +0000</pubDate>
       
-      <guid>/posts/digital-ship-magazine-april-2011/</guid>
+      <guid>/news/digital-ship-magazine-april-2011/</guid>
       <description>Back in February 2011 I was invited, along with my IT Manager, to do a presentation at Digital Ship Scandinavia 2011.
 Digital Ship magazine has now published an article based on what we presented at the live event. As far as I can gather, based on the feedback both at the event and afterwards, the presentation was a success and now the Digital Ship Magazine for April 2011 includes a two page article based on the entire presentation.</description>
     </item>
     
     <item>
       <title>Installing and configuring VMware vCenter Operations</title>
-      <link>/posts/installing-and-configuring-vmware-vcenter-operations/</link>
+      <link>/virtualization/installing-and-configuring-vmware-vcenter-operations/</link>
       <pubDate>Mon, 21 Mar 2011 19:50:02 +0000</pubDate>
       
-      <guid>/posts/installing-and-configuring-vmware-vcenter-operations/</guid>
+      <guid>/virtualization/installing-and-configuring-vmware-vcenter-operations/</guid>
       <description>VMware vCenter Operations was released to the general public a week or so ago and is available for download right now. As usual you can download a 60 day trial, and get started immediately.
 Like other recent management utilities from VMware, vCenter Operations comes in the form of a .OVF template (like vCMA/vMA).
 Installing VMware vCenter Operations Download VMware vCenter Operations and import by starting vCenter Client, navigate to the “File” menu and select “Deploy OVF template…”</description>
@@ -1137,40 +1137,40 @@ Installing VMware vCenter Operations Download VMware vCenter Operations and impo
     
     <item>
       <title>vSphere iPad Client</title>
-      <link>/posts/vsphere-ipad-client/</link>
+      <link>/virtualization/vsphere-ipad-client/</link>
       <pubDate>Fri, 18 Mar 2011 09:18:44 +0000</pubDate>
       
-      <guid>/posts/vsphere-ipad-client/</guid>
+      <guid>/virtualization/vsphere-ipad-client/</guid>
       <description>Like everyone else in the vUniverse, I&amp;rsquo;ve had a play with the very recently released free vSphere Client for iPad. Since everyone, and their mother, has already blogged and reviewed it I don&amp;rsquo;t see much value in me doing the same.
 What I can say though, is that the first impression is pretty great. It looks good, works well and might be one of the apps that finally gives me an actual use case for the iPad.</description>
     </item>
     
     <item>
       <title>Using rsync to Distribute Patches to a Remote vMA </title>
-      <link>/posts/using-rsync-to-distribute-patches-to-remote-a-vma/</link>
+      <link>/virtualization/using-rsync-to-distribute-patches-to-remote-a-vma/</link>
       <pubDate>Tue, 08 Mar 2011 08:00:02 +0000</pubDate>
       
-      <guid>/posts/using-rsync-to-distribute-patches-to-remote-a-vma/</guid>
+      <guid>/virtualization/using-rsync-to-distribute-patches-to-remote-a-vma/</guid>
       <description>I recently posted Using vMA as a local vSphere Patch Repository, where I outlined how you can use your vMA instances as local file repositories for updates.
 This post is a continuation of that concept, but this time I&amp;rsquo;ll take it a step further and utilize rsync to make sure my vMA instances all contain the same set of patches. Rsync is great for this, as it handles fast incremental file transfers, which is a real time and bandwidth saver in my particular scenario.</description>
     </item>
     
     <item>
       <title>Using vMA as a local vSphere Patch Repository</title>
-      <link>/posts/using-vma-as-a-local-vsphere-patch-repository/</link>
+      <link>/virtualization/using-vma-as-a-local-vsphere-patch-repository/</link>
       <pubDate>Mon, 07 Mar 2011 22:43:33 +0000</pubDate>
       
-      <guid>/posts/using-vma-as-a-local-vsphere-patch-repository/</guid>
+      <guid>/virtualization/using-vma-as-a-local-vsphere-patch-repository/</guid>
       <description>I like using http as the transport protocol when patching my vSphere hosts. It&amp;rsquo;s easy to use and in most cases immediately available over most networks. Since I want to use http as the transport, we need to make vMA work as a http server.
 Starting Apache inside vMA Luckily, the Apache http daemon is installed, by default, in vMA and to utilize it all you have to do is to start it!</description>
     </item>
     
     <item>
       <title>Installing vSphere Management Assistant (vMA)</title>
-      <link>/posts/installing-vsphere-management-assistant-vma/</link>
+      <link>/virtualization/installing-vsphere-management-assistant-vma/</link>
       <pubDate>Mon, 28 Feb 2011 23:26:15 +0000</pubDate>
       
-      <guid>/posts/installing-vsphere-management-assistant-vma/</guid>
+      <guid>/virtualization/installing-vsphere-management-assistant-vma/</guid>
       <description>The vMA is a Virtual Appliance that you can download from VMware. It&amp;rsquo;s primary function is to enable command line based management of your ESX/ESXi systems.
 Basically this is a pre-packaged virtual machine that includes vCLI and the vSphere SDK for Perl, which means that you don&amp;rsquo;t have to build your own management VM or install these tools locally on a management station.
 vMA is in many regards seen as a replacement for the ESX Service Console which no longer is present in ESXi.</description>
@@ -1178,10 +1178,10 @@ vMA is in many regards seen as a replacement for the ESX Service Console which n
     
     <item>
       <title>Installing and Configuring WANem Virtual Appliance</title>
-      <link>/posts/installing-and-configuring-wanem-virtual-appliance/</link>
+      <link>/virtualization/installing-and-configuring-wanem-virtual-appliance/</link>
       <pubDate>Wed, 29 Dec 2010 14:21:36 +0000</pubDate>
       
-      <guid>/posts/installing-and-configuring-wanem-virtual-appliance/</guid>
+      <guid>/virtualization/installing-and-configuring-wanem-virtual-appliance/</guid>
       <description>In a previous post, Using the WANem WAN Emulator Virtual Appliance, I&amp;rsquo;ve talked about how I&amp;rsquo;ve successfully used WANem to emulate different WAN scenarios.
 Since I work for a shipping company, the ability to emulate VSAT conditions are especially useful for testing and proof-of-concept scenarios.
 You can use WANem a couple of different ways but my setup is pretty simple but does the job perfectly.
@@ -1190,50 +1190,50 @@ Downloading WANem I have chose to use the WANem Virtual Appliance running in a v
     
     <item>
       <title>vNinja used by VMware</title>
-      <link>/posts/vninja-used-by-vmware/</link>
+      <link>/news/vninja-used-by-vmware/</link>
       <pubDate>Mon, 27 Dec 2010 22:12:27 +0000</pubDate>
       
-      <guid>/posts/vninja-used-by-vmware/</guid>
+      <guid>/news/vninja-used-by-vmware/</guid>
       <description>Thanks to Maish Saidel-Keesing, vExpert 2010 and blogger over at Technodrone I have been made aware that VMware has used one of my posts here on vNinja in their internal presentation material.
 The material in question is vSphere 4.1 to 4.0 differences (page 44 and 45 in vSphere 4.1 Deep Dive - Part 1 - v6.pptx), where my post about Using USB Pass-through in vSphere 4.1 is quoted and my screenshots used.</description>
     </item>
     
     <item>
       <title>Virtual Admins - Virtual Pirates?</title>
-      <link>/posts/virtual-admins-virtual-pirates/</link>
+      <link>/virtualization/virtual-admins-virtual-pirates/</link>
       <pubDate>Thu, 23 Dec 2010 22:20:15 +0000</pubDate>
       
-      <guid>/posts/virtual-admins-virtual-pirates/</guid>
+      <guid>/virtualization/virtual-admins-virtual-pirates/</guid>
       <description>When Rich Brambley posted &amp;ldquo;A Pirate Invented Server Virtualization&amp;rdquo; today, it reminded me of a little story from my own production environment.
 This story is a couple of years old, but sadly it&amp;rsquo;s still valid. A very specialized application that we run, requires a SQL Server Express instance, a proxy/licensing server and client installation with license files to work. This application isn&amp;rsquo;t very advanced, nor very resource intensive so by nature it&amp;rsquo;s prime for running in a virtualized environment.</description>
     </item>
     
     <item>
       <title>VMware vSphere Lab: Virtual Edition – Part 6</title>
-      <link>/posts/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-6/</link>
+      <link>/virtualization/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-6/</link>
       <pubDate>Thu, 21 Oct 2010 21:10:47 +0000</pubDate>
       
-      <guid>/posts/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-6/</guid>
+      <guid>/virtualization/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-6/</guid>
       <description>This is the sixth post in a series outlining how to set up your own little virtualized Virtual vSphere Lab, if you missed part one, part two, part three, part four, or part five be sure to check them out first!
 Now that we have working DHCP and DNS services in our lab network, we&amp;rsquo;re ready to get out two little ESXi friends connected to it&amp;rsquo;s management service, VMware vCenter Server.</description>
     </item>
     
     <item>
       <title>VMware vSphere Lab: Virtual Edition – Part 5</title>
-      <link>/posts/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-5/</link>
+      <link>/virtualization/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-5/</link>
       <pubDate>Wed, 20 Oct 2010 13:31:51 +0000</pubDate>
       
-      <guid>/posts/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-5/</guid>
+      <guid>/virtualization/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-5/</guid>
       <description>This is the fifth post in a series outlining how to set up your own little virtualized Virtual vSphere Lab, if you missed part one, part two, part three, or part four, be sure to check them out first!
 Ideally we would now install Microsoft Active Directory Domain Services (AD DS) on the Windows Server 2008 R2 VM we created in part four, but since VMware vCenter Server 4.1 also installs AD LDS (previously known as Active Directory Application Mode (ADAM)) it can not be installed on a AD Domain Controller.</description>
     </item>
     
     <item>
       <title>VMware vSphere Lab: Virtual Edition – Part 4</title>
-      <link>/posts/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-4/</link>
+      <link>/virtualization/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-4/</link>
       <pubDate>Tue, 19 Oct 2010 18:01:49 +0000</pubDate>
       
-      <guid>/posts/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-4/</guid>
+      <guid>/virtualization/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-4/</guid>
       <description>This is the fourth post in a series outlining how to set up your own little virtualized Virtual vSphere Lab, if you missed part one, part two, or part three be sure to check them out first!
 In part 4 we&amp;rsquo;ll be installing a Windows Server 2008 R2 VM, to use as the basis for the VMware vCenter Server installation.
 First off, create a new VM in VMware Workstation. This works exactly the same way as we did it in part 3, but I&amp;rsquo;ll repeat the steps here as well.</description>
@@ -1241,10 +1241,10 @@ First off, create a new VM in VMware Workstation. This works exactly the same wa
     
     <item>
       <title>VMware vSphere Lab: Virtual Edition – Part 3</title>
-      <link>/posts/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-3/</link>
+      <link>/virtualization/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-3/</link>
       <pubDate>Mon, 18 Oct 2010 20:16:28 +0000</pubDate>
       
-      <guid>/posts/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-3/</guid>
+      <guid>/virtualization/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-3/</guid>
       <description>This is the third post in a series outlining how to set up your own little virtualized Virtual vSphere Lab, if you missed part one or part two, be sure to check them out first!
 I&amp;rsquo;m going to assume that you already have VMware Workstation 7.x installed and ready. If not, get it installed before continuing.
 Now that we have all the prerequisites in place, we&amp;rsquo;re going to go straight to installing the first ESXi host for your lab.</description>
@@ -1252,10 +1252,10 @@ Now that we have all the prerequisites in place, we&amp;rsquo;re going to go str
     
     <item>
       <title>VMware vSphere Lab: Virtual Edition - Part 2</title>
-      <link>/posts/vmware-vsphere-lab-virtual-edition-part-2/</link>
+      <link>/virtualization/vmware-vsphere-lab-virtual-edition-part-2/</link>
       <pubDate>Mon, 18 Oct 2010 07:00:55 +0000</pubDate>
       
-      <guid>/posts/vmware-vsphere-lab-virtual-edition-part-2/</guid>
+      <guid>/virtualization/vmware-vsphere-lab-virtual-edition-part-2/</guid>
       <description>This is the second post in a series outlining how to set up your own little virtualized Virtual vSphere Lab, if you missed the first one be sure to check it out!
 The first step in setting up the The Virtual vSphere Lab, is making sure you have everything you need. To get everything up and running, you’ll need the following:
  VMware Workstation 7.x downloaded and installed. A 30 day trial version download is available at vmware.</description>
@@ -1263,10 +1263,10 @@ The first step in setting up the The Virtual vSphere Lab, is making sure you hav
     
     <item>
       <title>VMware vSphere Lab: Virtual Edition - Part 1</title>
-      <link>/posts/vmware-vsphere-lab-virtual-edition-part-1/</link>
+      <link>/virtualization/vmware-vsphere-lab-virtual-edition-part-1/</link>
       <pubDate>Sun, 17 Oct 2010 20:16:44 +0000</pubDate>
       
-      <guid>/posts/vmware-vsphere-lab-virtual-edition-part-1/</guid>
+      <guid>/virtualization/vmware-vsphere-lab-virtual-edition-part-1/</guid>
       <description>Even if VMware vSphere has pretty stringent hardware requirements, there are some rather cheap options available if you want to set up your own vSphere Lab for training or testing purposes.
 In this first post of the series, I&amp;rsquo;ll examine the option of setting up a Virtual vSphere Lab, based on VMware Workstation 7.1:
 The Virtual vSphere Lab In VMware Workstation 7.1, running vSphere 4.1 is supported as a guest operating system.</description>
@@ -1274,20 +1274,20 @@ The Virtual vSphere Lab In VMware Workstation 7.1, running vSphere 4.1 is suppor
     
     <item>
       <title>Developer meets PowerCLI - awesomeness ensues</title>
-      <link>/posts/developer-meets-powercli-awesomeness-ensues/</link>
+      <link>/virtualization/developer-meets-powercli-awesomeness-ensues/</link>
       <pubDate>Fri, 15 Oct 2010 20:29:14 +0000</pubDate>
       
-      <guid>/posts/developer-meets-powercli-awesomeness-ensues/</guid>
+      <guid>/virtualization/developer-meets-powercli-awesomeness-ensues/</guid>
       <description>A couple of days ago, while I was at VMworld Europe I got the following tweet from Asbjørn A. Mikkelsen (@neslekkim) (translated from norwegian):
 @h0bbel Do you know if I can script something against vCenter to duplicate (or create from template) VMs, and also start/stop them? My immediate response, was of course to suggest using PowerCLI. Asbjørn, who works as a full time developer, jumped at PowerCLI immediately and within a very short time frame came up with a PowerCLI script for the task at hand.</description>
     </item>
     
     <item>
       <title>VMworld.next - a couple of suggestions</title>
-      <link>/posts/vmworld-next-a-couple-of-suggestions/</link>
+      <link>/virtualization/vmworld-next-a-couple-of-suggestions/</link>
       <pubDate>Fri, 15 Oct 2010 08:36:39 +0000</pubDate>
       
-      <guid>/posts/vmworld-next-a-couple-of-suggestions/</guid>
+      <guid>/virtualization/vmworld-next-a-couple-of-suggestions/</guid>
       <description>Now that the VMworld events are over for 2010, I&amp;rsquo;m still trying to digest a lot of the impressions I&amp;rsquo;ve had over the past few days.
 However, I do have a couple of suggestions I would like to voice:
  Add contact information to the attendee badge!
@@ -1296,10 +1296,10 @@ However, I do have a couple of suggestions I would like to voice:
     
     <item>
       <title>VMworld Europe 2010 – The aftermath</title>
-      <link>/posts/vmworld-europe-2010the-aftermath/</link>
+      <link>/virtualization/vmworld-europe-2010the-aftermath/</link>
       <pubDate>Fri, 15 Oct 2010 07:33:54 +0000</pubDate>
       
-      <guid>/posts/vmworld-europe-2010the-aftermath/</guid>
+      <guid>/virtualization/vmworld-europe-2010the-aftermath/</guid>
       <description>I’m back home again, after spending the better part of this week in Copenhagen, attending VMworld Europe 2010.
 Let me just say, straight off the bat, that attending VMworld is probably the best idea I’ve had in years. In reality, that’s not saying much, but the value of attending is immense.
 The way VMworld is organized, with lots of simultaneous sessions, labs and other activities is both a challenge and a blessing.</description>
@@ -1307,20 +1307,20 @@ The way VMworld is organized, with lots of simultaneous sessions, labs and other
     
     <item>
       <title>Extending VMworld Labs</title>
-      <link>/posts/extending-vmworld-labs/</link>
+      <link>/virtualization/extending-vmworld-labs/</link>
       <pubDate>Wed, 13 Oct 2010 13:33:56 +0000</pubDate>
       
-      <guid>/posts/extending-vmworld-labs/</guid>
+      <guid>/virtualization/extending-vmworld-labs/</guid>
       <description>Undoubtedly one of the most popular &amp;ldquo;features&amp;rdquo; of VMworld 2010, both in the US and in EU, are the labs. These hands-on exercises in configuring and using various VMware products lets you play around without the need for lab equipment or licenses installed locally.  What if VMware extended this to not only run during the VMworld conferences?
 Let us get our hands dirty all year round! It&amp;rsquo;s hard to have a full lab setup in the office, and if we could book time in the VMware Cloud Lane to play around with VMware vCloud™, VMware vCenter™ Site Recovery Manager or even VMware ThinApp™ that would be great!</description>
     </item>
     
     <item>
       <title>VMworld Europe 2010 Contest Over</title>
-      <link>/posts/vmworld-europe-2010-contest-over/</link>
+      <link>/virtualization/vmworld-europe-2010-contest-over/</link>
       <pubDate>Tue, 12 Oct 2010 09:36:46 +0000</pubDate>
       
-      <guid>/posts/vmworld-europe-2010-contest-over/</guid>
+      <guid>/virtualization/vmworld-europe-2010-contest-over/</guid>
       <description>They found me! Well, not they, but Duco Jaspars (@vConsult) found me straight after the keynote and was promptly handed the Trainsignal VMware vSphere Pro Series Training Vol. 2. training kit.
 Duco Jaspars (@vConsult) 
 Gerben Kloosterman has posted some pictures of the handover as well.</description>
@@ -1328,19 +1328,19 @@ Gerben Kloosterman has posted some pictures of the handover as well.</descriptio
     
     <item>
       <title>VMworld Europe 2010 Pictures</title>
-      <link>/posts/vmworld-europe-2010-pictures/</link>
+      <link>/news/vmworld-europe-2010-pictures/</link>
       <pubDate>Tue, 12 Oct 2010 07:21:50 +0000</pubDate>
       
-      <guid>/posts/vmworld-europe-2010-pictures/</guid>
+      <guid>/news/vmworld-europe-2010-pictures/</guid>
       <description>View slideshow with larger photos</description>
     </item>
     
     <item>
       <title>VMworld europe 2010</title>
-      <link>/posts/vmworld-europe-2010/</link>
+      <link>/virtualization/vmworld-europe-2010/</link>
       <pubDate>Sun, 10 Oct 2010 20:25:42 +0000</pubDate>
       
-      <guid>/posts/vmworld-europe-2010/</guid>
+      <guid>/virtualization/vmworld-europe-2010/</guid>
       <description>[VMworld Europe 2010 is close. Very close. In fact, lots of people are already in place in Copenhagen, personally I don’t get until tomorrow evening (the 11th).
 Since I get in pretty late, I really hope I’ll be able to get to my hotel quickly, and then find Custom House for the Tweetup/VMUG Party.
 Remember I have a little contest going, where you can win a copy of Trainsignal VMware vSphere Pro Series Training Vol.</description>
@@ -1348,10 +1348,10 @@ Remember I have a little contest going, where you can win a copy of Trainsignal 
     
     <item>
       <title>vCenter 4.1 Database Recovery Model Defaults</title>
-      <link>/posts/vcenter-4-1-database-recovery-model-defaults/</link>
+      <link>/virtualization/vcenter-4-1-database-recovery-model-defaults/</link>
       <pubDate>Mon, 04 Oct 2010 21:36:23 +0000</pubDate>
       
-      <guid>/posts/vcenter-4-1-database-recovery-model-defaults/</guid>
+      <guid>/virtualization/vcenter-4-1-database-recovery-model-defaults/</guid>
       <description>Sometimes leaving the defaults in place might just come back and bite you, hard.
 That might also be the case with your vCenter 4.1 database, as I experienced back in July.
 All of a sudden my vCenter Server stopped working. The symptoms where pretty obvious, my client couldn&amp;rsquo;t connect to the vCenter server. Naturally I connected to the server, and noticed that the VMware VirtualCenter Server services had indeed stopped. No wonder the client couldn&amp;rsquo;t connect to it.</description>
@@ -1359,10 +1359,10 @@ All of a sudden my vCenter Server stopped working. The symptoms where pretty obv
     
     <item>
       <title>Going to VMworld Europe 2010 Contest: Where is Christian?</title>
-      <link>/posts/going-to-vmworld-europe-2010-contest-where-is-christian/</link>
+      <link>/virtualization/going-to-vmworld-europe-2010-contest-where-is-christian/</link>
       <pubDate>Fri, 24 Sep 2010 10:50:28 +0000</pubDate>
       
-      <guid>/posts/going-to-vmworld-europe-2010-contest-where-is-christian/</guid>
+      <guid>/virtualization/going-to-vmworld-europe-2010-contest-where-is-christian/</guid>
       <description>Today I finally got word that I will indeed be going to VMworld Europe 2010 in Copenhagen!
 I&amp;rsquo;ve done the registration process, so all that remains is to book the flight and hotel and I&amp;rsquo;m ready to go.
 To celebrate this, I&amp;rsquo;ve decided to announce a little contest;
@@ -1371,10 +1371,10 @@ Where is Christian aka h0bbel? The first person to find me, as in the physical m
     
     <item>
       <title>VMware vSphere Hypervisor Licensing and Cost</title>
-      <link>/posts/vmware-vsphere-hypervisor-licensing-and-cost/</link>
+      <link>/virtualization/vmware-vsphere-hypervisor-licensing-and-cost/</link>
       <pubDate>Wed, 22 Sep 2010 13:51:13 +0000</pubDate>
       
-      <guid>/posts/vmware-vsphere-hypervisor-licensing-and-cost/</guid>
+      <guid>/virtualization/vmware-vsphere-hypervisor-licensing-and-cost/</guid>
       <description>We all know, and love, the fact that vSphere Hypervisor is free of charge. The free version doesn&amp;rsquo;t come with all the bells and whistles of the fully licensed product, but it&amp;rsquo;s still very usable in many scenarios.
 Recently I&amp;rsquo;ve been investigating the possibilities of running vSphere Hypervisor on a number of floating branch offices, also known as vessels.
 I&amp;rsquo;m not going into details about the proposed setup, and how we intend to roll it and so on, but one of the things I really wanted to get out of this was to have all my off-site vSphere Hypervisor installs appear in my vCenter Client.</description>
@@ -1382,20 +1382,20 @@ I&amp;rsquo;m not going into details about the proposed setup, and how we intend
     
     <item>
       <title>P2V a Domain Controller? Why would you?</title>
-      <link>/posts/p2v-a-domain-controller-why-would-you/</link>
+      <link>/virtualization/p2v-a-domain-controller-why-would-you/</link>
       <pubDate>Tue, 21 Sep 2010 19:39:07 +0000</pubDate>
       
-      <guid>/posts/p2v-a-domain-controller-why-would-you/</guid>
+      <guid>/virtualization/p2v-a-domain-controller-why-would-you/</guid>
       <description>Some topics seem to pop up at random intervals, one of them being virtualizing Microsoft Active Directory Domain Controller servers. The question is often either &amp;ldquo;Should I virtualize my Domain Controllers, and if so should I virtualize all of them?&amp;rdquo; or &amp;ldquo;Should I do a P2V (Physical 2 Virtual) conversion of my existing Domain Controllers, or create new ones?&amp;ldquo;
 In this post, I&amp;rsquo;ll be talking about the second question. While there is a lot to be said about the first one as well, I&amp;rsquo;ll leave that for future post.</description>
     </item>
     
     <item>
       <title>Redesigning the vCenter Client?</title>
-      <link>/posts/redesigning-the-vcenter-client/</link>
+      <link>/virtualization/redesigning-the-vcenter-client/</link>
       <pubDate>Mon, 20 Sep 2010 22:12:48 +0000</pubDate>
       
-      <guid>/posts/redesigning-the-vcenter-client/</guid>
+      <guid>/virtualization/redesigning-the-vcenter-client/</guid>
       <description>In fresh blog post, called &amp;ldquo;Resource pools and simultaneous vMotions&amp;rdquo; by Frank Denneman prompted a quick Twitter discussion regarding the vCenter client (and perhaps even vCenter itself). A simple
 Why are there no folders under Host and Clusters view ? from Maish Saidel-Keesing got the ball rolling.
 Could it be that the design of the client itself helps perpetuate the myth the resource pools is an organizational unit, one that should be used as a way of grouping VMs?</description>
@@ -1403,10 +1403,10 @@ Could it be that the design of the client itself helps perpetuate the myth the r
     
     <item>
       <title>HP ProLiant MicroServer - Not Quite There Yet?</title>
-      <link>/posts/hp-proliant-microserver-not-quite-there-yet/</link>
+      <link>/news/hp-proliant-microserver-not-quite-there-yet/</link>
       <pubDate>Thu, 09 Sep 2010 22:44:25 +0000</pubDate>
       
-      <guid>/posts/hp-proliant-microserver-not-quite-there-yet/</guid>
+      <guid>/news/hp-proliant-microserver-not-quite-there-yet/</guid>
       <description>When HP announced their new ProLiant MicroServer, I really hoped that it would be the perfect answer to a specific use case I&amp;rsquo;ve been looking at lately.
 Basically, what I&amp;rsquo;m looking for is a small chassis, low noise branch office server that would be used to host a single virtual machine, offering Read-Only Domain Controller (RODC) and Distributed File System (DFS) file-shares.
 Initially it looked to fit the bill perfectly:</description>
@@ -1414,10 +1414,10 @@ Initially it looked to fit the bill perfectly:</description>
     
     <item>
       <title>SolarWinds VM Console</title>
-      <link>/posts/solarwinds-vm-console/</link>
+      <link>/virtualization/solarwinds-vm-console/</link>
       <pubDate>Wed, 25 Aug 2010 13:34:56 +0000</pubDate>
       
-      <guid>/posts/solarwinds-vm-console/</guid>
+      <guid>/virtualization/solarwinds-vm-console/</guid>
       <description>SolarWinds has released a new free vSphere tool called SolarWinds VM Console.
 Free VM Console Highlights:
  Bounce (shutdown &amp;amp; restart) VMs without logging into vCenter or vSphere
@@ -1429,10 +1429,10 @@ Free VM Console Highlights:
     
     <item>
       <title>vCenter Update Manager to lose it&#39;s fat</title>
-      <link>/posts/vcenter-update-manager-to-lose-its-fat/</link>
+      <link>/virtualization/vcenter-update-manager-to-lose-its-fat/</link>
       <pubDate>Tue, 24 Aug 2010 21:48:02 +0000</pubDate>
       
-      <guid>/posts/vcenter-update-manager-to-lose-its-fat/</guid>
+      <guid>/virtualization/vcenter-update-manager-to-lose-its-fat/</guid>
       <description>Dwayne Lessner who runs IT Blood Pressure, has written a guest post on GestaltIT called Is My Favourite VSphere Tool Is Going Away?
 In his article, Dwayne talks about vCenter Update Manager 4.1, and the fact that it seems to be the last version of the tools that will allow you to patch your Windows and Linux guests:
  VMware vCenter Update Manager Features. vCenter Update Manager 4.1 and its subesquent update releases are the last releases to support scanning and remediation of patches for Windows and Linux guest operating systems and applications running inside a virtual machine.</description>
@@ -1440,10 +1440,10 @@ In his article, Dwayne talks about vCenter Update Manager 4.1, and the fact that
     
     <item>
       <title>vCenter Server 4.1 Performance and Best Practices</title>
-      <link>/posts/vcenter-server-4-1-performance-and-best-practices/</link>
+      <link>/virtualization/vcenter-server-4-1-performance-and-best-practices/</link>
       <pubDate>Tue, 24 Aug 2010 20:06:16 +0000</pubDate>
       
-      <guid>/posts/vcenter-server-4-1-performance-and-best-practices/</guid>
+      <guid>/virtualization/vcenter-server-4-1-performance-and-best-practices/</guid>
       <description>VMware has published a new whitepaper called VMware vCenter Server Performance and Best Practices.
 This is a must read if you manage a vCenter 4.1 installation, or are currently planning your upgrade.
 The whitepaper highlights the performance improvements in the latest version, sizing guidelines, best practices and some really good real world information from several case studies. One simple, but probably often overlooked tip, is that the amount of vCenter Clients connected to your vCenter Server has an impact on it&amp;rsquo;s performance.</description>
@@ -1451,40 +1451,40 @@ The whitepaper highlights the performance improvements in the latest version, si
     
     <item>
       <title>Where in the world is VMware Server?</title>
-      <link>/posts/where-in-the-world-is-vmware-server/</link>
+      <link>/virtualization/where-in-the-world-is-vmware-server/</link>
       <pubDate>Fri, 13 Aug 2010 23:05:33 +0000</pubDate>
       
-      <guid>/posts/where-in-the-world-is-vmware-server/</guid>
+      <guid>/virtualization/where-in-the-world-is-vmware-server/</guid>
       <description>Over at PlanetVM Wil van Antwerpen posted The Future of VMware Server back in May 2010. Wil makes the argument that it seems like VMware is indeed abandoning VMware Server as a product, leaving us with VMware Workstation and VMware Player as the two Windows installable virtualization solutions from the company.
 This has caused some reactions, including my own comment, where I question the smartness of abandoning what might just be one of the best virtualization &amp;ldquo;gateway drugs&amp;rdquo; VMware has to offer.</description>
     </item>
     
     <item>
       <title>Using USB Pass-through in vSphere 4.1</title>
-      <link>/posts/using-usb-pass-through-in-vsphere-4-1/</link>
+      <link>/virtualization/using-usb-pass-through-in-vsphere-4-1/</link>
       <pubDate>Thu, 22 Jul 2010 23:03:27 +0000</pubDate>
       
-      <guid>/posts/using-usb-pass-through-in-vsphere-4-1/</guid>
+      <guid>/virtualization/using-usb-pass-through-in-vsphere-4-1/</guid>
       <description>Finally USB pass-through is possible on ESX hosts with the new vSphere 4.1 release! This feature ha been available in VMware Workstation/Fusion and Player for quite a while. The freshly added feature in vSphere 4.1 even works if you vMotion the guest from one host to another, which is in itself pretty amazing functionality!
 In this post, I&amp;rsquo;ll show how to setup and use the new USB pass-through feature in vSphere 4.</description>
     </item>
     
     <item>
       <title>Scheduling vCenter Backups</title>
-      <link>/posts/scheduling-vcenter-backups/</link>
+      <link>/virtualization/scheduling-vcenter-backups/</link>
       <pubDate>Thu, 22 Jul 2010 12:17:56 +0000</pubDate>
       
-      <guid>/posts/scheduling-vcenter-backups/</guid>
+      <guid>/virtualization/scheduling-vcenter-backups/</guid>
       <description>If you run your vCenter on SQL Server Express 2005, you are missing the ability to set up scheduled backup jobs with SQL Maintenance Plans, a feature available in the full version of SQL Server.
 This might not be a problem if your backup software has SQL Server agents that you use to backup your vCenter databaser, but in smaller environments or even in your lab, you might not have that kind of backup scheme available to you, so what do you do?</description>
     </item>
     
     <item>
       <title>Migrating your vCenter from 32bit to 64bit</title>
-      <link>/posts/migrating-your-vcenter-from-32bit-to-64bit/</link>
+      <link>/virtualization/migrating-your-vcenter-from-32bit-to-64bit/</link>
       <pubDate>Wed, 21 Jul 2010 12:11:28 +0000</pubDate>
       
-      <guid>/posts/migrating-your-vcenter-from-32bit-to-64bit/</guid>
+      <guid>/virtualization/migrating-your-vcenter-from-32bit-to-64bit/</guid>
       <description>As you may or may not know, the new vCenter 4.1 requires that the host it runs on is 64 bit. As 4.0 and previous versions weren&amp;rsquo;t supported on 64 bit at all, this probably means that when you upgrade you will need to move your existing database to a new host.
 There are several ways of doing the migration, but one way is to backup your existing database, and restore it on a new host and point the new vCenter 4.</description>
     </item>

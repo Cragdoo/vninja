@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2014-04-02 18:51:05+00:00
 layout: post
-link: http://vninja.net/news/win-google-chromecast/
 slug: win-google-chromecast
 title: Want to Win a Google Chromecast?
+url: /news/win-google-chromecast/
 wordpress_id: 3139
 categories:
 - News

@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2016-11-07 22:51:03+00:00
 layout: post
-link: http://vninja.net/virtualization/my-vcenter-web-client-customization/
 slug: my-vcenter-web-client-customization
 title: My vCenter Web Client Customization
+url: /virtualization/my-vcenter-web-client-customization/
 wordpress_id: 4336
 categories:
 - Virtualization

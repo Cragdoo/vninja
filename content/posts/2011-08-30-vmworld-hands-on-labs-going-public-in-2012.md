@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2011-08-30 10:41:03+00:00
 layout: post
-link: http://vninja.net/virtualization/vmworld-hands-on-labs-going-public-in-2012/
 slug: vmworld-hands-on-labs-going-public-in-2012
 title: VMworld Hands-on Labs going public in 2012
+url: /virtualization/vmworld-hands-on-labs-going-public-in-2012/
 wordpress_id: 1410
 categories:
 - Virtualization

@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2010-09-24 10:50:28+00:00
 layout: post
-link: http://vninja.net/virtualization/going-to-vmworld-europe-2010-contest-where-is-christian/
 slug: going-to-vmworld-europe-2010-contest-where-is-christian
 title: 'Going to VMworld Europe 2010 Contest: Where is Christian?'
+url: /virtualization/going-to-vmworld-europe-2010-contest-where-is-christian/
 wordpress_id: 305
 categories:
 - Virtualization

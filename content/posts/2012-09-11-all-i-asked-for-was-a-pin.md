@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2012-09-11 17:33:35+00:00
 layout: post
-link: http://vninja.net/virtualization/all-i-asked-for-was-a-pin/
 slug: all-i-asked-for-was-a-pin
 title: '... and All I Asked for Was a Pin'
+url: /virtualization/all-i-asked-for-was-a-pin/
 wordpress_id: 2094
 categories:
 - Virtualization

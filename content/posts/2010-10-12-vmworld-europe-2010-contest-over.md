@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2010-10-12 09:36:46+00:00
 layout: post
-link: http://vninja.net/virtualization/vmworld-europe-2010-contest-over/
 slug: vmworld-europe-2010-contest-over
 title: VMworld Europe 2010 Contest Over
+url: /virtualization/vmworld-europe-2010-contest-over/
 wordpress_id: 346
 categories:
 - Virtualization

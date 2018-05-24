@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2010-07-21 12:11:28+00:00
 layout: post
-link: http://vninja.net/virtualization/migrating-your-vcenter-from-32bit-to-64bit/
 slug: migrating-your-vcenter-from-32bit-to-64bit
 title: Migrating your vCenter from 32bit to 64bit
+url: /virtualization/migrating-your-vcenter-from-32bit-to-64bit/
 wordpress_id: 63
 categories:
 - Virtualization

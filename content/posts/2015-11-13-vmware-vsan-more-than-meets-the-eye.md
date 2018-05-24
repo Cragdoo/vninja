@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2015-11-13 08:54:01+00:00
 layout: post
-link: http://vninja.net/virtualization/vmware-vsan-more-than-meets-the-eye/
 slug: vmware-vsan-more-than-meets-the-eye
 title: VMware VSAN - More than meets the eye.
+url: /virtualization/vmware-vsan-more-than-meets-the-eye/
 wordpress_id: 3892
 categories:
 - Virtualization

@@ -14,10 +14,10 @@
     
     <item>
       <title>Making Royal TSX Even More Awesome</title>
-      <link>/posts/making-royal-tsx-even-more-awesome/</link>
+      <link>/osx/making-royal-tsx-even-more-awesome/</link>
       <pubDate>Wed, 11 Oct 2017 21:45:11 +0000</pubDate>
       
-      <guid>/posts/making-royal-tsx-even-more-awesome/</guid>
+      <guid>/osx/making-royal-tsx-even-more-awesome/</guid>
       <description>For those who don&amp;rsquo;t know, Royal TSX is an awesome Remote Management solution, which supports RDP, VNC, SSH, S/FTP and even ESXi and vCenter. I&amp;rsquo;ve been using it for years, not just because they offer free licenses for vExperts (and others), but simply because it works really well. Store it&amp;rsquo;s config file on a synchronized file area (like Dropbox), and boom, your config follows you around from machine to machine, including custom icons.</description>
     </item>
     

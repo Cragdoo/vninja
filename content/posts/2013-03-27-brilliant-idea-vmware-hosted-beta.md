@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2013-03-27 08:50:29+00:00
 layout: post
-link: http://vninja.net/vmware-2/brilliant-idea-vmware-hosted-beta/
 slug: brilliant-idea-vmware-hosted-beta
 title: 'Brilliant idea: VMware Hosted Beta'
+url: /vmware-2/brilliant-idea-vmware-hosted-beta/
 wordpress_id: 2502
 categories:
 - VMware

@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2014-03-17 22:41:34+00:00
 layout: post
-link: http://vninja.net/virtualization/vsan-unspoken-future/
 slug: vsan-unspoken-future
 title: VSAN - The Unspoken Future
+url: /virtualization/vsan-unspoken-future/
 wordpress_id: 3117
 categories:
 - Virtualization

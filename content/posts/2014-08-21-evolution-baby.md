@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2014-08-21 22:38:22+00:00
 layout: post
-link: http://vninja.net/vmware-2/evolution-baby/
 slug: evolution-baby
 title: It's EVOlution Baby!
+url: /vmware-2/evolution-baby/
 wordpress_id: 3342
 categories:
 - VMware

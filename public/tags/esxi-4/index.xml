@@ -14,10 +14,10 @@
     
     <item>
       <title>VMware ESXi 4 vs ESXi 5 Log File Locations</title>
-      <link>/posts/vmware-esxi-4-vs-esxi-5-log-file-locations/</link>
+      <link>/virtualization/vmware-esxi-4-vs-esxi-5-log-file-locations/</link>
       <pubDate>Mon, 17 Sep 2012 21:24:18 +0000</pubDate>
       
-      <guid>/posts/vmware-esxi-4-vs-esxi-5-log-file-locations/</guid>
+      <guid>/virtualization/vmware-esxi-4-vs-esxi-5-log-file-locations/</guid>
       <description>This post is inspired by a tweet from Andrew Storrs, where he pinpoints that the host log file locations have changed between ESXi 4 and ESXi 5.
 Note: This post has been updated with new log files for ESXi 5.1
 ESXi 4 Log File Locations: [table id=6 /]

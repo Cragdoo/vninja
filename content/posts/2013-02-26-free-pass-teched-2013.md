@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2013-02-26 16:14:48+00:00
 layout: post
-link: http://vninja.net/news/free-pass-teched-2013/
 slug: free-pass-teched-2013
 title: Want a Free Pass to TechEd 2013?
+url: /news/free-pass-teched-2013/
 wordpress_id: 2402
 categories:
 - News

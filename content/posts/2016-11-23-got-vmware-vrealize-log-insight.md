@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2016-11-23 17:37:07+00:00
 layout: post
-link: http://vninja.net/virtualization/got-vmware-vrealize-log-insight/
 slug: got-vmware-vrealize-log-insight
 title: Got VMware vRealize Log Insight?
+url: /virtualization/got-vmware-vrealize-log-insight/
 wordpress_id: 4416
 categories:
 - Virtualization

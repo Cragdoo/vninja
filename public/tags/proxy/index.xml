@@ -14,10 +14,10 @@
     
     <item>
       <title>macOS: Secure Pipes</title>
-      <link>/posts/macos-secure-pipes/</link>
+      <link>/osx/macos-secure-pipes/</link>
       <pubDate>Fri, 14 Oct 2016 13:03:41 +0000</pubDate>
       
-      <guid>/posts/macos-secure-pipes/</guid>
+      <guid>/osx/macos-secure-pipes/</guid>
       <description>Since I set up a public jumphost for my homelab/network, I&amp;rsquo;ve been looking for an easy way to manage my SSH tunnels. After trying a couple of different managers, I&amp;rsquo;ve chosen to use Secure Pipes.This little piece of free software allows you to easily manage SSH tunnels, with features like Remote Forwards, Local Forwards and SOCKS proxies. It runs in the toolbar, and makes connections easily available. It even reconfigures your network settings to use the SOCKS proxy, if allowed to.</description>
     </item>
     

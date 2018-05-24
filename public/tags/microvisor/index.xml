@@ -14,10 +14,10 @@
     
     <item>
       <title>VMware VSAN - More than meets the eye.</title>
-      <link>/posts/vmware-vsan-more-than-meets-the-eye/</link>
+      <link>/virtualization/vmware-vsan-more-than-meets-the-eye/</link>
       <pubDate>Fri, 13 Nov 2015 08:54:01 +0000</pubDate>
       
-      <guid>/posts/vmware-vsan-more-than-meets-the-eye/</guid>
+      <guid>/virtualization/vmware-vsan-more-than-meets-the-eye/</guid>
       <description>Way back in 2014 I wrote a piece called VSAN – The Unspoken Future, and I think it&amp;rsquo;s about time it got a revision. Of course, lots of things have happened to VSAN since then and even more is on the way, but I think there is more to this than adding features like erasure coding, deduplication and compression. All of these are important features, and frankly they need to be in a product that aims a lot higher than you might think.</description>
     </item>
     

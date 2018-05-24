@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2010-08-25 13:34:56+00:00
 layout: post
-link: http://vninja.net/virtualization/solarwinds-vm-console/
 slug: solarwinds-vm-console
 title: SolarWinds VM Console
+url: /virtualization/solarwinds-vm-console/
 wordpress_id: 184
 categories:
 - Virtualization

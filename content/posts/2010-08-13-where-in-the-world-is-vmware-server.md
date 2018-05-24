@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2010-08-13 23:05:33+00:00
 layout: post
-link: http://vninja.net/virtualization/where-in-the-world-is-vmware-server/
 slug: where-in-the-world-is-vmware-server
 title: Where in the world is VMware Server?
+url: /virtualization/where-in-the-world-is-vmware-server/
 wordpress_id: 148
 categories:
 - Virtualization

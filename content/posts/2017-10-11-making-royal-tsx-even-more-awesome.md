@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2017-10-11 21:45:11+00:00
 layout: post
-link: http://vninja.net/osx/making-royal-tsx-even-more-awesome/
 slug: making-royal-tsx-even-more-awesome
 title: Making Royal TSX Even More Awesome
+url: /osx/making-royal-tsx-even-more-awesome/
 wordpress_id: 4751
 categories:
 - OS X

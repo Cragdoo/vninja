@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2010-12-29 14:21:36+00:00
 layout: post
-link: http://vninja.net/virtualization/installing-and-configuring-wanem-virtual-appliance/
 slug: installing-and-configuring-wanem-virtual-appliance
 title: Installing and Configuring WANem Virtual Appliance
+url: /virtualization/installing-and-configuring-wanem-virtual-appliance/
 wordpress_id: 230
 categories:
 - Howto

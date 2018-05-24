@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2010-12-27 22:12:27+00:00
 layout: post
-link: http://vninja.net/news/vninja-used-by-vmware/
 slug: vninja-used-by-vmware
 title: vNinja used by VMware
+url: /news/vninja-used-by-vmware/
 wordpress_id: 687
 categories:
 - News

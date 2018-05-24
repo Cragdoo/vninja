@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2014-01-29 15:58:10+00:00
 layout: post
-link: http://vninja.net/virtualization/random-vcdx-tips-quotes/
 slug: random-vcdx-tips-quotes
 title: Random VCDX Tips and Quotes?
+url: /virtualization/random-vcdx-tips-quotes/
 wordpress_id: 3031
 categories:
 - Virtualization

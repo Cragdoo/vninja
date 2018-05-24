@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2013-09-23 23:28:04+00:00
 layout: post
-link: http://vninja.net/virtualization/quick-dirty-esxi-5-5-upgrade/
 slug: quick-dirty-esxi-5-5-upgrade
 title: Quick and Dirty ESXi 5.5 Upgrade
+url: /virtualization/quick-dirty-esxi-5-5-upgrade/
 wordpress_id: 2728
 categories:
 - Virtualization

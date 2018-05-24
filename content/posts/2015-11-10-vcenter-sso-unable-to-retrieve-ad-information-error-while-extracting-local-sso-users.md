@@ -3,10 +3,10 @@ author: esod
 comments: true
 date: 2015-11-10 19:30:20+00:00
 layout: post
-link: http://vninja.net/virtualization/vcenter-sso-unable-to-retrieve-ad-information-error-while-extracting-local-sso-users/
 slug: vcenter-sso-unable-to-retrieve-ad-information-error-while-extracting-local-sso-users
 title: vCenter / SSO unable to retrieve AD-information | Error while extracting local
   SSO users
+url: /virtualization/vcenter-sso-unable-to-retrieve-ad-information-error-while-extracting-local-sso-users/
 wordpress_id: 3879
 categories:
 - Virtualization

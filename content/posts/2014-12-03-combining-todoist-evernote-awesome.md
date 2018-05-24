@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2014-12-03 16:22:11+00:00
 layout: post
-link: http://vninja.net/workflow/combining-todoist-evernote-awesome/
 slug: combining-todoist-evernote-awesome
 title: Combining Todoist and Evernote, because awesome
+url: /workflow/combining-todoist-evernote-awesome/
 wordpress_id: 3456
 categories:
 - Workflow

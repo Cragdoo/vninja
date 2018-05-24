@@ -14,10 +14,10 @@
     
     <item>
       <title>vCenter / SSO unable to retrieve AD-information | Error while extracting local SSO users</title>
-      <link>/posts/vcenter-sso-unable-to-retrieve-ad-information-error-while-extracting-local-sso-users/</link>
+      <link>/virtualization/vcenter-sso-unable-to-retrieve-ad-information-error-while-extracting-local-sso-users/</link>
       <pubDate>Tue, 10 Nov 2015 19:30:20 +0000</pubDate>
       
-      <guid>/posts/vcenter-sso-unable-to-retrieve-ad-information-error-while-extracting-local-sso-users/</guid>
+      <guid>/virtualization/vcenter-sso-unable-to-retrieve-ad-information-error-while-extracting-local-sso-users/</guid>
       <description>After deploying a new VCSA 6.0u1 I was seeing some weird errors while trying to retrieve AD- users/groups (or anything from the esod.local domain):
 After some serious head scratching, it dawned on me after checking the DNS records for the DC in the domain, from the vCenter Appliance itself:
 [cc lang=&amp;ldquo;bash&amp;rdquo; width=&amp;ldquo;100%&amp;rdquo; theme=&amp;ldquo;blackboard&amp;rdquo; nowrap=&amp;ldquo;0&amp;rdquo;] dig +noall +answer +search dc1.esod.local dc1.esod.local. 3600 IN A 10.0.1.201 [/cc]

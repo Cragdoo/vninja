@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2014-07-18 21:59:52+00:00
 layout: post
-link: http://vninja.net/virtualization/week-virtualization/
 slug: week-virtualization
 title: This Week in Virtualization
+url: /virtualization/week-virtualization/
 wordpress_id: 3281
 categories:
 - Virtualization

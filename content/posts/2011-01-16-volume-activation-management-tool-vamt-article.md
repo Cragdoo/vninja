@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2011-01-16 22:03:48+00:00
 layout: post
-link: http://vninja.net/news/volume-activation-management-tool-vamt-article/
 slug: volume-activation-management-tool-vamt-article
 title: Volume Activation Management Tool (VAMT) article
+url: /news/volume-activation-management-tool-vamt-article/
 wordpress_id: 782
 categories:
 - News

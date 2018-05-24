@@ -14,10 +14,10 @@
     
     <item>
       <title>Thinapped vSphere Client Updated to V5.0</title>
-      <link>/posts/thinapped-vsphere-client-updated-v5-0/</link>
+      <link>/vmware-2/thinapped-vsphere-client-updated-v5-0/</link>
       <pubDate>Thu, 31 May 2012 11:45:52 +0000</pubDate>
       
-      <guid>/posts/thinapped-vsphere-client-updated-v5-0/</guid>
+      <guid>/vmware-2/thinapped-vsphere-client-updated-v5-0/</guid>
       <description>The Thinapped vSphere Client has finally been updated to v5.0, and is readily available for download!
 Sadly the new version is v5.0 only, and will only allow you to connect to vSphere v5 hosts and since the new release has replaced the old release on the VMware Fling website, you´re out of luck if you haven´t already got the 4.0 version stowed away in your own private locker.
 I hope VMware decides to either make the 4.</description>
@@ -25,10 +25,10 @@ I hope VMware decides to either make the 4.</description>
     
     <item>
       <title>Installing and Configuring WANem Virtual Appliance</title>
-      <link>/posts/installing-and-configuring-wanem-virtual-appliance/</link>
+      <link>/virtualization/installing-and-configuring-wanem-virtual-appliance/</link>
       <pubDate>Wed, 29 Dec 2010 14:21:36 +0000</pubDate>
       
-      <guid>/posts/installing-and-configuring-wanem-virtual-appliance/</guid>
+      <guid>/virtualization/installing-and-configuring-wanem-virtual-appliance/</guid>
       <description>In a previous post, Using the WANem WAN Emulator Virtual Appliance, I&amp;rsquo;ve talked about how I&amp;rsquo;ve successfully used WANem to emulate different WAN scenarios.
 Since I work for a shipping company, the ability to emulate VSAT conditions are especially useful for testing and proof-of-concept scenarios.
 You can use WANem a couple of different ways but my setup is pretty simple but does the job perfectly.
@@ -37,20 +37,20 @@ Downloading WANem I have chose to use the WANem Virtual Appliance running in a v
     
     <item>
       <title>Using the WANem WAN Emulator Virtual Appliance</title>
-      <link>/posts/using-the-wanem-wan-emulator-virtual-appliance/</link>
+      <link>/network/using-the-wanem-wan-emulator-virtual-appliance/</link>
       <pubDate>Thu, 26 Aug 2010 11:38:00 +0000</pubDate>
       
-      <guid>/posts/using-the-wanem-wan-emulator-virtual-appliance/</guid>
+      <guid>/network/using-the-wanem-wan-emulator-virtual-appliance/</guid>
       <description>During preparation and preliminary information gathering for a new internal project, I had a need to emulate various networking conditions and scenarios. More specifically I&amp;rsquo;m looking at the possibility of running the vCenter Client over high latency satellite links, with varying bandwidth availability and even packet loss scenarios.
 Obviously the best way of testing this, in a controlled environment, is to use some kind of WAN emulator that lets you control the various networking characteristics.</description>
     </item>
     
     <item>
       <title>SolarWinds VM Console</title>
-      <link>/posts/solarwinds-vm-console/</link>
+      <link>/virtualization/solarwinds-vm-console/</link>
       <pubDate>Wed, 25 Aug 2010 13:34:56 +0000</pubDate>
       
-      <guid>/posts/solarwinds-vm-console/</guid>
+      <guid>/virtualization/solarwinds-vm-console/</guid>
       <description>SolarWinds has released a new free vSphere tool called SolarWinds VM Console.
 Free VM Console Highlights:
  Bounce (shutdown &amp;amp; restart) VMs without logging into vCenter or vSphere

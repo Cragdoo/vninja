@@ -3,10 +3,10 @@ author: cmohn
 comments: true
 date: 2014-07-07 12:47:38+00:00
 layout: post
-link: http://vninja.net/virtualization/disaster-recovery-vmware-vsphere-replication-vcenter-site-recovery-manager-ebook-winners/
 slug: disaster-recovery-vmware-vsphere-replication-vcenter-site-recovery-manager-ebook-winners
 title: Disaster Recovery using VMware vSphere Replication and vCenter Site Recovery
   Manager eBook Winners
+url: /virtualization/disaster-recovery-vmware-vsphere-replication-vcenter-site-recovery-manager-ebook-winners/
 wordpress_id: 3267
 categories:
 - Virtualization

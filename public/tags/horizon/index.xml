@@ -14,10 +14,10 @@
     
     <item>
       <title>Building End-User Computing Solutions with VMware View Book Available</title>
-      <link>/posts/building-end-user-computing-solutions-vmware-view-book/</link>
+      <link>/virtualization/building-end-user-computing-solutions-vmware-view-book/</link>
       <pubDate>Fri, 03 Aug 2012 21:17:13 +0000</pubDate>
       
-      <guid>/posts/building-end-user-computing-solutions-vmware-view-book/</guid>
+      <guid>/virtualization/building-end-user-computing-solutions-vmware-view-book/</guid>
       <description>Mike Laverick and Barry Coombs has released their new book, elegantly titled &amp;ldquo;Building End-User Computing Solutions with VMware View&amp;rdquo;.
 Not only is this a great book, it is something that every existing and potential VMware View (and related technologies in the EUC area) administrator should add to their (digital) bookshelves.
 I´ll let the authors themselves describe it:
@@ -26,10 +26,10 @@ This book is all about VMware View 5.1 and ThinApp 4.7.2 administration - and it
     
     <item>
       <title>VMware Horizon Application Manager Now and Beyond</title>
-      <link>/posts/vmware-horizon-application-manager-now-and-beyond/</link>
+      <link>/virtualization/vmware-horizon-application-manager-now-and-beyond/</link>
       <pubDate>Wed, 16 Nov 2011 23:05:06 +0000</pubDate>
       
-      <guid>/posts/vmware-horizon-application-manager-now-and-beyond/</guid>
+      <guid>/virtualization/vmware-horizon-application-manager-now-and-beyond/</guid>
       <description>VMware has announced Horizon Application Manager 1.2, and together with the new ThinApp 4.7 release it promises &amp;ldquo;end users access to Windows, SaaS and enterprise web applications across different devices while retaining control and visibility via policy-driven management&amp;rdquo;.
 VMware Horizon Application Manager now manages your ThinApp applications making it easier and faster to provide virtualized Windows applications to end users. From Horizon Administration, you can deploy ThinApp packages, entitle users and groups, track user licenses, and manage application updates.</description>
     </item>

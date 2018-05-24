@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2010-07-22 23:03:27+00:00
 layout: post
-link: http://vninja.net/virtualization/using-usb-pass-through-in-vsphere-4-1/
 slug: using-usb-pass-through-in-vsphere-4-1
 title: Using USB Pass-through in vSphere 4.1
+url: /virtualization/using-usb-pass-through-in-vsphere-4-1/
 wordpress_id: 131
 categories:
 - Howto

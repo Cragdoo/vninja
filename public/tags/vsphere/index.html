@@ -91,7 +91,7 @@
 
 <article class="blog-post">
   <header>
-    <h2 class="blog-post-title"><a href="/posts/bootbank-cannot-be-found-at-path/">Alerting on &ldquo;Bootbank cannot be found at path ‘/bootbank’&rdquo; in vRealize Operations</a></h2>
+    <h2 class="blog-post-title"><a href="/vmware-2/bootbank-cannot-be-found-at-path/">Alerting on &ldquo;Bootbank cannot be found at path ‘/bootbank’&rdquo; in vRealize Operations</a></h2>
     <p class="blog-post-meta"><time datetime="2018-01-29T22:49:53Z">Mon Jan 29, 2018</time> by cmohn in 
 <i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/vmware" rel="category tag">VMware</a>
 
@@ -103,7 +103,7 @@
   If you boot your ESXi hosts from SD-cards or USB you might have run into this issue. Suddenly your host(s) displays the following under events: &ldquo;Bootbank cannot be found at path ‘/bootbank’.&rdquo;
 Usually this means that the boot device has been corrupted somehow, either due to a device failure or other issues. Normally the host continues to run, until it&rsquo;s rebooted that is&hellip;
 For some reason, vRealize Operations doesn&rsquo;t pick this up as a host issue that it alerts on, so if your alerting regime is based on vROps alerts, you might not get alerted immediately.
-  <a href='/posts/bootbank-cannot-be-found-at-path/'>Read more →</a>
+  <a href='/vmware-2/bootbank-cannot-be-found-at-path/'>Read more →</a>
 </article> 
 
 
@@ -113,7 +113,7 @@ For some reason, vRealize Operations doesn&rsquo;t pick this up as a host issue 
 
 <article class="blog-post">
   <header>
-    <h2 class="blog-post-title"><a href="/posts/vmware-vsphere-6-5-psod-gp-exception-13/">VMware vSphere 6.5 PSOD: GP Exception 13</a></h2>
+    <h2 class="blog-post-title"><a href="/vmware-2/vmware-vsphere-6-5-psod-gp-exception-13/">VMware vSphere 6.5 PSOD: GP Exception 13</a></h2>
     <p class="blog-post-meta"><time datetime="2017-02-25T08:50:26Z">Sat Feb 25, 2017</time> by cmohn in 
 <i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/vmware" rel="category tag">VMware</a>
 
@@ -124,7 +124,7 @@ For some reason, vRealize Operations doesn&rsquo;t pick this up as a host issue 
   </header>
   While at a customer site, migrating an old vSphere 5.5 environment to 6.5, several hosts suddenly crashed with a PSOD during the migration. Long story short, we got hit by this: VMware KB 2147958: _ESXi 6.5 host fails with PSOD: GP Exception 13 in multiple VMM world at VmAnonAllocVmmPages (2147958)
 It turned out that a bunch of the VMs we were vMotioning from the old environment had the cpuid.corePerSocket advanced setting set in the .
-  <a href='/posts/vmware-vsphere-6-5-psod-gp-exception-13/'>Read more →</a>
+  <a href='/vmware-2/vmware-vsphere-6-5-psod-gp-exception-13/'>Read more →</a>
 </article> 
 
 
@@ -134,7 +134,7 @@ It turned out that a bunch of the VMs we were vMotioning from the old environmen
 
 <article class="blog-post">
   <header>
-    <h2 class="blog-post-title"><a href="/posts/esxi-snapshot-problems-msg-snapshot-error-quiescingerror/">ESXi Snapshot Problems: msg.snapshot.error-QUIESCINGERROR</a></h2>
+    <h2 class="blog-post-title"><a href="/vmware-2/esxi-snapshot-problems-msg-snapshot-error-quiescingerror/">ESXi Snapshot Problems: msg.snapshot.error-QUIESCINGERROR</a></h2>
     <p class="blog-post-meta"><time datetime="2017-02-01T13:18:04Z">Wed Feb 01, 2017</time> by cmohn in 
 <i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/vmware" rel="category tag">VMware</a>
 
@@ -147,7 +147,7 @@ It turned out that a bunch of the VMs we were vMotioning from the old environmen
 Just a quick post about something I experienced at a client, with ESXi 6.0 hosts, today:
 If you have trouble performing VMware snapshots, and see a msg.snapshot.error-QUIESCINGERROR error, check the host time settings and NTP.
 In this case, snapshots of VMs located on other hosts in the cluster were fine, but once a VM was moved to the new host, snapshot operations failed after an hour or so.
-  <a href='/posts/esxi-snapshot-problems-msg-snapshot-error-quiescingerror/'>Read more →</a>
+  <a href='/vmware-2/esxi-snapshot-problems-msg-snapshot-error-quiescingerror/'>Read more →</a>
 </article> 
 
 
@@ -157,7 +157,7 @@ In this case, snapshots of VMs located on other hosts in the cluster were fine, 
 
 <article class="blog-post">
   <header>
-    <h2 class="blog-post-title"><a href="/posts/vsphere-platform-services-controller-psc-topology-and-omnigraffle/">vSphere Platform Services Controller (PSC) topology and Omnigraffle</a></h2>
+    <h2 class="blog-post-title"><a href="/virtualization/vsphere-platform-services-controller-psc-topology-and-omnigraffle/">vSphere Platform Services Controller (PSC) topology and Omnigraffle</a></h2>
     <p class="blog-post-meta"><time datetime="2016-05-22T19:19:52Z">Sun May 22, 2016</time> by cmohn in 
 <i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
 
@@ -168,7 +168,7 @@ In this case, snapshots of VMs located on other hosts in the cluster were fine, 
   </header>
   A little while ago William Lam published a little python script called extract_vsphere_deployment_topology.py that basically lets you export your current vSphere PSC topology as a DOT (graph description language) file. Great stuff, and in itself useful as is, especially if you run it through webgraphviz.com as William suggests.
 The thing is, you might want to edit the topology map, change colours and fonts, and even move the boxes around, after you get the output.
-  <a href='/posts/vsphere-platform-services-controller-psc-topology-and-omnigraffle/'>Read more →</a>
+  <a href='/virtualization/vsphere-platform-services-controller-psc-topology-and-omnigraffle/'>Read more →</a>
 </article> 
 
 
@@ -178,7 +178,7 @@ The thing is, you might want to edit the topology map, change colours and fonts,
 
 <article class="blog-post">
   <header>
-    <h2 class="blog-post-title"><a href="/posts/vmware-vsan-more-than-meets-the-eye/">VMware VSAN - More than meets the eye.</a></h2>
+    <h2 class="blog-post-title"><a href="/virtualization/vmware-vsan-more-than-meets-the-eye/">VMware VSAN - More than meets the eye.</a></h2>
     <p class="blog-post-meta"><time datetime="2015-11-13T08:54:01Z">Fri Nov 13, 2015</time> by cmohn in 
 <i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
 
@@ -188,7 +188,7 @@ The thing is, you might want to edit the topology map, change colours and fonts,
 </p>
   </header>
   Way back in 2014 I wrote a piece called VSAN – The Unspoken Future, and I think it&rsquo;s about time it got a revision. Of course, lots of things have happened to VSAN since then and even more is on the way, but I think there is more to this than adding features like erasure coding, deduplication and compression. All of these are important features, and frankly they need to be in a product that aims a lot higher than you might think.
-  <a href='/posts/vmware-vsan-more-than-meets-the-eye/'>Read more →</a>
+  <a href='/virtualization/vmware-vsan-more-than-meets-the-eye/'>Read more →</a>
 </article> 
 
 

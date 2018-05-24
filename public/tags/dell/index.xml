@@ -14,10 +14,10 @@
     
     <item>
       <title>Patch those Dell Servers easily!</title>
-      <link>/posts/patch-those-dell-servers-easily/</link>
+      <link>/hardware/patch-those-dell-servers-easily/</link>
       <pubDate>Mon, 10 Oct 2016 13:18:30 +0000</pubDate>
       
-      <guid>/posts/patch-those-dell-servers-easily/</guid>
+      <guid>/hardware/patch-those-dell-servers-easily/</guid>
       <description>Did you know that Dell has a bootable linux ISO with firmware upgrades for their servers available? Neither did I, but luckily I found it today when needing it at a customer site.
 Check out Updating Dell PowerEdge servers via bootable media / ISO where you can download bootable ISOs for specific server models, and get all your firmware upgraded in one fell swoop.
 Be warned though, it takes quite some time to run though it all (125 update packages in this instance), but it sure beats installing manually or creating your own bootable ISO with the Dell Repository Manager or even using Dell Server Update Utility.</description>
@@ -25,30 +25,30 @@ Be warned though, it takes quite some time to run though it all (125 update pac
     
     <item>
       <title>Configuring VSAN on a Dell PowerEdge VRTX</title>
-      <link>/posts/configuring-vsan-dell-poweredge-vrtx/</link>
+      <link>/virtualization/configuring-vsan-dell-poweredge-vrtx/</link>
       <pubDate>Wed, 19 Feb 2014 12:30:08 +0000</pubDate>
       
-      <guid>/posts/configuring-vsan-dell-poweredge-vrtx/</guid>
+      <guid>/virtualization/configuring-vsan-dell-poweredge-vrtx/</guid>
       <description>The Dell PowerEdge VRTX shared infrastructure platform is interesting, and I&amp;rsquo;ve been lucky enough to be able to borrow one from Dell for testing purposes.
 One of the things I wanted to test, was if it was possible to run VMware VSAN on it, even if the Shared PERC8 RAID controller it comes with is not on the VMware VSAN HCL, nor does it provide a method to do passthrough to present raw disks directly to the hosts.</description>
     </item>
     
     <item>
       <title>Installing Dell Equallogic Multipathing Extension Module (MEM) in vSphere 5.1</title>
-      <link>/posts/installing-dell-equallogic-multipathing-extension-module-mem-vsphere-5-1/</link>
+      <link>/virtualization/installing-dell-equallogic-multipathing-extension-module-mem-vsphere-5-1/</link>
       <pubDate>Mon, 22 Apr 2013 21:31:46 +0000</pubDate>
       
-      <guid>/posts/installing-dell-equallogic-multipathing-extension-module-mem-vsphere-5-1/</guid>
+      <guid>/virtualization/installing-dell-equallogic-multipathing-extension-module-mem-vsphere-5-1/</guid>
       <description>Dell offers a Multipathing Extension Module (MEM) for vSphere, and in this post I´ll highlight how to &amp;ldquo;manually&amp;rdquo; install it on a ESXi 5.1 host. I will not cover the network setup part of the equation, but rather go through the simple steps required to get the MEM installed on the hosts in question.
 First of all, you need to download the MEM installation package. At the time of writing, the latest version is v1.</description>
     </item>
     
     <item>
       <title>Dell (VKernel) vOPS Server Explorer 6.3 Released</title>
-      <link>/posts/dell-vkernel-vops-server-explorer-6-3-released/</link>
+      <link>/virtualization/dell-vkernel-vops-server-explorer-6-3-released/</link>
       <pubDate>Mon, 14 Jan 2013 23:53:50 +0000</pubDate>
       
-      <guid>/posts/dell-vkernel-vops-server-explorer-6-3-released/</guid>
+      <guid>/virtualization/dell-vkernel-vops-server-explorer-6-3-released/</guid>
       <description>[caption id=&amp;ldquo;attachment_2341&amp;rdquo; align=&amp;ldquo;alignright&amp;rdquo; width=&amp;ldquo;300&amp;rdquo;] vOPS 6.3 Environment Explorer[/caption]
 Yesterday fellow vExpert Mattias Sundling gave me a little pre-release briefing of the new Dell/VKernel vOPS Server Explorer 6.3 release.
 While I don´t normally do press release posts like these, I´m willing to make an exception in this case.

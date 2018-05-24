@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2016-11-18 22:38:33+00:00
 layout: post
-link: http://vninja.net/virtualization/in-the-bag-3-week-46/
 slug: in-the-bag-3-week-46
 title: 'In The Bag #3 - Week 46'
+url: /virtualization/in-the-bag-3-week-46/
 wordpress_id: 4374
 categories:
 - InTheBag

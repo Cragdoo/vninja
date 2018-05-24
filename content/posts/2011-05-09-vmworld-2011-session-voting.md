@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2011-05-09 10:29:39+00:00
 layout: post
-link: http://vninja.net/news/vmworld-2011-session-voting/
 slug: vmworld-2011-session-voting
 title: VMworld 2011 Session Voting
+url: /news/vmworld-2011-session-voting/
 wordpress_id: 1089
 categories:
 - News

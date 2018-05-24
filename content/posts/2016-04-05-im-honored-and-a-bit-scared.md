@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2016-04-05 19:13:25+00:00
 layout: post
-link: http://vninja.net/network/im-honored-and-a-bit-scared/
 slug: im-honored-and-a-bit-scared
 title: I'm honored. And a Bit Scared.
+url: /network/im-honored-and-a-bit-scared/
 wordpress_id: 4067
 categories:
 - Network

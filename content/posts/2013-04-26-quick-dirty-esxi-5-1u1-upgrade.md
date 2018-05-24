@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2013-04-26 12:36:07+00:00
 layout: post
-link: http://vninja.net/vmware-2/quick-dirty-esxi-5-1u1-upgrade/
 slug: quick-dirty-esxi-5-1u1-upgrade
 title: Quick and Dirty ESXi 5.1U1 Upgrade
+url: /vmware-2/quick-dirty-esxi-5-1u1-upgrade/
 wordpress_id: 2559
 categories:
 - VMware

@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2011-06-01 11:07:52+00:00
 layout: post
-link: http://vninja.net/news/vsoup-and-tech-field-day-6/
 slug: vsoup-and-tech-field-day-6
 title: 'vSoup and Tech Field Day #6'
+url: /news/vsoup-and-tech-field-day-6/
 wordpress_id: 1110
 categories:
 - News

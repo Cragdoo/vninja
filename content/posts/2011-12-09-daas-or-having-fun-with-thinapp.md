@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2011-12-09 21:59:21+00:00
 layout: post
-link: http://vninja.net/virtualization/daas-or-having-fun-with-thinapp/
 slug: daas-or-having-fun-with-thinapp
 title: DaaS or Having Fun with ThinApp
+url: /virtualization/daas-or-having-fun-with-thinapp/
 wordpress_id: 1650
 categories:
 - Virtualization

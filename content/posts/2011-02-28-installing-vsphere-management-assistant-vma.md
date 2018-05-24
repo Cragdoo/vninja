@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2011-02-28 23:26:15+00:00
 layout: post
-link: http://vninja.net/virtualization/installing-vsphere-management-assistant-vma/
 slug: installing-vsphere-management-assistant-vma
 title: Installing vSphere Management Assistant (vMA)
+url: /virtualization/installing-vsphere-management-assistant-vma/
 wordpress_id: 868
 categories:
 - Howto
@@ -57,7 +57,7 @@ Navigate to "_File_", find and select the _"Deploy OVF template_" option
 
 [![](http://vninja.net/wordpress/wp-content/uploads/2011/03/Deploy-vMA-02-245x300.png)](http://vninja.net/wordpress/wp-content/uploads/2011/03/Deploy-vMA-02.png)
 
-This starts the OVF deployment wizard. In the "_Deploy from a file or URL_"  text box, enter the following URL: [http://download3.vmware.com/software/vma/vMA-4.1.0.0-268837.ovf](http://download3.vmware.com/software/vma/vMA-4.1.0.0-268837.ovf) and click on "_Next_".
+This starts the OVF deployment wizard. In the "_Deploy from a file or URL_"  text box, enter the following url:  [http://download3.vmware.com/software/vma/vMA-4.1.0.0-268837.ovf](http://download3.vmware.com/software/vma/vMA-4.1.0.0-268837.ovf) and click on "_Next_".
 
 **Note:** This URL is valid at the point of writing, but might change at a later date when a new version is released by VMware.
 

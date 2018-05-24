@@ -14,29 +14,29 @@
     
     <item>
       <title>Top vBlog 2016</title>
-      <link>/posts/top-vblog-2016/</link>
+      <link>/network/top-vblog-2016/</link>
       <pubDate>Tue, 03 May 2016 08:47:23 +0000</pubDate>
       
-      <guid>/posts/top-vblog-2016/</guid>
+      <guid>/network/top-vblog-2016/</guid>
       <description>The top vBlog 2016 voting has opened, go forth and vote for your favourites now - There are a lot of them to choose from!</description>
     </item>
     
     <item>
       <title>I&#39;m honored. And a Bit Scared.</title>
-      <link>/posts/im-honored-and-a-bit-scared/</link>
+      <link>/network/im-honored-and-a-bit-scared/</link>
       <pubDate>Tue, 05 Apr 2016 19:13:25 +0000</pubDate>
       
-      <guid>/posts/im-honored-and-a-bit-scared/</guid>
+      <guid>/network/im-honored-and-a-bit-scared/</guid>
       <description>Yesterday was my first real day as a_ Senior Solutions Architect_ for Proact, and today I flew to Oslo for on-boarding and some face-to-face time with my new colleagues over there. By the looks of it, there is a lot of exciting things in the pipeline, and it we land the things we have started on this should be interesting. Very interesting indeed.
 In addition to the excitement around changing employers, and roles, some other things have also happened.</description>
     </item>
     
     <item>
       <title>Migrating from Watchguard Firebox X to XTM Series Firewalls</title>
-      <link>/posts/migrating-from-watchguard-firebox-x-to-xtm-series-firewalls/</link>
+      <link>/network/migrating-from-watchguard-firebox-x-to-xtm-series-firewalls/</link>
       <pubDate>Fri, 07 Jan 2011 22:07:31 +0000</pubDate>
       
-      <guid>/posts/migrating-from-watchguard-firebox-x-to-xtm-series-firewalls/</guid>
+      <guid>/network/migrating-from-watchguard-firebox-x-to-xtm-series-firewalls/</guid>
       <description>Watchguard has recently retired their X series of firewalls and replaced them with their new lineup of XTM boxes.
 I took this opportunity to replace my X series firewalls with some from the new lineup, and found a neat way to migrate your existing configuration from old to new in a few very easy steps.
 
@@ -45,10 +45,10 @@ Note: _Normally I would not recommend migrating your configuration in this manne
     
     <item>
       <title>Installing and Configuring WANem Virtual Appliance</title>
-      <link>/posts/installing-and-configuring-wanem-virtual-appliance/</link>
+      <link>/virtualization/installing-and-configuring-wanem-virtual-appliance/</link>
       <pubDate>Wed, 29 Dec 2010 14:21:36 +0000</pubDate>
       
-      <guid>/posts/installing-and-configuring-wanem-virtual-appliance/</guid>
+      <guid>/virtualization/installing-and-configuring-wanem-virtual-appliance/</guid>
       <description>In a previous post, Using the WANem WAN Emulator Virtual Appliance, I&amp;rsquo;ve talked about how I&amp;rsquo;ve successfully used WANem to emulate different WAN scenarios.
 Since I work for a shipping company, the ability to emulate VSAT conditions are especially useful for testing and proof-of-concept scenarios.
 You can use WANem a couple of different ways but my setup is pretty simple but does the job perfectly.
@@ -57,10 +57,10 @@ Downloading WANem I have chose to use the WANem Virtual Appliance running in a v
     
     <item>
       <title>Using the WANem WAN Emulator Virtual Appliance</title>
-      <link>/posts/using-the-wanem-wan-emulator-virtual-appliance/</link>
+      <link>/network/using-the-wanem-wan-emulator-virtual-appliance/</link>
       <pubDate>Thu, 26 Aug 2010 11:38:00 +0000</pubDate>
       
-      <guid>/posts/using-the-wanem-wan-emulator-virtual-appliance/</guid>
+      <guid>/network/using-the-wanem-wan-emulator-virtual-appliance/</guid>
       <description>During preparation and preliminary information gathering for a new internal project, I had a need to emulate various networking conditions and scenarios. More specifically I&amp;rsquo;m looking at the possibility of running the vCenter Client over high latency satellite links, with varying bandwidth availability and even packet loss scenarios.
 Obviously the best way of testing this, in a controlled environment, is to use some kind of WAN emulator that lets you control the various networking characteristics.</description>
     </item>

@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2016-11-11 17:08:24+00:00
 layout: post
-link: http://vninja.net/inthebag/in-the-bag-2-week-45/
 slug: in-the-bag-2-week-45
 title: 'In The Bag #2 - Week 45'
+url: /inthebag/in-the-bag-2-week-45/
 wordpress_id: 4355
 categories:
 - InTheBag

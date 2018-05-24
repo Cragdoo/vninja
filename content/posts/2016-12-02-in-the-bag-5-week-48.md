@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2016-12-02 10:12:30+00:00
 layout: post
-link: http://vninja.net/inthebag/in-the-bag-5-week-48/
 slug: in-the-bag-5-week-48
 title: 'In The Bag #5 - Week 48'
+url: /inthebag/in-the-bag-5-week-48/
 wordpress_id: 4480
 categories:
 - InTheBag

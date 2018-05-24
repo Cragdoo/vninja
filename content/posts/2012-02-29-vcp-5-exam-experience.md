@@ -3,9 +3,9 @@ author: eczerwin
 comments: true
 date: 2012-02-29 20:00:42+00:00
 layout: post
-link: http://vninja.net/virtualization/vcp-5-exam-experience/
 slug: vcp-5-exam-experience
 title: My VCP 5 exam experience
+url: /virtualization/vcp-5-exam-experience/
 wordpress_id: 1820
 categories:
 - Virtualization

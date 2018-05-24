@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2016-11-08 23:42:49+00:00
 layout: post
-link: http://vninja.net/misc/using-gitbook-for-secrets/
 slug: using-gitbook-for-secrets
 title: Using GitBook for Secrets
+url: /misc/using-gitbook-for-secrets/
 wordpress_id: 4340
 categories:
 - Misc

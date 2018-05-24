@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2011-09-07 12:07:23+00:00
 layout: post
-link: http://vninja.net/virtualization/vmware-workstation-8-whats-new/
 slug: vmware-workstation-8-whats-new
 title: VMware Workstation 8 - What's new?
+url: /virtualization/vmware-workstation-8-whats-new/
 wordpress_id: 1415
 categories:
 - Virtualization

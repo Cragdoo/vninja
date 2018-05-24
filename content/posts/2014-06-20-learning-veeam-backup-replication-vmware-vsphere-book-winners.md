@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2014-06-20 09:47:22+00:00
 layout: post
-link: http://vninja.net/news/learning-veeam-backup-replication-vmware-vsphere-book-winners/
 slug: learning-veeam-backup-replication-vmware-vsphere-book-winners
 title: Learning Veeam Backup & Replication for VMware vSphere Book Winners
+url: /news/learning-veeam-backup-replication-vmware-vsphere-book-winners/
 wordpress_id: 3237
 categories:
 - News

@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2014-02-18 16:16:28+00:00
 layout: post
-link: http://vninja.net/vmware-2/automatically-datastores-vsphere/
 slug: automatically-datastores-vsphere
 title: Automatically Name Datastores in vSphere?
+url: /vmware-2/automatically-datastores-vsphere/
 wordpress_id: 3069
 categories:
 - VMware

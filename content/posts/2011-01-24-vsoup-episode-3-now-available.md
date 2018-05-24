@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2011-01-24 13:16:39+00:00
 layout: post
-link: http://vninja.net/news/vsoup-episode-3-now-available/
 slug: vsoup-episode-3-now-available
 title: 'vSoup Episode #3 now available'
+url: /news/vsoup-episode-3-now-available/
 wordpress_id: 836
 categories:
 - News

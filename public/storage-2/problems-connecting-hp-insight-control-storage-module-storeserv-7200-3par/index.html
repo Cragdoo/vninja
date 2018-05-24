@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="Problems connecting HP Insight Control Storage Module to StoreServ 7200 (3Par)" />
+<meta property="og:description" content="A customer of mine, who runs a pure HP environment based on c7000 and StoreServ 7200, wanted to get the HP Insight Control Storage Module for vCenter up and running. The problem was that while we were able to connect to the older MSA array they run for non-production workloads, we were unable to connect to the newer StoreServ 7200. There is full IP connectivity between the application server that the HP Insight components run on and the storage controllers/VSP (no firewalls between them, they are located in the same subnet)." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/storage-2/problems-connecting-hp-insight-control-storage-module-storeserv-7200-3par/" />
+
+
+
+<meta property="article:published_time" content="2014-08-21T22:21:59&#43;00:00"/>
+
+<meta property="article:modified_time" content="2014-08-21T22:21:59&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Problems connecting HP Insight Control Storage Module to StoreServ 7200 (3Par)"/>
+<meta name="twitter:description" content="A customer of mine, who runs a pure HP environment based on c7000 and StoreServ 7200, wanted to get the HP Insight Control Storage Module for vCenter up and running. The problem was that while we were able to connect to the older MSA array they run for non-production workloads, we were unable to connect to the newer StoreServ 7200. There is full IP connectivity between the application server that the HP Insight components run on and the storage controllers/VSP (no firewalls between them, they are located in the same subnet)."/>
+<meta name="generator" content="Hugo 0.40.3" />
+
+
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Problems connecting HP Insight Control Storage Module to StoreServ 7200 (3Par)",
+  "url": "/storage-2/problems-connecting-hp-insight-control-storage-module-storeserv-7200-3par/",
+  "wordCount": "300",
+  "datePublished": "2014-08-21T22:21:59&#43;00:00",
+  "dateModified": "2014-08-21T22:21:59&#43;00:00",
+  "author": {
+    "@type": "Person",
+    "name": "cmohn"
+  },
+  "keywords": "Storage, 3Par, HP, HP Insight Control, StoreServ, Troubleshooting, vCenter Operations Manager"
+}
+</script>
+
+
+
+    <link rel="canonical" href="/storage-2/problems-connecting-hp-insight-control-storage-module-storeserv-7200-3par/">
+
+    <title>Problems connecting HP Insight Control Storage Module to StoreServ 7200 (3Par) | Adventures in Hugo</title>
+
+    <!-- combined, minified CSS -->
+    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
+
+    
+
+    
+
+    
+
+    
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="/">Home</a>
+          
+          <a class="nav-link" href="https://example.org" title="">Link 1</a>
+          
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
+        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+      </div>
+    </header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/storage-2/problems-connecting-hp-insight-control-storage-module-storeserv-7200-3par/">Problems connecting HP Insight Control Storage Module to StoreServ 7200 (3Par)</a></h2>
+    <p class="blog-post-meta"><time datetime="2014-08-21T22:21:59Z">Thu Aug 21, 2014</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/storage" rel="category tag">Storage</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/3par" rel="tag">3Par</a>, <a href="/tags/hp" rel="tag">HP</a>, <a href="/tags/hp-insight-control" rel="tag">HP Insight Control</a>, <a href="/tags/storeserv" rel="tag">StoreServ</a>, <a href="/tags/troubleshooting" rel="tag">Troubleshooting</a>, <a href="/tags/vcenter-operations-manager" rel="tag">vCenter Operations Manager</a>
+
+</p>
+  </header>
+  <p>A customer of mine, who runs a pure HP environment based on c7000 and StoreServ 7200, wanted to get the <a href="http://www.youtube.com/watch?v=A93zVmnheEE">HP Insight Control Storage Module for vCenter</a> up and running. The problem was that while we were able to connect to the older MSA array they run for non-production workloads, we were unable to connect to the newer StoreServ 7200. There is full IP connectivity between the application server that the HP Insight components run on and the storage controllers/VSP (no firewalls between them, they are located in the same subnet).</p>
+
+<p>The only error message we got was an “unable to connect” message, when using the same credentials and ip address used for the 3Par Management Console. After reaching out to quite a few people, including <a href="https://twitter.com/h0bbel/status/499488699412123649">Twitter</a>, we finally found the solution. It turns out that the CIM service on the array was not responding, in fact it was disabled, which naturally resulted in not being able to connect.</p>
+
+<p>A quick ssh session to the array, revealed that the CIM service was disabled.
+[cc lang=&ldquo;bash&rdquo; width=&ldquo;100%&rdquo; theme=&ldquo;blackboard&rdquo; nowrap=&ldquo;1&rdquo;]
+login as: username
+Password: *************</p>
+
+<p>3par-array cli% showcim
+-Service- -State&ndash; &ndash;SLP&ndash; SLPPort -HTTP&ndash; HTTPPort -HTTPS- HTTPSPort PGVer CIMVer
+Disabled  Inactive Enabled     427 Enabled     5988 Enabled      5989 2.9.1 3.1.2
+3par-array cli% stopcim
+Are you sure you want to stop CIM server?
+select q=quit y=yes n=no: y
+CIM server stopped successfully.
+3par-array cli% startcim
+CIM server will start in about 90 seconds
+3par-array cli%
+[/cc]</p>
+
+<p>Restarting it fixed the issue, and we now have StoreServ data available directly in the vSphere Web (and C#) client. This also fixed the connection problem we had with vCenter Operations Manager and the <a href="http://h20392.www2.hp.com/portal/swdepot/displayProductInfo.do?productNumber=vCOPS">The HP StoreFront Analytics adapter</a>.</p>
+
+<p><em>So, if you are unable to connect to your StoreServ, check the CIM service - It might just be disabled.</em></p>
+
+
+  
+
+  
+  <hr>
+  <footer>
+
+  
+    <section>
+    <h4>Share</h4>
+    <nav class="nav sharing-icons">
+      <a class="nav-item" href="https://www.facebook.com/sharer/sharer.php?u=%2fstorage-2%2fproblems-connecting-hp-insight-control-storage-module-storeserv-7200-3par%2f" title="Share on Facebook"><span class="fa fa-facebook fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://plus.google.com/share?url=%2fstorage-2%2fproblems-connecting-hp-insight-control-storage-module-storeserv-7200-3par%2f" title="Share on Google+"><span class="fa fa-google-plus fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fstorage-2%2fproblems-connecting-hp-insight-control-storage-module-storeserv-7200-3par%2f" title="Share on LinkedIn"><span class="fa fa-linkedin fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://twitter.com/home?status=%2fstorage-2%2fproblems-connecting-hp-insight-control-storage-module-storeserv-7200-3par%2f" title="Tweet this"><span class="fa fa-twitter fa-2x"></span></a>
+    </nav>
+  </section>
+
+  
+
+  
+  </footer>
+  
+
+</article> 
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="https://example.com">Link 1</a></li>
+      
+      <li><a href="https://example.org">Link 2</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p>
+      
+      &copy; Christian Mohn
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>

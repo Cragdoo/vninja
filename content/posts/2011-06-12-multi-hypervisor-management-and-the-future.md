@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2011-06-12 20:34:52+00:00
 layout: post
-link: http://vninja.net/news/multi-hypervisor-management-and-the-future/
 slug: multi-hypervisor-management-and-the-future
 title: Multi-Hypervisor Management and the Future
+url: /news/multi-hypervisor-management-and-the-future/
 wordpress_id: 1158
 categories:
 - News

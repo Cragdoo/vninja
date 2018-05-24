@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2017-04-11 16:08:30+00:00
 layout: post
-link: http://vninja.net/virtualization/vmware-vsan-6-6-whats-new-for-day-2-operations/
 slug: vmware-vsan-6-6-whats-new-for-day-2-operations
 title: VMware vSAN 6.6 - What's New for Day 2 Operations?
+url: /virtualization/vmware-vsan-6-6-whats-new-for-day-2-operations/
 wordpress_id: 4635
 categories:
 - Virtualization

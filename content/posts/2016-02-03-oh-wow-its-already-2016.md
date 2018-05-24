@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2016-02-03 14:22:39+00:00
 layout: post
-link: http://vninja.net/misc/oh-wow-its-already-2016/
 slug: oh-wow-its-already-2016
 title: Oh wow, it's already 2016.
+url: /misc/oh-wow-its-already-2016/
 wordpress_id: 4011
 categories:
 - Misc

@@ -14,10 +14,10 @@
     
     <item>
       <title>Migrating from Watchguard Firebox X to XTM Series Firewalls</title>
-      <link>/posts/migrating-from-watchguard-firebox-x-to-xtm-series-firewalls/</link>
+      <link>/network/migrating-from-watchguard-firebox-x-to-xtm-series-firewalls/</link>
       <pubDate>Fri, 07 Jan 2011 22:07:31 +0000</pubDate>
       
-      <guid>/posts/migrating-from-watchguard-firebox-x-to-xtm-series-firewalls/</guid>
+      <guid>/network/migrating-from-watchguard-firebox-x-to-xtm-series-firewalls/</guid>
       <description>Watchguard has recently retired their X series of firewalls and replaced them with their new lineup of XTM boxes.
 I took this opportunity to replace my X series firewalls with some from the new lineup, and found a neat way to migrate your existing configuration from old to new in a few very easy steps.
 

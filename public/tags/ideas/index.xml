@@ -14,19 +14,19 @@
     
     <item>
       <title>Do you ChangeLog?</title>
-      <link>/posts/changelog/</link>
+      <link>/workflow/changelog/</link>
       <pubDate>Wed, 18 Feb 2015 10:31:53 +0000</pubDate>
       
-      <guid>/posts/changelog/</guid>
+      <guid>/workflow/changelog/</guid>
       <description>In my work as a consultant I often have many small tasks to perform for customers, all while completing a bigger project. I have found that an easy way to keep track of all the little and big changes, is to create a ChangeLog. Normally ChangeLog&amp;rsquo;s are referenced in development projects, but it also sense to use it to track of your own, or your team members, changes to an infrastructure environment.</description>
     </item>
     
     <item>
       <title>Automatically Name Datastores in vSphere?</title>
-      <link>/posts/automatically-datastores-vsphere/</link>
+      <link>/vmware-2/automatically-datastores-vsphere/</link>
       <pubDate>Tue, 18 Feb 2014 16:16:28 +0000</pubDate>
       
-      <guid>/posts/automatically-datastores-vsphere/</guid>
+      <guid>/vmware-2/automatically-datastores-vsphere/</guid>
       <description>William Lam posted &amp;ldquo;Why you should rename the default VSAN Datastore name&amp;rdquo; where he outlines why the default name for VSAN data stores should be changed. Of course, I completely agree with his views on this; Leaving it at the default might cause confusion down the line.
 At the end of the post, William asks the following:
 I wonder if it would be a useful to have a feature in VSAN to automatically append the vSphere Cluster name to the default VSAN Datastore name?</description>

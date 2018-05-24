@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2016-11-02 00:19:30+00:00
 layout: post
-link: http://vninja.net/virtualization/running-telnetlogger-on-my-home-ip/
 slug: running-telnetlogger-on-my-home-ip
 title: Running telnetlogger on my home IP
+url: /virtualization/running-telnetlogger-on-my-home-ip/
 wordpress_id: 4284
 categories:
 - Virtualization

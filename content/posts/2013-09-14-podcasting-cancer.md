@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2013-09-14 20:14:03+00:00
 layout: post
-link: http://vninja.net/virtualization/podcasting-cancer/
 slug: podcasting-cancer
 title: Podcasting for Cancer
+url: /virtualization/podcasting-cancer/
 wordpress_id: 2720
 categories:
 - Virtualization

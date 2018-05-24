@@ -14,10 +14,10 @@
     
     <item>
       <title>Can Microsoft really be Fair and Balanced?</title>
-      <link>/posts/microsoft-fair-balanced/</link>
+      <link>/virtualization/microsoft-fair-balanced/</link>
       <pubDate>Tue, 29 Oct 2013 23:25:14 +0000</pubDate>
       
-      <guid>/posts/microsoft-fair-balanced/</guid>
+      <guid>/virtualization/microsoft-fair-balanced/</guid>
       <description>Microsoft has launched Virtualization2, a program to educate VMware administrators on Hyper-V and the System Center suite of tools. In short, these arefree online training sessiosn on November 19th and 20th, that also comes with a voucher for their new Microsoft virtualization certification exam (74-409).
 This comes in addition to their existing Microsoft Virtualization for VMware Professionals Jump Start training course.
 I think this is a good idea, and if you are able to close your eyes to the hyperbole, and disregard things like &amp;ldquo;Microsoft Wants to Help VMware Experts “Future-Proof “ Their Career&amp;rdquo;, I applaud this initiative.</description>
@@ -25,10 +25,10 @@ I think this is a good idea, and if you are able to close your eyes to the hyper
     
     <item>
       <title>Backup Academy - Do You Know Your VM backups?</title>
-      <link>/posts/backup-academy-do-you-know-your-vm-backups/</link>
+      <link>/virtualization/backup-academy-do-you-know-your-vm-backups/</link>
       <pubDate>Tue, 13 Sep 2011 13:39:25 +0000</pubDate>
       
-      <guid>/posts/backup-academy-do-you-know-your-vm-backups/</guid>
+      <guid>/virtualization/backup-academy-do-you-know-your-vm-backups/</guid>
       <description>The newly opened Backup Academy, by Veeam, aims to educate administrators, and others interested in virtual machine backup, in the required skills to maintain a proper backup strategy for your virtual infrastructure.
 Currently the site has 8 videos available, covering content from disaster recovery to backup integrity tools.
 Even if it is run by Veeam, it does not focus on Veeam specific products or services, but rather on the general ideas behind a successful backup and disaster recovery of both VMware and Hyper-V based environments.</description>
@@ -36,10 +36,10 @@ Even if it is run by Veeam, it does not focus on Veeam specific products or serv
     
     <item>
       <title>Multi-Hypervisor Management and the Future</title>
-      <link>/posts/multi-hypervisor-management-and-the-future/</link>
+      <link>/news/multi-hypervisor-management-and-the-future/</link>
       <pubDate>Sun, 12 Jun 2011 20:34:52 +0000</pubDate>
       
-      <guid>/posts/multi-hypervisor-management-and-the-future/</guid>
+      <guid>/news/multi-hypervisor-management-and-the-future/</guid>
       <description>In a previous post, vCenter Integration Mantra, I made the point that vSphere vAdmins wants the 3rd party modules to integrate into the vCenter client and show their delicious addon-value there, and not in their own management interface. Give the vAdmins the info they need, where they do most, if not all their work. Open up the admin client and let us get all that juicy and fruity information we need.</description>
     </item>
     

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="Virtual Connect FlexFabric and Direct-Attach FC 3Par Caveat" />
+<meta property="og:description" content="When configuring a new C7000 Blade Enclosure with a couple of FlexFabric 10Gb/24-port modules I ran into a rather annoying issue during setup.
+HP Virtual Connect 3.70 introduced support for Direct-Attach setups of HP 3Par StoreServ 7000 storage systems, where you can eliminate the need for dedicated FC switches. For full details, have a look at Implementing HP Virtual Connect Direct-Attach Fibre Channel with HP 3PAR StoreServ Systems.
+This is excellent for setups where all your hosts are HP Blades, and you have a Virtual Connect FlexFabric setup." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/storage-2/virtual-connect-flexfabric-direct-attach-fc-3par-caveat/" />
+
+
+
+<meta property="article:published_time" content="2013-05-30T21:08:45&#43;00:00"/>
+
+<meta property="article:modified_time" content="2013-05-30T21:08:45&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Virtual Connect FlexFabric and Direct-Attach FC 3Par Caveat"/>
+<meta name="twitter:description" content="When configuring a new C7000 Blade Enclosure with a couple of FlexFabric 10Gb/24-port modules I ran into a rather annoying issue during setup.
+HP Virtual Connect 3.70 introduced support for Direct-Attach setups of HP 3Par StoreServ 7000 storage systems, where you can eliminate the need for dedicated FC switches. For full details, have a look at Implementing HP Virtual Connect Direct-Attach Fibre Channel with HP 3PAR StoreServ Systems.
+This is excellent for setups where all your hosts are HP Blades, and you have a Virtual Connect FlexFabric setup."/>
+<meta name="generator" content="Hugo 0.40.3" />
+
+
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Virtual Connect FlexFabric and Direct-Attach FC 3Par Caveat",
+  "url": "/storage-2/virtual-connect-flexfabric-direct-attach-fc-3par-caveat/",
+  "wordCount": "420",
+  "datePublished": "2013-05-30T21:08:45&#43;00:00",
+  "dateModified": "2013-05-30T21:08:45&#43;00:00",
+  "author": {
+    "@type": "Person",
+    "name": "cmohn"
+  },
+  "keywords": "Storage, 3Par, BladeSystem, Bug, Fibre Channel, HP, SFP+, storage, StoreServ, Virtual Connect"
+}
+</script>
+
+
+
+    <link rel="canonical" href="/storage-2/virtual-connect-flexfabric-direct-attach-fc-3par-caveat/">
+
+    <title>Virtual Connect FlexFabric and Direct-Attach FC 3Par Caveat | Adventures in Hugo</title>
+
+    <!-- combined, minified CSS -->
+    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
+
+    
+
+    
+
+    
+
+    
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="/">Home</a>
+          
+          <a class="nav-link" href="https://example.org" title="">Link 1</a>
+          
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
+        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+      </div>
+    </header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/storage-2/virtual-connect-flexfabric-direct-attach-fc-3par-caveat/">Virtual Connect FlexFabric and Direct-Attach FC 3Par Caveat</a></h2>
+    <p class="blog-post-meta"><time datetime="2013-05-30T21:08:45Z">Thu May 30, 2013</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/storage" rel="category tag">Storage</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/3par" rel="tag">3Par</a>, <a href="/tags/bladesystem" rel="tag">BladeSystem</a>, <a href="/tags/bug" rel="tag">Bug</a>, <a href="/tags/fibre-channel" rel="tag">Fibre Channel</a>, <a href="/tags/hp" rel="tag">HP</a>, <a href="/tags/sfp&#43;" rel="tag">SFP&#43;</a>, <a href="/tags/storage" rel="tag">storage</a>, <a href="/tags/storeserv" rel="tag">StoreServ</a>, <a href="/tags/virtual-connect" rel="tag">Virtual Connect</a>
+
+</p>
+  </header>
+  <p>When configuring a new C7000 Blade Enclosure with a couple of FlexFabric 10Gb/24-port modules I ran into a rather annoying issue during setup.</p>
+
+<p>HP Virtual Connect 3.70 introduced support for Direct-Attach setups of HP 3Par StoreServ 7000 storage systems, where you can eliminate the need for dedicated FC switches. For full details, have a look at <a href="http://h20000.www2.hp.com/bc/docs/support/SupportManual/c03605173/c03605173.pdf">Implementing HP Virtual Connect Direct-Attach Fibre Channel with HP 3PAR StoreServ Systems</a>.</p>
+
+<p>This is excellent for setups where all your hosts are HP Blades, and you have a Virtual Connect FlexFabric setup. After all, less components means less complexity, right?</p>
+
+<p>The problem I ran into is a bit strange though, and it took some time figuring out what was wrong. The HP 3Par StoreServ 7200 was racked, stacked and configured when the FC <a href="http://en.wikipedia.org/wiki/Small_form-factor_pluggable_transceiver">SFP+</a>  modules where installed in the FlexFabric module, and I pretty much thought it would be plug and play from there to get the blades to talk FC to the HP 3Par after going through the Virtual Connect setup.</p>
+
+<p>Sadly, that was not the case. It seems there is a bug in the web GUI for VC 3.70 that prevents getting a working setup. I know 3.75 is released, but nothing in the <a href="http://bizsupport2.austin.hp.com/bc/docs/support/SupportManual/c03673099/c03673099.pdf">release notes</a> seem to indicate that this has been fixed in that release.</p>
+
+<p>For some reason, the &ldquo;Fabric Type&rdquo; dropdown where you should be able to select either &ldquo;FabricAttach&rdquo; or &ldquo;DirectAttach&rdquo; is greyed out, thus preventing the proper configuration of the SAN Fabric in &ldquo;DirectAttach&rdquo; mode. It defaults to &ldquo;FabricAttach&rdquo;, and in a Direct-Attach scenario that simply does not work. You will not be able to get a FC link and the SFP+ module will be listed as &ldquo;unsupported&rdquo;.</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2013/05/SanFabric-1a.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2013/05/SanFabric-1a-300x157.png" alt="SanFabric-1a" /></a></p>
+
+<p>The solution was to create the SAN Fabric manually by using the Virtual Connect CLI interface. T
+he following commands created the two fabrics required for redundancy (VC module in Bay 1 and in Bay 2)</p>
+
+<p>[cc lang=&ldquo;bash&rdquo; width=&ldquo;100%&rdquo; theme=&ldquo;blackboard&rdquo; nowrap=&ldquo;0&rdquo;]
+add fabric Fabric-1-3PAR Bay=1 Ports=1 Type=DirectAttach
+add fabric Fabric-2-3PAR Bay=2 Ports=1 Type=DirectAttach
+[/cc]</p>
+
+<p>As you can see, by using the <em>add fabric</em> command it was possible to define the correct Fabric Type and I could then proceed to add Port 2 from Bay 2 to Fabric-1-3PAR and vice versa to create a fully redundant setup.</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2013/05/SanFabric-2.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2013/05/SanFabric-2-300x76.png" alt="SanFabric-2" /></a></p>
+
+<p>Why the VC GUI prevented me from setting the correct fabric type is beyond me, but for some reason it simply did not allow me to change this rather important setting, and prevented the setup from working without using the CLI for configuration.</p>
+
+
+  
+
+  
+  <hr>
+  <footer>
+
+  
+    <section>
+    <h4>Share</h4>
+    <nav class="nav sharing-icons">
+      <a class="nav-item" href="https://www.facebook.com/sharer/sharer.php?u=%2fstorage-2%2fvirtual-connect-flexfabric-direct-attach-fc-3par-caveat%2f" title="Share on Facebook"><span class="fa fa-facebook fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://plus.google.com/share?url=%2fstorage-2%2fvirtual-connect-flexfabric-direct-attach-fc-3par-caveat%2f" title="Share on Google+"><span class="fa fa-google-plus fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fstorage-2%2fvirtual-connect-flexfabric-direct-attach-fc-3par-caveat%2f" title="Share on LinkedIn"><span class="fa fa-linkedin fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://twitter.com/home?status=%2fstorage-2%2fvirtual-connect-flexfabric-direct-attach-fc-3par-caveat%2f" title="Tweet this"><span class="fa fa-twitter fa-2x"></span></a>
+    </nav>
+  </section>
+
+  
+
+  
+  </footer>
+  
+
+</article> 
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="https://example.com">Link 1</a></li>
+      
+      <li><a href="https://example.org">Link 2</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p>
+      
+      &copy; Christian Mohn
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>

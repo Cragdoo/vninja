@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2011-05-16 12:34:45+00:00
 layout: post
-link: http://vninja.net/news/tech-field-day-6-delegate-i-am/
 slug: tech-field-day-6-delegate-i-am
 title: 'Tech Field Day #6 - Delegate I Am'
+url: /news/tech-field-day-6-delegate-i-am/
 wordpress_id: 1099
 categories:
 - News

@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="Installing and Configuring WANem Virtual Appliance" />
+<meta property="og:description" content="In a previous post, Using the WANem WAN Emulator Virtual Appliance, I&rsquo;ve talked about how I&rsquo;ve successfully used WANem to emulate different WAN scenarios.
+Since I work for a shipping company, the ability to emulate VSAT conditions are especially useful for testing and proof-of-concept scenarios.
+You can use WANem a couple of different ways but my setup is pretty simple but does the job perfectly.
+Downloading WANem I have chose to use the WANem Virtual Appliance running in a virtual machine hosted by VMware Workstation." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/virtualization/installing-and-configuring-wanem-virtual-appliance/" />
+
+
+
+<meta property="article:published_time" content="2010-12-29T14:21:36&#43;00:00"/>
+
+<meta property="article:modified_time" content="2010-12-29T14:21:36&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Installing and Configuring WANem Virtual Appliance"/>
+<meta name="twitter:description" content="In a previous post, Using the WANem WAN Emulator Virtual Appliance, I&rsquo;ve talked about how I&rsquo;ve successfully used WANem to emulate different WAN scenarios.
+Since I work for a shipping company, the ability to emulate VSAT conditions are especially useful for testing and proof-of-concept scenarios.
+You can use WANem a couple of different ways but my setup is pretty simple but does the job perfectly.
+Downloading WANem I have chose to use the WANem Virtual Appliance running in a virtual machine hosted by VMware Workstation."/>
+<meta name="generator" content="Hugo 0.40.3" />
+
+
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Installing and Configuring WANem Virtual Appliance",
+  "url": "/virtualization/installing-and-configuring-wanem-virtual-appliance/",
+  "wordCount": "1188",
+  "datePublished": "2010-12-29T14:21:36&#43;00:00",
+  "dateModified": "2010-12-29T14:21:36&#43;00:00",
+  "author": {
+    "@type": "Person",
+    "name": "cmohn"
+  },
+  "keywords": "Howto, Network, Virtualization, Free Tools, HowTo, Networking, Ops, Simulation, vCenter, Virtual Appliance, VMware"
+}
+</script>
+
+
+
+    <link rel="canonical" href="/virtualization/installing-and-configuring-wanem-virtual-appliance/">
+
+    <title>Installing and Configuring WANem Virtual Appliance | Adventures in Hugo</title>
+
+    <!-- combined, minified CSS -->
+    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
+
+    
+
+    
+
+    
+
+    
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="/">Home</a>
+          
+          <a class="nav-link" href="https://example.org" title="">Link 1</a>
+          
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
+        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+      </div>
+    </header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/virtualization/installing-and-configuring-wanem-virtual-appliance/">Installing and Configuring WANem Virtual Appliance</a></h2>
+    <p class="blog-post-meta"><time datetime="2010-12-29T14:21:36Z">Wed Dec 29, 2010</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/howto" rel="category tag">Howto</a>, <a href="/categories/network" rel="category tag">Network</a>, <a href="/categories/virtualization" rel="category tag">Virtualization</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/free-tools" rel="tag">Free Tools</a>, <a href="/tags/howto" rel="tag">HowTo</a>, <a href="/tags/networking" rel="tag">Networking</a>, <a href="/tags/ops" rel="tag">Ops</a>, <a href="/tags/simulation" rel="tag">Simulation</a>, <a href="/tags/vcenter" rel="tag">vCenter</a>, <a href="/tags/virtual-appliance" rel="tag">Virtual Appliance</a>, <a href="/tags/vmware" rel="tag">VMware</a>
+
+</p>
+  </header>
+  
+
+<p>In a previous post, Using the <a href="http://vninja.net/network/using-the-wanem-wan-emulator-virtual-appliance/">WANem WAN Emulator Virtual Appliance</a>, I&rsquo;ve talked about how I&rsquo;ve successfully used WANem to emulate different WAN scenarios.</p>
+
+<p>Since I work for a shipping company, the ability to emulate <a href="http://en.wikipedia.org/wiki/Very_small_aperture_terminal">VSAT</a> conditions are especially useful for testing and proof-of-concept scenarios.</p>
+
+<p>You can use WANem a couple of different ways but my setup is pretty simple but does the job perfectly.</p>
+
+<h4 id="downloading-wanem">Downloading WANem</h4>
+
+<p>I have chose to use the <a href="http://wanem.sourceforge.net/download-vma.html">WANem Virtual Appliance</a> running in a virtual machine hosted by VMware Workstation. If you don&rsquo;t have Workstation handy, VMware Player will also do the job. You don&rsquo;t need to use the virtual appliance, as WANem also offers a bootable ISO download that you could boot your VM from</p>
+
+<h4 id="starting-and-configuring-wanem">Starting and configuring WANem</h4>
+
+<p>First off, extract the <em>WANemv2.1.zip</em> file, and place the virtual machine files in a know location. My choice is _c:\virtual machines_ but you will have to adjust that for your specific environment.</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2010/12/WANem-1.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/12/WANem-1-300x131.png" alt="" /></a></p>
+
+<p>Secondly, fire up VMware Workstation and chose the &ldquo;Open existing VM or Team&rdquo; option</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2010/12/WANem-2.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/12/WANem-2-300x210.png" alt="" /></a></p>
+
+<p>In the file dialog box browse to where you extracted the virtual machine files and select &ldquo;Open&rdquo;</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2010/12/WANem-3.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/12/WANem-3-300x210.png" alt="" /></a></p>
+
+<p>I like to run the WANem VM in bridge mode, since this gives the VM it&rsquo;s own IP address from my DHCP server. This comes in handy later when we setup what traffic we want to route through WANem.
+By default the VM is configured in &ldquo;Bridge Mode&rdquo; which is the network mode we want, so go ahead and start the VM by pressing the <em>&ldquo;Power on this virtual machine&rdquo;</em> option.</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2010/12/WANem-4.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/12/WANem-4-300x137.png" alt="" /></a></p>
+
+<p>The WANem VM starts to boot up, but it stops asking if you want to configure all network interfaces via DHCP.</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2010/12/WANem-5.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/12/WANem-5-300x198.png" alt="" /></a></p>
+
+<p>As I use DHCP in my network, I don&rsquo;t have to specify any network information so I hit <em>&lsquo;y&rsquo;</em> to let it continue booting.
+Once again the boot process stops, this time asking you to specify a root password for the VM. Provide your own password twice, and the boot process is finished. Don&rsquo;t worry about the password strength, or even if you remember it later. The VM boots on a pre-configured Knoppix LiveCD, and the next time you start it it will ask for a new password.</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2010/12/WANem-6.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/12/WANem-6-300x180.png" alt="" /></a></p>
+
+<p>If you don&rsquo;t see the IP address that WANem has received from your DHCP server, type <em>status</em> and hit enter, and it will show you the IP it has been assigned.</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2010/12/WANem-7.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/12/WANem-7-300x201.png" alt="" /></a></p>
+
+<p>Open your favorite browser, and point it to <em><a href="http://WANemIP/WANem">http://WANemIP/WANem</a></em> (in my case this was <a href="http://192.168.5.90/WANem">http://192.168.5.90/WANem</a>)</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2010/12/WANem-8.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/12/WANem-8-300x220.png" alt="" /></a></p>
+
+<p>And there it is, WANem is up and running. We&rsquo;ll leave it as is for the time being, and start routing traffic through it as is.</p>
+
+<h4 id="running-ip-traffic-trough-wanem">Running IP traffic trough WANem</h4>
+
+<p>You have a couple of choices when it comes to routing your traffic through WANem. The easiest setup si where you set WANem as your default gateway and route <em>all</em> traffic through it. Remember though that this only comes into play if your destination is on another subnet than the one you are currently connected to. In many scenarios this isn&rsquo;t desirable, and I prefer to route specific traffic through WANem and not have to play around with my DHCP assigned settings.</p>
+
+<p>What I usually do, is to drop into <em>cmd</em> in administrator mode, and issue the following command:</p>
+
+<p><strong><em>route add {destination IP} mask 255.255.255.255 {WANem IP}</em></strong></p>
+
+<p>This routes all traffic from the computer I run the command on, through the WANem IP address, and from there on it goes to it&rsquo;s original destination. This allows it to work on local subnet traffic, as well as remote traffic, and it will not affect any other IP traffic from that computer to the rest of the network.</p>
+
+<p>Obviously, we need a destination as well. For this lab setup I decided to route the traffic to my local printer through WANem. It&rsquo;s ip is 192.168.5.12, so the command to run inside cmd as administrator is:</p>
+
+<p><strong><em>route add 192.168.5.12 mask 255.255.255.255 192.168.5.90</em></strong></p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2010/12/WANem-9.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/12/WANem-9-300x151.png" alt="" /></a></p>
+
+<p>Now, all traffic from my local computer to my printer is routed through WANem. For now, nothing much happens. WANem receives the data on it&rsquo;s network card, and promptly sends it on it&rsquo;s merry way to the final destination; my printer. No innocent packets have been mauled or otherwise hurt in the process, at least not so far.</p>
+
+<p>If you want to route <em>everything</em> even local subnet traffic through WANem, enter the following command:</p>
+
+<p><strong><em>route add 0.0.0.0 mask 0.0.0.0 {WANem IP}</em></strong>
+See <a href="http://vninja.net/virtualization/installing-and-configuring-wanem-virtual-appliance/#comment-1556">this commen</a>t for context<strong>_.
+_</strong></p>
+
+<h4 id="tweaking-wanem-settings">Tweaking WANem settings</h4>
+
+<p>Finally, the fun part! Now we can start playing around with those innocent little network packets that flow through the network. Ever wanted to know what happens if you try to print to a printer over a 128kb WAN link? Well, now you can! I would strongly advise against trying to print your über 120 slide PowerPoint presentation at this point, but you can if you want to. Possibly.</p>
+
+<p>I&rsquo;m not going to try to print over the link as it is now, we&rsquo;ll have to settle for a little demonstration using much simpler means.</p>
+
+<p>Tool of choice the ever faithfull <em>ping</em>. Basically I&rsquo;ll demonstrate how WANem fiddles with your network traffic. First off, a just a normal ping of my printer with no edits done by WANem what so ever:</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2010/12/WANem-10.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/12/WANem-10-300x151.png" alt="" /></a></p>
+
+<p>As you can see, as this is on my local network, the response time is great at 1ms and no dropped packets.</p>
+
+<p>Now we can open the WANem web interface, and start messing about. Click on &ldquo;Advanced Mode&rdquo; and then on the &ldquo;Start&rdquo; button to bring up the web interface.</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2010/12/WANem-12.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/12/WANem-12-300x220.png" alt="" /></a></p>
+
+<p>The next screen brings up a lot of options, and we&rsquo;re going to tweak a couple of them.</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2010/12/WANem-12a.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/12/WANem-12a-300x220.png" alt="" /></a></p>
+
+<p>I set the <em>&ldquo;Delay Time (ms)&rdquo;</em> to 200ms and the <em>&ldquo;Loss %&rdquo;</em> to 25%, and hit <em>&ldquo;Apply Settings&rdquo;</em>. When we turn back to our cmd window, we should see instant results in our ping monitor.</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2010/12/WANem-12b.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/12/WANem-12b-300x151.png" alt="" /></a></p>
+
+<p>As you can see, the response time is now approximately 200ms and the packet loss is about 25%, in accordance with the settings I&rsquo;ve applied. Of course, as you can see, there are lots of other settings to play around with as well.</p>
+
+<p>WANem also allows you to save your settings, so if you find your own perfect little real world emulation scenario you can export the settings and re-apply them later if you wish.</p>
+
+<h4 id="cleaning-house">Cleaning house</h4>
+
+<p>When testing is over, be sure to remove your static route(s) again. If you don&rsquo;t, and you power down your WANem appliance you simply will not be able to reach your destination(s) until it&rsquo;s powered on again. Thankfully, removing the static routes are as easy as adding them in the first place. The command to run, in an administrative mode cmd is:</p>
+
+<p><strong><em>route delete {destination IP}</em></strong></p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2010/12/WANem-13.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/12/WANem-13-300x151.png" alt="" /></a></p>
+
+<h4 id="conclusion">Conclusion</h4>
+
+<p><a href="http://wanem.sourceforge.net/">WANem</a> is a very nice, and simple to set up, little appliance that could make it much easier planning deployments and emulating real world scenarios. After all, do you know how your applications behave if they get high latency connections? Or if you get <a href="http://en.wikipedia.org/wiki/Jitter#Packet_jitter_in_computer_networks">jitter</a> problems or even dropped packets?</p>
+
+<p>Give it a test, you might just get a bit surprised at the results you get.</p>
+
+
+  
+
+  
+  <hr>
+  <footer>
+
+  
+    <section>
+    <h4>Share</h4>
+    <nav class="nav sharing-icons">
+      <a class="nav-item" href="https://www.facebook.com/sharer/sharer.php?u=%2fvirtualization%2finstalling-and-configuring-wanem-virtual-appliance%2f" title="Share on Facebook"><span class="fa fa-facebook fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://plus.google.com/share?url=%2fvirtualization%2finstalling-and-configuring-wanem-virtual-appliance%2f" title="Share on Google+"><span class="fa fa-google-plus fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fvirtualization%2finstalling-and-configuring-wanem-virtual-appliance%2f" title="Share on LinkedIn"><span class="fa fa-linkedin fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://twitter.com/home?status=%2fvirtualization%2finstalling-and-configuring-wanem-virtual-appliance%2f" title="Tweet this"><span class="fa fa-twitter fa-2x"></span></a>
+    </nav>
+  </section>
+
+  
+
+  
+  </footer>
+  
+
+</article> 
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="https://example.com">Link 1</a></li>
+      
+      <li><a href="https://example.org">Link 2</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p>
+      
+      &copy; Christian Mohn
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>

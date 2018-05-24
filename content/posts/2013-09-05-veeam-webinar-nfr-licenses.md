@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2013-09-05 15:38:56+00:00
 layout: post
-link: http://vninja.net/virtualization/veeam-webinar-nfr-licenses/
 slug: veeam-webinar-nfr-licenses
 title: Veeam Webinar & NFR Licenses
+url: /virtualization/veeam-webinar-nfr-licenses/
 wordpress_id: 2708
 categories:
 - Virtualization

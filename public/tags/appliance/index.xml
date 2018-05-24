@@ -14,10 +14,10 @@
     
     <item>
       <title>Building an Ubuntu 14.04 Appliance with VMware Studio 2.6</title>
-      <link>/posts/building-ubuntu-14-04-appliance-vmware-studio-2-6/</link>
+      <link>/vmware-2/building-ubuntu-14-04-appliance-vmware-studio-2-6/</link>
       <pubDate>Tue, 07 Oct 2014 23:26:03 +0000</pubDate>
       
-      <guid>/posts/building-ubuntu-14-04-appliance-vmware-studio-2-6/</guid>
+      <guid>/vmware-2/building-ubuntu-14-04-appliance-vmware-studio-2-6/</guid>
       <description>VMware Studio 2.6 was released way back in March 2012, and surprisingly there seems to be no new update in sight. While VMware Studio technically still works, even with newer versions of ESXi and vCenter, the supported operating systems for the appliances it can build is somewhat outdated:
  Red Hat Enterprise Linux 5.5&amp;frasl;6.0
  SUSE Linux Enterprise Server 10.2&amp;frasl;11.1
@@ -27,30 +27,30 @@
     
     <item>
       <title>VMware vShield Manager Upgrade - Password Issues</title>
-      <link>/posts/vmware-vshield-manager-upgrade-password-issues/</link>
+      <link>/vmware-2/vmware-vshield-manager-upgrade-password-issues/</link>
       <pubDate>Tue, 29 Apr 2014 08:18:35 +0000</pubDate>
       
-      <guid>/posts/vmware-vshield-manager-upgrade-password-issues/</guid>
+      <guid>/vmware-2/vmware-vshield-manager-upgrade-password-issues/</guid>
       <description>While upgrading a vShield Manager 5.1.1 install to 5.1.4 at a client, I ran into an issue with logging in after a completed upgrade. The username and password used to log in, and subsequently upload the upgrade file, was no longer working after the upgrade finished and the vShield Manager appliance had been rebooted.
 It turns out that this was due to using international characters in the password for the admin user, in this case the Norwegian specialities æ, ø or å.</description>
     </item>
     
     <item>
       <title>vPostgres Database Backup in vCSA 5.5</title>
-      <link>/posts/vpostgres-database-backup-vcsa-5-5/</link>
+      <link>/virtualization/vpostgres-database-backup-vcsa-5-5/</link>
       <pubDate>Tue, 01 Oct 2013 08:42:47 +0000</pubDate>
       
-      <guid>/posts/vpostgres-database-backup-vcsa-5-5/</guid>
+      <guid>/virtualization/vpostgres-database-backup-vcsa-5-5/</guid>
       <description>With the new vSphere 5.5 release, the VMware vCenter Appliance (vCSA) has grown up to be a viable alternative to the traditional Microsoft Windows based vCenter deployment scenario. The new vCSA version supports up to 100 hosts and 3000 (with an external Oracle database the values change to 1000&amp;frasl;10000) virtual machines, a big improvement from 5 hosts and 50 virtual machines in the previous version.
 Sadly, the only external database option available for vCSA 5.</description>
     </item>
     
     <item>
       <title>Upgrading vSphere vCenter Appliance 5.1 to 5.5</title>
-      <link>/posts/upgrading-vsphere-vcenter-appliance-5-1-5-5/</link>
+      <link>/vmware-2/upgrading-vsphere-vcenter-appliance-5-1-5-5/</link>
       <pubDate>Mon, 30 Sep 2013 12:20:38 +0000</pubDate>
       
-      <guid>/posts/upgrading-vsphere-vcenter-appliance-5-1-5-5/</guid>
+      <guid>/vmware-2/upgrading-vsphere-vcenter-appliance-5-1-5-5/</guid>
       <description>In VMware KB Upgrading vCenter Server Appliance 5.0.x/5.1 to 5.5 (2058441) the procedure for upgrading an existing 5.0/5.1 vSphere vCenter Server Appliance is outlined, walking you through the steps required including deploying a new 5.5 vCSA and transferring the data from the old instance to the new one. Straight forward procedure, but there is one small caveat in this process.
 One important thing to remember, and something I don´t feel that the knowledge-base article highlights well enough is that the new v5.</description>
     </item>

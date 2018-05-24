@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2011-03-07 22:43:33+00:00
 layout: post
-link: http://vninja.net/virtualization/using-vma-as-a-local-vsphere-patch-repository/
 slug: using-vma-as-a-local-vsphere-patch-repository
 title: Using vMA as a local vSphere Patch Repository
+url: /virtualization/using-vma-as-a-local-vsphere-patch-repository/
 wordpress_id: 887
 categories:
 - Howto

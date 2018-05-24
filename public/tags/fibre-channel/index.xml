@@ -14,10 +14,10 @@
     
     <item>
       <title>Virtual Connect FlexFabric and Direct-Attach FC 3Par Caveat</title>
-      <link>/posts/virtual-connect-flexfabric-direct-attach-fc-3par-caveat/</link>
+      <link>/storage-2/virtual-connect-flexfabric-direct-attach-fc-3par-caveat/</link>
       <pubDate>Thu, 30 May 2013 21:08:45 +0000</pubDate>
       
-      <guid>/posts/virtual-connect-flexfabric-direct-attach-fc-3par-caveat/</guid>
+      <guid>/storage-2/virtual-connect-flexfabric-direct-attach-fc-3par-caveat/</guid>
       <description>When configuring a new C7000 Blade Enclosure with a couple of FlexFabric 10Gb/24-port modules I ran into a rather annoying issue during setup.
 HP Virtual Connect 3.70 introduced support for Direct-Attach setups of HP 3Par StoreServ 7000 storage systems, where you can eliminate the need for dedicated FC switches. For full details, have a look at Implementing HP Virtual Connect Direct-Attach Fibre Channel with HP 3PAR StoreServ Systems.
 This is excellent for setups where all your hosts are HP Blades, and you have a Virtual Connect FlexFabric setup.</description>

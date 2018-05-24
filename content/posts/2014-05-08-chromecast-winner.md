@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2014-05-08 11:21:00+00:00
 layout: post
-link: http://vninja.net/virtualization/chromecast-winner/
 slug: chromecast-winner
 title: And the Chromecast Winner is ...
+url: /virtualization/chromecast-winner/
 wordpress_id: 3167
 categories:
 - Virtualization

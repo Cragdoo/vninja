@@ -14,10 +14,10 @@
     
     <item>
       <title>Update ESXi Embedded Host Client Fling</title>
-      <link>/posts/update-esxi-embedded-host-client-fling/</link>
+      <link>/vmware-2/update-esxi-embedded-host-client-fling/</link>
       <pubDate>Wed, 26 Aug 2015 16:45:10 +0000</pubDate>
       
-      <guid>/posts/update-esxi-embedded-host-client-fling/</guid>
+      <guid>/vmware-2/update-esxi-embedded-host-client-fling/</guid>
       <description>The ESXi Embedded Host Client Fling got an upgrade today, and in addition to new features it now works properly on ESXi 5.5. In addition to this, it&amp;rsquo;s also available as an offline bundle so you can distribute it with Update Manager.
 Since I&amp;rsquo;ve spent most of my day in esxcli, here is a quick post on how to perform the upgrade from a local http repository hosting the .</description>
     </item>

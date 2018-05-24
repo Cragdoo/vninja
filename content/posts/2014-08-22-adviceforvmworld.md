@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2014-08-22 18:08:56+00:00
 layout: post
-link: http://vninja.net/rant/adviceforvmworld/
 slug: adviceforvmworld
 title: '#AdviceForVMworld'
+url: /rant/adviceforvmworld/
 wordpress_id: 3346
 categories:
 - Rant

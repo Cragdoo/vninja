@@ -3,10 +3,10 @@ author: cmohn
 comments: true
 date: 2014-06-20 12:34:49+00:00
 layout: post
-link: http://vninja.net/news/win-ebook-copy-disaster-recovery-vmware-vsphere-replication-vcenter-site-recovery-manager/
 slug: win-ebook-copy-disaster-recovery-vmware-vsphere-replication-vcenter-site-recovery-manager
 title: Win a eBook Copy of Disaster Recovery using VMware vSphere Replication and
   vCenter Site Recovery Manager
+url: /news/win-ebook-copy-disaster-recovery-vmware-vsphere-replication-vcenter-site-recovery-manager/
 wordpress_id: 3240
 categories:
 - News

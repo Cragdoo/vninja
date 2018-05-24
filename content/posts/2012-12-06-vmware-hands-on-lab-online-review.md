@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2012-12-06 18:44:03+00:00
 layout: post
-link: http://vninja.net/vmware-2/vmware-hands-on-lab-online-review/
 slug: vmware-hands-on-lab-online-review
 title: VMware Hands-on Lab Online Public Beta Review
+url: /vmware-2/vmware-hands-on-lab-online-review/
 wordpress_id: 2253
 categories:
 - VMware

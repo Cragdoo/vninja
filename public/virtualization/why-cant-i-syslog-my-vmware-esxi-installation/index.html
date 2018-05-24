@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="Why Can&#39;t I Syslog my VMware ESXi Installation?" />
+<meta property="og:description" content="Juan Manuel Rey&rsquo;s post Monitor ESX 4.x to ESXi 5.0 migration process show how you can watch the progress of an ESX 4 to ESXi 5 upgrade procedure, by looking at the live logs.
+While this is very useful, and in many cases a real learning experience, it got me thinking that these logs should be available remotely as well. Since ESXi supports, and actively encourages, the use of an external Syslog service for log file safekeeping and monitoring, shouldn&rsquo;t the installation logs for ESXi also be logged externally if configured?" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/virtualization/why-cant-i-syslog-my-vmware-esxi-installation/" />
+
+
+
+<meta property="article:published_time" content="2011-11-04T22:06:32&#43;00:00"/>
+
+<meta property="article:modified_time" content="2011-11-04T22:06:32&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Why Can&#39;t I Syslog my VMware ESXi Installation?"/>
+<meta name="twitter:description" content="Juan Manuel Rey&rsquo;s post Monitor ESX 4.x to ESXi 5.0 migration process show how you can watch the progress of an ESX 4 to ESXi 5 upgrade procedure, by looking at the live logs.
+While this is very useful, and in many cases a real learning experience, it got me thinking that these logs should be available remotely as well. Since ESXi supports, and actively encourages, the use of an external Syslog service for log file safekeeping and monitoring, shouldn&rsquo;t the installation logs for ESXi also be logged externally if configured?"/>
+<meta name="generator" content="Hugo 0.40.3" />
+
+
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Why Can&#39;t I Syslog my VMware ESXi Installation?",
+  "url": "/virtualization/why-cant-i-syslog-my-vmware-esxi-installation/",
+  "wordCount": "332",
+  "datePublished": "2011-11-04T22:06:32&#43;00:00",
+  "dateModified": "2011-11-04T22:06:32&#43;00:00",
+  "author": {
+    "@type": "Person",
+    "name": "cmohn"
+  },
+  "keywords": "Virtualization, VMware, ESXi, ESXi 5, Feature Request, Installation, Syslog"
+}
+</script>
+
+
+
+    <link rel="canonical" href="/virtualization/why-cant-i-syslog-my-vmware-esxi-installation/">
+
+    <title>Why Can&rsquo;t I Syslog my VMware ESXi Installation? | Adventures in Hugo</title>
+
+    <!-- combined, minified CSS -->
+    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
+
+    
+
+    
+
+    
+
+    
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="/">Home</a>
+          
+          <a class="nav-link" href="https://example.org" title="">Link 1</a>
+          
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
+        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+      </div>
+    </header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/virtualization/why-cant-i-syslog-my-vmware-esxi-installation/">Why Can&rsquo;t I Syslog my VMware ESXi Installation?</a></h2>
+    <p class="blog-post-meta"><time datetime="2011-11-04T22:06:32Z">Fri Nov 04, 2011</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>, <a href="/categories/vmware" rel="category tag">VMware</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/esxi" rel="tag">ESXi</a>, <a href="/tags/esxi-5" rel="tag">ESXi 5</a>, <a href="/tags/feature-request" rel="tag">Feature Request</a>, <a href="/tags/installation" rel="tag">Installation</a>, <a href="/tags/syslog" rel="tag">Syslog</a>
+
+</p>
+  </header>
+  <p><a href="https://twitter.com/#!/jreypo">Juan Manuel Rey</a>&rsquo;s post <a href="http://jreypo.wordpress.com/2011/11/04/monitor-esx-4-x-to-esxi-5-0-migration-process/">Monitor ESX 4.x to ESXi 5.0 migration process</a> show how you can watch the progress of an ESX 4 to ESXi 5 upgrade procedure, by looking at the live logs.</p>
+
+<p>While this is very useful, and in many cases a real learning experience, it got me thinking that these logs should be available remotely as well. Since ESXi supports, and actively encourages, the use of an external <a href="http://en.wikipedia.org/wiki/Syslog">Syslog</a> service for log file safekeeping and monitoring, shouldn&rsquo;t the installation logs for ESXi also be logged externally if configured?</p>
+
+<p>Thinking that I couldn&rsquo;t be the first person that thought of this, I looked through the scripting section of <a href="http://pubs.vmware.com/vsphere-50/topic/com.vmware.ICbase/PDF/vsphere-esxi-vcenter-server-50-installation-setup-guide.pdf">vSphere Installation and Setup - vSphere 5.0 guide</a> I was very surprised to see that there is no option to configure syslogging until after the installation is finished and the host configuration script(s) runs (ks.cfg).</p>
+
+<p>By using a <em>ks.cfg</em> script you can automatically configure syslog settings, but since that happens after the installation is done, and the host is potentially rebooted, the installation logs are lost (ESXi logs are not persistent by default) unless you run something that copies them over to another location before the reboot happens.</p>
+
+<p>Of course, when <a href="https://twitter.com/#!/h0bbel/status/132565917732319232">I asked on Twitter</a> the <a href="http://www.virtuallyghetto.com/">Godfather of Ghetto</a>, <a href="http://www.twitter.com/lamw">William Lam</a> <a href="https://twitter.com/#!/lamw/status/132570077814996992">responded</a> that you could always create a python script that runs after the install, before a reboot, that uploads the logs to a syslog server. While this is all fine and dandy, I would still like to have the possibility to configure a syslog server during the installation, and have the installation procedure fling all it&rsquo;s log goodness at the syslog server while the installation runs.</p>
+
+<p>With new features like Autodeploy being utilized, having these logs automatically gathered (without ghetto hacking the installation) in a central location sounds like a really good idea to me?</p>
+
+<p><strong>Surely, I&rsquo;m not the only one? Is this something that has enough brains behind it to actually warrant a proper feature request being filed with VMware?</strong></p>
+
+
+  
+
+  
+  <hr>
+  <footer>
+
+  
+    <section>
+    <h4>Share</h4>
+    <nav class="nav sharing-icons">
+      <a class="nav-item" href="https://www.facebook.com/sharer/sharer.php?u=%2fvirtualization%2fwhy-cant-i-syslog-my-vmware-esxi-installation%2f" title="Share on Facebook"><span class="fa fa-facebook fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://plus.google.com/share?url=%2fvirtualization%2fwhy-cant-i-syslog-my-vmware-esxi-installation%2f" title="Share on Google+"><span class="fa fa-google-plus fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fvirtualization%2fwhy-cant-i-syslog-my-vmware-esxi-installation%2f" title="Share on LinkedIn"><span class="fa fa-linkedin fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://twitter.com/home?status=%2fvirtualization%2fwhy-cant-i-syslog-my-vmware-esxi-installation%2f" title="Tweet this"><span class="fa fa-twitter fa-2x"></span></a>
+    </nav>
+  </section>
+
+  
+
+  
+  </footer>
+  
+
+</article> 
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="https://example.com">Link 1</a></li>
+      
+      <li><a href="https://example.org">Link 2</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p>
+      
+      &copy; Christian Mohn
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>

@@ -14,19 +14,19 @@
     
     <item>
       <title>Do you ChangeLog?</title>
-      <link>/posts/changelog/</link>
+      <link>/workflow/changelog/</link>
       <pubDate>Wed, 18 Feb 2015 10:31:53 +0000</pubDate>
       
-      <guid>/posts/changelog/</guid>
+      <guid>/workflow/changelog/</guid>
       <description>In my work as a consultant I often have many small tasks to perform for customers, all while completing a bigger project. I have found that an easy way to keep track of all the little and big changes, is to create a ChangeLog. Normally ChangeLog&amp;rsquo;s are referenced in development projects, but it also sense to use it to track of your own, or your team members, changes to an infrastructure environment.</description>
     </item>
     
     <item>
       <title>Markdown All the Things!</title>
-      <link>/posts/markdown-things/</link>
+      <link>/virtualization/markdown-things/</link>
       <pubDate>Mon, 12 Jan 2015 23:31:45 +0000</pubDate>
       
-      <guid>/posts/markdown-things/</guid>
+      <guid>/virtualization/markdown-things/</guid>
       <description>Obviously I&amp;rsquo;m a bit late to the party here, but I guess late is better than never. It recently dawned on me that mucking about with lots of different file formats, interfaces and ways of doing things is rather counterproductive.
 A lot of my work these days are related to generating content, be it a simple blog post like this or writing customer proposals and documentation. In the end, the deliverables are often quite different, but at the core they are strangely enough very similar.</description>
     </item>

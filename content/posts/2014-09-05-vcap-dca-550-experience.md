@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2014-09-05 21:36:25+00:00
 layout: post
-link: http://vninja.net/vmware-2/vcap-dca-550-experience/
 slug: vcap-dca-550-experience
 title: My VCAP-DCA 550 Experience
+url: /vmware-2/vcap-dca-550-experience/
 wordpress_id: 3365
 categories:
 - VMware

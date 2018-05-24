@@ -3,10 +3,10 @@ author: cmohn
 comments: true
 date: 2013-08-13 19:28:33+00:00
 layout: post
-link: http://vninja.net/virtualization/
 published: false
 slug: No Content Found
 title: vLab 1.0 Infrastructure Architecture
+url: /virtualization/
 wordpress_id: 2634
 categories:
 - Virtualization

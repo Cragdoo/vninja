@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2012-08-03 21:17:13+00:00
 layout: post
-link: http://vninja.net/virtualization/building-end-user-computing-solutions-vmware-view-book/
 slug: building-end-user-computing-solutions-vmware-view-book
 title: Building End-User Computing Solutions with VMware View Book Available
+url: /virtualization/building-end-user-computing-solutions-vmware-view-book/
 wordpress_id: 1938
 categories:
 - Book

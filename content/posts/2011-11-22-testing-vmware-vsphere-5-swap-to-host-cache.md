@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2011-11-22 22:59:30+00:00
 layout: post
-link: http://vninja.net/vmware-2/testing-vmware-vsphere-5-swap-to-host-cache/
 slug: testing-vmware-vsphere-5-swap-to-host-cache
 title: Testing VMware vSphere 5 Swap to Host Cache
+url: /vmware-2/testing-vmware-vsphere-5-swap-to-host-cache/
 wordpress_id: 1630
 categories:
 - VMware

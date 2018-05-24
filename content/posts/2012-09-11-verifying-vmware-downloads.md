@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2012-09-11 21:19:12+00:00
 layout: post
-link: http://vninja.net/vmware-2/verifying-vmware-downloads/
 slug: verifying-vmware-downloads
 title: Verifying VMware Downloads
+url: /vmware-2/verifying-vmware-downloads/
 wordpress_id: 2103
 categories:
 - VMware

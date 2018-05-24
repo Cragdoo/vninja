@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2017-02-01 13:18:04+00:00
 layout: post
-link: http://vninja.net/vmware-2/esxi-snapshot-problems-msg-snapshot-error-quiescingerror/
 slug: esxi-snapshot-problems-msg-snapshot-error-quiescingerror
 title: 'ESXi Snapshot Problems: msg.snapshot.error-QUIESCINGERROR'
+url: /vmware-2/esxi-snapshot-problems-msg-snapshot-error-quiescingerror/
 wordpress_id: 4558
 categories:
 - VMware

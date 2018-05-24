@@ -14,10 +14,10 @@
     
     <item>
       <title>Why Did the HP BL460c G8 Lose It&#39;s Datastore?</title>
-      <link>/posts/hp-bl460c-g8-lose-its-datastore/</link>
+      <link>/vmware-2/hp-bl460c-g8-lose-its-datastore/</link>
       <pubDate>Mon, 29 Oct 2012 21:48:08 +0000</pubDate>
       
-      <guid>/posts/hp-bl460c-g8-lose-its-datastore/</guid>
+      <guid>/vmware-2/hp-bl460c-g8-lose-its-datastore/</guid>
       <description>Post Update: As per Preetam´s comment, HP has published a customer advisory regarding the usage of install vs update.
 After installing a couple of brand new HP ProLiant BL460c G8 blades with HP Smart Array P220i controllers at a customer site, I decided that I should upgrade from the VMware-ESXi-5.0.0-Update1-623860-HP-5.20.43.iso Build 623860 used to install the blades, to the latest 821926 build offered by VMware.
 Normally this is a really easy process using VMware Update Manager, but since this is a new installation all the prerequisites for that are not in place just yet and I decided to use esxcli to perform the update.</description>

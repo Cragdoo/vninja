@@ -14,10 +14,10 @@
     
     <item>
       <title>vCenter Client Download URLs</title>
-      <link>/posts/vcenter-client-download-urls/</link>
+      <link>/vmware-2/vcenter-client-download-urls/</link>
       <pubDate>Mon, 12 Mar 2012 12:50:31 +0000</pubDate>
       
-      <guid>/posts/vcenter-client-download-urls/</guid>
+      <guid>/vmware-2/vcenter-client-download-urls/</guid>
       <description>Since the vCenter Client no longer is bundled with an ESXi host installation, I´ve compiled a quick list of direct download URLs for the most recent clients.
 Update 17th September 2014: VMware has published the official list in knowledge base article KB2089791, use that as the official list going forward.
 Remember, the client download URL is still available from the vCenter server, if you point your browser to it.</description>

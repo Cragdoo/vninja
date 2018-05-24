@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2017-11-27 17:00:17+00:00
 layout: post
-link: http://vninja.net/awesometalks/scott-hanselman-its-not-what-you-read-its-what-you-ignore/
 slug: scott-hanselman-its-not-what-you-read-its-what-you-ignore
 title: Scott Hanselman - "It's not what you read, it's what you ignore"
+url: /awesometalks/scott-hanselman-its-not-what-you-read-its-what-you-ignore/
 wordpress_id: 4865
 categories:
 - AwesomeTalks

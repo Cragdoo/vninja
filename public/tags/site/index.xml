@@ -14,10 +14,10 @@
     
     <item>
       <title>vNinja.net available also on vNinja.com</title>
-      <link>/posts/vninja-net-available-also-on-vninja-com/</link>
+      <link>/news/vninja-net-available-also-on-vninja-com/</link>
       <pubDate>Mon, 21 Mar 2011 21:34:58 +0000</pubDate>
       
-      <guid>/posts/vninja-net-available-also-on-vninja-com/</guid>
+      <guid>/news/vninja-net-available-also-on-vninja-com/</guid>
       <description>Thanks to the generosity of Todd Wright vNinja.net is now also available via vNinja.com. Todd came out of nowhere and offered to redirect his vNinja.com domain to vNinja.net, since he didn&amp;rsquo;t have time to do anything with it himself.
 I&amp;rsquo;m very grateful that Todd wanted to do this, and thanks to some quick Apache trickery .com now redirects to .net to make sure Google doesn&amp;rsquo;t find and penalize any double content.</description>
     </item>

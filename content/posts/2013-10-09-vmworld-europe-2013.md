@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2013-10-09 18:04:02+00:00
 layout: post
-link: http://vninja.net/virtualization/vmworld-europe-2013/
 slug: vmworld-europe-2013
 title: VMworld Europe 2013 - Here I Come
+url: /virtualization/vmworld-europe-2013/
 wordpress_id: 2812
 categories:
 - Virtualization

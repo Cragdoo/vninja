@@ -3,10 +3,10 @@ author: cmohn
 comments: true
 date: 2014-07-15 10:59:42+00:00
 layout: post
-link: http://vninja.net/vmware-2/root-invalid-memory-setting-memory-reservation-sched-mem-min-equal-memsize-memsize/
 slug: root-invalid-memory-setting-memory-reservation-sched-mem-min-equal-memsize-memsize
 title: 'Root Cause of Invalid memory setting: memory reservation (sched.mem.min) should
   be equal to memsize (memsize)'
+url: /vmware-2/root-invalid-memory-setting-memory-reservation-sched-mem-min-equal-memsize-memsize/
 wordpress_id: 3270
 categories:
 - VMware

@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2011-02-20 20:45:55+00:00
 layout: post
-link: http://vninja.net/rant/passion-in-modern-it-organizations/
 slug: passion-in-modern-it-organizations
 title: Passion in IT
+url: /rant/passion-in-modern-it-organizations/
 wordpress_id: 842
 categories:
 - Rant

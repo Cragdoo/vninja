@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2013-01-16 21:59:07+00:00
 layout: post
-link: http://vninja.net/vmware-2/vcenter-operations-manager-vcenter-deployment-dependency/
 slug: vcenter-operations-manager-vcenter-deployment-dependency
 title: vCenter Operations Manager and vCenter Deployment Dependency
+url: /vmware-2/vcenter-operations-manager-vcenter-deployment-dependency/
 wordpress_id: 2351
 categories:
 - VMware

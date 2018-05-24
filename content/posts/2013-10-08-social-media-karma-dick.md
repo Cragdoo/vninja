@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2013-10-08 13:12:13+00:00
 layout: post
-link: http://vninja.net/rant/social-media-karma-dick/
 slug: social-media-karma-dick
 title: Social Media, Karma and Being a Dick
+url: /rant/social-media-karma-dick/
 wordpress_id: 2795
 categories:
 - Rant

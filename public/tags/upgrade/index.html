@@ -91,7 +91,7 @@
 
 <article class="blog-post">
   <header>
-    <h2 class="blog-post-title"><a href="/posts/vmware-update-manager-unsupported-configuration/">VMware Update Manager: Unsupported Configuration</a></h2>
+    <h2 class="blog-post-title"><a href="/vmware-2/vmware-update-manager-unsupported-configuration/">VMware Update Manager: Unsupported Configuration</a></h2>
     <p class="blog-post-meta"><time datetime="2015-08-28T10:46:24Z">Fri Aug 28, 2015</time> by cmohn in 
 <i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/vmware" rel="category tag">VMware</a>
 
@@ -102,7 +102,7 @@
   </header>
   During an upgrade from vSphere 5.1 to 5.5, I ran into a rather strange issue when trying to utilize VMware Update Manager to perform the ESXi upgrade.
 During scanning, VUM reported the ESXi host as &ldquo;Incompatible&rdquo;, without offering any other explanation. I spent ages looking through VUM logs, trying to find the culprit, suspecting it was an incompatible VIB. Without finding anything that gave me any indication on what the problem might be, I moved on to looking at the ESXi image I had imported into VUM.
-  <a href='/posts/vmware-update-manager-unsupported-configuration/'>Read more →</a>
+  <a href='/vmware-2/vmware-update-manager-unsupported-configuration/'>Read more →</a>
 </article> 
 
 
@@ -112,7 +112,7 @@ During scanning, VUM reported the ESXi host as &ldquo;Incompatible&rdquo;, witho
 
 <article class="blog-post">
   <header>
-    <h2 class="blog-post-title"><a href="/posts/upgrading-vsphere-vcenter-appliance-5-1-5-5/">Upgrading vSphere vCenter Appliance 5.1 to 5.5</a></h2>
+    <h2 class="blog-post-title"><a href="/vmware-2/upgrading-vsphere-vcenter-appliance-5-1-5-5/">Upgrading vSphere vCenter Appliance 5.1 to 5.5</a></h2>
     <p class="blog-post-meta"><time datetime="2013-09-30T12:20:38Z">Mon Sep 30, 2013</time> by cmohn in 
 <i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/vmware" rel="category tag">VMware</a>
 
@@ -123,7 +123,7 @@ During scanning, VUM reported the ESXi host as &ldquo;Incompatible&rdquo;, witho
   </header>
   In VMware KB Upgrading vCenter Server Appliance 5.0.x/5.1 to 5.5 (2058441) the procedure for upgrading an existing 5.0/5.1 vSphere vCenter Server Appliance is outlined, walking you through the steps required including deploying a new 5.5 vCSA and transferring the data from the old instance to the new one. Straight forward procedure, but there is one small caveat in this process.
 One important thing to remember, and something I don´t feel that the knowledge-base article highlights well enough is that the new v5.
-  <a href='/posts/upgrading-vsphere-vcenter-appliance-5-1-5-5/'>Read more →</a>
+  <a href='/vmware-2/upgrading-vsphere-vcenter-appliance-5-1-5-5/'>Read more →</a>
 </article> 
 
 
@@ -133,7 +133,7 @@ One important thing to remember, and something I don´t feel that the knowledge-
 
 <article class="blog-post">
   <header>
-    <h2 class="blog-post-title"><a href="/posts/quick-dirty-esxi-5-5-upgrade/">Quick and Dirty ESXi 5.5 Upgrade</a></h2>
+    <h2 class="blog-post-title"><a href="/virtualization/quick-dirty-esxi-5-5-upgrade/">Quick and Dirty ESXi 5.5 Upgrade</a></h2>
     <p class="blog-post-meta"><time datetime="2013-09-23T23:28:04Z">Mon Sep 23, 2013</time> by cmohn in 
 <i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
 
@@ -145,7 +145,7 @@ One important thing to remember, and something I don´t feel that the knowledge-
   As I´ve posted about earlier, you can update your ESXi hosts to a new release from the command line. Now that ESXi 5.5 has been released, the same procedure can be applied to upgrade once more.
 Place the host in maintenance mode, then run the following command to do an online update to ESXi 5.5:
 [cc lang=&ldquo;bash&rdquo; width=&ldquo;100%&rdquo; theme=&ldquo;blackboard&rdquo; nowrap=&ldquo;0&rdquo;] ~ # esxcli software profile update -d https://hostupdate.vmware.com/software/VUM/PRODUCTION/main/vmw-depot-index.xml -p ESXi-5.
-  <a href='/posts/quick-dirty-esxi-5-5-upgrade/'>Read more →</a>
+  <a href='/virtualization/quick-dirty-esxi-5-5-upgrade/'>Read more →</a>
 </article> 
 
 
@@ -155,7 +155,7 @@ Place the host in maintenance mode, then run the following command to do an onli
 
 <article class="blog-post">
   <header>
-    <h2 class="blog-post-title"><a href="/posts/monitoring-esxi-upgrade-process/">Monitoring the ESXi Upgrade Process</a></h2>
+    <h2 class="blog-post-title"><a href="/vmware-2/monitoring-esxi-upgrade-process/">Monitoring the ESXi Upgrade Process</a></h2>
     <p class="blog-post-meta"><time datetime="2013-06-26T10:34:18Z">Wed Jun 26, 2013</time> by cmohn in 
 <i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/vmware" rel="category tag">VMware</a>
 
@@ -167,7 +167,7 @@ Place the host in maintenance mode, then run the following command to do an onli
   When doing manual host upgrades, either through the direct method or via a locally placed upgrade bundle, there is a distinct lack of progress information available after running the esxcli command.
 Thankfully the ESXi host provides a running logfile of the upgrade process, which makes it much easier to keep track of what is going on and that the upgrade is indeed being performed.
 The esxupdate.log is located in /var/log, and by issuing the following command in a terminal window you can have a rolling log showing you the upgrade status and progress:
-  <a href='/posts/monitoring-esxi-upgrade-process/'>Read more →</a>
+  <a href='/vmware-2/monitoring-esxi-upgrade-process/'>Read more →</a>
 </article> 
 
 
@@ -177,7 +177,7 @@ The esxupdate.log is located in /var/log, and by issuing the following command i
 
 <article class="blog-post">
   <header>
-    <h2 class="blog-post-title"><a href="/posts/quick-dirty-esxi-5-1u1-upgrade/">Quick and Dirty ESXi 5.1U1 Upgrade</a></h2>
+    <h2 class="blog-post-title"><a href="/vmware-2/quick-dirty-esxi-5-1u1-upgrade/">Quick and Dirty ESXi 5.1U1 Upgrade</a></h2>
     <p class="blog-post-meta"><time datetime="2013-04-26T12:36:07Z">Fri Apr 26, 2013</time> by cmohn in 
 <i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/vmware" rel="category tag">VMware</a>
 
@@ -188,7 +188,7 @@ The esxupdate.log is located in /var/log, and by issuing the following command i
   </header>
   Now that VMware ESXi 5.1 Update 1 has been released I decided to do a quick and dirty upgrade of my home installation. I refuse to call it a lab these days, since it´s one singular host and all it does it contain my home domain controller&hellip;
 Anyway, the following procedure upgraded the host from 5.1b to 5.1U1, by downloading the upgrade directly from VMware and installing it. Make sure the host is in maintenance mode before attempting this procedure.
-  <a href='/posts/quick-dirty-esxi-5-1u1-upgrade/'>Read more →</a>
+  <a href='/vmware-2/quick-dirty-esxi-5-1u1-upgrade/'>Read more →</a>
 </article> 
 
 

@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2011-04-13 21:02:28+00:00
 layout: post
-link: http://vninja.net/news/vninja-enables-h/
 slug: vninja-enables-h
 title: vNinja enables HA
+url: /news/vninja-enables-h/
 wordpress_id: 1051
 categories:
 - News

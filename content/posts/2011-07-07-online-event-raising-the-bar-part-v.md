@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2011-07-07 09:19:35+00:00
 layout: post
-link: http://vninja.net/virtualization/online-event-raising-the-bar-part-v/
 slug: online-event-raising-the-bar-part-v
 title: 'Online Event: Raising the Bar, Part V'
+url: /virtualization/online-event-raising-the-bar-part-v/
 wordpress_id: 1247
 categories:
 - Virtualization

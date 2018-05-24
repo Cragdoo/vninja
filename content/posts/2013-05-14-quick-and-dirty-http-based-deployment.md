@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2013-05-14 11:23:13+00:00
 layout: post
-link: http://vninja.net/virtualization/quick-and-dirty-http-based-deployment/
 slug: quick-and-dirty-http-based-deployment
 title: Quick and Dirty HTTP Based Deployment
+url: /virtualization/quick-and-dirty-http-based-deployment/
 wordpress_id: 2577
 categories:
 - Virtualization

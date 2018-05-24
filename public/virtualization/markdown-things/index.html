@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="Markdown All the Things!" />
+<meta property="og:description" content="Obviously I&rsquo;m a bit late to the party here, but I guess late is better than never. It recently dawned on me that mucking about with lots of different file formats, interfaces and ways of doing things is rather counterproductive.
+A lot of my work these days are related to generating content, be it a simple blog post like this or writing customer proposals and documentation. In the end, the deliverables are often quite different, but at the core they are strangely enough very similar." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/virtualization/markdown-things/" />
+
+
+
+<meta property="article:published_time" content="2015-01-12T23:31:45&#43;00:00"/>
+
+<meta property="article:modified_time" content="2015-01-12T23:31:45&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Markdown All the Things!"/>
+<meta name="twitter:description" content="Obviously I&rsquo;m a bit late to the party here, but I guess late is better than never. It recently dawned on me that mucking about with lots of different file formats, interfaces and ways of doing things is rather counterproductive.
+A lot of my work these days are related to generating content, be it a simple blog post like this or writing customer proposals and documentation. In the end, the deliverables are often quite different, but at the core they are strangely enough very similar."/>
+<meta name="generator" content="Hugo 0.40.3" />
+
+
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Markdown All the Things!",
+  "url": "/virtualization/markdown-things/",
+  "wordCount": "389",
+  "datePublished": "2015-01-12T23:31:45&#43;00:00",
+  "dateModified": "2015-01-12T23:31:45&#43;00:00",
+  "author": {
+    "@type": "Person",
+    "name": "cmohn"
+  },
+  "keywords": "Virtualization, Workflow, Automator, Content Creation, GitHub, Markdown, OS X, pandoc"
+}
+</script>
+
+
+
+    <link rel="canonical" href="/virtualization/markdown-things/">
+
+    <title>Markdown All the Things! | Adventures in Hugo</title>
+
+    <!-- combined, minified CSS -->
+    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
+
+    
+
+    
+
+    
+
+    
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="/">Home</a>
+          
+          <a class="nav-link" href="https://example.org" title="">Link 1</a>
+          
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
+        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+      </div>
+    </header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/virtualization/markdown-things/">Markdown All the Things!</a></h2>
+    <p class="blog-post-meta"><time datetime="2015-01-12T23:31:45Z">Mon Jan 12, 2015</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>, <a href="/categories/workflow" rel="category tag">Workflow</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/automator" rel="tag">Automator</a>, <a href="/tags/content-creation" rel="tag">Content Creation</a>, <a href="/tags/github" rel="tag">GitHub</a>, <a href="/tags/markdown" rel="tag">Markdown</a>, <a href="/tags/os-x" rel="tag">OS X</a>, <a href="/tags/pandoc" rel="tag">pandoc</a>, <a href="/tags/workflow" rel="tag">Workflow</a>
+
+</p>
+  </header>
+  <p>Obviously I&rsquo;m a bit late to the party here, but I guess late is better than never. It recently dawned on me that mucking about with lots of different file formats, interfaces and ways of doing things is rather counterproductive.</p>
+
+<p>A lot of my work these days are related to generating content, be it a simple blog post like this or writing customer proposals and documentation. In the end, the deliverables are often quite different, but at the core they are strangely enough very similar. After all, the main thing is content, right? The file format itself, or how it is generated, doesn&rsquo;t really have a bearing on the content at all, it&rsquo;s just a delivery method. Lipstick on a pig, if you will.</p>
+
+<p>So, in an effort to get rid of a lot of unnecessary visual and mental clutter , I&rsquo;ve decided to go all in and <strong><a href="http://daringfireball.net/projects/markdown/">Markdown</a> all the things.</strong></p>
+
+<p><img src="http://vninja.net/wordpress/wp-content/uploads/2015/01/58015307.jpg" alt="" /></p>
+
+<p>After all, Markdown is just text, with some simple formatting options. No fluff, no convoluted UI&rsquo;s, just text. Plain, simple, and very easy to work with. I currently use <a href="http://atom.io">atom.io</a> as my preferred editor, which is working out very well so far.</p>
+
+<p>Of course, from time to time my deliverables might just be a <em>.PDF</em> file, or even a <em>Microsoft Word document</em>, but there are ways to work with that and still keep Markdown as the core content creation engine.</p>
+
+<p>I&rsquo;ve just put my first foray into <a href="http://support.apple.com/en-us/HT2488">Automator</a> on <a href="https://github.com/h0bbel/automator-workflows">GitHub</a>. <a href="https://github.com/h0bbel/automator-workflows/tree/master/autoconvert-docx/md2docx.workflow/Contents">The Auto-convert .md to .docx</a> is a simple <a href="http://www.macissues.com/2014/07/16/how-to-set-up-and-use-folder-actions-on-your-mac/">Folder Action</a> that runs <a href="http://johnmacfarlane.net/pandoc/">pandoc</a> to automatically convert files put into a given folder to <em>.docx</em> format. It&rsquo;s simple and it&rsquo;s crude, but it works. Next I&rsquo;ll be looking into how I can use <a href="http://johnmacfarlane.net/pandoc/">pandoc</a> with a Microsoft Word reference file, to make sure that the generated files adhere to the corporate templates I normally use, but for now this does the job. I also plan on extending this to convert to other file formats as I need them, now that I&rsquo;ve got this first one up and running.</p>
+
+<p><strong>Do you use Markdown or pandoc?</strong> If so, please let me know how - I know I&rsquo;m only scraping the surface of what is possible to do here, and any tips and hints on what do do next will be very welcome!</p>
+
+<p>Now, if only <a href="http://evernote.com">Evernote</a> would support Markdown natively&hellip;</p>
+
+
+  
+
+  
+  <hr>
+  <footer>
+
+  
+    <section>
+    <h4>Share</h4>
+    <nav class="nav sharing-icons">
+      <a class="nav-item" href="https://www.facebook.com/sharer/sharer.php?u=%2fvirtualization%2fmarkdown-things%2f" title="Share on Facebook"><span class="fa fa-facebook fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://plus.google.com/share?url=%2fvirtualization%2fmarkdown-things%2f" title="Share on Google+"><span class="fa fa-google-plus fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fvirtualization%2fmarkdown-things%2f" title="Share on LinkedIn"><span class="fa fa-linkedin fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://twitter.com/home?status=%2fvirtualization%2fmarkdown-things%2f" title="Tweet this"><span class="fa fa-twitter fa-2x"></span></a>
+    </nav>
+  </section>
+
+  
+
+  
+  </footer>
+  
+
+</article> 
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="https://example.com">Link 1</a></li>
+      
+      <li><a href="https://example.org">Link 2</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p>
+      
+      &copy; Christian Mohn
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>

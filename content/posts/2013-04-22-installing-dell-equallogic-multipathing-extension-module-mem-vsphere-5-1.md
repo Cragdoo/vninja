@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2013-04-22 21:31:46+00:00
 layout: post
-link: http://vninja.net/virtualization/installing-dell-equallogic-multipathing-extension-module-mem-vsphere-5-1/
 slug: installing-dell-equallogic-multipathing-extension-module-mem-vsphere-5-1
 title: Installing Dell Equallogic Multipathing Extension Module (MEM) in vSphere 5.1
+url: /virtualization/installing-dell-equallogic-multipathing-extension-module-mem-vsphere-5-1/
 wordpress_id: 2538
 categories:
 - Virtualization

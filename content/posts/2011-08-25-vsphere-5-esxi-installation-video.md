@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2011-08-25 09:28:03+00:00
 layout: post
-link: http://vninja.net/virtualization/vsphere-5-esxi-installation-video/
 slug: vsphere-5-esxi-installation-video
 title: 'vSphere 5: ESXi Installation Video'
+url: /virtualization/vsphere-5-esxi-installation-video/
 wordpress_id: 1375
 categories:
 - Virtualization

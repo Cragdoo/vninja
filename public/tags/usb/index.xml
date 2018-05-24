@@ -14,10 +14,10 @@
     
     <item>
       <title>Using USB Pass-through in vSphere 4.1</title>
-      <link>/posts/using-usb-pass-through-in-vsphere-4-1/</link>
+      <link>/virtualization/using-usb-pass-through-in-vsphere-4-1/</link>
       <pubDate>Thu, 22 Jul 2010 23:03:27 +0000</pubDate>
       
-      <guid>/posts/using-usb-pass-through-in-vsphere-4-1/</guid>
+      <guid>/virtualization/using-usb-pass-through-in-vsphere-4-1/</guid>
       <description>Finally USB pass-through is possible on ESX hosts with the new vSphere 4.1 release! This feature ha been available in VMware Workstation/Fusion and Player for quite a while. The freshly added feature in vSphere 4.1 even works if you vMotion the guest from one host to another, which is in itself pretty amazing functionality!
 In this post, I&amp;rsquo;ll show how to setup and use the new USB pass-through feature in vSphere 4.</description>
     </item>

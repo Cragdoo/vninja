@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2010-12-30 23:02:41+00:00
 layout: post
-link: http://vninja.net/news/state-of-the-vninja-2010/
 slug: state-of-the-vninja-2010
 title: 'State of the vNinja: 2010'
+url: /news/state-of-the-vninja-2010/
 wordpress_id: 737
 categories:
 - News

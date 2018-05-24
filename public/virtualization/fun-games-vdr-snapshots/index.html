@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="Fun and Games with VDR and Snapshots" />
+<meta property="og:description" content="One of the smaller improvements in vSphere 5 was the introduction of the &ldquo;Virtual machine disks consolidation is needed&rdquo; configuration alert if vSphere determines that there are orphaned snapshots for a given VM.
+
+Previous versions does not show this warning message, and datastore usage could potentially skyrocket for no apparent reason if something continues to create snapshots that are not properly cleaned up when they are no longer in use." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/virtualization/fun-games-vdr-snapshots/" />
+
+
+
+<meta property="article:published_time" content="2013-01-10T13:47:50&#43;00:00"/>
+
+<meta property="article:modified_time" content="2013-01-10T13:47:50&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Fun and Games with VDR and Snapshots"/>
+<meta name="twitter:description" content="One of the smaller improvements in vSphere 5 was the introduction of the &ldquo;Virtual machine disks consolidation is needed&rdquo; configuration alert if vSphere determines that there are orphaned snapshots for a given VM.
+
+Previous versions does not show this warning message, and datastore usage could potentially skyrocket for no apparent reason if something continues to create snapshots that are not properly cleaned up when they are no longer in use."/>
+<meta name="generator" content="Hugo 0.40.3" />
+
+
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Fun and Games with VDR and Snapshots",
+  "url": "/virtualization/fun-games-vdr-snapshots/",
+  "wordCount": "599",
+  "datePublished": "2013-01-10T13:47:50&#43;00:00",
+  "dateModified": "2013-01-10T13:47:50&#43;00:00",
+  "author": {
+    "@type": "Person",
+    "name": "cmohn"
+  },
+  "keywords": "Virtualization, Datastore, Snapshot, VDR, VMware, vSphere"
+}
+</script>
+
+
+
+    <link rel="canonical" href="/virtualization/fun-games-vdr-snapshots/">
+
+    <title>Fun and Games with VDR and Snapshots | Adventures in Hugo</title>
+
+    <!-- combined, minified CSS -->
+    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
+
+    
+
+    
+
+    
+
+    
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="/">Home</a>
+          
+          <a class="nav-link" href="https://example.org" title="">Link 1</a>
+          
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
+        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+      </div>
+    </header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/virtualization/fun-games-vdr-snapshots/">Fun and Games with VDR and Snapshots</a></h2>
+    <p class="blog-post-meta"><time datetime="2013-01-10T13:47:50Z">Thu Jan 10, 2013</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/datastore" rel="tag">Datastore</a>, <a href="/tags/snapshot" rel="tag">Snapshot</a>, <a href="/tags/vdr" rel="tag">VDR</a>, <a href="/tags/vmware" rel="tag">VMware</a>, <a href="/tags/vsphere" rel="tag">vSphere</a>
+
+</p>
+  </header>
+  <p>One of the smaller improvements in vSphere 5 was the introduction of the <strong>&ldquo;Virtual machine disks consolidation is needed&rdquo;</strong> configuration alert if vSphere determines that there are orphaned snapshots for a given VM.</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2013/01/Consolidation.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2013/01/Consolidation.png" alt="Consolidation Needed Warning" /></a></p>
+
+<p>Previous versions does not show this warning message, and datastore usage could potentially skyrocket for no apparent reason if something continues to create snapshots that are not properly cleaned up when they are no longer in use. Unless there is active space monitoring for your datastores, <em>and there should be</em>, it could go on unnoticed for some time.</p>
+
+<p>Running a snapshot consolidation attempts to clean up this situation, and remove the orphaned snapshots reclaiming the space they occupy.</p>
+
+<p><strong>This video from VMware shows how this is done, and how it should work:</strong></p>
+
+<p>For more info, have a look at <a href="http://kb.vmware.com/selfservice/microsites/search.do?language=en_US&amp;cmd=displayKC&amp;externalId=2003638">KB2003638 Consolidating snapshots in vSphere 5.x</a></p>
+
+<p>While it is great that you get alerted when this happens, and that there is an option to clean it up directly in the vSphere Client, what do you do if consolidation doesn´t work for some reason?</p>
+
+<p>I recently visited a client who had problems with their <a href="http://pubs.vmware.com/vsphere-50/index.jsp?topic=%2Fcom.vmware.datarecovery.admin.doc_20%2FGUID-94DB0284-9D58-4FDF-8A88-847E59982AAE.html">VDR appliance</a>, and every attempted backup left orphaned snapshots behind. By default VDR has a retry interval of 30 minutes for failed backups (<em>BackupRetryInterval=30 in datarecovery.ini</em>), before it times out. In the space of 30 minutes, VDR did 30 backup attempts, effectively creating 30 orphaned snapshots each time a backup was attempted. One of the affected VMs had over 300 delta files accumulated over a fairly small timeframe.</p>
+
+<p>There clearly were a lot of snapshots in the datastore, but for some reason the vSphere Client Snapshot Manager did not show any snapshots for the VM. Clearly there was an inconsistency here, and after investigating the <em>VM.vmsd</em> file it became fairly apparent what was going on. The <em>VM.vmsd</em> file is responsible for keeping tabs of the snapshot delta-vmdk files and is the source that the Snapshot Manager uses to display and manage them.</p>
+
+<p>The case here was that when a snapshot is removed, the snapshot entity in the <em>VM.vmsd</em> is removed before the changes are made to the child disks. When VDR subsequently had problems removing the child disks, they were being left behind.</p>
+
+<p>Combine this situation with the fact that the <em>maximum redo logs supported is 255</em>, you can quickly run into a situation where there are snapshots left behind that you can´t get easily rid of with the consolidate command.</p>
+
+<p>Cloning the VM was not really an option, since a clone operation actually consolidates snapshots as part of the cloning process, it would also fail with the same error.</p>
+
+<p><em>In the end, the solution was to fire up VMware vCenter Converter, and use that to perform a V2V &ldquo;conversion&rdquo; of the VMs. Why does this work, when a &ldquo;native&rdquo; vSphere clone operation does not? The answer is surprisingly simple, vCenter Converter does not know the virtual disk structure at all. It sees only that what the operating system sees, and the OS inside the VM has no concept or knowledge of the snapshots created in vCenter.</em></p>
+
+<p>While this fixed the immediate issue of getting rid of the orphaned snapshots and reclaim the space wasted by them, it does not fix the underlying root issue that causes VDR not to clean up after itself.</p>
+
+<p>For some reason it looks like VDR, after mounting the snapshot files to the appliance, does not release them, thus retaining a lock on the snapshot files, This in turn means that the <em>VM.vmsd</em> file is cleared for VDR snapshots, but the files are still present on on the datastore.</p>
+
+
+  
+
+  
+  <hr>
+  <footer>
+
+  
+    <section>
+    <h4>Share</h4>
+    <nav class="nav sharing-icons">
+      <a class="nav-item" href="https://www.facebook.com/sharer/sharer.php?u=%2fvirtualization%2ffun-games-vdr-snapshots%2f" title="Share on Facebook"><span class="fa fa-facebook fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://plus.google.com/share?url=%2fvirtualization%2ffun-games-vdr-snapshots%2f" title="Share on Google+"><span class="fa fa-google-plus fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fvirtualization%2ffun-games-vdr-snapshots%2f" title="Share on LinkedIn"><span class="fa fa-linkedin fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://twitter.com/home?status=%2fvirtualization%2ffun-games-vdr-snapshots%2f" title="Tweet this"><span class="fa fa-twitter fa-2x"></span></a>
+    </nav>
+  </section>
+
+  
+
+  
+  </footer>
+  
+
+</article> 
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="https://example.com">Link 1</a></li>
+      
+      <li><a href="https://example.org">Link 2</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p>
+      
+      &copy; Christian Mohn
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>

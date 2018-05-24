@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2010-10-13 13:33:56+00:00
 layout: post
-link: http://vninja.net/virtualization/extending-vmworld-labs/
 slug: extending-vmworld-labs
 title: Extending VMworld Labs
+url: /virtualization/extending-vmworld-labs/
 wordpress_id: 357
 categories:
 - Virtualization

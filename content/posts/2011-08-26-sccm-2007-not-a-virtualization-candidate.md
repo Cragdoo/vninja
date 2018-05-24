@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2011-08-26 08:10:54+00:00
 layout: post
-link: http://vninja.net/microsoft-2/sccm-2007-not-a-virtualization-candidate/
 slug: sccm-2007-not-a-virtualization-candidate
 title: SCCM 2007 Not a Virtualization Candidate?
+url: /microsoft-2/sccm-2007-not-a-virtualization-candidate/
 wordpress_id: 1399
 categories:
 - Microsoft

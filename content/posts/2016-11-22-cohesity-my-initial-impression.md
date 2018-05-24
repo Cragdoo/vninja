@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2016-11-22 13:05:33+00:00
 layout: post
-link: http://vninja.net/virtualization/cohesity-my-initial-impression/
 slug: cohesity-my-initial-impression
 title: 'Cohesity: My Initial Impression'
+url: /virtualization/cohesity-my-initial-impression/
 wordpress_id: 4401
 categories:
 - Virtualization

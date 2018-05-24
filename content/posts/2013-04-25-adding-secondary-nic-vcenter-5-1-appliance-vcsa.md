@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2013-04-25 11:10:33+00:00
 layout: post
-link: http://vninja.net/virtualization/adding-secondary-nic-vcenter-5-1-appliance-vcsa/
 slug: adding-secondary-nic-vcenter-5-1-appliance-vcsa
 title: Adding a secondary NIC to the vCenter 5.1 Appliance (VCSA)
+url: /virtualization/adding-secondary-nic-vcenter-5-1-appliance-vcsa/
 wordpress_id: 2549
 categories:
 - Virtualization

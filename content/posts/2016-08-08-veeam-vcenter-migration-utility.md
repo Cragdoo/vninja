@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2016-08-08 09:35:47+00:00
 layout: post
-link: http://vninja.net/virtualization/veeam-vcenter-migration-utility/
 slug: veeam-vcenter-migration-utility
 title: Veeam vCenter Migration Utility
+url: /virtualization/veeam-vcenter-migration-utility/
 wordpress_id: 4138
 categories:
 - Virtualization

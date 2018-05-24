@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2011-11-28 23:16:10+00:00
 layout: post
-link: http://vninja.net/virtualization/blatant-self-promotion/
 slug: blatant-self-promotion
 title: Blatant Self Promotion
+url: /virtualization/blatant-self-promotion/
 wordpress_id: 1644
 categories:
 - Virtualization

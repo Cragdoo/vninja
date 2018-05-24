@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2014-02-19 12:30:08+00:00
 layout: post
-link: http://vninja.net/virtualization/configuring-vsan-dell-poweredge-vrtx/
 slug: configuring-vsan-dell-poweredge-vrtx
 title: Configuring VSAN on a Dell PowerEdge VRTX
+url: /virtualization/configuring-vsan-dell-poweredge-vrtx/
 wordpress_id: 3078
 categories:
 - Virtualization

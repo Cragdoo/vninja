@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2016-05-06 09:26:13+00:00
 layout: post
-link: http://vninja.net/news/lets-get-the-kids-some-rpis/
 slug: lets-get-the-kids-some-rpis
 title: Let's get the kids some RPi's!
+url: /news/lets-get-the-kids-some-rpis/
 wordpress_id: 4093
 categories:
 - News

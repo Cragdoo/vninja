@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2015-07-13 22:17:12+00:00
 layout: post
-link: http://vninja.net/rant/time-add-insanity/
 slug: time-add-insanity
 title: It's Time to End the Add on Insanity
+url: /rant/time-add-insanity/
 wordpress_id: 3699
 categories:
 - Rant

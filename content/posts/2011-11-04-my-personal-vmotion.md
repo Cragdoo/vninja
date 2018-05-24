@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2011-11-04 09:26:16+00:00
 layout: post
-link: http://vninja.net/news/my-personal-vmotion/
 slug: my-personal-vmotion
 title: My Personal vMotion
+url: /news/my-personal-vmotion/
 wordpress_id: 1584
 categories:
 - News

@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2016-10-06 07:50:35+00:00
 layout: post
-link: http://vninja.net/virtualization/vmworld-2016-europe/
 slug: vmworld-2016-europe
 title: VMworld 2016 Europe
+url: /virtualization/vmworld-2016-europe/
 wordpress_id: 4179
 categories:
 - Virtualization

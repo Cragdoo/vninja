@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2011-06-20 20:58:35+00:00
 layout: post
-link: http://vninja.net/news/7-expert-tips-for-managing-your-remote-vsphere-infrastructure/
 slug: 7-expert-tips-for-managing-your-remote-vsphere-infrastructure
 title: 7 Expert Tips for Managing Your Remote vSphere Infrastructure
+url: /news/7-expert-tips-for-managing-your-remote-vsphere-infrastructure/
 wordpress_id: 1168
 categories:
 - News

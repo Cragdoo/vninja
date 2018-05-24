@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2013-03-14 00:02:35+00:00
 layout: post
-link: http://vninja.net/virtualization/autolab-meets-cloud/
 slug: autolab-meets-cloud
 title: 'Autolab goes Cloudy with a Chance of Free Credits '
+url: /virtualization/autolab-meets-cloud/
 wordpress_id: 2436
 categories:
 - Virtualization

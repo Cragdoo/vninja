@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2010-08-26 11:38:00+00:00
 layout: post
-link: http://vninja.net/network/using-the-wanem-wan-emulator-virtual-appliance/
 slug: using-the-wanem-wan-emulator-virtual-appliance
 title: Using the WANem WAN Emulator Virtual Appliance
+url: /network/using-the-wanem-wan-emulator-virtual-appliance/
 wordpress_id: 192
 categories:
 - Network

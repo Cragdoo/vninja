@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2012-09-01 09:58:26+00:00
 layout: post
-link: http://vninja.net/rant/personal-certification/
 slug: personal-certification
 title: The Personal Value of Certification
+url: /rant/personal-certification/
 wordpress_id: 2042
 categories:
 - Rant

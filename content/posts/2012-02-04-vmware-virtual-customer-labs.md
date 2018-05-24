@@ -3,9 +3,9 @@ author: cmohn
 comments: true
 date: 2012-02-04 18:43:44+00:00
 layout: post
-link: http://vninja.net/news/vmware-virtual-customer-labs/
 slug: vmware-virtual-customer-labs
 title: VMware Virtual Customer Labs
+url: /news/vmware-virtual-customer-labs/
 wordpress_id: 1759
 categories:
 - News
