@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Usercon on Adventures in Hugo</title>
+    <link>/tags/usercon/</link>
+    <description>Recent content in Usercon on Adventures in Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
+    <lastBuildDate>Sat, 19 Nov 2016 13:04:50 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/usercon/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Nordic VMUG UserCon 2016</title>
+      <link>/posts/nordic-vmug-usercon-2016/</link>
+      <pubDate>Sat, 19 Nov 2016 13:04:50 +0000</pubDate>
+      
+      <guid>/posts/nordic-vmug-usercon-2016/</guid>
+      <description>The 2016 Nordic VMUG UserCon in Copenhagen, Denmark, is just 11 days away, and if you haven&amp;rsquo;t registered already now is the time to do so. As usual the speaker lineup for the event is awesome, with a lot of the usual suspects like Duncan Epping (VMware), Cormac Hogan (VMware), Lee Dilworth (VMware), and Frank Denneman (VMware), but VMware is also showing it&amp;rsquo;s commitment to VMUG by sending some non-europeans as well, like Grant Orchard and_ Mike Foley_.</description>
+    </item>
+    
+    <item>
+      <title>Nordic VMUG UserCon Session</title>
+      <link>/posts/nordic-vmug-usercon-session/</link>
+      <pubDate>Wed, 28 Oct 2015 22:30:14 +0000</pubDate>
+      
+      <guid>/posts/nordic-vmug-usercon-session/</guid>
+      <description>VMUG Denmark is arranging the Nordic VMUG UserCon in Copenhagen December 1st 2015, and the agenda went live earlier today. I&amp;rsquo;m definitely going to be there, and as it turns out I even have my own session lined up:
+**Session Title: **VCS to VCVA Converter or how a fling can be good for you! ** Session Abstract: **Migrating from Windows vCenter to the VCVA? No worries, the VMware VCS to VCVA Converter fling has you covered!</description>
+    </item>
+    
+  </channel>
+</rss>

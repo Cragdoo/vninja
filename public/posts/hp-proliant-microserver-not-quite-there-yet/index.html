@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="HP ProLiant MicroServer - Not Quite There Yet?" />
+<meta property="og:description" content="When HP announced their new ProLiant MicroServer, I really hoped that it would be the perfect answer to a specific use case I&rsquo;ve been looking at lately.
+Basically, what I&rsquo;m looking for is a small chassis, low noise branch office server that would be used to host a single virtual machine, offering Read-Only Domain Controller (RODC) and Distributed File System (DFS) file-shares.
+Initially it looked to fit the bill perfectly:" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/hp-proliant-microserver-not-quite-there-yet/" />
+
+
+
+<meta property="article:published_time" content="2010-09-09T22:44:25&#43;00:00"/>
+
+<meta property="article:modified_time" content="2010-09-09T22:44:25&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="HP ProLiant MicroServer - Not Quite There Yet?"/>
+<meta name="twitter:description" content="When HP announced their new ProLiant MicroServer, I really hoped that it would be the perfect answer to a specific use case I&rsquo;ve been looking at lately.
+Basically, what I&rsquo;m looking for is a small chassis, low noise branch office server that would be used to host a single virtual machine, offering Read-Only Domain Controller (RODC) and Distributed File System (DFS) file-shares.
+Initially it looked to fit the bill perfectly:"/>
+<meta name="generator" content="Hugo 0.40.3" />
+
+
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "HP ProLiant MicroServer - Not Quite There Yet?",
+  "url": "/posts/hp-proliant-microserver-not-quite-there-yet/",
+  "wordCount": "299",
+  "datePublished": "2010-09-09T22:44:25&#43;00:00",
+  "dateModified": "2010-09-09T22:44:25&#43;00:00",
+  "author": {
+    "@type": "Person",
+    "name": "cmohn"
+  },
+  "keywords": "Hardware, News, Virtualization"
+}
+</script>
+
+
+
+    <link rel="canonical" href="/posts/hp-proliant-microserver-not-quite-there-yet/">
+
+    <title>HP ProLiant MicroServer - Not Quite There Yet? | Adventures in Hugo</title>
+
+    <!-- combined, minified CSS -->
+    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
+
+    
+
+    
+
+    
+
+    
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="/">Home</a>
+          
+          <a class="nav-link" href="https://example.org" title="">Link 1</a>
+          
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
+        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+      </div>
+    </header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/hp-proliant-microserver-not-quite-there-yet/">HP ProLiant MicroServer - Not Quite There Yet?</a></h2>
+    <p class="blog-post-meta"><time datetime="2010-09-09T22:44:25Z">Thu Sep 09, 2010</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/hardware" rel="category tag">Hardware</a>, <a href="/categories/news" rel="category tag">News</a>, <a href="/categories/virtualization" rel="category tag">Virtualization</a>
+
+
+</p>
+  </header>
+  <p><img src="/images/logos/hp.png" alt="" />When HP announced their new <a href="http://h10010.www1.hp.com/wwpc/us/en/sm/WF05a/15351-15351-4237916-4237918-4237917-4248009.html">ProLiant MicroServer</a>, I really hoped that it would be the perfect answer to a specific use case I&rsquo;ve been looking at lately.</p>
+
+<p>Basically, what I&rsquo;m looking for is a small chassis, low noise branch office server that would be used to host a single virtual machine, offering <a href="http://technet.microsoft.com/en-us/library/cc732801%28WS.10%29.aspx">Read-Only Domain Controller (RODC)</a> and <a href="http://en.wikipedia.org/wiki/Distributed_File_System_%28Microsoft%29">Distributed File System (DFS)</a> file-shares.</p>
+
+<p>Initially it looked to fit the bill perfectly:</p>
+
+<ul>
+<li><p>Small footprint; Check</p></li>
+
+<li><p>Low Noise levels; Check</p></li>
+</ul>
+
+<p>But, sadly, that&rsquo;s where it stops. The first version of the HP ProLiant MicroServer comes with one CPU offering, namely theAMD Athlon II NEO N36L which isn&rsquo;t all that much to run even a single-VM ESXi instance on.</p>
+
+<p>The current tech spec page does not go into much details about the storage controller, other than it&rsquo;s an &ldquo;Integrated 4 port SATA RAID Storage Controller&rdquo;, which makes it impossible to check for compatibility on the official <a href="http://www.vmware.com/resources/compatibility/search.php">VMware HCL</a>.</p>
+
+<p>The 1GbE NC107i NIC supplied with the server, seems to be supported by VMware though, at least according to the <a href="http://h20338.www2.hp.com/enterprise/cache/525605-0-0-0-121.html">ProLiant option VMware support matrix</a>.</p>
+
+<p>I understand that HP created this server for a different use-case than the one I&rsquo;m outlining here, and you can&rsquo;t really criticize them for that, I just hope that this is just the first of several offerings from HP and that the next version comes with better CPU offerings.</p>
+
+<p>A proper CPU would make this baby the perfect entry level, small footprint, low noise branch-office server.</p>
+
+<p><strong>Update:</strong> <a href="http://twitter.com/kiwi_si">Simon Seagrave</a> has posted as <em>&ldquo;somewhat&rdquo;</em> more verbose analysis of the HP ProLiant Microserver: <a href="http://www.techhead.co.uk/new-hp-proliant-microserver-a-decent-vsphere-lab-server-candidate">New HP Proliant MicroServer – a decent vSphere lab server candidate?</a>. His conclusion is pretty much the same as mine though; give us more CPU and a vSphere supported RAID controller and we&rsquo;re all set. I couldn&rsquo;t agree more.</p>
+
+
+  
+
+  
+  <hr>
+  <footer>
+
+  
+    <section>
+    <h4>Share</h4>
+    <nav class="nav sharing-icons">
+      <a class="nav-item" href="https://www.facebook.com/sharer/sharer.php?u=%2fposts%2fhp-proliant-microserver-not-quite-there-yet%2f" title="Share on Facebook"><span class="fa fa-facebook fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://plus.google.com/share?url=%2fposts%2fhp-proliant-microserver-not-quite-there-yet%2f" title="Share on Google+"><span class="fa fa-google-plus fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fposts%2fhp-proliant-microserver-not-quite-there-yet%2f" title="Share on LinkedIn"><span class="fa fa-linkedin fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://twitter.com/home?status=%2fposts%2fhp-proliant-microserver-not-quite-there-yet%2f" title="Tweet this"><span class="fa fa-twitter fa-2x"></span></a>
+    </nav>
+  </section>
+
+  
+
+  
+  </footer>
+  
+
+</article> 
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="https://example.com">Link 1</a></li>
+      
+      <li><a href="https://example.org">Link 2</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p>
+      
+      &copy; Christian Mohn
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>

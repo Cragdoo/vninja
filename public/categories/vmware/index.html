@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="Vmware" />
+<meta property="og:description" content="There is a thin line between agile and fragile" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="/categories/vmware/" />
+
+
+
+<meta property="og:updated_time" content="2018-01-29T22:49:53&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Vmware"/>
+<meta name="twitter:description" content="There is a thin line between agile and fragile"/>
+<meta name="generator" content="Hugo 0.40.3" />
+
+
+    
+      
+    
+
+    <link rel="canonical" href="/categories/vmware/">
+
+    <title>Adventures in Hugo</title>
+
+    <!-- combined, minified CSS -->
+    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
+
+    
+    <!-- RSS 2.0 feed -->
+    <link href="/categories/vmware/index.xml" rel="alternate" type="application/rss+xml" title="Adventures in Hugo" />
+    
+
+    
+
+    
+
+    
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="/">Home</a>
+          
+          <a class="nav-link" href="https://example.org" title="">Link 1</a>
+          
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
+        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+      </div>
+    </header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/bootbank-cannot-be-found-at-path/">Alerting on &ldquo;Bootbank cannot be found at path ‘/bootbank’&rdquo; in vRealize Operations</a></h2>
+    <p class="blog-post-meta"><time datetime="2018-01-29T22:49:53Z">Mon Jan 29, 2018</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/vmware" rel="category tag">VMware</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/alerting" rel="tag">Alerting</a>, <a href="/tags/vrealize-log-insight" rel="tag">vRealize Log Insight</a>, <a href="/tags/vrealize-operations" rel="tag">vRealize Operations</a>, <a href="/tags/vrli" rel="tag">vRLI</a>, <a href="/tags/vrops" rel="tag">vROps</a>, <a href="/tags/vsphere" rel="tag">vSphere</a>
+
+</p>
+  </header>
+  If you boot your ESXi hosts from SD-cards or USB you might have run into this issue. Suddenly your host(s) displays the following under events: &ldquo;Bootbank cannot be found at path ‘/bootbank’.&rdquo;
+Usually this means that the boot device has been corrupted somehow, either due to a device failure or other issues. Normally the host continues to run, until it&rsquo;s rebooted that is&hellip;
+For some reason, vRealize Operations doesn&rsquo;t pick this up as a host issue that it alerts on, so if your alerting regime is based on vROps alerts, you might not get alerted immediately.
+  <a href='/posts/bootbank-cannot-be-found-at-path/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/cross-vcenter-vm-mobility-fling-macos/">Cross vCenter VM Mobility Fling - macOS?</a></h2>
+    <p class="blog-post-meta"><time datetime="2017-03-28T11:44:58Z">Tue Mar 28, 2017</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/vmware" rel="category tag">VMware</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/awesome" rel="tag">Awesome</a>, <a href="/tags/fling" rel="tag">Fling</a>, <a href="/tags/macos" rel="tag">macOS</a>, <a href="/tags/vmware" rel="tag">VMware</a>, <a href="/tags/xvmotion" rel="tag">xvMotion</a>
+
+</p>
+  </header>
+  The VMware Cross vCenter VM Mobility - CLI was recently updated so I decided to try it out. In short, this little Java based application allows you to easily move or clone VMs between disparate vCenter environments.
+The Fling is listed with the following requirements:
+ JDK 1.7 or above
+ Two vCenter instances with ESX 6.0
+ Windows : Windows Server 2003 or above
+ Linux : RHEL 7.x or above, Ubuntu 11.
+  <a href='/posts/cross-vcenter-vm-mobility-fling-macos/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/vmware-vsphere-6-5-psod-gp-exception-13/">VMware vSphere 6.5 PSOD: GP Exception 13</a></h2>
+    <p class="blog-post-meta"><time datetime="2017-02-25T08:50:26Z">Sat Feb 25, 2017</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/vmware" rel="category tag">VMware</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/6.5" rel="tag">6.5</a>, <a href="/tags/esxi" rel="tag">ESXi</a>, <a href="/tags/kb" rel="tag">KB</a>, <a href="/tags/vsphere" rel="tag">vSphere</a>
+
+</p>
+  </header>
+  While at a customer site, migrating an old vSphere 5.5 environment to 6.5, several hosts suddenly crashed with a PSOD during the migration. Long story short, we got hit by this: VMware KB 2147958: _ESXi 6.5 host fails with PSOD: GP Exception 13 in multiple VMM world at VmAnonAllocVmmPages (2147958)
+It turned out that a bunch of the VMs we were vMotioning from the old environment had the cpuid.corePerSocket advanced setting set in the .
+  <a href='/posts/vmware-vsphere-6-5-psod-gp-exception-13/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/esxi-snapshot-problems-msg-snapshot-error-quiescingerror/">ESXi Snapshot Problems: msg.snapshot.error-QUIESCINGERROR</a></h2>
+    <p class="blog-post-meta"><time datetime="2017-02-01T13:18:04Z">Wed Feb 01, 2017</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/vmware" rel="category tag">VMware</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/esxi" rel="tag">ESXi</a>, <a href="/tags/ntp" rel="tag">NTP</a>, <a href="/tags/snapshot" rel="tag">Snapshot</a>, <a href="/tags/vsphere" rel="tag">vSphere</a>
+
+</p>
+  </header>
+  [caption id=&ldquo;attachment_4559&rdquo; align=&ldquo;alignright&rdquo; width=&ldquo;300&rdquo;] Photo by Sonja Langford[/caption]
+Just a quick post about something I experienced at a client, with ESXi 6.0 hosts, today:
+If you have trouble performing VMware snapshots, and see a msg.snapshot.error-QUIESCINGERROR error, check the host time settings and NTP.
+In this case, snapshots of VMs located on other hosts in the cluster were fine, but once a VM was moved to the new host, snapshot operations failed after an hour or so.
+  <a href='/posts/esxi-snapshot-problems-msg-snapshot-error-quiescingerror/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/vmworld-europe-2016-my-takeaways/">VMworld Europe 2016 - My takeaways</a></h2>
+    <p class="blog-post-meta"><time datetime="2016-10-31T23:07:40Z">Mon Oct 31, 2016</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/vmware" rel="category tag">VMware</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/conference" rel="tag">conference</a>, <a href="/tags/vdm30in30" rel="tag">vDM30in30</a>, <a href="/tags/vmware" rel="tag">VMware</a>, <a href="/tags/vmworld" rel="tag">vmworld</a>
+
+</p>
+  </header>
+  VMworld Europe 2016 in Barcelona is a couple of weeks old now, and most of the dust has settled. Besides the general announcements around vSphere 6.5 and surrounding products, the next big thing might just be Cross-Cloud Architecture and of course VMware Cloud on AWS. The announcements around vSAN 6.5 (yes, it is now vSAN and not Virtual SAN/VSAN anymore), are also very interesting. Perhaps it&rsquo;s time I revisit my earlier VMware VSAN; More than meets the eye post and update it for vSAN 6.
+  <a href='/posts/vmworld-europe-2016-my-takeaways/'>Read more →</a>
+</article> 
+
+
+
+
+
+<nav class="blog-pagination">
+  
+  
+  
+  <a class="btn btn-outline-primary disabled" href="#" role="button" aria-disabled="true">Previous page</a>
+  <a class="btn btn-outline-primary" href="/categories/vmware/page/2/" rel="next" role="button">Next page</a>
+  
+</nav>
+
+
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="https://example.com">Link 1</a></li>
+      
+      <li><a href="https://example.org">Link 2</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p>
+      
+      &copy; Christian Mohn
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>

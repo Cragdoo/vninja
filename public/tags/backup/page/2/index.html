@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="Backup" />
+<meta property="og:description" content="There is a thin line between agile and fragile" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="/tags/backup/" />
+
+
+
+<meta property="og:updated_time" content="2013-03-25T09:03:41&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Backup"/>
+<meta name="twitter:description" content="There is a thin line between agile and fragile"/>
+<meta name="generator" content="Hugo 0.40.3" />
+
+
+    
+      
+    
+
+    <link rel="canonical" href="/tags/backup/">
+
+    <title>Adventures in Hugo</title>
+
+    <!-- combined, minified CSS -->
+    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
+
+    
+    <!-- RSS 2.0 feed -->
+    <link href="/tags/backup/index.xml" rel="alternate" type="application/rss+xml" title="Adventures in Hugo" />
+    
+
+    
+
+    
+
+    
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="/">Home</a>
+          
+          <a class="nav-link" href="https://example.org" title="">Link 1</a>
+          
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
+        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+      </div>
+    </header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/backing-up-vcenter-db-with-veeam-br-6-5/">Backing up vCenter DB with Veeam B&amp;R 6.5</a></h2>
+    <p class="blog-post-meta"><time datetime="2013-03-25T09:03:41Z">Mon Mar 25, 2013</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/automation" rel="tag">automation</a>, <a href="/tags/backup" rel="tag">Backup</a>, <a href="/tags/ops" rel="tag">Ops</a>, <a href="/tags/realworld" rel="tag">realworld</a>, <a href="/tags/vcenter" rel="tag">vCenter</a>, <a href="/tags/veeam" rel="tag">Veeam</a>, <a href="/tags/vmware" rel="tag">VMware</a>, <a href="/tags/vsphere" rel="tag">vSphere</a>, <a href="/tags/workaround" rel="tag">workaround</a>
+
+</p>
+  </header>
+  It´s a well known problem that with Veeam Backup &amp; Recovery Replication 6.5, and earlier, backing up the SQL server that hosts the vCenter DB poses a problem. KB1051 VSS for vCenter outlines the issue well, and provides a workaround.
+If you experience this problem, you will see entries like this in your Veeam B&amp;R backup logs:
+[caption id=&ldquo;attachment_2490&rdquo; align=&ldquo;aligncenter&rdquo; width=&ldquo;640&rdquo;] Veeam vCenterDB Backup Error[/caption]
+The workaround provided by Veeam is to create host VM-Host Affinity Rules, effectively pinning a VM to a given host, and then perform the VM backup through the host rather than through the vCenter.
+  <a href='/posts/backing-up-vcenter-db-with-veeam-br-6-5/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/backup-academy-do-you-know-your-vm-backups/">Backup Academy - Do You Know Your VM backups?</a></h2>
+    <p class="blog-post-meta"><time datetime="2011-09-13T13:39:25Z">Tue Sep 13, 2011</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/backup" rel="tag">Backup</a>, <a href="/tags/backup-academy" rel="tag">Backup Academy</a>, <a href="/tags/certification" rel="tag">Certification</a>, <a href="/tags/hyper-v" rel="tag">Hyper-V</a>, <a href="/tags/veeam" rel="tag">Veeam</a>, <a href="/tags/virtualization" rel="tag">Virtualization</a>, <a href="/tags/vmware" rel="tag">VMware</a>
+
+</p>
+  </header>
+  The newly opened Backup Academy, by Veeam, aims to educate administrators, and others interested in virtual machine backup, in the required skills to maintain a proper backup strategy for your virtual infrastructure.
+Currently the site has 8 videos available, covering content from disaster recovery to backup integrity tools.
+Even if it is run by Veeam, it does not focus on Veeam specific products or services, but rather on the general ideas behind a successful backup and disaster recovery of both VMware and Hyper-V based environments.
+  <a href='/posts/backup-academy-do-you-know-your-vm-backups/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/vcenter-4-1-database-recovery-model-defaults/">vCenter 4.1 Database Recovery Model Defaults</a></h2>
+    <p class="blog-post-meta"><time datetime="2010-10-04T21:36:23Z">Mon Oct 04, 2010</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/backup" rel="tag">Backup</a>, <a href="/tags/maintenance" rel="tag">Maintenance</a>, <a href="/tags/ops" rel="tag">Ops</a>, <a href="/tags/sql-server-express" rel="tag">SQL Server Express</a>, <a href="/tags/vcenter" rel="tag">vCenter</a>, <a href="/tags/vsphere" rel="tag">vSphere</a>
+
+</p>
+  </header>
+  Sometimes leaving the defaults in place might just come back and bite you, hard.
+That might also be the case with your vCenter 4.1 database, as I experienced back in July.
+All of a sudden my vCenter Server stopped working. The symptoms where pretty obvious, my client couldn&rsquo;t connect to the vCenter server. Naturally I connected to the server, and noticed that the VMware VirtualCenter Server services had indeed stopped. No wonder the client couldn&rsquo;t connect to it.
+  <a href='/posts/vcenter-4-1-database-recovery-model-defaults/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/scheduling-vcenter-backups/">Scheduling vCenter Backups</a></h2>
+    <p class="blog-post-meta"><time datetime="2010-07-22T12:17:56Z">Thu Jul 22, 2010</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/backup" rel="tag">Backup</a>, <a href="/tags/ops" rel="tag">Ops</a>, <a href="/tags/sql-server-express" rel="tag">SQL Server Express</a>, <a href="/tags/vcenter" rel="tag">vCenter</a>, <a href="/tags/vmware" rel="tag">VMware</a>
+
+</p>
+  </header>
+  If you run your vCenter on SQL Server Express 2005, you are missing the ability to set up scheduled backup jobs with SQL Maintenance Plans, a feature available in the full version of SQL Server.
+This might not be a problem if your backup software has SQL Server agents that you use to backup your vCenter databaser, but in smaller environments or even in your lab, you might not have that kind of backup scheme available to you, so what do you do?
+  <a href='/posts/scheduling-vcenter-backups/'>Read more →</a>
+</article> 
+
+
+
+
+
+<nav class="blog-pagination">
+  
+  
+  <a class="btn btn-outline-primary" href="/tags/backup/" rel="prev" role="button">Previous page</a>
+  <a class="btn btn-outline-primary disabled" href="#" role="button" aria-disabled="true">Next page</a>
+  
+  
+</nav>
+
+
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="https://example.com">Link 1</a></li>
+      
+      <li><a href="https://example.org">Link 2</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p>
+      
+      &copy; Christian Mohn
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>

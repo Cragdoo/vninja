@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="Running Dockerflix on Ravello Systems" />
+<meta property="og:description" content="Dockerflix is a nice little project that allows you to route your Netflix (and other various streaming services) through a SNI Proxy to access content otherwise geo-blocked. Of course, this requires that you have a VM with for instance an US IP to provide the breakout network, and that&rsquo;s where Ravello Systems comes into the equation. Luckily as a current vExpert I have access to 1000 free monthly CPU hours of personal/lab usage, all with a choice of regions to put the VM in." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/running-dockerflix-on-ravello-systems/" />
+
+
+
+<meta property="article:published_time" content="2016-01-14T12:32:59&#43;00:00"/>
+
+<meta property="article:modified_time" content="2016-01-14T12:32:59&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Running Dockerflix on Ravello Systems"/>
+<meta name="twitter:description" content="Dockerflix is a nice little project that allows you to route your Netflix (and other various streaming services) through a SNI Proxy to access content otherwise geo-blocked. Of course, this requires that you have a VM with for instance an US IP to provide the breakout network, and that&rsquo;s where Ravello Systems comes into the equation. Luckily as a current vExpert I have access to 1000 free monthly CPU hours of personal/lab usage, all with a choice of regions to put the VM in."/>
+<meta name="generator" content="Hugo 0.40.3" />
+
+
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Running Dockerflix on Ravello Systems",
+  "url": "/posts/running-dockerflix-on-ravello-systems/",
+  "wordCount": "371",
+  "datePublished": "2016-01-14T12:32:59&#43;00:00",
+  "dateModified": "2016-01-14T12:32:59&#43;00:00",
+  "author": {
+    "@type": "Person",
+    "name": "cmohn"
+  },
+  "keywords": "Virtualization, Docker, Dockerflix, Hipster IT, Ravello, VMware Photon"
+}
+</script>
+
+
+
+    <link rel="canonical" href="/posts/running-dockerflix-on-ravello-systems/">
+
+    <title>Running Dockerflix on Ravello Systems | Adventures in Hugo</title>
+
+    <!-- combined, minified CSS -->
+    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
+
+    
+
+    
+
+    
+
+    
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="/">Home</a>
+          
+          <a class="nav-link" href="https://example.org" title="">Link 1</a>
+          
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
+        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+      </div>
+    </header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/running-dockerflix-on-ravello-systems/">Running Dockerflix on Ravello Systems</a></h2>
+    <p class="blog-post-meta"><time datetime="2016-01-14T12:32:59Z">Thu Jan 14, 2016</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/docker" rel="tag">Docker</a>, <a href="/tags/dockerflix" rel="tag">Dockerflix</a>, <a href="/tags/hipster-it" rel="tag">Hipster IT</a>, <a href="/tags/ravello" rel="tag">Ravello</a>, <a href="/tags/vmware-photon" rel="tag">VMware Photon</a>
+
+</p>
+  </header>
+  <p><a href="https://github.com/trick77/dockerflix"><img src="http://vninja.net/wordpress/wp-content/uploads/2016/01/Ravello-2016-01-14-13-30-40-300x141.png" alt="Ravello 2016-01-14 13-30-40" />Dockerflix</a> is a nice little project that allows you to route your Netflix (and other various streaming services) through a SNI Proxy to access content otherwise geo-blocked. Of course, this requires that you have a VM with for instance an US IP to provide the breakout network, and that&rsquo;s where Ravello Systems comes into the equation. Luckily as a current vExpert I have access to <a href="http://vninja.net/virtualization/ravello/">1000 free monthly CPU hours</a> of personal/lab usage, all with a <a href="https://support.ravellosystems.com/hc/en-us/articles/215793017">choice of regions</a> to put the VM in. <em>Perfect.</em></p>
+
+<p><a href="http://go.ravellosystems.com/d80sH0DKRI0UC00C56040C0"><img src="http://vninja.net/wordpress/wp-content/uploads/2016/01/unnamed.png" alt="" /></a>I created a <a href="https://vmware.github.io/photon/">VMware Photon</a> based VM on Ravello, with an <a href="https://www.ravellosystems.com/blog/providing-external-access-application-elastic-ip-addressing/">Elastic IP</a> that allows the IP to stick to the VM, even if it&rsquo;s moved to another public cloud,  and installed Dockerflix. VMware Photon doesn&rsquo;t come with <em>docker-compose</em>, which Dockerflix is dependant on, check <a href="https://docs.docker.com/compose/install/">Install Docker Compose</a> for details on how to install it. Once that is installed, run the following command to download and install Dockerflix.</p>
+
+<p>[cc lang=&ldquo;bash&rdquo; width=&ldquo;100%&rdquo; theme=&ldquo;blackboard&rdquo; nowrap=&ldquo;0&rdquo;]git clone <a href="https://github.com/trick77/dockerflix.git[/cc">https://github.com/trick77/dockerflix.git[/cc</a>]</p>
+
+<p>Setup of Dockerflix itself is pretty straight forward, just follow the <a href="https://github.com/trick77/dockerflix/blob/master/README.md">README</a> provided by the project. Make sure you enable http/https/ssh to the VM with a public IP. Once that was done, I set up <a href="http://www.thekelleys.org.uk/dnsmasq/doc.html">dnsmasq</a> on one of the Linux VMs in my home-lab, with the output config the python script provided by Dockerflix.</p>
+
+<p>[cc lang=&ldquo;bash&rdquo; width=&ldquo;100%&rdquo; theme=&ldquo;blackboard&rdquo; nowrap=&ldquo;0&rdquo;]python ./gendns-conf.py &ndash;remoteip [RAVELLO_PUBLIC_IP][/cc]</p>
+
+<p><strong>Note:</strong> <em>Running this permanently would be a violation of the Ravello vExpert Terms of Service. This is to be considered a technical Proof of Concept, more than a permanent setup. I haven&rsquo;t investigated the possibility to set up something like this permanently on either vCloud Air, AWS, Azure or Google Cloud Platform, or if you are even allowed to do so. But then again, all you are doing is routing IP traffic&hellip;</em></p>
+
+<p>As far as testing goes, I experienced no problems with bandwidth or anything else. Streaming was perfect, and seamless. The fact that I was routing the traffic through a VM running in the US was not noticeable at all.</p>
+
+<p>Configuring it was a great exercise. Not only did I get to play with VMware Photon and Docker, but it also shows that using Ravello Systems to perform Proof of Concept scenarios is perfectly viable, even enjoyable.</p>
+
+
+  
+
+  
+  <hr>
+  <footer>
+
+  
+    <section>
+    <h4>Share</h4>
+    <nav class="nav sharing-icons">
+      <a class="nav-item" href="https://www.facebook.com/sharer/sharer.php?u=%2fposts%2frunning-dockerflix-on-ravello-systems%2f" title="Share on Facebook"><span class="fa fa-facebook fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://plus.google.com/share?url=%2fposts%2frunning-dockerflix-on-ravello-systems%2f" title="Share on Google+"><span class="fa fa-google-plus fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fposts%2frunning-dockerflix-on-ravello-systems%2f" title="Share on LinkedIn"><span class="fa fa-linkedin fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://twitter.com/home?status=%2fposts%2frunning-dockerflix-on-ravello-systems%2f" title="Tweet this"><span class="fa fa-twitter fa-2x"></span></a>
+    </nav>
+  </section>
+
+  
+
+  
+  </footer>
+  
+
+</article> 
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="https://example.com">Link 1</a></li>
+      
+      <li><a href="https://example.org">Link 2</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p>
+      
+      &copy; Christian Mohn
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="vPostgres Database Backup in vCSA 5.5" />
+<meta property="og:description" content="With the new vSphere 5.5 release, the VMware vCenter Appliance (vCSA) has grown up to be a viable alternative to the traditional Microsoft Windows based vCenter deployment scenario. The new vCSA version supports up to 100 hosts and 3000 (with an external Oracle database the values change to 1000&frasl;10000) virtual machines, a big improvement from 5 hosts and 50 virtual machines in the previous version.
+Sadly, the only external database option available for vCSA 5." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/vpostgres-database-backup-vcsa-5-5/" />
+
+
+
+<meta property="article:published_time" content="2013-10-01T08:42:47&#43;00:00"/>
+
+<meta property="article:modified_time" content="2013-10-01T08:42:47&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="vPostgres Database Backup in vCSA 5.5"/>
+<meta name="twitter:description" content="With the new vSphere 5.5 release, the VMware vCenter Appliance (vCSA) has grown up to be a viable alternative to the traditional Microsoft Windows based vCenter deployment scenario. The new vCSA version supports up to 100 hosts and 3000 (with an external Oracle database the values change to 1000&frasl;10000) virtual machines, a big improvement from 5 hosts and 50 virtual machines in the previous version.
+Sadly, the only external database option available for vCSA 5."/>
+<meta name="generator" content="Hugo 0.40.3" />
+
+
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "vPostgres Database Backup in vCSA 5.5",
+  "url": "/posts/vpostgres-database-backup-vcsa-5-5/",
+  "wordCount": "564",
+  "datePublished": "2013-10-01T08:42:47&#43;00:00",
+  "dateModified": "2013-10-01T08:42:47&#43;00:00",
+  "author": {
+    "@type": "Person",
+    "name": "cmohn"
+  },
+  "keywords": "Virtualization, VMware, Appliance, Backup, VCSA, vPostgres, vSphere"
+}
+</script>
+
+
+
+    <link rel="canonical" href="/posts/vpostgres-database-backup-vcsa-5-5/">
+
+    <title>vPostgres Database Backup in vCSA 5.5 | Adventures in Hugo</title>
+
+    <!-- combined, minified CSS -->
+    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
+
+    
+
+    
+
+    
+
+    
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="/">Home</a>
+          
+          <a class="nav-link" href="https://example.org" title="">Link 1</a>
+          
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
+        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+      </div>
+    </header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/vpostgres-database-backup-vcsa-5-5/">vPostgres Database Backup in vCSA 5.5</a></h2>
+    <p class="blog-post-meta"><time datetime="2013-10-01T08:42:47Z">Tue Oct 01, 2013</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>, <a href="/categories/vmware" rel="category tag">VMware</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/appliance" rel="tag">Appliance</a>, <a href="/tags/backup" rel="tag">Backup</a>, <a href="/tags/vcsa" rel="tag">VCSA</a>, <a href="/tags/vmware" rel="tag">VMware</a>, <a href="/tags/vpostgres" rel="tag">vPostgres</a>, <a href="/tags/vsphere" rel="tag">vSphere</a>
+
+</p>
+  </header>
+  
+
+<p>With the new vSphere 5.5 release, the VMware vCenter Appliance (vCSA) has grown up to be a viable alternative to the traditional Microsoft Windows based vCenter deployment scenario. The new vCSA version supports up to 100 hosts and 3000 (with an external Oracle database the values change to <sup>1000</sup>&frasl;<sub>10000</sub>) virtual machines, a big improvement from 5 hosts and 50 virtual machines in the previous version.</p>
+
+<p>Sadly, the only external database option available for vCSA 5.5 is Oracle, which means there is still no external Microsoft SQL Server support. For those clients who don´t have an existing Oracle infrastructure, this might be a problem especially with regards to backup of the vCSA database.</p>
+
+<p>The internal database in vCSA is a modified version of Postgres, that VMware has called vPostgres. Thankfully this also includes the native Postgres command to create database dumps, _pg<em>dump</em>.</p>
+
+<p>In order to create a database dump of the vPostgres database, the following command needs to be run by opening a SSH connection to the vCSA:</p>
+
+<p>[cc lang=&ldquo;bash&rdquo; width=&ldquo;100%&rdquo; theme=&ldquo;blackboard&rdquo; nowrap=&ldquo;0&rdquo;]
+~ # /opt/vmware/vpostgres/1.0/bin/pg_dump EMB_DB_INSTANCE -U EMB_DB_USER -Fp -c &gt; VCDBBackupFile
+[/cc]</p>
+
+<p><strong>EMB_DB_INSTANCE</strong> and <strong>EMB_DB_USER</strong> are to be replaced with values from the _/etc/vmware-vpx/embedded<em>db.cfg</em> file</p>
+
+<p>In my case, the exact command would be:</p>
+
+<p>[cc lang=&ldquo;bash&rdquo; width=&ldquo;100%&rdquo; theme=&ldquo;blackboard&rdquo; nowrap=&ldquo;0&rdquo;]
+~ # /opt/vmware/vpostgres/1.0/bin/pg_dump VCDB -U vc -Fp -c &gt; /tmp/VCDBBackupFile
+[/cc]</p>
+
+<p>Note that <strong>EMB_DB_INSTANCE</strong> is replaced with <strong>VCDB</strong> and <strong>EMB_DB_USER</strong> is replaced by vc in the command above. Both values come from _/etc/vmware-vpx/embedded<em>db.cfg</em></p>
+
+<p>Off it goes, and creates a dump file in <em>/tmp</em>. So far so good, we have a database dump but how to we automate it?</p>
+
+<p>Add a new file in <em>/etc/cron.daily/</em> (for instance, use <em>/etc/cron.hourly/</em> if that fits your RPO) called <em>vcdbbackup.sh</em> with the following content:</p>
+
+<p>[cc lang=&ldquo;bash&rdquo; width=&ldquo;100%&rdquo; theme=&ldquo;blackboard&rdquo; nowrap=&ldquo;0&rdquo;]
+#!/bin/sh
+/opt/vmware/vpostgres/1.0/bin/pg_dump VCDB -U vc -Fp -c &gt; /tmp/VCDBBackupFile
+[/cc]</p>
+
+<p>Then we need to make the cron script executable by running:
+[cc lang=&ldquo;bash&rdquo; width=&ldquo;100%&rdquo; theme=&ldquo;blackboard&rdquo; nowrap=&ldquo;0&rdquo;]
+chmod u+x /etc/cron.daily/vcdbbackup.sh
+[/cc]</p>
+
+<p>And you should be ready to go! Of course, you should probably create the backup files somewhere else than in <em>/tmp</em>, and even mount a file share from another server in your environment and place the dump file there for safe keeping and further backup in your existing scheme. In addition to this, you can add other variables to the script like datestamping the file etc, but for now this is what I have done.</p>
+
+<p>By doing backups of the vCSA in this manner, you can have a standby vCSA laying around in case of a primary vCSA failure. If that happens, fire up the standby one, ssh to it and restore the vPostgres dump. I won&rsquo;t go into details on that right now, but the command for restoring looks like this:</p>
+
+<p>[cc lang=&ldquo;bash&rdquo; width=&ldquo;100%&rdquo; theme=&ldquo;blackboard&rdquo; nowrap=&ldquo;0&rdquo;]
+PGPASSWORD=EMB_DB_PASSWORD ./psql -d EMB_DB_INSTANCE -Upostgres -f VCDBBackupFile
+[/cc]</p>
+
+<p>Feature Request
+<em>What VMware should do for the next version of the vCSA is to add external Microsoft SQL Server support, but if that´s off the table for some reason, at least let us manage database dumps via the vCSA admin interface? Please create pre-defined scripts and crontabs, and let us manage those. It might not be as good as external database support, when it comes to backup, but a little goes a long way in protecting this valuable resource in your infrastructure.</em></p>
+
+<h4 id="references">References:</h4>
+
+<h4 id="backing-up-and-restoring-the-vcenter-server-appliance-vpostgres-database-2034505">[Backing up and restoring the vCenter Server Appliance (vPostgres) database (2034505)</h4>
+
+<p>](<a href="http://kb.vmware.com/selfservice/microsites/search.do?language=en_US&amp;cmd=displayKC&amp;externalId=2034505">http://kb.vmware.com/selfservice/microsites/search.do?language=en_US&amp;cmd=displayKC&amp;externalId=2034505</a>)</p>
+
+
+  
+
+  
+  <hr>
+  <footer>
+
+  
+    <section>
+    <h4>Share</h4>
+    <nav class="nav sharing-icons">
+      <a class="nav-item" href="https://www.facebook.com/sharer/sharer.php?u=%2fposts%2fvpostgres-database-backup-vcsa-5-5%2f" title="Share on Facebook"><span class="fa fa-facebook fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://plus.google.com/share?url=%2fposts%2fvpostgres-database-backup-vcsa-5-5%2f" title="Share on Google+"><span class="fa fa-google-plus fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fposts%2fvpostgres-database-backup-vcsa-5-5%2f" title="Share on LinkedIn"><span class="fa fa-linkedin fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://twitter.com/home?status=%2fposts%2fvpostgres-database-backup-vcsa-5-5%2f" title="Tweet this"><span class="fa fa-twitter fa-2x"></span></a>
+    </nav>
+  </section>
+
+  
+
+  
+  </footer>
+  
+
+</article> 
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="https://example.com">Link 1</a></li>
+      
+      <li><a href="https://example.org">Link 2</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p>
+      
+      &copy; Christian Mohn
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>

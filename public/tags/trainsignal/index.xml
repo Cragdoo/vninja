@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Trainsignal on Adventures in Hugo</title>
+    <link>/tags/trainsignal/</link>
+    <description>Recent content in Trainsignal on Adventures in Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
+    <lastBuildDate>Fri, 22 Feb 2013 08:55:41 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/trainsignal/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Trainsignal: Training as a Service (TaaS)</title>
+      <link>/posts/trainsignal-training-service-taas/</link>
+      <pubDate>Fri, 22 Feb 2013 08:55:41 +0000</pubDate>
+      
+      <guid>/posts/trainsignal-training-service-taas/</guid>
+      <description>Trainsignal has just launched a new Online Training bundle, and for $49 a month you can get unlimited access to their entire set of training courses and practice exams for Cisco, Apple, Microsoft, Citrix, CompTIA, and VMware.
+
+The new pricing is very attractive, especially since you no longer need to buy access on a course by course basis.
+The courses are delivered in your browser, but Trainsignal also offers an offline player in case you need access when traveling or otherwise offline.</description>
+    </item>
+    
+  </channel>
+</rss>

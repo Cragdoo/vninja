@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="Esxi" />
+<meta property="og:description" content="There is a thin line between agile and fragile" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="/tags/esxi/" />
+
+
+
+<meta property="og:updated_time" content="2013-09-30T00:12:39&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Esxi"/>
+<meta name="twitter:description" content="There is a thin line between agile and fragile"/>
+<meta name="generator" content="Hugo 0.40.3" />
+
+
+    
+      
+    
+
+    <link rel="canonical" href="/tags/esxi/">
+
+    <title>Adventures in Hugo</title>
+
+    <!-- combined, minified CSS -->
+    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
+
+    
+    <!-- RSS 2.0 feed -->
+    <link href="/tags/esxi/index.xml" rel="alternate" type="application/rss+xml" title="Adventures in Hugo" />
+    
+
+    
+
+    
+
+    
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="/">Home</a>
+          
+          <a class="nav-link" href="https://example.org" title="">Link 1</a>
+          
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
+        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+      </div>
+    </header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/combine-vsphere-host-cache-vflash-single-ssd/">Can you combine vSphere Host Cache and vFlash on a single SSD?</a></h2>
+    <p class="blog-post-meta"><time datetime="2013-09-30T00:12:39Z">Mon Sep 30, 2013</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/vmware" rel="category tag">VMware</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/5.5" rel="tag">5.5</a>, <a href="/tags/esxi" rel="tag">ESXi</a>, <a href="/tags/featured" rel="tag">featured</a>, <a href="/tags/host-cache" rel="tag">Host Cache</a>, <a href="/tags/vcenter" rel="tag">vCenter</a>, <a href="/tags/vflash" rel="tag">vFlash</a>, <a href="/tags/virtualization" rel="tag">Virtualization</a>, <a href="/tags/vmware" rel="tag">VMware</a>, <a href="/tags/vsphere" rel="tag">vSphere</a>
+
+</p>
+  </header>
+  One of the new features in vSphere 5.5 is the vSphere vFlash that enables you to use a SSD/Flash device as a read cache for your storage. Duncan Epping has a series of posts on vSphere Flash Cache that is well worth a read.
+vSphere vFlash caches your read IOs, but at the same time you can use it as a swap device if you run into memory contention issues. The vSphere vFlash Host Cache is similar to the older Host Cache feature, but if you are upgrading from an older version of ESXi there is a couple of things that needs to be done to be able to use this feature.
+  <a href='/posts/combine-vsphere-host-cache-vflash-single-ssd/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/vmware-vcenter-server-appliance-error-vpxd-stopped-perform-operation/">VMware vCenter Server Appliance Error: VPXD must be stopped to perform this operation</a></h2>
+    <p class="blog-post-meta"><time datetime="2013-09-29T23:16:25Z">Sun Sep 29, 2013</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/vmware" rel="category tag">VMware</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/5.5" rel="tag">5.5</a>, <a href="/tags/esxi" rel="tag">ESXi</a>, <a href="/tags/vcenter" rel="tag">vCenter</a>, <a href="/tags/vcenter-server-appliance" rel="tag">vCenter Server Appliance</a>, <a href="/tags/vmware" rel="tag">VMware</a>, <a href="/tags/vsphere" rel="tag">vSphere</a>
+
+</p>
+  </header>
+  While deploying a fresh vCenter Server 5.5 Appliance, I ran into an issue getting it configured.
+When the appliance is deployed, the first time you log in you get presented with the configuration wizard. The wizard clearly states that if you want to set a static ip, or hostname, you should cancel the wizard, do the network configuration and then re-run the wizard after the fact.
+Well, that´s what I did, and it resulted in the following error when trying to create the embedded database:
+  <a href='/posts/vmware-vcenter-server-appliance-error-vpxd-stopped-perform-operation/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/quick-dirty-esxi-5-5-upgrade/">Quick and Dirty ESXi 5.5 Upgrade</a></h2>
+    <p class="blog-post-meta"><time datetime="2013-09-23T23:28:04Z">Mon Sep 23, 2013</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/5.5" rel="tag">5.5</a>, <a href="/tags/command-line" rel="tag">Command Line</a>, <a href="/tags/esxcli" rel="tag">esxcli</a>, <a href="/tags/esxi" rel="tag">ESXi</a>, <a href="/tags/host" rel="tag">Host</a>, <a href="/tags/upgrade" rel="tag">Upgrade</a>, <a href="/tags/vib" rel="tag">VIB</a>, <a href="/tags/vmware" rel="tag">VMware</a>, <a href="/tags/vsphere" rel="tag">vSphere</a>
+
+</p>
+  </header>
+  As I´ve posted about earlier, you can update your ESXi hosts to a new release from the command line. Now that ESXi 5.5 has been released, the same procedure can be applied to upgrade once more.
+Place the host in maintenance mode, then run the following command to do an online update to ESXi 5.5:
+[cc lang=&ldquo;bash&rdquo; width=&ldquo;100%&rdquo; theme=&ldquo;blackboard&rdquo; nowrap=&ldquo;0&rdquo;] ~ # esxcli software profile update -d https://hostupdate.vmware.com/software/VUM/PRODUCTION/main/vmw-depot-index.xml -p ESXi-5.
+  <a href='/posts/quick-dirty-esxi-5-5-upgrade/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/monitoring-esxi-upgrade-process/">Monitoring the ESXi Upgrade Process</a></h2>
+    <p class="blog-post-meta"><time datetime="2013-06-26T10:34:18Z">Wed Jun 26, 2013</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/vmware" rel="category tag">VMware</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/esxi" rel="tag">ESXi</a>, <a href="/tags/log" rel="tag">Log</a>, <a href="/tags/maintenance" rel="tag">Maintenance</a>, <a href="/tags/ops" rel="tag">Ops</a>, <a href="/tags/real-world" rel="tag">Real World</a>, <a href="/tags/upgrade" rel="tag">Upgrade</a>, <a href="/tags/virtualization" rel="tag">Virtualization</a>, <a href="/tags/vmware" rel="tag">VMware</a>, <a href="/tags/vsphere" rel="tag">vSphere</a>
+
+</p>
+  </header>
+  When doing manual host upgrades, either through the direct method or via a locally placed upgrade bundle, there is a distinct lack of progress information available after running the esxcli command.
+Thankfully the ESXi host provides a running logfile of the upgrade process, which makes it much easier to keep track of what is going on and that the upgrade is indeed being performed.
+The esxupdate.log is located in /var/log, and by issuing the following command in a terminal window you can have a rolling log showing you the upgrade status and progress:
+  <a href='/posts/monitoring-esxi-upgrade-process/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/quick-dirty-esxi-5-1u1-upgrade/">Quick and Dirty ESXi 5.1U1 Upgrade</a></h2>
+    <p class="blog-post-meta"><time datetime="2013-04-26T12:36:07Z">Fri Apr 26, 2013</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/vmware" rel="category tag">VMware</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/command-line" rel="tag">Command Line</a>, <a href="/tags/esxi" rel="tag">ESXi</a>, <a href="/tags/host" rel="tag">Host</a>, <a href="/tags/upgrade" rel="tag">Upgrade</a>, <a href="/tags/vmware" rel="tag">VMware</a>
+
+</p>
+  </header>
+  Now that VMware ESXi 5.1 Update 1 has been released I decided to do a quick and dirty upgrade of my home installation. I refuse to call it a lab these days, since it´s one singular host and all it does it contain my home domain controller&hellip;
+Anyway, the following procedure upgraded the host from 5.1b to 5.1U1, by downloading the upgrade directly from VMware and installing it. Make sure the host is in maintenance mode before attempting this procedure.
+  <a href='/posts/quick-dirty-esxi-5-1u1-upgrade/'>Read more →</a>
+</article> 
+
+
+
+
+
+<nav class="blog-pagination">
+  
+  <a class="btn btn-outline-primary" href="/tags/esxi/page/2/" rel="prev" role="button">Previous page</a>
+  <a class="btn btn-outline-primary" href="/tags/esxi/page/4/" rel="next" role="button">Next page</a>
+  
+  
+  
+</nav>
+
+
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="https://example.com">Link 1</a></li>
+      
+      <li><a href="https://example.org">Link 2</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p>
+      
+      &copy; Christian Mohn
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Storage on Adventures in Hugo</title>
+    <link>/tags/storage/</link>
+    <description>Recent content in Storage on Adventures in Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
+    <lastBuildDate>Wed, 23 Nov 2016 13:57:56 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/storage/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>VMware vSAN: 2016 Edition</title>
+      <link>/posts/vmware-vsan-2016-edition/</link>
+      <pubDate>Wed, 23 Nov 2016 13:57:56 +0000</pubDate>
+      
+      <guid>/posts/vmware-vsan-2016-edition/</guid>
+      <description>Both in 2014 and in 2015 I wrote pieces on the current status of VMware vSAN, and it&amp;rsquo;s time to revisit it for 2016.
+My previous posts:
+2014: VSAN: The Unspoken Future 2015: VMware VSAN: More than meets the eye.
+vSAN 6.5 was released with vSphere 6.5, and brings a few new features to the table:
+ Virtual SAN iSCSI Target Service
+ Support for Cloud Native Apps running on the Photon Platform</description>
+    </item>
+    
+    <item>
+      <title>Cohesity: My Initial Impression</title>
+      <link>/posts/cohesity-my-initial-impression/</link>
+      <pubDate>Tue, 22 Nov 2016 13:05:33 +0000</pubDate>
+      
+      <guid>/posts/cohesity-my-initial-impression/</guid>
+      <description>A few weeks back Cohesity gave me access to a lab environment, where I could play around with their HyperConverged Secondary Data solution. For those unaware of their offering entails, it&amp;rsquo;s simply put a solution for managing secondary storage. In this case, secondary storage is really everything that isn&amp;rsquo;t mission critical. It can be your backups, test/dev workloads, file shares and so on . The idea to place these unstructured data sets on a secondary storage platform, to ease management and analytics but at the same time keep it integrated with the rest of the existing environment.</description>
+    </item>
+    
+    <item>
+      <title>Running a VSAN PoC - Customer reactions</title>
+      <link>/posts/running-a-vsan-poc-customer-reactions/</link>
+      <pubDate>Wed, 24 Feb 2016 10:42:26 +0000</pubDate>
+      
+      <guid>/posts/running-a-vsan-poc-customer-reactions/</guid>
+      <description>I recently set up a VMware Virtual SAN 6.1 Proof-of-Concept for a customer, configuring a 3-node cluster based on the following setup:
+Hardware:  HP ProLiant DL380 G9
+ 2 x Intel Xeon E5-2680 @ 2.50Ghz w/12 Cores
+ 392 GB RAM
+ 1 x Intel DC 3700 800GB NVMe
+ 6 x Intel DC S3610 1.4TB SSD
+ HP FlexFabric 556FLR-SFP+ 10GBe NICs
+  Virtual SAN Setup: Since this was a simple PoC setup, the VSAN was configured with 1 disk group pr host with all 6 Intel DC S3610 drives used as the capacity layer, and the Intel DC P3700 NVMe cards set up as the cache.</description>
+    </item>
+    
+    <item>
+      <title>Configuring VSAN on a Dell PowerEdge VRTX</title>
+      <link>/posts/configuring-vsan-dell-poweredge-vrtx/</link>
+      <pubDate>Wed, 19 Feb 2014 12:30:08 +0000</pubDate>
+      
+      <guid>/posts/configuring-vsan-dell-poweredge-vrtx/</guid>
+      <description>The Dell PowerEdge VRTX shared infrastructure platform is interesting, and I&amp;rsquo;ve been lucky enough to be able to borrow one from Dell for testing purposes.
+One of the things I wanted to test, was if it was possible to run VMware VSAN on it, even if the Shared PERC8 RAID controller it comes with is not on the VMware VSAN HCL, nor does it provide a method to do passthrough to present raw disks directly to the hosts.</description>
+    </item>
+    
+    <item>
+      <title>Automatically Name Datastores in vSphere?</title>
+      <link>/posts/automatically-datastores-vsphere/</link>
+      <pubDate>Tue, 18 Feb 2014 16:16:28 +0000</pubDate>
+      
+      <guid>/posts/automatically-datastores-vsphere/</guid>
+      <description>William Lam posted &amp;ldquo;Why you should rename the default VSAN Datastore name&amp;rdquo; where he outlines why the default name for VSAN data stores should be changed. Of course, I completely agree with his views on this; Leaving it at the default might cause confusion down the line.
+At the end of the post, William asks the following:
+I wonder if it would be a useful to have a feature in VSAN to automatically append the vSphere Cluster name to the default VSAN Datastore name?</description>
+    </item>
+    
+    <item>
+      <title>Virtual Connect FlexFabric and Direct-Attach FC 3Par Caveat</title>
+      <link>/posts/virtual-connect-flexfabric-direct-attach-fc-3par-caveat/</link>
+      <pubDate>Thu, 30 May 2013 21:08:45 +0000</pubDate>
+      
+      <guid>/posts/virtual-connect-flexfabric-direct-attach-fc-3par-caveat/</guid>
+      <description>When configuring a new C7000 Blade Enclosure with a couple of FlexFabric 10Gb/24-port modules I ran into a rather annoying issue during setup.
+HP Virtual Connect 3.70 introduced support for Direct-Attach setups of HP 3Par StoreServ 7000 storage systems, where you can eliminate the need for dedicated FC switches. For full details, have a look at Implementing HP Virtual Connect Direct-Attach Fibre Channel with HP 3PAR StoreServ Systems.
+This is excellent for setups where all your hosts are HP Blades, and you have a Virtual Connect FlexFabric setup.</description>
+    </item>
+    
+    <item>
+      <title>Installing Dell Equallogic Multipathing Extension Module (MEM) in vSphere 5.1</title>
+      <link>/posts/installing-dell-equallogic-multipathing-extension-module-mem-vsphere-5-1/</link>
+      <pubDate>Mon, 22 Apr 2013 21:31:46 +0000</pubDate>
+      
+      <guid>/posts/installing-dell-equallogic-multipathing-extension-module-mem-vsphere-5-1/</guid>
+      <description>Dell offers a Multipathing Extension Module (MEM) for vSphere, and in this post I´ll highlight how to &amp;ldquo;manually&amp;rdquo; install it on a ESXi 5.1 host. I will not cover the network setup part of the equation, but rather go through the simple steps required to get the MEM installed on the hosts in question.
+First of all, you need to download the MEM installation package. At the time of writing, the latest version is v1.</description>
+    </item>
+    
+    <item>
+      <title>VMFS-5: Block Size Me</title>
+      <link>/posts/vmfs-5-block-size-me/</link>
+      <pubDate>Fri, 05 Aug 2011 12:21:31 +0000</pubDate>
+      
+      <guid>/posts/vmfs-5-block-size-me/</guid>
+      <description>The up and coming release of VMware vSphere 5 comes with an upgraded versjon of the VMware vStorage VMFS volume file system. One of the problems with VMFS-3 an earlier is that the block size you define when you format the datastore, determines the maximum size of the VMDK files stored on it. This means that when planning your datastore infrastructure you must have an idea on how large your VMDK files will potentially be during the lifecycle of the datastore.</description>
+    </item>
+    
+  </channel>
+</rss>

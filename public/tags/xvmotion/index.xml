@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xvmotion on Adventures in Hugo</title>
+    <link>/tags/xvmotion/</link>
+    <description>Recent content in Xvmotion on Adventures in Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
+    <lastBuildDate>Tue, 28 Mar 2017 11:44:58 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/xvmotion/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cross vCenter VM Mobility Fling - macOS?</title>
+      <link>/posts/cross-vcenter-vm-mobility-fling-macos/</link>
+      <pubDate>Tue, 28 Mar 2017 11:44:58 +0000</pubDate>
+      
+      <guid>/posts/cross-vcenter-vm-mobility-fling-macos/</guid>
+      <description>The VMware Cross vCenter VM Mobility - CLI was recently updated so I decided to try it out. In short, this little Java based application allows you to easily move or clone VMs between disparate vCenter environments.
+The Fling is listed with the following requirements:
+ JDK 1.7 or above
+ Two vCenter instances with ESX 6.0
+ Windows : Windows Server 2003 or above
+ Linux : RHEL 7.x or above, Ubuntu 11.</description>
+    </item>
+    
+  </channel>
+</rss>

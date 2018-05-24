@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software on Adventures in Hugo</title>
+    <link>/tags/software/</link>
+    <description>Recent content in Software on Adventures in Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
+    <lastBuildDate>Wed, 11 Oct 2017 21:45:11 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Making Royal TSX Even More Awesome</title>
+      <link>/posts/making-royal-tsx-even-more-awesome/</link>
+      <pubDate>Wed, 11 Oct 2017 21:45:11 +0000</pubDate>
+      
+      <guid>/posts/making-royal-tsx-even-more-awesome/</guid>
+      <description>For those who don&amp;rsquo;t know, Royal TSX is an awesome Remote Management solution, which supports RDP, VNC, SSH, S/FTP and even ESXi and vCenter. I&amp;rsquo;ve been using it for years, not just because they offer free licenses for vExperts (and others), but simply because it works really well. Store it&amp;rsquo;s config file on a synchronized file area (like Dropbox), and boom, your config follows you around from machine to machine, including custom icons.</description>
+    </item>
+    
+    <item>
+      <title>Got VMware vRealize Log Insight?</title>
+      <link>/posts/got-vmware-vrealize-log-insight/</link>
+      <pubDate>Wed, 23 Nov 2016 17:37:07 +0000</pubDate>
+      
+      <guid>/posts/got-vmware-vrealize-log-insight/</guid>
+      <description>Recent conversations with existing and potential clients made me realize that many are not aware that they most likely are entitled to use VMware vRealize Log Insight in their environment. For free.
+Back in March 2016 VMware announced that everyone with a valid VMware vCenter license are also entitled to 25-OSI pack of vRealize Log Insight for vCenter Server. This means that you can gather logs for up to 25 ESXi hosts, VMs or other devices, in your environment.</description>
+    </item>
+    
+    <item>
+      <title>My Slate Setup</title>
+      <link>/posts/slate-setup/</link>
+      <pubDate>Wed, 31 Jul 2013 23:10:42 +0000</pubDate>
+      
+      <guid>/posts/slate-setup/</guid>
+      <description>About a year and a half I go, I took the leap from running Microsoft Windows as my main operating system and switched into full &amp;ldquo;hipster mode&amp;rdquo;, i.e. switched to a Macbook Air and OS X.
+Simply put, &amp;ldquo;the change&amp;rdquo; was not that hard and most everything has worked without problems, and for those things that still require Microsoft Windows, well, there is VMware Fusion for that.
+While I´m admittedly still a novice OS X user, and not even close to mastering OS X, I´d like to share my current Slate setup.</description>
+    </item>
+    
+    <item>
+      <title>VMware Workstation 8 - What&#39;s new?</title>
+      <link>/posts/vmware-workstation-8-whats-new/</link>
+      <pubDate>Wed, 07 Sep 2011 12:07:23 +0000</pubDate>
+      
+      <guid>/posts/vmware-workstation-8-whats-new/</guid>
+      <description>VMware is close (still in beta) to releasing the new major release of VMware Workstation.
+Update 14. September 2011: VMware Workstation 8 has now officially been released.
+VMware Workstation 8 brings a lot of new features and enhancements to the table, and I&amp;rsquo;ve been lucky enough to play around with it in the beta program.
+VMware Workstation 8 System Requirements To be able to install VMware Workstation, the host system processor needs to meet the following requirements:</description>
+    </item>
+    
+    <item>
+      <title>Installing and running VMware Compliance Checker for vSphere</title>
+      <link>/posts/installing-and-running-vmware-compliance-checker-for-vsphere/</link>
+      <pubDate>Wed, 20 Apr 2011 07:01:37 +0000</pubDate>
+      
+      <guid>/posts/installing-and-running-vmware-compliance-checker-for-vsphere/</guid>
+      <description>The first version of the new VMware Compliance Checker for vSphere tool is now available for download.
+VMware Compliance Checker for vSphere lets you scan your ESX and ESXi hosts for compliance with the VMware vSphere hardening guidelines to make sure your hosts are properly configured. It also lets you save and print your assessment results, so you can track your compliance level over time, or use them as documentation for internal audits.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="VMware vSphere Health Check - What´s in it for You?" />
+<meta property="og:description" content="VMware vSphere Health Check is a service provided by VMware Professional Services, either by their own consultants or by a consultant from a VMware Certified Solution Provider.
+I´m lucky enough to be employed by a Premier VMware Solution Provider who offers this service to our customers, and I´ve completed a fair number of these health checks in the last couple of months.
+You might ask what the value of the Health Check is, and for the end customer it´s pretty clear cut." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/vmware-vsphere-health-checks-wha/" />
+
+
+
+<meta property="article:published_time" content="2012-12-04T22:49:27&#43;00:00"/>
+
+<meta property="article:modified_time" content="2012-12-04T22:49:27&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="VMware vSphere Health Check - What´s in it for You?"/>
+<meta name="twitter:description" content="VMware vSphere Health Check is a service provided by VMware Professional Services, either by their own consultants or by a consultant from a VMware Certified Solution Provider.
+I´m lucky enough to be employed by a Premier VMware Solution Provider who offers this service to our customers, and I´ve completed a fair number of these health checks in the last couple of months.
+You might ask what the value of the Health Check is, and for the end customer it´s pretty clear cut."/>
+<meta name="generator" content="Hugo 0.40.3" />
+
+
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "VMware vSphere Health Check - What´s in it for You?",
+  "url": "/posts/vmware-vsphere-health-checks-wha/",
+  "wordCount": "548",
+  "datePublished": "2012-12-04T22:49:27&#43;00:00",
+  "dateModified": "2012-12-04T22:49:27&#43;00:00",
+  "author": {
+    "@type": "Person",
+    "name": "cmohn"
+  },
+  "keywords": "VMware, Best Practice, ESXi, Health Check, realworld, vCenter, vSphere"
+}
+</script>
+
+
+
+    <link rel="canonical" href="/posts/vmware-vsphere-health-checks-wha/">
+
+    <title>VMware vSphere Health Check - What´s in it for You? | Adventures in Hugo</title>
+
+    <!-- combined, minified CSS -->
+    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
+
+    
+
+    
+
+    
+
+    
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="/">Home</a>
+          
+          <a class="nav-link" href="https://example.org" title="">Link 1</a>
+          
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
+        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+      </div>
+    </header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/vmware-vsphere-health-checks-wha/">VMware vSphere Health Check - What´s in it for You?</a></h2>
+    <p class="blog-post-meta"><time datetime="2012-12-04T22:49:27Z">Tue Dec 04, 2012</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/vmware" rel="category tag">VMware</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/best-practice" rel="tag">Best Practice</a>, <a href="/tags/esxi" rel="tag">ESXi</a>, <a href="/tags/health-check" rel="tag">Health Check</a>, <a href="/tags/realworld" rel="tag">realworld</a>, <a href="/tags/vcenter" rel="tag">vCenter</a>, <a href="/tags/vmware" rel="tag">VMware</a>, <a href="/tags/vsphere" rel="tag">vSphere</a>
+
+</p>
+  </header>
+  
+
+<p><a href="http://www.vmware.com/files/pdf/services/consserv-vmware-vsphere-health-check-datasheet.pdf">VMware vSphere Health Check</a> is a service provided by VMware Professional Services, either by their own consultants or by a consultant from a VMware Certified Solution Provider.</p>
+
+<p>I´m lucky enough to be employed by a Premier VMware Solution Provider who offers this service to our customers, and I´ve completed a fair number of these health checks in the last couple of months.</p>
+
+<p>You might ask what the value of the Health Check is, and for the end customer it´s pretty clear cut. They get a very detailed report on the current status of their vSphere infrastructure, complete with action items and concise recommendations for improvements. Of course, I sell these service professionally and therefore I´m biased by default.</p>
+
+<p><em>What I want to focus on here though, is not the value customers get out of the Health Check, but rather the incredible learning opportunity this service provides for <strong>you</strong> as a consultant.</em></p>
+
+<p>The data gathering part of the Health Check is done via software developed by VMware. The software is provided in two flavors, either as a ThinApped Windows Application or as a virtual appliance that you deploy in the customers environment. Pick your poison, but I´ve mostly worked with the ThinApp version. It gathers a lot of interesting data from the target vCenter, and you can then take that data with you and generate a report based on that.</p>
+
+<p>That´s where the fun starts. The HealthAnalyzer software comes with a web interface where you can look at everything it collected and prioritize the different findings. Of course, it also comes with suggested priorities from VMware, for the given data. This is where the learning is for everyone conducting the health checks.</p>
+
+<p>By reading, and understanding the automated observations generated through the data collection you have a wealth of information available, complete with &ldquo;best practices&rdquo; recommendations from VMware (These are updated quarterly). &ldquo;Best practices&rdquo; is in itself a loaded term, and you should not blindly follow them without knowing what actually makes a best practice just that. It might not be applicable in the environment you are analyzing, but the thought process involved with looking at the data and determining if this is applicable has a lot of value in and of itself. Of course, like any good consultant the real answer is always &ldquo;it depends&hellip;&rdquo;</p>
+
+<h3 id="examples">Examples:</h3>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2012/12/HealthCheck1.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2012/12/HealthCheck1-300x160.png" alt="" /></a></p>
+
+<p>It´s hard to come up with arguments against the situation in the screenshot, but this is just an example of how detailed the information provided is.</p>
+
+<p>Some observations even come with links to relevant documentation providing more background on why something is recommended:</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2012/12/HealthCheck2.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2012/12/HealthCheck2-300x146.png" alt="" /></a></p>
+
+<p>For me, this has been an invaluable resource for learning and understanding why VMware recommends certain practices.</p>
+
+<p>If you work for a service provider, do yourself a big favor and check if you have access to the HealthAnalyzer software on VMware Partner Central and if you do, download and play around with it.</p>
+
+<p><em>Even if you don´t plan on doing these checks as a service for new or existing customers, running it after you have done an install is a great, and automated, way of checking if your installation adheres to the standards it should. And who knows, chances are that you´ll end up learning a lot in the process. There is just no way that can be wrong.</em></p>
+
+
+  
+
+  
+  <hr>
+  <footer>
+
+  
+    <section>
+    <h4>Share</h4>
+    <nav class="nav sharing-icons">
+      <a class="nav-item" href="https://www.facebook.com/sharer/sharer.php?u=%2fposts%2fvmware-vsphere-health-checks-wha%2f" title="Share on Facebook"><span class="fa fa-facebook fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://plus.google.com/share?url=%2fposts%2fvmware-vsphere-health-checks-wha%2f" title="Share on Google+"><span class="fa fa-google-plus fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fposts%2fvmware-vsphere-health-checks-wha%2f" title="Share on LinkedIn"><span class="fa fa-linkedin fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://twitter.com/home?status=%2fposts%2fvmware-vsphere-health-checks-wha%2f" title="Tweet this"><span class="fa fa-twitter fa-2x"></span></a>
+    </nav>
+  </section>
+
+  
+
+  
+  </footer>
+  
+
+</article> 
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="https://example.com">Link 1</a></li>
+      
+      <li><a href="https://example.org">Link 2</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p>
+      
+      &copy; Christian Mohn
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>

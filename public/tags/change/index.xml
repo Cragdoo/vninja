@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Change on Adventures in Hugo</title>
+    <link>/tags/change/</link>
+    <description>Recent content in Change on Adventures in Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
+    <lastBuildDate>Thu, 31 Mar 2016 22:16:31 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/change/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>I Made Something Happen</title>
+      <link>/posts/i-made-something-happen/</link>
+      <pubDate>Thu, 31 Mar 2016 22:16:31 +0000</pubDate>
+      
+      <guid>/posts/i-made-something-happen/</guid>
+      <description>I think Seth Godin might have been onto something with &amp;ldquo;Make something happen&amp;rdquo;, so I did.
+Today was my last day at EVRY. Some might already have been aware of this, mostly because of Hoff-Job-Announcement-as-a-Service, but also because of my own tweet as I left the EVRY offices in Bergen as an employee for the last time:
+https://twitter.com/h0bbel/status/715526670254473217
+The decision to leave EVRY was not an easy one, but it was time to try something else.</description>
+    </item>
+    
+    <item>
+      <title>My Personal vMotion</title>
+      <link>/posts/my-personal-vmotion/</link>
+      <pubDate>Fri, 04 Nov 2011 09:26:16 +0000</pubDate>
+      
+      <guid>/posts/my-personal-vmotion/</guid>
+      <description>Every  once in a while an opportunity presents itself that is just too good to pass up and after 8 years at Seatrans AS I&amp;rsquo;ve decided to move on and and accept a position as a Senior Consultant in the Infrastructure Consulting division of EDB ErgoGroup.
+Seatrans has been a fantastic employer, and without the backing and support I&amp;rsquo;ve had over the years I would not be in a position where this change would be possible.</description>
+    </item>
+    
+  </channel>
+</rss>

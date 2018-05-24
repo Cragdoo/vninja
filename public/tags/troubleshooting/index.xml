@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Troubleshooting on Adventures in Hugo</title>
+    <link>/tags/troubleshooting/</link>
+    <description>Recent content in Troubleshooting on Adventures in Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
+    <lastBuildDate>Sun, 18 Jan 2015 22:57:34 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/troubleshooting/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Veeam Backup &amp; Replication 8: RPC error:Access is denied Fix</title>
+      <link>/posts/veeam-backup-replication-8-rpc-erroraccess-denied-fix/</link>
+      <pubDate>Sun, 18 Jan 2015 22:57:34 +0000</pubDate>
+      
+      <guid>/posts/veeam-backup-replication-8-rpc-erroraccess-denied-fix/</guid>
+      <description>I recently set up a new Veeam Backup &amp;amp; Replication v8 demo lab, and my intial small job that consisted of two different Linux VMs and one Windows Server 2012 R2 Domain Controller was chugging along nicely. I had one minor from the start though, and that was that file indexing consistently failed for the Windows VM. No big deal, but I thought it was strange at the time. After all, the Linux VMs were indexed just fine.</description>
+    </item>
+    
+    <item>
+      <title>Problems connecting HP Insight Control Storage Module to StoreServ 7200 (3Par)</title>
+      <link>/posts/problems-connecting-hp-insight-control-storage-module-storeserv-7200-3par/</link>
+      <pubDate>Thu, 21 Aug 2014 22:21:59 +0000</pubDate>
+      
+      <guid>/posts/problems-connecting-hp-insight-control-storage-module-storeserv-7200-3par/</guid>
+      <description>A customer of mine, who runs a pure HP environment based on c7000 and StoreServ 7200, wanted to get the HP Insight Control Storage Module for vCenter up and running. The problem was that while we were able to connect to the older MSA array they run for non-production workloads, we were unable to connect to the newer StoreServ 7200. There is full IP connectivity between the application server that the HP Insight components run on and the storage controllers/VSP (no firewalls between them, they are located in the same subnet).</description>
+    </item>
+    
+    <item>
+      <title>Root Cause of Invalid memory setting: memory reservation (sched.mem.min) should be equal to memsize (memsize)</title>
+      <link>/posts/root-invalid-memory-setting-memory-reservation-sched-mem-min-equal-memsize-memsize/</link>
+      <pubDate>Tue, 15 Jul 2014 10:59:42 +0000</pubDate>
+      
+      <guid>/posts/root-invalid-memory-setting-memory-reservation-sched-mem-min-equal-memsize-memsize/</guid>
+      <description>While working on reconfiguring my home lab setup, and migrating all the vSphere resources into a single cluster I ran into a problem powering on one of the VMs which used to run on a single host. The power on operation yielded the following error message:
+Invalid memory setting: memory reservation (sched.mem.min) should be equal to memsize (memsize) [showhide type=&amp;ldquo;errorstack&amp;rdquo; more_text=&amp;ldquo;Show error stack (%s More Words)&amp;rdquo;]
+  **Task Details:**         Status:    Invalid memory setting: memory reservation (sched.</description>
+    </item>
+    
+  </channel>
+</rss>

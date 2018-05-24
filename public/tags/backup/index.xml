@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Backup on Adventures in Hugo</title>
+    <link>/tags/backup/</link>
+    <description>Recent content in Backup on Adventures in Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
+    <lastBuildDate>Tue, 22 Nov 2016 13:05:33 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/backup/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cohesity: My Initial Impression</title>
+      <link>/posts/cohesity-my-initial-impression/</link>
+      <pubDate>Tue, 22 Nov 2016 13:05:33 +0000</pubDate>
+      
+      <guid>/posts/cohesity-my-initial-impression/</guid>
+      <description>A few weeks back Cohesity gave me access to a lab environment, where I could play around with their HyperConverged Secondary Data solution. For those unaware of their offering entails, it&amp;rsquo;s simply put a solution for managing secondary storage. In this case, secondary storage is really everything that isn&amp;rsquo;t mission critical. It can be your backups, test/dev workloads, file shares and so on . The idea to place these unstructured data sets on a secondary storage platform, to ease management and analytics but at the same time keep it integrated with the rest of the existing environment.</description>
+    </item>
+    
+    <item>
+      <title>Veeam vCenter Migration Utility</title>
+      <link>/posts/veeam-vcenter-migration-utility/</link>
+      <pubDate>Mon, 08 Aug 2016 09:35:47 +0000</pubDate>
+      
+      <guid>/posts/veeam-vcenter-migration-utility/</guid>
+      <description>Way back in 2013, I published Preserve your Veeam B&amp;amp;R Backups Jobs when Moving vCenter, outlining how to &amp;ldquo;cheat&amp;rdquo; (by using a CNAME alias) to preserve your Veeam Backup &amp;amp; Replication jobs if you replace your VMware vCenter.
+Naturally, when there is a new vCenter instance, all the Virtual Machine Managed Object Reference&amp;rsquo;s (MoRef) change, which makes Veeam Backup &amp;amp; Replication start a new backup/replication chain, since all VMs are treated as new ones.</description>
+    </item>
+    
+    <item>
+      <title>vCenter Server Appliance Backups</title>
+      <link>/posts/vcenter-server-appliance-backups/</link>
+      <pubDate>Thu, 18 Feb 2016 18:51:14 +0000</pubDate>
+      
+      <guid>/posts/vcenter-server-appliance-backups/</guid>
+      <description>For some time now I&amp;rsquo;ve been advocating the usage of VCSA instead of the traditional Microsoft Windows based vCenter. It has feature parity with the Windows version now, it&amp;rsquo;s easier to deploy, gets right-sized out of the box and eliminates the need for an external Microsoft SQL server.
+One of the questions I often face when talking about the appliance,_ is how do we handle backups?_ Most customers are comfortable with backup up Windows servers and Microsoft SQL, but quite a few have reservations when it comes to the integrated vPostgres database that the VCSA employs.</description>
+    </item>
+    
+    <item>
+      <title>Veeam Backup &amp; Replication 8: RPC error:Access is denied Fix</title>
+      <link>/posts/veeam-backup-replication-8-rpc-erroraccess-denied-fix/</link>
+      <pubDate>Sun, 18 Jan 2015 22:57:34 +0000</pubDate>
+      
+      <guid>/posts/veeam-backup-replication-8-rpc-erroraccess-denied-fix/</guid>
+      <description>I recently set up a new Veeam Backup &amp;amp; Replication v8 demo lab, and my intial small job that consisted of two different Linux VMs and one Windows Server 2012 R2 Domain Controller was chugging along nicely. I had one minor from the start though, and that was that file indexing consistently failed for the Windows VM. No big deal, but I thought it was strange at the time. After all, the Linux VMs were indexed just fine.</description>
+    </item>
+    
+    <item>
+      <title>vPostgres Database Backup in vCSA 5.5</title>
+      <link>/posts/vpostgres-database-backup-vcsa-5-5/</link>
+      <pubDate>Tue, 01 Oct 2013 08:42:47 +0000</pubDate>
+      
+      <guid>/posts/vpostgres-database-backup-vcsa-5-5/</guid>
+      <description>With the new vSphere 5.5 release, the VMware vCenter Appliance (vCSA) has grown up to be a viable alternative to the traditional Microsoft Windows based vCenter deployment scenario. The new vCSA version supports up to 100 hosts and 3000 (with an external Oracle database the values change to 1000&amp;frasl;10000) virtual machines, a big improvement from 5 hosts and 50 virtual machines in the previous version.
+Sadly, the only external database option available for vCSA 5.</description>
+    </item>
+    
+    <item>
+      <title>Backing up vCenter DB with Veeam B&amp;R 6.5</title>
+      <link>/posts/backing-up-vcenter-db-with-veeam-br-6-5/</link>
+      <pubDate>Mon, 25 Mar 2013 09:03:41 +0000</pubDate>
+      
+      <guid>/posts/backing-up-vcenter-db-with-veeam-br-6-5/</guid>
+      <description>It´s a well known problem that with Veeam Backup &amp;amp; Recovery Replication 6.5, and earlier, backing up the SQL server that hosts the vCenter DB poses a problem. KB1051 VSS for vCenter outlines the issue well, and provides a workaround.
+If you experience this problem, you will see entries like this in your Veeam B&amp;amp;R backup logs:
+[caption id=&amp;ldquo;attachment_2490&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;640&amp;rdquo;] Veeam vCenterDB Backup Error[/caption]
+The workaround provided by Veeam is to create host VM-Host Affinity Rules, effectively pinning a VM to a given host, and then perform the VM backup through the host rather than through the vCenter.</description>
+    </item>
+    
+    <item>
+      <title>Backup Academy - Do You Know Your VM backups?</title>
+      <link>/posts/backup-academy-do-you-know-your-vm-backups/</link>
+      <pubDate>Tue, 13 Sep 2011 13:39:25 +0000</pubDate>
+      
+      <guid>/posts/backup-academy-do-you-know-your-vm-backups/</guid>
+      <description>The newly opened Backup Academy, by Veeam, aims to educate administrators, and others interested in virtual machine backup, in the required skills to maintain a proper backup strategy for your virtual infrastructure.
+Currently the site has 8 videos available, covering content from disaster recovery to backup integrity tools.
+Even if it is run by Veeam, it does not focus on Veeam specific products or services, but rather on the general ideas behind a successful backup and disaster recovery of both VMware and Hyper-V based environments.</description>
+    </item>
+    
+    <item>
+      <title>vCenter 4.1 Database Recovery Model Defaults</title>
+      <link>/posts/vcenter-4-1-database-recovery-model-defaults/</link>
+      <pubDate>Mon, 04 Oct 2010 21:36:23 +0000</pubDate>
+      
+      <guid>/posts/vcenter-4-1-database-recovery-model-defaults/</guid>
+      <description>Sometimes leaving the defaults in place might just come back and bite you, hard.
+That might also be the case with your vCenter 4.1 database, as I experienced back in July.
+All of a sudden my vCenter Server stopped working. The symptoms where pretty obvious, my client couldn&amp;rsquo;t connect to the vCenter server. Naturally I connected to the server, and noticed that the VMware VirtualCenter Server services had indeed stopped. No wonder the client couldn&amp;rsquo;t connect to it.</description>
+    </item>
+    
+    <item>
+      <title>Scheduling vCenter Backups</title>
+      <link>/posts/scheduling-vcenter-backups/</link>
+      <pubDate>Thu, 22 Jul 2010 12:17:56 +0000</pubDate>
+      
+      <guid>/posts/scheduling-vcenter-backups/</guid>
+      <description>If you run your vCenter on SQL Server Express 2005, you are missing the ability to set up scheduled backup jobs with SQL Maintenance Plans, a feature available in the full version of SQL Server.
+This might not be a problem if your backup software has SQL Server agents that you use to backup your vCenter databaser, but in smaller environments or even in your lab, you might not have that kind of backup scheme available to you, so what do you do?</description>
+    </item>
+    
+  </channel>
+</rss>

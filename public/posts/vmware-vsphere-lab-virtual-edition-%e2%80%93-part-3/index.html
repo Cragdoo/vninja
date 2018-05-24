@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="VMware vSphere Lab: Virtual Edition – Part 3" />
+<meta property="og:description" content="This is the third post in a series outlining how to set up your own little virtualized Virtual vSphere Lab, if you missed part one or part two, be sure to check them out first!
+I&rsquo;m going to assume that you already have VMware Workstation 7.x installed and ready. If not, get it installed before continuing.
+Now that we have all the prerequisites in place, we&rsquo;re going to go straight to installing the first ESXi host for your lab." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-3/" />
+
+
+
+<meta property="article:published_time" content="2010-10-18T20:16:28&#43;00:00"/>
+
+<meta property="article:modified_time" content="2010-10-18T20:16:28&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="VMware vSphere Lab: Virtual Edition – Part 3"/>
+<meta name="twitter:description" content="This is the third post in a series outlining how to set up your own little virtualized Virtual vSphere Lab, if you missed part one or part two, be sure to check them out first!
+I&rsquo;m going to assume that you already have VMware Workstation 7.x installed and ready. If not, get it installed before continuing.
+Now that we have all the prerequisites in place, we&rsquo;re going to go straight to installing the first ESXi host for your lab."/>
+<meta name="generator" content="Hugo 0.40.3" />
+
+
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "VMware vSphere Lab: Virtual Edition – Part 3",
+  "url": "/posts/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-3/",
+  "wordCount": "573",
+  "datePublished": "2010-10-18T20:16:28&#43;00:00",
+  "dateModified": "2010-10-18T20:16:28&#43;00:00",
+  "author": {
+    "@type": "Person",
+    "name": "cmohn"
+  },
+  "keywords": "Howto, Virtualization, labs, VMware, VMware Workstation, vSphere"
+}
+</script>
+
+
+
+    <link rel="canonical" href="/posts/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-3/">
+
+    <title>VMware vSphere Lab: Virtual Edition – Part 3 | Adventures in Hugo</title>
+
+    <!-- combined, minified CSS -->
+    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
+
+    
+
+    
+
+    
+
+    
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="/">Home</a>
+          
+          <a class="nav-link" href="https://example.org" title="">Link 1</a>
+          
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
+        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+      </div>
+    </header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-3/">VMware vSphere Lab: Virtual Edition – Part 3</a></h2>
+    <p class="blog-post-meta"><time datetime="2010-10-18T20:16:28Z">Mon Oct 18, 2010</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/howto" rel="category tag">Howto</a>, <a href="/categories/virtualization" rel="category tag">Virtualization</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/labs" rel="tag">labs</a>, <a href="/tags/vmware" rel="tag">VMware</a>, <a href="/tags/vmware-workstation" rel="tag">VMware Workstation</a>, <a href="/tags/vsphere" rel="tag">vSphere</a>
+
+</p>
+  </header>
+  
+
+<p><img src="/images/logos/vmware-logo.gif" alt="" />This is the third post in a series outlining how to set up your own little virtualized <strong>Virtual vSphere Lab</strong>, if you missed <a href="http://vninja.net/virtualization/vmware-vsphere-lab-virtual-edition-part-1/">part one</a> or <a href="http://vninja.net/virtualization/vmware-vsphere-lab-virtual-edition-part-2/">part two</a>, be sure to check them out first!</p>
+
+<p>I&rsquo;m going to assume that you already have VMware Workstation 7.x installed and ready. If not, get it installed before continuing.</p>
+
+<p>Now that we have all the prerequisites in place, we&rsquo;re going to go straight to installing the first ESXi host for your lab.
+<!-- more --></p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2010/10/Virtual-vSphere-Lab-Prereqs-1a.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/10/Virtual-vSphere-Lab-Prereqs-1a-300x122.png" alt="" /></a></p>
+
+<h4 id="installing-esxi-in-vmware-workstation-7-x">Installing ESXi in VMware Workstation 7.x</h4>
+
+<p>Fire up VMware Workstation, and select &ldquo;New Virtual Machine&rdquo;, which brings up the &ldquo;<strong>Welcome to the New Virtual Machine Wizard</strong>&rdquo;.</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2010/10/Virtual-vSphere-Lab-Installing-1.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/10/Virtual-vSphere-Lab-Installing-1-300x249.png" alt="" /></a>
+<a href="http://vninja.net/wordpress/wp-content/uploads/2010/10/Virtual-vSphere-Lab-Installing-2.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/10/Virtual-vSphere-Lab-Installing-2-300x271.png" alt="" /></a></p>
+
+<p>Select the &ldquo;<strong>Typical</strong>&rdquo; setting and click on &ldquo;<strong>Next</strong>&rdquo;. &ldquo;<strong>Select the &ldquo;Installer disc image file (iso):</strong>&rdquo; option, click &ldquo;<strong>Browse</strong>&rdquo; and browse to the directory where you downloaded the ESXi ISO file. Select the &ldquo;<strong>VMware-VMisor-Installer-xxx-xxxxx-x86_64.iso</strong>&rdquo; file and click on &ldquo;<strong>Open</strong>&ldquo;</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2010/10/Virtual-vSphere-Lab-Installing-3.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/10/Virtual-vSphere-Lab-Installing-3-300x208.png" alt="" /></a></p>
+
+<p>This will return you to the &ldquo;<strong>New Virtual Machine Wizard</strong>&rdquo; screen, and it should have automatically detected that you have pointed it to an ESXi installer media.</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2010/10/Virtual-vSphere-Lab-Installing-4.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/10/Virtual-vSphere-Lab-Installing-4-300x271.png" alt="" /></a></p>
+
+<p>Click on &ldquo;<strong>Next</strong>&rdquo; and the wizard will ask you to name the new virtual machine. Since this is the first ESXi instance I am installing, I decided to call it <strong>lab-esxi1</strong>, feel free to use your own naming conventions.</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2010/10/Virtual-vSphere-Lab-Installing-5.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/10/Virtual-vSphere-Lab-Installing-5-300x271.png" alt="" /></a></p>
+
+<p>Next up is defining the disk capacity. ESXi has a minimum requirement of of <strong>5 GB</strong> disk space, according to the <a href="http://www.vmware.com/pdf/vsphere4/r41/vsp_41_esxi_i_vc_setup_guide.pdf">ESXi Installable and vCenter Server Setup Guide pg. 24</a>, but from experience it needs a lot less. I&rsquo;ve set up this lab by using 2GB as the local disk size.</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2010/10/Virtual-vSphere-Lab-Installing-6.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/10/Virtual-vSphere-Lab-Installing-6-300x271.png" alt="" /></a></p>
+
+<p>Click on &ldquo;<strong>Next</strong>&rdquo; again and you&rsquo;ll get a summary view of the settings you have done. Make sure the &ldquo;<strong>Power on this virtual machine after creation</strong>&rdquo; option is ticked, and click &ldquo;<strong>Finish</strong>&ldquo;</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2010/10/Virtual-vSphere-Lab-Installing-7.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/10/Virtual-vSphere-Lab-Installing-7-300x271.png" alt="" /></a></p>
+
+<p>The installer should now start automatically when the newly created VM is started.</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2010/10/Virtual-vSphere-Lab-Installing-8.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/10/Virtual-vSphere-Lab-Installing-8-300x189.png" alt="" /></a> <a href="http://vninja.net/wordpress/wp-content/uploads/2010/10/Virtual-vSphere-Lab-Installing-9.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/10/Virtual-vSphere-Lab-Installing-9-300x189.png" alt="" /></a></p>
+
+<p>It will stop on the welcome screen, where you need to hit &ldquo;<strong>Enter</strong>&rdquo; to make the installation start.</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2010/10/Virtual-vSphere-Lab-Installing-10.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/10/Virtual-vSphere-Lab-Installing-10-300x189.png" alt="" /></a>
+Hit &ldquo;<strong>Enter</strong>&rdquo; and then &ldquo;<strong>F11</strong>&rdquo; to accept the EULA.</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2010/10/Virtual-vSphere-Lab-Installing-11.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/10/Virtual-vSphere-Lab-Installing-11-300x189.png" alt="" /></a>
+Next you will be presented with the &ldquo;<strong>Select a Disk</strong>&rdquo; window, and since we only have the 2GB drive we added during the <strong>New Virtual Machine wizard</strong>, we&rsquo;ll just go with the default and click &ldquo;<strong>Enter</strong>&ldquo;</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2010/10/Virtual-vSphere-Lab-Installing-12.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/10/Virtual-vSphere-Lab-Installing-12-300x189.png" alt="" /></a> <a href="http://vninja.net/wordpress/wp-content/uploads/2010/10/Virtual-vSphere-Lab-Installing-13.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/10/Virtual-vSphere-Lab-Installing-13-300x189.png" alt="" /></a>
+Confirm the install by clicking &ldquo;<strong>F11</strong>&rdquo; and the installer will continue to actually install ESXi inside your new virtual machine.</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2010/10/Virtual-vSphere-Lab-Installing-14.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/10/Virtual-vSphere-Lab-Installing-14-300x189.png" alt="" /></a> <a href="http://vninja.net/wordpress/wp-content/uploads/2010/10/Virtual-vSphere-Lab-Installing-15.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/10/Virtual-vSphere-Lab-Installing-15-300x189.png" alt="" /></a></p>
+
+<p>When the installation finishes, you need to click &ldquo;Enter&rdquo; to make the virtual machine reboot and load ESXi for the first time. You should now disconnect the ISO file used to install it, since you need it available when you install your second host.</p>
+
+<p>To do this, right click the &ldquo;<strong>lab-esxi1</strong>&rdquo; VM, and select settings.</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2010/10/Virtual-vSphere-Lab-Installing-16.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/10/Virtual-vSphere-Lab-Installing-16.png" alt="" /></a></p>
+
+<p>Find &ldquo;<strong>CD/DVD (IDE)</strong>&rdquo; and clear the &ldquo;<strong>Connect at power on</strong>&rdquo; option.</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2010/10/Virtual-vSphere-Lab-Installing-17.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/10/Virtual-vSphere-Lab-Installing-17-300x259.png" alt="" /></a></p>
+
+<p>Click &ldquo;<strong>Ok</strong>&rdquo; and you&rsquo;re returned to the freshly installed ESXi host.</p>
+
+<p>Find the yellow box below your VM console output and click on &ldquo;<strong>I Finished Installing</strong>&rdquo; to inform VMware Workstation that the installation procedure is indeed completed.</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2010/10/Virtual-vSphere-Lab-Installing-18.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/10/Virtual-vSphere-Lab-Installing-18-300x187.png" alt="" /></a> <a href="http://vninja.net/wordpress/wp-content/uploads/2010/10/Virtual-vSphere-Lab-Installing-19.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2010/10/Virtual-vSphere-Lab-Installing-19-300x172.png" alt="" /></a></p>
+
+<p>That completes the installation of your first ESXi host, inside VMware Workstation. Now, to cut some corners, repeat the steps above but call the VM &ldquo;<strong>lab-esxi2</strong>&rdquo; and we&rsquo;ll have a two ESXi hosts ready for our lab environment.</p>
+
+<p><img src="http://vninja.net/wordpress/wp-content/uploads/2010/10/Virtual-vSphere-Lab-Installing-20-300x189.png" alt="" /></p>
+
+<p>In my lab environment, the whole installation of ESXi took a whopping 2 minutes and 41 seconds to complete, including going through the create a new VM wizard.</p>
+
+<p>Next up, in <a href="http://vninja.net/virtualization/vmware-vsphere-lab-virtual-edition-%E2%80%93-part-4/">part 4</a>, installing a Windows Server 2008 R2 VM for VMware vCenter Server.</p>
+
+
+  
+
+  
+  <hr>
+  <footer>
+
+  
+    <section>
+    <h4>Share</h4>
+    <nav class="nav sharing-icons">
+      <a class="nav-item" href="https://www.facebook.com/sharer/sharer.php?u=%2fposts%2fvmware-vsphere-lab-virtual-edition-%25e2%2580%2593-part-3%2f" title="Share on Facebook"><span class="fa fa-facebook fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://plus.google.com/share?url=%2fposts%2fvmware-vsphere-lab-virtual-edition-%25e2%2580%2593-part-3%2f" title="Share on Google+"><span class="fa fa-google-plus fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fposts%2fvmware-vsphere-lab-virtual-edition-%25e2%2580%2593-part-3%2f" title="Share on LinkedIn"><span class="fa fa-linkedin fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://twitter.com/home?status=%2fposts%2fvmware-vsphere-lab-virtual-edition-%25e2%2580%2593-part-3%2f" title="Tweet this"><span class="fa fa-twitter fa-2x"></span></a>
+    </nav>
+  </section>
+
+  
+
+  
+  </footer>
+  
+
+</article> 
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="https://example.com">Link 1</a></li>
+      
+      <li><a href="https://example.org">Link 2</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p>
+      
+      &copy; Christian Mohn
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>

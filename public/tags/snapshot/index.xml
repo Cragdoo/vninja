@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Snapshot on Adventures in Hugo</title>
+    <link>/tags/snapshot/</link>
+    <description>Recent content in Snapshot on Adventures in Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
+    <lastBuildDate>Wed, 01 Feb 2017 13:18:04 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/snapshot/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ESXi Snapshot Problems: msg.snapshot.error-QUIESCINGERROR</title>
+      <link>/posts/esxi-snapshot-problems-msg-snapshot-error-quiescingerror/</link>
+      <pubDate>Wed, 01 Feb 2017 13:18:04 +0000</pubDate>
+      
+      <guid>/posts/esxi-snapshot-problems-msg-snapshot-error-quiescingerror/</guid>
+      <description>[caption id=&amp;ldquo;attachment_4559&amp;rdquo; align=&amp;ldquo;alignright&amp;rdquo; width=&amp;ldquo;300&amp;rdquo;] Photo by Sonja Langford[/caption]
+Just a quick post about something I experienced at a client, with ESXi 6.0 hosts, today:
+If you have trouble performing VMware snapshots, and see a msg.snapshot.error-QUIESCINGERROR error, check the host time settings and NTP.
+In this case, snapshots of VMs located on other hosts in the cluster were fine, but once a VM was moved to the new host, snapshot operations failed after an hour or so.</description>
+    </item>
+    
+    <item>
+      <title>Fun and Games with VDR and Snapshots</title>
+      <link>/posts/fun-games-vdr-snapshots/</link>
+      <pubDate>Thu, 10 Jan 2013 13:47:50 +0000</pubDate>
+      
+      <guid>/posts/fun-games-vdr-snapshots/</guid>
+      <description>One of the smaller improvements in vSphere 5 was the introduction of the &amp;ldquo;Virtual machine disks consolidation is needed&amp;rdquo; configuration alert if vSphere determines that there are orphaned snapshots for a given VM.
+
+Previous versions does not show this warning message, and datastore usage could potentially skyrocket for no apparent reason if something continues to create snapshots that are not properly cleaned up when they are no longer in use.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="Vmware" />
+<meta property="og:description" content="There is a thin line between agile and fragile" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="/tags/vmware/" />
+
+
+
+<meta property="og:updated_time" content="2013-01-16T21:59:07&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Vmware"/>
+<meta name="twitter:description" content="There is a thin line between agile and fragile"/>
+<meta name="generator" content="Hugo 0.40.3" />
+
+
+    
+      
+    
+
+    <link rel="canonical" href="/tags/vmware/">
+
+    <title>Adventures in Hugo</title>
+
+    <!-- combined, minified CSS -->
+    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
+
+    
+    <!-- RSS 2.0 feed -->
+    <link href="/tags/vmware/index.xml" rel="alternate" type="application/rss+xml" title="Adventures in Hugo" />
+    
+
+    
+
+    
+
+    
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="/">Home</a>
+          
+          <a class="nav-link" href="https://example.org" title="">Link 1</a>
+          
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
+        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+      </div>
+    </header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/vcenter-operations-manager-vcenter-deployment-dependency/">vCenter Operations Manager and vCenter Deployment Dependency</a></h2>
+    <p class="blog-post-meta"><time datetime="2013-01-16T21:59:07Z">Wed Jan 16, 2013</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/vmware" rel="category tag">VMware</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/vcenter" rel="tag">vCenter</a>, <a href="/tags/vcenter-operations-manager" rel="tag">vCenter Operations Manager</a>, <a href="/tags/virtualization" rel="tag">Virtualization</a>, <a href="/tags/vmware" rel="tag">VMware</a>, <a href="/tags/vsphere" rel="tag">vSphere</a>, <a href="/tags/workaround" rel="tag">workaround</a>
+
+</p>
+  </header>
+  In order to be able to deploy vCenter Operations Manager, the ESXi host it is deployed to needs to be managed by a vCenter. At first glance, that seems like a fair and pretty straight forward requirement, right? But, is it?
+While I can see the need for a vCenter in the environment that vCenter Operations Manager is supposed to monitor, I don´t understand why the host you want to deploy the vApp on has to be managed by a vCenter instance as well?
+  <a href='/posts/vcenter-operations-manager-vcenter-deployment-dependency/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/vmware-workstation-license/">Want a VMware Workstation License?</a></h2>
+    <p class="blog-post-meta"><time datetime="2013-01-10T23:09:56Z">Thu Jan 10, 2013</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/contest" rel="tag">contest</a>, <a href="/tags/fun" rel="tag">fun</a>, <a href="/tags/vmware" rel="tag">VMware</a>, <a href="/tags/workstation" rel="tag">Workstation</a>
+
+</p>
+  </header>
+  Christopher Kusek, who runs pkguild.com, has just announced that he is running a contest where you can win a VMware Workstation 9 license.
+Seeing that announcement, and the fact that Christopher was nice enough to mention both me and vNinja.net in it, I have decided to also give away a license that has been lingering unused in my possession way to long.
+Instead of running my own contest, my license has been added to the existing contest so head on over there to read all the details.
+  <a href='/posts/vmware-workstation-license/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/fun-games-vdr-snapshots/">Fun and Games with VDR and Snapshots</a></h2>
+    <p class="blog-post-meta"><time datetime="2013-01-10T13:47:50Z">Thu Jan 10, 2013</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/datastore" rel="tag">Datastore</a>, <a href="/tags/snapshot" rel="tag">Snapshot</a>, <a href="/tags/vdr" rel="tag">VDR</a>, <a href="/tags/vmware" rel="tag">VMware</a>, <a href="/tags/vsphere" rel="tag">vSphere</a>
+
+</p>
+  </header>
+  One of the smaller improvements in vSphere 5 was the introduction of the &ldquo;Virtual machine disks consolidation is needed&rdquo; configuration alert if vSphere determines that there are orphaned snapshots for a given VM.
+
+Previous versions does not show this warning message, and datastore usage could potentially skyrocket for no apparent reason if something continues to create snapshots that are not properly cleaned up when they are no longer in use.
+  <a href='/posts/fun-games-vdr-snapshots/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/vmware-hands-on-lab-online-review/">VMware Hands-on Lab Online Public Beta Review</a></h2>
+    <p class="blog-post-meta"><time datetime="2012-12-06T18:44:03Z">Thu Dec 06, 2012</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/vmware" rel="category tag">VMware</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/hands-on-lab" rel="tag">Hands-on Lab</a>, <a href="/tags/hol" rel="tag">HoL</a>, <a href="/tags/online-training" rel="tag">Online Training</a>, <a href="/tags/vmware" rel="tag">VMware</a>
+
+</p>
+  </header>
+  A little while ago VMware announced Project Nee, something I was, and still am, pretty excited about.
+This afternoon I finally got access to the Hands-on Labs Online Beta part of Project Nee, and I have to say, this looks incredibly promising and useful.
+At the moment, the available labs are:Cloud Infrastructure:  HOL-INF-02 - Explore vSphere 5.1 Distributed Switch (vDS) New Features This lab explores the new features of the vSphere Distributed Switch (vDS).
+  <a href='/posts/vmware-hands-on-lab-online-review/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/vmware-vsphere-health-checks-wha/">VMware vSphere Health Check - What´s in it for You?</a></h2>
+    <p class="blog-post-meta"><time datetime="2012-12-04T22:49:27Z">Tue Dec 04, 2012</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/vmware" rel="category tag">VMware</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/best-practice" rel="tag">Best Practice</a>, <a href="/tags/esxi" rel="tag">ESXi</a>, <a href="/tags/health-check" rel="tag">Health Check</a>, <a href="/tags/realworld" rel="tag">realworld</a>, <a href="/tags/vcenter" rel="tag">vCenter</a>, <a href="/tags/vmware" rel="tag">VMware</a>, <a href="/tags/vsphere" rel="tag">vSphere</a>
+
+</p>
+  </header>
+  VMware vSphere Health Check is a service provided by VMware Professional Services, either by their own consultants or by a consultant from a VMware Certified Solution Provider.
+I´m lucky enough to be employed by a Premier VMware Solution Provider who offers this service to our customers, and I´ve completed a fair number of these health checks in the last couple of months.
+You might ask what the value of the Health Check is, and for the end customer it´s pretty clear cut.
+  <a href='/posts/vmware-vsphere-health-checks-wha/'>Read more →</a>
+</article> 
+
+
+
+
+
+<nav class="blog-pagination">
+  
+  <a class="btn btn-outline-primary" href="/tags/vmware/page/11/" rel="prev" role="button">Previous page</a>
+  <a class="btn btn-outline-primary" href="/tags/vmware/page/13/" rel="next" role="button">Next page</a>
+  
+  
+  
+</nav>
+
+
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="https://example.com">Link 1</a></li>
+      
+      <li><a href="https://example.org">Link 2</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p>
+      
+      &copy; Christian Mohn
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>

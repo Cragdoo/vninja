@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows on Adventures in Hugo</title>
+    <link>/categories/windows/</link>
+    <description>Recent content in Windows on Adventures in Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
+    <lastBuildDate>Sat, 07 Jan 2012 22:44:33 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/windows/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Creating and Using a Virtual Floppy in vSphere</title>
+      <link>/posts/creating-virtual-floppy-vsphere/</link>
+      <pubDate>Sat, 07 Jan 2012 22:44:33 +0000</pubDate>
+      
+      <guid>/posts/creating-virtual-floppy-vsphere/</guid>
+      <description>My new colleague Olav Tvedt asked me if I could test his method of enabling Bitlocker in a VM, on VMware vSphere. Of course, I was happy to oblige.
+I followed the same steps as he did in his Running Bitlocker on a Virtual computer post, and it worked perfectly.
+The only real difference between doing this in Hyper-V and on ESXi, is that the virtual floppy drive on ESXi by default doesn&amp;rsquo;t emulate an empty floppy.</description>
+    </item>
+    
+    <item>
+      <title>Powershell: Scripting Best Practices Analyzer remotely</title>
+      <link>/posts/powershell-scripting-best-practices-analyzer-remotely/</link>
+      <pubDate>Tue, 18 Jan 2011 08:10:02 +0000</pubDate>
+      
+      <guid>/posts/powershell-scripting-best-practices-analyzer-remotely/</guid>
+      <description>Jan Egil Ring over at blog.powershell.no has created a great PowerShell script that lets you run the Microsoft Best Practices Analyzer on remote Windows Server 2008 R2 machines.
+In short, Invoke-BPAModeling.ps1 queries your Active Directory for any machines that run Windows Server 2008 R2, runs BPA on them (if Windows PowerShell Remoting is enabled) and emails you the report.
+Great tool that should be in every Windows Server admins tool-belt, and probably also set as a scheduled job to make sure you stay up to date on your servers status.</description>
+    </item>
+    
+  </channel>
+</rss>

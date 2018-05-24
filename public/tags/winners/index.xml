@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Winners on Adventures in Hugo</title>
+    <link>/tags/winners/</link>
+    <description>Recent content in Winners on Adventures in Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
+    <lastBuildDate>Fri, 20 Jun 2014 09:47:22 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/winners/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Learning Veeam Backup &amp; Replication for VMware vSphere Book Winners</title>
+      <link>/posts/learning-veeam-backup-replication-vmware-vsphere-book-winners/</link>
+      <pubDate>Fri, 20 Jun 2014 09:47:22 +0000</pubDate>
+      
+      <guid>/posts/learning-veeam-backup-replication-vmware-vsphere-book-winners/</guid>
+      <description>Packt Publishing has picked three lucky winners for the Veeam® Backup &amp;amp; Replication for VMware vSphere book.
+The winners are as follows, with the winning comments:
+Chris Childerhose:
+Wow nice to see a book come out for Veeam. Look forward to the following things from this book to help better my Veeam skills - Install and manage a Veeam® Backup &amp; Replication v7 infrastructure Discover how to back up and restore data in virtual environments Utilize WAN acceleration to speed up backup to remote locations Understand what options are available for Veeam® Backup &amp; Replication, and how to configure these options These topics will help further my skills with Veeam.</description>
+    </item>
+    
+  </channel>
+</rss>

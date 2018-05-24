@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="Setting Up Automated ESXi Deployments" />
+<meta property="og:description" content="Automating ESXi installs was made much easier after the release of vSphere 4.1 where the Scripted Install feature was added, and by using VMware Auto Deploy from VMware Labs. VMware Auto Deploy requires that you have vCenter and Host Profiles in your environment, and that again requires that you have Enterprise Plus licenses in your environment.
+It is, however, possible to deploy ESXi in an automated fashion completely without vCenter and Host Profiles!" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/setting-up-automated-esxi-deployments/" />
+
+
+
+<meta property="article:published_time" content="2011-07-07T08:10:55&#43;00:00"/>
+
+<meta property="article:modified_time" content="2011-07-07T08:10:55&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Setting Up Automated ESXi Deployments"/>
+<meta name="twitter:description" content="Automating ESXi installs was made much easier after the release of vSphere 4.1 where the Scripted Install feature was added, and by using VMware Auto Deploy from VMware Labs. VMware Auto Deploy requires that you have vCenter and Host Profiles in your environment, and that again requires that you have Enterprise Plus licenses in your environment.
+It is, however, possible to deploy ESXi in an automated fashion completely without vCenter and Host Profiles!"/>
+<meta name="generator" content="Hugo 0.40.3" />
+
+
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Setting Up Automated ESXi Deployments",
+  "url": "/posts/setting-up-automated-esxi-deployments/",
+  "wordCount": "1300",
+  "datePublished": "2011-07-07T08:10:55&#43;00:00",
+  "dateModified": "2011-07-07T08:10:55&#43;00:00",
+  "author": {
+    "@type": "Person",
+    "name": "cmohn"
+  },
+  "keywords": "Howto, Virtualization, VMware, automation, ESXi, fun, Ops, PowerCLI, Powershell, realworld"
+}
+</script>
+
+
+
+    <link rel="canonical" href="/posts/setting-up-automated-esxi-deployments/">
+
+    <title>Setting Up Automated ESXi Deployments | Adventures in Hugo</title>
+
+    <!-- combined, minified CSS -->
+    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
+
+    
+
+    
+
+    
+
+    
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="/">Home</a>
+          
+          <a class="nav-link" href="https://example.org" title="">Link 1</a>
+          
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
+        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+      </div>
+    </header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/setting-up-automated-esxi-deployments/">Setting Up Automated ESXi Deployments</a></h2>
+    <p class="blog-post-meta"><time datetime="2011-07-07T08:10:55Z">Thu Jul 07, 2011</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/howto" rel="category tag">Howto</a>, <a href="/categories/virtualization" rel="category tag">Virtualization</a>, <a href="/categories/vmware" rel="category tag">VMware</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/automation" rel="tag">automation</a>, <a href="/tags/esxi" rel="tag">ESXi</a>, <a href="/tags/fun" rel="tag">fun</a>, <a href="/tags/ops" rel="tag">Ops</a>, <a href="/tags/powercli" rel="tag">PowerCLI</a>, <a href="/tags/powershell" rel="tag">Powershell</a>, <a href="/tags/realworld" rel="tag">realworld</a>, <a href="/tags/virtualization" rel="tag">Virtualization</a>, <a href="/tags/vmware" rel="tag">VMware</a>
+
+</p>
+  </header>
+  
+
+<p>Automating ESXi installs was made much easier after the release of vSphere 4.1 where the Scripted Install feature was added, and by using <a href="http://labs.vmware.com/flings/vmware-auto-deploy">VMware Auto Deploy</a> from <a href="http://labs.vmware.com/">VMware Labs</a>. VMware Auto Deploy requires that you have vCenter and Host Profiles in your environment, and that again requires that you have Enterprise Plus licenses in your environment.</p>
+
+<p>It is, however, possible to deploy ESXi in an automated fashion completely without vCenter and Host Profiles! By using a combination of a PXE based installation and <a href="http://communities.vmware.com/community/vmtn/vsphere/automationtools/powercli">PowerCLI</a> for automating the setup of ESXi after the initial deployment. As this setup has been put together for a specific work project, my PowerCLI script also copies a VM template to the deployed ESXi host as well as the <a href="http://communities.vmware.com/community/vmtn/vsphere/automationtools/vima">vMA</a> for administrative tasks. There is one caveat with regards to this setup though, and that is that the free version of ESXi only allows PowerCLI in read-only mode. This means that you will either need to get licenses for the ESXi install, or use trial licenses. With the price drop from VMware on the <a href="http://store.vmware.com/store/vmware/en_US/DisplayProductDetailsPage/productID.169075300">Remote Office / Branch Office (ROBO)</a> licenses, we&rsquo;re looking at using that licensing model for our fleet of vessels.</p>
+
+<h4 id="overview">Overview</h4>
+
+<p>The &ldquo;complete package&rdquo; consists of the following components:</p>
+
+<ul>
+<li><p><strong>Deployment VM</strong>
+This is a custom VM, built to provide DHCP and PXE services to do the actual ESXi installation</p></li>
+
+<li><p><strong>Powershell + PowerCLI</strong>
+Scripts that configure the ESXi host, post installation, and copy your initial VMs to the new host</p></li>
+</ul>
+
+<p>Our current process looks like this:</p>
+
+<ol>
+<li><p>Connect physical host to deployment laptop via ethernet</p></li>
+
+<li><p>Start deployment VM on deployment laptop</p></li>
+
+<li><p>When deployment VM is finished booting, start physical host</p></li>
+
+<li><p>Physical host boots of network and PXE and installs ESXi</p></li>
+
+<li><p>When ESXi installation finishes, run PowerCLI script against host</p></li>
+
+<li><p>Disconnect deployment laptop and physical host, and connect physical host to vessel network</p></li>
+
+<li><p>Connect vSphere Client to ESXi install and start server VM</p></li>
+</ol>
+
+<h4 id="deployment-vm">Deployment VM</h4>
+
+<p>Since our deployment scenario might be a bit out of the ordinary, we have the deployment VM set up on VMware Workstation or VMware Player on a laptop. The reason for this is that we need a mobile deployment model as the locations we are deploying this on are not static. Not only are they mobile, they are actually floating around on rather large oceans. That&rsquo;s right, we&rsquo;re deploying ESXi hosts on our vessels world wide!</p>
+
+<h5 id="basic-vm-setup">Basic VM Setup</h5>
+
+<p>The basic setup is a standard Windows Server 2008 R2 with IIS installed. We will not be using any of the DHCP or other networking features included in Server 2008. In our environment it&rsquo;s configured with a static ip of **172.16.200.1
+**</p>
+
+<h5 id="dhcp-pxe-setup">DHCP + PXE Setup</h5>
+
+<p>For DHCP and PXE services, we are using <a href="http://tftpd32.jounin.net/">Tftpd32</a> a free and open source application that provides us with all the required services for deployment eg. both DHCP and PXE.</p>
+
+<h6 id="kickstart-script">Kickstart Script</h6>
+
+<p>Our very basic kickstart script - <em>ks.cfg</em> - looks like this
+  [cc lang=&ldquo;kixtart&rdquo; escaped=&ldquo;true&rdquo; width=&ldquo;95%&rdquo;]
+vmaccepteula
+rootpw password
+autopart &ndash;firstdisk &ndash;overwritevmfs
+install url <a href="http://172.16.200.1/ESXi">http://172.16.200.1/ESXi</a>
+network &ndash;bootproto=dhcp &ndash;device=vmnic0
+reboot
+[/cc]</p>
+
+<p>Basically this sets the root password, automatically deletes all partitions and sets up a new vmfs, tells the installer that it will find the installation files via http on the server and sets the networking configuration to DHCP. This will of course need tweaking in your environment, but this should at least get you started with building your own. More details on the ks.cfg bootstrap commands can be found in the <a href="http://www.vmware.com/pdf/vsphere4/r41/vsp_41_esx_vc_installation_guide.pdf">ESX and vCenter Server Installation Guide</a></p>
+
+<h4 id="powercli-configuration-script">PowerCLI Configuration Script</h4>
+
+<p>[cc lang=&ldquo;powershell&rdquo; escaped=&ldquo;true&rdquo; width=&ldquo;95%&rdquo; height=&ldquo;700&rdquo;]
+########################################################
+#</p>
+
+<h1 id="created-by-christian-mohn">Created by Christian Mohn</h1>
+
+<h1 id="for-seatrans-as">for Seatrans AS</h1>
+
+<p>#</p>
+
+<h1 id="no-warranty-suggested-or-implied">No warranty suggested or implied</h1>
+
+<p>#
+########################################################`</p>
+
+<p>#connect to VirtualCenter or ESX host
+#
+function Register-VMX {
+param($entityName = $null,$dsNames = $null,$template = $false,$ignore = $null,$checkNFS = $false,$whatif=$false)</p>
+
+<p>function Get-Usage{
+Write-Host &ldquo;Parameters incorrect&rdquo; -ForegroundColor red
+Write-Host &ldquo;Register-VMX -entityName -dsNames [,&hellip;]&rdquo;
+Write-Host &ldquo;entityName : a cluster-, datacenter or ESX hostname (not together with -dsNames)&rdquo;
+Write-Host &ldquo;dsNames : one or more datastorename names (not together with -entityName)&rdquo;
+Write-Host &ldquo;ignore : names of folders that shouldn&rsquo;t be checked&rdquo;
+Write-Host &ldquo;template : register guests ($false)or templates ($true) - default : $false&rdquo;
+Write-Host &ldquo;checkNFS : include NFS datastores - default : $false&rdquo;
+Write-Host &ldquo;whatif : when $true will only list and not execute - default : $false&rdquo;
+}</p>
+
+<p>if(($entityName -ne $null -and $dsNames -ne $null) -or ($entityName -eq $null -and $dsNames -eq $null)){
+Get-Usage
+break
+}</p>
+
+<p>if($dsNames -eq $null){
+switch((Get-Inventory -Name $entityName).GetType().Name.Replace(&ldquo;Wrapper&rdquo;,&ldquo;&rdquo;)){
+&ldquo;Cluster&rdquo;{
+$dsNames = Get-Cluster -Name $entityName | Get-VMHost | Get-Datastore | where {$<em>.Type -eq &ldquo;VMFS&rdquo; -or $checkNFS} | % {$</em>.Name}
+}
+&ldquo;Datacenter&rdquo;{
+$dsNames = Get-Datacenter -Name $entityName | Get-Datastore | where {$<em>.Type -eq &ldquo;VMFS&rdquo; -or $checkNFS} | % {$</em>.Name}
+}
+&ldquo;VMHost&rdquo;{
+$dsNames = Get-VMHost -Name $entityName | Get-Datastore | where {$<em>.Type -eq &ldquo;VMFS&rdquo; -or $checkNFS} | % {$</em>.Name}
+}
+Default{
+Get-Usage
+exit
+}
+}
+}
+else{
+$dsNames = Get-Datastore -Name $dsNames | where {$<em>.Type -eq &ldquo;VMFS&rdquo; -or $checkNFS} | Select -Unique | % {$</em>.Name}
+}</p>
+
+<p>$dsNames = $dsNames | Sort-Object
+$pattern = &ldquo;<em>.vmx&rdquo;
+if($template){
+$pattern = &ldquo;</em>.vmtx&rdquo;
+}</p>
+
+<p>foreach($dsName in $dsNames){
+Write-Host &ldquo;Checking &rdquo; -NoNewline; Write-Host -ForegroundColor red -BackgroundColor yellow $dsName
+$ds = Get-Datastore $dsName | Select -Unique | Get-View
+$dsBrowser = Get-View $ds.Browser
+$dc = Get-View $ds.Parent
+while($dc.MoRef.Type -ne &ldquo;Datacenter&rdquo;){
+$dc = Get-View $dc.Parent
+}
+$tgtfolder = Get-View $dc.VmFolder
+$esx = Get-View $ds.Host[0].Key
+$pool = Get-View (Get-View $esx.Parent).ResourcePool</p>
+
+<p>$vms = @()
+foreach($vmImpl in $ds.Vm){
+$vm = Get-View $vmImpl
+$vms += $vm.Config.Files.VmPathName
+}
+$datastorepath = &ldquo;[&rdquo; + $ds.Name + &ldquo;]&rdquo;</p>
+
+<p>$searchspec = New-Object VMware.Vim.HostDatastoreBrowserSearchSpec
+$searchspec.MatchPattern = $pattern</p>
+
+<p>$taskMoRef = $dsBrowser.SearchDatastoreSubFolders_Task($datastorePath, $searchSpec)</p>
+
+<p>$task = Get-View $taskMoRef
+while (&ldquo;running&rdquo;,&ldquo;queued&rdquo; -contains $task.Info.State){
+$task.UpdateViewData(&ldquo;Info.State&rdquo;)
+}
+$task.UpdateViewData(&ldquo;Info.Result&rdquo;)
+foreach ($folder in $task.Info.Result){
+if(!($ignore -and (&amp;{$res = $false; $folder.FolderPath.Split(&ldquo;]&rdquo;)[1].Trim(&rdquo; /&ldquo;).Split(&rdquo;/&ldquo;) | %{$res = $res -or ($ignore -contains $_)}; $res}))){
+$found = $FALSE
+if($folder.file -ne $null){
+foreach($vmx in $vms){
+if(($folder.FolderPath + $folder.File[0].Path) -eq $vmx){
+$found = $TRUE
+}
+}
+if (-not $found){
+if($folder.FolderPath[-1] -ne &ldquo;/&rdquo;){$folder.FolderPath += &ldquo;/&rdquo;}
+$vmx = $folder.FolderPath + $folder.File[0].Path
+if($template){
+$params = @($vmx,$null,$true,$null,$esx.MoRef)
+}
+else{
+$params = @($vmx,$null,$false,$pool.MoRef,$null)
+}
+if(!$whatif){
+$taskMoRef = $tgtfolder.GetType().GetMethod(&ldquo;RegisterVM_Task&rdquo;).Invoke($tgtfolder, $params)
+Write-Host &ldquo;<code>t&quot; $vmx &quot;registered&quot;
+}
+else{
+Write-Host &quot;</code>t&rdquo; $vmx &ldquo;registered&rdquo; -NoNewline; Write-Host -ForegroundColor blue -BackgroundColor white &ldquo; ==&gt; What If&rdquo;
+}
+}
+}
+}
+}
+Write-Host &ldquo;Done&rdquo;
+}
+}</p>
+
+<h1 id="register-vmx-entityname-mydatacenter">Register-VMX -entityName &ldquo;MyDatacenter&rdquo;</h1>
+
+<h1 id="register-vmx-dsnames-datastore1-datastore2">Register-VMX -dsNames &ldquo;datastore1&rdquo;,&ldquo;datastore2&rdquo;</h1>
+
+<h1 id="register-vmx-dsnames-datastore1-datastore2-template-true">Register-VMX -dsNames &ldquo;datastore1&rdquo;,&ldquo;datastore2&rdquo; -template:$true</h1>
+
+<h1 id="register-vmx-entityname-mydatacenter-ignore-somefolder">Register-VMX -entityName &ldquo;MyDatacenter&rdquo; -ignore &ldquo;SomeFolder&rdquo;</h1>
+
+<h1 id="register-vmx-dsnames-datastore3-datastore4-ignore-somefolder-checknfs-true">Register-VMX -dsNames &ldquo;datastore3&rdquo;,&ldquo;datastore4&rdquo; -ignore &ldquo;SomeFolder&rdquo; -checkNFS:$true</h1>
+
+<h1 id="register-vmx-entityname-mydatacenter-whatif-true">Register-VMX -entityName &ldquo;MyDatacenter&rdquo; -whatif:$true</h1>
+
+<p>if ($args[0] -eq $null)
+#
+{$hostName = Read-Host &ldquo;Enter ESX Host Name or IP&rdquo;}
+#
+else
+#
+{$hostName = $args[0]}
+#
+#
+#connect to selected Virtualcenter or host server
+#
+Connect-VIServer $hostName</p>
+
+<h1 id="set-datastore-name">Set Datastore Name</h1>
+
+<p>$dsName = &ldquo;datastore1&rdquo;
+$ds = Get-Datastore -Name $dsName
+New-PSDrive -Name $dsName -Root \ -PSProvider VimDatastore -Datastore $ds</p>
+
+<h1 id="copy-and-register-vm-from-local-drive-to-esxi-host">Copy and Register VM from local drive to ESXi Host</h1>
+
+<p>Copy-DatastoreItem C:\VMs\MyTestVM* datastore1:\MyTestVM\ -Force
+Register-VMX -dsNames $dsName</p>
+
+<h1 id="import-vma-ovf">Import vMA ovf</h1>
+
+<p>Import-VApp -Source c:\VMs\vMA\vMA-4.1.0.0-268837.ovf -VMHost $hostName -Datastore $ds</p>
+
+<h1 id="lets-configure-the-host">Lets configure the host</h1>
+
+<p>########################################################</p>
+
+<h1 id="host-configuration">Host Configuration</h1>
+
+<p>########################################################</p>
+
+<p>#Disable IPv6
+Get-VMHostNetworkAdapter | where { $_.PortGroupName -eq &ldquo;Service Console 1&rdquo; } | Set-VMHostNetworkAdapter -IPv6Enabled $false</p>
+
+<h1 id="configure-networking">Configure networking</h1>
+
+<h1 id="not-finished">Not finished</h1>
+
+<h1 id="configure-ntp-server">Configure NTP Server</h1>
+
+<p>Add-VMHostNtpServer -VMHost $hostName -NtpServer &ldquo;0.vmware.pool.ntp.org&rdquo;
+Add-VMHostNtpServer -VMHost $hostName -NtpServer &ldquo;1.vmware.pool.ntp.org&rdquo;
+Add-VMHostNtpServer -VMHost $hostName -NtpServer &ldquo;2.vmware.pool.ntp.org&rdquo;</p>
+
+<h1 id="set-vm-start-policy">Set VM Start Policy</h1>
+
+<p>$vmstartpolicy = Get-VMStartPolicy -VM MyTestVM
+Set-VMStartPolicy -StartPolicy $vmstartpolicy -StartAction PowerOn
+[/cc]</p>
+
+<p>This PowerCLI script is not 100% finished yet, the networking part remains to be automated to provide correct configuration based on which vessel we are deploying to, but in general it&rsquo;s pretty much good to go.</p>
+
+<p>Of course, there are loads of ways to extend and improve this process, but for now this suits our needs very well. I&rsquo;m sure I&rsquo;ll need to revise it once vSphere.next is out and ready for deployment.</p>
+
+<p><em>Using a model like this, combined with some interesting usage patterns for vMA you can create an automated ESXi deployment scenario that let&rsquo;s you deploy, <a href="http://vninja.net/virtualization/using-vma-as-a-local-vsphere-patch-repository/">patch</a> and manage your <a href="http://vninja.net/news/7-expert-tips-for-managing-your-remote-vsphere-infrastructure/">remote vSphere infrastructure</a> in a pretty streamlined fashion.</em></p>
+
+
+  
+
+  
+  <hr>
+  <footer>
+
+  
+    <section>
+    <h4>Share</h4>
+    <nav class="nav sharing-icons">
+      <a class="nav-item" href="https://www.facebook.com/sharer/sharer.php?u=%2fposts%2fsetting-up-automated-esxi-deployments%2f" title="Share on Facebook"><span class="fa fa-facebook fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://plus.google.com/share?url=%2fposts%2fsetting-up-automated-esxi-deployments%2f" title="Share on Google+"><span class="fa fa-google-plus fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fposts%2fsetting-up-automated-esxi-deployments%2f" title="Share on LinkedIn"><span class="fa fa-linkedin fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://twitter.com/home?status=%2fposts%2fsetting-up-automated-esxi-deployments%2f" title="Tweet this"><span class="fa fa-twitter fa-2x"></span></a>
+    </nav>
+  </section>
+
+  
+
+  
+  </footer>
+  
+
+</article> 
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="https://example.com">Link 1</a></li>
+      
+      <li><a href="https://example.org">Link 2</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p>
+      
+      &copy; Christian Mohn
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>

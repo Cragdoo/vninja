@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vcsa on Adventures in Hugo</title>
+    <link>/tags/vcsa/</link>
+    <description>Recent content in Vcsa on Adventures in Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
+    <lastBuildDate>Thu, 10 Nov 2016 09:57:29 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/vcsa/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>VCSA - The default choice. Always.</title>
+      <link>/posts/vcsa-the-default-choice-always/</link>
+      <pubDate>Thu, 10 Nov 2016 09:57:29 +0000</pubDate>
+      
+      <guid>/posts/vcsa-the-default-choice-always/</guid>
+      <description>I&amp;rsquo;ve been a big proponent of the VMware vCenter Appliance for a long time, I even did a talk called VCS to VCSA Converter or How a Fling Can Be Good for You! on migrating to the VCSA at the Nordic VMUG last year.
+The VCSA has gone through a few iterations and versions by now, coinciding with the vSphere releases.
+History [table id=14 /]
+Since v6.0 scaling has been on par with it&amp;rsquo;s Windows based counterpart, supporting the same number of hosts and VMs.</description>
+    </item>
+    
+    <item>
+      <title>vCenter Server Appliance Backups</title>
+      <link>/posts/vcenter-server-appliance-backups/</link>
+      <pubDate>Thu, 18 Feb 2016 18:51:14 +0000</pubDate>
+      
+      <guid>/posts/vcenter-server-appliance-backups/</guid>
+      <description>For some time now I&amp;rsquo;ve been advocating the usage of VCSA instead of the traditional Microsoft Windows based vCenter. It has feature parity with the Windows version now, it&amp;rsquo;s easier to deploy, gets right-sized out of the box and eliminates the need for an external Microsoft SQL server.
+One of the questions I often face when talking about the appliance,_ is how do we handle backups?_ Most customers are comfortable with backup up Windows servers and Microsoft SQL, but quite a few have reservations when it comes to the integrated vPostgres database that the VCSA employs.</description>
+    </item>
+    
+    <item>
+      <title>Importing vCloud Air SSL Certificate on the vCenter Server Appliance 5.x</title>
+      <link>/posts/importing-vcloud-air-ssl-certificate-vcenter-server-appliance-5-x/</link>
+      <pubDate>Fri, 12 Dec 2014 12:24:55 +0000</pubDate>
+      
+      <guid>/posts/importing-vcloud-air-ssl-certificate-vcenter-server-appliance-5-x/</guid>
+      <description>I&amp;rsquo;m playing around a bit with vCloud Air and Virtual Private Cloud OnDemand, and in order to set up the vCloud Hybrid Service plugin in the vSphere Web Client you need to import the vCloud Air SSL certificate into vCenter. If the certificate isn&amp;rsquo;t present in the vCSA keystore when you try to authenticate with vCloud Air, you get a &amp;ldquo;Server Certificate not Verified&amp;rdquo; error, and you will be unsuccessful in configuring the plugin.</description>
+    </item>
+    
+    <item>
+      <title>Fixing &#34;Could not create vFlash cache&#34; error when powering on a VM</title>
+      <link>/posts/fixing-could-create-vflash-cache-error-powering-vm/</link>
+      <pubDate>Sun, 19 Jan 2014 19:19:02 +0000</pubDate>
+      
+      <guid>/posts/fixing-could-create-vflash-cache-error-powering-vm/</guid>
+      <description>During some way overdue housekeeping in my HP Microserver-based &amp;ldquo;Homelab&amp;rdquo; today, I ran into a rather annoying issue that prevented me from starting one of my more important VMs; namely my home Domain Controller.
+In short, I removed an old SSD drive that I&amp;rsquo;ve used for vFlash Read Cache (vFRC) testing and installed a new 1TB drive instead. Since I have a rather beefy work lab now, I need space more than speed at home, so this seemed like a good idea at the time.</description>
+    </item>
+    
+    <item>
+      <title>vPostgres Database Backup in vCSA 5.5</title>
+      <link>/posts/vpostgres-database-backup-vcsa-5-5/</link>
+      <pubDate>Tue, 01 Oct 2013 08:42:47 +0000</pubDate>
+      
+      <guid>/posts/vpostgres-database-backup-vcsa-5-5/</guid>
+      <description>With the new vSphere 5.5 release, the VMware vCenter Appliance (vCSA) has grown up to be a viable alternative to the traditional Microsoft Windows based vCenter deployment scenario. The new vCSA version supports up to 100 hosts and 3000 (with an external Oracle database the values change to 1000&amp;frasl;10000) virtual machines, a big improvement from 5 hosts and 50 virtual machines in the previous version.
+Sadly, the only external database option available for vCSA 5.</description>
+    </item>
+    
+    <item>
+      <title>Upgrading vSphere vCenter Appliance 5.1 to 5.5</title>
+      <link>/posts/upgrading-vsphere-vcenter-appliance-5-1-5-5/</link>
+      <pubDate>Mon, 30 Sep 2013 12:20:38 +0000</pubDate>
+      
+      <guid>/posts/upgrading-vsphere-vcenter-appliance-5-1-5-5/</guid>
+      <description>In VMware KB Upgrading vCenter Server Appliance 5.0.x/5.1 to 5.5 (2058441) the procedure for upgrading an existing 5.0/5.1 vSphere vCenter Server Appliance is outlined, walking you through the steps required including deploying a new 5.5 vCSA and transferring the data from the old instance to the new one. Straight forward procedure, but there is one small caveat in this process.
+One important thing to remember, and something I don´t feel that the knowledge-base article highlights well enough is that the new v5.</description>
+    </item>
+    
+    <item>
+      <title>Adding a secondary NIC to the vCenter 5.1 Appliance (VCSA)</title>
+      <link>/posts/adding-secondary-nic-vcenter-5-1-appliance-vcsa/</link>
+      <pubDate>Thu, 25 Apr 2013 11:10:33 +0000</pubDate>
+      
+      <guid>/posts/adding-secondary-nic-vcenter-5-1-appliance-vcsa/</guid>
+      <description>While building my lab environment, I ran into a situation where I wanted to have a completely sealed off networking segment that had no outside access.
+This is a trivial task on it`s own, just create a vSwitch with no physical NICs attached to it, and then connect the VMs to it. The VMs will then have interconnectivity, but no outside network access at all.
+In this particular case, I was setting up a couple of nested ESXi servers that I wanted to connect to the &amp;ldquo;outside&amp;rdquo; vCenter Appliance (VCSA).</description>
+    </item>
+    
+  </channel>
+</rss>

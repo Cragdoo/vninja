@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on Adventures in Hugo</title>
+    <link>/tags/python/</link>
+    <description>Recent content in Python on Adventures in Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
+    <lastBuildDate>Tue, 14 May 2013 11:23:13 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Quick and Dirty HTTP Based Deployment</title>
+      <link>/posts/quick-and-dirty-http-based-deployment/</link>
+      <pubDate>Tue, 14 May 2013 11:23:13 +0000</pubDate>
+      
+      <guid>/posts/quick-and-dirty-http-based-deployment/</guid>
+      <description>A lot of the scripted installation tools that VMware offers allows the usage of a central HTTP based repository for hosting the files. Today I stumbled over a little gem that might just help you create a &amp;ldquo;quick and dirty&amp;rdquo; HTTP based deployment scenario by running a simple command in your terminal. By default, this command works on any system that has Python installed on it, so OS X and Linux should be ready to go as is.</description>
+    </item>
+    
+  </channel>
+</rss>

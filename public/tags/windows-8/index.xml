@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows 8 on Adventures in Hugo</title>
+    <link>/tags/windows-8/</link>
+    <description>Recent content in Windows 8 on Adventures in Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
+    <lastBuildDate>Wed, 14 Sep 2011 12:33:12 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/windows-8/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Installing Windows 8 Developer Preview in VMware Workstation 8</title>
+      <link>/posts/installing-windows-8-developer-preview-in-vmware-workstation-8/</link>
+      <pubDate>Wed, 14 Sep 2011 12:33:12 +0000</pubDate>
+      
+      <guid>/posts/installing-windows-8-developer-preview-in-vmware-workstation-8/</guid>
+      <description>Installing Microsoft Windows 8 in a VMware Workstation 8 VM turned out to be a real piece of cake.
+Follow the screenshots for the procedure I used, but basically all I did was to create a new VM with the pre-configured &amp;ldquo;Windows 8 Server&amp;rdquo; preset and inserted the downloaded ISO file.
+Note: Windows 8 Server has been removed as a preset option in the final release of VMware Workstation 8, my screenshots are from the beta version.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Backup Academy on Adventures in Hugo</title>
+    <link>/tags/backup-academy/</link>
+    <description>Recent content in Backup Academy on Adventures in Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
+    <lastBuildDate>Tue, 13 Sep 2011 13:39:25 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/backup-academy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Backup Academy - Do You Know Your VM backups?</title>
+      <link>/posts/backup-academy-do-you-know-your-vm-backups/</link>
+      <pubDate>Tue, 13 Sep 2011 13:39:25 +0000</pubDate>
+      
+      <guid>/posts/backup-academy-do-you-know-your-vm-backups/</guid>
+      <description>The newly opened Backup Academy, by Veeam, aims to educate administrators, and others interested in virtual machine backup, in the required skills to maintain a proper backup strategy for your virtual infrastructure.
+Currently the site has 8 videos available, covering content from disaster recovery to backup integrity tools.
+Even if it is run by Veeam, it does not focus on Veeam specific products or services, but rather on the general ideas behind a successful backup and disaster recovery of both VMware and Hyper-V based environments.</description>
+    </item>
+    
+  </channel>
+</rss>

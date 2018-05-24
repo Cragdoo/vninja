@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="Preserve your Veeam B&amp;R Backups Jobs when Moving vCenter" />
+<meta property="og:description" content="This week I´m working at a client site, upgrading their entire existing vSphere 4.1 infrastructure to vSphere 5.1. The customer engagement also includes upgrading Veeam Backup and Replication 6.0 to 6.5, and usually an isolated upgrade of Veeam B&amp;R is a no-brainer next, next, next, done install.
+To complicate things in this particular environment, I also had to migrate the vCenter SQL DB from a local MS SQL Server 2005 Express instance to a full-fledged MS SQL Server 2008 R2 instance." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/preserve-veeam-br-backups-jobs-moving-vcenter/" />
+
+
+
+<meta property="article:published_time" content="2013-03-19T21:13:20&#43;00:00"/>
+
+<meta property="article:modified_time" content="2013-03-19T21:13:20&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Preserve your Veeam B&amp;R Backups Jobs when Moving vCenter"/>
+<meta name="twitter:description" content="This week I´m working at a client site, upgrading their entire existing vSphere 4.1 infrastructure to vSphere 5.1. The customer engagement also includes upgrading Veeam Backup and Replication 6.0 to 6.5, and usually an isolated upgrade of Veeam B&amp;R is a no-brainer next, next, next, done install.
+To complicate things in this particular environment, I also had to migrate the vCenter SQL DB from a local MS SQL Server 2005 Express instance to a full-fledged MS SQL Server 2008 R2 instance."/>
+<meta name="generator" content="Hugo 0.40.3" />
+
+
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Preserve your Veeam B&amp;R Backups Jobs when Moving vCenter",
+  "url": "/posts/preserve-veeam-br-backups-jobs-moving-vcenter/",
+  "wordCount": "486",
+  "datePublished": "2013-03-19T21:13:20&#43;00:00",
+  "dateModified": "2013-03-19T21:13:20&#43;00:00",
+  "author": {
+    "@type": "Person",
+    "name": "cmohn"
+  },
+  "keywords": "Virtualization, Ops, vCenter, Veeam, Veeam Backup &amp; Replication, VMware, vSphere, workaround"
+}
+</script>
+
+
+
+    <link rel="canonical" href="/posts/preserve-veeam-br-backups-jobs-moving-vcenter/">
+
+    <title>Preserve your Veeam B&amp;R Backups Jobs when Moving vCenter | Adventures in Hugo</title>
+
+    <!-- combined, minified CSS -->
+    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
+
+    
+
+    
+
+    
+
+    
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="/">Home</a>
+          
+          <a class="nav-link" href="https://example.org" title="">Link 1</a>
+          
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
+        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+      </div>
+    </header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/preserve-veeam-br-backups-jobs-moving-vcenter/">Preserve your Veeam B&amp;R Backups Jobs when Moving vCenter</a></h2>
+    <p class="blog-post-meta"><time datetime="2013-03-19T21:13:20Z">Tue Mar 19, 2013</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/ops" rel="tag">Ops</a>, <a href="/tags/vcenter" rel="tag">vCenter</a>, <a href="/tags/veeam" rel="tag">Veeam</a>, <a href="/tags/veeam-backup-amp-replication" rel="tag">Veeam Backup &amp;amp; Replication</a>, <a href="/tags/vmware" rel="tag">VMware</a>, <a href="/tags/vsphere" rel="tag">vSphere</a>, <a href="/tags/workaround" rel="tag">workaround</a>
+
+</p>
+  </header>
+  <p>This week I´m working at a client site, upgrading their entire existing vSphere 4.1 infrastructure to vSphere 5.1. The customer engagement also includes upgrading <a href="http://www.veeam.com/vmware-esx-backup.html">Veeam Backup and Replication</a> 6.0 to 6.5, and usually an isolated upgrade of Veeam B&amp;R is a no-brainer <em>next</em>, <em>next</em>, <em>next</em>, <em>done</em> install.</p>
+
+<p>To complicate things in this particular environment, I also had to migrate the vCenter SQL DB from a local MS SQL Server 2005 Express instance to a full-fledged MS SQL Server 2008 R2 instance.</p>
+
+<p>Of course, it was also decided to move the vCenter installation from a physical server, to a VM in the same operation.</p>
+
+<p>To be able to have an exit path, until the vSphere 4.1 hosts management agents, were reconfigured, a new vCenter VM was created with a new IP-adress and server name.</p>
+
+<p>After the migration from vCenter 4.1 to 5.1, and from physical to virtual was completed, the existing Veeam B&amp;R server was upgraded to the latest 6.5 release.</p>
+
+<p>Now, this is where things started to get a bit interesting with regards to the existing Veeam B&amp;R backup jobs.  As far as it was concerned, the new vCenter was unknown and the old one was no longer anywhere to be found on the network.</p>
+
+<p>If you add the new vCenter to the Veeam B&amp;R server, you will need to either redefine all the existing backup jobs by adding the same VM from the new vCenter to the existing job, and keep the old one around until your retention period has passed (and have it fail on the existing VM object until it´s removed) or you will have to recreate all the jobs pointing to the new vCenter instance and start new &ldquo;first time backups&rdquo; for all the VMs.</p>
+
+<p>For some reason you simply can not rename/redefine your vCenter connection inside of the Veeam B&amp;R GUI.</p>
+
+<p>Thankfully there is an easy way to work around this issue, without having to mess about with the Veeam B&amp;R database: <strong>Create a DNS alias!</strong></p>
+
+<p>_That´s right, the solution was that simple. I created a DNS <a href="http://en.wikipedia.org/wiki/CNAME_record">CNAME</a>  alias pointing the old vCenter network name to the new vCenter network name. After doing that, I had to re-enter the credentials for the vCenter connection in Veeam B&amp;R to force a reconnect, and all of a sudden all existing backups jobs where present again and working as intended._</p>
+
+<p>The reason this works, is that when you change the vCenter name and/or IP address (or even move it to a new server) it does not change the VM identification number (vmid) or Managed Object Reference (MoRef), in essence the VMs stay the same and Veeam B&amp;R can continue managing them as before.</p>
+
+<p><strong>Now, can we please get an option to update the registered vCenter name in Veeam Backup &amp; Replication v7.0?</strong></p>
+
+<p><strong>Update:</strong></p>
+
+<p>Check out <a href="http://vninja.net/virtualization/veeam-vcenter-migration-utility/">Veeam vCenter Migration Utility</a> for a small utility to help you move Veeam B&amp;R jobs after replacing your vCenter.</p>
+
+
+  
+
+  
+  <hr>
+  <footer>
+
+  
+    <section>
+    <h4>Share</h4>
+    <nav class="nav sharing-icons">
+      <a class="nav-item" href="https://www.facebook.com/sharer/sharer.php?u=%2fposts%2fpreserve-veeam-br-backups-jobs-moving-vcenter%2f" title="Share on Facebook"><span class="fa fa-facebook fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://plus.google.com/share?url=%2fposts%2fpreserve-veeam-br-backups-jobs-moving-vcenter%2f" title="Share on Google+"><span class="fa fa-google-plus fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fposts%2fpreserve-veeam-br-backups-jobs-moving-vcenter%2f" title="Share on LinkedIn"><span class="fa fa-linkedin fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://twitter.com/home?status=%2fposts%2fpreserve-veeam-br-backups-jobs-moving-vcenter%2f" title="Tweet this"><span class="fa fa-twitter fa-2x"></span></a>
+    </nav>
+  </section>
+
+  
+
+  
+  </footer>
+  
+
+</article> 
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="https://example.com">Link 1</a></li>
+      
+      <li><a href="https://example.org">Link 2</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p>
+      
+      &copy; Christian Mohn
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>

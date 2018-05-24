@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="Cohesity: My Initial Impression" />
+<meta property="og:description" content="A few weeks back Cohesity gave me access to a lab environment, where I could play around with their HyperConverged Secondary Data solution. For those unaware of their offering entails, it&rsquo;s simply put a solution for managing secondary storage. In this case, secondary storage is really everything that isn&rsquo;t mission critical. It can be your backups, test/dev workloads, file shares and so on . The idea to place these unstructured data sets on a secondary storage platform, to ease management and analytics but at the same time keep it integrated with the rest of the existing environment." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/cohesity-my-initial-impression/" />
+
+
+
+<meta property="article:published_time" content="2016-11-22T13:05:33&#43;00:00"/>
+
+<meta property="article:modified_time" content="2016-11-22T13:05:33&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Cohesity: My Initial Impression"/>
+<meta name="twitter:description" content="A few weeks back Cohesity gave me access to a lab environment, where I could play around with their HyperConverged Secondary Data solution. For those unaware of their offering entails, it&rsquo;s simply put a solution for managing secondary storage. In this case, secondary storage is really everything that isn&rsquo;t mission critical. It can be your backups, test/dev workloads, file shares and so on . The idea to place these unstructured data sets on a secondary storage platform, to ease management and analytics but at the same time keep it integrated with the rest of the existing environment."/>
+<meta name="generator" content="Hugo 0.40.3" />
+
+
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Cohesity: My Initial Impression",
+  "url": "/posts/cohesity-my-initial-impression/",
+  "wordCount": "432",
+  "datePublished": "2016-11-22T13:05:33&#43;00:00",
+  "dateModified": "2016-11-22T13:05:33&#43;00:00",
+  "author": {
+    "@type": "Person",
+    "name": "cmohn"
+  },
+  "keywords": "Virtualization, Backup, Cohesity, storage"
+}
+</script>
+
+
+
+    <link rel="canonical" href="/posts/cohesity-my-initial-impression/">
+
+    <title>Cohesity: My Initial Impression | Adventures in Hugo</title>
+
+    <!-- combined, minified CSS -->
+    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
+
+    
+
+    
+
+    
+
+    
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="/">Home</a>
+          
+          <a class="nav-link" href="https://example.org" title="">Link 1</a>
+          
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
+        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+      </div>
+    </header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/cohesity-my-initial-impression/">Cohesity: My Initial Impression</a></h2>
+    <p class="blog-post-meta"><time datetime="2016-11-22T13:05:33Z">Tue Nov 22, 2016</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/backup" rel="tag">Backup</a>, <a href="/tags/cohesity" rel="tag">Cohesity</a>, <a href="/tags/storage" rel="tag">storage</a>
+
+</p>
+  </header>
+  
+
+<p><img src="http://vninja.net/wordpress/wp-content/uploads/2016/11/Cohesity-logo-300x232.png" alt="cohesity-logo" /></p>
+
+<p>A few weeks back <a href="http://cohesity.com">Cohesity</a> gave me access to a lab environment, where I could play around with their HyperConverged Secondary Data solution. For those unaware of their offering entails, it&rsquo;s simply put a solution for managing secondary storage. In this case, secondary storage is really everything that isn&rsquo;t mission critical. It can be your backups, test/dev workloads, file shares and so on . The idea to place these unstructured data sets on a secondary storage platform, to ease management and analytics but at the same time keep it integrated with the rest of the existing environment. It&rsquo;s a Distributed scale-out platform, with a pay-as-you-grow model.</p>
+
+<p>Currently Cohesity supports both SMB and NFS as data entry points, and it also supports acting as a front-end for Google Cloud Storage Nearline, Microsoft Azure, Amazon S3 and Glacier.</p>
+
+<h3 id="partial-feature-list">Partial Feature List</h3>
+
+<p>I won&rsquo;t go through a complete feature list for the current v3.0 offering, but here are a few highlights:</p>
+
+<ul>
+<li><p>Replication between Cohesity Clusters</p></li>
+
+<li><p>Physical Windows and Linux support (in addition to VMs)</p></li>
+
+<li><p>Single object restore for MS SQL, MS Sharepoint and MS Exchange.</p></li>
+
+<li><p>Archival of data to Azure, Amazon, Google</p></li>
+
+<li><p>Tape support</p></li>
+
+<li><p>Data Analytics</p></li>
+</ul>
+
+<p>Getting data out of your VMs, and onto a secondary storage tier makes sense, even more so when you can replicate that data out of your datacenter as well. This makes your VMs smaller and thus easier to manage.</p>
+
+<p>Naturally I was most interested in looking at this from a vSphere perspective, and that&rsquo;s what I had a look at in the lab. Backups and Clones are presented back to the vSphere environment using NFS, something that enables quick restore and cloning without massive data transfers to get started.</p>
+
+<p><em>Without any introduction to the product what so-ever I was able to create Protection Jobs (backups) and clone VMs directly from the Cohesity interface.</em></p>
+
+<h2 id="screenshot-2016-11-05-23-04-26-http-vninja-net-wordpress-wp-content-uploads-2016-11-screenshot-2016-11-05-23-04-26-300x216-png-http-vninja-net-wordpress-wp-content-uploads-2016-11-screenshot-2016-11-05-23-04-26-png-creating-protection-jobs"><a href="http://vninja.net/wordpress/wp-content/uploads/2016/11/Screenshot-2016-11-05-23.04.26.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2016/11/Screenshot-2016-11-05-23.04.26-300x216.png" alt="screenshot-2016-11-05-23-04-26" /></a>Creating Protection Jobs:</h2>
+
+<p>Creating a Proection Job is easy, select the VMs you want to protect from the infrastructure:<a href="http://vninja.net/wordpress/wp-content/uploads/2016/11/Screenshot-2016-11-05-23.05.23.png">
+</a> <a href="http://vninja.net/wordpress/wp-content/uploads/2016/11/Screenshot-2016-11-05-23.06.37.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2016/11/Screenshot-2016-11-05-23.06.37-300x210.png" alt="screenshot-2016-11-05-23-06-37" /></a></p>
+
+<p>Select, or create a Protection Policy (did I mention it&rsquo;s policy driven?)</p>
+
+<p><img src="http://vninja.net/wordpress/wp-content/uploads/2016/11/Screenshot-2016-11-05-23.07.15-300x172.png" alt="screenshot-2016-11-05-23-07-15" /></p>
+
+<p>Watch the backups run</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2016/11/Screenshot-2016-11-06-23.44.25.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2016/11/Screenshot-2016-11-06-23.44.25-300x220.png" alt="screenshot-2016-11-06-23-44-25" /></a><a href="http://vninja.net/wordpress/wp-content/uploads/2016/11/Screenshot-2016-11-06-23.49.24.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2016/11/Screenshot-2016-11-06-23.49.24-300x193.png" alt="screenshot-2016-11-06-23-49-24" /></a></p>
+
+<h2 id="creating-clones">Creating Clones</h2>
+
+<p>The procedure for clone jobs is equally simple</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2016/11/Screenshot-2016-11-06-23.45.32.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2016/11/Screenshot-2016-11-06-23.45.32-300x269.png" alt="screenshot-2016-11-06-23-45-32" /></a> <a href="http://vninja.net/wordpress/wp-content/uploads/2016/11/Screenshot-2016-11-06-23.46.23.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2016/11/Screenshot-2016-11-06-23.46.23-300x214.png" alt="screenshot-2016-11-06-23-46-23" /></a></p>
+
+<p>The Cohesity 3.0 UI is beautiful and easy to work with. As I mentioned in my tweet after looking at this for a little under an hour:</p>
+
+<p><a href="https://twitter.com/h0bbel/status/795029165833650176">https://twitter.com/h0bbel/status/795029165833650176</a></p>
+
+<p>It&rsquo;ll be interesting to see where this moves from here, but from a purely technical point of view the current offering looks pretty darn good! Of course, I&rsquo;ve only scratched the surface here playing with backup/restore and cloning only, the platform has much more to offer besides that.</p>
+
+<p>#vDM30in30 progress:
+[progressbar_circle percent= 46]</p>
+
+
+  
+
+  
+  <hr>
+  <footer>
+
+  
+    <section>
+    <h4>Share</h4>
+    <nav class="nav sharing-icons">
+      <a class="nav-item" href="https://www.facebook.com/sharer/sharer.php?u=%2fposts%2fcohesity-my-initial-impression%2f" title="Share on Facebook"><span class="fa fa-facebook fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://plus.google.com/share?url=%2fposts%2fcohesity-my-initial-impression%2f" title="Share on Google+"><span class="fa fa-google-plus fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fposts%2fcohesity-my-initial-impression%2f" title="Share on LinkedIn"><span class="fa fa-linkedin fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://twitter.com/home?status=%2fposts%2fcohesity-my-initial-impression%2f" title="Tweet this"><span class="fa fa-twitter fa-2x"></span></a>
+    </nav>
+  </section>
+
+  
+
+  
+  </footer>
+  
+
+</article> 
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="https://example.com">Link 1</a></li>
+      
+      <li><a href="https://example.org">Link 2</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p>
+      
+      &copy; Christian Mohn
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>

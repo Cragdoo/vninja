@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="Bash" />
+<meta property="og:description" content="There is a thin line between agile and fragile" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="/tags/bash/" />
+
+
+
+<meta property="og:updated_time" content="2016-08-13T09:45:13&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Bash"/>
+<meta name="twitter:description" content="There is a thin line between agile and fragile"/>
+<meta name="generator" content="Hugo 0.40.3" />
+
+
+    
+      
+    
+
+    <link rel="canonical" href="/tags/bash/">
+
+    <title>Adventures in Hugo</title>
+
+    <!-- combined, minified CSS -->
+    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
+
+    
+    <!-- RSS 2.0 feed -->
+    <link href="/tags/bash/index.xml" rel="alternate" type="application/rss+xml" title="Adventures in Hugo" />
+    
+
+    
+
+    
+
+    
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="/">Home</a>
+          
+          <a class="nav-link" href="https://example.org" title="">Link 1</a>
+          
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
+        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+      </div>
+    </header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/cloudflare-dynamic-dns-update-script-cf-ddns-sh/">CloudFlare Dynamic DNS Update Script (cf-ddns.sh)</a></h2>
+    <p class="blog-post-meta"><time datetime="2016-08-13T09:45:13Z">Sat Aug 13, 2016</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/homelab" rel="category tag">Homelab</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/bash" rel="tag">Bash</a>, <a href="/tags/cloudflare" rel="tag">Cloudflare</a>, <a href="/tags/dynamic-dns" rel="tag">Dynamic DNS</a>, <a href="/tags/homelab" rel="tag">Homelab</a>, <a href="/tags/scripting" rel="tag">Scripting</a>
+
+</p>
+  </header>
+  As a part of myHomelab project, I&rsquo;ve created a proper bash script to provide dynamic DNS updates for external resources, via CloudFlare. More details on the reasoning behind it can be found in Using CloudFlare for Dynamic DNS, but since that was posted I&rsquo;ve fleshed the script out quite a bit more.
+The new and updated script can be found on GitHub: cf-ddns.sh. It now writes events to syslog when it runs, so you can use VMware Log Insight (or another log solution) to capture the events, and use it to track public IP changes if you want.
+  <a href='/posts/cloudflare-dynamic-dns-update-script-cf-ddns-sh/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/verifying-vmware-downloads/">Verifying VMware Downloads</a></h2>
+    <p class="blog-post-meta"><time datetime="2012-09-11T21:19:12Z">Tue Sep 11, 2012</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/vmware" rel="category tag">VMware</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/bash" rel="tag">Bash</a>, <a href="/tags/download" rel="tag">Download</a>, <a href="/tags/integrity" rel="tag">Integrity</a>, <a href="/tags/md5" rel="tag">MD5</a>, <a href="/tags/os-x" rel="tag">OS X</a>, <a href="/tags/sha1" rel="tag">SHA1</a>, <a href="/tags/terminal" rel="tag">Terminal</a>, <a href="/tags/vmware" rel="tag">VMware</a>, <a href="/tags/vsphere" rel="tag">vSphere</a>
+
+</p>
+  </header>
+  Now that vSphere 5.1 and assorted products have been released into the wild, how do you check the integrity of your downloaded file? As you might be aware of, VMware publishes both MD5 and SHA1 hashes for their files, making it possible to check if the file you just downloaded is identical to the file offered from VMware.
+Checking the MD5 or SHA1 hash for a single file is easy, at least in OS X where you don´t need any third party tools to check.
+  <a href='/posts/verifying-vmware-downloads/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="https://example.com">Link 1</a></li>
+      
+      <li><a href="https://example.org">Link 2</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p>
+      
+      &copy; Christian Mohn
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Donation on Adventures in Hugo</title>
+    <link>/tags/donation/</link>
+    <description>Recent content in Donation on Adventures in Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
+    <lastBuildDate>Fri, 06 May 2016 09:26:13 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/donation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Let&#39;s get the kids some RPi&#39;s!</title>
+      <link>/posts/lets-get-the-kids-some-rpis/</link>
+      <pubDate>Fri, 06 May 2016 09:26:13 +0000</pubDate>
+      
+      <guid>/posts/lets-get-the-kids-some-rpis/</guid>
+      <description>A friend of Mr. Jase McCarty is teaching a class in programming control systems, and is in need of a few Raspberry Pi&amp;rsquo;s.
+Sadly the school can&amp;rsquo;t afford buying them outright, so if you have one laying around, that you are not using, get in touch with Jase and he&amp;rsquo;ll set you up with the details on how you can contribute! If you want to do even better, and buy some RPi&amp;rsquo;s outright and donate them to the project, check out this Amazon Wishlist!</description>
+    </item>
+    
+  </channel>
+</rss>

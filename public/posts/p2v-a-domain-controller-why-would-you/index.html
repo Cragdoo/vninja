@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="P2V a Domain Controller? Why would you?" />
+<meta property="og:description" content="Some topics seem to pop up at random intervals, one of them being virtualizing Microsoft Active Directory Domain Controller servers. The question is often either &ldquo;Should I virtualize my Domain Controllers, and if so should I virtualize all of them?&rdquo; or &ldquo;Should I do a P2V (Physical 2 Virtual) conversion of my existing Domain Controllers, or create new ones?&ldquo;
+In this post, I&rsquo;ll be talking about the second question. While there is a lot to be said about the first one as well, I&rsquo;ll leave that for future post." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/p2v-a-domain-controller-why-would-you/" />
+
+
+
+<meta property="article:published_time" content="2010-09-21T19:39:07&#43;00:00"/>
+
+<meta property="article:modified_time" content="2010-09-21T19:39:07&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="P2V a Domain Controller? Why would you?"/>
+<meta name="twitter:description" content="Some topics seem to pop up at random intervals, one of them being virtualizing Microsoft Active Directory Domain Controller servers. The question is often either &ldquo;Should I virtualize my Domain Controllers, and if so should I virtualize all of them?&rdquo; or &ldquo;Should I do a P2V (Physical 2 Virtual) conversion of my existing Domain Controllers, or create new ones?&ldquo;
+In this post, I&rsquo;ll be talking about the second question. While there is a lot to be said about the first one as well, I&rsquo;ll leave that for future post."/>
+<meta name="generator" content="Hugo 0.40.3" />
+
+
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "P2V a Domain Controller? Why would you?",
+  "url": "/posts/p2v-a-domain-controller-why-would-you/",
+  "wordCount": "731",
+  "datePublished": "2010-09-21T19:39:07&#43;00:00",
+  "dateModified": "2010-09-21T19:39:07&#43;00:00",
+  "author": {
+    "@type": "Person",
+    "name": "cmohn"
+  },
+  "keywords": "Virtualization, Maintenance, Ops"
+}
+</script>
+
+
+
+    <link rel="canonical" href="/posts/p2v-a-domain-controller-why-would-you/">
+
+    <title>P2V a Domain Controller? Why would you? | Adventures in Hugo</title>
+
+    <!-- combined, minified CSS -->
+    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
+
+    
+
+    
+
+    
+
+    
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="/">Home</a>
+          
+          <a class="nav-link" href="https://example.org" title="">Link 1</a>
+          
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
+        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+      </div>
+    </header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/p2v-a-domain-controller-why-would-you/">P2V a Domain Controller? Why would you?</a></h2>
+    <p class="blog-post-meta"><time datetime="2010-09-21T19:39:07Z">Tue Sep 21, 2010</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/maintenance" rel="tag">Maintenance</a>, <a href="/tags/ops" rel="tag">Ops</a>, <a href="/tags/virtualization" rel="tag">Virtualization</a>
+
+</p>
+  </header>
+  <p><img src="/images/logos/vmware-logo.gif" alt="" />Some topics seem to pop up at random intervals, one of them being virtualizing Microsoft Active Directory Domain Controller servers. The question is often either &ldquo;<em>Should I virtualize my Domain Controllers, and if so should I virtualize all of them?</em>&rdquo; or &ldquo;<em>Should I do a P2V (Physical 2 Virtual) conversion of my existing Domain Controllers, or create new ones?</em>&ldquo;</p>
+
+<p>In this post, I&rsquo;ll be talking about the second question. While there is a lot to be said about the first one as well, I&rsquo;ll leave that for future post.</p>
+
+<p>Most businesses have an existing Active Directory when they decide to virtualize. There might be different reasons for going virtual with regards to Active Directory, but in my mind there are close to no scenarios where I would even consider doing a P2V conversion of an Domain Controller.</p>
+
+<p>The reasons for this are plenty:</p>
+
+<ul>
+<li><p><strong>You need to do a <em>cold</em> conversion</strong><br />
+You absolutely should not do a hot P2V migration of a DC. If you try to hot migration, you will end up with a domain controller that is out of sync with the others, lots of issues and a really painful headache</p></li>
+
+<li><p><strong>Never power on the old server</strong><br />
+The old server, the one you did a cold P2V migration of, must <em>never</em> be powered back on after the new virtual instance is started. If it gets powered back on, you will once again be in a world of hurt.</p></li>
+
+<li><p><strong>Potential Cleanup problems</strong><br />
+You need to clean up the old driver stack (most P2V tools will do this for you), and you might end up with for instance two network cards that share the same IP, one of them hidden from view and not very easily removed. This could in turn make the DNS services on a converted domain controller does bind to the wrong network interface. And we all know what happens to Active Directory if DNS doesn&rsquo;t work right.</p></li>
+</ul>
+
+<p>I&rsquo;m sure there are many other potential issues as well, like Kerberos authentication or trust failures and so on. This is not a situation you want to end up in, especially not in your production environment.</p>
+
+<p><a href="http://twitter.com/gabvirtualworld">Gabrie van Zanten</a> recently published a recipe for P2V migrations of existing Domain Controllers, called <a href="http://www.gabesvirtualworld.com/virtualizing-a-domain-controller-how-hard-can-it-be/">Virtualizing a domain controller, how hard can it be?</a> and I&rsquo;m confident that this method would probably work out fine.</p>
+
+<p>My question is this; <em>Why would you want to do this in the first place?</em> It&rsquo;s not like it&rsquo;s hard to set up a new Domain Controller, make sure it replicates properly with the existing physical or virtual ones, transfer any FSMO roles the soon-to-be-decommissioned Domain Controller has to the new instance and then safely and timely remove Active Directory from the old server.</p>
+
+<p>Of course, Gabe has a point when he mentions that the issues you might get with a botched P2V of a Domain Controller would be the same as old style bad management like using Symantec Ghost on a DC and roll back to an old image if something fails, but why risk it at all?</p>
+
+<p>Deploying a new Windows Server 2008 R2 VM, running <em>dcpromo</em> and setting up DNS does not take a long time, nor is it very complex to do.</p>
+
+<p>I have not timed this, but I seriously doubt that creating a cold P2V migration boot device, shutting down the physical server, booting the cold migration tool, do the actual P2V conversion and powering on the new VM takes less time than it takes to set up a new VM. You might argue that you will have to install anti-virus and backup agents and possibly other tools to the new VM as well, but if your infrastructure is somewhat reasonably set up with automation tools etc. this should not really be a factor to consider. Besides, if you do it this way you have a return path, after all you haven&rsquo;t removed anything!</p>
+
+<p>In fact, I&rsquo;m pretty sure this whole post took longer to write than it would take to actually set up a new Domain Controller in my production environment.</p>
+
+<p>My conclusion is, don&rsquo;t bother risking a P2V of a Domain Controller. Set up a new VM instead, <strong>it&rsquo;s easy, quick and risk free</strong>.</p>
+
+<p>In other words, as the <a href="http://twitter.com/search?q=vsensei">vSensei</a> would say <a href="http://twitter.com/ChrisDearden/statuses/25135153842">&ldquo;just because you can, no mean you should&rdquo;</a></p>
+
+<p><strong>So <a href="http://twitter.com/gabvirtualworld">Gabe</a>, as far as this one goes; You&rsquo;re on your own! ;-)</strong></p>
+
+
+  
+
+  
+  <hr>
+  <footer>
+
+  
+    <section>
+    <h4>Share</h4>
+    <nav class="nav sharing-icons">
+      <a class="nav-item" href="https://www.facebook.com/sharer/sharer.php?u=%2fposts%2fp2v-a-domain-controller-why-would-you%2f" title="Share on Facebook"><span class="fa fa-facebook fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://plus.google.com/share?url=%2fposts%2fp2v-a-domain-controller-why-would-you%2f" title="Share on Google+"><span class="fa fa-google-plus fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fposts%2fp2v-a-domain-controller-why-would-you%2f" title="Share on LinkedIn"><span class="fa fa-linkedin fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://twitter.com/home?status=%2fposts%2fp2v-a-domain-controller-why-would-you%2f" title="Tweet this"><span class="fa fa-twitter fa-2x"></span></a>
+    </nav>
+  </section>
+
+  
+
+  
+  </footer>
+  
+
+</article> 
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="https://example.com">Link 1</a></li>
+      
+      <li><a href="https://example.org">Link 2</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p>
+      
+      &copy; Christian Mohn
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>

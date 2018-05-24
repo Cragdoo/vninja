@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vram on Adventures in Hugo</title>
+    <link>/tags/vram/</link>
+    <description>Recent content in Vram on Adventures in Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
+    <lastBuildDate>Tue, 12 Jul 2011 18:36:07 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/vram/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>vSphere 5 and new licensing - Good or bad?</title>
+      <link>/posts/vsphere-5-and-new-licensing-good-or-bad/</link>
+      <pubDate>Tue, 12 Jul 2011 18:36:07 +0000</pubDate>
+      
+      <guid>/posts/vsphere-5-and-new-licensing-good-or-bad/</guid>
+      <description>As many of you did I watched todays Cloud Infrastructure Forum and the release of vSphere 5 today. I was very excited with many of the features such as Storage Profiling, Storage DRS, VMFS 5 release, and they have blown the top off of the resource limits on VMs to create Monster VMs - just to mention a few. However, one topic I notice causing quite a stir is the new licensing that seemed to be very briefly mentioned at the end of the webinar.</description>
+    </item>
+    
+  </channel>
+</rss>

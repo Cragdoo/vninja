@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Youtube on Adventures in Hugo</title>
+    <link>/tags/youtube/</link>
+    <description>Recent content in Youtube on Adventures in Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
+    <lastBuildDate>Wed, 09 May 2018 13:12:07 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/youtube/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Keynote: Crossing the River by Feeling the Stones - Simon Wardley</title>
+      <link>/posts/crossing-river-feeling-stones/</link>
+      <pubDate>Wed, 09 May 2018 13:12:07 +0000</pubDate>
+      
+      <guid>/posts/crossing-river-feeling-stones/</guid>
+      <description>This is the third talk I&amp;rsquo;ve found worthy of publishing in the Awesome Talks series. Enjoy Simon Wardley&amp;rsquo;s Researcher, Leading Edge Forum, keynote from KubeCon + CloudNativeCon Europe 2018 called &amp;ldquo;Crossing the River by Feeling the Stones&amp;rdquo;.
+Simon&amp;rsquo;s presentation technique, flair and master of language is flat out impressive — and fun!
+Crossing the River by Feeling the Stones https://youtu.be/xlNYYy8pzB4
+Now, do you know what a map is? Do you, really?</description>
+    </item>
+    
+  </channel>
+</rss>

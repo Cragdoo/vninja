@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Christian Mohn on Adventures in Hugo</title>
+    <link>/tags/christian-mohn/</link>
+    <description>Recent content in Christian Mohn on Adventures in Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
+    <lastBuildDate>Fri, 30 Dec 2011 18:40:41 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/christian-mohn/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Goodbye 2011, you were great</title>
+      <link>/posts/goodbye-2011-you-were-great/</link>
+      <pubDate>Fri, 30 Dec 2011 18:40:41 +0000</pubDate>
+      
+      <guid>/posts/goodbye-2011-you-were-great/</guid>
+      <description>Yes, this is YAEotYP, so if you&amp;rsquo;ve already read tons of them I apologize.
+2011 - My personal view 2011 has been a steamroller of a year.The vSoup Virtualization Podcast got aired the first time, and we&amp;rsquo;ve recorded and published 19 full episodes in the inaugural year. I was awarded the vExpert title for the first time, and even got invited to Tech Field Day #6 in Boston.
+In addition to this, I wrote a white paper for Veeam, was included in the Server Virtualization Advisory Board, joined Rick Vanover for a Veeam Community Podcast, and appeared in two video interviews.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="Hp" />
+<meta property="og:description" content="There is a thin line between agile and fragile" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="/tags/hp/" />
+
+
+
+<meta property="og:updated_time" content="2014-08-21T22:21:59&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Hp"/>
+<meta name="twitter:description" content="There is a thin line between agile and fragile"/>
+<meta name="generator" content="Hugo 0.40.3" />
+
+
+    
+      
+    
+
+    <link rel="canonical" href="/tags/hp/">
+
+    <title>Adventures in Hugo</title>
+
+    <!-- combined, minified CSS -->
+    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
+
+    
+    <!-- RSS 2.0 feed -->
+    <link href="/tags/hp/index.xml" rel="alternate" type="application/rss+xml" title="Adventures in Hugo" />
+    
+
+    
+
+    
+
+    
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="/">Home</a>
+          
+          <a class="nav-link" href="https://example.org" title="">Link 1</a>
+          
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
+        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+      </div>
+    </header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/problems-connecting-hp-insight-control-storage-module-storeserv-7200-3par/">Problems connecting HP Insight Control Storage Module to StoreServ 7200 (3Par)</a></h2>
+    <p class="blog-post-meta"><time datetime="2014-08-21T22:21:59Z">Thu Aug 21, 2014</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/storage" rel="category tag">Storage</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/3par" rel="tag">3Par</a>, <a href="/tags/hp" rel="tag">HP</a>, <a href="/tags/hp-insight-control" rel="tag">HP Insight Control</a>, <a href="/tags/storeserv" rel="tag">StoreServ</a>, <a href="/tags/troubleshooting" rel="tag">Troubleshooting</a>, <a href="/tags/vcenter-operations-manager" rel="tag">vCenter Operations Manager</a>
+
+</p>
+  </header>
+  A customer of mine, who runs a pure HP environment based on c7000 and StoreServ 7200, wanted to get the HP Insight Control Storage Module for vCenter up and running. The problem was that while we were able to connect to the older MSA array they run for non-production workloads, we were unable to connect to the newer StoreServ 7200. There is full IP connectivity between the application server that the HP Insight components run on and the storage controllers/VSP (no firewalls between them, they are located in the same subnet).
+  <a href='/posts/problems-connecting-hp-insight-control-storage-module-storeserv-7200-3par/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/virtual-connect-flexfabric-direct-attach-fc-3par-caveat/">Virtual Connect FlexFabric and Direct-Attach FC 3Par Caveat</a></h2>
+    <p class="blog-post-meta"><time datetime="2013-05-30T21:08:45Z">Thu May 30, 2013</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/storage" rel="category tag">Storage</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/3par" rel="tag">3Par</a>, <a href="/tags/bladesystem" rel="tag">BladeSystem</a>, <a href="/tags/bug" rel="tag">Bug</a>, <a href="/tags/fibre-channel" rel="tag">Fibre Channel</a>, <a href="/tags/hp" rel="tag">HP</a>, <a href="/tags/sfp&#43;" rel="tag">SFP&#43;</a>, <a href="/tags/storage" rel="tag">storage</a>, <a href="/tags/storeserv" rel="tag">StoreServ</a>, <a href="/tags/virtual-connect" rel="tag">Virtual Connect</a>
+
+</p>
+  </header>
+  When configuring a new C7000 Blade Enclosure with a couple of FlexFabric 10Gb/24-port modules I ran into a rather annoying issue during setup.
+HP Virtual Connect 3.70 introduced support for Direct-Attach setups of HP 3Par StoreServ 7000 storage systems, where you can eliminate the need for dedicated FC switches. For full details, have a look at Implementing HP Virtual Connect Direct-Attach Fibre Channel with HP 3PAR StoreServ Systems.
+This is excellent for setups where all your hosts are HP Blades, and you have a Virtual Connect FlexFabric setup.
+  <a href='/posts/virtual-connect-flexfabric-direct-attach-fc-3par-caveat/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/hp-bl460c-g8-lose-its-datastore/">Why Did the HP BL460c G8 Lose It&rsquo;s Datastore?</a></h2>
+    <p class="blog-post-meta"><time datetime="2012-10-29T21:48:08Z">Mon Oct 29, 2012</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/vmware" rel="category tag">VMware</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/bl460c" rel="tag">BL460c</a>, <a href="/tags/c3000" rel="tag">c3000</a>, <a href="/tags/c7000" rel="tag">c7000</a>, <a href="/tags/esxi" rel="tag">ESXi</a>, <a href="/tags/g8" rel="tag">G8</a>, <a href="/tags/hp" rel="tag">HP</a>, <a href="/tags/p220i" rel="tag">P220i</a>, <a href="/tags/patch" rel="tag">Patch</a>, <a href="/tags/proliant" rel="tag">ProLiant</a>, <a href="/tags/update" rel="tag">Update</a>, <a href="/tags/vmware" rel="tag">VMware</a>
+
+</p>
+  </header>
+  Post Update: As per Preetam´s comment, HP has published a customer advisory regarding the usage of install vs update.
+After installing a couple of brand new HP ProLiant BL460c G8 blades with HP Smart Array P220i controllers at a customer site, I decided that I should upgrade from the VMware-ESXi-5.0.0-Update1-623860-HP-5.20.43.iso Build 623860 used to install the blades, to the latest 821926 build offered by VMware.
+Normally this is a really easy process using VMware Update Manager, but since this is a new installation all the prerequisites for that are not in place just yet and I decided to use esxcli to perform the update.
+  <a href='/posts/hp-bl460c-g8-lose-its-datastore/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="https://example.com">Link 1</a></li>
+      
+      <li><a href="https://example.org">Link 2</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p>
+      
+      &copy; Christian Mohn
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rant on Adventures in Hugo</title>
+    <link>/categories/rant/</link>
+    <description>Recent content in Rant on Adventures in Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
+    <lastBuildDate>Tue, 22 May 2018 21:21:27 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/rant/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>I&#39;ve Complied, I think.</title>
+      <link>/posts/ive-complied-i-think/</link>
+      <pubDate>Tue, 22 May 2018 21:21:27 +0000</pubDate>
+      
+      <guid>/posts/ive-complied-i-think/</guid>
+      <description>Like Sam and Simon over at definit.co.uk I&amp;rsquo;ve done a quick GDPR-related overhaul of the site.
+Like the two English scholars and gentlemen, I&amp;rsquo;ve created the required Privacy Policy page. I&amp;rsquo;ve also deleted all existing comments on the site, and disabled comments sitewide — hopefully that&amp;rsquo;s enough.
+Oh, joy.</description>
+    </item>
+    
+    <item>
+      <title>It&#39;s Time to End the Add on Insanity</title>
+      <link>/posts/time-add-insanity/</link>
+      <pubDate>Mon, 13 Jul 2015 22:17:12 +0000</pubDate>
+      
+      <guid>/posts/time-add-insanity/</guid>
+      <description>For the third time in a week, researchers have discovered a zero-day vulnerability in Adobe’s Flash Player browser plugin. Like the previous two discoveries, this one came to light only after hackers dumped online huge troves of documents stolen from Hacking Team — an Italian security firm that sells software exploits to governments around the world. This quote is from Brian Krebs, who very rightfully goes on to advise that everyone &amp;ldquo;please consider removing or at least hobbling this program.</description>
+    </item>
+    
+    <item>
+      <title>The &#34;vCommunity&#34;</title>
+      <link>/posts/vcommunity/</link>
+      <pubDate>Fri, 03 Apr 2015 22:22:13 +0000</pubDate>
+      
+      <guid>/posts/vcommunity/</guid>
+      <description>The recent months, and weeks, has made me question the value of the &amp;ldquo;vCommunity&amp;rdquo;. I&amp;rsquo;m even questioning if there really is such a thing at all any more. I believe there was such a thing at one point, but it seems to be fading fast into history, only to be replaced by hyperbole of egonormous proportions. Back in the old days, and this might just be me showing my greying of beards moment, the hyperbole wasn&amp;rsquo;t a strong a force as it seems to be today.</description>
+    </item>
+    
+    <item>
+      <title>Is Hyperconverged the be-all, end-all? No.</title>
+      <link>/posts/hyperconverged-be-all-end-all-no/</link>
+      <pubDate>Mon, 22 Sep 2014 21:48:40 +0000</pubDate>
+      
+      <guid>/posts/hyperconverged-be-all-end-all-no/</guid>
+      <description>First off, this is not meant to be a post negating the value of current hyperconverged solutions available in the market. I think hyperconverged has it&amp;rsquo;s place, and for many use cases it makes perfect sense to go down that route. But the idea that everyone should go hyperconverged and all data should be placed on local drives, even if made redundant inside the chassis and even between chassis, is to be blunt, a bit silly.</description>
+    </item>
+    
+    <item>
+      <title>VMworld US is over. Now what?</title>
+      <link>/posts/vmworld-over-what/</link>
+      <pubDate>Fri, 05 Sep 2014 18:38:58 +0000</pubDate>
+      
+      <guid>/posts/vmworld-over-what/</guid>
+      <description>Another VMworld US is over, with huge attendee numbers and in keeping with tradition lots of new announcements were made. I&amp;rsquo;m not going to go through them, enough posts have been made about that, the basis of this post is something completely different all together.
+There seems to be a general expectation that we as a community is to be wooed by the announcements and flashy keynotes, but are we really the target audience?</description>
+    </item>
+    
+    <item>
+      <title>#AdviceForVMworld</title>
+      <link>/posts/adviceforvmworld/</link>
+      <pubDate>Fri, 22 Aug 2014 18:08:56 +0000</pubDate>
+      
+      <guid>/posts/adviceforvmworld/</guid>
+      <description>VMworld US is very soon upon us, and I&amp;rsquo;m one of the jealous ones left behind not being able to attend. I will hopefully be able to join everyone oat VMworld Europe in Barcelona on October though.
+An interesting Twitter hashtag #AdviceForVMworld appeared a week or so ago, with lots of good advice for people attending a huge tech conference.
+Here are a few good examples:
+[#AdviceForVMworld](https://twitter.com/hashtag/AdviceForVMworld?src=hash): Just Say Hi, it is all about the conversations, networking.</description>
+    </item>
+    
+    <item>
+      <title>Social Media, Karma and Being a Dick</title>
+      <link>/posts/social-media-karma-dick/</link>
+      <pubDate>Tue, 08 Oct 2013 13:12:13 +0000</pubDate>
+      
+      <guid>/posts/social-media-karma-dick/</guid>
+      <description>Rant alert [@Acronis](https://twitter.com/Acronis) sorry, not happening. — Christian Mohn (@h0bbel) [October 8, 2013](https://twitter.com/h0bbel/statuses/387562111972683776) In and of itself, this tweet is fair enough, even if borderline spam. My reaction to it however, tells a different story. _I admit it, it´s a bit harsh and straight to the point, but something has to have triggered such a response, right? _Rewind back to VMworld US, and Acronis posted this:
+[@sbeloussov](https://twitter.com/sbeloussov) [@veeam](https://twitter.com/veeam) [@VMworld](https://twitter.com/VMworld) fortunately we don&#39;t need to make our customers drunk to persuade them to buy our soft.</description>
+    </item>
+    
+    <item>
+      <title>The Personal Value of Certification</title>
+      <link>/posts/personal-certification/</link>
+      <pubDate>Sat, 01 Sep 2012 09:58:26 +0000</pubDate>
+      
+      <guid>/posts/personal-certification/</guid>
+      <description>Fabio Rapposelli´s post &amp;ldquo;On the Real Value of IT certifications&amp;rdquo; highlights some of the current problems related to IT certifications in general, and basic &amp;ldquo;entry level&amp;rdquo; exams in particular.
+The problems with brain dumps, lack of experience and testing methods is not new, and the_ &amp;ldquo;Paper MCSE&amp;rdquo;_ term was coined back in the early 2000´s when the influx of newly certified Microsoft Certified Systems Engineers, with little or no real world experience flooded the market.</description>
+    </item>
+    
+    <item>
+      <title>VMworld Session Reject Club</title>
+      <link>/posts/vmworld-session-reject-club/</link>
+      <pubDate>Wed, 27 Jun 2012 00:07:18 +0000</pubDate>
+      
+      <guid>/posts/vmworld-session-reject-club/</guid>
+      <description>**VMworld Session Reject Club 1st RULE: You do talk about Reject Club. **
+Today VMware has sent out notifications to VMworld 2012 session submitters, with a yay or nay email. Of course, this sparked a lot of conversation on Twitter, and Scott Lowe published a blog post proposing a VMworld Unconference, and exploring several options:
+ A physical “unconference”
+ A virtual “unconference”
+ A series of 10-minute “flash talks” at VMworld 2012</description>
+    </item>
+    
+    <item>
+      <title>Being Neil Armstrong</title>
+      <link>/posts/neil-armstrong/</link>
+      <pubDate>Sun, 26 Feb 2012 22:42:01 +0000</pubDate>
+      
+      <guid>/posts/neil-armstrong/</guid>
+      <description>Now there is an ambitious post title if there ever was one, but it seems fitting as the next 12 months promises to be my most ambitious professional year to date.
+Like Neil, I´ve started a journey that could either crash and burn, or end up with my very own personal moon landing.
+Those of you that follow my antics on Twitter already know what I´m talking about, but I´ll spell it out once and for all:</description>
+    </item>
+    
+    <item>
+      <title>vSphere 5 and new licensing - Good or bad?</title>
+      <link>/posts/vsphere-5-and-new-licensing-good-or-bad/</link>
+      <pubDate>Tue, 12 Jul 2011 18:36:07 +0000</pubDate>
+      
+      <guid>/posts/vsphere-5-and-new-licensing-good-or-bad/</guid>
+      <description>As many of you did I watched todays Cloud Infrastructure Forum and the release of vSphere 5 today. I was very excited with many of the features such as Storage Profiling, Storage DRS, VMFS 5 release, and they have blown the top off of the resource limits on VMs to create Monster VMs - just to mention a few. However, one topic I notice causing quite a stir is the new licensing that seemed to be very briefly mentioned at the end of the webinar.</description>
+    </item>
+    
+    <item>
+      <title>Multi-Hypervisor Management and the Future</title>
+      <link>/posts/multi-hypervisor-management-and-the-future/</link>
+      <pubDate>Sun, 12 Jun 2011 20:34:52 +0000</pubDate>
+      
+      <guid>/posts/multi-hypervisor-management-and-the-future/</guid>
+      <description>In a previous post, vCenter Integration Mantra, I made the point that vSphere vAdmins wants the 3rd party modules to integrate into the vCenter client and show their delicious addon-value there, and not in their own management interface. Give the vAdmins the info they need, where they do most, if not all their work. Open up the admin client and let us get all that juicy and fruity information we need.</description>
+    </item>
+    
+    <item>
+      <title>vCenter Integration Mantra</title>
+      <link>/posts/vcenter-integration-mantra/</link>
+      <pubDate>Fri, 10 Jun 2011 15:43:18 +0000</pubDate>
+      
+      <guid>/posts/vcenter-integration-mantra/</guid>
+      <description>During Tech Field Day #6 in Boston one particular general feature request has become increasingly prominent;
+Can we have it inside the vCenter client?
+In short, what we want is for all those great third party vendors like VKernel, Solarwinds and others to be able to put their feature addons directly into the vCenter client. Currently most third party apps &amp;ldquo;integrate&amp;rdquo; by offering a new tab where you can access it, but I would love to see that being expanded even further.</description>
+    </item>
+    
+    <item>
+      <title>VMware Forum 2011 Oslo </title>
+      <link>/posts/vmware-forum-2011-oslo/</link>
+      <pubDate>Fri, 08 Apr 2011 09:58:48 +0000</pubDate>
+      
+      <guid>/posts/vmware-forum-2011-oslo/</guid>
+      <description>Yesterday I attended VMware Forum 2011 in Oslo (Norwegian).
+The venue and location at DogA - the Norwegian Centre for Design and Architecture was very nice, but sadly I must ask VMware who the intended audience for the VMware Forum event is?
+According to the invitation the audience target is:
+People that will benefit from attending VMware Forum 2011 include: CIO, CFO and General Managers Infrastructure and Datacenter Managers IT Managers and Directors Security Managers Systems Administrators Desktop, SOE Managers Application Managers, Application Administrators Application Developers IT Procurement Mangers Sadly I fail to see how the VMware Forum 2011 in Oslo would be very beneficial for existing VMware customers, at least not at a technical level.</description>
+    </item>
+    
+    <item>
+      <title>Passion in IT</title>
+      <link>/posts/passion-in-modern-it-organizations/</link>
+      <pubDate>Sun, 20 Feb 2011 20:45:55 +0000</pubDate>
+      
+      <guid>/posts/passion-in-modern-it-organizations/</guid>
+      <description>Bob Plankers, akaThe Lone Sysadmin, has posted a series of posts on &amp;ldquo;the blame game&amp;rdquo; in modern IT organizations (Blame, Understanding Blame and Preventing Blame).
+Bob&amp;rsquo;s posts are most excellent, and well worth a thorough read. Feel free to head on over and read them now, this post will be waiting right here when you come back.
+Are you back yet? In fact, Bob&amp;rsquo;s excellent rants has inspired me to write my own!</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="Migrating from Watchguard Firebox X to XTM Series Firewalls" />
+<meta property="og:description" content="Watchguard has recently retired their X series of firewalls and replaced them with their new lineup of XTM boxes.
+I took this opportunity to replace my X series firewalls with some from the new lineup, and found a neat way to migrate your existing configuration from old to new in a few very easy steps.
+
+Note: _Normally I would not recommend migrating your configuration in this manner. In my mind you should always rebuild rules when replacing your firewall, as it is the perfect time to review and do some QA." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/migrating-from-watchguard-firebox-x-to-xtm-series-firewalls/" />
+
+
+
+<meta property="article:published_time" content="2011-01-07T22:07:31&#43;00:00"/>
+
+<meta property="article:modified_time" content="2011-01-07T22:07:31&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Migrating from Watchguard Firebox X to XTM Series Firewalls"/>
+<meta name="twitter:description" content="Watchguard has recently retired their X series of firewalls and replaced them with their new lineup of XTM boxes.
+I took this opportunity to replace my X series firewalls with some from the new lineup, and found a neat way to migrate your existing configuration from old to new in a few very easy steps.
+
+Note: _Normally I would not recommend migrating your configuration in this manner. In my mind you should always rebuild rules when replacing your firewall, as it is the perfect time to review and do some QA."/>
+<meta name="generator" content="Hugo 0.40.3" />
+
+
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Migrating from Watchguard Firebox X to XTM Series Firewalls",
+  "url": "/posts/migrating-from-watchguard-firebox-x-to-xtm-series-firewalls/",
+  "wordCount": "381",
+  "datePublished": "2011-01-07T22:07:31&#43;00:00",
+  "dateModified": "2011-01-07T22:07:31&#43;00:00",
+  "author": {
+    "@type": "Person",
+    "name": "cmohn"
+  },
+  "keywords": "Network, firewall, Ops, watchguard"
+}
+</script>
+
+
+
+    <link rel="canonical" href="/posts/migrating-from-watchguard-firebox-x-to-xtm-series-firewalls/">
+
+    <title>Migrating from Watchguard Firebox X to XTM Series Firewalls | Adventures in Hugo</title>
+
+    <!-- combined, minified CSS -->
+    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
+
+    
+
+    
+
+    
+
+    
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="/">Home</a>
+          
+          <a class="nav-link" href="https://example.org" title="">Link 1</a>
+          
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
+        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+      </div>
+    </header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/migrating-from-watchguard-firebox-x-to-xtm-series-firewalls/">Migrating from Watchguard Firebox X to XTM Series Firewalls</a></h2>
+    <p class="blog-post-meta"><time datetime="2011-01-07T22:07:31Z">Fri Jan 07, 2011</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/network" rel="category tag">Network</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/firewall" rel="tag">firewall</a>, <a href="/tags/ops" rel="tag">Ops</a>, <a href="/tags/watchguard" rel="tag">watchguard</a>
+
+</p>
+  </header>
+  
+
+<p>Watchguard has recently <a href="http://www.watchguard.com/products/resources/end-of-life-policy.asp">retired their X series</a> of firewalls and replaced them with their new lineup of XTM boxes.</p>
+
+<p>I took this opportunity to replace my X series firewalls with some from the new lineup, and found a neat way to migrate your existing configuration from old to new in a few  very easy steps.</p>
+
+<p><a href="http://www.flickr.com/photos/h0bbel/5333692077/"><img src="http://farm6.static.flickr.com/5163/5333692077_fc9c477644_m.jpg" alt="" /></a></p>
+
+<p><strong>Note:</strong> _Normally I would not recommend migrating your configuration in this manner. In my mind you should <em>always</em> rebuild rules when replacing your firewall,  as it is the perfect time to review and do some QA._</p>
+
+<h3 id="migrating-your-existing-config">Migrating your existing config</h3>
+
+<p><strong>Note:</strong>
+I used a laptop do do the actual configuration, to make sure that I didn&rsquo;t get any conflicts in my production environment when setting up the new one with an old config. By default the Watchguard firewalls come with DHCP enabled on eth1 (trusted) and blindly plugging that into your existing infrastructure might not be the best of ideas. Also, remember that the config also includes the firewall IP adress and what happens if you have two firewalls with identical IP adresses in your network? Lets just agree that it&rsquo;s not a pretty sight.</p>
+
+<h4 id="step-by-step-guide">Step-by-Step Guide</h4>
+
+<ol>
+<li><p>Save your current (old) configuration from your live production firewall</p></li>
+
+<li><p>Install latest version of Watchguard System Manager</p></li>
+
+<li><p>Activate new firewall and retrieve feature key from <a href="http://watchguard.com">watchguard.com</a></p></li>
+
+<li><p>Disconnect laptop from existing production environment, and connect it directly to new XTM firewall on eth1 (trusted)</p></li>
+
+<li><p>Run through Quick Setup Wizard on new XTM firewall</p></li>
+
+<li><p>Open new config xml file in a suited editor. I used <a href="http://notepad-plus-plus.org/">Notepad++</a></p></li>
+
+<li><p>Find the lines that reads <for-model>x700</for-model>  (your model might differ)</p></li>
+
+<li><p>Replace x700 with XTM820 (again, your model might differ) and save config file with new name</p></li>
+
+<li><p>Connect Watchguard System Manager to new firewall and start Policy Manager</p></li>
+
+<li><p>Open freshly edited config file and save to firebox (if prompted to convert config file to new format, do so)</p></li>
+
+<li><p>Add new feature key</p></li>
+
+<li><p>Save to firebox</p></li>
+</ol>
+
+<p>And there it is. All existing configuration migrated from old Watchguard X series firewall migrated to a new and shiny XTM series.</p>
+
+<p>You <em>should</em> now be able to do a quick switch between new and old firewalls and all your services should be available immediately. If not, you can always just revert to the old firewall and troubleshoot the new one.</p>
+
+
+  
+
+  
+  <hr>
+  <footer>
+
+  
+    <section>
+    <h4>Share</h4>
+    <nav class="nav sharing-icons">
+      <a class="nav-item" href="https://www.facebook.com/sharer/sharer.php?u=%2fposts%2fmigrating-from-watchguard-firebox-x-to-xtm-series-firewalls%2f" title="Share on Facebook"><span class="fa fa-facebook fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://plus.google.com/share?url=%2fposts%2fmigrating-from-watchguard-firebox-x-to-xtm-series-firewalls%2f" title="Share on Google+"><span class="fa fa-google-plus fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fposts%2fmigrating-from-watchguard-firebox-x-to-xtm-series-firewalls%2f" title="Share on LinkedIn"><span class="fa fa-linkedin fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://twitter.com/home?status=%2fposts%2fmigrating-from-watchguard-firebox-x-to-xtm-series-firewalls%2f" title="Tweet this"><span class="fa fa-twitter fa-2x"></span></a>
+    </nav>
+  </section>
+
+  
+
+  
+  </footer>
+  
+
+</article> 
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="https://example.com">Link 1</a></li>
+      
+      <li><a href="https://example.org">Link 2</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p>
+      
+      &copy; Christian Mohn
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>

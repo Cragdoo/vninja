@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Workflow on Adventures in Hugo</title>
+    <link>/categories/workflow/</link>
+    <description>Recent content in Workflow on Adventures in Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
+    <lastBuildDate>Tue, 24 Oct 2017 13:47:35 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/workflow/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Integrating Pocket with Todoist via IFTTT</title>
+      <link>/posts/integrating-pocket-with-todoist-via-ifttt/</link>
+      <pubDate>Tue, 24 Oct 2017 13:47:35 +0000</pubDate>
+      
+      <guid>/posts/integrating-pocket-with-todoist-via-ifttt/</guid>
+      <description>Myles Gray asked me how I integrate Pocket with Todoist, after my How I use Todoist post, and the answer is very simple: IFTTT. If-This-Then-That lets you connect services, and create rules (or applets) that trigger based on events in those services, luckily both Todoist and Pocket are supported.
+Now, there is a bit of overlap between how I use Pocket and Todoist, but I mainly use Pocket to keep track of links I want to either read later, or use as basis for blog posts.</description>
+    </item>
+    
+    <item>
+      <title>How I use Todoist</title>
+      <link>/posts/how-i-use-todoist/</link>
+      <pubDate>Tue, 24 Oct 2017 10:38:13 +0000</pubDate>
+      
+      <guid>/posts/how-i-use-todoist/</guid>
+      <description>As I&amp;rsquo;ve mentioned before, I use Todoist to keep track of my personal to-do list. This is the first to-do manager I&amp;rsquo;ve been able to stick with, and I&amp;rsquo;ve been using it daily for well over 2 years now. In that two year period I&amp;rsquo;ve reorganised it a bit, but for the most part I&amp;rsquo;ve been able to keep to the main structure I initially created when setting it up the first time.</description>
+    </item>
+    
+    <item>
+      <title>Todoist: One year later</title>
+      <link>/posts/todoist-one-year-later/</link>
+      <pubDate>Wed, 06 Jan 2016 13:51:58 +0000</pubDate>
+      
+      <guid>/posts/todoist-one-year-later/</guid>
+      <description>A little over a year ago I posted Combining Todoist and Evernote, because awesome and I thought it was about time to post a follow up now one year later.
+Evernote: Firstly, my Evernote is still a giant mess, just as it was a year ago. I have lots of data in Evernote, but it&amp;rsquo;s main purpose is just storing quick notes on ongoing projects and it serves as a basis for generating proper documentation.</description>
+    </item>
+    
+    <item>
+      <title>Do you ChangeLog?</title>
+      <link>/posts/changelog/</link>
+      <pubDate>Wed, 18 Feb 2015 10:31:53 +0000</pubDate>
+      
+      <guid>/posts/changelog/</guid>
+      <description>In my work as a consultant I often have many small tasks to perform for customers, all while completing a bigger project. I have found that an easy way to keep track of all the little and big changes, is to create a ChangeLog. Normally ChangeLog&amp;rsquo;s are referenced in development projects, but it also sense to use it to track of your own, or your team members, changes to an infrastructure environment.</description>
+    </item>
+    
+    <item>
+      <title>Markdown All the Things!</title>
+      <link>/posts/markdown-things/</link>
+      <pubDate>Mon, 12 Jan 2015 23:31:45 +0000</pubDate>
+      
+      <guid>/posts/markdown-things/</guid>
+      <description>Obviously I&amp;rsquo;m a bit late to the party here, but I guess late is better than never. It recently dawned on me that mucking about with lots of different file formats, interfaces and ways of doing things is rather counterproductive.
+A lot of my work these days are related to generating content, be it a simple blog post like this or writing customer proposals and documentation. In the end, the deliverables are often quite different, but at the core they are strangely enough very similar.</description>
+    </item>
+    
+    <item>
+      <title>Combining Todoist and Evernote, because awesome</title>
+      <link>/posts/combining-todoist-evernote-awesome/</link>
+      <pubDate>Wed, 03 Dec 2014 16:22:11 +0000</pubDate>
+      
+      <guid>/posts/combining-todoist-evernote-awesome/</guid>
+      <description>A while back I declared Evernote bankruptcy, even if I managed to misspell it while doing so:
+That&#39;s it, I&#39;m declaring [@evernote](https://twitter.com/evernote) bankrupcy. — Christian Mohn™ (@h0bbel) [May 22, 2014](https://twitter.com/h0bbel/status/469455493631860736)  The thing is, I really want to use Evernote in a proper and organised manner. The problem is; I was completely unable to do so, mostly since I had no clear idea on the how, the when and the why back when I started using it many moons ago.</description>
+    </item>
+    
+  </channel>
+</rss>

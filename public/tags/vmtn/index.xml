@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vmtn on Adventures in Hugo</title>
+    <link>/tags/vmtn/</link>
+    <description>Recent content in Vmtn on Adventures in Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
+    <lastBuildDate>Mon, 28 Nov 2011 23:16:10 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/vmtn/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Blatant Self Promotion</title>
+      <link>/posts/blatant-self-promotion/</link>
+      <pubDate>Mon, 28 Nov 2011 23:16:10 +0000</pubDate>
+      
+      <guid>/posts/blatant-self-promotion/</guid>
+      <description>As the title says, it&amp;rsquo;s been one of my more &amp;ldquo;public&amp;rdquo; weeks ever. Besides my &amp;ldquo;normal&amp;rdquo; vSoup engagement, this week I&amp;rsquo;ve also been involved with Mike Laverick&amp;rsquo;s VMTN Subscription Movement Miniwags to voice some of my views about the #VMTNSubscriptionMovement.
+Fair warning: This is video, and please to remember that during recording Movember was nearing its final phase. VMTN Subscription Movement Miniwags – Christian Mohn
+Secondly, I was a guest on the Veeam Community Podcast Episode 45 – vSphere 5 Storage Potpourri.</description>
+    </item>
+    
+  </channel>
+</rss>

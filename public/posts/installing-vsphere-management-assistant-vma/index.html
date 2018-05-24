@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="Installing vSphere Management Assistant (vMA)" />
+<meta property="og:description" content="The vMA is a Virtual Appliance that you can download from VMware. It&rsquo;s primary function is to enable command line based management of your ESX/ESXi systems.
+Basically this is a pre-packaged virtual machine that includes vCLI and the vSphere SDK for Perl, which means that you don&rsquo;t have to build your own management VM or install these tools locally on a management station.
+vMA is in many regards seen as a replacement for the ESX Service Console which no longer is present in ESXi." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/installing-vsphere-management-assistant-vma/" />
+
+
+
+<meta property="article:published_time" content="2011-02-28T23:26:15&#43;00:00"/>
+
+<meta property="article:modified_time" content="2011-02-28T23:26:15&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Installing vSphere Management Assistant (vMA)"/>
+<meta name="twitter:description" content="The vMA is a Virtual Appliance that you can download from VMware. It&rsquo;s primary function is to enable command line based management of your ESX/ESXi systems.
+Basically this is a pre-packaged virtual machine that includes vCLI and the vSphere SDK for Perl, which means that you don&rsquo;t have to build your own management VM or install these tools locally on a management station.
+vMA is in many regards seen as a replacement for the ESX Service Console which no longer is present in ESXi."/>
+<meta name="generator" content="Hugo 0.40.3" />
+
+
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Installing vSphere Management Assistant (vMA)",
+  "url": "/posts/installing-vsphere-management-assistant-vma/",
+  "wordCount": "697",
+  "datePublished": "2011-02-28T23:26:15&#43;00:00",
+  "dateModified": "2011-02-28T23:26:15&#43;00:00",
+  "author": {
+    "@type": "Person",
+    "name": "cmohn"
+  },
+  "keywords": "Howto, Virtualization, ESX, ESXi, Ops, vCLI, Virtual Appliance, vMA, VMware, vSphere"
+}
+</script>
+
+
+
+    <link rel="canonical" href="/posts/installing-vsphere-management-assistant-vma/">
+
+    <title>Installing vSphere Management Assistant (vMA) | Adventures in Hugo</title>
+
+    <!-- combined, minified CSS -->
+    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
+
+    
+
+    
+
+    
+
+    
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="/">Home</a>
+          
+          <a class="nav-link" href="https://example.org" title="">Link 1</a>
+          
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
+        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+      </div>
+    </header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/installing-vsphere-management-assistant-vma/">Installing vSphere Management Assistant (vMA)</a></h2>
+    <p class="blog-post-meta"><time datetime="2011-02-28T23:26:15Z">Mon Feb 28, 2011</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/howto" rel="category tag">Howto</a>, <a href="/categories/virtualization" rel="category tag">Virtualization</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/esx" rel="tag">ESX</a>, <a href="/tags/esxi" rel="tag">ESXi</a>, <a href="/tags/ops" rel="tag">Ops</a>, <a href="/tags/vcli" rel="tag">vCLI</a>, <a href="/tags/virtual-appliance" rel="tag">Virtual Appliance</a>, <a href="/tags/vma" rel="tag">vMA</a>, <a href="/tags/vmware" rel="tag">VMware</a>, <a href="/tags/vsphere" rel="tag">vSphere</a>
+
+</p>
+  </header>
+  
+
+<p>The <em>vMA</em> is a Virtual Appliance that you can download from <a href="http://communities.vmware.com/community/vmtn/vsphere/automationtools/vima">VMware</a>. It&rsquo;s primary function is to enable command line based management of your ESX/ESXi systems.</p>
+
+<p>Basically this is a pre-packaged virtual machine that  includes <em>vCLI</em> and the <em>vSphere SDK for Perl</em>, which means that you don&rsquo;t have to build your own management VM or install these tools locally on a management station.</p>
+
+<p><strong>vMA is in many regards seen as a replacement for the ESX Service Console which no longer is  present in ESXi.</strong></p>
+
+<h2 id="downloading-vsphere-management-assistant-vma">Downloading vSphere Management Assistant (vMA)</h2>
+
+<p>Basically there are two methods you can use when deploying <em>vMA</em>.</p>
+
+<ol>
+<li><p>Download the .OVF file to your local machine and upload it to your ESX/ESXi host.
+This is useful if you have already downloaded the vMA appliance and plan on deploying it to several hosts/clusters. This saves you from downloading it several times, and you can even use PowerCLI to automate the deployment of vMA, but I&rsquo;m not going into that scenario this time around.</p></li>
+
+<li><p>Deploy the .OVF file directly from vmware.com, via the vSphere Client, to your host.</p></li>
+</ol>
+
+<p>In this post, I&rsquo;ll focus on how to deploy vMA using method 2 - Direct Deployment</p>
+
+<h2 id="direct-deployment-of-vma">Direct Deployment of vMA</h2>
+
+<p>Start your vSphere Client and connect to your host or vCenter.</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/Deploy-vMA-01.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/Deploy-vMA-01-300x194.png" alt="" /></a></p>
+
+<p>Navigate to &ldquo;<em>File</em>&rdquo;, find and select the <em>&ldquo;Deploy OVF template</em>&rdquo; option</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/Deploy-vMA-02.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/Deploy-vMA-02-245x300.png" alt="" /></a></p>
+
+<p>This starts the OVF deployment wizard. In the &ldquo;<em>Deploy from a file or URL</em>&ldquo;  text box, enter the following URL: <a href="http://download3.vmware.com/software/vma/vMA-4.1.0.0-268837.ovf">http://download3.vmware.com/software/vma/vMA-4.1.0.0-268837.ovf</a> and click on &ldquo;<em>Next</em>&rdquo;.</p>
+
+<p><strong>Note:</strong> This URL is valid at the point of writing, but might change at a later date when a new version is released by VMware.</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/Deploy-vMA-03.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/Deploy-vMA-03-300x225.png" alt="" /></a></p>
+
+<p>The URL is now validated, and you are presented with the OVF Template Details window, where you can review the settings defined in the OVF file.</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/Deploy-vMA-04.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/Deploy-vMA-04-300x225.png" alt="" /></a></p>
+
+<p>Click &ldquo;<em>Next</em>&ldquo;  to view and accept the VMware EULA. After reading it throroughly click on &ldquo;<em>Accept</em>&rdquo; and then on &ldquo;<em>Next</em>&rdquo; again to continue</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/Deploy-vMA-05.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/Deploy-vMA-05-300x225.png" alt="" /></a></p>
+
+<p>Next up is the &ldquo;<strong>Name and Location</strong>&rdquo; screen, where you can customize the name of your vMA instance. If you are deploying the several vMA instances to the same host/vCenter, you will need to change this to prevent naming conflicts.</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/Deploy-vMA-06.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/Deploy-vMA-06-300x225.png" alt="" /></a></p>
+
+<p>After naming your vMA, click on &ldquo;<em>Next</em>&rdquo; again, and you&rsquo;ll get presented with the &ldquo;<strong>Disk Format</strong>&rdquo; screen. Here you can select between thin provisioned or thick provisioned disks, for this installation I chose to change it to thin provisioned, but the default is thick provisioned disks.</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/Deploy-vMA-07.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/Deploy-vMA-07-300x225.png" alt="" /></a></p>
+
+<p>After making your selection, we once again click on &ldquo;<em>Next</em>&rdquo; and now we&rsquo;re nearly there! Review the summary screen to make sure you have selected the right options and  click on &ldquo;<em>Finish</em>&rdquo; to finally  start the download and deployment of your vMA.</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/Deploy-vMA-08.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/Deploy-vMA-08-300x225.png" alt="" /></a></p>
+
+<p>The download starts, and a nice little progress window shows you how far along you are.</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/Deploy-vMA-09.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/Deploy-vMA-09-300x134.png" alt="" /></a></p>
+
+<p>Of course, the time it takes to deploy vMA this way is highly dependant on available bandwidth and download speeds. In this particular environment the download is estimated to take approximately 39 minutes.</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/Deploy-vMA-10.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/Deploy-vMA-10-300x93.png" alt="" /></a></p>
+
+<p><strong>Tip:</strong> If you want to deploy vMA in this manner, to several hosts, you can place the downloadable vMA .OVF file on an accessible file share or http server and serve your local path or URL to your host via the vCenter Client as well. This is particularly useful in scenarios where your vCenter Client doesn&rsquo;t have internet access or if you want to speed up deployment by downloading it only once, but without scripting it.</p>
+
+<p>Once the vMA has finished downloading and installing, it will pop up inside your vSphere Client on the host you deployed it to.</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/Deploy-vMA-11.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/Deploy-vMA-11-300x194.png" alt="" /></a></p>
+
+<h3 id="vma-initial-configuration">vMA Initial Configuration</h3>
+
+<p>The first time you start vMA, it fires a configuration wizard to help you configure it.
+The wizard guides you through the network setup and setting the vi-admin user password.</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/configure-vMA-01.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/configure-vMA-01-300x166.png" alt="" /></a>
+<a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/configure-vMA-02.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/configure-vMA-02-300x166.png" alt="" /></a></p>
+
+<p>And there it is. Now you can use your favorite SSH client (<a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/">Putty</a>) to connect to the vMA, or by using the console in the vSphere Client.</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/configure-vMA-03.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/configure-vMA-03-300x179.png" alt="" /></a></p>
+
+<p>For details on using vMA and vCLI see the <a href="http://communities.vmware.com/community/vmtn/vsphere/automationtools/vima">vSphere Management Assistant (vMA) site</a>. You can even add ESX/ESXi and vMA to your Active Directory and use that as an authentication source, but I&rsquo;ll leave that for another post on another day.</p>
+
+
+  
+
+  
+  <hr>
+  <footer>
+
+  
+    <section>
+    <h4>Share</h4>
+    <nav class="nav sharing-icons">
+      <a class="nav-item" href="https://www.facebook.com/sharer/sharer.php?u=%2fposts%2finstalling-vsphere-management-assistant-vma%2f" title="Share on Facebook"><span class="fa fa-facebook fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://plus.google.com/share?url=%2fposts%2finstalling-vsphere-management-assistant-vma%2f" title="Share on Google+"><span class="fa fa-google-plus fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fposts%2finstalling-vsphere-management-assistant-vma%2f" title="Share on LinkedIn"><span class="fa fa-linkedin fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://twitter.com/home?status=%2fposts%2finstalling-vsphere-management-assistant-vma%2f" title="Tweet this"><span class="fa fa-twitter fa-2x"></span></a>
+    </nav>
+  </section>
+
+  
+
+  
+  </footer>
+  
+
+</article> 
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="https://example.com">Link 1</a></li>
+      
+      <li><a href="https://example.org">Link 2</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p>
+      
+      &copy; Christian Mohn
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>

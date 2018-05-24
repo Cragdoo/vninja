@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="vCenter Operations Manager and vCenter Deployment Dependency" />
+<meta property="og:description" content="In order to be able to deploy vCenter Operations Manager, the ESXi host it is deployed to needs to be managed by a vCenter. At first glance, that seems like a fair and pretty straight forward requirement, right? But, is it?
+While I can see the need for a vCenter in the environment that vCenter Operations Manager is supposed to monitor, I don´t understand why the host you want to deploy the vApp on has to be managed by a vCenter instance as well?" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/vcenter-operations-manager-vcenter-deployment-dependency/" />
+
+
+
+<meta property="article:published_time" content="2013-01-16T21:59:07&#43;00:00"/>
+
+<meta property="article:modified_time" content="2013-01-16T21:59:07&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="vCenter Operations Manager and vCenter Deployment Dependency"/>
+<meta name="twitter:description" content="In order to be able to deploy vCenter Operations Manager, the ESXi host it is deployed to needs to be managed by a vCenter. At first glance, that seems like a fair and pretty straight forward requirement, right? But, is it?
+While I can see the need for a vCenter in the environment that vCenter Operations Manager is supposed to monitor, I don´t understand why the host you want to deploy the vApp on has to be managed by a vCenter instance as well?"/>
+<meta name="generator" content="Hugo 0.40.3" />
+
+
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "vCenter Operations Manager and vCenter Deployment Dependency",
+  "url": "/posts/vcenter-operations-manager-vcenter-deployment-dependency/",
+  "wordCount": "452",
+  "datePublished": "2013-01-16T21:59:07&#43;00:00",
+  "dateModified": "2013-01-16T21:59:07&#43;00:00",
+  "author": {
+    "@type": "Person",
+    "name": "cmohn"
+  },
+  "keywords": "VMware, vCenter, vCenter Operations Manager, Virtualization, vSphere, workaround"
+}
+</script>
+
+
+
+    <link rel="canonical" href="/posts/vcenter-operations-manager-vcenter-deployment-dependency/">
+
+    <title>vCenter Operations Manager and vCenter Deployment Dependency | Adventures in Hugo</title>
+
+    <!-- combined, minified CSS -->
+    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
+
+    
+
+    
+
+    
+
+    
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="/">Home</a>
+          
+          <a class="nav-link" href="https://example.org" title="">Link 1</a>
+          
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
+        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+      </div>
+    </header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/vcenter-operations-manager-vcenter-deployment-dependency/">vCenter Operations Manager and vCenter Deployment Dependency</a></h2>
+    <p class="blog-post-meta"><time datetime="2013-01-16T21:59:07Z">Wed Jan 16, 2013</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/vmware" rel="category tag">VMware</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/vcenter" rel="tag">vCenter</a>, <a href="/tags/vcenter-operations-manager" rel="tag">vCenter Operations Manager</a>, <a href="/tags/virtualization" rel="tag">Virtualization</a>, <a href="/tags/vmware" rel="tag">VMware</a>, <a href="/tags/vsphere" rel="tag">vSphere</a>, <a href="/tags/workaround" rel="tag">workaround</a>
+
+</p>
+  </header>
+  <p>In order to be able to deploy vCenter Operations Manager, the ESXi host it is deployed to needs to be managed by a vCenter. At first glance, that seems like a fair and pretty straight forward requirement, right? But, is it?</p>
+
+<p>While I can see the need for a vCenter in the environment that vCenter Operations Manager is supposed to monitor, I don´t understand why the host you want to deploy the vApp on has to be managed by a vCenter instance as well?</p>
+
+<p>I encountered this exact scenario at a client site today; <strong>What do you do if you want to deploy vCenter Operations Manager on a standalone ESXi host, and have it monitor a production vSphere environment, which has a running vCenter installation?</strong></p>
+
+<p>The <a href="http://www.vmware.com/pdf/vcops-5-installation-guide.pdf">vCenter Operations Manager 5 Deployment and Configuration Guide </a> clearly states that in order to deploy and run the vCenter Operations vApp vCenter Server 4.0 U2 or later is required:</p>
+
+<blockquote>**vCenter Server and ESX Requirements:**
+The vCenter Operations Manager vApp requires the following vSphere environment.
+vCenter Operations Manager is compatible with:
+
+> 
+> 
+    
+>   * System that serves as the target of data collection: VMware vCenter Server 4.0 U2 or later
+> 
+    
+>   * System running the vApp: VMware vCenter Server 4.0 U2 or later
+> 
+    
+>   * Host running the vApp: ESX/ESXi 4.0 or higher
+> 
+
+</blockquote>
+
+<p>And in the <strong>Deploy the vCenter Operations Manager vApp</strong> section of the same document:</p>
+
+<blockquote>
+
+> 
+> 
+    
+>   * Do not deploy vCenter Operations from an ESX host. Deploy only from vCenter Server.
+> 
+
+</blockquote>
+
+<p>The reason why the client wanted to deploy vCenter Operations on a standalone, unmanaged host, was pretty simple; They are experiencing some rather serious performance issues, and wanted to use vCenter Operations Manager to help identify the bottlenecks and document them, but did not want vCenter Operations Manager itself to influence the performance of the production cluster(s).</p>
+
+<p>I was able to &ldquo;work around&rdquo; the issue by temporarily setting up a vCSA, in trial mode, register the ESXi host, deploy the vCenter Operations Manager vApp to the new vCSA, configure it and then subsequently shut it down again. In fact, there is even an option in the configuration to not monitor the vCenter instance it´s deployed on, so someone else must have had some mildly similar thoughts at one point.</p>
+
+<p>While this will work, its not ideal having to go through loops like this to deploy a management solution. I´ll happily admit that this is a fringe case, and not the most common deployment scenario, but I would still like to see VMware do something about the vCenter requirement for the host the vApp is deployed on.</p>
+
+<p><strong>Requiring vCenter for the hosts and cluster it´s monitoring is fine, and expected, but why does the host it´s deployed on require it?</strong></p>
+
+
+  
+
+  
+  <hr>
+  <footer>
+
+  
+    <section>
+    <h4>Share</h4>
+    <nav class="nav sharing-icons">
+      <a class="nav-item" href="https://www.facebook.com/sharer/sharer.php?u=%2fposts%2fvcenter-operations-manager-vcenter-deployment-dependency%2f" title="Share on Facebook"><span class="fa fa-facebook fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://plus.google.com/share?url=%2fposts%2fvcenter-operations-manager-vcenter-deployment-dependency%2f" title="Share on Google+"><span class="fa fa-google-plus fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fposts%2fvcenter-operations-manager-vcenter-deployment-dependency%2f" title="Share on LinkedIn"><span class="fa fa-linkedin fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://twitter.com/home?status=%2fposts%2fvcenter-operations-manager-vcenter-deployment-dependency%2f" title="Tweet this"><span class="fa fa-twitter fa-2x"></span></a>
+    </nav>
+  </section>
+
+  
+
+  
+  </footer>
+  
+
+</article> 
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="https://example.com">Link 1</a></li>
+      
+      <li><a href="https://example.org">Link 2</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p>
+      
+      &copy; Christian Mohn
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>

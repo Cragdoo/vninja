@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Framework on Adventures in Hugo</title>
+    <link>/tags/framework/</link>
+    <description>Recent content in Framework on Adventures in Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
+    <lastBuildDate>Wed, 11 Feb 2015 23:28:23 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/framework/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Real Value of the VCDX Certification</title>
+      <link>/posts/real-vcdx-certification/</link>
+      <pubDate>Wed, 11 Feb 2015 23:28:23 +0000</pubDate>
+      
+      <guid>/posts/real-vcdx-certification/</guid>
+      <description>The VMware Certified Design Expert: VCDX. THE certification of certifications, especially if you work with VMware based solutions. It&amp;rsquo;s often regarded as the holy grail of certifications, and rightfully so.
+But why is this the case, and why does &amp;ldquo;everyone&amp;rdquo; want to become one?
+The reasons for it being such a highly coveted title, are pretty obvious:
+ Very few people can call themselves VCDX, at the time of writing only 186 people have successfully defended their design.</description>
+    </item>
+    
+  </channel>
+</rss>

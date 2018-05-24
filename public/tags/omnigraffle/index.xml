@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Omnigraffle on Adventures in Hugo</title>
+    <link>/tags/omnigraffle/</link>
+    <description>Recent content in Omnigraffle on Adventures in Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
+    <lastBuildDate>Sun, 22 May 2016 19:19:52 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/omnigraffle/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>vSphere Platform Services Controller (PSC) topology and Omnigraffle</title>
+      <link>/posts/vsphere-platform-services-controller-psc-topology-and-omnigraffle/</link>
+      <pubDate>Sun, 22 May 2016 19:19:52 +0000</pubDate>
+      
+      <guid>/posts/vsphere-platform-services-controller-psc-topology-and-omnigraffle/</guid>
+      <description>A little while ago William Lam published a little python script called extract_vsphere_deployment_topology.py that basically lets you export your current vSphere PSC topology as a DOT (graph description language) file. Great stuff, and in itself useful as is, especially if you run it through webgraphviz.com as William suggests.
+The thing is, you might want to edit the topology map, change colours and fonts, and even move the boxes around, after you get the output.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="In The Bag #13 - Week 11 2017" />
+<meta property="og:description" content="Welcome to the thirteenth edition of _In The Bag! _
+[caption id=&ldquo;attachment_4607&rdquo; align=&ldquo;aligncenter&rdquo; width=&ldquo;644&rdquo;] Photo by Patrick Lindenberg[/caption]
+In The Bag #13 - Week 11 2017 Technology  **In-Guest UNMAP Fix in ESXi 6.5 Part I: Windows &amp; Part II: Linux  **Cody Hosterman has tested the UNMAP fixes in ESXi 6.5, with great results. Glad this is back!
+ **High frequency of read operations on VMware Tools image may cause SD card corruption (2149257) **This one is important!" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/in-the-bag-13-week-11-2017/" />
+
+
+
+<meta property="article:published_time" content="2017-03-17T14:24:11&#43;00:00"/>
+
+<meta property="article:modified_time" content="2017-03-17T14:24:11&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="In The Bag #13 - Week 11 2017"/>
+<meta name="twitter:description" content="Welcome to the thirteenth edition of _In The Bag! _
+[caption id=&ldquo;attachment_4607&rdquo; align=&ldquo;aligncenter&rdquo; width=&ldquo;644&rdquo;] Photo by Patrick Lindenberg[/caption]
+In The Bag #13 - Week 11 2017 Technology  **In-Guest UNMAP Fix in ESXi 6.5 Part I: Windows &amp; Part II: Linux  **Cody Hosterman has tested the UNMAP fixes in ESXi 6.5, with great results. Glad this is back!
+ **High frequency of read operations on VMware Tools image may cause SD card corruption (2149257) **This one is important!"/>
+<meta name="generator" content="Hugo 0.40.3" />
+
+
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "In The Bag #13 - Week 11 2017",
+  "url": "/posts/in-the-bag-13-week-11-2017/",
+  "wordCount": "248",
+  "datePublished": "2017-03-17T14:24:11&#43;00:00",
+  "dateModified": "2017-03-17T14:24:11&#43;00:00",
+  "author": {
+    "@type": "Person",
+    "name": "cmohn"
+  },
+  "keywords": "InTheBag, News, Weekly"
+}
+</script>
+
+
+
+    <link rel="canonical" href="/posts/in-the-bag-13-week-11-2017/">
+
+    <title>In The Bag #13 - Week 11 2017 | Adventures in Hugo</title>
+
+    <!-- combined, minified CSS -->
+    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
+
+    
+
+    
+
+    
+
+    
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="/">Home</a>
+          
+          <a class="nav-link" href="https://example.org" title="">Link 1</a>
+          
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
+        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+      </div>
+    </header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/in-the-bag-13-week-11-2017/">In The Bag #13 - Week 11 2017</a></h2>
+    <p class="blog-post-meta"><time datetime="2017-03-17T14:24:11Z">Fri Mar 17, 2017</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/inthebag" rel="category tag">InTheBag</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/inthebag" rel="tag">InTheBag</a>, <a href="/tags/news" rel="tag">News</a>, <a href="/tags/weekly" rel="tag">Weekly</a>
+
+</p>
+  </header>
+  
+
+<h2 id="welcome-to-the-thirteenth-edition-of-in-the-bag">Welcome to the thirteenth edition of _In The Bag!</h2>
+
+<p>_</p>
+
+<p>[caption id=&ldquo;attachment_4607&rdquo; align=&ldquo;aligncenter&rdquo; width=&ldquo;644&rdquo;]<a href="https://unsplash.com/@heapdump"><img src="http://vninja.net/wordpress/wp-content/uploads/2017/03/patrick-lindenberg-191841-644x429.jpg" alt="" /></a> Photo by Patrick Lindenberg[/caption]</p>
+
+<h2 id="in-the-bag-13-week-11-2017">In The Bag #13 - Week 11 2017</h2>
+
+<h2 id="technology">Technology</h2>
+
+<ul>
+<li><p>**<a href="http://www.codyhosterman.com/2017/03/in-guest-unmap-fix-in-esxi-6-5-patch-1/">In-Guest UNMAP Fix in ESXi 6.5 Part I: Windows
+</a>&amp; <a href="http://www.codyhosterman.com/2017/03/in-guest-unmap-fix-in-esxi-6-5-part-ii-linux/">Part II: Linux </a>
+**Cody Hosterman has tested the UNMAP fixes in ESXi 6.5, with great results. Glad this is back!</p></li>
+
+<li><p>**<a href="https://kb.vmware.com/selfservice/microsites/search.do?cmd=displayKC&amp;docType=kc&amp;externalId=2149257&amp;sliceId=1&amp;docTypeID=DT_KB_1_1&amp;dialogID=355414078&amp;stateId=1%200%20355416185">High frequency of read operations on VMware Tools image may cause SD card corruption (2149257)</a>
+**This one is important! If you&rsquo;re running ESXi 6.0 from SD cards, make sure to check this. No patch available for 6.5 yet though.</p></li>
+
+<li><p><strong><a href="https://thevirtualhorizon.com/2017/03/13/my-windows-10-template-build-process/">My Windows 10 Template Build Process</a></strong>
+<a href="https://twitter.com/seanpmassey">Sean Massey</a> has published his Windows 10 VM template process, loads of great tips and tricks for tuning your VDI templates here.</p></li>
+
+<li><p><a href="https://notesfrommwhite.net/2016/12/11/how-to-build-a-windows-2016-vmware-template/"><strong>How to build a Windows 2016 VMware Template</strong></a>
+An older article, but <a href="https://twitter.com/mwvme/">Michael White</a> has a great guide on building a Windows 2016 template as well.</p></li>
+
+<li><p><strong><a href="http://cormachogan.com/2017/03/10/2-node-vsan-topologies-review/">2-node vSAN topologies review
+</a></strong>Newly appointed director <a href="https://twitter.com/CormacJHogan">Cormac</a> goes through a couple of various 2-node vSAN topologies, and supported vSAN witness placement.</p></li>
+
+<li><p><a href="https://lonesysadmin.net/2017/03/16/vcenter-6-5b-resets-root-password-expiration-settings/?utm_content=buffer3eb0c&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer"><strong>vCenter 6.5b Resets Root Password Expiration Settings</strong>
+</a>I&rsquo;ve verified this in my own lab as well, and I think it&rsquo;s very unfortunate that this upgrade to vCenter 6.5b does this. Shout-out to <a href="https://twitter.com/plankers">Bob Plankers</a> for discovering this.</p></li>
+</ul>
+
+<h2 id="other-longreads">Other / Longreads</h2>
+
+<ul>
+<li><p><strong><a href="https://hackernoon.com/a-history-and-future-of-the-rise-of-the-robots-cce0fe222a71#.1qypge2j5">A History and Future of the Rise of the Robots</a></strong></p></li>
+
+<li><p><strong><a href="https://medium.com/the-mission/youre-not-as-productive-as-you-want-to-be-because-of-these-habits-d7f374a66beb#.9bhp7daxp">This Explains Why You’re Not as Productive as You Want to be</a></strong></p></li>
+
+<li><p><strong><a href="https://www.theguardian.com/uk-news/2017/mar/16/what-happens-when-queen-elizabeth-dies-london-bridge">&lsquo;London Bridge is down&rsquo;: the secret plan for the days after the Queen’s death</a></strong></p></li>
+</ul>
+
+
+  
+
+  
+  <hr>
+  <footer>
+
+  
+    <section>
+    <h4>Share</h4>
+    <nav class="nav sharing-icons">
+      <a class="nav-item" href="https://www.facebook.com/sharer/sharer.php?u=%2fposts%2fin-the-bag-13-week-11-2017%2f" title="Share on Facebook"><span class="fa fa-facebook fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://plus.google.com/share?url=%2fposts%2fin-the-bag-13-week-11-2017%2f" title="Share on Google+"><span class="fa fa-google-plus fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fposts%2fin-the-bag-13-week-11-2017%2f" title="Share on LinkedIn"><span class="fa fa-linkedin fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://twitter.com/home?status=%2fposts%2fin-the-bag-13-week-11-2017%2f" title="Tweet this"><span class="fa fa-twitter fa-2x"></span></a>
+    </nav>
+  </section>
+
+  
+
+  
+  </footer>
+  
+
+</article> 
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="https://example.com">Link 1</a></li>
+      
+      <li><a href="https://example.org">Link 2</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p>
+      
+      &copy; Christian Mohn
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>

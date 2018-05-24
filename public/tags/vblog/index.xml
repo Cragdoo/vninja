@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vblog on Adventures in Hugo</title>
+    <link>/tags/vblog/</link>
+    <description>Recent content in Vblog on Adventures in Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
+    <lastBuildDate>Tue, 03 May 2016 08:47:23 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/vblog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Top vBlog 2016</title>
+      <link>/posts/top-vblog-2016/</link>
+      <pubDate>Tue, 03 May 2016 08:47:23 +0000</pubDate>
+      
+      <guid>/posts/top-vblog-2016/</guid>
+      <description>The top vBlog 2016 voting has opened, go forth and vote for your favourites now - There are a lot of them to choose from!</description>
+    </item>
+    
+  </channel>
+</rss>

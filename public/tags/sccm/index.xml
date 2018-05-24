@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sccm on Adventures in Hugo</title>
+    <link>/tags/sccm/</link>
+    <description>Recent content in Sccm on Adventures in Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
+    <lastBuildDate>Fri, 26 Aug 2011 08:10:54 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/sccm/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SCCM 2007 Not a Virtualization Candidate?</title>
+      <link>/posts/sccm-2007-not-a-virtualization-candidate/</link>
+      <pubDate>Fri, 26 Aug 2011 08:10:54 +0000</pubDate>
+      
+      <guid>/posts/sccm-2007-not-a-virtualization-candidate/</guid>
+      <description>The last couple of days I&amp;rsquo;ve been in training class, taking the 6451B Planning, Deploying and Managing Microsoft System Center Configuration Manager 2007 course.
+One of the first things that got mentioned, was that for larger deployments you should not run System Center Configuration Manager virtually. Of course, this caught my eye as I&amp;rsquo;m a proponent for the virtualize first &amp;ldquo;movement&amp;rdquo;.
+It runs out that the reason for this is that Configuration Manager is somewhat poorly designed, as just about everything it receives from the clients in the network is placed in text based log files (inbox folder) before being processed and pumped into the back-end SQL DB.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Book on Adventures in Hugo</title>
+    <link>/categories/book/</link>
+    <description>Recent content in Book on Adventures in Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
+    <lastBuildDate>Mon, 09 Jun 2014 08:42:28 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/book/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Win Free e-copies of Learning Veeam® Backup &amp; Replication for VMware vSphere</title>
+      <link>/posts/win-free-e-copies-learning-veeam-backup-replication-vmware-vsphere/</link>
+      <pubDate>Mon, 09 Jun 2014 08:42:28 +0000</pubDate>
+      
+      <guid>/posts/win-free-e-copies-learning-veeam-backup-replication-vmware-vsphere/</guid>
+      <description>Update: The contest is now closed, and I have forwarded all comments to Packt Publishing, and they will contact the winners directly. Thanks to everyone who entered!
+I have teamed up with Packt Publishing to organize a giveaway of my new Veeam® Backup &amp;amp; Replication for VMware vSphere book.
+3 lucky winners stand a chance to win e-copies of their new book. Keep reading to find out how you can be one of them!</description>
+    </item>
+    
+    <item>
+      <title>Building End-User Computing Solutions with VMware View Book Available</title>
+      <link>/posts/building-end-user-computing-solutions-vmware-view-book/</link>
+      <pubDate>Fri, 03 Aug 2012 21:17:13 +0000</pubDate>
+      
+      <guid>/posts/building-end-user-computing-solutions-vmware-view-book/</guid>
+      <description>Mike Laverick and Barry Coombs has released their new book, elegantly titled &amp;ldquo;Building End-User Computing Solutions with VMware View&amp;rdquo;.
+Not only is this a great book, it is something that every existing and potential VMware View (and related technologies in the EUC area) administrator should add to their (digital) bookshelves.
+I´ll let the authors themselves describe it:
+This book is all about VMware View 5.1 and ThinApp 4.7.2 administration - and it takes in a wide scope of complementary technologies from the likes of Teradici, BitDefender and F5 Networks.</description>
+    </item>
+    
+  </channel>
+</rss>

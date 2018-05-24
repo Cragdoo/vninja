@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nfr on Adventures in Hugo</title>
+    <link>/tags/nfr/</link>
+    <description>Recent content in Nfr on Adventures in Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
+    <lastBuildDate>Thu, 05 Sep 2013 15:38:56 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/nfr/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Veeam Webinar &amp; NFR Licenses</title>
+      <link>/posts/veeam-webinar-nfr-licenses/</link>
+      <pubDate>Thu, 05 Sep 2013 15:38:56 +0000</pubDate>
+      
+      <guid>/posts/veeam-webinar-nfr-licenses/</guid>
+      <description>This coming tuesday the first ever Veeam Webinar held in Norwegian will be held by yours truly. Feel free to sign up now and listen to me speak for an hour or so.
+
+Also, Veeam is continuing it´s support of the virtualization community and is yet again offering free 180-days Veeam Backup Management Suite v7 NFR licenses for VMware and Hyper-V.
+Note that this offer is only available to anyone who is one of the following: VMware vExpert, VMware Certified Professional (VCP), Microsoft Certified Professional (MCP), Microsoft Certified Technology Specialist (MCTS) and Most Valuable Professional (MVP)</description>
+    </item>
+    
+  </channel>
+</rss>

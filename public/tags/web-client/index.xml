@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web Client on Adventures in Hugo</title>
+    <link>/tags/web-client/</link>
+    <description>Recent content in Web Client on Adventures in Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
+    <lastBuildDate>Wed, 12 Aug 2015 16:11:16 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/web-client/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ESXi Embedded Host Client</title>
+      <link>/posts/esxi-embedded-host-client/</link>
+      <pubDate>Wed, 12 Aug 2015 16:11:16 +0000</pubDate>
+      
+      <guid>/posts/esxi-embedded-host-client/</guid>
+      <description>I almost choked on my coffee this morning when I saw William Lam announcing a new VMware Fling called ESXi Embedded Host Client. Finally the day when we can get a local vSphere Web Client on a standalone host is here, and it&amp;rsquo;s not a moment too soon. This feature has been missing since ESX 3 and it&amp;rsquo;s VMware Infrastructure Web Access. For now, this is a Fling (which means unsupported and so on), but I really hope that this ends up being built-in to ESXi very soon &amp;ndash; even on the free vSphere Hypervisor.</description>
+    </item>
+    
+    <item>
+      <title>Fixing &#34;Could not create vFlash cache&#34; error when powering on a VM</title>
+      <link>/posts/fixing-could-create-vflash-cache-error-powering-vm/</link>
+      <pubDate>Sun, 19 Jan 2014 19:19:02 +0000</pubDate>
+      
+      <guid>/posts/fixing-could-create-vflash-cache-error-powering-vm/</guid>
+      <description>During some way overdue housekeeping in my HP Microserver-based &amp;ldquo;Homelab&amp;rdquo; today, I ran into a rather annoying issue that prevented me from starting one of my more important VMs; namely my home Domain Controller.
+In short, I removed an old SSD drive that I&amp;rsquo;ve used for vFlash Read Cache (vFRC) testing and installed a new 1TB drive instead. Since I have a rather beefy work lab now, I need space more than speed at home, so this seemed like a good idea at the time.</description>
+    </item>
+    
+    <item>
+      <title>vSphere Web or Desktop Client - Who´s Your Daddy?</title>
+      <link>/posts/vsphere-web-desktop-client-who%c2%b4s-daddy/</link>
+      <pubDate>Wed, 07 Nov 2012 14:33:52 +0000</pubDate>
+      
+      <guid>/posts/vsphere-web-desktop-client-who%c2%b4s-daddy/</guid>
+      <description>At the moment, VMware vSphere offers two different management clients, the vSphere Web Client and the vSphere Desktop Client.
+The feature comparison table looks like this: (Copied from &amp;ldquo;Which vSphere client should I use and when?&amp;rdquo;) vSphere Web Client Only 
+vSphere Desktop Client Only    vCenter Single Sign-On
+ Authentication
+ Administration
+  Navigation with Inventory Lists
+ Inventory Tagging
+ Work In Progress (Pause)
+ Pre-emptive Searching</description>
+    </item>
+    
+  </channel>
+</rss>

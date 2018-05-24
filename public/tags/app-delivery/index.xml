@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>App Delivery on Adventures in Hugo</title>
+    <link>/tags/app-delivery/</link>
+    <description>Recent content in App Delivery on Adventures in Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
+    <lastBuildDate>Wed, 16 Nov 2011 23:05:06 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/app-delivery/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>VMware Horizon Application Manager Now and Beyond</title>
+      <link>/posts/vmware-horizon-application-manager-now-and-beyond/</link>
+      <pubDate>Wed, 16 Nov 2011 23:05:06 +0000</pubDate>
+      
+      <guid>/posts/vmware-horizon-application-manager-now-and-beyond/</guid>
+      <description>VMware has announced Horizon Application Manager 1.2, and together with the new ThinApp 4.7 release it promises &amp;ldquo;end users access to Windows, SaaS and enterprise web applications across different devices while retaining control and visibility via policy-driven management&amp;rdquo;.
+VMware Horizon Application Manager now manages your ThinApp applications making it easier and faster to provide virtualized Windows applications to end users. From Horizon Administration, you can deploy ThinApp packages, entitle users and groups, track user licenses, and manage application updates.</description>
+    </item>
+    
+  </channel>
+</rss>

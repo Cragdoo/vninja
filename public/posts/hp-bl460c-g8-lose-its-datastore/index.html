@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="Why Did the HP BL460c G8 Lose It&#39;s Datastore?" />
+<meta property="og:description" content="Post Update: As per Preetam´s comment, HP has published a customer advisory regarding the usage of install vs update.
+After installing a couple of brand new HP ProLiant BL460c G8 blades with HP Smart Array P220i controllers at a customer site, I decided that I should upgrade from the VMware-ESXi-5.0.0-Update1-623860-HP-5.20.43.iso Build 623860 used to install the blades, to the latest 821926 build offered by VMware.
+Normally this is a really easy process using VMware Update Manager, but since this is a new installation all the prerequisites for that are not in place just yet and I decided to use esxcli to perform the update." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/hp-bl460c-g8-lose-its-datastore/" />
+
+
+
+<meta property="article:published_time" content="2012-10-29T21:48:08&#43;00:00"/>
+
+<meta property="article:modified_time" content="2012-10-29T21:48:08&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Why Did the HP BL460c G8 Lose It&#39;s Datastore?"/>
+<meta name="twitter:description" content="Post Update: As per Preetam´s comment, HP has published a customer advisory regarding the usage of install vs update.
+After installing a couple of brand new HP ProLiant BL460c G8 blades with HP Smart Array P220i controllers at a customer site, I decided that I should upgrade from the VMware-ESXi-5.0.0-Update1-623860-HP-5.20.43.iso Build 623860 used to install the blades, to the latest 821926 build offered by VMware.
+Normally this is a really easy process using VMware Update Manager, but since this is a new installation all the prerequisites for that are not in place just yet and I decided to use esxcli to perform the update."/>
+<meta name="generator" content="Hugo 0.40.3" />
+
+
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Why Did the HP BL460c G8 Lose It&#39;s Datastore?",
+  "url": "/posts/hp-bl460c-g8-lose-its-datastore/",
+  "wordCount": "896",
+  "datePublished": "2012-10-29T21:48:08&#43;00:00",
+  "dateModified": "2012-10-29T21:48:08&#43;00:00",
+  "author": {
+    "@type": "Person",
+    "name": "cmohn"
+  },
+  "keywords": "VMware, BL460c, c3000, c7000, ESXi, G8, HP, P220i, Patch, ProLiant, Update"
+}
+</script>
+
+
+
+    <link rel="canonical" href="/posts/hp-bl460c-g8-lose-its-datastore/">
+
+    <title>Why Did the HP BL460c G8 Lose It&rsquo;s Datastore? | Adventures in Hugo</title>
+
+    <!-- combined, minified CSS -->
+    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
+
+    
+
+    
+
+    
+
+    
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="/">Home</a>
+          
+          <a class="nav-link" href="https://example.org" title="">Link 1</a>
+          
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
+        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+      </div>
+    </header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/hp-bl460c-g8-lose-its-datastore/">Why Did the HP BL460c G8 Lose It&rsquo;s Datastore?</a></h2>
+    <p class="blog-post-meta"><time datetime="2012-10-29T21:48:08Z">Mon Oct 29, 2012</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/vmware" rel="category tag">VMware</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/bl460c" rel="tag">BL460c</a>, <a href="/tags/c3000" rel="tag">c3000</a>, <a href="/tags/c7000" rel="tag">c7000</a>, <a href="/tags/esxi" rel="tag">ESXi</a>, <a href="/tags/g8" rel="tag">G8</a>, <a href="/tags/hp" rel="tag">HP</a>, <a href="/tags/p220i" rel="tag">P220i</a>, <a href="/tags/patch" rel="tag">Patch</a>, <a href="/tags/proliant" rel="tag">ProLiant</a>, <a href="/tags/update" rel="tag">Update</a>, <a href="/tags/vmware" rel="tag">VMware</a>
+
+</p>
+  </header>
+  <p>Post Update:
+As per <a href="http://vcp5.wordpress.com">Preetam´s</a> <a href="http://vninja.net/vmware-2/hp-bl460c-g8-lose-its-datastore/#comment-12163">comment</a>, HP has published a <a href="http://h20000.www2.hp.com/bizsupport/TechSupport/Document.jsp?objectID=c03603069&amp;jumpid=em_alerts_us-us_Dec12_xbu_all_all_1990986_137282_proliantserversbladesystem_critical_006_0">customer advisory regarding the usage of install vs update</a>.</p>
+
+<p><img src="http://vninja.net/wordpress/wp-content/uploads/2012/10/IMG_3814-2-300x225.jpg" alt="HP BL 460c G8" /></p>
+
+<p>After installing a couple of brand new <strong>HP ProLiant BL460c G8</strong> blades with <strong>HP Smart Array P220i</strong> controllers at a customer site, I decided that I should upgrade from the <a href="https://my.vmware.com/web/vmware/details?downloadGroup=HP-ESXI-5.0.0-U1-15MAR2012&amp;productId=229">VMware-ESXi-5.0.0-Update1-623860-HP-5.20.43.iso</a> Build <em>623860</em> used to install the blades, to the latest <em>821926</em> <a href="http://kb.vmware.com/selfservice/microsites/search.do?language=en_US&amp;cmd=displayKC&amp;externalId=2032584">build offered by VMware</a>.</p>
+
+<p>Normally this is a really easy process using VMware Update Manager, but since this is a new installation all the prerequisites for that are not in place just yet and I decided to use <em>esxcli</em> to perform the update.</p>
+
+<p>After placing the downloaded <em>ESXi500-201209001.zip</em> VIB file on the local datastore on the first host, I ran the update with the following command: (abbreviated for legibility)</p>
+
+<p>[cc lang=&ldquo;bash&rdquo; width=&ldquo;95%&rdquo; theme=&ldquo;blackboard&rdquo; nowrap=&ldquo;0&rdquo;]
+~ # esxcli software vib install -d /vmfs/volumes/datastore1/ESXi500-201209001.zip
+Installation Result
+Message: The update completed successfully, but the system needs to be rebooted for the changes to be effective.
+Reboot Required: true
+VIBs Installed: [&hellip;]
+VIBs Removed: [&hellip;]
+~ #
+[/cc]</p>
+
+<p>So far so good! One quick, as quick as a HP blade can, reboot later my host was updated to <em>ESXi 5.0.0 Build 821926</em> and everything looked fine. That is, until I wanted to put some new files into the blades local storage. Much to my surprise, there was no local storage to be seen at all. Thinking that something must have gone wrong while booting, I decided to try a new restart and imagine my surprise when the blade booted up again, but this time with <em>Build 623860</em>.</p>
+
+<p>Thinking that I must have messed things up pretty badly, I decided to try the same procedure on the second HP ProLiant BL460c G8 blade installed in the same manner. And yet again, I got the same results.</p>
+
+<p>While this is somewhat comforting when contemplating Albert Einstein´s <a href="http://www.brainyquote.com/quotes/quotes/a/alberteins133991.html">definition of insanity</a>, it´s not comforting when it comes to the procedure I followed for updating the hosts.</p>
+
+<p>This time around I recorded the output the <em>esxcli</em> command gave me, and found this little gem hidden inside the output:(unrelated VIBs removed)</p>
+
+<p>[cc lang=&ldquo;bash&rdquo; width=&ldquo;95%&rdquo; theme=&ldquo;blackboard&rdquo; nowrap=&ldquo;0&rdquo;]
+~ # esxcli software vib install -d /vmfs/volumes/esx5local/ESXi500-201209001.zip
+Installation Result
+Message: The update completed successfully, but the system needs to be rebooted for the changes to be effective.
+Reboot Required: true
+VIBs Installed: [&hellip;], VMware_bootbank_scsi-hpsa_5.0.0-17vmw.500.0.0.469512, [&hellip;]
+VIBs Removed: [&hellip;], Hewlett-Packard_bootbank_scsi-hpsa_5.0.0-28OEM.500.0.0.472560, [&hellip;]
+~ #
+[/cc]</p>
+
+<p>So, in short the update from VMware removes the HP Bootbank VIB for local SCSI controllers, and replaces it with a VMware one. Effectively this removes the ESXi hosts ability to read the local datastore from the <strong>HP Smart Array P220i Controller</strong>.</p>
+
+<p><strong>What still baffles me though, is that the first boot after applying the update boots <em>Build 821926</em>, but subsequent boots are on <em>Build 623860</em>&hellip;</strong></p>
+
+<p>In the end, to rectify the issue, I found the <a href="http://h20565.www2.hp.com/portal/site/hpsc/template.PAGE/public/psi/swdDetails/?sp4ts.oid=5177950&amp;spf_p.tpst=swdMain&amp;spf_p.prp_swdMain=wsrp-navigationalState%3Didx%253D%257CswItem%253DMTX_c169c54cc80d4c1c8515b79d21%257CswEnvOID%253D4115%257CitemLocale%253D%257CswLang%253D%257Cmode%253D%257Caction%253DdriverDocument&amp;javax.portlet.begCacheTok=com.vignette.cachetoken&amp;javax.portlet.endCacheTok=com.vignette.cachetoken">scsi-hpsa-5.0.0-28OEM.500.0.0.472560.x86_64.vib</a> file on hp.com, downloaded it and placed it on the host.</p>
+
+<p>I then ran the update again
+[cc lang=&ldquo;bash&rdquo; width=&ldquo;95%&rdquo; theme=&ldquo;blackboard&rdquo; nowrap=&ldquo;0&rdquo;]
+~ # esxcli software vib install -d /vmfs/volumes/datastore1/ESXi500-201209001.zip
+Installation Result
+Message: The update completed successfully, but the system needs to be rebooted for the changes to be effective.
+Reboot Required: true
+VIBs Installed: [&hellip;]
+~ #
+[/cc]</p>
+
+<p>After installing the update, I then installed the <strong>HP ProLiant Smart Array Controller Driver</strong>
+[cc lang=&ldquo;bash&rdquo; width=&ldquo;95%&rdquo; theme=&ldquo;blackboard&rdquo; nowrap=&ldquo;0&rdquo;]
+~ # esxcli software vib install -v file:/tmp/scsi-hpsa-5.0.0-28OEM.500.0.0.472560.x86_64.vib
+Installation Result
+Message: The update completed successfully, but the system needs to be rebooted for the changes to be effective.
+Reboot Required: true
+VIBs Installed: Hewlett-Packard_bootbank_scsi-hpsa_5.0.0-28OEM.500.0.0.472560
+VIBs Removed: VMware_bootbank_scsi-hpsa_5.0.0-17vmw.500.0.0.469512
+VIBs Skipped:
+~ #
+[/cc]</p>
+
+<p>This reverses the removal of the _Hewlett-Packard_bootbank_scsi-hpsa<em>5.0.0-28OEM.500.0.0.472560</em> VIB by the VMware Update itself.</p>
+
+<p>Another (quick) reboot, and finally my host was upgraded to the correct build and the local datastore was available too.</p>
+
+<p>[cc lang=&ldquo;bash&rdquo; width=&ldquo;95%&rdquo; theme=&ldquo;blackboard&rdquo; nowrap=&ldquo;0&rdquo;]
+~ # cat /proc/driver/hpsa/hpsa0
+hpsa0: HP Smart Array P220i Controller
+Board ID: 0x3355103c
+Firmware Version: 3.04
+Driver Version: HP HPSA Driver (v 5.0.0-28OEM)
+Driver Build: 2
+IRQ: 217
+Logical drives: 1
+Current Q depth: 0
+Current # commands on controller: 0
+Max Q depth since init: 0
+Max # commands on controller since init: 4
+Max SG entries since init: 129
+Max Commands supported: 1020
+SCSI host number: 0</p>
+
+<p>hpsa0/C0:B0:T0:L1 Direct-Access LOGICAL VOLUME 3.04 RAID 1(1+0)
+~ #
+[/cc]</p>
+
+<p>Thankfully these blades had not yet been put into production, and I was free to wrestle with them as much as I wanted to make this work, without it affecting anything other than my troubleshooting genes.</p>
+
+<p>I have not tested if the same scenario unfolds if the hosts are updated via VMware Update Manager, but I suspect that the results would have been the same.</p>
+
+<p>Of course, the hosts could have been installed with the newer <a href="https://my.vmware.com/web/vmware/details?downloadGroup=HP-ESXI-5.0.0-U1-15MAR2012_V2&amp;productId=229">HP ESXi 5.0 U1 Sept 2012 refresh</a> in the first place, and I probably would not have run into this issue, at least not until someone decided to apply a later patch to the host.</p>
+
+<p>All in all, I guess the lesson here is that you need to be careful when updating your hosts and make sure you have a real retreat option ready if you need to quickly roll back to the previous build. The luxury of having the time and possibility to really troubleshoot the issue, might not be available to you if you are upgrading production systems.</p>
+
+<p><em>Test your updates, every time.</em></p>
+
+
+  
+
+  
+  <hr>
+  <footer>
+
+  
+    <section>
+    <h4>Share</h4>
+    <nav class="nav sharing-icons">
+      <a class="nav-item" href="https://www.facebook.com/sharer/sharer.php?u=%2fposts%2fhp-bl460c-g8-lose-its-datastore%2f" title="Share on Facebook"><span class="fa fa-facebook fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://plus.google.com/share?url=%2fposts%2fhp-bl460c-g8-lose-its-datastore%2f" title="Share on Google+"><span class="fa fa-google-plus fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fposts%2fhp-bl460c-g8-lose-its-datastore%2f" title="Share on LinkedIn"><span class="fa fa-linkedin fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://twitter.com/home?status=%2fposts%2fhp-bl460c-g8-lose-its-datastore%2f" title="Tweet this"><span class="fa fa-twitter fa-2x"></span></a>
+    </nav>
+  </section>
+
+  
+
+  
+  </footer>
+  
+
+</article> 
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="https://example.com">Link 1</a></li>
+      
+      <li><a href="https://example.org">Link 2</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p>
+      
+      &copy; Christian Mohn
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="Ops" />
+<meta property="og:description" content="There is a thin line between agile and fragile" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="/tags/ops/" />
+
+
+
+<meta property="og:updated_time" content="2013-06-26T10:34:18&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Ops"/>
+<meta name="twitter:description" content="There is a thin line between agile and fragile"/>
+<meta name="generator" content="Hugo 0.40.3" />
+
+
+    
+      
+    
+
+    <link rel="canonical" href="/tags/ops/">
+
+    <title>Adventures in Hugo</title>
+
+    <!-- combined, minified CSS -->
+    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
+
+    
+    <!-- RSS 2.0 feed -->
+    <link href="/tags/ops/index.xml" rel="alternate" type="application/rss+xml" title="Adventures in Hugo" />
+    
+
+    
+
+    
+
+    
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="/">Home</a>
+          
+          <a class="nav-link" href="https://example.org" title="">Link 1</a>
+          
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
+        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+      </div>
+    </header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/monitoring-esxi-upgrade-process/">Monitoring the ESXi Upgrade Process</a></h2>
+    <p class="blog-post-meta"><time datetime="2013-06-26T10:34:18Z">Wed Jun 26, 2013</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/vmware" rel="category tag">VMware</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/esxi" rel="tag">ESXi</a>, <a href="/tags/log" rel="tag">Log</a>, <a href="/tags/maintenance" rel="tag">Maintenance</a>, <a href="/tags/ops" rel="tag">Ops</a>, <a href="/tags/real-world" rel="tag">Real World</a>, <a href="/tags/upgrade" rel="tag">Upgrade</a>, <a href="/tags/virtualization" rel="tag">Virtualization</a>, <a href="/tags/vmware" rel="tag">VMware</a>, <a href="/tags/vsphere" rel="tag">vSphere</a>
+
+</p>
+  </header>
+  When doing manual host upgrades, either through the direct method or via a locally placed upgrade bundle, there is a distinct lack of progress information available after running the esxcli command.
+Thankfully the ESXi host provides a running logfile of the upgrade process, which makes it much easier to keep track of what is going on and that the upgrade is indeed being performed.
+The esxupdate.log is located in /var/log, and by issuing the following command in a terminal window you can have a rolling log showing you the upgrade status and progress:
+  <a href='/posts/monitoring-esxi-upgrade-process/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/backing-up-vcenter-db-with-veeam-br-6-5/">Backing up vCenter DB with Veeam B&amp;R 6.5</a></h2>
+    <p class="blog-post-meta"><time datetime="2013-03-25T09:03:41Z">Mon Mar 25, 2013</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/automation" rel="tag">automation</a>, <a href="/tags/backup" rel="tag">Backup</a>, <a href="/tags/ops" rel="tag">Ops</a>, <a href="/tags/realworld" rel="tag">realworld</a>, <a href="/tags/vcenter" rel="tag">vCenter</a>, <a href="/tags/veeam" rel="tag">Veeam</a>, <a href="/tags/vmware" rel="tag">VMware</a>, <a href="/tags/vsphere" rel="tag">vSphere</a>, <a href="/tags/workaround" rel="tag">workaround</a>
+
+</p>
+  </header>
+  It´s a well known problem that with Veeam Backup &amp; Recovery Replication 6.5, and earlier, backing up the SQL server that hosts the vCenter DB poses a problem. KB1051 VSS for vCenter outlines the issue well, and provides a workaround.
+If you experience this problem, you will see entries like this in your Veeam B&amp;R backup logs:
+[caption id=&ldquo;attachment_2490&rdquo; align=&ldquo;aligncenter&rdquo; width=&ldquo;640&rdquo;] Veeam vCenterDB Backup Error[/caption]
+The workaround provided by Veeam is to create host VM-Host Affinity Rules, effectively pinning a VM to a given host, and then perform the VM backup through the host rather than through the vCenter.
+  <a href='/posts/backing-up-vcenter-db-with-veeam-br-6-5/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/preserve-veeam-br-backups-jobs-moving-vcenter/">Preserve your Veeam B&amp;R Backups Jobs when Moving vCenter</a></h2>
+    <p class="blog-post-meta"><time datetime="2013-03-19T21:13:20Z">Tue Mar 19, 2013</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/ops" rel="tag">Ops</a>, <a href="/tags/vcenter" rel="tag">vCenter</a>, <a href="/tags/veeam" rel="tag">Veeam</a>, <a href="/tags/veeam-backup-amp-replication" rel="tag">Veeam Backup &amp;amp; Replication</a>, <a href="/tags/vmware" rel="tag">VMware</a>, <a href="/tags/vsphere" rel="tag">vSphere</a>, <a href="/tags/workaround" rel="tag">workaround</a>
+
+</p>
+  </header>
+  This week I´m working at a client site, upgrading their entire existing vSphere 4.1 infrastructure to vSphere 5.1. The customer engagement also includes upgrading Veeam Backup and Replication 6.0 to 6.5, and usually an isolated upgrade of Veeam B&amp;R is a no-brainer next, next, next, done install.
+To complicate things in this particular environment, I also had to migrate the vCenter SQL DB from a local MS SQL Server 2005 Express instance to a full-fledged MS SQL Server 2008 R2 instance.
+  <a href='/posts/preserve-veeam-br-backups-jobs-moving-vcenter/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/vmware-esxi-4-vs-esxi-5-log-file-locations/">VMware ESXi 4 vs ESXi 5 Log File Locations</a></h2>
+    <p class="blog-post-meta"><time datetime="2012-09-17T21:24:18Z">Mon Sep 17, 2012</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>, <a href="/categories/vmware" rel="category tag">VMware</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/esxi" rel="tag">ESXi</a>, <a href="/tags/esxi-4" rel="tag">ESXi 4</a>, <a href="/tags/esxi-5" rel="tag">ESXi 5</a>, <a href="/tags/log-files" rel="tag">Log Files</a>, <a href="/tags/ops" rel="tag">Ops</a>, <a href="/tags/vmware" rel="tag">VMware</a>, <a href="/tags/vsphere" rel="tag">vSphere</a>
+
+</p>
+  </header>
+  This post is inspired by a tweet from Andrew Storrs, where he pinpoints that the host log file locations have changed between ESXi 4 and ESXi 5.
+Note: This post has been updated with new log files for ESXi 5.1
+ESXi 4 Log File Locations: [table id=6 /]
+ESXi 5 Log File Locations: [table id=5 /]
+Between version 5.0 and 5.1 the log file locations have not changed, but a couple of new logs have been added.
+  <a href='/posts/vmware-esxi-4-vs-esxi-5-log-file-locations/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/auto-installation-and-configuring-of-vsphere-esxi-5/">Auto Installation and Configuring of vSphere ESXi 5</a></h2>
+    <p class="blog-post-meta"><time datetime="2011-12-21T23:36:19Z">Wed Dec 21, 2011</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>, <a href="/categories/vmware" rel="category tag">VMware</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/automation" rel="tag">automation</a>, <a href="/tags/esxi" rel="tag">ESXi</a>, <a href="/tags/fun" rel="tag">fun</a>, <a href="/tags/ops" rel="tag">Ops</a>, <a href="/tags/powercli" rel="tag">PowerCLI</a>, <a href="/tags/powershell" rel="tag">Powershell</a>, <a href="/tags/realworld" rel="tag">realworld</a>, <a href="/tags/virtualization" rel="tag">Virtualization</a>, <a href="/tags/vmware" rel="tag">VMware</a>
+
+</p>
+  </header>
+  One of the last projects I&rsquo;ve been involved with at Seatrans, is to automate the installation and configuration of vSphere ESXi 5 hosts for deployment on vessels. I&rsquo;ve talked a bit about this before, both on vSoup and in Setting Up Automated ESXi Deployments where I outlined my PXE and PowerCLI based installation and configuration scheme. Not much has changed since then, except updating the PXE server to offer ESXi 5, instead of ESXi 4 and a lot of work has been put into the scripting, including a front-end GUI for the PowerCLI script itself.
+  <a href='/posts/auto-installation-and-configuring-of-vsphere-esxi-5/'>Read more →</a>
+</article> 
+
+
+
+
+
+<nav class="blog-pagination">
+  
+  
+  
+  <a class="btn btn-outline-primary disabled" href="#" role="button" aria-disabled="true">Previous page</a>
+  <a class="btn btn-outline-primary" href="/tags/ops/page/2/" rel="next" role="button">Next page</a>
+  
+</nav>
+
+
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="https://example.com">Link 1</a></li>
+      
+      <li><a href="https://example.org">Link 2</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p>
+      
+      &copy; Christian Mohn
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Experiment on Adventures in Hugo</title>
+    <link>/tags/experiment/</link>
+    <description>Recent content in Experiment on Adventures in Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
+    <lastBuildDate>Tue, 22 Nov 2011 22:59:30 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/experiment/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Testing VMware vSphere 5 Swap to Host Cache</title>
+      <link>/posts/testing-vmware-vsphere-5-swap-to-host-cache/</link>
+      <pubDate>Tue, 22 Nov 2011 22:59:30 +0000</pubDate>
+      
+      <guid>/posts/testing-vmware-vsphere-5-swap-to-host-cache/</guid>
+      <description>A little while ago I fitted a small 64GB SSD disk to my HP MicroServer just to have a quick look at the new vSphere 5 feature Swap to Host Cache, where vSphere 5 reclaims memory by storing the swapped out pages in the host cache on a solid-state drive. Naturally, this is a lot faster than swapping to non-SSD storage, but you will still see a performance hit when this happens.</description>
+    </item>
+    
+  </channel>
+</rss>

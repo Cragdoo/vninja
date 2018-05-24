@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="Ssl" />
+<meta property="og:description" content="There is a thin line between agile and fragile" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="/tags/ssl/" />
+
+
+
+<meta property="og:updated_time" content="2014-12-12T12:24:55&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Ssl"/>
+<meta name="twitter:description" content="There is a thin line between agile and fragile"/>
+<meta name="generator" content="Hugo 0.40.3" />
+
+
+    
+      
+    
+
+    <link rel="canonical" href="/tags/ssl/">
+
+    <title>Adventures in Hugo</title>
+
+    <!-- combined, minified CSS -->
+    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
+
+    
+    <!-- RSS 2.0 feed -->
+    <link href="/tags/ssl/index.xml" rel="alternate" type="application/rss+xml" title="Adventures in Hugo" />
+    
+
+    
+
+    
+
+    
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="/">Home</a>
+          
+          <a class="nav-link" href="https://example.org" title="">Link 1</a>
+          
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
+        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+      </div>
+    </header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/importing-vcloud-air-ssl-certificate-vcenter-server-appliance-5-x/">Importing vCloud Air SSL Certificate on the vCenter Server Appliance 5.x</a></h2>
+    <p class="blog-post-meta"><time datetime="2014-12-12T12:24:55Z">Fri Dec 12, 2014</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/vmware" rel="category tag">VMware</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/certificate" rel="tag">Certificate</a>, <a href="/tags/ssl" rel="tag">SSL</a>, <a href="/tags/vcenter" rel="tag">vCenter</a>, <a href="/tags/vcenter-web-client" rel="tag">vCenter Web Client</a>, <a href="/tags/vcloud-air" rel="tag">vCloud Air</a>, <a href="/tags/vcsa" rel="tag">VCSA</a>
+
+</p>
+  </header>
+  I&rsquo;m playing around a bit with vCloud Air and Virtual Private Cloud OnDemand, and in order to set up the vCloud Hybrid Service plugin in the vSphere Web Client you need to import the vCloud Air SSL certificate into vCenter. If the certificate isn&rsquo;t present in the vCSA keystore when you try to authenticate with vCloud Air, you get a &ldquo;Server Certificate not Verified&rdquo; error, and you will be unsuccessful in configuring the plugin.
+  <a href='/posts/importing-vcloud-air-ssl-certificate-vcenter-server-appliance-5-x/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/importing-ssl-certificates-raspberry-pi-thin-client/">Importing SSL Certificates to Raspberry Pi Thin Client</a></h2>
+    <p class="blog-post-meta"><time datetime="2013-12-05T22:47:32Z">Thu Dec 05, 2013</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/certificates" rel="tag">Certificates</a>, <a href="/tags/citrix" rel="tag">Citrix</a>, <a href="/tags/raspberry-pi" rel="tag">Raspberry Pi</a>, <a href="/tags/receiver" rel="tag">Receiver</a>, <a href="/tags/ssl" rel="tag">SSL</a>, <a href="/tags/thin-client" rel="tag">Thin Client</a>
+
+</p>
+  </header>
+  When playing around with the Raspberry Pi Thin Client, I ran into an issue with the SSL certificates for the Citrix Receiver client. For some reason it didn&rsquo;t want to play with the certificates installed on the server side, and popped the following error message:
+**You have not chosen to trust "AddTrust External CA Root", the issuer of the server's security certificate.** Thankfully there is a quick fix for this! Since Iceweasel is also in the RPTC distribution, and it has a lot more SSL root CA certificates included by default, all that was required (in my case) was to link the certificates it has with the certificates the Citrix Receiver client can use.
+  <a href='/posts/importing-ssl-certificates-raspberry-pi-thin-client/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="https://example.com">Link 1</a></li>
+      
+      <li><a href="https://example.org">Link 2</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p>
+      
+      &copy; Christian Mohn
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>

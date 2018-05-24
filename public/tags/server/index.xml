@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Server on Adventures in Hugo</title>
+    <link>/tags/server/</link>
+    <description>Recent content in Server on Adventures in Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
+    <lastBuildDate>Mon, 10 Oct 2016 13:18:30 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/server/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Patch those Dell Servers easily!</title>
+      <link>/posts/patch-those-dell-servers-easily/</link>
+      <pubDate>Mon, 10 Oct 2016 13:18:30 +0000</pubDate>
+      
+      <guid>/posts/patch-those-dell-servers-easily/</guid>
+      <description>Did you know that Dell has a bootable linux ISO with firmware upgrades for their servers available? Neither did I, but luckily I found it today when needing it at a customer site.
+Check out Updating Dell PowerEdge servers via bootable media / ISO where you can download bootable ISOs for specific server models, and get all your firmware upgraded in one fell swoop.
+Be warned though, it takes quite some time to run though it all (125 update packages in this instance), but it sure beats installing manually or creating your own bootable ISO with the Dell Repository Manager or even using Dell Server Update Utility.</description>
+    </item>
+    
+    <item>
+      <title>VSAN - The Unspoken Future</title>
+      <link>/posts/vsan-unspoken-future/</link>
+      <pubDate>Mon, 17 Mar 2014 22:41:34 +0000</pubDate>
+      
+      <guid>/posts/vsan-unspoken-future/</guid>
+      <description>This rather tongue-in-cheek title, is a play on Maish recent VSAN - The Unspoken Truth post where he highlights what he thinks is one of the hidden &amp;ldquo;problems&amp;rdquo; with the current version of VSAN is it&amp;rsquo;s inherent non-blade compatibility and current lack of &amp;ldquo;rack based VSAN ready nodes&amp;rdquo;.
+Of course, this is a reality; If you base your current infrastructure on blade servers, VSAN probably isn&amp;rsquo;t a good match as it stands today.</description>
+    </item>
+    
+  </channel>
+</rss>

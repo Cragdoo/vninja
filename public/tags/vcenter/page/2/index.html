@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="Vcenter" />
+<meta property="og:description" content="There is a thin line between agile and fragile" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="/tags/vcenter/" />
+
+
+
+<meta property="og:updated_time" content="2015-08-26T11:35:08&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Vcenter"/>
+<meta name="twitter:description" content="There is a thin line between agile and fragile"/>
+<meta name="generator" content="Hugo 0.40.3" />
+
+
+    
+      
+    
+
+    <link rel="canonical" href="/tags/vcenter/">
+
+    <title>Adventures in Hugo</title>
+
+    <!-- combined, minified CSS -->
+    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
+
+    
+    <!-- RSS 2.0 feed -->
+    <link href="/tags/vcenter/index.xml" rel="alternate" type="application/rss+xml" title="Adventures in Hugo" />
+    
+
+    
+
+    
+
+    
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="/">Home</a>
+          
+          <a class="nav-link" href="https://example.org" title="">Link 1</a>
+          
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
+        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+      </div>
+    </header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/esxi5-5-to-6-0-upgrade-from-local-http-daemon/">ESXi5.5 to 6.0 Upgrade From Local HTTP Daemon</a></h2>
+    <p class="blog-post-meta"><time datetime="2015-08-26T11:35:08Z">Wed Aug 26, 2015</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/vmware" rel="category tag">VMware</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/esxi" rel="tag">ESXi</a>, <a href="/tags/vcenter" rel="tag">vCenter</a>, <a href="/tags/vmware" rel="tag">VMware</a>, <a href="/tags/vsphere" rel="tag">vSphere</a>
+
+</p>
+  </header>
+  I was recently involved with consulting for a Norwegian shipping company who has quite a few remote vSphere installations, most of them with a couple of ESXi hosts, but no vCenter and hence no Update Manager. While looking at methods for managing these installations, in particular how to facilitate patching and upgrading scenarios, I remembered that way back in 2013, I posted Quick and Dirty HTTP-based Deployment which shows how to use the Python to run a simple http daemon, and serve files from it.
+  <a href='/posts/esxi5-5-to-6-0-upgrade-from-local-http-daemon/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/importing-vcloud-air-ssl-certificate-vcenter-server-appliance-5-x/">Importing vCloud Air SSL Certificate on the vCenter Server Appliance 5.x</a></h2>
+    <p class="blog-post-meta"><time datetime="2014-12-12T12:24:55Z">Fri Dec 12, 2014</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/vmware" rel="category tag">VMware</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/certificate" rel="tag">Certificate</a>, <a href="/tags/ssl" rel="tag">SSL</a>, <a href="/tags/vcenter" rel="tag">vCenter</a>, <a href="/tags/vcenter-web-client" rel="tag">vCenter Web Client</a>, <a href="/tags/vcloud-air" rel="tag">vCloud Air</a>, <a href="/tags/vcsa" rel="tag">VCSA</a>
+
+</p>
+  </header>
+  I&rsquo;m playing around a bit with vCloud Air and Virtual Private Cloud OnDemand, and in order to set up the vCloud Hybrid Service plugin in the vSphere Web Client you need to import the vCloud Air SSL certificate into vCenter. If the certificate isn&rsquo;t present in the vCSA keystore when you try to authenticate with vCloud Air, you get a &ldquo;Server Certificate not Verified&rdquo; error, and you will be unsuccessful in configuring the plugin.
+  <a href='/posts/importing-vcloud-air-ssl-certificate-vcenter-server-appliance-5-x/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/root-invalid-memory-setting-memory-reservation-sched-mem-min-equal-memsize-memsize/">Root Cause of Invalid memory setting: memory reservation (sched.mem.min) should be equal to memsize (memsize)</a></h2>
+    <p class="blog-post-meta"><time datetime="2014-07-15T10:59:42Z">Tue Jul 15, 2014</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/vmware" rel="category tag">VMware</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/5.5" rel="tag">5.5</a>, <a href="/tags/esxi" rel="tag">ESXi</a>, <a href="/tags/latency-sensitivity" rel="tag">Latency Sensitivity</a>, <a href="/tags/troubleshooting" rel="tag">Troubleshooting</a>, <a href="/tags/vcenter" rel="tag">vCenter</a>, <a href="/tags/vm" rel="tag">VM</a>, <a href="/tags/vmware" rel="tag">VMware</a>
+
+</p>
+  </header>
+  While working on reconfiguring my home lab setup, and migrating all the vSphere resources into a single cluster I ran into a problem powering on one of the VMs which used to run on a single host. The power on operation yielded the following error message:
+Invalid memory setting: memory reservation (sched.mem.min) should be equal to memsize (memsize) [showhide type=&ldquo;errorstack&rdquo; more_text=&ldquo;Show error stack (%s More Words)&rdquo;]
+  **Task Details:**         Status:    Invalid memory setting: memory reservation (sched.
+  <a href='/posts/root-invalid-memory-setting-memory-reservation-sched-mem-min-equal-memsize-memsize/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/automatically-datastores-vsphere/">Automatically Name Datastores in vSphere?</a></h2>
+    <p class="blog-post-meta"><time datetime="2014-02-18T16:16:28Z">Tue Feb 18, 2014</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/vmware" rel="category tag">VMware</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/datastore" rel="tag">Datastore</a>, <a href="/tags/esxi" rel="tag">ESXi</a>, <a href="/tags/ideas" rel="tag">Ideas</a>, <a href="/tags/policy-based-computing" rel="tag">Policy Based Computing</a>, <a href="/tags/storage" rel="tag">storage</a>, <a href="/tags/vcenter" rel="tag">vCenter</a>, <a href="/tags/virtualization" rel="tag">Virtualization</a>, <a href="/tags/vmware" rel="tag">VMware</a>, <a href="/tags/vsan" rel="tag">VSAN</a>, <a href="/tags/vsphere" rel="tag">vSphere</a>
+
+</p>
+  </header>
+  William Lam posted &ldquo;Why you should rename the default VSAN Datastore name&rdquo; where he outlines why the default name for VSAN data stores should be changed. Of course, I completely agree with his views on this; Leaving it at the default might cause confusion down the line.
+At the end of the post, William asks the following:
+I wonder if it would be a useful to have a feature in VSAN to automatically append the vSphere Cluster name to the default VSAN Datastore name?
+  <a href='/posts/automatically-datastores-vsphere/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/fixing-could-create-vflash-cache-error-powering-vm/">Fixing &ldquo;Could not create vFlash cache&rdquo; error when powering on a VM</a></h2>
+    <p class="blog-post-meta"><time datetime="2014-01-19T19:19:02Z">Sun Jan 19, 2014</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/featured" rel="tag">featured</a>, <a href="/tags/ssd" rel="tag">SSD</a>, <a href="/tags/vcenter" rel="tag">vCenter</a>, <a href="/tags/vcenter-appliance" rel="tag">vCenter Appliance</a>, <a href="/tags/vcsa" rel="tag">VCSA</a>, <a href="/tags/vflash-read-cache" rel="tag">vFlash Read Cache</a>, <a href="/tags/vfrc" rel="tag">vFRC</a>, <a href="/tags/vsphere" rel="tag">vSphere</a>, <a href="/tags/web-client" rel="tag">Web Client</a>
+
+</p>
+  </header>
+  During some way overdue housekeeping in my HP Microserver-based &ldquo;Homelab&rdquo; today, I ran into a rather annoying issue that prevented me from starting one of my more important VMs; namely my home Domain Controller.
+In short, I removed an old SSD drive that I&rsquo;ve used for vFlash Read Cache (vFRC) testing and installed a new 1TB drive instead. Since I have a rather beefy work lab now, I need space more than speed at home, so this seemed like a good idea at the time.
+  <a href='/posts/fixing-could-create-vflash-cache-error-powering-vm/'>Read more →</a>
+</article> 
+
+
+
+
+
+<nav class="blog-pagination">
+  
+  <a class="btn btn-outline-primary" href="/tags/vcenter/" rel="prev" role="button">Previous page</a>
+  <a class="btn btn-outline-primary" href="/tags/vcenter/page/3/" rel="next" role="button">Next page</a>
+  
+  
+  
+</nav>
+
+
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="https://example.com">Link 1</a></li>
+      
+      <li><a href="https://example.org">Link 2</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p>
+      
+      &copy; Christian Mohn
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>

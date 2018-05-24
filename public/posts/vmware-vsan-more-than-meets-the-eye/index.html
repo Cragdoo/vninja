@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="VMware VSAN - More than meets the eye." />
+<meta property="og:description" content="Way back in 2014 I wrote a piece called VSAN – The Unspoken Future, and I think it&rsquo;s about time it got a revision. Of course, lots of things have happened to VSAN since then and even more is on the way, but I think there is more to this than adding features like erasure coding, deduplication and compression. All of these are important features, and frankly they need to be in a product that aims a lot higher than you might think." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/vmware-vsan-more-than-meets-the-eye/" />
+
+
+
+<meta property="article:published_time" content="2015-11-13T08:54:01&#43;00:00"/>
+
+<meta property="article:modified_time" content="2015-11-13T08:54:01&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="VMware VSAN - More than meets the eye."/>
+<meta name="twitter:description" content="Way back in 2014 I wrote a piece called VSAN – The Unspoken Future, and I think it&rsquo;s about time it got a revision. Of course, lots of things have happened to VSAN since then and even more is on the way, but I think there is more to this than adding features like erasure coding, deduplication and compression. All of these are important features, and frankly they need to be in a product that aims a lot higher than you might think."/>
+<meta name="generator" content="Hugo 0.40.3" />
+
+
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "VMware VSAN - More than meets the eye.",
+  "url": "/posts/vmware-vsan-more-than-meets-the-eye/",
+  "wordCount": "440",
+  "datePublished": "2015-11-13T08:54:01&#43;00:00",
+  "dateModified": "2015-11-13T08:54:01&#43;00:00",
+  "author": {
+    "@type": "Person",
+    "name": "cmohn"
+  },
+  "keywords": "Virtualization, Future, Microvisor, VSAN, vSphere"
+}
+</script>
+
+
+
+    <link rel="canonical" href="/posts/vmware-vsan-more-than-meets-the-eye/">
+
+    <title>VMware VSAN - More than meets the eye. | Adventures in Hugo</title>
+
+    <!-- combined, minified CSS -->
+    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
+
+    
+
+    
+
+    
+
+    
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="/">Home</a>
+          
+          <a class="nav-link" href="https://example.org" title="">Link 1</a>
+          
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
+        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+      </div>
+    </header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/vmware-vsan-more-than-meets-the-eye/">VMware VSAN - More than meets the eye.</a></h2>
+    <p class="blog-post-meta"><time datetime="2015-11-13T08:54:01Z">Fri Nov 13, 2015</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/future" rel="tag">Future</a>, <a href="/tags/microvisor" rel="tag">Microvisor</a>, <a href="/tags/vsan" rel="tag">VSAN</a>, <a href="/tags/vsphere" rel="tag">vSphere</a>
+
+</p>
+  </header>
+  <p>Way back in 2014 I wrote a piece called <a href="http://vninja.net/virtualization/vsan-unspoken-future/">VSAN – The Unspoken Future</a>, and I think it&rsquo;s about time it got a revision. Of course, lots of things have happened to VSAN since then and even more is on the way, but I think there is more to this than adding features like <a href="http://www.yellow-bricks.com/2015/09/01/virtual-san-beta-coming-up-with-dedupe-and-erasure-coding/">erasure coding, deduplication</a> and compression. All of these are important features, and frankly they need to be in a product that aims a lot higher than you might think.</p>
+
+<p>At the moment, VSAN does storage internally in a vSphere Cluster. If you want to use that storage in other ways, you either have to share it from a VM over the network or use <a href="https://nexenta.com/products/nexentaconnect/nexentaconnect-vsan">NexentaConnect for VMware Virtual SAN</a>.</p>
+
+<p>Yesterday, <a href="https://twitter.com/vmugit/status/664759077059371009">VMUG.it </a>shared the following photo from <a href="http://twiitter.com/DuncanYB">Duncan Eppings</a> &ldquo;<strong>Goodbye SAN Huggers, Hello Virtual SAN</strong>&rdquo; session from their VMUG UserCon:</p>
+
+<p><a href="http://vninja.net/wordpress/wp-content/uploads/2015/11/CTmy15VWwAAY8Y9.jpg-large.jpeg"><img src="http://vninja.net/wordpress/wp-content/uploads/2015/11/CTmy15VWwAAY8Y9.jpg-large-1024x576.jpeg" alt="Generic Object Storage Platform" /></a></p>
+
+<p>Look closely at that one for a minute. What is Duncan and VMware telling us here, if you squint your eyes and try to read between the lines? For me, this slide was a bit of a lightbulb moment:** VMware wants to turn VSAN into a generic storage provider in the data center. **You need some storage of some sort? VSAN will provide it, even if your applications are not located on the same cluster.  Object based? Sure. Block? Sure. REST? Sure, that&rsquo;s what the cool kids do. VMFS? Only if you need to run a VM.</p>
+
+<p>Couple this with  the <a href="http://www.vmware.com/radius/vmworld-2015-the-end-of-the-beginning-lets-go/">vSphere Integrated Containers and Photon Platform announcements</a>, VMware is already talking about the microvisor. So, remove the vSphere layer in the slide above, and replace it with a variant of the <a href="http://cormachogan.com/2015/09/11/a-closer-look-at-the-vsan-witness-appliance/">VSAN ROBO witness appliance</a> of some sort, which runs enough to provide policy based storage services. Once you have those two bits talking to each other, you don&rsquo;t need the traditional vSphere layer to provide hardware virtualization at all for those cloud native apps. Add NSX to the mix, and network policies that follow the application, and you have a portable application infrastructure that can run pretty much anywhere you prefer.  At VMworld 2015, VMware showed NSX for Multi-Hypervisor running on AWS, extending the network from on-premises to Amazon. Why not do the same with storage?  Want cloud based storage? Sure, add the little VSAN layer in front of your providers storage offering, and boom, instant policy  management and portability.</p>
+
+<p>And of course, VMware will be there to provide you with the management and monitoring layer for all of this - Even if you don&rsquo;t run vSphere.</p>
+
+<p>VMware is getting ready for the post-virtualization, multi-platform, world, no question about it.  Are You Ready for Any?</p>
+
+
+  
+
+  
+  <hr>
+  <footer>
+
+  
+    <section>
+    <h4>Share</h4>
+    <nav class="nav sharing-icons">
+      <a class="nav-item" href="https://www.facebook.com/sharer/sharer.php?u=%2fposts%2fvmware-vsan-more-than-meets-the-eye%2f" title="Share on Facebook"><span class="fa fa-facebook fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://plus.google.com/share?url=%2fposts%2fvmware-vsan-more-than-meets-the-eye%2f" title="Share on Google+"><span class="fa fa-google-plus fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fposts%2fvmware-vsan-more-than-meets-the-eye%2f" title="Share on LinkedIn"><span class="fa fa-linkedin fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://twitter.com/home?status=%2fposts%2fvmware-vsan-more-than-meets-the-eye%2f" title="Tweet this"><span class="fa fa-twitter fa-2x"></span></a>
+    </nav>
+  </section>
+
+  
+
+  
+  </footer>
+  
+
+</article> 
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="https://example.com">Link 1</a></li>
+      
+      <li><a href="https://example.org">Link 2</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p>
+      
+      &copy; Christian Mohn
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>

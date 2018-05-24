@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Howto on Adventures in Hugo</title>
+    <link>/categories/howto/</link>
+    <description>Recent content in Howto on Adventures in Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
+    <lastBuildDate>Thu, 15 Oct 2015 16:01:38 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/howto/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Relax and virtualize it!</title>
+      <link>/posts/relax-and-virtualize-it/</link>
+      <pubDate>Thu, 15 Oct 2015 16:01:38 +0000</pubDate>
+      
+      <guid>/posts/relax-and-virtualize-it/</guid>
+      <description>This is a guest post from Kristian Wæraas Senior Consultant Datacenter at Datametrix AS VMware VCP3/5, MCTS Hyper-V, Horizon View and Trend Micro Security Expert.
+I am a curious by nature, and when my colleagues start talking frantic about some system that has crashed, I get curious and have to ask questions. Usually this ends up in me doing a lot of work.
+- This, however, was not one of those times.</description>
+    </item>
+    
+    <item>
+      <title>Creating and Using a Virtual Floppy in vSphere</title>
+      <link>/posts/creating-virtual-floppy-vsphere/</link>
+      <pubDate>Sat, 07 Jan 2012 22:44:33 +0000</pubDate>
+      
+      <guid>/posts/creating-virtual-floppy-vsphere/</guid>
+      <description>My new colleague Olav Tvedt asked me if I could test his method of enabling Bitlocker in a VM, on VMware vSphere. Of course, I was happy to oblige.
+I followed the same steps as he did in his Running Bitlocker on a Virtual computer post, and it worked perfectly.
+The only real difference between doing this in Hyper-V and on ESXi, is that the virtual floppy drive on ESXi by default doesn&amp;rsquo;t emulate an empty floppy.</description>
+    </item>
+    
+    <item>
+      <title>Setting Up Automated ESXi Deployments</title>
+      <link>/posts/setting-up-automated-esxi-deployments/</link>
+      <pubDate>Thu, 07 Jul 2011 08:10:55 +0000</pubDate>
+      
+      <guid>/posts/setting-up-automated-esxi-deployments/</guid>
+      <description>Automating ESXi installs was made much easier after the release of vSphere 4.1 where the Scripted Install feature was added, and by using VMware Auto Deploy from VMware Labs. VMware Auto Deploy requires that you have vCenter and Host Profiles in your environment, and that again requires that you have Enterprise Plus licenses in your environment.
+It is, however, possible to deploy ESXi in an automated fashion completely without vCenter and Host Profiles!</description>
+    </item>
+    
+    <item>
+      <title>Installing and running VMware Compliance Checker for vSphere</title>
+      <link>/posts/installing-and-running-vmware-compliance-checker-for-vsphere/</link>
+      <pubDate>Wed, 20 Apr 2011 07:01:37 +0000</pubDate>
+      
+      <guid>/posts/installing-and-running-vmware-compliance-checker-for-vsphere/</guid>
+      <description>The first version of the new VMware Compliance Checker for vSphere tool is now available for download.
+VMware Compliance Checker for vSphere lets you scan your ESX and ESXi hosts for compliance with the VMware vSphere hardening guidelines to make sure your hosts are properly configured. It also lets you save and print your assessment results, so you can track your compliance level over time, or use them as documentation for internal audits.</description>
+    </item>
+    
+    <item>
+      <title>Installing and configuring VMware vCenter Operations</title>
+      <link>/posts/installing-and-configuring-vmware-vcenter-operations/</link>
+      <pubDate>Mon, 21 Mar 2011 19:50:02 +0000</pubDate>
+      
+      <guid>/posts/installing-and-configuring-vmware-vcenter-operations/</guid>
+      <description>VMware vCenter Operations was released to the general public a week or so ago and is available for download right now. As usual you can download a 60 day trial, and get started immediately.
+Like other recent management utilities from VMware, vCenter Operations comes in the form of a .OVF template (like vCMA/vMA).
+Installing VMware vCenter Operations Download VMware vCenter Operations and import by starting vCenter Client, navigate to the “File” menu and select “Deploy OVF template…”</description>
+    </item>
+    
+    <item>
+      <title>Custom Dictionary Syncronization with Dropbox</title>
+      <link>/posts/custom-dictionary-syncronization-with-dropbox/</link>
+      <pubDate>Sun, 13 Mar 2011 21:29:42 +0000</pubDate>
+      
+      <guid>/posts/custom-dictionary-syncronization-with-dropbox/</guid>
+      <description>In the last couple of weeks I&amp;rsquo;ve been using Microsoft Word 2010 a lot more than I&amp;rsquo;ve previously done, and at the same time I&amp;rsquo;ve been switching computers a lot making it somewhat of an annoyance that a lot of the words I use in my documents are not recognized and marked with a wiggly red line underneath it.
+If only there was a way to keep the custom dictionary synchronized between computers.</description>
+    </item>
+    
+    <item>
+      <title>Using rsync to Distribute Patches to a Remote vMA </title>
+      <link>/posts/using-rsync-to-distribute-patches-to-remote-a-vma/</link>
+      <pubDate>Tue, 08 Mar 2011 08:00:02 +0000</pubDate>
+      
+      <guid>/posts/using-rsync-to-distribute-patches-to-remote-a-vma/</guid>
+      <description>I recently posted Using vMA as a local vSphere Patch Repository, where I outlined how you can use your vMA instances as local file repositories for updates.
+This post is a continuation of that concept, but this time I&amp;rsquo;ll take it a step further and utilize rsync to make sure my vMA instances all contain the same set of patches. Rsync is great for this, as it handles fast incremental file transfers, which is a real time and bandwidth saver in my particular scenario.</description>
+    </item>
+    
+    <item>
+      <title>Using vMA as a local vSphere Patch Repository</title>
+      <link>/posts/using-vma-as-a-local-vsphere-patch-repository/</link>
+      <pubDate>Mon, 07 Mar 2011 22:43:33 +0000</pubDate>
+      
+      <guid>/posts/using-vma-as-a-local-vsphere-patch-repository/</guid>
+      <description>I like using http as the transport protocol when patching my vSphere hosts. It&amp;rsquo;s easy to use and in most cases immediately available over most networks. Since I want to use http as the transport, we need to make vMA work as a http server.
+Starting Apache inside vMA Luckily, the Apache http daemon is installed, by default, in vMA and to utilize it all you have to do is to start it!</description>
+    </item>
+    
+    <item>
+      <title>Installing vSphere Management Assistant (vMA)</title>
+      <link>/posts/installing-vsphere-management-assistant-vma/</link>
+      <pubDate>Mon, 28 Feb 2011 23:26:15 +0000</pubDate>
+      
+      <guid>/posts/installing-vsphere-management-assistant-vma/</guid>
+      <description>The vMA is a Virtual Appliance that you can download from VMware. It&amp;rsquo;s primary function is to enable command line based management of your ESX/ESXi systems.
+Basically this is a pre-packaged virtual machine that includes vCLI and the vSphere SDK for Perl, which means that you don&amp;rsquo;t have to build your own management VM or install these tools locally on a management station.
+vMA is in many regards seen as a replacement for the ESX Service Console which no longer is present in ESXi.</description>
+    </item>
+    
+    <item>
+      <title>Remote Desktop Connection Manager (RDCMan) &#43; Powershell = Win</title>
+      <link>/posts/remote-desktop-connection-manager-rdcman-powershell-win/</link>
+      <pubDate>Thu, 20 Jan 2011 14:51:46 +0000</pubDate>
+      
+      <guid>/posts/remote-desktop-connection-manager-rdcman-powershell-win/</guid>
+      <description>Remote Desktop Connection Manager is a great tool from Microsoft which enables you to keep track of all your RDP sessions and targets in a nice GUI. One of the things it&amp;rsquo;s lacking though, is some sort of Active Directory connection that allows you to import all your server objects directly, and not manually add/remove the serves as your infrastructure changes over time.
+In an attempt to bridge that gap, I&amp;rsquo;ve made a very small PowerShell script that queries your Active Directory for server objects and dumps their names into a text file that you can import into RDCMan.</description>
+    </item>
+    
+    <item>
+      <title>Installing and Configuring WANem Virtual Appliance</title>
+      <link>/posts/installing-and-configuring-wanem-virtual-appliance/</link>
+      <pubDate>Wed, 29 Dec 2010 14:21:36 +0000</pubDate>
+      
+      <guid>/posts/installing-and-configuring-wanem-virtual-appliance/</guid>
+      <description>In a previous post, Using the WANem WAN Emulator Virtual Appliance, I&amp;rsquo;ve talked about how I&amp;rsquo;ve successfully used WANem to emulate different WAN scenarios.
+Since I work for a shipping company, the ability to emulate VSAT conditions are especially useful for testing and proof-of-concept scenarios.
+You can use WANem a couple of different ways but my setup is pretty simple but does the job perfectly.
+Downloading WANem I have chose to use the WANem Virtual Appliance running in a virtual machine hosted by VMware Workstation.</description>
+    </item>
+    
+    <item>
+      <title>VMware vSphere Lab: Virtual Edition – Part 6</title>
+      <link>/posts/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-6/</link>
+      <pubDate>Thu, 21 Oct 2010 21:10:47 +0000</pubDate>
+      
+      <guid>/posts/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-6/</guid>
+      <description>This is the sixth post in a series outlining how to set up your own little virtualized Virtual vSphere Lab, if you missed part one, part two, part three, part four, or part five be sure to check them out first!
+Now that we have working DHCP and DNS services in our lab network, we&amp;rsquo;re ready to get out two little ESXi friends connected to it&amp;rsquo;s management service, VMware vCenter Server.</description>
+    </item>
+    
+    <item>
+      <title>VMware vSphere Lab: Virtual Edition – Part 5</title>
+      <link>/posts/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-5/</link>
+      <pubDate>Wed, 20 Oct 2010 13:31:51 +0000</pubDate>
+      
+      <guid>/posts/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-5/</guid>
+      <description>This is the fifth post in a series outlining how to set up your own little virtualized Virtual vSphere Lab, if you missed part one, part two, part three, or part four, be sure to check them out first!
+Ideally we would now install Microsoft Active Directory Domain Services (AD DS) on the Windows Server 2008 R2 VM we created in part four, but since VMware vCenter Server 4.1 also installs AD LDS (previously known as Active Directory Application Mode (ADAM)) it can not be installed on a AD Domain Controller.</description>
+    </item>
+    
+    <item>
+      <title>VMware vSphere Lab: Virtual Edition – Part 4</title>
+      <link>/posts/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-4/</link>
+      <pubDate>Tue, 19 Oct 2010 18:01:49 +0000</pubDate>
+      
+      <guid>/posts/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-4/</guid>
+      <description>This is the fourth post in a series outlining how to set up your own little virtualized Virtual vSphere Lab, if you missed part one, part two, or part three be sure to check them out first!
+In part 4 we&amp;rsquo;ll be installing a Windows Server 2008 R2 VM, to use as the basis for the VMware vCenter Server installation.
+First off, create a new VM in VMware Workstation. This works exactly the same way as we did it in part 3, but I&amp;rsquo;ll repeat the steps here as well.</description>
+    </item>
+    
+    <item>
+      <title>VMware vSphere Lab: Virtual Edition – Part 3</title>
+      <link>/posts/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-3/</link>
+      <pubDate>Mon, 18 Oct 2010 20:16:28 +0000</pubDate>
+      
+      <guid>/posts/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-3/</guid>
+      <description>This is the third post in a series outlining how to set up your own little virtualized Virtual vSphere Lab, if you missed part one or part two, be sure to check them out first!
+I&amp;rsquo;m going to assume that you already have VMware Workstation 7.x installed and ready. If not, get it installed before continuing.
+Now that we have all the prerequisites in place, we&amp;rsquo;re going to go straight to installing the first ESXi host for your lab.</description>
+    </item>
+    
+    <item>
+      <title>VMware vSphere Lab: Virtual Edition - Part 2</title>
+      <link>/posts/vmware-vsphere-lab-virtual-edition-part-2/</link>
+      <pubDate>Mon, 18 Oct 2010 07:00:55 +0000</pubDate>
+      
+      <guid>/posts/vmware-vsphere-lab-virtual-edition-part-2/</guid>
+      <description>This is the second post in a series outlining how to set up your own little virtualized Virtual vSphere Lab, if you missed the first one be sure to check it out!
+The first step in setting up the The Virtual vSphere Lab, is making sure you have everything you need. To get everything up and running, you’ll need the following:
+ VMware Workstation 7.x downloaded and installed. A 30 day trial version download is available at vmware.</description>
+    </item>
+    
+    <item>
+      <title>VMware vSphere Lab: Virtual Edition - Part 1</title>
+      <link>/posts/vmware-vsphere-lab-virtual-edition-part-1/</link>
+      <pubDate>Sun, 17 Oct 2010 20:16:44 +0000</pubDate>
+      
+      <guid>/posts/vmware-vsphere-lab-virtual-edition-part-1/</guid>
+      <description>Even if VMware vSphere has pretty stringent hardware requirements, there are some rather cheap options available if you want to set up your own vSphere Lab for training or testing purposes.
+In this first post of the series, I&amp;rsquo;ll examine the option of setting up a Virtual vSphere Lab, based on VMware Workstation 7.1:
+The Virtual vSphere Lab In VMware Workstation 7.1, running vSphere 4.1 is supported as a guest operating system.</description>
+    </item>
+    
+    <item>
+      <title>Using USB Pass-through in vSphere 4.1</title>
+      <link>/posts/using-usb-pass-through-in-vsphere-4-1/</link>
+      <pubDate>Thu, 22 Jul 2010 23:03:27 +0000</pubDate>
+      
+      <guid>/posts/using-usb-pass-through-in-vsphere-4-1/</guid>
+      <description>Finally USB pass-through is possible on ESX hosts with the new vSphere 4.1 release! This feature ha been available in VMware Workstation/Fusion and Player for quite a while. The freshly added feature in vSphere 4.1 even works if you vMotion the guest from one host to another, which is in itself pretty amazing functionality!
+In this post, I&amp;rsquo;ll show how to setup and use the new USB pass-through feature in vSphere 4.</description>
+    </item>
+    
+  </channel>
+</rss>

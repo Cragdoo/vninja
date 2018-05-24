@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Proof of Concept on Adventures in Hugo</title>
+    <link>/tags/proof-of-concept/</link>
+    <description>Recent content in Proof of Concept on Adventures in Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
+    <lastBuildDate>Wed, 24 Feb 2016 10:42:26 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/proof-of-concept/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Running a VSAN PoC - Customer reactions</title>
+      <link>/posts/running-a-vsan-poc-customer-reactions/</link>
+      <pubDate>Wed, 24 Feb 2016 10:42:26 +0000</pubDate>
+      
+      <guid>/posts/running-a-vsan-poc-customer-reactions/</guid>
+      <description>I recently set up a VMware Virtual SAN 6.1 Proof-of-Concept for a customer, configuring a 3-node cluster based on the following setup:
+Hardware:  HP ProLiant DL380 G9
+ 2 x Intel Xeon E5-2680 @ 2.50Ghz w/12 Cores
+ 392 GB RAM
+ 1 x Intel DC 3700 800GB NVMe
+ 6 x Intel DC S3610 1.4TB SSD
+ HP FlexFabric 556FLR-SFP+ 10GBe NICs
+  Virtual SAN Setup: Since this was a simple PoC setup, the VSAN was configured with 1 disk group pr host with all 6 Intel DC S3610 drives used as the capacity layer, and the Intel DC P3700 NVMe cards set up as the cache.</description>
+    </item>
+    
+  </channel>
+</rss>

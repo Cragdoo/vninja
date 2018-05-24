@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Esx 3.5 on Adventures in Hugo</title>
+    <link>/tags/esx-3.5/</link>
+    <description>Recent content in Esx 3.5 on Adventures in Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
+    <lastBuildDate>Mon, 02 Jul 2012 19:50:03 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/esx-3.5/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>vSphere 5: Creating a Hardware Version 4 VM</title>
+      <link>/posts/vsphere-5-creating-hardware-version-4-vm/</link>
+      <pubDate>Mon, 02 Jul 2012 19:50:03 +0000</pubDate>
+      
+      <guid>/posts/vsphere-5-creating-hardware-version-4-vm/</guid>
+      <description>I recently had a need to create a VM for usage on ESX 3.x, but the only thing available to me in my lab was vSphere 5, which naturally creates new VMs with the latest and greatest version 8 virtual hardware.
+The following table lists the virtual hardware versions and the corresponding ESX and ESXi releases: Version 
+Virtual Hardware Version   ESXi 5.x 
+8   ESX/ESXi 4.</description>
+    </item>
+    
+  </channel>
+</rss>

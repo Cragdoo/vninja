@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Care Package on Adventures in Hugo</title>
+    <link>/tags/care-package/</link>
+    <description>Recent content in Care Package on Adventures in Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
+    <lastBuildDate>Tue, 11 Sep 2012 17:33:35 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/care-package/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>... and All I Asked for Was a Pin</title>
+      <link>/posts/all-i-asked-for-was-a-pin/</link>
+      <pubDate>Tue, 11 Sep 2012 17:33:35 +0000</pubDate>
+      
+      <guid>/posts/all-i-asked-for-was-a-pin/</guid>
+      <description>Way back in the old days, you know when VMworld 2012 was held in San Francisco, I tweeted that if someone could get hold of a VCP pin for me, I would be very happy.
+Luckily Paul Valentino from vCommunity Trust picked that up, and apparently went on quite the scavenger hunt on my behalf.
+Imagine my surprise today when this little square meter of carton appeared, courtesy of Mr. Valentino:</description>
+    </item>
+    
+  </channel>
+</rss>

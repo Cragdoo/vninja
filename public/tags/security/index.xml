@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Security on Adventures in Hugo</title>
+    <link>/tags/security/</link>
+    <description>Recent content in Security on Adventures in Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
+    <lastBuildDate>Sun, 14 Jan 2018 16:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Curious Case of the Intel Microcode Part #2 - It Gets Better — Then Worse</title>
+      <link>/posts/curious-case-intel-microcode-part-2-gets-better-worse/</link>
+      <pubDate>Sun, 14 Jan 2018 16:00:00 +0000</pubDate>
+      
+      <guid>/posts/curious-case-intel-microcode-part-2-gets-better-worse/</guid>
+      <description>This guest post by Bjørn Anders Jørgensen, Senior Systems Consultant Basefarm, first appeared on LinkedIn.
+Before you start on this rather long post, have a go at part #1:
+tl;dr This is a long read. To get to the juicy part on how Intel potentially shipped pre-release microcode to partners, skip to section 3. The short, short version is that the official Intel microcode update contains newer microcode for Skylake-SP and Kaby Lake/Coffe Lake than what currently is shipping from VMware/HPE/DellEMC etc.</description>
+    </item>
+    
+    <item>
+      <title>The Curious Case of the Intel Microcode</title>
+      <link>/posts/the-curious-case-of-the-intel-microcode/</link>
+      <pubDate>Tue, 09 Jan 2018 18:37:24 +0000</pubDate>
+      
+      <guid>/posts/the-curious-case-of-the-intel-microcode/</guid>
+      <description>This guest post by Bjørn Anders Jørgensen, Senior Systems Consultant Basefarm, first appeared on LinkedIn.
+Disclaimer: This is a report based on current development as of 7. January, the situation is changing by the hour so read this opinion piece with that in hindsight.
+Unless you have been living under a rock for the last week you will know by now that there is a universal design flaw in most modern microprocessors, leaving them vulnerable to a serious information disclosure problem that requires updates to all operating systems and processors.</description>
+    </item>
+    
+    <item>
+      <title>PSA: Protect Your Email with DMARC</title>
+      <link>/posts/psa-protect-your-email-with-dmarc/</link>
+      <pubDate>Sat, 15 Apr 2017 22:00:08 +0000</pubDate>
+      
+      <guid>/posts/psa-protect-your-email-with-dmarc/</guid>
+      <description>In the last few months, I&amp;rsquo;ve seen an uptick in spoofed emails being sent with my own personal email domain. Not only is this extremely annoying, but more problematic is that recipients receive spam and phishing emails from what seems to be my personal mail account, simply by spoofing the from address. I don&amp;rsquo;t know why domain and email address has been &amp;ldquo;chosen&amp;rdquo; for this, but I guess this is fallout from the LinkedIn breach way back in 2012.</description>
+    </item>
+    
+    <item>
+      <title>It&#39;s Time to End the Add on Insanity</title>
+      <link>/posts/time-add-insanity/</link>
+      <pubDate>Mon, 13 Jul 2015 22:17:12 +0000</pubDate>
+      
+      <guid>/posts/time-add-insanity/</guid>
+      <description>For the third time in a week, researchers have discovered a zero-day vulnerability in Adobe’s Flash Player browser plugin. Like the previous two discoveries, this one came to light only after hackers dumped online huge troves of documents stolen from Hacking Team — an Italian security firm that sells software exploits to governments around the world. This quote is from Brian Krebs, who very rightfully goes on to advise that everyone &amp;ldquo;please consider removing or at least hobbling this program.</description>
+    </item>
+    
+    <item>
+      <title>Installing and running VMware Compliance Checker for vSphere</title>
+      <link>/posts/installing-and-running-vmware-compliance-checker-for-vsphere/</link>
+      <pubDate>Wed, 20 Apr 2011 07:01:37 +0000</pubDate>
+      
+      <guid>/posts/installing-and-running-vmware-compliance-checker-for-vsphere/</guid>
+      <description>The first version of the new VMware Compliance Checker for vSphere tool is now available for download.
+VMware Compliance Checker for vSphere lets you scan your ESX and ESXi hosts for compliance with the VMware vSphere hardening guidelines to make sure your hosts are properly configured. It also lets you save and print your assessment results, so you can track your compliance level over time, or use them as documentation for internal audits.</description>
+    </item>
+    
+  </channel>
+</rss>

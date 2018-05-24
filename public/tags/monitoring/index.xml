@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Monitoring on Adventures in Hugo</title>
+    <link>/tags/monitoring/</link>
+    <description>Recent content in Monitoring on Adventures in Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
+    <lastBuildDate>Mon, 14 Jan 2013 23:53:50 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/monitoring/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dell (VKernel) vOPS Server Explorer 6.3 Released</title>
+      <link>/posts/dell-vkernel-vops-server-explorer-6-3-released/</link>
+      <pubDate>Mon, 14 Jan 2013 23:53:50 +0000</pubDate>
+      
+      <guid>/posts/dell-vkernel-vops-server-explorer-6-3-released/</guid>
+      <description>[caption id=&amp;ldquo;attachment_2341&amp;rdquo; align=&amp;ldquo;alignright&amp;rdquo; width=&amp;ldquo;300&amp;rdquo;] vOPS 6.3 Environment Explorer[/caption]
+Yesterday fellow vExpert Mattias Sundling gave me a little pre-release briefing of the new Dell/VKernel vOPS Server Explorer 6.3 release.
+While I don´t normally do press release posts like these, I´m willing to make an exception in this case.
+Not only is vOPS Server Explorer 6.3 available in a free version, with the familiar tools from previous versions, the new release also comes armed with a couple of new interesting tools in the suite:</description>
+    </item>
+    
+    <item>
+      <title>Installing and configuring VMware vCenter Operations</title>
+      <link>/posts/installing-and-configuring-vmware-vcenter-operations/</link>
+      <pubDate>Mon, 21 Mar 2011 19:50:02 +0000</pubDate>
+      
+      <guid>/posts/installing-and-configuring-vmware-vcenter-operations/</guid>
+      <description>VMware vCenter Operations was released to the general public a week or so ago and is available for download right now. As usual you can download a 60 day trial, and get started immediately.
+Like other recent management utilities from VMware, vCenter Operations comes in the form of a .OVF template (like vCMA/vMA).
+Installing VMware vCenter Operations Download VMware vCenter Operations and import by starting vCenter Client, navigate to the “File” menu and select “Deploy OVF template…”</description>
+    </item>
+    
+  </channel>
+</rss>

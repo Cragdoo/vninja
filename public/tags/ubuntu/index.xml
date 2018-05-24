@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ubuntu on Adventures in Hugo</title>
+    <link>/tags/ubuntu/</link>
+    <description>Recent content in Ubuntu on Adventures in Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
+    <lastBuildDate>Tue, 07 Oct 2014 23:26:03 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Building an Ubuntu 14.04 Appliance with VMware Studio 2.6</title>
+      <link>/posts/building-ubuntu-14-04-appliance-vmware-studio-2-6/</link>
+      <pubDate>Tue, 07 Oct 2014 23:26:03 +0000</pubDate>
+      
+      <guid>/posts/building-ubuntu-14-04-appliance-vmware-studio-2-6/</guid>
+      <description>VMware Studio 2.6 was released way back in March 2012, and surprisingly there seems to be no new update in sight. While VMware Studio technically still works, even with newer versions of ESXi and vCenter, the supported operating systems for the appliances it can build is somewhat outdated:
+ Red Hat Enterprise Linux 5.5&amp;frasl;6.0
+ SUSE Linux Enterprise Server 10.2&amp;frasl;11.1
+ Ubuntu 8.04.4&amp;frasl;10.04.1
+ Windows Server 2003 R2 / 2008 R2 w/SP1</description>
+    </item>
+    
+  </channel>
+</rss>

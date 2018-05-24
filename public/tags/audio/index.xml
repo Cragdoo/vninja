@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Audio on Adventures in Hugo</title>
+    <link>/tags/audio/</link>
+    <description>Recent content in Audio on Adventures in Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
+    <lastBuildDate>Fri, 18 Jul 2014 21:59:52 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/audio/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>This Week in Virtualization</title>
+      <link>/posts/week-virtualization/</link>
+      <pubDate>Fri, 18 Jul 2014 21:59:52 +0000</pubDate>
+      
+      <guid>/posts/week-virtualization/</guid>
+      <description>I was invited by Nick Martin and Tom Walat to join them in this pre-VMworld edition of the podcast, so if you&amp;rsquo;re not bored reading about my Marvin speculations already, you can now listen to them as well over at This Week in Virtualizationby SearchServerVirtualization. It also covers some expectation for VMworld 2014, which is rapidly getting closer.</description>
+    </item>
+    
+  </channel>
+</rss>

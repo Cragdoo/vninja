@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="VMware vShield Manager Upgrade - Password Issues" />
+<meta property="og:description" content="While upgrading a vShield Manager 5.1.1 install to 5.1.4 at a client, I ran into an issue with logging in after a completed upgrade. The username and password used to log in, and subsequently upload the upgrade file, was no longer working after the upgrade finished and the vShield Manager appliance had been rebooted.
+It turns out that this was due to using international characters in the password for the admin user, in this case the Norwegian specialities æ, ø or å." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/vmware-vshield-manager-upgrade-password-issues/" />
+
+
+
+<meta property="article:published_time" content="2014-04-29T08:18:35&#43;00:00"/>
+
+<meta property="article:modified_time" content="2014-04-29T08:18:35&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="VMware vShield Manager Upgrade - Password Issues"/>
+<meta name="twitter:description" content="While upgrading a vShield Manager 5.1.1 install to 5.1.4 at a client, I ran into an issue with logging in after a completed upgrade. The username and password used to log in, and subsequently upload the upgrade file, was no longer working after the upgrade finished and the vShield Manager appliance had been rebooted.
+It turns out that this was due to using international characters in the password for the admin user, in this case the Norwegian specialities æ, ø or å."/>
+<meta name="generator" content="Hugo 0.40.3" />
+
+
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "VMware vShield Manager Upgrade - Password Issues",
+  "url": "/posts/vmware-vshield-manager-upgrade-password-issues/",
+  "wordCount": "171",
+  "datePublished": "2014-04-29T08:18:35&#43;00:00",
+  "dateModified": "2014-04-29T08:18:35&#43;00:00",
+  "author": {
+    "@type": "Person",
+    "name": "cmohn"
+  },
+  "keywords": "VMware, Appliance, Internationalization, Password, vShield, vShield Manager"
+}
+</script>
+
+
+
+    <link rel="canonical" href="/posts/vmware-vshield-manager-upgrade-password-issues/">
+
+    <title>VMware vShield Manager Upgrade - Password Issues | Adventures in Hugo</title>
+
+    <!-- combined, minified CSS -->
+    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
+
+    
+
+    
+
+    
+
+    
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="/">Home</a>
+          
+          <a class="nav-link" href="https://example.org" title="">Link 1</a>
+          
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
+        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+      </div>
+    </header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/vmware-vshield-manager-upgrade-password-issues/">VMware vShield Manager Upgrade - Password Issues</a></h2>
+    <p class="blog-post-meta"><time datetime="2014-04-29T08:18:35Z">Tue Apr 29, 2014</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/vmware" rel="category tag">VMware</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/appliance" rel="tag">Appliance</a>, <a href="/tags/internationalization" rel="tag">Internationalization</a>, <a href="/tags/password" rel="tag">Password</a>, <a href="/tags/vmware" rel="tag">VMware</a>, <a href="/tags/vshield" rel="tag">vShield</a>, <a href="/tags/vshield-manager" rel="tag">vShield Manager</a>
+
+</p>
+  </header>
+  <p>While upgrading a vShield Manager 5.1.1 install to 5.1.4 at a client, I ran into an issue with logging in after a completed upgrade. The username and password used to log in, and subsequently upload the upgrade file, was no longer working after the upgrade finished and the vShield Manager appliance had been rebooted.</p>
+
+<p><img src="http://vninja.net/wordpress/wp-content/uploads/2014/04/vShieldManagerError.png" alt="vShieldManagerError" /></p>
+
+<p>It turns out that this was due to using international characters in the password for the <em>admin</em> user, in this case the Norwegian specialities æ, ø or å.</p>
+
+<p>I was &ldquo;lucky&rdquo; enough to have taken a snapshot of the 5.1.1 vShield Manager appliance before performing the upgrade. After reverting back to the pre-upgrade snapshot, logging in, changing the password to one not containing international characters,  and then performing the upgrade procedure again the appliance was upgraded to 5.1.4 and logon could be done with out problems.</p>
+
+<p><em>Be careful when using international characters in passwords for any of the VMware appliances, as I suspect this might be an issue also for other components, not only the vShield Manager.</em></p>
+
+
+  
+
+  
+  <hr>
+  <footer>
+
+  
+    <section>
+    <h4>Share</h4>
+    <nav class="nav sharing-icons">
+      <a class="nav-item" href="https://www.facebook.com/sharer/sharer.php?u=%2fposts%2fvmware-vshield-manager-upgrade-password-issues%2f" title="Share on Facebook"><span class="fa fa-facebook fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://plus.google.com/share?url=%2fposts%2fvmware-vshield-manager-upgrade-password-issues%2f" title="Share on Google+"><span class="fa fa-google-plus fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fposts%2fvmware-vshield-manager-upgrade-password-issues%2f" title="Share on LinkedIn"><span class="fa fa-linkedin fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://twitter.com/home?status=%2fposts%2fvmware-vshield-manager-upgrade-password-issues%2f" title="Tweet this"><span class="fa fa-twitter fa-2x"></span></a>
+    </nav>
+  </section>
+
+  
+
+  
+  </footer>
+  
+
+</article> 
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="https://example.com">Link 1</a></li>
+      
+      <li><a href="https://example.org">Link 2</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p>
+      
+      &copy; Christian Mohn
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="Is Hyperconverged the be-all, end-all? No." />
+<meta property="og:description" content="First off, this is not meant to be a post negating the value of current hyperconverged solutions available in the market. I think hyperconverged has it&rsquo;s place, and for many use cases it makes perfect sense to go down that route. But the idea that everyone should go hyperconverged and all data should be placed on local drives, even if made redundant inside the chassis and even between chassis, is to be blunt, a bit silly." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/hyperconverged-be-all-end-all-no/" />
+
+
+
+<meta property="article:published_time" content="2014-09-22T21:48:40&#43;00:00"/>
+
+<meta property="article:modified_time" content="2014-09-22T21:48:40&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Is Hyperconverged the be-all, end-all? No."/>
+<meta name="twitter:description" content="First off, this is not meant to be a post negating the value of current hyperconverged solutions available in the market. I think hyperconverged has it&rsquo;s place, and for many use cases it makes perfect sense to go down that route. But the idea that everyone should go hyperconverged and all data should be placed on local drives, even if made redundant inside the chassis and even between chassis, is to be blunt, a bit silly."/>
+<meta name="generator" content="Hugo 0.40.3" />
+
+
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Is Hyperconverged the be-all, end-all? No.",
+  "url": "/posts/hyperconverged-be-all-end-all-no/",
+  "wordCount": "646",
+  "datePublished": "2014-09-22T21:48:40&#43;00:00",
+  "dateModified": "2014-09-22T21:48:40&#43;00:00",
+  "author": {
+    "@type": "Person",
+    "name": "cmohn"
+  },
+  "keywords": "Rant, Architecture, Future, Hyperconverged, Intel"
+}
+</script>
+
+
+
+    <link rel="canonical" href="/posts/hyperconverged-be-all-end-all-no/">
+
+    <title>Is Hyperconverged the be-all, end-all? No. | Adventures in Hugo</title>
+
+    <!-- combined, minified CSS -->
+    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
+
+    
+
+    
+
+    
+
+    
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="/">Home</a>
+          
+          <a class="nav-link" href="https://example.org" title="">Link 1</a>
+          
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
+        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+      </div>
+    </header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/hyperconverged-be-all-end-all-no/">Is Hyperconverged the be-all, end-all? No.</a></h2>
+    <p class="blog-post-meta"><time datetime="2014-09-22T21:48:40Z">Mon Sep 22, 2014</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/rant" rel="category tag">Rant</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/architecture" rel="tag">Architecture</a>, <a href="/tags/future" rel="tag">Future</a>, <a href="/tags/hyperconverged" rel="tag">Hyperconverged</a>, <a href="/tags/intel" rel="tag">Intel</a>
+
+</p>
+  </header>
+  <p>First off, this is not meant to be a post negating the value of current hyperconverged solutions available in the market. I think hyperconverged has it&rsquo;s place, and for many use cases it makes perfect sense to go down that route. But the idea that everyone should go hyperconverged and all data should be placed on local drives, even if made redundant inside the chassis and even between chassis, is to be blunt, a bit silly.</p>
+
+<p>Parts of this post is inspired by a recent discussion on Twitter:</p>
+
+<p><a href="https://twitter.com/h0bbel/status/513379995155447808">https://twitter.com/h0bbel/status/513379995155447808</a></p>
+
+<p>I don&rsquo;t believe that replacing your existing storage array with a hyperconverged solution, regardless of vendor, by moving your data off the array and on to the local disks in the cluster makes that much sense. Sure, keep your hot and fresh data set as close to the compute layer as possible, but for long time archiving purposes? For rarely accessed, but required data? Why would you do that? Of course, going hyperconverged would mean that you can free up some of that costly array space and leave long term retention data on the array, but does the hyperconverged solution of choice let you do that? Does it even have FC HBA&rsquo;s? If not, is it cost effective to invest in it, while you at the same time need to keep your &ldquo;traditional&rdquo; infrastructure in place to keep all that data available?</p>
+
+<p>To quote <a href="http://www.hyperconverged.org/dense-server-storage-hyperconverged/">Scott D. Lowe</a>:</p>
+
+<blockquote>Any solution that uses standalone storage is not hyperconverged. With a hyperconverged solution, every time a new node is added, there is additional compute, storage, and network capability added to the cluster. Simply adding a shelf of disks to an existing storage system does not provide linear scalability and can eventually lead to resource constraints if not managed carefully.</blockquote>
+
+<p>Doesn&rsquo;t that really show one of biggest the problems with a hyperconverged infrastructure? If you need to scale CPU, Memory AND Storage at the same time, it makes perfect sense. But what if you need to scale one of the items? Individually? Why should you have to buy more CPU, and licenses, if all you wanted was to add some more storage space?</p>
+
+<p>Of course, this brings the discussion right back to where it started, if you want to scale the various infrastructure components individually, then hyperconverged isn&rsquo;t the right solution. But if hyperconverged isn&rsquo;t the solution, and traditional &ldquo;DIY&rdquo; infrastructures have to many components to manage individually, then what? Sure, the Software Defined Data Center looks promising, but at the end of the day, we still need hardware to run the software on. The hardware may very well be generic, but it&rsquo;s still required.</p>
+
+<p>Interestingly enough, a post by Scott Lowe (no, not the same one as quoted above), got me thinking about what the future might hold in this regard: <a href="http://blog.scottlowe.org/2014/09/22/thinking-about-intel-rack-scale-architecture/">Thinking About Intel Rack-Scale Architecture</a>. To get to the point where we can manage a datacenter like a hyperconverged cluster, and still be able to scale vertically as needed, we need a completely new approach to the whole core architecture of our systems. Bundling CPU, Memory, Storage and Networking in a single manageable unit doesn&rsquo;t cut it in the long run. Now that the workloads are (mostly) virtualized, it&rsquo;s time to take a real hard look at how the compute nodes are constructed.</p>
+
+<p>Decoupling <em>CPU</em>, <em>Memory</em>, <em>Storage Volume, Storage Performance</em> and <em>Network</em> into entirely modular units that can be plugged in and scaled individually makes a whole lot more sense. By the looks of it <em>Intel Rack-Scale Architecture</em> might just be that, I guess we&rsquo;ll see down the road if it´s actually doable.</p>
+
+<p>The software side of things are moving fast, and honestly, I&rsquo;m kind of glad that hardware isn&rsquo;t moving at the same pace. At least that gives us breathing room enough to actually think about what we&rsquo;re doing, or at the very least pretend that we do.</p>
+
+
+  
+
+  
+  <hr>
+  <footer>
+
+  
+    <section>
+    <h4>Share</h4>
+    <nav class="nav sharing-icons">
+      <a class="nav-item" href="https://www.facebook.com/sharer/sharer.php?u=%2fposts%2fhyperconverged-be-all-end-all-no%2f" title="Share on Facebook"><span class="fa fa-facebook fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://plus.google.com/share?url=%2fposts%2fhyperconverged-be-all-end-all-no%2f" title="Share on Google+"><span class="fa fa-google-plus fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fposts%2fhyperconverged-be-all-end-all-no%2f" title="Share on LinkedIn"><span class="fa fa-linkedin fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://twitter.com/home?status=%2fposts%2fhyperconverged-be-all-end-all-no%2f" title="Tweet this"><span class="fa fa-twitter fa-2x"></span></a>
+    </nav>
+  </section>
+
+  
+
+  
+  </footer>
+  
+
+</article> 
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="https://example.com">Link 1</a></li>
+      
+      <li><a href="https://example.org">Link 2</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p>
+      
+      &copy; Christian Mohn
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Whitepaper on Adventures in Hugo</title>
+    <link>/tags/whitepaper/</link>
+    <description>Recent content in Whitepaper on Adventures in Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
+    <lastBuildDate>Mon, 20 Jun 2011 20:58:35 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/whitepaper/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>7 Expert Tips for Managing Your Remote vSphere Infrastructure</title>
+      <link>/posts/7-expert-tips-for-managing-your-remote-vsphere-infrastructure/</link>
+      <pubDate>Mon, 20 Jun 2011 20:58:35 +0000</pubDate>
+      
+      <guid>/posts/7-expert-tips-for-managing-your-remote-vsphere-infrastructure/</guid>
+      <description>Now there is a catchy title if I ever saw one. Only &amp;ldquo;problem&amp;rdquo; is that it&amp;rsquo;s a whitepaper that I have written for Veeam. In reality this is the first published article I have ever written, that I didn&amp;rsquo;t publish on my own. I&amp;rsquo;m excited about it, yet strangely nervous about how it will be received by the people who download it. If you happen to do so, make sure to let me know how you found it, all comments and criticism will be most appreciated.</description>
+    </item>
+    
+    <item>
+      <title>vCenter Server 4.1 Performance and Best Practices</title>
+      <link>/posts/vcenter-server-4-1-performance-and-best-practices/</link>
+      <pubDate>Tue, 24 Aug 2010 20:06:16 +0000</pubDate>
+      
+      <guid>/posts/vcenter-server-4-1-performance-and-best-practices/</guid>
+      <description>VMware has published a new whitepaper called VMware vCenter Server Performance and Best Practices.
+This is a must read if you manage a vCenter 4.1 installation, or are currently planning your upgrade.
+The whitepaper highlights the performance improvements in the latest version, sizing guidelines, best practices and some really good real world information from several case studies. One simple, but probably often overlooked tip, is that the amount of vCenter Clients connected to your vCenter Server has an impact on it&amp;rsquo;s performance.</description>
+    </item>
+    
+  </channel>
+</rss>

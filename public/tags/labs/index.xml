@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Labs on Adventures in Hugo</title>
+    <link>/tags/labs/</link>
+    <description>Recent content in Labs on Adventures in Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
+    <lastBuildDate>Wed, 27 Mar 2013 08:50:29 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/labs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Brilliant idea: VMware Hosted Beta</title>
+      <link>/posts/brilliant-idea-vmware-hosted-beta/</link>
+      <pubDate>Wed, 27 Mar 2013 08:50:29 +0000</pubDate>
+      
+      <guid>/posts/brilliant-idea-vmware-hosted-beta/</guid>
+      <description>Duncan Epping rather unceremoniously published a blog post &amp;ldquo;New Beta Program offering: VMware Hosted Beta&amp;rdquo; yesterday, outlining the availability of the new hosted beta offering that companions some of the current VMware beta programs.
+_Due to the very NDA nature of the beta programs, I can´t really go into details on what is currently offered, but what I can say is this: Well done VMware!_
+The VMware Hosted Beta runs on the same engine that runs the VMware Hands on Labs Online – Beta, but with a little added twist.</description>
+    </item>
+    
+    <item>
+      <title>Unsupported Network Configurations in Virtual Appliances</title>
+      <link>/posts/unsupported-network-configurations-virtual-appliances/</link>
+      <pubDate>Tue, 19 Feb 2013 23:50:20 +0000</pubDate>
+      
+      <guid>/posts/unsupported-network-configurations-virtual-appliances/</guid>
+      <description>My recent experience with setting up vCenter Operations Manager on a standalone ESXi host, and the always excellent William Lam´s post Automating VCSA Network Configurations For Greenfield Deployments got me thinking.
+There are several other appliances out there that require deployment to a vCenter, to be able to configure the networking options and not just default to DHCP. In many, and perhaps even most, cases you can work around that by running the _vami_set_network _command to change from DHCP to STATIC network configurations.</description>
+    </item>
+    
+    <item>
+      <title>Getting It Right: VMware Training and Certification</title>
+      <link>/posts/right-vmware-training-certification/</link>
+      <pubDate>Mon, 01 Oct 2012 21:28:24 +0000</pubDate>
+      
+      <guid>/posts/right-vmware-training-certification/</guid>
+      <description>Everyone, and probably their extended family including their mother-in-law, has heard me whine and complain about the VCP training requirements.
+VMware has unveiled a new lab, namely Project Nee (Next-Generation Education Environment)
+and this is something I´m really excited about.
+Project Nee is described as this:
+VMware Project NEE is a new VMware Labs project providing a richly featured, powerful online learning and lab environment delivered from the cloud to any device, anywhere, anytime.</description>
+    </item>
+    
+    <item>
+      <title>VMware Virtual Customer Labs</title>
+      <link>/posts/vmware-virtual-customer-labs/</link>
+      <pubDate>Sat, 04 Feb 2012 18:43:44 +0000</pubDate>
+      
+      <guid>/posts/vmware-virtual-customer-labs/</guid>
+      <description>I´ve mentioned this earlier, VMware hands-in labs going public in 2012, but finally it seems like something is happening in that regard!
+Scott Sauer has announced the availability of &amp;ldquo;VMware Virtual Customer Labs” (vCL) where he walks us through the setup and delivery of the new vCL offering.
+At the moment it´s only available to &amp;ldquo;selected customers&amp;rdquo;, supported by a VMware pre-sales engineer, and the number of labs are limited. It´s still a work in progress, and I´m sure great things will come out of this!</description>
+    </item>
+    
+    <item>
+      <title>VMworld Hands-on Labs going public in 2012</title>
+      <link>/posts/vmworld-hands-on-labs-going-public-in-2012/</link>
+      <pubDate>Tue, 30 Aug 2011 10:41:03 +0000</pubDate>
+      
+      <guid>/posts/vmworld-hands-on-labs-going-public-in-2012/</guid>
+      <description>VMware Labs now has fixed data centers which means that the VMworld Hands-On labs are going to be publicly available in early 20112!
+Hear Mornay Van Der Walt, Senior Director R&amp;amp;D at VMware, explain the details in this video from VMworld TV:
+This is great news, and I&amp;rsquo;m sure I&amp;rsquo;m not the only one who thinks this is a really good idea.</description>
+    </item>
+    
+    <item>
+      <title>VMware vSphere Lab: Virtual Edition – Part 6</title>
+      <link>/posts/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-6/</link>
+      <pubDate>Thu, 21 Oct 2010 21:10:47 +0000</pubDate>
+      
+      <guid>/posts/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-6/</guid>
+      <description>This is the sixth post in a series outlining how to set up your own little virtualized Virtual vSphere Lab, if you missed part one, part two, part three, part four, or part five be sure to check them out first!
+Now that we have working DHCP and DNS services in our lab network, we&amp;rsquo;re ready to get out two little ESXi friends connected to it&amp;rsquo;s management service, VMware vCenter Server.</description>
+    </item>
+    
+    <item>
+      <title>VMware vSphere Lab: Virtual Edition – Part 5</title>
+      <link>/posts/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-5/</link>
+      <pubDate>Wed, 20 Oct 2010 13:31:51 +0000</pubDate>
+      
+      <guid>/posts/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-5/</guid>
+      <description>This is the fifth post in a series outlining how to set up your own little virtualized Virtual vSphere Lab, if you missed part one, part two, part three, or part four, be sure to check them out first!
+Ideally we would now install Microsoft Active Directory Domain Services (AD DS) on the Windows Server 2008 R2 VM we created in part four, but since VMware vCenter Server 4.1 also installs AD LDS (previously known as Active Directory Application Mode (ADAM)) it can not be installed on a AD Domain Controller.</description>
+    </item>
+    
+    <item>
+      <title>VMware vSphere Lab: Virtual Edition – Part 4</title>
+      <link>/posts/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-4/</link>
+      <pubDate>Tue, 19 Oct 2010 18:01:49 +0000</pubDate>
+      
+      <guid>/posts/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-4/</guid>
+      <description>This is the fourth post in a series outlining how to set up your own little virtualized Virtual vSphere Lab, if you missed part one, part two, or part three be sure to check them out first!
+In part 4 we&amp;rsquo;ll be installing a Windows Server 2008 R2 VM, to use as the basis for the VMware vCenter Server installation.
+First off, create a new VM in VMware Workstation. This works exactly the same way as we did it in part 3, but I&amp;rsquo;ll repeat the steps here as well.</description>
+    </item>
+    
+    <item>
+      <title>VMware vSphere Lab: Virtual Edition – Part 3</title>
+      <link>/posts/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-3/</link>
+      <pubDate>Mon, 18 Oct 2010 20:16:28 +0000</pubDate>
+      
+      <guid>/posts/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-3/</guid>
+      <description>This is the third post in a series outlining how to set up your own little virtualized Virtual vSphere Lab, if you missed part one or part two, be sure to check them out first!
+I&amp;rsquo;m going to assume that you already have VMware Workstation 7.x installed and ready. If not, get it installed before continuing.
+Now that we have all the prerequisites in place, we&amp;rsquo;re going to go straight to installing the first ESXi host for your lab.</description>
+    </item>
+    
+    <item>
+      <title>VMware vSphere Lab: Virtual Edition - Part 2</title>
+      <link>/posts/vmware-vsphere-lab-virtual-edition-part-2/</link>
+      <pubDate>Mon, 18 Oct 2010 07:00:55 +0000</pubDate>
+      
+      <guid>/posts/vmware-vsphere-lab-virtual-edition-part-2/</guid>
+      <description>This is the second post in a series outlining how to set up your own little virtualized Virtual vSphere Lab, if you missed the first one be sure to check it out!
+The first step in setting up the The Virtual vSphere Lab, is making sure you have everything you need. To get everything up and running, you’ll need the following:
+ VMware Workstation 7.x downloaded and installed. A 30 day trial version download is available at vmware.</description>
+    </item>
+    
+    <item>
+      <title>VMware vSphere Lab: Virtual Edition - Part 1</title>
+      <link>/posts/vmware-vsphere-lab-virtual-edition-part-1/</link>
+      <pubDate>Sun, 17 Oct 2010 20:16:44 +0000</pubDate>
+      
+      <guid>/posts/vmware-vsphere-lab-virtual-edition-part-1/</guid>
+      <description>Even if VMware vSphere has pretty stringent hardware requirements, there are some rather cheap options available if you want to set up your own vSphere Lab for training or testing purposes.
+In this first post of the series, I&amp;rsquo;ll examine the option of setting up a Virtual vSphere Lab, based on VMware Workstation 7.1:
+The Virtual vSphere Lab In VMware Workstation 7.1, running vSphere 4.1 is supported as a guest operating system.</description>
+    </item>
+    
+  </channel>
+</rss>

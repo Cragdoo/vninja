@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="Virtualization" />
+<meta property="og:description" content="There is a thin line between agile and fragile" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="/categories/virtualization/" />
+
+
+
+<meta property="og:updated_time" content="2016-08-08T09:35:47&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Virtualization"/>
+<meta name="twitter:description" content="There is a thin line between agile and fragile"/>
+<meta name="generator" content="Hugo 0.40.3" />
+
+
+    
+      
+    
+
+    <link rel="canonical" href="/categories/virtualization/">
+
+    <title>Adventures in Hugo</title>
+
+    <!-- combined, minified CSS -->
+    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
+
+    
+    <!-- RSS 2.0 feed -->
+    <link href="/categories/virtualization/index.xml" rel="alternate" type="application/rss+xml" title="Adventures in Hugo" />
+    
+
+    
+
+    
+
+    
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="/">Home</a>
+          
+          <a class="nav-link" href="https://example.org" title="">Link 1</a>
+          
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
+        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+      </div>
+    </header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/veeam-vcenter-migration-utility/">Veeam vCenter Migration Utility</a></h2>
+    <p class="blog-post-meta"><time datetime="2016-08-08T09:35:47Z">Mon Aug 08, 2016</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/backup" rel="tag">Backup</a>, <a href="/tags/backup-amp-replication" rel="tag">Backup &amp;amp; Replication</a>, <a href="/tags/moref" rel="tag">MoRef</a>, <a href="/tags/vcenter" rel="tag">vCenter</a>, <a href="/tags/veeam" rel="tag">Veeam</a>
+
+</p>
+  </header>
+  Way back in 2013, I published Preserve your Veeam B&amp;R Backups Jobs when Moving vCenter, outlining how to &ldquo;cheat&rdquo; (by using a CNAME alias) to preserve your Veeam Backup &amp; Replication jobs if you replace your VMware vCenter.
+Naturally, when there is a new vCenter instance, all the Virtual Machine Managed Object Reference&rsquo;s (MoRef) change, which makes Veeam Backup &amp; Replication start a new backup/replication chain, since all VMs are treated as new ones.
+  <a href='/posts/veeam-vcenter-migration-utility/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/vsphere-platform-services-controller-psc-topology-and-omnigraffle/">vSphere Platform Services Controller (PSC) topology and Omnigraffle</a></h2>
+    <p class="blog-post-meta"><time datetime="2016-05-22T19:19:52Z">Sun May 22, 2016</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/automation" rel="tag">automation</a>, <a href="/tags/omnigraffle" rel="tag">Omnigraffle</a>, <a href="/tags/psc" rel="tag">PSC</a>, <a href="/tags/script" rel="tag">Script</a>, <a href="/tags/topology" rel="tag">Topology</a>, <a href="/tags/vsphere" rel="tag">vSphere</a>
+
+</p>
+  </header>
+  A little while ago William Lam published a little python script called extract_vsphere_deployment_topology.py that basically lets you export your current vSphere PSC topology as a DOT (graph description language) file. Great stuff, and in itself useful as is, especially if you run it through webgraphviz.com as William suggests.
+The thing is, you might want to edit the topology map, change colours and fonts, and even move the boxes around, after you get the output.
+  <a href='/posts/vsphere-platform-services-controller-psc-topology-and-omnigraffle/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/running-a-vsan-poc-customer-reactions/">Running a VSAN PoC - Customer reactions</a></h2>
+    <p class="blog-post-meta"><time datetime="2016-02-24T10:42:26Z">Wed Feb 24, 2016</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/proof-of-concept" rel="tag">Proof-of-Concept</a>, <a href="/tags/storage" rel="tag">storage</a>, <a href="/tags/vsan" rel="tag">VSAN</a>
+
+</p>
+  </header>
+  I recently set up a VMware Virtual SAN 6.1 Proof-of-Concept for a customer, configuring a 3-node cluster based on the following setup:
+Hardware:  HP ProLiant DL380 G9
+ 2 x Intel Xeon E5-2680 @ 2.50Ghz w/12 Cores
+ 392 GB RAM
+ 1 x Intel DC 3700 800GB NVMe
+ 6 x Intel DC S3610 1.4TB SSD
+ HP FlexFabric 556FLR-SFP+ 10GBe NICs
+  Virtual SAN Setup: Since this was a simple PoC setup, the VSAN was configured with 1 disk group pr host with all 6 Intel DC S3610 drives used as the capacity layer, and the Intel DC P3700 NVMe cards set up as the cache.
+  <a href='/posts/running-a-vsan-poc-customer-reactions/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/running-dockerflix-on-ravello-systems/">Running Dockerflix on Ravello Systems</a></h2>
+    <p class="blog-post-meta"><time datetime="2016-01-14T12:32:59Z">Thu Jan 14, 2016</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/docker" rel="tag">Docker</a>, <a href="/tags/dockerflix" rel="tag">Dockerflix</a>, <a href="/tags/hipster-it" rel="tag">Hipster IT</a>, <a href="/tags/ravello" rel="tag">Ravello</a>, <a href="/tags/vmware-photon" rel="tag">VMware Photon</a>
+
+</p>
+  </header>
+  Dockerflix is a nice little project that allows you to route your Netflix (and other various streaming services) through a SNI Proxy to access content otherwise geo-blocked. Of course, this requires that you have a VM with for instance an US IP to provide the breakout network, and that&rsquo;s where Ravello Systems comes into the equation. Luckily as a current vExpert I have access to 1000 free monthly CPU hours of personal/lab usage, all with a choice of regions to put the VM in.
+  <a href='/posts/running-dockerflix-on-ravello-systems/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/vmware-vsan-more-than-meets-the-eye/">VMware VSAN - More than meets the eye.</a></h2>
+    <p class="blog-post-meta"><time datetime="2015-11-13T08:54:01Z">Fri Nov 13, 2015</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/future" rel="tag">Future</a>, <a href="/tags/microvisor" rel="tag">Microvisor</a>, <a href="/tags/vsan" rel="tag">VSAN</a>, <a href="/tags/vsphere" rel="tag">vSphere</a>
+
+</p>
+  </header>
+  Way back in 2014 I wrote a piece called VSAN – The Unspoken Future, and I think it&rsquo;s about time it got a revision. Of course, lots of things have happened to VSAN since then and even more is on the way, but I think there is more to this than adding features like erasure coding, deduplication and compression. All of these are important features, and frankly they need to be in a product that aims a lot higher than you might think.
+  <a href='/posts/vmware-vsan-more-than-meets-the-eye/'>Read more →</a>
+</article> 
+
+
+
+
+
+<nav class="blog-pagination">
+  
+  <a class="btn btn-outline-primary" href="/categories/virtualization/page/3/" rel="prev" role="button">Previous page</a>
+  <a class="btn btn-outline-primary" href="/categories/virtualization/page/5/" rel="next" role="button">Next page</a>
+  
+  
+  
+</nav>
+
+
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="https://example.com">Link 1</a></li>
+      
+      <li><a href="https://example.org">Link 2</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p>
+      
+      &copy; Christian Mohn
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>

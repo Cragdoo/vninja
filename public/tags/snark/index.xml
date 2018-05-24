@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Snark on Adventures in Hugo</title>
+    <link>/tags/snark/</link>
+    <description>Recent content in Snark on Adventures in Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
+    <lastBuildDate>Mon, 10 Mar 2014 19:43:13 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/snark/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>It&#39;s All Fun and Games Until...</title>
+      <link>/posts/fun-games-until/</link>
+      <pubDate>Mon, 10 Mar 2014 19:43:13 +0000</pubDate>
+      
+      <guid>/posts/fun-games-until/</guid>
+      <description>Remember, it&amp;rsquo;s all fun and games until someone loses a certification</description>
+    </item>
+    
+  </channel>
+</rss>

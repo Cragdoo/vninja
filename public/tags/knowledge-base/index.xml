@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Knowledge Base on Adventures in Hugo</title>
+    <link>/tags/knowledge-base/</link>
+    <description>Recent content in Knowledge Base on Adventures in Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
+    <lastBuildDate>Wed, 17 Sep 2014 21:24:24 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/knowledge-base/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Need the vSphere Client? VMware Has You Covered.</title>
+      <link>/posts/vsphere-client-vmware-covered/</link>
+      <pubDate>Wed, 17 Sep 2014 21:24:24 +0000</pubDate>
+      
+      <guid>/posts/vsphere-client-vmware-covered/</guid>
+      <description>One of the more popular posts, currently in third place, on vNinja.net is my list of vSphere Client direct download links posted back in March 2012.
+Thankfully William Lam had the same idea, and got a new Knowledgebase Article published: Download URLs for VMware vSphere Client (2089791). Please use that article as the official download link documentation from now on.</description>
+    </item>
+    
+  </channel>
+</rss>

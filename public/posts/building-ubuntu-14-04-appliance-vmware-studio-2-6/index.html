@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="Building an Ubuntu 14.04 Appliance with VMware Studio 2.6" />
+<meta property="og:description" content="VMware Studio 2.6 was released way back in March 2012, and surprisingly there seems to be no new update in sight. While VMware Studio technically still works, even with newer versions of ESXi and vCenter, the supported operating systems for the appliances it can build is somewhat outdated:
+ Red Hat Enterprise Linux 5.5&frasl;6.0
+ SUSE Linux Enterprise Server 10.2&frasl;11.1
+ Ubuntu 8.04.4&frasl;10.04.1
+ Windows Server 2003 R2 / 2008 R2 w/SP1" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/building-ubuntu-14-04-appliance-vmware-studio-2-6/" />
+
+
+
+<meta property="article:published_time" content="2014-10-07T23:26:03&#43;00:00"/>
+
+<meta property="article:modified_time" content="2014-10-07T23:26:03&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Building an Ubuntu 14.04 Appliance with VMware Studio 2.6"/>
+<meta name="twitter:description" content="VMware Studio 2.6 was released way back in March 2012, and surprisingly there seems to be no new update in sight. While VMware Studio technically still works, even with newer versions of ESXi and vCenter, the supported operating systems for the appliances it can build is somewhat outdated:
+ Red Hat Enterprise Linux 5.5&frasl;6.0
+ SUSE Linux Enterprise Server 10.2&frasl;11.1
+ Ubuntu 8.04.4&frasl;10.04.1
+ Windows Server 2003 R2 / 2008 R2 w/SP1"/>
+<meta name="generator" content="Hugo 0.40.3" />
+
+
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Building an Ubuntu 14.04 Appliance with VMware Studio 2.6",
+  "url": "/posts/building-ubuntu-14-04-appliance-vmware-studio-2-6/",
+  "wordCount": "593",
+  "datePublished": "2014-10-07T23:26:03&#43;00:00",
+  "dateModified": "2014-10-07T23:26:03&#43;00:00",
+  "author": {
+    "@type": "Person",
+    "name": "cmohn"
+  },
+  "keywords": "VMware, Appliance, Hack, Ubuntu, Unsupported, VMware Studio"
+}
+</script>
+
+
+
+    <link rel="canonical" href="/posts/building-ubuntu-14-04-appliance-vmware-studio-2-6/">
+
+    <title>Building an Ubuntu 14.04 Appliance with VMware Studio 2.6 | Adventures in Hugo</title>
+
+    <!-- combined, minified CSS -->
+    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
+
+    
+
+    
+
+    
+
+    
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="/">Home</a>
+          
+          <a class="nav-link" href="https://example.org" title="">Link 1</a>
+          
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
+        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+      </div>
+    </header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/building-ubuntu-14-04-appliance-vmware-studio-2-6/">Building an Ubuntu 14.04 Appliance with VMware Studio 2.6</a></h2>
+    <p class="blog-post-meta"><time datetime="2014-10-07T23:26:03Z">Tue Oct 07, 2014</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/vmware" rel="category tag">VMware</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/appliance" rel="tag">Appliance</a>, <a href="/tags/hack" rel="tag">Hack</a>, <a href="/tags/ubuntu" rel="tag">Ubuntu</a>, <a href="/tags/unsupported" rel="tag">Unsupported</a>, <a href="/tags/vmware-studio" rel="tag">VMware Studio</a>
+
+</p>
+  </header>
+  
+
+<p>VMware Studio 2.6 was released way back in March 2012,  and surprisingly there seems to be no new update in sight. While VMware Studio technically still works, even with newer versions of ESXi and vCenter, the supported operating systems for the appliances it can build is <em>somewhat</em> outdated:</p>
+
+<ul>
+<li><p>Red Hat Enterprise Linux 5.<sup>5</sup>&frasl;<sub>6</sub>.0</p></li>
+
+<li><p>SUSE Linux Enterprise Server 10.<sup>2</sup>&frasl;<sub>11</sub>.1</p></li>
+
+<li><p>Ubuntu 8.04.<sup>4</sup>&frasl;<sub>10</sub>.04.1</p></li>
+
+<li><p>Windows Server 2003 R2 / 2008 R2 w/SP1</p></li>
+</ul>
+
+<h3 id="the-problem">The Problem:</h3>
+
+<p>For a yet to be announced project we are working on internally at EVRY, we needed to build an appliance that was based on newer software packages and development tools. Recent events like heartbleed and shellshock also highlight the need to build new appliances on new and supported distributions.</p>
+
+<p>Attempts at upgrading an existing Ubuntu 10.04.1 appliance to 14.04 failed miserably, due to architectural changes between the Ubuntu versions and how Virtual Appliance Management Infrastructure (VAMI) is installed by VMware Studio and in the end we were pretty much left to two options:</p>
+
+<ol>
+<li><p>Build the appliance from scratch, and lose VAMI, which was one of the primary reasons for building the appliance with VMware Studio in the first place.</p></li>
+
+<li><p>Find a way to build the appliance with Ubuntu 14.04, with VMware Studio.</p></li>
+</ol>
+
+<p>Option 1 felt a bit like giving up, and option 2, well that was a challenge we couldn&rsquo;t just walk away from.</p>
+
+<h3 id="the-solution">The Solution:</h3>
+
+<p>Thanks to the brilliant mind of my coworker <a href="http://twitter.com/esodesod">Espen Ødegaard,</a> we were able to come up with a set of solutions that does the trick.</p>
+
+<p>First we added a new profile to VMware Studio connecting to the VMware Studio VM via SSH, and by issuing the following command:
+[cc lang=&ldquo;bash&rdquo; width=&ldquo;100%&rdquo; theme=&ldquo;blackboard&rdquo; nowrap=&ldquo;1&rdquo;]
+studiocli &ndash;newos &ndash;osdesc &ldquo;Ubuntu14.04” &ndash;profile /opt/vmware/etc/build/templates/ubuntu/10/041/build_profile.xml
+[/cc]
+Basically this creates a new OS template in VMware Studio by copying the existing Ubuntu 10.04.1 profile.</p>
+
+<p>Next edit line 462 in <em>/opt/vmware/etc/build/templates/Ubuntu14.04/Ubuntu14.04.xsl</em> and change <em>scd0</em> to <em>sr0</em>.</p>
+
+<p>[cc lang=&ldquo;bash&rdquo; width=&ldquo;100%&rdquo; theme=&ldquo;blackboard&rdquo; nowrap=&ldquo;0&rdquo;]
+if ! mount -t iso9660 -r /dev/scd0 /target/${cdrom_dir} ; then <br />
+if ! mount -t iso9660 -r /dev/hda /target/${cdrom_dir} ; then <br />
+cdrom_mounted=0; <br />
+fi ; <br />
+[/cc]</p>
+
+<p>This fixes a problem with the appliance not being able to mount the Ubuntu installation iso when it is built. Place the Ubuntu 14.04 ISO in<em> /opt/vmware/www/ISV/ISO</em>, and create a new Build profile using the VMware Studio Web Interface.</p>
+
+<p>Now, before an appliance can be built, we need to fix some other problems that prevent VAMI from starting up, and preventing login to the VAMI web interface. First of, make sure that <em>libncurses5</em> is added as package under <strong>Application</strong> -&gt; <strong>List of packages from OS install media</strong>. Next, add the following to the <em>first boot script</em> under <strong>OS</strong>-&gt;<strong>Boot Customization</strong>, we can move around those problems.</p>
+
+<p>[cc lang=&ldquo;bash&rdquo; width=&ldquo;100%&rdquo; theme=&ldquo;blackboard&rdquo; nowrap=&ldquo;0&rdquo;]</p>
+
+<h1 id="create-symlinks-required-for-ubuntu-14-04-and-vami">Create symlinks required for Ubuntu 14.04 and VAMI</h1>
+
+<h1 id="copy-and-symlink-libncurses-to-the-location-vami-looks-for-them">Copy and symlink libncurses to the location VAMI looks for them</h1>
+
+<p>cp /lib/i386-linux-gnu/libncurses.so.5.9 /opt/vmware/lib/
+rm /opt/vmware/lib/libncurses.so.5
+ln -s /opt/vmware/lib/libncurses.so.5.9 /opt/vmware/lib/libncurses.so.5</p>
+
+<h1 id="symlink-pam-libraries-in-order-for-them-to-work-with-vami">Symlink PAM libraries in order for them to work with VAMI</h1>
+
+<h1 id="this-unbreaks-authentication-in-the-web-interface">This &ldquo;unbreaks&rdquo; authentication in the web interface</h1>
+
+<p>mkdir /lib/security
+ln -s /lib/i386-linux-gnu/security/* /lib/security/
+[/cc]</p>
+
+<p>For details on how all of this works, and how to create build profiles, check the official <a href="https://www.vmware.com/support/developer/studio/studio26/studio_developer.pdf">VMware Studio documentation</a>.</p>
+
+<p>The build process should now complete successfully, and you should have an Ubuntu 14.04 based appliance built with VMware Studio!
+<img src="http://vninja.net/wordpress/wp-content/uploads/2014/10/vStealth1.png" alt="vStealth1" />
+<img src="http://vninja.net/wordpress/wp-content/uploads/2014/10/vStealth2.png" alt="vStealth2" /></p>
+
+<p><em>Note that all of this is completely unsupported by VMware, and you are pretty much on your own. Hopefully there will be a new version of VMware Studio available soon, and we won&rsquo;t have to rely on unsupported hacks to get it working with newer operating systems.</em></p>
+
+
+  
+
+  
+  <hr>
+  <footer>
+
+  
+    <section>
+    <h4>Share</h4>
+    <nav class="nav sharing-icons">
+      <a class="nav-item" href="https://www.facebook.com/sharer/sharer.php?u=%2fposts%2fbuilding-ubuntu-14-04-appliance-vmware-studio-2-6%2f" title="Share on Facebook"><span class="fa fa-facebook fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://plus.google.com/share?url=%2fposts%2fbuilding-ubuntu-14-04-appliance-vmware-studio-2-6%2f" title="Share on Google+"><span class="fa fa-google-plus fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fposts%2fbuilding-ubuntu-14-04-appliance-vmware-studio-2-6%2f" title="Share on LinkedIn"><span class="fa fa-linkedin fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://twitter.com/home?status=%2fposts%2fbuilding-ubuntu-14-04-appliance-vmware-studio-2-6%2f" title="Tweet this"><span class="fa fa-twitter fa-2x"></span></a>
+    </nav>
+  </section>
+
+  
+
+  
+  </footer>
+  
+
+</article> 
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="https://example.com">Link 1</a></li>
+      
+      <li><a href="https://example.org">Link 2</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p>
+      
+      &copy; Christian Mohn
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="Exchange 2010 SP1 and KB2393802 or How to Have an Interesting Afternoon at the Office" />
+<meta property="og:description" content="Let me start this post out with a little story. I am normally a hardcore virtualization and storage guy. Sometimes my career in this sector brings me into working with stuff I haven&rsquo;t worked with before because virtualization encompasses so much. As I continue to work with other teams I learn more and more about what they do everyday. I usually find myself involved in every performance troubleshooting session and every new project these days." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/exchange-2010-sp1-and-kb2393802-or-how-to-have-an-interesting-afternoon-at-the-office/" />
+
+
+
+<meta property="article:published_time" content="2011-07-06T12:51:21&#43;00:00"/>
+
+<meta property="article:modified_time" content="2011-07-06T12:51:21&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Exchange 2010 SP1 and KB2393802 or How to Have an Interesting Afternoon at the Office"/>
+<meta name="twitter:description" content="Let me start this post out with a little story. I am normally a hardcore virtualization and storage guy. Sometimes my career in this sector brings me into working with stuff I haven&rsquo;t worked with before because virtualization encompasses so much. As I continue to work with other teams I learn more and more about what they do everyday. I usually find myself involved in every performance troubleshooting session and every new project these days."/>
+<meta name="generator" content="Hugo 0.40.3" />
+
+
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Exchange 2010 SP1 and KB2393802 or How to Have an Interesting Afternoon at the Office",
+  "url": "/posts/exchange-2010-sp1-and-kb2393802-or-how-to-have-an-interesting-afternoon-at-the-office/",
+  "wordCount": "1015",
+  "datePublished": "2011-07-06T12:51:21&#43;00:00",
+  "dateModified": "2011-07-06T12:51:21&#43;00:00",
+  "author": {
+    "@type": "Person",
+    "name": "eczerwin"
+  },
+  "keywords": "Microsoft, Event ID 2915, Exchange, KB2393802, Messaging, Ops, realworld, Windows"
+}
+</script>
+
+
+
+    <link rel="canonical" href="/posts/exchange-2010-sp1-and-kb2393802-or-how-to-have-an-interesting-afternoon-at-the-office/">
+
+    <title>Exchange 2010 SP1 and KB2393802 or How to Have an Interesting Afternoon at the Office | Adventures in Hugo</title>
+
+    <!-- combined, minified CSS -->
+    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
+
+    
+
+    
+
+    
+
+    
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="/">Home</a>
+          
+          <a class="nav-link" href="https://example.org" title="">Link 1</a>
+          
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
+        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+      </div>
+    </header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/posts/exchange-2010-sp1-and-kb2393802-or-how-to-have-an-interesting-afternoon-at-the-office/">Exchange 2010 SP1 and KB2393802 or How to Have an Interesting Afternoon at the Office</a></h2>
+    <p class="blog-post-meta"><time datetime="2011-07-06T12:51:21Z">Wed Jul 06, 2011</time> by eczerwin in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/microsoft" rel="category tag">Microsoft</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/event-id-2915" rel="tag">Event ID 2915</a>, <a href="/tags/exchange" rel="tag">Exchange</a>, <a href="/tags/kb2393802" rel="tag">KB2393802</a>, <a href="/tags/messaging" rel="tag">Messaging</a>, <a href="/tags/microsoft" rel="tag">Microsoft</a>, <a href="/tags/ops" rel="tag">Ops</a>, <a href="/tags/realworld" rel="tag">realworld</a>, <a href="/tags/windows" rel="tag">Windows</a>
+
+</p>
+  </header>
+  <p>Let me start this post out with a little story. I am normally a hardcore virtualization and storage guy. Sometimes my career in this sector brings me into working with stuff I haven&rsquo;t worked with before because virtualization encompasses so much. As I continue to work with other teams I learn more and more about what they do everyday. I usually find myself involved in every performance troubleshooting session and every new project these days. My personal philosophy is the IT guy of the future will be truly converged just as all the technologies are converging into 1 box or &ldquo;stack&rdquo;. Specialties in smaller subsets will fall away and a more specialization in everything Datacenter may become the norm.</p>
+
+<p>Early Monday morning I overheard a conversation about connection issues with our new Exchange 2010 environment while drinking some coffee and reviewing my brand new vSphere design. I didn&rsquo;t think about it very much until my boss came to my desk and asked me to have a look at the problem. Our messaging guy was on vacation and I was the only other person on staff who had some messaging experience. It seems that all of our global and even local offices were complaining about random exchange disconnections and also including email delivery delays from 30 minutes to 4 hours! It seems Activesync devices and OWA users were not affected by these delays at all. Being always up for learning new stuff I took the challenge.</p>
+
+<p>First let&rsquo;s start with the quick facts I could put together. We had users in every country we have offices complaining about the random disconnections and delays. I had one actually confirmed in China but had some slight trouble getting exact user names from the local IT person. Also we had connections randomly disconnecting and showing disconnected in the lower right hand corner of the outlook client. I did not have any confirmation of who exactly was having these problems. To start I dug through the event logs on all the servers in the Exchange 2010 environment and the amount of errors I found was overwhelming. To shorten this up a bit and not write a novel most all of those I investigated were directly related to running Exchange 2010 SP1 without any update rollups in place. There were corresponding KB articles from Microsoft confirming these fixes in various update rollups.</p>
+
+<p>I noticed an Event ID 2915 on our CAS servers that stuck out. I noticed several EWS and RPC connections reporting &ldquo;Session Limit Over Budget&rdquo;. I correlated this with the Default Throttling Policy Exchange 2010 uses. It seems that the more mailboxes a user opens the more connections Exchange creates. It doesn&rsquo;t somehow truncate these connections. To understand more about the Default Throttling Policy see <a href="http://technet.microsoft.com/en-us/library/dd297964.aspx">Understanding Client Throttling Policies</a>. So I quickly whipped up a powershell script that set the Throttling Policy defaults to Null so there was no restrictions (funny Microsoft states as a workaround just to do this if you encounter an issue).
+<em>If you are interested in seeing this script or want me to go deeper about Throttling Policies <a href="http://vninja.net/about/ed-czerwin/">contact me</a>, but this article isn&rsquo;t quite about this so I will move quickly on.</em></p>
+
+<p>After the Throttling Policy was changed the reported disconnections stopped but the delivery delays continued as mentioned all around the globe. With the other problem out of the way I began to realize that the problem seemed very random. Some users experienced it, some not, some couldn&rsquo;t tell me whether they experienced it or not. This is when the hours of fruitlessly digging through configurations to learn them and reading about Exchange 2010 on Google began. I noticed our mailbox servers were set up in an active - active configuration with bidirectional replication using DAGs. This is when I decided to go back to basics of troubleshooting. I went over to my colleague sitting next to me and sent various test messages to him. All of them were promptly delivered without any problems. I noted down what server his mailbox was running on and moved on. Then I walked around the IT department until I was able to find a colleague that confirmed they had the delivery delays up to 4 hours. Just for kicks I turned off their cache mode on the Outlook client and their problem magically vanished. Then I turned cached mode back on and left it broken since I was determined to fix it on the server side and not just band aid the problem. When I went back to my desk and noticed what mailbox server the colleague with the delays was experiencing a light bulb went off and everything seemed to be coming together. Now all I had to do was note the differences between the 2 servers.</p>
+
+<p>First of all to stop the global issue from occurring while I could resolve the problem I failed all the DAG volumes over to the 1 server that did not seem to be having the problem. Reports quickly came in that the problem was resolved. Then I quickly moved on to examining differences between the 2 servers. After comparing windows updates between boxes I noticed that some updates from February were recently applied to both servers, however, there was 1 difference. It seems <a href="http://support.microsoft.com/kb/2393802/en-us">Microsoft KB2393802</a> was applied to one server but not the other. I googled regarding this but only found one vague thing about delays in Exchange 2010 mail delivery mentioned in the middle of a technet article relating to this patch, but nothing official at all from Microsoft. I removed the patch, rebooted, and tested with a test mailbox database running on the server I had created for this purpose. The problem was fixed as I thought.</p>
+
+<p><strong>I tried to research on what about this patch could be causing this problem but came up with nothing. If any of you readers have an idea please comment and let me know your thoughts! I have attempted to contact Microsoft regarding this issue so they could possibly append to the KB article but they currently have not replied.</strong></p>
+
+
+  
+
+  
+  <hr>
+  <footer>
+
+  
+    <section>
+    <h4>Share</h4>
+    <nav class="nav sharing-icons">
+      <a class="nav-item" href="https://www.facebook.com/sharer/sharer.php?u=%2fposts%2fexchange-2010-sp1-and-kb2393802-or-how-to-have-an-interesting-afternoon-at-the-office%2f" title="Share on Facebook"><span class="fa fa-facebook fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://plus.google.com/share?url=%2fposts%2fexchange-2010-sp1-and-kb2393802-or-how-to-have-an-interesting-afternoon-at-the-office%2f" title="Share on Google+"><span class="fa fa-google-plus fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fposts%2fexchange-2010-sp1-and-kb2393802-or-how-to-have-an-interesting-afternoon-at-the-office%2f" title="Share on LinkedIn"><span class="fa fa-linkedin fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://twitter.com/home?status=%2fposts%2fexchange-2010-sp1-and-kb2393802-or-how-to-have-an-interesting-afternoon-at-the-office%2f" title="Tweet this"><span class="fa fa-twitter fa-2x"></span></a>
+    </nav>
+  </section>
+
+  
+
+  
+  </footer>
+  
+
+</article> 
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="https://example.com">Link 1</a></li>
+      
+      <li><a href="https://example.org">Link 2</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p>
+      
+      &copy; Christian Mohn
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>

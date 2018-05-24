@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Doom on Adventures in Hugo</title>
+    <link>/tags/doom/</link>
+    <description>Recent content in Doom on Adventures in Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
+    <lastBuildDate>Fri, 09 Dec 2011 21:59:21 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/doom/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>DaaS or Having Fun with ThinApp</title>
+      <link>/posts/daas-or-having-fun-with-thinapp/</link>
+      <pubDate>Fri, 09 Dec 2011 21:59:21 +0000</pubDate>
+      
+      <guid>/posts/daas-or-having-fun-with-thinapp/</guid>
+      <description>While using ThinApp to create a standalone version of TweetDeck 0.38.2, since the newly announced 1.0 version looks, acts and feels like a 0.1 version, I posed the following question on Twitter:
+[&#34;Hrm, what other apps should i #ThinApp while I&#39;m at it?&#34;](https://twitter.com/#!/h0bbel/status/145249562490179585). Kevin Kelling immediately responded with &amp;ldquo;Doom&amp;rdquo;.
+Naturally, I decided to give it a go. A quick download of ZDoom later, and a quick run through the ThinApp Setup Capture later, the following was born (view in full screen for better viewing):</description>
+    </item>
+    
+  </channel>
+</rss>

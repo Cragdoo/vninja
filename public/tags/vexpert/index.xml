@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vexpert on Adventures in Hugo</title>
+    <link>/tags/vexpert/</link>
+    <description>Recent content in Vexpert on Adventures in Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
+    <lastBuildDate>Fri, 19 Jun 2015 10:10:52 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/vexpert/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ravello Offers Free Lab Service for all 2015 vExperts</title>
+      <link>/posts/ravello/</link>
+      <pubDate>Fri, 19 Jun 2015 10:10:52 +0000</pubDate>
+      
+      <guid>/posts/ravello/</guid>
+      <description>RavelloSystems has announced free lab service for all 2015 vExperts, which offers 1,000 free CPU hours per month for personal or home lab use.
+I was lucky enough to be one of the early VMware on AWS VIP Pass users, and I&amp;rsquo;ve been working on several setups the last few weeks. Hopefully I&amp;rsquo;ll be able to make those available as blueprints in the new Ravello Repo, once they are ready for publishing.</description>
+    </item>
+    
+  </channel>
+</rss>

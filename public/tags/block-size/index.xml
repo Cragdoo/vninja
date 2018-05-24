@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Block Size on Adventures in Hugo</title>
+    <link>/tags/block-size/</link>
+    <description>Recent content in Block Size on Adventures in Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
+    <lastBuildDate>Fri, 05 Aug 2011 12:21:31 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/block-size/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>VMFS-5: Block Size Me</title>
+      <link>/posts/vmfs-5-block-size-me/</link>
+      <pubDate>Fri, 05 Aug 2011 12:21:31 +0000</pubDate>
+      
+      <guid>/posts/vmfs-5-block-size-me/</guid>
+      <description>The up and coming release of VMware vSphere 5 comes with an upgraded versjon of the VMware vStorage VMFS volume file system. One of the problems with VMFS-3 an earlier is that the block size you define when you format the datastore, determines the maximum size of the VMDK files stored on it. This means that when planning your datastore infrastructure you must have an idea on how large your VMDK files will potentially be during the lifecycle of the datastore.</description>
+    </item>
+    
+  </channel>
+</rss>

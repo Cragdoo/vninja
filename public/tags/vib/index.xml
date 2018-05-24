@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vib on Adventures in Hugo</title>
+    <link>/tags/vib/</link>
+    <description>Recent content in Vib on Adventures in Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
+    <lastBuildDate>Mon, 23 Sep 2013 23:28:04 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/vib/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Quick and Dirty ESXi 5.5 Upgrade</title>
+      <link>/posts/quick-dirty-esxi-5-5-upgrade/</link>
+      <pubDate>Mon, 23 Sep 2013 23:28:04 +0000</pubDate>
+      
+      <guid>/posts/quick-dirty-esxi-5-5-upgrade/</guid>
+      <description>As I´ve posted about earlier, you can update your ESXi hosts to a new release from the command line. Now that ESXi 5.5 has been released, the same procedure can be applied to upgrade once more.
+Place the host in maintenance mode, then run the following command to do an online update to ESXi 5.5:
+[cc lang=&amp;ldquo;bash&amp;rdquo; width=&amp;ldquo;100%&amp;rdquo; theme=&amp;ldquo;blackboard&amp;rdquo; nowrap=&amp;ldquo;0&amp;rdquo;] ~ # esxcli software profile update -d https://hostupdate.vmware.com/software/VUM/PRODUCTION/main/vmw-depot-index.xml -p ESXi-5.</description>
+    </item>
+    
+  </channel>
+</rss>
