@@ -283,26 +283,6 @@ Downloading WANem I have chose to use the WANem Virtual Appliance running in a v
     </item>
     
     <item>
-      <title>VMware vSphere Lab: Virtual Edition – Part 6</title>
-      <link>/virtualization/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-6/</link>
-      <pubDate>Thu, 21 Oct 2010 21:10:47 +0000</pubDate>
-      
-      <guid>/virtualization/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-6/</guid>
-      <description>This is the sixth post in a series outlining how to set up your own little virtualized Virtual vSphere Lab, if you missed part one, part two, part three, part four, or part five be sure to check them out first!
-Now that we have working DHCP and DNS services in our lab network, we&amp;rsquo;re ready to get out two little ESXi friends connected to it&amp;rsquo;s management service, VMware vCenter Server.</description>
-    </item>
-    
-    <item>
-      <title>VMware vSphere Lab: Virtual Edition – Part 5</title>
-      <link>/virtualization/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-5/</link>
-      <pubDate>Wed, 20 Oct 2010 13:31:51 +0000</pubDate>
-      
-      <guid>/virtualization/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-5/</guid>
-      <description>This is the fifth post in a series outlining how to set up your own little virtualized Virtual vSphere Lab, if you missed part one, part two, part three, or part four, be sure to check them out first!
-Ideally we would now install Microsoft Active Directory Domain Services (AD DS) on the Windows Server 2008 R2 VM we created in part four, but since VMware vCenter Server 4.1 also installs AD LDS (previously known as Active Directory Application Mode (ADAM)) it can not be installed on a AD Domain Controller.</description>
-    </item>
-    
-    <item>
       <title>Developer meets PowerCLI - awesomeness ensues</title>
       <link>/virtualization/developer-meets-powercli-awesomeness-ensues/</link>
       <pubDate>Fri, 15 Oct 2010 20:29:14 +0000</pubDate>

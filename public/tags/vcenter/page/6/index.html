@@ -114,48 +114,6 @@ Downloading WANem I have chose to use the WANem Virtual Appliance running in a v
 
 <article class="blog-post">
   <header>
-    <h2 class="blog-post-title"><a href="/virtualization/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-6/">VMware vSphere Lab: Virtual Edition – Part 6</a></h2>
-    <p class="blog-post-meta"><time datetime="2010-10-21T21:10:47Z">Thu Oct 21, 2010</time> by cmohn in 
-<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/howto" rel="category tag">Howto</a>, <a href="/categories/virtualization" rel="category tag">Virtualization</a>
-
-
-<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/labs" rel="tag">labs</a>, <a href="/tags/vcenter" rel="tag">vCenter</a>, <a href="/tags/vmware" rel="tag">VMware</a>, <a href="/tags/vmware-workstation" rel="tag">VMware Workstation</a>, <a href="/tags/vsphere" rel="tag">vSphere</a>
-
-</p>
-  </header>
-  This is the sixth post in a series outlining how to set up your own little virtualized Virtual vSphere Lab, if you missed part one, part two, part three, part four, or part five be sure to check them out first!
-Now that we have working DHCP and DNS services in our lab network, we&rsquo;re ready to get out two little ESXi friends connected to it&rsquo;s management service, VMware vCenter Server.
-  <a href='/virtualization/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-6/'>Read more →</a>
-</article> 
-
-
-
-
-
-
-<article class="blog-post">
-  <header>
-    <h2 class="blog-post-title"><a href="/virtualization/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-5/">VMware vSphere Lab: Virtual Edition – Part 5</a></h2>
-    <p class="blog-post-meta"><time datetime="2010-10-20T13:31:51Z">Wed Oct 20, 2010</time> by cmohn in 
-<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/howto" rel="category tag">Howto</a>, <a href="/categories/virtualization" rel="category tag">Virtualization</a>
-
-
-<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/esx" rel="tag">ESX</a>, <a href="/tags/labs" rel="tag">labs</a>, <a href="/tags/vcenter" rel="tag">vCenter</a>, <a href="/tags/vmware" rel="tag">VMware</a>, <a href="/tags/vmware-workstation" rel="tag">VMware Workstation</a>, <a href="/tags/vsphere" rel="tag">vSphere</a>
-
-</p>
-  </header>
-  This is the fifth post in a series outlining how to set up your own little virtualized Virtual vSphere Lab, if you missed part one, part two, part three, or part four, be sure to check them out first!
-Ideally we would now install Microsoft Active Directory Domain Services (AD DS) on the Windows Server 2008 R2 VM we created in part four, but since VMware vCenter Server 4.1 also installs AD LDS (previously known as Active Directory Application Mode (ADAM)) it can not be installed on a AD Domain Controller.
-  <a href='/virtualization/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-5/'>Read more →</a>
-</article> 
-
-
-
-
-
-
-<article class="blog-post">
-  <header>
     <h2 class="blog-post-title"><a href="/virtualization/developer-meets-powercli-awesomeness-ensues/">Developer meets PowerCLI - awesomeness ensues</a></h2>
     <p class="blog-post-meta"><time datetime="2010-10-15T20:29:14Z">Fri Oct 15, 2010</time> by cmohn in 
 <i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
@@ -190,6 +148,50 @@ Ideally we would now install Microsoft Active Directory Domain Services (AD DS) 
 That might also be the case with your vCenter 4.1 database, as I experienced back in July.
 All of a sudden my vCenter Server stopped working. The symptoms where pretty obvious, my client couldn&rsquo;t connect to the vCenter server. Naturally I connected to the server, and noticed that the VMware VirtualCenter Server services had indeed stopped. No wonder the client couldn&rsquo;t connect to it.
   <a href='/virtualization/vcenter-4-1-database-recovery-model-defaults/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/virtualization/vmware-vsphere-hypervisor-licensing-and-cost/">VMware vSphere Hypervisor Licensing and Cost</a></h2>
+    <p class="blog-post-meta"><time datetime="2010-09-22T13:51:13Z">Wed Sep 22, 2010</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/ops" rel="tag">Ops</a>, <a href="/tags/vcenter" rel="tag">vCenter</a>, <a href="/tags/virtualization" rel="tag">Virtualization</a>, <a href="/tags/vmware" rel="tag">VMware</a>
+
+</p>
+  </header>
+  We all know, and love, the fact that vSphere Hypervisor is free of charge. The free version doesn&rsquo;t come with all the bells and whistles of the fully licensed product, but it&rsquo;s still very usable in many scenarios.
+Recently I&rsquo;ve been investigating the possibilities of running vSphere Hypervisor on a number of floating branch offices, also known as vessels.
+I&rsquo;m not going into details about the proposed setup, and how we intend to roll it and so on, but one of the things I really wanted to get out of this was to have all my off-site vSphere Hypervisor installs appear in my vCenter Client.
+  <a href='/virtualization/vmware-vsphere-hypervisor-licensing-and-cost/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/virtualization/redesigning-the-vcenter-client/">Redesigning the vCenter Client?</a></h2>
+    <p class="blog-post-meta"><time datetime="2010-09-20T22:12:48Z">Mon Sep 20, 2010</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/ops" rel="tag">Ops</a>, <a href="/tags/vcenter" rel="tag">vCenter</a>, <a href="/tags/virtualization" rel="tag">Virtualization</a>, <a href="/tags/vmware" rel="tag">VMware</a>, <a href="/tags/vsphere" rel="tag">vSphere</a>
+
+</p>
+  </header>
+  In fresh blog post, called &ldquo;Resource pools and simultaneous vMotions&rdquo; by Frank Denneman prompted a quick Twitter discussion regarding the vCenter client (and perhaps even vCenter itself). A simple
+Why are there no folders under Host and Clusters view ? from Maish Saidel-Keesing got the ball rolling.
+Could it be that the design of the client itself helps perpetuate the myth the resource pools is an organizational unit, one that should be used as a way of grouping VMs?
+  <a href='/virtualization/redesigning-the-vcenter-client/'>Read more →</a>
 </article> 
 
 

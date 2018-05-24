@@ -112,18 +112,19 @@ A group of users, developers in this case, have VMware Workstation installed on 
 
 <article class="blog-post">
   <header>
-    <h2 class="blog-post-title"><a href="/virtualization/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-6/">VMware vSphere Lab: Virtual Edition – Part 6</a></h2>
-    <p class="blog-post-meta"><time datetime="2010-10-21T21:10:47Z">Thu Oct 21, 2010</time> by cmohn in 
-<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/howto" rel="category tag">Howto</a>, <a href="/categories/virtualization" rel="category tag">Virtualization</a>
+    <h2 class="blog-post-title"><a href="/virtualization/vcenter-update-manager-to-lose-its-fat/">vCenter Update Manager to lose it&rsquo;s fat</a></h2>
+    <p class="blog-post-meta"><time datetime="2010-08-24T21:48:02Z">Tue Aug 24, 2010</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
 
 
-<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/labs" rel="tag">labs</a>, <a href="/tags/vcenter" rel="tag">vCenter</a>, <a href="/tags/vmware" rel="tag">VMware</a>, <a href="/tags/vmware-workstation" rel="tag">VMware Workstation</a>, <a href="/tags/vsphere" rel="tag">vSphere</a>
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/ops" rel="tag">Ops</a>, <a href="/tags/vcenter" rel="tag">vCenter</a>, <a href="/tags/vcenter-update-manager" rel="tag">vCenter Update Manager</a>, <a href="/tags/virtualization" rel="tag">Virtualization</a>, <a href="/tags/vmware-player" rel="tag">VMware Player</a>, <a href="/tags/vmware-workstation" rel="tag">VMware Workstation</a>
 
 </p>
   </header>
-  This is the sixth post in a series outlining how to set up your own little virtualized Virtual vSphere Lab, if you missed part one, part two, part three, part four, or part five be sure to check them out first!
-Now that we have working DHCP and DNS services in our lab network, we&rsquo;re ready to get out two little ESXi friends connected to it&rsquo;s management service, VMware vCenter Server.
-  <a href='/virtualization/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-6/'>Read more →</a>
+  Dwayne Lessner who runs IT Blood Pressure, has written a guest post on GestaltIT called Is My Favourite VSphere Tool Is Going Away?
+In his article, Dwayne talks about vCenter Update Manager 4.1, and the fact that it seems to be the last version of the tools that will allow you to patch your Windows and Linux guests:
+ VMware vCenter Update Manager Features. vCenter Update Manager 4.1 and its subesquent update releases are the last releases to support scanning and remediation of patches for Windows and Linux guest operating systems and applications running inside a virtual machine.
+  <a href='/virtualization/vcenter-update-manager-to-lose-its-fat/'>Read more →</a>
 </article> 
 
 
@@ -133,76 +134,22 @@ Now that we have working DHCP and DNS services in our lab network, we&rsquo;re r
 
 <article class="blog-post">
   <header>
-    <h2 class="blog-post-title"><a href="/virtualization/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-5/">VMware vSphere Lab: Virtual Edition – Part 5</a></h2>
-    <p class="blog-post-meta"><time datetime="2010-10-20T13:31:51Z">Wed Oct 20, 2010</time> by cmohn in 
-<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/howto" rel="category tag">Howto</a>, <a href="/categories/virtualization" rel="category tag">Virtualization</a>
+    <h2 class="blog-post-title"><a href="/virtualization/where-in-the-world-is-vmware-server/">Where in the world is VMware Server?</a></h2>
+    <p class="blog-post-meta"><time datetime="2010-08-13T23:05:33Z">Fri Aug 13, 2010</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
 
 
-<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/esx" rel="tag">ESX</a>, <a href="/tags/labs" rel="tag">labs</a>, <a href="/tags/vcenter" rel="tag">vCenter</a>, <a href="/tags/vmware" rel="tag">VMware</a>, <a href="/tags/vmware-workstation" rel="tag">VMware Workstation</a>, <a href="/tags/vsphere" rel="tag">vSphere</a>
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/vcenter" rel="tag">vCenter</a>, <a href="/tags/virtualization" rel="tag">Virtualization</a>, <a href="/tags/vmware" rel="tag">VMware</a>, <a href="/tags/vmware-player" rel="tag">VMware Player</a>, <a href="/tags/vmware-server" rel="tag">VMware Server</a>, <a href="/tags/vmware-workstation" rel="tag">VMware Workstation</a>
 
 </p>
   </header>
-  This is the fifth post in a series outlining how to set up your own little virtualized Virtual vSphere Lab, if you missed part one, part two, part three, or part four, be sure to check them out first!
-Ideally we would now install Microsoft Active Directory Domain Services (AD DS) on the Windows Server 2008 R2 VM we created in part four, but since VMware vCenter Server 4.1 also installs AD LDS (previously known as Active Directory Application Mode (ADAM)) it can not be installed on a AD Domain Controller.
-  <a href='/virtualization/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-5/'>Read more →</a>
+  Over at PlanetVM Wil van Antwerpen posted The Future of VMware Server back in May 2010. Wil makes the argument that it seems like VMware is indeed abandoning VMware Server as a product, leaving us with VMware Workstation and VMware Player as the two Windows installable virtualization solutions from the company.
+This has caused some reactions, including my own comment, where I question the smartness of abandoning what might just be one of the best virtualization &ldquo;gateway drugs&rdquo; VMware has to offer.
+  <a href='/virtualization/where-in-the-world-is-vmware-server/'>Read more →</a>
 </article> 
 
 
 
-
-
-
-<article class="blog-post">
-  <header>
-    <h2 class="blog-post-title"><a href="/virtualization/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-4/">VMware vSphere Lab: Virtual Edition – Part 4</a></h2>
-    <p class="blog-post-meta"><time datetime="2010-10-19T18:01:49Z">Tue Oct 19, 2010</time> by cmohn in 
-<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/howto" rel="category tag">Howto</a>, <a href="/categories/virtualization" rel="category tag">Virtualization</a>
-
-
-<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/labs" rel="tag">labs</a>, <a href="/tags/vmware" rel="tag">VMware</a>, <a href="/tags/vmware-workstation" rel="tag">VMware Workstation</a>
-
-</p>
-  </header>
-  This is the fourth post in a series outlining how to set up your own little virtualized Virtual vSphere Lab, if you missed part one, part two, or part three be sure to check them out first!
-In part 4 we&rsquo;ll be installing a Windows Server 2008 R2 VM, to use as the basis for the VMware vCenter Server installation.
-First off, create a new VM in VMware Workstation. This works exactly the same way as we did it in part 3, but I&rsquo;ll repeat the steps here as well.
-  <a href='/virtualization/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-4/'>Read more →</a>
-</article> 
-
-
-
-
-
-
-<article class="blog-post">
-  <header>
-    <h2 class="blog-post-title"><a href="/virtualization/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-3/">VMware vSphere Lab: Virtual Edition – Part 3</a></h2>
-    <p class="blog-post-meta"><time datetime="2010-10-18T20:16:28Z">Mon Oct 18, 2010</time> by cmohn in 
-<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/howto" rel="category tag">Howto</a>, <a href="/categories/virtualization" rel="category tag">Virtualization</a>
-
-
-<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/labs" rel="tag">labs</a>, <a href="/tags/vmware" rel="tag">VMware</a>, <a href="/tags/vmware-workstation" rel="tag">VMware Workstation</a>, <a href="/tags/vsphere" rel="tag">vSphere</a>
-
-</p>
-  </header>
-  This is the third post in a series outlining how to set up your own little virtualized Virtual vSphere Lab, if you missed part one or part two, be sure to check them out first!
-I&rsquo;m going to assume that you already have VMware Workstation 7.x installed and ready. If not, get it installed before continuing.
-Now that we have all the prerequisites in place, we&rsquo;re going to go straight to installing the first ESXi host for your lab.
-  <a href='/virtualization/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-3/'>Read more →</a>
-</article> 
-
-
-
-
-
-<nav class="blog-pagination">
-  
-  
-  
-  <a class="btn btn-outline-primary disabled" href="#" role="button" aria-disabled="true">Previous page</a>
-  <a class="btn btn-outline-primary" href="/tags/vmware-workstation/page/2/" rel="next" role="button">Next page</a>
-  
-</nav>
 
 
 

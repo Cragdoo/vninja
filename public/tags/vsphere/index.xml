@@ -558,59 +558,6 @@ vMA is in many regards seen as a replacement for the ESX Service Console which n
     </item>
     
     <item>
-      <title>VMware vSphere Lab: Virtual Edition – Part 6</title>
-      <link>/virtualization/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-6/</link>
-      <pubDate>Thu, 21 Oct 2010 21:10:47 +0000</pubDate>
-      
-      <guid>/virtualization/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-6/</guid>
-      <description>This is the sixth post in a series outlining how to set up your own little virtualized Virtual vSphere Lab, if you missed part one, part two, part three, part four, or part five be sure to check them out first!
-Now that we have working DHCP and DNS services in our lab network, we&amp;rsquo;re ready to get out two little ESXi friends connected to it&amp;rsquo;s management service, VMware vCenter Server.</description>
-    </item>
-    
-    <item>
-      <title>VMware vSphere Lab: Virtual Edition – Part 5</title>
-      <link>/virtualization/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-5/</link>
-      <pubDate>Wed, 20 Oct 2010 13:31:51 +0000</pubDate>
-      
-      <guid>/virtualization/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-5/</guid>
-      <description>This is the fifth post in a series outlining how to set up your own little virtualized Virtual vSphere Lab, if you missed part one, part two, part three, or part four, be sure to check them out first!
-Ideally we would now install Microsoft Active Directory Domain Services (AD DS) on the Windows Server 2008 R2 VM we created in part four, but since VMware vCenter Server 4.1 also installs AD LDS (previously known as Active Directory Application Mode (ADAM)) it can not be installed on a AD Domain Controller.</description>
-    </item>
-    
-    <item>
-      <title>VMware vSphere Lab: Virtual Edition – Part 3</title>
-      <link>/virtualization/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-3/</link>
-      <pubDate>Mon, 18 Oct 2010 20:16:28 +0000</pubDate>
-      
-      <guid>/virtualization/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-3/</guid>
-      <description>This is the third post in a series outlining how to set up your own little virtualized Virtual vSphere Lab, if you missed part one or part two, be sure to check them out first!
-I&amp;rsquo;m going to assume that you already have VMware Workstation 7.x installed and ready. If not, get it installed before continuing.
-Now that we have all the prerequisites in place, we&amp;rsquo;re going to go straight to installing the first ESXi host for your lab.</description>
-    </item>
-    
-    <item>
-      <title>VMware vSphere Lab: Virtual Edition - Part 2</title>
-      <link>/virtualization/vmware-vsphere-lab-virtual-edition-part-2/</link>
-      <pubDate>Mon, 18 Oct 2010 07:00:55 +0000</pubDate>
-      
-      <guid>/virtualization/vmware-vsphere-lab-virtual-edition-part-2/</guid>
-      <description>This is the second post in a series outlining how to set up your own little virtualized Virtual vSphere Lab, if you missed the first one be sure to check it out!
-The first step in setting up the The Virtual vSphere Lab, is making sure you have everything you need. To get everything up and running, you’ll need the following:
- VMware Workstation 7.x downloaded and installed. A 30 day trial version download is available at vmware.</description>
-    </item>
-    
-    <item>
-      <title>VMware vSphere Lab: Virtual Edition - Part 1</title>
-      <link>/virtualization/vmware-vsphere-lab-virtual-edition-part-1/</link>
-      <pubDate>Sun, 17 Oct 2010 20:16:44 +0000</pubDate>
-      
-      <guid>/virtualization/vmware-vsphere-lab-virtual-edition-part-1/</guid>
-      <description>Even if VMware vSphere has pretty stringent hardware requirements, there are some rather cheap options available if you want to set up your own vSphere Lab for training or testing purposes.
-In this first post of the series, I&amp;rsquo;ll examine the option of setting up a Virtual vSphere Lab, based on VMware Workstation 7.1:
-The Virtual vSphere Lab In VMware Workstation 7.1, running vSphere 4.1 is supported as a guest operating system.</description>
-    </item>
-    
-    <item>
       <title>Developer meets PowerCLI - awesomeness ensues</title>
       <link>/virtualization/developer-meets-powercli-awesomeness-ensues/</link>
       <pubDate>Fri, 15 Oct 2010 20:29:14 +0000</pubDate>

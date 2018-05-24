@@ -112,18 +112,18 @@ This story is a couple of years old, but sadly it&rsquo;s still valid. A very sp
 
 <article class="blog-post">
   <header>
-    <h2 class="blog-post-title"><a href="/virtualization/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-6/">VMware vSphere Lab: Virtual Edition – Part 6</a></h2>
-    <p class="blog-post-meta"><time datetime="2010-10-21T21:10:47Z">Thu Oct 21, 2010</time> by cmohn in 
-<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/howto" rel="category tag">Howto</a>, <a href="/categories/virtualization" rel="category tag">Virtualization</a>
+    <h2 class="blog-post-title"><a href="/virtualization/developer-meets-powercli-awesomeness-ensues/">Developer meets PowerCLI - awesomeness ensues</a></h2>
+    <p class="blog-post-meta"><time datetime="2010-10-15T20:29:14Z">Fri Oct 15, 2010</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
 
 
-<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/labs" rel="tag">labs</a>, <a href="/tags/vcenter" rel="tag">vCenter</a>, <a href="/tags/vmware" rel="tag">VMware</a>, <a href="/tags/vmware-workstation" rel="tag">VMware Workstation</a>, <a href="/tags/vsphere" rel="tag">vSphere</a>
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/ops" rel="tag">Ops</a>, <a href="/tags/powercli" rel="tag">PowerCLI</a>, <a href="/tags/powergui" rel="tag">PowerGui</a>, <a href="/tags/powershell" rel="tag">Powershell</a>, <a href="/tags/vcenter" rel="tag">vCenter</a>, <a href="/tags/virtualization" rel="tag">Virtualization</a>, <a href="/tags/vmware" rel="tag">VMware</a>, <a href="/tags/vsphere" rel="tag">vSphere</a>
 
 </p>
   </header>
-  This is the sixth post in a series outlining how to set up your own little virtualized Virtual vSphere Lab, if you missed part one, part two, part three, part four, or part five be sure to check them out first!
-Now that we have working DHCP and DNS services in our lab network, we&rsquo;re ready to get out two little ESXi friends connected to it&rsquo;s management service, VMware vCenter Server.
-  <a href='/virtualization/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-6/'>Read more →</a>
+  A couple of days ago, while I was at VMworld Europe I got the following tweet from Asbjørn A. Mikkelsen (@neslekkim) (translated from norwegian):
+@h0bbel Do you know if I can script something against vCenter to duplicate (or create from template) VMs, and also start/stop them? My immediate response, was of course to suggest using PowerCLI. Asbjørn, who works as a full time developer, jumped at PowerCLI immediately and within a very short time frame came up with a PowerCLI script for the task at hand.
+  <a href='/virtualization/developer-meets-powercli-awesomeness-ensues/'>Read more →</a>
 </article> 
 
 
@@ -133,18 +133,20 @@ Now that we have working DHCP and DNS services in our lab network, we&rsquo;re r
 
 <article class="blog-post">
   <header>
-    <h2 class="blog-post-title"><a href="/virtualization/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-5/">VMware vSphere Lab: Virtual Edition – Part 5</a></h2>
-    <p class="blog-post-meta"><time datetime="2010-10-20T13:31:51Z">Wed Oct 20, 2010</time> by cmohn in 
-<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/howto" rel="category tag">Howto</a>, <a href="/categories/virtualization" rel="category tag">Virtualization</a>
+    <h2 class="blog-post-title"><a href="/virtualization/vmworld-next-a-couple-of-suggestions/">VMworld.next - a couple of suggestions</a></h2>
+    <p class="blog-post-meta"><time datetime="2010-10-15T08:36:39Z">Fri Oct 15, 2010</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
 
 
-<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/esx" rel="tag">ESX</a>, <a href="/tags/labs" rel="tag">labs</a>, <a href="/tags/vcenter" rel="tag">vCenter</a>, <a href="/tags/vmware" rel="tag">VMware</a>, <a href="/tags/vmware-workstation" rel="tag">VMware Workstation</a>, <a href="/tags/vsphere" rel="tag">vSphere</a>
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/virtualization" rel="tag">Virtualization</a>, <a href="/tags/vmware" rel="tag">VMware</a>, <a href="/tags/vmworld" rel="tag">vmworld</a>
 
 </p>
   </header>
-  This is the fifth post in a series outlining how to set up your own little virtualized Virtual vSphere Lab, if you missed part one, part two, part three, or part four, be sure to check them out first!
-Ideally we would now install Microsoft Active Directory Domain Services (AD DS) on the Windows Server 2008 R2 VM we created in part four, but since VMware vCenter Server 4.1 also installs AD LDS (previously known as Active Directory Application Mode (ADAM)) it can not be installed on a AD Domain Controller.
-  <a href='/virtualization/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-5/'>Read more →</a>
+  Now that the VMworld events are over for 2010, I&rsquo;m still trying to digest a lot of the impressions I&rsquo;ve had over the past few days.
+However, I do have a couple of suggestions I would like to voice:
+ Add contact information to the attendee badge!
+  Just like David Owen (@vMackem) suggested, adding Twitter ID and blog link to the attendee badge would make it easier to keep track of everyone you meet up with.
+  <a href='/virtualization/vmworld-next-a-couple-of-suggestions/'>Read more →</a>
 </article> 
 
 
@@ -154,19 +156,19 @@ Ideally we would now install Microsoft Active Directory Domain Services (AD DS) 
 
 <article class="blog-post">
   <header>
-    <h2 class="blog-post-title"><a href="/virtualization/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-4/">VMware vSphere Lab: Virtual Edition – Part 4</a></h2>
-    <p class="blog-post-meta"><time datetime="2010-10-19T18:01:49Z">Tue Oct 19, 2010</time> by cmohn in 
-<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/howto" rel="category tag">Howto</a>, <a href="/categories/virtualization" rel="category tag">Virtualization</a>
+    <h2 class="blog-post-title"><a href="/virtualization/vmworld-europe-2010the-aftermath/">VMworld Europe 2010 – The aftermath</a></h2>
+    <p class="blog-post-meta"><time datetime="2010-10-15T07:33:54Z">Fri Oct 15, 2010</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
 
 
-<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/labs" rel="tag">labs</a>, <a href="/tags/vmware" rel="tag">VMware</a>, <a href="/tags/vmware-workstation" rel="tag">VMware Workstation</a>
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/conference" rel="tag">conference</a>, <a href="/tags/vmware" rel="tag">VMware</a>, <a href="/tags/vmworld" rel="tag">vmworld</a>
 
 </p>
   </header>
-  This is the fourth post in a series outlining how to set up your own little virtualized Virtual vSphere Lab, if you missed part one, part two, or part three be sure to check them out first!
-In part 4 we&rsquo;ll be installing a Windows Server 2008 R2 VM, to use as the basis for the VMware vCenter Server installation.
-First off, create a new VM in VMware Workstation. This works exactly the same way as we did it in part 3, but I&rsquo;ll repeat the steps here as well.
-  <a href='/virtualization/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-4/'>Read more →</a>
+  I’m back home again, after spending the better part of this week in Copenhagen, attending VMworld Europe 2010.
+Let me just say, straight off the bat, that attending VMworld is probably the best idea I’ve had in years. In reality, that’s not saying much, but the value of attending is immense.
+The way VMworld is organized, with lots of simultaneous sessions, labs and other activities is both a challenge and a blessing.
+  <a href='/virtualization/vmworld-europe-2010the-aftermath/'>Read more →</a>
 </article> 
 
 
@@ -176,19 +178,19 @@ First off, create a new VM in VMware Workstation. This works exactly the same wa
 
 <article class="blog-post">
   <header>
-    <h2 class="blog-post-title"><a href="/virtualization/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-3/">VMware vSphere Lab: Virtual Edition – Part 3</a></h2>
-    <p class="blog-post-meta"><time datetime="2010-10-18T20:16:28Z">Mon Oct 18, 2010</time> by cmohn in 
-<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/howto" rel="category tag">Howto</a>, <a href="/categories/virtualization" rel="category tag">Virtualization</a>
+    <h2 class="blog-post-title"><a href="/virtualization/vmware-vsphere-hypervisor-licensing-and-cost/">VMware vSphere Hypervisor Licensing and Cost</a></h2>
+    <p class="blog-post-meta"><time datetime="2010-09-22T13:51:13Z">Wed Sep 22, 2010</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
 
 
-<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/labs" rel="tag">labs</a>, <a href="/tags/vmware" rel="tag">VMware</a>, <a href="/tags/vmware-workstation" rel="tag">VMware Workstation</a>, <a href="/tags/vsphere" rel="tag">vSphere</a>
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/ops" rel="tag">Ops</a>, <a href="/tags/vcenter" rel="tag">vCenter</a>, <a href="/tags/virtualization" rel="tag">Virtualization</a>, <a href="/tags/vmware" rel="tag">VMware</a>
 
 </p>
   </header>
-  This is the third post in a series outlining how to set up your own little virtualized Virtual vSphere Lab, if you missed part one or part two, be sure to check them out first!
-I&rsquo;m going to assume that you already have VMware Workstation 7.x installed and ready. If not, get it installed before continuing.
-Now that we have all the prerequisites in place, we&rsquo;re going to go straight to installing the first ESXi host for your lab.
-  <a href='/virtualization/vmware-vsphere-lab-virtual-edition-%e2%80%93-part-3/'>Read more →</a>
+  We all know, and love, the fact that vSphere Hypervisor is free of charge. The free version doesn&rsquo;t come with all the bells and whistles of the fully licensed product, but it&rsquo;s still very usable in many scenarios.
+Recently I&rsquo;ve been investigating the possibilities of running vSphere Hypervisor on a number of floating branch offices, also known as vessels.
+I&rsquo;m not going into details about the proposed setup, and how we intend to roll it and so on, but one of the things I really wanted to get out of this was to have all my off-site vSphere Hypervisor installs appear in my vCenter Client.
+  <a href='/virtualization/vmware-vsphere-hypervisor-licensing-and-cost/'>Read more →</a>
 </article> 
 
 
