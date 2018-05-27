@@ -16,7 +16,7 @@ tags:
 - vSphere
 ---
 
-[caption id="attachment_4559" align="alignright" width="300"][![](http://vninja.net/wordpress/wp-content/uploads/2017/02/eikbsc3sdti-sonja-langford-300x200.jpg)](https://unsplash.com/@sonjalangford) Photo by Sonja Langford[/caption]
+[caption id="attachment_4559" align="alignright" width="300"][![](/img/eikbsc3sdti-sonja-langford-300x200.jpg)](https://unsplash.com/@sonjalangford) Photo by Sonja Langford[/caption]
 
 Just a quick post about something I experienced at a client, with _ESXi 6.0 hosts_, today:
 

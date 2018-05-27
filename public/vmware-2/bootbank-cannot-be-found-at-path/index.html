@@ -129,11 +129,11 @@ For some reason, vRealize Operations doesn&rsquo;t pick this up as a host issue 
 
 <p>Log in to Log Insight and search for **&ldquo;Bootbank cannot be found at path ‘/bootbank’.&rdquo;. <strong>If you want to restrict it even more, use two filters. One for </strong>vc_event_type = exists**, and one for the text search itself.</p>
 
-<p><img src="http://vninja.net/wordpress/wp-content/uploads/2018/01/Screenshot-2018-01-29-23.07.40-300x169.png" alt="" />Click on the little red bell icon and select <em>&ldquo;Create Alert from Query&rdquo;</em>.</p>
+<p><img src="/img/Screenshot-2018-01-29-23.07.40-300x169.png" alt="" />Click on the little red bell icon and select <em>&ldquo;Create Alert from Query&rdquo;</em>.</p>
 
 <p>This will bring up the &ldquo;Edit Alert&rdquo; window, where you can define your information.</p>
 
-<p><img src="http://vninja.net/wordpress/wp-content/uploads/2018/01/Screenshot-2018-01-29-23.07.19-644x794.png" alt="" />Create a proper Description and Recommendation for the alert, and enable <em>&ldquo;Send to vRealize Operations Manager&rdquo;</em>. You also need to specify a Fallback Option. The Fallback Option is basically which object Log Insight should attach the alert to, if the originating object isn&rsquo;t found in vRealize Operations.</p>
+<p><img src="/img/Screenshot-2018-01-29-23.07.19-644x794.png" alt="" />Create a proper Description and Recommendation for the alert, and enable <em>&ldquo;Send to vRealize Operations Manager&rdquo;</em>. You also need to specify a Fallback Option. The Fallback Option is basically which object Log Insight should attach the alert to, if the originating object isn&rsquo;t found in vRealize Operations.</p>
 
 <p>And that&rsquo;s it really, as long as the vLI and vROps integration is configured and working, it&rsquo;s easy add your own custom alerts in vRLI, and have them pop up in vROps.</p>
 

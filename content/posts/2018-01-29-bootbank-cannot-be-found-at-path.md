@@ -29,11 +29,11 @@ On order for this to work, you need to have configured the [vRealize Log Insigh
 
 Log in to Log Insight and search for **"Bootbank cannot be found at path ‘/bootbank’.". **If you want to restrict it even more, use two filters. One for **vc_event_type = exists**, and one for the text search itself.
 
-![](http://vninja.net/wordpress/wp-content/uploads/2018/01/Screenshot-2018-01-29-23.07.40-300x169.png)Click on the little red bell icon and select _"Create Alert from Query"_.
+![](/img/Screenshot-2018-01-29-23.07.40-300x169.png)Click on the little red bell icon and select _"Create Alert from Query"_.
 
 This will bring up the "Edit Alert" window, where you can define your information.
 
-![](http://vninja.net/wordpress/wp-content/uploads/2018/01/Screenshot-2018-01-29-23.07.19-644x794.png)Create a proper Description and Recommendation for the alert, and enable _"Send to vRealize Operations Manager"_. You also need to specify a Fallback Option. The Fallback Option is basically which object Log Insight should attach the alert to, if the originating object isn't found in vRealize Operations.
+![](/img/Screenshot-2018-01-29-23.07.19-644x794.png)Create a proper Description and Recommendation for the alert, and enable _"Send to vRealize Operations Manager"_. You also need to specify a Fallback Option. The Fallback Option is basically which object Log Insight should attach the alert to, if the originating object isn't found in vRealize Operations.
 
 And that's it really, as long as the vLI and vROps integration is configured and working, it's easy add your own custom alerts in vRLI, and have them pop up in vROps.
 

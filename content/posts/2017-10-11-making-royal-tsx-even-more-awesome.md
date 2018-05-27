@@ -28,11 +28,11 @@ Following [Ryan Johnson's tweet](https://twitter.com/tenthirtyam/status/9137345
 
 
 
-[caption id="attachment_4760" align="alignnone" width="186"][![](http://vninja.net/wordpress/wp-content/uploads/2017/10/Screenshot-2017-10-11-23.16.25-186x300.png)](http://vninja.net/wordpress/wp-content/uploads/2017/10/Screenshot-2017-10-11-23.16.25.png) Royal TSX with Clarity icons[/caption]
+[caption id="attachment_4760" align="alignnone" width="186"][![](/img/Screenshot-2017-10-11-23.16.25-186x300.png)](/img/Screenshot-2017-10-11-23.16.25.png) Royal TSX with Clarity icons[/caption]
 
 Changing the icons for entries is pretty straight forward. For existing entries in your config file, simply open the items **properties** and click on the small icon besides the Display Name. This brings up a dialog showing the built-in icons, but also reveals an option to browse your filesystem for a new icon to use.
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2017/10/Screenshot-2017-10-11-23.21.48-644x305.png)](http://vninja.net/wordpress/wp-content/uploads/2017/10/Screenshot-2017-10-11-23.21.48.png)
+[![](/img/Screenshot-2017-10-11-23.21.48-644x305.png)](/img/Screenshot-2017-10-11-23.21.48.png)
 
 **Update:** Felix from Royal Applications left a [nice comment](http://vninja.net/osx/making-royal-tsx-even-more-awesome/#comment-19281), explaining that you can also drag-and-drop icons directory from finder into Royal TSX as well as the manual process described above.
 
@@ -54,11 +54,11 @@ I run the [PowerCLI Core Docker container](http://www.virtuallyghetto.com/2016/1
 
 **Update: **Since originally posting, I've discovered that there is an even better ways of doing this, and at the same time keep your PowerCLI running in a tab inside of Royal TSX. Instead of adding it as a Command Task, add a new Terminal connection, but use Custom Terminal as the connection type:
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2017/10/Screenshot-2017-10-16-18.00.39-300x210.png)](http://vninja.net/wordpress/wp-content/uploads/2017/10/Screenshot-2017-10-16-18.00.39.png)
+[![](/img/Screenshot-2017-10-16-18.00.39-300x210.png)](/img/Screenshot-2017-10-16-18.00.39.png)
 
 Then add the command you want to run under Custom Commands
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2017/10/Screenshot-2017-10-16-18.01.51-300x213.png)](http://vninja.net/wordpress/wp-content/uploads/2017/10/Screenshot-2017-10-16-18.01.51.png)
+[![](/img/Screenshot-2017-10-16-18.01.51-300x213.png)](/img/Screenshot-2017-10-16-18.01.51.png)
 
 In my case, I want to run the following command:
 
@@ -67,7 +67,7 @@ In my case, I want to run the following command:
 
 Now, under "Advanced", find the Session option. Enable "_Run inside login shell_" to make sure your applications, like Docker, are found without having to specify the complete path to it, and that's it. As long as Docker runs locally, PowerCLI core can now be launched directly from the navigation bar, and it opens a new tab inside of Royal TSX!
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2017/10/Screenshot-2017-10-16-18.03.27-300x95.png)](http://vninja.net/wordpress/wp-content/uploads/2017/10/Screenshot-2017-10-16-18.03.27.png)
+[![](/img/Screenshot-2017-10-16-18.03.27-300x95.png)](/img/Screenshot-2017-10-16-18.03.27.png)
 
 This can also be used to run other things of course, I've added a new Terminal option to my sidebar as well, which opens iTerm2 in a new tab.
 

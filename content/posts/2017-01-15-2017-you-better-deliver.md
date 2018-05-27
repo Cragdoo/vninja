@@ -16,7 +16,7 @@ tags:
 
 Considering it's mid-january 2017 already, it's time to do my annual goal list for the new year.
 
-![](http://vninja.net/wordpress/wp-content/uploads/2017/01/sport-treadmill-tor-route-163444-644x362.jpeg)
+![](/img/sport-treadmill-tor-route-163444-644x362.jpeg)
 
 
 

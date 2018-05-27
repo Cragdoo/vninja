@@ -21,10 +21,10 @@ November 30th I'll be joining [Martin Plesner-Jacobsen](https://twitter.com/mple
 
 **Now that's a lot of goodies in one place!**
 
-[**![](http://vninja.net/wordpress/wp-content/uploads/2017/11/250x250_webinar-1.png)**](https://go.veeam.com/webinar-integration-vmware-vsan-vsphere-spbm-policies?ccode=blogger_CMohn_q042017)
+[**![](/img/250x250_webinar-1.png)**](https://go.veeam.com/webinar-integration-vmware-vsan-vsphere-spbm-policies?ccode=blogger_CMohn_q042017)
 
 
 
-![](http://vninja.net/wordpress/wp-content/uploads/2017/11/Screenshot-2017-11-09-12.45.40.png)
+![](/img/Screenshot-2017-11-09-12.45.40.png)
 
 Click on the banner above to [register now](https://go.veeam.com/webinar-integration-vmware-vsan-vsphere-spbm-policies?ccode=blogger_CMohn_q042017), and reserve your spot!

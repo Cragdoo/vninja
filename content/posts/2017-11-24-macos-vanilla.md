@@ -16,11 +16,11 @@ Small, unobtrusive and easy to use. That's a pretty good description for a macOS
 
 Simply put, this little gem let's you hide any or all menu bar icons in macOS, while still keeping them easily accessible behind a small arrow:
 
-**After hiding with Vanilla:![](http://vninja.net/wordpress/wp-content/uploads/2017/11/Screenshot-2017-11-24-13.26.30-644x48.png)**
+**After hiding with Vanilla:![](/img/Screenshot-2017-11-24-13.26.30-644x48.png)**
 
 
 
-**Expanded view:**![](http://vninja.net/wordpress/wp-content/uploads/2017/11/Screenshot-2017-11-24-13.27.14-644x48.png)
+**Expanded view:**![](/img/Screenshot-2017-11-24-13.27.14-644x48.png)
 
 
 

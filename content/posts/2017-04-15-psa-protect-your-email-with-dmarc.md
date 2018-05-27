@@ -43,7 +43,7 @@ So, what is this [DMARC](https://blog.returnpath.com/how-to-explain-dmarc-in-p
 
 
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2017/04/Screenshot-2017-04-15-23.41.40-300x247.png)](http://vninja.net/wordpress/wp-content/uploads/2017/04/Screenshot-2017-04-15-23.41.40.png)Less than 24 hours after configuring everything, I received my first [DMARC Aggregate Report](https://blog.returnpath.com/how-to-read-your-first-dmarc-reports-part-1/) which is basically an XML file showing what has been going on.
+[![](/img/Screenshot-2017-04-15-23.41.40-300x247.png)](/img/Screenshot-2017-04-15-23.41.40.png)Less than 24 hours after configuring everything, I received my first [DMARC Aggregate Report](https://blog.returnpath.com/how-to-read-your-first-dmarc-reports-part-1/) which is basically an XML file showing what has been going on.
 
 Since this file is a bit hard to read on it's own, I uploaded it to [DMARC Analyzer](https://app.dmarcanalyzer.com/guide), and even though I knew a lot of email was being send with my email address as the reply to address, I was quite surprised to see that in less then 24 hours after I set up the DMARC DNS records, **a total of 295 emails had been rejected by mail servers all over the world, most of them sent from mail servers in Vietnam. **I_ do not_ send 295 emails a day with my personal email account, and absolutely none of them from Vietnam. In fact, during the time-frame of this initial aggregate report, I sent zero emails - as seen in the screenshot from the report.
 

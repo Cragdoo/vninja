@@ -79,7 +79,7 @@ Come and discuss all things vROps. Design, Alerts, policies etc.
 
 
 
-![](http://vninja.net/wordpress/wp-content/uploads/2017/12/fields2-300x188.jpg)In addition to the incredible list of speakers, the Danish VMUG has reserved the whole of the Fields movie theater, for this all-day event which promises to be full-on awesome in every way.
+![](/img/fields2-300x188.jpg)In addition to the incredible list of speakers, the Danish VMUG has reserved the whole of the Fields movie theater, for this all-day event which promises to be full-on awesome in every way.
 
 
 

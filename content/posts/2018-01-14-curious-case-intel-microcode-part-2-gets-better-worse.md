@@ -22,7 +22,7 @@ This guest post by [Bjørn Anders Jørgensen](https://twitter.com/bajorgensen), 
 
 Before you start on this rather long post, [have a go at part #1](http://vninja.net/news/the-curious-case-of-the-intel-microcode/):
 
-![](http://vninja.net/wordpress/wp-content/uploads/2018/01/spectre-text-252x300.png) ![](http://vninja.net/wordpress/wp-content/uploads/2018/01/meltdown-text-154x300.png)
+![](/img/spectre-text-252x300.png) ![](/img/meltdown-text-154x300.png)
 
 
 

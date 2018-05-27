@@ -25,7 +25,7 @@ This guest post by [Bjørn Anders Jørgensen](https://twitter.com/bajorgensen), 
 
 
 
-![](http://vninja.net/wordpress/wp-content/uploads/2018/01/spectre-text-252x300.png) ![](http://vninja.net/wordpress/wp-content/uploads/2018/01/meltdown-text-154x300.png)
+![](/img/spectre-text-252x300.png) ![](/img/meltdown-text-154x300.png)
 
 
 

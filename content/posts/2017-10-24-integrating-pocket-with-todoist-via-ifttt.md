@@ -20,7 +20,7 @@ tags:
 
 Now, there is a bit of overlap between how I use Pocket and Todoist, but I mainly use Pocket to keep track of links I want to either read later, or use as basis for blog posts.
 
-[caption id="attachment_4807" align="alignright" width="644"][![](http://vninja.net/wordpress/wp-content/uploads/2017/10/kari-shea-199320-644x429.jpg)](https://unsplash.com/@karishea) Photo by Kari Shea on Unsplash[/caption]
+[caption id="attachment_4807" align="alignright" width="644"][![](/img/kari-shea-199320-644x429.jpg)](https://unsplash.com/@karishea) Photo by Kari Shea on Unsplash[/caption]
 
 I have two main IFTTT recipes that takes care of my integration between the two. Both of these use Pocket as the source, and Todoist as the target, I do not transfer anything _from_ Todoist _to_ Pocket.
 
