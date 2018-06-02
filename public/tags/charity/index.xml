@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Charity on Adventures in Hugo</title>
+    <title>Charity on My blog</title>
     <link>/tags/charity/</link>
-    <description>Recent content in Charity on Adventures in Hugo</description>
+    <description>Recent content in Charity on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <language>en</language>
+    <managingEditor>yourname@example.com (yourname)</managingEditor>
+    <webMaster>yourname@example.com (yourname)</webMaster>
+    <copyright>(c) 2016 Copyright my blog</copyright>
     <lastBuildDate>Sun, 01 Dec 2013 10:35:24 +0000</lastBuildDate>
     
 	<atom:link href="/tags/charity/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +18,7 @@
       <title>Sometimes You Simply Get What You Pay For</title>
       <link>/virtualization/simply-pay/</link>
       <pubDate>Sun, 01 Dec 2013 10:35:24 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/virtualization/simply-pay/</guid>
       <description>Some time during the Podcasting for Cancer fundraiser period I somehow suggested that we should pair it with this years Movember.
 Despite my wife and daughters strenuous protests, I signed up and went all in. By all in, I mean, all in. For the first time since I went to my then employers christmas party dressed as a woman, I shaved my whole face.

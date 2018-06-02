@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vote on Adventures in Hugo</title>
+    <title>Vote on My blog</title>
     <link>/tags/vote/</link>
-    <description>Recent content in Vote on Adventures in Hugo</description>
+    <description>Recent content in Vote on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <language>en</language>
+    <managingEditor>yourname@example.com (yourname)</managingEditor>
+    <webMaster>yourname@example.com (yourname)</webMaster>
+    <copyright>(c) 2016 Copyright my blog</copyright>
     <lastBuildDate>Mon, 02 Mar 2015 22:23:03 +0000</lastBuildDate>
     
 	<atom:link href="/tags/vote/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +18,7 @@
       <title>vVotemageddon 2015</title>
       <link>/virtualization/vvotemageddon-2015/</link>
       <pubDate>Mon, 02 Mar 2015 22:23:03 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/virtualization/vvotemageddon-2015/</guid>
       <description> As has become a yearly tradition, the vote is on. Pick your favorite VMware &amp;amp; virtualization blogs and give Eric Siebert loads of work.
 https://twitter.com/ericsiebert/status/572493098464370688
@@ -28,7 +30,7 @@ Go cast your vote now. </description>
       <title>2014 Top vBlog Results </title>
       <link>/virtualization/2014-top-vblog-results/</link>
       <pubDate>Thu, 27 Mar 2014 19:37:55 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/virtualization/2014-top-vblog-results/</guid>
       <description>Eric Siebert has yet again pulled through, and organized his annual top VMware &amp;amp; virtualization blogs vote, and the results are now in. Congratulations to everyone involved, be it bloggers, podcasters or otherwise engaged in making this possible.
 This year, Eric hosted a live Google Hangout session with John M. Troyer, David M. Davis and Rick Vanover where the top lists were revealed, be sure to check it out:
@@ -39,7 +41,7 @@ http://www.youtube.com/watch?v=W2IVfOvKA5M</description>
       <title>Brace Yourselves: Top vBlog 2014 edition is coming</title>
       <link>/virtualization/brace-yourselves-top-vblog-2014-edition-coming/</link>
       <pubDate>Mon, 28 Oct 2013 17:21:46 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/virtualization/brace-yourselves-top-vblog-2014-edition-coming/</guid>
       <description>Eric Siebert has just announced the preliminary details for next years Top vBlog vote. This time around it is sponsored by Veeam, and there are even prizes to be won, not only the notorious fame and fortune that comes with being voted in the top percentile.
 Thanks again to Eric for putting all of this together, there is a lot of work involved and the community really values the effort.</description>
@@ -49,7 +51,7 @@ Thanks again to Eric for putting all of this together, there is a lot of work in
       <title>Voting Open for the 2013 Top VMware &amp; Virtualization Blogs </title>
       <link>/virtualization/voting-open-2013-top-vmware-virtualization-blogs/</link>
       <pubDate>Wed, 20 Feb 2013 08:14:29 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/virtualization/voting-open-2013-top-vmware-virtualization-blogs/</guid>
       <description>Eric Siebert has yet again gone through the massive job of setting up his yearly Top VMware &amp;amp; Virtualization Blogs Vote.
 Huge kudos to Eric, I know this is a big undertaking for you, and myself and the rest of the community really appreciate the hard work you put into this each year!
@@ -62,7 +64,7 @@ vNinja.net is listed in the general section, feel free to vote for us if you fee
       <title>Vote for the Top VMware &amp; Virtualization Blogs </title>
       <link>/news/vote-top-vmware-virtualization-blogs/</link>
       <pubDate>Tue, 24 Jan 2012 08:46:24 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/news/vote-top-vmware-virtualization-blogs/</guid>
       <description>Eric Siebert has opened up the voting for the top VMware &amp;amp; virtualization blogs. Head on over and cast your votes!
 Votes for vNinja.net and vSoup.net would be greatly appreciated, but since we´re not affiliated with the Dutch vMaffia we promise that you will not have to wear concrete boots or wake up to a horses head in your bed if you don´t vote for us.
@@ -73,7 +75,7 @@ We think.</description>
       <title>VMworld 2011 Session Voting</title>
       <link>/news/vmworld-2011-session-voting/</link>
       <pubDate>Mon, 09 May 2011 10:29:39 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/news/vmworld-2011-session-voting/</guid>
       <description>VMware has opened the public voting for the VMworld 2011 sessions. Personally I haven&amp;rsquo;t submitted anything, but I do see a lot of familiar names in the voting application.
 The voting is available to anyone who has a vmworld.com account, and the voting period is from May 9th to May 18th. The voting is global, which means a vote for a session counts as a vote for both VMworld US and VMworld EMEA as 80% of the selected sessions will occur at both events.</description>

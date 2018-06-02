@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ninja on Adventures in Hugo</title>
+    <title>Ninja on My blog</title>
     <link>/tags/ninja/</link>
-    <description>Recent content in Ninja on Adventures in Hugo</description>
+    <description>Recent content in Ninja on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <language>en</language>
+    <managingEditor>yourname@example.com (yourname)</managingEditor>
+    <webMaster>yourname@example.com (yourname)</webMaster>
+    <copyright>(c) 2016 Copyright my blog</copyright>
     <lastBuildDate>Thu, 08 May 2014 11:21:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/ninja/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +18,7 @@
       <title>And the Chromecast Winner is ...</title>
       <link>/virtualization/chromecast-winner/</link>
       <pubDate>Thu, 08 May 2014 11:21:00 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/virtualization/chromecast-winner/</guid>
       <description>A little over a month ago I announced the Want to Win a Google Chromecast contest and finally the winner has been selected. Since there was a grand total of 5 submissions, and one of them was immediately disqualified for a distinct lack of Ninja-presence, I decided to just do a random draw.
 The submitted photos were numbered by the order they appeared in on my post as I took this screenshot.</description>
@@ -26,7 +28,7 @@ The submitted photos were numbered by the order they appeared in on my post as I
       <title>Want to Win a Google Chromecast?</title>
       <link>/news/win-google-chromecast/</link>
       <pubDate>Wed, 02 Apr 2014 18:51:05 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/news/win-google-chromecast/</guid>
       <description>I have a free Google Chromecast to give a way to one lucky winner. As part of being voted into the top 50 VMware &amp;amp; virtualization blogs I was lucky enough to win one for myself, and as an added bonus I get to give away one to one of my readers too!
 To be able to find a worthy winner of it, I&amp;rsquo;ve decided to host a contest.</description>

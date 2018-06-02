@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vcap Dcd on Adventures in Hugo</title>
+    <title>Vcap Dcd on My blog</title>
     <link>/tags/vcap-dcd/</link>
-    <description>Recent content in Vcap Dcd on Adventures in Hugo</description>
+    <description>Recent content in Vcap Dcd on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <language>en</language>
+    <managingEditor>yourname@example.com (yourname)</managingEditor>
+    <webMaster>yourname@example.com (yourname)</webMaster>
+    <copyright>(c) 2016 Copyright my blog</copyright>
     <lastBuildDate>Wed, 27 Nov 2013 17:09:30 +0000</lastBuildDate>
     
 	<atom:link href="/tags/vcap-dcd/index.xml" rel="self" type="application/rss+xml" />
@@ -16,9 +18,9 @@
       <title>VMware VCAP-DCD Boot Camp</title>
       <link>/virtualization/vmware-vcap-dcd-boot-camp/</link>
       <pubDate>Wed, 27 Nov 2013 17:09:30 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/virtualization/vmware-vcap-dcd-boot-camp/</guid>
-      <description>[caption id=&amp;ldquo;&amp;rdquo; align=&amp;ldquo;alignright&amp;rdquo; width=&amp;ldquo;240&amp;rdquo;] Danbo Boot Camp &amp;copy; Daniel Lee[/caption]
+      <description>[caption id=&amp;laquo;&amp;raquo; align=&amp;laquo;alignright&amp;raquo; width=&amp;laquo;240&amp;raquo;] Danbo Boot Camp &amp;copy; Daniel Lee[/caption]
 A while before VMworld Europe 2013 in Barcelona, I was lucky enough to be asked by John Arrasjid if I wanted to help out reviewing the new VCAP-DCD boot camp VMware Education has been working on. So far the VCAP Design Boot Camp has been tested in Spain, Singapore, and Malaysia, with over 300 participants so far.
 In addition to this, a two part vBrownbag series covering the boot camp content was recorded and released:</description>
     </item>

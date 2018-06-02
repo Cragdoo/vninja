@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ssd on Adventures in Hugo</title>
+    <title>Ssd on My blog</title>
     <link>/tags/ssd/</link>
-    <description>Recent content in Ssd on Adventures in Hugo</description>
+    <description>Recent content in Ssd on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <language>en</language>
+    <managingEditor>yourname@example.com (yourname)</managingEditor>
+    <webMaster>yourname@example.com (yourname)</webMaster>
+    <copyright>(c) 2016 Copyright my blog</copyright>
     <lastBuildDate>Sun, 19 Jan 2014 19:19:02 +0000</lastBuildDate>
     
 	<atom:link href="/tags/ssd/index.xml" rel="self" type="application/rss+xml" />
@@ -16,9 +18,9 @@
       <title>Fixing &#34;Could not create vFlash cache&#34; error when powering on a VM</title>
       <link>/virtualization/fixing-could-create-vflash-cache-error-powering-vm/</link>
       <pubDate>Sun, 19 Jan 2014 19:19:02 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/virtualization/fixing-could-create-vflash-cache-error-powering-vm/</guid>
-      <description>During some way overdue housekeeping in my HP Microserver-based &amp;ldquo;Homelab&amp;rdquo; today, I ran into a rather annoying issue that prevented me from starting one of my more important VMs; namely my home Domain Controller.
+      <description>During some way overdue housekeeping in my HP Microserver-based &amp;laquo;Homelab&amp;raquo; today, I ran into a rather annoying issue that prevented me from starting one of my more important VMs; namely my home Domain Controller.
 In short, I removed an old SSD drive that I&amp;rsquo;ve used for vFlash Read Cache (vFRC) testing and installed a new 1TB drive instead. Since I have a rather beefy work lab now, I need space more than speed at home, so this seemed like a good idea at the time.</description>
     </item>
     
@@ -26,7 +28,7 @@ In short, I removed an old SSD drive that I&amp;rsquo;ve used for vFlash Read Ca
       <title>Testing VMware vSphere 5 Swap to Host Cache</title>
       <link>/vmware-2/testing-vmware-vsphere-5-swap-to-host-cache/</link>
       <pubDate>Tue, 22 Nov 2011 22:59:30 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/vmware-2/testing-vmware-vsphere-5-swap-to-host-cache/</guid>
       <description>A little while ago I fitted a small 64GB SSD disk to my HP MicroServer just to have a quick look at the new vSphere 5 feature Swap to Host Cache, where vSphere 5 reclaims memory by storing the swapped out pages in the host cache on a solid-state drive. Naturally, this is a lot faster than swapping to non-SSD storage, but you will still see a performance hit when this happens.</description>
     </item>

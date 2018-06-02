@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Conference on Adventures in Hugo</title>
+    <title>Conference on My blog</title>
     <link>/tags/conference/</link>
-    <description>Recent content in Conference on Adventures in Hugo</description>
+    <description>Recent content in Conference on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <language>en</language>
+    <managingEditor>yourname@example.com (yourname)</managingEditor>
+    <webMaster>yourname@example.com (yourname)</webMaster>
+    <copyright>(c) 2016 Copyright my blog</copyright>
     <lastBuildDate>Wed, 13 Dec 2017 15:07:40 +0000</lastBuildDate>
     
 	<atom:link href="/tags/conference/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +18,7 @@
       <title>Nordic VMUG Conference 2018</title>
       <link>/news/nordic-vmug-conference-2018/</link>
       <pubDate>Wed, 13 Dec 2017 15:07:40 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/news/nordic-vmug-conference-2018/</guid>
       <description>My good friends, and fellow VMUGgers, in Denmark is once again arranging the largest VMUG event in the Nordics in January 2018.
 The Nordic VMUG Conference promises to be just as awesome as previous versions, just have a look at this speaker list:
@@ -29,7 +31,7 @@ The Nordic VMUG Conference promises to be just as awesome as previous versions,
       <title>VMworld Europe 2016 - My takeaways</title>
       <link>/vmware-2/vmworld-europe-2016-my-takeaways/</link>
       <pubDate>Mon, 31 Oct 2016 23:07:40 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/vmware-2/vmworld-europe-2016-my-takeaways/</guid>
       <description>VMworld Europe 2016 in Barcelona is a couple of weeks old now, and most of the dust has settled. Besides the general announcements around vSphere 6.5 and surrounding products, the next big thing might just be Cross-Cloud Architecture and of course VMware Cloud on AWS. The announcements around vSAN 6.5 (yes, it is now vSAN and not Virtual SAN/VSAN anymore), are also very interesting. Perhaps it&amp;rsquo;s time I revisit my earlier VMware VSAN; More than meets the eye post and update it for vSAN 6.</description>
     </item>
@@ -38,7 +40,7 @@ The Nordic VMUG Conference promises to be just as awesome as previous versions,
       <title>VMworld 2016 Europe</title>
       <link>/virtualization/vmworld-2016-europe/</link>
       <pubDate>Thu, 06 Oct 2016 07:50:35 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/virtualization/vmworld-2016-europe/</guid>
       <description>VMworld Europe is just a couple of weeks away now, and I can&amp;rsquo;t wait to spend a week in sunny Barcelona. Last year my trip got cancelled in the last minute, but that will not be the case this year.
 As usual I&amp;rsquo;m looking forward to a bunch of sessions, and general announcements, but for me the value of attending VMworld is in the networking with other people. Sessions and keynotes can be reviewed later, interacting with others can not.</description>
@@ -48,7 +50,7 @@ As usual I&amp;rsquo;m looking forward to a bunch of sessions, and general annou
       <title>Nordic VMUG Conference 2014</title>
       <link>/virtualization/nordic-vmug-conference-2014/</link>
       <pubDate>Wed, 22 Oct 2014 21:18:23 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/virtualization/nordic-vmug-conference-2014/</guid>
       <description>Last year I was lucky enough to get to travel to Copenhagen and visit the Nordic VMUG conference. Sadly it doesn&amp;rsquo;t seem like I&amp;rsquo;ll be able to make it this year, but don&amp;rsquo;t let that stop you! While we in Norway are still trying to get our local VMUG up and running, more news on that in a very short while, the danish VMUG is really the driving force and the leading star for the rest of us in the nordics.</description>
     </item>
@@ -57,7 +59,7 @@ As usual I&amp;rsquo;m looking forward to a bunch of sessions, and general annou
       <title>VMware Forum 2012 Oslo</title>
       <link>/virtualization/vmware-forum-2012-oslo/</link>
       <pubDate>Thu, 26 Apr 2012 20:35:39 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/virtualization/vmware-forum-2012-oslo/</guid>
       <description>Just like last year, I got up really early and caught a 06:40 am flight from Bergen to Oslo to attend the VMware Forum. A couple of things have changed since the last time, one of them being the venue.
 This time around it was held at Ullevaal Business Class, and the venue itself worked great for a one day conference like this, divided into three sections, two for parallel sessions and one for the exhibitor area.</description>
@@ -67,7 +69,7 @@ This time around it was held at Ullevaal Business Class, and the venue itself wo
       <title>Tech Field Day #6 - Arriving in Boston</title>
       <link>/news/tech-field-day-6-arriving-in-boston/</link>
       <pubDate>Wed, 08 Jun 2011 13:57:40 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/news/tech-field-day-6-arriving-in-boston/</guid>
       <description>Yesterday I arrived at Logan International for Tech Field Day #6 in the greater Boston area. Christopher Wells had already arrived earlier in the day, and I was lucky enough to be picked up by Stephen Foskett at the airport and chauffeured to the Sheraton Framingham Hotel and Conference center.
 The travel itself was pretty uneventful, the only trouble I had was that when I landed at Schipol for transfer to the US flight, my boarding pass was nowhere to be found, and I don&amp;rsquo;t think I even received it when I checked in at Bergen Airport Flesland.</description>
@@ -77,7 +79,7 @@ The travel itself was pretty uneventful, the only trouble I had was that when I 
       <title>vSoup and Tech Field Day #6</title>
       <link>/news/vsoup-and-tech-field-day-6/</link>
       <pubDate>Wed, 01 Jun 2011 11:07:52 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/news/vsoup-and-tech-field-day-6/</guid>
       <description>vSoup Episode #10 is finally released, this time with Stuart Radnidge (blog) as our guest. This episode is a bit unusual, as we didn&amp;rsquo;t really have a set agenda before starting the recording, so we jump around all of the place covering a pretty wide area of topics. Be sure to check it out!
 Tech Field Day #6 is approaching really fast, in fact it&amp;rsquo;s only a week away now! I will leave for Boston on Tuesday, June 7, for what looks to be a very, very busy but fun couple of days.</description>
@@ -87,7 +89,7 @@ Tech Field Day #6 is approaching really fast, in fact it&amp;rsquo;s only a week
       <title>VMworld 2011 Session Voting</title>
       <link>/news/vmworld-2011-session-voting/</link>
       <pubDate>Mon, 09 May 2011 10:29:39 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/news/vmworld-2011-session-voting/</guid>
       <description>VMware has opened the public voting for the VMworld 2011 sessions. Personally I haven&amp;rsquo;t submitted anything, but I do see a lot of familiar names in the voting application.
 The voting is available to anyone who has a vmworld.com account, and the voting period is from May 9th to May 18th. The voting is global, which means a vote for a session counts as a vote for both VMworld US and VMworld EMEA as 80% of the selected sessions will occur at both events.</description>
@@ -97,7 +99,7 @@ The voting is available to anyone who has a vmworld.com account, and the voting 
       <title>VMworld Europe 2010 – The aftermath</title>
       <link>/virtualization/vmworld-europe-2010the-aftermath/</link>
       <pubDate>Fri, 15 Oct 2010 07:33:54 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/virtualization/vmworld-europe-2010the-aftermath/</guid>
       <description>I’m back home again, after spending the better part of this week in Copenhagen, attending VMworld Europe 2010.
 Let me just say, straight off the bat, that attending VMworld is probably the best idea I’ve had in years. In reality, that’s not saying much, but the value of attending is immense.

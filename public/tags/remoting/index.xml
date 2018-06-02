@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Remoting on Adventures in Hugo</title>
+    <title>Remoting on My blog</title>
     <link>/tags/remoting/</link>
-    <description>Recent content in Remoting on Adventures in Hugo</description>
+    <description>Recent content in Remoting on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <language>en</language>
+    <managingEditor>yourname@example.com (yourname)</managingEditor>
+    <webMaster>yourname@example.com (yourname)</webMaster>
+    <copyright>(c) 2016 Copyright my blog</copyright>
     <lastBuildDate>Tue, 18 Jan 2011 08:10:02 +0000</lastBuildDate>
     
 	<atom:link href="/tags/remoting/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +18,7 @@
       <title>Powershell: Scripting Best Practices Analyzer remotely</title>
       <link>/windows/powershell-scripting-best-practices-analyzer-remotely/</link>
       <pubDate>Tue, 18 Jan 2011 08:10:02 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/windows/powershell-scripting-best-practices-analyzer-remotely/</guid>
       <description>Jan Egil Ring over at blog.powershell.no has created a great PowerShell script that lets you run the Microsoft Best Practices Analyzer on remote Windows Server 2008 R2 machines.
 In short, Invoke-BPAModeling.ps1 queries your Active Directory for any machines that run Windows Server 2008 R2, runs BPA on them (if Windows PowerShell Remoting is enabled) and emails you the report.

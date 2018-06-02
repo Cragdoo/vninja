@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Framework on Adventures in Hugo</title>
+    <title>Framework on My blog</title>
     <link>/tags/framework/</link>
-    <description>Recent content in Framework on Adventures in Hugo</description>
+    <description>Recent content in Framework on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <language>en</language>
+    <managingEditor>yourname@example.com (yourname)</managingEditor>
+    <webMaster>yourname@example.com (yourname)</webMaster>
+    <copyright>(c) 2016 Copyright my blog</copyright>
     <lastBuildDate>Wed, 11 Feb 2015 23:28:23 +0000</lastBuildDate>
     
 	<atom:link href="/tags/framework/index.xml" rel="self" type="application/rss+xml" />
@@ -16,10 +18,10 @@
       <title>The Real Value of the VCDX Certification</title>
       <link>/virtualization/real-vcdx-certification/</link>
       <pubDate>Wed, 11 Feb 2015 23:28:23 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/virtualization/real-vcdx-certification/</guid>
       <description>The VMware Certified Design Expert: VCDX. THE certification of certifications, especially if you work with VMware based solutions. It&amp;rsquo;s often regarded as the holy grail of certifications, and rightfully so.
-But why is this the case, and why does &amp;ldquo;everyone&amp;rdquo; want to become one?
+But why is this the case, and why does &amp;laquo;everyone&amp;raquo; want to become one?
 The reasons for it being such a highly coveted title, are pretty obvious:
  Very few people can call themselves VCDX, at the time of writing only 186 people have successfully defended their design.</description>
     </item>

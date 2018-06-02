@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hipster It on Adventures in Hugo</title>
+    <title>Hipster It on My blog</title>
     <link>/tags/hipster-it/</link>
-    <description>Recent content in Hipster It on Adventures in Hugo</description>
+    <description>Recent content in Hipster It on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <language>en</language>
+    <managingEditor>yourname@example.com (yourname)</managingEditor>
+    <webMaster>yourname@example.com (yourname)</webMaster>
+    <copyright>(c) 2016 Copyright my blog</copyright>
     <lastBuildDate>Thu, 14 Jan 2016 12:32:59 +0000</lastBuildDate>
     
 	<atom:link href="/tags/hipster-it/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +18,7 @@
       <title>Running Dockerflix on Ravello Systems</title>
       <link>/virtualization/running-dockerflix-on-ravello-systems/</link>
       <pubDate>Thu, 14 Jan 2016 12:32:59 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/virtualization/running-dockerflix-on-ravello-systems/</guid>
       <description>Dockerflix is a nice little project that allows you to route your Netflix (and other various streaming services) through a SNI Proxy to access content otherwise geo-blocked. Of course, this requires that you have a VM with for instance an US IP to provide the breakout network, and that&amp;rsquo;s where Ravello Systems comes into the equation. Luckily as a current vExpert I have access to 1000 free monthly CPU hours of personal/lab usage, all with a choice of regions to put the VM in.</description>
     </item>

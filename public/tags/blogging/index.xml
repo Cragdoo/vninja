@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogging on Adventures in Hugo</title>
+    <title>Blogging on My blog</title>
     <link>/tags/blogging/</link>
-    <description>Recent content in Blogging on Adventures in Hugo</description>
+    <description>Recent content in Blogging on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <language>en</language>
+    <managingEditor>yourname@example.com (yourname)</managingEditor>
+    <webMaster>yourname@example.com (yourname)</webMaster>
+    <copyright>(c) 2016 Copyright my blog</copyright>
     <lastBuildDate>Mon, 02 Mar 2015 22:23:03 +0000</lastBuildDate>
     
 	<atom:link href="/tags/blogging/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +18,7 @@
       <title>vVotemageddon 2015</title>
       <link>/virtualization/vvotemageddon-2015/</link>
       <pubDate>Mon, 02 Mar 2015 22:23:03 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/virtualization/vvotemageddon-2015/</guid>
       <description> As has become a yearly tradition, the vote is on. Pick your favorite VMware &amp;amp; virtualization blogs and give Eric Siebert loads of work.
 https://twitter.com/ericsiebert/status/572493098464370688

@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vmtn Subscription on Adventures in Hugo</title>
+    <title>Vmtn Subscription on My blog</title>
     <link>/tags/vmtn-subscription/</link>
-    <description>Recent content in Vmtn Subscription on Adventures in Hugo</description>
+    <description>Recent content in Vmtn Subscription on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <language>en</language>
+    <managingEditor>yourname@example.com (yourname)</managingEditor>
+    <webMaster>yourname@example.com (yourname)</webMaster>
+    <copyright>(c) 2016 Copyright my blog</copyright>
     <lastBuildDate>Sat, 05 Nov 2011 09:55:30 +0000</lastBuildDate>
     
 	<atom:link href="/tags/vmtn-subscription/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +18,7 @@
       <title>VMTN Subscription</title>
       <link>/virtualization/vmtn-subscription/</link>
       <pubDate>Sat, 05 Nov 2011 09:55:30 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/virtualization/vmtn-subscription/</guid>
       <description>Mike Laverick has started something of a petition to bring back the VMTN Subscription option, and I could not agree more!
 The VMTN Subscription was a way for interested parties to pay for a years subscription to VMware products, akin to the Microsoft Technet subscription program. It&amp;rsquo;s not intended for production use, but as a means to get hold of products for lab work, testing and development.

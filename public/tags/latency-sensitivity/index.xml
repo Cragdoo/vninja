@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Latency Sensitivity on Adventures in Hugo</title>
+    <title>Latency Sensitivity on My blog</title>
     <link>/tags/latency-sensitivity/</link>
-    <description>Recent content in Latency Sensitivity on Adventures in Hugo</description>
+    <description>Recent content in Latency Sensitivity on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <language>en</language>
+    <managingEditor>yourname@example.com (yourname)</managingEditor>
+    <webMaster>yourname@example.com (yourname)</webMaster>
+    <copyright>(c) 2016 Copyright my blog</copyright>
     <lastBuildDate>Tue, 15 Jul 2014 10:59:42 +0000</lastBuildDate>
     
 	<atom:link href="/tags/latency-sensitivity/index.xml" rel="self" type="application/rss+xml" />
@@ -16,10 +18,10 @@
       <title>Root Cause of Invalid memory setting: memory reservation (sched.mem.min) should be equal to memsize (memsize)</title>
       <link>/vmware-2/root-invalid-memory-setting-memory-reservation-sched-mem-min-equal-memsize-memsize/</link>
       <pubDate>Tue, 15 Jul 2014 10:59:42 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/vmware-2/root-invalid-memory-setting-memory-reservation-sched-mem-min-equal-memsize-memsize/</guid>
       <description>While working on reconfiguring my home lab setup, and migrating all the vSphere resources into a single cluster I ran into a problem powering on one of the VMs which used to run on a single host. The power on operation yielded the following error message:
-Invalid memory setting: memory reservation (sched.mem.min) should be equal to memsize (memsize) [showhide type=&amp;ldquo;errorstack&amp;rdquo; more_text=&amp;ldquo;Show error stack (%s More Words)&amp;rdquo;]
+Invalid memory setting: memory reservation (sched.mem.min) should be equal to memsize (memsize) [showhide type=&amp;laquo;errorstack&amp;raquo; more_text=&amp;laquo;Show error stack (%s More Words)&amp;raquo;]
   **Task Details:**         Status:    Invalid memory setting: memory reservation (sched.</description>
     </item>
     

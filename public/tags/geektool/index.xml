@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Geektool on Adventures in Hugo</title>
+    <title>Geektool on My blog</title>
     <link>/tags/geektool/</link>
-    <description>Recent content in Geektool on Adventures in Hugo</description>
+    <description>Recent content in Geektool on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <language>en</language>
+    <managingEditor>yourname@example.com (yourname)</managingEditor>
+    <webMaster>yourname@example.com (yourname)</webMaster>
+    <copyright>(c) 2016 Copyright my blog</copyright>
     <lastBuildDate>Wed, 29 Jan 2014 15:58:10 +0000</lastBuildDate>
     
 	<atom:link href="/tags/geektool/index.xml" rel="self" type="application/rss+xml" />
@@ -16,10 +18,10 @@
       <title>Random VCDX Tips and Quotes?</title>
       <link>/virtualization/random-vcdx-tips-quotes/</link>
       <pubDate>Wed, 29 Jan 2014 15:58:10 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/virtualization/random-vcdx-tips-quotes/</guid>
       <description>I needed something to spruce up my desktop environment, and it seems that one of the more popular ways to do that is to display random quotes and such on your desktop. Instead of hooking up to an existing quotes database, I simply made my own.
-I have collected a few VCDX related tips and quotes, primarily from the archive Duncan Epping put together of VCDX Tips from VCDX 001 John Arrasjid, but also from the &amp;ldquo;submissions&amp;rdquo; I got from VCDX?</description>
+I have collected a few VCDX related tips and quotes, primarily from the archive Duncan Epping put together of VCDX Tips from VCDX 001 John Arrasjid, but also from the &amp;laquo;submissions&amp;raquo; I got from VCDX?</description>
     </item>
     
   </channel>

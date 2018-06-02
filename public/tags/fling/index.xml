@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Fling on Adventures in Hugo</title>
+    <title>Fling on My blog</title>
     <link>/tags/fling/</link>
-    <description>Recent content in Fling on Adventures in Hugo</description>
+    <description>Recent content in Fling on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <language>en</language>
+    <managingEditor>yourname@example.com (yourname)</managingEditor>
+    <webMaster>yourname@example.com (yourname)</webMaster>
+    <copyright>(c) 2016 Copyright my blog</copyright>
     <lastBuildDate>Tue, 28 Mar 2017 11:44:58 +0000</lastBuildDate>
     
 	<atom:link href="/tags/fling/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +18,7 @@
       <title>Cross vCenter VM Mobility Fling - macOS?</title>
       <link>/vmware-2/cross-vcenter-vm-mobility-fling-macos/</link>
       <pubDate>Tue, 28 Mar 2017 11:44:58 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/vmware-2/cross-vcenter-vm-mobility-fling-macos/</guid>
       <description>The VMware Cross vCenter VM Mobility - CLI was recently updated so I decided to try it out. In short, this little Java based application allows you to easily move or clone VMs between disparate vCenter environments.
 The Fling is listed with the following requirements:
@@ -30,7 +32,7 @@ The Fling is listed with the following requirements:
       <title>New Fling from VMware Labs: Makyo</title>
       <link>/vmware-2/fling-vmware-labs-makyo/</link>
       <pubDate>Thu, 21 Feb 2013 08:45:25 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/vmware-2/fling-vmware-labs-makyo/</guid>
       <description>VMware Labs has released a new fling called Makyo (魔境 _makyō_ means “ghost cave” or “devil’s cave.”) which basically is a tool to copy VMs or vApps from one vCenter instance to another.
 It works by doing an automated OVF export on the source vCenter, and then an import on the destination vCenter.

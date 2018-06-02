@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sso on Adventures in Hugo</title>
+    <title>Sso on My blog</title>
     <link>/tags/sso/</link>
-    <description>Recent content in Sso on Adventures in Hugo</description>
+    <description>Recent content in Sso on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <language>en</language>
+    <managingEditor>yourname@example.com (yourname)</managingEditor>
+    <webMaster>yourname@example.com (yourname)</webMaster>
+    <copyright>(c) 2016 Copyright my blog</copyright>
     <lastBuildDate>Tue, 10 Nov 2015 19:30:20 +0000</lastBuildDate>
     
 	<atom:link href="/tags/sso/index.xml" rel="self" type="application/rss+xml" />
@@ -16,11 +18,11 @@
       <title>vCenter / SSO unable to retrieve AD-information | Error while extracting local SSO users</title>
       <link>/virtualization/vcenter-sso-unable-to-retrieve-ad-information-error-while-extracting-local-sso-users/</link>
       <pubDate>Tue, 10 Nov 2015 19:30:20 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/virtualization/vcenter-sso-unable-to-retrieve-ad-information-error-while-extracting-local-sso-users/</guid>
       <description>After deploying a new VCSA 6.0u1 I was seeing some weird errors while trying to retrieve AD- users/groups (or anything from the esod.local domain):
 After some serious head scratching, it dawned on me after checking the DNS records for the DC in the domain, from the vCenter Appliance itself:
-[cc lang=&amp;ldquo;bash&amp;rdquo; width=&amp;ldquo;100%&amp;rdquo; theme=&amp;ldquo;blackboard&amp;rdquo; nowrap=&amp;ldquo;0&amp;rdquo;] dig +noall +answer +search dc1.esod.local dc1.esod.local. 3600 IN A 10.0.1.201 [/cc]
+[cc lang=&amp;laquo;bash&amp;raquo; width=&amp;laquo;100%&amp;raquo; theme=&amp;laquo;blackboard&amp;raquo; nowrap=&amp;laquo;0&amp;raquo;] dig +noall +answer +search dc1.esod.local dc1.esod.local. 3600 IN A 10.0.1.201 [/cc]
 So far so good, the DNS lookup works as expected.</description>
     </item>
     

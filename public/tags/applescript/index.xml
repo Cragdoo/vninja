@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Applescript on Adventures in Hugo</title>
+    <title>Applescript on My blog</title>
     <link>/tags/applescript/</link>
-    <description>Recent content in Applescript on Adventures in Hugo</description>
+    <description>Recent content in Applescript on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <language>en</language>
+    <managingEditor>yourname@example.com (yourname)</managingEditor>
+    <webMaster>yourname@example.com (yourname)</webMaster>
+    <copyright>(c) 2016 Copyright my blog</copyright>
     <lastBuildDate>Tue, 24 Jul 2012 23:31:12 +0000</lastBuildDate>
     
 	<atom:link href="/tags/applescript/index.xml" rel="self" type="application/rss+xml" />
@@ -16,9 +18,9 @@
       <title>Applescript, Desktop Wallpaper and Growl. Automagically.</title>
       <link>/osx/applescript-desktop-wallpaper-growl-automatically/</link>
       <pubDate>Tue, 24 Jul 2012 23:31:12 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/osx/applescript-desktop-wallpaper-growl-automatically/</guid>
-      <description>I´ve been a Mac and OS X user now for about 7 months, but to be honest I have not been very experimental in my usage of my Macbook Air. Until now, my main focus has been basic usage of the hardware and operating systems, and making it work in my corporate environment. As I feel that I´ve reached mission accomplished status on that initial project, I decided to use some of my &amp;ldquo;free&amp;rdquo; vacation time to play around a bit and experiment a bit more.</description>
+      <description>I´ve been a Mac and OS X user now for about 7 months, but to be honest I have not been very experimental in my usage of my Macbook Air. Until now, my main focus has been basic usage of the hardware and operating systems, and making it work in my corporate environment. As I feel that I´ve reached mission accomplished status on that initial project, I decided to use some of my &amp;laquo;free&amp;raquo; vacation time to play around a bit and experiment a bit more.</description>
     </item>
     
   </channel>

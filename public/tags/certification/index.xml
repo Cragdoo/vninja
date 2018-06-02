@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Certification on Adventures in Hugo</title>
+    <title>Certification on My blog</title>
     <link>/tags/certification/</link>
-    <description>Recent content in Certification on Adventures in Hugo</description>
+    <description>Recent content in Certification on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <language>en</language>
+    <managingEditor>yourname@example.com (yourname)</managingEditor>
+    <webMaster>yourname@example.com (yourname)</webMaster>
+    <copyright>(c) 2016 Copyright my blog</copyright>
     <lastBuildDate>Wed, 11 Feb 2015 23:28:23 +0000</lastBuildDate>
     
 	<atom:link href="/tags/certification/index.xml" rel="self" type="application/rss+xml" />
@@ -16,10 +18,10 @@
       <title>The Real Value of the VCDX Certification</title>
       <link>/virtualization/real-vcdx-certification/</link>
       <pubDate>Wed, 11 Feb 2015 23:28:23 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/virtualization/real-vcdx-certification/</guid>
       <description>The VMware Certified Design Expert: VCDX. THE certification of certifications, especially if you work with VMware based solutions. It&amp;rsquo;s often regarded as the holy grail of certifications, and rightfully so.
-But why is this the case, and why does &amp;ldquo;everyone&amp;rdquo; want to become one?
+But why is this the case, and why does &amp;laquo;everyone&amp;raquo; want to become one?
 The reasons for it being such a highly coveted title, are pretty obvious:
  Very few people can call themselves VCDX, at the time of writing only 186 people have successfully defended their design.</description>
     </item>
@@ -28,7 +30,7 @@ The reasons for it being such a highly coveted title, are pretty obvious:
       <title>My VCAP-DCA 550 Experience</title>
       <link>/vmware-2/vcap-dca-550-experience/</link>
       <pubDate>Fri, 05 Sep 2014 21:36:25 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/vmware-2/vcap-dca-550-experience/</guid>
       <description>I finally took the plunge, and sat the VDCA550 exam yesterday. The VCAP5-DCA certification has been on my todo list way to long, and I&amp;rsquo;m glad I can now tick that box and move on.
 The VDCA550 exam is held in a live lab environment, with approximately 23 lab activities, which is the subsequently scored after the exam is finished. This means that you do not get an immediate pass/fail summary at the end of the exam, but you&amp;rsquo;ll be feverishly checking your email until the score report is sent to you from VMware.</description>
@@ -38,7 +40,7 @@ The VDCA550 exam is held in a live lab environment, with approximately 23 lab ac
       <title>It&#39;s All Fun and Games Until...</title>
       <link>/vmware-2/fun-games-until/</link>
       <pubDate>Mon, 10 Mar 2014 19:43:13 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/vmware-2/fun-games-until/</guid>
       <description>Remember, it&amp;rsquo;s all fun and games until someone loses a certification</description>
     </item>
@@ -47,7 +49,7 @@ The VDCA550 exam is held in a live lab environment, with approximately 23 lab ac
       <title>VMware Certified Professional Recertification</title>
       <link>/vmware-2/vmware-certified-professional-recertification/</link>
       <pubDate>Sat, 08 Mar 2014 12:38:37 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/vmware-2/vmware-certified-professional-recertification/</guid>
       <description>VMware has announced a Recertification Policy for it&amp;rsquo;s VMware Certified Professional program, effective as of March 10, 2014.
 In short, it means that you are no longer a VCP(x) for life, but need to recertify every 2 years, unless you take a VCAP exam during the same period. If you do not upgrade your certification, your VCP status is revoked. For all the details, have a look at Recertification Policy: VMware Certified Professional.</description>
@@ -57,9 +59,9 @@ In short, it means that you are no longer a VCP(x) for life, but need to recerti
       <title>VMware VCAP-DCD Boot Camp</title>
       <link>/virtualization/vmware-vcap-dcd-boot-camp/</link>
       <pubDate>Wed, 27 Nov 2013 17:09:30 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/virtualization/vmware-vcap-dcd-boot-camp/</guid>
-      <description>[caption id=&amp;ldquo;&amp;rdquo; align=&amp;ldquo;alignright&amp;rdquo; width=&amp;ldquo;240&amp;rdquo;] Danbo Boot Camp &amp;copy; Daniel Lee[/caption]
+      <description>[caption id=&amp;laquo;&amp;raquo; align=&amp;laquo;alignright&amp;raquo; width=&amp;laquo;240&amp;raquo;] Danbo Boot Camp &amp;copy; Daniel Lee[/caption]
 A while before VMworld Europe 2013 in Barcelona, I was lucky enough to be asked by John Arrasjid if I wanted to help out reviewing the new VCAP-DCD boot camp VMware Education has been working on. So far the VCAP Design Boot Camp has been tested in Spain, Singapore, and Malaysia, with over 300 participants so far.
 In addition to this, a two part vBrownbag series covering the boot camp content was recorded and released:</description>
     </item>
@@ -68,7 +70,7 @@ In addition to this, a two part vBrownbag series covering the boot camp content 
       <title>Trainsignal: Training as a Service (TaaS)</title>
       <link>/news/trainsignal-training-service-taas/</link>
       <pubDate>Fri, 22 Feb 2013 08:55:41 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/news/trainsignal-training-service-taas/</guid>
       <description>Trainsignal has just launched a new Online Training bundle, and for $49 a month you can get unlimited access to their entire set of training courses and practice exams for Cisco, Apple, Microsoft, Citrix, CompTIA, and VMware.
 
@@ -80,7 +82,7 @@ The courses are delivered in your browser, but Trainsignal also offers an offlin
       <title>Getting It Right: VMware Training and Certification</title>
       <link>/vmware-2/right-vmware-training-certification/</link>
       <pubDate>Mon, 01 Oct 2012 21:28:24 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/vmware-2/right-vmware-training-certification/</guid>
       <description>Everyone, and probably their extended family including their mother-in-law, has heard me whine and complain about the VCP training requirements.
 VMware has unveiled a new lab, namely Project Nee (Next-Generation Education Environment)
@@ -93,17 +95,17 @@ VMware Project NEE is a new VMware Labs project providing a richly featured, pow
       <title>The Personal Value of Certification</title>
       <link>/rant/personal-certification/</link>
       <pubDate>Sat, 01 Sep 2012 09:58:26 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/rant/personal-certification/</guid>
-      <description>Fabio Rapposelli´s post &amp;ldquo;On the Real Value of IT certifications&amp;rdquo; highlights some of the current problems related to IT certifications in general, and basic &amp;ldquo;entry level&amp;rdquo; exams in particular.
-The problems with brain dumps, lack of experience and testing methods is not new, and the_ &amp;ldquo;Paper MCSE&amp;rdquo;_ term was coined back in the early 2000´s when the influx of newly certified Microsoft Certified Systems Engineers, with little or no real world experience flooded the market.</description>
+      <description>Fabio Rapposelli´s post &amp;laquo;On the Real Value of IT certifications&amp;raquo; highlights some of the current problems related to IT certifications in general, and basic &amp;laquo;entry level&amp;raquo; exams in particular.
+The problems with brain dumps, lack of experience and testing methods is not new, and the_ &amp;laquo;Paper MCSE&amp;raquo;_ term was coined back in the early 2000´s when the influx of newly certified Microsoft Certified Systems Engineers, with little or no real world experience flooded the market.</description>
     </item>
     
     <item>
       <title>VCDX Wannabe goes live</title>
       <link>/virtualization/vcdx-wannabe-live/</link>
       <pubDate>Tue, 27 Mar 2012 08:46:21 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/virtualization/vcdx-wannabe-live/</guid>
       <description>My little pet project VCDX Wannabe has now (finally) gone live. For now it´s mostly a collection of links and resources, but that will change over time.
 So, if you want to see me (and possibly a few others) either go down in flames, kicking and screaming, or succeed obtaining the VCDX certification you now have the opportunity to do so.</description>
@@ -113,7 +115,7 @@ So, if you want to see me (and possibly a few others) either go down in flames, 
       <title>Being Neil Armstrong</title>
       <link>/rant/neil-armstrong/</link>
       <pubDate>Sun, 26 Feb 2012 22:42:01 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/rant/neil-armstrong/</guid>
       <description>Now there is an ambitious post title if there ever was one, but it seems fitting as the next 12 months promises to be my most ambitious professional year to date.
 Like Neil, I´ve started a journey that could either crash and burn, or end up with my very own personal moon landing.
@@ -124,7 +126,7 @@ Those of you that follow my antics on Twitter already know what I´m talking abo
       <title>VCP 5 Certification Requirements Clarification</title>
       <link>/vmware-2/vcp-5-certification-requirement-clarification/</link>
       <pubDate>Fri, 03 Feb 2012 20:54:51 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/vmware-2/vcp-5-certification-requirement-clarification/</guid>
       <description>In a recent article, VCP 5 certification course deadline looms over VMware pros both vNinja.net contributors (Christian and Ed) are quoted in relation to the VCP 5 certification upgrade deadline of February 29th 2012.
 While I can´t speak for Ed, I can clarify my own comments a bit. The following is a quote from VMware, taken from the article in question:
@@ -135,7 +137,7 @@ While I can´t speak for Ed, I can clarify my own comments a bit. The following 
       <title>Backup Academy - Do You Know Your VM backups?</title>
       <link>/virtualization/backup-academy-do-you-know-your-vm-backups/</link>
       <pubDate>Tue, 13 Sep 2011 13:39:25 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/virtualization/backup-academy-do-you-know-your-vm-backups/</guid>
       <description>The newly opened Backup Academy, by Veeam, aims to educate administrators, and others interested in virtual machine backup, in the required skills to maintain a proper backup strategy for your virtual infrastructure.
 Currently the site has 8 videos available, covering content from disaster recovery to backup integrity tools.

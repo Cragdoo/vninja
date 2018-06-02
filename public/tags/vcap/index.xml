@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vcap on Adventures in Hugo</title>
+    <title>Vcap on My blog</title>
     <link>/tags/vcap/</link>
-    <description>Recent content in Vcap on Adventures in Hugo</description>
+    <description>Recent content in Vcap on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <language>en</language>
+    <managingEditor>yourname@example.com (yourname)</managingEditor>
+    <webMaster>yourname@example.com (yourname)</webMaster>
+    <copyright>(c) 2016 Copyright my blog</copyright>
     <lastBuildDate>Fri, 05 Sep 2014 21:36:25 +0000</lastBuildDate>
     
 	<atom:link href="/tags/vcap/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +18,7 @@
       <title>My VCAP-DCA 550 Experience</title>
       <link>/vmware-2/vcap-dca-550-experience/</link>
       <pubDate>Fri, 05 Sep 2014 21:36:25 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/vmware-2/vcap-dca-550-experience/</guid>
       <description>I finally took the plunge, and sat the VDCA550 exam yesterday. The VCAP5-DCA certification has been on my todo list way to long, and I&amp;rsquo;m glad I can now tick that box and move on.
 The VDCA550 exam is held in a live lab environment, with approximately 23 lab activities, which is the subsequently scored after the exam is finished. This means that you do not get an immediate pass/fail summary at the end of the exam, but you&amp;rsquo;ll be feverishly checking your email until the score report is sent to you from VMware.</description>
@@ -26,7 +28,7 @@ The VDCA550 exam is held in a live lab environment, with approximately 23 lab ac
       <title>VMware Certified Professional Recertification</title>
       <link>/vmware-2/vmware-certified-professional-recertification/</link>
       <pubDate>Sat, 08 Mar 2014 12:38:37 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/vmware-2/vmware-certified-professional-recertification/</guid>
       <description>VMware has announced a Recertification Policy for it&amp;rsquo;s VMware Certified Professional program, effective as of March 10, 2014.
 In short, it means that you are no longer a VCP(x) for life, but need to recertify every 2 years, unless you take a VCAP exam during the same period. If you do not upgrade your certification, your VCP status is revoked. For all the details, have a look at Recertification Policy: VMware Certified Professional.</description>
@@ -36,9 +38,9 @@ In short, it means that you are no longer a VCP(x) for life, but need to recerti
       <title>VMware VCAP-DCD Boot Camp</title>
       <link>/virtualization/vmware-vcap-dcd-boot-camp/</link>
       <pubDate>Wed, 27 Nov 2013 17:09:30 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/virtualization/vmware-vcap-dcd-boot-camp/</guid>
-      <description>[caption id=&amp;ldquo;&amp;rdquo; align=&amp;ldquo;alignright&amp;rdquo; width=&amp;ldquo;240&amp;rdquo;] Danbo Boot Camp &amp;copy; Daniel Lee[/caption]
+      <description>[caption id=&amp;laquo;&amp;raquo; align=&amp;laquo;alignright&amp;raquo; width=&amp;laquo;240&amp;raquo;] Danbo Boot Camp &amp;copy; Daniel Lee[/caption]
 A while before VMworld Europe 2013 in Barcelona, I was lucky enough to be asked by John Arrasjid if I wanted to help out reviewing the new VCAP-DCD boot camp VMware Education has been working on. So far the VCAP Design Boot Camp has been tested in Spain, Singapore, and Malaysia, with over 300 participants so far.
 In addition to this, a two part vBrownbag series covering the boot camp content was recorded and released:</description>
     </item>

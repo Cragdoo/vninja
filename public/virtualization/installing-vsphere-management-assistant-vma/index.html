@@ -1,121 +1,161 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Installing vSphere Management Assistant (vMA)  &middot; My blog</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <head>
-    <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<meta property="og:title" content="Installing vSphere Management Assistant (vMA)" />
-<meta property="og:description" content="The vMA is a Virtual Appliance that you can download from VMware. It&rsquo;s primary function is to enable command line based management of your ESX/ESXi systems.
-Basically this is a pre-packaged virtual machine that includes vCLI and the vSphere SDK for Perl, which means that you don&rsquo;t have to build your own management VM or install these tools locally on a management station.
-vMA is in many regards seen as a replacement for the ESX Service Console which no longer is present in ESXi." />
-<meta property="og:type" content="article" />
+<meta name="description" content="" />
+
+<meta name="keywords" content="ESX, ESXi, Ops, vCLI, Virtual Appliance, vMA, VMware, vSphere, ">
+
+
+<meta property="og:title" content="Installing vSphere Management Assistant (vMA)  &middot; My blog ">
+<meta property="og:site_name" content="My blog"/>
 <meta property="og:url" content="/virtualization/installing-vsphere-management-assistant-vma/" />
+<meta property="og:locale" content="en">
+
+
+<meta property="og:type" content="article" />
+<meta property="og:description" content=""/>
+<meta property="og:article:published_time" content="2011-02-28T23:26:15Z" />
+<meta property="og:article:modified_time" content="2011-02-28T23:26:15Z" />
+
+  
+    
+<meta property="og:article:tag" content="ESX">
+    
+<meta property="og:article:tag" content="ESXi">
+    
+<meta property="og:article:tag" content="Ops">
+    
+<meta property="og:article:tag" content="vCLI">
+    
+<meta property="og:article:tag" content="Virtual Appliance">
+    
+<meta property="og:article:tag" content="vMA">
+    
+<meta property="og:article:tag" content="VMware">
+    
+<meta property="og:article:tag" content="vSphere">
+    
+  
+
+  
+
+  
 
 
 
-<meta property="article:published_time" content="2011-02-28T23:26:15&#43;00:00"/>
-
-<meta property="article:modified_time" content="2011-02-28T23:26:15&#43;00:00"/>
-
-
-
-
-
-
-
-
-
-
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Installing vSphere Management Assistant (vMA)"/>
-<meta name="twitter:description" content="The vMA is a Virtual Appliance that you can download from VMware. It&rsquo;s primary function is to enable command line based management of your ESX/ESXi systems.
-Basically this is a pre-packaged virtual machine that includes vCLI and the vSphere SDK for Perl, which means that you don&rsquo;t have to build your own management VM or install these tools locally on a management station.
-vMA is in many regards seen as a replacement for the ESX Service Console which no longer is present in ESXi."/>
+<link rel="canonical" href="/virtualization/installing-vsphere-management-assistant-vma/" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/touch-icon-144-precomposed.png">
+<link rel="icon" href="/favicon.png">
 <meta name="generator" content="Hugo 0.40.3" />
 
-
-    
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "BlogPosting",
-  "headline": "Installing vSphere Management Assistant (vMA)",
-  "url": "/virtualization/installing-vsphere-management-assistant-vma/",
-  "wordCount": "697",
-  "datePublished": "2011-02-28T23:26:15&#43;00:00",
-  "dateModified": "2011-02-28T23:26:15&#43;00:00",
-  "author": {
-    "@type": "Person",
-    "name": "cmohn"
-  },
-  "keywords": "Howto, Virtualization, ESX, ESXi, Ops, vCLI, Virtual Appliance, vMA, VMware, vSphere"
-}
-</script>
+  <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
 
 
 
-    <link rel="canonical" href="/virtualization/installing-vsphere-management-assistant-vma/">
+    <link rel="stylesheet" href="/css/bootswatch/paper/bootstrap.min.css">
 
-    <title>Installing vSphere Management Assistant (vMA) | Adventures in Hugo</title>
 
-    <!-- combined, minified CSS -->
-    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/style.css">
 
-    
 
-    
 
-    
 
-    
+  <link rel="stylesheet" href="/css/highlight/default.css">
 
-  </head>
 
-  <body>
-
-    
-    <div class="blog-masthead">
-      <div class="container">
-        <nav class="nav blog-nav">
-          <a class="nav-link " href="/">Home</a>
-          
-          <a class="nav-link" href="https://example.org" title="">Link 1</a>
-          
-        </nav>
-      </div>
-    </div>
-    
-
-    
-    <header class="blog-header">
-      <div class="container">
-        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
-        <p class="lead blog-description">There is a thin line between agile and fragile</p>
-      </div>
-    </header>
-    
-
-    
+</head>
+<body data-ng-app="myapp" data-ng-controller="MyController" data-ng-mouseleave="MouseLeave($event)">
+    <header id="main-header">
+  <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
-      <div class="row">
-        <div class="col-sm-8 blog-main">
-
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        
           
-
-
-<article class="blog-post">
-  <header>
-    <h2 class="blog-post-title"><a href="/virtualization/installing-vsphere-management-assistant-vma/">Installing vSphere Management Assistant (vMA)</a></h2>
-    <p class="blog-post-meta"><time datetime="2011-02-28T23:26:15Z">Mon Feb 28, 2011</time> by cmohn in 
-<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/howto" rel="category tag">Howto</a>, <a href="/categories/virtualization" rel="category tag">Virtualization</a>
-
-
-<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/esx" rel="tag">ESX</a>, <a href="/tags/esxi" rel="tag">ESXi</a>, <a href="/tags/ops" rel="tag">Ops</a>, <a href="/tags/vcli" rel="tag">vCLI</a>, <a href="/tags/virtual-appliance" rel="tag">Virtual Appliance</a>, <a href="/tags/vma" rel="tag">vMA</a>, <a href="/tags/vmware" rel="tag">VMware</a>, <a href="/tags/vsphere" rel="tag">vSphere</a>
-
-</p>
+          <a class="navbar-brand-img" href="/">
+            <img alt="Appernetic blog" src="http://blog.appernetic.io/images/apperneticlogo.png">
+            
+          </a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            
+            
+            <li class="">
+              
+                <a href="https://appernetic.io/app/#/about" >
+                  <i class='fa fa-road'></i>
+                  About
+                </a>
+              
+            </li>
+            
+            <li class="">
+              
+                <a href="/post/" >
+                  
+                  Blog
+                </a>
+              
+            </li>
+            
+            <li class="">
+              
+                <a href="https://appernetic.io/app/" >
+                  
+                  Dashboard
+                </a>
+              
+            </li>
+            
+            
+              
+          </ul>
+        </div>
+        
+      </div>
+    </nav>
   </header>
+
+
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-9">
+
+
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >
+<header class="container hat">
+  <h1>Installing vSphere Management Assistant (vMA)
+</h1>
+
+</header>
+</div>
+
+
+      <div class="content">
   
 
 <p>The <em>vMA</em> is a Virtual Appliance that you can download from <a href="http://communities.vmware.com/community/vmtn/vsphere/automationtools/vima">VMware</a>. It&rsquo;s primary function is to enable command line based management of your ESX/ESXi systems.</p>
@@ -143,11 +183,11 @@ This is useful if you have already downloaded the vMA appliance and plan on depl
 
 <p><a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/Deploy-vMA-01.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/Deploy-vMA-01-300x194.png" alt="" /></a></p>
 
-<p>Navigate to &ldquo;<em>File</em>&rdquo;, find and select the <em>&ldquo;Deploy OVF template</em>&rdquo; option</p>
+<p>Navigate to &laquo;<em>File</em>&raquo;, find and select the <em>&laquo;Deploy OVF template</em>&raquo; option</p>
 
 <p><a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/Deploy-vMA-02.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/Deploy-vMA-02-245x300.png" alt="" /></a></p>
 
-<p>This starts the OVF deployment wizard. In the &ldquo;<em>Deploy from a file or URL</em>&ldquo;  text box, enter the following url:  <a href="http://download3.vmware.com/software/vma/vMA-4.1.0.0-268837.ovf">http://download3.vmware.com/software/vma/vMA-4.1.0.0-268837.ovf</a> and click on &ldquo;<em>Next</em>&rdquo;.</p>
+<p>This starts the OVF deployment wizard. In the &laquo;<em>Deploy from a file or URL</em>&laquo;  text box, enter the following url:  <a href="http://download3.vmware.com/software/vma/vMA-4.1.0.0-268837.ovf">http://download3.vmware.com/software/vma/vMA-4.1.0.0-268837.ovf</a> and click on &laquo;<em>Next</em>&raquo;.</p>
 
 <p><strong>Note:</strong> This URL is valid at the point of writing, but might change at a later date when a new version is released by VMware.</p>
 
@@ -157,19 +197,19 @@ This is useful if you have already downloaded the vMA appliance and plan on depl
 
 <p><a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/Deploy-vMA-04.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/Deploy-vMA-04-300x225.png" alt="" /></a></p>
 
-<p>Click &ldquo;<em>Next</em>&ldquo;  to view and accept the VMware EULA. After reading it throroughly click on &ldquo;<em>Accept</em>&rdquo; and then on &ldquo;<em>Next</em>&rdquo; again to continue</p>
+<p>Click &laquo;<em>Next</em>&laquo;  to view and accept the VMware EULA. After reading it throroughly click on &laquo;<em>Accept</em>&raquo; and then on &laquo;<em>Next</em>&raquo; again to continue</p>
 
 <p><a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/Deploy-vMA-05.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/Deploy-vMA-05-300x225.png" alt="" /></a></p>
 
-<p>Next up is the &ldquo;<strong>Name and Location</strong>&rdquo; screen, where you can customize the name of your vMA instance. If you are deploying the several vMA instances to the same host/vCenter, you will need to change this to prevent naming conflicts.</p>
+<p>Next up is the &laquo;<strong>Name and Location</strong>&raquo; screen, where you can customize the name of your vMA instance. If you are deploying the several vMA instances to the same host/vCenter, you will need to change this to prevent naming conflicts.</p>
 
 <p><a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/Deploy-vMA-06.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/Deploy-vMA-06-300x225.png" alt="" /></a></p>
 
-<p>After naming your vMA, click on &ldquo;<em>Next</em>&rdquo; again, and you&rsquo;ll get presented with the &ldquo;<strong>Disk Format</strong>&rdquo; screen. Here you can select between thin provisioned or thick provisioned disks, for this installation I chose to change it to thin provisioned, but the default is thick provisioned disks.</p>
+<p>After naming your vMA, click on &laquo;<em>Next</em>&raquo; again, and you&rsquo;ll get presented with the &laquo;<strong>Disk Format</strong>&raquo; screen. Here you can select between thin provisioned or thick provisioned disks, for this installation I chose to change it to thin provisioned, but the default is thick provisioned disks.</p>
 
 <p><a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/Deploy-vMA-07.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/Deploy-vMA-07-300x225.png" alt="" /></a></p>
 
-<p>After making your selection, we once again click on &ldquo;<em>Next</em>&rdquo; and now we&rsquo;re nearly there! Review the summary screen to make sure you have selected the right options and  click on &ldquo;<em>Finish</em>&rdquo; to finally  start the download and deployment of your vMA.</p>
+<p>After making your selection, we once again click on &laquo;<em>Next</em>&raquo; and now we&rsquo;re nearly there! Review the summary screen to make sure you have selected the right options and  click on &laquo;<em>Finish</em>&raquo; to finally  start the download and deployment of your vMA.</p>
 
 <p><a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/Deploy-vMA-08.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/Deploy-vMA-08-300x225.png" alt="" /></a></p>
 
@@ -201,73 +241,167 @@ The wizard guides you through the network setup and setting the vi-admin user pa
 
 <p>For details on using vMA and vCLI see the <a href="http://communities.vmware.com/community/vmtn/vsphere/automationtools/vima">vSphere Management Assistant (vMA) site</a>. You can even add ESX/ESXi and vMA to your Active Directory and use that as an authentication source, but I&rsquo;ll leave that for another post on another day.</p>
 
-
-  
-
-  
-  <hr>
-  <footer>
-
-  
-    <section>
-    <h4>Share</h4>
-    <nav class="nav sharing-icons">
-      <a class="nav-item" href="https://www.facebook.com/sharer/sharer.php?u=%2fvirtualization%2finstalling-vsphere-management-assistant-vma%2f" title="Share on Facebook"><span class="fa fa-facebook fa-2x" aria-hidden="true"></span></a>
-      <a class="nav-item" href="https://plus.google.com/share?url=%2fvirtualization%2finstalling-vsphere-management-assistant-vma%2f" title="Share on Google+"><span class="fa fa-google-plus fa-2x" aria-hidden="true"></span></a>
-      <a class="nav-item" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fvirtualization%2finstalling-vsphere-management-assistant-vma%2f" title="Share on LinkedIn"><span class="fa fa-linkedin fa-2x" aria-hidden="true"></span></a>
-      <a class="nav-item" href="https://twitter.com/home?status=%2fvirtualization%2finstalling-vsphere-management-assistant-vma%2f" title="Tweet this"><span class="fa fa-twitter fa-2x"></span></a>
-    </nav>
-  </section>
-
-  
-
-  
-  </footer>
-  
-
-</article> 
+</div>
 
 
-
-        </div> <!-- /.blog-main -->
-
-        <aside class="col-sm-3 ml-auto blog-sidebar">
-  
-
-  
-
-  
-  <section class="sidebar-module">
-    <h4>Links</h4>
-    <ol class="list-unstyled">
       
-      <li><a href="https://example.com">Link 1</a></li>
-      
-      <li><a href="https://example.org">Link 2</a></li>
-      
-    </ol>
-  </section>
-  
-</aside>
-
-
-      </div> <!-- /.row -->
-    </div> <!-- /.container -->
+    </div>
     
+      <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+        <div>
+  
+
+    <div class="section">
+      <header><div class="title"><b>Latest Posts</b></div></header>
+      <div class="content">
+        <ul>
+        
+        </ul>
+      </div>
+    </div>
 
     
-    <footer class="blog-footer">
-      <p>
       
-      &copy; Christian Mohn
       
-      </p>
-      <p>
-      <a href="#">Back to top</a>
-      </p>
-    </footer>
+      <div class="section taxonomies">
+        <header><div class="title"><b>tag</b></div></header>
+
+        <div class="content">
+          <ul>
+            <li><a href="/tags/vmware">vmware</a></li><li><a href="/tags/vsphere">vsphere</a></li><li><a href="/tags/vcenter">vcenter</a></li><li><a href="/tags/fun">fun</a></li><li><a href="/tags/ops">ops</a></li><li><a href="/tags/virtualization">virtualization</a></li><li><a href="/tags/esxi">esxi</a></li><li><a href="/tags/vmworld">vmworld</a></li><li><a href="/tags/news">news</a></li><li><a href="/tags/veeam">veeam</a></li>
+          </ul>
+        </div>
+      </div>
+      
     
+      
+      
+    
+
+</div>
+
+      </div>
+    
+  </div>
+</div>
+    
+<footer class="footer hidden-print">
+  <div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+           <div class="pull-left">
+  <a class="toplink" href="javascript:" id="return-to-top">back to top</a>
+</div>
+<div class="pull-right">
+
+<a href="/disclaimer/">Disclaimer</a> <i>&middot;</i>
+
+<a href="/terms/">Terms</a> 
+
+</div>
+
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+              
+    
+<div class="container footline">
+    <small>
+  code with <i class='fa fa-heart'></i>
+
+</small>
+</div>
+
+
+    
+<div class="container copyright">
+    <small>
+  &copy; 2016 Copyright my blog
+
+  </small>
+</div>
+
+
+
+        </div>
+    </div>
+  </div>
+</footer>
+
+    
+
+<script src="/js/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+
+
+<script src="/js/highlight.pack.js"></script>
+<script src="/js/site.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+<script>
+  var _gaq=[['_setAccount','Your Google Analytics tracking code'],['_trackPageview']];
+  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+  g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+  s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+
+<script>
+var ENABLE_POPOVER =  false , 
+EXPIRE_COOKIE =  5 , 
+SHOW_MODAL_TIMEOUT =  10000 , 
+MOUSE_LEAVE =  true , 
+MODAL_SIZE = "", 
+POST_URL = "https://zapier.com/hooks/...", 
+SIGNUP_HEADER = "Join Our Newsletter",
+HEADER_IMAGE = "//placehold.it/1000x600",
+IMG_DESCRIPTION = "Placeholder image for this popover modal optin form",
+SIGNUP_TEXT = "Signup today for free and be the first to get notified on new updates.",
+INPUT_PLACEHOLDER = "Enter your email",
+SUBMIT_BUTTON = "Subscribe",
+SUCCESS_MESSAGE = "Thanks for your subscription!",
+ERROR_MESSAGE = "Submitting form failed!",
+OPTIN =  true ,
+COOKIE_NAME = "mycookie1",
+CONTENTLANGUAGE = ""; 
+</script>
+
+
+
+
+
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax//MathJax.js"></script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax//config/TeX-AMS-MML_HTMLorMML.js"></script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[','\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    for(var all in MathJax.Hub.getAllJax()) {
+        all.SourceElement().parentNode.className += ' has-jax';
+
+    }
+});
+</script>
+
+
+
+
+
 
   </body>
-
 </html>
+

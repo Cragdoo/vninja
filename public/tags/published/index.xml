@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Published on Adventures in Hugo</title>
+    <title>Published on My blog</title>
     <link>/tags/published/</link>
-    <description>Recent content in Published on Adventures in Hugo</description>
+    <description>Recent content in Published on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <language>en</language>
+    <managingEditor>yourname@example.com (yourname)</managingEditor>
+    <webMaster>yourname@example.com (yourname)</webMaster>
+    <copyright>(c) 2016 Copyright my blog</copyright>
     <lastBuildDate>Mon, 20 Jun 2011 20:58:35 +0000</lastBuildDate>
     
 	<atom:link href="/tags/published/index.xml" rel="self" type="application/rss+xml" />
@@ -16,9 +18,9 @@
       <title>7 Expert Tips for Managing Your Remote vSphere Infrastructure</title>
       <link>/news/7-expert-tips-for-managing-your-remote-vsphere-infrastructure/</link>
       <pubDate>Mon, 20 Jun 2011 20:58:35 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/news/7-expert-tips-for-managing-your-remote-vsphere-infrastructure/</guid>
-      <description>Now there is a catchy title if I ever saw one. Only &amp;ldquo;problem&amp;rdquo; is that it&amp;rsquo;s a whitepaper that I have written for Veeam. In reality this is the first published article I have ever written, that I didn&amp;rsquo;t publish on my own. I&amp;rsquo;m excited about it, yet strangely nervous about how it will be received by the people who download it. If you happen to do so, make sure to let me know how you found it, all comments and criticism will be most appreciated.</description>
+      <description>Now there is a catchy title if I ever saw one. Only &amp;laquo;problem&amp;raquo; is that it&amp;rsquo;s a whitepaper that I have written for Veeam. In reality this is the first published article I have ever written, that I didn&amp;rsquo;t publish on my own. I&amp;rsquo;m excited about it, yet strangely nervous about how it will be received by the people who download it. If you happen to do so, make sure to let me know how you found it, all comments and criticism will be most appreciated.</description>
     </item>
     
   </channel>

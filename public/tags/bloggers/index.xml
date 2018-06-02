@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Bloggers on Adventures in Hugo</title>
+    <title>Bloggers on My blog</title>
     <link>/tags/bloggers/</link>
-    <description>Recent content in Bloggers on Adventures in Hugo</description>
+    <description>Recent content in Bloggers on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <language>en</language>
+    <managingEditor>yourname@example.com (yourname)</managingEditor>
+    <webMaster>yourname@example.com (yourname)</webMaster>
+    <copyright>(c) 2016 Copyright my blog</copyright>
     <lastBuildDate>Wed, 20 Feb 2013 08:14:29 +0000</lastBuildDate>
     
 	<atom:link href="/tags/bloggers/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +18,7 @@
       <title>Voting Open for the 2013 Top VMware &amp; Virtualization Blogs </title>
       <link>/virtualization/voting-open-2013-top-vmware-virtualization-blogs/</link>
       <pubDate>Wed, 20 Feb 2013 08:14:29 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/virtualization/voting-open-2013-top-vmware-virtualization-blogs/</guid>
       <description>Eric Siebert has yet again gone through the massive job of setting up his yearly Top VMware &amp;amp; Virtualization Blogs Vote.
 Huge kudos to Eric, I know this is a big undertaking for you, and myself and the rest of the community really appreciate the hard work you put into this each year!

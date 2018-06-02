@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Happy Dance on Adventures in Hugo</title>
+    <title>Happy Dance on My blog</title>
     <link>/tags/happy-dance/</link>
-    <description>Recent content in Happy Dance on Adventures in Hugo</description>
+    <description>Recent content in Happy Dance on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <language>en</language>
+    <managingEditor>yourname@example.com (yourname)</managingEditor>
+    <webMaster>yourname@example.com (yourname)</webMaster>
+    <copyright>(c) 2016 Copyright my blog</copyright>
     <lastBuildDate>Sat, 09 Jul 2016 20:59:02 +0000</lastBuildDate>
     
 	<atom:link href="/tags/happy-dance/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +18,7 @@
       <title>Top vBlog 2016: Thank you!</title>
       <link>/news/top-vblog-2016-thank-you/</link>
       <pubDate>Sat, 09 Jul 2016 20:59:02 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/news/top-vblog-2016-thank-you/</guid>
       <description>While I was away on a two week holiday on the Croatia&amp;rsquo;s sunny Makarska Rivijera, Eric Siebert announced the result of his annual Top vBlog, and much to my surprise vNinja did quite the jump from last years 46th spot to this years 27th! Honestly, I thought the site would drop out of the the top 50 list this year, but once again I&amp;rsquo;m proven to be mistaken. Some times being wrong is just great!</description>
     </item>

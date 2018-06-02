@@ -1,260 +1,525 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Posts  &middot; My blog</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <head>
-    <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<meta property="og:title" content="Posts" />
-<meta property="og:description" content="There is a thin line between agile and fragile" />
-<meta property="og:type" content="website" />
+<meta name="description" content="" />
+
+<meta name="keywords" content="">
+
+
+<meta property="og:title" content="Posts  &middot; My blog ">
+<meta property="og:site_name" content="My blog"/>
 <meta property="og:url" content="/posts/" />
+<meta property="og:locale" content="en">
+
+
+<meta property="og:type" content="website" />
 
 
 
-<meta property="og:updated_time" content="2016-11-03T21:41:07&#43;00:00"/>
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="Posts" />
 
-
-
-
-
-
-
-
-
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Posts"/>
-<meta name="twitter:description" content="There is a thin line between agile and fragile"/>
+<link rel="canonical" href="/posts/" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/touch-icon-144-precomposed.png">
+<link rel="icon" href="/favicon.png">
 <meta name="generator" content="Hugo 0.40.3" />
 
-
-    
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "Blog",
-  "headline": "Adventures in Hugo",
-  "url" : "/posts/",
-  "author": {
-    "@type": "Person",
-    "name": "Christian Mohn"
-  },
-  "dateModified": "2016-11-03T21:41:07&#43;00:00",
-  "keywords": "awesometalks,book,hardware,homelab,howto,inthebag,microsoft,misc,network,news,os-x,rant,software,storage,virtualization,vmware,windows,workflow,2011,2014,2015,2016,2017,3par,5.5,6.0,6.5,acronis,adobe,adviceforvmworld,agile,alastair-cooke,alerting,analysis,announcement,annual,api,app-delivery,apple,applescript,appliance,architecture,audio,autolab,automation,automator,availability,award,awesome,awesometalk,aws,awsome,backup,backup-academy,backup-amp-replication,backup-amp-replication-v7,bag,barcelona,bash,best-practice,beta,bitlocker,bl460c,bladesystem,block-size,blog,bloggers,blogging,blogtober,book,boot-camp,bug,c3000,c7000,cancer,care-package,cc,certificate,certificates,certification,change,changelog,changes,charity,christian-mohn,chromecast,cisco,citrix,cloud,cloudflare,cohesity,collaboration,command-line,community,competition,conference,content-creation,contest,contest.-photo,copenhagen,daas,data-center,datastore,day-2,dell,denmark,deployment,desktop,digital-ship,disaster,disaster-recovery,dmarc,dns,docker,dockerflix,documentation,donation,doom,download,dr,dropbox,dynamic-dns,easyvnx,ed,edb-ergogroup,email,embedded-host-client,emc,encryption,epiphany,equallogic,esx,esx-3.5,esxcli,esxi,esxi-4,esxi-5,euc,event,event-id-2915,evernote,everyday,evo,evorail,evry,exchange,experiment,facelift,feature-request,featured,fibre-channel,fire,firewall,firmware,flash,flash-talk,fling,floppy,form-factor,framework,free,free-tool,free-tools,freebie,fun,fundraising,future,g8,gdpr,geektool,github,give-away,gorilla,gpmc,group-policy,group-policy-preferences,ha,hack,hands-on,hands-on-lab,hands-on-labs,happy-dance,harakiri,hardware,hardware-version,health-check,hipster-it,hol,home-lab,homebrew,homelab,homelabops,horizon,horizon-application-manager,host,host-cache,hosted-beta,howto,hp,hp-insight-control,http,hyper-converged,hyper-v,hyperconverged,hypervisor,ideas,ifttt,images,impatient,installation,integrity,intel,internationalization,inthebag,inthebag.-weekly,iomega,ipad,ix2,john-troyer,kb,kb2393802,keep-calm,keynote,keyremap4macbook.-customization,kids,knowledge-base,lab,labs,latency-sensitivity,licenses,licensing,linux,log,log-files,log-insight,mac,macos,maintenance,makyo,management,markdown,marvin,md5,meltdown,messaging,microsoft,microsoft-office,microvisor,mike-laverick,misinformation,monitoring,moref,movember,multipath,nda,neil-armstrong,nested-esxi,networking,news,nfr,nfs,ninja,node,nordic,nordic-vmug,norway,nsx,ntp,nutanix,nutjob,omnigraffle,oneliner,online-training,operations,opinion,ops,organization,os-x,oslo,p220i,packt,pandoc,password,patch,patching,pckeyboardhack,pernixdata,personal,petri,photo,photos,php,pins,plans,plugin,pocket,podcast,podcasting-for-cancer,policy-based-computing,posters,powercli,powergui,powershell,prediction,presentation,proact,productivity,proliant,proof-of-concept,proxy,psc,published,python,quote,quotes,rant,raspberry-pi,ravello,rdcman,real-world,realworld,receiver,recommended,release,remoting,review,role,royaltsx,rpi,rsync,saas,sammy-bogaert,sandisk,sccm,script,scripting,scvmm,sddc,seatrans,security,self-help,self-promotion,server,session,setup,sfp&#43;,sha1,sharing,simulation,site,site-recovery-manager,slack,slate,snapshot,snark,social,social-media,software,speaking,spectacle,spectre,speculation,sql-server-express,ssd,ssh,ssl,sso,statistics,steve-herrod,stickers,storage,storeserv,suggestion,suse,syslog,system-center,tech-conference,tech-field-day,terminal,theme,thin-client,thinapp,tips-amp-tricks,todo,todoist,togaf,tool,topology,topvblog,tpm,training,trainsignal,travel,trial,troubleshooting,tunnels,ubuntu,unconference,unsupported,update,upgrade,usb,usercon,v12n,vaio,vanguards,vblog,vcap,vcap-dca,vcap-dcd,vcdx,vcdxwannabe,vcenter,vcenter-appliance,vcenter-client,vcenter-operations,vcenter-operations-manager,vcenter-server-appliance,vcenter-update-manager,vcenter-web-client,vcli,vcloud,vcloud-air,vcp,vcsa,vdm30in30,vdr,veeam,veeam-backup-amp-replication,venting,vexpert,vflash,vflash-read-cache,vfrc,vib,video,view,vip-vcp-club,virtual-appliance,virtual-application,virtual-connect,virtualization,vkernel,vlaunchpad,vm,vma,vmfs,vmtn,vmtn-subscription,vmug,vmware,vmware-forum,vmware-photon,vmware-player,vmware-server,vmware-software-manager,vmware-studio,vmware-view,vmware-workstation,vmware.-vcl,vmworld,vmworld-2012,vmworld-fun-contest,vmworld.-rant,vmworld2012,vninja,vops,vote,voting,vpostgres,vram,vrealize-log-insight,vrealize-operations,vrli,vrops,vrtx,vsamurai,vsan,vshield,vshield-edge,vshield-manager,vsoup,vsphere,vsphere-5,vsphere-5.5,vsphere-6,vsphere-6.5,vsphere-client,vsphere-land,vsphere-replication,watchguard,waterfall,web-client,webhook,webinar,weekly,weeky,whatsup,whitepaper,window-manager,windows,windows-8,winner,winners,wordpress,work,workaround,workflow,workstation,workstation-8,wsus,xen,xvmotion,youtube,zerto,",
-  "description": "There is a thin line between agile and fragile"
-}
-</script>
+  <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
 
 
-    <link rel="canonical" href="/posts/">
 
-    <title>Adventures in Hugo</title>
+    <link rel="stylesheet" href="/css/bootswatch/paper/bootstrap.min.css">
 
-    <!-- combined, minified CSS -->
-    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
 
-    
-    <!-- RSS 2.0 feed -->
-    <link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="Adventures in Hugo" />
-    
+<link rel="stylesheet" href="/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/style.css">
 
-    
 
-    
 
-    
 
-  </head>
+  <link rel="stylesheet" href="/css/highlight/default.css">
 
-  <body>
 
-    
-    <div class="blog-masthead">
-      <div class="container">
-        <nav class="nav blog-nav">
-          <a class="nav-link " href="/">Home</a>
-          
-          <a class="nav-link" href="https://example.org" title="">Link 1</a>
-          
-        </nav>
-      </div>
-    </div>
-    
-
-    
-    <header class="blog-header">
-      <div class="container">
-        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
-        <p class="lead blog-description">There is a thin line between agile and fragile</p>
-      </div>
-    </header>
-    
-
-    
+</head>
+<body data-ng-app="myapp" data-ng-controller="MyController" data-ng-mouseleave="MouseLeave($event)">
+    <header id="main-header">
+  <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
-      <div class="row">
-        <div class="col-sm-8 blog-main">
-
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        
           
-
-
-
-
-
-
-
-<article class="blog-post">
-  <header>
-    <h2 class="blog-post-title"><a href="/virtualization/adding-slack-notifications-to-phpipam/">Adding Slack Notifications to phpipam</a></h2>
-    <p class="blog-post-meta"><time datetime="2016-11-03T21:41:07Z">Thu Nov 03, 2016</time> by cmohn in 
-<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
-
-
-</p>
+          <a class="navbar-brand-img" href="/">
+            <img alt="Appernetic blog" src="http://blog.appernetic.io/images/apperneticlogo.png">
+            
+          </a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            
+            
+            <li class="">
+              
+                <a href="https://appernetic.io/app/#/about" >
+                  <i class='fa fa-road'></i>
+                  About
+                </a>
+              
+            </li>
+            
+            <li class="">
+              
+                <a href="/post/" >
+                  
+                  Blog
+                </a>
+              
+            </li>
+            
+            <li class="">
+              
+                <a href="https://appernetic.io/app/" >
+                  
+                  Dashboard
+                </a>
+              
+            </li>
+            
+            
+              
+          </ul>
+        </div>
+        
+      </div>
+    </nav>
   </header>
-  As mentioned before, I&rsquo;ve kinda turned my home lab into some sort of Slack-Ops deal, where various services in my home lab notify me of events in a private Slack channel.
-The latest rendition of that, is adding Slack notifications from phpipam. Once phpipam detects a new device picking up an IP in my network, it notifies me like this:
-In order to get this working, I had to edit the /var/www/phpipam/functions/scripts/discoveryCheck.
-  <a href='/virtualization/adding-slack-notifications-to-phpipam/'>Read more →</a>
-</article> 
 
 
-
-
-
-
-<article class="blog-post">
+<div id="main-content" class="container">
   <header>
-    <h2 class="blog-post-title"><a href="/virtualization/running-telnetlogger-on-my-home-ip/">Running telnetlogger on my home IP</a></h2>
-    <p class="blog-post-meta"><time datetime="2016-11-02T00:19:30Z">Wed Nov 02, 2016</time> by cmohn in 
-<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
+    <h1>Posts
+</h1>
 
-
-</p>
   </header>
-  Robert Graham of erratasec has created a small honeypot tool called telnetlogger.
- This is a simple program to log login attempts on Telnet (port 23). It's designed to track the Mirai botnet. Right now (Oct 23, 2016) infected Mirai machines from around the world are trying to connect to Telnet on every IP address about once per minute. This program logs both which IP addresses are doing the attempts, and which passwords they are using.
-  <a href='/virtualization/running-telnetlogger-on-my-home-ip/'>Read more →</a>
-</article> 
-
-
-
-
-
-
-<article class="blog-post">
-  <header>
-    <h2 class="blog-post-title"><a href="/vmware-2/vmworld-europe-2016-my-takeaways/">VMworld Europe 2016 - My takeaways</a></h2>
-    <p class="blog-post-meta"><time datetime="2016-10-31T23:07:40Z">Mon Oct 31, 2016</time> by cmohn in 
-<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/vmware" rel="category tag">VMware</a>
-
-
-<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/conference" rel="tag">conference</a>, <a href="/tags/vdm30in30" rel="tag">vDM30in30</a>, <a href="/tags/vmware" rel="tag">VMware</a>, <a href="/tags/vmworld" rel="tag">vmworld</a>
-
-</p>
-  </header>
-  VMworld Europe 2016 in Barcelona is a couple of weeks old now, and most of the dust has settled. Besides the general announcements around vSphere 6.5 and surrounding products, the next big thing might just be Cross-Cloud Architecture and of course VMware Cloud on AWS. The announcements around vSAN 6.5 (yes, it is now vSAN and not Virtual SAN/VSAN anymore), are also very interesting. Perhaps it&rsquo;s time I revisit my earlier VMware VSAN; More than meets the eye post and update it for vSAN 6.
-  <a href='/vmware-2/vmworld-europe-2016-my-takeaways/'>Read more →</a>
-</article> 
-
-
-
-
-
-
-<article class="blog-post">
-  <header>
-    <h2 class="blog-post-title"><a href="/news/me-too-vmware-cloud-on-aws/">Me too: VMware Cloud™ on AWS</a></h2>
-    <p class="blog-post-meta"><time datetime="2016-10-14T18:57:20Z">Fri Oct 14, 2016</time> by cmohn in 
-<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/news" rel="category tag">News</a>
-
-
-<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/aws" rel="tag">AWS</a>, <a href="/tags/cloud" rel="tag">Cloud</a>, <a href="/tags/speculation" rel="tag">Speculation</a>, <a href="/tags/vmware" rel="tag">VMware</a>
-
-</p>
-  </header>
-  After yesterdays announcement of VMware Cloud™ on AWS everyone and their distant relatives have published their opinion pieces on the relevance of the deal, and what who got the short end of the stick in this deal. I guess this is my attempt, or me too post if you will.
-First off, the best source for actual facts and not conjecture, besides the press releases and actual announcement, is Frank Denneman&rsquo;s VMware Cloud™ on AWS – A Closer Look post (and by the way, it just_ feels right_ that Frank is back at VMware).
-  <a href='/news/me-too-vmware-cloud-on-aws/'>Read more →</a>
-</article> 
-
-
-
-
-
-
-<article class="blog-post">
-  <header>
-    <h2 class="blog-post-title"><a href="/osx/macos-secure-pipes/">macOS: Secure Pipes</a></h2>
-    <p class="blog-post-meta"><time datetime="2016-10-14T13:03:41Z">Fri Oct 14, 2016</time> by cmohn in 
-<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/os-x" rel="category tag">OS X</a>, <a href="/categories/software" rel="category tag">Software</a>
-
-
-<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/macos" rel="tag">macOS</a>, <a href="/tags/proxy" rel="tag">Proxy</a>, <a href="/tags/ssh" rel="tag">SSH</a>, <a href="/tags/tunnels" rel="tag">Tunnels</a>
-
-</p>
-  </header>
-  Since I set up a public jumphost for my homelab/network, I&rsquo;ve been looking for an easy way to manage my SSH tunnels. After trying a couple of different managers, I&rsquo;ve chosen to use Secure Pipes.This little piece of free software allows you to easily manage SSH tunnels, with features like Remote Forwards, Local Forwards and SOCKS proxies. It runs in the toolbar, and makes connections easily available. It even reconfigures your network settings to use the SOCKS proxy, if allowed to.
-  <a href='/osx/macos-secure-pipes/'>Read more →</a>
-</article> 
-
-
-
-
-
-<nav class="blog-pagination">
   
-  <a class="btn btn-outline-primary" href="/posts/page/10/" rel="prev" role="button">Previous page</a>
-  <a class="btn btn-outline-primary" href="/posts/page/12/" rel="next" role="button">Next page</a>
+    <h3>
+  <a href="/virtualization/dude-vaio/">Dude, where is my VAIO?</a>
+</h3>
+
+
+  
+    <h3>
+  <a href="/virtualization/great-disturbance-force/">A great disturbance in the Force</a>
+</h3>
+
+
+  
+    <h3>
+  <a href="/misc/presentation-media/">Presentation Media</a>
+</h3>
+
+
+  
+    <h3>
+  <a href="/virtualization/veeam-backup-replication-8-rpc-erroraccess-denied-fix/">Veeam Backup &amp; Replication 8: RPC error:Access is denied Fix</a>
+</h3>
+
+
+  
+    <h3>
+  <a href="/misc/2015-dos-it/">2015: Let&#39;s DOS IT!</a>
+</h3>
+
+
+  
+    <h3>
+  <a href="/virtualization/markdown-things/">Markdown All the Things!</a>
+</h3>
+
+
+  
+    <h3>
+  <a href="/vmware-2/importing-vcloud-air-ssl-certificate-vcenter-server-appliance-5-x/">Importing vCloud Air SSL Certificate on the vCenter Server Appliance 5.x</a>
+</h3>
+
+
+  
+    <h3>
+  <a href="/workflow/combining-todoist-evernote-awesome/">Combining Todoist and Evernote, because awesome</a>
+</h3>
+
+
+  
+    <h3>
+  <a href="/virtualization/hyperconvergence-meth-math/">EVO:RAIL: Doing the methmath.</a>
+</h3>
+
+
+  
+    <h3>
+  <a href="/virtualization/nordic-vmug-conference-2014/">Nordic VMUG Conference 2014</a>
+</h3>
+
+
   
   
-  
+<nav>
+  <ul class="pagination">
+    
+
+
+<li >
+  <a aria-label="First" href="//posts/">
+    <span aria-hidden="true">&laquo;&laquo;</span>
+  </a>
+</li>
+
+<li >
+  <a aria-label="Previous" href="//posts/page/10/">
+    <span aria-hidden="true">&laquo;</span>
+    </a>
+</li>
+
+<li >
+  <a href="//posts/">
+    1
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/2/">
+    2
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/3/">
+    3
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/4/">
+    4
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/5/">
+    5
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/6/">
+    6
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/7/">
+    7
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/8/">
+    8
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/9/">
+    9
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/10/">
+    10
+    </a>
+</li>
+
+<li  class="active" >
+  <a href="//posts/page/11/">
+    11
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/12/">
+    12
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/13/">
+    13
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/14/">
+    14
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/15/">
+    15
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/16/">
+    16
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/17/">
+    17
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/18/">
+    18
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/19/">
+    19
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/20/">
+    20
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/21/">
+    21
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/22/">
+    22
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/23/">
+    23
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/24/">
+    24
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/25/">
+    25
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/26/">
+    26
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/27/">
+    27
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/28/">
+    28
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/29/">
+    29
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/30/">
+    30
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/31/">
+    31
+    </a>
+</li>
+
+
+<li >
+  <a aria-label="Next" href="//posts/page/12/">
+    <span aria-hidden="true">&raquo;</span>
+    </a>
+</li>
+<li >
+  <a aria-label="Last" href="//posts/page/31/">
+    <span aria-hidden="true">&raquo;&raquo;</span>
+  </a>
+</li>
+
+
+  </ul>
 </nav>
 
 
+</div>
+    
+<footer class="footer hidden-print">
+  <div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+           <div class="pull-left">
+  <a class="toplink" href="javascript:" id="return-to-top">back to top</a>
+</div>
+<div class="pull-right">
+
+<a href="/disclaimer/">Disclaimer</a> <i>&middot;</i>
+
+<a href="/terms/">Terms</a> 
+
+</div>
+
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+              
+    
+<div class="container footline">
+    <small>
+  code with <i class='fa fa-heart'></i>
+
+</small>
+</div>
+
+
+    
+<div class="container copyright">
+    <small>
+  &copy; 2016 Copyright my blog
+
+  </small>
+</div>
 
 
 
-        </div> <!-- /.blog-main -->
+        </div>
+    </div>
+  </div>
+</footer>
 
-        <aside class="col-sm-3 ml-auto blog-sidebar">
-  
-
-  
-
-  
-  <section class="sidebar-module">
-    <h4>Links</h4>
-    <ol class="list-unstyled">
-      
-      <li><a href="https://example.com">Link 1</a></li>
-      
-      <li><a href="https://example.org">Link 2</a></li>
-      
-    </ol>
-  </section>
-  
-</aside>
-
-
-      </div> <!-- /.row -->
-    </div> <!-- /.container -->
     
 
-    
-    <footer class="blog-footer">
-      <p>
-      
-      &copy; Christian Mohn
-      
-      </p>
-      <p>
-      <a href="#">Back to top</a>
-      </p>
-    </footer>
-    
+<script src="/js/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+
+
+<script src="/js/highlight.pack.js"></script>
+<script src="/js/site.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+<script>
+  var _gaq=[['_setAccount','Your Google Analytics tracking code'],['_trackPageview']];
+  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+  g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+  s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+
+<script>
+var ENABLE_POPOVER =  false , 
+EXPIRE_COOKIE =  5 , 
+SHOW_MODAL_TIMEOUT =  10000 , 
+MOUSE_LEAVE =  true , 
+MODAL_SIZE = "", 
+POST_URL = "https://zapier.com/hooks/...", 
+SIGNUP_HEADER = "Join Our Newsletter",
+HEADER_IMAGE = "//placehold.it/1000x600",
+IMG_DESCRIPTION = "Placeholder image for this popover modal optin form",
+SIGNUP_TEXT = "Signup today for free and be the first to get notified on new updates.",
+INPUT_PLACEHOLDER = "Enter your email",
+SUBMIT_BUTTON = "Subscribe",
+SUCCESS_MESSAGE = "Thanks for your subscription!",
+ERROR_MESSAGE = "Submitting form failed!",
+OPTIN =  true ,
+COOKIE_NAME = "mycookie1",
+CONTENTLANGUAGE = ""; 
+</script>
+
+
+
+
+
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax//MathJax.js"></script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax//config/TeX-AMS-MML_HTMLorMML.js"></script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[','\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    for(var all in MathJax.Hub.getAllJax()) {
+        all.SourceElement().parentNode.className += ' has-jax';
+
+    }
+});
+</script>
+
+
+
+
+
 
   </body>
-
 </html>
+

@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Omnigraffle on Adventures in Hugo</title>
+    <title>Omnigraffle on My blog</title>
     <link>/tags/omnigraffle/</link>
-    <description>Recent content in Omnigraffle on Adventures in Hugo</description>
+    <description>Recent content in Omnigraffle on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <language>en</language>
+    <managingEditor>yourname@example.com (yourname)</managingEditor>
+    <webMaster>yourname@example.com (yourname)</webMaster>
+    <copyright>(c) 2016 Copyright my blog</copyright>
     <lastBuildDate>Sun, 22 May 2016 19:19:52 +0000</lastBuildDate>
     
 	<atom:link href="/tags/omnigraffle/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +18,7 @@
       <title>vSphere Platform Services Controller (PSC) topology and Omnigraffle</title>
       <link>/virtualization/vsphere-platform-services-controller-psc-topology-and-omnigraffle/</link>
       <pubDate>Sun, 22 May 2016 19:19:52 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/virtualization/vsphere-platform-services-controller-psc-topology-and-omnigraffle/</guid>
       <description>A little while ago William Lam published a little python script called extract_vsphere_deployment_topology.py that basically lets you export your current vSphere PSC topology as a DOT (graph description language) file. Great stuff, and in itself useful as is, especially if you run it through webgraphviz.com as William suggests.
 The thing is, you might want to edit the topology map, change colours and fonts, and even move the boxes around, after you get the output.</description>

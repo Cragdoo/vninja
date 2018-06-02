@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Impatient on Adventures in Hugo</title>
+    <title>Impatient on My blog</title>
     <link>/tags/impatient/</link>
-    <description>Recent content in Impatient on Adventures in Hugo</description>
+    <description>Recent content in Impatient on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <language>en</language>
+    <managingEditor>yourname@example.com (yourname)</managingEditor>
+    <webMaster>yourname@example.com (yourname)</webMaster>
+    <copyright>(c) 2016 Copyright my blog</copyright>
     <lastBuildDate>Tue, 22 Oct 2013 18:42:42 +0000</lastBuildDate>
     
 	<atom:link href="/tags/impatient/index.xml" rel="self" type="application/rss+xml" />
@@ -16,13 +18,13 @@
       <title>Check for OS X Updates Automatically</title>
       <link>/osx/check-os-updates-automatically/</link>
       <pubDate>Tue, 22 Oct 2013 18:42:42 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/osx/check-os-updates-automatically/</guid>
       <description>Yeah, I admit it. I want OS X Mavericks, and I want it now.
 Unfortunately, it´s not available yet from Software Update. So instead of manually checking every 5 minutes or so, I decided to create a small bash script that does it for me.
 It´s very, very simple, but I think it does the job:
 First off, pop into Terminal and get root access:
-[cc lang=&amp;ldquo;bash&amp;rdquo; width=&amp;ldquo;100%&amp;rdquo; theme=&amp;ldquo;blackboard&amp;rdquo; nowrap=&amp;ldquo;0&amp;rdquo;] h0bbel::h0bair { ~ }-&amp;gt; sudo su - [/cc]</description>
+[cc lang=&amp;laquo;bash&amp;raquo; width=&amp;laquo;100%&amp;raquo; theme=&amp;laquo;blackboard&amp;raquo; nowrap=&amp;laquo;0&amp;raquo;] h0bbel::h0bair { ~ }-&amp;gt; sudo su - [/cc]</description>
     </item>
     
   </channel>

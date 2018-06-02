@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Care Package on Adventures in Hugo</title>
+    <title>Care Package on My blog</title>
     <link>/tags/care-package/</link>
-    <description>Recent content in Care Package on Adventures in Hugo</description>
+    <description>Recent content in Care Package on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <language>en</language>
+    <managingEditor>yourname@example.com (yourname)</managingEditor>
+    <webMaster>yourname@example.com (yourname)</webMaster>
+    <copyright>(c) 2016 Copyright my blog</copyright>
     <lastBuildDate>Tue, 11 Sep 2012 17:33:35 +0000</lastBuildDate>
     
 	<atom:link href="/tags/care-package/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +18,7 @@
       <title>... and All I Asked for Was a Pin</title>
       <link>/virtualization/all-i-asked-for-was-a-pin/</link>
       <pubDate>Tue, 11 Sep 2012 17:33:35 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/virtualization/all-i-asked-for-was-a-pin/</guid>
       <description>Way back in the old days, you know when VMworld 2012 was held in San Francisco, I tweeted that if someone could get hold of a VCP pin for me, I would be very happy.
 Luckily Paul Valentino from vCommunity Trust picked that up, and apparently went on quite the scavenger hunt on my behalf.

@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Group Policy Preferences on Adventures in Hugo</title>
+    <title>Group Policy Preferences on My blog</title>
     <link>/tags/group-policy-preferences/</link>
-    <description>Recent content in Group Policy Preferences on Adventures in Hugo</description>
+    <description>Recent content in Group Policy Preferences on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <language>en</language>
+    <managingEditor>yourname@example.com (yourname)</managingEditor>
+    <webMaster>yourname@example.com (yourname)</webMaster>
+    <copyright>(c) 2016 Copyright my blog</copyright>
     <lastBuildDate>Tue, 25 Jun 2013 08:52:03 +0000</lastBuildDate>
     
 	<atom:link href="/tags/group-policy-preferences/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +18,7 @@
       <title>Centrally Disable NAT in VMware Workstation</title>
       <link>/vmware-2/centrally-disable-nat-vmware-workstation/</link>
       <pubDate>Tue, 25 Jun 2013 08:52:03 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/vmware-2/centrally-disable-nat-vmware-workstation/</guid>
       <description>A fellow IT-professional, who works with the non-wired flavor of networking, contacted me with the following scenario:
 A group of users, developers in this case, have VMware Workstation installed on their laptops. This makes it easy for them to manage, test and develop their applications in a closed environment without having to install a bunch of tools/services on their centrally managed laptop environment. An excellent use case for VMware Workstation if there ever was one.</description>

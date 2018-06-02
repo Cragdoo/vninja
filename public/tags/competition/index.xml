@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Competition on Adventures in Hugo</title>
+    <title>Competition on My blog</title>
     <link>/tags/competition/</link>
-    <description>Recent content in Competition on Adventures in Hugo</description>
+    <description>Recent content in Competition on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <language>en</language>
+    <managingEditor>yourname@example.com (yourname)</managingEditor>
+    <webMaster>yourname@example.com (yourname)</webMaster>
+    <copyright>(c) 2016 Copyright my blog</copyright>
     <lastBuildDate>Sat, 27 Oct 2012 16:42:11 +0000</lastBuildDate>
     
 	<atom:link href="/tags/competition/index.xml" rel="self" type="application/rss+xml" />
@@ -16,13 +18,13 @@
       <title>Want Access to the VMworld 2012 Sessions?</title>
       <link>/vmware-2/access-vmworld-2012-sessions/</link>
       <pubDate>Sat, 27 Oct 2012 16:42:11 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/vmware-2/access-vmworld-2012-sessions/</guid>
       <description>Fellow vExpert Rick Scherer is giving away a voucher that provides free access to all of the VMworld 2012 sessions, including associated MP3′s and PDF’s.
 Have a look at his post Win Access to VMworld 2012 Sessions and enter to win now!
 Good stuff Rick, real good!
 Update October 30th:
-Fresh VCDX and fellow vExpert Joep Piscaer has followed suit and announced his own &amp;ldquo;Want to win a VMworld 2012 Subscription?</description>
+Fresh VCDX and fellow vExpert Joep Piscaer has followed suit and announced his own &amp;laquo;Want to win a VMworld 2012 Subscription?</description>
     </item>
     
   </channel>

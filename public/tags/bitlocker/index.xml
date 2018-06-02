@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Bitlocker on Adventures in Hugo</title>
+    <title>Bitlocker on My blog</title>
     <link>/tags/bitlocker/</link>
-    <description>Recent content in Bitlocker on Adventures in Hugo</description>
+    <description>Recent content in Bitlocker on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <language>en</language>
+    <managingEditor>yourname@example.com (yourname)</managingEditor>
+    <webMaster>yourname@example.com (yourname)</webMaster>
+    <copyright>(c) 2016 Copyright my blog</copyright>
     <lastBuildDate>Sat, 07 Jan 2012 22:44:33 +0000</lastBuildDate>
     
 	<atom:link href="/tags/bitlocker/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +18,7 @@
       <title>Creating and Using a Virtual Floppy in vSphere</title>
       <link>/virtualization/creating-virtual-floppy-vsphere/</link>
       <pubDate>Sat, 07 Jan 2012 22:44:33 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/virtualization/creating-virtual-floppy-vsphere/</guid>
       <description>My new colleague Olav Tvedt asked me if I could test his method of enabling Bitlocker in a VM, on VMware vSphere. Of course, I was happy to oblige.
 I followed the same steps as he did in his Running Bitlocker on a Virtual computer post, and it worked perfectly.

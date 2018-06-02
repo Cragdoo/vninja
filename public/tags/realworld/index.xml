@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Realworld on Adventures in Hugo</title>
+    <title>Realworld on My blog</title>
     <link>/tags/realworld/</link>
-    <description>Recent content in Realworld on Adventures in Hugo</description>
+    <description>Recent content in Realworld on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <language>en</language>
+    <managingEditor>yourname@example.com (yourname)</managingEditor>
+    <webMaster>yourname@example.com (yourname)</webMaster>
+    <copyright>(c) 2016 Copyright my blog</copyright>
     <lastBuildDate>Tue, 14 May 2013 11:23:13 +0000</lastBuildDate>
     
 	<atom:link href="/tags/realworld/index.xml" rel="self" type="application/rss+xml" />
@@ -16,20 +18,20 @@
       <title>Quick and Dirty HTTP Based Deployment</title>
       <link>/virtualization/quick-and-dirty-http-based-deployment/</link>
       <pubDate>Tue, 14 May 2013 11:23:13 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/virtualization/quick-and-dirty-http-based-deployment/</guid>
-      <description>A lot of the scripted installation tools that VMware offers allows the usage of a central HTTP based repository for hosting the files. Today I stumbled over a little gem that might just help you create a &amp;ldquo;quick and dirty&amp;rdquo; HTTP based deployment scenario by running a simple command in your terminal. By default, this command works on any system that has Python installed on it, so OS X and Linux should be ready to go as is.</description>
+      <description>A lot of the scripted installation tools that VMware offers allows the usage of a central HTTP based repository for hosting the files. Today I stumbled over a little gem that might just help you create a &amp;laquo;quick and dirty&amp;raquo; HTTP based deployment scenario by running a simple command in your terminal. By default, this command works on any system that has Python installed on it, so OS X and Linux should be ready to go as is.</description>
     </item>
     
     <item>
       <title>Backing up vCenter DB with Veeam B&amp;R 6.5</title>
       <link>/virtualization/backing-up-vcenter-db-with-veeam-br-6-5/</link>
       <pubDate>Mon, 25 Mar 2013 09:03:41 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/virtualization/backing-up-vcenter-db-with-veeam-br-6-5/</guid>
       <description>It´s a well known problem that with Veeam Backup &amp;amp; Recovery Replication 6.5, and earlier, backing up the SQL server that hosts the vCenter DB poses a problem. KB1051 VSS for vCenter outlines the issue well, and provides a workaround.
 If you experience this problem, you will see entries like this in your Veeam B&amp;amp;R backup logs:
-[caption id=&amp;ldquo;attachment_2490&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;640&amp;rdquo;] Veeam vCenterDB Backup Error[/caption]
+[caption id=&amp;laquo;attachment_2490&amp;raquo; align=&amp;laquo;aligncenter&amp;raquo; width=&amp;laquo;640&amp;raquo;] Veeam vCenterDB Backup Error[/caption]
 The workaround provided by Veeam is to create host VM-Host Affinity Rules, effectively pinning a VM to a given host, and then perform the VM backup through the host rather than through the vCenter.</description>
     </item>
     
@@ -37,7 +39,7 @@ The workaround provided by Veeam is to create host VM-Host Affinity Rules, effe
       <title>VMware vSphere Health Check - What´s in it for You?</title>
       <link>/vmware-2/vmware-vsphere-health-checks-wha/</link>
       <pubDate>Tue, 04 Dec 2012 22:49:27 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/vmware-2/vmware-vsphere-health-checks-wha/</guid>
       <description>VMware vSphere Health Check is a service provided by VMware Professional Services, either by their own consultants or by a consultant from a VMware Certified Solution Provider.
 I´m lucky enough to be employed by a Premier VMware Solution Provider who offers this service to our customers, and I´ve completed a fair number of these health checks in the last couple of months.
@@ -48,7 +50,7 @@ You might ask what the value of the Health Check is, and for the end customer it
       <title>Exporting vCenter Events with PowerCLI</title>
       <link>/virtualization/exporting-vcenter-events-powercli/</link>
       <pubDate>Fri, 30 Nov 2012 09:12:50 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/virtualization/exporting-vcenter-events-powercli/</guid>
       <description>One of my clients has recently been having issues with their storage solution, and wanted to export the events from vCenter that show storage performance degradation, to aid in troubleshooting with the vendor.
 For some reason, and I have yet to confirm that this is a bug with the vCenter 5.0 appliance or the vCenter Desktop Client, when an event export is done, the storage related events are not exported with the rest of the events.</description>
@@ -58,7 +60,7 @@ For some reason, and I have yet to confirm that this is a bug with the vCenter 5
       <title>Thinapped vSphere Client Updated to V5.0</title>
       <link>/vmware-2/thinapped-vsphere-client-updated-v5-0/</link>
       <pubDate>Thu, 31 May 2012 11:45:52 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/vmware-2/thinapped-vsphere-client-updated-v5-0/</guid>
       <description>The Thinapped vSphere Client has finally been updated to v5.0, and is readily available for download!
 Sadly the new version is v5.0 only, and will only allow you to connect to vSphere v5 hosts and since the new release has replaced the old release on the VMware Fling website, you´re out of luck if you haven´t already got the 4.0 version stowed away in your own private locker.
@@ -69,7 +71,7 @@ I hope VMware decides to either make the 4.</description>
       <title>Auto Installation and Configuring of vSphere ESXi 5</title>
       <link>/virtualization/auto-installation-and-configuring-of-vsphere-esxi-5/</link>
       <pubDate>Wed, 21 Dec 2011 23:36:19 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/virtualization/auto-installation-and-configuring-of-vsphere-esxi-5/</guid>
       <description>One of the last projects I&amp;rsquo;ve been involved with at Seatrans, is to automate the installation and configuration of vSphere ESXi 5 hosts for deployment on vessels. I&amp;rsquo;ve talked a bit about this before, both on vSoup and in Setting Up Automated ESXi Deployments where I outlined my PXE and PowerCLI based installation and configuration scheme. Not much has changed since then, except updating the PXE server to offer ESXi 5, instead of ESXi 4 and a lot of work has been put into the scripting, including a front-end GUI for the PowerCLI script itself.</description>
     </item>
@@ -78,10 +80,10 @@ I hope VMware decides to either make the 4.</description>
       <title>SCCM 2007 Not a Virtualization Candidate?</title>
       <link>/microsoft-2/sccm-2007-not-a-virtualization-candidate/</link>
       <pubDate>Fri, 26 Aug 2011 08:10:54 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/microsoft-2/sccm-2007-not-a-virtualization-candidate/</guid>
       <description>The last couple of days I&amp;rsquo;ve been in training class, taking the 6451B Planning, Deploying and Managing Microsoft System Center Configuration Manager 2007 course.
-One of the first things that got mentioned, was that for larger deployments you should not run System Center Configuration Manager virtually. Of course, this caught my eye as I&amp;rsquo;m a proponent for the virtualize first &amp;ldquo;movement&amp;rdquo;.
+One of the first things that got mentioned, was that for larger deployments you should not run System Center Configuration Manager virtually. Of course, this caught my eye as I&amp;rsquo;m a proponent for the virtualize first &amp;laquo;movement&amp;raquo;.
 It runs out that the reason for this is that Configuration Manager is somewhat poorly designed, as just about everything it receives from the clients in the network is placed in text based log files (inbox folder) before being processed and pumped into the back-end SQL DB.</description>
     </item>
     
@@ -89,7 +91,7 @@ It runs out that the reason for this is that Configuration Manager is somewhat p
       <title>Setting Up Automated ESXi Deployments</title>
       <link>/virtualization/setting-up-automated-esxi-deployments/</link>
       <pubDate>Thu, 07 Jul 2011 08:10:55 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/virtualization/setting-up-automated-esxi-deployments/</guid>
       <description>Automating ESXi installs was made much easier after the release of vSphere 4.1 where the Scripted Install feature was added, and by using VMware Auto Deploy from VMware Labs. VMware Auto Deploy requires that you have vCenter and Host Profiles in your environment, and that again requires that you have Enterprise Plus licenses in your environment.
 It is, however, possible to deploy ESXi in an automated fashion completely without vCenter and Host Profiles!</description>
@@ -99,7 +101,7 @@ It is, however, possible to deploy ESXi in an automated fashion completely witho
       <title>Exchange 2010 SP1 and KB2393802 or How to Have an Interesting Afternoon at the Office</title>
       <link>/microsoft-2/exchange-2010-sp1-and-kb2393802-or-how-to-have-an-interesting-afternoon-at-the-office/</link>
       <pubDate>Wed, 06 Jul 2011 12:51:21 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/microsoft-2/exchange-2010-sp1-and-kb2393802-or-how-to-have-an-interesting-afternoon-at-the-office/</guid>
       <description>Let me start this post out with a little story. I am normally a hardcore virtualization and storage guy. Sometimes my career in this sector brings me into working with stuff I haven&amp;rsquo;t worked with before because virtualization encompasses so much. As I continue to work with other teams I learn more and more about what they do everyday. I usually find myself involved in every performance troubleshooting session and every new project these days.</description>
     </item>
@@ -108,18 +110,18 @@ It is, however, possible to deploy ESXi in an automated fashion completely witho
       <title>vCenter Integration Mantra</title>
       <link>/news/vcenter-integration-mantra/</link>
       <pubDate>Fri, 10 Jun 2011 15:43:18 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/news/vcenter-integration-mantra/</guid>
       <description>During Tech Field Day #6 in Boston one particular general feature request has become increasingly prominent;
 Can we have it inside the vCenter client?
-In short, what we want is for all those great third party vendors like VKernel, Solarwinds and others to be able to put their feature addons directly into the vCenter client. Currently most third party apps &amp;ldquo;integrate&amp;rdquo; by offering a new tab where you can access it, but I would love to see that being expanded even further.</description>
+In short, what we want is for all those great third party vendors like VKernel, Solarwinds and others to be able to put their feature addons directly into the vCenter client. Currently most third party apps &amp;laquo;integrate&amp;raquo; by offering a new tab where you can access it, but I would love to see that being expanded even further.</description>
     </item>
     
     <item>
       <title>Tech Field Day #6 - Delegate I Am</title>
       <link>/news/tech-field-day-6-delegate-i-am/</link>
       <pubDate>Mon, 16 May 2011 12:34:45 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/news/tech-field-day-6-delegate-i-am/</guid>
       <description>A while ago I got a surprising email, stating the following:
 You could consider this a sincere compliment from the Gestalt IT community as your name was suggested and we think you are the kind of person we all would love to have as part of our community. This means you&#39;re independent-minded, technology-focused, community-oriented, and a thought leader in the area of IT infrastructure.  Of course, this is pretty much hogwash, but nevertheless I&amp;rsquo;m extremely honored to be invited as a delegate for Tech Field Day #6 in Boston, Mass.</description>
@@ -129,7 +131,7 @@ You could consider this a sincere compliment from the Gestalt IT community as yo
       <title>Installing and configuring VMware vCenter Operations</title>
       <link>/virtualization/installing-and-configuring-vmware-vcenter-operations/</link>
       <pubDate>Mon, 21 Mar 2011 19:50:02 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/virtualization/installing-and-configuring-vmware-vcenter-operations/</guid>
       <description>VMware vCenter Operations was released to the general public a week or so ago and is available for download right now. As usual you can download a 60 day trial, and get started immediately.
 Like other recent management utilities from VMware, vCenter Operations comes in the form of a .OVF template (like vCMA/vMA).
@@ -140,9 +142,9 @@ Installing VMware vCenter Operations Download VMware vCenter Operations and impo
       <title>Virtual Admins - Virtual Pirates?</title>
       <link>/virtualization/virtual-admins-virtual-pirates/</link>
       <pubDate>Thu, 23 Dec 2010 22:20:15 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/virtualization/virtual-admins-virtual-pirates/</guid>
-      <description>When Rich Brambley posted &amp;ldquo;A Pirate Invented Server Virtualization&amp;rdquo; today, it reminded me of a little story from my own production environment.
+      <description>When Rich Brambley posted &amp;laquo;A Pirate Invented Server Virtualization&amp;raquo; today, it reminded me of a little story from my own production environment.
 This story is a couple of years old, but sadly it&amp;rsquo;s still valid. A very specialized application that we run, requires a SQL Server Express instance, a proxy/licensing server and client installation with license files to work. This application isn&amp;rsquo;t very advanced, nor very resource intensive so by nature it&amp;rsquo;s prime for running in a virtualized environment.</description>
     </item>
     

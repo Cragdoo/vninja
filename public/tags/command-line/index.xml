@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Command Line on Adventures in Hugo</title>
+    <title>Command Line on My blog</title>
     <link>/tags/command-line/</link>
-    <description>Recent content in Command Line on Adventures in Hugo</description>
+    <description>Recent content in Command Line on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <language>en</language>
+    <managingEditor>yourname@example.com (yourname)</managingEditor>
+    <webMaster>yourname@example.com (yourname)</webMaster>
+    <copyright>(c) 2016 Copyright my blog</copyright>
     <lastBuildDate>Mon, 23 Sep 2013 23:28:04 +0000</lastBuildDate>
     
 	<atom:link href="/tags/command-line/index.xml" rel="self" type="application/rss+xml" />
@@ -16,18 +18,18 @@
       <title>Quick and Dirty ESXi 5.5 Upgrade</title>
       <link>/virtualization/quick-dirty-esxi-5-5-upgrade/</link>
       <pubDate>Mon, 23 Sep 2013 23:28:04 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/virtualization/quick-dirty-esxi-5-5-upgrade/</guid>
       <description>As I´ve posted about earlier, you can update your ESXi hosts to a new release from the command line. Now that ESXi 5.5 has been released, the same procedure can be applied to upgrade once more.
 Place the host in maintenance mode, then run the following command to do an online update to ESXi 5.5:
-[cc lang=&amp;ldquo;bash&amp;rdquo; width=&amp;ldquo;100%&amp;rdquo; theme=&amp;ldquo;blackboard&amp;rdquo; nowrap=&amp;ldquo;0&amp;rdquo;] ~ # esxcli software profile update -d https://hostupdate.vmware.com/software/VUM/PRODUCTION/main/vmw-depot-index.xml -p ESXi-5.</description>
+[cc lang=&amp;laquo;bash&amp;raquo; width=&amp;laquo;100%&amp;raquo; theme=&amp;laquo;blackboard&amp;raquo; nowrap=&amp;laquo;0&amp;raquo;] ~ # esxcli software profile update -d https://hostupdate.vmware.com/software/VUM/PRODUCTION/main/vmw-depot-index.xml -p ESXi-5.</description>
     </item>
     
     <item>
       <title>Quick and Dirty ESXi 5.1U1 Upgrade</title>
       <link>/vmware-2/quick-dirty-esxi-5-1u1-upgrade/</link>
       <pubDate>Fri, 26 Apr 2013 12:36:07 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/vmware-2/quick-dirty-esxi-5-1u1-upgrade/</guid>
       <description>Now that VMware ESXi 5.1 Update 1 has been released I decided to do a quick and dirty upgrade of my home installation. I refuse to call it a lab these days, since it´s one singular host and all it does it contain my home domain controller&amp;hellip;
 Anyway, the following procedure upgraded the host from 5.1b to 5.1U1, by downloading the upgrade directly from VMware and installing it. Make sure the host is in maintenance mode before attempting this procedure.</description>

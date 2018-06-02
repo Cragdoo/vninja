@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vops on Adventures in Hugo</title>
+    <title>Vops on My blog</title>
     <link>/tags/vops/</link>
-    <description>Recent content in Vops on Adventures in Hugo</description>
+    <description>Recent content in Vops on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <language>en</language>
+    <managingEditor>yourname@example.com (yourname)</managingEditor>
+    <webMaster>yourname@example.com (yourname)</webMaster>
+    <copyright>(c) 2016 Copyright my blog</copyright>
     <lastBuildDate>Mon, 14 Jan 2013 23:53:50 +0000</lastBuildDate>
     
 	<atom:link href="/tags/vops/index.xml" rel="self" type="application/rss+xml" />
@@ -16,9 +18,9 @@
       <title>Dell (VKernel) vOPS Server Explorer 6.3 Released</title>
       <link>/virtualization/dell-vkernel-vops-server-explorer-6-3-released/</link>
       <pubDate>Mon, 14 Jan 2013 23:53:50 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/virtualization/dell-vkernel-vops-server-explorer-6-3-released/</guid>
-      <description>[caption id=&amp;ldquo;attachment_2341&amp;rdquo; align=&amp;ldquo;alignright&amp;rdquo; width=&amp;ldquo;300&amp;rdquo;] vOPS 6.3 Environment Explorer[/caption]
+      <description>[caption id=&amp;laquo;attachment_2341&amp;raquo; align=&amp;laquo;alignright&amp;raquo; width=&amp;laquo;300&amp;raquo;] vOPS 6.3 Environment Explorer[/caption]
 Yesterday fellow vExpert Mattias Sundling gave me a little pre-release briefing of the new Dell/VKernel vOPS Server Explorer 6.3 release.
 While I don´t normally do press release posts like these, I´m willing to make an exception in this case.
 Not only is vOPS Server Explorer 6.3 available in a free version, with the familiar tools from previous versions, the new release also comes armed with a couple of new interesting tools in the suite:</description>

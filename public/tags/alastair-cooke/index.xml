@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Alastair Cooke on Adventures in Hugo</title>
+    <title>Alastair Cooke on My blog</title>
     <link>/tags/alastair-cooke/</link>
-    <description>Recent content in Alastair Cooke on Adventures in Hugo</description>
+    <description>Recent content in Alastair Cooke on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <language>en</language>
+    <managingEditor>yourname@example.com (yourname)</managingEditor>
+    <webMaster>yourname@example.com (yourname)</webMaster>
+    <copyright>(c) 2016 Copyright my blog</copyright>
     <lastBuildDate>Thu, 14 Mar 2013 00:02:35 +0000</lastBuildDate>
     
 	<atom:link href="/tags/alastair-cooke/index.xml" rel="self" type="application/rss+xml" />
@@ -16,9 +18,9 @@
       <title>Autolab goes Cloudy with a Chance of Free Credits </title>
       <link>/virtualization/autolab-meets-cloud/</link>
       <pubDate>Thu, 14 Mar 2013 00:02:35 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/virtualization/autolab-meets-cloud/</guid>
-      <description>Autolab, that awesome &amp;ldquo;little&amp;rdquo; thing that automagically builds a nested vSphere Lab environment for you, was definitely not put together by Flint Lockwood but by Alastair Cooke (www.demitasse.co.nz). Unlike Flint´s inventions, this one actually makes sense and serves a purpose!
+      <description>Autolab, that awesome &amp;laquo;little&amp;raquo; thing that automagically builds a nested vSphere Lab environment for you, was definitely not put together by Flint Lockwood but by Alastair Cooke (www.demitasse.co.nz). Unlike Flint´s inventions, this one actually makes sense and serves a purpose!
 Now, how sweet would it be to deploy Autolab without having to invest time, money and effort into acquiring your own hardware?
 Well, thanks to baremetalcloud.com, you might now actually be able to do just that (and more, if you wish).</description>
     </item>

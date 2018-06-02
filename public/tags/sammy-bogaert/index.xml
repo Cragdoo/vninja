@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sammy Bogaert on Adventures in Hugo</title>
+    <title>Sammy Bogaert on My blog</title>
     <link>/tags/sammy-bogaert/</link>
-    <description>Recent content in Sammy Bogaert on Adventures in Hugo</description>
+    <description>Recent content in Sammy Bogaert on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <language>en</language>
+    <managingEditor>yourname@example.com (yourname)</managingEditor>
+    <webMaster>yourname@example.com (yourname)</webMaster>
+    <copyright>(c) 2016 Copyright my blog</copyright>
     <lastBuildDate>Tue, 03 Jan 2012 12:32:29 +0000</lastBuildDate>
     
 	<atom:link href="/tags/sammy-bogaert/index.xml" rel="self" type="application/rss+xml" />
@@ -16,9 +18,9 @@
       <title>Building The Ultimate vSphere Lab Series</title>
       <link>/news/building-ultimate-vsphere-lab-series/</link>
       <pubDate>Tue, 03 Jan 2012 12:32:29 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/news/building-ultimate-vsphere-lab-series/</guid>
-      <description>Sammy Bogaert has posted a 12 part series called &amp;ldquo;Building The Ultimate vSphere Lab&amp;rdquo;, which knocks the socks of my previous vSphere 4.x series.
+      <description>Sammy Bogaert has posted a 12 part series called &amp;laquo;Building The Ultimate vSphere Lab&amp;raquo;, which knocks the socks of my previous vSphere 4.x series.
 In reality this means that my planned series for vSphere 5.x is now cancelled, as there is no need to duplicate Sammy&amp;rsquo;s efforts. Be sure to check the series out!</description>
     </item>
     

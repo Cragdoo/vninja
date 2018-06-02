@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Rdcman on Adventures in Hugo</title>
+    <title>Rdcman on My blog</title>
     <link>/tags/rdcman/</link>
-    <description>Recent content in Rdcman on Adventures in Hugo</description>
+    <description>Recent content in Rdcman on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <language>en</language>
+    <managingEditor>yourname@example.com (yourname)</managingEditor>
+    <webMaster>yourname@example.com (yourname)</webMaster>
+    <copyright>(c) 2016 Copyright my blog</copyright>
     <lastBuildDate>Thu, 20 Jan 2011 14:51:46 +0000</lastBuildDate>
     
 	<atom:link href="/tags/rdcman/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +18,7 @@
       <title>Remote Desktop Connection Manager (RDCMan) &#43; Powershell = Win</title>
       <link>/howto/remote-desktop-connection-manager-rdcman-powershell-win/</link>
       <pubDate>Thu, 20 Jan 2011 14:51:46 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/howto/remote-desktop-connection-manager-rdcman-powershell-win/</guid>
       <description>Remote Desktop Connection Manager is a great tool from Microsoft which enables you to keep track of all your RDP sessions and targets in a nice GUI. One of the things it&amp;rsquo;s lacking though, is some sort of Active Directory connection that allows you to import all your server objects directly, and not manually add/remove the serves as your infrastructure changes over time.
 In an attempt to bridge that gap, I&amp;rsquo;ve made a very small PowerShell script that queries your Active Directory for server objects and dumps their names into a text file that you can import into RDCMan.</description>

@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Rant on Adventures in Hugo</title>
+    <title>Rant on My blog</title>
     <link>/tags/rant/</link>
-    <description>Recent content in Rant on Adventures in Hugo</description>
+    <description>Recent content in Rant on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <language>en</language>
+    <managingEditor>yourname@example.com (yourname)</managingEditor>
+    <webMaster>yourname@example.com (yourname)</webMaster>
+    <copyright>(c) 2016 Copyright my blog</copyright>
     <lastBuildDate>Mon, 13 Jul 2015 22:17:12 +0000</lastBuildDate>
     
 	<atom:link href="/tags/rant/index.xml" rel="self" type="application/rss+xml" />
@@ -16,25 +18,25 @@
       <title>It&#39;s Time to End the Add on Insanity</title>
       <link>/rant/time-add-insanity/</link>
       <pubDate>Mon, 13 Jul 2015 22:17:12 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/rant/time-add-insanity/</guid>
-      <description>For the third time in a week, researchers have discovered a zero-day vulnerability in Adobe’s Flash Player browser plugin. Like the previous two discoveries, this one came to light only after hackers dumped online huge troves of documents stolen from Hacking Team — an Italian security firm that sells software exploits to governments around the world. This quote is from Brian Krebs, who very rightfully goes on to advise that everyone &amp;ldquo;please consider removing or at least hobbling this program.</description>
+      <description>For the third time in a week, researchers have discovered a zero-day vulnerability in Adobe’s Flash Player browser plugin. Like the previous two discoveries, this one came to light only after hackers dumped online huge troves of documents stolen from Hacking Team — an Italian security firm that sells software exploits to governments around the world. This quote is from Brian Krebs, who very rightfully goes on to advise that everyone &amp;laquo;please consider removing or at least hobbling this program.</description>
     </item>
     
     <item>
       <title>The &#34;vCommunity&#34;</title>
       <link>/rant/vcommunity/</link>
       <pubDate>Fri, 03 Apr 2015 22:22:13 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/rant/vcommunity/</guid>
-      <description>The recent months, and weeks, has made me question the value of the &amp;ldquo;vCommunity&amp;rdquo;. I&amp;rsquo;m even questioning if there really is such a thing at all any more. I believe there was such a thing at one point, but it seems to be fading fast into history, only to be replaced by hyperbole of egonormous proportions. Back in the old days, and this might just be me showing my greying of beards moment, the hyperbole wasn&amp;rsquo;t a strong a force as it seems to be today.</description>
+      <description>The recent months, and weeks, has made me question the value of the &amp;laquo;vCommunity&amp;raquo;. I&amp;rsquo;m even questioning if there really is such a thing at all any more. I believe there was such a thing at one point, but it seems to be fading fast into history, only to be replaced by hyperbole of egonormous proportions. Back in the old days, and this might just be me showing my greying of beards moment, the hyperbole wasn&amp;rsquo;t a strong a force as it seems to be today.</description>
     </item>
     
     <item>
       <title>#AdviceForVMworld</title>
       <link>/rant/adviceforvmworld/</link>
       <pubDate>Fri, 22 Aug 2014 18:08:56 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/rant/adviceforvmworld/</guid>
       <description>VMworld US is very soon upon us, and I&amp;rsquo;m one of the jealous ones left behind not being able to attend. I will hopefully be able to join everyone oat VMworld Europe in Barcelona on October though.
 An interesting Twitter hashtag #AdviceForVMworld appeared a week or so ago, with lots of good advice for people attending a huge tech conference.
@@ -46,7 +48,7 @@ Here are a few good examples:
       <title>Social Media, Karma and Being a Dick</title>
       <link>/rant/social-media-karma-dick/</link>
       <pubDate>Tue, 08 Oct 2013 13:12:13 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/rant/social-media-karma-dick/</guid>
       <description>Rant alert [@Acronis](https://twitter.com/Acronis) sorry, not happening. — Christian Mohn (@h0bbel) [October 8, 2013](https://twitter.com/h0bbel/statuses/387562111972683776) In and of itself, this tweet is fair enough, even if borderline spam. My reaction to it however, tells a different story. _I admit it, it´s a bit harsh and straight to the point, but something has to have triggered such a response, right? _Rewind back to VMworld US, and Acronis posted this:
 [@sbeloussov](https://twitter.com/sbeloussov) [@veeam](https://twitter.com/veeam) [@VMworld](https://twitter.com/VMworld) fortunately we don&#39;t need to make our customers drunk to persuade them to buy our soft.</description>
@@ -56,17 +58,17 @@ Here are a few good examples:
       <title>The Personal Value of Certification</title>
       <link>/rant/personal-certification/</link>
       <pubDate>Sat, 01 Sep 2012 09:58:26 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/rant/personal-certification/</guid>
-      <description>Fabio Rapposelli´s post &amp;ldquo;On the Real Value of IT certifications&amp;rdquo; highlights some of the current problems related to IT certifications in general, and basic &amp;ldquo;entry level&amp;rdquo; exams in particular.
-The problems with brain dumps, lack of experience and testing methods is not new, and the_ &amp;ldquo;Paper MCSE&amp;rdquo;_ term was coined back in the early 2000´s when the influx of newly certified Microsoft Certified Systems Engineers, with little or no real world experience flooded the market.</description>
+      <description>Fabio Rapposelli´s post &amp;laquo;On the Real Value of IT certifications&amp;raquo; highlights some of the current problems related to IT certifications in general, and basic &amp;laquo;entry level&amp;raquo; exams in particular.
+The problems with brain dumps, lack of experience and testing methods is not new, and the_ &amp;laquo;Paper MCSE&amp;raquo;_ term was coined back in the early 2000´s when the influx of newly certified Microsoft Certified Systems Engineers, with little or no real world experience flooded the market.</description>
     </item>
     
     <item>
       <title>VCP 5 Certification Requirements Clarification</title>
       <link>/vmware-2/vcp-5-certification-requirement-clarification/</link>
       <pubDate>Fri, 03 Feb 2012 20:54:51 +0000</pubDate>
-      
+      <author>yourname@example.com (yourname)</author>
       <guid>/vmware-2/vcp-5-certification-requirement-clarification/</guid>
       <description>In a recent article, VCP 5 certification course deadline looms over VMware pros both vNinja.net contributors (Christian and Ed) are quoted in relation to the VCP 5 certification upgrade deadline of February 29th 2012.
 While I can´t speak for Ed, I can clarify my own comments a bit. The following is a quote from VMware, taken from the article in question:
