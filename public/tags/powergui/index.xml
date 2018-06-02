@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Powergui on Beautiful Hugo</title>
+    <title>Powergui on Adventures in Hugo</title>
     <link>/tags/powergui/</link>
-    <description>Recent content in Powergui on Beautiful Hugo</description>
+    <description>Recent content in Powergui on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
-    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Fri, 15 Oct 2010 20:29:14 +0000</lastBuildDate>
     
 	<atom:link href="/tags/powergui/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>Developer meets PowerCLI - awesomeness ensues</title>
       <link>/virtualization/developer-meets-powercli-awesomeness-ensues/</link>
       <pubDate>Fri, 15 Oct 2010 20:29:14 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/developer-meets-powercli-awesomeness-ensues/</guid>
       <description>A couple of days ago, while I was at VMworld Europe I got the following tweet from Asbjørn A. Mikkelsen (@neslekkim) (translated from norwegian):
 @h0bbel Do you know if I can script something against vCenter to duplicate (or create from template) VMs, and also start/stop them? My immediate response, was of course to suggest using PowerCLI. Asbjørn, who works as a full time developer, jumped at PowerCLI immediately and within a very short time frame came up with a PowerCLI script for the task at hand.</description>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2017 on Beautiful Hugo</title>
+    <title>2017 on Adventures in Hugo</title>
     <link>/tags/2017/</link>
-    <description>Recent content in 2017 on Beautiful Hugo</description>
+    <description>Recent content in 2017 on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
-    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Mon, 18 Dec 2017 14:00:55 +0000</lastBuildDate>
     
 	<atom:link href="/tags/2017/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>Evaluating 2017</title>
       <link>/misc/evaluating-2017/</link>
       <pubDate>Mon, 18 Dec 2017 14:00:55 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/misc/evaluating-2017/</guid>
       <description>Keeping up with tradition (you thought I was going to say Kardashians there, didn&amp;rsquo;t you?), it&amp;rsquo;s time to evaluate 2017.
 My list of goals for 2017 and the verdict is as follows:
@@ -28,7 +28,7 @@ My list of goals for 2017 and the verdict is as follows:
       <title>2017 — You Better Deliver</title>
       <link>/misc/2017-you-better-deliver/</link>
       <pubDate>Sun, 15 Jan 2017 10:04:08 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/misc/2017-you-better-deliver/</guid>
       <description>Considering it&amp;rsquo;s mid-january 2017 already, it&amp;rsquo;s time to do my annual goal list for the new year.
 My goals for 2017:  Get that VCAP6-DCV Design exam out of the way — I did the beta in march 2016, but missed the mark by a small margin.
@@ -39,7 +39,7 @@ My goals for 2017:  Get that VCAP6-DCV Design exam out of the way — I did th
       <title>VMworld Dates 2017</title>
       <link>/news/vmworld-dates-2017/</link>
       <pubDate>Fri, 18 Nov 2016 11:23:58 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/news/vmworld-dates-2017/</guid>
       <description>Now that the seasons have changed, it&amp;rsquo;s time to look at 2017 and start planning the year. First up, when is VMworld 2017, and perhaps most importantly where? There has been a lot of speculation about this, and the perhaps strongest rumour was that it was moving to Berlin.
 The details for the US has already been posted on vmworld.com, but for Europe all it says is &amp;ldquo;Fall&amp;rdquo;.

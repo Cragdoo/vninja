@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Howto on Beautiful Hugo</title>
+    <title>Howto on Adventures in Hugo</title>
     <link>/categories/howto/</link>
-    <description>Recent content in Howto on Beautiful Hugo</description>
+    <description>Recent content in Howto on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
-    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Thu, 15 Oct 2015 16:01:38 +0000</lastBuildDate>
     
 	<atom:link href="/categories/howto/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>Relax and virtualize it!</title>
       <link>/virtualization/relax-and-virtualize-it/</link>
       <pubDate>Thu, 15 Oct 2015 16:01:38 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/relax-and-virtualize-it/</guid>
       <description>This is a guest post from Kristian Wæraas Senior Consultant Datacenter at Datametrix AS VMware VCP3/5, MCTS Hyper-V, Horizon View and Trend Micro Security Expert.
 I am a curious by nature, and when my colleagues start talking frantic about some system that has crashed, I get curious and have to ask questions. Usually this ends up in me doing a lot of work.
@@ -27,7 +27,7 @@ I am a curious by nature, and when my colleagues start talking frantic about som
       <title>Creating and Using a Virtual Floppy in vSphere</title>
       <link>/virtualization/creating-virtual-floppy-vsphere/</link>
       <pubDate>Sat, 07 Jan 2012 22:44:33 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/creating-virtual-floppy-vsphere/</guid>
       <description>My new colleague Olav Tvedt asked me if I could test his method of enabling Bitlocker in a VM, on VMware vSphere. Of course, I was happy to oblige.
 I followed the same steps as he did in his Running Bitlocker on a Virtual computer post, and it worked perfectly.
@@ -38,7 +38,7 @@ The only real difference between doing this in Hyper-V and on ESXi, is that the 
       <title>Setting Up Automated ESXi Deployments</title>
       <link>/virtualization/setting-up-automated-esxi-deployments/</link>
       <pubDate>Thu, 07 Jul 2011 08:10:55 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/setting-up-automated-esxi-deployments/</guid>
       <description>Automating ESXi installs was made much easier after the release of vSphere 4.1 where the Scripted Install feature was added, and by using VMware Auto Deploy from VMware Labs. VMware Auto Deploy requires that you have vCenter and Host Profiles in your environment, and that again requires that you have Enterprise Plus licenses in your environment.
 It is, however, possible to deploy ESXi in an automated fashion completely without vCenter and Host Profiles!</description>
@@ -48,7 +48,7 @@ It is, however, possible to deploy ESXi in an automated fashion completely witho
       <title>Installing and running VMware Compliance Checker for vSphere</title>
       <link>/news/installing-and-running-vmware-compliance-checker-for-vsphere/</link>
       <pubDate>Wed, 20 Apr 2011 07:01:37 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/news/installing-and-running-vmware-compliance-checker-for-vsphere/</guid>
       <description>The first version of the new VMware Compliance Checker for vSphere tool is now available for download.
 VMware Compliance Checker for vSphere lets you scan your ESX and ESXi hosts for compliance with the VMware vSphere hardening guidelines to make sure your hosts are properly configured. It also lets you save and print your assessment results, so you can track your compliance level over time, or use them as documentation for internal audits.</description>
@@ -58,7 +58,7 @@ VMware Compliance Checker for vSphere lets you scan your ESX and ESXi hosts for 
       <title>Installing and configuring VMware vCenter Operations</title>
       <link>/virtualization/installing-and-configuring-vmware-vcenter-operations/</link>
       <pubDate>Mon, 21 Mar 2011 19:50:02 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/installing-and-configuring-vmware-vcenter-operations/</guid>
       <description>VMware vCenter Operations was released to the general public a week or so ago and is available for download right now. As usual you can download a 60 day trial, and get started immediately.
 Like other recent management utilities from VMware, vCenter Operations comes in the form of a .OVF template (like vCMA/vMA).
@@ -69,7 +69,7 @@ Installing VMware vCenter Operations Download VMware vCenter Operations and impo
       <title>Custom Dictionary Syncronization with Dropbox</title>
       <link>/howto/custom-dictionary-syncronization-with-dropbox/</link>
       <pubDate>Sun, 13 Mar 2011 21:29:42 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/howto/custom-dictionary-syncronization-with-dropbox/</guid>
       <description>In the last couple of weeks I&amp;rsquo;ve been using Microsoft Word 2010 a lot more than I&amp;rsquo;ve previously done, and at the same time I&amp;rsquo;ve been switching computers a lot making it somewhat of an annoyance that a lot of the words I use in my documents are not recognized and marked with a wiggly red line underneath it.
 If only there was a way to keep the custom dictionary synchronized between computers.</description>
@@ -79,7 +79,7 @@ If only there was a way to keep the custom dictionary synchronized between compu
       <title>Using rsync to Distribute Patches to a Remote vMA </title>
       <link>/virtualization/using-rsync-to-distribute-patches-to-remote-a-vma/</link>
       <pubDate>Tue, 08 Mar 2011 08:00:02 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/using-rsync-to-distribute-patches-to-remote-a-vma/</guid>
       <description>I recently posted Using vMA as a local vSphere Patch Repository, where I outlined how you can use your vMA instances as local file repositories for updates.
 This post is a continuation of that concept, but this time I&amp;rsquo;ll take it a step further and utilize rsync to make sure my vMA instances all contain the same set of patches. Rsync is great for this, as it handles fast incremental file transfers, which is a real time and bandwidth saver in my particular scenario.</description>
@@ -89,7 +89,7 @@ This post is a continuation of that concept, but this time I&amp;rsquo;ll take i
       <title>Using vMA as a local vSphere Patch Repository</title>
       <link>/virtualization/using-vma-as-a-local-vsphere-patch-repository/</link>
       <pubDate>Mon, 07 Mar 2011 22:43:33 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/using-vma-as-a-local-vsphere-patch-repository/</guid>
       <description>I like using http as the transport protocol when patching my vSphere hosts. It&amp;rsquo;s easy to use and in most cases immediately available over most networks. Since I want to use http as the transport, we need to make vMA work as a http server.
 Starting Apache inside vMA Luckily, the Apache http daemon is installed, by default, in vMA and to utilize it all you have to do is to start it!</description>
@@ -99,7 +99,7 @@ Starting Apache inside vMA Luckily, the Apache http daemon is installed, by defa
       <title>Installing vSphere Management Assistant (vMA)</title>
       <link>/virtualization/installing-vsphere-management-assistant-vma/</link>
       <pubDate>Mon, 28 Feb 2011 23:26:15 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/installing-vsphere-management-assistant-vma/</guid>
       <description>The vMA is a Virtual Appliance that you can download from VMware. It&amp;rsquo;s primary function is to enable command line based management of your ESX/ESXi systems.
 Basically this is a pre-packaged virtual machine that includes vCLI and the vSphere SDK for Perl, which means that you don&amp;rsquo;t have to build your own management VM or install these tools locally on a management station.
@@ -110,7 +110,7 @@ vMA is in many regards seen as a replacement for the ESX Service Console which n
       <title>Remote Desktop Connection Manager (RDCMan) &#43; Powershell = Win</title>
       <link>/howto/remote-desktop-connection-manager-rdcman-powershell-win/</link>
       <pubDate>Thu, 20 Jan 2011 14:51:46 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/howto/remote-desktop-connection-manager-rdcman-powershell-win/</guid>
       <description>Remote Desktop Connection Manager is a great tool from Microsoft which enables you to keep track of all your RDP sessions and targets in a nice GUI. One of the things it&amp;rsquo;s lacking though, is some sort of Active Directory connection that allows you to import all your server objects directly, and not manually add/remove the serves as your infrastructure changes over time.
 In an attempt to bridge that gap, I&amp;rsquo;ve made a very small PowerShell script that queries your Active Directory for server objects and dumps their names into a text file that you can import into RDCMan.</description>
@@ -120,7 +120,7 @@ In an attempt to bridge that gap, I&amp;rsquo;ve made a very small PowerShell sc
       <title>Installing and Configuring WANem Virtual Appliance</title>
       <link>/virtualization/installing-and-configuring-wanem-virtual-appliance/</link>
       <pubDate>Wed, 29 Dec 2010 14:21:36 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/installing-and-configuring-wanem-virtual-appliance/</guid>
       <description>In a previous post, Using the WANem WAN Emulator Virtual Appliance, I&amp;rsquo;ve talked about how I&amp;rsquo;ve successfully used WANem to emulate different WAN scenarios.
 Since I work for a shipping company, the ability to emulate VSAT conditions are especially useful for testing and proof-of-concept scenarios.
@@ -132,7 +132,7 @@ Downloading WANem I have chose to use the WANem Virtual Appliance running in a v
       <title>Using USB Pass-through in vSphere 4.1</title>
       <link>/virtualization/using-usb-pass-through-in-vsphere-4-1/</link>
       <pubDate>Thu, 22 Jul 2010 23:03:27 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/using-usb-pass-through-in-vsphere-4-1/</guid>
       <description>Finally USB pass-through is possible on ESX hosts with the new vSphere 4.1 release! This feature ha been available in VMware Workstation/Fusion and Player for quite a while. The freshly added feature in vSphere 4.1 even works if you vMotion the guest from one host to another, which is in itself pretty amazing functionality!
 In this post, I&amp;rsquo;ll show how to setup and use the new USB pass-through feature in vSphere 4.</description>

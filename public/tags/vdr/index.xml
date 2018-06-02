@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vdr on Beautiful Hugo</title>
+    <title>Vdr on Adventures in Hugo</title>
     <link>/tags/vdr/</link>
-    <description>Recent content in Vdr on Beautiful Hugo</description>
+    <description>Recent content in Vdr on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
-    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Thu, 10 Jan 2013 13:47:50 +0000</lastBuildDate>
     
 	<atom:link href="/tags/vdr/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>Fun and Games with VDR and Snapshots</title>
       <link>/virtualization/fun-games-vdr-snapshots/</link>
       <pubDate>Thu, 10 Jan 2013 13:47:50 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/fun-games-vdr-snapshots/</guid>
       <description>One of the smaller improvements in vSphere 5 was the introduction of the &amp;ldquo;Virtual machine disks consolidation is needed&amp;rdquo; configuration alert if vSphere determines that there are orphaned snapshots for a given VM.
 

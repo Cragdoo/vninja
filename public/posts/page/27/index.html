@@ -1,913 +1,267 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title>Posts</title>
-  <meta property="og:title" content="Posts" />
-  <meta name="twitter:title" content="Posts" />
-  <meta name="author" content="Some Person"/>
-  <link href='/img/favicon.ico' rel='icon' type='image/x-icon'/>
-  <meta property="og:image" content="/img/avatar-icon.png" />
-  <meta name="twitter:image" content="/img/avatar-icon.png" />
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="@username" />
-  <meta name="twitter:creator" content="@username" />
-  <meta property="og:url" content="/posts/" />
-  <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="Beautiful Hugo" />
-
-  <meta name="generator" content="Hugo 0.40.3" />
-  <link rel="canonical" href="/posts/" />
-  <link rel="alternate" href="/posts/index.xml" type="application/rss+xml" title="Beautiful Hugo">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" href="/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
-  <link rel="stylesheet" href="/css/highlight.min.css" /><link rel="stylesheet" href="/css/codeblock.css" />
+<meta property="og:title" content="Posts" />
+<meta property="og:description" content="There is a thin line between agile and fragile" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="/posts/" />
 
 
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
+<meta property="og:updated_time" content="2014-06-08T09:09:20&#43;00:00"/>
 
 
 
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
 
-<div class="pswp__bg"></div>
 
-<div class="pswp__scroll-wrap">
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Posts"/>
+<meta name="twitter:description" content="There is a thin line between agile and fragile"/>
+<meta name="generator" content="Hugo 0.40.3" />
+
+
     
-    <div class="pswp__container">
-      <div class="pswp__item"></div>
-      <div class="pswp__item"></div>
-      <div class="pswp__item"></div>
-    </div>
-    
-    <div class="pswp__ui pswp__ui--hidden">
-    <div class="pswp__top-bar">
-      
-      <div class="pswp__counter"></div>
-      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-      <button class="pswp__button pswp__button--share" title="Share"></button>
-      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-      
-      
-      <div class="pswp__preloader">
-        <div class="pswp__preloader__icn">
-          <div class="pswp__preloader__cut">
-            <div class="pswp__preloader__donut"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-      <div class="pswp__share-tooltip"></div>
-    </div>
-    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-    </button>
-    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-    </button>
-    <div class="pswp__caption">
-      <div class="pswp__caption__center"></div>
-    </div>
-    </div>
-    </div>
-</div>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Blog",
+  "headline": "Adventures in Hugo",
+  "url" : "/posts/",
+  "author": {
+    "@type": "Person",
+    "name": "Christian Mohn"
+  },
+  "dateModified": "2014-06-08T09:09:20&#43;00:00",
+  "keywords": "awesometalks,book,hardware,homelab,howto,inthebag,microsoft,misc,network,news,os-x,rant,software,storage,virtualization,vmware,windows,workflow,2011,2014,2015,2016,2017,3par,5.5,6.0,6.5,acronis,adobe,adviceforvmworld,agile,alastair-cooke,alerting,analysis,announcement,annual,api,app-delivery,apple,applescript,appliance,architecture,audio,autolab,automation,automator,availability,award,awesome,awesometalk,aws,awsome,backup,backup-academy,backup-amp-replication,backup-amp-replication-v7,bag,barcelona,bash,best-practice,beta,bitlocker,bl460c,bladesystem,block-size,blog,bloggers,blogging,blogtober,book,boot-camp,bug,c3000,c7000,cancer,care-package,cc,certificate,certificates,certification,change,changelog,changes,charity,christian-mohn,chromecast,cisco,citrix,cloud,cloudflare,cohesity,collaboration,command-line,community,competition,conference,content-creation,contest,contest.-photo,copenhagen,daas,data-center,datastore,day-2,dell,denmark,deployment,desktop,digital-ship,disaster,disaster-recovery,dmarc,dns,docker,dockerflix,documentation,donation,doom,download,dr,dropbox,dynamic-dns,easyvnx,ed,edb-ergogroup,email,embedded-host-client,emc,encryption,epiphany,equallogic,esx,esx-3.5,esxcli,esxi,esxi-4,esxi-5,euc,event,event-id-2915,evernote,everyday,evo,evorail,evry,exchange,experiment,facelift,feature-request,featured,fibre-channel,fire,firewall,firmware,flash,flash-talk,fling,floppy,form-factor,framework,free,free-tool,free-tools,freebie,fun,fundraising,future,g8,gdpr,geektool,github,give-away,gorilla,gpmc,group-policy,group-policy-preferences,ha,hack,hands-on,hands-on-lab,hands-on-labs,happy-dance,harakiri,hardware,hardware-version,health-check,hipster-it,hol,home-lab,homebrew,homelab,homelabops,horizon,horizon-application-manager,host,host-cache,hosted-beta,howto,hp,hp-insight-control,http,hyper-converged,hyper-v,hyperconverged,hypervisor,ideas,ifttt,images,impatient,installation,integrity,intel,internationalization,inthebag,inthebag.-weekly,iomega,ipad,ix2,john-troyer,kb,kb2393802,keep-calm,keynote,keyremap4macbook.-customization,kids,knowledge-base,lab,labs,latency-sensitivity,licenses,licensing,linux,log,log-files,log-insight,mac,macos,maintenance,makyo,management,markdown,marvin,md5,meltdown,messaging,microsoft,microsoft-office,microvisor,mike-laverick,misinformation,monitoring,moref,movember,multipath,nda,neil-armstrong,nested-esxi,networking,news,nfr,nfs,ninja,node,nordic,nordic-vmug,norway,nsx,ntp,nutanix,nutjob,omnigraffle,oneliner,online-training,operations,opinion,ops,organization,os-x,oslo,p220i,packt,pandoc,password,patch,patching,pckeyboardhack,pernixdata,personal,petri,photo,photos,php,pins,plans,plugin,pocket,podcast,podcasting-for-cancer,policy-based-computing,posters,powercli,powergui,powershell,prediction,presentation,proact,productivity,proliant,proof-of-concept,proxy,psc,published,python,quote,quotes,rant,raspberry-pi,ravello,rdcman,real-world,realworld,receiver,recommended,release,remoting,review,role,royaltsx,rpi,rsync,saas,sammy-bogaert,sandisk,sccm,script,scripting,scvmm,sddc,seatrans,security,self-help,self-promotion,server,session,setup,sfp&#43;,sha1,sharing,simulation,site,site-recovery-manager,slack,slate,snapshot,snark,social,social-media,software,speaking,spectacle,spectre,speculation,sql-server-express,ssd,ssh,ssl,sso,statistics,steve-herrod,stickers,storage,storeserv,suggestion,suse,syslog,system-center,tech-conference,tech-field-day,terminal,theme,thin-client,thinapp,tips-amp-tricks,todo,todoist,togaf,tool,topology,topvblog,tpm,training,trainsignal,travel,trial,troubleshooting,tunnels,ubuntu,unconference,unsupported,update,upgrade,usb,usercon,v12n,vaio,vanguards,vblog,vcap,vcap-dca,vcap-dcd,vcdx,vcdxwannabe,vcenter,vcenter-appliance,vcenter-client,vcenter-operations,vcenter-operations-manager,vcenter-server-appliance,vcenter-update-manager,vcenter-web-client,vcli,vcloud,vcloud-air,vcp,vcsa,vdm30in30,vdr,veeam,veeam-backup-amp-replication,venting,vexpert,vflash,vflash-read-cache,vfrc,vib,video,view,vip-vcp-club,virtual-appliance,virtual-application,virtual-connect,virtualization,vkernel,vlaunchpad,vm,vma,vmfs,vmtn,vmtn-subscription,vmug,vmware,vmware-forum,vmware-photon,vmware-player,vmware-server,vmware-software-manager,vmware-studio,vmware-view,vmware-workstation,vmware.-vcl,vmworld,vmworld-2012,vmworld-fun-contest,vmworld.-rant,vmworld2012,vninja,vops,vote,voting,vpostgres,vram,vrealize-log-insight,vrealize-operations,vrli,vrops,vrtx,vsamurai,vsan,vshield,vshield-edge,vshield-manager,vsoup,vsphere,vsphere-5,vsphere-5.5,vsphere-6,vsphere-6.5,vsphere-client,vsphere-land,vsphere-replication,watchguard,waterfall,web-client,webhook,webinar,weekly,weeky,whatsup,whitepaper,window-manager,windows,windows-8,winner,winners,wordpress,work,workaround,workflow,workstation,workstation-8,wsus,xen,xvmotion,youtube,zerto,",
+  "description": "There is a thin line between agile and fragile"
+}
+</script>
 
-</head>
+
+    <link rel="canonical" href="/posts/">
+
+    <title>Adventures in Hugo</title>
+
+    <!-- combined, minified CSS -->
+    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
+
+    
+    <!-- RSS 2.0 feed -->
+    <link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="Adventures in Hugo" />
+    
+
+    
+
+    
+
+    
+
+  </head>
 
   <body>
-    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="/">Beautiful Hugo</a>
-    </div>
 
-    <div class="collapse navbar-collapse" id="main-navbar">
-      <ul class="nav navbar-nav navbar-right">
-        
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="/">Home</a>
           
-            <li>
-              <a title="Blog" href="/">Blog</a>
-            </li>
+          <a class="nav-link" href="https://example.org" title="">Link 1</a>
           
-        
-          
-            <li class="navlinks-container">
-              <a class="navlinks-parent" href="javascript:void(0)">Samples</a>
-              <div class="navlinks-children">
-                
-                  <a href="/post/2017-03-07-bigimg-sample">Big Image Sample</a>
-                
-                  <a href="/post/2017-03-05-math-sample">Math Sample</a>
-                
-                  <a href="/post/2016-03-08-code-sample">Code Sample</a>
-                
-              </div>
-            </li>
-          
-        
-          
-            <li>
-              <a title="About" href="/page/about/">About</a>
-            </li>
-          
-        
-          
-            <li>
-              <a title="Tags" href="/tags">Tags</a>
-            </li>
-          
-        
-
-        
-
-        
-      </ul>
-    </div>
-
-    <div class="avatar-container">
-      <div class="avatar-img-border">
-        
-          <a title="Beautiful Hugo" href="/">
-            <img class="avatar-img" src="/img/avatar-icon.png" alt="Beautiful Hugo" />
-          </a>
-        
+        </nav>
       </div>
     </div>
+    
 
-  </div>
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
+        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+      </div>
+    </header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/vmware-2/vmwares-mystic-marvin-project/">What is VMware&rsquo;s Mystic Marvin Project?</a></h2>
+    <p class="blog-post-meta"><time datetime="2014-06-08T09:09:20Z">Sun Jun 08, 2014</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/vmware" rel="category tag">VMware</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/hyper-converged" rel="tag">Hyper Converged</a>, <a href="/tags/marvin" rel="tag">Marvin</a>, <a href="/tags/speculation" rel="tag">Speculation</a>, <a href="/tags/vmware" rel="tag">VMware</a>
+
+</p>
+  </header>
+  Yesterday Fletcher Cocquyt posted a rather interesting photo on his Twitter account:
+This is, as far as I know, the first public sighting confirming the existence of the &ldquo;mystic&rdquo; project Marvin that VMware is working on. The text reads &ldquo;Introducing the worlds first 100% VMware powered hyper converged infrastructure appliance.&rdquo; I guess some of the VMware engineers forgot that the VMware campus get external visitors from time to time&hellip;
+So what is it?
+  <a href='/vmware-2/vmwares-mystic-marvin-project/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/virtualization/chromecast-winner/">And the Chromecast Winner is &hellip;</a></h2>
+    <p class="blog-post-meta"><time datetime="2014-05-08T11:21:00Z">Thu May 08, 2014</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/chromecast" rel="tag">Chromecast</a>, <a href="/tags/contest" rel="tag">contest</a>, <a href="/tags/fun" rel="tag">fun</a>, <a href="/tags/ninja" rel="tag">Ninja</a>, <a href="/tags/photo" rel="tag">Photo</a>, <a href="/tags/winner" rel="tag">Winner</a>
+
+</p>
+  </header>
+  A little over a month ago I announced the Want to Win a Google Chromecast contest and finally the winner has been selected. Since there was a grand total of 5 submissions, and one of them was immediately disqualified for a distinct lack of Ninja-presence, I decided to just do a random draw.
+The submitted photos were numbered by the order they appeared in on my post as I took this screenshot.
+  <a href='/virtualization/chromecast-winner/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/vmware-2/vmware-vshield-manager-upgrade-password-issues/">VMware vShield Manager Upgrade - Password Issues</a></h2>
+    <p class="blog-post-meta"><time datetime="2014-04-29T08:18:35Z">Tue Apr 29, 2014</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/vmware" rel="category tag">VMware</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/appliance" rel="tag">Appliance</a>, <a href="/tags/internationalization" rel="tag">Internationalization</a>, <a href="/tags/password" rel="tag">Password</a>, <a href="/tags/vmware" rel="tag">VMware</a>, <a href="/tags/vshield" rel="tag">vShield</a>, <a href="/tags/vshield-manager" rel="tag">vShield Manager</a>
+
+</p>
+  </header>
+  While upgrading a vShield Manager 5.1.1 install to 5.1.4 at a client, I ran into an issue with logging in after a completed upgrade. The username and password used to log in, and subsequently upload the upgrade file, was no longer working after the upgrade finished and the vShield Manager appliance had been rebooted.
+It turns out that this was due to using international characters in the password for the admin user, in this case the Norwegian specialities æ, ø or å.
+  <a href='/vmware-2/vmware-vshield-manager-upgrade-password-issues/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/news/win-google-chromecast/">Want to Win a Google Chromecast?</a></h2>
+    <p class="blog-post-meta"><time datetime="2014-04-02T18:51:05Z">Wed Apr 02, 2014</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/news" rel="category tag">News</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/contest.-photo" rel="tag">Contest. Photo</a>, <a href="/tags/fun" rel="tag">fun</a>, <a href="/tags/ninja" rel="tag">Ninja</a>
+
+</p>
+  </header>
+  I have a free Google Chromecast to give a way to one lucky winner. As part of being voted into the top 50 VMware &amp; virtualization blogs I was lucky enough to win one for myself, and as an added bonus I get to give away one to one of my readers too!
+To be able to find a worthy winner of it, I&rsquo;ve decided to host a contest.
+  <a href='/news/win-google-chromecast/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/virtualization/2014-top-vblog-results/">2014 Top vBlog Results</a></h2>
+    <p class="blog-post-meta"><time datetime="2014-03-27T19:37:55Z">Thu Mar 27, 2014</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/awesome" rel="tag">Awesome</a>, <a href="/tags/contest" rel="tag">contest</a>, <a href="/tags/fun" rel="tag">fun</a>, <a href="/tags/vote" rel="tag">Vote</a>
+
+</p>
+  </header>
+  Eric Siebert has yet again pulled through, and organized his annual top VMware &amp; virtualization blogs vote, and the results are now in. Congratulations to everyone involved, be it bloggers, podcasters or otherwise engaged in making this possible.
+This year, Eric hosted a live Google Hangout session with John M. Troyer, David M. Davis and Rick Vanover where the top lists were revealed, be sure to check it out:
+http://www.youtube.com/watch?v=W2IVfOvKA5M
+  <a href='/virtualization/2014-top-vblog-results/'>Read more →</a>
+</article> 
+
+
+
+
+
+<nav class="blog-pagination">
+  
+  <a class="btn btn-outline-primary" href="/posts/page/26/" rel="prev" role="button">Previous page</a>
+  <a class="btn btn-outline-primary" href="/posts/page/28/" rel="next" role="button">Next page</a>
+  
+  
+  
 </nav>
 
 
 
 
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="https://example.com">Link 1</a></li>
+      
+      <li><a href="https://example.org">Link 2</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
     
-  <header class="header-section ">
-    <div class="intro-header no-img">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <div class="page-heading">
-              <h1>Posts</h1>
-              <hr class="small">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
 
     
-  <div class="container" role="main">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        
-        <div class="posts-list">
-          
-            <article class="post-preview">
-              <a href="/virtualization/vsphere-ipad-client/">
-                <h2 class="post-title">vSphere iPad Client</h2>
-
-                
-              </a>
-
-              <p class="post-meta">
-                <span class="post-meta">
-  
-  
-  <i class="fa fa-calendar-o"></i>&nbsp;Posted on March 18, 2011
-  
-  
-  &nbsp;|&nbsp;
-  <i class="fa fa-clock-o"></i> 2 minutes (260 words)
-  
-  
-</span>
-
-
-              </p>
-              <div class="post-entry">
-                
-                  Like everyone else in the vUniverse, I&rsquo;ve had a play with the very recently released free vSphere Client for iPad. Since everyone, and their mother, has already blogged and reviewed it I don&rsquo;t see much value in me doing the same.
-What I can say though, is that the first impression is pretty great. It looks good, works well and might be one of the apps that finally gives me an actual use case for the iPad.
-                  <a href="/virtualization/vsphere-ipad-client/" class="post-read-more">[Read More]</a>
-                
-              </div>
-
-              
-                <div class="blog-tags">
-                  
-                    <a href="//tags/fun/">fun</a>&nbsp;
-                  
-                    <a href="//tags/ipad/">iPad</a>&nbsp;
-                  
-                    <a href="//tags/vcenter/">vCenter</a>&nbsp;
-                  
-                    <a href="//tags/virtualization/">Virtualization</a>&nbsp;
-                  
-                    <a href="//tags/vmware/">VMware</a>&nbsp;
-                  
-                    <a href="//tags/vsphere/">vSphere</a>&nbsp;
-                  
-                    <a href="//tags/vsphere-client/">vSphere Client</a>&nbsp;
-                  
-                </div>
-              
-
-            </article>
-          
-            <article class="post-preview">
-              <a href="/howto/custom-dictionary-syncronization-with-dropbox/">
-                <h2 class="post-title">Custom Dictionary Syncronization with Dropbox</h2>
-
-                
-              </a>
-
-              <p class="post-meta">
-                <span class="post-meta">
-  
-  
-  <i class="fa fa-calendar-o"></i>&nbsp;Posted on March 13, 2011
-  
-  
-  &nbsp;|&nbsp;
-  <i class="fa fa-clock-o"></i> 2 minutes (311 words)
-  
-  
-</span>
-
-
-              </p>
-              <div class="post-entry">
-                
-                  In the last couple of weeks I&rsquo;ve been using Microsoft Word 2010 a lot more than I&rsquo;ve previously done, and at the same time I&rsquo;ve been switching computers a lot making it somewhat of an annoyance that a lot of the words I use in my documents are not recognized and marked with a wiggly red line underneath it.
-If only there was a way to keep the custom dictionary synchronized between computers.
-                  <a href="/howto/custom-dictionary-syncronization-with-dropbox/" class="post-read-more">[Read More]</a>
-                
-              </div>
-
-              
-                <div class="blog-tags">
-                  
-                    <a href="//tags/dropbox/">Dropbox</a>&nbsp;
-                  
-                    <a href="//tags/microsoft-office/">Microsoft Office</a>&nbsp;
-                  
-                    <a href="//tags/productivity/">Productivity</a>&nbsp;
-                  
-                    <a href="//tags/tips-amp-tricks/">Tips &amp;amp; Tricks</a>&nbsp;
-                  
-                </div>
-              
-
-            </article>
-          
-            <article class="post-preview">
-              <a href="/virtualization/using-rsync-to-distribute-patches-to-remote-a-vma/">
-                <h2 class="post-title">Using rsync to Distribute Patches to a Remote vMA </h2>
-
-                
-              </a>
-
-              <p class="post-meta">
-                <span class="post-meta">
-  
-  
-  <i class="fa fa-calendar-o"></i>&nbsp;Posted on March 8, 2011
-  
-  
-  &nbsp;|&nbsp;
-  <i class="fa fa-clock-o"></i> 4 minutes (841 words)
-  
-  
-</span>
-
-
-              </p>
-              <div class="post-entry">
-                
-                  I recently posted Using vMA as a local vSphere Patch Repository, where I outlined how you can use your vMA instances as local file repositories for updates.
-This post is a continuation of that concept, but this time I&rsquo;ll take it a step further and utilize rsync to make sure my vMA instances all contain the same set of patches. Rsync is great for this, as it handles fast incremental file transfers, which is a real time and bandwidth saver in my particular scenario.
-                  <a href="/virtualization/using-rsync-to-distribute-patches-to-remote-a-vma/" class="post-read-more">[Read More]</a>
-                
-              </div>
-
-              
-                <div class="blog-tags">
-                  
-                    <a href="//tags/esx/">ESX</a>&nbsp;
-                  
-                    <a href="//tags/esxi/">ESXi</a>&nbsp;
-                  
-                    <a href="//tags/ops/">Ops</a>&nbsp;
-                  
-                    <a href="//tags/rsync/">rsync</a>&nbsp;
-                  
-                    <a href="//tags/vcli/">vCLI</a>&nbsp;
-                  
-                    <a href="//tags/virtual-appliance/">Virtual Appliance</a>&nbsp;
-                  
-                    <a href="//tags/vma/">vMA</a>&nbsp;
-                  
-                    <a href="//tags/vmware/">VMware</a>&nbsp;
-                  
-                    <a href="//tags/vsphere/">vSphere</a>&nbsp;
-                  
-                </div>
-              
-
-            </article>
-          
-            <article class="post-preview">
-              <a href="/virtualization/using-vma-as-a-local-vsphere-patch-repository/">
-                <h2 class="post-title">Using vMA as a local vSphere Patch Repository</h2>
-
-                
-              </a>
-
-              <p class="post-meta">
-                <span class="post-meta">
-  
-  
-  <i class="fa fa-calendar-o"></i>&nbsp;Posted on March 7, 2011
-  
-  
-  &nbsp;|&nbsp;
-  <i class="fa fa-clock-o"></i> 4 minutes (722 words)
-  
-  
-</span>
-
-
-              </p>
-              <div class="post-entry">
-                
-                  I like using http as the transport protocol when patching my vSphere hosts. It&rsquo;s easy to use and in most cases immediately available over most networks. Since I want to use http as the transport, we need to make vMA work as a http server.
-Starting Apache inside vMA Luckily, the Apache http daemon is installed, by default, in vMA and to utilize it all you have to do is to start it!
-                  <a href="/virtualization/using-vma-as-a-local-vsphere-patch-repository/" class="post-read-more">[Read More]</a>
-                
-              </div>
-
-              
-                <div class="blog-tags">
-                  
-                    <a href="//tags/esx/">ESX</a>&nbsp;
-                  
-                    <a href="//tags/esxi/">ESXi</a>&nbsp;
-                  
-                    <a href="//tags/ops/">Ops</a>&nbsp;
-                  
-                    <a href="//tags/vcli/">vCLI</a>&nbsp;
-                  
-                    <a href="//tags/virtual-appliance/">Virtual Appliance</a>&nbsp;
-                  
-                    <a href="//tags/vma/">vMA</a>&nbsp;
-                  
-                    <a href="//tags/vmware/">VMware</a>&nbsp;
-                  
-                    <a href="//tags/vsphere/">vSphere</a>&nbsp;
-                  
-                </div>
-              
-
-            </article>
-          
-            <article class="post-preview">
-              <a href="/virtualization/installing-vsphere-management-assistant-vma/">
-                <h2 class="post-title">Installing vSphere Management Assistant (vMA)</h2>
-
-                
-              </a>
-
-              <p class="post-meta">
-                <span class="post-meta">
-  
-  
-  <i class="fa fa-calendar-o"></i>&nbsp;Posted on February 28, 2011
-  
-  
-  &nbsp;|&nbsp;
-  <i class="fa fa-clock-o"></i> 4 minutes (697 words)
-  
-  
-</span>
-
-
-              </p>
-              <div class="post-entry">
-                
-                  The vMA is a Virtual Appliance that you can download from VMware. It&rsquo;s primary function is to enable command line based management of your ESX/ESXi systems.
-Basically this is a pre-packaged virtual machine that includes vCLI and the vSphere SDK for Perl, which means that you don&rsquo;t have to build your own management VM or install these tools locally on a management station.
-vMA is in many regards seen as a replacement for the ESX Service Console which no longer is present in ESXi.
-                  <a href="/virtualization/installing-vsphere-management-assistant-vma/" class="post-read-more">[Read More]</a>
-                
-              </div>
-
-              
-                <div class="blog-tags">
-                  
-                    <a href="//tags/esx/">ESX</a>&nbsp;
-                  
-                    <a href="//tags/esxi/">ESXi</a>&nbsp;
-                  
-                    <a href="//tags/ops/">Ops</a>&nbsp;
-                  
-                    <a href="//tags/vcli/">vCLI</a>&nbsp;
-                  
-                    <a href="//tags/virtual-appliance/">Virtual Appliance</a>&nbsp;
-                  
-                    <a href="//tags/vma/">vMA</a>&nbsp;
-                  
-                    <a href="//tags/vmware/">VMware</a>&nbsp;
-                  
-                    <a href="//tags/vsphere/">vSphere</a>&nbsp;
-                  
-                </div>
-              
-
-            </article>
-          
-            <article class="post-preview">
-              <a href="/rant/passion-in-modern-it-organizations/">
-                <h2 class="post-title">Passion in IT</h2>
-
-                
-              </a>
-
-              <p class="post-meta">
-                <span class="post-meta">
-  
-  
-  <i class="fa fa-calendar-o"></i>&nbsp;Posted on February 20, 2011
-  
-  
-  &nbsp;|&nbsp;
-  <i class="fa fa-clock-o"></i> 3 minutes (566 words)
-  
-  
-</span>
-
-
-              </p>
-              <div class="post-entry">
-                
-                  Bob Plankers, akaThe Lone Sysadmin, has posted a series of posts on &ldquo;the blame game&rdquo; in modern IT organizations (Blame, Understanding Blame and Preventing Blame).
-Bob&rsquo;s posts are most excellent, and well worth a thorough read. Feel free to head on over and read them now, this post will be waiting right here when you come back.
-Are you back yet? In fact, Bob&rsquo;s excellent rants has inspired me to write my own!
-                  <a href="/rant/passion-in-modern-it-organizations/" class="post-read-more">[Read More]</a>
-                
-              </div>
-
-              
-                <div class="blog-tags">
-                  
-                    <a href="//tags/community/">Community</a>&nbsp;
-                  
-                    <a href="//tags/virtualization/">Virtualization</a>&nbsp;
-                  
-                </div>
-              
-
-            </article>
-          
-            <article class="post-preview">
-              <a href="/news/vsoup-episode-4-now-available/">
-                <h2 class="post-title">vSoup Episode #4 now available</h2>
-
-                
-              </a>
-
-              <p class="post-meta">
-                <span class="post-meta">
-  
-  
-  <i class="fa fa-calendar-o"></i>&nbsp;Posted on February 10, 2011
-  
-  
-  &nbsp;|&nbsp;
-  <i class="fa fa-clock-o"></i> 1 minutes (84 words)
-  
-  
-</span>
-
-
-              </p>
-              <div class="post-entry">
-                
-                  The fourth edition (Big Fat Pipes with Bob) of the vSoup podcast is now available. This time we had the honor of having Bob Plankers as a guest. Bob runs The Lone Sysadmin, where his recent post &ldquo;Blame&rdquo; really resonated well with me personally.
-The fact of the matter is that in many cases Bob is right, virtualization admins ends up being blamed for everything.
-No matter who’s fault it actually is, though, I’m the one-stop shop now for blame.
-                  <a href="/news/vsoup-episode-4-now-available/" class="post-read-more">[Read More]</a>
-                
-              </div>
-
-              
-                <div class="blog-tags">
-                  
-                    <a href="//tags/podcast/">Podcast</a>&nbsp;
-                  
-                    <a href="//tags/vsoup/">vSoup</a>&nbsp;
-                  
-                </div>
-              
-
-            </article>
-          
-            <article class="post-preview">
-              <a href="/news/vsoup-episode-3-now-available/">
-                <h2 class="post-title">vSoup Episode #3 now available</h2>
-
-                
-              </a>
-
-              <p class="post-meta">
-                <span class="post-meta">
-  
-  
-  <i class="fa fa-calendar-o"></i>&nbsp;Posted on January 24, 2011
-  
-  
-  &nbsp;|&nbsp;
-  <i class="fa fa-clock-o"></i> 1 minutes (40 words)
-  
-  
-</span>
-
-
-              </p>
-              <div class="post-entry">
-                
-                  <p>The third episode of vSoup has been spotted in the wild. Head on over to <a href="http://vSoup.net">vSoup.net</a> to grab it while it&rsquo;s still warm. Or, you can frantically refresh your iTunes feed until it pops up there.</p>
-
-<p>Either way, it&rsquo;s alive!</p>
-
-                
-              </div>
-
-              
-                <div class="blog-tags">
-                  
-                    <a href="//tags/podcast/">Podcast</a>&nbsp;
-                  
-                    <a href="//tags/vsoup/">vSoup</a>&nbsp;
-                  
-                </div>
-              
-
-            </article>
-          
-            <article class="post-preview">
-              <a href="/howto/remote-desktop-connection-manager-rdcman-powershell-win/">
-                <h2 class="post-title">Remote Desktop Connection Manager (RDCMan) &#43; Powershell = Win</h2>
-
-                
-              </a>
-
-              <p class="post-meta">
-                <span class="post-meta">
-  
-  
-  <i class="fa fa-calendar-o"></i>&nbsp;Posted on January 20, 2011
-  
-  
-  &nbsp;|&nbsp;
-  <i class="fa fa-clock-o"></i> 2 minutes (364 words)
-  
-  
-</span>
-
-
-              </p>
-              <div class="post-entry">
-                
-                  Remote Desktop Connection Manager is a great tool from Microsoft which enables you to keep track of all your RDP sessions and targets in a nice GUI. One of the things it&rsquo;s lacking though, is some sort of Active Directory connection that allows you to import all your server objects directly, and not manually add/remove the serves as your infrastructure changes over time.
-In an attempt to bridge that gap, I&rsquo;ve made a very small PowerShell script that queries your Active Directory for server objects and dumps their names into a text file that you can import into RDCMan.
-                  <a href="/howto/remote-desktop-connection-manager-rdcman-powershell-win/" class="post-read-more">[Read More]</a>
-                
-              </div>
-
-              
-                <div class="blog-tags">
-                  
-                    <a href="//tags/ops/">Ops</a>&nbsp;
-                  
-                    <a href="//tags/powershell/">Powershell</a>&nbsp;
-                  
-                    <a href="//tags/rdcman/">RDCMan</a>&nbsp;
-                  
-                    <a href="//tags/windows/">Windows</a>&nbsp;
-                  
-                </div>
-              
-
-            </article>
-          
-            <article class="post-preview">
-              <a href="/windows/powershell-scripting-best-practices-analyzer-remotely/">
-                <h2 class="post-title">Powershell: Scripting Best Practices Analyzer remotely</h2>
-
-                
-              </a>
-
-              <p class="post-meta">
-                <span class="post-meta">
-  
-  
-  <i class="fa fa-calendar-o"></i>&nbsp;Posted on January 18, 2011
-  
-  
-  &nbsp;|&nbsp;
-  <i class="fa fa-clock-o"></i> 1 minutes (90 words)
-  
-  
-</span>
-
-
-              </p>
-              <div class="post-entry">
-                
-                  Jan Egil Ring over at blog.powershell.no has created a great PowerShell script that lets you run the Microsoft Best Practices Analyzer on remote Windows Server 2008 R2 machines.
-In short, Invoke-BPAModeling.ps1 queries your Active Directory for any machines that run Windows Server 2008 R2, runs BPA on them (if Windows PowerShell Remoting is enabled) and emails you the report.
-Great tool that should be in every Windows Server admins tool-belt, and probably also set as a scheduled job to make sure you stay up to date on your servers status.
-                  <a href="/windows/powershell-scripting-best-practices-analyzer-remotely/" class="post-read-more">[Read More]</a>
-                
-              </div>
-
-              
-                <div class="blog-tags">
-                  
-                    <a href="//tags/ops/">Ops</a>&nbsp;
-                  
-                    <a href="//tags/powershell/">Powershell</a>&nbsp;
-                  
-                    <a href="//tags/remoting/">Remoting</a>&nbsp;
-                  
-                </div>
-              
-
-            </article>
-          
-        </div>
-        
-          <ul class="pager main-pager">
-            
-              <li class="previous">
-                <a href="/posts/page/26/">&larr; Newer Posts</a>
-              </li>
-            
-            
-              <li class="next">
-                <a href="/posts/page/28/">Older Posts &rarr;</a>
-              </li>
-            
-          </ul>
-        
-      </div>
-    </div>
-  </div>
-
-    <footer>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        <ul class="list-inline text-center footer-links">
-          
-              <li>
-                <a href="mailto:youremail@domain.com" title="Email me">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.facebook.com/username" title="Facebook">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://plus.google.com/&#43;username" title="Google&#43;">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://github.com/username" title="GitHub">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://gitlab.com/username" title="GitLab">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-gitlab fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://bitbucket.org/username" title="Bitbucket">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-bitbucket fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://twitter.com/username" title="Twitter">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://reddit.com/u/username" title="Reddit">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-reddit-alien fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://linkedin.com/in/username" title="LinkedIn">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.xing.com/profile/username" title="Xing">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-xing fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://stackoverflow.com/users/XXXXXXX/username" title="StackOverflow">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-stack-overflow fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.snapchat.com/add/username" title="Snapchat">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-snapchat-ghost fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.instagram.com/username" title="Instagram">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.youtube.com/user/username" title="Youtube">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://soundcloud.com/username" title="SoundCloud">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-soundcloud fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://open.spotify.com/user/username" title="Spotify">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-spotify fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://username.bandcamp.com/" title="Bandcamp">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-bandcamp fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://itch.io/profile/username" title="Itch.io">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-gamepad fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://vk.com/username" title="VK">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-vk fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://paypal.me/username" title="PayPal">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-paypal fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://telegram.me/username" title="Telegram">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-telegram fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-          
-          <li>
-            
-            <a href="/posts/index.xml" title="RSS">
-            
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          
-        </ul>
-        <p class="credits copyright text-muted">
-          
-            
-              <a href="yourwebsite.com">Some Person</a>
-            
-          
-
-          &nbsp;&bull;&nbsp;
-          2018
-
-          
-            &nbsp;&bull;&nbsp;
-            <a href="/">Beautiful Hugo</a>
-          
-        </p>
-        
-        <p class="credits theme-by text-muted">
-          <a href="http://gohugo.io">Hugo v0.40.3</a> powered &nbsp;&bull;&nbsp; Theme by <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
-          
-        </p>
-      </div>
-    </div>
-  </div>
-</footer>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/contrib/auto-render.min.js" integrity="sha384-dq1/gEHSxPZQ7DdrM82ID4YVol9BYyU7GbWlIwnwyPzotpoc57wDw/guX8EaYGPx" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<script src="/js/main.js"></script>
-<script src="/js/highlight.min.js"></script>
-<script> hljs.initHighlightingOnLoad(); </script>
-<script> $(document).ready(function() {$("pre.chroma").css("padding","0");}); </script><script> renderMathInElement(document.body); </script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script>
-<script src="/js/load-photoswipe.js"></script>
-
-
-
-
-
+    <footer class="blog-footer">
+      <p>
+      
+      &copy; Christian Mohn
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
 
   </body>
-</html>
 
+</html>

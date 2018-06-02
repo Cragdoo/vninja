@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vmware Server on Beautiful Hugo</title>
+    <title>Vmware Server on Adventures in Hugo</title>
     <link>/tags/vmware-server/</link>
-    <description>Recent content in Vmware Server on Beautiful Hugo</description>
+    <description>Recent content in Vmware Server on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
-    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Fri, 13 Aug 2010 23:05:33 +0000</lastBuildDate>
     
 	<atom:link href="/tags/vmware-server/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>Where in the world is VMware Server?</title>
       <link>/virtualization/where-in-the-world-is-vmware-server/</link>
       <pubDate>Fri, 13 Aug 2010 23:05:33 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/where-in-the-world-is-vmware-server/</guid>
       <description>Over at PlanetVM Wil van Antwerpen posted The Future of VMware Server back in May 2010. Wil makes the argument that it seems like VMware is indeed abandoning VMware Server as a product, leaving us with VMware Workstation and VMware Player as the two Windows installable virtualization solutions from the company.
 This has caused some reactions, including my own comment, where I question the smartness of abandoning what might just be one of the best virtualization &amp;ldquo;gateway drugs&amp;rdquo; VMware has to offer.</description>

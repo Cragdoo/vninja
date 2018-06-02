@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Petri on Beautiful Hugo</title>
+    <title>Petri on Adventures in Hugo</title>
     <link>/tags/petri/</link>
-    <description>Recent content in Petri on Beautiful Hugo</description>
+    <description>Recent content in Petri on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
-    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Sun, 16 Jan 2011 22:03:48 +0000</lastBuildDate>
     
 	<atom:link href="/tags/petri/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>Volume Activation Management Tool (VAMT) article</title>
       <link>/news/volume-activation-management-tool-vamt-article/</link>
       <pubDate>Sun, 16 Jan 2011 22:03:48 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/news/volume-activation-management-tool-vamt-article/</guid>
       <description>I&amp;rsquo;ve had another article posted on Petri IT Knowledgebase!
  The Volume Activation Management Tool (VAMT) is a free tool from Microsoft that can help administrators perform licensing and activation related tasks from a single viewpoint. VAMT is currently available in version 2.0, and supports the following products and operating systems:  Read the rest of the article called License &amp;amp; Activation Management with Volume Activation Management Tool (VAMT) on petri.</description>

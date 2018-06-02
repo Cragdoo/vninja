@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cancer on Beautiful Hugo</title>
+    <title>Cancer on Adventures in Hugo</title>
     <link>/tags/cancer/</link>
-    <description>Recent content in Cancer on Beautiful Hugo</description>
+    <description>Recent content in Cancer on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
-    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Sat, 14 Sep 2013 20:14:03 +0000</lastBuildDate>
     
 	<atom:link href="/tags/cancer/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>Podcasting for Cancer</title>
       <link>/virtualization/podcasting-cancer/</link>
       <pubDate>Sat, 14 Sep 2013 20:14:03 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/podcasting-cancer/</guid>
       <description>Some times all it takes is one single tweet to set things in motion:
 Just a year after losing Dad to cancer, Mom&#39;s has now spread from lung to other areas. Too soon for this shit. — Gabriel Chapman (@Bacon_Is_King) [September 12, 2013](https://twitter.com/Bacon_Is_King/statuses/378283415839051776) This started a spiral of tweets, discussions and ideas being thrown around and has now resulted in Podcasting for Cancer.

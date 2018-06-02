@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Awesome on Beautiful Hugo</title>
+    <title>Awesome on Adventures in Hugo</title>
     <link>/tags/awesome/</link>
-    <description>Recent content in Awesome on Beautiful Hugo</description>
+    <description>Recent content in Awesome on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
-    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Wed, 11 Oct 2017 21:45:11 +0000</lastBuildDate>
     
 	<atom:link href="/tags/awesome/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>Making Royal TSX Even More Awesome</title>
       <link>/osx/making-royal-tsx-even-more-awesome/</link>
       <pubDate>Wed, 11 Oct 2017 21:45:11 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/osx/making-royal-tsx-even-more-awesome/</guid>
       <description>For those who don&amp;rsquo;t know, Royal TSX is an awesome Remote Management solution, which supports RDP, VNC, SSH, S/FTP and even ESXi and vCenter. I&amp;rsquo;ve been using it for years, not just because they offer free licenses for vExperts (and others), but simply because it works really well. Store it&amp;rsquo;s config file on a synchronized file area (like Dropbox), and boom, your config follows you around from machine to machine, including custom icons.</description>
     </item>
@@ -25,7 +25,7 @@
       <title>Cross vCenter VM Mobility Fling - macOS?</title>
       <link>/vmware-2/cross-vcenter-vm-mobility-fling-macos/</link>
       <pubDate>Tue, 28 Mar 2017 11:44:58 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/vmware-2/cross-vcenter-vm-mobility-fling-macos/</guid>
       <description>The VMware Cross vCenter VM Mobility - CLI was recently updated so I decided to try it out. In short, this little Java based application allows you to easily move or clone VMs between disparate vCenter environments.
 The Fling is listed with the following requirements:
@@ -39,7 +39,7 @@ The Fling is listed with the following requirements:
       <title>Logging SSH logins to Slack</title>
       <link>/homelab/logging-ssh-logins-to-slack/</link>
       <pubDate>Thu, 06 Oct 2016 11:31:51 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/homelab/logging-ssh-logins-to-slack/</guid>
       <description>I&amp;rsquo;m using Slack to alert and log a few things in my environment, and one of the things I use it for is to alert me if someone logs on via SSH to my public facing Jumphost.
 For a good walkthrough on how to set up such a host, check out Tunnel all your remote connections through ssh with a linux jumpbox by Luca Dell&amp;rsquo;Oca.
@@ -50,7 +50,7 @@ My Ubuntu 16.04 Jumphost is set up to only accept Key-Based Authentication, to s
       <title>Let&#39;s get the kids some RPi&#39;s!</title>
       <link>/news/lets-get-the-kids-some-rpis/</link>
       <pubDate>Fri, 06 May 2016 09:26:13 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/news/lets-get-the-kids-some-rpis/</guid>
       <description>A friend of Mr. Jase McCarty is teaching a class in programming control systems, and is in need of a few Raspberry Pi&amp;rsquo;s.
 Sadly the school can&amp;rsquo;t afford buying them outright, so if you have one laying around, that you are not using, get in touch with Jase and he&amp;rsquo;ll set you up with the details on how you can contribute! If you want to do even better, and buy some RPi&amp;rsquo;s outright and donate them to the project, check out this Amazon Wishlist!</description>
@@ -60,7 +60,7 @@ Sadly the school can&amp;rsquo;t afford buying them outright, so if you have one
       <title>ESXi Embedded Host Client</title>
       <link>/vmware-2/esxi-embedded-host-client/</link>
       <pubDate>Wed, 12 Aug 2015 16:11:16 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/vmware-2/esxi-embedded-host-client/</guid>
       <description>I almost choked on my coffee this morning when I saw William Lam announcing a new VMware Fling called ESXi Embedded Host Client. Finally the day when we can get a local vSphere Web Client on a standalone host is here, and it&amp;rsquo;s not a moment too soon. This feature has been missing since ESX 3 and it&amp;rsquo;s VMware Infrastructure Web Access. For now, this is a Fling (which means unsupported and so on), but I really hope that this ends up being built-in to ESXi very soon &amp;ndash; even on the free vSphere Hypervisor.</description>
     </item>
@@ -69,7 +69,7 @@ Sadly the school can&amp;rsquo;t afford buying them outright, so if you have one
       <title>Nordic VMUG Conference 2014</title>
       <link>/virtualization/nordic-vmug-conference-2014/</link>
       <pubDate>Wed, 22 Oct 2014 21:18:23 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/nordic-vmug-conference-2014/</guid>
       <description>Last year I was lucky enough to get to travel to Copenhagen and visit the Nordic VMUG conference. Sadly it doesn&amp;rsquo;t seem like I&amp;rsquo;ll be able to make it this year, but don&amp;rsquo;t let that stop you! While we in Norway are still trying to get our local VMUG up and running, more news on that in a very short while, the danish VMUG is really the driving force and the leading star for the rest of us in the nordics.</description>
     </item>
@@ -78,7 +78,7 @@ Sadly the school can&amp;rsquo;t afford buying them outright, so if you have one
       <title>2014 Top vBlog Results </title>
       <link>/virtualization/2014-top-vblog-results/</link>
       <pubDate>Thu, 27 Mar 2014 19:37:55 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/2014-top-vblog-results/</guid>
       <description>Eric Siebert has yet again pulled through, and organized his annual top VMware &amp;amp; virtualization blogs vote, and the results are now in. Congratulations to everyone involved, be it bloggers, podcasters or otherwise engaged in making this possible.
 This year, Eric hosted a live Google Hangout session with John M. Troyer, David M. Davis and Rick Vanover where the top lists were revealed, be sure to check it out:
@@ -89,7 +89,7 @@ http://www.youtube.com/watch?v=W2IVfOvKA5M</description>
       <title>Podcasting for Cancer</title>
       <link>/virtualization/podcasting-cancer/</link>
       <pubDate>Sat, 14 Sep 2013 20:14:03 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/podcasting-cancer/</guid>
       <description>Some times all it takes is one single tweet to set things in motion:
 Just a year after losing Dad to cancer, Mom&#39;s has now spread from lung to other areas. Too soon for this shit. — Gabriel Chapman (@Bacon_Is_King) [September 12, 2013](https://twitter.com/Bacon_Is_King/statuses/378283415839051776) This started a spiral of tweets, discussions and ideas being thrown around and has now resulted in Podcasting for Cancer.
@@ -100,7 +100,7 @@ The current goal is to raise $5000 USD by November 12th - Let´s absolutely crus
       <title>It`s Not Your Average Data it`s vOpenData</title>
       <link>/virtualization/its-average-data-its-vopendata/</link>
       <pubDate>Fri, 12 Apr 2013 23:09:20 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/its-average-data-its-vopendata/</guid>
       <description>So, what is the average airspeed velocity of an unladen swallow?
 As we all (should) know, that is very much a trick question.

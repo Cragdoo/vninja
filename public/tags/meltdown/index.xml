@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Meltdown on Beautiful Hugo</title>
+    <title>Meltdown on Adventures in Hugo</title>
     <link>/tags/meltdown/</link>
-    <description>Recent content in Meltdown on Beautiful Hugo</description>
+    <description>Recent content in Meltdown on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
-    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Sun, 14 Jan 2018 16:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/meltdown/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>The Curious Case of the Intel Microcode Part #2 - It Gets Better — Then Worse</title>
       <link>/news/curious-case-intel-microcode-part-2-gets-better-worse/</link>
       <pubDate>Sun, 14 Jan 2018 16:00:00 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/news/curious-case-intel-microcode-part-2-gets-better-worse/</guid>
       <description>This guest post by Bjørn Anders Jørgensen, Senior Systems Consultant Basefarm, first appeared on LinkedIn.
 Before you start on this rather long post, have a go at part #1:
@@ -27,7 +27,7 @@ tl;dr This is a long read. To get to the juicy part on how Intel potentially shi
       <title>The Curious Case of the Intel Microcode</title>
       <link>/news/the-curious-case-of-the-intel-microcode/</link>
       <pubDate>Tue, 09 Jan 2018 18:37:24 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/news/the-curious-case-of-the-intel-microcode/</guid>
       <description>This guest post by Bjørn Anders Jørgensen, Senior Systems Consultant Basefarm, first appeared on LinkedIn.
 Disclaimer: This is a report based on current development as of 7. January, the situation is changing by the hour so read this opinion piece with that in hindsight.

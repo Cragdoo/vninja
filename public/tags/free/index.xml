@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Free on Beautiful Hugo</title>
+    <title>Free on Adventures in Hugo</title>
     <link>/tags/free/</link>
-    <description>Recent content in Free on Beautiful Hugo</description>
+    <description>Recent content in Free on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
-    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Wed, 23 Nov 2016 17:37:07 +0000</lastBuildDate>
     
 	<atom:link href="/tags/free/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>Got VMware vRealize Log Insight?</title>
       <link>/virtualization/got-vmware-vrealize-log-insight/</link>
       <pubDate>Wed, 23 Nov 2016 17:37:07 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/got-vmware-vrealize-log-insight/</guid>
       <description>Recent conversations with existing and potential clients made me realize that many are not aware that they most likely are entitled to use VMware vRealize Log Insight in their environment. For free.
 Back in March 2016 VMware announced that everyone with a valid VMware vCenter license are also entitled to 25-OSI pack of vRealize Log Insight for vCenter Server. This means that you can gather logs for up to 25 ESXi hosts, VMs or other devices, in your environment.</description>
@@ -26,7 +26,7 @@ Back in March 2016 VMware announced that everyone with a valid VMware vCenter li
       <title>Can Microsoft really be Fair and Balanced?</title>
       <link>/virtualization/microsoft-fair-balanced/</link>
       <pubDate>Tue, 29 Oct 2013 23:25:14 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/microsoft-fair-balanced/</guid>
       <description>Microsoft has launched Virtualization2, a program to educate VMware administrators on Hyper-V and the System Center suite of tools. In short, these arefree online training sessiosn on November 19th and 20th, that also comes with a voucher for their new Microsoft virtualization certification exam (74-409).
 This comes in addition to their existing Microsoft Virtualization for VMware Professionals Jump Start training course.

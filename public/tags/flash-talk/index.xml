@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Flash Talk on Beautiful Hugo</title>
+    <title>Flash Talk on Adventures in Hugo</title>
     <link>/tags/flash-talk/</link>
-    <description>Recent content in Flash Talk on Beautiful Hugo</description>
+    <description>Recent content in Flash Talk on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
-    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Sun, 22 Jul 2012 17:49:01 +0000</lastBuildDate>
     
 	<atom:link href="/tags/flash-talk/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>10 minute lightning Tech Talk at VMworld?</title>
       <link>/vmware-2/techtalks-at-vmworld2012/</link>
       <pubDate>Sun, 22 Jul 2012 17:49:01 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/vmware-2/techtalks-at-vmworld2012/</guid>
       <description>I love it when a plan comes together, especially when someone gets an idea and then someone fires on all cylinders and executes!
 As mentioned before, there has been a lot of talk about various ways to create a &amp;ldquo;soapbox&amp;rdquo; for all those who submitted VMworld sessions and got rejected, or those who did not submit but would still like to present.

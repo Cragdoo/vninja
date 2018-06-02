@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vcdx on Beautiful Hugo</title>
+    <title>Vcdx on Adventures in Hugo</title>
     <link>/tags/vcdx/</link>
-    <description>Recent content in Vcdx on Beautiful Hugo</description>
+    <description>Recent content in Vcdx on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
-    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Wed, 11 Feb 2015 23:28:23 +0000</lastBuildDate>
     
 	<atom:link href="/tags/vcdx/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>The Real Value of the VCDX Certification</title>
       <link>/virtualization/real-vcdx-certification/</link>
       <pubDate>Wed, 11 Feb 2015 23:28:23 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/real-vcdx-certification/</guid>
       <description>The VMware Certified Design Expert: VCDX. THE certification of certifications, especially if you work with VMware based solutions. It&amp;rsquo;s often regarded as the holy grail of certifications, and rightfully so.
 But why is this the case, and why does &amp;ldquo;everyone&amp;rdquo; want to become one?
@@ -28,7 +28,7 @@ The reasons for it being such a highly coveted title, are pretty obvious:
       <title>Random VCDX Tips and Quotes?</title>
       <link>/virtualization/random-vcdx-tips-quotes/</link>
       <pubDate>Wed, 29 Jan 2014 15:58:10 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/random-vcdx-tips-quotes/</guid>
       <description>I needed something to spruce up my desktop environment, and it seems that one of the more popular ways to do that is to display random quotes and such on your desktop. Instead of hooking up to an existing quotes database, I simply made my own.
 I have collected a few VCDX related tips and quotes, primarily from the archive Duncan Epping put together of VCDX Tips from VCDX 001 John Arrasjid, but also from the &amp;ldquo;submissions&amp;rdquo; I got from VCDX?</description>
@@ -38,7 +38,7 @@ I have collected a few VCDX related tips and quotes, primarily from the archive 
       <title>VCDX? Give me a Quote!</title>
       <link>/news/vcdx-give-quote/</link>
       <pubDate>Fri, 24 Jan 2014 18:25:38 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/news/vcdx-give-quote/</guid>
       <description>For a tiny project, I need some help from anyone who has completed (successfully or not) the VCDX process.
 _All I&amp;rsquo;m asking is that you provide me with a single line quote about the VCDX process, or the VCDX program itself. _
@@ -49,7 +49,7 @@ Please send any quotes to me on Twitter, either as a mention or as a DM, your ch
       <title>VCDX Wannabe goes live</title>
       <link>/virtualization/vcdx-wannabe-live/</link>
       <pubDate>Tue, 27 Mar 2012 08:46:21 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/vcdx-wannabe-live/</guid>
       <description>My little pet project VCDX Wannabe has now (finally) gone live. For now it´s mostly a collection of links and resources, but that will change over time.
 So, if you want to see me (and possibly a few others) either go down in flames, kicking and screaming, or succeed obtaining the VCDX certification you now have the opportunity to do so.</description>
@@ -59,7 +59,7 @@ So, if you want to see me (and possibly a few others) either go down in flames, 
       <title>Being Neil Armstrong</title>
       <link>/rant/neil-armstrong/</link>
       <pubDate>Sun, 26 Feb 2012 22:42:01 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/rant/neil-armstrong/</guid>
       <description>Now there is an ambitious post title if there ever was one, but it seems fitting as the next 12 months promises to be my most ambitious professional year to date.
 Like Neil, I´ve started a journey that could either crash and burn, or end up with my very own personal moon landing.

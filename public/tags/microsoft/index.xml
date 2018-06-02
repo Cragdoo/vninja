@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Microsoft on Beautiful Hugo</title>
+    <title>Microsoft on Adventures in Hugo</title>
     <link>/tags/microsoft/</link>
-    <description>Recent content in Microsoft on Beautiful Hugo</description>
+    <description>Recent content in Microsoft on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
-    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Tue, 29 Oct 2013 23:25:14 +0000</lastBuildDate>
     
 	<atom:link href="/tags/microsoft/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>Can Microsoft really be Fair and Balanced?</title>
       <link>/virtualization/microsoft-fair-balanced/</link>
       <pubDate>Tue, 29 Oct 2013 23:25:14 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/microsoft-fair-balanced/</guid>
       <description>Microsoft has launched Virtualization2, a program to educate VMware administrators on Hyper-V and the System Center suite of tools. In short, these arefree online training sessiosn on November 19th and 20th, that also comes with a voucher for their new Microsoft virtualization certification exam (74-409).
 This comes in addition to their existing Microsoft Virtualization for VMware Professionals Jump Start training course.
@@ -27,7 +27,7 @@ I think this is a good idea, and if you are able to close your eyes to the hyper
       <title>Social Media, Karma and Being a Dick</title>
       <link>/rant/social-media-karma-dick/</link>
       <pubDate>Tue, 08 Oct 2013 13:12:13 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/rant/social-media-karma-dick/</guid>
       <description>Rant alert [@Acronis](https://twitter.com/Acronis) sorry, not happening. — Christian Mohn (@h0bbel) [October 8, 2013](https://twitter.com/h0bbel/statuses/387562111972683776) In and of itself, this tweet is fair enough, even if borderline spam. My reaction to it however, tells a different story. _I admit it, it´s a bit harsh and straight to the point, but something has to have triggered such a response, right? _Rewind back to VMworld US, and Acronis posted this:
 [@sbeloussov](https://twitter.com/sbeloussov) [@veeam](https://twitter.com/veeam) [@VMworld](https://twitter.com/VMworld) fortunately we don&#39;t need to make our customers drunk to persuade them to buy our soft.</description>
@@ -37,7 +37,7 @@ I think this is a good idea, and if you are able to close your eyes to the hyper
       <title>Trainsignal: Training as a Service (TaaS)</title>
       <link>/news/trainsignal-training-service-taas/</link>
       <pubDate>Fri, 22 Feb 2013 08:55:41 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/news/trainsignal-training-service-taas/</guid>
       <description>Trainsignal has just launched a new Online Training bundle, and for $49 a month you can get unlimited access to their entire set of training courses and practice exams for Cisco, Apple, Microsoft, Citrix, CompTIA, and VMware.
 
@@ -49,7 +49,7 @@ The courses are delivered in your browser, but Trainsignal also offers an offlin
       <title>Installing Windows 8 Developer Preview in VMware Workstation 8</title>
       <link>/virtualization/installing-windows-8-developer-preview-in-vmware-workstation-8/</link>
       <pubDate>Wed, 14 Sep 2011 12:33:12 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/installing-windows-8-developer-preview-in-vmware-workstation-8/</guid>
       <description>Installing Microsoft Windows 8 in a VMware Workstation 8 VM turned out to be a real piece of cake.
 Follow the screenshots for the procedure I used, but basically all I did was to create a new VM with the pre-configured &amp;ldquo;Windows 8 Server&amp;rdquo; preset and inserted the downloaded ISO file.
@@ -60,7 +60,7 @@ Note: Windows 8 Server has been removed as a preset option in the final release 
       <title>SCCM 2007 Not a Virtualization Candidate?</title>
       <link>/microsoft-2/sccm-2007-not-a-virtualization-candidate/</link>
       <pubDate>Fri, 26 Aug 2011 08:10:54 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/microsoft-2/sccm-2007-not-a-virtualization-candidate/</guid>
       <description>The last couple of days I&amp;rsquo;ve been in training class, taking the 6451B Planning, Deploying and Managing Microsoft System Center Configuration Manager 2007 course.
 One of the first things that got mentioned, was that for larger deployments you should not run System Center Configuration Manager virtually. Of course, this caught my eye as I&amp;rsquo;m a proponent for the virtualize first &amp;ldquo;movement&amp;rdquo;.
@@ -71,7 +71,7 @@ It runs out that the reason for this is that Configuration Manager is somewhat p
       <title>Poor Man&#39;s WSUS</title>
       <link>/microsoft-2/poor-mans-wsus/</link>
       <pubDate>Thu, 25 Aug 2011 21:51:37 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/microsoft-2/poor-mans-wsus/</guid>
       <description>Not that WSUS is expensive, after all it&amp;rsquo;s a &amp;ldquo;free&amp;rdquo; addon to the server you&amp;rsquo;re already running if you need it. Of course, running your own Windows Server Update Services (WSUS) infrastructure is preferable in just about every scenario except for some edge cases where bandwidth or latency issues might prevent you from syncing the updates from a central repository. Sadly, these edge cases enter the fray from time to time and I recently found myself in the middle of such a scenario.</description>
     </item>
@@ -80,7 +80,7 @@ It runs out that the reason for this is that Configuration Manager is somewhat p
       <title>Exchange 2010 SP1 and KB2393802 or How to Have an Interesting Afternoon at the Office</title>
       <link>/microsoft-2/exchange-2010-sp1-and-kb2393802-or-how-to-have-an-interesting-afternoon-at-the-office/</link>
       <pubDate>Wed, 06 Jul 2011 12:51:21 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/microsoft-2/exchange-2010-sp1-and-kb2393802-or-how-to-have-an-interesting-afternoon-at-the-office/</guid>
       <description>Let me start this post out with a little story. I am normally a hardcore virtualization and storage guy. Sometimes my career in this sector brings me into working with stuff I haven&amp;rsquo;t worked with before because virtualization encompasses so much. As I continue to work with other teams I learn more and more about what they do everyday. I usually find myself involved in every performance troubleshooting session and every new project these days.</description>
     </item>
@@ -89,7 +89,7 @@ It runs out that the reason for this is that Configuration Manager is somewhat p
       <title>Volume Activation Management Tool (VAMT) article</title>
       <link>/news/volume-activation-management-tool-vamt-article/</link>
       <pubDate>Sun, 16 Jan 2011 22:03:48 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/news/volume-activation-management-tool-vamt-article/</guid>
       <description>I&amp;rsquo;ve had another article posted on Petri IT Knowledgebase!
  The Volume Activation Management Tool (VAMT) is a free tool from Microsoft that can help administrators perform licensing and activation related tasks from a single viewpoint. VAMT is currently available in version 2.0, and supports the following products and operating systems:  Read the rest of the article called License &amp;amp; Activation Management with Volume Activation Management Tool (VAMT) on petri.</description>

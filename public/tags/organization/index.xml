@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Organization on Beautiful Hugo</title>
+    <title>Organization on Adventures in Hugo</title>
     <link>/tags/organization/</link>
-    <description>Recent content in Organization on Beautiful Hugo</description>
+    <description>Recent content in Organization on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
-    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Wed, 03 Dec 2014 16:22:11 +0000</lastBuildDate>
     
 	<atom:link href="/tags/organization/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>Combining Todoist and Evernote, because awesome</title>
       <link>/workflow/combining-todoist-evernote-awesome/</link>
       <pubDate>Wed, 03 Dec 2014 16:22:11 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/workflow/combining-todoist-evernote-awesome/</guid>
       <description>A while back I declared Evernote bankruptcy, even if I managed to misspell it while doing so:
 That&#39;s it, I&#39;m declaring [@evernote](https://twitter.com/evernote) bankrupcy. — Christian Mohn™ (@h0bbel) [May 22, 2014](https://twitter.com/h0bbel/status/469455493631860736)  The thing is, I really want to use Evernote in a proper and organised manner. The problem is; I was completely unable to do so, mostly since I had no clear idea on the how, the when and the why back when I started using it many moons ago.</description>

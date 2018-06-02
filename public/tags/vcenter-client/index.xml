@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vcenter Client on Beautiful Hugo</title>
+    <title>Vcenter Client on Adventures in Hugo</title>
     <link>/tags/vcenter-client/</link>
-    <description>Recent content in Vcenter Client on Beautiful Hugo</description>
+    <description>Recent content in Vcenter Client on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
-    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Mon, 12 Mar 2012 12:50:31 +0000</lastBuildDate>
     
 	<atom:link href="/tags/vcenter-client/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>vCenter Client Download URLs</title>
       <link>/vmware-2/vcenter-client-download-urls/</link>
       <pubDate>Mon, 12 Mar 2012 12:50:31 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/vmware-2/vcenter-client-download-urls/</guid>
       <description>Since the vCenter Client no longer is bundled with an ESXi host installation, I´ve compiled a quick list of direct download URLs for the most recent clients.
 Update 17th September 2014: VMware has published the official list in knowledge base article KB2089791, use that as the official list going forward.

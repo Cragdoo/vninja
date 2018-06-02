@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Networking on Beautiful Hugo</title>
+    <title>Networking on Adventures in Hugo</title>
     <link>/tags/networking/</link>
-    <description>Recent content in Networking on Beautiful Hugo</description>
+    <description>Recent content in Networking on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
-    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Tue, 10 Jun 2014 12:48:10 +0000</lastBuildDate>
     
 	<atom:link href="/tags/networking/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>NSX for vSphere 6.0.4 - Documentation and Download?</title>
       <link>/vmware-2/nsx-vsphere-6-0-4-documentation-download/</link>
       <pubDate>Tue, 10 Jun 2014 12:48:10 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/vmware-2/nsx-vsphere-6-0-4-documentation-download/</guid>
       <description>How long as NSX for vSphere 6.0.4 Documentation been publicly available? I just noticed this, and that the NSX downloads seem to be available via MyVMware - If you are entitled to it that is.
 
@@ -27,7 +27,7 @@ Does this mean it will be available for download and we get to play with it soon
       <title>Adding a secondary NIC to the vCenter 5.1 Appliance (VCSA)</title>
       <link>/virtualization/adding-secondary-nic-vcenter-5-1-appliance-vcsa/</link>
       <pubDate>Thu, 25 Apr 2013 11:10:33 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/adding-secondary-nic-vcenter-5-1-appliance-vcsa/</guid>
       <description>While building my lab environment, I ran into a situation where I wanted to have a completely sealed off networking segment that had no outside access.
 This is a trivial task on it`s own, just create a vSwitch with no physical NICs attached to it, and then connect the VMs to it. The VMs will then have interconnectivity, but no outside network access at all.
@@ -38,7 +38,7 @@ In this particular case, I was setting up a couple of nested ESXi servers that I
       <title>Network Simulation in VMware Workstation 8</title>
       <link>/virtualization/network-simulation-in-vmware-workstation-8/</link>
       <pubDate>Thu, 15 Sep 2011 09:18:44 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/network-simulation-in-vmware-workstation-8/</guid>
       <description>In the new VMware Workstation 8 release, VMware has added a rudimentary network simulation setting where you can tweak bandwidth and packet loss for a given network card. Very useful when testing applications and servers and want to know how they react to network issues, or if you want to simulate a WAN link. I know this was available in Workstation 7 as well, but it used to be a team feature.</description>
     </item>
@@ -47,7 +47,7 @@ In this particular case, I was setting up a couple of nested ESXi servers that I
       <title>Installing and Configuring WANem Virtual Appliance</title>
       <link>/virtualization/installing-and-configuring-wanem-virtual-appliance/</link>
       <pubDate>Wed, 29 Dec 2010 14:21:36 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/installing-and-configuring-wanem-virtual-appliance/</guid>
       <description>In a previous post, Using the WANem WAN Emulator Virtual Appliance, I&amp;rsquo;ve talked about how I&amp;rsquo;ve successfully used WANem to emulate different WAN scenarios.
 Since I work for a shipping company, the ability to emulate VSAT conditions are especially useful for testing and proof-of-concept scenarios.
@@ -59,7 +59,7 @@ Downloading WANem I have chose to use the WANem Virtual Appliance running in a v
       <title>Using the WANem WAN Emulator Virtual Appliance</title>
       <link>/network/using-the-wanem-wan-emulator-virtual-appliance/</link>
       <pubDate>Thu, 26 Aug 2010 11:38:00 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/network/using-the-wanem-wan-emulator-virtual-appliance/</guid>
       <description>During preparation and preliminary information gathering for a new internal project, I had a need to emulate various networking conditions and scenarios. More specifically I&amp;rsquo;m looking at the possibility of running the vCenter Client over high latency satellite links, with varying bandwidth availability and even packet loss scenarios.
 Obviously the best way of testing this, in a controlled environment, is to use some kind of WAN emulator that lets you control the various networking characteristics.</description>

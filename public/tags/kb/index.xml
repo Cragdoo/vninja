@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Kb on Beautiful Hugo</title>
+    <title>Kb on Adventures in Hugo</title>
     <link>/tags/kb/</link>
-    <description>Recent content in Kb on Beautiful Hugo</description>
+    <description>Recent content in Kb on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
-    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Sat, 25 Feb 2017 08:50:26 +0000</lastBuildDate>
     
 	<atom:link href="/tags/kb/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>VMware vSphere 6.5 PSOD: GP Exception 13</title>
       <link>/vmware-2/vmware-vsphere-6-5-psod-gp-exception-13/</link>
       <pubDate>Sat, 25 Feb 2017 08:50:26 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/vmware-2/vmware-vsphere-6-5-psod-gp-exception-13/</guid>
       <description>While at a customer site, migrating an old vSphere 5.5 environment to 6.5, several hosts suddenly crashed with a PSOD during the migration. Long story short, we got hit by this: VMware KB 2147958: _ESXi 6.5 host fails with PSOD: GP Exception 13 in multiple VMM world at VmAnonAllocVmmPages (2147958)
 It turned out that a bunch of the VMs we were vMotioning from the old environment had the cpuid.corePerSocket advanced setting set in the .</description>

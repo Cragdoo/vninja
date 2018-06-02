@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Event on Beautiful Hugo</title>
+    <title>Event on Adventures in Hugo</title>
     <link>/tags/event/</link>
-    <description>Recent content in Event on Beautiful Hugo</description>
+    <description>Recent content in Event on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
-    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Tue, 17 Oct 2017 10:44:50 +0000</lastBuildDate>
     
 	<atom:link href="/tags/event/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>VeeamOn Tour Virtual 2017 - Reserve your spot!</title>
       <link>/virtualization/veeamon-tour-virtual-2017-reserve-your-spot/</link>
       <pubDate>Tue, 17 Oct 2017 10:44:50 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/veeamon-tour-virtual-2017-reserve-your-spot/</guid>
       <description>Veeam is hosting their VeeamOn Tour Virtual 2017 event on December 5th, and I&amp;rsquo;ll be part of the panel of bloggers in the Expert Lounge!
 Veeam describes the event like this:
@@ -27,7 +27,7 @@ The biggest online Availability event in EMEA — VeeamON Tour Virtual 2017 — 
       <title>Nordic VMUG Conference - My Thoughts</title>
       <link>/vmware-2/nordic-vmug-conference-thoughts/</link>
       <pubDate>Wed, 04 Dec 2013 23:23:23 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/vmware-2/nordic-vmug-conference-thoughts/</guid>
       <description>On Tuesday, December 3, 2013 VMware User Group Denmark arranged theNordic VMUG Conference. The event itself can only be described as a mini-VMworld, with over 600 registered attendees, and a speaker list worthy of such a nick-name.
 The opening keynote was held by Joe Baguley, the closing keynote was held by Chad Sakac. In between those two, you had the possibility to attend sessions held by Cormac Hogan, Mike Laverick, Frank Brix, Paudie O-Riordan, Frank Denneman, Mattias Sundling, David Davis and Duncan Epping.</description>
@@ -37,7 +37,7 @@ The opening keynote was held by Joe Baguley, the closing keynote was held by Ch
       <title>VIP VCP Club 2012</title>
       <link>/vmware-2/vip-vcp-club-2012/</link>
       <pubDate>Thu, 15 Nov 2012 09:59:17 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/vmware-2/vip-vcp-club-2012/</guid>
       <description>VMware Norway held their first ever _VIP VCP Club_ yesterday in Oslo.
 **What is VIP VCP Club? ** This a new concept by VMware Norway, for certified VMware professionals, where the idea is to gather local certified VMware Professionals for a day of hands-on labs, specialized technical sessions and general community building.
@@ -50,7 +50,7 @@ Juggling for the Crowd[/caption]
       <title>VMware Forum 2012 Oslo</title>
       <link>/virtualization/vmware-forum-2012-oslo/</link>
       <pubDate>Thu, 26 Apr 2012 20:35:39 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/vmware-forum-2012-oslo/</guid>
       <description>Just like last year, I got up really early and caught a 06:40 am flight from Bergen to Oslo to attend the VMware Forum. A couple of things have changed since the last time, one of them being the venue.
 This time around it was held at Ullevaal Business Class, and the venue itself worked great for a one day conference like this, divided into three sections, two for parallel sessions and one for the exhibitor area.</description>
@@ -60,7 +60,7 @@ This time around it was held at Ullevaal Business Class, and the venue itself wo
       <title>Online Event: Raising the Bar, Part V</title>
       <link>/virtualization/online-event-raising-the-bar-part-v/</link>
       <pubDate>Thu, 07 Jul 2011 09:19:35 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/online-event-raising-the-bar-part-v/</guid>
       <description>July 12, 2011 9am-Noon Pacific Time: Join this online event, and get all the details on &amp;ldquo;the next generation of cloud infrastructure&amp;rdquo;!
 VMware CEO Paul Maritz and CTO Steve Herrod will be presenting on the next generation of cloud infrastructure. Join us and experience how the virtualization journey is helping transform IT and ushering in the era of Cloud Computing. 9:00-9:45 Paul and Steve present - live online streaming 10:00-12:00 three tracks of deep dive breakout sessions 10:00-12:00 live Q&amp;A with VMware cloud and virtualization experts  Register for the event now!</description>

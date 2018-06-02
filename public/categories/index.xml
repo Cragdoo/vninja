@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Beautiful Hugo</title>
+    <title>Categories on Adventures in Hugo</title>
     <link>/categories/</link>
-    <description>Recent content in Categories on Beautiful Hugo</description>
+    <description>Recent content in Categories on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
-    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Wed, 09 May 2018 13:12:07 +0000</lastBuildDate>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>Awesometalks</title>
       <link>/categories/awesometalks/</link>
       <pubDate>Wed, 09 May 2018 13:12:07 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/categories/awesometalks/</guid>
       <description></description>
     </item>
@@ -25,7 +25,7 @@
       <title>Book</title>
       <link>/categories/book/</link>
       <pubDate>Mon, 09 Jun 2014 08:42:28 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/categories/book/</guid>
       <description></description>
     </item>
@@ -34,7 +34,7 @@
       <title>Hardware</title>
       <link>/categories/hardware/</link>
       <pubDate>Mon, 10 Oct 2016 13:18:30 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/categories/hardware/</guid>
       <description></description>
     </item>
@@ -43,7 +43,7 @@
       <title>Homelab</title>
       <link>/categories/homelab/</link>
       <pubDate>Thu, 06 Oct 2016 11:31:51 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/categories/homelab/</guid>
       <description></description>
     </item>
@@ -52,7 +52,7 @@
       <title>Howto</title>
       <link>/categories/howto/</link>
       <pubDate>Thu, 15 Oct 2015 16:01:38 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/categories/howto/</guid>
       <description></description>
     </item>
@@ -61,7 +61,7 @@
       <title>Inthebag</title>
       <link>/categories/inthebag/</link>
       <pubDate>Fri, 17 Mar 2017 14:24:11 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/categories/inthebag/</guid>
       <description></description>
     </item>
@@ -70,7 +70,7 @@
       <title>Microsoft</title>
       <link>/categories/microsoft/</link>
       <pubDate>Thu, 15 Oct 2015 16:01:38 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/categories/microsoft/</guid>
       <description></description>
     </item>
@@ -79,7 +79,7 @@
       <title>Misc</title>
       <link>/categories/misc/</link>
       <pubDate>Mon, 18 Dec 2017 14:00:55 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/categories/misc/</guid>
       <description></description>
     </item>
@@ -88,7 +88,7 @@
       <title>Network</title>
       <link>/categories/network/</link>
       <pubDate>Tue, 03 May 2016 08:47:23 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/categories/network/</guid>
       <description></description>
     </item>
@@ -97,7 +97,7 @@
       <title>News</title>
       <link>/categories/news/</link>
       <pubDate>Sun, 14 Jan 2018 16:00:00 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/categories/news/</guid>
       <description></description>
     </item>
@@ -106,7 +106,7 @@
       <title>Os X</title>
       <link>/categories/os-x/</link>
       <pubDate>Fri, 24 Nov 2017 12:33:04 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/categories/os-x/</guid>
       <description></description>
     </item>
@@ -115,7 +115,7 @@
       <title>Rant</title>
       <link>/categories/rant/</link>
       <pubDate>Tue, 22 May 2018 21:21:27 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/categories/rant/</guid>
       <description></description>
     </item>
@@ -124,7 +124,7 @@
       <title>Software</title>
       <link>/categories/software/</link>
       <pubDate>Fri, 24 Nov 2017 12:33:04 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/categories/software/</guid>
       <description></description>
     </item>
@@ -133,7 +133,7 @@
       <title>Storage</title>
       <link>/categories/storage/</link>
       <pubDate>Thu, 21 Aug 2014 22:21:59 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/categories/storage/</guid>
       <description></description>
     </item>
@@ -142,7 +142,7 @@
       <title>Virtualization</title>
       <link>/categories/virtualization/</link>
       <pubDate>Mon, 13 Nov 2017 16:45:46 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/categories/virtualization/</guid>
       <description></description>
     </item>
@@ -151,7 +151,7 @@
       <title>Vmware</title>
       <link>/categories/vmware/</link>
       <pubDate>Mon, 29 Jan 2018 22:49:53 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/categories/vmware/</guid>
       <description></description>
     </item>
@@ -160,7 +160,7 @@
       <title>Windows</title>
       <link>/categories/windows/</link>
       <pubDate>Sat, 07 Jan 2012 22:44:33 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/categories/windows/</guid>
       <description></description>
     </item>
@@ -169,7 +169,7 @@
       <title>Workflow</title>
       <link>/categories/workflow/</link>
       <pubDate>Tue, 24 Oct 2017 13:47:35 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/categories/workflow/</guid>
       <description></description>
     </item>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cisco on Beautiful Hugo</title>
+    <title>Cisco on Adventures in Hugo</title>
     <link>/tags/cisco/</link>
-    <description>Recent content in Cisco on Beautiful Hugo</description>
+    <description>Recent content in Cisco on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
-    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Fri, 22 Feb 2013 08:55:41 +0000</lastBuildDate>
     
 	<atom:link href="/tags/cisco/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>Trainsignal: Training as a Service (TaaS)</title>
       <link>/news/trainsignal-training-service-taas/</link>
       <pubDate>Fri, 22 Feb 2013 08:55:41 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/news/trainsignal-training-service-taas/</guid>
       <description>Trainsignal has just launched a new Online Training bundle, and for $49 a month you can get unlimited access to their entire set of training courses and practice exams for Cisco, Apple, Microsoft, Citrix, CompTIA, and VMware.
 

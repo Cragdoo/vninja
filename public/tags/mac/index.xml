@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mac on Beautiful Hugo</title>
+    <title>Mac on Adventures in Hugo</title>
     <link>/tags/mac/</link>
-    <description>Recent content in Mac on Beautiful Hugo</description>
+    <description>Recent content in Mac on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
-    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Tue, 22 Oct 2013 18:42:42 +0000</lastBuildDate>
     
 	<atom:link href="/tags/mac/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>Check for OS X Updates Automatically</title>
       <link>/osx/check-os-updates-automatically/</link>
       <pubDate>Tue, 22 Oct 2013 18:42:42 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/osx/check-os-updates-automatically/</guid>
       <description>Yeah, I admit it. I want OS X Mavericks, and I want it now.
 Unfortunately, it´s not available yet from Software Update. So instead of manually checking every 5 minutes or so, I decided to create a small bash script that does it for me.
@@ -29,7 +29,7 @@ First off, pop into Terminal and get root access:
       <title>Applescript, Desktop Wallpaper and Growl. Automagically.</title>
       <link>/osx/applescript-desktop-wallpaper-growl-automatically/</link>
       <pubDate>Tue, 24 Jul 2012 23:31:12 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/osx/applescript-desktop-wallpaper-growl-automatically/</guid>
       <description>I´ve been a Mac and OS X user now for about 7 months, but to be honest I have not been very experimental in my usage of my Macbook Air. Until now, my main focus has been basic usage of the hardware and operating systems, and making it work in my corporate environment. As I feel that I´ve reached mission accomplished status on that initial project, I decided to use some of my &amp;ldquo;free&amp;rdquo; vacation time to play around a bit and experiment a bit more.</description>
     </item>
@@ -38,7 +38,7 @@ First off, pop into Terminal and get root access:
       <title>Iomega IX2 and Time Machine Support</title>
       <link>/osx/iomega-ix2-time-machine-support/</link>
       <pubDate>Mon, 23 Jan 2012 19:57:49 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/osx/iomega-ix2-time-machine-support/</guid>
       <description>As Mr. Simon Seagrave has pointed out, there is a fix available to enable OSX Lion Time Machine support for Iomega IX2 and IX4 NAS storage devices.
 I decided to take this a little step further, and try to upgrade my old (and discontinued) Iomega IX2-200 to the new IX2-200 Cloud Edition firmware.

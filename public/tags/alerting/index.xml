@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Alerting on Beautiful Hugo</title>
+    <title>Alerting on Adventures in Hugo</title>
     <link>/tags/alerting/</link>
-    <description>Recent content in Alerting on Beautiful Hugo</description>
+    <description>Recent content in Alerting on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
-    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Mon, 29 Jan 2018 22:49:53 +0000</lastBuildDate>
     
 	<atom:link href="/tags/alerting/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>Alerting on &#34;Bootbank cannot be found at path ‘/bootbank’&#34; in vRealize Operations</title>
       <link>/vmware-2/bootbank-cannot-be-found-at-path/</link>
       <pubDate>Mon, 29 Jan 2018 22:49:53 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/vmware-2/bootbank-cannot-be-found-at-path/</guid>
       <description>If you boot your ESXi hosts from SD-cards or USB you might have run into this issue. Suddenly your host(s) displays the following under events: &amp;ldquo;Bootbank cannot be found at path ‘/bootbank’.&amp;rdquo;
 Usually this means that the boot device has been corrupted somehow, either due to a device failure or other issues. Normally the host continues to run, until it&amp;rsquo;s rebooted that is&amp;hellip;
@@ -27,7 +27,7 @@ For some reason, vRealize Operations doesn&amp;rsquo;t pick this up as a host is
       <title>HomeLabOps via Slack</title>
       <link>/homelab/homelabops-via-slack/</link>
       <pubDate>Thu, 06 Oct 2016 10:52:09 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/homelab/homelabops-via-slack/</guid>
       <description>Just like Lior Kamrat I&amp;rsquo;ve set up my own private Slack for messaging and alerting from various services running both in my lab and some external facing services. It&amp;rsquo;s only been running a few days, but so far it works brilliantly and helps me keep track.
 So far, I&amp;rsquo;ve set up Slack alerting and/or integrations for the following items:

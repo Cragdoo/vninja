@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Licensing on Beautiful Hugo</title>
+    <title>Licensing on Adventures in Hugo</title>
     <link>/tags/licensing/</link>
-    <description>Recent content in Licensing on Beautiful Hugo</description>
+    <description>Recent content in Licensing on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
-    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Mon, 01 Dec 2014 20:39:08 +0000</lastBuildDate>
     
 	<atom:link href="/tags/licensing/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>EVO:RAIL: Doing the methmath.</title>
       <link>/virtualization/hyperconvergence-meth-math/</link>
       <pubDate>Mon, 01 Dec 2014 20:39:08 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/hyperconvergence-meth-math/</guid>
       <description>Howard Marks has published a post I&amp;rsquo;ve been meaning do myself, but to be honest, I&amp;rsquo;m glad Howard put it out there. His is way more researched and comprehensive than mine would ever have been.
 In his The True Cost Of Hyperconvergence article, Howard compares buying a new EVO:RAIL system, with building your own. Complete with the required hardware, licenses and support contracts. The result might come as a surprise to some&amp;hellip;</description>
@@ -26,7 +26,7 @@ In his The True Cost Of Hyperconvergence article, Howard compares buying a new
       <title>vShield Endpoint Entitlement, not just for vSphere 5.1</title>
       <link>/vmware-2/vshield-endpoint-entitlement-vsphere-5-1/</link>
       <pubDate>Fri, 05 Oct 2012 21:43:15 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/vmware-2/vshield-endpoint-entitlement-vsphere-5-1/</guid>
       <description>When VMware vSphere 5.1 and vCloud Networking and Security 5.1 was launched at VMworld US in late August, one of the news items was the change in licensing relating to vShield Endpoint.
 vShield Endpoint is now included in every vSphere edition, with the exception of the lowest tier vSphere Essentials package.
@@ -37,7 +37,7 @@ I was under the impression that you had to upgrade to the new 5.1 version to tak
       <title>vSphere 5 and new licensing - Good or bad?</title>
       <link>/news/vsphere-5-and-new-licensing-good-or-bad/</link>
       <pubDate>Tue, 12 Jul 2011 18:36:07 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/news/vsphere-5-and-new-licensing-good-or-bad/</guid>
       <description>As many of you did I watched todays Cloud Infrastructure Forum and the release of vSphere 5 today. I was very excited with many of the features such as Storage Profiling, Storage DRS, VMFS 5 release, and they have blown the top off of the resource limits on VMs to create Monster VMs - just to mention a few. However, one topic I notice causing quite a stir is the new licensing that seemed to be very briefly mentioned at the end of the webinar.</description>
     </item>
@@ -46,7 +46,7 @@ I was under the impression that you had to upgrade to the new 5.1 version to tak
       <title>Volume Activation Management Tool (VAMT) article</title>
       <link>/news/volume-activation-management-tool-vamt-article/</link>
       <pubDate>Sun, 16 Jan 2011 22:03:48 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/news/volume-activation-management-tool-vamt-article/</guid>
       <description>I&amp;rsquo;ve had another article posted on Petri IT Knowledgebase!
  The Volume Activation Management Tool (VAMT) is a free tool from Microsoft that can help administrators perform licensing and activation related tasks from a single viewpoint. VAMT is currently available in version 2.0, and supports the following products and operating systems:  Read the rest of the article called License &amp;amp; Activation Management with Volume Activation Management Tool (VAMT) on petri.</description>

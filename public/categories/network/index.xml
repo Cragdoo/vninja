@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Network on Beautiful Hugo</title>
+    <title>Network on Adventures in Hugo</title>
     <link>/categories/network/</link>
-    <description>Recent content in Network on Beautiful Hugo</description>
+    <description>Recent content in Network on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
-    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Tue, 03 May 2016 08:47:23 +0000</lastBuildDate>
     
 	<atom:link href="/categories/network/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>Top vBlog 2016</title>
       <link>/network/top-vblog-2016/</link>
       <pubDate>Tue, 03 May 2016 08:47:23 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/network/top-vblog-2016/</guid>
       <description>The top vBlog 2016 voting has opened, go forth and vote for your favourites now - There are a lot of them to choose from!</description>
     </item>
@@ -25,7 +25,7 @@
       <title>I&#39;m honored. And a Bit Scared.</title>
       <link>/network/im-honored-and-a-bit-scared/</link>
       <pubDate>Tue, 05 Apr 2016 19:13:25 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/network/im-honored-and-a-bit-scared/</guid>
       <description>Yesterday was my first real day as a_ Senior Solutions Architect_ for Proact, and today I flew to Oslo for on-boarding and some face-to-face time with my new colleagues over there. By the looks of it, there is a lot of exciting things in the pipeline, and it we land the things we have started on this should be interesting. Very interesting indeed.
 In addition to the excitement around changing employers, and roles, some other things have also happened.</description>
@@ -35,7 +35,7 @@ In addition to the excitement around changing employers, and roles, some other t
       <title>Migrating from Watchguard Firebox X to XTM Series Firewalls</title>
       <link>/network/migrating-from-watchguard-firebox-x-to-xtm-series-firewalls/</link>
       <pubDate>Fri, 07 Jan 2011 22:07:31 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/network/migrating-from-watchguard-firebox-x-to-xtm-series-firewalls/</guid>
       <description>Watchguard has recently retired their X series of firewalls and replaced them with their new lineup of XTM boxes.
 I took this opportunity to replace my X series firewalls with some from the new lineup, and found a neat way to migrate your existing configuration from old to new in a few very easy steps.
@@ -47,7 +47,7 @@ Note: _Normally I would not recommend migrating your configuration in this manne
       <title>Installing and Configuring WANem Virtual Appliance</title>
       <link>/virtualization/installing-and-configuring-wanem-virtual-appliance/</link>
       <pubDate>Wed, 29 Dec 2010 14:21:36 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/installing-and-configuring-wanem-virtual-appliance/</guid>
       <description>In a previous post, Using the WANem WAN Emulator Virtual Appliance, I&amp;rsquo;ve talked about how I&amp;rsquo;ve successfully used WANem to emulate different WAN scenarios.
 Since I work for a shipping company, the ability to emulate VSAT conditions are especially useful for testing and proof-of-concept scenarios.
@@ -59,7 +59,7 @@ Downloading WANem I have chose to use the WANem Virtual Appliance running in a v
       <title>Using the WANem WAN Emulator Virtual Appliance</title>
       <link>/network/using-the-wanem-wan-emulator-virtual-appliance/</link>
       <pubDate>Thu, 26 Aug 2010 11:38:00 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/network/using-the-wanem-wan-emulator-virtual-appliance/</guid>
       <description>During preparation and preliminary information gathering for a new internal project, I had a need to emulate various networking conditions and scenarios. More specifically I&amp;rsquo;m looking at the possibility of running the vCenter Client over high latency satellite links, with varying bandwidth availability and even packet loss scenarios.
 Obviously the best way of testing this, in a controlled environment, is to use some kind of WAN emulator that lets you control the various networking characteristics.</description>

@@ -1,914 +1,267 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title>Posts</title>
-  <meta property="og:title" content="Posts" />
-  <meta name="twitter:title" content="Posts" />
-  <meta name="author" content="Some Person"/>
-  <link href='/img/favicon.ico' rel='icon' type='image/x-icon'/>
-  <meta property="og:image" content="/img/avatar-icon.png" />
-  <meta name="twitter:image" content="/img/avatar-icon.png" />
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="@username" />
-  <meta name="twitter:creator" content="@username" />
-  <meta property="og:url" content="/posts/" />
-  <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="Beautiful Hugo" />
-
-  <meta name="generator" content="Hugo 0.40.3" />
-  <link rel="canonical" href="/posts/" />
-  <link rel="alternate" href="/posts/index.xml" type="application/rss+xml" title="Beautiful Hugo">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" href="/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
-  <link rel="stylesheet" href="/css/highlight.min.css" /><link rel="stylesheet" href="/css/codeblock.css" />
+<meta property="og:title" content="Posts" />
+<meta property="og:description" content="There is a thin line between agile and fragile" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="/posts/" />
 
 
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
+<meta property="og:updated_time" content="2014-08-12T15:03:06&#43;00:00"/>
 
 
 
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
 
-<div class="pswp__bg"></div>
 
-<div class="pswp__scroll-wrap">
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Posts"/>
+<meta name="twitter:description" content="There is a thin line between agile and fragile"/>
+<meta name="generator" content="Hugo 0.40.3" />
+
+
     
-    <div class="pswp__container">
-      <div class="pswp__item"></div>
-      <div class="pswp__item"></div>
-      <div class="pswp__item"></div>
-    </div>
-    
-    <div class="pswp__ui pswp__ui--hidden">
-    <div class="pswp__top-bar">
-      
-      <div class="pswp__counter"></div>
-      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-      <button class="pswp__button pswp__button--share" title="Share"></button>
-      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-      
-      
-      <div class="pswp__preloader">
-        <div class="pswp__preloader__icn">
-          <div class="pswp__preloader__cut">
-            <div class="pswp__preloader__donut"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-      <div class="pswp__share-tooltip"></div>
-    </div>
-    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-    </button>
-    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-    </button>
-    <div class="pswp__caption">
-      <div class="pswp__caption__center"></div>
-    </div>
-    </div>
-    </div>
-</div>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Blog",
+  "headline": "Adventures in Hugo",
+  "url" : "/posts/",
+  "author": {
+    "@type": "Person",
+    "name": "Christian Mohn"
+  },
+  "dateModified": "2014-08-12T15:03:06&#43;00:00",
+  "keywords": "awesometalks,book,hardware,homelab,howto,inthebag,microsoft,misc,network,news,os-x,rant,software,storage,virtualization,vmware,windows,workflow,2011,2014,2015,2016,2017,3par,5.5,6.0,6.5,acronis,adobe,adviceforvmworld,agile,alastair-cooke,alerting,analysis,announcement,annual,api,app-delivery,apple,applescript,appliance,architecture,audio,autolab,automation,automator,availability,award,awesome,awesometalk,aws,awsome,backup,backup-academy,backup-amp-replication,backup-amp-replication-v7,bag,barcelona,bash,best-practice,beta,bitlocker,bl460c,bladesystem,block-size,blog,bloggers,blogging,blogtober,book,boot-camp,bug,c3000,c7000,cancer,care-package,cc,certificate,certificates,certification,change,changelog,changes,charity,christian-mohn,chromecast,cisco,citrix,cloud,cloudflare,cohesity,collaboration,command-line,community,competition,conference,content-creation,contest,contest.-photo,copenhagen,daas,data-center,datastore,day-2,dell,denmark,deployment,desktop,digital-ship,disaster,disaster-recovery,dmarc,dns,docker,dockerflix,documentation,donation,doom,download,dr,dropbox,dynamic-dns,easyvnx,ed,edb-ergogroup,email,embedded-host-client,emc,encryption,epiphany,equallogic,esx,esx-3.5,esxcli,esxi,esxi-4,esxi-5,euc,event,event-id-2915,evernote,everyday,evo,evorail,evry,exchange,experiment,facelift,feature-request,featured,fibre-channel,fire,firewall,firmware,flash,flash-talk,fling,floppy,form-factor,framework,free,free-tool,free-tools,freebie,fun,fundraising,future,g8,gdpr,geektool,github,give-away,gorilla,gpmc,group-policy,group-policy-preferences,ha,hack,hands-on,hands-on-lab,hands-on-labs,happy-dance,harakiri,hardware,hardware-version,health-check,hipster-it,hol,home-lab,homebrew,homelab,homelabops,horizon,horizon-application-manager,host,host-cache,hosted-beta,howto,hp,hp-insight-control,http,hyper-converged,hyper-v,hyperconverged,hypervisor,ideas,ifttt,images,impatient,installation,integrity,intel,internationalization,inthebag,inthebag.-weekly,iomega,ipad,ix2,john-troyer,kb,kb2393802,keep-calm,keynote,keyremap4macbook.-customization,kids,knowledge-base,lab,labs,latency-sensitivity,licenses,licensing,linux,log,log-files,log-insight,mac,macos,maintenance,makyo,management,markdown,marvin,md5,meltdown,messaging,microsoft,microsoft-office,microvisor,mike-laverick,misinformation,monitoring,moref,movember,multipath,nda,neil-armstrong,nested-esxi,networking,news,nfr,nfs,ninja,node,nordic,nordic-vmug,norway,nsx,ntp,nutanix,nutjob,omnigraffle,oneliner,online-training,operations,opinion,ops,organization,os-x,oslo,p220i,packt,pandoc,password,patch,patching,pckeyboardhack,pernixdata,personal,petri,photo,photos,php,pins,plans,plugin,pocket,podcast,podcasting-for-cancer,policy-based-computing,posters,powercli,powergui,powershell,prediction,presentation,proact,productivity,proliant,proof-of-concept,proxy,psc,published,python,quote,quotes,rant,raspberry-pi,ravello,rdcman,real-world,realworld,receiver,recommended,release,remoting,review,role,royaltsx,rpi,rsync,saas,sammy-bogaert,sandisk,sccm,script,scripting,scvmm,sddc,seatrans,security,self-help,self-promotion,server,session,setup,sfp&#43;,sha1,sharing,simulation,site,site-recovery-manager,slack,slate,snapshot,snark,social,social-media,software,speaking,spectacle,spectre,speculation,sql-server-express,ssd,ssh,ssl,sso,statistics,steve-herrod,stickers,storage,storeserv,suggestion,suse,syslog,system-center,tech-conference,tech-field-day,terminal,theme,thin-client,thinapp,tips-amp-tricks,todo,todoist,togaf,tool,topology,topvblog,tpm,training,trainsignal,travel,trial,troubleshooting,tunnels,ubuntu,unconference,unsupported,update,upgrade,usb,usercon,v12n,vaio,vanguards,vblog,vcap,vcap-dca,vcap-dcd,vcdx,vcdxwannabe,vcenter,vcenter-appliance,vcenter-client,vcenter-operations,vcenter-operations-manager,vcenter-server-appliance,vcenter-update-manager,vcenter-web-client,vcli,vcloud,vcloud-air,vcp,vcsa,vdm30in30,vdr,veeam,veeam-backup-amp-replication,venting,vexpert,vflash,vflash-read-cache,vfrc,vib,video,view,vip-vcp-club,virtual-appliance,virtual-application,virtual-connect,virtualization,vkernel,vlaunchpad,vm,vma,vmfs,vmtn,vmtn-subscription,vmug,vmware,vmware-forum,vmware-photon,vmware-player,vmware-server,vmware-software-manager,vmware-studio,vmware-view,vmware-workstation,vmware.-vcl,vmworld,vmworld-2012,vmworld-fun-contest,vmworld.-rant,vmworld2012,vninja,vops,vote,voting,vpostgres,vram,vrealize-log-insight,vrealize-operations,vrli,vrops,vrtx,vsamurai,vsan,vshield,vshield-edge,vshield-manager,vsoup,vsphere,vsphere-5,vsphere-5.5,vsphere-6,vsphere-6.5,vsphere-client,vsphere-land,vsphere-replication,watchguard,waterfall,web-client,webhook,webinar,weekly,weeky,whatsup,whitepaper,window-manager,windows,windows-8,winner,winners,wordpress,work,workaround,workflow,workstation,workstation-8,wsus,xen,xvmotion,youtube,zerto,",
+  "description": "There is a thin line between agile and fragile"
+}
+</script>
 
-</head>
+
+    <link rel="canonical" href="/posts/">
+
+    <title>Adventures in Hugo</title>
+
+    <!-- combined, minified CSS -->
+    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
+
+    
+    <!-- RSS 2.0 feed -->
+    <link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="Adventures in Hugo" />
+    
+
+    
+
+    
+
+    
+
+  </head>
 
   <body>
-    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="/">Beautiful Hugo</a>
-    </div>
 
-    <div class="collapse navbar-collapse" id="main-navbar">
-      <ul class="nav navbar-nav navbar-right">
-        
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="/">Home</a>
           
-            <li>
-              <a title="Blog" href="/">Blog</a>
-            </li>
+          <a class="nav-link" href="https://example.org" title="">Link 1</a>
           
-        
-          
-            <li class="navlinks-container">
-              <a class="navlinks-parent" href="javascript:void(0)">Samples</a>
-              <div class="navlinks-children">
-                
-                  <a href="/post/2017-03-07-bigimg-sample">Big Image Sample</a>
-                
-                  <a href="/post/2017-03-05-math-sample">Math Sample</a>
-                
-                  <a href="/post/2016-03-08-code-sample">Code Sample</a>
-                
-              </div>
-            </li>
-          
-        
-          
-            <li>
-              <a title="About" href="/page/about/">About</a>
-            </li>
-          
-        
-          
-            <li>
-              <a title="Tags" href="/tags">Tags</a>
-            </li>
-          
-        
-
-        
-
-        
-      </ul>
-    </div>
-
-    <div class="avatar-container">
-      <div class="avatar-img-border">
-        
-          <a title="Beautiful Hugo" href="/">
-            <img class="avatar-img" src="/img/avatar-icon.png" alt="Beautiful Hugo" />
-          </a>
-        
+        </nav>
       </div>
     </div>
+    
 
-  </div>
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
+        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+      </div>
+    </header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/virtualization/pernixdata-vsphere-pocketbook-blog-edition/">PernixData vSphere Pocketbook Blog Edition</a></h2>
+    <p class="blog-post-meta"><time datetime="2014-08-12T15:03:06Z">Tue Aug 12, 2014</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/book" rel="tag">Book</a>, <a href="/tags/fun" rel="tag">fun</a>, <a href="/tags/pernixdata" rel="tag">PernixData</a>, <a href="/tags/vmworld" rel="tag">vmworld</a>
+
+</p>
+  </header>
+  Following the success of the first vSphere Design Pocketbook, PernixData has created a new version, this time dubbed &ldquo;Blog Edition&rdquo;. Where the first book focused on small &ldquo;tweet sized&rdquo; design tips, the new one allows for more in-depth articles, lifting the first editions 200 character limit.
+For some reason, I have been lucky enough to be selected as one of the contributors!
+You can pick up a printed copy at the PernixData Booth (1017) at VMworld US, or pre-order your electronic copy today.
+  <a href='/virtualization/pernixdata-vsphere-pocketbook-blog-edition/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/virtualization/week-virtualization/">This Week in Virtualization</a></h2>
+    <p class="blog-post-meta"><time datetime="2014-07-18T21:59:52Z">Fri Jul 18, 2014</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/audio" rel="tag">Audio</a>, <a href="/tags/podcast" rel="tag">Podcast</a>
+
+</p>
+  </header>
+  I was invited by Nick Martin and Tom Walat to join them in this pre-VMworld edition of the podcast, so if you&rsquo;re not bored reading about my Marvin speculations already, you can now listen to them as well over at This Week in Virtualizationby SearchServerVirtualization. It also covers some expectation for VMworld 2014, which is rapidly getting closer.
+  <a href='/virtualization/week-virtualization/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/vmware-2/root-invalid-memory-setting-memory-reservation-sched-mem-min-equal-memsize-memsize/">Root Cause of Invalid memory setting: memory reservation (sched.mem.min) should be equal to memsize (memsize)</a></h2>
+    <p class="blog-post-meta"><time datetime="2014-07-15T10:59:42Z">Tue Jul 15, 2014</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/vmware" rel="category tag">VMware</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/5.5" rel="tag">5.5</a>, <a href="/tags/esxi" rel="tag">ESXi</a>, <a href="/tags/latency-sensitivity" rel="tag">Latency Sensitivity</a>, <a href="/tags/troubleshooting" rel="tag">Troubleshooting</a>, <a href="/tags/vcenter" rel="tag">vCenter</a>, <a href="/tags/vm" rel="tag">VM</a>, <a href="/tags/vmware" rel="tag">VMware</a>
+
+</p>
+  </header>
+  While working on reconfiguring my home lab setup, and migrating all the vSphere resources into a single cluster I ran into a problem powering on one of the VMs which used to run on a single host. The power on operation yielded the following error message:
+Invalid memory setting: memory reservation (sched.mem.min) should be equal to memsize (memsize) [showhide type=&ldquo;errorstack&rdquo; more_text=&ldquo;Show error stack (%s More Words)&rdquo;]
+  **Task Details:**         Status:    Invalid memory setting: memory reservation (sched.
+  <a href='/vmware-2/root-invalid-memory-setting-memory-reservation-sched-mem-min-equal-memsize-memsize/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/virtualization/disaster-recovery-vmware-vsphere-replication-vcenter-site-recovery-manager-ebook-winners/">Disaster Recovery using VMware vSphere Replication and vCenter Site Recovery Manager eBook Winners</a></h2>
+    <p class="blog-post-meta"><time datetime="2014-07-07T12:47:38Z">Mon Jul 07, 2014</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
+
+
+</p>
+  </header>
+  Packt Publishing has picked two winners in the Disaster Recovery using VMware vSphere Replication and vCenter Site Recovery Manager eBook contest.
+The lucky winners are :
+Dee Abson (@deeabson) and James Kilby (@jameskilbynet). Congratulations, Packt Publishing will be in touch with you ASAP.
+  <a href='/virtualization/disaster-recovery-vmware-vsphere-replication-vcenter-site-recovery-manager-ebook-winners/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/news/win-ebook-copy-disaster-recovery-vmware-vsphere-replication-vcenter-site-recovery-manager/">Win a eBook Copy of Disaster Recovery using VMware vSphere Replication and vCenter Site Recovery Manager</a></h2>
+    <p class="blog-post-meta"><time datetime="2014-06-20T12:34:49Z">Fri Jun 20, 2014</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/news" rel="category tag">News</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/book" rel="tag">Book</a>, <a href="/tags/contest" rel="tag">contest</a>, <a href="/tags/fun" rel="tag">fun</a>, <a href="/tags/packt" rel="tag">Packt</a>, <a href="/tags/site-recovery-manager" rel="tag">Site Recovery Manager</a>, <a href="/tags/vmware" rel="tag">VMware</a>, <a href="/tags/vsphere-replication" rel="tag">vSphere Replication</a>
+
+</p>
+  </header>
+  [caption id=&ldquo;attachment_3241&rdquo; align=&ldquo;alignright&rdquo; width=&ldquo;221&rdquo;] Disaster Recovery using VMware vSphere Replication and vCenter Site Recovery Manager[/caption]
+Hot off the heals of the Veeam® Backup &amp; Replication for VMware vSphere giveaway, here is another one for you!
+Win a free eBook copy of Disaster Recovery using VMware vSphere Replication and vCenter Site Recovery Manager, just by commenting!
+For the contest I have 2 eBook copies to be given away to 2 lucky winners.
+  <a href='/news/win-ebook-copy-disaster-recovery-vmware-vsphere-replication-vcenter-site-recovery-manager/'>Read more →</a>
+</article> 
+
+
+
+
+
+<nav class="blog-pagination">
+  
+  <a class="btn btn-outline-primary" href="/posts/page/24/" rel="prev" role="button">Previous page</a>
+  <a class="btn btn-outline-primary" href="/posts/page/26/" rel="next" role="button">Next page</a>
+  
+  
+  
 </nav>
 
 
 
 
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="https://example.com">Link 1</a></li>
+      
+      <li><a href="https://example.org">Link 2</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
     
-  <header class="header-section ">
-    <div class="intro-header no-img">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <div class="page-heading">
-              <h1>Posts</h1>
-              <hr class="small">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
 
     
-  <div class="container" role="main">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        
-        <div class="posts-list">
-          
-            <article class="post-preview">
-              <a href="/virtualization/online-event-raising-the-bar-part-v/">
-                <h2 class="post-title">Online Event: Raising the Bar, Part V</h2>
-
-                
-              </a>
-
-              <p class="post-meta">
-                <span class="post-meta">
-  
-  
-  <i class="fa fa-calendar-o"></i>&nbsp;Posted on July 7, 2011
-  
-  
-  &nbsp;|&nbsp;
-  <i class="fa fa-clock-o"></i> 1 minutes (180 words)
-  
-  
-</span>
-
-
-              </p>
-              <div class="post-entry">
-                
-                  July 12, 2011 9am-Noon Pacific Time: Join this online event, and get all the details on &ldquo;the next generation of cloud infrastructure&rdquo;!
-VMware CEO Paul Maritz and CTO Steve Herrod will be presenting on the next generation of cloud infrastructure. Join us and experience how the virtualization journey is helping transform IT and ushering in the era of Cloud Computing. 9:00-9:45 Paul and Steve present - live online streaming 10:00-12:00 three tracks of deep dive breakout sessions 10:00-12:00 live Q&A with VMware cloud and virtualization experts  Register for the event now!
-                  <a href="/virtualization/online-event-raising-the-bar-part-v/" class="post-read-more">[Read More]</a>
-                
-              </div>
-
-              
-                <div class="blog-tags">
-                  
-                    <a href="//tags/event/">event</a>&nbsp;
-                  
-                    <a href="//tags/video/">video</a>&nbsp;
-                  
-                    <a href="//tags/vmware/">VMware</a>&nbsp;
-                  
-                </div>
-              
-
-            </article>
-          
-            <article class="post-preview">
-              <a href="/virtualization/setting-up-automated-esxi-deployments/">
-                <h2 class="post-title">Setting Up Automated ESXi Deployments</h2>
-
-                
-              </a>
-
-              <p class="post-meta">
-                <span class="post-meta">
-  
-  
-  <i class="fa fa-calendar-o"></i>&nbsp;Posted on July 7, 2011
-  
-  
-  &nbsp;|&nbsp;
-  <i class="fa fa-clock-o"></i> 7 minutes (1300 words)
-  
-  
-</span>
-
-
-              </p>
-              <div class="post-entry">
-                
-                  Automating ESXi installs was made much easier after the release of vSphere 4.1 where the Scripted Install feature was added, and by using VMware Auto Deploy from VMware Labs. VMware Auto Deploy requires that you have vCenter and Host Profiles in your environment, and that again requires that you have Enterprise Plus licenses in your environment.
-It is, however, possible to deploy ESXi in an automated fashion completely without vCenter and Host Profiles!
-                  <a href="/virtualization/setting-up-automated-esxi-deployments/" class="post-read-more">[Read More]</a>
-                
-              </div>
-
-              
-                <div class="blog-tags">
-                  
-                    <a href="//tags/automation/">automation</a>&nbsp;
-                  
-                    <a href="//tags/esxi/">ESXi</a>&nbsp;
-                  
-                    <a href="//tags/fun/">fun</a>&nbsp;
-                  
-                    <a href="//tags/ops/">Ops</a>&nbsp;
-                  
-                    <a href="//tags/powercli/">PowerCLI</a>&nbsp;
-                  
-                    <a href="//tags/powershell/">Powershell</a>&nbsp;
-                  
-                    <a href="//tags/realworld/">realworld</a>&nbsp;
-                  
-                    <a href="//tags/virtualization/">Virtualization</a>&nbsp;
-                  
-                    <a href="//tags/vmware/">VMware</a>&nbsp;
-                  
-                </div>
-              
-
-            </article>
-          
-            <article class="post-preview">
-              <a href="/microsoft-2/exchange-2010-sp1-and-kb2393802-or-how-to-have-an-interesting-afternoon-at-the-office/">
-                <h2 class="post-title">Exchange 2010 SP1 and KB2393802 or How to Have an Interesting Afternoon at the Office</h2>
-
-                
-              </a>
-
-              <p class="post-meta">
-                <span class="post-meta">
-  
-  
-  <i class="fa fa-calendar-o"></i>&nbsp;Posted on July 6, 2011
-  
-  
-  &nbsp;|&nbsp;
-  <i class="fa fa-clock-o"></i> 5 minutes (1015 words)
-  
-  
-</span>
-
-
-              </p>
-              <div class="post-entry">
-                
-                  Let me start this post out with a little story. I am normally a hardcore virtualization and storage guy. Sometimes my career in this sector brings me into working with stuff I haven&rsquo;t worked with before because virtualization encompasses so much. As I continue to work with other teams I learn more and more about what they do everyday. I usually find myself involved in every performance troubleshooting session and every new project these days.
-                  <a href="/microsoft-2/exchange-2010-sp1-and-kb2393802-or-how-to-have-an-interesting-afternoon-at-the-office/" class="post-read-more">[Read More]</a>
-                
-              </div>
-
-              
-                <div class="blog-tags">
-                  
-                    <a href="//tags/event-id-2915/">Event ID 2915</a>&nbsp;
-                  
-                    <a href="//tags/exchange/">Exchange</a>&nbsp;
-                  
-                    <a href="//tags/kb2393802/">KB2393802</a>&nbsp;
-                  
-                    <a href="//tags/messaging/">Messaging</a>&nbsp;
-                  
-                    <a href="//tags/microsoft/">Microsoft</a>&nbsp;
-                  
-                    <a href="//tags/ops/">Ops</a>&nbsp;
-                  
-                    <a href="//tags/realworld/">realworld</a>&nbsp;
-                  
-                    <a href="//tags/windows/">Windows</a>&nbsp;
-                  
-                </div>
-              
-
-            </article>
-          
-            <article class="post-preview">
-              <a href="/news/vexpert-2011/">
-                <h2 class="post-title">vExpert 2011</h2>
-
-                
-              </a>
-
-              <p class="post-meta">
-                <span class="post-meta">
-  
-  
-  <i class="fa fa-calendar-o"></i>&nbsp;Posted on July 1, 2011
-  
-  
-  &nbsp;|&nbsp;
-  <i class="fa fa-clock-o"></i> 0 minutes (0 words)
-  
-  
-</span>
-
-
-              </p>
-              <div class="post-entry">
-                
-                  <p><a href="http://vninja.net/wordpress/wp-content/uploads/2011/07/I-dont-get-awards-every-year....-But-when-I-do-I-get-the-best-one-vExpert.jpg"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/07/I-dont-get-awards-every-year....-But-when-I-do-I-get-the-best-one-vExpert.jpg" alt="" /></a></p>
-
-                
-              </div>
-
-              
-                <div class="blog-tags">
-                  
-                    <a href="//tags/fun/">fun</a>&nbsp;
-                  
-                </div>
-              
-
-            </article>
-          
-            <article class="post-preview">
-              <a href="/virtualization/zerto-or-what-i-learned-at-tfd-6/">
-                <h2 class="post-title">Zerto: Or What I Learned at Tech Field Day #6!</h2>
-
-                
-              </a>
-
-              <p class="post-meta">
-                <span class="post-meta">
-  
-  
-  <i class="fa fa-calendar-o"></i>&nbsp;Posted on June 27, 2011
-  
-  
-  &nbsp;|&nbsp;
-  <i class="fa fa-clock-o"></i> 3 minutes (557 words)
-  
-  
-</span>
-
-
-              </p>
-              <div class="post-entry">
-                
-                  The last day of Tech Field Day #6 myself and all the other delegates were lucky enough to get a sneak peek at stealth startup &lsquo;Zerto&rsquo;. We weren&rsquo;t allowed to talk about it until the 22nd and I know I am a little slow on the punch but I currently haven&rsquo;t seen a lot of coverage. Just for an initial disclosure statement my trip to Tech Field Day 6 was paid for by the vendors we visited, however, I am in no way obligated to write about them or publicize them in any manner.
-                  <a href="/virtualization/zerto-or-what-i-learned-at-tfd-6/" class="post-read-more">[Read More]</a>
-                
-              </div>
-
-              
-                <div class="blog-tags">
-                  
-                    <a href="//tags/disaster-recovery/">Disaster Recovery</a>&nbsp;
-                  
-                    <a href="//tags/dr/">DR</a>&nbsp;
-                  
-                    <a href="//tags/tech-field-day/">Tech Field Day</a>&nbsp;
-                  
-                    <a href="//tags/virtualization/">Virtualization</a>&nbsp;
-                  
-                    <a href="//tags/vmware/">VMware</a>&nbsp;
-                  
-                    <a href="//tags/vsphere/">vSphere</a>&nbsp;
-                  
-                    <a href="//tags/zerto/">Zerto</a>&nbsp;
-                  
-                </div>
-              
-
-            </article>
-          
-            <article class="post-preview">
-              <a href="/news/7-expert-tips-for-managing-your-remote-vsphere-infrastructure/">
-                <h2 class="post-title">7 Expert Tips for Managing Your Remote vSphere Infrastructure</h2>
-
-                
-              </a>
-
-              <p class="post-meta">
-                <span class="post-meta">
-  
-  
-  <i class="fa fa-calendar-o"></i>&nbsp;Posted on June 20, 2011
-  
-  
-  &nbsp;|&nbsp;
-  <i class="fa fa-clock-o"></i> 1 minutes (144 words)
-  
-  
-</span>
-
-
-              </p>
-              <div class="post-entry">
-                
-                  Now there is a catchy title if I ever saw one. Only &ldquo;problem&rdquo; is that it&rsquo;s a whitepaper that I have written for Veeam. In reality this is the first published article I have ever written, that I didn&rsquo;t publish on my own. I&rsquo;m excited about it, yet strangely nervous about how it will be received by the people who download it. If you happen to do so, make sure to let me know how you found it, all comments and criticism will be most appreciated.
-                  <a href="/news/7-expert-tips-for-managing-your-remote-vsphere-infrastructure/" class="post-read-more">[Read More]</a>
-                
-              </div>
-
-              
-                <div class="blog-tags">
-                  
-                    <a href="//tags/published/">published</a>&nbsp;
-                  
-                    <a href="//tags/veeam/">Veeam</a>&nbsp;
-                  
-                    <a href="//tags/virtualization/">Virtualization</a>&nbsp;
-                  
-                    <a href="//tags/vmware/">VMware</a>&nbsp;
-                  
-                    <a href="//tags/vsphere/">vSphere</a>&nbsp;
-                  
-                    <a href="//tags/whitepaper/">Whitepaper</a>&nbsp;
-                  
-                </div>
-              
-
-            </article>
-          
-            <article class="post-preview">
-              <a href="/news/multi-hypervisor-management-and-the-future/">
-                <h2 class="post-title">Multi-Hypervisor Management and the Future</h2>
-
-                
-              </a>
-
-              <p class="post-meta">
-                <span class="post-meta">
-  
-  
-  <i class="fa fa-calendar-o"></i>&nbsp;Posted on June 12, 2011
-  
-  
-  &nbsp;|&nbsp;
-  <i class="fa fa-clock-o"></i> 5 minutes (877 words)
-  
-  
-</span>
-
-
-              </p>
-              <div class="post-entry">
-                
-                  In a previous post, vCenter Integration Mantra, I made the point that vSphere vAdmins wants the 3rd party modules to integrate into the vCenter client and show their delicious addon-value there, and not in their own management interface. Give the vAdmins the info they need, where they do most, if not all their work. Open up the admin client and let us get all that juicy and fruity information we need.
-                  <a href="/news/multi-hypervisor-management-and-the-future/" class="post-read-more">[Read More]</a>
-                
-              </div>
-
-              
-                <div class="blog-tags">
-                  
-                    <a href="//tags/hyper-v/">Hyper-V</a>&nbsp;
-                  
-                    <a href="//tags/hypervisor/">hypervisor</a>&nbsp;
-                  
-                    <a href="//tags/management/">management</a>&nbsp;
-                  
-                    <a href="//tags/tech-field-day/">Tech Field Day</a>&nbsp;
-                  
-                    <a href="//tags/vcenter/">vCenter</a>&nbsp;
-                  
-                    <a href="//tags/xen/">Xen</a>&nbsp;
-                  
-                </div>
-              
-
-            </article>
-          
-            <article class="post-preview">
-              <a href="/news/vcenter-integration-mantra/">
-                <h2 class="post-title">vCenter Integration Mantra</h2>
-
-                
-              </a>
-
-              <p class="post-meta">
-                <span class="post-meta">
-  
-  
-  <i class="fa fa-calendar-o"></i>&nbsp;Posted on June 10, 2011
-  
-  
-  &nbsp;|&nbsp;
-  <i class="fa fa-clock-o"></i> 2 minutes (334 words)
-  
-  
-</span>
-
-
-              </p>
-              <div class="post-entry">
-                
-                  During Tech Field Day #6 in Boston one particular general feature request has become increasingly prominent;
-Can we have it inside the vCenter client?
-In short, what we want is for all those great third party vendors like VKernel, Solarwinds and others to be able to put their feature addons directly into the vCenter client. Currently most third party apps &ldquo;integrate&rdquo; by offering a new tab where you can access it, but I would love to see that being expanded even further.
-                  <a href="/news/vcenter-integration-mantra/" class="post-read-more">[Read More]</a>
-                
-              </div>
-
-              
-                <div class="blog-tags">
-                  
-                    <a href="//tags/ops/">Ops</a>&nbsp;
-                  
-                    <a href="//tags/realworld/">realworld</a>&nbsp;
-                  
-                    <a href="//tags/tech-field-day/">Tech Field Day</a>&nbsp;
-                  
-                    <a href="//tags/vcenter/">vCenter</a>&nbsp;
-                  
-                    <a href="//tags/vmware/">VMware</a>&nbsp;
-                  
-                    <a href="//tags/vsphere/">vSphere</a>&nbsp;
-                  
-                </div>
-              
-
-            </article>
-          
-            <article class="post-preview">
-              <a href="/news/tech-field-day-6-arriving-in-boston/">
-                <h2 class="post-title">Tech Field Day #6 - Arriving in Boston</h2>
-
-                
-              </a>
-
-              <p class="post-meta">
-                <span class="post-meta">
-  
-  
-  <i class="fa fa-calendar-o"></i>&nbsp;Posted on June 8, 2011
-  
-  
-  &nbsp;|&nbsp;
-  <i class="fa fa-clock-o"></i> 2 minutes (364 words)
-  
-  
-</span>
-
-
-              </p>
-              <div class="post-entry">
-                
-                  Yesterday I arrived at Logan International for Tech Field Day #6 in the greater Boston area. Christopher Wells had already arrived earlier in the day, and I was lucky enough to be picked up by Stephen Foskett at the airport and chauffeured to the Sheraton Framingham Hotel and Conference center.
-The travel itself was pretty uneventful, the only trouble I had was that when I landed at Schipol for transfer to the US flight, my boarding pass was nowhere to be found, and I don&rsquo;t think I even received it when I checked in at Bergen Airport Flesland.
-                  <a href="/news/tech-field-day-6-arriving-in-boston/" class="post-read-more">[Read More]</a>
-                
-              </div>
-
-              
-                <div class="blog-tags">
-                  
-                    <a href="//tags/conference/">conference</a>&nbsp;
-                  
-                    <a href="//tags/fun/">fun</a>&nbsp;
-                  
-                    <a href="//tags/tech-field-day/">Tech Field Day</a>&nbsp;
-                  
-                    <a href="//tags/vninja/">vNinja</a>&nbsp;
-                  
-                    <a href="//tags/vsamurai/">vSamurai</a>&nbsp;
-                  
-                </div>
-              
-
-            </article>
-          
-            <article class="post-preview">
-              <a href="/news/vsoup-and-tech-field-day-6/">
-                <h2 class="post-title">vSoup and Tech Field Day #6</h2>
-
-                
-              </a>
-
-              <p class="post-meta">
-                <span class="post-meta">
-  
-  
-  <i class="fa fa-calendar-o"></i>&nbsp;Posted on June 1, 2011
-  
-  
-  &nbsp;|&nbsp;
-  <i class="fa fa-clock-o"></i> 2 minutes (234 words)
-  
-  
-</span>
-
-
-              </p>
-              <div class="post-entry">
-                
-                  vSoup Episode #10 is finally released, this time with Stuart Radnidge (blog) as our guest. This episode is a bit unusual, as we didn&rsquo;t really have a set agenda before starting the recording, so we jump around all of the place covering a pretty wide area of topics. Be sure to check it out!
-Tech Field Day #6 is approaching really fast, in fact it&rsquo;s only a week away now! I will leave for Boston on Tuesday, June 7, for what looks to be a very, very busy but fun couple of days.
-                  <a href="/news/vsoup-and-tech-field-day-6/" class="post-read-more">[Read More]</a>
-                
-              </div>
-
-              
-                <div class="blog-tags">
-                  
-                    <a href="//tags/conference/">conference</a>&nbsp;
-                  
-                    <a href="//tags/tech-field-day/">Tech Field Day</a>&nbsp;
-                  
-                    <a href="//tags/vsoup/">vSoup</a>&nbsp;
-                  
-                </div>
-              
-
-            </article>
-          
-        </div>
-        
-          <ul class="pager main-pager">
-            
-              <li class="previous">
-                <a href="/posts/page/24/">&larr; Newer Posts</a>
-              </li>
-            
-            
-              <li class="next">
-                <a href="/posts/page/26/">Older Posts &rarr;</a>
-              </li>
-            
-          </ul>
-        
-      </div>
-    </div>
-  </div>
-
-    <footer>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        <ul class="list-inline text-center footer-links">
-          
-              <li>
-                <a href="mailto:youremail@domain.com" title="Email me">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.facebook.com/username" title="Facebook">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://plus.google.com/&#43;username" title="Google&#43;">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://github.com/username" title="GitHub">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://gitlab.com/username" title="GitLab">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-gitlab fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://bitbucket.org/username" title="Bitbucket">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-bitbucket fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://twitter.com/username" title="Twitter">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://reddit.com/u/username" title="Reddit">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-reddit-alien fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://linkedin.com/in/username" title="LinkedIn">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.xing.com/profile/username" title="Xing">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-xing fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://stackoverflow.com/users/XXXXXXX/username" title="StackOverflow">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-stack-overflow fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.snapchat.com/add/username" title="Snapchat">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-snapchat-ghost fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.instagram.com/username" title="Instagram">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.youtube.com/user/username" title="Youtube">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://soundcloud.com/username" title="SoundCloud">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-soundcloud fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://open.spotify.com/user/username" title="Spotify">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-spotify fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://username.bandcamp.com/" title="Bandcamp">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-bandcamp fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://itch.io/profile/username" title="Itch.io">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-gamepad fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://vk.com/username" title="VK">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-vk fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://paypal.me/username" title="PayPal">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-paypal fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://telegram.me/username" title="Telegram">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-telegram fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-          
-          <li>
-            
-            <a href="/posts/index.xml" title="RSS">
-            
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          
-        </ul>
-        <p class="credits copyright text-muted">
-          
-            
-              <a href="yourwebsite.com">Some Person</a>
-            
-          
-
-          &nbsp;&bull;&nbsp;
-          2018
-
-          
-            &nbsp;&bull;&nbsp;
-            <a href="/">Beautiful Hugo</a>
-          
-        </p>
-        
-        <p class="credits theme-by text-muted">
-          <a href="http://gohugo.io">Hugo v0.40.3</a> powered &nbsp;&bull;&nbsp; Theme by <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
-          
-        </p>
-      </div>
-    </div>
-  </div>
-</footer>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/contrib/auto-render.min.js" integrity="sha384-dq1/gEHSxPZQ7DdrM82ID4YVol9BYyU7GbWlIwnwyPzotpoc57wDw/guX8EaYGPx" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<script src="/js/main.js"></script>
-<script src="/js/highlight.min.js"></script>
-<script> hljs.initHighlightingOnLoad(); </script>
-<script> $(document).ready(function() {$("pre.chroma").css("padding","0");}); </script><script> renderMathInElement(document.body); </script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script>
-<script src="/js/load-photoswipe.js"></script>
-
-
-
-
-
+    <footer class="blog-footer">
+      <p>
+      
+      &copy; Christian Mohn
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
 
   </body>
-</html>
 
+</html>

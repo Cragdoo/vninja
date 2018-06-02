@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Statistics on Beautiful Hugo</title>
+    <title>Statistics on Adventures in Hugo</title>
     <link>/tags/statistics/</link>
-    <description>Recent content in Statistics on Beautiful Hugo</description>
+    <description>Recent content in Statistics on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
-    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Fri, 12 Apr 2013 23:09:20 +0000</lastBuildDate>
     
 	<atom:link href="/tags/statistics/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>It`s Not Your Average Data it`s vOpenData</title>
       <link>/virtualization/its-average-data-its-vopendata/</link>
       <pubDate>Fri, 12 Apr 2013 23:09:20 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/its-average-data-its-vopendata/</guid>
       <description>So, what is the average airspeed velocity of an unladen swallow?
 As we all (should) know, that is very much a trick question.
@@ -28,7 +28,7 @@ I wonder what the avg disk size is for your virtual machine these days. I do mos
       <title>Goodbye 2011, you were great</title>
       <link>/news/goodbye-2011-you-were-great/</link>
       <pubDate>Fri, 30 Dec 2011 18:40:41 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/news/goodbye-2011-you-were-great/</guid>
       <description>Yes, this is YAEotYP, so if you&amp;rsquo;ve already read tons of them I apologize.
 2011 - My personal view 2011 has been a steamroller of a year.The vSoup Virtualization Podcast got aired the first time, and we&amp;rsquo;ve recorded and published 19 full episodes in the inaugural year. I was awarded the vExpert title for the first time, and even got invited to Tech Field Day #6 in Boston.

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Policy Based Computing on Beautiful Hugo</title>
+    <title>Policy Based Computing on Adventures in Hugo</title>
     <link>/tags/policy-based-computing/</link>
-    <description>Recent content in Policy Based Computing on Beautiful Hugo</description>
+    <description>Recent content in Policy Based Computing on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
-    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Tue, 18 Feb 2014 16:16:28 +0000</lastBuildDate>
     
 	<atom:link href="/tags/policy-based-computing/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>Automatically Name Datastores in vSphere?</title>
       <link>/vmware-2/automatically-datastores-vsphere/</link>
       <pubDate>Tue, 18 Feb 2014 16:16:28 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/vmware-2/automatically-datastores-vsphere/</guid>
       <description>William Lam posted &amp;ldquo;Why you should rename the default VSAN Datastore name&amp;rdquo; where he outlines why the default name for VSAN data stores should be changed. Of course, I completely agree with his views on this; Leaving it at the default might cause confusion down the line.
 At the end of the post, William asks the following:

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Documentation on Beautiful Hugo</title>
+    <title>Documentation on Adventures in Hugo</title>
     <link>/tags/documentation/</link>
-    <description>Recent content in Documentation on Beautiful Hugo</description>
+    <description>Recent content in Documentation on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
-    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Mon, 27 Dec 2010 22:12:27 +0000</lastBuildDate>
     
 	<atom:link href="/tags/documentation/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>vNinja used by VMware</title>
       <link>/news/vninja-used-by-vmware/</link>
       <pubDate>Mon, 27 Dec 2010 22:12:27 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/news/vninja-used-by-vmware/</guid>
       <description>Thanks to Maish Saidel-Keesing, vExpert 2010 and blogger over at Technodrone I have been made aware that VMware has used one of my posts here on vNinja in their internal presentation material.
 The material in question is vSphere 4.1 to 4.0 differences (page 44 and 45 in vSphere 4.1 Deep Dive - Part 1 - v6.pptx), where my post about Using USB Pass-through in vSphere 4.1 is quoted and my screenshots used.</description>
@@ -26,7 +26,7 @@ The material in question is vSphere 4.1 to 4.0 differences (page 44 and 45 in vS
       <title>vCenter Server 4.1 Performance and Best Practices</title>
       <link>/virtualization/vcenter-server-4-1-performance-and-best-practices/</link>
       <pubDate>Tue, 24 Aug 2010 20:06:16 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/vcenter-server-4-1-performance-and-best-practices/</guid>
       <description>VMware has published a new whitepaper called VMware vCenter Server Performance and Best Practices.
 This is a must read if you manage a vCenter 4.1 installation, or are currently planning your upgrade.

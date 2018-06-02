@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sddc on Beautiful Hugo</title>
+    <title>Sddc on Adventures in Hugo</title>
     <link>/tags/sddc/</link>
-    <description>Recent content in Sddc on Beautiful Hugo</description>
+    <description>Recent content in Sddc on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
-    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Wed, 20 Aug 2014 13:05:41 +0000</lastBuildDate>
     
 	<atom:link href="/tags/sddc/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>Marvin Related VMworld Sessions?</title>
       <link>/vmware-2/marvin-related-vmworld-sessions/</link>
       <pubDate>Wed, 20 Aug 2014 13:05:41 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/vmware-2/marvin-related-vmworld-sessions/</guid>
       <description>It&amp;rsquo;s been a while since I tried speculating on the soon-to-be-announced VMware Marvin project, but some very recent VMworld US 2014 session additions look really interesting in that regard:
 SDDC1818 - VMware Customers Share Experiences and Requirements for Hyper-Converged SDDC2095 - VMware and Hyper-Converged Infrastructure SDDC1767 - SDDC at Scale with VMware Hyper-Converged Infrastructure: Deeper Dive SDDC3245-S - Software-Defined Data Center through Hyper-Converged Infrastructure
@@ -27,7 +27,7 @@ If you look at 1767 specifically, since the other sessions are still very light
       <title>Some more Marvin Speculation</title>
       <link>/vmware-2/marvin-speculation/</link>
       <pubDate>Sun, 08 Jun 2014 22:24:23 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/vmware-2/marvin-speculation/</guid>
       <description>[caption id=&amp;ldquo;attachment_3213&amp;rdquo; align=&amp;ldquo;alignright&amp;rdquo; width=&amp;ldquo;121&amp;rdquo;]Marvin the Paranoid Android (HHGG)[/caption]
 After close to a full day of Twitter speculations and discussions on what Marvin really is, some thoughts kept stuck with me, and this is my attempt at articulating what I think VMware might be up to.
@@ -38,7 +38,7 @@ _Please note that I have no real knowledge of the status of the project, nor if 
       <title>VSAN - The Unspoken Future</title>
       <link>/virtualization/vsan-unspoken-future/</link>
       <pubDate>Mon, 17 Mar 2014 22:41:34 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/vsan-unspoken-future/</guid>
       <description>This rather tongue-in-cheek title, is a play on Maish recent VSAN - The Unspoken Truth post where he highlights what he thinks is one of the hidden &amp;ldquo;problems&amp;rdquo; with the current version of VSAN is it&amp;rsquo;s inherent non-blade compatibility and current lack of &amp;ldquo;rack based VSAN ready nodes&amp;rdquo;.
 Of course, this is a reality; If you base your current infrastructure on blade servers, VSAN probably isn&amp;rsquo;t a good match as it stands today.</description>

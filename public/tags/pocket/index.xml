@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Pocket on Beautiful Hugo</title>
+    <title>Pocket on Adventures in Hugo</title>
     <link>/tags/pocket/</link>
-    <description>Recent content in Pocket on Beautiful Hugo</description>
+    <description>Recent content in Pocket on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
-    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Tue, 24 Oct 2017 13:47:35 +0000</lastBuildDate>
     
 	<atom:link href="/tags/pocket/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>Integrating Pocket with Todoist via IFTTT</title>
       <link>/workflow/integrating-pocket-with-todoist-via-ifttt/</link>
       <pubDate>Tue, 24 Oct 2017 13:47:35 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/workflow/integrating-pocket-with-todoist-via-ifttt/</guid>
       <description>Myles Gray asked me how I integrate Pocket with Todoist, after my How I use Todoist post, and the answer is very simple: IFTTT. If-This-Then-That lets you connect services, and create rules (or applets) that trigger based on events in those services, luckily both Todoist and Pocket are supported.
 Now, there is a bit of overlap between how I use Pocket and Todoist, but I mainly use Pocket to keep track of links I want to either read later, or use as basis for blog posts.</description>

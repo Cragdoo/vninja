@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Feature Request on Beautiful Hugo</title>
+    <title>Feature Request on Adventures in Hugo</title>
     <link>/tags/feature-request/</link>
-    <description>Recent content in Feature Request on Beautiful Hugo</description>
+    <description>Recent content in Feature Request on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
-    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Fri, 04 Nov 2011 22:06:32 +0000</lastBuildDate>
     
 	<atom:link href="/tags/feature-request/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>Why Can&#39;t I Syslog my VMware ESXi Installation?</title>
       <link>/virtualization/why-cant-i-syslog-my-vmware-esxi-installation/</link>
       <pubDate>Fri, 04 Nov 2011 22:06:32 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/why-cant-i-syslog-my-vmware-esxi-installation/</guid>
       <description>Juan Manuel Rey&amp;rsquo;s post Monitor ESX 4.x to ESXi 5.0 migration process show how you can watch the progress of an ESX 4 to ESXi 5 upgrade procedure, by looking at the live logs.
 While this is very useful, and in many cases a real learning experience, it got me thinking that these logs should be available remotely as well. Since ESXi supports, and actively encourages, the use of an external Syslog service for log file safekeeping and monitoring, shouldn&amp;rsquo;t the installation logs for ESXi also be logged externally if configured?</description>

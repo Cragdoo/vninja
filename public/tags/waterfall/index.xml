@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Waterfall on Beautiful Hugo</title>
+    <title>Waterfall on Adventures in Hugo</title>
     <link>/tags/waterfall/</link>
-    <description>Recent content in Waterfall on Beautiful Hugo</description>
+    <description>Recent content in Waterfall on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
-    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Mon, 02 Feb 2015 22:36:30 +0000</lastBuildDate>
     
 	<atom:link href="/tags/waterfall/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>A great disturbance in the Force</title>
       <link>/virtualization/great-disturbance-force/</link>
       <pubDate>Mon, 02 Feb 2015 22:36:30 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/great-disturbance-force/</guid>
       <description>So, the cat formerly known as vSphere.next is finally out of it&amp;rsquo;s rather big bag, and vSphere 6.0 has been officially announced and will be available some time in Q1 (no date has been announced yet). There is enough of posts going into details on what is new and what has been announced, so I won&amp;rsquo;t be going over that right now. If you want to hear me talk about vSphere 6.</description>
     </item>

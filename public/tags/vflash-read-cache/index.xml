@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vflash Read Cache on Beautiful Hugo</title>
+    <title>Vflash Read Cache on Adventures in Hugo</title>
     <link>/tags/vflash-read-cache/</link>
-    <description>Recent content in Vflash Read Cache on Beautiful Hugo</description>
+    <description>Recent content in Vflash Read Cache on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
-    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Sun, 19 Jan 2014 19:19:02 +0000</lastBuildDate>
     
 	<atom:link href="/tags/vflash-read-cache/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>Fixing &#34;Could not create vFlash cache&#34; error when powering on a VM</title>
       <link>/virtualization/fixing-could-create-vflash-cache-error-powering-vm/</link>
       <pubDate>Sun, 19 Jan 2014 19:19:02 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/fixing-could-create-vflash-cache-error-powering-vm/</guid>
       <description>During some way overdue housekeeping in my HP Microserver-based &amp;ldquo;Homelab&amp;rdquo; today, I ran into a rather annoying issue that prevented me from starting one of my more important VMs; namely my home Domain Controller.
 In short, I removed an old SSD drive that I&amp;rsquo;ve used for vFlash Read Cache (vFRC) testing and installed a new 1TB drive instead. Since I have a rather beefy work lab now, I need space more than speed at home, so this seemed like a good idea at the time.</description>

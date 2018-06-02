@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Winner on Beautiful Hugo</title>
+    <title>Winner on Adventures in Hugo</title>
     <link>/tags/winner/</link>
-    <description>Recent content in Winner on Beautiful Hugo</description>
+    <description>Recent content in Winner on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
-    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Thu, 08 May 2014 11:21:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/winner/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>And the Chromecast Winner is ...</title>
       <link>/virtualization/chromecast-winner/</link>
       <pubDate>Thu, 08 May 2014 11:21:00 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/chromecast-winner/</guid>
       <description>A little over a month ago I announced the Want to Win a Google Chromecast contest and finally the winner has been selected. Since there was a grand total of 5 submissions, and one of them was immediately disqualified for a distinct lack of Ninja-presence, I decided to just do a random draw.
 The submitted photos were numbered by the order they appeared in on my post as I took this screenshot.</description>

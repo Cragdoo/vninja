@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Give Away on Beautiful Hugo</title>
+    <title>Give Away on Adventures in Hugo</title>
     <link>/tags/give-away/</link>
-    <description>Recent content in Give Away on Beautiful Hugo</description>
+    <description>Recent content in Give Away on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
-    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Tue, 26 Feb 2013 16:14:48 +0000</lastBuildDate>
     
 	<atom:link href="/tags/give-away/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>Want a Free Pass to TechEd 2013?</title>
       <link>/news/free-pass-teched-2013/</link>
       <pubDate>Tue, 26 Feb 2013 16:14:48 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/news/free-pass-teched-2013/</guid>
       <description>Our sponsor Veeam is giving away a free pass to TechEd 2013 in this months giveaway.
 Register now to be entered into the draw before March 18th when the winner will be announced.</description>

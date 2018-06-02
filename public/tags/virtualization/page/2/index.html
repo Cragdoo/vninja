@@ -1,948 +1,252 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title>Virtualization</title>
-  <meta property="og:title" content="Virtualization" />
-  <meta name="twitter:title" content="Virtualization" />
-  <meta name="author" content="Some Person"/>
-  <link href='/img/favicon.ico' rel='icon' type='image/x-icon'/>
-  <meta property="og:image" content="/img/avatar-icon.png" />
-  <meta name="twitter:image" content="/img/avatar-icon.png" />
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="@username" />
-  <meta name="twitter:creator" content="@username" />
-  <meta property="og:url" content="/tags/virtualization/" />
-  <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="Beautiful Hugo" />
-
-  <meta name="generator" content="Hugo 0.40.3" />
-  <link rel="canonical" href="/tags/virtualization/" />
-  <link rel="alternate" href="/tags/virtualization/index.xml" type="application/rss+xml" title="Beautiful Hugo">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" href="/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
-  <link rel="stylesheet" href="/css/highlight.min.css" /><link rel="stylesheet" href="/css/codeblock.css" />
+<meta property="og:title" content="Virtualization" />
+<meta property="og:description" content="There is a thin line between agile and fragile" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="/tags/virtualization/" />
 
 
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
+<meta property="og:updated_time" content="2013-03-27T08:50:29&#43;00:00"/>
 
 
 
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
 
-<div class="pswp__bg"></div>
 
-<div class="pswp__scroll-wrap">
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Virtualization"/>
+<meta name="twitter:description" content="There is a thin line between agile and fragile"/>
+<meta name="generator" content="Hugo 0.40.3" />
+
+
     
-    <div class="pswp__container">
-      <div class="pswp__item"></div>
-      <div class="pswp__item"></div>
-      <div class="pswp__item"></div>
-    </div>
+      
     
-    <div class="pswp__ui pswp__ui--hidden">
-    <div class="pswp__top-bar">
-      
-      <div class="pswp__counter"></div>
-      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-      <button class="pswp__button pswp__button--share" title="Share"></button>
-      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-      
-      
-      <div class="pswp__preloader">
-        <div class="pswp__preloader__icn">
-          <div class="pswp__preloader__cut">
-            <div class="pswp__preloader__donut"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-      <div class="pswp__share-tooltip"></div>
-    </div>
-    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-    </button>
-    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-    </button>
-    <div class="pswp__caption">
-      <div class="pswp__caption__center"></div>
-    </div>
-    </div>
-    </div>
-</div>
 
-</head>
+    <link rel="canonical" href="/tags/virtualization/">
+
+    <title>Adventures in Hugo</title>
+
+    <!-- combined, minified CSS -->
+    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
+
+    
+    <!-- RSS 2.0 feed -->
+    <link href="/tags/virtualization/index.xml" rel="alternate" type="application/rss+xml" title="Adventures in Hugo" />
+    
+
+    
+
+    
+
+    
+
+  </head>
 
   <body>
-    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="/">Beautiful Hugo</a>
-    </div>
 
-    <div class="collapse navbar-collapse" id="main-navbar">
-      <ul class="nav navbar-nav navbar-right">
-        
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="/">Home</a>
           
-            <li>
-              <a title="Blog" href="/">Blog</a>
-            </li>
+          <a class="nav-link" href="https://example.org" title="">Link 1</a>
           
-        
-          
-            <li class="navlinks-container">
-              <a class="navlinks-parent" href="javascript:void(0)">Samples</a>
-              <div class="navlinks-children">
-                
-                  <a href="/post/2017-03-07-bigimg-sample">Big Image Sample</a>
-                
-                  <a href="/post/2017-03-05-math-sample">Math Sample</a>
-                
-                  <a href="/post/2016-03-08-code-sample">Code Sample</a>
-                
-              </div>
-            </li>
-          
-        
-          
-            <li>
-              <a title="About" href="/page/about/">About</a>
-            </li>
-          
-        
-          
-            <li>
-              <a title="Tags" href="/tags">Tags</a>
-            </li>
-          
-        
-
-        
-
-        
-      </ul>
-    </div>
-
-    <div class="avatar-container">
-      <div class="avatar-img-border">
-        
-          <a title="Beautiful Hugo" href="/">
-            <img class="avatar-img" src="/img/avatar-icon.png" alt="Beautiful Hugo" />
-          </a>
-        
+        </nav>
       </div>
     </div>
+    
 
-  </div>
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
+        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+      </div>
+    </header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/vmware-2/brilliant-idea-vmware-hosted-beta/">Brilliant idea: VMware Hosted Beta</a></h2>
+    <p class="blog-post-meta"><time datetime="2013-03-27T08:50:29Z">Wed Mar 27, 2013</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/vmware" rel="category tag">VMware</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/beta" rel="tag">Beta</a>, <a href="/tags/hands-on-labs" rel="tag">Hands-on Labs</a>, <a href="/tags/hol" rel="tag">HoL</a>, <a href="/tags/hosted-beta" rel="tag">Hosted Beta</a>, <a href="/tags/labs" rel="tag">labs</a>, <a href="/tags/virtualization" rel="tag">Virtualization</a>, <a href="/tags/vmware" rel="tag">VMware</a>
+
+</p>
+  </header>
+  Duncan Epping rather unceremoniously published a blog post &ldquo;New Beta Program offering: VMware Hosted Beta&rdquo; yesterday, outlining the availability of the new hosted beta offering that companions some of the current VMware beta programs.
+_Due to the very NDA nature of the beta programs, I can´t really go into details on what is currently offered, but what I can say is this: Well done VMware!_
+The VMware Hosted Beta runs on the same engine that runs the VMware Hands on Labs Online – Beta, but with a little added twist.
+  <a href='/vmware-2/brilliant-idea-vmware-hosted-beta/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/vmware-2/purging-vcenter-operations-manager-5-x-database/">Purging the vCenter Operations Manager 5.x Database</a></h2>
+    <p class="blog-post-meta"><time datetime="2013-02-05T12:26:26Z">Tue Feb 05, 2013</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/vmware" rel="category tag">VMware</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/vcenter" rel="tag">vCenter</a>, <a href="/tags/vcenter-operations-manager" rel="tag">vCenter Operations Manager</a>, <a href="/tags/virtualization" rel="tag">Virtualization</a>, <a href="/tags/vmware" rel="tag">VMware</a>
+
+</p>
+  </header>
+  A client of mine recently had their vCenter 5.0 appliance replaced with a new vCenter 5.1 appliance, something vCenter Operations Manager did not enjoy. In this case the original vCenter 5.0 Appliance was turned shut down, a new 5.1 Appliance deployed, with the same IP as the old one, and then configured. Naturally the existing hosts were added to the fresh vCenter, clusters recreated and in general everything was reconfigured.
+  <a href='/vmware-2/purging-vcenter-operations-manager-5-x-database/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/vmware-2/vcenter-operations-manager-vcenter-deployment-dependency/">vCenter Operations Manager and vCenter Deployment Dependency</a></h2>
+    <p class="blog-post-meta"><time datetime="2013-01-16T21:59:07Z">Wed Jan 16, 2013</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/vmware" rel="category tag">VMware</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/vcenter" rel="tag">vCenter</a>, <a href="/tags/vcenter-operations-manager" rel="tag">vCenter Operations Manager</a>, <a href="/tags/virtualization" rel="tag">Virtualization</a>, <a href="/tags/vmware" rel="tag">VMware</a>, <a href="/tags/vsphere" rel="tag">vSphere</a>, <a href="/tags/workaround" rel="tag">workaround</a>
+
+</p>
+  </header>
+  In order to be able to deploy vCenter Operations Manager, the ESXi host it is deployed to needs to be managed by a vCenter. At first glance, that seems like a fair and pretty straight forward requirement, right? But, is it?
+While I can see the need for a vCenter in the environment that vCenter Operations Manager is supposed to monitor, I don´t understand why the host you want to deploy the vApp on has to be managed by a vCenter instance as well?
+  <a href='/vmware-2/vcenter-operations-manager-vcenter-deployment-dependency/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/virtualization/dell-vkernel-vops-server-explorer-6-3-released/">Dell (VKernel) vOPS Server Explorer 6.3 Released</a></h2>
+    <p class="blog-post-meta"><time datetime="2013-01-14T23:53:50Z">Mon Jan 14, 2013</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/dell" rel="tag">Dell</a>, <a href="/tags/free-tool" rel="tag">Free Tool</a>, <a href="/tags/monitoring" rel="tag">Monitoring</a>, <a href="/tags/release" rel="tag">Release</a>, <a href="/tags/virtualization" rel="tag">Virtualization</a>, <a href="/tags/vkernel" rel="tag">VKernel</a>, <a href="/tags/vops" rel="tag">vOPS</a>
+
+</p>
+  </header>
+  [caption id=&ldquo;attachment_2341&rdquo; align=&ldquo;alignright&rdquo; width=&ldquo;300&rdquo;] vOPS 6.3 Environment Explorer[/caption]
+Yesterday fellow vExpert Mattias Sundling gave me a little pre-release briefing of the new Dell/VKernel vOPS Server Explorer 6.3 release.
+While I don´t normally do press release posts like these, I´m willing to make an exception in this case.
+Not only is vOPS Server Explorer 6.3 available in a free version, with the familiar tools from previous versions, the new release also comes armed with a couple of new interesting tools in the suite:
+  <a href='/virtualization/dell-vkernel-vops-server-explorer-6-3-released/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/virtualization/exporting-vcenter-events-powercli/">Exporting vCenter Events with PowerCLI</a></h2>
+    <p class="blog-post-meta"><time datetime="2012-11-30T09:12:50Z">Fri Nov 30, 2012</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/automation" rel="tag">automation</a>, <a href="/tags/esxi" rel="tag">ESXi</a>, <a href="/tags/oneliner" rel="tag">Oneliner</a>, <a href="/tags/powercli" rel="tag">PowerCLI</a>, <a href="/tags/powershell" rel="tag">Powershell</a>, <a href="/tags/realworld" rel="tag">realworld</a>, <a href="/tags/vcenter" rel="tag">vCenter</a>, <a href="/tags/virtualization" rel="tag">Virtualization</a>, <a href="/tags/vsphere" rel="tag">vSphere</a>, <a href="/tags/vsphere-5" rel="tag">vSphere 5</a>, <a href="/tags/vsphere-client" rel="tag">vSphere Client</a>
+
+</p>
+  </header>
+  One of my clients has recently been having issues with their storage solution, and wanted to export the events from vCenter that show storage performance degradation, to aid in troubleshooting with the vendor.
+For some reason, and I have yet to confirm that this is a bug with the vCenter 5.0 appliance or the vCenter Desktop Client, when an event export is done, the storage related events are not exported with the rest of the events.
+  <a href='/virtualization/exporting-vcenter-events-powercli/'>Read more →</a>
+</article> 
+
+
+
+
+
+<nav class="blog-pagination">
+  
+  <a class="btn btn-outline-primary" href="/tags/virtualization/" rel="prev" role="button">Previous page</a>
+  <a class="btn btn-outline-primary" href="/tags/virtualization/page/3/" rel="next" role="button">Next page</a>
+  
+  
+  
 </nav>
 
 
 
 
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="https://example.com">Link 1</a></li>
+      
+      <li><a href="https://example.org">Link 2</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
     
-  <header class="header-section ">
-    <div class="intro-header no-img">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <div class="page-heading">
-              <h1>#Virtualization</h1>
-              <hr class="small">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
 
     
-  <div class="container" role="main">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        
-        <div class="posts-list">
-          
-            <article class="post-preview">
-              <a href="/virtualization/shanghai-problem/">
-                <h2 class="post-title">Shanghai...  we have a problem...</h2>
-
-                
-              </a>
-
-              <p class="post-meta">
-                <span class="post-meta">
-  
-  
-  <i class="fa fa-calendar-o"></i>&nbsp;Posted on August 20, 2012
-  
-  
-  &nbsp;|&nbsp;
-  <i class="fa fa-clock-o"></i> 3 minutes (534 words)
-  
-  
-</span>
-
-
-              </p>
-              <div class="post-entry">
-                
-                  My Saturday morning started the same as any other. I checked my emails and my tweets, started a coffee, walked my dog and got into the shower. My iPhone buzzing on the sink caught my attention a few minutes into it. Covered in soap and the rest censored for the public here I answered the call. Without getting into too many details of my organization - my bosses-bossess-boss contacted me reporting a fire in one of our server rooms in Shanghai China.
-                  <a href="/virtualization/shanghai-problem/" class="post-read-more">[Read More]</a>
-                
-              </div>
-
-              
-                <div class="blog-tags">
-                  
-                    <a href="//tags/disaster/">Disaster</a>&nbsp;
-                  
-                    <a href="//tags/fire/">Fire</a>&nbsp;
-                  
-                    <a href="//tags/virtualization/">Virtualization</a>&nbsp;
-                  
-                </div>
-              
-
-            </article>
-          
-            <article class="post-preview">
-              <a href="/virtualization/building-end-user-computing-solutions-vmware-view-book/">
-                <h2 class="post-title">Building End-User Computing Solutions with VMware View Book Available</h2>
-
-                
-              </a>
-
-              <p class="post-meta">
-                <span class="post-meta">
-  
-  
-  <i class="fa fa-calendar-o"></i>&nbsp;Posted on August 3, 2012
-  
-  
-  &nbsp;|&nbsp;
-  <i class="fa fa-clock-o"></i> 2 minutes (259 words)
-  
-  
-</span>
-
-
-              </p>
-              <div class="post-entry">
-                
-                  Mike Laverick and Barry Coombs has released their new book, elegantly titled &ldquo;Building End-User Computing Solutions with VMware View&rdquo;.
-Not only is this a great book, it is something that every existing and potential VMware View (and related technologies in the EUC area) administrator should add to their (digital) bookshelves.
-I´ll let the authors themselves describe it:
-This book is all about VMware View 5.1 and ThinApp 4.7.2 administration - and it takes in a wide scope of complementary technologies from the likes of Teradici, BitDefender and F5 Networks.
-                  <a href="/virtualization/building-end-user-computing-solutions-vmware-view-book/" class="post-read-more">[Read More]</a>
-                
-              </div>
-
-              
-                <div class="blog-tags">
-                  
-                    <a href="//tags/book/">Book</a>&nbsp;
-                  
-                    <a href="//tags/euc/">EUC</a>&nbsp;
-                  
-                    <a href="//tags/horizon/">Horizon</a>&nbsp;
-                  
-                    <a href="//tags/thinapp/">ThinApp</a>&nbsp;
-                  
-                    <a href="//tags/view/">View</a>&nbsp;
-                  
-                    <a href="//tags/virtualization/">Virtualization</a>&nbsp;
-                  
-                    <a href="//tags/vmware/">VMware</a>&nbsp;
-                  
-                    <a href="//tags/vmware-view/">VMware View</a>&nbsp;
-                  
-                </div>
-              
-
-            </article>
-          
-            <article class="post-preview">
-              <a href="/news/vote-top-vmware-virtualization-blogs/">
-                <h2 class="post-title">Vote for the Top VMware &amp; Virtualization Blogs </h2>
-
-                
-              </a>
-
-              <p class="post-meta">
-                <span class="post-meta">
-  
-  
-  <i class="fa fa-calendar-o"></i>&nbsp;Posted on January 24, 2012
-  
-  
-  &nbsp;|&nbsp;
-  <i class="fa fa-clock-o"></i> 1 minutes (68 words)
-  
-  
-</span>
-
-
-              </p>
-              <div class="post-entry">
-                
-                  <p><a href="http://www.flickr.com/photos/c32/2776192987/"><img src="http://farm4.staticflickr.com/3146/2776192987_386ca5332c_t.jpg" alt="vote for pedro" /></a><a href="http://twitter.com/ericsiebert">Eric Siebert</a> has opened up the voting for the <a href="http://vsphere-land.com/news/voting-now-open-for-the-top-vmware-virtualization-blogs.html">top VMware &amp; virtualization blogs</a>. Head on over and cast your votes!</p>
-
-<p>Votes for <a href="http://vNinja.net">vNinja.net</a> and <a href="http://vSoup.net">vSoup.net</a> would be greatly appreciated, but since we´re not affiliated with the <a href="http://twitter.com/dutch_vmaffia">Dutch vMaffia</a> we promise that you will not have to wear concrete boots or wake up to a horses head in your bed if you don´t vote for us.</p>
-
-<p>We think.</p>
-
-                
-              </div>
-
-              
-                <div class="blog-tags">
-                  
-                    <a href="//tags/fun/">fun</a>&nbsp;
-                  
-                    <a href="//tags/virtualization/">Virtualization</a>&nbsp;
-                  
-                    <a href="//tags/vote/">Vote</a>&nbsp;
-                  
-                </div>
-              
-
-            </article>
-          
-            <article class="post-preview">
-              <a href="/virtualization/auto-installation-and-configuring-of-vsphere-esxi-5/">
-                <h2 class="post-title">Auto Installation and Configuring of vSphere ESXi 5</h2>
-
-                
-              </a>
-
-              <p class="post-meta">
-                <span class="post-meta">
-  
-  
-  <i class="fa fa-calendar-o"></i>&nbsp;Posted on December 21, 2011
-  
-  
-  &nbsp;|&nbsp;
-  <i class="fa fa-clock-o"></i> 2 minutes (256 words)
-  
-  
-</span>
-
-
-              </p>
-              <div class="post-entry">
-                
-                  One of the last projects I&rsquo;ve been involved with at Seatrans, is to automate the installation and configuration of vSphere ESXi 5 hosts for deployment on vessels. I&rsquo;ve talked a bit about this before, both on vSoup and in Setting Up Automated ESXi Deployments where I outlined my PXE and PowerCLI based installation and configuration scheme. Not much has changed since then, except updating the PXE server to offer ESXi 5, instead of ESXi 4 and a lot of work has been put into the scripting, including a front-end GUI for the PowerCLI script itself.
-                  <a href="/virtualization/auto-installation-and-configuring-of-vsphere-esxi-5/" class="post-read-more">[Read More]</a>
-                
-              </div>
-
-              
-                <div class="blog-tags">
-                  
-                    <a href="//tags/automation/">automation</a>&nbsp;
-                  
-                    <a href="//tags/esxi/">ESXi</a>&nbsp;
-                  
-                    <a href="//tags/fun/">fun</a>&nbsp;
-                  
-                    <a href="//tags/ops/">Ops</a>&nbsp;
-                  
-                    <a href="//tags/powercli/">PowerCLI</a>&nbsp;
-                  
-                    <a href="//tags/powershell/">Powershell</a>&nbsp;
-                  
-                    <a href="//tags/realworld/">realworld</a>&nbsp;
-                  
-                    <a href="//tags/virtualization/">Virtualization</a>&nbsp;
-                  
-                    <a href="//tags/vmware/">VMware</a>&nbsp;
-                  
-                </div>
-              
-
-            </article>
-          
-            <article class="post-preview">
-              <a href="/virtualization/blatant-self-promotion/">
-                <h2 class="post-title">Blatant Self Promotion</h2>
-
-                
-              </a>
-
-              <p class="post-meta">
-                <span class="post-meta">
-  
-  
-  <i class="fa fa-calendar-o"></i>&nbsp;Posted on November 28, 2011
-  
-  
-  &nbsp;|&nbsp;
-  <i class="fa fa-clock-o"></i> 1 minutes (106 words)
-  
-  
-</span>
-
-
-              </p>
-              <div class="post-entry">
-                
-                  As the title says, it&rsquo;s been one of my more &ldquo;public&rdquo; weeks ever. Besides my &ldquo;normal&rdquo; vSoup engagement, this week I&rsquo;ve also been involved with Mike Laverick&rsquo;s VMTN Subscription Movement Miniwags to voice some of my views about the #VMTNSubscriptionMovement.
-Fair warning: This is video, and please to remember that during recording Movember was nearing its final phase. VMTN Subscription Movement Miniwags – Christian Mohn
-Secondly, I was a guest on the Veeam Community Podcast Episode 45 – vSphere 5 Storage Potpourri.
-                  <a href="/virtualization/blatant-self-promotion/" class="post-read-more">[Read More]</a>
-                
-              </div>
-
-              
-                <div class="blog-tags">
-                  
-                    <a href="//tags/podcast/">Podcast</a>&nbsp;
-                  
-                    <a href="//tags/quotes/">Quotes</a>&nbsp;
-                  
-                    <a href="//tags/veeam/">Veeam</a>&nbsp;
-                  
-                    <a href="//tags/virtualization/">Virtualization</a>&nbsp;
-                  
-                    <a href="//tags/vmtn/">VMTN</a>&nbsp;
-                  
-                </div>
-              
-
-            </article>
-          
-            <article class="post-preview">
-              <a href="/virtualization/installing-windows-8-developer-preview-in-vmware-workstation-8/">
-                <h2 class="post-title">Installing Windows 8 Developer Preview in VMware Workstation 8</h2>
-
-                
-              </a>
-
-              <p class="post-meta">
-                <span class="post-meta">
-  
-  
-  <i class="fa fa-calendar-o"></i>&nbsp;Posted on September 14, 2011
-  
-  
-  &nbsp;|&nbsp;
-  <i class="fa fa-clock-o"></i> 1 minutes (175 words)
-  
-  
-</span>
-
-
-              </p>
-              <div class="post-entry">
-                
-                  Installing Microsoft Windows 8 in a VMware Workstation 8 VM turned out to be a real piece of cake.
-Follow the screenshots for the procedure I used, but basically all I did was to create a new VM with the pre-configured &ldquo;Windows 8 Server&rdquo; preset and inserted the downloaded ISO file.
-Note: Windows 8 Server has been removed as a preset option in the final release of VMware Workstation 8, my screenshots are from the beta version.
-                  <a href="/virtualization/installing-windows-8-developer-preview-in-vmware-workstation-8/" class="post-read-more">[Read More]</a>
-                
-              </div>
-
-              
-                <div class="blog-tags">
-                  
-                    <a href="//tags/fun/">fun</a>&nbsp;
-                  
-                    <a href="//tags/microsoft/">Microsoft</a>&nbsp;
-                  
-                    <a href="//tags/video/">video</a>&nbsp;
-                  
-                    <a href="//tags/virtualization/">Virtualization</a>&nbsp;
-                  
-                    <a href="//tags/vmware/">VMware</a>&nbsp;
-                  
-                    <a href="//tags/windows-8/">Windows 8</a>&nbsp;
-                  
-                    <a href="//tags/workstation-8/">Workstation 8</a>&nbsp;
-                  
-                </div>
-              
-
-            </article>
-          
-            <article class="post-preview">
-              <a href="/virtualization/backup-academy-do-you-know-your-vm-backups/">
-                <h2 class="post-title">Backup Academy - Do You Know Your VM backups?</h2>
-
-                
-              </a>
-
-              <p class="post-meta">
-                <span class="post-meta">
-  
-  
-  <i class="fa fa-calendar-o"></i>&nbsp;Posted on September 13, 2011
-  
-  
-  &nbsp;|&nbsp;
-  <i class="fa fa-clock-o"></i> 1 minutes (131 words)
-  
-  
-</span>
-
-
-              </p>
-              <div class="post-entry">
-                
-                  The newly opened Backup Academy, by Veeam, aims to educate administrators, and others interested in virtual machine backup, in the required skills to maintain a proper backup strategy for your virtual infrastructure.
-Currently the site has 8 videos available, covering content from disaster recovery to backup integrity tools.
-Even if it is run by Veeam, it does not focus on Veeam specific products or services, but rather on the general ideas behind a successful backup and disaster recovery of both VMware and Hyper-V based environments.
-                  <a href="/virtualization/backup-academy-do-you-know-your-vm-backups/" class="post-read-more">[Read More]</a>
-                
-              </div>
-
-              
-                <div class="blog-tags">
-                  
-                    <a href="//tags/backup/">Backup</a>&nbsp;
-                  
-                    <a href="//tags/backup-academy/">Backup Academy</a>&nbsp;
-                  
-                    <a href="//tags/certification/">Certification</a>&nbsp;
-                  
-                    <a href="//tags/hyper-v/">Hyper-V</a>&nbsp;
-                  
-                    <a href="//tags/veeam/">Veeam</a>&nbsp;
-                  
-                    <a href="//tags/virtualization/">Virtualization</a>&nbsp;
-                  
-                    <a href="//tags/vmware/">VMware</a>&nbsp;
-                  
-                </div>
-              
-
-            </article>
-          
-            <article class="post-preview">
-              <a href="/virtualization/vsphere-5-esxi-installation-video/">
-                <h2 class="post-title">vSphere 5: ESXi Installation Video</h2>
-
-                
-              </a>
-
-              <p class="post-meta">
-                <span class="post-meta">
-  
-  
-  <i class="fa fa-calendar-o"></i>&nbsp;Posted on August 25, 2011
-  
-  
-  &nbsp;|&nbsp;
-  <i class="fa fa-clock-o"></i> 1 minutes (34 words)
-  
-  
-</span>
-
-
-              </p>
-              <div class="post-entry">
-                
-                  <p>To celebrate vSphere 5 GA release today, I&rsquo;ve recorded a quick video of the old school CD/ISO based installation:</p>
-
-<p><a href="http://vimeo.com/28143629">vSphere 5 ESXi Install Video</a> from <a href="http://vimeo.com/h0bbel">Christian Mohn</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
-
-<p>Seems strangely familiar, right? Enjoy!</p>
-
-                
-              </div>
-
-              
-                <div class="blog-tags">
-                  
-                    <a href="//tags/esxi/">ESXi</a>&nbsp;
-                  
-                    <a href="//tags/fun/">fun</a>&nbsp;
-                  
-                    <a href="//tags/video/">video</a>&nbsp;
-                  
-                    <a href="//tags/virtualization/">Virtualization</a>&nbsp;
-                  
-                    <a href="//tags/vmware/">VMware</a>&nbsp;
-                  
-                    <a href="//tags/vsphere/">vSphere</a>&nbsp;
-                  
-                    <a href="//tags/vsphere-5/">vSphere 5</a>&nbsp;
-                  
-                </div>
-              
-
-            </article>
-          
-            <article class="post-preview">
-              <a href="/virtualization/setting-up-automated-esxi-deployments/">
-                <h2 class="post-title">Setting Up Automated ESXi Deployments</h2>
-
-                
-              </a>
-
-              <p class="post-meta">
-                <span class="post-meta">
-  
-  
-  <i class="fa fa-calendar-o"></i>&nbsp;Posted on July 7, 2011
-  
-  
-  &nbsp;|&nbsp;
-  <i class="fa fa-clock-o"></i> 7 minutes (1300 words)
-  
-  
-</span>
-
-
-              </p>
-              <div class="post-entry">
-                
-                  Automating ESXi installs was made much easier after the release of vSphere 4.1 where the Scripted Install feature was added, and by using VMware Auto Deploy from VMware Labs. VMware Auto Deploy requires that you have vCenter and Host Profiles in your environment, and that again requires that you have Enterprise Plus licenses in your environment.
-It is, however, possible to deploy ESXi in an automated fashion completely without vCenter and Host Profiles!
-                  <a href="/virtualization/setting-up-automated-esxi-deployments/" class="post-read-more">[Read More]</a>
-                
-              </div>
-
-              
-                <div class="blog-tags">
-                  
-                    <a href="//tags/automation/">automation</a>&nbsp;
-                  
-                    <a href="//tags/esxi/">ESXi</a>&nbsp;
-                  
-                    <a href="//tags/fun/">fun</a>&nbsp;
-                  
-                    <a href="//tags/ops/">Ops</a>&nbsp;
-                  
-                    <a href="//tags/powercli/">PowerCLI</a>&nbsp;
-                  
-                    <a href="//tags/powershell/">Powershell</a>&nbsp;
-                  
-                    <a href="//tags/realworld/">realworld</a>&nbsp;
-                  
-                    <a href="//tags/virtualization/">Virtualization</a>&nbsp;
-                  
-                    <a href="//tags/vmware/">VMware</a>&nbsp;
-                  
-                </div>
-              
-
-            </article>
-          
-            <article class="post-preview">
-              <a href="/virtualization/zerto-or-what-i-learned-at-tfd-6/">
-                <h2 class="post-title">Zerto: Or What I Learned at Tech Field Day #6!</h2>
-
-                
-              </a>
-
-              <p class="post-meta">
-                <span class="post-meta">
-  
-  
-  <i class="fa fa-calendar-o"></i>&nbsp;Posted on June 27, 2011
-  
-  
-  &nbsp;|&nbsp;
-  <i class="fa fa-clock-o"></i> 3 minutes (557 words)
-  
-  
-</span>
-
-
-              </p>
-              <div class="post-entry">
-                
-                  The last day of Tech Field Day #6 myself and all the other delegates were lucky enough to get a sneak peek at stealth startup &lsquo;Zerto&rsquo;. We weren&rsquo;t allowed to talk about it until the 22nd and I know I am a little slow on the punch but I currently haven&rsquo;t seen a lot of coverage. Just for an initial disclosure statement my trip to Tech Field Day 6 was paid for by the vendors we visited, however, I am in no way obligated to write about them or publicize them in any manner.
-                  <a href="/virtualization/zerto-or-what-i-learned-at-tfd-6/" class="post-read-more">[Read More]</a>
-                
-              </div>
-
-              
-                <div class="blog-tags">
-                  
-                    <a href="//tags/disaster-recovery/">Disaster Recovery</a>&nbsp;
-                  
-                    <a href="//tags/dr/">DR</a>&nbsp;
-                  
-                    <a href="//tags/tech-field-day/">Tech Field Day</a>&nbsp;
-                  
-                    <a href="//tags/virtualization/">Virtualization</a>&nbsp;
-                  
-                    <a href="//tags/vmware/">VMware</a>&nbsp;
-                  
-                    <a href="//tags/vsphere/">vSphere</a>&nbsp;
-                  
-                    <a href="//tags/zerto/">Zerto</a>&nbsp;
-                  
-                </div>
-              
-
-            </article>
-          
-        </div>
-        
-          <ul class="pager main-pager">
-            
-              <li class="previous">
-                <a href="/tags/virtualization/page/1/">&larr; Newer Posts</a>
-              </li>
-            
-            
-              <li class="next">
-                <a href="/tags/virtualization/page/3/">Older Posts &rarr;</a>
-              </li>
-            
-          </ul>
-        
-      </div>
-    </div>
-  </div>
-
-    <footer>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        <ul class="list-inline text-center footer-links">
-          
-              <li>
-                <a href="mailto:youremail@domain.com" title="Email me">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.facebook.com/username" title="Facebook">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://plus.google.com/&#43;username" title="Google&#43;">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://github.com/username" title="GitHub">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://gitlab.com/username" title="GitLab">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-gitlab fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://bitbucket.org/username" title="Bitbucket">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-bitbucket fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://twitter.com/username" title="Twitter">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://reddit.com/u/username" title="Reddit">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-reddit-alien fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://linkedin.com/in/username" title="LinkedIn">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.xing.com/profile/username" title="Xing">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-xing fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://stackoverflow.com/users/XXXXXXX/username" title="StackOverflow">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-stack-overflow fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.snapchat.com/add/username" title="Snapchat">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-snapchat-ghost fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.instagram.com/username" title="Instagram">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.youtube.com/user/username" title="Youtube">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://soundcloud.com/username" title="SoundCloud">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-soundcloud fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://open.spotify.com/user/username" title="Spotify">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-spotify fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://username.bandcamp.com/" title="Bandcamp">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-bandcamp fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://itch.io/profile/username" title="Itch.io">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-gamepad fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://vk.com/username" title="VK">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-vk fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://paypal.me/username" title="PayPal">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-paypal fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://telegram.me/username" title="Telegram">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-telegram fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-          
-          <li>
-            
-            <a href="/tags/virtualization/index.xml" title="RSS">
-            
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          
-        </ul>
-        <p class="credits copyright text-muted">
-          
-            
-              <a href="yourwebsite.com">Some Person</a>
-            
-          
-
-          &nbsp;&bull;&nbsp;
-          2018
-
-          
-            &nbsp;&bull;&nbsp;
-            <a href="/">Beautiful Hugo</a>
-          
-        </p>
-        
-        <p class="credits theme-by text-muted">
-          <a href="http://gohugo.io">Hugo v0.40.3</a> powered &nbsp;&bull;&nbsp; Theme by <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
-          
-        </p>
-      </div>
-    </div>
-  </div>
-</footer>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/contrib/auto-render.min.js" integrity="sha384-dq1/gEHSxPZQ7DdrM82ID4YVol9BYyU7GbWlIwnwyPzotpoc57wDw/guX8EaYGPx" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<script src="/js/main.js"></script>
-<script src="/js/highlight.min.js"></script>
-<script> hljs.initHighlightingOnLoad(); </script>
-<script> $(document).ready(function() {$("pre.chroma").css("padding","0");}); </script><script> renderMathInElement(document.body); </script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script>
-<script src="/js/load-photoswipe.js"></script>
-
-
-
-
-
+    <footer class="blog-footer">
+      <p>
+      
+      &copy; Christian Mohn
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
 
   </body>
-</html>
 
+</html>

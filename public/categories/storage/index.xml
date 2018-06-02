@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Storage on Beautiful Hugo</title>
+    <title>Storage on Adventures in Hugo</title>
     <link>/categories/storage/</link>
-    <description>Recent content in Storage on Beautiful Hugo</description>
+    <description>Recent content in Storage on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
-    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Thu, 21 Aug 2014 22:21:59 +0000</lastBuildDate>
     
 	<atom:link href="/categories/storage/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>Problems connecting HP Insight Control Storage Module to StoreServ 7200 (3Par)</title>
       <link>/storage-2/problems-connecting-hp-insight-control-storage-module-storeserv-7200-3par/</link>
       <pubDate>Thu, 21 Aug 2014 22:21:59 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/storage-2/problems-connecting-hp-insight-control-storage-module-storeserv-7200-3par/</guid>
       <description>A customer of mine, who runs a pure HP environment based on c7000 and StoreServ 7200, wanted to get the HP Insight Control Storage Module for vCenter up and running. The problem was that while we were able to connect to the older MSA array they run for non-production workloads, we were unable to connect to the newer StoreServ 7200. There is full IP connectivity between the application server that the HP Insight components run on and the storage controllers/VSP (no firewalls between them, they are located in the same subnet).</description>
     </item>
@@ -25,7 +25,7 @@
       <title>Virtual Connect FlexFabric and Direct-Attach FC 3Par Caveat</title>
       <link>/storage-2/virtual-connect-flexfabric-direct-attach-fc-3par-caveat/</link>
       <pubDate>Thu, 30 May 2013 21:08:45 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/storage-2/virtual-connect-flexfabric-direct-attach-fc-3par-caveat/</guid>
       <description>When configuring a new C7000 Blade Enclosure with a couple of FlexFabric 10Gb/24-port modules I ran into a rather annoying issue during setup.
 HP Virtual Connect 3.70 introduced support for Direct-Attach setups of HP 3Par StoreServ 7000 storage systems, where you can eliminate the need for dedicated FC switches. For full details, have a look at Implementing HP Virtual Connect Direct-Attach Fibre Channel with HP 3PAR StoreServ Systems.

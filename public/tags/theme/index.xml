@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Theme on Beautiful Hugo</title>
+    <title>Theme on Adventures in Hugo</title>
     <link>/tags/theme/</link>
-    <description>Recent content in Theme on Beautiful Hugo</description>
+    <description>Recent content in Theme on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
-    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Thu, 24 Nov 2016 00:11:08 +0000</lastBuildDate>
     
 	<atom:link href="/tags/theme/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>Facelift</title>
       <link>/news/facelift/</link>
       <pubDate>Thu, 24 Nov 2016 00:11:08 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/news/facelift/</guid>
       <description>I have given the site a small facelift, replacing the old theme with a new and cleaner version. For some reason, I get this &amp;ldquo;theme itch&amp;rdquo; a couple of times a year, but usually I manage to let it pass without doing many changes.
 This time it stuck with me though, and ended up with replacing the old theme with a new one. In fact, the old theme had been active for close to two years now, so it was time to shake things up a bit any way.</description>

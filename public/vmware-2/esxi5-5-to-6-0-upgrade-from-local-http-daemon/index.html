@@ -1,213 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title>ESXi5.5 to 6.0 Upgrade From Local HTTP Daemon</title>
-  <meta property="og:title" content="ESXi5.5 to 6.0 Upgrade From Local HTTP Daemon" />
-  <meta name="twitter:title" content="ESXi5.5 to 6.0 Upgrade From Local HTTP Daemon" />
-  <meta name="description" content="I was recently involved with consulting for a Norwegian shipping company who has quite a few remote vSphere installations, most of them with a couple of ESXi hosts, but no vCenter and hence no Update Manager. While looking at methods for managing these installations, in particular how to facilitate patching and upgrading scenarios, I remembered that way back in 2013, I posted Quick and Dirty HTTP-based Deployment which shows how to use the Python to run a simple http daemon, and serve files from it.">
-  <meta property="og:description" content="I was recently involved with consulting for a Norwegian shipping company who has quite a few remote vSphere installations, most of them with a couple of ESXi hosts, but no vCenter and hence no Update Manager. While looking at methods for managing these installations, in particular how to facilitate patching and upgrading scenarios, I remembered that way back in 2013, I posted Quick and Dirty HTTP-based Deployment which shows how to use the Python to run a simple http daemon, and serve files from it.">
-  <meta name="twitter:description" content="I was recently involved with consulting for a Norwegian shipping company who has quite a few remote vSphere installations, most of them with a couple of ESXi hosts, but no vCenter and hence no Update …">
-  <meta name="author" content="Some Person"/>
-  <link href='/img/favicon.ico' rel='icon' type='image/x-icon'/>
-  <meta property="og:image" content="/img/avatar-icon.png" />
-  <meta name="twitter:image" content="/img/avatar-icon.png" />
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="@username" />
-  <meta name="twitter:creator" content="@username" />
-  <meta property="og:url" content="/vmware-2/esxi5-5-to-6-0-upgrade-from-local-http-daemon/" />
-  <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="Beautiful Hugo" />
-
-  <meta name="generator" content="Hugo 0.40.3" />
-  <link rel="canonical" href="/vmware-2/esxi5-5-to-6-0-upgrade-from-local-http-daemon/" />
-  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Beautiful Hugo">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" href="/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
-  <link rel="stylesheet" href="/css/highlight.min.css" /><link rel="stylesheet" href="/css/codeblock.css" />
+<meta property="og:title" content="ESXi5.5 to 6.0 Upgrade From Local HTTP Daemon" />
+<meta property="og:description" content="I was recently involved with consulting for a Norwegian shipping company who has quite a few remote vSphere installations, most of them with a couple of ESXi hosts, but no vCenter and hence no Update Manager. While looking at methods for managing these installations, in particular how to facilitate patching and upgrading scenarios, I remembered that way back in 2013, I posted Quick and Dirty HTTP-based Deployment which shows how to use the Python to run a simple http daemon, and serve files from it." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/vmware-2/esxi5-5-to-6-0-upgrade-from-local-http-daemon/" />
 
 
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
+<meta property="article:published_time" content="2015-08-26T11:35:08&#43;00:00"/>
+
+<meta property="article:modified_time" content="2015-08-26T11:35:08&#43;00:00"/>
 
 
 
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
 
-<div class="pswp__bg"></div>
 
-<div class="pswp__scroll-wrap">
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="ESXi5.5 to 6.0 Upgrade From Local HTTP Daemon"/>
+<meta name="twitter:description" content="I was recently involved with consulting for a Norwegian shipping company who has quite a few remote vSphere installations, most of them with a couple of ESXi hosts, but no vCenter and hence no Update Manager. While looking at methods for managing these installations, in particular how to facilitate patching and upgrading scenarios, I remembered that way back in 2013, I posted Quick and Dirty HTTP-based Deployment which shows how to use the Python to run a simple http daemon, and serve files from it."/>
+<meta name="generator" content="Hugo 0.40.3" />
+
+
     
-    <div class="pswp__container">
-      <div class="pswp__item"></div>
-      <div class="pswp__item"></div>
-      <div class="pswp__item"></div>
-    </div>
-    
-    <div class="pswp__ui pswp__ui--hidden">
-    <div class="pswp__top-bar">
-      
-      <div class="pswp__counter"></div>
-      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-      <button class="pswp__button pswp__button--share" title="Share"></button>
-      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-      
-      
-      <div class="pswp__preloader">
-        <div class="pswp__preloader__icn">
-          <div class="pswp__preloader__cut">
-            <div class="pswp__preloader__donut"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-      <div class="pswp__share-tooltip"></div>
-    </div>
-    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-    </button>
-    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-    </button>
-    <div class="pswp__caption">
-      <div class="pswp__caption__center"></div>
-    </div>
-    </div>
-    </div>
-</div>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "ESXi5.5 to 6.0 Upgrade From Local HTTP Daemon",
+  "url": "/vmware-2/esxi5-5-to-6-0-upgrade-from-local-http-daemon/",
+  "wordCount": "563",
+  "datePublished": "2015-08-26T11:35:08&#43;00:00",
+  "dateModified": "2015-08-26T11:35:08&#43;00:00",
+  "author": {
+    "@type": "Person",
+    "name": "cmohn"
+  },
+  "keywords": "VMware, ESXi, vCenter, vSphere"
+}
+</script>
 
-</head>
+
+
+    <link rel="canonical" href="/vmware-2/esxi5-5-to-6-0-upgrade-from-local-http-daemon/">
+
+    <title>ESXi5.5 to 6.0 Upgrade From Local HTTP Daemon | Adventures in Hugo</title>
+
+    <!-- combined, minified CSS -->
+    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
+
+    
+
+    
+
+    
+
+    
+
+  </head>
 
   <body>
-    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="/">Beautiful Hugo</a>
-    </div>
-
-    <div class="collapse navbar-collapse" id="main-navbar">
-      <ul class="nav navbar-nav navbar-right">
-        
-          
-            <li>
-              <a title="Blog" href="/">Blog</a>
-            </li>
-          
-        
-          
-            <li class="navlinks-container">
-              <a class="navlinks-parent" href="javascript:void(0)">Samples</a>
-              <div class="navlinks-children">
-                
-                  <a href="/post/2017-03-07-bigimg-sample">Big Image Sample</a>
-                
-                  <a href="/post/2017-03-05-math-sample">Math Sample</a>
-                
-                  <a href="/post/2016-03-08-code-sample">Code Sample</a>
-                
-              </div>
-            </li>
-          
-        
-          
-            <li>
-              <a title="About" href="/page/about/">About</a>
-            </li>
-          
-        
-          
-            <li>
-              <a title="Tags" href="/tags">Tags</a>
-            </li>
-          
-        
-
-        
-
-        
-      </ul>
-    </div>
-
-    <div class="avatar-container">
-      <div class="avatar-img-border">
-        
-          <a title="Beautiful Hugo" href="/">
-            <img class="avatar-img" src="/img/avatar-icon.png" alt="Beautiful Hugo" />
-          </a>
-        
-      </div>
-    </div>
-
-  </div>
-</nav>
-
-
-
 
     
-  
-  
-  
-
-
-
-
-  
-
-  <header class="header-section ">
-    
-    <div class="intro-header no-img">
-      
+    <div class="blog-masthead">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <div class="posts-heading">
-              <h1>ESXi5.5 to 6.0 Upgrade From Local HTTP Daemon</h1>
-                
-                
-            </div>
-          </div>
-        </div>
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="/">Home</a>
+          
+          <a class="nav-link" href="https://example.org" title="">Link 1</a>
+          
+        </nav>
       </div>
     </div>
-  </header>
-
+    
 
     
-<div class="container" role="main">
-  <div class="row">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-      <article role="main" class="blog-post">
-        
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
+        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+      </div>
+    </header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/vmware-2/esxi5-5-to-6-0-upgrade-from-local-http-daemon/">ESXi5.5 to 6.0 Upgrade From Local HTTP Daemon</a></h2>
+    <p class="blog-post-meta"><time datetime="2015-08-26T11:35:08Z">Wed Aug 26, 2015</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/vmware" rel="category tag">VMware</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/esxi" rel="tag">ESXi</a>, <a href="/tags/vcenter" rel="tag">vCenter</a>, <a href="/tags/vmware" rel="tag">VMware</a>, <a href="/tags/vsphere" rel="tag">vSphere</a>
+
+</p>
+  </header>
+  
 
 <p>I was recently involved with consulting for a Norwegian shipping company who has quite a few remote vSphere installations, most of them with a couple of ESXi hosts, but no vCenter and hence no Update Manager. While looking at methods for managing these installations, in particular how to facilitate patching and upgrading scenarios, I remembered that way back in 2013, I posted <a href="http://vninja.net/virtualization/quick-and-dirty-http-based-deployment/">Quick and Dirty HTTP-based Deployment</a> which shows how to use the Python to run a simple http daemon, and serve files from it.</p>
 
 <p>Surely something similar can be used to maintain a central repository for vSphere patches? While I don&rsquo;t recommend using your MacBook as a permanent source for these updates, you really should set up a proper http server in your network and utilize that, it works as a proof of concept.</p>
 
 <h5 id="so-here-it-is-a-recipe-for-using-a-simple-http-daemon-to-host-your-own-esxi-offline-bundles-and-how-to-upgrade-from-5-5-to-6-0-from-the-command-line">So here it is, a recipe for using a simple http daemon to host your own ESXi Offline Bundles, and how to upgrade from 5.5 to 6.0 from the command line.</h5>
-<div class="highlight"><pre class="chroma">1. Download the offline bundle you want to use, in my case I used _ESXi600-201507001.zip_ (ESXi 6.0.0b).
+
+<pre><code>1. Download the offline bundle you want to use, in my case I used _ESXi600-201507001.zip_ (ESXi 6.0.0b).
 
 
-2. Extract the .zip file into it&#39;s own directory, served by the http daemon, and rename it for simplicity.
+2. Extract the .zip file into it's own directory, served by the http daemon, and rename it for simplicity.
 
 
 3. Connect to your target ESXi host via SSH
 
 
-4. Check the current running ESXi version by running _esxcli system version get</pre></div>
+4. Check the current running ESXi version by running _esxcli system version get
+</code></pre>
+
 <p>_[cc lang=&ldquo;bash&rdquo; width=&ldquo;100%&rdquo; theme=&ldquo;blackboard&rdquo; nowrap=&ldquo;0&rdquo;]
 The time and date of this login have been sent to the system logs.VMware offers supported, powerful system administration tools. Please
 see www.vmware.com/go/sysadmintools for details.The ESXi Shell can be disabled by an administrative user. See the
@@ -218,10 +142,13 @@ Version: 5.5.0
 Build: Releasebuild-1623387
 Update: 1
 ~ #[/cc]</p>
-<div class="highlight"><pre class="chroma">5. Enable outgoing http requests from the ESXi host by running _esxcli network firewall ruleset set -e true -r httpClient_
+
+<pre><code>5. Enable outgoing http requests from the ESXi host by running _esxcli network firewall ruleset set -e true -r httpClient_
 
 
-6. Determine which profile to use by running __esxcli software sources profile list -d [http://daemon-ip:port/directory/]</pre></div>
+6. Determine which profile to use by running __esxcli software sources profile list -d [http://daemon-ip:port/directory/]
+</code></pre>
+
 <p>[cc lang=&ldquo;bash&rdquo; width=&ldquo;100%&rdquo; theme=&ldquo;blackboard&rdquo; nowrap=&ldquo;0&rdquo;]
 ~ # esxcli software sources profile list -d <a href="http://172.29.100.248:8000/6.0/">http://172.29.100.248:8000/6.0/</a>
 Name Vendor Acceptance Level</p>
@@ -233,10 +160,13 @@ ESXi-6.0.0-20150701001s-no-tools VMware, Inc. PartnerSupported
 ESXi-6.0.0-20150704001-no-tools VMware, Inc. PartnerSupported
 ESXi-6.0.0-20150704001-standard VMware, Inc. PartnerSupported
 ~ #[/cc]__</p>
-<div class="highlight"><pre class="chroma">7. Run _vim-cmd hostsvc/maintenance_mode_enter_ to put ESXi host into maintenance mode.
+
+<pre><code>7. Run _vim-cmd hostsvc/maintenance_mode_enter_ to put ESXi host into maintenance mode.
 
 
-8.  Run _esxcli software profile update -d [http://daemon-ip:port/directory/] -p [profilename] _to fetch and install from http daemon[cc lang=&#34;bash&#34; width=&#34;100%&#34; theme=&#34;blackboard&#34; nowrap=&#34;0&#34;]</pre></div>
+8.  Run _esxcli software profile update -d [http://daemon-ip:port/directory/] -p [profilename] _to fetch and install from http daemon[cc lang=&quot;bash&quot; width=&quot;100%&quot; theme=&quot;blackboard&quot; nowrap=&quot;0&quot;]
+</code></pre>
+
 <h1 id="esxcli-software-profile-update-d-http-172-29-100-248-8000-6-0-p-esxi-6-0-0-20150704001-standard">esxcli software profile update -d <a href="http://172.29.100.248:8000/6.0/">http://172.29.100.248:8000/6.0/</a> -p ESXi-6.0.0-20150704001-standard</h1>
 
 <p>Update Result
@@ -245,13 +175,16 @@ Reboot Required: true
 VIBs Installed: [long list of vibs removed for brevity]
 VIBs Skipped:
 ~ #[/cc]</p>
-<div class="highlight"><pre class="chroma">9. Disable outgoing http client traffic by running _esxcli network firewall ruleset set -e false httpClient_
+
+<pre><code>9. Disable outgoing http client traffic by running _esxcli network firewall ruleset set -e false httpClient_
 
 
 10. Reboot host by running the _reboot_ command
 
 
-11. When host has rebooted, connect to ESXi host again via SSH and run _esxcli system version get</pre></div>
+11. When host has rebooted, connect to ESXi host again via SSH and run _esxcli system version get
+</code></pre>
+
 <p>[cc lang=&ldquo;bash&rdquo; width=&ldquo;100%&rdquo; theme=&ldquo;blackboard&rdquo; nowrap=&ldquo;0&rdquo;][root@localhost:~] esxcli system version get
 Product: VMware ESXi
 Version: 6.0.0
@@ -260,363 +193,79 @@ Update: 0
 Patch: 11
 [root@localhost:~][/cc]
 _</p>
-<div class="highlight"><pre class="chroma">12. Verify that it runs the correct version, and run _vim-cmd hostsvc/maintenance_mode_exit_ to put the host out of maintenance mode.</pre></div>
+
+<pre><code>12. Verify that it runs the correct version, and run _vim-cmd hostsvc/maintenance_mode_exit_ to put the host out of maintenance mode.
+</code></pre>
+
 <p>And that&rsquo;s it, the host has now been upgraded from ESXi 5.5 to 6.0, from a local centralized http-based repository without the need to connect to the outside world. All done via the command line, and without a vCenter with Update Manager. Pretty neat.</p>
 
 
-        
-          <div class="blog-tags">
-            
-              <a href="//tags/esxi/">ESXi</a>&nbsp;
-            
-              <a href="//tags/vcenter/">vCenter</a>&nbsp;
-            
-              <a href="//tags/vmware/">VMware</a>&nbsp;
-            
-              <a href="//tags/vsphere/">vSphere</a>&nbsp;
-            
-          </div>
-        
+  
 
-        
-            <hr/>
-            <section id="social-share">
-              <ul class="list-inline footer-links">
-                
+  
+  <hr>
+  <footer>
 
+  
+    <section>
+    <h4>Share</h4>
+    <nav class="nav sharing-icons">
+      <a class="nav-item" href="https://www.facebook.com/sharer/sharer.php?u=%2fvmware-2%2fesxi5-5-to-6-0-upgrade-from-local-http-daemon%2f" title="Share on Facebook"><span class="fa fa-facebook fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://plus.google.com/share?url=%2fvmware-2%2fesxi5-5-to-6-0-upgrade-from-local-http-daemon%2f" title="Share on Google+"><span class="fa fa-google-plus fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fvmware-2%2fesxi5-5-to-6-0-upgrade-from-local-http-daemon%2f" title="Share on LinkedIn"><span class="fa fa-linkedin fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://twitter.com/home?status=%2fvmware-2%2fesxi5-5-to-6-0-upgrade-from-local-http-daemon%2f" title="Tweet this"><span class="fa fa-twitter fa-2x"></span></a>
+    </nav>
+  </section>
 
-<li>
-    <a href="//twitter.com/share?url=%2fvmware-2%2fesxi5-5-to-6-0-upgrade-from-local-http-daemon%2f&amp;text=ESXi5.5%20to%206.0%20Upgrade%20From%20Local%20HTTP%20Daemon&amp;via=username"
-       target="_blank" alt="" title="Share on Twitter">
-        <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-              </span>
-    </a>
-</li>
+  
+
+  
+  </footer>
+  
+
+</article> 
 
 
-<li>
-    <a href="//plus.google.com/share?url=%2fvmware-2%2fesxi5-5-to-6-0-upgrade-from-local-http-daemon%2f" target="_blank" title="Share on Google Plus">
-         <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
-              </span>
-    </a>
-</li>
 
+        </div> <!-- /.blog-main -->
 
-<li>
-    <a href="//www.facebook.com/sharer/sharer.php?u=%2fvmware-2%2fesxi5-5-to-6-0-upgrade-from-local-http-daemon%2f" target="_blank" title="Share on Facebook">
-        <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-              </span>
-    </a>
-</li>
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
 
+  
 
-<li>
-    <a href="//reddit.com/submit?url=%2fvmware-2%2fesxi5-5-to-6-0-upgrade-from-local-http-daemon%2f&amp;title=ESXi5.5%20to%206.0%20Upgrade%20From%20Local%20HTTP%20Daemon" target="_blank" title="Share on Reddit">
-         <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-reddit fa-stack-1x fa-inverse"></i>
-              </span>
-    </a>
-</li>
-
-
-<li>
-    <a href="//www.linkedin.com/shareArticle?url=%2fvmware-2%2fesxi5-5-to-6-0-upgrade-from-local-http-daemon%2f&amp;title=ESXi5.5%20to%206.0%20Upgrade%20From%20Local%20HTTP%20Daemon" target="_blank"
-       title="Share on LinkedIn">
-         <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-              </span>
-    </a>
-</li>
-
-
-<li>
-    <a href="//www.stumbleupon.com/submit?url=%2fvmware-2%2fesxi5-5-to-6-0-upgrade-from-local-http-daemon%2f&amp;title=ESXi5.5%20to%206.0%20Upgrade%20From%20Local%20HTTP%20Daemon" target="_blank"
-       title="Share on StumbleUpon">
-        <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-stumbleupon fa-stack-1x fa-inverse"></i>
-              </span>
-    </a>
-</li>
-
-
-<li>
-    <a href="//www.pinterest.com/pin/create/button/?url=%2fvmware-2%2fesxi5-5-to-6-0-upgrade-from-local-http-daemon%2f&amp;description=ESXi5.5%20to%206.0%20Upgrade%20From%20Local%20HTTP%20Daemon" target="_blank"
-       title="Share on Pinterest">
-         <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-pinterest fa-stack-1x fa-inverse"></i>
-              </span>
-    </a>
-</li>
-
-              </ul>
-            </section>
-        
-      </article>
-
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
       
-        <ul class="pager blog-pager">
-          
-            <li class="previous">
-              <a href="/virtualization/hp-proliant-dl380p-gen8-decompressed-md5-error/" data-toggle="tooltip" data-placement="top" title="HP Proliant DL380p Gen8 &#34;Decompressed MD5&#34; error">&larr; Previous Post</a>
-            </li>
-          
-          
-            <li class="next">
-              <a href="/vmware-2/update-esxi-embedded-host-client-fling/" data-toggle="tooltip" data-placement="top" title="Update ESXi Embedded Host Client Fling">Next Post &rarr;</a>
-            </li>
-          
-        </ul>
+      <li><a href="https://example.com">Link 1</a></li>
       
-
-
+      <li><a href="https://example.org">Link 2</a></li>
       
-        
-        
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p>
       
-
-    </div>
-  </div>
-</div>
-
-    <footer>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        <ul class="list-inline text-center footer-links">
-          
-              <li>
-                <a href="mailto:youremail@domain.com" title="Email me">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.facebook.com/username" title="Facebook">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://plus.google.com/&#43;username" title="Google&#43;">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://github.com/username" title="GitHub">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://gitlab.com/username" title="GitLab">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-gitlab fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://bitbucket.org/username" title="Bitbucket">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-bitbucket fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://twitter.com/username" title="Twitter">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://reddit.com/u/username" title="Reddit">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-reddit-alien fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://linkedin.com/in/username" title="LinkedIn">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.xing.com/profile/username" title="Xing">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-xing fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://stackoverflow.com/users/XXXXXXX/username" title="StackOverflow">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-stack-overflow fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.snapchat.com/add/username" title="Snapchat">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-snapchat-ghost fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.instagram.com/username" title="Instagram">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.youtube.com/user/username" title="Youtube">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://soundcloud.com/username" title="SoundCloud">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-soundcloud fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://open.spotify.com/user/username" title="Spotify">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-spotify fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://username.bandcamp.com/" title="Bandcamp">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-bandcamp fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://itch.io/profile/username" title="Itch.io">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-gamepad fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://vk.com/username" title="VK">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-vk fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://paypal.me/username" title="PayPal">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-paypal fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://telegram.me/username" title="Telegram">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-telegram fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-          
-          <li>
-            
-            <a href="/index.xml" title="RSS">
-            
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          
-        </ul>
-        <p class="credits copyright text-muted">
-          
-            
-              <a href="yourwebsite.com">Some Person</a>
-            
-          
-
-          &nbsp;&bull;&nbsp;
-          2018
-
-          
-            &nbsp;&bull;&nbsp;
-            <a href="/">Beautiful Hugo</a>
-          
-        </p>
-        
-        <p class="credits theme-by text-muted">
-          <a href="http://gohugo.io">Hugo v0.40.3</a> powered &nbsp;&bull;&nbsp; Theme by <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
-          
-        </p>
-      </div>
-    </div>
-  </div>
-</footer>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/contrib/auto-render.min.js" integrity="sha384-dq1/gEHSxPZQ7DdrM82ID4YVol9BYyU7GbWlIwnwyPzotpoc57wDw/guX8EaYGPx" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<script src="/js/main.js"></script>
-<script src="/js/highlight.min.js"></script>
-<script> hljs.initHighlightingOnLoad(); </script>
-<script> $(document).ready(function() {$("pre.chroma").css("padding","0");}); </script><script> renderMathInElement(document.body); </script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script>
-<script src="/js/load-photoswipe.js"></script>
-
-
-
-
-
+      &copy; Christian Mohn
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
 
   </body>
-</html>
 
+</html>

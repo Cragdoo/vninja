@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nfs on Beautiful Hugo</title>
+    <title>Nfs on Adventures in Hugo</title>
     <link>/tags/nfs/</link>
-    <description>Recent content in Nfs on Beautiful Hugo</description>
+    <description>Recent content in Nfs on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
-    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Fri, 28 Aug 2015 10:46:24 +0000</lastBuildDate>
     
 	<atom:link href="/tags/nfs/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>VMware Update Manager: Unsupported Configuration</title>
       <link>/vmware-2/vmware-update-manager-unsupported-configuration/</link>
       <pubDate>Fri, 28 Aug 2015 10:46:24 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/vmware-2/vmware-update-manager-unsupported-configuration/</guid>
       <description>During an upgrade from vSphere 5.1 to 5.5, I ran into a rather strange issue when trying to utilize VMware Update Manager to perform the ESXi upgrade.
 During scanning, VUM reported the ESXi host as &amp;ldquo;Incompatible&amp;rdquo;, without offering any other explanation. I spent ages looking through VUM logs, trying to find the culprit, suspecting it was an incompatible VIB. Without finding anything that gave me any indication on what the problem might be, I moved on to looking at the ESXi image I had imported into VUM.</description>

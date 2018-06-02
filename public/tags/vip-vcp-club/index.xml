@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vip Vcp Club on Beautiful Hugo</title>
+    <title>Vip Vcp Club on Adventures in Hugo</title>
     <link>/tags/vip-vcp-club/</link>
-    <description>Recent content in Vip Vcp Club on Beautiful Hugo</description>
+    <description>Recent content in Vip Vcp Club on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
-    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Thu, 15 Nov 2012 09:59:17 +0000</lastBuildDate>
     
 	<atom:link href="/tags/vip-vcp-club/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>VIP VCP Club 2012</title>
       <link>/vmware-2/vip-vcp-club-2012/</link>
       <pubDate>Thu, 15 Nov 2012 09:59:17 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/vmware-2/vip-vcp-club-2012/</guid>
       <description>VMware Norway held their first ever _VIP VCP Club_ yesterday in Oslo.
 **What is VIP VCP Club? ** This a new concept by VMware Norway, for certified VMware professionals, where the idea is to gather local certified VMware Professionals for a day of hands-on labs, specialized technical sessions and general community building.

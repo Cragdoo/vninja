@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Changelog on Beautiful Hugo</title>
+    <title>Changelog on Adventures in Hugo</title>
     <link>/tags/changelog/</link>
-    <description>Recent content in Changelog on Beautiful Hugo</description>
+    <description>Recent content in Changelog on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
-    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Wed, 18 Feb 2015 10:31:53 +0000</lastBuildDate>
     
 	<atom:link href="/tags/changelog/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>Do you ChangeLog?</title>
       <link>/workflow/changelog/</link>
       <pubDate>Wed, 18 Feb 2015 10:31:53 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/workflow/changelog/</guid>
       <description>In my work as a consultant I often have many small tasks to perform for customers, all while completing a bigger project. I have found that an easy way to keep track of all the little and big changes, is to create a ChangeLog. Normally ChangeLog&amp;rsquo;s are referenced in development projects, but it also sense to use it to track of your own, or your team members, changes to an infrastructure environment.</description>
     </item>

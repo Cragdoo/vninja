@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vcenter on Beautiful Hugo</title>
+    <title>Vcenter on Adventures in Hugo</title>
     <link>/tags/vcenter/</link>
-    <description>Recent content in Vcenter on Beautiful Hugo</description>
+    <description>Recent content in Vcenter on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
-    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Thu, 10 Nov 2016 09:57:29 +0000</lastBuildDate>
     
 	<atom:link href="/tags/vcenter/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>VCSA - The default choice. Always.</title>
       <link>/virtualization/vcsa-the-default-choice-always/</link>
       <pubDate>Thu, 10 Nov 2016 09:57:29 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/vcsa-the-default-choice-always/</guid>
       <description>I&amp;rsquo;ve been a big proponent of the VMware vCenter Appliance for a long time, I even did a talk called VCS to VCSA Converter or How a Fling Can Be Good for You! on migrating to the VCSA at the Nordic VMUG last year.
 The VCSA has gone through a few iterations and versions by now, coinciding with the vSphere releases.
@@ -28,7 +28,7 @@ Since v6.0 scaling has been on par with it&amp;rsquo;s Windows based counterpart
       <title>Veeam vCenter Migration Utility</title>
       <link>/virtualization/veeam-vcenter-migration-utility/</link>
       <pubDate>Mon, 08 Aug 2016 09:35:47 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/veeam-vcenter-migration-utility/</guid>
       <description>Way back in 2013, I published Preserve your Veeam B&amp;amp;R Backups Jobs when Moving vCenter, outlining how to &amp;ldquo;cheat&amp;rdquo; (by using a CNAME alias) to preserve your Veeam Backup &amp;amp; Replication jobs if you replace your VMware vCenter.
 Naturally, when there is a new vCenter instance, all the Virtual Machine Managed Object Reference&amp;rsquo;s (MoRef) change, which makes Veeam Backup &amp;amp; Replication start a new backup/replication chain, since all VMs are treated as new ones.</description>
@@ -38,7 +38,7 @@ Naturally, when there is a new vCenter instance, all the Virtual Machine Manage
       <title>vCenter Server Appliance Backups</title>
       <link>/vmware-2/vcenter-server-appliance-backups/</link>
       <pubDate>Thu, 18 Feb 2016 18:51:14 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/vmware-2/vcenter-server-appliance-backups/</guid>
       <description>For some time now I&amp;rsquo;ve been advocating the usage of VCSA instead of the traditional Microsoft Windows based vCenter. It has feature parity with the Windows version now, it&amp;rsquo;s easier to deploy, gets right-sized out of the box and eliminates the need for an external Microsoft SQL server.
 One of the questions I often face when talking about the appliance,_ is how do we handle backups?_ Most customers are comfortable with backup up Windows servers and Microsoft SQL, but quite a few have reservations when it comes to the integrated vPostgres database that the VCSA employs.</description>
@@ -48,7 +48,7 @@ One of the questions I often face when talking about the appliance,_ is how do w
       <title>vCenter / SSO unable to retrieve AD-information | Error while extracting local SSO users</title>
       <link>/virtualization/vcenter-sso-unable-to-retrieve-ad-information-error-while-extracting-local-sso-users/</link>
       <pubDate>Tue, 10 Nov 2015 19:30:20 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/vcenter-sso-unable-to-retrieve-ad-information-error-while-extracting-local-sso-users/</guid>
       <description>After deploying a new VCSA 6.0u1 I was seeing some weird errors while trying to retrieve AD- users/groups (or anything from the esod.local domain):
 After some serious head scratching, it dawned on me after checking the DNS records for the DC in the domain, from the vCenter Appliance itself:
@@ -60,7 +60,7 @@ So far so good, the DNS lookup works as expected.</description>
       <title>VMware Update Manager: Unsupported Configuration</title>
       <link>/vmware-2/vmware-update-manager-unsupported-configuration/</link>
       <pubDate>Fri, 28 Aug 2015 10:46:24 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/vmware-2/vmware-update-manager-unsupported-configuration/</guid>
       <description>During an upgrade from vSphere 5.1 to 5.5, I ran into a rather strange issue when trying to utilize VMware Update Manager to perform the ESXi upgrade.
 During scanning, VUM reported the ESXi host as &amp;ldquo;Incompatible&amp;rdquo;, without offering any other explanation. I spent ages looking through VUM logs, trying to find the culprit, suspecting it was an incompatible VIB. Without finding anything that gave me any indication on what the problem might be, I moved on to looking at the ESXi image I had imported into VUM.</description>
@@ -70,7 +70,7 @@ During scanning, VUM reported the ESXi host as &amp;ldquo;Incompatible&amp;rdquo
       <title>ESXi5.5 to 6.0 Upgrade From Local HTTP Daemon</title>
       <link>/vmware-2/esxi5-5-to-6-0-upgrade-from-local-http-daemon/</link>
       <pubDate>Wed, 26 Aug 2015 11:35:08 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/vmware-2/esxi5-5-to-6-0-upgrade-from-local-http-daemon/</guid>
       <description>I was recently involved with consulting for a Norwegian shipping company who has quite a few remote vSphere installations, most of them with a couple of ESXi hosts, but no vCenter and hence no Update Manager. While looking at methods for managing these installations, in particular how to facilitate patching and upgrading scenarios, I remembered that way back in 2013, I posted Quick and Dirty HTTP-based Deployment which shows how to use the Python to run a simple http daemon, and serve files from it.</description>
     </item>
@@ -79,7 +79,7 @@ During scanning, VUM reported the ESXi host as &amp;ldquo;Incompatible&amp;rdquo
       <title>Importing vCloud Air SSL Certificate on the vCenter Server Appliance 5.x</title>
       <link>/vmware-2/importing-vcloud-air-ssl-certificate-vcenter-server-appliance-5-x/</link>
       <pubDate>Fri, 12 Dec 2014 12:24:55 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/vmware-2/importing-vcloud-air-ssl-certificate-vcenter-server-appliance-5-x/</guid>
       <description>I&amp;rsquo;m playing around a bit with vCloud Air and Virtual Private Cloud OnDemand, and in order to set up the vCloud Hybrid Service plugin in the vSphere Web Client you need to import the vCloud Air SSL certificate into vCenter. If the certificate isn&amp;rsquo;t present in the vCSA keystore when you try to authenticate with vCloud Air, you get a &amp;ldquo;Server Certificate not Verified&amp;rdquo; error, and you will be unsuccessful in configuring the plugin.</description>
     </item>
@@ -88,7 +88,7 @@ During scanning, VUM reported the ESXi host as &amp;ldquo;Incompatible&amp;rdquo
       <title>Root Cause of Invalid memory setting: memory reservation (sched.mem.min) should be equal to memsize (memsize)</title>
       <link>/vmware-2/root-invalid-memory-setting-memory-reservation-sched-mem-min-equal-memsize-memsize/</link>
       <pubDate>Tue, 15 Jul 2014 10:59:42 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/vmware-2/root-invalid-memory-setting-memory-reservation-sched-mem-min-equal-memsize-memsize/</guid>
       <description>While working on reconfiguring my home lab setup, and migrating all the vSphere resources into a single cluster I ran into a problem powering on one of the VMs which used to run on a single host. The power on operation yielded the following error message:
 Invalid memory setting: memory reservation (sched.mem.min) should be equal to memsize (memsize) [showhide type=&amp;ldquo;errorstack&amp;rdquo; more_text=&amp;ldquo;Show error stack (%s More Words)&amp;rdquo;]
@@ -99,7 +99,7 @@ Invalid memory setting: memory reservation (sched.mem.min) should be equal to me
       <title>Automatically Name Datastores in vSphere?</title>
       <link>/vmware-2/automatically-datastores-vsphere/</link>
       <pubDate>Tue, 18 Feb 2014 16:16:28 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/vmware-2/automatically-datastores-vsphere/</guid>
       <description>William Lam posted &amp;ldquo;Why you should rename the default VSAN Datastore name&amp;rdquo; where he outlines why the default name for VSAN data stores should be changed. Of course, I completely agree with his views on this; Leaving it at the default might cause confusion down the line.
 At the end of the post, William asks the following:
@@ -110,7 +110,7 @@ I wonder if it would be a useful to have a feature in VSAN to automatically appe
       <title>Fixing &#34;Could not create vFlash cache&#34; error when powering on a VM</title>
       <link>/virtualization/fixing-could-create-vflash-cache-error-powering-vm/</link>
       <pubDate>Sun, 19 Jan 2014 19:19:02 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/fixing-could-create-vflash-cache-error-powering-vm/</guid>
       <description>During some way overdue housekeeping in my HP Microserver-based &amp;ldquo;Homelab&amp;rdquo; today, I ran into a rather annoying issue that prevented me from starting one of my more important VMs; namely my home Domain Controller.
 In short, I removed an old SSD drive that I&amp;rsquo;ve used for vFlash Read Cache (vFRC) testing and installed a new 1TB drive instead. Since I have a rather beefy work lab now, I need space more than speed at home, so this seemed like a good idea at the time.</description>
@@ -120,7 +120,7 @@ In short, I removed an old SSD drive that I&amp;rsquo;ve used for vFlash Read Ca
       <title>Upgrading vSphere vCenter Appliance 5.1 to 5.5</title>
       <link>/vmware-2/upgrading-vsphere-vcenter-appliance-5-1-5-5/</link>
       <pubDate>Mon, 30 Sep 2013 12:20:38 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/vmware-2/upgrading-vsphere-vcenter-appliance-5-1-5-5/</guid>
       <description>In VMware KB Upgrading vCenter Server Appliance 5.0.x/5.1 to 5.5 (2058441) the procedure for upgrading an existing 5.0/5.1 vSphere vCenter Server Appliance is outlined, walking you through the steps required including deploying a new 5.5 vCSA and transferring the data from the old instance to the new one. Straight forward procedure, but there is one small caveat in this process.
 One important thing to remember, and something I don´t feel that the knowledge-base article highlights well enough is that the new v5.</description>
@@ -130,7 +130,7 @@ One important thing to remember, and something I don´t feel that the knowledge-
       <title>Can you combine vSphere Host Cache and vFlash on a single SSD?</title>
       <link>/vmware-2/combine-vsphere-host-cache-vflash-single-ssd/</link>
       <pubDate>Mon, 30 Sep 2013 00:12:39 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/vmware-2/combine-vsphere-host-cache-vflash-single-ssd/</guid>
       <description>One of the new features in vSphere 5.5 is the vSphere vFlash that enables you to use a SSD/Flash device as a read cache for your storage. Duncan Epping has a series of posts on vSphere Flash Cache that is well worth a read.
 vSphere vFlash caches your read IOs, but at the same time you can use it as a swap device if you run into memory contention issues. The vSphere vFlash Host Cache is similar to the older Host Cache feature, but if you are upgrading from an older version of ESXi there is a couple of things that needs to be done to be able to use this feature.</description>
@@ -140,7 +140,7 @@ vSphere vFlash caches your read IOs, but at the same time you can use it as a sw
       <title>VMware vCenter Server Appliance Error: VPXD must be stopped to perform this operation</title>
       <link>/vmware-2/vmware-vcenter-server-appliance-error-vpxd-stopped-perform-operation/</link>
       <pubDate>Sun, 29 Sep 2013 23:16:25 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/vmware-2/vmware-vcenter-server-appliance-error-vpxd-stopped-perform-operation/</guid>
       <description>While deploying a fresh vCenter Server 5.5 Appliance, I ran into an issue getting it configured.
 When the appliance is deployed, the first time you log in you get presented with the configuration wizard. The wizard clearly states that if you want to set a static ip, or hostname, you should cancel the wizard, do the network configuration and then re-run the wizard after the fact.
@@ -151,7 +151,7 @@ Well, that´s what I did, and it resulted in the following error when trying to 
       <title>Adding a secondary NIC to the vCenter 5.1 Appliance (VCSA)</title>
       <link>/virtualization/adding-secondary-nic-vcenter-5-1-appliance-vcsa/</link>
       <pubDate>Thu, 25 Apr 2013 11:10:33 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/adding-secondary-nic-vcenter-5-1-appliance-vcsa/</guid>
       <description>While building my lab environment, I ran into a situation where I wanted to have a completely sealed off networking segment that had no outside access.
 This is a trivial task on it`s own, just create a vSwitch with no physical NICs attached to it, and then connect the VMs to it. The VMs will then have interconnectivity, but no outside network access at all.
@@ -162,7 +162,7 @@ In this particular case, I was setting up a couple of nested ESXi servers that I
       <title>Backing up vCenter DB with Veeam B&amp;R 6.5</title>
       <link>/virtualization/backing-up-vcenter-db-with-veeam-br-6-5/</link>
       <pubDate>Mon, 25 Mar 2013 09:03:41 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/backing-up-vcenter-db-with-veeam-br-6-5/</guid>
       <description>It´s a well known problem that with Veeam Backup &amp;amp; Recovery Replication 6.5, and earlier, backing up the SQL server that hosts the vCenter DB poses a problem. KB1051 VSS for vCenter outlines the issue well, and provides a workaround.
 If you experience this problem, you will see entries like this in your Veeam B&amp;amp;R backup logs:
@@ -174,7 +174,7 @@ The workaround provided by Veeam is to create host VM-Host Affinity Rules, effe
       <title>Preserve your Veeam B&amp;R Backups Jobs when Moving vCenter</title>
       <link>/virtualization/preserve-veeam-br-backups-jobs-moving-vcenter/</link>
       <pubDate>Tue, 19 Mar 2013 21:13:20 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/preserve-veeam-br-backups-jobs-moving-vcenter/</guid>
       <description>This week I´m working at a client site, upgrading their entire existing vSphere 4.1 infrastructure to vSphere 5.1. The customer engagement also includes upgrading Veeam Backup and Replication 6.0 to 6.5, and usually an isolated upgrade of Veeam B&amp;amp;R is a no-brainer next, next, next, done install.
 To complicate things in this particular environment, I also had to migrate the vCenter SQL DB from a local MS SQL Server 2005 Express instance to a full-fledged MS SQL Server 2008 R2 instance.</description>
@@ -184,7 +184,7 @@ To complicate things in this particular environment, I also had to migrate the v
       <title>Purging the vCenter Operations Manager 5.x Database</title>
       <link>/vmware-2/purging-vcenter-operations-manager-5-x-database/</link>
       <pubDate>Tue, 05 Feb 2013 12:26:26 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/vmware-2/purging-vcenter-operations-manager-5-x-database/</guid>
       <description>A client of mine recently had their vCenter 5.0 appliance replaced with a new vCenter 5.1 appliance, something vCenter Operations Manager did not enjoy. In this case the original vCenter 5.0 Appliance was turned shut down, a new 5.1 Appliance deployed, with the same IP as the old one, and then configured. Naturally the existing hosts were added to the fresh vCenter, clusters recreated and in general everything was reconfigured.</description>
     </item>
@@ -193,7 +193,7 @@ To complicate things in this particular environment, I also had to migrate the v
       <title>vCenter Operations Manager and vCenter Deployment Dependency</title>
       <link>/vmware-2/vcenter-operations-manager-vcenter-deployment-dependency/</link>
       <pubDate>Wed, 16 Jan 2013 21:59:07 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/vmware-2/vcenter-operations-manager-vcenter-deployment-dependency/</guid>
       <description>In order to be able to deploy vCenter Operations Manager, the ESXi host it is deployed to needs to be managed by a vCenter. At first glance, that seems like a fair and pretty straight forward requirement, right? But, is it?
 While I can see the need for a vCenter in the environment that vCenter Operations Manager is supposed to monitor, I don´t understand why the host you want to deploy the vApp on has to be managed by a vCenter instance as well?</description>
@@ -203,7 +203,7 @@ While I can see the need for a vCenter in the environment that vCenter Operation
       <title>VMware vSphere Health Check - What´s in it for You?</title>
       <link>/vmware-2/vmware-vsphere-health-checks-wha/</link>
       <pubDate>Tue, 04 Dec 2012 22:49:27 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/vmware-2/vmware-vsphere-health-checks-wha/</guid>
       <description>VMware vSphere Health Check is a service provided by VMware Professional Services, either by their own consultants or by a consultant from a VMware Certified Solution Provider.
 I´m lucky enough to be employed by a Premier VMware Solution Provider who offers this service to our customers, and I´ve completed a fair number of these health checks in the last couple of months.
@@ -214,7 +214,7 @@ You might ask what the value of the Health Check is, and for the end customer it
       <title>Exporting vCenter Events with PowerCLI</title>
       <link>/virtualization/exporting-vcenter-events-powercli/</link>
       <pubDate>Fri, 30 Nov 2012 09:12:50 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/exporting-vcenter-events-powercli/</guid>
       <description>One of my clients has recently been having issues with their storage solution, and wanted to export the events from vCenter that show storage performance degradation, to aid in troubleshooting with the vendor.
 For some reason, and I have yet to confirm that this is a bug with the vCenter 5.0 appliance or the vCenter Desktop Client, when an event export is done, the storage related events are not exported with the rest of the events.</description>
@@ -224,7 +224,7 @@ For some reason, and I have yet to confirm that this is a bug with the vCenter 5
       <title>Multi-Hypervisor Management and the Future</title>
       <link>/news/multi-hypervisor-management-and-the-future/</link>
       <pubDate>Sun, 12 Jun 2011 20:34:52 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/news/multi-hypervisor-management-and-the-future/</guid>
       <description>In a previous post, vCenter Integration Mantra, I made the point that vSphere vAdmins wants the 3rd party modules to integrate into the vCenter client and show their delicious addon-value there, and not in their own management interface. Give the vAdmins the info they need, where they do most, if not all their work. Open up the admin client and let us get all that juicy and fruity information we need.</description>
     </item>
@@ -233,7 +233,7 @@ For some reason, and I have yet to confirm that this is a bug with the vCenter 5
       <title>vCenter Integration Mantra</title>
       <link>/news/vcenter-integration-mantra/</link>
       <pubDate>Fri, 10 Jun 2011 15:43:18 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/news/vcenter-integration-mantra/</guid>
       <description>During Tech Field Day #6 in Boston one particular general feature request has become increasingly prominent;
 Can we have it inside the vCenter client?
@@ -244,7 +244,7 @@ In short, what we want is for all those great third party vendors like VKernel, 
       <title>vCenter Update Manager - A Feature Request</title>
       <link>/virtualization/vcenter-update-manager-a-feature-request/</link>
       <pubDate>Fri, 22 Apr 2011 21:07:35 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/vcenter-update-manager-a-feature-request/</guid>
       <description>Way back in August 24 2010 I wrote a post called vCenter Update Manager to lose it’s fat. I&amp;rsquo;m still very happy that VMware has decided to drop OS patching from the product, and I still mean that can only be a good thing. In fact, that article prompted Beth Pariseau Senior News Writer for searchservervirtualization.techtarget.com to call me when researching her VMware users eye changes to Update Manager article.</description>
     </item>
@@ -253,7 +253,7 @@ In short, what we want is for all those great third party vendors like VKernel, 
       <title>Installing and configuring VMware vCenter Operations</title>
       <link>/virtualization/installing-and-configuring-vmware-vcenter-operations/</link>
       <pubDate>Mon, 21 Mar 2011 19:50:02 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/installing-and-configuring-vmware-vcenter-operations/</guid>
       <description>VMware vCenter Operations was released to the general public a week or so ago and is available for download right now. As usual you can download a 60 day trial, and get started immediately.
 Like other recent management utilities from VMware, vCenter Operations comes in the form of a .OVF template (like vCMA/vMA).
@@ -264,7 +264,7 @@ Installing VMware vCenter Operations Download VMware vCenter Operations and impo
       <title>vSphere iPad Client</title>
       <link>/virtualization/vsphere-ipad-client/</link>
       <pubDate>Fri, 18 Mar 2011 09:18:44 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/vsphere-ipad-client/</guid>
       <description>Like everyone else in the vUniverse, I&amp;rsquo;ve had a play with the very recently released free vSphere Client for iPad. Since everyone, and their mother, has already blogged and reviewed it I don&amp;rsquo;t see much value in me doing the same.
 What I can say though, is that the first impression is pretty great. It looks good, works well and might be one of the apps that finally gives me an actual use case for the iPad.</description>
@@ -274,7 +274,7 @@ What I can say though, is that the first impression is pretty great. It looks go
       <title>Installing and Configuring WANem Virtual Appliance</title>
       <link>/virtualization/installing-and-configuring-wanem-virtual-appliance/</link>
       <pubDate>Wed, 29 Dec 2010 14:21:36 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/installing-and-configuring-wanem-virtual-appliance/</guid>
       <description>In a previous post, Using the WANem WAN Emulator Virtual Appliance, I&amp;rsquo;ve talked about how I&amp;rsquo;ve successfully used WANem to emulate different WAN scenarios.
 Since I work for a shipping company, the ability to emulate VSAT conditions are especially useful for testing and proof-of-concept scenarios.
@@ -286,7 +286,7 @@ Downloading WANem I have chose to use the WANem Virtual Appliance running in a v
       <title>Developer meets PowerCLI - awesomeness ensues</title>
       <link>/virtualization/developer-meets-powercli-awesomeness-ensues/</link>
       <pubDate>Fri, 15 Oct 2010 20:29:14 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/developer-meets-powercli-awesomeness-ensues/</guid>
       <description>A couple of days ago, while I was at VMworld Europe I got the following tweet from Asbjørn A. Mikkelsen (@neslekkim) (translated from norwegian):
 @h0bbel Do you know if I can script something against vCenter to duplicate (or create from template) VMs, and also start/stop them? My immediate response, was of course to suggest using PowerCLI. Asbjørn, who works as a full time developer, jumped at PowerCLI immediately and within a very short time frame came up with a PowerCLI script for the task at hand.</description>
@@ -296,7 +296,7 @@ Downloading WANem I have chose to use the WANem Virtual Appliance running in a v
       <title>vCenter 4.1 Database Recovery Model Defaults</title>
       <link>/virtualization/vcenter-4-1-database-recovery-model-defaults/</link>
       <pubDate>Mon, 04 Oct 2010 21:36:23 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/vcenter-4-1-database-recovery-model-defaults/</guid>
       <description>Sometimes leaving the defaults in place might just come back and bite you, hard.
 That might also be the case with your vCenter 4.1 database, as I experienced back in July.
@@ -307,7 +307,7 @@ All of a sudden my vCenter Server stopped working. The symptoms where pretty obv
       <title>VMware vSphere Hypervisor Licensing and Cost</title>
       <link>/virtualization/vmware-vsphere-hypervisor-licensing-and-cost/</link>
       <pubDate>Wed, 22 Sep 2010 13:51:13 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/vmware-vsphere-hypervisor-licensing-and-cost/</guid>
       <description>We all know, and love, the fact that vSphere Hypervisor is free of charge. The free version doesn&amp;rsquo;t come with all the bells and whistles of the fully licensed product, but it&amp;rsquo;s still very usable in many scenarios.
 Recently I&amp;rsquo;ve been investigating the possibilities of running vSphere Hypervisor on a number of floating branch offices, also known as vessels.
@@ -318,7 +318,7 @@ I&amp;rsquo;m not going into details about the proposed setup, and how we intend
       <title>Redesigning the vCenter Client?</title>
       <link>/virtualization/redesigning-the-vcenter-client/</link>
       <pubDate>Mon, 20 Sep 2010 22:12:48 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/redesigning-the-vcenter-client/</guid>
       <description>In fresh blog post, called &amp;ldquo;Resource pools and simultaneous vMotions&amp;rdquo; by Frank Denneman prompted a quick Twitter discussion regarding the vCenter client (and perhaps even vCenter itself). A simple
 Why are there no folders under Host and Clusters view ? from Maish Saidel-Keesing got the ball rolling.
@@ -329,7 +329,7 @@ Could it be that the design of the client itself helps perpetuate the myth the r
       <title>Using the WANem WAN Emulator Virtual Appliance</title>
       <link>/network/using-the-wanem-wan-emulator-virtual-appliance/</link>
       <pubDate>Thu, 26 Aug 2010 11:38:00 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/network/using-the-wanem-wan-emulator-virtual-appliance/</guid>
       <description>During preparation and preliminary information gathering for a new internal project, I had a need to emulate various networking conditions and scenarios. More specifically I&amp;rsquo;m looking at the possibility of running the vCenter Client over high latency satellite links, with varying bandwidth availability and even packet loss scenarios.
 Obviously the best way of testing this, in a controlled environment, is to use some kind of WAN emulator that lets you control the various networking characteristics.</description>
@@ -339,7 +339,7 @@ Obviously the best way of testing this, in a controlled environment, is to use s
       <title>SolarWinds VM Console</title>
       <link>/virtualization/solarwinds-vm-console/</link>
       <pubDate>Wed, 25 Aug 2010 13:34:56 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/solarwinds-vm-console/</guid>
       <description>SolarWinds has released a new free vSphere tool called SolarWinds VM Console.
 Free VM Console Highlights:
@@ -354,7 +354,7 @@ Free VM Console Highlights:
       <title>vCenter Update Manager to lose it&#39;s fat</title>
       <link>/virtualization/vcenter-update-manager-to-lose-its-fat/</link>
       <pubDate>Tue, 24 Aug 2010 21:48:02 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/vcenter-update-manager-to-lose-its-fat/</guid>
       <description>Dwayne Lessner who runs IT Blood Pressure, has written a guest post on GestaltIT called Is My Favourite VSphere Tool Is Going Away?
 In his article, Dwayne talks about vCenter Update Manager 4.1, and the fact that it seems to be the last version of the tools that will allow you to patch your Windows and Linux guests:
@@ -365,7 +365,7 @@ In his article, Dwayne talks about vCenter Update Manager 4.1, and the fact that
       <title>vCenter Server 4.1 Performance and Best Practices</title>
       <link>/virtualization/vcenter-server-4-1-performance-and-best-practices/</link>
       <pubDate>Tue, 24 Aug 2010 20:06:16 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/vcenter-server-4-1-performance-and-best-practices/</guid>
       <description>VMware has published a new whitepaper called VMware vCenter Server Performance and Best Practices.
 This is a must read if you manage a vCenter 4.1 installation, or are currently planning your upgrade.
@@ -376,7 +376,7 @@ The whitepaper highlights the performance improvements in the latest version, si
       <title>Where in the world is VMware Server?</title>
       <link>/virtualization/where-in-the-world-is-vmware-server/</link>
       <pubDate>Fri, 13 Aug 2010 23:05:33 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/where-in-the-world-is-vmware-server/</guid>
       <description>Over at PlanetVM Wil van Antwerpen posted The Future of VMware Server back in May 2010. Wil makes the argument that it seems like VMware is indeed abandoning VMware Server as a product, leaving us with VMware Workstation and VMware Player as the two Windows installable virtualization solutions from the company.
 This has caused some reactions, including my own comment, where I question the smartness of abandoning what might just be one of the best virtualization &amp;ldquo;gateway drugs&amp;rdquo; VMware has to offer.</description>
@@ -386,7 +386,7 @@ This has caused some reactions, including my own comment, where I question the s
       <title>Using USB Pass-through in vSphere 4.1</title>
       <link>/virtualization/using-usb-pass-through-in-vsphere-4-1/</link>
       <pubDate>Thu, 22 Jul 2010 23:03:27 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/using-usb-pass-through-in-vsphere-4-1/</guid>
       <description>Finally USB pass-through is possible on ESX hosts with the new vSphere 4.1 release! This feature ha been available in VMware Workstation/Fusion and Player for quite a while. The freshly added feature in vSphere 4.1 even works if you vMotion the guest from one host to another, which is in itself pretty amazing functionality!
 In this post, I&amp;rsquo;ll show how to setup and use the new USB pass-through feature in vSphere 4.</description>
@@ -396,7 +396,7 @@ In this post, I&amp;rsquo;ll show how to setup and use the new USB pass-through 
       <title>Scheduling vCenter Backups</title>
       <link>/virtualization/scheduling-vcenter-backups/</link>
       <pubDate>Thu, 22 Jul 2010 12:17:56 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/scheduling-vcenter-backups/</guid>
       <description>If you run your vCenter on SQL Server Express 2005, you are missing the ability to set up scheduled backup jobs with SQL Maintenance Plans, a feature available in the full version of SQL Server.
 This might not be a problem if your backup software has SQL Server agents that you use to backup your vCenter databaser, but in smaller environments or even in your lab, you might not have that kind of backup scheme available to you, so what do you do?</description>
@@ -406,7 +406,7 @@ This might not be a problem if your backup software has SQL Server agents that y
       <title>Migrating your vCenter from 32bit to 64bit</title>
       <link>/virtualization/migrating-your-vcenter-from-32bit-to-64bit/</link>
       <pubDate>Wed, 21 Jul 2010 12:11:28 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/migrating-your-vcenter-from-32bit-to-64bit/</guid>
       <description>As you may or may not know, the new vCenter 4.1 requires that the host it runs on is 64 bit. As 4.0 and previous versions weren&amp;rsquo;t supported on 64 bit at all, this probably means that when you upgrade you will need to move your existing database to a new host.
 There are several ways of doing the migration, but one way is to backup your existing database, and restore it on a new host and point the new vCenter 4.</description>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Snapshot on Beautiful Hugo</title>
+    <title>Snapshot on Adventures in Hugo</title>
     <link>/tags/snapshot/</link>
-    <description>Recent content in Snapshot on Beautiful Hugo</description>
+    <description>Recent content in Snapshot on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
-    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Wed, 01 Feb 2017 13:18:04 +0000</lastBuildDate>
     
 	<atom:link href="/tags/snapshot/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>ESXi Snapshot Problems: msg.snapshot.error-QUIESCINGERROR</title>
       <link>/vmware-2/esxi-snapshot-problems-msg-snapshot-error-quiescingerror/</link>
       <pubDate>Wed, 01 Feb 2017 13:18:04 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/vmware-2/esxi-snapshot-problems-msg-snapshot-error-quiescingerror/</guid>
       <description>[caption id=&amp;ldquo;attachment_4559&amp;rdquo; align=&amp;ldquo;alignright&amp;rdquo; width=&amp;ldquo;300&amp;rdquo;] Photo by Sonja Langford[/caption]
 Just a quick post about something I experienced at a client, with ESXi 6.0 hosts, today:
@@ -28,7 +28,7 @@ In this case, snapshots of VMs located on other hosts in the cluster were fine, 
       <title>Fun and Games with VDR and Snapshots</title>
       <link>/virtualization/fun-games-vdr-snapshots/</link>
       <pubDate>Thu, 10 Jan 2013 13:47:50 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/virtualization/fun-games-vdr-snapshots/</guid>
       <description>One of the smaller improvements in vSphere 5 was the introduction of the &amp;ldquo;Virtual machine disks consolidation is needed&amp;rdquo; configuration alert if vSphere determines that there are orphaned snapshots for a given VM.
 

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Royaltsx on Beautiful Hugo</title>
+    <title>Royaltsx on Adventures in Hugo</title>
     <link>/tags/royaltsx/</link>
-    <description>Recent content in Royaltsx on Beautiful Hugo</description>
+    <description>Recent content in Royaltsx on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
-    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Wed, 11 Oct 2017 21:45:11 +0000</lastBuildDate>
     
 	<atom:link href="/tags/royaltsx/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>Making Royal TSX Even More Awesome</title>
       <link>/osx/making-royal-tsx-even-more-awesome/</link>
       <pubDate>Wed, 11 Oct 2017 21:45:11 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>/osx/making-royal-tsx-even-more-awesome/</guid>
       <description>For those who don&amp;rsquo;t know, Royal TSX is an awesome Remote Management solution, which supports RDP, VNC, SSH, S/FTP and even ESXi and vCenter. I&amp;rsquo;ve been using it for years, not just because they offer free licenses for vExperts (and others), but simply because it works really well. Store it&amp;rsquo;s config file on a synchronized file area (like Dropbox), and boom, your config follows you around from machine to machine, including custom icons.</description>
     </item>
