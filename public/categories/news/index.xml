@@ -505,16 +505,6 @@ Enjoy!</description>
     </item>
     
     <item>
-      <title>HP ProLiant MicroServer – Oh, it&#39;s there!</title>
-      <link>/news/hp-proliant-microserver-%e2%80%93-oh-its-there/</link>
-      <pubDate>Mon, 17 Jan 2011 08:37:37 +0000</pubDate>
-      
-      <guid>/news/hp-proliant-microserver-%e2%80%93-oh-its-there/</guid>
-      <description>In a previous article, HP ProLiant MicroServer – Not Quite There Yet?, I questioned whether the HP Proliant MicroServer could have a place in a corporate environment.
-I finally got my hands on one, and for my specific use case it&amp;rsquo;s pretty much perfect! Sure, I would love to have some vSphere supported RAID controller and a beefier CPU but in my use case the MicroServer delivers just what we need for some of our small branch offices.</description>
-    </item>
-    
-    <item>
       <title>Volume Activation Management Tool (VAMT) article</title>
       <link>/news/volume-activation-management-tool-vamt-article/</link>
       <pubDate>Sun, 16 Jan 2011 22:03:48 +0000</pubDate>
