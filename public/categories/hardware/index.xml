@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hardware on Adventures in Hugo</title>
+    <title>Hardware on Beautiful Hugo</title>
     <link>/categories/hardware/</link>
-    <description>Recent content in Hardware on Adventures in Hugo</description>
+    <description>Recent content in Hardware on Beautiful Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
+    <webMaster>youremail@domain.com (Some Person)</webMaster>
     <lastBuildDate>Mon, 10 Oct 2016 13:18:30 +0000</lastBuildDate>
     
 	<atom:link href="/categories/hardware/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>Patch those Dell Servers easily!</title>
       <link>/hardware/patch-those-dell-servers-easily/</link>
       <pubDate>Mon, 10 Oct 2016 13:18:30 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/hardware/patch-those-dell-servers-easily/</guid>
       <description>Did you know that Dell has a bootable linux ISO with firmware upgrades for their servers available? Neither did I, but luckily I found it today when needing it at a customer site.
 Check out Updating Dell PowerEdge servers via bootable media / ISO where you can download bootable ISOs for specific server models, and get all your firmware upgraded in one fell swoop.
@@ -27,7 +27,7 @@ Be warned though, it takes quite some time to run though it all (125 update pac
       <title>HP ProLiant MicroServer – Oh, it&#39;s there!</title>
       <link>/news/hp-proliant-microserver-%e2%80%93-oh-its-there/</link>
       <pubDate>Mon, 17 Jan 2011 08:37:37 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/hp-proliant-microserver-%e2%80%93-oh-its-there/</guid>
       <description>In a previous article, HP ProLiant MicroServer – Not Quite There Yet?, I questioned whether the HP Proliant MicroServer could have a place in a corporate environment.
 I finally got my hands on one, and for my specific use case it&amp;rsquo;s pretty much perfect! Sure, I would love to have some vSphere supported RAID controller and a beefier CPU but in my use case the MicroServer delivers just what we need for some of our small branch offices.</description>
@@ -37,7 +37,7 @@ I finally got my hands on one, and for my specific use case it&amp;rsquo;s prett
       <title>HP ProLiant MicroServer - Not Quite There Yet?</title>
       <link>/news/hp-proliant-microserver-not-quite-there-yet/</link>
       <pubDate>Thu, 09 Sep 2010 22:44:25 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/hp-proliant-microserver-not-quite-there-yet/</guid>
       <description>When HP announced their new ProLiant MicroServer, I really hoped that it would be the perfect answer to a specific use case I&amp;rsquo;ve been looking at lately.
 Basically, what I&amp;rsquo;m looking for is a small chassis, low noise branch office server that would be used to host a single virtual machine, offering Read-Only Domain Controller (RODC) and Distributed File System (DFS) file-shares.

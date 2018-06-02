@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Collaboration on Adventures in Hugo</title>
+    <title>Collaboration on Beautiful Hugo</title>
     <link>/tags/collaboration/</link>
-    <description>Recent content in Collaboration on Adventures in Hugo</description>
+    <description>Recent content in Collaboration on Beautiful Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
+    <webMaster>youremail@domain.com (Some Person)</webMaster>
     <lastBuildDate>Wed, 27 Jun 2012 00:07:18 +0000</lastBuildDate>
     
 	<atom:link href="/tags/collaboration/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>VMworld Session Reject Club</title>
       <link>/virtualization/vmworld-session-reject-club/</link>
       <pubDate>Wed, 27 Jun 2012 00:07:18 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/virtualization/vmworld-session-reject-club/</guid>
       <description>**VMworld Session Reject Club 1st RULE: You do talk about Reject Club. **
 Today VMware has sent out notifications to VMworld 2012 session submitters, with a yay or nay email. Of course, this sparked a lot of conversation on Twitter, and Scott Lowe published a blog post proposing a VMworld Unconference, and exploring several options:

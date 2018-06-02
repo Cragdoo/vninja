@@ -1,266 +1,906 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
-    <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-<meta property="og:title" content="Posts" />
-<meta property="og:description" content="There is a thin line between agile and fragile" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="/posts/" />
+  <title>Posts</title>
+  <meta property="og:title" content="Posts" />
+  <meta name="twitter:title" content="Posts" />
+  <meta name="author" content="Some Person"/>
+  <link href='/img/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta property="og:image" content="/img/avatar-icon.png" />
+  <meta name="twitter:image" content="/img/avatar-icon.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@username" />
+  <meta name="twitter:creator" content="@username" />
+  <meta property="og:url" content="/posts/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Beautiful Hugo" />
+
+  <meta name="generator" content="Hugo 0.40.3" />
+  <link rel="canonical" href="/posts/" />
+  <link rel="alternate" href="/posts/index.xml" type="application/rss+xml" title="Beautiful Hugo">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+  <link rel="stylesheet" href="/css/highlight.min.css" /><link rel="stylesheet" href="/css/codeblock.css" />
 
 
 
-<meta property="og:updated_time" content="2014-08-25T13:30:58&#43;00:00"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
 
 
 
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
 
+<div class="pswp__bg"></div>
 
-
-
-
-
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Posts"/>
-<meta name="twitter:description" content="There is a thin line between agile and fragile"/>
-<meta name="generator" content="Hugo 0.40.3" />
-
-
+<div class="pswp__scroll-wrap">
     
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "Blog",
-  "headline": "Adventures in Hugo",
-  "url" : "/posts/",
-  "author": {
-    "@type": "Person",
-    "name": "Christian Mohn"
-  },
-  "dateModified": "2014-08-25T13:30:58&#43;00:00",
-  "keywords": "awesometalks,book,hardware,homelab,howto,inthebag,microsoft,misc,network,news,os-x,rant,software,storage,virtualization,vmware,windows,workflow,2011,2014,2015,2016,2017,3par,5.5,6.0,6.5,acronis,adobe,adviceforvmworld,agile,alastair-cooke,alerting,analysis,announcement,annual,api,app-delivery,apple,applescript,appliance,architecture,audio,autolab,automation,automator,availability,award,awesome,awesometalk,aws,awsome,backup,backup-academy,backup-amp-replication,backup-amp-replication-v7,bag,barcelona,bash,best-practice,beta,bitlocker,bl460c,bladesystem,block-size,blog,bloggers,blogging,blogtober,book,boot-camp,bug,c3000,c7000,cancer,care-package,cc,certificate,certificates,certification,change,changelog,changes,charity,christian-mohn,chromecast,cisco,citrix,cloud,cloudflare,cohesity,collaboration,command-line,community,competition,conference,content-creation,contest,contest.-photo,copenhagen,daas,data-center,datastore,day-2,dell,denmark,deployment,desktop,digital-ship,disaster,disaster-recovery,dmarc,dns,docker,dockerflix,documentation,donation,doom,download,dr,dropbox,dynamic-dns,easyvnx,ed,edb-ergogroup,email,embedded-host-client,emc,encryption,epiphany,equallogic,esx,esx-3.5,esxcli,esxi,esxi-4,esxi-5,euc,event,event-id-2915,evernote,everyday,evo,evorail,evry,exchange,experiment,facelift,feature-request,featured,fibre-channel,fire,firewall,firmware,flash,flash-talk,fling,floppy,form-factor,framework,free,free-tool,free-tools,freebie,fun,fundraising,future,g8,gdpr,geektool,github,give-away,gorilla,gpmc,group-policy,group-policy-preferences,ha,hack,hands-on,hands-on-lab,hands-on-labs,happy-dance,harakiri,hardware,hardware-version,health-check,hipster-it,hol,home-lab,homebrew,homelab,homelabops,horizon,horizon-application-manager,host,host-cache,hosted-beta,howto,hp,hp-insight-control,http,hyper-converged,hyper-v,hyperconverged,hypervisor,ideas,ifttt,images,impatient,installation,integrity,intel,internationalization,inthebag,inthebag.-weekly,iomega,ipad,ix2,john-troyer,kb,kb2393802,keep-calm,keynote,keyremap4macbook.-customization,kids,knowledge-base,lab,labs,latency-sensitivity,licenses,licensing,linux,log,log-files,log-insight,mac,macos,maintenance,makyo,management,markdown,marvin,md5,meltdown,messaging,microsoft,microsoft-office,microvisor,mike-laverick,misinformation,monitoring,moref,movember,multipath,nda,neil-armstrong,nested-esxi,networking,news,nfr,nfs,ninja,node,nordic,nordic-vmug,norway,nsx,ntp,nutanix,nutjob,omnigraffle,oneliner,online-training,operations,opinion,ops,organization,os-x,oslo,p220i,packt,pandoc,password,patch,patching,pckeyboardhack,pernixdata,personal,petri,photo,photos,php,pins,plans,plugin,pocket,podcast,podcasting-for-cancer,policy-based-computing,posters,powercli,powergui,powershell,prediction,presentation,proact,productivity,proliant,proof-of-concept,proxy,psc,published,python,quote,quotes,rant,raspberry-pi,ravello,rdcman,real-world,realworld,receiver,recommended,release,remoting,review,role,royaltsx,rpi,rsync,saas,sammy-bogaert,sandisk,sccm,script,scripting,scvmm,sddc,seatrans,security,self-help,self-promotion,server,session,setup,sfp&#43;,sha1,sharing,simulation,site,site-recovery-manager,slack,slate,snapshot,snark,social,social-media,software,speaking,spectacle,spectre,speculation,sql-server-express,ssd,ssh,ssl,sso,statistics,steve-herrod,stickers,storage,storeserv,suggestion,suse,syslog,system-center,tech-conference,tech-field-day,terminal,theme,thin-client,thinapp,tips-amp-tricks,todo,todoist,togaf,tool,topology,topvblog,tpm,training,trainsignal,travel,trial,troubleshooting,tunnels,ubuntu,unconference,unsupported,update,upgrade,usb,usercon,v12n,vaio,vanguards,vblog,vcap,vcap-dca,vcap-dcd,vcdx,vcdxwannabe,vcenter,vcenter-appliance,vcenter-client,vcenter-operations,vcenter-operations-manager,vcenter-server-appliance,vcenter-update-manager,vcenter-web-client,vcli,vcloud,vcloud-air,vcp,vcsa,vdm30in30,vdr,veeam,veeam-backup-amp-replication,venting,vexpert,vflash,vflash-read-cache,vfrc,vib,video,view,vip-vcp-club,virtual-appliance,virtual-application,virtual-connect,virtualization,vkernel,vlaunchpad,vm,vma,vmfs,vmtn,vmtn-subscription,vmug,vmware,vmware-forum,vmware-photon,vmware-player,vmware-server,vmware-software-manager,vmware-studio,vmware-view,vmware-workstation,vmware.-vcl,vmworld,vmworld-2012,vmworld-fun-contest,vmworld.-rant,vmworld2012,vninja,vops,vote,voting,vpostgres,vram,vrealize-log-insight,vrealize-operations,vrli,vrops,vrtx,vsamurai,vsan,vshield,vshield-edge,vshield-manager,vsoup,vsphere,vsphere-5,vsphere-5.5,vsphere-6,vsphere-6.5,vsphere-client,vsphere-land,vsphere-replication,watchguard,waterfall,web-client,webhook,webinar,weekly,weeky,whatsup,whitepaper,window-manager,windows,windows-8,winner,winners,wordpress,work,workaround,workflow,workstation,workstation-8,wsus,xen,xvmotion,youtube,zerto,",
-  "description": "There is a thin line between agile and fragile"
-}
-</script>
-
-
-    <link rel="canonical" href="/posts/">
-
-    <title>Adventures in Hugo</title>
-
-    <!-- combined, minified CSS -->
-    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
-
-    
-    <!-- RSS 2.0 feed -->
-    <link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="Adventures in Hugo" />
-    
-
-    
-
-    
-
-    
-
-  </head>
-
-  <body>
-
-    
-    <div class="blog-masthead">
-      <div class="container">
-        <nav class="nav blog-nav">
-          <a class="nav-link " href="/">Home</a>
-          
-          <a class="nav-link" href="https://example.org" title="">Link 1</a>
-          
-        </nav>
-      </div>
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
     </div>
     
-
-    
-    <header class="blog-header">
-      <div class="container">
-        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
-        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
       </div>
-    </header>
-    
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
 
-    
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-8 blog-main">
+</head>
 
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Beautiful Hugo</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
           
+            <li>
+              <a title="Blog" href="/">Blog</a>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent" href="javascript:void(0)">Samples</a>
+              <div class="navlinks-children">
+                
+                  <a href="/post/2017-03-07-bigimg-sample">Big Image Sample</a>
+                
+                  <a href="/post/2017-03-05-math-sample">Math Sample</a>
+                
+                  <a href="/post/2016-03-08-code-sample">Code Sample</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li>
+              <a title="About" href="/page/about/">About</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Tags" href="/tags">Tags</a>
+            </li>
+          
+        
 
+        
 
+        
+      </ul>
+    </div>
 
+    <div class="avatar-container">
+      <div class="avatar-img-border">
+        
+          <a title="Beautiful Hugo" href="/">
+            <img class="avatar-img" src="/img/avatar-icon.png" alt="Beautiful Hugo" />
+          </a>
+        
+      </div>
+    </div>
 
-
-
-
-<article class="blog-post">
-  <header>
-    <h2 class="blog-post-title"><a href="/vmware-2/official-evorail/">It&rsquo;s official EVO:RAIL it is</a></h2>
-    <p class="blog-post-meta"><time datetime="2014-08-25T13:30:58Z">Mon Aug 25, 2014</time> by cmohn in 
-<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/vmware" rel="category tag">VMware</a>
-
-
-<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/announcement" rel="tag">Announcement</a>, <a href="/tags/evo" rel="tag">EVO</a>, <a href="/tags/evorail" rel="tag">EVO:RAIL</a>, <a href="/tags/marvin" rel="tag">Marvin</a>, <a href="/tags/vmware" rel="tag">VMware</a>, <a href="/tags/vmworld" rel="tag">vmworld</a>
-
-</p>
-  </header>
-  VMware has finally announced what I&rsquo;ve been speculating about for some time now, EVO:RAIL was announced at VMworld US this morning. Short story; It&rsquo;s a HCIA (Hyper Converged Infrastructure Appliance), offered through several hardware vendors, with a new integrated management solution.
-Since I&rsquo;m not at VMworld my self, I&rsquo;ll leave the blog postings to those close to the action, but here is a quick collection of links to get you acquainted with the next EVOlution of SDDC from VMware:
-  <a href='/vmware-2/official-evorail/'>Read more →</a>
-</article> 
-
-
-
-
-
-
-<article class="blog-post">
-  <header>
-    <h2 class="blog-post-title"><a href="/rant/adviceforvmworld/">#AdviceForVMworld</a></h2>
-    <p class="blog-post-meta"><time datetime="2014-08-22T18:08:56Z">Fri Aug 22, 2014</time> by cmohn in 
-<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/rant" rel="category tag">Rant</a>
-
-
-<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/adviceforvmworld" rel="tag">AdviceForVMworld</a>, <a href="/tags/rant" rel="tag">Rant</a>, <a href="/tags/venting" rel="tag">Venting</a>, <a href="/tags/vmworld" rel="tag">vmworld</a>
-
-</p>
-  </header>
-  VMworld US is very soon upon us, and I&rsquo;m one of the jealous ones left behind not being able to attend. I will hopefully be able to join everyone oat VMworld Europe in Barcelona on October though.
-An interesting Twitter hashtag #AdviceForVMworld appeared a week or so ago, with lots of good advice for people attending a huge tech conference.
-Here are a few good examples:
-[#AdviceForVMworld](https://twitter.com/hashtag/AdviceForVMworld?src=hash): Just Say Hi, it is all about the conversations, networking.
-  <a href='/rant/adviceforvmworld/'>Read more →</a>
-</article> 
-
-
-
-
-
-
-<article class="blog-post">
-  <header>
-    <h2 class="blog-post-title"><a href="/vmware-2/evolution-baby/">It&rsquo;s EVOlution Baby!</a></h2>
-    <p class="blog-post-meta"><time datetime="2014-08-21T22:38:22Z">Thu Aug 21, 2014</time> by cmohn in 
-<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/vmware" rel="category tag">VMware</a>
-
-
-<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/evo" rel="tag">EVO</a>, <a href="/tags/marvin" rel="tag">Marvin</a>, <a href="/tags/vmware" rel="tag">VMware</a>, <a href="/tags/vmworld" rel="tag">vmworld</a>
-
-</p>
-  </header>
-  Finally. I&rsquo;ve finally found a way to put two of my favourite things together in a completely non-sensical way, namely VMware Marvin and Pearl Jam. As The Register reported earlier today, odds are that Marvin no longer responds to it&rsquo;s project name, but rather to the new EVO name recently trademarked by VMware. There has been whispers of a Marvin name change for quite some time, so this isn&rsquo;t really hard to believe.
-  <a href='/vmware-2/evolution-baby/'>Read more →</a>
-</article> 
-
-
-
-
-
-
-<article class="blog-post">
-  <header>
-    <h2 class="blog-post-title"><a href="/storage-2/problems-connecting-hp-insight-control-storage-module-storeserv-7200-3par/">Problems connecting HP Insight Control Storage Module to StoreServ 7200 (3Par)</a></h2>
-    <p class="blog-post-meta"><time datetime="2014-08-21T22:21:59Z">Thu Aug 21, 2014</time> by cmohn in 
-<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/storage" rel="category tag">Storage</a>
-
-
-<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/3par" rel="tag">3Par</a>, <a href="/tags/hp" rel="tag">HP</a>, <a href="/tags/hp-insight-control" rel="tag">HP Insight Control</a>, <a href="/tags/storeserv" rel="tag">StoreServ</a>, <a href="/tags/troubleshooting" rel="tag">Troubleshooting</a>, <a href="/tags/vcenter-operations-manager" rel="tag">vCenter Operations Manager</a>
-
-</p>
-  </header>
-  A customer of mine, who runs a pure HP environment based on c7000 and StoreServ 7200, wanted to get the HP Insight Control Storage Module for vCenter up and running. The problem was that while we were able to connect to the older MSA array they run for non-production workloads, we were unable to connect to the newer StoreServ 7200. There is full IP connectivity between the application server that the HP Insight components run on and the storage controllers/VSP (no firewalls between them, they are located in the same subnet).
-  <a href='/storage-2/problems-connecting-hp-insight-control-storage-module-storeserv-7200-3par/'>Read more →</a>
-</article> 
-
-
-
-
-
-
-<article class="blog-post">
-  <header>
-    <h2 class="blog-post-title"><a href="/vmware-2/marvin-related-vmworld-sessions/">Marvin Related VMworld Sessions?</a></h2>
-    <p class="blog-post-meta"><time datetime="2014-08-20T13:05:41Z">Wed Aug 20, 2014</time> by cmohn in 
-<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/vmware" rel="category tag">VMware</a>
-
-
-<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/hyper-converged" rel="tag">Hyper Converged</a>, <a href="/tags/marvin" rel="tag">Marvin</a>, <a href="/tags/sddc" rel="tag">SDDC</a>, <a href="/tags/speculation" rel="tag">Speculation</a>, <a href="/tags/vmworld" rel="tag">vmworld</a>
-
-</p>
-  </header>
-  It&rsquo;s been a while since I tried speculating on the soon-to-be-announced VMware Marvin project, but some very recent VMworld US 2014 session additions look really interesting in that regard:
-SDDC1818 - VMware Customers Share Experiences and Requirements for Hyper-Converged SDDC2095 - VMware and Hyper-Converged Infrastructure SDDC1767 - SDDC at Scale with VMware Hyper-Converged Infrastructure: Deeper Dive SDDC3245-S - Software-Defined Data Center through Hyper-Converged Infrastructure
-If you look at 1767 specifically, since the other sessions are still very light on details, it has a rather interesting description:
-  <a href='/vmware-2/marvin-related-vmworld-sessions/'>Read more →</a>
-</article> 
-
-
-
-
-
-<nav class="blog-pagination">
-  
-  <a class="btn btn-outline-primary" href="/posts/page/23/" rel="prev" role="button">Previous page</a>
-  <a class="btn btn-outline-primary" href="/posts/page/25/" rel="next" role="button">Next page</a>
-  
-  
-  
+  </div>
 </nav>
 
 
 
 
-
-        </div> <!-- /.blog-main -->
-
-        <aside class="col-sm-3 ml-auto blog-sidebar">
-  
-
-  
-
-  
-  <section class="sidebar-module">
-    <h4>Links</h4>
-    <ol class="list-unstyled">
-      
-      <li><a href="https://example.com">Link 1</a></li>
-      
-      <li><a href="https://example.org">Link 2</a></li>
-      
-    </ol>
-  </section>
-  
-</aside>
-
-
-      </div> <!-- /.row -->
-    </div> <!-- /.container -->
     
+  <header class="header-section ">
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="page-heading">
+              <h1>Posts</h1>
+              <hr class="small">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
 
     
-    <footer class="blog-footer">
-      <p>
-      
-      &copy; Christian Mohn
-      
-      </p>
-      <p>
-      <a href="#">Back to top</a>
-      </p>
-    </footer>
-    
+  <div class="container" role="main">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        
+        <div class="posts-list">
+          
+            <article class="post-preview">
+              <a href="/virtualization/backup-academy-do-you-know-your-vm-backups/">
+                <h2 class="post-title">Backup Academy - Do You Know Your VM backups?</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on September 13, 2011
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 1 minutes (131 words)
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  The newly opened Backup Academy, by Veeam, aims to educate administrators, and others interested in virtual machine backup, in the required skills to maintain a proper backup strategy for your virtual infrastructure.
+Currently the site has 8 videos available, covering content from disaster recovery to backup integrity tools.
+Even if it is run by Veeam, it does not focus on Veeam specific products or services, but rather on the general ideas behind a successful backup and disaster recovery of both VMware and Hyper-V based environments.
+                  <a href="/virtualization/backup-academy-do-you-know-your-vm-backups/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="//tags/backup/">Backup</a>&nbsp;
+                  
+                    <a href="//tags/backup-academy/">Backup Academy</a>&nbsp;
+                  
+                    <a href="//tags/certification/">Certification</a>&nbsp;
+                  
+                    <a href="//tags/hyper-v/">Hyper-V</a>&nbsp;
+                  
+                    <a href="//tags/veeam/">Veeam</a>&nbsp;
+                  
+                    <a href="//tags/virtualization/">Virtualization</a>&nbsp;
+                  
+                    <a href="//tags/vmware/">VMware</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="/virtualization/vmware-workstation-8-whats-new/">
+                <h2 class="post-title">VMware Workstation 8 - What&#39;s new?</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on September 7, 2011
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 3 minutes (524 words)
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  VMware is close (still in beta) to releasing the new major release of VMware Workstation.
+Update 14. September 2011: VMware Workstation 8 has now officially been released.
+VMware Workstation 8 brings a lot of new features and enhancements to the table, and I&rsquo;ve been lucky enough to play around with it in the beta program.
+VMware Workstation 8 System Requirements To be able to install VMware Workstation, the host system processor needs to meet the following requirements:
+                  <a href="/virtualization/vmware-workstation-8-whats-new/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="//tags/beta/">Beta</a>&nbsp;
+                  
+                    <a href="//tags/software/">Software</a>&nbsp;
+                  
+                    <a href="//tags/vmware/">VMware</a>&nbsp;
+                  
+                    <a href="//tags/workstation/">Workstation</a>&nbsp;
+                  
+                    <a href="//tags/workstation-8/">Workstation 8</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="/virtualization/vmworld-hands-on-labs-going-public-in-2012/">
+                <h2 class="post-title">VMworld Hands-on Labs going public in 2012</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on August 30, 2011
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 1 minutes (62 words)
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  <p>VMware Labs now has fixed data centers which means that the VMworld Hands-On labs are going to be publicly available in early 20112!</p>
+
+<p>Hear Mornay Van Der Walt, Senior Director R&amp;D at VMware, explain the details in this video from <a href="http://www.youtube.com/vmworldtv">VMworld TV</a>:</p>
+
+<p>This is great news, and I&rsquo;m sure I&rsquo;m not the only one who thinks this is a <a href="http://vninja.net/virtualization/extending-vmworld-labs/">really good idea</a>.</p>
+
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="//tags/labs/">labs</a>&nbsp;
+                  
+                    <a href="//tags/vmware/">VMware</a>&nbsp;
+                  
+                    <a href="//tags/vmworld/">vmworld</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="/microsoft-2/sccm-2007-not-a-virtualization-candidate/">
+                <h2 class="post-title">SCCM 2007 Not a Virtualization Candidate?</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on August 26, 2011
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 2 minutes (344 words)
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  The last couple of days I&rsquo;ve been in training class, taking the 6451B Planning, Deploying and Managing Microsoft System Center Configuration Manager 2007 course.
+One of the first things that got mentioned, was that for larger deployments you should not run System Center Configuration Manager virtually. Of course, this caught my eye as I&rsquo;m a proponent for the virtualize first &ldquo;movement&rdquo;.
+It runs out that the reason for this is that Configuration Manager is somewhat poorly designed, as just about everything it receives from the clients in the network is placed in text based log files (inbox folder) before being processed and pumped into the back-end SQL DB.
+                  <a href="/microsoft-2/sccm-2007-not-a-virtualization-candidate/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="//tags/microsoft/">Microsoft</a>&nbsp;
+                  
+                    <a href="//tags/ops/">Ops</a>&nbsp;
+                  
+                    <a href="//tags/realworld/">realworld</a>&nbsp;
+                  
+                    <a href="//tags/sccm/">SCCM</a>&nbsp;
+                  
+                    <a href="//tags/windows/">Windows</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="/microsoft-2/poor-mans-wsus/">
+                <h2 class="post-title">Poor Man&#39;s WSUS</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on August 25, 2011
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 2 minutes (396 words)
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  Not that WSUS is expensive, after all it&rsquo;s a &ldquo;free&rdquo; addon to the server you&rsquo;re already running if you need it. Of course, running your own Windows Server Update Services (WSUS) infrastructure is preferable in just about every scenario except for some edge cases where bandwidth or latency issues might prevent you from syncing the updates from a central repository. Sadly, these edge cases enter the fray from time to time and I recently found myself in the middle of such a scenario.
+                  <a href="/microsoft-2/poor-mans-wsus/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="//tags/microsoft/">Microsoft</a>&nbsp;
+                  
+                    <a href="//tags/ops/">Ops</a>&nbsp;
+                  
+                    <a href="//tags/patching/">Patching</a>&nbsp;
+                  
+                    <a href="//tags/tool/">Tool</a>&nbsp;
+                  
+                    <a href="//tags/wsus/">WSUS</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="/virtualization/vsphere-5-esxi-installation-video/">
+                <h2 class="post-title">vSphere 5: ESXi Installation Video</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on August 25, 2011
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 1 minutes (34 words)
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  <p>To celebrate vSphere 5 GA release today, I&rsquo;ve recorded a quick video of the old school CD/ISO based installation:</p>
+
+<p><a href="http://vimeo.com/28143629">vSphere 5 ESXi Install Video</a> from <a href="http://vimeo.com/h0bbel">Christian Mohn</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
+
+<p>Seems strangely familiar, right? Enjoy!</p>
+
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="//tags/esxi/">ESXi</a>&nbsp;
+                  
+                    <a href="//tags/fun/">fun</a>&nbsp;
+                  
+                    <a href="//tags/video/">video</a>&nbsp;
+                  
+                    <a href="//tags/virtualization/">Virtualization</a>&nbsp;
+                  
+                    <a href="//tags/vmware/">VMware</a>&nbsp;
+                  
+                    <a href="//tags/vsphere/">vSphere</a>&nbsp;
+                  
+                    <a href="//tags/vsphere-5/">vSphere 5</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="/virtualization/vmfs-5-block-size-me/">
+                <h2 class="post-title">VMFS-5: Block Size Me</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on August 5, 2011
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 2 minutes (393 words)
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  The up and coming release of VMware vSphere 5 comes with an upgraded versjon of the VMware vStorage VMFS volume file system. One of the problems with VMFS-3 an earlier is that the block size you define when you format the datastore, determines the maximum size of the VMDK files stored on it. This means that when planning your datastore infrastructure you must have an idea on how large your VMDK files will potentially be during the lifecycle of the datastore.
+                  <a href="/virtualization/vmfs-5-block-size-me/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="//tags/block-size/">Block Size</a>&nbsp;
+                  
+                    <a href="//tags/datastore/">Datastore</a>&nbsp;
+                  
+                    <a href="//tags/storage/">storage</a>&nbsp;
+                  
+                    <a href="//tags/vmfs/">VMFS</a>&nbsp;
+                  
+                    <a href="//tags/vmware/">VMware</a>&nbsp;
+                  
+                    <a href="//tags/vsphere-5/">vSphere 5</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="/virtualization/dear-john/">
+                <h2 class="post-title">Dear John</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on July 24, 2011
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 3 minutes (448 words)
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  No, this is not a farewell post, but rather the opposite. It&rsquo;s Dr John Troyer&rsquo;s birthday!
+John lives and breathes his role, as Senior Social Media Strategist at VMware, and I have to say that one of the most brilliant moves VMware has done is to employ John in his current role. Lots of other corporation employ marketing people in their social media roles, VMware went the other way and put the very technically savvy Dr.
+                  <a href="/virtualization/dear-john/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="//tags/john-troyer/">John Troyer</a>&nbsp;
+                  
+                    <a href="//tags/v12n/">V12n</a>&nbsp;
+                  
+                    <a href="//tags/vmware/">VMware</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="/virtualization/smb-shared-storage-smackdown-part-1-nfs-performance/">
+                <h2 class="post-title">SMB Shared Storage Smackdown - Part 1 NFS Performance</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on July 17, 2011
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 4 minutes (817 words)
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  Recently at the office I was given the task to test out some SMB NAS products to use as potential candidates for some of our small branch offices all over the world. I did many tests relating from backup and replication to actually running VMs on them and pounding them with IOmeter. What I will share with you in this series of posts is my vSphere/IOmeter tests for NFS and iSCSI.
+                  <a href="/virtualization/smb-shared-storage-smackdown-part-1-nfs-performance/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="/news/vsphere-5-and-new-licensing-good-or-bad/">
+                <h2 class="post-title">vSphere 5 and new licensing - Good or bad?</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on July 12, 2011
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 3 minutes (478 words)
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  As many of you did I watched todays Cloud Infrastructure Forum and the release of vSphere 5 today. I was very excited with many of the features such as Storage Profiling, Storage DRS, VMFS 5 release, and they have blown the top off of the resource limits on VMs to create Monster VMs - just to mention a few. However, one topic I notice causing quite a stir is the new licensing that seemed to be very briefly mentioned at the end of the webinar.
+                  <a href="/news/vsphere-5-and-new-licensing-good-or-bad/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="//tags/esxi/">ESXi</a>&nbsp;
+                  
+                    <a href="//tags/licensing/">Licensing</a>&nbsp;
+                  
+                    <a href="//tags/vmware/">VMware</a>&nbsp;
+                  
+                    <a href="//tags/vram/">vRam</a>&nbsp;
+                  
+                    <a href="//tags/vsphere/">vSphere</a>&nbsp;
+                  
+                    <a href="//tags/vsphere-5/">vSphere 5</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+        </div>
+        
+          <ul class="pager main-pager">
+            
+              <li class="previous">
+                <a href="/posts/page/23/">&larr; Newer Posts</a>
+              </li>
+            
+            
+              <li class="next">
+                <a href="/posts/page/25/">Older Posts &rarr;</a>
+              </li>
+            
+          </ul>
+        
+      </div>
+    </div>
+  </div>
+
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="mailto:youremail@domain.com" title="Email me">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/username" title="Facebook">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://plus.google.com/&#43;username" title="Google&#43;">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/username" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://gitlab.com/username" title="GitLab">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-gitlab fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://bitbucket.org/username" title="Bitbucket">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-bitbucket fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/username" title="Twitter">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://reddit.com/u/username" title="Reddit">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-reddit-alien fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://linkedin.com/in/username" title="LinkedIn">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.xing.com/profile/username" title="Xing">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-xing fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://stackoverflow.com/users/XXXXXXX/username" title="StackOverflow">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-stack-overflow fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.snapchat.com/add/username" title="Snapchat">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-snapchat-ghost fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/username" title="Instagram">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/user/username" title="Youtube">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://soundcloud.com/username" title="SoundCloud">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-soundcloud fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://open.spotify.com/user/username" title="Spotify">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-spotify fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://username.bandcamp.com/" title="Bandcamp">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-bandcamp fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://itch.io/profile/username" title="Itch.io">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-gamepad fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://vk.com/username" title="VK">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-vk fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://paypal.me/username" title="PayPal">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-paypal fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://telegram.me/username" title="Telegram">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-telegram fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            
+            <a href="/posts/index.xml" title="RSS">
+            
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+            
+              <a href="yourwebsite.com">Some Person</a>
+            
+          
+
+          &nbsp;&bull;&nbsp;
+          2018
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="/">Beautiful Hugo</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          <a href="http://gohugo.io">Hugo v0.40.3</a> powered &nbsp;&bull;&nbsp; Theme by <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/contrib/auto-render.min.js" integrity="sha384-dq1/gEHSxPZQ7DdrM82ID4YVol9BYyU7GbWlIwnwyPzotpoc57wDw/guX8EaYGPx" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="/js/main.js"></script>
+<script src="/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> $(document).ready(function() {$("pre.chroma").css("padding","0");}); </script><script> renderMathInElement(document.body); </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script>
+<script src="/js/load-photoswipe.js"></script>
+
+
+
+
+
 
   </body>
-
 </html>
+

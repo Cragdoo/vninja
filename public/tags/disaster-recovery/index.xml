@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Disaster Recovery on Adventures in Hugo</title>
+    <title>Disaster Recovery on Beautiful Hugo</title>
     <link>/tags/disaster-recovery/</link>
-    <description>Recent content in Disaster Recovery on Adventures in Hugo</description>
+    <description>Recent content in Disaster Recovery on Beautiful Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
+    <webMaster>youremail@domain.com (Some Person)</webMaster>
     <lastBuildDate>Mon, 27 Jun 2011 22:38:26 +0000</lastBuildDate>
     
 	<atom:link href="/tags/disaster-recovery/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>Zerto: Or What I Learned at Tech Field Day #6!</title>
       <link>/virtualization/zerto-or-what-i-learned-at-tfd-6/</link>
       <pubDate>Mon, 27 Jun 2011 22:38:26 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/virtualization/zerto-or-what-i-learned-at-tfd-6/</guid>
       <description>The last day of Tech Field Day #6 myself and all the other delegates were lucky enough to get a sneak peek at stealth startup &amp;lsquo;Zerto&amp;rsquo;. We weren&amp;rsquo;t allowed to talk about it until the 22nd and I know I am a little slow on the punch but I currently haven&amp;rsquo;t seen a lot of coverage. Just for an initial disclosure statement my trip to Tech Field Day 6 was paid for by the vendors we visited, however, I am in no way obligated to write about them or publicize them in any manner.</description>
     </item>

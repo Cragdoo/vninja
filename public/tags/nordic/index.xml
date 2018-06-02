@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nordic on Adventures in Hugo</title>
+    <title>Nordic on Beautiful Hugo</title>
     <link>/tags/nordic/</link>
-    <description>Recent content in Nordic on Adventures in Hugo</description>
+    <description>Recent content in Nordic on Beautiful Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
+    <webMaster>youremail@domain.com (Some Person)</webMaster>
     <lastBuildDate>Sat, 19 Nov 2016 13:04:50 +0000</lastBuildDate>
     
 	<atom:link href="/tags/nordic/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>Nordic VMUG UserCon 2016</title>
       <link>/news/nordic-vmug-usercon-2016/</link>
       <pubDate>Sat, 19 Nov 2016 13:04:50 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/nordic-vmug-usercon-2016/</guid>
       <description>The 2016 Nordic VMUG UserCon in Copenhagen, Denmark, is just 11 days away, and if you haven&amp;rsquo;t registered already now is the time to do so. As usual the speaker lineup for the event is awesome, with a lot of the usual suspects like Duncan Epping (VMware), Cormac Hogan (VMware), Lee Dilworth (VMware), and Frank Denneman (VMware), but VMware is also showing it&amp;rsquo;s commitment to VMUG by sending some non-europeans as well, like Grant Orchard and_ Mike Foley_.</description>
     </item>

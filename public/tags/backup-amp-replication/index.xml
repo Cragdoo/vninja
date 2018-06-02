@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Backup Amp Replication on Adventures in Hugo</title>
+    <title>Backup Amp Replication on Beautiful Hugo</title>
     <link>/tags/backup-amp-replication/</link>
-    <description>Recent content in Backup Amp Replication on Adventures in Hugo</description>
+    <description>Recent content in Backup Amp Replication on Beautiful Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
+    <webMaster>youremail@domain.com (Some Person)</webMaster>
     <lastBuildDate>Mon, 08 Aug 2016 09:35:47 +0000</lastBuildDate>
     
 	<atom:link href="/tags/backup-amp-replication/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>Veeam vCenter Migration Utility</title>
       <link>/virtualization/veeam-vcenter-migration-utility/</link>
       <pubDate>Mon, 08 Aug 2016 09:35:47 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/virtualization/veeam-vcenter-migration-utility/</guid>
       <description>Way back in 2013, I published Preserve your Veeam B&amp;amp;R Backups Jobs when Moving vCenter, outlining how to &amp;ldquo;cheat&amp;rdquo; (by using a CNAME alias) to preserve your Veeam Backup &amp;amp; Replication jobs if you replace your VMware vCenter.
 Naturally, when there is a new vCenter instance, all the Virtual Machine Managed Object Reference&amp;rsquo;s (MoRef) change, which makes Veeam Backup &amp;amp; Replication start a new backup/replication chain, since all VMs are treated as new ones.</description>
@@ -26,7 +26,7 @@ Naturally, when there is a new vCenter instance, all the Virtual Machine Manage
       <title>Win Free e-copies of Learning Veeam® Backup &amp; Replication for VMware vSphere</title>
       <link>/book/win-free-e-copies-learning-veeam-backup-replication-vmware-vsphere/</link>
       <pubDate>Mon, 09 Jun 2014 08:42:28 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/book/win-free-e-copies-learning-veeam-backup-replication-vmware-vsphere/</guid>
       <description>Update: The contest is now closed, and I have forwarded all comments to Packt Publishing, and they will contact the winners directly. Thanks to everyone who entered!
 I have teamed up with Packt Publishing to organize a giveaway of my new Veeam® Backup &amp;amp; Replication for VMware vSphere book.

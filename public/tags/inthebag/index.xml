@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Inthebag on Adventures in Hugo</title>
+    <title>Inthebag on Beautiful Hugo</title>
     <link>/tags/inthebag/</link>
-    <description>Recent content in Inthebag on Adventures in Hugo</description>
+    <description>Recent content in Inthebag on Beautiful Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
+    <webMaster>youremail@domain.com (Some Person)</webMaster>
     <lastBuildDate>Fri, 17 Mar 2017 14:24:11 +0000</lastBuildDate>
     
 	<atom:link href="/tags/inthebag/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>In The Bag #13 - Week 11 2017</title>
       <link>/inthebag/in-the-bag-13-week-11-2017/</link>
       <pubDate>Fri, 17 Mar 2017 14:24:11 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/inthebag/in-the-bag-13-week-11-2017/</guid>
       <description>Welcome to the thirteenth edition of _In The Bag! _
 [caption id=&amp;ldquo;attachment_4607&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;644&amp;rdquo;] Photo by Patrick Lindenberg[/caption]
@@ -28,7 +28,7 @@ In The Bag #13 - Week 11 2017 Technology  **In-Guest UNMAP Fix in ESXi 6.5 Part
       <title>In The Bag #11 - Week 9 2017</title>
       <link>/inthebag/in-the-bag-11-week-9-2017/</link>
       <pubDate>Fri, 03 Mar 2017 12:00:26 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/inthebag/in-the-bag-11-week-9-2017/</guid>
       <description>Welcome to the eleventh edition of _In The Bag! _
 [caption id=&amp;ldquo;attachment_4593&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;644&amp;rdquo;] Photo by Andrew Furlan[/caption]
@@ -40,7 +40,7 @@ In The Bag #11 - Week 9 2017 Technology  RVTools 3.9.2 (February, 2017) One of
       <title>In The Bag #10 - Week 8 2017</title>
       <link>/inthebag/in-the-bag-10-week-8-2017/</link>
       <pubDate>Sun, 26 Feb 2017 22:32:57 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/inthebag/in-the-bag-10-week-8-2017/</guid>
       <description>Welcome to the tenth edition of _In The Bag! _This one comes a little late, it&amp;rsquo;s (barely) Sunday here, not Friday! Sorry about that, but I was &amp;ldquo;stuck&amp;rdquo; in a secure facility all week, doing a vSphere 5.5 til vSphere 6.5 migration.
 [caption id=&amp;ldquo;attachment_4589&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;644&amp;rdquo;] Photo by Frontline Creative[/caption]
@@ -52,7 +52,7 @@ In The Bag #10 - Week 8 2017 Technology  osx-wificleaner Over time, we all accu
       <title>In The Bag #9 - Week 7 2017</title>
       <link>/virtualization/in-the-bag-9-week-7-2017/</link>
       <pubDate>Fri, 17 Feb 2017 11:56:43 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/virtualization/in-the-bag-9-week-7-2017/</guid>
       <description>Welcome to the ninth edition of _In The Bag! _
 [caption id=&amp;ldquo;attachment_4580&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;644&amp;rdquo;] Photo by James Sutton[/caption]
@@ -64,7 +64,7 @@ In The Bag #9 - Week 7 2017 Technology  Setting the record straight on DRS, pDR
       <title>In The Bag #8 - Week 6 2017</title>
       <link>/inthebag/in-the-bag-8-week-6-2017/</link>
       <pubDate>Fri, 10 Feb 2017 13:52:46 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/inthebag/in-the-bag-8-week-6-2017/</guid>
       <description>Welcome to the eight edition of In The Bag!
 [caption id=&amp;ldquo;attachment_4573&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;644&amp;rdquo;] Photo by Benjamin Child[/caption]
@@ -76,7 +76,7 @@ In The Bag #8 - Week 6 2017 Technology  Understanding Recovery from Multiple Fa
       <title>In The Bag #7 - Week 5 2017</title>
       <link>/inthebag/in-the-bag-7-week-5-2017/</link>
       <pubDate>Fri, 03 Feb 2017 13:05:49 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/inthebag/in-the-bag-7-week-5-2017/</guid>
       <description>Welcome to the seventh edition of In The Bag!
 [caption width=&amp;ldquo;644&amp;rdquo; id=&amp;ldquo;attachment_4563&amp;rdquo; align=&amp;ldquo;alignright&amp;rdquo;] Photo by NordWood Themes[/caption]
@@ -88,7 +88,7 @@ In The Bag #7 - Week 5 2017 Technology  #vSAN Cache Performance Dashboard in #vR
       <title>In The Bag #6 - Week 4 2017</title>
       <link>/inthebag/in-the-bag-6-week-4-2017/</link>
       <pubDate>Fri, 27 Jan 2017 10:45:31 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/inthebag/in-the-bag-6-week-4-2017/</guid>
       <description>Welcome to the sixth edition of In The Bag! It&amp;rsquo;s been a while since I&amp;rsquo;ve posted one of these, but here&amp;rsquo;s giving it a a go in 2017 as well.
  In The Bag #6 - Week 4 2017 Technology  ReFS cluster size with Veeam Backup &amp;amp; Replication: 64KB or 4KB? My friend Luca has written a great article explaining how to determine the best cluster size for a ReFS based Veeam B&amp;amp;R repository.</description>
@@ -98,7 +98,7 @@ In The Bag #7 - Week 5 2017 Technology  #vSAN Cache Performance Dashboard in #vR
       <title>In The Bag #5 - Week 48</title>
       <link>/inthebag/in-the-bag-5-week-48/</link>
       <pubDate>Fri, 02 Dec 2016 10:12:30 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/inthebag/in-the-bag-5-week-48/</guid>
       <description>Welcome to the fifth edition of In The Bag!
 [caption id=&amp;ldquo;attachment_4483&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;644&amp;rdquo;] Photo by Joshua Earle[/caption]
@@ -110,7 +110,7 @@ Technology  Send a Tweet Directly from a VMware ESXi Host Admittedly sending Twe
       <title>In The Bag #4 - Week 47</title>
       <link>/inthebag/in-the-bag-4-week-47/</link>
       <pubDate>Fri, 25 Nov 2016 12:00:45 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/inthebag/in-the-bag-4-week-47/</guid>
       <description>Welcome to the fourth edition of In The Bag!
 [caption id=&amp;ldquo;attachment_4314&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;620&amp;rdquo;] Photo by Sonny Abesamis[/caption]
@@ -122,7 +122,7 @@ Technology  Capacity Expansion &amp;amp; Disk Group Design Decisions–All Flash
       <title>In The Bag #3 - Week 46</title>
       <link>/virtualization/in-the-bag-3-week-46/</link>
       <pubDate>Fri, 18 Nov 2016 22:38:33 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/virtualization/in-the-bag-3-week-46/</guid>
       <description>Welcome to the third edition of In The Bag!
 [caption id=&amp;ldquo;attachment_4314&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;620&amp;rdquo;] Photo by Sonny Abesamis[/caption]
@@ -134,7 +134,7 @@ Technology  Slow news week, not much happening really. Oh wait, there was this t
       <title>In The Bag #2 - Week 45</title>
       <link>/inthebag/in-the-bag-2-week-45/</link>
       <pubDate>Fri, 11 Nov 2016 17:08:24 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/inthebag/in-the-bag-2-week-45/</guid>
       <description>Welcome to the second edition of In The Bag!
 [caption id=&amp;ldquo;attachment_4314&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;620&amp;rdquo;] Photo by Sonny Abesamis[/caption]

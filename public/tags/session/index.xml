@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Session on Adventures in Hugo</title>
+    <title>Session on Beautiful Hugo</title>
     <link>/tags/session/</link>
-    <description>Recent content in Session on Adventures in Hugo</description>
+    <description>Recent content in Session on Beautiful Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
+    <webMaster>youremail@domain.com (Some Person)</webMaster>
     <lastBuildDate>Mon, 09 May 2011 10:29:39 +0000</lastBuildDate>
     
 	<atom:link href="/tags/session/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>VMworld 2011 Session Voting</title>
       <link>/news/vmworld-2011-session-voting/</link>
       <pubDate>Mon, 09 May 2011 10:29:39 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/vmworld-2011-session-voting/</guid>
       <description>VMware has opened the public voting for the VMworld 2011 sessions. Personally I haven&amp;rsquo;t submitted anything, but I do see a lot of familiar names in the voting application.
 The voting is available to anyone who has a vmworld.com account, and the voting period is from May 9th to May 18th. The voting is global, which means a vote for a session counts as a vote for both VMworld US and VMworld EMEA as 80% of the selected sessions will occur at both events.</description>

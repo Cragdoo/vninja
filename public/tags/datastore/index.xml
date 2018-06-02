@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Datastore on Adventures in Hugo</title>
+    <title>Datastore on Beautiful Hugo</title>
     <link>/tags/datastore/</link>
-    <description>Recent content in Datastore on Adventures in Hugo</description>
+    <description>Recent content in Datastore on Beautiful Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
+    <webMaster>youremail@domain.com (Some Person)</webMaster>
     <lastBuildDate>Tue, 18 Feb 2014 16:16:28 +0000</lastBuildDate>
     
 	<atom:link href="/tags/datastore/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>Automatically Name Datastores in vSphere?</title>
       <link>/vmware-2/automatically-datastores-vsphere/</link>
       <pubDate>Tue, 18 Feb 2014 16:16:28 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/vmware-2/automatically-datastores-vsphere/</guid>
       <description>William Lam posted &amp;ldquo;Why you should rename the default VSAN Datastore name&amp;rdquo; where he outlines why the default name for VSAN data stores should be changed. Of course, I completely agree with his views on this; Leaving it at the default might cause confusion down the line.
 At the end of the post, William asks the following:
@@ -27,7 +27,7 @@ I wonder if it would be a useful to have a feature in VSAN to automatically appe
       <title>Fun and Games with VDR and Snapshots</title>
       <link>/virtualization/fun-games-vdr-snapshots/</link>
       <pubDate>Thu, 10 Jan 2013 13:47:50 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/virtualization/fun-games-vdr-snapshots/</guid>
       <description>One of the smaller improvements in vSphere 5 was the introduction of the &amp;ldquo;Virtual machine disks consolidation is needed&amp;rdquo; configuration alert if vSphere determines that there are orphaned snapshots for a given VM.
 
@@ -38,7 +38,7 @@ Previous versions does not show this warning message, and datastore usage could 
       <title>VMFS-5: Block Size Me</title>
       <link>/virtualization/vmfs-5-block-size-me/</link>
       <pubDate>Fri, 05 Aug 2011 12:21:31 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/virtualization/vmfs-5-block-size-me/</guid>
       <description>The up and coming release of VMware vSphere 5 comes with an upgraded versjon of the VMware vStorage VMFS volume file system. One of the problems with VMFS-3 an earlier is that the block size you define when you format the datastore, determines the maximum size of the VMDK files stored on it. This means that when planning your datastore infrastructure you must have an idea on how large your VMDK files will potentially be during the lifecycle of the datastore.</description>
     </item>

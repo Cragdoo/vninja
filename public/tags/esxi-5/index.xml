@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Esxi 5 on Adventures in Hugo</title>
+    <title>Esxi 5 on Beautiful Hugo</title>
     <link>/tags/esxi-5/</link>
-    <description>Recent content in Esxi 5 on Adventures in Hugo</description>
+    <description>Recent content in Esxi 5 on Beautiful Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
+    <webMaster>youremail@domain.com (Some Person)</webMaster>
     <lastBuildDate>Mon, 17 Sep 2012 21:24:18 +0000</lastBuildDate>
     
 	<atom:link href="/tags/esxi-5/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>VMware ESXi 4 vs ESXi 5 Log File Locations</title>
       <link>/virtualization/vmware-esxi-4-vs-esxi-5-log-file-locations/</link>
       <pubDate>Mon, 17 Sep 2012 21:24:18 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/virtualization/vmware-esxi-4-vs-esxi-5-log-file-locations/</guid>
       <description>This post is inspired by a tweet from Andrew Storrs, where he pinpoints that the host log file locations have changed between ESXi 4 and ESXi 5.
 Note: This post has been updated with new log files for ESXi 5.1
@@ -29,7 +29,7 @@ Between version 5.0 and 5.1 the log file locations have not changed, but a coupl
       <title>Why Can&#39;t I Syslog my VMware ESXi Installation?</title>
       <link>/virtualization/why-cant-i-syslog-my-vmware-esxi-installation/</link>
       <pubDate>Fri, 04 Nov 2011 22:06:32 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/virtualization/why-cant-i-syslog-my-vmware-esxi-installation/</guid>
       <description>Juan Manuel Rey&amp;rsquo;s post Monitor ESX 4.x to ESXi 5.0 migration process show how you can watch the progress of an ESX 4 to ESXi 5 upgrade procedure, by looking at the live logs.
 While this is very useful, and in many cases a real learning experience, it got me thinking that these logs should be available remotely as well. Since ESXi supports, and actively encourages, the use of an external Syslog service for log file safekeeping and monitoring, shouldn&amp;rsquo;t the installation logs for ESXi also be logged externally if configured?</description>

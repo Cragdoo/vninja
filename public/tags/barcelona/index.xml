@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Barcelona on Adventures in Hugo</title>
+    <title>Barcelona on Beautiful Hugo</title>
     <link>/tags/barcelona/</link>
-    <description>Recent content in Barcelona on Adventures in Hugo</description>
+    <description>Recent content in Barcelona on Beautiful Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
+    <webMaster>youremail@domain.com (Some Person)</webMaster>
     <lastBuildDate>Thu, 06 Oct 2016 07:50:35 +0000</lastBuildDate>
     
 	<atom:link href="/tags/barcelona/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>VMworld 2016 Europe</title>
       <link>/virtualization/vmworld-2016-europe/</link>
       <pubDate>Thu, 06 Oct 2016 07:50:35 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/virtualization/vmworld-2016-europe/</guid>
       <description>VMworld Europe is just a couple of weeks away now, and I can&amp;rsquo;t wait to spend a week in sunny Barcelona. Last year my trip got cancelled in the last minute, but that will not be the case this year.
 As usual I&amp;rsquo;m looking forward to a bunch of sessions, and general announcements, but for me the value of attending VMworld is in the networking with other people. Sessions and keynotes can be reviewed later, interacting with others can not.</description>
@@ -26,7 +26,7 @@ As usual I&amp;rsquo;m looking forward to a bunch of sessions, and general annou
       <title>VMworld Europe 2013 - Here I Come</title>
       <link>/virtualization/vmworld-europe-2013/</link>
       <pubDate>Wed, 09 Oct 2013 18:04:02 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/virtualization/vmworld-europe-2013/</guid>
       <description>For the first time since 2010 I will actually be physically attending VMworld Europe! I fly over from the very cold, rainy and generally very autumny Norway to sunny Barcelona on Sunday the 13th.
 Based on my past experience from VMworld in Copenhagen, I have decided to go easy on the session scheduling and not fill my calendar to the brim.

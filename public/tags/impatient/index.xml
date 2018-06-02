@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Impatient on Adventures in Hugo</title>
+    <title>Impatient on Beautiful Hugo</title>
     <link>/tags/impatient/</link>
-    <description>Recent content in Impatient on Adventures in Hugo</description>
+    <description>Recent content in Impatient on Beautiful Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
+    <webMaster>youremail@domain.com (Some Person)</webMaster>
     <lastBuildDate>Tue, 22 Oct 2013 18:42:42 +0000</lastBuildDate>
     
 	<atom:link href="/tags/impatient/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>Check for OS X Updates Automatically</title>
       <link>/osx/check-os-updates-automatically/</link>
       <pubDate>Tue, 22 Oct 2013 18:42:42 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/osx/check-os-updates-automatically/</guid>
       <description>Yeah, I admit it. I want OS X Mavericks, and I want it now.
 Unfortunately, it´s not available yet from Software Update. So instead of manually checking every 5 minutes or so, I decided to create a small bash script that does it for me.

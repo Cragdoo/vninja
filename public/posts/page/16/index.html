@@ -1,265 +1,940 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
-    <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-<meta property="og:title" content="Posts" />
-<meta property="og:description" content="There is a thin line between agile and fragile" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="/posts/" />
+  <title>Posts</title>
+  <meta property="og:title" content="Posts" />
+  <meta name="twitter:title" content="Posts" />
+  <meta name="author" content="Some Person"/>
+  <link href='/img/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta property="og:image" content="/img/avatar-icon.png" />
+  <meta name="twitter:image" content="/img/avatar-icon.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@username" />
+  <meta name="twitter:creator" content="@username" />
+  <meta property="og:url" content="/posts/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Beautiful Hugo" />
+
+  <meta name="generator" content="Hugo 0.40.3" />
+  <link rel="canonical" href="/posts/" />
+  <link rel="alternate" href="/posts/index.xml" type="application/rss+xml" title="Beautiful Hugo">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+  <link rel="stylesheet" href="/css/highlight.min.css" /><link rel="stylesheet" href="/css/codeblock.css" />
 
 
 
-<meta property="og:updated_time" content="2016-02-03T14:22:39&#43;00:00"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
 
 
 
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
 
+<div class="pswp__bg"></div>
 
-
-
-
-
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Posts"/>
-<meta name="twitter:description" content="There is a thin line between agile and fragile"/>
-<meta name="generator" content="Hugo 0.40.3" />
-
-
+<div class="pswp__scroll-wrap">
     
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "Blog",
-  "headline": "Adventures in Hugo",
-  "url" : "/posts/",
-  "author": {
-    "@type": "Person",
-    "name": "Christian Mohn"
-  },
-  "dateModified": "2016-02-03T14:22:39&#43;00:00",
-  "keywords": "awesometalks,book,hardware,homelab,howto,inthebag,microsoft,misc,network,news,os-x,rant,software,storage,virtualization,vmware,windows,workflow,2011,2014,2015,2016,2017,3par,5.5,6.0,6.5,acronis,adobe,adviceforvmworld,agile,alastair-cooke,alerting,analysis,announcement,annual,api,app-delivery,apple,applescript,appliance,architecture,audio,autolab,automation,automator,availability,award,awesome,awesometalk,aws,awsome,backup,backup-academy,backup-amp-replication,backup-amp-replication-v7,bag,barcelona,bash,best-practice,beta,bitlocker,bl460c,bladesystem,block-size,blog,bloggers,blogging,blogtober,book,boot-camp,bug,c3000,c7000,cancer,care-package,cc,certificate,certificates,certification,change,changelog,changes,charity,christian-mohn,chromecast,cisco,citrix,cloud,cloudflare,cohesity,collaboration,command-line,community,competition,conference,content-creation,contest,contest.-photo,copenhagen,daas,data-center,datastore,day-2,dell,denmark,deployment,desktop,digital-ship,disaster,disaster-recovery,dmarc,dns,docker,dockerflix,documentation,donation,doom,download,dr,dropbox,dynamic-dns,easyvnx,ed,edb-ergogroup,email,embedded-host-client,emc,encryption,epiphany,equallogic,esx,esx-3.5,esxcli,esxi,esxi-4,esxi-5,euc,event,event-id-2915,evernote,everyday,evo,evorail,evry,exchange,experiment,facelift,feature-request,featured,fibre-channel,fire,firewall,firmware,flash,flash-talk,fling,floppy,form-factor,framework,free,free-tool,free-tools,freebie,fun,fundraising,future,g8,gdpr,geektool,github,give-away,gorilla,gpmc,group-policy,group-policy-preferences,ha,hack,hands-on,hands-on-lab,hands-on-labs,happy-dance,harakiri,hardware,hardware-version,health-check,hipster-it,hol,home-lab,homebrew,homelab,homelabops,horizon,horizon-application-manager,host,host-cache,hosted-beta,howto,hp,hp-insight-control,http,hyper-converged,hyper-v,hyperconverged,hypervisor,ideas,ifttt,images,impatient,installation,integrity,intel,internationalization,inthebag,inthebag.-weekly,iomega,ipad,ix2,john-troyer,kb,kb2393802,keep-calm,keynote,keyremap4macbook.-customization,kids,knowledge-base,lab,labs,latency-sensitivity,licenses,licensing,linux,log,log-files,log-insight,mac,macos,maintenance,makyo,management,markdown,marvin,md5,meltdown,messaging,microsoft,microsoft-office,microvisor,mike-laverick,misinformation,monitoring,moref,movember,multipath,nda,neil-armstrong,nested-esxi,networking,news,nfr,nfs,ninja,node,nordic,nordic-vmug,norway,nsx,ntp,nutanix,nutjob,omnigraffle,oneliner,online-training,operations,opinion,ops,organization,os-x,oslo,p220i,packt,pandoc,password,patch,patching,pckeyboardhack,pernixdata,personal,petri,photo,photos,php,pins,plans,plugin,pocket,podcast,podcasting-for-cancer,policy-based-computing,posters,powercli,powergui,powershell,prediction,presentation,proact,productivity,proliant,proof-of-concept,proxy,psc,published,python,quote,quotes,rant,raspberry-pi,ravello,rdcman,real-world,realworld,receiver,recommended,release,remoting,review,role,royaltsx,rpi,rsync,saas,sammy-bogaert,sandisk,sccm,script,scripting,scvmm,sddc,seatrans,security,self-help,self-promotion,server,session,setup,sfp&#43;,sha1,sharing,simulation,site,site-recovery-manager,slack,slate,snapshot,snark,social,social-media,software,speaking,spectacle,spectre,speculation,sql-server-express,ssd,ssh,ssl,sso,statistics,steve-herrod,stickers,storage,storeserv,suggestion,suse,syslog,system-center,tech-conference,tech-field-day,terminal,theme,thin-client,thinapp,tips-amp-tricks,todo,todoist,togaf,tool,topology,topvblog,tpm,training,trainsignal,travel,trial,troubleshooting,tunnels,ubuntu,unconference,unsupported,update,upgrade,usb,usercon,v12n,vaio,vanguards,vblog,vcap,vcap-dca,vcap-dcd,vcdx,vcdxwannabe,vcenter,vcenter-appliance,vcenter-client,vcenter-operations,vcenter-operations-manager,vcenter-server-appliance,vcenter-update-manager,vcenter-web-client,vcli,vcloud,vcloud-air,vcp,vcsa,vdm30in30,vdr,veeam,veeam-backup-amp-replication,venting,vexpert,vflash,vflash-read-cache,vfrc,vib,video,view,vip-vcp-club,virtual-appliance,virtual-application,virtual-connect,virtualization,vkernel,vlaunchpad,vm,vma,vmfs,vmtn,vmtn-subscription,vmug,vmware,vmware-forum,vmware-photon,vmware-player,vmware-server,vmware-software-manager,vmware-studio,vmware-view,vmware-workstation,vmware.-vcl,vmworld,vmworld-2012,vmworld-fun-contest,vmworld.-rant,vmworld2012,vninja,vops,vote,voting,vpostgres,vram,vrealize-log-insight,vrealize-operations,vrli,vrops,vrtx,vsamurai,vsan,vshield,vshield-edge,vshield-manager,vsoup,vsphere,vsphere-5,vsphere-5.5,vsphere-6,vsphere-6.5,vsphere-client,vsphere-land,vsphere-replication,watchguard,waterfall,web-client,webhook,webinar,weekly,weeky,whatsup,whitepaper,window-manager,windows,windows-8,winner,winners,wordpress,work,workaround,workflow,workstation,workstation-8,wsus,xen,xvmotion,youtube,zerto,",
-  "description": "There is a thin line between agile and fragile"
-}
-</script>
-
-
-    <link rel="canonical" href="/posts/">
-
-    <title>Adventures in Hugo</title>
-
-    <!-- combined, minified CSS -->
-    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
-
-    
-    <!-- RSS 2.0 feed -->
-    <link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="Adventures in Hugo" />
-    
-
-    
-
-    
-
-    
-
-  </head>
-
-  <body>
-
-    
-    <div class="blog-masthead">
-      <div class="container">
-        <nav class="nav blog-nav">
-          <a class="nav-link " href="/">Home</a>
-          
-          <a class="nav-link" href="https://example.org" title="">Link 1</a>
-          
-        </nav>
-      </div>
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
     </div>
     
-
-    
-    <header class="blog-header">
-      <div class="container">
-        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
-        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
       </div>
-    </header>
-    
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
 
-    
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-8 blog-main">
+</head>
 
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Beautiful Hugo</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
           
+            <li>
+              <a title="Blog" href="/">Blog</a>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent" href="javascript:void(0)">Samples</a>
+              <div class="navlinks-children">
+                
+                  <a href="/post/2017-03-07-bigimg-sample">Big Image Sample</a>
+                
+                  <a href="/post/2017-03-05-math-sample">Math Sample</a>
+                
+                  <a href="/post/2016-03-08-code-sample">Code Sample</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li>
+              <a title="About" href="/page/about/">About</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Tags" href="/tags">Tags</a>
+            </li>
+          
+        
 
+        
 
+        
+      </ul>
+    </div>
 
+    <div class="avatar-container">
+      <div class="avatar-img-border">
+        
+          <a title="Beautiful Hugo" href="/">
+            <img class="avatar-img" src="/img/avatar-icon.png" alt="Beautiful Hugo" />
+          </a>
+        
+      </div>
+    </div>
 
-
-
-
-<article class="blog-post">
-  <header>
-    <h2 class="blog-post-title"><a href="/misc/oh-wow-its-already-2016/">Oh wow, it&rsquo;s already 2016.</a></h2>
-    <p class="blog-post-meta"><time datetime="2016-02-03T14:22:39Z">Wed Feb 03, 2016</time> by cmohn in 
-<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/misc" rel="category tag">Misc</a>
-
-
-<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/2016" rel="tag">2016</a>, <a href="/tags/plans" rel="tag">Plans</a>
-
-</p>
-  </header>
-  A bit late, considering it&rsquo;s already February, but here it is:
-My plan for 2016.  Shake things up a bit - Go big or go home. 2016 will be a year of changes. It&rsquo;s about time I shake things up a bit, and 2016 will be that year. More details on this to come later, for now I have to keep it under wraps.
- Get VCIX certified - I&rsquo;ve signed up for the new 3V0-622: VMware Certified Advanced Professional 6 - Data Center Virtualization Design Beta Exam.
-  <a href='/misc/oh-wow-its-already-2016/'>Read more →</a>
-</article> 
-
-
-
-
-
-
-<article class="blog-post">
-  <header>
-    <h2 class="blog-post-title"><a href="/misc/2015-the-verdict/">2015: The verdict</a></h2>
-    <p class="blog-post-meta"><time datetime="2016-01-30T22:36:22Z">Sat Jan 30, 2016</time> by cmohn in 
-<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/misc" rel="category tag">Misc</a>
-
-
-<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/2015" rel="tag">2015</a>, <a href="/tags/personal" rel="tag">Personal</a>, <a href="/tags/prediction" rel="tag">Prediction</a>
-
-</p>
-  </header>
-  Last year, in January, I posted 2015: Let&rsquo;s DOS IT! and it&rsquo;s time to do some reviewing (again, inspired by Scott Lowe).
-So, how did I do?  Master Markdown: I&rsquo;m happy to say that most of the writing I&rsquo;ve done in 2015 has been done in Markdown. I haven&rsquo;t really moved on to really create Markdown based documentation and convert it like I intended, but still, Markdown has become second nature in 2015.
-  <a href='/misc/2015-the-verdict/'>Read more →</a>
-</article> 
-
-
-
-
-
-
-<article class="blog-post">
-  <header>
-    <h2 class="blog-post-title"><a href="/virtualization/running-dockerflix-on-ravello-systems/">Running Dockerflix on Ravello Systems</a></h2>
-    <p class="blog-post-meta"><time datetime="2016-01-14T12:32:59Z">Thu Jan 14, 2016</time> by cmohn in 
-<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
-
-
-<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/docker" rel="tag">Docker</a>, <a href="/tags/dockerflix" rel="tag">Dockerflix</a>, <a href="/tags/hipster-it" rel="tag">Hipster IT</a>, <a href="/tags/ravello" rel="tag">Ravello</a>, <a href="/tags/vmware-photon" rel="tag">VMware Photon</a>
-
-</p>
-  </header>
-  Dockerflix is a nice little project that allows you to route your Netflix (and other various streaming services) through a SNI Proxy to access content otherwise geo-blocked. Of course, this requires that you have a VM with for instance an US IP to provide the breakout network, and that&rsquo;s where Ravello Systems comes into the equation. Luckily as a current vExpert I have access to 1000 free monthly CPU hours of personal/lab usage, all with a choice of regions to put the VM in.
-  <a href='/virtualization/running-dockerflix-on-ravello-systems/'>Read more →</a>
-</article> 
-
-
-
-
-
-
-<article class="blog-post">
-  <header>
-    <h2 class="blog-post-title"><a href="/workflow/todoist-one-year-later/">Todoist: One year later</a></h2>
-    <p class="blog-post-meta"><time datetime="2016-01-06T13:51:58Z">Wed Jan 06, 2016</time> by cmohn in 
-<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/workflow" rel="category tag">Workflow</a>
-
-
-<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/evernote" rel="tag">Evernote</a>, <a href="/tags/productivity" rel="tag">Productivity</a>, <a href="/tags/todoist" rel="tag">Todoist</a>
-
-</p>
-  </header>
-  A little over a year ago I posted Combining Todoist and Evernote, because awesome and I thought it was about time to post a follow up now one year later.
-Evernote: Firstly, my Evernote is still a giant mess, just as it was a year ago. I have lots of data in Evernote, but it&rsquo;s main purpose is just storing quick notes on ongoing projects and it serves as a basis for generating proper documentation.
-  <a href='/workflow/todoist-one-year-later/'>Read more →</a>
-</article> 
-
-
-
-
-
-
-<article class="blog-post">
-  <header>
-    <h2 class="blog-post-title"><a href="/news/yourdailytech-content-stealers/">YourDailyTech - Content Stealers</a></h2>
-    <p class="blog-post-meta"><time datetime="2015-12-03T20:59:13Z">Thu Dec 03, 2015</time> by cmohn in 
-<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/news" rel="category tag">News</a>
-
-
-</p>
-  </header>
-  Yesterday I saw this tweet from Stephen Foskett: https://twitter.com/sfoskett/status/672071591245783042
-Which spurred a discussion back and forth, with a few rather interesting statements from yourdailytech.com, like this one
-https://twitter.com/yourdailytechus/status/672083101682679808
-The problem is that they take original content from other sites, and republish it on their own. At first glance, you&rsquo;ll see Angelica as the author, even if they claim that that&rsquo;s not the intention. It just happens to be that user account that published the reproduced content, like this one 5 Key Aspects for Safe Virtualization &ndash; The original author is mentioned in the article itself, in this case Camilo Gutierrez Amaya published on www.
-  <a href='/news/yourdailytech-content-stealers/'>Read more →</a>
-</article> 
-
-
-
-
-
-<nav class="blog-pagination">
-  
-  <a class="btn btn-outline-primary" href="/posts/page/15/" rel="prev" role="button">Previous page</a>
-  <a class="btn btn-outline-primary" href="/posts/page/17/" rel="next" role="button">Next page</a>
-  
-  
-  
+  </div>
 </nav>
 
 
 
 
-
-        </div> <!-- /.blog-main -->
-
-        <aside class="col-sm-3 ml-auto blog-sidebar">
-  
-
-  
-
-  
-  <section class="sidebar-module">
-    <h4>Links</h4>
-    <ol class="list-unstyled">
-      
-      <li><a href="https://example.com">Link 1</a></li>
-      
-      <li><a href="https://example.org">Link 2</a></li>
-      
-    </ol>
-  </section>
-  
-</aside>
-
-
-      </div> <!-- /.row -->
-    </div> <!-- /.container -->
     
+  <header class="header-section ">
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="page-heading">
+              <h1>Posts</h1>
+              <hr class="small">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
 
     
-    <footer class="blog-footer">
-      <p>
-      
-      &copy; Christian Mohn
-      
-      </p>
-      <p>
-      <a href="#">Back to top</a>
-      </p>
-    </footer>
-    
+  <div class="container" role="main">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        
+        <div class="posts-list">
+          
+            <article class="post-preview">
+              <a href="/osx/check-os-updates-automatically/">
+                <h2 class="post-title">Check for OS X Updates Automatically</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on October 22, 2013
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 1 minutes (178 words)
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  Yeah, I admit it. I want OS X Mavericks, and I want it now.
+Unfortunately, it´s not available yet from Software Update. So instead of manually checking every 5 minutes or so, I decided to create a small bash script that does it for me.
+It´s very, very simple, but I think it does the job:
+First off, pop into Terminal and get root access:
+[cc lang=&ldquo;bash&rdquo; width=&ldquo;100%&rdquo; theme=&ldquo;blackboard&rdquo; nowrap=&ldquo;0&rdquo;] h0bbel::h0bair { ~ }-&gt; sudo su - [/cc]
+                  <a href="/osx/check-os-updates-automatically/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="//tags/apple/">Apple</a>&nbsp;
+                  
+                    <a href="//tags/automation/">automation</a>&nbsp;
+                  
+                    <a href="//tags/impatient/">Impatient</a>&nbsp;
+                  
+                    <a href="//tags/mac/">Mac</a>&nbsp;
+                  
+                    <a href="//tags/os-x/">OS X</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="/virtualization/vmworld-europe-2013/">
+                <h2 class="post-title">VMworld Europe 2013 - Here I Come</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on October 9, 2013
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 2 minutes (235 words)
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  For the first time since 2010 I will actually be physically attending VMworld Europe! I fly over from the very cold, rainy and generally very autumny Norway to sunny Barcelona on Sunday the 13th.
+Based on my past experience from VMworld in Copenhagen, I have decided to go easy on the session scheduling and not fill my calendar to the brim.
+Sure, the sessions provide insane amounts of useful content, but for me the main reason to attend VMworld is to physically meet up and talk to a lot of the people I usually spend a lot of time communicating with.
+                  <a href="/virtualization/vmworld-europe-2013/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="//tags/barcelona/">Barcelona</a>&nbsp;
+                  
+                    <a href="//tags/tech-conference/">Tech Conference</a>&nbsp;
+                  
+                    <a href="//tags/vmware/">VMware</a>&nbsp;
+                  
+                    <a href="//tags/vmworld/">vmworld</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="/rant/social-media-karma-dick/">
+                <h2 class="post-title">Social Media, Karma and Being a Dick</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on October 8, 2013
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 3 minutes (463 words)
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  Rant alert [@Acronis](https://twitter.com/Acronis) sorry, not happening. — Christian Mohn (@h0bbel) [October 8, 2013](https://twitter.com/h0bbel/statuses/387562111972683776) In and of itself, this tweet is fair enough, even if borderline spam. My reaction to it however, tells a different story. _I admit it, it´s a bit harsh and straight to the point, but something has to have triggered such a response, right? _Rewind back to VMworld US, and Acronis posted this:
+[@sbeloussov](https://twitter.com/sbeloussov) [@veeam](https://twitter.com/veeam) [@VMworld](https://twitter.com/VMworld) fortunately we don't need to make our customers drunk to persuade them to buy our soft.
+                  <a href="/rant/social-media-karma-dick/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="//tags/acronis/">Acronis</a>&nbsp;
+                  
+                    <a href="//tags/emc/">EMC</a>&nbsp;
+                  
+                    <a href="//tags/featured/">featured</a>&nbsp;
+                  
+                    <a href="//tags/microsoft/">Microsoft</a>&nbsp;
+                  
+                    <a href="//tags/rant/">Rant</a>&nbsp;
+                  
+                    <a href="//tags/social-media/">Social Media</a>&nbsp;
+                  
+                    <a href="//tags/vmworld/">vmworld</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="/virtualization/vpostgres-database-backup-vcsa-5-5/">
+                <h2 class="post-title">vPostgres Database Backup in vCSA 5.5</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on October 1, 2013
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 3 minutes (564 words)
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  With the new vSphere 5.5 release, the VMware vCenter Appliance (vCSA) has grown up to be a viable alternative to the traditional Microsoft Windows based vCenter deployment scenario. The new vCSA version supports up to 100 hosts and 3000 (with an external Oracle database the values change to 1000&frasl;10000) virtual machines, a big improvement from 5 hosts and 50 virtual machines in the previous version.
+Sadly, the only external database option available for vCSA 5.
+                  <a href="/virtualization/vpostgres-database-backup-vcsa-5-5/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="//tags/appliance/">Appliance</a>&nbsp;
+                  
+                    <a href="//tags/backup/">Backup</a>&nbsp;
+                  
+                    <a href="//tags/vcsa/">VCSA</a>&nbsp;
+                  
+                    <a href="//tags/vmware/">VMware</a>&nbsp;
+                  
+                    <a href="//tags/vpostgres/">vPostgres</a>&nbsp;
+                  
+                    <a href="//tags/vsphere/">vSphere</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="/vmware-2/upgrading-vsphere-vcenter-appliance-5-1-5-5/">
+                <h2 class="post-title">Upgrading vSphere vCenter Appliance 5.1 to 5.5</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on September 30, 2013
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 1 minutes (211 words)
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  In VMware KB Upgrading vCenter Server Appliance 5.0.x/5.1 to 5.5 (2058441) the procedure for upgrading an existing 5.0/5.1 vSphere vCenter Server Appliance is outlined, walking you through the steps required including deploying a new 5.5 vCSA and transferring the data from the old instance to the new one. Straight forward procedure, but there is one small caveat in this process.
+One important thing to remember, and something I don´t feel that the knowledge-base article highlights well enough is that the new v5.
+                  <a href="/vmware-2/upgrading-vsphere-vcenter-appliance-5-1-5-5/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="//tags/appliance/">Appliance</a>&nbsp;
+                  
+                    <a href="//tags/upgrade/">Upgrade</a>&nbsp;
+                  
+                    <a href="//tags/vcenter/">vCenter</a>&nbsp;
+                  
+                    <a href="//tags/vcsa/">VCSA</a>&nbsp;
+                  
+                    <a href="//tags/vsphere/">vSphere</a>&nbsp;
+                  
+                    <a href="//tags/vsphere-5.5/">vSphere 5.5</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="/vmware-2/combine-vsphere-host-cache-vflash-single-ssd/">
+                <h2 class="post-title">Can you combine vSphere Host Cache and vFlash on a single SSD?</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on September 30, 2013
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 2 minutes (215 words)
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  One of the new features in vSphere 5.5 is the vSphere vFlash that enables you to use a SSD/Flash device as a read cache for your storage. Duncan Epping has a series of posts on vSphere Flash Cache that is well worth a read.
+vSphere vFlash caches your read IOs, but at the same time you can use it as a swap device if you run into memory contention issues. The vSphere vFlash Host Cache is similar to the older Host Cache feature, but if you are upgrading from an older version of ESXi there is a couple of things that needs to be done to be able to use this feature.
+                  <a href="/vmware-2/combine-vsphere-host-cache-vflash-single-ssd/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="//tags/5.5/">5.5</a>&nbsp;
+                  
+                    <a href="//tags/esxi/">ESXi</a>&nbsp;
+                  
+                    <a href="//tags/featured/">featured</a>&nbsp;
+                  
+                    <a href="//tags/host-cache/">Host Cache</a>&nbsp;
+                  
+                    <a href="//tags/vcenter/">vCenter</a>&nbsp;
+                  
+                    <a href="//tags/vflash/">vFlash</a>&nbsp;
+                  
+                    <a href="//tags/virtualization/">Virtualization</a>&nbsp;
+                  
+                    <a href="//tags/vmware/">VMware</a>&nbsp;
+                  
+                    <a href="//tags/vsphere/">vSphere</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="/vmware-2/vmware-vcenter-server-appliance-error-vpxd-stopped-perform-operation/">
+                <h2 class="post-title">VMware vCenter Server Appliance Error: VPXD must be stopped to perform this operation</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on September 29, 2013
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 2 minutes (262 words)
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  While deploying a fresh vCenter Server 5.5 Appliance, I ran into an issue getting it configured.
+When the appliance is deployed, the first time you log in you get presented with the configuration wizard. The wizard clearly states that if you want to set a static ip, or hostname, you should cancel the wizard, do the network configuration and then re-run the wizard after the fact.
+Well, that´s what I did, and it resulted in the following error when trying to create the embedded database:
+                  <a href="/vmware-2/vmware-vcenter-server-appliance-error-vpxd-stopped-perform-operation/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="//tags/5.5/">5.5</a>&nbsp;
+                  
+                    <a href="//tags/esxi/">ESXi</a>&nbsp;
+                  
+                    <a href="//tags/vcenter/">vCenter</a>&nbsp;
+                  
+                    <a href="//tags/vcenter-server-appliance/">vCenter Server Appliance</a>&nbsp;
+                  
+                    <a href="//tags/vmware/">VMware</a>&nbsp;
+                  
+                    <a href="//tags/vsphere/">vSphere</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="/virtualization/quick-dirty-esxi-5-5-upgrade/">
+                <h2 class="post-title">Quick and Dirty ESXi 5.5 Upgrade</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on September 23, 2013
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 2 minutes (219 words)
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  As I´ve posted about earlier, you can update your ESXi hosts to a new release from the command line. Now that ESXi 5.5 has been released, the same procedure can be applied to upgrade once more.
+Place the host in maintenance mode, then run the following command to do an online update to ESXi 5.5:
+[cc lang=&ldquo;bash&rdquo; width=&ldquo;100%&rdquo; theme=&ldquo;blackboard&rdquo; nowrap=&ldquo;0&rdquo;] ~ # esxcli software profile update -d https://hostupdate.vmware.com/software/VUM/PRODUCTION/main/vmw-depot-index.xml -p ESXi-5.
+                  <a href="/virtualization/quick-dirty-esxi-5-5-upgrade/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="//tags/5.5/">5.5</a>&nbsp;
+                  
+                    <a href="//tags/command-line/">Command Line</a>&nbsp;
+                  
+                    <a href="//tags/esxcli/">esxcli</a>&nbsp;
+                  
+                    <a href="//tags/esxi/">ESXi</a>&nbsp;
+                  
+                    <a href="//tags/host/">Host</a>&nbsp;
+                  
+                    <a href="//tags/upgrade/">Upgrade</a>&nbsp;
+                  
+                    <a href="//tags/vib/">VIB</a>&nbsp;
+                  
+                    <a href="//tags/vmware/">VMware</a>&nbsp;
+                  
+                    <a href="//tags/vsphere/">vSphere</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="/virtualization/podcasting-cancer/">
+                <h2 class="post-title">Podcasting for Cancer</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on September 14, 2013
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 1 minutes (80 words)
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  Some times all it takes is one single tweet to set things in motion:
+Just a year after losing Dad to cancer, Mom's has now spread from lung to other areas. Too soon for this shit. — Gabriel Chapman (@Bacon_Is_King) [September 12, 2013](https://twitter.com/Bacon_Is_King/statuses/378283415839051776) This started a spiral of tweets, discussions and ideas being thrown around and has now resulted in Podcasting for Cancer.
+The current goal is to raise $5000 USD by November 12th - Let´s absolutely crush that goal!
+                  <a href="/virtualization/podcasting-cancer/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="//tags/awesome/">Awesome</a>&nbsp;
+                  
+                    <a href="//tags/cancer/">Cancer</a>&nbsp;
+                  
+                    <a href="//tags/community/">Community</a>&nbsp;
+                  
+                    <a href="//tags/fundraising/">Fundraising</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="/vmware-2/vsphere-5-5-availability-vsan-public-beta/">
+                <h2 class="post-title">vSphere 5.5 Availability and VSAN Public Beta</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on September 12, 2013
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 1 minutes (179 words)
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  As Eric Siebert has pointed out, the VMware vSphere release cycles are shortening.
+While vSphere 5.1 could be seen as a bit rushed, especially in regards to SSO, when it was released, the shorter release cycles seem to work out pretty well.
+This does make me think though; vSphere 5.5 is pretty much ready to be released to the general public, and the new VSAN component will be in a public beta at the same time.
+                  <a href="/vmware-2/vsphere-5-5-availability-vsan-public-beta/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="//tags/speculation/">Speculation</a>&nbsp;
+                  
+                    <a href="//tags/vmware/">VMware</a>&nbsp;
+                  
+                    <a href="//tags/vsan/">VSAN</a>&nbsp;
+                  
+                    <a href="//tags/vsphere/">vSphere</a>&nbsp;
+                  
+                    <a href="//tags/vsphere-5.5/">vSphere 5.5</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+        </div>
+        
+          <ul class="pager main-pager">
+            
+              <li class="previous">
+                <a href="/posts/page/15/">&larr; Newer Posts</a>
+              </li>
+            
+            
+              <li class="next">
+                <a href="/posts/page/17/">Older Posts &rarr;</a>
+              </li>
+            
+          </ul>
+        
+      </div>
+    </div>
+  </div>
+
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="mailto:youremail@domain.com" title="Email me">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/username" title="Facebook">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://plus.google.com/&#43;username" title="Google&#43;">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/username" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://gitlab.com/username" title="GitLab">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-gitlab fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://bitbucket.org/username" title="Bitbucket">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-bitbucket fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/username" title="Twitter">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://reddit.com/u/username" title="Reddit">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-reddit-alien fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://linkedin.com/in/username" title="LinkedIn">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.xing.com/profile/username" title="Xing">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-xing fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://stackoverflow.com/users/XXXXXXX/username" title="StackOverflow">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-stack-overflow fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.snapchat.com/add/username" title="Snapchat">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-snapchat-ghost fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/username" title="Instagram">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/user/username" title="Youtube">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://soundcloud.com/username" title="SoundCloud">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-soundcloud fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://open.spotify.com/user/username" title="Spotify">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-spotify fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://username.bandcamp.com/" title="Bandcamp">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-bandcamp fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://itch.io/profile/username" title="Itch.io">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-gamepad fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://vk.com/username" title="VK">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-vk fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://paypal.me/username" title="PayPal">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-paypal fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://telegram.me/username" title="Telegram">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-telegram fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            
+            <a href="/posts/index.xml" title="RSS">
+            
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+            
+              <a href="yourwebsite.com">Some Person</a>
+            
+          
+
+          &nbsp;&bull;&nbsp;
+          2018
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="/">Beautiful Hugo</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          <a href="http://gohugo.io">Hugo v0.40.3</a> powered &nbsp;&bull;&nbsp; Theme by <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/contrib/auto-render.min.js" integrity="sha384-dq1/gEHSxPZQ7DdrM82ID4YVol9BYyU7GbWlIwnwyPzotpoc57wDw/guX8EaYGPx" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="/js/main.js"></script>
+<script src="/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> $(document).ready(function() {$("pre.chroma").css("padding","0");}); </script><script> renderMathInElement(document.body); </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script>
+<script src="/js/load-photoswipe.js"></script>
+
+
+
+
+
 
   </body>
-
 </html>
+

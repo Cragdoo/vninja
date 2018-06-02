@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Veeam on Adventures in Hugo</title>
+    <title>Veeam on Beautiful Hugo</title>
     <link>/tags/veeam/</link>
-    <description>Recent content in Veeam on Adventures in Hugo</description>
+    <description>Recent content in Veeam on Beautiful Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
+    <webMaster>youremail@domain.com (Some Person)</webMaster>
     <lastBuildDate>Mon, 13 Nov 2017 16:45:46 +0000</lastBuildDate>
     
 	<atom:link href="/tags/veeam/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>Webinar: Veeam integration with VMware vSAN, vSphere tags and SPBM policies</title>
       <link>/virtualization/webinar-veeam-integration-with-vmware-vsan-vsphere-tags-and-spbm-policies/</link>
       <pubDate>Mon, 13 Nov 2017 16:45:46 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/virtualization/webinar-veeam-integration-with-vmware-vsan-vsphere-tags-and-spbm-policies/</guid>
       <description>Warning: Shameless self promotion ahead!
 November 30th I&amp;rsquo;ll be joining Martin Plesner-Jacobsen from Veeam for a Live Webinar: _Veeam integration with VMware vSAN, vSphere tags and SPBM policies. _
@@ -29,7 +29,7 @@ Click on the banner above to register now, and reserve your spot!</description>
       <title>VeeamOn Tour Virtual 2017 - Reserve your spot!</title>
       <link>/virtualization/veeamon-tour-virtual-2017-reserve-your-spot/</link>
       <pubDate>Tue, 17 Oct 2017 10:44:50 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/virtualization/veeamon-tour-virtual-2017-reserve-your-spot/</guid>
       <description>Veeam is hosting their VeeamOn Tour Virtual 2017 event on December 5th, and I&amp;rsquo;ll be part of the panel of bloggers in the Expert Lounge!
 Veeam describes the event like this:
@@ -40,7 +40,7 @@ The biggest online Availability event in EMEA — VeeamON Tour Virtual 2017 — 
       <title>Veeam vCenter Migration Utility</title>
       <link>/virtualization/veeam-vcenter-migration-utility/</link>
       <pubDate>Mon, 08 Aug 2016 09:35:47 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/virtualization/veeam-vcenter-migration-utility/</guid>
       <description>Way back in 2013, I published Preserve your Veeam B&amp;amp;R Backups Jobs when Moving vCenter, outlining how to &amp;ldquo;cheat&amp;rdquo; (by using a CNAME alias) to preserve your Veeam Backup &amp;amp; Replication jobs if you replace your VMware vCenter.
 Naturally, when there is a new vCenter instance, all the Virtual Machine Managed Object Reference&amp;rsquo;s (MoRef) change, which makes Veeam Backup &amp;amp; Replication start a new backup/replication chain, since all VMs are treated as new ones.</description>
@@ -50,7 +50,7 @@ Naturally, when there is a new vCenter instance, all the Virtual Machine Manage
       <title>Veeam Vanguard 2015</title>
       <link>/virtualization/veeam-vanguard-2015/</link>
       <pubDate>Mon, 27 Jul 2015 13:38:49 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/virtualization/veeam-vanguard-2015/</guid>
       <description>Veeam has been &amp;ldquo;silently&amp;rdquo; working on their own global influencer program, and the inaugural list of Veeam Vanguards was published today. I am thrilled to be selected amongst the first 31 people awarded this title, it&amp;rsquo;s quite an exclusive list!
 So what&amp;rsquo;s up with the name? Well, here is one of the definitions of vanguard I found:
@@ -61,7 +61,7 @@ So what&amp;rsquo;s up with the name? Well, here is one of the definitions of va
       <title>Veeam Backup &amp; Replication 8: RPC error:Access is denied Fix</title>
       <link>/virtualization/veeam-backup-replication-8-rpc-erroraccess-denied-fix/</link>
       <pubDate>Sun, 18 Jan 2015 22:57:34 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/virtualization/veeam-backup-replication-8-rpc-erroraccess-denied-fix/</guid>
       <description>I recently set up a new Veeam Backup &amp;amp; Replication v8 demo lab, and my intial small job that consisted of two different Linux VMs and one Windows Server 2012 R2 Domain Controller was chugging along nicely. I had one minor from the start though, and that was that file indexing consistently failed for the Windows VM. No big deal, but I thought it was strange at the time. After all, the Linux VMs were indexed just fine.</description>
     </item>
@@ -70,7 +70,7 @@ So what&amp;rsquo;s up with the name? Well, here is one of the definitions of va
       <title>Learning Veeam Backup &amp; Replication for VMware vSphere Book Winners</title>
       <link>/news/learning-veeam-backup-replication-vmware-vsphere-book-winners/</link>
       <pubDate>Fri, 20 Jun 2014 09:47:22 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/learning-veeam-backup-replication-vmware-vsphere-book-winners/</guid>
       <description>Packt Publishing has picked three lucky winners for the Veeam® Backup &amp;amp; Replication for VMware vSphere book.
 The winners are as follows, with the winning comments:
@@ -82,7 +82,7 @@ Wow nice to see a book come out for Veeam. Look forward to the following things 
       <title>Win Free e-copies of Learning Veeam® Backup &amp; Replication for VMware vSphere</title>
       <link>/book/win-free-e-copies-learning-veeam-backup-replication-vmware-vsphere/</link>
       <pubDate>Mon, 09 Jun 2014 08:42:28 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/book/win-free-e-copies-learning-veeam-backup-replication-vmware-vsphere/</guid>
       <description>Update: The contest is now closed, and I have forwarded all comments to Packt Publishing, and they will contact the winners directly. Thanks to everyone who entered!
 I have teamed up with Packt Publishing to organize a giveaway of my new Veeam® Backup &amp;amp; Replication for VMware vSphere book.
@@ -93,7 +93,7 @@ I have teamed up with Packt Publishing to organize a giveaway of my new Veeam�
       <title>Veeam Webinar &amp; NFR Licenses</title>
       <link>/virtualization/veeam-webinar-nfr-licenses/</link>
       <pubDate>Thu, 05 Sep 2013 15:38:56 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/virtualization/veeam-webinar-nfr-licenses/</guid>
       <description>This coming tuesday the first ever Veeam Webinar held in Norwegian will be held by yours truly. Feel free to sign up now and listen to me speak for an hour or so.
 
@@ -105,7 +105,7 @@ Note that this offer is only available to anyone who is one of the following: VM
       <title>Backing up vCenter DB with Veeam B&amp;R 6.5</title>
       <link>/virtualization/backing-up-vcenter-db-with-veeam-br-6-5/</link>
       <pubDate>Mon, 25 Mar 2013 09:03:41 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/virtualization/backing-up-vcenter-db-with-veeam-br-6-5/</guid>
       <description>It´s a well known problem that with Veeam Backup &amp;amp; Recovery Replication 6.5, and earlier, backing up the SQL server that hosts the vCenter DB poses a problem. KB1051 VSS for vCenter outlines the issue well, and provides a workaround.
 If you experience this problem, you will see entries like this in your Veeam B&amp;amp;R backup logs:
@@ -117,7 +117,7 @@ The workaround provided by Veeam is to create host VM-Host Affinity Rules, effe
       <title>Preserve your Veeam B&amp;R Backups Jobs when Moving vCenter</title>
       <link>/virtualization/preserve-veeam-br-backups-jobs-moving-vcenter/</link>
       <pubDate>Tue, 19 Mar 2013 21:13:20 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/virtualization/preserve-veeam-br-backups-jobs-moving-vcenter/</guid>
       <description>This week I´m working at a client site, upgrading their entire existing vSphere 4.1 infrastructure to vSphere 5.1. The customer engagement also includes upgrading Veeam Backup and Replication 6.0 to 6.5, and usually an isolated upgrade of Veeam B&amp;amp;R is a no-brainer next, next, next, done install.
 To complicate things in this particular environment, I also had to migrate the vCenter SQL DB from a local MS SQL Server 2005 Express instance to a full-fledged MS SQL Server 2008 R2 instance.</description>
@@ -127,7 +127,7 @@ To complicate things in this particular environment, I also had to migrate the v
       <title>Want a Free Pass to TechEd 2013?</title>
       <link>/news/free-pass-teched-2013/</link>
       <pubDate>Tue, 26 Feb 2013 16:14:48 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/free-pass-teched-2013/</guid>
       <description>Our sponsor Veeam is giving away a free pass to TechEd 2013 in this months giveaway.
 Register now to be entered into the draw before March 18th when the winner will be announced.</description>
@@ -137,7 +137,7 @@ Register now to be entered into the draw before March 18th when the winner will 
       <title>Blatant Self Promotion</title>
       <link>/virtualization/blatant-self-promotion/</link>
       <pubDate>Mon, 28 Nov 2011 23:16:10 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/virtualization/blatant-self-promotion/</guid>
       <description>As the title says, it&amp;rsquo;s been one of my more &amp;ldquo;public&amp;rdquo; weeks ever. Besides my &amp;ldquo;normal&amp;rdquo; vSoup engagement, this week I&amp;rsquo;ve also been involved with Mike Laverick&amp;rsquo;s VMTN Subscription Movement Miniwags to voice some of my views about the #VMTNSubscriptionMovement.
 Fair warning: This is video, and please to remember that during recording Movember was nearing its final phase. VMTN Subscription Movement Miniwags – Christian Mohn
@@ -148,7 +148,7 @@ Secondly, I was a guest on the Veeam Community Podcast Episode 45 – vSphere 5 
       <title>Backup Academy - Do You Know Your VM backups?</title>
       <link>/virtualization/backup-academy-do-you-know-your-vm-backups/</link>
       <pubDate>Tue, 13 Sep 2011 13:39:25 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/virtualization/backup-academy-do-you-know-your-vm-backups/</guid>
       <description>The newly opened Backup Academy, by Veeam, aims to educate administrators, and others interested in virtual machine backup, in the required skills to maintain a proper backup strategy for your virtual infrastructure.
 Currently the site has 8 videos available, covering content from disaster recovery to backup integrity tools.
@@ -159,7 +159,7 @@ Even if it is run by Veeam, it does not focus on Veeam specific products or serv
       <title>7 Expert Tips for Managing Your Remote vSphere Infrastructure</title>
       <link>/news/7-expert-tips-for-managing-your-remote-vsphere-infrastructure/</link>
       <pubDate>Mon, 20 Jun 2011 20:58:35 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/7-expert-tips-for-managing-your-remote-vsphere-infrastructure/</guid>
       <description>Now there is a catchy title if I ever saw one. Only &amp;ldquo;problem&amp;rdquo; is that it&amp;rsquo;s a whitepaper that I have written for Veeam. In reality this is the first published article I have ever written, that I didn&amp;rsquo;t publish on my own. I&amp;rsquo;m excited about it, yet strangely nervous about how it will be received by the people who download it. If you happen to do so, make sure to let me know how you found it, all comments and criticism will be most appreciated.</description>
     </item>
@@ -168,7 +168,7 @@ Even if it is run by Veeam, it does not focus on Veeam specific products or serv
       <title>Using USB Pass-through in vSphere 4.1</title>
       <link>/virtualization/using-usb-pass-through-in-vsphere-4-1/</link>
       <pubDate>Thu, 22 Jul 2010 23:03:27 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/virtualization/using-usb-pass-through-in-vsphere-4-1/</guid>
       <description>Finally USB pass-through is possible on ESX hosts with the new vSphere 4.1 release! This feature ha been available in VMware Workstation/Fusion and Player for quite a while. The freshly added feature in vSphere 4.1 even works if you vMotion the guest from one host to another, which is in itself pretty amazing functionality!
 In this post, I&amp;rsquo;ll show how to setup and use the new USB pass-through feature in vSphere 4.</description>

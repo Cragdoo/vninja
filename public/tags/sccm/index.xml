@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sccm on Adventures in Hugo</title>
+    <title>Sccm on Beautiful Hugo</title>
     <link>/tags/sccm/</link>
-    <description>Recent content in Sccm on Adventures in Hugo</description>
+    <description>Recent content in Sccm on Beautiful Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
+    <webMaster>youremail@domain.com (Some Person)</webMaster>
     <lastBuildDate>Fri, 26 Aug 2011 08:10:54 +0000</lastBuildDate>
     
 	<atom:link href="/tags/sccm/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>SCCM 2007 Not a Virtualization Candidate?</title>
       <link>/microsoft-2/sccm-2007-not-a-virtualization-candidate/</link>
       <pubDate>Fri, 26 Aug 2011 08:10:54 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/microsoft-2/sccm-2007-not-a-virtualization-candidate/</guid>
       <description>The last couple of days I&amp;rsquo;ve been in training class, taking the 6451B Planning, Deploying and Managing Microsoft System Center Configuration Manager 2007 course.
 One of the first things that got mentioned, was that for larger deployments you should not run System Center Configuration Manager virtually. Of course, this caught my eye as I&amp;rsquo;m a proponent for the virtualize first &amp;ldquo;movement&amp;rdquo;.

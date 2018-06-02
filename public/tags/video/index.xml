@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Video on Adventures in Hugo</title>
+    <title>Video on Beautiful Hugo</title>
     <link>/tags/video/</link>
-    <description>Recent content in Video on Adventures in Hugo</description>
+    <description>Recent content in Video on Beautiful Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
+    <webMaster>youremail@domain.com (Some Person)</webMaster>
     <lastBuildDate>Wed, 09 May 2018 13:12:07 +0000</lastBuildDate>
     
 	<atom:link href="/tags/video/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>Keynote: Crossing the River by Feeling the Stones - Simon Wardley</title>
       <link>/awesometalks/crossing-river-feeling-stones/</link>
       <pubDate>Wed, 09 May 2018 13:12:07 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/awesometalks/crossing-river-feeling-stones/</guid>
       <description>This is the third talk I&amp;rsquo;ve found worthy of publishing in the Awesome Talks series. Enjoy Simon Wardley&amp;rsquo;s Researcher, Leading Edge Forum, keynote from KubeCon + CloudNativeCon Europe 2018 called &amp;ldquo;Crossing the River by Feeling the Stones&amp;rdquo;.
 Simon&amp;rsquo;s presentation technique, flair and master of language is flat out impressive — and fun!
@@ -28,7 +28,7 @@ Now, do you know what a map is? Do you, really?</description>
       <title>Installing Windows 8 Developer Preview in VMware Workstation 8</title>
       <link>/virtualization/installing-windows-8-developer-preview-in-vmware-workstation-8/</link>
       <pubDate>Wed, 14 Sep 2011 12:33:12 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/virtualization/installing-windows-8-developer-preview-in-vmware-workstation-8/</guid>
       <description>Installing Microsoft Windows 8 in a VMware Workstation 8 VM turned out to be a real piece of cake.
 Follow the screenshots for the procedure I used, but basically all I did was to create a new VM with the pre-configured &amp;ldquo;Windows 8 Server&amp;rdquo; preset and inserted the downloaded ISO file.
@@ -39,7 +39,7 @@ Note: Windows 8 Server has been removed as a preset option in the final release 
       <title>vSphere 5: ESXi Installation Video</title>
       <link>/virtualization/vsphere-5-esxi-installation-video/</link>
       <pubDate>Thu, 25 Aug 2011 09:28:03 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/virtualization/vsphere-5-esxi-installation-video/</guid>
       <description>To celebrate vSphere 5 GA release today, I&amp;rsquo;ve recorded a quick video of the old school CD/ISO based installation:
 vSphere 5 ESXi Install Video from Christian Mohn on Vimeo.
@@ -50,7 +50,7 @@ Seems strangely familiar, right? Enjoy!</description>
       <title>Online Event: Raising the Bar, Part V</title>
       <link>/virtualization/online-event-raising-the-bar-part-v/</link>
       <pubDate>Thu, 07 Jul 2011 09:19:35 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/virtualization/online-event-raising-the-bar-part-v/</guid>
       <description>July 12, 2011 9am-Noon Pacific Time: Join this online event, and get all the details on &amp;ldquo;the next generation of cloud infrastructure&amp;rdquo;!
 VMware CEO Paul Maritz and CTO Steve Herrod will be presenting on the next generation of cloud infrastructure. Join us and experience how the virtualization journey is helping transform IT and ushering in the era of Cloud Computing. 9:00-9:45 Paul and Steve present - live online streaming 10:00-12:00 three tracks of deep dive breakout sessions 10:00-12:00 live Q&amp;A with VMware cloud and virtualization experts  Register for the event now!</description>

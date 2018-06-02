@@ -1,270 +1,880 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
-    <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-<meta property="og:title" content="Posts" />
-<meta property="og:description" content="There is a thin line between agile and fragile" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="/posts/" />
+  <title>Posts</title>
+  <meta property="og:title" content="Posts" />
+  <meta name="twitter:title" content="Posts" />
+  <meta name="author" content="Some Person"/>
+  <link href='/img/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta property="og:image" content="/img/avatar-icon.png" />
+  <meta name="twitter:image" content="/img/avatar-icon.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@username" />
+  <meta name="twitter:creator" content="@username" />
+  <meta property="og:url" content="/posts/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Beautiful Hugo" />
+
+  <meta name="generator" content="Hugo 0.40.3" />
+  <link rel="canonical" href="/posts/" />
+  <link rel="alternate" href="/posts/index.xml" type="application/rss+xml" title="Beautiful Hugo">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+  <link rel="stylesheet" href="/css/highlight.min.css" /><link rel="stylesheet" href="/css/codeblock.css" />
 
 
 
-<meta property="og:updated_time" content="2018-01-14T16:00:00&#43;00:00"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
 
 
 
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
 
+<div class="pswp__bg"></div>
 
-
-
-
-
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Posts"/>
-<meta name="twitter:description" content="There is a thin line between agile and fragile"/>
-<meta name="generator" content="Hugo 0.40.3" />
-
-
+<div class="pswp__scroll-wrap">
     
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "Blog",
-  "headline": "Adventures in Hugo",
-  "url" : "/posts/",
-  "author": {
-    "@type": "Person",
-    "name": "Christian Mohn"
-  },
-  "dateModified": "2018-01-14T16:00:00&#43;00:00",
-  "keywords": "awesometalks,book,hardware,homelab,howto,inthebag,microsoft,misc,network,news,os-x,rant,software,storage,virtualization,vmware,windows,workflow,2011,2014,2015,2016,2017,3par,5.5,6.0,6.5,acronis,adobe,adviceforvmworld,agile,alastair-cooke,alerting,analysis,announcement,annual,api,app-delivery,apple,applescript,appliance,architecture,audio,autolab,automation,automator,availability,award,awesome,awesometalk,aws,awsome,backup,backup-academy,backup-amp-replication,backup-amp-replication-v7,bag,barcelona,bash,best-practice,beta,bitlocker,bl460c,bladesystem,block-size,blog,bloggers,blogging,blogtober,book,boot-camp,bug,c3000,c7000,cancer,care-package,cc,certificate,certificates,certification,change,changelog,changes,charity,christian-mohn,chromecast,cisco,citrix,cloud,cloudflare,cohesity,collaboration,command-line,community,competition,conference,content-creation,contest,contest.-photo,copenhagen,daas,data-center,datastore,day-2,dell,denmark,deployment,desktop,digital-ship,disaster,disaster-recovery,dmarc,dns,docker,dockerflix,documentation,donation,doom,download,dr,dropbox,dynamic-dns,easyvnx,ed,edb-ergogroup,email,embedded-host-client,emc,encryption,epiphany,equallogic,esx,esx-3.5,esxcli,esxi,esxi-4,esxi-5,euc,event,event-id-2915,evernote,everyday,evo,evorail,evry,exchange,experiment,facelift,feature-request,featured,fibre-channel,fire,firewall,firmware,flash,flash-talk,fling,floppy,form-factor,framework,free,free-tool,free-tools,freebie,fun,fundraising,future,g8,gdpr,geektool,github,give-away,gorilla,gpmc,group-policy,group-policy-preferences,ha,hack,hands-on,hands-on-lab,hands-on-labs,happy-dance,harakiri,hardware,hardware-version,health-check,hipster-it,hol,home-lab,homebrew,homelab,homelabops,horizon,horizon-application-manager,host,host-cache,hosted-beta,howto,hp,hp-insight-control,http,hyper-converged,hyper-v,hyperconverged,hypervisor,ideas,ifttt,images,impatient,installation,integrity,intel,internationalization,inthebag,inthebag.-weekly,iomega,ipad,ix2,john-troyer,kb,kb2393802,keep-calm,keynote,keyremap4macbook.-customization,kids,knowledge-base,lab,labs,latency-sensitivity,licenses,licensing,linux,log,log-files,log-insight,mac,macos,maintenance,makyo,management,markdown,marvin,md5,meltdown,messaging,microsoft,microsoft-office,microvisor,mike-laverick,misinformation,monitoring,moref,movember,multipath,nda,neil-armstrong,nested-esxi,networking,news,nfr,nfs,ninja,node,nordic,nordic-vmug,norway,nsx,ntp,nutanix,nutjob,omnigraffle,oneliner,online-training,operations,opinion,ops,organization,os-x,oslo,p220i,packt,pandoc,password,patch,patching,pckeyboardhack,pernixdata,personal,petri,photo,photos,php,pins,plans,plugin,pocket,podcast,podcasting-for-cancer,policy-based-computing,posters,powercli,powergui,powershell,prediction,presentation,proact,productivity,proliant,proof-of-concept,proxy,psc,published,python,quote,quotes,rant,raspberry-pi,ravello,rdcman,real-world,realworld,receiver,recommended,release,remoting,review,role,royaltsx,rpi,rsync,saas,sammy-bogaert,sandisk,sccm,script,scripting,scvmm,sddc,seatrans,security,self-help,self-promotion,server,session,setup,sfp&#43;,sha1,sharing,simulation,site,site-recovery-manager,slack,slate,snapshot,snark,social,social-media,software,speaking,spectacle,spectre,speculation,sql-server-express,ssd,ssh,ssl,sso,statistics,steve-herrod,stickers,storage,storeserv,suggestion,suse,syslog,system-center,tech-conference,tech-field-day,terminal,theme,thin-client,thinapp,tips-amp-tricks,todo,todoist,togaf,tool,topology,topvblog,tpm,training,trainsignal,travel,trial,troubleshooting,tunnels,ubuntu,unconference,unsupported,update,upgrade,usb,usercon,v12n,vaio,vanguards,vblog,vcap,vcap-dca,vcap-dcd,vcdx,vcdxwannabe,vcenter,vcenter-appliance,vcenter-client,vcenter-operations,vcenter-operations-manager,vcenter-server-appliance,vcenter-update-manager,vcenter-web-client,vcli,vcloud,vcloud-air,vcp,vcsa,vdm30in30,vdr,veeam,veeam-backup-amp-replication,venting,vexpert,vflash,vflash-read-cache,vfrc,vib,video,view,vip-vcp-club,virtual-appliance,virtual-application,virtual-connect,virtualization,vkernel,vlaunchpad,vm,vma,vmfs,vmtn,vmtn-subscription,vmug,vmware,vmware-forum,vmware-photon,vmware-player,vmware-server,vmware-software-manager,vmware-studio,vmware-view,vmware-workstation,vmware.-vcl,vmworld,vmworld-2012,vmworld-fun-contest,vmworld.-rant,vmworld2012,vninja,vops,vote,voting,vpostgres,vram,vrealize-log-insight,vrealize-operations,vrli,vrops,vrtx,vsamurai,vsan,vshield,vshield-edge,vshield-manager,vsoup,vsphere,vsphere-5,vsphere-5.5,vsphere-6,vsphere-6.5,vsphere-client,vsphere-land,vsphere-replication,watchguard,waterfall,web-client,webhook,webinar,weekly,weeky,whatsup,whitepaper,window-manager,windows,windows-8,winner,winners,wordpress,work,workaround,workflow,workstation,workstation-8,wsus,xen,xvmotion,youtube,zerto,",
-  "description": "There is a thin line between agile and fragile"
-}
-</script>
-
-
-    <link rel="canonical" href="/posts/">
-
-    <title>Adventures in Hugo</title>
-
-    <!-- combined, minified CSS -->
-    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
-
-    
-    <!-- RSS 2.0 feed -->
-    <link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="Adventures in Hugo" />
-    
-
-    
-
-    
-
-    
-
-  </head>
-
-  <body>
-
-    
-    <div class="blog-masthead">
-      <div class="container">
-        <nav class="nav blog-nav">
-          <a class="nav-link " href="/">Home</a>
-          
-          <a class="nav-link" href="https://example.org" title="">Link 1</a>
-          
-        </nav>
-      </div>
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
     </div>
     
-
-    
-    <header class="blog-header">
-      <div class="container">
-        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
-        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
       </div>
-    </header>
-    
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
 
-    
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-8 blog-main">
+</head>
 
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Beautiful Hugo</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
           
+            <li>
+              <a title="Blog" href="/">Blog</a>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent" href="javascript:void(0)">Samples</a>
+              <div class="navlinks-children">
+                
+                  <a href="/post/2017-03-07-bigimg-sample">Big Image Sample</a>
+                
+                  <a href="/post/2017-03-05-math-sample">Math Sample</a>
+                
+                  <a href="/post/2016-03-08-code-sample">Code Sample</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li>
+              <a title="About" href="/page/about/">About</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Tags" href="/tags">Tags</a>
+            </li>
+          
+        
 
+        
 
+        
+      </ul>
+    </div>
 
+    <div class="avatar-container">
+      <div class="avatar-img-border">
+        
+          <a title="Beautiful Hugo" href="/">
+            <img class="avatar-img" src="/img/avatar-icon.png" alt="Beautiful Hugo" />
+          </a>
+        
+      </div>
+    </div>
 
-
-
-
-<article class="blog-post">
-  <header>
-    <h2 class="blog-post-title"><a href="/news/curious-case-intel-microcode-part-2-gets-better-worse/">The Curious Case of the Intel Microcode Part #2 - It Gets Better — Then Worse</a></h2>
-    <p class="blog-post-meta"><time datetime="2018-01-14T16:00:00Z">Sun Jan 14, 2018</time> by bajorgensen in 
-<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/news" rel="category tag">News</a>
-
-
-<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/analysis" rel="tag">Analysis</a>, <a href="/tags/intel" rel="tag">Intel</a>, <a href="/tags/meltdown" rel="tag">Meltdown</a>, <a href="/tags/security" rel="tag">Security</a>, <a href="/tags/spectre" rel="tag">Spectre</a>, <a href="/tags/vmware" rel="tag">VMware</a>
-
-</p>
-  </header>
-  This guest post by Bjørn Anders Jørgensen, Senior Systems Consultant Basefarm, first appeared on LinkedIn.
-Before you start on this rather long post, have a go at part #1:
-tl;dr This is a long read. To get to the juicy part on how Intel potentially shipped pre-release microcode to partners, skip to section 3. The short, short version is that the official Intel microcode update contains newer microcode for Skylake-SP and Kaby Lake/Coffe Lake than what currently is shipping from VMware/HPE/DellEMC etc.
-  <a href='/news/curious-case-intel-microcode-part-2-gets-better-worse/'>Read more →</a>
-</article> 
-
-
-
-
-
-
-<article class="blog-post">
-  <header>
-    <h2 class="blog-post-title"><a href="/news/the-curious-case-of-the-intel-microcode/">The Curious Case of the Intel Microcode</a></h2>
-    <p class="blog-post-meta"><time datetime="2018-01-09T18:37:24Z">Tue Jan 09, 2018</time> by bajorgensen in 
-<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/news" rel="category tag">News</a>
-
-
-<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/analysis" rel="tag">Analysis</a>, <a href="/tags/intel" rel="tag">Intel</a>, <a href="/tags/meltdown" rel="tag">Meltdown</a>, <a href="/tags/security" rel="tag">Security</a>, <a href="/tags/spectre" rel="tag">Spectre</a>
-
-</p>
-  </header>
-  This guest post by Bjørn Anders Jørgensen, Senior Systems Consultant Basefarm, first appeared on LinkedIn.
-Disclaimer: This is a report based on current development as of 7. January, the situation is changing by the hour so read this opinion piece with that in hindsight.
-Unless you have been living under a rock for the last week you will know by now that there is a universal design flaw in most modern microprocessors, leaving them vulnerable to a serious information disclosure problem that requires updates to all operating systems and processors.
-  <a href='/news/the-curious-case-of-the-intel-microcode/'>Read more →</a>
-</article> 
-
-
-
-
-
-
-<article class="blog-post">
-  <header>
-    <h2 class="blog-post-title"><a href="/misc/evaluating-2017/">Evaluating 2017</a></h2>
-    <p class="blog-post-meta"><time datetime="2017-12-18T14:00:55Z">Mon Dec 18, 2017</time> by cmohn in 
-<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/misc" rel="category tag">Misc</a>
-
-
-<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/2017" rel="tag">2017</a>, <a href="/tags/review" rel="tag">Review</a>
-
-</p>
-  </header>
-  Keeping up with tradition (you thought I was going to say Kardashians there, didn&rsquo;t you?), it&rsquo;s time to evaluate 2017.
-My list of goals for 2017 and the verdict is as follows:
- **Get that VCAP6-DCV Design exam out of the way **Done and dusted (for 6.5 that is, not 6.0). I&rsquo;ve also updated my VCP to 6.5, and I&rsquo;m currently waiting for the VCAP6.5-DCV Deploy exam. *Score: 10&frasl;10*
- **AWS Associate Certifications **Didn&rsquo;t happen.
-  <a href='/misc/evaluating-2017/'>Read more →</a>
-</article> 
-
-
-
-
-
-
-<article class="blog-post">
-  <header>
-    <h2 class="blog-post-title"><a href="/news/nordic-vmug-conference-2018/">Nordic VMUG Conference 2018</a></h2>
-    <p class="blog-post-meta"><time datetime="2017-12-13T15:07:40Z">Wed Dec 13, 2017</time> by cmohn in 
-<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/news" rel="category tag">News</a>
-
-
-<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/awsome" rel="tag">Awsome</a>, <a href="/tags/conference" rel="tag">conference</a>, <a href="/tags/denmark" rel="tag">Denmark</a>, <a href="/tags/vmug" rel="tag">VMUG</a>
-
-</p>
-  </header>
-  My good friends, and fellow VMUGgers, in Denmark is once again arranging the largest VMUG event in the Nordics in January 2018.
-The Nordic VMUG Conference promises to be just as awesome as previous versions, just have a look at this speaker list:
- Opening Keynote:** Kit Colbert**
- Breakout sessions: **Ole Agesen, Duncan Epping, Myles Gray, Frank Denneman, Niels Hagoort, Grant Orchard and Joerg Lew**
- Closing Keynote:** Ken Westin**
-  <a href='/news/nordic-vmug-conference-2018/'>Read more →</a>
-</article> 
-
-
-
-
-
-
-<article class="blog-post">
-  <header>
-    <h2 class="blog-post-title"><a href="/awesometalks/scott-hanselman-its-not-what-you-read-its-what-you-ignore/">Scott Hanselman - &ldquo;It&rsquo;s not what you read, it&rsquo;s what you ignore&rdquo;</a></h2>
-    <p class="blog-post-meta"><time datetime="2017-11-27T17:00:17Z">Mon Nov 27, 2017</time> by cmohn in 
-<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/awesometalks" rel="category tag">AwesomeTalks</a>
-
-
-</p>
-  </header>
-  This is the second recorded talk published in the Awesome Talks series. This time it&rsquo;s Scott Hanselman&rsquo;s &rdquo;It&rsquo;s not what you read, it&rsquo;s what you ignore&rdquo; talk from Dev Day in Kraków way back in 2012.
-This isn&rsquo;t a technical talk, it&rsquo;s originally geared towards developers but Scott&rsquo;s message should resonate with everyone in the tech field. In general, it&rsquo;s about how you can deal with large amounts of information. Lot&rsquo;s of great takeaways here!
-  <a href='/awesometalks/scott-hanselman-its-not-what-you-read-its-what-you-ignore/'>Read more →</a>
-</article> 
-
-
-
-
-
-<nav class="blog-pagination">
-  
-  <a class="btn btn-outline-primary" href="/posts/" rel="prev" role="button">Previous page</a>
-  <a class="btn btn-outline-primary" href="/posts/page/3/" rel="next" role="button">Next page</a>
-  
-  
-  
+  </div>
 </nav>
 
 
 
 
-
-        </div> <!-- /.blog-main -->
-
-        <aside class="col-sm-3 ml-auto blog-sidebar">
-  
-
-  
-
-  
-  <section class="sidebar-module">
-    <h4>Links</h4>
-    <ol class="list-unstyled">
-      
-      <li><a href="https://example.com">Link 1</a></li>
-      
-      <li><a href="https://example.org">Link 2</a></li>
-      
-    </ol>
-  </section>
-  
-</aside>
-
-
-      </div> <!-- /.row -->
-    </div> <!-- /.container -->
     
+  <header class="header-section ">
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="page-heading">
+              <h1>Posts</h1>
+              <hr class="small">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
 
     
-    <footer class="blog-footer">
-      <p>
-      
-      &copy; Christian Mohn
-      
-      </p>
-      <p>
-      <a href="#">Back to top</a>
-      </p>
-    </footer>
-    
+  <div class="container" role="main">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        
+        <div class="posts-list">
+          
+            <article class="post-preview">
+              <a href="/osx/macos-vanilla/">
+                <h2 class="post-title">macOS: Vanilla</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on November 24, 2017
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 1 minutes (62 words)
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  <p>Small, unobtrusive and easy to use. That&rsquo;s a pretty good description for a macOS utility I recently discovered: <a href="http://vanilla.wolves.fm/r/SyU119Hlz">Vanilla</a> (<a href="http://matthewpalmer.net/vanilla/">non-affiliate link</a>).</p>
+
+<p>Simply put, this little gem let&rsquo;s you hide any or all menu bar icons in macOS, while still keeping them easily accessible behind a small arrow:</p>
+
+<p><strong>After hiding with Vanilla:<img src="/img/Screenshot-2017-11-24-13.26.30-644x48.png" alt="" /></strong></p>
+
+<p><strong>Expanded view:</strong><img src="/img/Screenshot-2017-11-24-13.27.14-644x48.png" alt="" /></p>
+
+<p>I for one like getting rid of the unnecessary clutter!</p>
+
+                
+              </div>
+
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="/awesometalks/lisa17-dont-you-know-who-i-am-the-danger-of-celebrity-in-tech/">
+                <h2 class="post-title">LISA17 - &#34;Don&#39;t You Know Who I Am?!&#34; The Danger of Celebrity in Tech</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on November 22, 2017
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 1 minutes (111 words)
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  This is the first post, in what hopefully will turn into a series of posts, highlighting awesome talks that are freely available. There is a lot of great content out there, both inspirational and funny, and I&rsquo;ll try to publish my favorites when I find them.
+So here is the first one!
+John Nicholson shared this awesome talk by Corey Quinn from LISA17, which should be mandatory for anyone attending conferences, or talks in general.
+                  <a href="/awesometalks/lisa17-dont-you-know-who-i-am-the-danger-of-celebrity-in-tech/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="/virtualization/webinar-veeam-integration-with-vmware-vsan-vsphere-tags-and-spbm-policies/">
+                <h2 class="post-title">Webinar: Veeam integration with VMware vSAN, vSphere tags and SPBM policies</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on November 13, 2017
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 1 minutes (50 words)
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  <p><strong>Warning: Shameless self promotion ahead!</strong></p>
+
+<p>November 30th I&rsquo;ll be joining <a href="https://twitter.com/mplesnerj">Martin Plesner-Jacobsen</a> from Veeam for a Live Webinar: _Veeam integration with VMware vSAN, vSphere tags and SPBM policies. _</p>
+
+<p><strong>Now that&rsquo;s a lot of goodies in one place!</strong></p>
+
+<p><a href="https://go.veeam.com/webinar-integration-vmware-vsan-vsphere-spbm-policies?ccode=blogger_CMohn_q042017"><strong><img src="/img/250x250_webinar-1.png" alt="" /></strong></a></p>
+
+<p><img src="/img/Screenshot-2017-11-09-12.45.40.png" alt="" /></p>
+
+<p>Click on the banner above to <a href="https://go.veeam.com/webinar-integration-vmware-vsan-vsphere-spbm-policies?ccode=blogger_CMohn_q042017">register now</a>, and reserve your spot!</p>
+
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="//tags/self-promotion/">Self Promotion</a>&nbsp;
+                  
+                    <a href="//tags/veeam/">Veeam</a>&nbsp;
+                  
+                    <a href="//tags/webinar/">Webinar</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="/osx/mass-converting-svg-to-png-on-macos/">
+                <h2 class="post-title">Mass Converting .svg to .png on macOS</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on October 26, 2017
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 1 minutes (179 words)
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  When playing around with Royal TSX I needed to mass convert the VMware Clarity .svg files to .png files that I could use as icons in Royal TSX.
+After trying a series of different approaches, I ended up with using rsvg-convert from libRSVG. In order to get rsvg-convert installed on my MacBook, I turned to HomeBrew.
+HomeBrew, which calls itself The missing package manager for macOS is in my opinion essential for any macOS user.
+                  <a href="/osx/mass-converting-svg-to-png-on-macos/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="//tags/blogtober/">Blogtober</a>&nbsp;
+                  
+                    <a href="//tags/homebrew/">HomeBrew</a>&nbsp;
+                  
+                    <a href="//tags/macos/">macOS</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="/workflow/integrating-pocket-with-todoist-via-ifttt/">
+                <h2 class="post-title">Integrating Pocket with Todoist via IFTTT</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on October 24, 2017
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 3 minutes (447 words)
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  Myles Gray asked me how I integrate Pocket with Todoist, after my How I use Todoist post, and the answer is very simple: IFTTT. If-This-Then-That lets you connect services, and create rules (or applets) that trigger based on events in those services, luckily both Todoist and Pocket are supported.
+Now, there is a bit of overlap between how I use Pocket and Todoist, but I mainly use Pocket to keep track of links I want to either read later, or use as basis for blog posts.
+                  <a href="/workflow/integrating-pocket-with-todoist-via-ifttt/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="//tags/ifttt/">IFTTT</a>&nbsp;
+                  
+                    <a href="//tags/pocket/">Pocket</a>&nbsp;
+                  
+                    <a href="//tags/todoist/">Todoist</a>&nbsp;
+                  
+                    <a href="//tags/workflow/">Workflow</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="/workflow/how-i-use-todoist/">
+                <h2 class="post-title">How I use Todoist</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on October 24, 2017
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 3 minutes (468 words)
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  As I&rsquo;ve mentioned before, I use Todoist to keep track of my personal to-do list. This is the first to-do manager I&rsquo;ve been able to stick with, and I&rsquo;ve been using it daily for well over 2 years now. In that two year period I&rsquo;ve reorganised it a bit, but for the most part I&rsquo;ve been able to keep to the main structure I initially created when setting it up the first time.
+                  <a href="/workflow/how-i-use-todoist/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="//tags/blogtober/">Blogtober</a>&nbsp;
+                  
+                    <a href="//tags/todo/">Todo</a>&nbsp;
+                  
+                    <a href="//tags/todoist/">Todoist</a>&nbsp;
+                  
+                    <a href="//tags/work/">Work</a>&nbsp;
+                  
+                    <a href="//tags/workflow/">Workflow</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="/virtualization/veeamon-tour-virtual-2017-reserve-your-spot/">
+                <h2 class="post-title">VeeamOn Tour Virtual 2017 - Reserve your spot!</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on October 17, 2017
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 1 minutes (111 words)
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  Veeam is hosting their VeeamOn Tour Virtual 2017 event on December 5th, and I&rsquo;ll be part of the panel of bloggers in the Expert Lounge!
+Veeam describes the event like this:
+The biggest online Availability event in EMEA — VeeamON Tour Virtual 2017 — is once again coming to your desktop! No need to leave your chair — Experience Availability simply by joining us for an ultimate digital journey! VeeamON Tour Virtual runs from 11 am to 5 pm CET, and offers three separate tracks; Business, Technical and Cloud.
+                  <a href="/virtualization/veeamon-tour-virtual-2017-reserve-your-spot/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="//tags/event/">event</a>&nbsp;
+                  
+                    <a href="//tags/veeam/">Veeam</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="/osx/making-royal-tsx-even-more-awesome/">
+                <h2 class="post-title">Making Royal TSX Even More Awesome</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on October 11, 2017
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 3 minutes (637 words)
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  For those who don&rsquo;t know, Royal TSX is an awesome Remote Management solution, which supports RDP, VNC, SSH, S/FTP and even ESXi and vCenter. I&rsquo;ve been using it for years, not just because they offer free licenses for vExperts (and others), but simply because it works really well. Store it&rsquo;s config file on a synchronized file area (like Dropbox), and boom, your config follows you around from machine to machine, including custom icons.
+                  <a href="/osx/making-royal-tsx-even-more-awesome/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="//tags/awesome/">Awesome</a>&nbsp;
+                  
+                    <a href="//tags/blogtober/">Blogtober</a>&nbsp;
+                  
+                    <a href="//tags/management/">management</a>&nbsp;
+                  
+                    <a href="//tags/royaltsx/">RoyalTSX</a>&nbsp;
+                  
+                    <a href="//tags/software/">Software</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="/misc/psa-protect-your-email-with-dmarc/">
+                <h2 class="post-title">PSA: Protect Your Email with DMARC</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on April 15, 2017
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 3 minutes (602 words)
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  In the last few months, I&rsquo;ve seen an uptick in spoofed emails being sent with my own personal email domain. Not only is this extremely annoying, but more problematic is that recipients receive spam and phishing emails from what seems to be my personal mail account, simply by spoofing the from address. I don&rsquo;t know why domain and email address has been &ldquo;chosen&rdquo; for this, but I guess this is fallout from the LinkedIn breach way back in 2012.
+                  <a href="/misc/psa-protect-your-email-with-dmarc/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="//tags/dmarc/">dmarc</a>&nbsp;
+                  
+                    <a href="//tags/email/">email</a>&nbsp;
+                  
+                    <a href="//tags/security/">Security</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="/virtualization/vmware-vsan-6-6-whats-new-for-day-2-operations/">
+                <h2 class="post-title">VMware vSAN 6.6 - What&#39;s New for Day 2 Operations?</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on April 11, 2017
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 3 minutes (468 words)
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  VMware has just announced vSAN v6.6, with over 20 new features. While new and shiny features are nice I&rsquo;d like to highlight a couple that I think might be undervalued from release feature-set perspective, but highly valuable in day to day operations of a vSAN environment, otherwise known as Day 2 operations.
+vSAN Configuration Assist is one such new feature. While it&rsquo;s true that it helps first time configuration of a greenfield installation with vSAN (no more bootstrapping, yay!
+                  <a href="/virtualization/vmware-vsan-6-6-whats-new-for-day-2-operations/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="//tags/day-2/">Day 2</a>&nbsp;
+                  
+                    <a href="//tags/management/">management</a>&nbsp;
+                  
+                    <a href="//tags/news/">News</a>&nbsp;
+                  
+                    <a href="//tags/operations/">Operations</a>&nbsp;
+                  
+                    <a href="//tags/vmware/">VMware</a>&nbsp;
+                  
+                    <a href="//tags/vsan/">VSAN</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+        </div>
+        
+          <ul class="pager main-pager">
+            
+              <li class="previous">
+                <a href="/posts/page/1/">&larr; Newer Posts</a>
+              </li>
+            
+            
+              <li class="next">
+                <a href="/posts/page/3/">Older Posts &rarr;</a>
+              </li>
+            
+          </ul>
+        
+      </div>
+    </div>
+  </div>
+
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="mailto:youremail@domain.com" title="Email me">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/username" title="Facebook">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://plus.google.com/&#43;username" title="Google&#43;">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/username" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://gitlab.com/username" title="GitLab">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-gitlab fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://bitbucket.org/username" title="Bitbucket">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-bitbucket fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/username" title="Twitter">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://reddit.com/u/username" title="Reddit">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-reddit-alien fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://linkedin.com/in/username" title="LinkedIn">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.xing.com/profile/username" title="Xing">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-xing fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://stackoverflow.com/users/XXXXXXX/username" title="StackOverflow">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-stack-overflow fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.snapchat.com/add/username" title="Snapchat">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-snapchat-ghost fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/username" title="Instagram">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/user/username" title="Youtube">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://soundcloud.com/username" title="SoundCloud">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-soundcloud fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://open.spotify.com/user/username" title="Spotify">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-spotify fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://username.bandcamp.com/" title="Bandcamp">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-bandcamp fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://itch.io/profile/username" title="Itch.io">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-gamepad fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://vk.com/username" title="VK">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-vk fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://paypal.me/username" title="PayPal">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-paypal fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://telegram.me/username" title="Telegram">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-telegram fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            
+            <a href="/posts/index.xml" title="RSS">
+            
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+            
+              <a href="yourwebsite.com">Some Person</a>
+            
+          
+
+          &nbsp;&bull;&nbsp;
+          2018
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="/">Beautiful Hugo</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          <a href="http://gohugo.io">Hugo v0.40.3</a> powered &nbsp;&bull;&nbsp; Theme by <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/contrib/auto-render.min.js" integrity="sha384-dq1/gEHSxPZQ7DdrM82ID4YVol9BYyU7GbWlIwnwyPzotpoc57wDw/guX8EaYGPx" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="/js/main.js"></script>
+<script src="/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> $(document).ready(function() {$("pre.chroma").css("padding","0");}); </script><script> renderMathInElement(document.body); </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script>
+<script src="/js/load-photoswipe.js"></script>
+
+
+
+
+
 
   </body>
-
 </html>
+

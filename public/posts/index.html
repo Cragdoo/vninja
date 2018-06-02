@@ -1,256 +1,862 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
-    <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-<meta property="og:title" content="Posts" />
-<meta property="og:description" content="There is a thin line between agile and fragile" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="/posts/" />
+  <title>Posts</title>
+  <meta property="og:title" content="Posts" />
+  <meta name="twitter:title" content="Posts" />
+  <meta name="author" content="Some Person"/>
+  <link href='/img/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta property="og:image" content="/img/avatar-icon.png" />
+  <meta name="twitter:image" content="/img/avatar-icon.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@username" />
+  <meta name="twitter:creator" content="@username" />
+  <meta property="og:url" content="/posts/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Beautiful Hugo" />
+
+  <meta name="generator" content="Hugo 0.40.3" />
+  <link rel="canonical" href="/posts/" />
+  <link rel="alternate" href="/posts/index.xml" type="application/rss+xml" title="Beautiful Hugo">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+  <link rel="stylesheet" href="/css/highlight.min.css" /><link rel="stylesheet" href="/css/codeblock.css" />
 
 
 
-<meta property="og:updated_time" content="2018-05-23T14:48:02&#43;02:00"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
 
 
 
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
 
+<div class="pswp__bg"></div>
 
-
-
-
-
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Posts"/>
-<meta name="twitter:description" content="There is a thin line between agile and fragile"/>
-<meta name="generator" content="Hugo 0.40.3" />
-
-
+<div class="pswp__scroll-wrap">
     
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "Blog",
-  "headline": "Adventures in Hugo",
-  "url" : "/posts/",
-  "author": {
-    "@type": "Person",
-    "name": "Christian Mohn"
-  },
-  "dateModified": "2018-05-23T14:48:02&#43;02:00",
-  "keywords": "awesometalks,book,hardware,homelab,howto,inthebag,microsoft,misc,network,news,os-x,rant,software,storage,virtualization,vmware,windows,workflow,2011,2014,2015,2016,2017,3par,5.5,6.0,6.5,acronis,adobe,adviceforvmworld,agile,alastair-cooke,alerting,analysis,announcement,annual,api,app-delivery,apple,applescript,appliance,architecture,audio,autolab,automation,automator,availability,award,awesome,awesometalk,aws,awsome,backup,backup-academy,backup-amp-replication,backup-amp-replication-v7,bag,barcelona,bash,best-practice,beta,bitlocker,bl460c,bladesystem,block-size,blog,bloggers,blogging,blogtober,book,boot-camp,bug,c3000,c7000,cancer,care-package,cc,certificate,certificates,certification,change,changelog,changes,charity,christian-mohn,chromecast,cisco,citrix,cloud,cloudflare,cohesity,collaboration,command-line,community,competition,conference,content-creation,contest,contest.-photo,copenhagen,daas,data-center,datastore,day-2,dell,denmark,deployment,desktop,digital-ship,disaster,disaster-recovery,dmarc,dns,docker,dockerflix,documentation,donation,doom,download,dr,dropbox,dynamic-dns,easyvnx,ed,edb-ergogroup,email,embedded-host-client,emc,encryption,epiphany,equallogic,esx,esx-3.5,esxcli,esxi,esxi-4,esxi-5,euc,event,event-id-2915,evernote,everyday,evo,evorail,evry,exchange,experiment,facelift,feature-request,featured,fibre-channel,fire,firewall,firmware,flash,flash-talk,fling,floppy,form-factor,framework,free,free-tool,free-tools,freebie,fun,fundraising,future,g8,gdpr,geektool,github,give-away,gorilla,gpmc,group-policy,group-policy-preferences,ha,hack,hands-on,hands-on-lab,hands-on-labs,happy-dance,harakiri,hardware,hardware-version,health-check,hipster-it,hol,home-lab,homebrew,homelab,homelabops,horizon,horizon-application-manager,host,host-cache,hosted-beta,howto,hp,hp-insight-control,http,hyper-converged,hyper-v,hyperconverged,hypervisor,ideas,ifttt,images,impatient,installation,integrity,intel,internationalization,inthebag,inthebag.-weekly,iomega,ipad,ix2,john-troyer,kb,kb2393802,keep-calm,keynote,keyremap4macbook.-customization,kids,knowledge-base,lab,labs,latency-sensitivity,licenses,licensing,linux,log,log-files,log-insight,mac,macos,maintenance,makyo,management,markdown,marvin,md5,meltdown,messaging,microsoft,microsoft-office,microvisor,mike-laverick,misinformation,monitoring,moref,movember,multipath,nda,neil-armstrong,nested-esxi,networking,news,nfr,nfs,ninja,node,nordic,nordic-vmug,norway,nsx,ntp,nutanix,nutjob,omnigraffle,oneliner,online-training,operations,opinion,ops,organization,os-x,oslo,p220i,packt,pandoc,password,patch,patching,pckeyboardhack,pernixdata,personal,petri,photo,photos,php,pins,plans,plugin,pocket,podcast,podcasting-for-cancer,policy-based-computing,posters,powercli,powergui,powershell,prediction,presentation,proact,productivity,proliant,proof-of-concept,proxy,psc,published,python,quote,quotes,rant,raspberry-pi,ravello,rdcman,real-world,realworld,receiver,recommended,release,remoting,review,role,royaltsx,rpi,rsync,saas,sammy-bogaert,sandisk,sccm,script,scripting,scvmm,sddc,seatrans,security,self-help,self-promotion,server,session,setup,sfp&#43;,sha1,sharing,simulation,site,site-recovery-manager,slack,slate,snapshot,snark,social,social-media,software,speaking,spectacle,spectre,speculation,sql-server-express,ssd,ssh,ssl,sso,statistics,steve-herrod,stickers,storage,storeserv,suggestion,suse,syslog,system-center,tech-conference,tech-field-day,terminal,theme,thin-client,thinapp,tips-amp-tricks,todo,todoist,togaf,tool,topology,topvblog,tpm,training,trainsignal,travel,trial,troubleshooting,tunnels,ubuntu,unconference,unsupported,update,upgrade,usb,usercon,v12n,vaio,vanguards,vblog,vcap,vcap-dca,vcap-dcd,vcdx,vcdxwannabe,vcenter,vcenter-appliance,vcenter-client,vcenter-operations,vcenter-operations-manager,vcenter-server-appliance,vcenter-update-manager,vcenter-web-client,vcli,vcloud,vcloud-air,vcp,vcsa,vdm30in30,vdr,veeam,veeam-backup-amp-replication,venting,vexpert,vflash,vflash-read-cache,vfrc,vib,video,view,vip-vcp-club,virtual-appliance,virtual-application,virtual-connect,virtualization,vkernel,vlaunchpad,vm,vma,vmfs,vmtn,vmtn-subscription,vmug,vmware,vmware-forum,vmware-photon,vmware-player,vmware-server,vmware-software-manager,vmware-studio,vmware-view,vmware-workstation,vmware.-vcl,vmworld,vmworld-2012,vmworld-fun-contest,vmworld.-rant,vmworld2012,vninja,vops,vote,voting,vpostgres,vram,vrealize-log-insight,vrealize-operations,vrli,vrops,vrtx,vsamurai,vsan,vshield,vshield-edge,vshield-manager,vsoup,vsphere,vsphere-5,vsphere-5.5,vsphere-6,vsphere-6.5,vsphere-client,vsphere-land,vsphere-replication,watchguard,waterfall,web-client,webhook,webinar,weekly,weeky,whatsup,whitepaper,window-manager,windows,windows-8,winner,winners,wordpress,work,workaround,workflow,workstation,workstation-8,wsus,xen,xvmotion,youtube,zerto,",
-  "description": "There is a thin line between agile and fragile"
-}
-</script>
-
-
-    <link rel="canonical" href="/posts/">
-
-    <title>Adventures in Hugo</title>
-
-    <!-- combined, minified CSS -->
-    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
-
-    
-    <!-- RSS 2.0 feed -->
-    <link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="Adventures in Hugo" />
-    
-
-    
-
-    
-
-    
-
-  </head>
-
-  <body>
-
-    
-    <div class="blog-masthead">
-      <div class="container">
-        <nav class="nav blog-nav">
-          <a class="nav-link " href="/">Home</a>
-          
-          <a class="nav-link" href="https://example.org" title="">Link 1</a>
-          
-        </nav>
-      </div>
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
     </div>
     
-
-    
-    <header class="blog-header">
-      <div class="container">
-        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
-        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
       </div>
-    </header>
-    
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
 
-    
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-8 blog-main">
+</head>
 
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Beautiful Hugo</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
           
+            <li>
+              <a title="Blog" href="/">Blog</a>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent" href="javascript:void(0)">Samples</a>
+              <div class="navlinks-children">
+                
+                  <a href="/post/2017-03-07-bigimg-sample">Big Image Sample</a>
+                
+                  <a href="/post/2017-03-05-math-sample">Math Sample</a>
+                
+                  <a href="/post/2016-03-08-code-sample">Code Sample</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li>
+              <a title="About" href="/page/about/">About</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Tags" href="/tags">Tags</a>
+            </li>
+          
+        
 
+        
 
+        
+      </ul>
+    </div>
 
+    <div class="avatar-container">
+      <div class="avatar-img-border">
+        
+          <a title="Beautiful Hugo" href="/">
+            <img class="avatar-img" src="/img/avatar-icon.png" alt="Beautiful Hugo" />
+          </a>
+        
+      </div>
+    </div>
 
-
-
-
-<article class="blog-post">
-  <header>
-    <h2 class="blog-post-title"><a href="/posts/markdown-testing/">Markdown Testing</a></h2>
-    <p class="blog-post-meta"><time datetime="2018-05-23T14:48:02&#43;02:00">Wed May 23, 2018</time> by Christian Mohn</p>
-  </header>
-  #Testing
-Markdown: Syntax Main Basics Syntax License Dingus   Overview  Philosophy Inline HTML Automatic Escaping for Special Characters  Block Elements  Paragraphs and Line Breaks Headers Blockquotes Lists Code Blocks Horizontal Rules  Span Elements  Links Emphasis Code Images  Miscellaneous  Backslash Escapes Automatic Links   Note: This document is itself written using Markdown; you can see the source for it by adding &lsquo;.
-  <a href='/posts/markdown-testing/'>Read more →</a>
-</article> 
-
-
-
-
-
-
-<article class="blog-post">
-  <header>
-    <h2 class="blog-post-title"><a href="/posts/another-test.post/">Another Test</a></h2>
-    <p class="blog-post-meta"><time datetime="2018-05-23T14:45:05&#43;02:00">Wed May 23, 2018</time> by Christian Mohn</p>
-  </header>
-  Testing!
-  <a href='/posts/another-test.post/'>Read more →</a>
-</article> 
-
-
-
-
-
-
-<article class="blog-post">
-  <header>
-    <h2 class="blog-post-title"><a href="/rant/ive-complied-i-think/">I&rsquo;ve Complied, I think.</a></h2>
-    <p class="blog-post-meta"><time datetime="2018-05-22T21:21:27Z">Tue May 22, 2018</time> by cmohn in 
-<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/rant" rel="category tag">Rant</a>
-
-
-<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/gdpr" rel="tag">GDPR</a>
-
-</p>
-  </header>
-  Like Sam and Simon over at definit.co.uk I&rsquo;ve done a quick GDPR-related overhaul of the site.
-Like the two English scholars and gentlemen, I&rsquo;ve created the required Privacy Policy page. I&rsquo;ve also deleted all existing comments on the site, and disabled comments sitewide — hopefully that&rsquo;s enough.
-Oh, joy.
-  <a href='/rant/ive-complied-i-think/'>Read more →</a>
-</article> 
-
-
-
-
-
-
-<article class="blog-post">
-  <header>
-    <h2 class="blog-post-title"><a href="/awesometalks/crossing-river-feeling-stones/">Keynote: Crossing the River by Feeling the Stones - Simon Wardley</a></h2>
-    <p class="blog-post-meta"><time datetime="2018-05-09T13:12:07Z">Wed May 09, 2018</time> by cmohn in 
-<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/awesometalks" rel="category tag">AwesomeTalks</a>
-
-
-<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/awesometalk" rel="tag">AwesomeTalk</a>, <a href="/tags/keynote" rel="tag">Keynote</a>, <a href="/tags/video" rel="tag">video</a>, <a href="/tags/youtube" rel="tag">Youtube</a>
-
-</p>
-  </header>
-  This is the third talk I&rsquo;ve found worthy of publishing in the Awesome Talks series. Enjoy Simon Wardley&rsquo;s Researcher, Leading Edge Forum, keynote from KubeCon + CloudNativeCon Europe 2018 called &ldquo;Crossing the River by Feeling the Stones&rdquo;.
-Simon&rsquo;s presentation technique, flair and master of language is flat out impressive — and fun!
-Crossing the River by Feeling the Stones https://youtu.be/xlNYYy8pzB4
-Now, do you know what a map is? Do you, really?
-  <a href='/awesometalks/crossing-river-feeling-stones/'>Read more →</a>
-</article> 
-
-
-
-
-
-
-<article class="blog-post">
-  <header>
-    <h2 class="blog-post-title"><a href="/vmware-2/bootbank-cannot-be-found-at-path/">Alerting on &ldquo;Bootbank cannot be found at path ‘/bootbank’&rdquo; in vRealize Operations</a></h2>
-    <p class="blog-post-meta"><time datetime="2018-01-29T22:49:53Z">Mon Jan 29, 2018</time> by cmohn in 
-<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/vmware" rel="category tag">VMware</a>
-
-
-<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/alerting" rel="tag">Alerting</a>, <a href="/tags/vrealize-log-insight" rel="tag">vRealize Log Insight</a>, <a href="/tags/vrealize-operations" rel="tag">vRealize Operations</a>, <a href="/tags/vrli" rel="tag">vRLI</a>, <a href="/tags/vrops" rel="tag">vROps</a>, <a href="/tags/vsphere" rel="tag">vSphere</a>
-
-</p>
-  </header>
-  If you boot your ESXi hosts from SD-cards or USB you might have run into this issue. Suddenly your host(s) displays the following under events: &ldquo;Bootbank cannot be found at path ‘/bootbank’.&rdquo;
-Usually this means that the boot device has been corrupted somehow, either due to a device failure or other issues. Normally the host continues to run, until it&rsquo;s rebooted that is&hellip;
-For some reason, vRealize Operations doesn&rsquo;t pick this up as a host issue that it alerts on, so if your alerting regime is based on vROps alerts, you might not get alerted immediately.
-  <a href='/vmware-2/bootbank-cannot-be-found-at-path/'>Read more →</a>
-</article> 
-
-
-
-
-
-<nav class="blog-pagination">
-  
-  
-  
-  <a class="btn btn-outline-primary disabled" href="#" role="button" aria-disabled="true">Previous page</a>
-  <a class="btn btn-outline-primary" href="/posts/page/2/" rel="next" role="button">Next page</a>
-  
+  </div>
 </nav>
 
 
 
 
-
-        </div> <!-- /.blog-main -->
-
-        <aside class="col-sm-3 ml-auto blog-sidebar">
-  
-
-  
-
-  
-  <section class="sidebar-module">
-    <h4>Links</h4>
-    <ol class="list-unstyled">
-      
-      <li><a href="https://example.com">Link 1</a></li>
-      
-      <li><a href="https://example.org">Link 2</a></li>
-      
-    </ol>
-  </section>
-  
-</aside>
-
-
-      </div> <!-- /.row -->
-    </div> <!-- /.container -->
     
+  <header class="header-section ">
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="page-heading">
+              <h1>Posts</h1>
+              <hr class="small">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
 
     
-    <footer class="blog-footer">
-      <p>
-      
-      &copy; Christian Mohn
-      
-      </p>
-      <p>
-      <a href="#">Back to top</a>
-      </p>
-    </footer>
-    
+  <div class="container" role="main">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        
+        <div class="posts-list">
+          
+            <article class="post-preview">
+              <a href="/posts/markdown-testing/">
+                <h2 class="post-title">Markdown Testing</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on May 23, 2018
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 1 minutes (196 words)
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  #Testing
+Markdown: Syntax Main Basics Syntax License Dingus   Overview  Philosophy Inline HTML Automatic Escaping for Special Characters  Block Elements  Paragraphs and Line Breaks Headers Blockquotes Lists Code Blocks Horizontal Rules  Span Elements  Links Emphasis Code Images  Miscellaneous  Backslash Escapes Automatic Links   Note: This document is itself written using Markdown; you can see the source for it by adding &lsquo;.
+                  <a href="/posts/markdown-testing/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="/posts/another-test.post/">
+                <h2 class="post-title">Another Test</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on May 23, 2018
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 1 minutes (1 words)
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  <p>Testing!</p>
+
+                
+              </div>
+
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="/rant/ive-complied-i-think/">
+                <h2 class="post-title">I&#39;ve Complied, I think.</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on May 22, 2018
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 1 minutes (49 words)
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  <p>Like Sam and Simon over at <a href="https://www.definit.co.uk/2018/05/gdpr-blogging-and-definit/">definit.co.uk</a> I&rsquo;ve done a quick GDPR-related overhaul of the site.</p>
+
+<p>Like the two English scholars and gentlemen, I&rsquo;ve created the required <a href="http://vninja.net/privacy-policy/">Privacy Policy</a> page. I&rsquo;ve also deleted all existing comments on the site, and disabled comments sitewide — hopefully that&rsquo;s enough.</p>
+
+<p>Oh, joy.</p>
+
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="//tags/gdpr/">GDPR</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="/awesometalks/crossing-river-feeling-stones/">
+                <h2 class="post-title">Keynote: Crossing the River by Feeling the Stones - Simon Wardley</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on May 9, 2018
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 1 minutes (71 words)
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  This is the third talk I&rsquo;ve found worthy of publishing in the Awesome Talks series. Enjoy Simon Wardley&rsquo;s Researcher, Leading Edge Forum, keynote from KubeCon + CloudNativeCon Europe 2018 called &ldquo;Crossing the River by Feeling the Stones&rdquo;.
+Simon&rsquo;s presentation technique, flair and master of language is flat out impressive — and fun!
+Crossing the River by Feeling the Stones https://youtu.be/xlNYYy8pzB4
+Now, do you know what a map is? Do you, really?
+                  <a href="/awesometalks/crossing-river-feeling-stones/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="//tags/awesometalk/">AwesomeTalk</a>&nbsp;
+                  
+                    <a href="//tags/keynote/">Keynote</a>&nbsp;
+                  
+                    <a href="//tags/video/">video</a>&nbsp;
+                  
+                    <a href="//tags/youtube/">Youtube</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="/vmware-2/bootbank-cannot-be-found-at-path/">
+                <h2 class="post-title">Alerting on &#34;Bootbank cannot be found at path ‘/bootbank’&#34; in vRealize Operations</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on January 29, 2018
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 2 minutes (379 words)
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  If you boot your ESXi hosts from SD-cards or USB you might have run into this issue. Suddenly your host(s) displays the following under events: &ldquo;Bootbank cannot be found at path ‘/bootbank’.&rdquo;
+Usually this means that the boot device has been corrupted somehow, either due to a device failure or other issues. Normally the host continues to run, until it&rsquo;s rebooted that is&hellip;
+For some reason, vRealize Operations doesn&rsquo;t pick this up as a host issue that it alerts on, so if your alerting regime is based on vROps alerts, you might not get alerted immediately.
+                  <a href="/vmware-2/bootbank-cannot-be-found-at-path/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="//tags/alerting/">Alerting</a>&nbsp;
+                  
+                    <a href="//tags/vrealize-log-insight/">vRealize Log Insight</a>&nbsp;
+                  
+                    <a href="//tags/vrealize-operations/">vRealize Operations</a>&nbsp;
+                  
+                    <a href="//tags/vrli/">vRLI</a>&nbsp;
+                  
+                    <a href="//tags/vrops/">vROps</a>&nbsp;
+                  
+                    <a href="//tags/vsphere/">vSphere</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="/news/curious-case-intel-microcode-part-2-gets-better-worse/">
+                <h2 class="post-title">The Curious Case of the Intel Microcode Part #2 - It Gets Better — Then Worse</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on January 14, 2018
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 10 minutes (2077 words)
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  This guest post by Bjørn Anders Jørgensen, Senior Systems Consultant Basefarm, first appeared on LinkedIn.
+Before you start on this rather long post, have a go at part #1:
+tl;dr This is a long read. To get to the juicy part on how Intel potentially shipped pre-release microcode to partners, skip to section 3. The short, short version is that the official Intel microcode update contains newer microcode for Skylake-SP and Kaby Lake/Coffe Lake than what currently is shipping from VMware/HPE/DellEMC etc.
+                  <a href="/news/curious-case-intel-microcode-part-2-gets-better-worse/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="//tags/analysis/">Analysis</a>&nbsp;
+                  
+                    <a href="//tags/intel/">Intel</a>&nbsp;
+                  
+                    <a href="//tags/meltdown/">Meltdown</a>&nbsp;
+                  
+                    <a href="//tags/security/">Security</a>&nbsp;
+                  
+                    <a href="//tags/spectre/">Spectre</a>&nbsp;
+                  
+                    <a href="//tags/vmware/">VMware</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="/news/the-curious-case-of-the-intel-microcode/">
+                <h2 class="post-title">The Curious Case of the Intel Microcode</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on January 9, 2018
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 5 minutes (1034 words)
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  This guest post by Bjørn Anders Jørgensen, Senior Systems Consultant Basefarm, first appeared on LinkedIn.
+Disclaimer: This is a report based on current development as of 7. January, the situation is changing by the hour so read this opinion piece with that in hindsight.
+Unless you have been living under a rock for the last week you will know by now that there is a universal design flaw in most modern microprocessors, leaving them vulnerable to a serious information disclosure problem that requires updates to all operating systems and processors.
+                  <a href="/news/the-curious-case-of-the-intel-microcode/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="//tags/analysis/">Analysis</a>&nbsp;
+                  
+                    <a href="//tags/intel/">Intel</a>&nbsp;
+                  
+                    <a href="//tags/meltdown/">Meltdown</a>&nbsp;
+                  
+                    <a href="//tags/security/">Security</a>&nbsp;
+                  
+                    <a href="//tags/spectre/">Spectre</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="/misc/evaluating-2017/">
+                <h2 class="post-title">Evaluating 2017</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on December 18, 2017
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 3 minutes (510 words)
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  Keeping up with tradition (you thought I was going to say Kardashians there, didn&rsquo;t you?), it&rsquo;s time to evaluate 2017.
+My list of goals for 2017 and the verdict is as follows:
+ **Get that VCAP6-DCV Design exam out of the way **Done and dusted (for 6.5 that is, not 6.0). I&rsquo;ve also updated my VCP to 6.5, and I&rsquo;m currently waiting for the VCAP6.5-DCV Deploy exam. *Score: 10&frasl;10*
+ **AWS Associate Certifications **Didn&rsquo;t happen.
+                  <a href="/misc/evaluating-2017/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="//tags/2017/">2017</a>&nbsp;
+                  
+                    <a href="//tags/review/">Review</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="/news/nordic-vmug-conference-2018/">
+                <h2 class="post-title">Nordic VMUG Conference 2018</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on December 13, 2017
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 2 minutes (239 words)
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  My good friends, and fellow VMUGgers, in Denmark is once again arranging the largest VMUG event in the Nordics in January 2018.
+The Nordic VMUG Conference promises to be just as awesome as previous versions, just have a look at this speaker list:
+ Opening Keynote:** Kit Colbert**
+ Breakout sessions: **Ole Agesen, Duncan Epping, Myles Gray, Frank Denneman, Niels Hagoort, Grant Orchard and Joerg Lew**
+ Closing Keynote:** Ken Westin**
+                  <a href="/news/nordic-vmug-conference-2018/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="//tags/awsome/">Awsome</a>&nbsp;
+                  
+                    <a href="//tags/conference/">conference</a>&nbsp;
+                  
+                    <a href="//tags/denmark/">Denmark</a>&nbsp;
+                  
+                    <a href="//tags/vmug/">VMUG</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="/awesometalks/scott-hanselman-its-not-what-you-read-its-what-you-ignore/">
+                <h2 class="post-title">Scott Hanselman - &#34;It&#39;s not what you read, it&#39;s what you ignore&#34;</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on November 27, 2017
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 1 minutes (85 words)
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  This is the second recorded talk published in the Awesome Talks series. This time it&rsquo;s Scott Hanselman&rsquo;s &rdquo;It&rsquo;s not what you read, it&rsquo;s what you ignore&rdquo; talk from Dev Day in Kraków way back in 2012.
+This isn&rsquo;t a technical talk, it&rsquo;s originally geared towards developers but Scott&rsquo;s message should resonate with everyone in the tech field. In general, it&rsquo;s about how you can deal with large amounts of information. Lot&rsquo;s of great takeaways here!
+                  <a href="/awesometalks/scott-hanselman-its-not-what-you-read-its-what-you-ignore/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+
+            </article>
+          
+        </div>
+        
+          <ul class="pager main-pager">
+            
+            
+              <li class="next">
+                <a href="/posts/page/2/">Older Posts &rarr;</a>
+              </li>
+            
+          </ul>
+        
+      </div>
+    </div>
+  </div>
+
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="mailto:youremail@domain.com" title="Email me">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/username" title="Facebook">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://plus.google.com/&#43;username" title="Google&#43;">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/username" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://gitlab.com/username" title="GitLab">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-gitlab fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://bitbucket.org/username" title="Bitbucket">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-bitbucket fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/username" title="Twitter">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://reddit.com/u/username" title="Reddit">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-reddit-alien fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://linkedin.com/in/username" title="LinkedIn">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.xing.com/profile/username" title="Xing">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-xing fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://stackoverflow.com/users/XXXXXXX/username" title="StackOverflow">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-stack-overflow fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.snapchat.com/add/username" title="Snapchat">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-snapchat-ghost fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/username" title="Instagram">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/user/username" title="Youtube">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://soundcloud.com/username" title="SoundCloud">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-soundcloud fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://open.spotify.com/user/username" title="Spotify">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-spotify fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://username.bandcamp.com/" title="Bandcamp">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-bandcamp fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://itch.io/profile/username" title="Itch.io">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-gamepad fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://vk.com/username" title="VK">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-vk fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://paypal.me/username" title="PayPal">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-paypal fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://telegram.me/username" title="Telegram">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-telegram fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            
+            <a href="/posts/index.xml" title="RSS">
+            
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+            
+              <a href="yourwebsite.com">Some Person</a>
+            
+          
+
+          &nbsp;&bull;&nbsp;
+          2018
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="/">Beautiful Hugo</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          <a href="http://gohugo.io">Hugo v0.40.3</a> powered &nbsp;&bull;&nbsp; Theme by <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/contrib/auto-render.min.js" integrity="sha384-dq1/gEHSxPZQ7DdrM82ID4YVol9BYyU7GbWlIwnwyPzotpoc57wDw/guX8EaYGPx" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="/js/main.js"></script>
+<script src="/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> $(document).ready(function() {$("pre.chroma").css("padding","0");}); </script><script> renderMathInElement(document.body); </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script>
+<script src="/js/load-photoswipe.js"></script>
+
+
+
+
+
 
   </body>
-
 </html>
+

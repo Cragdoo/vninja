@@ -1,256 +1,849 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
-    <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-<meta property="og:title" content="News" />
-<meta property="og:description" content="There is a thin line between agile and fragile" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="/categories/news/" />
+  <title>News</title>
+  <meta property="og:title" content="News" />
+  <meta name="twitter:title" content="News" />
+  <meta name="author" content="Some Person"/>
+  <link href='/img/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta property="og:image" content="/img/avatar-icon.png" />
+  <meta name="twitter:image" content="/img/avatar-icon.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@username" />
+  <meta name="twitter:creator" content="@username" />
+  <meta property="og:url" content="/categories/news/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Beautiful Hugo" />
+
+  <meta name="generator" content="Hugo 0.40.3" />
+  <link rel="canonical" href="/categories/news/" />
+  <link rel="alternate" href="/categories/news/index.xml" type="application/rss+xml" title="Beautiful Hugo">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+  <link rel="stylesheet" href="/css/highlight.min.css" /><link rel="stylesheet" href="/css/codeblock.css" />
 
 
 
-<meta property="og:updated_time" content="2013-02-26T16:14:48&#43;00:00"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
 
 
 
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
 
+<div class="pswp__bg"></div>
 
-
-
-
-
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="News"/>
-<meta name="twitter:description" content="There is a thin line between agile and fragile"/>
-<meta name="generator" content="Hugo 0.40.3" />
-
-
+<div class="pswp__scroll-wrap">
     
-      
-    
-
-    <link rel="canonical" href="/categories/news/">
-
-    <title>Adventures in Hugo</title>
-
-    <!-- combined, minified CSS -->
-    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
-
-    
-    <!-- RSS 2.0 feed -->
-    <link href="/categories/news/index.xml" rel="alternate" type="application/rss+xml" title="Adventures in Hugo" />
-    
-
-    
-
-    
-
-    
-
-  </head>
-
-  <body>
-
-    
-    <div class="blog-masthead">
-      <div class="container">
-        <nav class="nav blog-nav">
-          <a class="nav-link " href="/">Home</a>
-          
-          <a class="nav-link" href="https://example.org" title="">Link 1</a>
-          
-        </nav>
-      </div>
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
     </div>
     
-
-    
-    <header class="blog-header">
-      <div class="container">
-        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
-        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
       </div>
-    </header>
-    
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
 
-    
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-8 blog-main">
+</head>
 
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Beautiful Hugo</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
           
+            <li>
+              <a title="Blog" href="/">Blog</a>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent" href="javascript:void(0)">Samples</a>
+              <div class="navlinks-children">
+                
+                  <a href="/post/2017-03-07-bigimg-sample">Big Image Sample</a>
+                
+                  <a href="/post/2017-03-05-math-sample">Math Sample</a>
+                
+                  <a href="/post/2016-03-08-code-sample">Code Sample</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li>
+              <a title="About" href="/page/about/">About</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Tags" href="/tags">Tags</a>
+            </li>
+          
+        
 
+        
 
+        
+      </ul>
+    </div>
 
+    <div class="avatar-container">
+      <div class="avatar-img-border">
+        
+          <a title="Beautiful Hugo" href="/">
+            <img class="avatar-img" src="/img/avatar-icon.png" alt="Beautiful Hugo" />
+          </a>
+        
+      </div>
+    </div>
 
-
-
-<article class="blog-post">
-  <header>
-    <h2 class="blog-post-title"><a href="/news/free-pass-teched-2013/">Want a Free Pass to TechEd 2013?</a></h2>
-    <p class="blog-post-meta"><time datetime="2013-02-26T16:14:48Z">Tue Feb 26, 2013</time> by cmohn in 
-<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/news" rel="category tag">News</a>
-
-
-<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/contest" rel="tag">contest</a>, <a href="/tags/fun" rel="tag">fun</a>, <a href="/tags/give-away" rel="tag">Give-away</a>, <a href="/tags/veeam" rel="tag">Veeam</a>
-
-</p>
-  </header>
-  Our sponsor Veeam is giving away a free pass to TechEd 2013 in this months giveaway.
-Register now to be entered into the draw before March 18th when the winner will be announced.
-  <a href='/news/free-pass-teched-2013/'>Read more →</a>
-</article> 
-
-
-
-
-
-
-<article class="blog-post">
-  <header>
-    <h2 class="blog-post-title"><a href="/news/trainsignal-training-service-taas/">Trainsignal: Training as a Service (TaaS)</a></h2>
-    <p class="blog-post-meta"><time datetime="2013-02-22T08:55:41Z">Fri Feb 22, 2013</time> by cmohn in 
-<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/news" rel="category tag">News</a>
-
-
-<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/certification" rel="tag">Certification</a>, <a href="/tags/cisco" rel="tag">Cisco</a>, <a href="/tags/microsoft" rel="tag">Microsoft</a>, <a href="/tags/training" rel="tag">Training</a>, <a href="/tags/trainsignal" rel="tag">Trainsignal</a>, <a href="/tags/vmware" rel="tag">VMware</a>
-
-</p>
-  </header>
-  Trainsignal has just launched a new Online Training bundle, and for $49 a month you can get unlimited access to their entire set of training courses and practice exams for Cisco, Apple, Microsoft, Citrix, CompTIA, and VMware.
-
-The new pricing is very attractive, especially since you no longer need to buy access on a course by course basis.
-The courses are delivered in your browser, but Trainsignal also offers an offline player in case you need access when traveling or otherwise offline.
-  <a href='/news/trainsignal-training-service-taas/'>Read more →</a>
-</article> 
-
-
-
-
-
-
-<article class="blog-post">
-  <header>
-    <h2 class="blog-post-title"><a href="/news/vmware-launches-public-vcloud-test-driv/">VMware launches Public vCloud &ldquo;Test-Drive&rdquo;</a></h2>
-    <p class="blog-post-meta"><time datetime="2012-08-16T21:17:12Z">Thu Aug 16, 2012</time> by cmohn in 
-<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/news" rel="category tag">News</a>
-
-
-<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/cloud" rel="tag">Cloud</a>, <a href="/tags/news" rel="tag">News</a>, <a href="/tags/opinion" rel="tag">Opinion</a>, <a href="/tags/vcloud" rel="tag">vCloud</a>, <a href="/tags/vmware" rel="tag">VMware</a>
-
-</p>
-  </header>
-  VMware Offers vCloud “Test-Drive” with New Evaluation Service.
-This announcement doesn´t seem to be &ldquo;Project Zephyr&rdquo; which, if the rumors are true, is VMware´s own fully fledged IaaS service.
-This Public vCloud “Test-Drive” service, which VMware themselves describe as “white-label” from a vCloud service provider, seems like a way for VMware to provide cheap test-drive access, to vCloud through their existing service providers.
-Where the rumored &ldquo;Project Zephyr&rdquo; might be seen as a competing service, Public vCloud looks to be engineered to drive long term customers to the existing ecosystem of providers.
-  <a href='/news/vmware-launches-public-vcloud-test-driv/'>Read more →</a>
-</article> 
-
-
-
-
-
-
-<article class="blog-post">
-  <header>
-    <h2 class="blog-post-title"><a href="/news/vmware-virtual-customer-labs/">VMware Virtual Customer Labs</a></h2>
-    <p class="blog-post-meta"><time datetime="2012-02-04T18:43:44Z">Sat Feb 04, 2012</time> by cmohn in 
-<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/news" rel="category tag">News</a>, <a href="/categories/vmware" rel="category tag">VMware</a>
-
-
-<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/hands-on" rel="tag">Hands-On</a>, <a href="/tags/labs" rel="tag">labs</a>, <a href="/tags/vmware.-vcl" rel="tag">VMware. vCL</a>
-
-</p>
-  </header>
-  I´ve mentioned this earlier, VMware hands-in labs going public in 2012, but finally it seems like something is happening in that regard!
-Scott Sauer has announced the availability of &ldquo;VMware Virtual Customer Labs” (vCL) where he walks us through the setup and delivery of the new vCL offering.
-At the moment it´s only available to &ldquo;selected customers&rdquo;, supported by a VMware pre-sales engineer, and the number of labs are limited. It´s still a work in progress, and I´m sure great things will come out of this!
-  <a href='/news/vmware-virtual-customer-labs/'>Read more →</a>
-</article> 
-
-
-
-
-
-
-<article class="blog-post">
-  <header>
-    <h2 class="blog-post-title"><a href="/news/vote-top-vmware-virtualization-blogs/">Vote for the Top VMware &amp; Virtualization Blogs</a></h2>
-    <p class="blog-post-meta"><time datetime="2012-01-24T08:46:24Z">Tue Jan 24, 2012</time> by cmohn in 
-<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/news" rel="category tag">News</a>, <a href="/categories/virtualization" rel="category tag">Virtualization</a>
-
-
-<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/fun" rel="tag">fun</a>, <a href="/tags/virtualization" rel="tag">Virtualization</a>, <a href="/tags/vote" rel="tag">Vote</a>
-
-</p>
-  </header>
-  Eric Siebert has opened up the voting for the top VMware &amp; virtualization blogs. Head on over and cast your votes!
-Votes for vNinja.net and vSoup.net would be greatly appreciated, but since we´re not affiliated with the Dutch vMaffia we promise that you will not have to wear concrete boots or wake up to a horses head in your bed if you don´t vote for us.
-We think.
-  <a href='/news/vote-top-vmware-virtualization-blogs/'>Read more →</a>
-</article> 
-
-
-
-
-
-<nav class="blog-pagination">
-  
-  <a class="btn btn-outline-primary" href="/categories/news/page/4/" rel="prev" role="button">Previous page</a>
-  <a class="btn btn-outline-primary" href="/categories/news/page/6/" rel="next" role="button">Next page</a>
-  
-  
-  
+  </div>
 </nav>
 
 
 
 
-
-        </div> <!-- /.blog-main -->
-
-        <aside class="col-sm-3 ml-auto blog-sidebar">
-  
-
-  
-
-  
-  <section class="sidebar-module">
-    <h4>Links</h4>
-    <ol class="list-unstyled">
-      
-      <li><a href="https://example.com">Link 1</a></li>
-      
-      <li><a href="https://example.org">Link 2</a></li>
-      
-    </ol>
-  </section>
-  
-</aside>
-
-
-      </div> <!-- /.row -->
-    </div> <!-- /.container -->
     
+  <header class="header-section ">
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="page-heading">
+              <h1>#News</h1>
+              <hr class="small">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
 
     
-    <footer class="blog-footer">
-      <p>
-      
-      &copy; Christian Mohn
-      
-      </p>
-      <p>
-      <a href="#">Back to top</a>
-      </p>
-    </footer>
-    
+  <div class="container" role="main">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        
+        <div class="posts-list">
+          
+            <article class="post-preview">
+              <a href="/news/vmware-forum-2011-oslo/">
+                <h2 class="post-title">VMware Forum 2011 Oslo </h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on April 8, 2011
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 3 minutes (575 words)
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  Yesterday I attended VMware Forum 2011 in Oslo (Norwegian).
+The venue and location at DogA - the Norwegian Centre for Design and Architecture was very nice, but sadly I must ask VMware who the intended audience for the VMware Forum event is?
+According to the invitation the audience target is:
+People that will benefit from attending VMware Forum 2011 include: CIO, CFO and General Managers Infrastructure and Datacenter Managers IT Managers and Directors Security Managers Systems Administrators Desktop, SOE Managers Application Managers, Application Administrators Application Developers IT Procurement Mangers Sadly I fail to see how the VMware Forum 2011 in Oslo would be very beneficial for existing VMware customers, at least not at a technical level.
+                  <a href="/news/vmware-forum-2011-oslo/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="/news/digital-ship-magazine-april-2011/">
+                <h2 class="post-title">Digital Ship Magazine April 2011</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on April 1, 2011
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 1 minutes (187 words)
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  Back in February 2011 I was invited, along with my IT Manager, to do a presentation at Digital Ship Scandinavia 2011.
+Digital Ship magazine has now published an article based on what we presented at the live event. As far as I can gather, based on the feedback both at the event and afterwards, the presentation was a success and now the Digital Ship Magazine for April 2011 includes a two page article based on the entire presentation.
+                  <a href="/news/digital-ship-magazine-april-2011/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="//tags/digital-ship/">digital ship</a>&nbsp;
+                  
+                    <a href="//tags/ops/">Ops</a>&nbsp;
+                  
+                    <a href="//tags/presentation/">Presentation</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="/news/vsoup-episode-7-and-vmware-podcast-directory/">
+                <h2 class="post-title">vSoup Episode #7 and VMware Podcast Directory</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on March 28, 2011
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 1 minutes (77 words)
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  vSoup Episode #7 &ldquo;Everything is better with Bacon&rdquo; is now available for your listening &ldquo;pleasure&rdquo;. With Sean Clark as our guest, we get into quite a few topics like storage and SQL virtualization. Be sure to check it out!
+In related news, VMware has created a Virtualization Podcast directory over on the VMware Communities portal. Way to go John, hopefully the other podcasts will follow suite so we can have one common directory for all of us!
+                  <a href="/news/vsoup-episode-7-and-vmware-podcast-directory/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="//tags/podcast/">Podcast</a>&nbsp;
+                  
+                    <a href="//tags/vmware/">VMware</a>&nbsp;
+                  
+                    <a href="//tags/vsoup/">vSoup</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="/news/vninja-net-available-also-on-vninja-com/">
+                <h2 class="post-title">vNinja.net available also on vNinja.com</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on March 21, 2011
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 1 minutes (77 words)
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  Thanks to the generosity of Todd Wright vNinja.net is now also available via vNinja.com. Todd came out of nowhere and offered to redirect his vNinja.com domain to vNinja.net, since he didn&rsquo;t have time to do anything with it himself.
+I&rsquo;m very grateful that Todd wanted to do this, and thanks to some quick Apache trickery .com now redirects to .net to make sure Google doesn&rsquo;t find and penalize any double content.
+                  <a href="/news/vninja-net-available-also-on-vninja-com/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="//tags/site/">site</a>&nbsp;
+                  
+                    <a href="//tags/vninja/">vNinja</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="/news/vsoup-episode-4-now-available/">
+                <h2 class="post-title">vSoup Episode #4 now available</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on February 10, 2011
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 1 minutes (84 words)
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  The fourth edition (Big Fat Pipes with Bob) of the vSoup podcast is now available. This time we had the honor of having Bob Plankers as a guest. Bob runs The Lone Sysadmin, where his recent post &ldquo;Blame&rdquo; really resonated well with me personally.
+The fact of the matter is that in many cases Bob is right, virtualization admins ends up being blamed for everything.
+No matter who’s fault it actually is, though, I’m the one-stop shop now for blame.
+                  <a href="/news/vsoup-episode-4-now-available/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="//tags/podcast/">Podcast</a>&nbsp;
+                  
+                    <a href="//tags/vsoup/">vSoup</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="/news/vsoup-episode-3-now-available/">
+                <h2 class="post-title">vSoup Episode #3 now available</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on January 24, 2011
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 1 minutes (40 words)
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  <p>The third episode of vSoup has been spotted in the wild. Head on over to <a href="http://vSoup.net">vSoup.net</a> to grab it while it&rsquo;s still warm. Or, you can frantically refresh your iTunes feed until it pops up there.</p>
+
+<p>Either way, it&rsquo;s alive!</p>
+
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="//tags/podcast/">Podcast</a>&nbsp;
+                  
+                    <a href="//tags/vsoup/">vSoup</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="/news/vsoup-episode-2-now-available/">
+                <h2 class="post-title">vSoup Episode #2 now available</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on January 17, 2011
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 1 minutes (38 words)
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  <p>The second episode of vSoup is now available. Head on over to <a href="http://vSoup.net">vSoup.net</a> to get your fix.</p>
+
+<p>Chris, Ed and myself keeps rambling about, this time about blogger recruitment, high availability, security and the HP Proliant MicroServer.</p>
+
+<p>Enjoy!</p>
+
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="//tags/podcast/">Podcast</a>&nbsp;
+                  
+                    <a href="//tags/vsoup/">vSoup</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="/news/hp-proliant-microserver-%e2%80%93-oh-its-there/">
+                <h2 class="post-title">HP ProLiant MicroServer – Oh, it&#39;s there!</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on January 17, 2011
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 2 minutes (312 words)
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  In a previous article, HP ProLiant MicroServer – Not Quite There Yet?, I questioned whether the HP Proliant MicroServer could have a place in a corporate environment.
+I finally got my hands on one, and for my specific use case it&rsquo;s pretty much perfect! Sure, I would love to have some vSphere supported RAID controller and a beefier CPU but in my use case the MicroServer delivers just what we need for some of our small branch offices.
+                  <a href="/news/hp-proliant-microserver-%e2%80%93-oh-its-there/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="/news/volume-activation-management-tool-vamt-article/">
+                <h2 class="post-title">Volume Activation Management Tool (VAMT) article</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on January 16, 2011
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 1 minutes (69 words)
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  I&rsquo;ve had another article posted on Petri IT Knowledgebase!
+ The Volume Activation Management Tool (VAMT) is a free tool from Microsoft that can help administrators perform licensing and activation related tasks from a single viewpoint. VAMT is currently available in version 2.0, and supports the following products and operating systems:  Read the rest of the article called License &amp; Activation Management with Volume Activation Management Tool (VAMT) on petri.
+                  <a href="/news/volume-activation-management-tool-vamt-article/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="//tags/licensing/">Licensing</a>&nbsp;
+                  
+                    <a href="//tags/microsoft/">Microsoft</a>&nbsp;
+                  
+                    <a href="//tags/ops/">Ops</a>&nbsp;
+                  
+                    <a href="//tags/petri/">Petri</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="/news/so-what-is-this-vsoup-thing/">
+                <h2 class="post-title">So, what is this vSoup thing?</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on January 4, 2011
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 1 minutes (126 words)
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  Some times things just happen, and before you know it you&rsquo;re sitting in your in-laws living room talking to an Englishman and an American via Skype. And to top it of; it&rsquo;s all being recorded. And to make matters even worse, we decided to try and make it a regular thing. The recordings that is, not the &ldquo;in your in-laws living room&rdquo; thing, that was a one-off for sure.
+What I&rsquo;m trying to say here is that yours truly, Ed Czerwin and Chris Dearden has decided that we want to be rock-stars and start our own little virtualization related podcast.
+                  <a href="/news/so-what-is-this-vsoup-thing/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="//tags/podcast/">Podcast</a>&nbsp;
+                  
+                    <a href="//tags/vsoup/">vSoup</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+        </div>
+        
+          <ul class="pager main-pager">
+            
+              <li class="previous">
+                <a href="/categories/news/page/4/">&larr; Newer Posts</a>
+              </li>
+            
+            
+              <li class="next">
+                <a href="/categories/news/page/6/">Older Posts &rarr;</a>
+              </li>
+            
+          </ul>
+        
+      </div>
+    </div>
+  </div>
+
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="mailto:youremail@domain.com" title="Email me">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/username" title="Facebook">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://plus.google.com/&#43;username" title="Google&#43;">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/username" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://gitlab.com/username" title="GitLab">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-gitlab fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://bitbucket.org/username" title="Bitbucket">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-bitbucket fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/username" title="Twitter">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://reddit.com/u/username" title="Reddit">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-reddit-alien fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://linkedin.com/in/username" title="LinkedIn">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.xing.com/profile/username" title="Xing">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-xing fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://stackoverflow.com/users/XXXXXXX/username" title="StackOverflow">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-stack-overflow fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.snapchat.com/add/username" title="Snapchat">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-snapchat-ghost fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/username" title="Instagram">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/user/username" title="Youtube">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://soundcloud.com/username" title="SoundCloud">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-soundcloud fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://open.spotify.com/user/username" title="Spotify">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-spotify fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://username.bandcamp.com/" title="Bandcamp">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-bandcamp fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://itch.io/profile/username" title="Itch.io">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-gamepad fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://vk.com/username" title="VK">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-vk fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://paypal.me/username" title="PayPal">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-paypal fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://telegram.me/username" title="Telegram">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-telegram fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            
+            <a href="/categories/news/index.xml" title="RSS">
+            
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+            
+              <a href="yourwebsite.com">Some Person</a>
+            
+          
+
+          &nbsp;&bull;&nbsp;
+          2018
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="/">Beautiful Hugo</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          <a href="http://gohugo.io">Hugo v0.40.3</a> powered &nbsp;&bull;&nbsp; Theme by <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/contrib/auto-render.min.js" integrity="sha384-dq1/gEHSxPZQ7DdrM82ID4YVol9BYyU7GbWlIwnwyPzotpoc57wDw/guX8EaYGPx" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="/js/main.js"></script>
+<script src="/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> $(document).ready(function() {$("pre.chroma").css("padding","0");}); </script><script> renderMathInElement(document.body); </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script>
+<script src="/js/load-photoswipe.js"></script>
+
+
+
+
+
 
   </body>
-
 </html>
+

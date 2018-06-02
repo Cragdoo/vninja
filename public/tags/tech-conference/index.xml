@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tech Conference on Adventures in Hugo</title>
+    <title>Tech Conference on Beautiful Hugo</title>
     <link>/tags/tech-conference/</link>
-    <description>Recent content in Tech Conference on Adventures in Hugo</description>
+    <description>Recent content in Tech Conference on Beautiful Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
+    <webMaster>youremail@domain.com (Some Person)</webMaster>
     <lastBuildDate>Wed, 09 Oct 2013 18:04:02 +0000</lastBuildDate>
     
 	<atom:link href="/tags/tech-conference/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>VMworld Europe 2013 - Here I Come</title>
       <link>/virtualization/vmworld-europe-2013/</link>
       <pubDate>Wed, 09 Oct 2013 18:04:02 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/virtualization/vmworld-europe-2013/</guid>
       <description>For the first time since 2010 I will actually be physically attending VMworld Europe! I fly over from the very cold, rainy and generally very autumny Norway to sunny Barcelona on Sunday the 13th.
 Based on my past experience from VMworld in Copenhagen, I have decided to go easy on the session scheduling and not fill my calendar to the brim.

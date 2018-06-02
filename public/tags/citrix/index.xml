@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Citrix on Adventures in Hugo</title>
+    <title>Citrix on Beautiful Hugo</title>
     <link>/tags/citrix/</link>
-    <description>Recent content in Citrix on Adventures in Hugo</description>
+    <description>Recent content in Citrix on Beautiful Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
+    <webMaster>youremail@domain.com (Some Person)</webMaster>
     <lastBuildDate>Thu, 05 Dec 2013 22:47:32 +0000</lastBuildDate>
     
 	<atom:link href="/tags/citrix/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>Importing SSL Certificates to Raspberry Pi Thin Client</title>
       <link>/virtualization/importing-ssl-certificates-raspberry-pi-thin-client/</link>
       <pubDate>Thu, 05 Dec 2013 22:47:32 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/virtualization/importing-ssl-certificates-raspberry-pi-thin-client/</guid>
       <description>When playing around with the Raspberry Pi Thin Client, I ran into an issue with the SSL certificates for the Citrix Receiver client. For some reason it didn&amp;rsquo;t want to play with the certificates installed on the server side, and popped the following error message:
 **You have not chosen to trust &#34;AddTrust External CA Root&#34;, the issuer of the server&#39;s security certificate.** Thankfully there is a quick fix for this! Since Iceweasel is also in the RPTC distribution, and it has a lot more SSL root CA certificates included by default, all that was required (in my case) was to link the certificates it has with the certificates the Citrix Receiver client can use.</description>

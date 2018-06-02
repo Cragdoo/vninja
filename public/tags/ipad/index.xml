@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ipad on Adventures in Hugo</title>
+    <title>Ipad on Beautiful Hugo</title>
     <link>/tags/ipad/</link>
-    <description>Recent content in Ipad on Adventures in Hugo</description>
+    <description>Recent content in Ipad on Beautiful Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
+    <webMaster>youremail@domain.com (Some Person)</webMaster>
     <lastBuildDate>Fri, 18 Mar 2011 09:18:44 +0000</lastBuildDate>
     
 	<atom:link href="/tags/ipad/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>vSphere iPad Client</title>
       <link>/virtualization/vsphere-ipad-client/</link>
       <pubDate>Fri, 18 Mar 2011 09:18:44 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/virtualization/vsphere-ipad-client/</guid>
       <description>Like everyone else in the vUniverse, I&amp;rsquo;ve had a play with the very recently released free vSphere Client for iPad. Since everyone, and their mother, has already blogged and reviewed it I don&amp;rsquo;t see much value in me doing the same.
 What I can say though, is that the first impression is pretty great. It looks good, works well and might be one of the apps that finally gives me an actual use case for the iPad.</description>

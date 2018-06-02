@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Oslo on Adventures in Hugo</title>
+    <title>Oslo on Beautiful Hugo</title>
     <link>/tags/oslo/</link>
-    <description>Recent content in Oslo on Adventures in Hugo</description>
+    <description>Recent content in Oslo on Beautiful Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
+    <webMaster>youremail@domain.com (Some Person)</webMaster>
     <lastBuildDate>Thu, 26 Apr 2012 20:35:39 +0000</lastBuildDate>
     
 	<atom:link href="/tags/oslo/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>VMware Forum 2012 Oslo</title>
       <link>/virtualization/vmware-forum-2012-oslo/</link>
       <pubDate>Thu, 26 Apr 2012 20:35:39 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/virtualization/vmware-forum-2012-oslo/</guid>
       <description>Just like last year, I got up really early and caught a 06:40 am flight from Bergen to Oslo to attend the VMware Forum. A couple of things have changed since the last time, one of them being the venue.
 This time around it was held at Ullevaal Business Class, and the venue itself worked great for a one day conference like this, divided into three sections, two for parallel sessions and one for the exhibitor area.</description>

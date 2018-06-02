@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Copenhagen on Adventures in Hugo</title>
+    <title>Copenhagen on Beautiful Hugo</title>
     <link>/tags/copenhagen/</link>
-    <description>Recent content in Copenhagen on Adventures in Hugo</description>
+    <description>Recent content in Copenhagen on Beautiful Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
+    <webMaster>youremail@domain.com (Some Person)</webMaster>
     <lastBuildDate>Wed, 22 Oct 2014 21:18:23 +0000</lastBuildDate>
     
 	<atom:link href="/tags/copenhagen/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>Nordic VMUG Conference 2014</title>
       <link>/virtualization/nordic-vmug-conference-2014/</link>
       <pubDate>Wed, 22 Oct 2014 21:18:23 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/virtualization/nordic-vmug-conference-2014/</guid>
       <description>Last year I was lucky enough to get to travel to Copenhagen and visit the Nordic VMUG conference. Sadly it doesn&amp;rsquo;t seem like I&amp;rsquo;ll be able to make it this year, but don&amp;rsquo;t let that stop you! While we in Norway are still trying to get our local VMUG up and running, more news on that in a very short while, the danish VMUG is really the driving force and the leading star for the rest of us in the nordics.</description>
     </item>

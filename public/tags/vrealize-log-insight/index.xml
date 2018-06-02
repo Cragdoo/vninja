@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vrealize Log Insight on Adventures in Hugo</title>
+    <title>Vrealize Log Insight on Beautiful Hugo</title>
     <link>/tags/vrealize-log-insight/</link>
-    <description>Recent content in Vrealize Log Insight on Adventures in Hugo</description>
+    <description>Recent content in Vrealize Log Insight on Beautiful Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
+    <webMaster>youremail@domain.com (Some Person)</webMaster>
     <lastBuildDate>Mon, 29 Jan 2018 22:49:53 +0000</lastBuildDate>
     
 	<atom:link href="/tags/vrealize-log-insight/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>Alerting on &#34;Bootbank cannot be found at path ‘/bootbank’&#34; in vRealize Operations</title>
       <link>/vmware-2/bootbank-cannot-be-found-at-path/</link>
       <pubDate>Mon, 29 Jan 2018 22:49:53 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/vmware-2/bootbank-cannot-be-found-at-path/</guid>
       <description>If you boot your ESXi hosts from SD-cards or USB you might have run into this issue. Suddenly your host(s) displays the following under events: &amp;ldquo;Bootbank cannot be found at path ‘/bootbank’.&amp;rdquo;
 Usually this means that the boot device has been corrupted somehow, either due to a device failure or other issues. Normally the host continues to run, until it&amp;rsquo;s rebooted that is&amp;hellip;

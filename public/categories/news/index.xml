@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>News on Adventures in Hugo</title>
+    <title>News on Beautiful Hugo</title>
     <link>/categories/news/</link>
-    <description>Recent content in News on Adventures in Hugo</description>
+    <description>Recent content in News on Beautiful Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
+    <webMaster>youremail@domain.com (Some Person)</webMaster>
     <lastBuildDate>Sun, 14 Jan 2018 16:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/news/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>The Curious Case of the Intel Microcode Part #2 - It Gets Better — Then Worse</title>
       <link>/news/curious-case-intel-microcode-part-2-gets-better-worse/</link>
       <pubDate>Sun, 14 Jan 2018 16:00:00 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/curious-case-intel-microcode-part-2-gets-better-worse/</guid>
       <description>This guest post by Bjørn Anders Jørgensen, Senior Systems Consultant Basefarm, first appeared on LinkedIn.
 Before you start on this rather long post, have a go at part #1:
@@ -27,7 +27,7 @@ tl;dr This is a long read. To get to the juicy part on how Intel potentially shi
       <title>The Curious Case of the Intel Microcode</title>
       <link>/news/the-curious-case-of-the-intel-microcode/</link>
       <pubDate>Tue, 09 Jan 2018 18:37:24 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/the-curious-case-of-the-intel-microcode/</guid>
       <description>This guest post by Bjørn Anders Jørgensen, Senior Systems Consultant Basefarm, first appeared on LinkedIn.
 Disclaimer: This is a report based on current development as of 7. January, the situation is changing by the hour so read this opinion piece with that in hindsight.
@@ -38,7 +38,7 @@ Unless you have been living under a rock for the last week you will know by now 
       <title>Nordic VMUG Conference 2018</title>
       <link>/news/nordic-vmug-conference-2018/</link>
       <pubDate>Wed, 13 Dec 2017 15:07:40 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/nordic-vmug-conference-2018/</guid>
       <description>My good friends, and fellow VMUGgers, in Denmark is once again arranging the largest VMUG event in the Nordics in January 2018.
 The Nordic VMUG Conference promises to be just as awesome as previous versions, just have a look at this speaker list:
@@ -51,7 +51,7 @@ The Nordic VMUG Conference promises to be just as awesome as previous versions,
       <title>Facelift</title>
       <link>/news/facelift/</link>
       <pubDate>Thu, 24 Nov 2016 00:11:08 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/facelift/</guid>
       <description>I have given the site a small facelift, replacing the old theme with a new and cleaner version. For some reason, I get this &amp;ldquo;theme itch&amp;rdquo; a couple of times a year, but usually I manage to let it pass without doing many changes.
 This time it stuck with me though, and ended up with replacing the old theme with a new one. In fact, the old theme had been active for close to two years now, so it was time to shake things up a bit any way.</description>
@@ -61,7 +61,7 @@ This time it stuck with me though, and ended up with replacing the old theme w
       <title>Nordic VMUG UserCon 2016</title>
       <link>/news/nordic-vmug-usercon-2016/</link>
       <pubDate>Sat, 19 Nov 2016 13:04:50 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/nordic-vmug-usercon-2016/</guid>
       <description>The 2016 Nordic VMUG UserCon in Copenhagen, Denmark, is just 11 days away, and if you haven&amp;rsquo;t registered already now is the time to do so. As usual the speaker lineup for the event is awesome, with a lot of the usual suspects like Duncan Epping (VMware), Cormac Hogan (VMware), Lee Dilworth (VMware), and Frank Denneman (VMware), but VMware is also showing it&amp;rsquo;s commitment to VMUG by sending some non-europeans as well, like Grant Orchard and_ Mike Foley_.</description>
     </item>
@@ -70,7 +70,7 @@ This time it stuck with me though, and ended up with replacing the old theme w
       <title>VMworld Dates 2017</title>
       <link>/news/vmworld-dates-2017/</link>
       <pubDate>Fri, 18 Nov 2016 11:23:58 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/vmworld-dates-2017/</guid>
       <description>Now that the seasons have changed, it&amp;rsquo;s time to look at 2017 and start planning the year. First up, when is VMworld 2017, and perhaps most importantly where? There has been a lot of speculation about this, and the perhaps strongest rumour was that it was moving to Berlin.
 The details for the US has already been posted on vmworld.com, but for Europe all it says is &amp;ldquo;Fall&amp;rdquo;.
@@ -81,7 +81,7 @@ According to Duncan, which usually is in the know, VMworld Europe 2017 will once
       <title>Me too: VMware Cloud™ on AWS</title>
       <link>/news/me-too-vmware-cloud-on-aws/</link>
       <pubDate>Fri, 14 Oct 2016 18:57:20 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/me-too-vmware-cloud-on-aws/</guid>
       <description>After yesterdays announcement of VMware Cloud™ on AWS everyone and their distant relatives have published their opinion pieces on the relevance of the deal, and what who got the short end of the stick in this deal. I guess this is my attempt, or me too post if you will.
 First off, the best source for actual facts and not conjecture, besides the press releases and actual announcement, is Frank Denneman&amp;rsquo;s VMware Cloud™ on AWS – A Closer Look post (and by the way, it just_ feels right_ that Frank is back at VMware).</description>
@@ -91,7 +91,7 @@ First off, the best source for actual facts and not conjecture, besides the pres
       <title>Goodbye PernixData FVP and Architect</title>
       <link>/news/goodbye-fvp-and-architect/</link>
       <pubDate>Thu, 29 Sep 2016 12:08:21 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/goodbye-fvp-and-architect/</guid>
       <description>As we all know by now, PernixData was gobbled up by Nutanix a while back, and since then there has been a nothing but silence on the future of the FVP and Architect products. Now it seems it&amp;rsquo;s over. The acquisition trigged a bunch of PernixData employees moving elsewhere, and now it&amp;rsquo;s the products time to move on as well.
 From what I&amp;rsquo;m hearing, End of Sale and End of Life for both products are due to be announced soon.</description>
@@ -101,7 +101,7 @@ From what I&amp;rsquo;m hearing, End of Sale and End of Life for both products 
       <title>Taking IT too Far</title>
       <link>/news/taking-it-to-far/</link>
       <pubDate>Tue, 19 Jul 2016 12:32:02 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/taking-it-to-far/</guid>
       <description>A few days ago I decided to go full-on mad scientist in documenting my new home lab / network setup, and I&amp;rsquo;ve even created a GitHub repository for it.
 The idea is to create a framework for developing this kind of documentation, heavily influenced by the VCDX methodology and framework. Over time, Conceptual, Logical and Physical designs will be added, as well as configuration settings and operational procedures. Hopefully it&amp;rsquo;ll also contain some useful diagrams.</description>
@@ -111,7 +111,7 @@ The idea is to create a framework for developing this kind of documentation, hea
       <title>Top vBlog 2016: Thank you!</title>
       <link>/news/top-vblog-2016-thank-you/</link>
       <pubDate>Sat, 09 Jul 2016 20:59:02 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/top-vblog-2016-thank-you/</guid>
       <description>While I was away on a two week holiday on the Croatia&amp;rsquo;s sunny Makarska Rivijera, Eric Siebert announced the result of his annual Top vBlog, and much to my surprise vNinja did quite the jump from last years 46th spot to this years 27th! Honestly, I thought the site would drop out of the the top 50 list this year, but once again I&amp;rsquo;m proven to be mistaken. Some times being wrong is just great!</description>
     </item>
@@ -120,7 +120,7 @@ The idea is to create a framework for developing this kind of documentation, hea
       <title>Let&#39;s get the kids some RPi&#39;s!</title>
       <link>/news/lets-get-the-kids-some-rpis/</link>
       <pubDate>Fri, 06 May 2016 09:26:13 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/lets-get-the-kids-some-rpis/</guid>
       <description>A friend of Mr. Jase McCarty is teaching a class in programming control systems, and is in need of a few Raspberry Pi&amp;rsquo;s.
 Sadly the school can&amp;rsquo;t afford buying them outright, so if you have one laying around, that you are not using, get in touch with Jase and he&amp;rsquo;ll set you up with the details on how you can contribute! If you want to do even better, and buy some RPi&amp;rsquo;s outright and donate them to the project, check out this Amazon Wishlist!</description>
@@ -130,7 +130,7 @@ Sadly the school can&amp;rsquo;t afford buying them outright, so if you have one
       <title>IT Architect: Foundation in the Art of Infrastructure Design: A Practical Guide for IT Architects</title>
       <link>/news/it-architect-foundation-in-the-art-of-infrastructure-design-a-practical-guide-for-it-architects/</link>
       <pubDate>Fri, 15 Apr 2016 11:12:00 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/it-architect-foundation-in-the-art-of-infrastructure-design-a-practical-guide-for-it-architects/</guid>
       <description>Way back in late 2014 I volunteered to do technical review for a book called **IT Architect: Foundation in the Art of Infrastructure Design: A Practical Guide for IT Architects. Due to a lot of unforeseen events, the book has been delayed quite a bit, but it&amp;rsquo;s finally available as hardcopy, paperback and eBook! The book is written by J**ohn Yani Arrasjid, VCDX-001, Mark Gabryjelski, VCDX-023, Chris McCain, VCDX-079 and as the title states it really does lay out the foundation of how to approach infrastructure design in a modern virtualised data center.</description>
     </item>
@@ -139,7 +139,7 @@ Sadly the school can&amp;rsquo;t afford buying them outright, so if you have one
       <title>My Contribution to the vSphere Design Pocketbook v3</title>
       <link>/news/my-contribution-to-the-vsphere-design-pocketbook-v3/</link>
       <pubDate>Fri, 08 Apr 2016 17:03:23 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/my-contribution-to-the-vsphere-design-pocketbook-v3/</guid>
       <description>PernixData, and Frank Denneman, has released vSphere Design Pocketbook v3. As the title reads, this is the third time PernixData releases one of these books, and I&amp;rsquo;m honored to be selected amongst the contributors for the second time, this time with a chapter called &amp;ldquo;VCSA vs Windows vCenter - Which One Do I Choose, and Why?&amp;ldquo;
 Go grab your electronic copy now, and be sure to bug your local PernixData representative for a hard-copy later.</description>
@@ -149,7 +149,7 @@ Go grab your electronic copy now, and be sure to bug your local PernixData repr
       <title>I Made Something Happen</title>
       <link>/news/i-made-something-happen/</link>
       <pubDate>Thu, 31 Mar 2016 22:16:31 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/i-made-something-happen/</guid>
       <description>I think Seth Godin might have been onto something with &amp;ldquo;Make something happen&amp;rdquo;, so I did.
 Today was my last day at EVRY. Some might already have been aware of this, mostly because of Hoff-Job-Announcement-as-a-Service, but also because of my own tweet as I left the EVRY offices in Bergen as an employee for the last time:
@@ -161,7 +161,7 @@ The decision to leave EVRY was not an easy one, but it was time to try somethin
       <title>YourDailyTech - Content Stealers</title>
       <link>/news/yourdailytech-content-stealers/</link>
       <pubDate>Thu, 03 Dec 2015 20:59:13 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/yourdailytech-content-stealers/</guid>
       <description>Yesterday I saw this tweet from Stephen Foskett: https://twitter.com/sfoskett/status/672071591245783042
 Which spurred a discussion back and forth, with a few rather interesting statements from yourdailytech.com, like this one
@@ -173,7 +173,7 @@ The problem is that they take original content from other sites, and republish i
       <title>What if it&#39;s Just Some Crazy Guy in a Clown Suit?</title>
       <link>/news/what-if-its-just-some-crazy-guy-in-a-clown-suit/</link>
       <pubDate>Tue, 08 Sep 2015 21:51:44 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/what-if-its-just-some-crazy-guy-in-a-clown-suit/</guid>
       <description>As a few of you have noticed, I recently changed my title on LinkedIn from Chief Consultant to Cloud Architect in the newly formed EVRY Cloud Consulting division, but what does that mean and perhaps more importantly, why?
 The closest description I have found to describe what my new role is this:
@@ -184,7 +184,7 @@ The closest description I have found to describe what my new role is this:
       <title>Win a eBook Copy of Disaster Recovery using VMware vSphere Replication and vCenter Site Recovery Manager</title>
       <link>/news/win-ebook-copy-disaster-recovery-vmware-vsphere-replication-vcenter-site-recovery-manager/</link>
       <pubDate>Fri, 20 Jun 2014 12:34:49 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/win-ebook-copy-disaster-recovery-vmware-vsphere-replication-vcenter-site-recovery-manager/</guid>
       <description>[caption id=&amp;ldquo;attachment_3241&amp;rdquo; align=&amp;ldquo;alignright&amp;rdquo; width=&amp;ldquo;221&amp;rdquo;] Disaster Recovery using VMware vSphere Replication and vCenter Site Recovery Manager[/caption]
 Hot off the heals of the Veeam® Backup &amp;amp; Replication for VMware vSphere giveaway, here is another one for you!
@@ -196,7 +196,7 @@ For the contest I have 2 eBook copies to be given away to 2 lucky winners.</de
       <title>Learning Veeam Backup &amp; Replication for VMware vSphere Book Winners</title>
       <link>/news/learning-veeam-backup-replication-vmware-vsphere-book-winners/</link>
       <pubDate>Fri, 20 Jun 2014 09:47:22 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/learning-veeam-backup-replication-vmware-vsphere-book-winners/</guid>
       <description>Packt Publishing has picked three lucky winners for the Veeam® Backup &amp;amp; Replication for VMware vSphere book.
 The winners are as follows, with the winning comments:
@@ -208,7 +208,7 @@ Wow nice to see a book come out for Veeam. Look forward to the following things 
       <title>Want to Win a Google Chromecast?</title>
       <link>/news/win-google-chromecast/</link>
       <pubDate>Wed, 02 Apr 2014 18:51:05 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/win-google-chromecast/</guid>
       <description>I have a free Google Chromecast to give a way to one lucky winner. As part of being voted into the top 50 VMware &amp;amp; virtualization blogs I was lucky enough to win one for myself, and as an added bonus I get to give away one to one of my readers too!
 To be able to find a worthy winner of it, I&amp;rsquo;ve decided to host a contest.</description>
@@ -218,7 +218,7 @@ To be able to find a worthy winner of it, I&amp;rsquo;ve decided to host a conte
       <title>VCDX? Give me a Quote!</title>
       <link>/news/vcdx-give-quote/</link>
       <pubDate>Fri, 24 Jan 2014 18:25:38 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/vcdx-give-quote/</guid>
       <description>For a tiny project, I need some help from anyone who has completed (successfully or not) the VCDX process.
 _All I&amp;rsquo;m asking is that you provide me with a single line quote about the VCDX process, or the VCDX program itself. _
@@ -229,7 +229,7 @@ Please send any quotes to me on Twitter, either as a mention or as a DM, your ch
       <title>Want a Free Pass to TechEd 2013?</title>
       <link>/news/free-pass-teched-2013/</link>
       <pubDate>Tue, 26 Feb 2013 16:14:48 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/free-pass-teched-2013/</guid>
       <description>Our sponsor Veeam is giving away a free pass to TechEd 2013 in this months giveaway.
 Register now to be entered into the draw before March 18th when the winner will be announced.</description>
@@ -239,7 +239,7 @@ Register now to be entered into the draw before March 18th when the winner will 
       <title>Trainsignal: Training as a Service (TaaS)</title>
       <link>/news/trainsignal-training-service-taas/</link>
       <pubDate>Fri, 22 Feb 2013 08:55:41 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/trainsignal-training-service-taas/</guid>
       <description>Trainsignal has just launched a new Online Training bundle, and for $49 a month you can get unlimited access to their entire set of training courses and practice exams for Cisco, Apple, Microsoft, Citrix, CompTIA, and VMware.
 
@@ -251,7 +251,7 @@ The courses are delivered in your browser, but Trainsignal also offers an offlin
       <title>VMware launches Public vCloud &#34;Test-Drive&#34;</title>
       <link>/news/vmware-launches-public-vcloud-test-driv/</link>
       <pubDate>Thu, 16 Aug 2012 21:17:12 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/vmware-launches-public-vcloud-test-driv/</guid>
       <description>VMware Offers vCloud “Test-Drive” with New Evaluation Service.
 This announcement doesn´t seem to be &amp;ldquo;Project Zephyr&amp;rdquo; which, if the rumors are true, is VMware´s own fully fledged IaaS service.
@@ -263,7 +263,7 @@ Where the rumored &amp;ldquo;Project Zephyr&amp;rdquo; might be seen as a compet
       <title>VMware Virtual Customer Labs</title>
       <link>/news/vmware-virtual-customer-labs/</link>
       <pubDate>Sat, 04 Feb 2012 18:43:44 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/vmware-virtual-customer-labs/</guid>
       <description>I´ve mentioned this earlier, VMware hands-in labs going public in 2012, but finally it seems like something is happening in that regard!
 Scott Sauer has announced the availability of &amp;ldquo;VMware Virtual Customer Labs” (vCL) where he walks us through the setup and delivery of the new vCL offering.
@@ -274,7 +274,7 @@ At the moment it´s only available to &amp;ldquo;selected customers&amp;rdquo;, 
       <title>Vote for the Top VMware &amp; Virtualization Blogs </title>
       <link>/news/vote-top-vmware-virtualization-blogs/</link>
       <pubDate>Tue, 24 Jan 2012 08:46:24 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/vote-top-vmware-virtualization-blogs/</guid>
       <description>Eric Siebert has opened up the voting for the top VMware &amp;amp; virtualization blogs. Head on over and cast your votes!
 Votes for vNinja.net and vSoup.net would be greatly appreciated, but since we´re not affiliated with the Dutch vMaffia we promise that you will not have to wear concrete boots or wake up to a horses head in your bed if you don´t vote for us.
@@ -285,7 +285,7 @@ We think.</description>
       <title>Building The Ultimate vSphere Lab Series</title>
       <link>/news/building-ultimate-vsphere-lab-series/</link>
       <pubDate>Tue, 03 Jan 2012 12:32:29 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/building-ultimate-vsphere-lab-series/</guid>
       <description>Sammy Bogaert has posted a 12 part series called &amp;ldquo;Building The Ultimate vSphere Lab&amp;rdquo;, which knocks the socks of my previous vSphere 4.x series.
 In reality this means that my planned series for vSphere 5.x is now cancelled, as there is no need to duplicate Sammy&amp;rsquo;s efforts. Be sure to check the series out!</description>
@@ -295,7 +295,7 @@ In reality this means that my planned series for vSphere 5.x is now cancelled, a
       <title>Goodbye 2011, you were great</title>
       <link>/news/goodbye-2011-you-were-great/</link>
       <pubDate>Fri, 30 Dec 2011 18:40:41 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/goodbye-2011-you-were-great/</guid>
       <description>Yes, this is YAEotYP, so if you&amp;rsquo;ve already read tons of them I apologize.
 2011 - My personal view 2011 has been a steamroller of a year.The vSoup Virtualization Podcast got aired the first time, and we&amp;rsquo;ve recorded and published 19 full episodes in the inaugural year. I was awarded the vExpert title for the first time, and even got invited to Tech Field Day #6 in Boston.
@@ -306,7 +306,7 @@ In addition to this, I wrote a white paper for Veeam, was included in the Server
       <title>My Personal vMotion</title>
       <link>/news/my-personal-vmotion/</link>
       <pubDate>Fri, 04 Nov 2011 09:26:16 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/my-personal-vmotion/</guid>
       <description>Every  once in a while an opportunity presents itself that is just too good to pass up and after 8 years at Seatrans AS I&amp;rsquo;ve decided to move on and and accept a position as a Senior Consultant in the Infrastructure Consulting division of EDB ErgoGroup.
 Seatrans has been a fantastic employer, and without the backing and support I&amp;rsquo;ve had over the years I would not be in a position where this change would be possible.</description>
@@ -316,7 +316,7 @@ Seatrans has been a fantastic employer, and without the backing and support I&am
       <title>Moving On</title>
       <link>/news/moving-on/</link>
       <pubDate>Fri, 23 Sep 2011 13:49:33 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/moving-on/</guid>
       <description>[cci lang=&amp;ldquo;powershell&amp;rdquo;]if ((Get-date) -gt (Get-date 2012-01-01)) {Get-VM h0bbel | Move-VM -Datastore newEmployer -RunAsync }[/cci]
 More details later.</description>
@@ -326,7 +326,7 @@ More details later.</description>
       <title>vSphere 5 and new licensing - Good or bad?</title>
       <link>/news/vsphere-5-and-new-licensing-good-or-bad/</link>
       <pubDate>Tue, 12 Jul 2011 18:36:07 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/vsphere-5-and-new-licensing-good-or-bad/</guid>
       <description>As many of you did I watched todays Cloud Infrastructure Forum and the release of vSphere 5 today. I was very excited with many of the features such as Storage Profiling, Storage DRS, VMFS 5 release, and they have blown the top off of the resource limits on VMs to create Monster VMs - just to mention a few. However, one topic I notice causing quite a stir is the new licensing that seemed to be very briefly mentioned at the end of the webinar.</description>
     </item>
@@ -335,7 +335,7 @@ More details later.</description>
       <title>vExpert 2011</title>
       <link>/news/vexpert-2011/</link>
       <pubDate>Fri, 01 Jul 2011 07:33:52 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/vexpert-2011/</guid>
       <description></description>
     </item>
@@ -344,7 +344,7 @@ More details later.</description>
       <title>7 Expert Tips for Managing Your Remote vSphere Infrastructure</title>
       <link>/news/7-expert-tips-for-managing-your-remote-vsphere-infrastructure/</link>
       <pubDate>Mon, 20 Jun 2011 20:58:35 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/7-expert-tips-for-managing-your-remote-vsphere-infrastructure/</guid>
       <description>Now there is a catchy title if I ever saw one. Only &amp;ldquo;problem&amp;rdquo; is that it&amp;rsquo;s a whitepaper that I have written for Veeam. In reality this is the first published article I have ever written, that I didn&amp;rsquo;t publish on my own. I&amp;rsquo;m excited about it, yet strangely nervous about how it will be received by the people who download it. If you happen to do so, make sure to let me know how you found it, all comments and criticism will be most appreciated.</description>
     </item>
@@ -353,7 +353,7 @@ More details later.</description>
       <title>Multi-Hypervisor Management and the Future</title>
       <link>/news/multi-hypervisor-management-and-the-future/</link>
       <pubDate>Sun, 12 Jun 2011 20:34:52 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/multi-hypervisor-management-and-the-future/</guid>
       <description>In a previous post, vCenter Integration Mantra, I made the point that vSphere vAdmins wants the 3rd party modules to integrate into the vCenter client and show their delicious addon-value there, and not in their own management interface. Give the vAdmins the info they need, where they do most, if not all their work. Open up the admin client and let us get all that juicy and fruity information we need.</description>
     </item>
@@ -362,7 +362,7 @@ More details later.</description>
       <title>vCenter Integration Mantra</title>
       <link>/news/vcenter-integration-mantra/</link>
       <pubDate>Fri, 10 Jun 2011 15:43:18 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/vcenter-integration-mantra/</guid>
       <description>During Tech Field Day #6 in Boston one particular general feature request has become increasingly prominent;
 Can we have it inside the vCenter client?
@@ -373,7 +373,7 @@ In short, what we want is for all those great third party vendors like VKernel, 
       <title>Tech Field Day #6 - Arriving in Boston</title>
       <link>/news/tech-field-day-6-arriving-in-boston/</link>
       <pubDate>Wed, 08 Jun 2011 13:57:40 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/tech-field-day-6-arriving-in-boston/</guid>
       <description>Yesterday I arrived at Logan International for Tech Field Day #6 in the greater Boston area. Christopher Wells had already arrived earlier in the day, and I was lucky enough to be picked up by Stephen Foskett at the airport and chauffeured to the Sheraton Framingham Hotel and Conference center.
 The travel itself was pretty uneventful, the only trouble I had was that when I landed at Schipol for transfer to the US flight, my boarding pass was nowhere to be found, and I don&amp;rsquo;t think I even received it when I checked in at Bergen Airport Flesland.</description>
@@ -383,7 +383,7 @@ The travel itself was pretty uneventful, the only trouble I had was that when I 
       <title>vSoup and Tech Field Day #6</title>
       <link>/news/vsoup-and-tech-field-day-6/</link>
       <pubDate>Wed, 01 Jun 2011 11:07:52 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/vsoup-and-tech-field-day-6/</guid>
       <description>vSoup Episode #10 is finally released, this time with Stuart Radnidge (blog) as our guest. This episode is a bit unusual, as we didn&amp;rsquo;t really have a set agenda before starting the recording, so we jump around all of the place covering a pretty wide area of topics. Be sure to check it out!
 Tech Field Day #6 is approaching really fast, in fact it&amp;rsquo;s only a week away now! I will leave for Boston on Tuesday, June 7, for what looks to be a very, very busy but fun couple of days.</description>
@@ -393,7 +393,7 @@ Tech Field Day #6 is approaching really fast, in fact it&amp;rsquo;s only a week
       <title>Tech Field Day #6 - Delegate I Am</title>
       <link>/news/tech-field-day-6-delegate-i-am/</link>
       <pubDate>Mon, 16 May 2011 12:34:45 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/tech-field-day-6-delegate-i-am/</guid>
       <description>A while ago I got a surprising email, stating the following:
 You could consider this a sincere compliment from the Gestalt IT community as your name was suggested and we think you are the kind of person we all would love to have as part of our community. This means you&#39;re independent-minded, technology-focused, community-oriented, and a thought leader in the area of IT infrastructure.  Of course, this is pretty much hogwash, but nevertheless I&amp;rsquo;m extremely honored to be invited as a delegate for Tech Field Day #6 in Boston, Mass.</description>
@@ -403,7 +403,7 @@ You could consider this a sincere compliment from the Gestalt IT community as yo
       <title>VMworld 2011 Session Voting</title>
       <link>/news/vmworld-2011-session-voting/</link>
       <pubDate>Mon, 09 May 2011 10:29:39 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/vmworld-2011-session-voting/</guid>
       <description>VMware has opened the public voting for the VMworld 2011 sessions. Personally I haven&amp;rsquo;t submitted anything, but I do see a lot of familiar names in the voting application.
 The voting is available to anyone who has a vmworld.com account, and the voting period is from May 9th to May 18th. The voting is global, which means a vote for a session counts as a vote for both VMworld US and VMworld EMEA as 80% of the selected sessions will occur at both events.</description>
@@ -413,7 +413,7 @@ The voting is available to anyone who has a vmworld.com account, and the voting 
       <title>Installing and running VMware Compliance Checker for vSphere</title>
       <link>/news/installing-and-running-vmware-compliance-checker-for-vsphere/</link>
       <pubDate>Wed, 20 Apr 2011 07:01:37 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/installing-and-running-vmware-compliance-checker-for-vsphere/</guid>
       <description>The first version of the new VMware Compliance Checker for vSphere tool is now available for download.
 VMware Compliance Checker for vSphere lets you scan your ESX and ESXi hosts for compliance with the VMware vSphere hardening guidelines to make sure your hosts are properly configured. It also lets you save and print your assessment results, so you can track your compliance level over time, or use them as documentation for internal audits.</description>
@@ -423,7 +423,7 @@ VMware Compliance Checker for vSphere lets you scan your ESX and ESXi hosts for 
       <title>vNinja enables HA</title>
       <link>/news/vninja-enables-h/</link>
       <pubDate>Wed, 13 Apr 2011 21:02:28 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/vninja-enables-h/</guid>
       <description>I&amp;rsquo;m happy to announce that my fellow vSoup Podcast co-host Ed Czerwin is on board as blogger here on vNinja.net! This means that from now on you won&amp;rsquo;t just have to put up with the content of one virtualization admin, but two!
 As all good vAdmins know, two is better than one, and it&amp;rsquo; so much easier to build HA solutions around!
@@ -434,7 +434,7 @@ Welcome aboard Ed, glad to have you on!</description>
       <title>VMware Forum 2011 Oslo </title>
       <link>/news/vmware-forum-2011-oslo/</link>
       <pubDate>Fri, 08 Apr 2011 09:58:48 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/vmware-forum-2011-oslo/</guid>
       <description>Yesterday I attended VMware Forum 2011 in Oslo (Norwegian).
 The venue and location at DogA - the Norwegian Centre for Design and Architecture was very nice, but sadly I must ask VMware who the intended audience for the VMware Forum event is?
@@ -446,7 +446,7 @@ People that will benefit from attending VMware Forum 2011 include: CIO, CFO and 
       <title>Digital Ship Magazine April 2011</title>
       <link>/news/digital-ship-magazine-april-2011/</link>
       <pubDate>Fri, 01 Apr 2011 09:20:20 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/digital-ship-magazine-april-2011/</guid>
       <description>Back in February 2011 I was invited, along with my IT Manager, to do a presentation at Digital Ship Scandinavia 2011.
 Digital Ship magazine has now published an article based on what we presented at the live event. As far as I can gather, based on the feedback both at the event and afterwards, the presentation was a success and now the Digital Ship Magazine for April 2011 includes a two page article based on the entire presentation.</description>
@@ -456,7 +456,7 @@ Digital Ship magazine has now published an article based on what we presented at
       <title>vSoup Episode #7 and VMware Podcast Directory</title>
       <link>/news/vsoup-episode-7-and-vmware-podcast-directory/</link>
       <pubDate>Mon, 28 Mar 2011 09:32:09 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/vsoup-episode-7-and-vmware-podcast-directory/</guid>
       <description>vSoup Episode #7 &amp;ldquo;Everything is better with Bacon&amp;rdquo; is now available for your listening &amp;ldquo;pleasure&amp;rdquo;. With Sean Clark as our guest, we get into quite a few topics like storage and SQL virtualization. Be sure to check it out!
 In related news, VMware has created a Virtualization Podcast directory over on the VMware Communities portal. Way to go John, hopefully the other podcasts will follow suite so we can have one common directory for all of us!</description>
@@ -466,7 +466,7 @@ In related news, VMware has created a Virtualization Podcast directory over on t
       <title>vNinja.net available also on vNinja.com</title>
       <link>/news/vninja-net-available-also-on-vninja-com/</link>
       <pubDate>Mon, 21 Mar 2011 21:34:58 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/vninja-net-available-also-on-vninja-com/</guid>
       <description>Thanks to the generosity of Todd Wright vNinja.net is now also available via vNinja.com. Todd came out of nowhere and offered to redirect his vNinja.com domain to vNinja.net, since he didn&amp;rsquo;t have time to do anything with it himself.
 I&amp;rsquo;m very grateful that Todd wanted to do this, and thanks to some quick Apache trickery .com now redirects to .net to make sure Google doesn&amp;rsquo;t find and penalize any double content.</description>
@@ -476,7 +476,7 @@ I&amp;rsquo;m very grateful that Todd wanted to do this, and thanks to some quic
       <title>vSoup Episode #4 now available</title>
       <link>/news/vsoup-episode-4-now-available/</link>
       <pubDate>Thu, 10 Feb 2011 20:54:08 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/vsoup-episode-4-now-available/</guid>
       <description>The fourth edition (Big Fat Pipes with Bob) of the vSoup podcast is now available. This time we had the honor of having Bob Plankers as a guest. Bob runs The Lone Sysadmin, where his recent post &amp;ldquo;Blame&amp;rdquo; really resonated well with me personally.
 The fact of the matter is that in many cases Bob is right, virtualization admins ends up being blamed for everything.
@@ -487,7 +487,7 @@ No matter who’s fault it actually is, though, I’m the one-stop shop now for 
       <title>vSoup Episode #3 now available</title>
       <link>/news/vsoup-episode-3-now-available/</link>
       <pubDate>Mon, 24 Jan 2011 13:16:39 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/vsoup-episode-3-now-available/</guid>
       <description>The third episode of vSoup has been spotted in the wild. Head on over to vSoup.net to grab it while it&amp;rsquo;s still warm. Or, you can frantically refresh your iTunes feed until it pops up there.
 Either way, it&amp;rsquo;s alive!</description>
@@ -497,7 +497,7 @@ Either way, it&amp;rsquo;s alive!</description>
       <title>vSoup Episode #2 now available</title>
       <link>/news/vsoup-episode-2-now-available/</link>
       <pubDate>Mon, 17 Jan 2011 09:04:33 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/vsoup-episode-2-now-available/</guid>
       <description>The second episode of vSoup is now available. Head on over to vSoup.net to get your fix.
 Chris, Ed and myself keeps rambling about, this time about blogger recruitment, high availability, security and the HP Proliant MicroServer.
@@ -508,7 +508,7 @@ Enjoy!</description>
       <title>HP ProLiant MicroServer – Oh, it&#39;s there!</title>
       <link>/news/hp-proliant-microserver-%e2%80%93-oh-its-there/</link>
       <pubDate>Mon, 17 Jan 2011 08:37:37 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/hp-proliant-microserver-%e2%80%93-oh-its-there/</guid>
       <description>In a previous article, HP ProLiant MicroServer – Not Quite There Yet?, I questioned whether the HP Proliant MicroServer could have a place in a corporate environment.
 I finally got my hands on one, and for my specific use case it&amp;rsquo;s pretty much perfect! Sure, I would love to have some vSphere supported RAID controller and a beefier CPU but in my use case the MicroServer delivers just what we need for some of our small branch offices.</description>
@@ -518,7 +518,7 @@ I finally got my hands on one, and for my specific use case it&amp;rsquo;s prett
       <title>Volume Activation Management Tool (VAMT) article</title>
       <link>/news/volume-activation-management-tool-vamt-article/</link>
       <pubDate>Sun, 16 Jan 2011 22:03:48 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/volume-activation-management-tool-vamt-article/</guid>
       <description>I&amp;rsquo;ve had another article posted on Petri IT Knowledgebase!
  The Volume Activation Management Tool (VAMT) is a free tool from Microsoft that can help administrators perform licensing and activation related tasks from a single viewpoint. VAMT is currently available in version 2.0, and supports the following products and operating systems:  Read the rest of the article called License &amp;amp; Activation Management with Volume Activation Management Tool (VAMT) on petri.</description>
@@ -528,7 +528,7 @@ I finally got my hands on one, and for my specific use case it&amp;rsquo;s prett
       <title>So, what is this vSoup thing?</title>
       <link>/news/so-what-is-this-vsoup-thing/</link>
       <pubDate>Tue, 04 Jan 2011 15:45:09 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/so-what-is-this-vsoup-thing/</guid>
       <description>Some times things just happen, and before you know it you&amp;rsquo;re sitting in your in-laws living room talking to an Englishman and an American via Skype. And to top it of; it&amp;rsquo;s all being recorded. And to make matters even worse, we decided to try and make it a regular thing. The recordings that is, not the &amp;ldquo;in your in-laws living room&amp;rdquo; thing, that was a one-off for sure.
 What I&amp;rsquo;m trying to say here is that yours truly, Ed Czerwin and Chris Dearden has decided that we want to be rock-stars and start our own little virtualization related podcast.</description>
@@ -538,7 +538,7 @@ What I&amp;rsquo;m trying to say here is that yours truly, Ed Czerwin and Chris 
       <title>State of the vNinja: 2010</title>
       <link>/news/state-of-the-vninja-2010/</link>
       <pubDate>Thu, 30 Dec 2010 23:02:41 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/state-of-the-vninja-2010/</guid>
       <description>Is 2010 over already? I guess it&amp;rsquo;s true that time flies when your having fun! 2010 has been a great year for me, both personally and professionally. I won&amp;rsquo;t bore you to death with personal issues, but as far as professionally goes you&amp;rsquo;ll just have to bare with me.
 2010 was the year I really feel that I got a lot of good work done, and some of that are really significant changes for my organization which is in a way better state IT wise now than in 2009.</description>
@@ -548,7 +548,7 @@ What I&amp;rsquo;m trying to say here is that yours truly, Ed Czerwin and Chris 
       <title>vNinja used by VMware</title>
       <link>/news/vninja-used-by-vmware/</link>
       <pubDate>Mon, 27 Dec 2010 22:12:27 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/vninja-used-by-vmware/</guid>
       <description>Thanks to Maish Saidel-Keesing, vExpert 2010 and blogger over at Technodrone I have been made aware that VMware has used one of my posts here on vNinja in their internal presentation material.
 The material in question is vSphere 4.1 to 4.0 differences (page 44 and 45 in vSphere 4.1 Deep Dive - Part 1 - v6.pptx), where my post about Using USB Pass-through in vSphere 4.1 is quoted and my screenshots used.</description>
@@ -558,7 +558,7 @@ The material in question is vSphere 4.1 to 4.0 differences (page 44 and 45 in vS
       <title>VMworld Europe 2010 Pictures</title>
       <link>/news/vmworld-europe-2010-pictures/</link>
       <pubDate>Tue, 12 Oct 2010 07:21:50 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/vmworld-europe-2010-pictures/</guid>
       <description>View slideshow with larger photos</description>
     </item>
@@ -567,7 +567,7 @@ The material in question is vSphere 4.1 to 4.0 differences (page 44 and 45 in vS
       <title>HP ProLiant MicroServer - Not Quite There Yet?</title>
       <link>/news/hp-proliant-microserver-not-quite-there-yet/</link>
       <pubDate>Thu, 09 Sep 2010 22:44:25 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/hp-proliant-microserver-not-quite-there-yet/</guid>
       <description>When HP announced their new ProLiant MicroServer, I really hoped that it would be the perfect answer to a specific use case I&amp;rsquo;ve been looking at lately.
 Basically, what I&amp;rsquo;m looking for is a small chassis, low noise branch office server that would be used to host a single virtual machine, offering Read-Only Domain Controller (RODC) and Distributed File System (DFS) file-shares.
@@ -578,7 +578,7 @@ Initially it looked to fit the bill perfectly:</description>
       <title>Welcome to vNinja!</title>
       <link>/news/welcome-to-vmaware/</link>
       <pubDate>Wed, 21 Jul 2010 10:09:43 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/welcome-to-vmaware/</guid>
       <description>Welcome to my new playground. I used to post quite a lot over at my old site, h0bbel.p0ggel.org but given it&amp;rsquo;s weird domain name and it&amp;rsquo;s long history I&amp;rsquo;ve decided to start fresh.
 This new site will be dedicated to all things virtualization, PowerShell, Windows Server management and possibly even some Citrix products thrown in here and there. I might even go on about APP-V, but that remains to be seen.</description>

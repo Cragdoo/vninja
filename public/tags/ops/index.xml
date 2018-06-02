@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ops on Adventures in Hugo</title>
+    <title>Ops on Beautiful Hugo</title>
     <link>/tags/ops/</link>
-    <description>Recent content in Ops on Adventures in Hugo</description>
+    <description>Recent content in Ops on Beautiful Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
+    <webMaster>youremail@domain.com (Some Person)</webMaster>
     <lastBuildDate>Wed, 26 Jun 2013 10:34:18 +0000</lastBuildDate>
     
 	<atom:link href="/tags/ops/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>Monitoring the ESXi Upgrade Process</title>
       <link>/vmware-2/monitoring-esxi-upgrade-process/</link>
       <pubDate>Wed, 26 Jun 2013 10:34:18 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/vmware-2/monitoring-esxi-upgrade-process/</guid>
       <description>When doing manual host upgrades, either through the direct method or via a locally placed upgrade bundle, there is a distinct lack of progress information available after running the esxcli command.
 Thankfully the ESXi host provides a running logfile of the upgrade process, which makes it much easier to keep track of what is going on and that the upgrade is indeed being performed.
@@ -27,7 +27,7 @@ The esxupdate.log is located in /var/log, and by issuing the following command i
       <title>Backing up vCenter DB with Veeam B&amp;R 6.5</title>
       <link>/virtualization/backing-up-vcenter-db-with-veeam-br-6-5/</link>
       <pubDate>Mon, 25 Mar 2013 09:03:41 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/virtualization/backing-up-vcenter-db-with-veeam-br-6-5/</guid>
       <description>It´s a well known problem that with Veeam Backup &amp;amp; Recovery Replication 6.5, and earlier, backing up the SQL server that hosts the vCenter DB poses a problem. KB1051 VSS for vCenter outlines the issue well, and provides a workaround.
 If you experience this problem, you will see entries like this in your Veeam B&amp;amp;R backup logs:
@@ -39,7 +39,7 @@ The workaround provided by Veeam is to create host VM-Host Affinity Rules, effe
       <title>Preserve your Veeam B&amp;R Backups Jobs when Moving vCenter</title>
       <link>/virtualization/preserve-veeam-br-backups-jobs-moving-vcenter/</link>
       <pubDate>Tue, 19 Mar 2013 21:13:20 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/virtualization/preserve-veeam-br-backups-jobs-moving-vcenter/</guid>
       <description>This week I´m working at a client site, upgrading their entire existing vSphere 4.1 infrastructure to vSphere 5.1. The customer engagement also includes upgrading Veeam Backup and Replication 6.0 to 6.5, and usually an isolated upgrade of Veeam B&amp;amp;R is a no-brainer next, next, next, done install.
 To complicate things in this particular environment, I also had to migrate the vCenter SQL DB from a local MS SQL Server 2005 Express instance to a full-fledged MS SQL Server 2008 R2 instance.</description>
@@ -49,7 +49,7 @@ To complicate things in this particular environment, I also had to migrate the v
       <title>VMware ESXi 4 vs ESXi 5 Log File Locations</title>
       <link>/virtualization/vmware-esxi-4-vs-esxi-5-log-file-locations/</link>
       <pubDate>Mon, 17 Sep 2012 21:24:18 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/virtualization/vmware-esxi-4-vs-esxi-5-log-file-locations/</guid>
       <description>This post is inspired by a tweet from Andrew Storrs, where he pinpoints that the host log file locations have changed between ESXi 4 and ESXi 5.
 Note: This post has been updated with new log files for ESXi 5.1
@@ -62,7 +62,7 @@ Between version 5.0 and 5.1 the log file locations have not changed, but a coupl
       <title>Auto Installation and Configuring of vSphere ESXi 5</title>
       <link>/virtualization/auto-installation-and-configuring-of-vsphere-esxi-5/</link>
       <pubDate>Wed, 21 Dec 2011 23:36:19 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/virtualization/auto-installation-and-configuring-of-vsphere-esxi-5/</guid>
       <description>One of the last projects I&amp;rsquo;ve been involved with at Seatrans, is to automate the installation and configuration of vSphere ESXi 5 hosts for deployment on vessels. I&amp;rsquo;ve talked a bit about this before, both on vSoup and in Setting Up Automated ESXi Deployments where I outlined my PXE and PowerCLI based installation and configuration scheme. Not much has changed since then, except updating the PXE server to offer ESXi 5, instead of ESXi 4 and a lot of work has been put into the scripting, including a front-end GUI for the PowerCLI script itself.</description>
     </item>
@@ -71,7 +71,7 @@ Between version 5.0 and 5.1 the log file locations have not changed, but a coupl
       <title>Network Simulation in VMware Workstation 8</title>
       <link>/virtualization/network-simulation-in-vmware-workstation-8/</link>
       <pubDate>Thu, 15 Sep 2011 09:18:44 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/virtualization/network-simulation-in-vmware-workstation-8/</guid>
       <description>In the new VMware Workstation 8 release, VMware has added a rudimentary network simulation setting where you can tweak bandwidth and packet loss for a given network card. Very useful when testing applications and servers and want to know how they react to network issues, or if you want to simulate a WAN link. I know this was available in Workstation 7 as well, but it used to be a team feature.</description>
     </item>
@@ -80,7 +80,7 @@ Between version 5.0 and 5.1 the log file locations have not changed, but a coupl
       <title>SCCM 2007 Not a Virtualization Candidate?</title>
       <link>/microsoft-2/sccm-2007-not-a-virtualization-candidate/</link>
       <pubDate>Fri, 26 Aug 2011 08:10:54 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/microsoft-2/sccm-2007-not-a-virtualization-candidate/</guid>
       <description>The last couple of days I&amp;rsquo;ve been in training class, taking the 6451B Planning, Deploying and Managing Microsoft System Center Configuration Manager 2007 course.
 One of the first things that got mentioned, was that for larger deployments you should not run System Center Configuration Manager virtually. Of course, this caught my eye as I&amp;rsquo;m a proponent for the virtualize first &amp;ldquo;movement&amp;rdquo;.
@@ -91,7 +91,7 @@ It runs out that the reason for this is that Configuration Manager is somewhat p
       <title>Poor Man&#39;s WSUS</title>
       <link>/microsoft-2/poor-mans-wsus/</link>
       <pubDate>Thu, 25 Aug 2011 21:51:37 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/microsoft-2/poor-mans-wsus/</guid>
       <description>Not that WSUS is expensive, after all it&amp;rsquo;s a &amp;ldquo;free&amp;rdquo; addon to the server you&amp;rsquo;re already running if you need it. Of course, running your own Windows Server Update Services (WSUS) infrastructure is preferable in just about every scenario except for some edge cases where bandwidth or latency issues might prevent you from syncing the updates from a central repository. Sadly, these edge cases enter the fray from time to time and I recently found myself in the middle of such a scenario.</description>
     </item>
@@ -100,7 +100,7 @@ It runs out that the reason for this is that Configuration Manager is somewhat p
       <title>Setting Up Automated ESXi Deployments</title>
       <link>/virtualization/setting-up-automated-esxi-deployments/</link>
       <pubDate>Thu, 07 Jul 2011 08:10:55 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/virtualization/setting-up-automated-esxi-deployments/</guid>
       <description>Automating ESXi installs was made much easier after the release of vSphere 4.1 where the Scripted Install feature was added, and by using VMware Auto Deploy from VMware Labs. VMware Auto Deploy requires that you have vCenter and Host Profiles in your environment, and that again requires that you have Enterprise Plus licenses in your environment.
 It is, however, possible to deploy ESXi in an automated fashion completely without vCenter and Host Profiles!</description>
@@ -110,7 +110,7 @@ It is, however, possible to deploy ESXi in an automated fashion completely witho
       <title>Exchange 2010 SP1 and KB2393802 or How to Have an Interesting Afternoon at the Office</title>
       <link>/microsoft-2/exchange-2010-sp1-and-kb2393802-or-how-to-have-an-interesting-afternoon-at-the-office/</link>
       <pubDate>Wed, 06 Jul 2011 12:51:21 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/microsoft-2/exchange-2010-sp1-and-kb2393802-or-how-to-have-an-interesting-afternoon-at-the-office/</guid>
       <description>Let me start this post out with a little story. I am normally a hardcore virtualization and storage guy. Sometimes my career in this sector brings me into working with stuff I haven&amp;rsquo;t worked with before because virtualization encompasses so much. As I continue to work with other teams I learn more and more about what they do everyday. I usually find myself involved in every performance troubleshooting session and every new project these days.</description>
     </item>
@@ -119,7 +119,7 @@ It is, however, possible to deploy ESXi in an automated fashion completely witho
       <title>vCenter Integration Mantra</title>
       <link>/news/vcenter-integration-mantra/</link>
       <pubDate>Fri, 10 Jun 2011 15:43:18 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/vcenter-integration-mantra/</guid>
       <description>During Tech Field Day #6 in Boston one particular general feature request has become increasingly prominent;
 Can we have it inside the vCenter client?
@@ -130,7 +130,7 @@ In short, what we want is for all those great third party vendors like VKernel, 
       <title>vCenter Update Manager - A Feature Request</title>
       <link>/virtualization/vcenter-update-manager-a-feature-request/</link>
       <pubDate>Fri, 22 Apr 2011 21:07:35 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/virtualization/vcenter-update-manager-a-feature-request/</guid>
       <description>Way back in August 24 2010 I wrote a post called vCenter Update Manager to lose it’s fat. I&amp;rsquo;m still very happy that VMware has decided to drop OS patching from the product, and I still mean that can only be a good thing. In fact, that article prompted Beth Pariseau Senior News Writer for searchservervirtualization.techtarget.com to call me when researching her VMware users eye changes to Update Manager article.</description>
     </item>
@@ -139,7 +139,7 @@ In short, what we want is for all those great third party vendors like VKernel, 
       <title>Installing and running VMware Compliance Checker for vSphere</title>
       <link>/news/installing-and-running-vmware-compliance-checker-for-vsphere/</link>
       <pubDate>Wed, 20 Apr 2011 07:01:37 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/installing-and-running-vmware-compliance-checker-for-vsphere/</guid>
       <description>The first version of the new VMware Compliance Checker for vSphere tool is now available for download.
 VMware Compliance Checker for vSphere lets you scan your ESX and ESXi hosts for compliance with the VMware vSphere hardening guidelines to make sure your hosts are properly configured. It also lets you save and print your assessment results, so you can track your compliance level over time, or use them as documentation for internal audits.</description>
@@ -149,7 +149,7 @@ VMware Compliance Checker for vSphere lets you scan your ESX and ESXi hosts for 
       <title>Digital Ship Magazine April 2011</title>
       <link>/news/digital-ship-magazine-april-2011/</link>
       <pubDate>Fri, 01 Apr 2011 09:20:20 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/digital-ship-magazine-april-2011/</guid>
       <description>Back in February 2011 I was invited, along with my IT Manager, to do a presentation at Digital Ship Scandinavia 2011.
 Digital Ship magazine has now published an article based on what we presented at the live event. As far as I can gather, based on the feedback both at the event and afterwards, the presentation was a success and now the Digital Ship Magazine for April 2011 includes a two page article based on the entire presentation.</description>
@@ -159,7 +159,7 @@ Digital Ship magazine has now published an article based on what we presented at
       <title>Installing and configuring VMware vCenter Operations</title>
       <link>/virtualization/installing-and-configuring-vmware-vcenter-operations/</link>
       <pubDate>Mon, 21 Mar 2011 19:50:02 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/virtualization/installing-and-configuring-vmware-vcenter-operations/</guid>
       <description>VMware vCenter Operations was released to the general public a week or so ago and is available for download right now. As usual you can download a 60 day trial, and get started immediately.
 Like other recent management utilities from VMware, vCenter Operations comes in the form of a .OVF template (like vCMA/vMA).
@@ -170,7 +170,7 @@ Installing VMware vCenter Operations Download VMware vCenter Operations and impo
       <title>Using rsync to Distribute Patches to a Remote vMA </title>
       <link>/virtualization/using-rsync-to-distribute-patches-to-remote-a-vma/</link>
       <pubDate>Tue, 08 Mar 2011 08:00:02 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/virtualization/using-rsync-to-distribute-patches-to-remote-a-vma/</guid>
       <description>I recently posted Using vMA as a local vSphere Patch Repository, where I outlined how you can use your vMA instances as local file repositories for updates.
 This post is a continuation of that concept, but this time I&amp;rsquo;ll take it a step further and utilize rsync to make sure my vMA instances all contain the same set of patches. Rsync is great for this, as it handles fast incremental file transfers, which is a real time and bandwidth saver in my particular scenario.</description>
@@ -180,7 +180,7 @@ This post is a continuation of that concept, but this time I&amp;rsquo;ll take i
       <title>Using vMA as a local vSphere Patch Repository</title>
       <link>/virtualization/using-vma-as-a-local-vsphere-patch-repository/</link>
       <pubDate>Mon, 07 Mar 2011 22:43:33 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/virtualization/using-vma-as-a-local-vsphere-patch-repository/</guid>
       <description>I like using http as the transport protocol when patching my vSphere hosts. It&amp;rsquo;s easy to use and in most cases immediately available over most networks. Since I want to use http as the transport, we need to make vMA work as a http server.
 Starting Apache inside vMA Luckily, the Apache http daemon is installed, by default, in vMA and to utilize it all you have to do is to start it!</description>
@@ -190,7 +190,7 @@ Starting Apache inside vMA Luckily, the Apache http daemon is installed, by defa
       <title>Installing vSphere Management Assistant (vMA)</title>
       <link>/virtualization/installing-vsphere-management-assistant-vma/</link>
       <pubDate>Mon, 28 Feb 2011 23:26:15 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/virtualization/installing-vsphere-management-assistant-vma/</guid>
       <description>The vMA is a Virtual Appliance that you can download from VMware. It&amp;rsquo;s primary function is to enable command line based management of your ESX/ESXi systems.
 Basically this is a pre-packaged virtual machine that includes vCLI and the vSphere SDK for Perl, which means that you don&amp;rsquo;t have to build your own management VM or install these tools locally on a management station.
@@ -201,7 +201,7 @@ vMA is in many regards seen as a replacement for the ESX Service Console which n
       <title>Remote Desktop Connection Manager (RDCMan) &#43; Powershell = Win</title>
       <link>/howto/remote-desktop-connection-manager-rdcman-powershell-win/</link>
       <pubDate>Thu, 20 Jan 2011 14:51:46 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/howto/remote-desktop-connection-manager-rdcman-powershell-win/</guid>
       <description>Remote Desktop Connection Manager is a great tool from Microsoft which enables you to keep track of all your RDP sessions and targets in a nice GUI. One of the things it&amp;rsquo;s lacking though, is some sort of Active Directory connection that allows you to import all your server objects directly, and not manually add/remove the serves as your infrastructure changes over time.
 In an attempt to bridge that gap, I&amp;rsquo;ve made a very small PowerShell script that queries your Active Directory for server objects and dumps their names into a text file that you can import into RDCMan.</description>
@@ -211,7 +211,7 @@ In an attempt to bridge that gap, I&amp;rsquo;ve made a very small PowerShell sc
       <title>Powershell: Scripting Best Practices Analyzer remotely</title>
       <link>/windows/powershell-scripting-best-practices-analyzer-remotely/</link>
       <pubDate>Tue, 18 Jan 2011 08:10:02 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/windows/powershell-scripting-best-practices-analyzer-remotely/</guid>
       <description>Jan Egil Ring over at blog.powershell.no has created a great PowerShell script that lets you run the Microsoft Best Practices Analyzer on remote Windows Server 2008 R2 machines.
 In short, Invoke-BPAModeling.ps1 queries your Active Directory for any machines that run Windows Server 2008 R2, runs BPA on them (if Windows PowerShell Remoting is enabled) and emails you the report.
@@ -222,7 +222,7 @@ Great tool that should be in every Windows Server admins tool-belt, and probably
       <title>Volume Activation Management Tool (VAMT) article</title>
       <link>/news/volume-activation-management-tool-vamt-article/</link>
       <pubDate>Sun, 16 Jan 2011 22:03:48 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/volume-activation-management-tool-vamt-article/</guid>
       <description>I&amp;rsquo;ve had another article posted on Petri IT Knowledgebase!
  The Volume Activation Management Tool (VAMT) is a free tool from Microsoft that can help administrators perform licensing and activation related tasks from a single viewpoint. VAMT is currently available in version 2.0, and supports the following products and operating systems:  Read the rest of the article called License &amp;amp; Activation Management with Volume Activation Management Tool (VAMT) on petri.</description>
@@ -232,7 +232,7 @@ Great tool that should be in every Windows Server admins tool-belt, and probably
       <title>Migrating from Watchguard Firebox X to XTM Series Firewalls</title>
       <link>/network/migrating-from-watchguard-firebox-x-to-xtm-series-firewalls/</link>
       <pubDate>Fri, 07 Jan 2011 22:07:31 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/network/migrating-from-watchguard-firebox-x-to-xtm-series-firewalls/</guid>
       <description>Watchguard has recently retired their X series of firewalls and replaced them with their new lineup of XTM boxes.
 I took this opportunity to replace my X series firewalls with some from the new lineup, and found a neat way to migrate your existing configuration from old to new in a few very easy steps.
@@ -244,7 +244,7 @@ Note: _Normally I would not recommend migrating your configuration in this manne
       <title>Installing and Configuring WANem Virtual Appliance</title>
       <link>/virtualization/installing-and-configuring-wanem-virtual-appliance/</link>
       <pubDate>Wed, 29 Dec 2010 14:21:36 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/virtualization/installing-and-configuring-wanem-virtual-appliance/</guid>
       <description>In a previous post, Using the WANem WAN Emulator Virtual Appliance, I&amp;rsquo;ve talked about how I&amp;rsquo;ve successfully used WANem to emulate different WAN scenarios.
 Since I work for a shipping company, the ability to emulate VSAT conditions are especially useful for testing and proof-of-concept scenarios.
@@ -256,7 +256,7 @@ Downloading WANem I have chose to use the WANem Virtual Appliance running in a v
       <title>Developer meets PowerCLI - awesomeness ensues</title>
       <link>/virtualization/developer-meets-powercli-awesomeness-ensues/</link>
       <pubDate>Fri, 15 Oct 2010 20:29:14 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/virtualization/developer-meets-powercli-awesomeness-ensues/</guid>
       <description>A couple of days ago, while I was at VMworld Europe I got the following tweet from Asbjørn A. Mikkelsen (@neslekkim) (translated from norwegian):
 @h0bbel Do you know if I can script something against vCenter to duplicate (or create from template) VMs, and also start/stop them? My immediate response, was of course to suggest using PowerCLI. Asbjørn, who works as a full time developer, jumped at PowerCLI immediately and within a very short time frame came up with a PowerCLI script for the task at hand.</description>
@@ -266,7 +266,7 @@ Downloading WANem I have chose to use the WANem Virtual Appliance running in a v
       <title>vCenter 4.1 Database Recovery Model Defaults</title>
       <link>/virtualization/vcenter-4-1-database-recovery-model-defaults/</link>
       <pubDate>Mon, 04 Oct 2010 21:36:23 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/virtualization/vcenter-4-1-database-recovery-model-defaults/</guid>
       <description>Sometimes leaving the defaults in place might just come back and bite you, hard.
 That might also be the case with your vCenter 4.1 database, as I experienced back in July.
@@ -277,7 +277,7 @@ All of a sudden my vCenter Server stopped working. The symptoms where pretty obv
       <title>VMware vSphere Hypervisor Licensing and Cost</title>
       <link>/virtualization/vmware-vsphere-hypervisor-licensing-and-cost/</link>
       <pubDate>Wed, 22 Sep 2010 13:51:13 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/virtualization/vmware-vsphere-hypervisor-licensing-and-cost/</guid>
       <description>We all know, and love, the fact that vSphere Hypervisor is free of charge. The free version doesn&amp;rsquo;t come with all the bells and whistles of the fully licensed product, but it&amp;rsquo;s still very usable in many scenarios.
 Recently I&amp;rsquo;ve been investigating the possibilities of running vSphere Hypervisor on a number of floating branch offices, also known as vessels.
@@ -288,7 +288,7 @@ I&amp;rsquo;m not going into details about the proposed setup, and how we intend
       <title>P2V a Domain Controller? Why would you?</title>
       <link>/virtualization/p2v-a-domain-controller-why-would-you/</link>
       <pubDate>Tue, 21 Sep 2010 19:39:07 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/virtualization/p2v-a-domain-controller-why-would-you/</guid>
       <description>Some topics seem to pop up at random intervals, one of them being virtualizing Microsoft Active Directory Domain Controller servers. The question is often either &amp;ldquo;Should I virtualize my Domain Controllers, and if so should I virtualize all of them?&amp;rdquo; or &amp;ldquo;Should I do a P2V (Physical 2 Virtual) conversion of my existing Domain Controllers, or create new ones?&amp;ldquo;
 In this post, I&amp;rsquo;ll be talking about the second question. While there is a lot to be said about the first one as well, I&amp;rsquo;ll leave that for future post.</description>
@@ -298,7 +298,7 @@ In this post, I&amp;rsquo;ll be talking about the second question. While there i
       <title>Redesigning the vCenter Client?</title>
       <link>/virtualization/redesigning-the-vcenter-client/</link>
       <pubDate>Mon, 20 Sep 2010 22:12:48 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/virtualization/redesigning-the-vcenter-client/</guid>
       <description>In fresh blog post, called &amp;ldquo;Resource pools and simultaneous vMotions&amp;rdquo; by Frank Denneman prompted a quick Twitter discussion regarding the vCenter client (and perhaps even vCenter itself). A simple
 Why are there no folders under Host and Clusters view ? from Maish Saidel-Keesing got the ball rolling.
@@ -309,7 +309,7 @@ Could it be that the design of the client itself helps perpetuate the myth the r
       <title>Using the WANem WAN Emulator Virtual Appliance</title>
       <link>/network/using-the-wanem-wan-emulator-virtual-appliance/</link>
       <pubDate>Thu, 26 Aug 2010 11:38:00 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/network/using-the-wanem-wan-emulator-virtual-appliance/</guid>
       <description>During preparation and preliminary information gathering for a new internal project, I had a need to emulate various networking conditions and scenarios. More specifically I&amp;rsquo;m looking at the possibility of running the vCenter Client over high latency satellite links, with varying bandwidth availability and even packet loss scenarios.
 Obviously the best way of testing this, in a controlled environment, is to use some kind of WAN emulator that lets you control the various networking characteristics.</description>
@@ -319,7 +319,7 @@ Obviously the best way of testing this, in a controlled environment, is to use s
       <title>SolarWinds VM Console</title>
       <link>/virtualization/solarwinds-vm-console/</link>
       <pubDate>Wed, 25 Aug 2010 13:34:56 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/virtualization/solarwinds-vm-console/</guid>
       <description>SolarWinds has released a new free vSphere tool called SolarWinds VM Console.
 Free VM Console Highlights:
@@ -334,7 +334,7 @@ Free VM Console Highlights:
       <title>vCenter Update Manager to lose it&#39;s fat</title>
       <link>/virtualization/vcenter-update-manager-to-lose-its-fat/</link>
       <pubDate>Tue, 24 Aug 2010 21:48:02 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/virtualization/vcenter-update-manager-to-lose-its-fat/</guid>
       <description>Dwayne Lessner who runs IT Blood Pressure, has written a guest post on GestaltIT called Is My Favourite VSphere Tool Is Going Away?
 In his article, Dwayne talks about vCenter Update Manager 4.1, and the fact that it seems to be the last version of the tools that will allow you to patch your Windows and Linux guests:
@@ -345,7 +345,7 @@ In his article, Dwayne talks about vCenter Update Manager 4.1, and the fact that
       <title>vCenter Server 4.1 Performance and Best Practices</title>
       <link>/virtualization/vcenter-server-4-1-performance-and-best-practices/</link>
       <pubDate>Tue, 24 Aug 2010 20:06:16 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/virtualization/vcenter-server-4-1-performance-and-best-practices/</guid>
       <description>VMware has published a new whitepaper called VMware vCenter Server Performance and Best Practices.
 This is a must read if you manage a vCenter 4.1 installation, or are currently planning your upgrade.
@@ -356,7 +356,7 @@ The whitepaper highlights the performance improvements in the latest version, si
       <title>Using USB Pass-through in vSphere 4.1</title>
       <link>/virtualization/using-usb-pass-through-in-vsphere-4-1/</link>
       <pubDate>Thu, 22 Jul 2010 23:03:27 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/virtualization/using-usb-pass-through-in-vsphere-4-1/</guid>
       <description>Finally USB pass-through is possible on ESX hosts with the new vSphere 4.1 release! This feature ha been available in VMware Workstation/Fusion and Player for quite a while. The freshly added feature in vSphere 4.1 even works if you vMotion the guest from one host to another, which is in itself pretty amazing functionality!
 In this post, I&amp;rsquo;ll show how to setup and use the new USB pass-through feature in vSphere 4.</description>
@@ -366,7 +366,7 @@ In this post, I&amp;rsquo;ll show how to setup and use the new USB pass-through 
       <title>Scheduling vCenter Backups</title>
       <link>/virtualization/scheduling-vcenter-backups/</link>
       <pubDate>Thu, 22 Jul 2010 12:17:56 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/virtualization/scheduling-vcenter-backups/</guid>
       <description>If you run your vCenter on SQL Server Express 2005, you are missing the ability to set up scheduled backup jobs with SQL Maintenance Plans, a feature available in the full version of SQL Server.
 This might not be a problem if your backup software has SQL Server agents that you use to backup your vCenter databaser, but in smaller environments or even in your lab, you might not have that kind of backup scheme available to you, so what do you do?</description>
@@ -376,7 +376,7 @@ This might not be a problem if your backup software has SQL Server agents that y
       <title>Migrating your vCenter from 32bit to 64bit</title>
       <link>/virtualization/migrating-your-vcenter-from-32bit-to-64bit/</link>
       <pubDate>Wed, 21 Jul 2010 12:11:28 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/virtualization/migrating-your-vcenter-from-32bit-to-64bit/</guid>
       <description>As you may or may not know, the new vCenter 4.1 requires that the host it runs on is 64 bit. As 4.0 and previous versions weren&amp;rsquo;t supported on 64 bit at all, this probably means that when you upgrade you will need to move your existing database to a new host.
 There are several ways of doing the migration, but one way is to backup your existing database, and restore it on a new host and point the new vCenter 4.</description>

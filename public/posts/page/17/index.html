@@ -1,266 +1,958 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
-    <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-<meta property="og:title" content="Posts" />
-<meta property="og:description" content="There is a thin line between agile and fragile" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="/posts/" />
+  <title>Posts</title>
+  <meta property="og:title" content="Posts" />
+  <meta name="twitter:title" content="Posts" />
+  <meta name="author" content="Some Person"/>
+  <link href='/img/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta property="og:image" content="/img/avatar-icon.png" />
+  <meta name="twitter:image" content="/img/avatar-icon.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@username" />
+  <meta name="twitter:creator" content="@username" />
+  <meta property="og:url" content="/posts/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Beautiful Hugo" />
+
+  <meta name="generator" content="Hugo 0.40.3" />
+  <link rel="canonical" href="/posts/" />
+  <link rel="alternate" href="/posts/index.xml" type="application/rss+xml" title="Beautiful Hugo">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+  <link rel="stylesheet" href="/css/highlight.min.css" /><link rel="stylesheet" href="/css/codeblock.css" />
 
 
 
-<meta property="og:updated_time" content="2015-11-13T08:54:01&#43;00:00"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
 
 
 
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
 
+<div class="pswp__bg"></div>
 
-
-
-
-
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Posts"/>
-<meta name="twitter:description" content="There is a thin line between agile and fragile"/>
-<meta name="generator" content="Hugo 0.40.3" />
-
-
+<div class="pswp__scroll-wrap">
     
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "Blog",
-  "headline": "Adventures in Hugo",
-  "url" : "/posts/",
-  "author": {
-    "@type": "Person",
-    "name": "Christian Mohn"
-  },
-  "dateModified": "2015-11-13T08:54:01&#43;00:00",
-  "keywords": "awesometalks,book,hardware,homelab,howto,inthebag,microsoft,misc,network,news,os-x,rant,software,storage,virtualization,vmware,windows,workflow,2011,2014,2015,2016,2017,3par,5.5,6.0,6.5,acronis,adobe,adviceforvmworld,agile,alastair-cooke,alerting,analysis,announcement,annual,api,app-delivery,apple,applescript,appliance,architecture,audio,autolab,automation,automator,availability,award,awesome,awesometalk,aws,awsome,backup,backup-academy,backup-amp-replication,backup-amp-replication-v7,bag,barcelona,bash,best-practice,beta,bitlocker,bl460c,bladesystem,block-size,blog,bloggers,blogging,blogtober,book,boot-camp,bug,c3000,c7000,cancer,care-package,cc,certificate,certificates,certification,change,changelog,changes,charity,christian-mohn,chromecast,cisco,citrix,cloud,cloudflare,cohesity,collaboration,command-line,community,competition,conference,content-creation,contest,contest.-photo,copenhagen,daas,data-center,datastore,day-2,dell,denmark,deployment,desktop,digital-ship,disaster,disaster-recovery,dmarc,dns,docker,dockerflix,documentation,donation,doom,download,dr,dropbox,dynamic-dns,easyvnx,ed,edb-ergogroup,email,embedded-host-client,emc,encryption,epiphany,equallogic,esx,esx-3.5,esxcli,esxi,esxi-4,esxi-5,euc,event,event-id-2915,evernote,everyday,evo,evorail,evry,exchange,experiment,facelift,feature-request,featured,fibre-channel,fire,firewall,firmware,flash,flash-talk,fling,floppy,form-factor,framework,free,free-tool,free-tools,freebie,fun,fundraising,future,g8,gdpr,geektool,github,give-away,gorilla,gpmc,group-policy,group-policy-preferences,ha,hack,hands-on,hands-on-lab,hands-on-labs,happy-dance,harakiri,hardware,hardware-version,health-check,hipster-it,hol,home-lab,homebrew,homelab,homelabops,horizon,horizon-application-manager,host,host-cache,hosted-beta,howto,hp,hp-insight-control,http,hyper-converged,hyper-v,hyperconverged,hypervisor,ideas,ifttt,images,impatient,installation,integrity,intel,internationalization,inthebag,inthebag.-weekly,iomega,ipad,ix2,john-troyer,kb,kb2393802,keep-calm,keynote,keyremap4macbook.-customization,kids,knowledge-base,lab,labs,latency-sensitivity,licenses,licensing,linux,log,log-files,log-insight,mac,macos,maintenance,makyo,management,markdown,marvin,md5,meltdown,messaging,microsoft,microsoft-office,microvisor,mike-laverick,misinformation,monitoring,moref,movember,multipath,nda,neil-armstrong,nested-esxi,networking,news,nfr,nfs,ninja,node,nordic,nordic-vmug,norway,nsx,ntp,nutanix,nutjob,omnigraffle,oneliner,online-training,operations,opinion,ops,organization,os-x,oslo,p220i,packt,pandoc,password,patch,patching,pckeyboardhack,pernixdata,personal,petri,photo,photos,php,pins,plans,plugin,pocket,podcast,podcasting-for-cancer,policy-based-computing,posters,powercli,powergui,powershell,prediction,presentation,proact,productivity,proliant,proof-of-concept,proxy,psc,published,python,quote,quotes,rant,raspberry-pi,ravello,rdcman,real-world,realworld,receiver,recommended,release,remoting,review,role,royaltsx,rpi,rsync,saas,sammy-bogaert,sandisk,sccm,script,scripting,scvmm,sddc,seatrans,security,self-help,self-promotion,server,session,setup,sfp&#43;,sha1,sharing,simulation,site,site-recovery-manager,slack,slate,snapshot,snark,social,social-media,software,speaking,spectacle,spectre,speculation,sql-server-express,ssd,ssh,ssl,sso,statistics,steve-herrod,stickers,storage,storeserv,suggestion,suse,syslog,system-center,tech-conference,tech-field-day,terminal,theme,thin-client,thinapp,tips-amp-tricks,todo,todoist,togaf,tool,topology,topvblog,tpm,training,trainsignal,travel,trial,troubleshooting,tunnels,ubuntu,unconference,unsupported,update,upgrade,usb,usercon,v12n,vaio,vanguards,vblog,vcap,vcap-dca,vcap-dcd,vcdx,vcdxwannabe,vcenter,vcenter-appliance,vcenter-client,vcenter-operations,vcenter-operations-manager,vcenter-server-appliance,vcenter-update-manager,vcenter-web-client,vcli,vcloud,vcloud-air,vcp,vcsa,vdm30in30,vdr,veeam,veeam-backup-amp-replication,venting,vexpert,vflash,vflash-read-cache,vfrc,vib,video,view,vip-vcp-club,virtual-appliance,virtual-application,virtual-connect,virtualization,vkernel,vlaunchpad,vm,vma,vmfs,vmtn,vmtn-subscription,vmug,vmware,vmware-forum,vmware-photon,vmware-player,vmware-server,vmware-software-manager,vmware-studio,vmware-view,vmware-workstation,vmware.-vcl,vmworld,vmworld-2012,vmworld-fun-contest,vmworld.-rant,vmworld2012,vninja,vops,vote,voting,vpostgres,vram,vrealize-log-insight,vrealize-operations,vrli,vrops,vrtx,vsamurai,vsan,vshield,vshield-edge,vshield-manager,vsoup,vsphere,vsphere-5,vsphere-5.5,vsphere-6,vsphere-6.5,vsphere-client,vsphere-land,vsphere-replication,watchguard,waterfall,web-client,webhook,webinar,weekly,weeky,whatsup,whitepaper,window-manager,windows,windows-8,winner,winners,wordpress,work,workaround,workflow,workstation,workstation-8,wsus,xen,xvmotion,youtube,zerto,",
-  "description": "There is a thin line between agile and fragile"
-}
-</script>
-
-
-    <link rel="canonical" href="/posts/">
-
-    <title>Adventures in Hugo</title>
-
-    <!-- combined, minified CSS -->
-    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
-
-    
-    <!-- RSS 2.0 feed -->
-    <link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="Adventures in Hugo" />
-    
-
-    
-
-    
-
-    
-
-  </head>
-
-  <body>
-
-    
-    <div class="blog-masthead">
-      <div class="container">
-        <nav class="nav blog-nav">
-          <a class="nav-link " href="/">Home</a>
-          
-          <a class="nav-link" href="https://example.org" title="">Link 1</a>
-          
-        </nav>
-      </div>
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
     </div>
     
-
-    
-    <header class="blog-header">
-      <div class="container">
-        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
-        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
       </div>
-    </header>
-    
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
 
-    
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-8 blog-main">
+</head>
 
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Beautiful Hugo</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
           
+            <li>
+              <a title="Blog" href="/">Blog</a>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent" href="javascript:void(0)">Samples</a>
+              <div class="navlinks-children">
+                
+                  <a href="/post/2017-03-07-bigimg-sample">Big Image Sample</a>
+                
+                  <a href="/post/2017-03-05-math-sample">Math Sample</a>
+                
+                  <a href="/post/2016-03-08-code-sample">Code Sample</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li>
+              <a title="About" href="/page/about/">About</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Tags" href="/tags">Tags</a>
+            </li>
+          
+        
 
+        
 
+        
+      </ul>
+    </div>
 
+    <div class="avatar-container">
+      <div class="avatar-img-border">
+        
+          <a title="Beautiful Hugo" href="/">
+            <img class="avatar-img" src="/img/avatar-icon.png" alt="Beautiful Hugo" />
+          </a>
+        
+      </div>
+    </div>
 
-
-
-
-<article class="blog-post">
-  <header>
-    <h2 class="blog-post-title"><a href="/virtualization/vmware-vsan-more-than-meets-the-eye/">VMware VSAN - More than meets the eye.</a></h2>
-    <p class="blog-post-meta"><time datetime="2015-11-13T08:54:01Z">Fri Nov 13, 2015</time> by cmohn in 
-<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
-
-
-<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/future" rel="tag">Future</a>, <a href="/tags/microvisor" rel="tag">Microvisor</a>, <a href="/tags/vsan" rel="tag">VSAN</a>, <a href="/tags/vsphere" rel="tag">vSphere</a>
-
-</p>
-  </header>
-  Way back in 2014 I wrote a piece called VSAN – The Unspoken Future, and I think it&rsquo;s about time it got a revision. Of course, lots of things have happened to VSAN since then and even more is on the way, but I think there is more to this than adding features like erasure coding, deduplication and compression. All of these are important features, and frankly they need to be in a product that aims a lot higher than you might think.
-  <a href='/virtualization/vmware-vsan-more-than-meets-the-eye/'>Read more →</a>
-</article> 
-
-
-
-
-
-
-<article class="blog-post">
-  <header>
-    <h2 class="blog-post-title"><a href="/virtualization/vcenter-sso-unable-to-retrieve-ad-information-error-while-extracting-local-sso-users/">vCenter / SSO unable to retrieve AD-information | Error while extracting local SSO users</a></h2>
-    <p class="blog-post-meta"><time datetime="2015-11-10T19:30:20Z">Tue Nov 10, 2015</time> by esod in 
-<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
-
-
-<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/6.0" rel="tag">6.0</a>, <a href="/tags/esxi" rel="tag">ESXi</a>, <a href="/tags/sso" rel="tag">SSO</a>, <a href="/tags/vcenter" rel="tag">vCenter</a>, <a href="/tags/vsphere" rel="tag">vSphere</a>
-
-</p>
-  </header>
-  After deploying a new VCSA 6.0u1 I was seeing some weird errors while trying to retrieve AD- users/groups (or anything from the esod.local domain):
-After some serious head scratching, it dawned on me after checking the DNS records for the DC in the domain, from the vCenter Appliance itself:
-[cc lang=&ldquo;bash&rdquo; width=&ldquo;100%&rdquo; theme=&ldquo;blackboard&rdquo; nowrap=&ldquo;0&rdquo;] dig +noall +answer +search dc1.esod.local dc1.esod.local. 3600 IN A 10.0.1.201 [/cc]
-So far so good, the DNS lookup works as expected.
-  <a href='/virtualization/vcenter-sso-unable-to-retrieve-ad-information-error-while-extracting-local-sso-users/'>Read more →</a>
-</article> 
-
-
-
-
-
-
-<article class="blog-post">
-  <header>
-    <h2 class="blog-post-title"><a href="/virtualization/nordic-vmug-usercon-session/">Nordic VMUG UserCon Session</a></h2>
-    <p class="blog-post-meta"><time datetime="2015-10-28T22:30:14Z">Wed Oct 28, 2015</time> by cmohn in 
-<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
-
-
-<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/speaking" rel="tag">Speaking</a>, <a href="/tags/usercon" rel="tag">UserCon</a>, <a href="/tags/vmug" rel="tag">VMUG</a>
-
-</p>
-  </header>
-  VMUG Denmark is arranging the Nordic VMUG UserCon in Copenhagen December 1st 2015, and the agenda went live earlier today. I&rsquo;m definitely going to be there, and as it turns out I even have my own session lined up:
-**Session Title: **VCS to VCVA Converter or how a fling can be good for you! ** Session Abstract: **Migrating from Windows vCenter to the VCVA? No worries, the VMware VCS to VCVA Converter fling has you covered!
-  <a href='/virtualization/nordic-vmug-usercon-session/'>Read more →</a>
-</article> 
-
-
-
-
-
-
-<article class="blog-post">
-  <header>
-    <h2 class="blog-post-title"><a href="/virtualization/relax-and-virtualize-it/">Relax and virtualize it!</a></h2>
-    <p class="blog-post-meta"><time datetime="2015-10-15T16:01:38Z">Thu Oct 15, 2015</time> by kwaeraas in 
-<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/howto" rel="category tag">Howto</a>, <a href="/categories/microsoft" rel="category tag">Microsoft</a>, <a href="/categories/virtualization" rel="category tag">Virtualization</a>, <a href="/categories/vmware" rel="category tag">VMware</a>
-
-
-</p>
-  </header>
-  This is a guest post from Kristian Wæraas Senior Consultant Datacenter at Datametrix AS VMware VCP3/5, MCTS Hyper-V, Horizon View and Trend Micro Security Expert.
-I am a curious by nature, and when my colleagues start talking frantic about some system that has crashed, I get curious and have to ask questions. Usually this ends up in me doing a lot of work.
-- This, however, was not one of those times.
-  <a href='/virtualization/relax-and-virtualize-it/'>Read more →</a>
-</article> 
-
-
-
-
-
-
-<article class="blog-post">
-  <header>
-    <h2 class="blog-post-title"><a href="/news/what-if-its-just-some-crazy-guy-in-a-clown-suit/">What if it&rsquo;s Just Some Crazy Guy in a Clown Suit?</a></h2>
-    <p class="blog-post-meta"><time datetime="2015-09-08T21:51:44Z">Tue Sep 08, 2015</time> by cmohn in 
-<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/news" rel="category tag">News</a>
-
-
-<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/changes" rel="tag">Changes</a>, <a href="/tags/cloud" rel="tag">Cloud</a>, <a href="/tags/evry" rel="tag">EVRY</a>, <a href="/tags/work" rel="tag">Work</a>
-
-</p>
-  </header>
-  As a few of you have noticed, I recently changed my title on LinkedIn from Chief Consultant to Cloud Architect in the newly formed EVRY Cloud Consulting division, but what does that mean and perhaps more importantly, why?
-The closest description I have found to describe what my new role is this:
- Leads in the development of the technical solution or offering, in translating the business needs into technical requirements.
-  <a href='/news/what-if-its-just-some-crazy-guy-in-a-clown-suit/'>Read more →</a>
-</article> 
-
-
-
-
-
-<nav class="blog-pagination">
-  
-  <a class="btn btn-outline-primary" href="/posts/page/16/" rel="prev" role="button">Previous page</a>
-  <a class="btn btn-outline-primary" href="/posts/page/18/" rel="next" role="button">Next page</a>
-  
-  
-  
+  </div>
 </nav>
 
 
 
 
-
-        </div> <!-- /.blog-main -->
-
-        <aside class="col-sm-3 ml-auto blog-sidebar">
-  
-
-  
-
-  
-  <section class="sidebar-module">
-    <h4>Links</h4>
-    <ol class="list-unstyled">
-      
-      <li><a href="https://example.com">Link 1</a></li>
-      
-      <li><a href="https://example.org">Link 2</a></li>
-      
-    </ol>
-  </section>
-  
-</aside>
-
-
-      </div> <!-- /.row -->
-    </div> <!-- /.container -->
     
+  <header class="header-section ">
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="page-heading">
+              <h1>Posts</h1>
+              <hr class="small">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
 
     
-    <footer class="blog-footer">
-      <p>
-      
-      &copy; Christian Mohn
-      
-      </p>
-      <p>
-      <a href="#">Back to top</a>
-      </p>
-    </footer>
-    
+  <div class="container" role="main">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        
+        <div class="posts-list">
+          
+            <article class="post-preview">
+              <a href="/virtualization/veeam-webinar-nfr-licenses/">
+                <h2 class="post-title">Veeam Webinar &amp; NFR Licenses</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on September 5, 2013
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 1 minutes (96 words)
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  <p>This coming tuesday the first ever <a href="http://veeam.com">Veeam</a> Webinar held in <strong><em>Norwegian</em></strong> will be held by yours truly. Feel free to sign up now and listen to me speak for an hour or so.</p>
+
+<p><a href="http://go.veeam.com/webinar-20130910-mohn-v7/"><img src="http://vninja.net/wordpress/wp-content/uploads/2013/09/signature_webinar_2.png" alt="signature_webinar_2" /></a></p>
+
+<p>Also, Veeam is continuing it´s support of the virtualization community and is yet again offering <a href="http://go.veeam.com/free-nfr-backup-management-suite.html">free 180-days Veeam Backup Management Suite v7 NFR licenses for VMware and Hyper-V</a>.</p>
+
+<p><em>Note that this offer is only available to anyone who is one of the following: VMware vExpert, VMware Certified Professional (VCP), Microsoft Certified Professional (MCP), Microsoft Certified Technology Specialist (MCTS) and Most Valuable Professional (MVP)</em></p>
+
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="//tags/backup-amp-replication-v7/">Backup &amp;amp; Replication v7</a>&nbsp;
+                  
+                    <a href="//tags/nfr/">NFR</a>&nbsp;
+                  
+                    <a href="//tags/veeam/">Veeam</a>&nbsp;
+                  
+                    <a href="//tags/vsphere/">vSphere</a>&nbsp;
+                  
+                    <a href="//tags/webinar/">Webinar</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="/osx/slate-setup/">
+                <h2 class="post-title">My Slate Setup</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on July 31, 2013
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 3 minutes (475 words)
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  About a year and a half I go, I took the leap from running Microsoft Windows as my main operating system and switched into full &ldquo;hipster mode&rdquo;, i.e. switched to a Macbook Air and OS X.
+Simply put, &ldquo;the change&rdquo; was not that hard and most everything has worked without problems, and for those things that still require Microsoft Windows, well, there is VMware Fusion for that.
+While I´m admittedly still a novice OS X user, and not even close to mastering OS X, I´d like to share my current Slate setup.
+                  <a href="/osx/slate-setup/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="//tags/keyremap4macbook.-customization/">KeyRemap4MacBook. Customization</a>&nbsp;
+                  
+                    <a href="//tags/os-x/">OS X</a>&nbsp;
+                  
+                    <a href="//tags/pckeyboardhack/">PCKeyboardHack</a>&nbsp;
+                  
+                    <a href="//tags/setup/">Setup</a>&nbsp;
+                  
+                    <a href="//tags/slate/">Slate</a>&nbsp;
+                  
+                    <a href="//tags/software/">Software</a>&nbsp;
+                  
+                    <a href="//tags/window-manager/">Window Manager</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="/vmware-2/monitoring-esxi-upgrade-process/">
+                <h2 class="post-title">Monitoring the ESXi Upgrade Process</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on June 26, 2013
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 2 minutes (262 words)
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  When doing manual host upgrades, either through the direct method or via a locally placed upgrade bundle, there is a distinct lack of progress information available after running the esxcli command.
+Thankfully the ESXi host provides a running logfile of the upgrade process, which makes it much easier to keep track of what is going on and that the upgrade is indeed being performed.
+The esxupdate.log is located in /var/log, and by issuing the following command in a terminal window you can have a rolling log showing you the upgrade status and progress:
+                  <a href="/vmware-2/monitoring-esxi-upgrade-process/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="//tags/esxi/">ESXi</a>&nbsp;
+                  
+                    <a href="//tags/log/">Log</a>&nbsp;
+                  
+                    <a href="//tags/maintenance/">Maintenance</a>&nbsp;
+                  
+                    <a href="//tags/ops/">Ops</a>&nbsp;
+                  
+                    <a href="//tags/real-world/">Real World</a>&nbsp;
+                  
+                    <a href="//tags/upgrade/">Upgrade</a>&nbsp;
+                  
+                    <a href="//tags/virtualization/">Virtualization</a>&nbsp;
+                  
+                    <a href="//tags/vmware/">VMware</a>&nbsp;
+                  
+                    <a href="//tags/vsphere/">vSphere</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="/vmware-2/centrally-disable-nat-vmware-workstation/">
+                <h2 class="post-title">Centrally Disable NAT in VMware Workstation</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on June 25, 2013
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 3 minutes (588 words)
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  A fellow IT-professional, who works with the non-wired flavor of networking, contacted me with the following scenario:
+A group of users, developers in this case, have VMware Workstation installed on their laptops. This makes it easy for them to manage, test and develop their applications in a closed environment without having to install a bunch of tools/services on their centrally managed laptop environment. An excellent use case for VMware Workstation if there ever was one.
+                  <a href="/vmware-2/centrally-disable-nat-vmware-workstation/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="//tags/gpmc/">GPMC</a>&nbsp;
+                  
+                    <a href="//tags/group-policy/">Group Policy</a>&nbsp;
+                  
+                    <a href="//tags/group-policy-preferences/">Group Policy Preferences</a>&nbsp;
+                  
+                    <a href="//tags/management/">management</a>&nbsp;
+                  
+                    <a href="//tags/vmware/">VMware</a>&nbsp;
+                  
+                    <a href="//tags/vmware-workstation/">VMware Workstation</a>&nbsp;
+                  
+                    <a href="//tags/windows/">Windows</a>&nbsp;
+                  
+                    <a href="//tags/workstation/">Workstation</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="/storage-2/virtual-connect-flexfabric-direct-attach-fc-3par-caveat/">
+                <h2 class="post-title">Virtual Connect FlexFabric and Direct-Attach FC 3Par Caveat</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on May 30, 2013
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 2 minutes (420 words)
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  When configuring a new C7000 Blade Enclosure with a couple of FlexFabric 10Gb/24-port modules I ran into a rather annoying issue during setup.
+HP Virtual Connect 3.70 introduced support for Direct-Attach setups of HP 3Par StoreServ 7000 storage systems, where you can eliminate the need for dedicated FC switches. For full details, have a look at Implementing HP Virtual Connect Direct-Attach Fibre Channel with HP 3PAR StoreServ Systems.
+This is excellent for setups where all your hosts are HP Blades, and you have a Virtual Connect FlexFabric setup.
+                  <a href="/storage-2/virtual-connect-flexfabric-direct-attach-fc-3par-caveat/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="//tags/3par/">3Par</a>&nbsp;
+                  
+                    <a href="//tags/bladesystem/">BladeSystem</a>&nbsp;
+                  
+                    <a href="//tags/bug/">Bug</a>&nbsp;
+                  
+                    <a href="//tags/fibre-channel/">Fibre Channel</a>&nbsp;
+                  
+                    <a href="//tags/hp/">HP</a>&nbsp;
+                  
+                    <a href="//tags/sfp&#43;/">SFP&#43;</a>&nbsp;
+                  
+                    <a href="//tags/storage/">storage</a>&nbsp;
+                  
+                    <a href="//tags/storeserv/">StoreServ</a>&nbsp;
+                  
+                    <a href="//tags/virtual-connect/">Virtual Connect</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="/virtualization/quick-and-dirty-http-based-deployment/">
+                <h2 class="post-title">Quick and Dirty HTTP Based Deployment</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on May 14, 2013
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 2 minutes (411 words)
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  A lot of the scripted installation tools that VMware offers allows the usage of a central HTTP based repository for hosting the files. Today I stumbled over a little gem that might just help you create a &ldquo;quick and dirty&rdquo; HTTP based deployment scenario by running a simple command in your terminal. By default, this command works on any system that has Python installed on it, so OS X and Linux should be ready to go as is.
+                  <a href="/virtualization/quick-and-dirty-http-based-deployment/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="//tags/automation/">automation</a>&nbsp;
+                  
+                    <a href="//tags/deployment/">Deployment</a>&nbsp;
+                  
+                    <a href="//tags/fun/">fun</a>&nbsp;
+                  
+                    <a href="//tags/http/">http</a>&nbsp;
+                  
+                    <a href="//tags/python/">Python</a>&nbsp;
+                  
+                    <a href="//tags/realworld/">realworld</a>&nbsp;
+                  
+                    <a href="//tags/vma/">vMA</a>&nbsp;
+                  
+                    <a href="//tags/vmware/">VMware</a>&nbsp;
+                  
+                    <a href="//tags/vsphere/">vSphere</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="/vmware-2/quick-dirty-esxi-5-1u1-upgrade/">
+                <h2 class="post-title">Quick and Dirty ESXi 5.1U1 Upgrade</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on April 26, 2013
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 3 minutes (455 words)
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  Now that VMware ESXi 5.1 Update 1 has been released I decided to do a quick and dirty upgrade of my home installation. I refuse to call it a lab these days, since it´s one singular host and all it does it contain my home domain controller&hellip;
+Anyway, the following procedure upgraded the host from 5.1b to 5.1U1, by downloading the upgrade directly from VMware and installing it. Make sure the host is in maintenance mode before attempting this procedure.
+                  <a href="/vmware-2/quick-dirty-esxi-5-1u1-upgrade/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="//tags/command-line/">Command Line</a>&nbsp;
+                  
+                    <a href="//tags/esxi/">ESXi</a>&nbsp;
+                  
+                    <a href="//tags/host/">Host</a>&nbsp;
+                  
+                    <a href="//tags/upgrade/">Upgrade</a>&nbsp;
+                  
+                    <a href="//tags/vmware/">VMware</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="/virtualization/adding-secondary-nic-vcenter-5-1-appliance-vcsa/">
+                <h2 class="post-title">Adding a secondary NIC to the vCenter 5.1 Appliance (VCSA)</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on April 25, 2013
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 3 minutes (467 words)
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  While building my lab environment, I ran into a situation where I wanted to have a completely sealed off networking segment that had no outside access.
+This is a trivial task on it`s own, just create a vSwitch with no physical NICs attached to it, and then connect the VMs to it. The VMs will then have interconnectivity, but no outside network access at all.
+In this particular case, I was setting up a couple of nested ESXi servers that I wanted to connect to the &ldquo;outside&rdquo; vCenter Appliance (VCSA).
+                  <a href="/virtualization/adding-secondary-nic-vcenter-5-1-appliance-vcsa/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="//tags/esxi/">ESXi</a>&nbsp;
+                  
+                    <a href="//tags/hack/">Hack</a>&nbsp;
+                  
+                    <a href="//tags/networking/">Networking</a>&nbsp;
+                  
+                    <a href="//tags/vcenter/">vCenter</a>&nbsp;
+                  
+                    <a href="//tags/vcsa/">VCSA</a>&nbsp;
+                  
+                    <a href="//tags/virtualization/">Virtualization</a>&nbsp;
+                  
+                    <a href="//tags/vsphere/">vSphere</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="/virtualization/installing-dell-equallogic-multipathing-extension-module-mem-vsphere-5-1/">
+                <h2 class="post-title">Installing Dell Equallogic Multipathing Extension Module (MEM) in vSphere 5.1</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on April 22, 2013
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 3 minutes (432 words)
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  Dell offers a Multipathing Extension Module (MEM) for vSphere, and in this post I´ll highlight how to &ldquo;manually&rdquo; install it on a ESXi 5.1 host. I will not cover the network setup part of the equation, but rather go through the simple steps required to get the MEM installed on the hosts in question.
+First of all, you need to download the MEM installation package. At the time of writing, the latest version is v1.
+                  <a href="/virtualization/installing-dell-equallogic-multipathing-extension-module-mem-vsphere-5-1/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="//tags/dell/">Dell</a>&nbsp;
+                  
+                    <a href="//tags/equallogic/">Equallogic</a>&nbsp;
+                  
+                    <a href="//tags/esxi/">ESXi</a>&nbsp;
+                  
+                    <a href="//tags/howto/">HowTo</a>&nbsp;
+                  
+                    <a href="//tags/multipath/">Multipath</a>&nbsp;
+                  
+                    <a href="//tags/storage/">storage</a>&nbsp;
+                  
+                    <a href="//tags/vsphere/">vSphere</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="/virtualization/its-average-data-its-vopendata/">
+                <h2 class="post-title">It`s Not Your Average Data it`s vOpenData</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on April 12, 2013
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 1 minutes (176 words)
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  So, what is the average airspeed velocity of an unladen swallow?
+As we all (should) know, that is very much a trick question.
+Now, consider this little non-trick question:
+I wonder what the avg disk size is for your virtual machine these days. I do most math with 60GB on avg, but wonder if that has changed   [@DuncanYB](https://twitter.com/DuncanYB/status/317269670195507203) / March 28th 2013    And now, guess what?
+                  <a href="/virtualization/its-average-data-its-vopendata/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="//tags/awesome/">Awesome</a>&nbsp;
+                  
+                    <a href="//tags/community/">Community</a>&nbsp;
+                  
+                    <a href="//tags/statistics/">Statistics</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
+          
+        </div>
+        
+          <ul class="pager main-pager">
+            
+              <li class="previous">
+                <a href="/posts/page/16/">&larr; Newer Posts</a>
+              </li>
+            
+            
+              <li class="next">
+                <a href="/posts/page/18/">Older Posts &rarr;</a>
+              </li>
+            
+          </ul>
+        
+      </div>
+    </div>
+  </div>
+
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="mailto:youremail@domain.com" title="Email me">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/username" title="Facebook">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://plus.google.com/&#43;username" title="Google&#43;">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/username" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://gitlab.com/username" title="GitLab">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-gitlab fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://bitbucket.org/username" title="Bitbucket">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-bitbucket fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/username" title="Twitter">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://reddit.com/u/username" title="Reddit">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-reddit-alien fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://linkedin.com/in/username" title="LinkedIn">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.xing.com/profile/username" title="Xing">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-xing fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://stackoverflow.com/users/XXXXXXX/username" title="StackOverflow">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-stack-overflow fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.snapchat.com/add/username" title="Snapchat">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-snapchat-ghost fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/username" title="Instagram">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/user/username" title="Youtube">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://soundcloud.com/username" title="SoundCloud">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-soundcloud fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://open.spotify.com/user/username" title="Spotify">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-spotify fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://username.bandcamp.com/" title="Bandcamp">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-bandcamp fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://itch.io/profile/username" title="Itch.io">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-gamepad fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://vk.com/username" title="VK">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-vk fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://paypal.me/username" title="PayPal">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-paypal fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://telegram.me/username" title="Telegram">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-telegram fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            
+            <a href="/posts/index.xml" title="RSS">
+            
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+            
+              <a href="yourwebsite.com">Some Person</a>
+            
+          
+
+          &nbsp;&bull;&nbsp;
+          2018
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="/">Beautiful Hugo</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          <a href="http://gohugo.io">Hugo v0.40.3</a> powered &nbsp;&bull;&nbsp; Theme by <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/contrib/auto-render.min.js" integrity="sha384-dq1/gEHSxPZQ7DdrM82ID4YVol9BYyU7GbWlIwnwyPzotpoc57wDw/guX8EaYGPx" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="/js/main.js"></script>
+<script src="/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> $(document).ready(function() {$("pre.chroma").css("padding","0");}); </script><script> renderMathInElement(document.body); </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script>
+<script src="/js/load-photoswipe.js"></script>
+
+
+
+
+
 
   </body>
-
 </html>
+

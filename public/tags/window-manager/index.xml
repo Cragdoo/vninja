@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Window Manager on Adventures in Hugo</title>
+    <title>Window Manager on Beautiful Hugo</title>
     <link>/tags/window-manager/</link>
-    <description>Recent content in Window Manager on Adventures in Hugo</description>
+    <description>Recent content in Window Manager on Beautiful Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
+    <webMaster>youremail@domain.com (Some Person)</webMaster>
     <lastBuildDate>Wed, 31 Jul 2013 23:10:42 +0000</lastBuildDate>
     
 	<atom:link href="/tags/window-manager/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>My Slate Setup</title>
       <link>/osx/slate-setup/</link>
       <pubDate>Wed, 31 Jul 2013 23:10:42 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/osx/slate-setup/</guid>
       <description>About a year and a half I go, I took the leap from running Microsoft Windows as my main operating system and switched into full &amp;ldquo;hipster mode&amp;rdquo;, i.e. switched to a Macbook Air and OS X.
 Simply put, &amp;ldquo;the change&amp;rdquo; was not that hard and most everything has worked without problems, and for those things that still require Microsoft Windows, well, there is VMware Fusion for that.

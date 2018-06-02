@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tech Field Day on Adventures in Hugo</title>
+    <title>Tech Field Day on Beautiful Hugo</title>
     <link>/tags/tech-field-day/</link>
-    <description>Recent content in Tech Field Day on Adventures in Hugo</description>
+    <description>Recent content in Tech Field Day on Beautiful Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
+    <webMaster>youremail@domain.com (Some Person)</webMaster>
     <lastBuildDate>Mon, 27 Jun 2011 22:38:26 +0000</lastBuildDate>
     
 	<atom:link href="/tags/tech-field-day/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>Zerto: Or What I Learned at Tech Field Day #6!</title>
       <link>/virtualization/zerto-or-what-i-learned-at-tfd-6/</link>
       <pubDate>Mon, 27 Jun 2011 22:38:26 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/virtualization/zerto-or-what-i-learned-at-tfd-6/</guid>
       <description>The last day of Tech Field Day #6 myself and all the other delegates were lucky enough to get a sneak peek at stealth startup &amp;lsquo;Zerto&amp;rsquo;. We weren&amp;rsquo;t allowed to talk about it until the 22nd and I know I am a little slow on the punch but I currently haven&amp;rsquo;t seen a lot of coverage. Just for an initial disclosure statement my trip to Tech Field Day 6 was paid for by the vendors we visited, however, I am in no way obligated to write about them or publicize them in any manner.</description>
     </item>
@@ -25,7 +25,7 @@
       <title>Multi-Hypervisor Management and the Future</title>
       <link>/news/multi-hypervisor-management-and-the-future/</link>
       <pubDate>Sun, 12 Jun 2011 20:34:52 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/multi-hypervisor-management-and-the-future/</guid>
       <description>In a previous post, vCenter Integration Mantra, I made the point that vSphere vAdmins wants the 3rd party modules to integrate into the vCenter client and show their delicious addon-value there, and not in their own management interface. Give the vAdmins the info they need, where they do most, if not all their work. Open up the admin client and let us get all that juicy and fruity information we need.</description>
     </item>
@@ -34,7 +34,7 @@
       <title>vCenter Integration Mantra</title>
       <link>/news/vcenter-integration-mantra/</link>
       <pubDate>Fri, 10 Jun 2011 15:43:18 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/vcenter-integration-mantra/</guid>
       <description>During Tech Field Day #6 in Boston one particular general feature request has become increasingly prominent;
 Can we have it inside the vCenter client?
@@ -45,7 +45,7 @@ In short, what we want is for all those great third party vendors like VKernel, 
       <title>Tech Field Day #6 - Arriving in Boston</title>
       <link>/news/tech-field-day-6-arriving-in-boston/</link>
       <pubDate>Wed, 08 Jun 2011 13:57:40 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/tech-field-day-6-arriving-in-boston/</guid>
       <description>Yesterday I arrived at Logan International for Tech Field Day #6 in the greater Boston area. Christopher Wells had already arrived earlier in the day, and I was lucky enough to be picked up by Stephen Foskett at the airport and chauffeured to the Sheraton Framingham Hotel and Conference center.
 The travel itself was pretty uneventful, the only trouble I had was that when I landed at Schipol for transfer to the US flight, my boarding pass was nowhere to be found, and I don&amp;rsquo;t think I even received it when I checked in at Bergen Airport Flesland.</description>
@@ -55,7 +55,7 @@ The travel itself was pretty uneventful, the only trouble I had was that when I 
       <title>vSoup and Tech Field Day #6</title>
       <link>/news/vsoup-and-tech-field-day-6/</link>
       <pubDate>Wed, 01 Jun 2011 11:07:52 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/vsoup-and-tech-field-day-6/</guid>
       <description>vSoup Episode #10 is finally released, this time with Stuart Radnidge (blog) as our guest. This episode is a bit unusual, as we didn&amp;rsquo;t really have a set agenda before starting the recording, so we jump around all of the place covering a pretty wide area of topics. Be sure to check it out!
 Tech Field Day #6 is approaching really fast, in fact it&amp;rsquo;s only a week away now! I will leave for Boston on Tuesday, June 7, for what looks to be a very, very busy but fun couple of days.</description>
@@ -65,7 +65,7 @@ Tech Field Day #6 is approaching really fast, in fact it&amp;rsquo;s only a week
       <title>Tech Field Day #6 - Delegate I Am</title>
       <link>/news/tech-field-day-6-delegate-i-am/</link>
       <pubDate>Mon, 16 May 2011 12:34:45 +0000</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/news/tech-field-day-6-delegate-i-am/</guid>
       <description>A while ago I got a surprising email, stating the following:
 You could consider this a sincere compliment from the Gestalt IT community as your name was suggested and we think you are the kind of person we all would love to have as part of our community. This means you&#39;re independent-minded, technology-focused, community-oriented, and a thought leader in the area of IT infrastructure.  Of course, this is pretty much hogwash, but nevertheless I&amp;rsquo;m extremely honored to be invited as a delegate for Tech Field Day #6 in Boston, Mass.</description>
