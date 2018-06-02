@@ -1826,14 +1826,14 @@
   </url>
   
   <url>
-    <loc>/categories/book/</loc>
-    <lastmod>2014-06-09T08:42:28+00:00</lastmod>
+    <loc>/tags/book/</loc>
+    <lastmod>2014-08-12T15:03:06+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/book/</loc>
-    <lastmod>2014-08-12T15:03:06+00:00</lastmod>
+    <loc>/categories/book/</loc>
+    <lastmod>2014-06-09T08:42:28+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2522,14 +2522,14 @@
   </url>
   
   <url>
-    <loc>/categories/hardware/</loc>
-    <lastmod>2016-10-10T13:18:30+00:00</lastmod>
+    <loc>/tags/hardware/</loc>
+    <lastmod>2014-02-19T12:30:08+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/hardware/</loc>
-    <lastmod>2014-02-19T12:30:08+00:00</lastmod>
+    <loc>/categories/hardware/</loc>
+    <lastmod>2016-10-10T13:18:30+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2570,13 +2570,13 @@
   </url>
   
   <url>
-    <loc>/categories/homelab/</loc>
+    <loc>/tags/homelab/</loc>
     <lastmod>2016-10-06T11:31:51+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/homelab/</loc>
+    <loc>/categories/homelab/</loc>
     <lastmod>2016-10-06T11:31:51+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -2618,14 +2618,14 @@
   </url>
   
   <url>
-    <loc>/categories/howto/</loc>
-    <lastmod>2015-10-15T16:01:38+00:00</lastmod>
+    <loc>/tags/howto/</loc>
+    <lastmod>2013-04-22T21:31:46+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/howto/</loc>
-    <lastmod>2013-04-22T21:31:46+00:00</lastmod>
+    <loc>/categories/howto/</loc>
+    <lastmod>2015-10-15T16:01:38+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2720,13 +2720,13 @@
   </url>
   
   <url>
-    <loc>/categories/inthebag/</loc>
+    <loc>/tags/inthebag/</loc>
     <lastmod>2017-03-17T14:24:11+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/inthebag/</loc>
+    <loc>/categories/inthebag/</loc>
     <lastmod>2017-03-17T14:24:11+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -2918,14 +2918,14 @@
   </url>
   
   <url>
-    <loc>/categories/microsoft/</loc>
-    <lastmod>2015-10-15T16:01:38+00:00</lastmod>
+    <loc>/tags/microsoft/</loc>
+    <lastmod>2013-10-29T23:25:14+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/microsoft/</loc>
-    <lastmod>2013-10-29T23:25:14+00:00</lastmod>
+    <loc>/categories/microsoft/</loc>
+    <lastmod>2015-10-15T16:01:38+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3014,14 +3014,14 @@
   </url>
   
   <url>
-    <loc>/categories/news/</loc>
-    <lastmod>2018-01-14T16:00:00+00:00</lastmod>
+    <loc>/tags/news/</loc>
+    <lastmod>2017-04-11T16:08:30+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/news/</loc>
-    <lastmod>2017-04-11T16:08:30+00:00</lastmod>
+    <loc>/categories/news/</loc>
+    <lastmod>2018-01-14T16:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3134,14 +3134,14 @@
   </url>
   
   <url>
-    <loc>/categories/os-x/</loc>
-    <lastmod>2017-11-24T12:33:04+00:00</lastmod>
+    <loc>/tags/os-x/</loc>
+    <lastmod>2015-01-12T23:31:45+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/os-x/</loc>
-    <lastmod>2015-01-12T23:31:45+00:00</lastmod>
+    <loc>/categories/os-x/</loc>
+    <lastmod>2017-11-24T12:33:04+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3374,14 +3374,14 @@
   </url>
   
   <url>
-    <loc>/categories/rant/</loc>
-    <lastmod>2018-05-22T21:21:27+00:00</lastmod>
+    <loc>/tags/rant/</loc>
+    <lastmod>2015-07-13T22:17:12+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/rant/</loc>
-    <lastmod>2015-07-13T22:17:12+00:00</lastmod>
+    <loc>/categories/rant/</loc>
+    <lastmod>2018-05-22T21:21:27+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3632,14 +3632,14 @@
   </url>
   
   <url>
-    <loc>/categories/software/</loc>
-    <lastmod>2017-11-24T12:33:04+00:00</lastmod>
+    <loc>/tags/software/</loc>
+    <lastmod>2017-10-11T21:45:11+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/software/</loc>
-    <lastmod>2017-10-11T21:45:11+00:00</lastmod>
+    <loc>/categories/software/</loc>
+    <lastmod>2017-11-24T12:33:04+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3716,14 +3716,14 @@
   </url>
   
   <url>
-    <loc>/categories/storage/</loc>
-    <lastmod>2014-08-21T22:21:59+00:00</lastmod>
+    <loc>/tags/storage/</loc>
+    <lastmod>2016-11-23T13:57:56+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/storage/</loc>
-    <lastmod>2016-11-23T13:57:56+00:00</lastmod>
+    <loc>/categories/storage/</loc>
+    <lastmod>2014-08-21T22:21:59+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -4154,14 +4154,14 @@
   </url>
   
   <url>
-    <loc>/categories/virtualization/</loc>
-    <lastmod>2017-11-13T16:45:46+00:00</lastmod>
+    <loc>/tags/virtualization/</loc>
+    <lastmod>2014-03-17T22:41:34+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/virtualization/</loc>
-    <lastmod>2014-03-17T22:41:34+00:00</lastmod>
+    <loc>/categories/virtualization/</loc>
+    <lastmod>2017-11-13T16:45:46+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -4214,14 +4214,14 @@
   </url>
   
   <url>
-    <loc>/categories/vmware/</loc>
-    <lastmod>2018-01-29T22:49:53+00:00</lastmod>
+    <loc>/tags/vmware/</loc>
+    <lastmod>2018-01-14T16:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/vmware/</loc>
-    <lastmod>2018-01-14T16:00:00+00:00</lastmod>
+    <loc>/categories/vmware/</loc>
+    <lastmod>2018-01-29T22:49:53+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -4520,14 +4520,14 @@
   </url>
   
   <url>
-    <loc>/categories/windows/</loc>
-    <lastmod>2012-01-07T22:44:33+00:00</lastmod>
+    <loc>/tags/windows/</loc>
+    <lastmod>2013-06-25T08:52:03+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/windows/</loc>
-    <lastmod>2013-06-25T08:52:03+00:00</lastmod>
+    <loc>/categories/windows/</loc>
+    <lastmod>2012-01-07T22:44:33+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -4568,13 +4568,13 @@
   </url>
   
   <url>
-    <loc>/categories/workflow/</loc>
+    <loc>/tags/workflow/</loc>
     <lastmod>2017-10-24T13:47:35+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/workflow/</loc>
+    <loc>/categories/workflow/</loc>
     <lastmod>2017-10-24T13:47:35+00:00</lastmod>
     <priority>0</priority>
   </url>
