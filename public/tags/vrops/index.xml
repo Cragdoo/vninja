@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vrops on My blog</title>
+    <title>Vrops on Adventures in Hugo</title>
     <link>/tags/vrops/</link>
-    <description>Recent content in Vrops on My blog</description>
+    <description>Recent content in Vrops on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <managingEditor>yourname@example.com (yourname)</managingEditor>
-    <webMaster>yourname@example.com (yourname)</webMaster>
-    <copyright>(c) 2016 Copyright my blog</copyright>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Mon, 29 Jan 2018 22:49:53 +0000</lastBuildDate>
     
 	<atom:link href="/tags/vrops/index.xml" rel="self" type="application/rss+xml" />
@@ -18,9 +16,9 @@
       <title>Alerting on &#34;Bootbank cannot be found at path ‘/bootbank’&#34; in vRealize Operations</title>
       <link>/vmware-2/bootbank-cannot-be-found-at-path/</link>
       <pubDate>Mon, 29 Jan 2018 22:49:53 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/vmware-2/bootbank-cannot-be-found-at-path/</guid>
-      <description>If you boot your ESXi hosts from SD-cards or USB you might have run into this issue. Suddenly your host(s) displays the following under events: &amp;laquo;Bootbank cannot be found at path ‘/bootbank’.&amp;raquo;
+      <description>If you boot your ESXi hosts from SD-cards or USB you might have run into this issue. Suddenly your host(s) displays the following under events: &amp;ldquo;Bootbank cannot be found at path ‘/bootbank’.&amp;rdquo;
 Usually this means that the boot device has been corrupted somehow, either due to a device failure or other issues. Normally the host continues to run, until it&amp;rsquo;s rebooted that is&amp;hellip;
 For some reason, vRealize Operations doesn&amp;rsquo;t pick this up as a host issue that it alerts on, so if your alerting regime is based on vROps alerts, you might not get alerted immediately.</description>
     </item>

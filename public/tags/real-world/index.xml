@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Real World on My blog</title>
+    <title>Real World on Adventures in Hugo</title>
     <link>/tags/real-world/</link>
-    <description>Recent content in Real World on My blog</description>
+    <description>Recent content in Real World on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <managingEditor>yourname@example.com (yourname)</managingEditor>
-    <webMaster>yourname@example.com (yourname)</webMaster>
-    <copyright>(c) 2016 Copyright my blog</copyright>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Wed, 26 Jun 2013 10:34:18 +0000</lastBuildDate>
     
 	<atom:link href="/tags/real-world/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +16,7 @@
       <title>Monitoring the ESXi Upgrade Process</title>
       <link>/vmware-2/monitoring-esxi-upgrade-process/</link>
       <pubDate>Wed, 26 Jun 2013 10:34:18 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/vmware-2/monitoring-esxi-upgrade-process/</guid>
       <description>When doing manual host upgrades, either through the direct method or via a locally placed upgrade bundle, there is a distinct lack of progress information available after running the esxcli command.
 Thankfully the ESXi host provides a running logfile of the upgrade process, which makes it much easier to keep track of what is going on and that the upgrade is indeed being performed.

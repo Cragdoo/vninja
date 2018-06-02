@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>System Center on My blog</title>
+    <title>System Center on Adventures in Hugo</title>
     <link>/tags/system-center/</link>
-    <description>Recent content in System Center on My blog</description>
+    <description>Recent content in System Center on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <managingEditor>yourname@example.com (yourname)</managingEditor>
-    <webMaster>yourname@example.com (yourname)</webMaster>
-    <copyright>(c) 2016 Copyright my blog</copyright>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Tue, 29 Oct 2013 23:25:14 +0000</lastBuildDate>
     
 	<atom:link href="/tags/system-center/index.xml" rel="self" type="application/rss+xml" />
@@ -18,11 +16,11 @@
       <title>Can Microsoft really be Fair and Balanced?</title>
       <link>/virtualization/microsoft-fair-balanced/</link>
       <pubDate>Tue, 29 Oct 2013 23:25:14 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/virtualization/microsoft-fair-balanced/</guid>
       <description>Microsoft has launched Virtualization2, a program to educate VMware administrators on Hyper-V and the System Center suite of tools. In short, these arefree online training sessiosn on November 19th and 20th, that also comes with a voucher for their new Microsoft virtualization certification exam (74-409).
 This comes in addition to their existing Microsoft Virtualization for VMware Professionals Jump Start training course.
-I think this is a good idea, and if you are able to close your eyes to the hyperbole, and disregard things like &amp;laquo;Microsoft Wants to Help VMware Experts “Future-Proof “ Their Career&amp;raquo;, I applaud this initiative.</description>
+I think this is a good idea, and if you are able to close your eyes to the hyperbole, and disregard things like &amp;ldquo;Microsoft Wants to Help VMware Experts “Future-Proof “ Their Career&amp;rdquo;, I applaud this initiative.</description>
     </item>
     
   </channel>

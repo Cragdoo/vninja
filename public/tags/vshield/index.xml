@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vshield on My blog</title>
+    <title>Vshield on Adventures in Hugo</title>
     <link>/tags/vshield/</link>
-    <description>Recent content in Vshield on My blog</description>
+    <description>Recent content in Vshield on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <managingEditor>yourname@example.com (yourname)</managingEditor>
-    <webMaster>yourname@example.com (yourname)</webMaster>
-    <copyright>(c) 2016 Copyright my blog</copyright>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Tue, 29 Apr 2014 08:18:35 +0000</lastBuildDate>
     
 	<atom:link href="/tags/vshield/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +16,7 @@
       <title>VMware vShield Manager Upgrade - Password Issues</title>
       <link>/vmware-2/vmware-vshield-manager-upgrade-password-issues/</link>
       <pubDate>Tue, 29 Apr 2014 08:18:35 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/vmware-2/vmware-vshield-manager-upgrade-password-issues/</guid>
       <description>While upgrading a vShield Manager 5.1.1 install to 5.1.4 at a client, I ran into an issue with logging in after a completed upgrade. The username and password used to log in, and subsequently upload the upgrade file, was no longer working after the upgrade finished and the vShield Manager appliance had been rebooted.
 It turns out that this was due to using international characters in the password for the admin user, in this case the Norwegian specialities æ, ø or å.</description>
@@ -28,7 +26,7 @@ It turns out that this was due to using international characters in the password
       <title>vShield Endpoint Entitlement, not just for vSphere 5.1</title>
       <link>/vmware-2/vshield-endpoint-entitlement-vsphere-5-1/</link>
       <pubDate>Fri, 05 Oct 2012 21:43:15 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/vmware-2/vshield-endpoint-entitlement-vsphere-5-1/</guid>
       <description>When VMware vSphere 5.1 and vCloud Networking and Security 5.1 was launched at VMworld US in late August, one of the news items was the change in licensing relating to vShield Endpoint.
 vShield Endpoint is now included in every vSphere edition, with the exception of the lowest tier vSphere Essentials package.

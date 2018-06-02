@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Site Recovery Manager on My blog</title>
+    <title>Site Recovery Manager on Adventures in Hugo</title>
     <link>/tags/site-recovery-manager/</link>
-    <description>Recent content in Site Recovery Manager on My blog</description>
+    <description>Recent content in Site Recovery Manager on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <managingEditor>yourname@example.com (yourname)</managingEditor>
-    <webMaster>yourname@example.com (yourname)</webMaster>
-    <copyright>(c) 2016 Copyright my blog</copyright>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Fri, 20 Jun 2014 12:34:49 +0000</lastBuildDate>
     
 	<atom:link href="/tags/site-recovery-manager/index.xml" rel="self" type="application/rss+xml" />
@@ -18,9 +16,9 @@
       <title>Win a eBook Copy of Disaster Recovery using VMware vSphere Replication and vCenter Site Recovery Manager</title>
       <link>/news/win-ebook-copy-disaster-recovery-vmware-vsphere-replication-vcenter-site-recovery-manager/</link>
       <pubDate>Fri, 20 Jun 2014 12:34:49 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/news/win-ebook-copy-disaster-recovery-vmware-vsphere-replication-vcenter-site-recovery-manager/</guid>
-      <description>[caption id=&amp;laquo;attachment_3241&amp;raquo; align=&amp;laquo;alignright&amp;raquo; width=&amp;laquo;221&amp;raquo;] Disaster Recovery using VMware vSphere Replication and vCenter Site Recovery Manager[/caption]
+      <description>[caption id=&amp;ldquo;attachment_3241&amp;rdquo; align=&amp;ldquo;alignright&amp;rdquo; width=&amp;ldquo;221&amp;rdquo;] Disaster Recovery using VMware vSphere Replication and vCenter Site Recovery Manager[/caption]
 Hot off the heals of the Veeam® Backup &amp;amp; Replication for VMware vSphere giveaway, here is another one for you!
 Win a free eBook copy of Disaster Recovery using VMware vSphere Replication and vCenter Site Recovery Manager, just by commenting!
 For the contest I have 2 eBook copies to be given away to 2 lucky winners.</description>

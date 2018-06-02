@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Weeky on My blog</title>
+    <title>Weeky on Adventures in Hugo</title>
     <link>/tags/weeky/</link>
-    <description>Recent content in Weeky on My blog</description>
+    <description>Recent content in Weeky on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <managingEditor>yourname@example.com (yourname)</managingEditor>
-    <webMaster>yourname@example.com (yourname)</webMaster>
-    <copyright>(c) 2016 Copyright my blog</copyright>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Fri, 25 Nov 2016 12:00:45 +0000</lastBuildDate>
     
 	<atom:link href="/tags/weeky/index.xml" rel="self" type="application/rss+xml" />
@@ -18,10 +16,10 @@
       <title>In The Bag #4 - Week 47</title>
       <link>/inthebag/in-the-bag-4-week-47/</link>
       <pubDate>Fri, 25 Nov 2016 12:00:45 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/inthebag/in-the-bag-4-week-47/</guid>
       <description>Welcome to the fourth edition of In The Bag!
-[caption id=&amp;laquo;attachment_4314&amp;raquo; align=&amp;laquo;aligncenter&amp;raquo; width=&amp;laquo;620&amp;raquo;] Photo by Sonny Abesamis[/caption]
+[caption id=&amp;ldquo;attachment_4314&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;620&amp;rdquo;] Photo by Sonny Abesamis[/caption]
 In The Bag #4 - Week 47
 Technology  Capacity Expansion &amp;amp; Disk Group Design Decisions–All Flash vSAN Every design decision has a consequence, and thats also the case when it comes to vSAN. Jason Langer has written a great article highlighting how enabling deduplication and compression has consequences for drive failure scenarios.</description>
     </item>

@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Webhook on My blog</title>
+    <title>Webhook on Adventures in Hugo</title>
     <link>/tags/webhook/</link>
-    <description>Recent content in Webhook on My blog</description>
+    <description>Recent content in Webhook on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <managingEditor>yourname@example.com (yourname)</managingEditor>
-    <webMaster>yourname@example.com (yourname)</webMaster>
-    <copyright>(c) 2016 Copyright my blog</copyright>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Thu, 06 Oct 2016 10:52:09 +0000</lastBuildDate>
     
 	<atom:link href="/tags/webhook/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +16,7 @@
       <title>HomeLabOps via Slack</title>
       <link>/homelab/homelabops-via-slack/</link>
       <pubDate>Thu, 06 Oct 2016 10:52:09 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/homelab/homelabops-via-slack/</guid>
       <description>Just like Lior Kamrat I&amp;rsquo;ve set up my own private Slack for messaging and alerting from various services running both in my lab and some external facing services. It&amp;rsquo;s only been running a few days, but so far it works brilliantly and helps me keep track.
 So far, I&amp;rsquo;ve set up Slack alerting and/or integrations for the following items:

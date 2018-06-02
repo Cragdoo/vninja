@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Rsync on My blog</title>
+    <title>Rsync on Adventures in Hugo</title>
     <link>/tags/rsync/</link>
-    <description>Recent content in Rsync on My blog</description>
+    <description>Recent content in Rsync on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <managingEditor>yourname@example.com (yourname)</managingEditor>
-    <webMaster>yourname@example.com (yourname)</webMaster>
-    <copyright>(c) 2016 Copyright my blog</copyright>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Tue, 08 Mar 2011 08:00:02 +0000</lastBuildDate>
     
 	<atom:link href="/tags/rsync/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +16,7 @@
       <title>Using rsync to Distribute Patches to a Remote vMA </title>
       <link>/virtualization/using-rsync-to-distribute-patches-to-remote-a-vma/</link>
       <pubDate>Tue, 08 Mar 2011 08:00:02 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/virtualization/using-rsync-to-distribute-patches-to-remote-a-vma/</guid>
       <description>I recently posted Using vMA as a local vSphere Patch Repository, where I outlined how you can use your vMA instances as local file repositories for updates.
 This post is a continuation of that concept, but this time I&amp;rsquo;ll take it a step further and utilize rsync to make sure my vMA instances all contain the same set of patches. Rsync is great for this, as it handles fast incremental file transfers, which is a real time and bandwidth saver in my particular scenario.</description>

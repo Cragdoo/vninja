@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Bash on My blog</title>
+    <title>Bash on Adventures in Hugo</title>
     <link>/tags/bash/</link>
-    <description>Recent content in Bash on My blog</description>
+    <description>Recent content in Bash on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <managingEditor>yourname@example.com (yourname)</managingEditor>
-    <webMaster>yourname@example.com (yourname)</webMaster>
-    <copyright>(c) 2016 Copyright my blog</copyright>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Sat, 13 Aug 2016 09:45:13 +0000</lastBuildDate>
     
 	<atom:link href="/tags/bash/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +16,7 @@
       <title>CloudFlare Dynamic DNS Update Script (cf-ddns.sh)</title>
       <link>/homelab/cloudflare-dynamic-dns-update-script-cf-ddns-sh/</link>
       <pubDate>Sat, 13 Aug 2016 09:45:13 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/homelab/cloudflare-dynamic-dns-update-script-cf-ddns-sh/</guid>
       <description>As a part of myHomelab project, I&amp;rsquo;ve created a proper bash script to provide dynamic DNS updates for external resources, via CloudFlare. More details on the reasoning behind it can be found in Using CloudFlare for Dynamic DNS, but since that was posted I&amp;rsquo;ve fleshed the script out quite a bit more.
 The new and updated script can be found on GitHub: cf-ddns.sh. It now writes events to syslog when it runs, so you can use VMware Log Insight (or another log solution) to capture the events, and use it to track public IP changes if you want.</description>
@@ -28,7 +26,7 @@ The new and updated script can be found on GitHub: cf-ddns.sh. It now writes eve
       <title>Verifying VMware Downloads</title>
       <link>/vmware-2/verifying-vmware-downloads/</link>
       <pubDate>Tue, 11 Sep 2012 21:19:12 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/vmware-2/verifying-vmware-downloads/</guid>
       <description>Now that vSphere 5.1 and assorted products have been released into the wild, how do you check the integrity of your downloaded file? As you might be aware of, VMware publishes both MD5 and SHA1 hashes for their files, making it possible to check if the file you just downloaded is identical to the file offered from VMware.
 Checking the MD5 or SHA1 hash for a single file is easy, at least in OS X where you don´t need any third party tools to check.</description>

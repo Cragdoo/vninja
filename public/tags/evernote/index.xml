@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Evernote on My blog</title>
+    <title>Evernote on Adventures in Hugo</title>
     <link>/tags/evernote/</link>
-    <description>Recent content in Evernote on My blog</description>
+    <description>Recent content in Evernote on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <managingEditor>yourname@example.com (yourname)</managingEditor>
-    <webMaster>yourname@example.com (yourname)</webMaster>
-    <copyright>(c) 2016 Copyright my blog</copyright>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Wed, 06 Jan 2016 13:51:58 +0000</lastBuildDate>
     
 	<atom:link href="/tags/evernote/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +16,7 @@
       <title>Todoist: One year later</title>
       <link>/workflow/todoist-one-year-later/</link>
       <pubDate>Wed, 06 Jan 2016 13:51:58 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/workflow/todoist-one-year-later/</guid>
       <description>A little over a year ago I posted Combining Todoist and Evernote, because awesome and I thought it was about time to post a follow up now one year later.
 Evernote: Firstly, my Evernote is still a giant mess, just as it was a year ago. I have lots of data in Evernote, but it&amp;rsquo;s main purpose is just storing quick notes on ongoing projects and it serves as a basis for generating proper documentation.</description>
@@ -28,7 +26,7 @@ Evernote: Firstly, my Evernote is still a giant mess, just as it was a year ago.
       <title>Combining Todoist and Evernote, because awesome</title>
       <link>/workflow/combining-todoist-evernote-awesome/</link>
       <pubDate>Wed, 03 Dec 2014 16:22:11 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/workflow/combining-todoist-evernote-awesome/</guid>
       <description>A while back I declared Evernote bankruptcy, even if I managed to misspell it while doing so:
 That&#39;s it, I&#39;m declaring [@evernote](https://twitter.com/evernote) bankrupcy. — Christian Mohn™ (@h0bbel) [May 22, 2014](https://twitter.com/h0bbel/status/469455493631860736)  The thing is, I really want to use Evernote in a proper and organised manner. The problem is; I was completely unable to do so, mostly since I had no clear idea on the how, the when and the why back when I started using it many moons ago.</description>

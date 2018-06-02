@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2014 on My blog</title>
+    <title>2014 on Adventures in Hugo</title>
     <link>/tags/2014/</link>
-    <description>Recent content in 2014 on My blog</description>
+    <description>Recent content in 2014 on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <managingEditor>yourname@example.com (yourname)</managingEditor>
-    <webMaster>yourname@example.com (yourname)</webMaster>
-    <copyright>(c) 2016 Copyright my blog</copyright>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Mon, 28 Oct 2013 17:21:46 +0000</lastBuildDate>
     
 	<atom:link href="/tags/2014/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +16,7 @@
       <title>Brace Yourselves: Top vBlog 2014 edition is coming</title>
       <link>/virtualization/brace-yourselves-top-vblog-2014-edition-coming/</link>
       <pubDate>Mon, 28 Oct 2013 17:21:46 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/virtualization/brace-yourselves-top-vblog-2014-edition-coming/</guid>
       <description>Eric Siebert has just announced the preliminary details for next years Top vBlog vote. This time around it is sponsored by Veeam, and there are even prizes to be won, not only the notorious fame and fortune that comes with being voted in the top percentile.
 Thanks again to Eric for putting all of this together, there is a lot of work involved and the community really values the effort.</description>

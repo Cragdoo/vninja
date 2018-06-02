@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Exchange on My blog</title>
+    <title>Exchange on Adventures in Hugo</title>
     <link>/tags/exchange/</link>
-    <description>Recent content in Exchange on My blog</description>
+    <description>Recent content in Exchange on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <managingEditor>yourname@example.com (yourname)</managingEditor>
-    <webMaster>yourname@example.com (yourname)</webMaster>
-    <copyright>(c) 2016 Copyright my blog</copyright>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Wed, 06 Jul 2011 12:51:21 +0000</lastBuildDate>
     
 	<atom:link href="/tags/exchange/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +16,7 @@
       <title>Exchange 2010 SP1 and KB2393802 or How to Have an Interesting Afternoon at the Office</title>
       <link>/microsoft-2/exchange-2010-sp1-and-kb2393802-or-how-to-have-an-interesting-afternoon-at-the-office/</link>
       <pubDate>Wed, 06 Jul 2011 12:51:21 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/microsoft-2/exchange-2010-sp1-and-kb2393802-or-how-to-have-an-interesting-afternoon-at-the-office/</guid>
       <description>Let me start this post out with a little story. I am normally a hardcore virtualization and storage guy. Sometimes my career in this sector brings me into working with stuff I haven&amp;rsquo;t worked with before because virtualization encompasses so much. As I continue to work with other teams I learn more and more about what they do everyday. I usually find myself involved in every performance troubleshooting session and every new project these days.</description>
     </item>

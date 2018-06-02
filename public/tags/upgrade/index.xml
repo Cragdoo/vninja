@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Upgrade on My blog</title>
+    <title>Upgrade on Adventures in Hugo</title>
     <link>/tags/upgrade/</link>
-    <description>Recent content in Upgrade on My blog</description>
+    <description>Recent content in Upgrade on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <managingEditor>yourname@example.com (yourname)</managingEditor>
-    <webMaster>yourname@example.com (yourname)</webMaster>
-    <copyright>(c) 2016 Copyright my blog</copyright>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Fri, 28 Aug 2015 10:46:24 +0000</lastBuildDate>
     
 	<atom:link href="/tags/upgrade/index.xml" rel="self" type="application/rss+xml" />
@@ -18,17 +16,17 @@
       <title>VMware Update Manager: Unsupported Configuration</title>
       <link>/vmware-2/vmware-update-manager-unsupported-configuration/</link>
       <pubDate>Fri, 28 Aug 2015 10:46:24 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/vmware-2/vmware-update-manager-unsupported-configuration/</guid>
       <description>During an upgrade from vSphere 5.1 to 5.5, I ran into a rather strange issue when trying to utilize VMware Update Manager to perform the ESXi upgrade.
-During scanning, VUM reported the ESXi host as &amp;laquo;Incompatible&amp;raquo;, without offering any other explanation. I spent ages looking through VUM logs, trying to find the culprit, suspecting it was an incompatible VIB. Without finding anything that gave me any indication on what the problem might be, I moved on to looking at the ESXi image I had imported into VUM.</description>
+During scanning, VUM reported the ESXi host as &amp;ldquo;Incompatible&amp;rdquo;, without offering any other explanation. I spent ages looking through VUM logs, trying to find the culprit, suspecting it was an incompatible VIB. Without finding anything that gave me any indication on what the problem might be, I moved on to looking at the ESXi image I had imported into VUM.</description>
     </item>
     
     <item>
       <title>Upgrading vSphere vCenter Appliance 5.1 to 5.5</title>
       <link>/vmware-2/upgrading-vsphere-vcenter-appliance-5-1-5-5/</link>
       <pubDate>Mon, 30 Sep 2013 12:20:38 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/vmware-2/upgrading-vsphere-vcenter-appliance-5-1-5-5/</guid>
       <description>In VMware KB Upgrading vCenter Server Appliance 5.0.x/5.1 to 5.5 (2058441) the procedure for upgrading an existing 5.0/5.1 vSphere vCenter Server Appliance is outlined, walking you through the steps required including deploying a new 5.5 vCSA and transferring the data from the old instance to the new one. Straight forward procedure, but there is one small caveat in this process.
 One important thing to remember, and something I don´t feel that the knowledge-base article highlights well enough is that the new v5.</description>
@@ -38,18 +36,18 @@ One important thing to remember, and something I don´t feel that the knowledge-
       <title>Quick and Dirty ESXi 5.5 Upgrade</title>
       <link>/virtualization/quick-dirty-esxi-5-5-upgrade/</link>
       <pubDate>Mon, 23 Sep 2013 23:28:04 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/virtualization/quick-dirty-esxi-5-5-upgrade/</guid>
       <description>As I´ve posted about earlier, you can update your ESXi hosts to a new release from the command line. Now that ESXi 5.5 has been released, the same procedure can be applied to upgrade once more.
 Place the host in maintenance mode, then run the following command to do an online update to ESXi 5.5:
-[cc lang=&amp;laquo;bash&amp;raquo; width=&amp;laquo;100%&amp;raquo; theme=&amp;laquo;blackboard&amp;raquo; nowrap=&amp;laquo;0&amp;raquo;] ~ # esxcli software profile update -d https://hostupdate.vmware.com/software/VUM/PRODUCTION/main/vmw-depot-index.xml -p ESXi-5.</description>
+[cc lang=&amp;ldquo;bash&amp;rdquo; width=&amp;ldquo;100%&amp;rdquo; theme=&amp;ldquo;blackboard&amp;rdquo; nowrap=&amp;ldquo;0&amp;rdquo;] ~ # esxcli software profile update -d https://hostupdate.vmware.com/software/VUM/PRODUCTION/main/vmw-depot-index.xml -p ESXi-5.</description>
     </item>
     
     <item>
       <title>Monitoring the ESXi Upgrade Process</title>
       <link>/vmware-2/monitoring-esxi-upgrade-process/</link>
       <pubDate>Wed, 26 Jun 2013 10:34:18 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/vmware-2/monitoring-esxi-upgrade-process/</guid>
       <description>When doing manual host upgrades, either through the direct method or via a locally placed upgrade bundle, there is a distinct lack of progress information available after running the esxcli command.
 Thankfully the ESXi host provides a running logfile of the upgrade process, which makes it much easier to keep track of what is going on and that the upgrade is indeed being performed.
@@ -60,7 +58,7 @@ The esxupdate.log is located in /var/log, and by issuing the following command i
       <title>Quick and Dirty ESXi 5.1U1 Upgrade</title>
       <link>/vmware-2/quick-dirty-esxi-5-1u1-upgrade/</link>
       <pubDate>Fri, 26 Apr 2013 12:36:07 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/vmware-2/quick-dirty-esxi-5-1u1-upgrade/</guid>
       <description>Now that VMware ESXi 5.1 Update 1 has been released I decided to do a quick and dirty upgrade of my home installation. I refuse to call it a lab these days, since it´s one singular host and all it does it contain my home domain controller&amp;hellip;
 Anyway, the following procedure upgraded the host from 5.1b to 5.1U1, by downloading the upgrade directly from VMware and installing it. Make sure the host is in maintenance mode before attempting this procedure.</description>
@@ -70,7 +68,7 @@ Anyway, the following procedure upgraded the host from 5.1b to 5.1U1, by downloa
       <title>Migrating your vCenter from 32bit to 64bit</title>
       <link>/virtualization/migrating-your-vcenter-from-32bit-to-64bit/</link>
       <pubDate>Wed, 21 Jul 2010 12:11:28 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/virtualization/migrating-your-vcenter-from-32bit-to-64bit/</guid>
       <description>As you may or may not know, the new vCenter 4.1 requires that the host it runs on is 64 bit. As 4.0 and previous versions weren&amp;rsquo;t supported on 64 bit at all, this probably means that when you upgrade you will need to move your existing database to a new host.
 There are several ways of doing the migration, but one way is to backup your existing database, and restore it on a new host and point the new vCenter 4.</description>

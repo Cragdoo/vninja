@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vcli on My blog</title>
+    <title>Vcli on Adventures in Hugo</title>
     <link>/tags/vcli/</link>
-    <description>Recent content in Vcli on My blog</description>
+    <description>Recent content in Vcli on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <managingEditor>yourname@example.com (yourname)</managingEditor>
-    <webMaster>yourname@example.com (yourname)</webMaster>
-    <copyright>(c) 2016 Copyright my blog</copyright>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Tue, 08 Mar 2011 08:00:02 +0000</lastBuildDate>
     
 	<atom:link href="/tags/vcli/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +16,7 @@
       <title>Using rsync to Distribute Patches to a Remote vMA </title>
       <link>/virtualization/using-rsync-to-distribute-patches-to-remote-a-vma/</link>
       <pubDate>Tue, 08 Mar 2011 08:00:02 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/virtualization/using-rsync-to-distribute-patches-to-remote-a-vma/</guid>
       <description>I recently posted Using vMA as a local vSphere Patch Repository, where I outlined how you can use your vMA instances as local file repositories for updates.
 This post is a continuation of that concept, but this time I&amp;rsquo;ll take it a step further and utilize rsync to make sure my vMA instances all contain the same set of patches. Rsync is great for this, as it handles fast incremental file transfers, which is a real time and bandwidth saver in my particular scenario.</description>
@@ -28,7 +26,7 @@ This post is a continuation of that concept, but this time I&amp;rsquo;ll take i
       <title>Using vMA as a local vSphere Patch Repository</title>
       <link>/virtualization/using-vma-as-a-local-vsphere-patch-repository/</link>
       <pubDate>Mon, 07 Mar 2011 22:43:33 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/virtualization/using-vma-as-a-local-vsphere-patch-repository/</guid>
       <description>I like using http as the transport protocol when patching my vSphere hosts. It&amp;rsquo;s easy to use and in most cases immediately available over most networks. Since I want to use http as the transport, we need to make vMA work as a http server.
 Starting Apache inside vMA Luckily, the Apache http daemon is installed, by default, in vMA and to utilize it all you have to do is to start it!</description>
@@ -38,7 +36,7 @@ Starting Apache inside vMA Luckily, the Apache http daemon is installed, by defa
       <title>Installing vSphere Management Assistant (vMA)</title>
       <link>/virtualization/installing-vsphere-management-assistant-vma/</link>
       <pubDate>Mon, 28 Feb 2011 23:26:15 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/virtualization/installing-vsphere-management-assistant-vma/</guid>
       <description>The vMA is a Virtual Appliance that you can download from VMware. It&amp;rsquo;s primary function is to enable command line based management of your ESX/ESXi systems.
 Basically this is a pre-packaged virtual machine that includes vCLI and the vSphere SDK for Perl, which means that you don&amp;rsquo;t have to build your own management VM or install these tools locally on a management station.

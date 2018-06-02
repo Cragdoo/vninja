@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2016 on My blog</title>
+    <title>2016 on Adventures in Hugo</title>
     <link>/tags/2016/</link>
-    <description>Recent content in 2016 on My blog</description>
+    <description>Recent content in 2016 on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <managingEditor>yourname@example.com (yourname)</managingEditor>
-    <webMaster>yourname@example.com (yourname)</webMaster>
-    <copyright>(c) 2016 Copyright my blog</copyright>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Sun, 25 Dec 2016 12:03:33 +0000</lastBuildDate>
     
 	<atom:link href="/tags/2016/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +16,7 @@
       <title>Evaluating 2016</title>
       <link>/misc/evaluating-2016/</link>
       <pubDate>Sun, 25 Dec 2016 12:03:33 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/misc/evaluating-2016/</guid>
       <description>Back in February 2016 I published my goals for 2016, and it&amp;rsquo;s time to review that list:
  Shake things up a bit – **Go big or go home. **This one is easy, in April 2016 I moved from EVRY to Proact, with a clear mission statement: Build and develop Norways best SDDC team. As is always the case when changing positions and companies, a lot of time is spent on getting to know the new organisation but we&amp;rsquo;re getting there.</description>
@@ -28,7 +26,7 @@
       <title>Oh wow, it&#39;s already 2016.</title>
       <link>/misc/oh-wow-its-already-2016/</link>
       <pubDate>Wed, 03 Feb 2016 14:22:39 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/misc/oh-wow-its-already-2016/</guid>
       <description>A bit late, considering it&amp;rsquo;s already February, but here it is:
 My plan for 2016.  Shake things up a bit - Go big or go home. 2016 will be a year of changes. It&amp;rsquo;s about time I shake things up a bit, and 2016 will be that year. More details on this to come later, for now I have to keep it under wraps.

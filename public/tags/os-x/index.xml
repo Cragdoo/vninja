@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Os X on My blog</title>
+    <title>Os X on Adventures in Hugo</title>
     <link>/tags/os-x/</link>
-    <description>Recent content in Os X on My blog</description>
+    <description>Recent content in Os X on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <managingEditor>yourname@example.com (yourname)</managingEditor>
-    <webMaster>yourname@example.com (yourname)</webMaster>
-    <copyright>(c) 2016 Copyright my blog</copyright>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Mon, 12 Jan 2015 23:31:45 +0000</lastBuildDate>
     
 	<atom:link href="/tags/os-x/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +16,7 @@
       <title>Markdown All the Things!</title>
       <link>/virtualization/markdown-things/</link>
       <pubDate>Mon, 12 Jan 2015 23:31:45 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/virtualization/markdown-things/</guid>
       <description>Obviously I&amp;rsquo;m a bit late to the party here, but I guess late is better than never. It recently dawned on me that mucking about with lots of different file formats, interfaces and ways of doing things is rather counterproductive.
 A lot of my work these days are related to generating content, be it a simple blog post like this or writing customer proposals and documentation. In the end, the deliverables are often quite different, but at the core they are strangely enough very similar.</description>
@@ -28,23 +26,23 @@ A lot of my work these days are related to generating content, be it a simple bl
       <title>Check for OS X Updates Automatically</title>
       <link>/osx/check-os-updates-automatically/</link>
       <pubDate>Tue, 22 Oct 2013 18:42:42 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/osx/check-os-updates-automatically/</guid>
       <description>Yeah, I admit it. I want OS X Mavericks, and I want it now.
 Unfortunately, it´s not available yet from Software Update. So instead of manually checking every 5 minutes or so, I decided to create a small bash script that does it for me.
 It´s very, very simple, but I think it does the job:
 First off, pop into Terminal and get root access:
-[cc lang=&amp;laquo;bash&amp;raquo; width=&amp;laquo;100%&amp;raquo; theme=&amp;laquo;blackboard&amp;raquo; nowrap=&amp;laquo;0&amp;raquo;] h0bbel::h0bair { ~ }-&amp;gt; sudo su - [/cc]</description>
+[cc lang=&amp;ldquo;bash&amp;rdquo; width=&amp;ldquo;100%&amp;rdquo; theme=&amp;ldquo;blackboard&amp;rdquo; nowrap=&amp;ldquo;0&amp;rdquo;] h0bbel::h0bair { ~ }-&amp;gt; sudo su - [/cc]</description>
     </item>
     
     <item>
       <title>My Slate Setup</title>
       <link>/osx/slate-setup/</link>
       <pubDate>Wed, 31 Jul 2013 23:10:42 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/osx/slate-setup/</guid>
-      <description>About a year and a half I go, I took the leap from running Microsoft Windows as my main operating system and switched into full &amp;laquo;hipster mode&amp;raquo;, i.e. switched to a Macbook Air and OS X.
-Simply put, &amp;laquo;the change&amp;raquo; was not that hard and most everything has worked without problems, and for those things that still require Microsoft Windows, well, there is VMware Fusion for that.
+      <description>About a year and a half I go, I took the leap from running Microsoft Windows as my main operating system and switched into full &amp;ldquo;hipster mode&amp;rdquo;, i.e. switched to a Macbook Air and OS X.
+Simply put, &amp;ldquo;the change&amp;rdquo; was not that hard and most everything has worked without problems, and for those things that still require Microsoft Windows, well, there is VMware Fusion for that.
 While I´m admittedly still a novice OS X user, and not even close to mastering OS X, I´d like to share my current Slate setup.</description>
     </item>
     
@@ -52,7 +50,7 @@ While I´m admittedly still a novice OS X user, and not even close to mastering 
       <title>Verifying VMware Downloads</title>
       <link>/vmware-2/verifying-vmware-downloads/</link>
       <pubDate>Tue, 11 Sep 2012 21:19:12 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/vmware-2/verifying-vmware-downloads/</guid>
       <description>Now that vSphere 5.1 and assorted products have been released into the wild, how do you check the integrity of your downloaded file? As you might be aware of, VMware publishes both MD5 and SHA1 hashes for their files, making it possible to check if the file you just downloaded is identical to the file offered from VMware.
 Checking the MD5 or SHA1 hash for a single file is easy, at least in OS X where you don´t need any third party tools to check.</description>
@@ -62,16 +60,16 @@ Checking the MD5 or SHA1 hash for a single file is easy, at least in OS X where 
       <title>Applescript, Desktop Wallpaper and Growl. Automagically.</title>
       <link>/osx/applescript-desktop-wallpaper-growl-automatically/</link>
       <pubDate>Tue, 24 Jul 2012 23:31:12 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/osx/applescript-desktop-wallpaper-growl-automatically/</guid>
-      <description>I´ve been a Mac and OS X user now for about 7 months, but to be honest I have not been very experimental in my usage of my Macbook Air. Until now, my main focus has been basic usage of the hardware and operating systems, and making it work in my corporate environment. As I feel that I´ve reached mission accomplished status on that initial project, I decided to use some of my &amp;laquo;free&amp;raquo; vacation time to play around a bit and experiment a bit more.</description>
+      <description>I´ve been a Mac and OS X user now for about 7 months, but to be honest I have not been very experimental in my usage of my Macbook Air. Until now, my main focus has been basic usage of the hardware and operating systems, and making it work in my corporate environment. As I feel that I´ve reached mission accomplished status on that initial project, I decided to use some of my &amp;ldquo;free&amp;rdquo; vacation time to play around a bit and experiment a bit more.</description>
     </item>
     
     <item>
       <title>Iomega IX2 and Time Machine Support</title>
       <link>/osx/iomega-ix2-time-machine-support/</link>
       <pubDate>Mon, 23 Jan 2012 19:57:49 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/osx/iomega-ix2-time-machine-support/</guid>
       <description>As Mr. Simon Seagrave has pointed out, there is a fix available to enable OSX Lion Time Machine support for Iomega IX2 and IX4 NAS storage devices.
 I decided to take this a little step further, and try to upgrade my old (and discontinued) Iomega IX2-200 to the new IX2-200 Cloud Edition firmware.

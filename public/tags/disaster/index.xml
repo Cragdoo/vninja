@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Disaster on My blog</title>
+    <title>Disaster on Adventures in Hugo</title>
     <link>/tags/disaster/</link>
-    <description>Recent content in Disaster on My blog</description>
+    <description>Recent content in Disaster on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <managingEditor>yourname@example.com (yourname)</managingEditor>
-    <webMaster>yourname@example.com (yourname)</webMaster>
-    <copyright>(c) 2016 Copyright my blog</copyright>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Mon, 20 Aug 2012 22:28:03 +0000</lastBuildDate>
     
 	<atom:link href="/tags/disaster/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +16,7 @@
       <title>Shanghai...  we have a problem...</title>
       <link>/virtualization/shanghai-problem/</link>
       <pubDate>Mon, 20 Aug 2012 22:28:03 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/virtualization/shanghai-problem/</guid>
       <description>My Saturday morning started the same as any other. I checked my emails and my tweets, started a coffee, walked my dog and got into the shower. My iPhone buzzing on the sink caught my attention a few minutes into it. Covered in soap and the rest censored for the public here I answered the call. Without getting into too many details of my organization - my bosses-bossess-boss contacted me reporting a fire in one of our server rooms in Shanghai China.</description>
     </item>

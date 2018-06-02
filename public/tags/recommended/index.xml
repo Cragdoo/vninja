@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Recommended on My blog</title>
+    <title>Recommended on Adventures in Hugo</title>
     <link>/tags/recommended/</link>
-    <description>Recent content in Recommended on My blog</description>
+    <description>Recent content in Recommended on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <managingEditor>yourname@example.com (yourname)</managingEditor>
-    <webMaster>yourname@example.com (yourname)</webMaster>
-    <copyright>(c) 2016 Copyright my blog</copyright>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Thu, 24 Nov 2016 09:45:10 +0000</lastBuildDate>
     
 	<atom:link href="/tags/recommended/index.xml" rel="self" type="application/rss+xml" />
@@ -18,10 +16,10 @@
       <title>macOS: Spectacle</title>
       <link>/osx/macos-spectacle/</link>
       <pubDate>Thu, 24 Nov 2016 09:45:10 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/osx/macos-spectacle/</guid>
       <description>Working with the keyboard to move resize, focus and arrange your applications is a great productivity tip. When I changed from Windows to macOS a few years ago, I had a pretty convoluted setup based on Slate for managing keyboard shortcuts, especially for moving applications around, but this has since been simplified by using Spectacle instead of Slate.
-Spectacle has everything I need, especially keyboard shortcuts for maximising an application, of &amp;laquo;flinging&amp;raquo; it over to another display.</description>
+Spectacle has everything I need, especially keyboard shortcuts for maximising an application, of &amp;ldquo;flinging&amp;rdquo; it over to another display.</description>
     </item>
     
   </channel>

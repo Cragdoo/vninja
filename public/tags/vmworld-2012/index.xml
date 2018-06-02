@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vmworld 2012 on My blog</title>
+    <title>Vmworld 2012 on Adventures in Hugo</title>
     <link>/tags/vmworld-2012/</link>
-    <description>Recent content in Vmworld 2012 on My blog</description>
+    <description>Recent content in Vmworld 2012 on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <managingEditor>yourname@example.com (yourname)</managingEditor>
-    <webMaster>yourname@example.com (yourname)</webMaster>
-    <copyright>(c) 2016 Copyright my blog</copyright>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Sun, 22 Jul 2012 17:49:01 +0000</lastBuildDate>
     
 	<atom:link href="/tags/vmworld-2012/index.xml" rel="self" type="application/rss+xml" />
@@ -18,10 +16,10 @@
       <title>10 minute lightning Tech Talk at VMworld?</title>
       <link>/vmware-2/techtalks-at-vmworld2012/</link>
       <pubDate>Sun, 22 Jul 2012 17:49:01 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/vmware-2/techtalks-at-vmworld2012/</guid>
       <description>I love it when a plan comes together, especially when someone gets an idea and then someone fires on all cylinders and executes!
-As mentioned before, there has been a lot of talk about various ways to create a &amp;laquo;soapbox&amp;raquo; for all those who submitted VMworld sessions and got rejected, or those who did not submit but would still like to present.
+As mentioned before, there has been a lot of talk about various ways to create a &amp;ldquo;soapbox&amp;rdquo; for all those who submitted VMworld sessions and got rejected, or those who did not submit but would still like to present.
 Thankfully the guys behind vBrownBags has teamed up with VMware communities and are now offering this opportunity at VMworld 2012.</description>
     </item>
     

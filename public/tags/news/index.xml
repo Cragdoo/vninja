@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>News on My blog</title>
+    <title>News on Adventures in Hugo</title>
     <link>/tags/news/</link>
-    <description>Recent content in News on My blog</description>
+    <description>Recent content in News on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <managingEditor>yourname@example.com (yourname)</managingEditor>
-    <webMaster>yourname@example.com (yourname)</webMaster>
-    <copyright>(c) 2016 Copyright my blog</copyright>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Tue, 11 Apr 2017 16:08:30 +0000</lastBuildDate>
     
 	<atom:link href="/tags/news/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +16,7 @@
       <title>VMware vSAN 6.6 - What&#39;s New for Day 2 Operations?</title>
       <link>/virtualization/vmware-vsan-6-6-whats-new-for-day-2-operations/</link>
       <pubDate>Tue, 11 Apr 2017 16:08:30 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/virtualization/vmware-vsan-6-6-whats-new-for-day-2-operations/</guid>
       <description>VMware has just announced vSAN v6.6, with over 20 new features. While new and shiny features are nice I&amp;rsquo;d like to highlight a couple that I think might be undervalued from release feature-set perspective, but highly valuable in day to day operations of a vSAN environment, otherwise known as Day 2 operations.
 vSAN Configuration Assist is one such new feature. While it&amp;rsquo;s true that it helps first time configuration of a greenfield installation with vSAN (no more bootstrapping, yay!</description>
@@ -28,10 +26,10 @@ vSAN Configuration Assist is one such new feature. While it&amp;rsquo;s true tha
       <title>In The Bag #13 - Week 11 2017</title>
       <link>/inthebag/in-the-bag-13-week-11-2017/</link>
       <pubDate>Fri, 17 Mar 2017 14:24:11 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/inthebag/in-the-bag-13-week-11-2017/</guid>
       <description>Welcome to the thirteenth edition of _In The Bag! _
-[caption id=&amp;laquo;attachment_4607&amp;raquo; align=&amp;laquo;aligncenter&amp;raquo; width=&amp;laquo;644&amp;raquo;] Photo by Patrick Lindenberg[/caption]
+[caption id=&amp;ldquo;attachment_4607&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;644&amp;rdquo;] Photo by Patrick Lindenberg[/caption]
 In The Bag #13 - Week 11 2017 Technology  **In-Guest UNMAP Fix in ESXi 6.5 Part I: Windows &amp;amp; Part II: Linux  **Cody Hosterman has tested the UNMAP fixes in ESXi 6.5, with great results. Glad this is back!
  **High frequency of read operations on VMware Tools image may cause SD card corruption (2149257) **This one is important!</description>
     </item>
@@ -40,7 +38,7 @@ In The Bag #13 - Week 11 2017 Technology  **In-Guest UNMAP Fix in ESXi 6.5 Part
       <title>In The Bag #12 - Week 10 2017</title>
       <link>/inthebag/in-the-bag-12-week-10-2017/</link>
       <pubDate>Fri, 10 Mar 2017 11:55:46 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/inthebag/in-the-bag-12-week-10-2017/</guid>
       <description>Welcome to the twelfth edition of _In The Bag! _ In The Bag #12 - Week 10 2017
 Technology  Cloud outages and the couch architects all over the world Luca has written a great article about the recent AWS S3 outage, it&amp;rsquo;s sane, articulate and well worth a read.
@@ -51,10 +49,10 @@ Technology  Cloud outages and the couch architects all over the world Luca has w
       <title>In The Bag #11 - Week 9 2017</title>
       <link>/inthebag/in-the-bag-11-week-9-2017/</link>
       <pubDate>Fri, 03 Mar 2017 12:00:26 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/inthebag/in-the-bag-11-week-9-2017/</guid>
       <description>Welcome to the eleventh edition of _In The Bag! _
-[caption id=&amp;laquo;attachment_4593&amp;raquo; align=&amp;laquo;aligncenter&amp;raquo; width=&amp;laquo;644&amp;raquo;] Photo by Andrew Furlan[/caption]
+[caption id=&amp;ldquo;attachment_4593&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;644&amp;rdquo;] Photo by Andrew Furlan[/caption]
 In The Bag #11 - Week 9 2017 Technology  RVTools 3.9.2 (February, 2017) One of my favourite, and free, tools for VMware environments has been updated include support for vSphere 6.5.
  Use LogInsight as your VMware Security Dashboard Edward Haletky has created a Log Insight content pack, with a security focus.</description>
     </item>
@@ -63,10 +61,10 @@ In The Bag #11 - Week 9 2017 Technology  RVTools 3.9.2 (February, 2017) One of
       <title>In The Bag #10 - Week 8 2017</title>
       <link>/inthebag/in-the-bag-10-week-8-2017/</link>
       <pubDate>Sun, 26 Feb 2017 22:32:57 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/inthebag/in-the-bag-10-week-8-2017/</guid>
-      <description>Welcome to the tenth edition of _In The Bag! _This one comes a little late, it&amp;rsquo;s (barely) Sunday here, not Friday! Sorry about that, but I was &amp;laquo;stuck&amp;raquo; in a secure facility all week, doing a vSphere 5.5 til vSphere 6.5 migration.
-[caption id=&amp;laquo;attachment_4589&amp;raquo; align=&amp;laquo;aligncenter&amp;raquo; width=&amp;laquo;644&amp;raquo;] Photo by Frontline Creative[/caption]
+      <description>Welcome to the tenth edition of _In The Bag! _This one comes a little late, it&amp;rsquo;s (barely) Sunday here, not Friday! Sorry about that, but I was &amp;ldquo;stuck&amp;rdquo; in a secure facility all week, doing a vSphere 5.5 til vSphere 6.5 migration.
+[caption id=&amp;ldquo;attachment_4589&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;644&amp;rdquo;] Photo by Frontline Creative[/caption]
 _ _
 In The Bag #10 - Week 8 2017 Technology  osx-wificleaner Over time, we all accumulate a bunch of open networks that we&amp;rsquo;ve connected to — you do use a while connected to those, right?</description>
     </item>
@@ -75,10 +73,10 @@ In The Bag #10 - Week 8 2017 Technology  osx-wificleaner Over time, we all accu
       <title>In The Bag #9 - Week 7 2017</title>
       <link>/virtualization/in-the-bag-9-week-7-2017/</link>
       <pubDate>Fri, 17 Feb 2017 11:56:43 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/virtualization/in-the-bag-9-week-7-2017/</guid>
       <description>Welcome to the ninth edition of _In The Bag! _
-[caption id=&amp;laquo;attachment_4580&amp;raquo; align=&amp;laquo;aligncenter&amp;raquo; width=&amp;laquo;644&amp;raquo;] Photo by James Sutton[/caption]
+[caption id=&amp;ldquo;attachment_4580&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;644&amp;rdquo;] Photo by James Sutton[/caption]
 In The Bag #9 - Week 7 2017 Technology  Setting the record straight on DRS, pDRS and Workload Placement How does DRS and pDRS work, really? What metrics are the basis for decisions, and how often are the calculations done?
  Extending the Capabilities of vRealize Automation 7 Eric Shanks Pluralsight courses on vRealize Automation are great, and this new-one is no exception.</description>
     </item>
@@ -87,10 +85,10 @@ In The Bag #9 - Week 7 2017 Technology  Setting the record straight on DRS, pDR
       <title>In The Bag #8 - Week 6 2017</title>
       <link>/inthebag/in-the-bag-8-week-6-2017/</link>
       <pubDate>Fri, 10 Feb 2017 13:52:46 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/inthebag/in-the-bag-8-week-6-2017/</guid>
       <description>Welcome to the eight edition of In The Bag!
-[caption id=&amp;laquo;attachment_4573&amp;raquo; align=&amp;laquo;aligncenter&amp;raquo; width=&amp;laquo;644&amp;raquo;] Photo by Benjamin Child[/caption]
+[caption id=&amp;ldquo;attachment_4573&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;644&amp;rdquo;] Photo by Benjamin Child[/caption]
 In The Bag #8 - Week 6 2017 Technology  Understanding Recovery from Multiple Failures in a vSAN Stretched Cluster One of the more important things to understand is how to deal with failures in IT-infrastructure, and this is a great write-up from Cormac.
  What logs do I get when I enable syslog in VCSA 6.</description>
     </item>
@@ -99,10 +97,10 @@ In The Bag #8 - Week 6 2017 Technology  Understanding Recovery from Multiple Fa
       <title>In The Bag #7 - Week 5 2017</title>
       <link>/inthebag/in-the-bag-7-week-5-2017/</link>
       <pubDate>Fri, 03 Feb 2017 13:05:49 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/inthebag/in-the-bag-7-week-5-2017/</guid>
       <description>Welcome to the seventh edition of In The Bag!
-[caption width=&amp;laquo;644&amp;raquo; id=&amp;laquo;attachment_4563&amp;raquo; align=&amp;laquo;alignright&amp;raquo;] Photo by NordWood Themes[/caption]
+[caption width=&amp;ldquo;644&amp;rdquo; id=&amp;ldquo;attachment_4563&amp;rdquo; align=&amp;ldquo;alignright&amp;rdquo;] Photo by NordWood Themes[/caption]
 In The Bag #7 - Week 5 2017 Technology  #vSAN Cache Performance Dashboard in #vROps Simon Eady has created a great vROps dashboard for vSAN cache information. Check it out!
  vSAN: Update Guide for Dell PERC9 H730 Controller Perfectly timed, I&amp;rsquo;m in the process of setting up our internal vSAN based lab-environment at the moment.</description>
     </item>
@@ -111,7 +109,7 @@ In The Bag #7 - Week 5 2017 Technology  #vSAN Cache Performance Dashboard in #vR
       <title>In The Bag #6 - Week 4 2017</title>
       <link>/inthebag/in-the-bag-6-week-4-2017/</link>
       <pubDate>Fri, 27 Jan 2017 10:45:31 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/inthebag/in-the-bag-6-week-4-2017/</guid>
       <description>Welcome to the sixth edition of In The Bag! It&amp;rsquo;s been a while since I&amp;rsquo;ve posted one of these, but here&amp;rsquo;s giving it a a go in 2017 as well.
  In The Bag #6 - Week 4 2017 Technology  ReFS cluster size with Veeam Backup &amp;amp; Replication: 64KB or 4KB? My friend Luca has written a great article explaining how to determine the best cluster size for a ReFS based Veeam B&amp;amp;R repository.</description>
@@ -121,10 +119,10 @@ In The Bag #7 - Week 5 2017 Technology  #vSAN Cache Performance Dashboard in #vR
       <title>In The Bag #5 - Week 48</title>
       <link>/inthebag/in-the-bag-5-week-48/</link>
       <pubDate>Fri, 02 Dec 2016 10:12:30 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/inthebag/in-the-bag-5-week-48/</guid>
       <description>Welcome to the fifth edition of In The Bag!
-[caption id=&amp;laquo;attachment_4483&amp;raquo; align=&amp;laquo;aligncenter&amp;raquo; width=&amp;laquo;644&amp;raquo;] Photo by Joshua Earle[/caption]
+[caption id=&amp;ldquo;attachment_4483&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;644&amp;rdquo;] Photo by Joshua Earle[/caption]
 In The Bag #5 - Week 48
 Technology  Send a Tweet Directly from a VMware ESXi Host Admittedly sending Tweets from an ESXi hosts doesn&amp;rsquo;t really make much sense, but as an example of how to use the new Script Bundle feature in Auto Deploy for vSphere 6.5 it&amp;rsquo;s pretty cool — Kudos Eric Gray</description>
     </item>
@@ -133,10 +131,10 @@ Technology  Send a Tweet Directly from a VMware ESXi Host Admittedly sending Twe
       <title>In The Bag #4 - Week 47</title>
       <link>/inthebag/in-the-bag-4-week-47/</link>
       <pubDate>Fri, 25 Nov 2016 12:00:45 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/inthebag/in-the-bag-4-week-47/</guid>
       <description>Welcome to the fourth edition of In The Bag!
-[caption id=&amp;laquo;attachment_4314&amp;raquo; align=&amp;laquo;aligncenter&amp;raquo; width=&amp;laquo;620&amp;raquo;] Photo by Sonny Abesamis[/caption]
+[caption id=&amp;ldquo;attachment_4314&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;620&amp;rdquo;] Photo by Sonny Abesamis[/caption]
 In The Bag #4 - Week 47
 Technology  Capacity Expansion &amp;amp; Disk Group Design Decisions–All Flash vSAN Every design decision has a consequence, and thats also the case when it comes to vSAN. Jason Langer has written a great article highlighting how enabling deduplication and compression has consequences for drive failure scenarios.</description>
     </item>
@@ -145,10 +143,10 @@ Technology  Capacity Expansion &amp;amp; Disk Group Design Decisions–All Flash
       <title>In The Bag #3 - Week 46</title>
       <link>/virtualization/in-the-bag-3-week-46/</link>
       <pubDate>Fri, 18 Nov 2016 22:38:33 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/virtualization/in-the-bag-3-week-46/</guid>
       <description>Welcome to the third edition of In The Bag!
-[caption id=&amp;laquo;attachment_4314&amp;raquo; align=&amp;laquo;aligncenter&amp;raquo; width=&amp;laquo;620&amp;raquo;] Photo by Sonny Abesamis[/caption]
+[caption id=&amp;ldquo;attachment_4314&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;620&amp;rdquo;] Photo by Sonny Abesamis[/caption]
 In The Bag #3 - Week 46
 Technology  Slow news week, not much happening really. Oh wait, there was this thing called vSphere 6.5 that was released. William Lam has the lowdown in his All vSphere 6.5 release notes &amp;amp; download links post. Please read the release notes. They are important.</description>
     </item>
@@ -157,10 +155,10 @@ Technology  Slow news week, not much happening really. Oh wait, there was this t
       <title>VMworld Dates 2017</title>
       <link>/news/vmworld-dates-2017/</link>
       <pubDate>Fri, 18 Nov 2016 11:23:58 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/news/vmworld-dates-2017/</guid>
       <description>Now that the seasons have changed, it&amp;rsquo;s time to look at 2017 and start planning the year. First up, when is VMworld 2017, and perhaps most importantly where? There has been a lot of speculation about this, and the perhaps strongest rumour was that it was moving to Berlin.
-The details for the US has already been posted on vmworld.com, but for Europe all it says is &amp;laquo;Fall&amp;raquo;.
+The details for the US has already been posted on vmworld.com, but for Europe all it says is &amp;ldquo;Fall&amp;rdquo;.
 According to Duncan, which usually is in the know, VMworld Europe 2017 will once again be in Barcelona, but in September instead of October.</description>
     </item>
     
@@ -168,10 +166,10 @@ According to Duncan, which usually is in the know, VMworld Europe 2017 will once
       <title>In The Bag #2 - Week 45</title>
       <link>/inthebag/in-the-bag-2-week-45/</link>
       <pubDate>Fri, 11 Nov 2016 17:08:24 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/inthebag/in-the-bag-2-week-45/</guid>
       <description>Welcome to the second edition of In The Bag!
-[caption id=&amp;laquo;attachment_4314&amp;raquo; align=&amp;laquo;aligncenter&amp;raquo; width=&amp;laquo;620&amp;raquo;] Photo by Sonny Abesamis[/caption]
+[caption id=&amp;ldquo;attachment_4314&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;620&amp;rdquo;] Photo by Sonny Abesamis[/caption]
 In The Bag #2 - Week 45
 Technology  vSAN 6.5 Licensing Guide The vSAN 6.5 Licensing Guide is now available, worth noticing is that All Flash (but not compression/dedup and RAID5/6) is now available in the Standard edition. Also nice to see that the new iSCSI Target Service is also included in Standard.</description>
     </item>
@@ -180,9 +178,9 @@ Technology  vSAN 6.5 Licensing Guide The vSAN 6.5 Licensing Guide is now availab
       <title>Goodbye Mr. Herrod</title>
       <link>/vmware-2/goodbye-mr-herrod/</link>
       <pubDate>Wed, 23 Jan 2013 14:42:40 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/vmware-2/goodbye-mr-herrod/</guid>
-      <description>SearchserverVirtualization published an article today called &amp;laquo;Experts weigh in on CTO Herrod&amp;rsquo;s departure, future of VMware&amp;raquo; where I have been quoted in regard toSteve Herrod&amp;rsquo;s departure from VMware.
+      <description>SearchserverVirtualization published an article today called &amp;ldquo;Experts weigh in on CTO Herrod&amp;rsquo;s departure, future of VMware&amp;rdquo; where I have been quoted in regard toSteve Herrod&amp;rsquo;s departure from VMware.
 While the quote itself is correct, I feel that there is a need to further expand on what I said, in the context it was given in.
 So here it is, my entire response:
 My reaction to Steve Herrods departure is probably on par with just about everyone else&#39;s, one of surprise.</description>
@@ -192,19 +190,19 @@ My reaction to Steve Herrods departure is probably on par with just about everyo
       <title>VMware launches Public vCloud &#34;Test-Drive&#34;</title>
       <link>/news/vmware-launches-public-vcloud-test-driv/</link>
       <pubDate>Thu, 16 Aug 2012 21:17:12 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/news/vmware-launches-public-vcloud-test-driv/</guid>
       <description>VMware Offers vCloud “Test-Drive” with New Evaluation Service.
-This announcement doesn´t seem to be &amp;laquo;Project Zephyr&amp;raquo; which, if the rumors are true, is VMware´s own fully fledged IaaS service.
+This announcement doesn´t seem to be &amp;ldquo;Project Zephyr&amp;rdquo; which, if the rumors are true, is VMware´s own fully fledged IaaS service.
 This Public vCloud “Test-Drive” service, which VMware themselves describe as “white-label” from a vCloud service provider, seems like a way for VMware to provide cheap test-drive access, to vCloud through their existing service providers.
-Where the rumored &amp;laquo;Project Zephyr&amp;raquo; might be seen as a competing service, Public vCloud looks to be engineered to drive long term customers to the existing ecosystem of providers.</description>
+Where the rumored &amp;ldquo;Project Zephyr&amp;rdquo; might be seen as a competing service, Public vCloud looks to be engineered to drive long term customers to the existing ecosystem of providers.</description>
     </item>
     
     <item>
       <title>vNinja enables HA</title>
       <link>/news/vninja-enables-h/</link>
       <pubDate>Wed, 13 Apr 2011 21:02:28 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/news/vninja-enables-h/</guid>
       <description>I&amp;rsquo;m happy to announce that my fellow vSoup Podcast co-host Ed Czerwin is on board as blogger here on vNinja.net! This means that from now on you won&amp;rsquo;t just have to put up with the content of one virtualization admin, but two!
 As all good vAdmins know, two is better than one, and it&amp;rsquo; so much easier to build HA solutions around!

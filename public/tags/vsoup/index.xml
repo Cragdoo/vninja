@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vsoup on My blog</title>
+    <title>Vsoup on Adventures in Hugo</title>
     <link>/tags/vsoup/</link>
-    <description>Recent content in Vsoup on My blog</description>
+    <description>Recent content in Vsoup on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <managingEditor>yourname@example.com (yourname)</managingEditor>
-    <webMaster>yourname@example.com (yourname)</webMaster>
-    <copyright>(c) 2016 Copyright my blog</copyright>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Wed, 01 Jun 2011 11:07:52 +0000</lastBuildDate>
     
 	<atom:link href="/tags/vsoup/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +16,7 @@
       <title>vSoup and Tech Field Day #6</title>
       <link>/news/vsoup-and-tech-field-day-6/</link>
       <pubDate>Wed, 01 Jun 2011 11:07:52 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/news/vsoup-and-tech-field-day-6/</guid>
       <description>vSoup Episode #10 is finally released, this time with Stuart Radnidge (blog) as our guest. This episode is a bit unusual, as we didn&amp;rsquo;t really have a set agenda before starting the recording, so we jump around all of the place covering a pretty wide area of topics. Be sure to check it out!
 Tech Field Day #6 is approaching really fast, in fact it&amp;rsquo;s only a week away now! I will leave for Boston on Tuesday, June 7, for what looks to be a very, very busy but fun couple of days.</description>
@@ -28,9 +26,9 @@ Tech Field Day #6 is approaching really fast, in fact it&amp;rsquo;s only a week
       <title>vSoup Episode #7 and VMware Podcast Directory</title>
       <link>/news/vsoup-episode-7-and-vmware-podcast-directory/</link>
       <pubDate>Mon, 28 Mar 2011 09:32:09 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/news/vsoup-episode-7-and-vmware-podcast-directory/</guid>
-      <description>vSoup Episode #7 &amp;laquo;Everything is better with Bacon&amp;raquo; is now available for your listening &amp;laquo;pleasure&amp;raquo;. With Sean Clark as our guest, we get into quite a few topics like storage and SQL virtualization. Be sure to check it out!
+      <description>vSoup Episode #7 &amp;ldquo;Everything is better with Bacon&amp;rdquo; is now available for your listening &amp;ldquo;pleasure&amp;rdquo;. With Sean Clark as our guest, we get into quite a few topics like storage and SQL virtualization. Be sure to check it out!
 In related news, VMware has created a Virtualization Podcast directory over on the VMware Communities portal. Way to go John, hopefully the other podcasts will follow suite so we can have one common directory for all of us!</description>
     </item>
     
@@ -38,9 +36,9 @@ In related news, VMware has created a Virtualization Podcast directory over on t
       <title>vSoup Episode #4 now available</title>
       <link>/news/vsoup-episode-4-now-available/</link>
       <pubDate>Thu, 10 Feb 2011 20:54:08 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/news/vsoup-episode-4-now-available/</guid>
-      <description>The fourth edition (Big Fat Pipes with Bob) of the vSoup podcast is now available. This time we had the honor of having Bob Plankers as a guest. Bob runs The Lone Sysadmin, where his recent post &amp;laquo;Blame&amp;raquo; really resonated well with me personally.
+      <description>The fourth edition (Big Fat Pipes with Bob) of the vSoup podcast is now available. This time we had the honor of having Bob Plankers as a guest. Bob runs The Lone Sysadmin, where his recent post &amp;ldquo;Blame&amp;rdquo; really resonated well with me personally.
 The fact of the matter is that in many cases Bob is right, virtualization admins ends up being blamed for everything.
 No matter who’s fault it actually is, though, I’m the one-stop shop now for blame.</description>
     </item>
@@ -49,7 +47,7 @@ No matter who’s fault it actually is, though, I’m the one-stop shop now for 
       <title>vSoup Episode #3 now available</title>
       <link>/news/vsoup-episode-3-now-available/</link>
       <pubDate>Mon, 24 Jan 2011 13:16:39 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/news/vsoup-episode-3-now-available/</guid>
       <description>The third episode of vSoup has been spotted in the wild. Head on over to vSoup.net to grab it while it&amp;rsquo;s still warm. Or, you can frantically refresh your iTunes feed until it pops up there.
 Either way, it&amp;rsquo;s alive!</description>
@@ -59,7 +57,7 @@ Either way, it&amp;rsquo;s alive!</description>
       <title>vSoup Episode #2 now available</title>
       <link>/news/vsoup-episode-2-now-available/</link>
       <pubDate>Mon, 17 Jan 2011 09:04:33 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/news/vsoup-episode-2-now-available/</guid>
       <description>The second episode of vSoup is now available. Head on over to vSoup.net to get your fix.
 Chris, Ed and myself keeps rambling about, this time about blogger recruitment, high availability, security and the HP Proliant MicroServer.
@@ -70,9 +68,9 @@ Enjoy!</description>
       <title>So, what is this vSoup thing?</title>
       <link>/news/so-what-is-this-vsoup-thing/</link>
       <pubDate>Tue, 04 Jan 2011 15:45:09 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/news/so-what-is-this-vsoup-thing/</guid>
-      <description>Some times things just happen, and before you know it you&amp;rsquo;re sitting in your in-laws living room talking to an Englishman and an American via Skype. And to top it of; it&amp;rsquo;s all being recorded. And to make matters even worse, we decided to try and make it a regular thing. The recordings that is, not the &amp;laquo;in your in-laws living room&amp;raquo; thing, that was a one-off for sure.
+      <description>Some times things just happen, and before you know it you&amp;rsquo;re sitting in your in-laws living room talking to an Englishman and an American via Skype. And to top it of; it&amp;rsquo;s all being recorded. And to make matters even worse, we decided to try and make it a regular thing. The recordings that is, not the &amp;ldquo;in your in-laws living room&amp;rdquo; thing, that was a one-off for sure.
 What I&amp;rsquo;m trying to say here is that yours truly, Ed Czerwin and Chris Dearden has decided that we want to be rock-stars and start our own little virtualization related podcast.</description>
     </item>
     

@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hosted Beta on My blog</title>
+    <title>Hosted Beta on Adventures in Hugo</title>
     <link>/tags/hosted-beta/</link>
-    <description>Recent content in Hosted Beta on My blog</description>
+    <description>Recent content in Hosted Beta on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <managingEditor>yourname@example.com (yourname)</managingEditor>
-    <webMaster>yourname@example.com (yourname)</webMaster>
-    <copyright>(c) 2016 Copyright my blog</copyright>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Wed, 27 Mar 2013 08:50:29 +0000</lastBuildDate>
     
 	<atom:link href="/tags/hosted-beta/index.xml" rel="self" type="application/rss+xml" />
@@ -18,9 +16,9 @@
       <title>Brilliant idea: VMware Hosted Beta</title>
       <link>/vmware-2/brilliant-idea-vmware-hosted-beta/</link>
       <pubDate>Wed, 27 Mar 2013 08:50:29 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/vmware-2/brilliant-idea-vmware-hosted-beta/</guid>
-      <description>Duncan Epping rather unceremoniously published a blog post &amp;laquo;New Beta Program offering: VMware Hosted Beta&amp;raquo; yesterday, outlining the availability of the new hosted beta offering that companions some of the current VMware beta programs.
+      <description>Duncan Epping rather unceremoniously published a blog post &amp;ldquo;New Beta Program offering: VMware Hosted Beta&amp;rdquo; yesterday, outlining the availability of the new hosted beta offering that companions some of the current VMware beta programs.
 _Due to the very NDA nature of the beta programs, I can´t really go into details on what is currently offered, but what I can say is this: Well done VMware!_
 The VMware Hosted Beta runs on the same engine that runs the VMware Hands on Labs Online – Beta, but with a little added twist.</description>
     </item>

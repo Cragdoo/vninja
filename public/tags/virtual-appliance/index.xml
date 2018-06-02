@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Virtual Appliance on My blog</title>
+    <title>Virtual Appliance on Adventures in Hugo</title>
     <link>/tags/virtual-appliance/</link>
-    <description>Recent content in Virtual Appliance on My blog</description>
+    <description>Recent content in Virtual Appliance on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <managingEditor>yourname@example.com (yourname)</managingEditor>
-    <webMaster>yourname@example.com (yourname)</webMaster>
-    <copyright>(c) 2016 Copyright my blog</copyright>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Tue, 19 Feb 2013 23:50:20 +0000</lastBuildDate>
     
 	<atom:link href="/tags/virtual-appliance/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +16,7 @@
       <title>Unsupported Network Configurations in Virtual Appliances</title>
       <link>/vmware-2/unsupported-network-configurations-virtual-appliances/</link>
       <pubDate>Tue, 19 Feb 2013 23:50:20 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/vmware-2/unsupported-network-configurations-virtual-appliances/</guid>
       <description>My recent experience with setting up vCenter Operations Manager on a standalone ESXi host, and the always excellent William Lam´s post Automating VCSA Network Configurations For Greenfield Deployments got me thinking.
 There are several other appliances out there that require deployment to a vCenter, to be able to configure the networking options and not just default to DHCP. In many, and perhaps even most, cases you can work around that by running the _vami_set_network _command to change from DHCP to STATIC network configurations.</description>
@@ -28,7 +26,7 @@ There are several other appliances out there that require deployment to a vCente
       <title>Using rsync to Distribute Patches to a Remote vMA </title>
       <link>/virtualization/using-rsync-to-distribute-patches-to-remote-a-vma/</link>
       <pubDate>Tue, 08 Mar 2011 08:00:02 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/virtualization/using-rsync-to-distribute-patches-to-remote-a-vma/</guid>
       <description>I recently posted Using vMA as a local vSphere Patch Repository, where I outlined how you can use your vMA instances as local file repositories for updates.
 This post is a continuation of that concept, but this time I&amp;rsquo;ll take it a step further and utilize rsync to make sure my vMA instances all contain the same set of patches. Rsync is great for this, as it handles fast incremental file transfers, which is a real time and bandwidth saver in my particular scenario.</description>
@@ -38,7 +36,7 @@ This post is a continuation of that concept, but this time I&amp;rsquo;ll take i
       <title>Using vMA as a local vSphere Patch Repository</title>
       <link>/virtualization/using-vma-as-a-local-vsphere-patch-repository/</link>
       <pubDate>Mon, 07 Mar 2011 22:43:33 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/virtualization/using-vma-as-a-local-vsphere-patch-repository/</guid>
       <description>I like using http as the transport protocol when patching my vSphere hosts. It&amp;rsquo;s easy to use and in most cases immediately available over most networks. Since I want to use http as the transport, we need to make vMA work as a http server.
 Starting Apache inside vMA Luckily, the Apache http daemon is installed, by default, in vMA and to utilize it all you have to do is to start it!</description>
@@ -48,7 +46,7 @@ Starting Apache inside vMA Luckily, the Apache http daemon is installed, by defa
       <title>Installing vSphere Management Assistant (vMA)</title>
       <link>/virtualization/installing-vsphere-management-assistant-vma/</link>
       <pubDate>Mon, 28 Feb 2011 23:26:15 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/virtualization/installing-vsphere-management-assistant-vma/</guid>
       <description>The vMA is a Virtual Appliance that you can download from VMware. It&amp;rsquo;s primary function is to enable command line based management of your ESX/ESXi systems.
 Basically this is a pre-packaged virtual machine that includes vCLI and the vSphere SDK for Perl, which means that you don&amp;rsquo;t have to build your own management VM or install these tools locally on a management station.
@@ -59,7 +57,7 @@ vMA is in many regards seen as a replacement for the ESX Service Console which n
       <title>Installing and Configuring WANem Virtual Appliance</title>
       <link>/virtualization/installing-and-configuring-wanem-virtual-appliance/</link>
       <pubDate>Wed, 29 Dec 2010 14:21:36 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/virtualization/installing-and-configuring-wanem-virtual-appliance/</guid>
       <description>In a previous post, Using the WANem WAN Emulator Virtual Appliance, I&amp;rsquo;ve talked about how I&amp;rsquo;ve successfully used WANem to emulate different WAN scenarios.
 Since I work for a shipping company, the ability to emulate VSAT conditions are especially useful for testing and proof-of-concept scenarios.
@@ -71,7 +69,7 @@ Downloading WANem I have chose to use the WANem Virtual Appliance running in a v
       <title>Using the WANem WAN Emulator Virtual Appliance</title>
       <link>/network/using-the-wanem-wan-emulator-virtual-appliance/</link>
       <pubDate>Thu, 26 Aug 2010 11:38:00 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/network/using-the-wanem-wan-emulator-virtual-appliance/</guid>
       <description>During preparation and preliminary information gathering for a new internal project, I had a need to emulate various networking conditions and scenarios. More specifically I&amp;rsquo;m looking at the possibility of running the vCenter Client over high latency satellite links, with varying bandwidth availability and even packet loss scenarios.
 Obviously the best way of testing this, in a controlled environment, is to use some kind of WAN emulator that lets you control the various networking characteristics.</description>

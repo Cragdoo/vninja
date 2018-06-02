@@ -1,172 +1,132 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-<head>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <title>Applescript, Desktop Wallpaper and Growl. Automagically.  &middot; My blog</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="HandheldFriendly" content="True">
-<meta name="MobileOptimized" content="320">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
 
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<meta name="description" content="" />
-
-<meta name="keywords" content="Applescript, automation, fun, Mac, OS X, Scripting, ">
-
-
-<meta property="og:title" content="Applescript, Desktop Wallpaper and Growl. Automagically.  &middot; My blog ">
-<meta property="og:site_name" content="My blog"/>
-<meta property="og:url" content="/osx/applescript-desktop-wallpaper-growl-automatically/" />
-<meta property="og:locale" content="en">
-
-
+<meta property="og:title" content="Applescript, Desktop Wallpaper and Growl. Automagically." />
+<meta property="og:description" content="I´ve been a Mac and OS X user now for about 7 months, but to be honest I have not been very experimental in my usage of my Macbook Air. Until now, my main focus has been basic usage of the hardware and operating systems, and making it work in my corporate environment. As I feel that I´ve reached mission accomplished status on that initial project, I decided to use some of my &ldquo;free&rdquo; vacation time to play around a bit and experiment a bit more." />
 <meta property="og:type" content="article" />
-<meta property="og:description" content=""/>
-<meta property="og:article:published_time" content="2012-07-24T23:31:12Z" />
-<meta property="og:article:modified_time" content="2012-07-24T23:31:12Z" />
-
-  
-    
-<meta property="og:article:tag" content="Applescript">
-    
-<meta property="og:article:tag" content="automation">
-    
-<meta property="og:article:tag" content="fun">
-    
-<meta property="og:article:tag" content="Mac">
-    
-<meta property="og:article:tag" content="OS X">
-    
-<meta property="og:article:tag" content="Scripting">
-    
-  
-
-  
-
-  
+<meta property="og:url" content="/osx/applescript-desktop-wallpaper-growl-automatically/" />
 
 
 
-<link rel="canonical" href="/osx/applescript-desktop-wallpaper-growl-automatically/" />
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/touch-icon-144-precomposed.png">
-<link rel="icon" href="/favicon.png">
+<meta property="article:published_time" content="2012-07-24T23:31:12&#43;00:00"/>
+
+<meta property="article:modified_time" content="2012-07-24T23:31:12&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Applescript, Desktop Wallpaper and Growl. Automagically."/>
+<meta name="twitter:description" content="I´ve been a Mac and OS X user now for about 7 months, but to be honest I have not been very experimental in my usage of my Macbook Air. Until now, my main focus has been basic usage of the hardware and operating systems, and making it work in my corporate environment. As I feel that I´ve reached mission accomplished status on that initial project, I decided to use some of my &ldquo;free&rdquo; vacation time to play around a bit and experiment a bit more."/>
 <meta name="generator" content="Hugo 0.40.3" />
 
-  <!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
-<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-<![endif]-->
+
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Applescript, Desktop Wallpaper and Growl. Automagically.",
+  "url": "/osx/applescript-desktop-wallpaper-growl-automatically/",
+  "wordCount": "749",
+  "datePublished": "2012-07-24T23:31:12&#43;00:00",
+  "dateModified": "2012-07-24T23:31:12&#43;00:00",
+  "author": {
+    "@type": "Person",
+    "name": "cmohn"
+  },
+  "keywords": "OS X, Applescript, automation, fun, Mac, Scripting"
+}
+</script>
 
 
 
-    <link rel="stylesheet" href="/css/bootswatch/paper/bootstrap.min.css">
+    <link rel="canonical" href="/osx/applescript-desktop-wallpaper-growl-automatically/">
 
+    <title>Applescript, Desktop Wallpaper and Growl. Automagically. | Adventures in Hugo</title>
 
-<link rel="stylesheet" href="/css/font-awesome.min.css">
-<link rel="stylesheet" href="/css/style.css">
+    <!-- combined, minified CSS -->
+    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
 
+    
 
+    
 
+    
 
-  <link rel="stylesheet" href="/css/highlight/default.css">
+    
 
+  </head>
 
-</head>
-<body data-ng-app="myapp" data-ng-controller="MyController" data-ng-mouseleave="MouseLeave($event)">
-    <header id="main-header">
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="/">Home</a>
           
-          <a class="navbar-brand-img" href="/">
-            <img alt="Appernetic blog" src="http://blog.appernetic.io/images/apperneticlogo.png">
-            
-          </a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav navbar-right">
-            
-            
-            <li class="">
-              
-                <a href="https://appernetic.io/app/#/about" >
-                  <i class='fa fa-road'></i>
-                  About
-                </a>
-              
-            </li>
-            
-            <li class="">
-              
-                <a href="/post/" >
-                  
-                  Blog
-                </a>
-              
-            </li>
-            
-            <li class="">
-              
-                <a href="https://appernetic.io/app/" >
-                  
-                  Dashboard
-                </a>
-              
-            </li>
-            
-            
-              
-          </ul>
-        </div>
-        
+          <a class="nav-link" href="https://example.org" title="">Link 1</a>
+          
+        </nav>
       </div>
-    </nav>
+    </div>
+    
+
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
+        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+      </div>
+    </header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/osx/applescript-desktop-wallpaper-growl-automatically/">Applescript, Desktop Wallpaper and Growl. Automagically.</a></h2>
+    <p class="blog-post-meta"><time datetime="2012-07-24T23:31:12Z">Tue Jul 24, 2012</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/os-x" rel="category tag">OS X</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/applescript" rel="tag">Applescript</a>, <a href="/tags/automation" rel="tag">automation</a>, <a href="/tags/fun" rel="tag">fun</a>, <a href="/tags/mac" rel="tag">Mac</a>, <a href="/tags/os-x" rel="tag">OS X</a>, <a href="/tags/scripting" rel="tag">Scripting</a>
+
+</p>
   </header>
-
-
-
-
-
-<div class="container">
-  <div class="row">
-    <div class="col-sm-9">
-
-
-      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >
-<header class="container hat">
-  <h1>Applescript, Desktop Wallpaper and Growl. Automagically.
-</h1>
-
-</header>
-</div>
-
-
-      <div class="content">
   
 
-<p>I´ve been a Mac and OS X user now for about 7 months, but to be honest I have not been very experimental in my usage of my Macbook Air. Until now, my main focus has been basic usage of the hardware and operating systems, and making it work in my corporate environment. As I feel that I´ve reached mission accomplished status on that initial project, I decided to use some of my &laquo;free&raquo; vacation time to play around a bit and experiment a bit more.</p>
+<p>I´ve been a Mac and OS X user now for about 7 months, but to be honest I have not been very experimental in my usage of my Macbook Air. Until now, my main focus has been basic usage of the hardware and operating systems, and making it work in my corporate environment. As I feel that I´ve reached mission accomplished status on that initial project, I decided to use some of my &ldquo;free&rdquo; vacation time to play around a bit and experiment a bit more.</p>
 
-<p>For some reason, I decided to start to play around a bit with Applescript and try to create something that changes my desktop wallpaper based on a &laquo;Home&raquo; and a &laquo;Work&raquo; scenario. Initially I made a quick script, my first ever Applescript, that presented a dialog box asking me if &laquo;Home&raquo; or &laquo;Work&raquo; was the current status, and then changed the desktop wallpaper accordingly. I then assigned that to a hotkey, so I could quickly change between the two modes.</p>
+<p>For some reason, I decided to start to play around a bit with Applescript and try to create something that changes my desktop wallpaper based on a &ldquo;Home&rdquo; and a &ldquo;Work&rdquo; scenario. Initially I made a quick script, my first ever Applescript, that presented a dialog box asking me if &ldquo;Home&rdquo; or &ldquo;Work&rdquo; was the current status, and then changed the desktop wallpaper accordingly. I then assigned that to a hotkey, so I could quickly change between the two modes.</p>
 
 <p>That solution left me with two things; <em>One, it worked!</em> and Two, it could be done better by adding some automation to it.</p>
 
 <p>Here is the solution I ended up with:</p>
 
-<p>[cc lang=&laquo;applescript&raquo; tab_size=&laquo;2&raquo;]</p>
+<p>[cc lang=&ldquo;applescript&rdquo; tab_size=&ldquo;2&rdquo;]</p>
 
 <h1 id="populate-ipaddr-variable-with-ip-address">Populate ipaddr variable with IP address</h1>
 
-<p>set ipaddr to do shell script &laquo;ifconfig | awk &lsquo;/broadcast/ {print $2}&rsquo; | tail -1&raquo;</p>
+<p>set ipaddr to do shell script &ldquo;ifconfig | awk &lsquo;/broadcast/ {print $2}&rsquo; | tail -1&rdquo;</p>
 
 <h1 id="check-if-connection-is-home-connection-based-on-ip-subnet">Check if connection is home connection, based on IP subnet</h1>
 
@@ -174,20 +134,20 @@
 
 <h1 id="dirty-hack-to-add-padding-to-zero-values-but-hey-it-works-for-me">Dirty hack to add padding to zero values, but hey, it works for me.</h1>
 
-<p>if (ipaddr is &laquo;&raquo;) then
-set ipaddr to &laquo;000.000.0.0&raquo;
+<p>if (ipaddr is &ldquo;&rdquo;) then
+set ipaddr to &ldquo;000.000.0.0&rdquo;
 end if</p>
 
 <p>set ipaddrtxt to (characters 1 thru 9 of ipaddr) as string
-if ipaddrtxt is &laquo;192.168.5&raquo; then # Change this to your own subnet
-set situation to &laquo;Home&raquo;
+if ipaddrtxt is &ldquo;192.168.5&rdquo; then # Change this to your own subnet
+set situation to &ldquo;Home&rdquo;
 else
-set situation to &laquo;Work&raquo;
+set situation to &ldquo;Work&rdquo;
 end if</p>
 
 <h1 id="get-current-desktop-image-path">Get current desktop image path</h1>
 
-<p>tell application &laquo;System Events&raquo;
+<p>tell application &ldquo;System Events&rdquo;
 tell current desktop
 set currentDesktop to (get picture as text)
 end tell
@@ -195,7 +155,7 @@ end tell</p>
 
 <h1 id="build-the-desktop-image-path">Build the desktop image path</h1>
 
-<p>set desktopPath to &laquo;Macintosh HD:Users::Dropbox:switcher:&raquo; &amp; situation &amp; &laquo;.png&raquo; # Change this to your own paths</p>
+<p>set desktopPath to &ldquo;Macintosh HD:Users::Dropbox:switcher:&rdquo; &amp; situation &amp; &ldquo;.png&rdquo; # Change this to your own paths</p>
 
 <h1 id="only-tell-finder-to-change-the-desktop-and-notify-growl-if-a-change-is-required-eg-desktop-path-not-equal-to-current-path">Only tell Finder to change the desktop and notify Growl if a change is required (eg. desktop path not equal to current path)</h1>
 
@@ -203,16 +163,16 @@ end tell</p>
 
 <h1 id="tell-finder-to-change-the-desktop">Tell Finder to change the desktop</h1>
 
-<p>tell application &laquo;Finder&raquo;
+<p>tell application &ldquo;Finder&rdquo;
 set desktop picture to {desktopPath} as alias
 end tell</p>
 
-<p>tell application &laquo;GrowlHelperApp&raquo;
-set the allNotificationsList to {&laquo;Wallpaper Change&raquo;}
-set the enabledNotificationsList to {&laquo;Wallpaper Change&raquo;}
-register as application &laquo;Wallpaper Change&raquo; all notifications allNotificationsList default notifications enabledNotificationsList icon of application &laquo;Script Editor&raquo;
+<p>tell application &ldquo;GrowlHelperApp&rdquo;
+set the allNotificationsList to {&ldquo;Wallpaper Change&rdquo;}
+set the enabledNotificationsList to {&ldquo;Wallpaper Change&rdquo;}
+register as application &ldquo;Wallpaper Change&rdquo; all notifications allNotificationsList default notifications enabledNotificationsList icon of application &ldquo;Script Editor&rdquo;
 &ndash; Send a Notification&hellip;
-notify with name &laquo;Wallpaper Change&raquo; title &laquo;Wallpaper Change&raquo; description &laquo;Wallpaper changed to &raquo; &amp; (situation) application name &laquo;Wallpaper Change&raquo;
+notify with name &ldquo;Wallpaper Change&rdquo; title &ldquo;Wallpaper Change&rdquo; description &ldquo;Wallpaper changed to &rdquo; &amp; (situation) application name &ldquo;Wallpaper Change&rdquo;
 end tell
 end if
 [/cc]</p>
@@ -221,7 +181,7 @@ end if
 
 <p>After the script was finished, I added it to my <a href="http://projects.tynsoe.org/en/geektool/">Geektools</a> bash script, that refreshes at a fairly frequent interval:</p>
 
-<p>[cc lang=&laquo;bash&raquo; tab_size=&laquo;2&raquo;]</p>
+<p>[cc lang=&ldquo;bash&rdquo; tab_size=&ldquo;2&rdquo;]</p>
 
 <h1 id="run-background-switcher-applescript">Run Background Switcher Applescript</h1>
 
@@ -232,173 +192,79 @@ end if
 
 <h3 id="demo-time">Demo time!</h3>
 
-<p>The Applescript detects if the computers IP address is on a given subnet, and if so it sets the wallpaper specified for that subnet, dubbed &laquo;Home&raquo;. If it determines that it is not on that particular subnet, it´s officially at &laquo;Work&raquo; and sets the wallpaper accordingly. That´s all the logic there is too it, and I´m sure that can be improved either by me or more likely someone who has been hit by the Applescript clue bat.</p>
+<p>The Applescript detects if the computers IP address is on a given subnet, and if so it sets the wallpaper specified for that subnet, dubbed &ldquo;Home&rdquo;. If it determines that it is not on that particular subnet, it´s officially at &ldquo;Work&rdquo; and sets the wallpaper accordingly. That´s all the logic there is too it, and I´m sure that can be improved either by me or more likely someone who has been hit by the Applescript clue bat.</p>
 
 <p>My desktop Wallpaper images are stored in a given folder in my Dropbox, with one of them called <em>Home</em> and the other called <em>Work</em>. This limits the script to those two given file names, and switches between the two accordingly. It also assumes the the files are on the <em>PNG</em> format. An added bonus by storing the files in Dropbox is that I can remotely change out the image, and keep the wallpapers synchronized between several computes if I wish to do so.</p>
 
 <p>Note that I am under no circumstances a developer and that this is my first Applescript. I am sure there are much better ways to accomplish the same things, with better error handling and overall better code quality, but the fact is that this works for me and I´m happy with it.</p>
 
-</div>
 
-
-      
-    </div>
-    
-      <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-        <div>
   
 
-    <div class="section">
-      <header><div class="title"><b>Latest Posts</b></div></header>
-      <div class="content">
-        <ul>
-        
-        </ul>
-      </div>
-    </div>
+  
+  <hr>
+  <footer>
 
-    
+  
+    <section>
+    <h4>Share</h4>
+    <nav class="nav sharing-icons">
+      <a class="nav-item" href="https://www.facebook.com/sharer/sharer.php?u=%2fosx%2fapplescript-desktop-wallpaper-growl-automatically%2f" title="Share on Facebook"><span class="fa fa-facebook fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://plus.google.com/share?url=%2fosx%2fapplescript-desktop-wallpaper-growl-automatically%2f" title="Share on Google+"><span class="fa fa-google-plus fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fosx%2fapplescript-desktop-wallpaper-growl-automatically%2f" title="Share on LinkedIn"><span class="fa fa-linkedin fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://twitter.com/home?status=%2fosx%2fapplescript-desktop-wallpaper-growl-automatically%2f" title="Tweet this"><span class="fa fa-twitter fa-2x"></span></a>
+    </nav>
+  </section>
+
+  
+
+  
+  </footer>
+  
+
+</article> 
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
       
+      <li><a href="https://example.com">Link 1</a></li>
       
-      <div class="section taxonomies">
-        <header><div class="title"><b>tag</b></div></header>
-
-        <div class="content">
-          <ul>
-            <li><a href="/tags/vmware">vmware</a></li><li><a href="/tags/vsphere">vsphere</a></li><li><a href="/tags/vcenter">vcenter</a></li><li><a href="/tags/fun">fun</a></li><li><a href="/tags/ops">ops</a></li><li><a href="/tags/virtualization">virtualization</a></li><li><a href="/tags/esxi">esxi</a></li><li><a href="/tags/vmworld">vmworld</a></li><li><a href="/tags/news">news</a></li><li><a href="/tags/veeam">veeam</a></li>
-          </ul>
-        </div>
-      </div>
+      <li><a href="https://example.org">Link 2</a></li>
       
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
     
+
+    
+    <footer class="blog-footer">
+      <p>
       
+      &copy; Christian Mohn
       
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
     
-
-</div>
-
-      </div>
-    
-  </div>
-</div>
-    
-<footer class="footer hidden-print">
-  <div class="container">
-    <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-           <div class="pull-left">
-  <a class="toplink" href="javascript:" id="return-to-top">back to top</a>
-</div>
-<div class="pull-right">
-
-<a href="/disclaimer/">Disclaimer</a> <i>&middot;</i>
-
-<a href="/terms/">Terms</a> 
-
-</div>
-
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-              
-    
-<div class="container footline">
-    <small>
-  code with <i class='fa fa-heart'></i>
-
-</small>
-</div>
-
-
-    
-<div class="container copyright">
-    <small>
-  &copy; 2016 Copyright my blog
-
-  </small>
-</div>
-
-
-
-        </div>
-    </div>
-  </div>
-</footer>
-
-    
-
-<script src="/js/jquery.min.js"></script>
-<script src="/js/bootstrap.min.js"></script>
-
-
-<script src="/js/highlight.pack.js"></script>
-<script src="/js/site.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
-
-
-<script>
-  var _gaq=[['_setAccount','Your Google Analytics tracking code'],['_trackPageview']];
-  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-  g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-  s.parentNode.insertBefore(g,s)}(document,'script'));
-</script>
-
-<script>
-var ENABLE_POPOVER =  false , 
-EXPIRE_COOKIE =  5 , 
-SHOW_MODAL_TIMEOUT =  10000 , 
-MOUSE_LEAVE =  true , 
-MODAL_SIZE = "", 
-POST_URL = "https://zapier.com/hooks/...", 
-SIGNUP_HEADER = "Join Our Newsletter",
-HEADER_IMAGE = "//placehold.it/1000x600",
-IMG_DESCRIPTION = "Placeholder image for this popover modal optin form",
-SIGNUP_TEXT = "Signup today for free and be the first to get notified on new updates.",
-INPUT_PLACEHOLDER = "Enter your email",
-SUBMIT_BUTTON = "Subscribe",
-SUCCESS_MESSAGE = "Thanks for your subscription!",
-ERROR_MESSAGE = "Submitting form failed!",
-OPTIN =  true ,
-COOKIE_NAME = "mycookie1",
-CONTENTLANGUAGE = ""; 
-</script>
-
-
-
-
-
-<script type="text/javascript"
-        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax//MathJax.js"></script>
-<script type="text/javascript"
-        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax//config/TeX-AMS-MML_HTMLorMML.js"></script>
-
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  tex2jax: {
-    inlineMath: [['$','$'], ['\\(','\\)']],
-    displayMath: [['$$','$$'], ['\[','\]']],
-    processEscapes: true,
-    processEnvironments: true,
-    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-    TeX: { equationNumbers: { autoNumber: "AMS" },
-         extensions: ["AMSmath.js", "AMSsymbols.js"] }
-  }
-});
-</script>
-
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Queue(function() {
-    for(var all in MathJax.Hub.getAllJax()) {
-        all.SourceElement().parentNode.className += ' has-jax';
-
-    }
-});
-</script>
-
-
-
-
-
 
   </body>
-</html>
 
+</html>

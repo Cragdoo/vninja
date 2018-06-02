@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on My blog</title>
+    <title>Tags on Adventures in Hugo</title>
     <link>/tags/</link>
-    <description>Recent content in Tags on My blog</description>
+    <description>Recent content in Tags on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <managingEditor>yourname@example.com (yourname)</managingEditor>
-    <webMaster>yourname@example.com (yourname)</webMaster>
-    <copyright>(c) 2016 Copyright my blog</copyright>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Fri, 30 Dec 2011 18:40:41 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +16,7 @@
       <title>2011</title>
       <link>/tags/2011/</link>
       <pubDate>Fri, 30 Dec 2011 18:40:41 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/2011/</guid>
       <description></description>
     </item>
@@ -27,7 +25,7 @@
       <title>2014</title>
       <link>/tags/2014/</link>
       <pubDate>Mon, 28 Oct 2013 17:21:46 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/2014/</guid>
       <description></description>
     </item>
@@ -36,7 +34,7 @@
       <title>2015</title>
       <link>/tags/2015/</link>
       <pubDate>Sat, 30 Jan 2016 22:36:22 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/2015/</guid>
       <description></description>
     </item>
@@ -45,7 +43,7 @@
       <title>2016</title>
       <link>/tags/2016/</link>
       <pubDate>Sun, 25 Dec 2016 12:03:33 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/2016/</guid>
       <description></description>
     </item>
@@ -54,7 +52,7 @@
       <title>2017</title>
       <link>/tags/2017/</link>
       <pubDate>Mon, 18 Dec 2017 14:00:55 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/2017/</guid>
       <description></description>
     </item>
@@ -63,7 +61,7 @@
       <title>3par</title>
       <link>/tags/3par/</link>
       <pubDate>Thu, 21 Aug 2014 22:21:59 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/3par/</guid>
       <description></description>
     </item>
@@ -72,7 +70,7 @@
       <title>5.5</title>
       <link>/tags/5.5/</link>
       <pubDate>Tue, 15 Jul 2014 10:59:42 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/5.5/</guid>
       <description></description>
     </item>
@@ -81,7 +79,7 @@
       <title>6.0</title>
       <link>/tags/6.0/</link>
       <pubDate>Tue, 10 Nov 2015 19:30:20 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/6.0/</guid>
       <description></description>
     </item>
@@ -90,7 +88,7 @@
       <title>6.5</title>
       <link>/tags/6.5/</link>
       <pubDate>Sat, 25 Feb 2017 08:50:26 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/6.5/</guid>
       <description></description>
     </item>
@@ -99,7 +97,7 @@
       <title>Acronis</title>
       <link>/tags/acronis/</link>
       <pubDate>Tue, 08 Oct 2013 13:12:13 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/acronis/</guid>
       <description></description>
     </item>
@@ -108,7 +106,7 @@
       <title>Adobe</title>
       <link>/tags/adobe/</link>
       <pubDate>Mon, 13 Jul 2015 22:17:12 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/adobe/</guid>
       <description></description>
     </item>
@@ -117,7 +115,7 @@
       <title>Adviceforvmworld</title>
       <link>/tags/adviceforvmworld/</link>
       <pubDate>Fri, 22 Aug 2014 18:08:56 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/adviceforvmworld/</guid>
       <description></description>
     </item>
@@ -126,7 +124,7 @@
       <title>Agile</title>
       <link>/tags/agile/</link>
       <pubDate>Mon, 02 Feb 2015 22:36:30 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/agile/</guid>
       <description></description>
     </item>
@@ -135,7 +133,7 @@
       <title>Alastair Cooke</title>
       <link>/tags/alastair-cooke/</link>
       <pubDate>Thu, 14 Mar 2013 00:02:35 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/alastair-cooke/</guid>
       <description></description>
     </item>
@@ -144,7 +142,7 @@
       <title>Alerting</title>
       <link>/tags/alerting/</link>
       <pubDate>Mon, 29 Jan 2018 22:49:53 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/alerting/</guid>
       <description></description>
     </item>
@@ -153,7 +151,7 @@
       <title>Analysis</title>
       <link>/tags/analysis/</link>
       <pubDate>Sun, 14 Jan 2018 16:00:00 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/analysis/</guid>
       <description></description>
     </item>
@@ -162,7 +160,7 @@
       <title>Announcement</title>
       <link>/tags/announcement/</link>
       <pubDate>Mon, 25 Aug 2014 13:30:58 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/announcement/</guid>
       <description></description>
     </item>
@@ -171,7 +169,7 @@
       <title>Annual</title>
       <link>/tags/annual/</link>
       <pubDate>Sat, 22 Feb 2014 18:00:25 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/annual/</guid>
       <description></description>
     </item>
@@ -180,7 +178,7 @@
       <title>Api</title>
       <link>/tags/api/</link>
       <pubDate>Tue, 09 Aug 2016 22:21:07 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/api/</guid>
       <description></description>
     </item>
@@ -189,7 +187,7 @@
       <title>App Delivery</title>
       <link>/tags/app-delivery/</link>
       <pubDate>Wed, 16 Nov 2011 23:05:06 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/app-delivery/</guid>
       <description></description>
     </item>
@@ -198,7 +196,7 @@
       <title>Apple</title>
       <link>/tags/apple/</link>
       <pubDate>Tue, 22 Oct 2013 18:42:42 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/apple/</guid>
       <description></description>
     </item>
@@ -207,7 +205,7 @@
       <title>Applescript</title>
       <link>/tags/applescript/</link>
       <pubDate>Tue, 24 Jul 2012 23:31:12 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/applescript/</guid>
       <description></description>
     </item>
@@ -216,7 +214,7 @@
       <title>Appliance</title>
       <link>/tags/appliance/</link>
       <pubDate>Tue, 07 Oct 2014 23:26:03 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/appliance/</guid>
       <description></description>
     </item>
@@ -225,7 +223,7 @@
       <title>Architecture</title>
       <link>/tags/architecture/</link>
       <pubDate>Mon, 22 Sep 2014 21:48:40 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/architecture/</guid>
       <description></description>
     </item>
@@ -234,7 +232,7 @@
       <title>Audio</title>
       <link>/tags/audio/</link>
       <pubDate>Fri, 18 Jul 2014 21:59:52 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/audio/</guid>
       <description></description>
     </item>
@@ -243,7 +241,7 @@
       <title>Autolab</title>
       <link>/tags/autolab/</link>
       <pubDate>Thu, 14 Mar 2013 00:02:35 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/autolab/</guid>
       <description></description>
     </item>
@@ -252,7 +250,7 @@
       <title>Automation</title>
       <link>/tags/automation/</link>
       <pubDate>Sun, 22 May 2016 19:19:52 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/automation/</guid>
       <description></description>
     </item>
@@ -261,7 +259,7 @@
       <title>Automator</title>
       <link>/tags/automator/</link>
       <pubDate>Mon, 12 Jan 2015 23:31:45 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/automator/</guid>
       <description></description>
     </item>
@@ -270,7 +268,7 @@
       <title>Availability</title>
       <link>/tags/availability/</link>
       <pubDate>Tue, 10 Jun 2014 12:48:10 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/availability/</guid>
       <description></description>
     </item>
@@ -279,7 +277,7 @@
       <title>Award</title>
       <link>/tags/award/</link>
       <pubDate>Mon, 27 Jul 2015 13:38:49 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/award/</guid>
       <description></description>
     </item>
@@ -288,7 +286,7 @@
       <title>Awesome</title>
       <link>/tags/awesome/</link>
       <pubDate>Wed, 11 Oct 2017 21:45:11 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/awesome/</guid>
       <description></description>
     </item>
@@ -297,7 +295,7 @@
       <title>Awesometalk</title>
       <link>/tags/awesometalk/</link>
       <pubDate>Wed, 09 May 2018 13:12:07 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/awesometalk/</guid>
       <description></description>
     </item>
@@ -306,7 +304,7 @@
       <title>Aws</title>
       <link>/tags/aws/</link>
       <pubDate>Fri, 14 Oct 2016 18:57:20 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/aws/</guid>
       <description></description>
     </item>
@@ -315,7 +313,7 @@
       <title>Awsome</title>
       <link>/tags/awsome/</link>
       <pubDate>Wed, 13 Dec 2017 15:07:40 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/awsome/</guid>
       <description></description>
     </item>
@@ -324,7 +322,7 @@
       <title>Backup</title>
       <link>/tags/backup/</link>
       <pubDate>Tue, 22 Nov 2016 13:05:33 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/backup/</guid>
       <description></description>
     </item>
@@ -333,7 +331,7 @@
       <title>Backup Academy</title>
       <link>/tags/backup-academy/</link>
       <pubDate>Tue, 13 Sep 2011 13:39:25 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/backup-academy/</guid>
       <description></description>
     </item>
@@ -342,7 +340,7 @@
       <title>Backup Amp Replication</title>
       <link>/tags/backup-amp-replication/</link>
       <pubDate>Mon, 08 Aug 2016 09:35:47 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/backup-amp-replication/</guid>
       <description></description>
     </item>
@@ -351,7 +349,7 @@
       <title>Backup Amp Replication V7</title>
       <link>/tags/backup-amp-replication-v7/</link>
       <pubDate>Thu, 05 Sep 2013 15:38:56 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/backup-amp-replication-v7/</guid>
       <description></description>
     </item>
@@ -360,7 +358,7 @@
       <title>Bag</title>
       <link>/tags/bag/</link>
       <pubDate>Sat, 05 Nov 2016 23:16:06 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/bag/</guid>
       <description></description>
     </item>
@@ -369,7 +367,7 @@
       <title>Barcelona</title>
       <link>/tags/barcelona/</link>
       <pubDate>Thu, 06 Oct 2016 07:50:35 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/barcelona/</guid>
       <description></description>
     </item>
@@ -378,7 +376,7 @@
       <title>Bash</title>
       <link>/tags/bash/</link>
       <pubDate>Sat, 13 Aug 2016 09:45:13 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/bash/</guid>
       <description></description>
     </item>
@@ -387,7 +385,7 @@
       <title>Best Practice</title>
       <link>/tags/best-practice/</link>
       <pubDate>Tue, 04 Dec 2012 22:49:27 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/best-practice/</guid>
       <description></description>
     </item>
@@ -396,7 +394,7 @@
       <title>Beta</title>
       <link>/tags/beta/</link>
       <pubDate>Tue, 10 Feb 2015 00:06:54 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/beta/</guid>
       <description></description>
     </item>
@@ -405,7 +403,7 @@
       <title>Bitlocker</title>
       <link>/tags/bitlocker/</link>
       <pubDate>Sat, 07 Jan 2012 22:44:33 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/bitlocker/</guid>
       <description></description>
     </item>
@@ -414,7 +412,7 @@
       <title>Bl460c</title>
       <link>/tags/bl460c/</link>
       <pubDate>Mon, 29 Oct 2012 21:48:08 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/bl460c/</guid>
       <description></description>
     </item>
@@ -423,7 +421,7 @@
       <title>Bladesystem</title>
       <link>/tags/bladesystem/</link>
       <pubDate>Thu, 30 May 2013 21:08:45 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/bladesystem/</guid>
       <description></description>
     </item>
@@ -432,7 +430,7 @@
       <title>Block Size</title>
       <link>/tags/block-size/</link>
       <pubDate>Fri, 05 Aug 2011 12:21:31 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/block-size/</guid>
       <description></description>
     </item>
@@ -441,7 +439,7 @@
       <title>Blog</title>
       <link>/tags/blog/</link>
       <pubDate>Mon, 28 Oct 2013 17:21:46 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/blog/</guid>
       <description></description>
     </item>
@@ -450,7 +448,7 @@
       <title>Bloggers</title>
       <link>/tags/bloggers/</link>
       <pubDate>Wed, 20 Feb 2013 08:14:29 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/bloggers/</guid>
       <description></description>
     </item>
@@ -459,7 +457,7 @@
       <title>Blogging</title>
       <link>/tags/blogging/</link>
       <pubDate>Mon, 02 Mar 2015 22:23:03 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/blogging/</guid>
       <description></description>
     </item>
@@ -468,7 +466,7 @@
       <title>Blogtober</title>
       <link>/tags/blogtober/</link>
       <pubDate>Thu, 26 Oct 2017 13:32:01 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/blogtober/</guid>
       <description></description>
     </item>
@@ -477,7 +475,7 @@
       <title>Book</title>
       <link>/tags/book/</link>
       <pubDate>Tue, 12 Aug 2014 15:03:06 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/book/</guid>
       <description></description>
     </item>
@@ -486,7 +484,7 @@
       <title>Boot Camp</title>
       <link>/tags/boot-camp/</link>
       <pubDate>Wed, 27 Nov 2013 17:09:30 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/boot-camp/</guid>
       <description></description>
     </item>
@@ -495,7 +493,7 @@
       <title>Bug</title>
       <link>/tags/bug/</link>
       <pubDate>Thu, 30 May 2013 21:08:45 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/bug/</guid>
       <description></description>
     </item>
@@ -504,7 +502,7 @@
       <title>C3000</title>
       <link>/tags/c3000/</link>
       <pubDate>Mon, 29 Oct 2012 21:48:08 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/c3000/</guid>
       <description></description>
     </item>
@@ -513,7 +511,7 @@
       <title>C7000</title>
       <link>/tags/c7000/</link>
       <pubDate>Mon, 29 Oct 2012 21:48:08 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/c7000/</guid>
       <description></description>
     </item>
@@ -522,7 +520,7 @@
       <title>Cancer</title>
       <link>/tags/cancer/</link>
       <pubDate>Sat, 14 Sep 2013 20:14:03 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/cancer/</guid>
       <description></description>
     </item>
@@ -531,7 +529,7 @@
       <title>Care Package</title>
       <link>/tags/care-package/</link>
       <pubDate>Tue, 11 Sep 2012 17:33:35 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/care-package/</guid>
       <description></description>
     </item>
@@ -540,7 +538,7 @@
       <title>Cc</title>
       <link>/tags/cc/</link>
       <pubDate>Sat, 24 Jan 2015 10:20:06 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/cc/</guid>
       <description></description>
     </item>
@@ -549,7 +547,7 @@
       <title>Certificate</title>
       <link>/tags/certificate/</link>
       <pubDate>Fri, 12 Dec 2014 12:24:55 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/certificate/</guid>
       <description></description>
     </item>
@@ -558,7 +556,7 @@
       <title>Certificates</title>
       <link>/tags/certificates/</link>
       <pubDate>Thu, 05 Dec 2013 22:47:32 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/certificates/</guid>
       <description></description>
     </item>
@@ -567,7 +565,7 @@
       <title>Certification</title>
       <link>/tags/certification/</link>
       <pubDate>Wed, 11 Feb 2015 23:28:23 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/certification/</guid>
       <description></description>
     </item>
@@ -576,7 +574,7 @@
       <title>Change</title>
       <link>/tags/change/</link>
       <pubDate>Thu, 31 Mar 2016 22:16:31 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/change/</guid>
       <description></description>
     </item>
@@ -585,7 +583,7 @@
       <title>Changelog</title>
       <link>/tags/changelog/</link>
       <pubDate>Wed, 18 Feb 2015 10:31:53 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/changelog/</guid>
       <description></description>
     </item>
@@ -594,7 +592,7 @@
       <title>Changes</title>
       <link>/tags/changes/</link>
       <pubDate>Tue, 08 Sep 2015 21:51:44 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/changes/</guid>
       <description></description>
     </item>
@@ -603,7 +601,7 @@
       <title>Charity</title>
       <link>/tags/charity/</link>
       <pubDate>Sun, 01 Dec 2013 10:35:24 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/charity/</guid>
       <description></description>
     </item>
@@ -612,7 +610,7 @@
       <title>Christian Mohn</title>
       <link>/tags/christian-mohn/</link>
       <pubDate>Fri, 30 Dec 2011 18:40:41 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/christian-mohn/</guid>
       <description></description>
     </item>
@@ -621,7 +619,7 @@
       <title>Chromecast</title>
       <link>/tags/chromecast/</link>
       <pubDate>Thu, 08 May 2014 11:21:00 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/chromecast/</guid>
       <description></description>
     </item>
@@ -630,7 +628,7 @@
       <title>Cisco</title>
       <link>/tags/cisco/</link>
       <pubDate>Fri, 22 Feb 2013 08:55:41 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/cisco/</guid>
       <description></description>
     </item>
@@ -639,7 +637,7 @@
       <title>Citrix</title>
       <link>/tags/citrix/</link>
       <pubDate>Thu, 05 Dec 2013 22:47:32 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/citrix/</guid>
       <description></description>
     </item>
@@ -648,7 +646,7 @@
       <title>Cloud</title>
       <link>/tags/cloud/</link>
       <pubDate>Fri, 14 Oct 2016 18:57:20 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/cloud/</guid>
       <description></description>
     </item>
@@ -657,7 +655,7 @@
       <title>Cloudflare</title>
       <link>/tags/cloudflare/</link>
       <pubDate>Sat, 13 Aug 2016 09:45:13 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/cloudflare/</guid>
       <description></description>
     </item>
@@ -666,7 +664,7 @@
       <title>Cohesity</title>
       <link>/tags/cohesity/</link>
       <pubDate>Tue, 22 Nov 2016 13:05:33 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/cohesity/</guid>
       <description></description>
     </item>
@@ -675,7 +673,7 @@
       <title>Collaboration</title>
       <link>/tags/collaboration/</link>
       <pubDate>Wed, 27 Jun 2012 00:07:18 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/collaboration/</guid>
       <description></description>
     </item>
@@ -684,7 +682,7 @@
       <title>Command Line</title>
       <link>/tags/command-line/</link>
       <pubDate>Mon, 23 Sep 2013 23:28:04 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/command-line/</guid>
       <description></description>
     </item>
@@ -693,7 +691,7 @@
       <title>Community</title>
       <link>/tags/community/</link>
       <pubDate>Fri, 03 Apr 2015 22:22:13 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/community/</guid>
       <description></description>
     </item>
@@ -702,7 +700,7 @@
       <title>Competition</title>
       <link>/tags/competition/</link>
       <pubDate>Sat, 27 Oct 2012 16:42:11 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/competition/</guid>
       <description></description>
     </item>
@@ -711,7 +709,7 @@
       <title>Conference</title>
       <link>/tags/conference/</link>
       <pubDate>Wed, 13 Dec 2017 15:07:40 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/conference/</guid>
       <description></description>
     </item>
@@ -720,7 +718,7 @@
       <title>Content Creation</title>
       <link>/tags/content-creation/</link>
       <pubDate>Mon, 12 Jan 2015 23:31:45 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/content-creation/</guid>
       <description></description>
     </item>
@@ -729,7 +727,7 @@
       <title>Contest</title>
       <link>/tags/contest/</link>
       <pubDate>Sat, 09 Jul 2016 20:59:02 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/contest/</guid>
       <description></description>
     </item>
@@ -738,7 +736,7 @@
       <title>Contest. Photo</title>
       <link>/tags/contest.-photo/</link>
       <pubDate>Wed, 02 Apr 2014 18:51:05 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/contest.-photo/</guid>
       <description></description>
     </item>
@@ -747,7 +745,7 @@
       <title>Copenhagen</title>
       <link>/tags/copenhagen/</link>
       <pubDate>Wed, 22 Oct 2014 21:18:23 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/copenhagen/</guid>
       <description></description>
     </item>
@@ -756,7 +754,7 @@
       <title>Daas</title>
       <link>/tags/daas/</link>
       <pubDate>Fri, 09 Dec 2011 21:59:21 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/daas/</guid>
       <description></description>
     </item>
@@ -765,7 +763,7 @@
       <title>Data Center</title>
       <link>/tags/data-center/</link>
       <pubDate>Mon, 17 Mar 2014 22:41:34 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/data-center/</guid>
       <description></description>
     </item>
@@ -774,7 +772,7 @@
       <title>Datastore</title>
       <link>/tags/datastore/</link>
       <pubDate>Tue, 18 Feb 2014 16:16:28 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/datastore/</guid>
       <description></description>
     </item>
@@ -783,7 +781,7 @@
       <title>Day 2</title>
       <link>/tags/day-2/</link>
       <pubDate>Tue, 11 Apr 2017 16:08:30 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/day-2/</guid>
       <description></description>
     </item>
@@ -792,7 +790,7 @@
       <title>Dell</title>
       <link>/tags/dell/</link>
       <pubDate>Mon, 10 Oct 2016 13:18:30 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/dell/</guid>
       <description></description>
     </item>
@@ -801,7 +799,7 @@
       <title>Denmark</title>
       <link>/tags/denmark/</link>
       <pubDate>Wed, 13 Dec 2017 15:07:40 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/denmark/</guid>
       <description></description>
     </item>
@@ -810,7 +808,7 @@
       <title>Deployment</title>
       <link>/tags/deployment/</link>
       <pubDate>Tue, 14 May 2013 11:23:13 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/deployment/</guid>
       <description></description>
     </item>
@@ -819,7 +817,7 @@
       <title>Desktop</title>
       <link>/tags/desktop/</link>
       <pubDate>Wed, 29 Jan 2014 15:58:10 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/desktop/</guid>
       <description></description>
     </item>
@@ -828,7 +826,7 @@
       <title>Digital Ship</title>
       <link>/tags/digital-ship/</link>
       <pubDate>Fri, 01 Apr 2011 09:20:20 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/digital-ship/</guid>
       <description></description>
     </item>
@@ -837,7 +835,7 @@
       <title>Disaster</title>
       <link>/tags/disaster/</link>
       <pubDate>Mon, 20 Aug 2012 22:28:03 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/disaster/</guid>
       <description></description>
     </item>
@@ -846,7 +844,7 @@
       <title>Disaster Recovery</title>
       <link>/tags/disaster-recovery/</link>
       <pubDate>Mon, 27 Jun 2011 22:38:26 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/disaster-recovery/</guid>
       <description></description>
     </item>
@@ -855,7 +853,7 @@
       <title>Dmarc</title>
       <link>/tags/dmarc/</link>
       <pubDate>Sat, 15 Apr 2017 22:00:08 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/dmarc/</guid>
       <description></description>
     </item>
@@ -864,7 +862,7 @@
       <title>Dns</title>
       <link>/tags/dns/</link>
       <pubDate>Tue, 09 Aug 2016 22:21:07 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/dns/</guid>
       <description></description>
     </item>
@@ -873,7 +871,7 @@
       <title>Docker</title>
       <link>/tags/docker/</link>
       <pubDate>Thu, 14 Jan 2016 12:32:59 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/docker/</guid>
       <description></description>
     </item>
@@ -882,7 +880,7 @@
       <title>Dockerflix</title>
       <link>/tags/dockerflix/</link>
       <pubDate>Thu, 14 Jan 2016 12:32:59 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/dockerflix/</guid>
       <description></description>
     </item>
@@ -891,7 +889,7 @@
       <title>Documentation</title>
       <link>/tags/documentation/</link>
       <pubDate>Mon, 27 Dec 2010 22:12:27 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/documentation/</guid>
       <description></description>
     </item>
@@ -900,7 +898,7 @@
       <title>Donation</title>
       <link>/tags/donation/</link>
       <pubDate>Fri, 06 May 2016 09:26:13 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/donation/</guid>
       <description></description>
     </item>
@@ -909,7 +907,7 @@
       <title>Doom</title>
       <link>/tags/doom/</link>
       <pubDate>Fri, 09 Dec 2011 21:59:21 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/doom/</guid>
       <description></description>
     </item>
@@ -918,7 +916,7 @@
       <title>Download</title>
       <link>/tags/download/</link>
       <pubDate>Wed, 17 Sep 2014 21:24:24 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/download/</guid>
       <description></description>
     </item>
@@ -927,7 +925,7 @@
       <title>Dr</title>
       <link>/tags/dr/</link>
       <pubDate>Mon, 27 Jun 2011 22:38:26 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/dr/</guid>
       <description></description>
     </item>
@@ -936,7 +934,7 @@
       <title>Dropbox</title>
       <link>/tags/dropbox/</link>
       <pubDate>Sun, 13 Mar 2011 21:29:42 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/dropbox/</guid>
       <description></description>
     </item>
@@ -945,7 +943,7 @@
       <title>Dynamic Dns</title>
       <link>/tags/dynamic-dns/</link>
       <pubDate>Sat, 13 Aug 2016 09:45:13 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/dynamic-dns/</guid>
       <description></description>
     </item>
@@ -954,7 +952,7 @@
       <title>Easyvnx</title>
       <link>/tags/easyvnx/</link>
       <pubDate>Mon, 02 Jul 2012 19:50:03 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/easyvnx/</guid>
       <description></description>
     </item>
@@ -963,7 +961,7 @@
       <title>Ed</title>
       <link>/tags/ed/</link>
       <pubDate>Wed, 13 Apr 2011 21:02:28 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/ed/</guid>
       <description></description>
     </item>
@@ -972,7 +970,7 @@
       <title>Edb Ergogroup</title>
       <link>/tags/edb-ergogroup/</link>
       <pubDate>Fri, 04 Nov 2011 09:26:16 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/edb-ergogroup/</guid>
       <description></description>
     </item>
@@ -981,7 +979,7 @@
       <title>Email</title>
       <link>/tags/email/</link>
       <pubDate>Sat, 15 Apr 2017 22:00:08 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/email/</guid>
       <description></description>
     </item>
@@ -990,7 +988,7 @@
       <title>Embedded Host Client</title>
       <link>/tags/embedded-host-client/</link>
       <pubDate>Wed, 26 Aug 2015 16:45:10 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/embedded-host-client/</guid>
       <description></description>
     </item>
@@ -999,7 +997,7 @@
       <title>Emc</title>
       <link>/tags/emc/</link>
       <pubDate>Tue, 08 Oct 2013 13:12:13 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/emc/</guid>
       <description></description>
     </item>
@@ -1008,7 +1006,7 @@
       <title>Encryption</title>
       <link>/tags/encryption/</link>
       <pubDate>Sat, 07 Jan 2012 22:44:33 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/encryption/</guid>
       <description></description>
     </item>
@@ -1017,7 +1015,7 @@
       <title>Epiphany</title>
       <link>/tags/epiphany/</link>
       <pubDate>Wed, 11 Feb 2015 23:28:23 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/epiphany/</guid>
       <description></description>
     </item>
@@ -1026,7 +1024,7 @@
       <title>Equallogic</title>
       <link>/tags/equallogic/</link>
       <pubDate>Mon, 22 Apr 2013 21:31:46 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/equallogic/</guid>
       <description></description>
     </item>
@@ -1035,7 +1033,7 @@
       <title>Esx</title>
       <link>/tags/esx/</link>
       <pubDate>Mon, 02 Jul 2012 19:50:03 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/esx/</guid>
       <description></description>
     </item>
@@ -1044,7 +1042,7 @@
       <title>Esx 3.5</title>
       <link>/tags/esx-3.5/</link>
       <pubDate>Mon, 02 Jul 2012 19:50:03 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/esx-3.5/</guid>
       <description></description>
     </item>
@@ -1053,7 +1051,7 @@
       <title>Esxcli</title>
       <link>/tags/esxcli/</link>
       <pubDate>Mon, 23 Sep 2013 23:28:04 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/esxcli/</guid>
       <description></description>
     </item>
@@ -1062,7 +1060,7 @@
       <title>Esxi</title>
       <link>/tags/esxi/</link>
       <pubDate>Sat, 25 Feb 2017 08:50:26 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/esxi/</guid>
       <description></description>
     </item>
@@ -1071,7 +1069,7 @@
       <title>Esxi 4</title>
       <link>/tags/esxi-4/</link>
       <pubDate>Mon, 17 Sep 2012 21:24:18 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/esxi-4/</guid>
       <description></description>
     </item>
@@ -1080,7 +1078,7 @@
       <title>Esxi 5</title>
       <link>/tags/esxi-5/</link>
       <pubDate>Mon, 17 Sep 2012 21:24:18 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/esxi-5/</guid>
       <description></description>
     </item>
@@ -1089,7 +1087,7 @@
       <title>Euc</title>
       <link>/tags/euc/</link>
       <pubDate>Fri, 03 Aug 2012 21:17:13 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/euc/</guid>
       <description></description>
     </item>
@@ -1098,7 +1096,7 @@
       <title>Event</title>
       <link>/tags/event/</link>
       <pubDate>Tue, 17 Oct 2017 10:44:50 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/event/</guid>
       <description></description>
     </item>
@@ -1107,7 +1105,7 @@
       <title>Event Id 2915</title>
       <link>/tags/event-id-2915/</link>
       <pubDate>Wed, 06 Jul 2011 12:51:21 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/event-id-2915/</guid>
       <description></description>
     </item>
@@ -1116,7 +1114,7 @@
       <title>Evernote</title>
       <link>/tags/evernote/</link>
       <pubDate>Wed, 06 Jan 2016 13:51:58 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/evernote/</guid>
       <description></description>
     </item>
@@ -1125,7 +1123,7 @@
       <title>Everyday</title>
       <link>/tags/everyday/</link>
       <pubDate>Sat, 05 Nov 2016 23:16:06 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/everyday/</guid>
       <description></description>
     </item>
@@ -1134,7 +1132,7 @@
       <title>Evo</title>
       <link>/tags/evo/</link>
       <pubDate>Mon, 25 Aug 2014 13:30:58 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/evo/</guid>
       <description></description>
     </item>
@@ -1143,7 +1141,7 @@
       <title>Evorail</title>
       <link>/tags/evorail/</link>
       <pubDate>Mon, 01 Dec 2014 20:39:08 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/evorail/</guid>
       <description></description>
     </item>
@@ -1152,7 +1150,7 @@
       <title>Evry</title>
       <link>/tags/evry/</link>
       <pubDate>Thu, 31 Mar 2016 22:16:31 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/evry/</guid>
       <description></description>
     </item>
@@ -1161,7 +1159,7 @@
       <title>Exchange</title>
       <link>/tags/exchange/</link>
       <pubDate>Wed, 06 Jul 2011 12:51:21 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/exchange/</guid>
       <description></description>
     </item>
@@ -1170,7 +1168,7 @@
       <title>Experiment</title>
       <link>/tags/experiment/</link>
       <pubDate>Tue, 22 Nov 2011 22:59:30 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/experiment/</guid>
       <description></description>
     </item>
@@ -1179,7 +1177,7 @@
       <title>Facelift</title>
       <link>/tags/facelift/</link>
       <pubDate>Thu, 24 Nov 2016 00:11:08 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/facelift/</guid>
       <description></description>
     </item>
@@ -1188,7 +1186,7 @@
       <title>Feature Request</title>
       <link>/tags/feature-request/</link>
       <pubDate>Fri, 04 Nov 2011 22:06:32 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/feature-request/</guid>
       <description></description>
     </item>
@@ -1197,7 +1195,7 @@
       <title>Featured</title>
       <link>/tags/featured/</link>
       <pubDate>Mon, 17 Mar 2014 22:41:34 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/featured/</guid>
       <description></description>
     </item>
@@ -1206,7 +1204,7 @@
       <title>Fibre Channel</title>
       <link>/tags/fibre-channel/</link>
       <pubDate>Thu, 30 May 2013 21:08:45 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/fibre-channel/</guid>
       <description></description>
     </item>
@@ -1215,7 +1213,7 @@
       <title>Fire</title>
       <link>/tags/fire/</link>
       <pubDate>Mon, 20 Aug 2012 22:28:03 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/fire/</guid>
       <description></description>
     </item>
@@ -1224,7 +1222,7 @@
       <title>Firewall</title>
       <link>/tags/firewall/</link>
       <pubDate>Fri, 07 Jan 2011 22:07:31 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/firewall/</guid>
       <description></description>
     </item>
@@ -1233,7 +1231,7 @@
       <title>Firmware</title>
       <link>/tags/firmware/</link>
       <pubDate>Mon, 23 Jan 2012 19:57:49 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/firmware/</guid>
       <description></description>
     </item>
@@ -1242,7 +1240,7 @@
       <title>Flash</title>
       <link>/tags/flash/</link>
       <pubDate>Mon, 13 Jul 2015 22:17:12 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/flash/</guid>
       <description></description>
     </item>
@@ -1251,7 +1249,7 @@
       <title>Flash Talk</title>
       <link>/tags/flash-talk/</link>
       <pubDate>Sun, 22 Jul 2012 17:49:01 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/flash-talk/</guid>
       <description></description>
     </item>
@@ -1260,7 +1258,7 @@
       <title>Fling</title>
       <link>/tags/fling/</link>
       <pubDate>Tue, 28 Mar 2017 11:44:58 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/fling/</guid>
       <description></description>
     </item>
@@ -1269,7 +1267,7 @@
       <title>Floppy</title>
       <link>/tags/floppy/</link>
       <pubDate>Sat, 07 Jan 2012 22:44:33 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/floppy/</guid>
       <description></description>
     </item>
@@ -1278,7 +1276,7 @@
       <title>Form Factor</title>
       <link>/tags/form-factor/</link>
       <pubDate>Mon, 17 Mar 2014 22:41:34 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/form-factor/</guid>
       <description></description>
     </item>
@@ -1287,7 +1285,7 @@
       <title>Framework</title>
       <link>/tags/framework/</link>
       <pubDate>Wed, 11 Feb 2015 23:28:23 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/framework/</guid>
       <description></description>
     </item>
@@ -1296,7 +1294,7 @@
       <title>Free</title>
       <link>/tags/free/</link>
       <pubDate>Wed, 23 Nov 2016 17:37:07 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/free/</guid>
       <description></description>
     </item>
@@ -1305,7 +1303,7 @@
       <title>Free Tool</title>
       <link>/tags/free-tool/</link>
       <pubDate>Mon, 14 Jan 2013 23:53:50 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/free-tool/</guid>
       <description></description>
     </item>
@@ -1314,7 +1312,7 @@
       <title>Free Tools</title>
       <link>/tags/free-tools/</link>
       <pubDate>Thu, 31 May 2012 11:45:52 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/free-tools/</guid>
       <description></description>
     </item>
@@ -1323,7 +1321,7 @@
       <title>Freebie</title>
       <link>/tags/freebie/</link>
       <pubDate>Thu, 14 Mar 2013 00:02:35 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/freebie/</guid>
       <description></description>
     </item>
@@ -1332,7 +1330,7 @@
       <title>Fun</title>
       <link>/tags/fun/</link>
       <pubDate>Tue, 15 Nov 2016 12:00:50 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/fun/</guid>
       <description></description>
     </item>
@@ -1341,7 +1339,7 @@
       <title>Fundraising</title>
       <link>/tags/fundraising/</link>
       <pubDate>Sat, 14 Sep 2013 20:14:03 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/fundraising/</guid>
       <description></description>
     </item>
@@ -1350,7 +1348,7 @@
       <title>Future</title>
       <link>/tags/future/</link>
       <pubDate>Fri, 13 Nov 2015 08:54:01 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/future/</guid>
       <description></description>
     </item>
@@ -1359,7 +1357,7 @@
       <title>G8</title>
       <link>/tags/g8/</link>
       <pubDate>Mon, 29 Oct 2012 21:48:08 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/g8/</guid>
       <description></description>
     </item>
@@ -1368,7 +1366,7 @@
       <title>Gdpr</title>
       <link>/tags/gdpr/</link>
       <pubDate>Tue, 22 May 2018 21:21:27 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/gdpr/</guid>
       <description></description>
     </item>
@@ -1377,7 +1375,7 @@
       <title>Geektool</title>
       <link>/tags/geektool/</link>
       <pubDate>Wed, 29 Jan 2014 15:58:10 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/geektool/</guid>
       <description></description>
     </item>
@@ -1386,7 +1384,7 @@
       <title>Github</title>
       <link>/tags/github/</link>
       <pubDate>Mon, 12 Jan 2015 23:31:45 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/github/</guid>
       <description></description>
     </item>
@@ -1395,7 +1393,7 @@
       <title>Give Away</title>
       <link>/tags/give-away/</link>
       <pubDate>Tue, 26 Feb 2013 16:14:48 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/give-away/</guid>
       <description></description>
     </item>
@@ -1404,7 +1402,7 @@
       <title>Gorilla</title>
       <link>/tags/gorilla/</link>
       <pubDate>Tue, 03 Feb 2015 13:17:28 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/gorilla/</guid>
       <description></description>
     </item>
@@ -1413,7 +1411,7 @@
       <title>Gpmc</title>
       <link>/tags/gpmc/</link>
       <pubDate>Tue, 25 Jun 2013 08:52:03 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/gpmc/</guid>
       <description></description>
     </item>
@@ -1422,7 +1420,7 @@
       <title>Group Policy</title>
       <link>/tags/group-policy/</link>
       <pubDate>Tue, 25 Jun 2013 08:52:03 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/group-policy/</guid>
       <description></description>
     </item>
@@ -1431,7 +1429,7 @@
       <title>Group Policy Preferences</title>
       <link>/tags/group-policy-preferences/</link>
       <pubDate>Tue, 25 Jun 2013 08:52:03 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/group-policy-preferences/</guid>
       <description></description>
     </item>
@@ -1440,7 +1438,7 @@
       <title>Ha</title>
       <link>/tags/ha/</link>
       <pubDate>Wed, 13 Apr 2011 21:02:28 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/ha/</guid>
       <description></description>
     </item>
@@ -1449,7 +1447,7 @@
       <title>Hack</title>
       <link>/tags/hack/</link>
       <pubDate>Tue, 07 Oct 2014 23:26:03 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/hack/</guid>
       <description></description>
     </item>
@@ -1458,7 +1456,7 @@
       <title>Hands On</title>
       <link>/tags/hands-on/</link>
       <pubDate>Sat, 04 Feb 2012 18:43:44 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/hands-on/</guid>
       <description></description>
     </item>
@@ -1467,7 +1465,7 @@
       <title>Hands on Lab</title>
       <link>/tags/hands-on-lab/</link>
       <pubDate>Thu, 06 Dec 2012 18:44:03 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/hands-on-lab/</guid>
       <description></description>
     </item>
@@ -1476,7 +1474,7 @@
       <title>Hands on Labs</title>
       <link>/tags/hands-on-labs/</link>
       <pubDate>Wed, 27 Mar 2013 08:50:29 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/hands-on-labs/</guid>
       <description></description>
     </item>
@@ -1485,7 +1483,7 @@
       <title>Happy Dance</title>
       <link>/tags/happy-dance/</link>
       <pubDate>Sat, 09 Jul 2016 20:59:02 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/happy-dance/</guid>
       <description></description>
     </item>
@@ -1494,7 +1492,7 @@
       <title>Harakiri</title>
       <link>/tags/harakiri/</link>
       <pubDate>Sun, 26 Feb 2012 22:42:01 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/harakiri/</guid>
       <description></description>
     </item>
@@ -1503,7 +1501,7 @@
       <title>Hardware</title>
       <link>/tags/hardware/</link>
       <pubDate>Wed, 19 Feb 2014 12:30:08 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/hardware/</guid>
       <description></description>
     </item>
@@ -1512,7 +1510,7 @@
       <title>Hardware Version</title>
       <link>/tags/hardware-version/</link>
       <pubDate>Mon, 02 Jul 2012 19:50:03 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/hardware-version/</guid>
       <description></description>
     </item>
@@ -1521,7 +1519,7 @@
       <title>Health Check</title>
       <link>/tags/health-check/</link>
       <pubDate>Tue, 04 Dec 2012 22:49:27 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/health-check/</guid>
       <description></description>
     </item>
@@ -1530,7 +1528,7 @@
       <title>Hipster It</title>
       <link>/tags/hipster-it/</link>
       <pubDate>Thu, 14 Jan 2016 12:32:59 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/hipster-it/</guid>
       <description></description>
     </item>
@@ -1539,7 +1537,7 @@
       <title>Hol</title>
       <link>/tags/hol/</link>
       <pubDate>Wed, 27 Mar 2013 08:50:29 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/hol/</guid>
       <description></description>
     </item>
@@ -1548,7 +1546,7 @@
       <title>Home Lab</title>
       <link>/tags/home-lab/</link>
       <pubDate>Sat, 05 Nov 2011 09:55:30 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/home-lab/</guid>
       <description></description>
     </item>
@@ -1557,7 +1555,7 @@
       <title>Homebrew</title>
       <link>/tags/homebrew/</link>
       <pubDate>Thu, 26 Oct 2017 13:32:01 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/homebrew/</guid>
       <description></description>
     </item>
@@ -1566,7 +1564,7 @@
       <title>Homelab</title>
       <link>/tags/homelab/</link>
       <pubDate>Thu, 06 Oct 2016 11:31:51 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/homelab/</guid>
       <description></description>
     </item>
@@ -1575,7 +1573,7 @@
       <title>Homelabops</title>
       <link>/tags/homelabops/</link>
       <pubDate>Thu, 06 Oct 2016 11:31:51 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/homelabops/</guid>
       <description></description>
     </item>
@@ -1584,7 +1582,7 @@
       <title>Horizon</title>
       <link>/tags/horizon/</link>
       <pubDate>Fri, 03 Aug 2012 21:17:13 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/horizon/</guid>
       <description></description>
     </item>
@@ -1593,7 +1591,7 @@
       <title>Horizon Application Manager</title>
       <link>/tags/horizon-application-manager/</link>
       <pubDate>Wed, 16 Nov 2011 23:05:06 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/horizon-application-manager/</guid>
       <description></description>
     </item>
@@ -1602,7 +1600,7 @@
       <title>Host</title>
       <link>/tags/host/</link>
       <pubDate>Mon, 23 Sep 2013 23:28:04 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/host/</guid>
       <description></description>
     </item>
@@ -1611,7 +1609,7 @@
       <title>Host Cache</title>
       <link>/tags/host-cache/</link>
       <pubDate>Mon, 30 Sep 2013 00:12:39 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/host-cache/</guid>
       <description></description>
     </item>
@@ -1620,7 +1618,7 @@
       <title>Hosted Beta</title>
       <link>/tags/hosted-beta/</link>
       <pubDate>Wed, 27 Mar 2013 08:50:29 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/hosted-beta/</guid>
       <description></description>
     </item>
@@ -1629,7 +1627,7 @@
       <title>Howto</title>
       <link>/tags/howto/</link>
       <pubDate>Mon, 22 Apr 2013 21:31:46 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/howto/</guid>
       <description></description>
     </item>
@@ -1638,7 +1636,7 @@
       <title>Hp</title>
       <link>/tags/hp/</link>
       <pubDate>Thu, 21 Aug 2014 22:21:59 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/hp/</guid>
       <description></description>
     </item>
@@ -1647,7 +1645,7 @@
       <title>Hp Insight Control</title>
       <link>/tags/hp-insight-control/</link>
       <pubDate>Thu, 21 Aug 2014 22:21:59 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/hp-insight-control/</guid>
       <description></description>
     </item>
@@ -1656,7 +1654,7 @@
       <title>Http</title>
       <link>/tags/http/</link>
       <pubDate>Tue, 14 May 2013 11:23:13 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/http/</guid>
       <description></description>
     </item>
@@ -1665,7 +1663,7 @@
       <title>Hyper Converged</title>
       <link>/tags/hyper-converged/</link>
       <pubDate>Wed, 20 Aug 2014 13:05:41 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/hyper-converged/</guid>
       <description></description>
     </item>
@@ -1674,7 +1672,7 @@
       <title>Hyper V</title>
       <link>/tags/hyper-v/</link>
       <pubDate>Tue, 29 Oct 2013 23:25:14 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/hyper-v/</guid>
       <description></description>
     </item>
@@ -1683,7 +1681,7 @@
       <title>Hyperconverged</title>
       <link>/tags/hyperconverged/</link>
       <pubDate>Mon, 01 Dec 2014 20:39:08 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/hyperconverged/</guid>
       <description></description>
     </item>
@@ -1692,7 +1690,7 @@
       <title>Hypervisor</title>
       <link>/tags/hypervisor/</link>
       <pubDate>Sun, 12 Jun 2011 20:34:52 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/hypervisor/</guid>
       <description></description>
     </item>
@@ -1701,7 +1699,7 @@
       <title>Ideas</title>
       <link>/tags/ideas/</link>
       <pubDate>Wed, 18 Feb 2015 10:31:53 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/ideas/</guid>
       <description></description>
     </item>
@@ -1710,7 +1708,7 @@
       <title>Ifttt</title>
       <link>/tags/ifttt/</link>
       <pubDate>Tue, 24 Oct 2017 13:47:35 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/ifttt/</guid>
       <description></description>
     </item>
@@ -1719,7 +1717,7 @@
       <title>Images</title>
       <link>/tags/images/</link>
       <pubDate>Sat, 24 Jan 2015 10:20:06 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/images/</guid>
       <description></description>
     </item>
@@ -1728,7 +1726,7 @@
       <title>Impatient</title>
       <link>/tags/impatient/</link>
       <pubDate>Tue, 22 Oct 2013 18:42:42 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/impatient/</guid>
       <description></description>
     </item>
@@ -1737,7 +1735,7 @@
       <title>Installation</title>
       <link>/tags/installation/</link>
       <pubDate>Fri, 04 Nov 2011 22:06:32 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/installation/</guid>
       <description></description>
     </item>
@@ -1746,7 +1744,7 @@
       <title>Integrity</title>
       <link>/tags/integrity/</link>
       <pubDate>Tue, 11 Sep 2012 21:19:12 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/integrity/</guid>
       <description></description>
     </item>
@@ -1755,7 +1753,7 @@
       <title>Intel</title>
       <link>/tags/intel/</link>
       <pubDate>Sun, 14 Jan 2018 16:00:00 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/intel/</guid>
       <description></description>
     </item>
@@ -1764,7 +1762,7 @@
       <title>Internationalization</title>
       <link>/tags/internationalization/</link>
       <pubDate>Tue, 29 Apr 2014 08:18:35 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/internationalization/</guid>
       <description></description>
     </item>
@@ -1773,7 +1771,7 @@
       <title>Inthebag</title>
       <link>/tags/inthebag/</link>
       <pubDate>Fri, 17 Mar 2017 14:24:11 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/inthebag/</guid>
       <description></description>
     </item>
@@ -1782,7 +1780,7 @@
       <title>Inthebag. Weekly</title>
       <link>/tags/inthebag.-weekly/</link>
       <pubDate>Fri, 10 Mar 2017 11:55:46 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/inthebag.-weekly/</guid>
       <description></description>
     </item>
@@ -1791,7 +1789,7 @@
       <title>Iomega</title>
       <link>/tags/iomega/</link>
       <pubDate>Mon, 23 Jan 2012 19:57:49 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/iomega/</guid>
       <description></description>
     </item>
@@ -1800,7 +1798,7 @@
       <title>Ipad</title>
       <link>/tags/ipad/</link>
       <pubDate>Fri, 18 Mar 2011 09:18:44 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/ipad/</guid>
       <description></description>
     </item>
@@ -1809,7 +1807,7 @@
       <title>Ix2</title>
       <link>/tags/ix2/</link>
       <pubDate>Mon, 23 Jan 2012 19:57:49 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/ix2/</guid>
       <description></description>
     </item>
@@ -1818,7 +1816,7 @@
       <title>John Troyer</title>
       <link>/tags/john-troyer/</link>
       <pubDate>Sun, 24 Jul 2011 22:30:53 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/john-troyer/</guid>
       <description></description>
     </item>
@@ -1827,7 +1825,7 @@
       <title>Kb</title>
       <link>/tags/kb/</link>
       <pubDate>Sat, 25 Feb 2017 08:50:26 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/kb/</guid>
       <description></description>
     </item>
@@ -1836,7 +1834,7 @@
       <title>Kb2393802</title>
       <link>/tags/kb2393802/</link>
       <pubDate>Wed, 06 Jul 2011 12:51:21 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/kb2393802/</guid>
       <description></description>
     </item>
@@ -1845,7 +1843,7 @@
       <title>Keep Calm</title>
       <link>/tags/keep-calm/</link>
       <pubDate>Sat, 02 Mar 2013 22:46:13 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/keep-calm/</guid>
       <description></description>
     </item>
@@ -1854,7 +1852,7 @@
       <title>Keynote</title>
       <link>/tags/keynote/</link>
       <pubDate>Wed, 09 May 2018 13:12:07 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/keynote/</guid>
       <description></description>
     </item>
@@ -1863,7 +1861,7 @@
       <title>Keyremap4macbook. Customization</title>
       <link>/tags/keyremap4macbook.-customization/</link>
       <pubDate>Wed, 31 Jul 2013 23:10:42 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/keyremap4macbook.-customization/</guid>
       <description></description>
     </item>
@@ -1872,7 +1870,7 @@
       <title>Kids</title>
       <link>/tags/kids/</link>
       <pubDate>Fri, 06 May 2016 09:26:13 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/kids/</guid>
       <description></description>
     </item>
@@ -1881,7 +1879,7 @@
       <title>Knowledge Base</title>
       <link>/tags/knowledge-base/</link>
       <pubDate>Wed, 17 Sep 2014 21:24:24 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/knowledge-base/</guid>
       <description></description>
     </item>
@@ -1890,7 +1888,7 @@
       <title>Lab</title>
       <link>/tags/lab/</link>
       <pubDate>Tue, 15 Nov 2016 12:00:50 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/lab/</guid>
       <description></description>
     </item>
@@ -1899,7 +1897,7 @@
       <title>Labs</title>
       <link>/tags/labs/</link>
       <pubDate>Wed, 27 Mar 2013 08:50:29 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/labs/</guid>
       <description></description>
     </item>
@@ -1908,7 +1906,7 @@
       <title>Latency Sensitivity</title>
       <link>/tags/latency-sensitivity/</link>
       <pubDate>Tue, 15 Jul 2014 10:59:42 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/latency-sensitivity/</guid>
       <description></description>
     </item>
@@ -1917,7 +1915,7 @@
       <title>Licenses</title>
       <link>/tags/licenses/</link>
       <pubDate>Sat, 05 Nov 2011 09:55:30 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/licenses/</guid>
       <description></description>
     </item>
@@ -1926,7 +1924,7 @@
       <title>Licensing</title>
       <link>/tags/licensing/</link>
       <pubDate>Mon, 01 Dec 2014 20:39:08 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/licensing/</guid>
       <description></description>
     </item>
@@ -1935,7 +1933,7 @@
       <title>Linux</title>
       <link>/tags/linux/</link>
       <pubDate>Tue, 15 Nov 2016 12:00:50 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/linux/</guid>
       <description></description>
     </item>
@@ -1944,7 +1942,7 @@
       <title>Log</title>
       <link>/tags/log/</link>
       <pubDate>Wed, 26 Jun 2013 10:34:18 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/log/</guid>
       <description></description>
     </item>
@@ -1953,7 +1951,7 @@
       <title>Log Files</title>
       <link>/tags/log-files/</link>
       <pubDate>Mon, 17 Sep 2012 21:24:18 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/log-files/</guid>
       <description></description>
     </item>
@@ -1962,7 +1960,7 @@
       <title>Log Insight</title>
       <link>/tags/log-insight/</link>
       <pubDate>Wed, 23 Nov 2016 17:37:07 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/log-insight/</guid>
       <description></description>
     </item>
@@ -1971,7 +1969,7 @@
       <title>Mac</title>
       <link>/tags/mac/</link>
       <pubDate>Tue, 22 Oct 2013 18:42:42 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/mac/</guid>
       <description></description>
     </item>
@@ -1980,7 +1978,7 @@
       <title>Macos</title>
       <link>/tags/macos/</link>
       <pubDate>Thu, 26 Oct 2017 13:32:01 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/macos/</guid>
       <description></description>
     </item>
@@ -1989,7 +1987,7 @@
       <title>Maintenance</title>
       <link>/tags/maintenance/</link>
       <pubDate>Wed, 26 Jun 2013 10:34:18 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/maintenance/</guid>
       <description></description>
     </item>
@@ -1998,7 +1996,7 @@
       <title>Makyo</title>
       <link>/tags/makyo/</link>
       <pubDate>Thu, 21 Feb 2013 08:45:25 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/makyo/</guid>
       <description></description>
     </item>
@@ -2007,7 +2005,7 @@
       <title>Management</title>
       <link>/tags/management/</link>
       <pubDate>Wed, 11 Oct 2017 21:45:11 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/management/</guid>
       <description></description>
     </item>
@@ -2016,7 +2014,7 @@
       <title>Markdown</title>
       <link>/tags/markdown/</link>
       <pubDate>Wed, 18 Feb 2015 10:31:53 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/markdown/</guid>
       <description></description>
     </item>
@@ -2025,7 +2023,7 @@
       <title>Marvin</title>
       <link>/tags/marvin/</link>
       <pubDate>Mon, 25 Aug 2014 13:30:58 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/marvin/</guid>
       <description></description>
     </item>
@@ -2034,7 +2032,7 @@
       <title>Md5</title>
       <link>/tags/md5/</link>
       <pubDate>Tue, 11 Sep 2012 21:19:12 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/md5/</guid>
       <description></description>
     </item>
@@ -2043,7 +2041,7 @@
       <title>Meltdown</title>
       <link>/tags/meltdown/</link>
       <pubDate>Sun, 14 Jan 2018 16:00:00 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/meltdown/</guid>
       <description></description>
     </item>
@@ -2052,7 +2050,7 @@
       <title>Messaging</title>
       <link>/tags/messaging/</link>
       <pubDate>Wed, 06 Jul 2011 12:51:21 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/messaging/</guid>
       <description></description>
     </item>
@@ -2061,7 +2059,7 @@
       <title>Microsoft</title>
       <link>/tags/microsoft/</link>
       <pubDate>Tue, 29 Oct 2013 23:25:14 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/microsoft/</guid>
       <description></description>
     </item>
@@ -2070,7 +2068,7 @@
       <title>Microsoft Office</title>
       <link>/tags/microsoft-office/</link>
       <pubDate>Sun, 13 Mar 2011 21:29:42 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/microsoft-office/</guid>
       <description></description>
     </item>
@@ -2079,7 +2077,7 @@
       <title>Microvisor</title>
       <link>/tags/microvisor/</link>
       <pubDate>Fri, 13 Nov 2015 08:54:01 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/microvisor/</guid>
       <description></description>
     </item>
@@ -2088,7 +2086,7 @@
       <title>Mike Laverick</title>
       <link>/tags/mike-laverick/</link>
       <pubDate>Thu, 14 Mar 2013 00:02:35 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/mike-laverick/</guid>
       <description></description>
     </item>
@@ -2097,7 +2095,7 @@
       <title>Misinformation</title>
       <link>/tags/misinformation/</link>
       <pubDate>Tue, 10 Feb 2015 00:06:54 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/misinformation/</guid>
       <description></description>
     </item>
@@ -2106,7 +2104,7 @@
       <title>Monitoring</title>
       <link>/tags/monitoring/</link>
       <pubDate>Mon, 14 Jan 2013 23:53:50 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/monitoring/</guid>
       <description></description>
     </item>
@@ -2115,7 +2113,7 @@
       <title>Moref</title>
       <link>/tags/moref/</link>
       <pubDate>Mon, 08 Aug 2016 09:35:47 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/moref/</guid>
       <description></description>
     </item>
@@ -2124,7 +2122,7 @@
       <title>Movember</title>
       <link>/tags/movember/</link>
       <pubDate>Sun, 01 Dec 2013 10:35:24 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/movember/</guid>
       <description></description>
     </item>
@@ -2133,7 +2131,7 @@
       <title>Multipath</title>
       <link>/tags/multipath/</link>
       <pubDate>Mon, 22 Apr 2013 21:31:46 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/multipath/</guid>
       <description></description>
     </item>
@@ -2142,7 +2140,7 @@
       <title>Nda</title>
       <link>/tags/nda/</link>
       <pubDate>Tue, 10 Feb 2015 00:06:54 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/nda/</guid>
       <description></description>
     </item>
@@ -2151,7 +2149,7 @@
       <title>Neil Armstrong</title>
       <link>/tags/neil-armstrong/</link>
       <pubDate>Sun, 26 Feb 2012 22:42:01 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/neil-armstrong/</guid>
       <description></description>
     </item>
@@ -2160,7 +2158,7 @@
       <title>Nested Esxi</title>
       <link>/tags/nested-esxi/</link>
       <pubDate>Fri, 19 Jun 2015 10:10:52 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/nested-esxi/</guid>
       <description></description>
     </item>
@@ -2169,7 +2167,7 @@
       <title>Networking</title>
       <link>/tags/networking/</link>
       <pubDate>Tue, 10 Jun 2014 12:48:10 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/networking/</guid>
       <description></description>
     </item>
@@ -2178,7 +2176,7 @@
       <title>News</title>
       <link>/tags/news/</link>
       <pubDate>Tue, 11 Apr 2017 16:08:30 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/news/</guid>
       <description></description>
     </item>
@@ -2187,7 +2185,7 @@
       <title>Nfr</title>
       <link>/tags/nfr/</link>
       <pubDate>Thu, 05 Sep 2013 15:38:56 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/nfr/</guid>
       <description></description>
     </item>
@@ -2196,7 +2194,7 @@
       <title>Nfs</title>
       <link>/tags/nfs/</link>
       <pubDate>Fri, 28 Aug 2015 10:46:24 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/nfs/</guid>
       <description></description>
     </item>
@@ -2205,7 +2203,7 @@
       <title>Ninja</title>
       <link>/tags/ninja/</link>
       <pubDate>Thu, 08 May 2014 11:21:00 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/ninja/</guid>
       <description></description>
     </item>
@@ -2214,7 +2212,7 @@
       <title>Node</title>
       <link>/tags/node/</link>
       <pubDate>Mon, 17 Mar 2014 22:41:34 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/node/</guid>
       <description></description>
     </item>
@@ -2223,7 +2221,7 @@
       <title>Nordic</title>
       <link>/tags/nordic/</link>
       <pubDate>Sat, 19 Nov 2016 13:04:50 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/nordic/</guid>
       <description></description>
     </item>
@@ -2232,7 +2230,7 @@
       <title>Nordic Vmug</title>
       <link>/tags/nordic-vmug/</link>
       <pubDate>Wed, 04 Dec 2013 23:23:23 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/nordic-vmug/</guid>
       <description></description>
     </item>
@@ -2241,7 +2239,7 @@
       <title>Norway</title>
       <link>/tags/norway/</link>
       <pubDate>Fri, 27 Feb 2015 20:23:54 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/norway/</guid>
       <description></description>
     </item>
@@ -2250,7 +2248,7 @@
       <title>Nsx</title>
       <link>/tags/nsx/</link>
       <pubDate>Tue, 10 Jun 2014 12:48:10 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/nsx/</guid>
       <description></description>
     </item>
@@ -2259,7 +2257,7 @@
       <title>Ntp</title>
       <link>/tags/ntp/</link>
       <pubDate>Wed, 01 Feb 2017 13:18:04 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/ntp/</guid>
       <description></description>
     </item>
@@ -2268,7 +2266,7 @@
       <title>Nutanix</title>
       <link>/tags/nutanix/</link>
       <pubDate>Thu, 29 Sep 2016 12:08:21 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/nutanix/</guid>
       <description></description>
     </item>
@@ -2277,7 +2275,7 @@
       <title>Nutjob</title>
       <link>/tags/nutjob/</link>
       <pubDate>Sun, 26 Feb 2012 22:42:01 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/nutjob/</guid>
       <description></description>
     </item>
@@ -2286,7 +2284,7 @@
       <title>Omnigraffle</title>
       <link>/tags/omnigraffle/</link>
       <pubDate>Sun, 22 May 2016 19:19:52 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/omnigraffle/</guid>
       <description></description>
     </item>
@@ -2295,7 +2293,7 @@
       <title>Oneliner</title>
       <link>/tags/oneliner/</link>
       <pubDate>Fri, 30 Nov 2012 09:12:50 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/oneliner/</guid>
       <description></description>
     </item>
@@ -2304,7 +2302,7 @@
       <title>Online Training</title>
       <link>/tags/online-training/</link>
       <pubDate>Thu, 06 Dec 2012 18:44:03 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/online-training/</guid>
       <description></description>
     </item>
@@ -2313,7 +2311,7 @@
       <title>Operations</title>
       <link>/tags/operations/</link>
       <pubDate>Tue, 11 Apr 2017 16:08:30 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/operations/</guid>
       <description></description>
     </item>
@@ -2322,7 +2320,7 @@
       <title>Opinion</title>
       <link>/tags/opinion/</link>
       <pubDate>Fri, 05 Sep 2014 18:38:58 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/opinion/</guid>
       <description></description>
     </item>
@@ -2331,7 +2329,7 @@
       <title>Ops</title>
       <link>/tags/ops/</link>
       <pubDate>Wed, 26 Jun 2013 10:34:18 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/ops/</guid>
       <description></description>
     </item>
@@ -2340,7 +2338,7 @@
       <title>Organization</title>
       <link>/tags/organization/</link>
       <pubDate>Wed, 03 Dec 2014 16:22:11 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/organization/</guid>
       <description></description>
     </item>
@@ -2349,7 +2347,7 @@
       <title>Os X</title>
       <link>/tags/os-x/</link>
       <pubDate>Mon, 12 Jan 2015 23:31:45 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/os-x/</guid>
       <description></description>
     </item>
@@ -2358,7 +2356,7 @@
       <title>Oslo</title>
       <link>/tags/oslo/</link>
       <pubDate>Thu, 26 Apr 2012 20:35:39 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/oslo/</guid>
       <description></description>
     </item>
@@ -2367,7 +2365,7 @@
       <title>P220i</title>
       <link>/tags/p220i/</link>
       <pubDate>Mon, 29 Oct 2012 21:48:08 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/p220i/</guid>
       <description></description>
     </item>
@@ -2376,7 +2374,7 @@
       <title>Packt</title>
       <link>/tags/packt/</link>
       <pubDate>Fri, 20 Jun 2014 12:34:49 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/packt/</guid>
       <description></description>
     </item>
@@ -2385,7 +2383,7 @@
       <title>Pandoc</title>
       <link>/tags/pandoc/</link>
       <pubDate>Mon, 12 Jan 2015 23:31:45 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/pandoc/</guid>
       <description></description>
     </item>
@@ -2394,7 +2392,7 @@
       <title>Password</title>
       <link>/tags/password/</link>
       <pubDate>Tue, 29 Apr 2014 08:18:35 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/password/</guid>
       <description></description>
     </item>
@@ -2403,7 +2401,7 @@
       <title>Patch</title>
       <link>/tags/patch/</link>
       <pubDate>Mon, 29 Oct 2012 21:48:08 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/patch/</guid>
       <description></description>
     </item>
@@ -2412,7 +2410,7 @@
       <title>Patching</title>
       <link>/tags/patching/</link>
       <pubDate>Mon, 10 Oct 2016 13:18:30 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/patching/</guid>
       <description></description>
     </item>
@@ -2421,7 +2419,7 @@
       <title>Pckeyboardhack</title>
       <link>/tags/pckeyboardhack/</link>
       <pubDate>Wed, 31 Jul 2013 23:10:42 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/pckeyboardhack/</guid>
       <description></description>
     </item>
@@ -2430,7 +2428,7 @@
       <title>Pernixdata</title>
       <link>/tags/pernixdata/</link>
       <pubDate>Thu, 29 Sep 2016 12:08:21 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/pernixdata/</guid>
       <description></description>
     </item>
@@ -2439,7 +2437,7 @@
       <title>Personal</title>
       <link>/tags/personal/</link>
       <pubDate>Sat, 30 Jan 2016 22:36:22 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/personal/</guid>
       <description></description>
     </item>
@@ -2448,7 +2446,7 @@
       <title>Petri</title>
       <link>/tags/petri/</link>
       <pubDate>Sun, 16 Jan 2011 22:03:48 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/petri/</guid>
       <description></description>
     </item>
@@ -2457,7 +2455,7 @@
       <title>Photo</title>
       <link>/tags/photo/</link>
       <pubDate>Thu, 08 May 2014 11:21:00 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/photo/</guid>
       <description></description>
     </item>
@@ -2466,7 +2464,7 @@
       <title>Photos</title>
       <link>/tags/photos/</link>
       <pubDate>Sat, 24 Jan 2015 10:20:06 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/photos/</guid>
       <description></description>
     </item>
@@ -2475,7 +2473,7 @@
       <title>Php</title>
       <link>/tags/php/</link>
       <pubDate>Wed, 29 Jan 2014 15:58:10 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/php/</guid>
       <description></description>
     </item>
@@ -2484,7 +2482,7 @@
       <title>Pins</title>
       <link>/tags/pins/</link>
       <pubDate>Tue, 11 Sep 2012 17:33:35 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/pins/</guid>
       <description></description>
     </item>
@@ -2493,7 +2491,7 @@
       <title>Plans</title>
       <link>/tags/plans/</link>
       <pubDate>Sun, 15 Jan 2017 10:04:08 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/plans/</guid>
       <description></description>
     </item>
@@ -2502,7 +2500,7 @@
       <title>Plugin</title>
       <link>/tags/plugin/</link>
       <pubDate>Thu, 21 Feb 2013 08:45:25 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/plugin/</guid>
       <description></description>
     </item>
@@ -2511,7 +2509,7 @@
       <title>Pocket</title>
       <link>/tags/pocket/</link>
       <pubDate>Tue, 24 Oct 2017 13:47:35 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/pocket/</guid>
       <description></description>
     </item>
@@ -2520,7 +2518,7 @@
       <title>Podcast</title>
       <link>/tags/podcast/</link>
       <pubDate>Fri, 18 Jul 2014 21:59:52 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/podcast/</guid>
       <description></description>
     </item>
@@ -2529,7 +2527,7 @@
       <title>Podcasting for Cancer</title>
       <link>/tags/podcasting-for-cancer/</link>
       <pubDate>Sun, 01 Dec 2013 10:35:24 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/podcasting-for-cancer/</guid>
       <description></description>
     </item>
@@ -2538,7 +2536,7 @@
       <title>Policy Based Computing</title>
       <link>/tags/policy-based-computing/</link>
       <pubDate>Tue, 18 Feb 2014 16:16:28 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/policy-based-computing/</guid>
       <description></description>
     </item>
@@ -2547,7 +2545,7 @@
       <title>Posters</title>
       <link>/tags/posters/</link>
       <pubDate>Sat, 02 Mar 2013 22:46:13 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/posters/</guid>
       <description></description>
     </item>
@@ -2556,7 +2554,7 @@
       <title>Powercli</title>
       <link>/tags/powercli/</link>
       <pubDate>Fri, 30 Nov 2012 09:12:50 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/powercli/</guid>
       <description></description>
     </item>
@@ -2565,7 +2563,7 @@
       <title>Powergui</title>
       <link>/tags/powergui/</link>
       <pubDate>Fri, 15 Oct 2010 20:29:14 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/powergui/</guid>
       <description></description>
     </item>
@@ -2574,7 +2572,7 @@
       <title>Powershell</title>
       <link>/tags/powershell/</link>
       <pubDate>Fri, 30 Nov 2012 09:12:50 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/powershell/</guid>
       <description></description>
     </item>
@@ -2583,7 +2581,7 @@
       <title>Prediction</title>
       <link>/tags/prediction/</link>
       <pubDate>Sat, 30 Jan 2016 22:36:22 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/prediction/</guid>
       <description></description>
     </item>
@@ -2592,7 +2590,7 @@
       <title>Presentation</title>
       <link>/tags/presentation/</link>
       <pubDate>Sat, 24 Jan 2015 10:20:06 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/presentation/</guid>
       <description></description>
     </item>
@@ -2601,7 +2599,7 @@
       <title>Proact</title>
       <link>/tags/proact/</link>
       <pubDate>Thu, 31 Mar 2016 22:16:31 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/proact/</guid>
       <description></description>
     </item>
@@ -2610,7 +2608,7 @@
       <title>Productivity</title>
       <link>/tags/productivity/</link>
       <pubDate>Wed, 06 Jan 2016 13:51:58 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/productivity/</guid>
       <description></description>
     </item>
@@ -2619,7 +2617,7 @@
       <title>Proliant</title>
       <link>/tags/proliant/</link>
       <pubDate>Mon, 29 Oct 2012 21:48:08 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/proliant/</guid>
       <description></description>
     </item>
@@ -2628,7 +2626,7 @@
       <title>Proof of Concept</title>
       <link>/tags/proof-of-concept/</link>
       <pubDate>Wed, 24 Feb 2016 10:42:26 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/proof-of-concept/</guid>
       <description></description>
     </item>
@@ -2637,7 +2635,7 @@
       <title>Proxy</title>
       <link>/tags/proxy/</link>
       <pubDate>Fri, 14 Oct 2016 13:03:41 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/proxy/</guid>
       <description></description>
     </item>
@@ -2646,7 +2644,7 @@
       <title>Psc</title>
       <link>/tags/psc/</link>
       <pubDate>Sun, 22 May 2016 19:19:52 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/psc/</guid>
       <description></description>
     </item>
@@ -2655,7 +2653,7 @@
       <title>Published</title>
       <link>/tags/published/</link>
       <pubDate>Mon, 20 Jun 2011 20:58:35 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/published/</guid>
       <description></description>
     </item>
@@ -2664,7 +2662,7 @@
       <title>Python</title>
       <link>/tags/python/</link>
       <pubDate>Tue, 14 May 2013 11:23:13 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/python/</guid>
       <description></description>
     </item>
@@ -2673,7 +2671,7 @@
       <title>Quote</title>
       <link>/tags/quote/</link>
       <pubDate>Wed, 23 Jan 2013 14:42:40 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/quote/</guid>
       <description></description>
     </item>
@@ -2682,7 +2680,7 @@
       <title>Quotes</title>
       <link>/tags/quotes/</link>
       <pubDate>Wed, 29 Jan 2014 15:58:10 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/quotes/</guid>
       <description></description>
     </item>
@@ -2691,7 +2689,7 @@
       <title>Rant</title>
       <link>/tags/rant/</link>
       <pubDate>Mon, 13 Jul 2015 22:17:12 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/rant/</guid>
       <description></description>
     </item>
@@ -2700,7 +2698,7 @@
       <title>Raspberry Pi</title>
       <link>/tags/raspberry-pi/</link>
       <pubDate>Thu, 05 Dec 2013 22:47:32 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/raspberry-pi/</guid>
       <description></description>
     </item>
@@ -2709,7 +2707,7 @@
       <title>Ravello</title>
       <link>/tags/ravello/</link>
       <pubDate>Thu, 14 Jan 2016 12:32:59 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/ravello/</guid>
       <description></description>
     </item>
@@ -2718,7 +2716,7 @@
       <title>Rdcman</title>
       <link>/tags/rdcman/</link>
       <pubDate>Thu, 20 Jan 2011 14:51:46 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/rdcman/</guid>
       <description></description>
     </item>
@@ -2727,7 +2725,7 @@
       <title>Real World</title>
       <link>/tags/real-world/</link>
       <pubDate>Wed, 26 Jun 2013 10:34:18 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/real-world/</guid>
       <description></description>
     </item>
@@ -2736,7 +2734,7 @@
       <title>Realworld</title>
       <link>/tags/realworld/</link>
       <pubDate>Tue, 14 May 2013 11:23:13 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/realworld/</guid>
       <description></description>
     </item>
@@ -2745,7 +2743,7 @@
       <title>Receiver</title>
       <link>/tags/receiver/</link>
       <pubDate>Thu, 05 Dec 2013 22:47:32 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/receiver/</guid>
       <description></description>
     </item>
@@ -2754,7 +2752,7 @@
       <title>Recommended</title>
       <link>/tags/recommended/</link>
       <pubDate>Thu, 24 Nov 2016 09:45:10 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/recommended/</guid>
       <description></description>
     </item>
@@ -2763,7 +2761,7 @@
       <title>Release</title>
       <link>/tags/release/</link>
       <pubDate>Mon, 14 Jan 2013 23:53:50 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/release/</guid>
       <description></description>
     </item>
@@ -2772,7 +2770,7 @@
       <title>Remoting</title>
       <link>/tags/remoting/</link>
       <pubDate>Tue, 18 Jan 2011 08:10:02 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/remoting/</guid>
       <description></description>
     </item>
@@ -2781,7 +2779,7 @@
       <title>Review</title>
       <link>/tags/review/</link>
       <pubDate>Mon, 18 Dec 2017 14:00:55 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/review/</guid>
       <description></description>
     </item>
@@ -2790,7 +2788,7 @@
       <title>Role</title>
       <link>/tags/role/</link>
       <pubDate>Thu, 31 Mar 2016 22:16:31 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/role/</guid>
       <description></description>
     </item>
@@ -2799,7 +2797,7 @@
       <title>Royaltsx</title>
       <link>/tags/royaltsx/</link>
       <pubDate>Wed, 11 Oct 2017 21:45:11 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/royaltsx/</guid>
       <description></description>
     </item>
@@ -2808,7 +2806,7 @@
       <title>Rpi</title>
       <link>/tags/rpi/</link>
       <pubDate>Fri, 06 May 2016 09:26:13 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/rpi/</guid>
       <description></description>
     </item>
@@ -2817,7 +2815,7 @@
       <title>Rsync</title>
       <link>/tags/rsync/</link>
       <pubDate>Tue, 08 Mar 2011 08:00:02 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/rsync/</guid>
       <description></description>
     </item>
@@ -2826,7 +2824,7 @@
       <title>Saas</title>
       <link>/tags/saas/</link>
       <pubDate>Wed, 16 Nov 2011 23:05:06 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/saas/</guid>
       <description></description>
     </item>
@@ -2835,7 +2833,7 @@
       <title>Sammy Bogaert</title>
       <link>/tags/sammy-bogaert/</link>
       <pubDate>Tue, 03 Jan 2012 12:32:29 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/sammy-bogaert/</guid>
       <description></description>
     </item>
@@ -2844,7 +2842,7 @@
       <title>Sandisk</title>
       <link>/tags/sandisk/</link>
       <pubDate>Tue, 03 Feb 2015 13:17:28 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/sandisk/</guid>
       <description></description>
     </item>
@@ -2853,7 +2851,7 @@
       <title>Sccm</title>
       <link>/tags/sccm/</link>
       <pubDate>Fri, 26 Aug 2011 08:10:54 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/sccm/</guid>
       <description></description>
     </item>
@@ -2862,7 +2860,7 @@
       <title>Script</title>
       <link>/tags/script/</link>
       <pubDate>Sun, 22 May 2016 19:19:52 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/script/</guid>
       <description></description>
     </item>
@@ -2871,7 +2869,7 @@
       <title>Scripting</title>
       <link>/tags/scripting/</link>
       <pubDate>Sat, 13 Aug 2016 09:45:13 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/scripting/</guid>
       <description></description>
     </item>
@@ -2880,7 +2878,7 @@
       <title>Scvmm</title>
       <link>/tags/scvmm/</link>
       <pubDate>Tue, 29 Oct 2013 23:25:14 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/scvmm/</guid>
       <description></description>
     </item>
@@ -2889,7 +2887,7 @@
       <title>Sddc</title>
       <link>/tags/sddc/</link>
       <pubDate>Wed, 20 Aug 2014 13:05:41 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/sddc/</guid>
       <description></description>
     </item>
@@ -2898,7 +2896,7 @@
       <title>Seatrans</title>
       <link>/tags/seatrans/</link>
       <pubDate>Fri, 04 Nov 2011 09:26:16 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/seatrans/</guid>
       <description></description>
     </item>
@@ -2907,7 +2905,7 @@
       <title>Security</title>
       <link>/tags/security/</link>
       <pubDate>Sun, 14 Jan 2018 16:00:00 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/security/</guid>
       <description></description>
     </item>
@@ -2916,7 +2914,7 @@
       <title>Self Help</title>
       <link>/tags/self-help/</link>
       <pubDate>Mon, 12 Mar 2012 12:50:31 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/self-help/</guid>
       <description></description>
     </item>
@@ -2925,7 +2923,7 @@
       <title>Self Promotion</title>
       <link>/tags/self-promotion/</link>
       <pubDate>Mon, 13 Nov 2017 16:45:46 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/self-promotion/</guid>
       <description></description>
     </item>
@@ -2934,7 +2932,7 @@
       <title>Server</title>
       <link>/tags/server/</link>
       <pubDate>Mon, 10 Oct 2016 13:18:30 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/server/</guid>
       <description></description>
     </item>
@@ -2943,7 +2941,7 @@
       <title>Session</title>
       <link>/tags/session/</link>
       <pubDate>Mon, 09 May 2011 10:29:39 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/session/</guid>
       <description></description>
     </item>
@@ -2952,7 +2950,7 @@
       <title>Setup</title>
       <link>/tags/setup/</link>
       <pubDate>Wed, 31 Jul 2013 23:10:42 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/setup/</guid>
       <description></description>
     </item>
@@ -2961,7 +2959,7 @@
       <title>Sfp&#43;</title>
       <link>/tags/sfp&#43;/</link>
       <pubDate>Thu, 30 May 2013 21:08:45 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/sfp&#43;/</guid>
       <description></description>
     </item>
@@ -2970,7 +2968,7 @@
       <title>Sha1</title>
       <link>/tags/sha1/</link>
       <pubDate>Tue, 11 Sep 2012 21:19:12 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/sha1/</guid>
       <description></description>
     </item>
@@ -2979,7 +2977,7 @@
       <title>Sharing</title>
       <link>/tags/sharing/</link>
       <pubDate>Sat, 24 Jan 2015 10:20:06 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/sharing/</guid>
       <description></description>
     </item>
@@ -2988,7 +2986,7 @@
       <title>Simulation</title>
       <link>/tags/simulation/</link>
       <pubDate>Wed, 29 Dec 2010 14:21:36 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/simulation/</guid>
       <description></description>
     </item>
@@ -2997,7 +2995,7 @@
       <title>Site</title>
       <link>/tags/site/</link>
       <pubDate>Mon, 21 Mar 2011 21:34:58 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/site/</guid>
       <description></description>
     </item>
@@ -3006,7 +3004,7 @@
       <title>Site Recovery Manager</title>
       <link>/tags/site-recovery-manager/</link>
       <pubDate>Fri, 20 Jun 2014 12:34:49 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/site-recovery-manager/</guid>
       <description></description>
     </item>
@@ -3015,7 +3013,7 @@
       <title>Slack</title>
       <link>/tags/slack/</link>
       <pubDate>Thu, 06 Oct 2016 11:31:51 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/slack/</guid>
       <description></description>
     </item>
@@ -3024,7 +3022,7 @@
       <title>Slate</title>
       <link>/tags/slate/</link>
       <pubDate>Wed, 31 Jul 2013 23:10:42 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/slate/</guid>
       <description></description>
     </item>
@@ -3033,7 +3031,7 @@
       <title>Snapshot</title>
       <link>/tags/snapshot/</link>
       <pubDate>Wed, 01 Feb 2017 13:18:04 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/snapshot/</guid>
       <description></description>
     </item>
@@ -3042,7 +3040,7 @@
       <title>Snark</title>
       <link>/tags/snark/</link>
       <pubDate>Mon, 10 Mar 2014 19:43:13 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/snark/</guid>
       <description></description>
     </item>
@@ -3051,7 +3049,7 @@
       <title>Social</title>
       <link>/tags/social/</link>
       <pubDate>Wed, 04 Dec 2013 23:23:23 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/social/</guid>
       <description></description>
     </item>
@@ -3060,7 +3058,7 @@
       <title>Social Media</title>
       <link>/tags/social-media/</link>
       <pubDate>Tue, 08 Oct 2013 13:12:13 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/social-media/</guid>
       <description></description>
     </item>
@@ -3069,7 +3067,7 @@
       <title>Software</title>
       <link>/tags/software/</link>
       <pubDate>Wed, 11 Oct 2017 21:45:11 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/software/</guid>
       <description></description>
     </item>
@@ -3078,7 +3076,7 @@
       <title>Speaking</title>
       <link>/tags/speaking/</link>
       <pubDate>Wed, 28 Oct 2015 22:30:14 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/speaking/</guid>
       <description></description>
     </item>
@@ -3087,7 +3085,7 @@
       <title>Spectacle</title>
       <link>/tags/spectacle/</link>
       <pubDate>Thu, 24 Nov 2016 09:45:10 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/spectacle/</guid>
       <description></description>
     </item>
@@ -3096,7 +3094,7 @@
       <title>Spectre</title>
       <link>/tags/spectre/</link>
       <pubDate>Sun, 14 Jan 2018 16:00:00 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/spectre/</guid>
       <description></description>
     </item>
@@ -3105,7 +3103,7 @@
       <title>Speculation</title>
       <link>/tags/speculation/</link>
       <pubDate>Fri, 14 Oct 2016 18:57:20 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/speculation/</guid>
       <description></description>
     </item>
@@ -3114,7 +3112,7 @@
       <title>Sql Server Express</title>
       <link>/tags/sql-server-express/</link>
       <pubDate>Mon, 04 Oct 2010 21:36:23 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/sql-server-express/</guid>
       <description></description>
     </item>
@@ -3123,7 +3121,7 @@
       <title>Ssd</title>
       <link>/tags/ssd/</link>
       <pubDate>Sun, 19 Jan 2014 19:19:02 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/ssd/</guid>
       <description></description>
     </item>
@@ -3132,7 +3130,7 @@
       <title>Ssh</title>
       <link>/tags/ssh/</link>
       <pubDate>Fri, 14 Oct 2016 13:03:41 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/ssh/</guid>
       <description></description>
     </item>
@@ -3141,7 +3139,7 @@
       <title>Ssl</title>
       <link>/tags/ssl/</link>
       <pubDate>Fri, 12 Dec 2014 12:24:55 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/ssl/</guid>
       <description></description>
     </item>
@@ -3150,7 +3148,7 @@
       <title>Sso</title>
       <link>/tags/sso/</link>
       <pubDate>Tue, 10 Nov 2015 19:30:20 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/sso/</guid>
       <description></description>
     </item>
@@ -3159,7 +3157,7 @@
       <title>Statistics</title>
       <link>/tags/statistics/</link>
       <pubDate>Fri, 12 Apr 2013 23:09:20 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/statistics/</guid>
       <description></description>
     </item>
@@ -3168,7 +3166,7 @@
       <title>Steve Herrod</title>
       <link>/tags/steve-herrod/</link>
       <pubDate>Wed, 23 Jan 2013 14:42:40 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/steve-herrod/</guid>
       <description></description>
     </item>
@@ -3177,7 +3175,7 @@
       <title>Stickers</title>
       <link>/tags/stickers/</link>
       <pubDate>Tue, 11 Sep 2012 17:33:35 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/stickers/</guid>
       <description></description>
     </item>
@@ -3186,7 +3184,7 @@
       <title>Storage</title>
       <link>/tags/storage/</link>
       <pubDate>Wed, 23 Nov 2016 13:57:56 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/storage/</guid>
       <description></description>
     </item>
@@ -3195,7 +3193,7 @@
       <title>Storeserv</title>
       <link>/tags/storeserv/</link>
       <pubDate>Thu, 21 Aug 2014 22:21:59 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/storeserv/</guid>
       <description></description>
     </item>
@@ -3204,7 +3202,7 @@
       <title>Suggestion</title>
       <link>/tags/suggestion/</link>
       <pubDate>Thu, 21 Feb 2013 08:45:25 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/suggestion/</guid>
       <description></description>
     </item>
@@ -3213,7 +3211,7 @@
       <title>Suse</title>
       <link>/tags/suse/</link>
       <pubDate>Tue, 19 Feb 2013 23:50:20 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/suse/</guid>
       <description></description>
     </item>
@@ -3222,7 +3220,7 @@
       <title>Syslog</title>
       <link>/tags/syslog/</link>
       <pubDate>Fri, 04 Nov 2011 22:06:32 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/syslog/</guid>
       <description></description>
     </item>
@@ -3231,7 +3229,7 @@
       <title>System Center</title>
       <link>/tags/system-center/</link>
       <pubDate>Tue, 29 Oct 2013 23:25:14 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/system-center/</guid>
       <description></description>
     </item>
@@ -3240,7 +3238,7 @@
       <title>Tech Conference</title>
       <link>/tags/tech-conference/</link>
       <pubDate>Wed, 09 Oct 2013 18:04:02 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/tech-conference/</guid>
       <description></description>
     </item>
@@ -3249,7 +3247,7 @@
       <title>Tech Field Day</title>
       <link>/tags/tech-field-day/</link>
       <pubDate>Mon, 27 Jun 2011 22:38:26 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/tech-field-day/</guid>
       <description></description>
     </item>
@@ -3258,7 +3256,7 @@
       <title>Terminal</title>
       <link>/tags/terminal/</link>
       <pubDate>Tue, 11 Sep 2012 21:19:12 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/terminal/</guid>
       <description></description>
     </item>
@@ -3267,7 +3265,7 @@
       <title>Theme</title>
       <link>/tags/theme/</link>
       <pubDate>Thu, 24 Nov 2016 00:11:08 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/theme/</guid>
       <description></description>
     </item>
@@ -3276,7 +3274,7 @@
       <title>Thin Client</title>
       <link>/tags/thin-client/</link>
       <pubDate>Thu, 05 Dec 2013 22:47:32 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/thin-client/</guid>
       <description></description>
     </item>
@@ -3285,7 +3283,7 @@
       <title>Thinapp</title>
       <link>/tags/thinapp/</link>
       <pubDate>Fri, 03 Aug 2012 21:17:13 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/thinapp/</guid>
       <description></description>
     </item>
@@ -3294,7 +3292,7 @@
       <title>Tips Amp Tricks</title>
       <link>/tags/tips-amp-tricks/</link>
       <pubDate>Sun, 13 Mar 2011 21:29:42 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/tips-amp-tricks/</guid>
       <description></description>
     </item>
@@ -3303,7 +3301,7 @@
       <title>Todo</title>
       <link>/tags/todo/</link>
       <pubDate>Tue, 24 Oct 2017 10:38:13 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/todo/</guid>
       <description></description>
     </item>
@@ -3312,7 +3310,7 @@
       <title>Todoist</title>
       <link>/tags/todoist/</link>
       <pubDate>Tue, 24 Oct 2017 13:47:35 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/todoist/</guid>
       <description></description>
     </item>
@@ -3321,7 +3319,7 @@
       <title>Togaf</title>
       <link>/tags/togaf/</link>
       <pubDate>Wed, 11 Feb 2015 23:28:23 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/togaf/</guid>
       <description></description>
     </item>
@@ -3330,7 +3328,7 @@
       <title>Tool</title>
       <link>/tags/tool/</link>
       <pubDate>Thu, 25 Aug 2011 21:51:37 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/tool/</guid>
       <description></description>
     </item>
@@ -3339,7 +3337,7 @@
       <title>Topology</title>
       <link>/tags/topology/</link>
       <pubDate>Sun, 22 May 2016 19:19:52 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/topology/</guid>
       <description></description>
     </item>
@@ -3348,7 +3346,7 @@
       <title>Topvblog</title>
       <link>/tags/topvblog/</link>
       <pubDate>Sat, 09 Jul 2016 20:59:02 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/topvblog/</guid>
       <description></description>
     </item>
@@ -3357,7 +3355,7 @@
       <title>Tpm</title>
       <link>/tags/tpm/</link>
       <pubDate>Sat, 07 Jan 2012 22:44:33 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/tpm/</guid>
       <description></description>
     </item>
@@ -3366,7 +3364,7 @@
       <title>Training</title>
       <link>/tags/training/</link>
       <pubDate>Tue, 29 Oct 2013 23:25:14 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/training/</guid>
       <description></description>
     </item>
@@ -3375,7 +3373,7 @@
       <title>Trainsignal</title>
       <link>/tags/trainsignal/</link>
       <pubDate>Fri, 22 Feb 2013 08:55:41 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/trainsignal/</guid>
       <description></description>
     </item>
@@ -3384,7 +3382,7 @@
       <title>Travel</title>
       <link>/tags/travel/</link>
       <pubDate>Thu, 26 Apr 2012 20:35:39 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/travel/</guid>
       <description></description>
     </item>
@@ -3393,7 +3391,7 @@
       <title>Trial</title>
       <link>/tags/trial/</link>
       <pubDate>Sat, 05 Nov 2011 09:55:30 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/trial/</guid>
       <description></description>
     </item>
@@ -3402,7 +3400,7 @@
       <title>Troubleshooting</title>
       <link>/tags/troubleshooting/</link>
       <pubDate>Sun, 18 Jan 2015 22:57:34 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/troubleshooting/</guid>
       <description></description>
     </item>
@@ -3411,7 +3409,7 @@
       <title>Tunnels</title>
       <link>/tags/tunnels/</link>
       <pubDate>Fri, 14 Oct 2016 13:03:41 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/tunnels/</guid>
       <description></description>
     </item>
@@ -3420,7 +3418,7 @@
       <title>Ubuntu</title>
       <link>/tags/ubuntu/</link>
       <pubDate>Tue, 07 Oct 2014 23:26:03 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/ubuntu/</guid>
       <description></description>
     </item>
@@ -3429,7 +3427,7 @@
       <title>Unconference</title>
       <link>/tags/unconference/</link>
       <pubDate>Wed, 27 Jun 2012 00:07:18 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/unconference/</guid>
       <description></description>
     </item>
@@ -3438,7 +3436,7 @@
       <title>Unsupported</title>
       <link>/tags/unsupported/</link>
       <pubDate>Tue, 07 Oct 2014 23:26:03 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/unsupported/</guid>
       <description></description>
     </item>
@@ -3447,7 +3445,7 @@
       <title>Update</title>
       <link>/tags/update/</link>
       <pubDate>Mon, 10 Oct 2016 13:18:30 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/update/</guid>
       <description></description>
     </item>
@@ -3456,7 +3454,7 @@
       <title>Upgrade</title>
       <link>/tags/upgrade/</link>
       <pubDate>Fri, 28 Aug 2015 10:46:24 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/upgrade/</guid>
       <description></description>
     </item>
@@ -3465,7 +3463,7 @@
       <title>Usb</title>
       <link>/tags/usb/</link>
       <pubDate>Thu, 22 Jul 2010 23:03:27 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/usb/</guid>
       <description></description>
     </item>
@@ -3474,7 +3472,7 @@
       <title>Usercon</title>
       <link>/tags/usercon/</link>
       <pubDate>Sat, 19 Nov 2016 13:04:50 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/usercon/</guid>
       <description></description>
     </item>
@@ -3483,7 +3481,7 @@
       <title>V12n</title>
       <link>/tags/v12n/</link>
       <pubDate>Sun, 24 Jul 2011 22:30:53 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/v12n/</guid>
       <description></description>
     </item>
@@ -3492,7 +3490,7 @@
       <title>Vaio</title>
       <link>/tags/vaio/</link>
       <pubDate>Tue, 03 Feb 2015 13:17:28 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vaio/</guid>
       <description></description>
     </item>
@@ -3501,7 +3499,7 @@
       <title>Vanguards</title>
       <link>/tags/vanguards/</link>
       <pubDate>Mon, 27 Jul 2015 13:38:49 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vanguards/</guid>
       <description></description>
     </item>
@@ -3510,7 +3508,7 @@
       <title>Vblog</title>
       <link>/tags/vblog/</link>
       <pubDate>Tue, 03 May 2016 08:47:23 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vblog/</guid>
       <description></description>
     </item>
@@ -3519,7 +3517,7 @@
       <title>Vcap</title>
       <link>/tags/vcap/</link>
       <pubDate>Fri, 05 Sep 2014 21:36:25 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vcap/</guid>
       <description></description>
     </item>
@@ -3528,7 +3526,7 @@
       <title>Vcap Dca</title>
       <link>/tags/vcap-dca/</link>
       <pubDate>Fri, 05 Sep 2014 21:36:25 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vcap-dca/</guid>
       <description></description>
     </item>
@@ -3537,7 +3535,7 @@
       <title>Vcap Dcd</title>
       <link>/tags/vcap-dcd/</link>
       <pubDate>Wed, 27 Nov 2013 17:09:30 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vcap-dcd/</guid>
       <description></description>
     </item>
@@ -3546,7 +3544,7 @@
       <title>Vcdx</title>
       <link>/tags/vcdx/</link>
       <pubDate>Wed, 11 Feb 2015 23:28:23 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vcdx/</guid>
       <description></description>
     </item>
@@ -3555,7 +3553,7 @@
       <title>Vcdxwannabe</title>
       <link>/tags/vcdxwannabe/</link>
       <pubDate>Tue, 27 Mar 2012 08:46:21 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vcdxwannabe/</guid>
       <description></description>
     </item>
@@ -3564,7 +3562,7 @@
       <title>Vcenter</title>
       <link>/tags/vcenter/</link>
       <pubDate>Thu, 10 Nov 2016 09:57:29 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vcenter/</guid>
       <description></description>
     </item>
@@ -3573,7 +3571,7 @@
       <title>Vcenter Appliance</title>
       <link>/tags/vcenter-appliance/</link>
       <pubDate>Sun, 19 Jan 2014 19:19:02 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vcenter-appliance/</guid>
       <description></description>
     </item>
@@ -3582,7 +3580,7 @@
       <title>Vcenter Client</title>
       <link>/tags/vcenter-client/</link>
       <pubDate>Mon, 12 Mar 2012 12:50:31 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vcenter-client/</guid>
       <description></description>
     </item>
@@ -3591,7 +3589,7 @@
       <title>Vcenter Operations</title>
       <link>/tags/vcenter-operations/</link>
       <pubDate>Mon, 21 Mar 2011 19:50:02 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vcenter-operations/</guid>
       <description></description>
     </item>
@@ -3600,7 +3598,7 @@
       <title>Vcenter Operations Manager</title>
       <link>/tags/vcenter-operations-manager/</link>
       <pubDate>Thu, 21 Aug 2014 22:21:59 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vcenter-operations-manager/</guid>
       <description></description>
     </item>
@@ -3609,7 +3607,7 @@
       <title>Vcenter Server Appliance</title>
       <link>/tags/vcenter-server-appliance/</link>
       <pubDate>Sun, 29 Sep 2013 23:16:25 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vcenter-server-appliance/</guid>
       <description></description>
     </item>
@@ -3618,7 +3616,7 @@
       <title>Vcenter Update Manager</title>
       <link>/tags/vcenter-update-manager/</link>
       <pubDate>Fri, 22 Apr 2011 21:07:35 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vcenter-update-manager/</guid>
       <description></description>
     </item>
@@ -3627,7 +3625,7 @@
       <title>Vcenter Web Client</title>
       <link>/tags/vcenter-web-client/</link>
       <pubDate>Fri, 12 Dec 2014 12:24:55 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vcenter-web-client/</guid>
       <description></description>
     </item>
@@ -3636,7 +3634,7 @@
       <title>Vcli</title>
       <link>/tags/vcli/</link>
       <pubDate>Tue, 08 Mar 2011 08:00:02 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vcli/</guid>
       <description></description>
     </item>
@@ -3645,7 +3643,7 @@
       <title>Vcloud</title>
       <link>/tags/vcloud/</link>
       <pubDate>Thu, 16 Aug 2012 21:17:12 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vcloud/</guid>
       <description></description>
     </item>
@@ -3654,7 +3652,7 @@
       <title>Vcloud Air</title>
       <link>/tags/vcloud-air/</link>
       <pubDate>Fri, 12 Dec 2014 12:24:55 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vcloud-air/</guid>
       <description></description>
     </item>
@@ -3663,7 +3661,7 @@
       <title>Vcp</title>
       <link>/tags/vcp/</link>
       <pubDate>Mon, 10 Mar 2014 19:43:13 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vcp/</guid>
       <description></description>
     </item>
@@ -3672,7 +3670,7 @@
       <title>Vcsa</title>
       <link>/tags/vcsa/</link>
       <pubDate>Thu, 10 Nov 2016 09:57:29 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vcsa/</guid>
       <description></description>
     </item>
@@ -3681,7 +3679,7 @@
       <title>Vdm30in30</title>
       <link>/tags/vdm30in30/</link>
       <pubDate>Sat, 19 Nov 2016 13:04:50 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vdm30in30/</guid>
       <description></description>
     </item>
@@ -3690,7 +3688,7 @@
       <title>Vdr</title>
       <link>/tags/vdr/</link>
       <pubDate>Thu, 10 Jan 2013 13:47:50 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vdr/</guid>
       <description></description>
     </item>
@@ -3699,7 +3697,7 @@
       <title>Veeam</title>
       <link>/tags/veeam/</link>
       <pubDate>Mon, 13 Nov 2017 16:45:46 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/veeam/</guid>
       <description></description>
     </item>
@@ -3708,7 +3706,7 @@
       <title>Veeam Backup Amp Replication</title>
       <link>/tags/veeam-backup-amp-replication/</link>
       <pubDate>Tue, 15 Nov 2016 12:00:50 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/veeam-backup-amp-replication/</guid>
       <description></description>
     </item>
@@ -3717,7 +3715,7 @@
       <title>Venting</title>
       <link>/tags/venting/</link>
       <pubDate>Fri, 22 Aug 2014 18:08:56 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/venting/</guid>
       <description></description>
     </item>
@@ -3726,7 +3724,7 @@
       <title>Vexpert</title>
       <link>/tags/vexpert/</link>
       <pubDate>Fri, 19 Jun 2015 10:10:52 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vexpert/</guid>
       <description></description>
     </item>
@@ -3735,7 +3733,7 @@
       <title>Vflash</title>
       <link>/tags/vflash/</link>
       <pubDate>Mon, 30 Sep 2013 00:12:39 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vflash/</guid>
       <description></description>
     </item>
@@ -3744,7 +3742,7 @@
       <title>Vflash Read Cache</title>
       <link>/tags/vflash-read-cache/</link>
       <pubDate>Sun, 19 Jan 2014 19:19:02 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vflash-read-cache/</guid>
       <description></description>
     </item>
@@ -3753,7 +3751,7 @@
       <title>Vfrc</title>
       <link>/tags/vfrc/</link>
       <pubDate>Sun, 19 Jan 2014 19:19:02 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vfrc/</guid>
       <description></description>
     </item>
@@ -3762,7 +3760,7 @@
       <title>Vib</title>
       <link>/tags/vib/</link>
       <pubDate>Mon, 23 Sep 2013 23:28:04 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vib/</guid>
       <description></description>
     </item>
@@ -3771,7 +3769,7 @@
       <title>Video</title>
       <link>/tags/video/</link>
       <pubDate>Wed, 09 May 2018 13:12:07 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/video/</guid>
       <description></description>
     </item>
@@ -3780,7 +3778,7 @@
       <title>View</title>
       <link>/tags/view/</link>
       <pubDate>Fri, 03 Aug 2012 21:17:13 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/view/</guid>
       <description></description>
     </item>
@@ -3789,7 +3787,7 @@
       <title>Vip Vcp Club</title>
       <link>/tags/vip-vcp-club/</link>
       <pubDate>Thu, 15 Nov 2012 09:59:17 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vip-vcp-club/</guid>
       <description></description>
     </item>
@@ -3798,7 +3796,7 @@
       <title>Virtual Appliance</title>
       <link>/tags/virtual-appliance/</link>
       <pubDate>Tue, 19 Feb 2013 23:50:20 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/virtual-appliance/</guid>
       <description></description>
     </item>
@@ -3807,7 +3805,7 @@
       <title>Virtual Application</title>
       <link>/tags/virtual-application/</link>
       <pubDate>Wed, 16 Nov 2011 23:05:06 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/virtual-application/</guid>
       <description></description>
     </item>
@@ -3816,7 +3814,7 @@
       <title>Virtual Connect</title>
       <link>/tags/virtual-connect/</link>
       <pubDate>Thu, 30 May 2013 21:08:45 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/virtual-connect/</guid>
       <description></description>
     </item>
@@ -3825,7 +3823,7 @@
       <title>Virtualization</title>
       <link>/tags/virtualization/</link>
       <pubDate>Mon, 17 Mar 2014 22:41:34 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/virtualization/</guid>
       <description></description>
     </item>
@@ -3834,7 +3832,7 @@
       <title>Vkernel</title>
       <link>/tags/vkernel/</link>
       <pubDate>Mon, 14 Jan 2013 23:53:50 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vkernel/</guid>
       <description></description>
     </item>
@@ -3843,7 +3841,7 @@
       <title>Vlaunchpad</title>
       <link>/tags/vlaunchpad/</link>
       <pubDate>Wed, 20 Feb 2013 08:14:29 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vlaunchpad/</guid>
       <description></description>
     </item>
@@ -3852,7 +3850,7 @@
       <title>Vm</title>
       <link>/tags/vm/</link>
       <pubDate>Tue, 15 Nov 2016 12:00:50 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vm/</guid>
       <description></description>
     </item>
@@ -3861,7 +3859,7 @@
       <title>Vma</title>
       <link>/tags/vma/</link>
       <pubDate>Tue, 14 May 2013 11:23:13 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vma/</guid>
       <description></description>
     </item>
@@ -3870,7 +3868,7 @@
       <title>Vmfs</title>
       <link>/tags/vmfs/</link>
       <pubDate>Fri, 05 Aug 2011 12:21:31 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vmfs/</guid>
       <description></description>
     </item>
@@ -3879,7 +3877,7 @@
       <title>Vmtn</title>
       <link>/tags/vmtn/</link>
       <pubDate>Mon, 28 Nov 2011 23:16:10 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vmtn/</guid>
       <description></description>
     </item>
@@ -3888,7 +3886,7 @@
       <title>Vmtn Subscription</title>
       <link>/tags/vmtn-subscription/</link>
       <pubDate>Sat, 05 Nov 2011 09:55:30 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vmtn-subscription/</guid>
       <description></description>
     </item>
@@ -3897,7 +3895,7 @@
       <title>Vmug</title>
       <link>/tags/vmug/</link>
       <pubDate>Wed, 13 Dec 2017 15:07:40 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vmug/</guid>
       <description></description>
     </item>
@@ -3906,7 +3904,7 @@
       <title>Vmware</title>
       <link>/tags/vmware/</link>
       <pubDate>Sun, 14 Jan 2018 16:00:00 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vmware/</guid>
       <description></description>
     </item>
@@ -3915,7 +3913,7 @@
       <title>Vmware Forum</title>
       <link>/tags/vmware-forum/</link>
       <pubDate>Thu, 26 Apr 2012 20:35:39 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vmware-forum/</guid>
       <description></description>
     </item>
@@ -3924,7 +3922,7 @@
       <title>Vmware Photon</title>
       <link>/tags/vmware-photon/</link>
       <pubDate>Thu, 14 Jan 2016 12:32:59 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vmware-photon/</guid>
       <description></description>
     </item>
@@ -3933,7 +3931,7 @@
       <title>Vmware Player</title>
       <link>/tags/vmware-player/</link>
       <pubDate>Tue, 24 Aug 2010 21:48:02 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vmware-player/</guid>
       <description></description>
     </item>
@@ -3942,7 +3940,7 @@
       <title>Vmware Server</title>
       <link>/tags/vmware-server/</link>
       <pubDate>Fri, 13 Aug 2010 23:05:33 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vmware-server/</guid>
       <description></description>
     </item>
@@ -3951,7 +3949,7 @@
       <title>Vmware Software Manager</title>
       <link>/tags/vmware-software-manager/</link>
       <pubDate>Fri, 13 Mar 2015 11:34:21 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vmware-software-manager/</guid>
       <description></description>
     </item>
@@ -3960,7 +3958,7 @@
       <title>Vmware Studio</title>
       <link>/tags/vmware-studio/</link>
       <pubDate>Tue, 07 Oct 2014 23:26:03 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vmware-studio/</guid>
       <description></description>
     </item>
@@ -3969,7 +3967,7 @@
       <title>Vmware View</title>
       <link>/tags/vmware-view/</link>
       <pubDate>Fri, 03 Aug 2012 21:17:13 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vmware-view/</guid>
       <description></description>
     </item>
@@ -3978,7 +3976,7 @@
       <title>Vmware Workstation</title>
       <link>/tags/vmware-workstation/</link>
       <pubDate>Tue, 25 Jun 2013 08:52:03 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vmware-workstation/</guid>
       <description></description>
     </item>
@@ -3987,7 +3985,7 @@
       <title>Vmware. Vcl</title>
       <link>/tags/vmware.-vcl/</link>
       <pubDate>Sat, 04 Feb 2012 18:43:44 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vmware.-vcl/</guid>
       <description></description>
     </item>
@@ -3996,7 +3994,7 @@
       <title>Vmworld</title>
       <link>/tags/vmworld/</link>
       <pubDate>Fri, 18 Nov 2016 11:23:58 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vmworld/</guid>
       <description></description>
     </item>
@@ -4005,7 +4003,7 @@
       <title>Vmworld 2012</title>
       <link>/tags/vmworld-2012/</link>
       <pubDate>Sun, 22 Jul 2012 17:49:01 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vmworld-2012/</guid>
       <description></description>
     </item>
@@ -4014,7 +4012,7 @@
       <title>Vmworld Fun Contest</title>
       <link>/tags/vmworld-fun-contest/</link>
       <pubDate>Fri, 24 Sep 2010 10:50:28 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vmworld-fun-contest/</guid>
       <description></description>
     </item>
@@ -4023,7 +4021,7 @@
       <title>Vmworld. Rant</title>
       <link>/tags/vmworld.-rant/</link>
       <pubDate>Fri, 05 Sep 2014 18:38:58 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vmworld.-rant/</guid>
       <description></description>
     </item>
@@ -4032,7 +4030,7 @@
       <title>Vmworld2012</title>
       <link>/tags/vmworld2012/</link>
       <pubDate>Wed, 27 Jun 2012 00:07:18 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vmworld2012/</guid>
       <description></description>
     </item>
@@ -4041,7 +4039,7 @@
       <title>Vninja</title>
       <link>/tags/vninja/</link>
       <pubDate>Fri, 30 Dec 2011 18:40:41 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vninja/</guid>
       <description></description>
     </item>
@@ -4050,7 +4048,7 @@
       <title>Vops</title>
       <link>/tags/vops/</link>
       <pubDate>Mon, 14 Jan 2013 23:53:50 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vops/</guid>
       <description></description>
     </item>
@@ -4059,7 +4057,7 @@
       <title>Vote</title>
       <link>/tags/vote/</link>
       <pubDate>Mon, 02 Mar 2015 22:23:03 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vote/</guid>
       <description></description>
     </item>
@@ -4068,7 +4066,7 @@
       <title>Voting</title>
       <link>/tags/voting/</link>
       <pubDate>Tue, 03 May 2016 08:47:23 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/voting/</guid>
       <description></description>
     </item>
@@ -4077,7 +4075,7 @@
       <title>Vpostgres</title>
       <link>/tags/vpostgres/</link>
       <pubDate>Tue, 01 Oct 2013 08:42:47 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vpostgres/</guid>
       <description></description>
     </item>
@@ -4086,7 +4084,7 @@
       <title>Vram</title>
       <link>/tags/vram/</link>
       <pubDate>Tue, 12 Jul 2011 18:36:07 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vram/</guid>
       <description></description>
     </item>
@@ -4095,7 +4093,7 @@
       <title>Vrealize Log Insight</title>
       <link>/tags/vrealize-log-insight/</link>
       <pubDate>Mon, 29 Jan 2018 22:49:53 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vrealize-log-insight/</guid>
       <description></description>
     </item>
@@ -4104,7 +4102,7 @@
       <title>Vrealize Operations</title>
       <link>/tags/vrealize-operations/</link>
       <pubDate>Mon, 29 Jan 2018 22:49:53 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vrealize-operations/</guid>
       <description></description>
     </item>
@@ -4113,7 +4111,7 @@
       <title>Vrli</title>
       <link>/tags/vrli/</link>
       <pubDate>Mon, 29 Jan 2018 22:49:53 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vrli/</guid>
       <description></description>
     </item>
@@ -4122,7 +4120,7 @@
       <title>Vrops</title>
       <link>/tags/vrops/</link>
       <pubDate>Mon, 29 Jan 2018 22:49:53 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vrops/</guid>
       <description></description>
     </item>
@@ -4131,7 +4129,7 @@
       <title>Vrtx</title>
       <link>/tags/vrtx/</link>
       <pubDate>Wed, 19 Feb 2014 12:30:08 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vrtx/</guid>
       <description></description>
     </item>
@@ -4140,7 +4138,7 @@
       <title>Vsamurai</title>
       <link>/tags/vsamurai/</link>
       <pubDate>Wed, 08 Jun 2011 13:57:40 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vsamurai/</guid>
       <description></description>
     </item>
@@ -4149,7 +4147,7 @@
       <title>Vsan</title>
       <link>/tags/vsan/</link>
       <pubDate>Tue, 11 Apr 2017 16:08:30 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vsan/</guid>
       <description></description>
     </item>
@@ -4158,7 +4156,7 @@
       <title>Vshield</title>
       <link>/tags/vshield/</link>
       <pubDate>Tue, 29 Apr 2014 08:18:35 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vshield/</guid>
       <description></description>
     </item>
@@ -4167,7 +4165,7 @@
       <title>Vshield Edge</title>
       <link>/tags/vshield-edge/</link>
       <pubDate>Fri, 05 Oct 2012 21:43:15 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vshield-edge/</guid>
       <description></description>
     </item>
@@ -4176,7 +4174,7 @@
       <title>Vshield Manager</title>
       <link>/tags/vshield-manager/</link>
       <pubDate>Tue, 29 Apr 2014 08:18:35 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vshield-manager/</guid>
       <description></description>
     </item>
@@ -4185,7 +4183,7 @@
       <title>Vsoup</title>
       <link>/tags/vsoup/</link>
       <pubDate>Wed, 01 Jun 2011 11:07:52 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vsoup/</guid>
       <description></description>
     </item>
@@ -4194,7 +4192,7 @@
       <title>Vsphere</title>
       <link>/tags/vsphere/</link>
       <pubDate>Mon, 29 Jan 2018 22:49:53 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vsphere/</guid>
       <description></description>
     </item>
@@ -4203,7 +4201,7 @@
       <title>Vsphere 5</title>
       <link>/tags/vsphere-5/</link>
       <pubDate>Fri, 30 Nov 2012 09:12:50 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vsphere-5/</guid>
       <description></description>
     </item>
@@ -4212,7 +4210,7 @@
       <title>Vsphere 5.5</title>
       <link>/tags/vsphere-5.5/</link>
       <pubDate>Mon, 30 Sep 2013 12:20:38 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vsphere-5.5/</guid>
       <description></description>
     </item>
@@ -4221,7 +4219,7 @@
       <title>Vsphere 6</title>
       <link>/tags/vsphere-6/</link>
       <pubDate>Fri, 13 Mar 2015 11:34:21 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vsphere-6/</guid>
       <description></description>
     </item>
@@ -4230,7 +4228,7 @@
       <title>Vsphere 6.5</title>
       <link>/tags/vsphere-6.5/</link>
       <pubDate>Thu, 10 Nov 2016 09:57:29 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vsphere-6.5/</guid>
       <description></description>
     </item>
@@ -4239,7 +4237,7 @@
       <title>Vsphere Client</title>
       <link>/tags/vsphere-client/</link>
       <pubDate>Fri, 30 Nov 2012 09:12:50 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vsphere-client/</guid>
       <description></description>
     </item>
@@ -4248,7 +4246,7 @@
       <title>Vsphere Land</title>
       <link>/tags/vsphere-land/</link>
       <pubDate>Wed, 20 Feb 2013 08:14:29 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vsphere-land/</guid>
       <description></description>
     </item>
@@ -4257,7 +4255,7 @@
       <title>Vsphere Replication</title>
       <link>/tags/vsphere-replication/</link>
       <pubDate>Fri, 20 Jun 2014 12:34:49 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/vsphere-replication/</guid>
       <description></description>
     </item>
@@ -4266,7 +4264,7 @@
       <title>Watchguard</title>
       <link>/tags/watchguard/</link>
       <pubDate>Fri, 07 Jan 2011 22:07:31 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/watchguard/</guid>
       <description></description>
     </item>
@@ -4275,7 +4273,7 @@
       <title>Waterfall</title>
       <link>/tags/waterfall/</link>
       <pubDate>Mon, 02 Feb 2015 22:36:30 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/waterfall/</guid>
       <description></description>
     </item>
@@ -4284,7 +4282,7 @@
       <title>Web Client</title>
       <link>/tags/web-client/</link>
       <pubDate>Wed, 12 Aug 2015 16:11:16 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/web-client/</guid>
       <description></description>
     </item>
@@ -4293,7 +4291,7 @@
       <title>Webhook</title>
       <link>/tags/webhook/</link>
       <pubDate>Thu, 06 Oct 2016 10:52:09 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/webhook/</guid>
       <description></description>
     </item>
@@ -4302,7 +4300,7 @@
       <title>Webinar</title>
       <link>/tags/webinar/</link>
       <pubDate>Mon, 13 Nov 2017 16:45:46 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/webinar/</guid>
       <description></description>
     </item>
@@ -4311,7 +4309,7 @@
       <title>Weekly</title>
       <link>/tags/weekly/</link>
       <pubDate>Fri, 17 Mar 2017 14:24:11 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/weekly/</guid>
       <description></description>
     </item>
@@ -4320,7 +4318,7 @@
       <title>Weeky</title>
       <link>/tags/weeky/</link>
       <pubDate>Fri, 25 Nov 2016 12:00:45 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/weeky/</guid>
       <description></description>
     </item>
@@ -4329,7 +4327,7 @@
       <title>Whatsup</title>
       <link>/tags/whatsup/</link>
       <pubDate>Tue, 10 Jun 2014 12:48:10 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/whatsup/</guid>
       <description></description>
     </item>
@@ -4338,7 +4336,7 @@
       <title>Whitepaper</title>
       <link>/tags/whitepaper/</link>
       <pubDate>Mon, 20 Jun 2011 20:58:35 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/whitepaper/</guid>
       <description></description>
     </item>
@@ -4347,7 +4345,7 @@
       <title>Window Manager</title>
       <link>/tags/window-manager/</link>
       <pubDate>Wed, 31 Jul 2013 23:10:42 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/window-manager/</guid>
       <description></description>
     </item>
@@ -4356,7 +4354,7 @@
       <title>Windows</title>
       <link>/tags/windows/</link>
       <pubDate>Tue, 25 Jun 2013 08:52:03 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/windows/</guid>
       <description></description>
     </item>
@@ -4365,7 +4363,7 @@
       <title>Windows 8</title>
       <link>/tags/windows-8/</link>
       <pubDate>Wed, 14 Sep 2011 12:33:12 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/windows-8/</guid>
       <description></description>
     </item>
@@ -4374,7 +4372,7 @@
       <title>Winner</title>
       <link>/tags/winner/</link>
       <pubDate>Thu, 08 May 2014 11:21:00 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/winner/</guid>
       <description></description>
     </item>
@@ -4383,7 +4381,7 @@
       <title>Winners</title>
       <link>/tags/winners/</link>
       <pubDate>Fri, 20 Jun 2014 09:47:22 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/winners/</guid>
       <description></description>
     </item>
@@ -4392,7 +4390,7 @@
       <title>Wordpress</title>
       <link>/tags/wordpress/</link>
       <pubDate>Thu, 24 Nov 2016 00:11:08 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/wordpress/</guid>
       <description></description>
     </item>
@@ -4401,7 +4399,7 @@
       <title>Work</title>
       <link>/tags/work/</link>
       <pubDate>Tue, 24 Oct 2017 10:38:13 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/work/</guid>
       <description></description>
     </item>
@@ -4410,7 +4408,7 @@
       <title>Workaround</title>
       <link>/tags/workaround/</link>
       <pubDate>Mon, 25 Mar 2013 09:03:41 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/workaround/</guid>
       <description></description>
     </item>
@@ -4419,7 +4417,7 @@
       <title>Workflow</title>
       <link>/tags/workflow/</link>
       <pubDate>Tue, 24 Oct 2017 13:47:35 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/workflow/</guid>
       <description></description>
     </item>
@@ -4428,7 +4426,7 @@
       <title>Workstation</title>
       <link>/tags/workstation/</link>
       <pubDate>Tue, 25 Jun 2013 08:52:03 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/workstation/</guid>
       <description></description>
     </item>
@@ -4437,7 +4435,7 @@
       <title>Workstation 8</title>
       <link>/tags/workstation-8/</link>
       <pubDate>Thu, 15 Sep 2011 09:18:44 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/workstation-8/</guid>
       <description></description>
     </item>
@@ -4446,7 +4444,7 @@
       <title>Wsus</title>
       <link>/tags/wsus/</link>
       <pubDate>Thu, 25 Aug 2011 21:51:37 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/wsus/</guid>
       <description></description>
     </item>
@@ -4455,7 +4453,7 @@
       <title>Xen</title>
       <link>/tags/xen/</link>
       <pubDate>Sun, 12 Jun 2011 20:34:52 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/xen/</guid>
       <description></description>
     </item>
@@ -4464,7 +4462,7 @@
       <title>Xvmotion</title>
       <link>/tags/xvmotion/</link>
       <pubDate>Tue, 28 Mar 2017 11:44:58 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/xvmotion/</guid>
       <description></description>
     </item>
@@ -4473,7 +4471,7 @@
       <title>Youtube</title>
       <link>/tags/youtube/</link>
       <pubDate>Wed, 09 May 2018 13:12:07 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/youtube/</guid>
       <description></description>
     </item>
@@ -4482,7 +4480,7 @@
       <title>Zerto</title>
       <link>/tags/zerto/</link>
       <pubDate>Mon, 27 Jun 2011 22:38:26 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/tags/zerto/</guid>
       <description></description>
     </item>

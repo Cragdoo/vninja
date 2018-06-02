@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Digital Ship on My blog</title>
+    <title>Digital Ship on Adventures in Hugo</title>
     <link>/tags/digital-ship/</link>
-    <description>Recent content in Digital Ship on My blog</description>
+    <description>Recent content in Digital Ship on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <managingEditor>yourname@example.com (yourname)</managingEditor>
-    <webMaster>yourname@example.com (yourname)</webMaster>
-    <copyright>(c) 2016 Copyright my blog</copyright>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Fri, 01 Apr 2011 09:20:20 +0000</lastBuildDate>
     
 	<atom:link href="/tags/digital-ship/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +16,7 @@
       <title>Digital Ship Magazine April 2011</title>
       <link>/news/digital-ship-magazine-april-2011/</link>
       <pubDate>Fri, 01 Apr 2011 09:20:20 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/news/digital-ship-magazine-april-2011/</guid>
       <description>Back in February 2011 I was invited, along with my IT Manager, to do a presentation at Digital Ship Scandinavia 2011.
 Digital Ship magazine has now published an article based on what we presented at the live event. As far as I can gather, based on the feedback both at the event and afterwards, the presentation was a success and now the Digital Ship Magazine for April 2011 includes a two page article based on the entire presentation.</description>

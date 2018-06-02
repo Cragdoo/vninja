@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Aws on My blog</title>
+    <title>Aws on Adventures in Hugo</title>
     <link>/tags/aws/</link>
-    <description>Recent content in Aws on My blog</description>
+    <description>Recent content in Aws on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <managingEditor>yourname@example.com (yourname)</managingEditor>
-    <webMaster>yourname@example.com (yourname)</webMaster>
-    <copyright>(c) 2016 Copyright my blog</copyright>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Fri, 14 Oct 2016 18:57:20 +0000</lastBuildDate>
     
 	<atom:link href="/tags/aws/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +16,7 @@
       <title>Me too: VMware Cloud™ on AWS</title>
       <link>/news/me-too-vmware-cloud-on-aws/</link>
       <pubDate>Fri, 14 Oct 2016 18:57:20 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/news/me-too-vmware-cloud-on-aws/</guid>
       <description>After yesterdays announcement of VMware Cloud™ on AWS everyone and their distant relatives have published their opinion pieces on the relevance of the deal, and what who got the short end of the stick in this deal. I guess this is my attempt, or me too post if you will.
 First off, the best source for actual facts and not conjecture, besides the press releases and actual announcement, is Frank Denneman&amp;rsquo;s VMware Cloud™ on AWS – A Closer Look post (and by the way, it just_ feels right_ that Frank is back at VMware).</description>
@@ -28,7 +26,7 @@ First off, the best source for actual facts and not conjecture, besides the pres
       <title>Ravello Offers Free Lab Service for all 2015 vExperts</title>
       <link>/virtualization/ravello/</link>
       <pubDate>Fri, 19 Jun 2015 10:10:52 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/virtualization/ravello/</guid>
       <description>RavelloSystems has announced free lab service for all 2015 vExperts, which offers 1,000 free CPU hours per month for personal or home lab use.
 I was lucky enough to be one of the early VMware on AWS VIP Pass users, and I&amp;rsquo;ve been working on several setups the last few weeks. Hopefully I&amp;rsquo;ll be able to make those available as blueprints in the new Ravello Repo, once they are ready for publishing.</description>

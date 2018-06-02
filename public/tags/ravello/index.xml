@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ravello on My blog</title>
+    <title>Ravello on Adventures in Hugo</title>
     <link>/tags/ravello/</link>
-    <description>Recent content in Ravello on My blog</description>
+    <description>Recent content in Ravello on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <managingEditor>yourname@example.com (yourname)</managingEditor>
-    <webMaster>yourname@example.com (yourname)</webMaster>
-    <copyright>(c) 2016 Copyright my blog</copyright>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Thu, 14 Jan 2016 12:32:59 +0000</lastBuildDate>
     
 	<atom:link href="/tags/ravello/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +16,7 @@
       <title>Running Dockerflix on Ravello Systems</title>
       <link>/virtualization/running-dockerflix-on-ravello-systems/</link>
       <pubDate>Thu, 14 Jan 2016 12:32:59 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/virtualization/running-dockerflix-on-ravello-systems/</guid>
       <description>Dockerflix is a nice little project that allows you to route your Netflix (and other various streaming services) through a SNI Proxy to access content otherwise geo-blocked. Of course, this requires that you have a VM with for instance an US IP to provide the breakout network, and that&amp;rsquo;s where Ravello Systems comes into the equation. Luckily as a current vExpert I have access to 1000 free monthly CPU hours of personal/lab usage, all with a choice of regions to put the VM in.</description>
     </item>
@@ -27,7 +25,7 @@
       <title>Ravello Offers Free Lab Service for all 2015 vExperts</title>
       <link>/virtualization/ravello/</link>
       <pubDate>Fri, 19 Jun 2015 10:10:52 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/virtualization/ravello/</guid>
       <description>RavelloSystems has announced free lab service for all 2015 vExperts, which offers 1,000 free CPU hours per month for personal or home lab use.
 I was lucky enough to be one of the early VMware on AWS VIP Pass users, and I&amp;rsquo;ve been working on several setups the last few weeks. Hopefully I&amp;rsquo;ll be able to make those available as blueprints in the new Ravello Repo, once they are ready for publishing.</description>

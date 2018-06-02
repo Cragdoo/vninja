@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Microvisor on My blog</title>
+    <title>Microvisor on Adventures in Hugo</title>
     <link>/tags/microvisor/</link>
-    <description>Recent content in Microvisor on My blog</description>
+    <description>Recent content in Microvisor on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <managingEditor>yourname@example.com (yourname)</managingEditor>
-    <webMaster>yourname@example.com (yourname)</webMaster>
-    <copyright>(c) 2016 Copyright my blog</copyright>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Fri, 13 Nov 2015 08:54:01 +0000</lastBuildDate>
     
 	<atom:link href="/tags/microvisor/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +16,7 @@
       <title>VMware VSAN - More than meets the eye.</title>
       <link>/virtualization/vmware-vsan-more-than-meets-the-eye/</link>
       <pubDate>Fri, 13 Nov 2015 08:54:01 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/virtualization/vmware-vsan-more-than-meets-the-eye/</guid>
       <description>Way back in 2014 I wrote a piece called VSAN – The Unspoken Future, and I think it&amp;rsquo;s about time it got a revision. Of course, lots of things have happened to VSAN since then and even more is on the way, but I think there is more to this than adding features like erasure coding, deduplication and compression. All of these are important features, and frankly they need to be in a product that aims a lot higher than you might think.</description>
     </item>

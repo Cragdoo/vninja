@@ -1,164 +1,126 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-<head>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <title>Running Dockerflix on Ravello Systems  &middot; My blog</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="HandheldFriendly" content="True">
-<meta name="MobileOptimized" content="320">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
 
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<meta name="description" content="" />
-
-<meta name="keywords" content="Docker, Dockerflix, Hipster IT, Ravello, VMware Photon, ">
-
-
-<meta property="og:title" content="Running Dockerflix on Ravello Systems  &middot; My blog ">
-<meta property="og:site_name" content="My blog"/>
-<meta property="og:url" content="/virtualization/running-dockerflix-on-ravello-systems/" />
-<meta property="og:locale" content="en">
-
-
+<meta property="og:title" content="Running Dockerflix on Ravello Systems" />
+<meta property="og:description" content="Dockerflix is a nice little project that allows you to route your Netflix (and other various streaming services) through a SNI Proxy to access content otherwise geo-blocked. Of course, this requires that you have a VM with for instance an US IP to provide the breakout network, and that&rsquo;s where Ravello Systems comes into the equation. Luckily as a current vExpert I have access to 1000 free monthly CPU hours of personal/lab usage, all with a choice of regions to put the VM in." />
 <meta property="og:type" content="article" />
-<meta property="og:description" content=""/>
-<meta property="og:article:published_time" content="2016-01-14T12:32:59Z" />
-<meta property="og:article:modified_time" content="2016-01-14T12:32:59Z" />
-
-  
-    
-<meta property="og:article:tag" content="Docker">
-    
-<meta property="og:article:tag" content="Dockerflix">
-    
-<meta property="og:article:tag" content="Hipster IT">
-    
-<meta property="og:article:tag" content="Ravello">
-    
-<meta property="og:article:tag" content="VMware Photon">
-    
-  
-
-  
-
-  
+<meta property="og:url" content="/virtualization/running-dockerflix-on-ravello-systems/" />
 
 
 
-<link rel="canonical" href="/virtualization/running-dockerflix-on-ravello-systems/" />
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/touch-icon-144-precomposed.png">
-<link rel="icon" href="/favicon.png">
+<meta property="article:published_time" content="2016-01-14T12:32:59&#43;00:00"/>
+
+<meta property="article:modified_time" content="2016-01-14T12:32:59&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Running Dockerflix on Ravello Systems"/>
+<meta name="twitter:description" content="Dockerflix is a nice little project that allows you to route your Netflix (and other various streaming services) through a SNI Proxy to access content otherwise geo-blocked. Of course, this requires that you have a VM with for instance an US IP to provide the breakout network, and that&rsquo;s where Ravello Systems comes into the equation. Luckily as a current vExpert I have access to 1000 free monthly CPU hours of personal/lab usage, all with a choice of regions to put the VM in."/>
 <meta name="generator" content="Hugo 0.40.3" />
 
-  <!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
-<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-<![endif]-->
+
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Running Dockerflix on Ravello Systems",
+  "url": "/virtualization/running-dockerflix-on-ravello-systems/",
+  "wordCount": "371",
+  "datePublished": "2016-01-14T12:32:59&#43;00:00",
+  "dateModified": "2016-01-14T12:32:59&#43;00:00",
+  "author": {
+    "@type": "Person",
+    "name": "cmohn"
+  },
+  "keywords": "Virtualization, Docker, Dockerflix, Hipster IT, Ravello, VMware Photon"
+}
+</script>
 
 
 
-    <link rel="stylesheet" href="/css/bootswatch/paper/bootstrap.min.css">
+    <link rel="canonical" href="/virtualization/running-dockerflix-on-ravello-systems/">
 
+    <title>Running Dockerflix on Ravello Systems | Adventures in Hugo</title>
 
-<link rel="stylesheet" href="/css/font-awesome.min.css">
-<link rel="stylesheet" href="/css/style.css">
+    <!-- combined, minified CSS -->
+    <link href="/css/style.css" rel="stylesheet" integrity="sha384-TbfEhJn4HkgPUIZUhhHaAYsycYKHxSuIloCjZOiyCSpbVunRQxg5T5pxKVFwxilF" crossorigin="anonymous">
 
+    
 
+    
 
+    
 
-  <link rel="stylesheet" href="/css/highlight/default.css">
+    
 
+  </head>
 
-</head>
-<body data-ng-app="myapp" data-ng-controller="MyController" data-ng-mouseleave="MouseLeave($event)">
-    <header id="main-header">
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="/">Home</a>
           
-          <a class="navbar-brand-img" href="/">
-            <img alt="Appernetic blog" src="http://blog.appernetic.io/images/apperneticlogo.png">
-            
-          </a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav navbar-right">
-            
-            
-            <li class="">
-              
-                <a href="https://appernetic.io/app/#/about" >
-                  <i class='fa fa-road'></i>
-                  About
-                </a>
-              
-            </li>
-            
-            <li class="">
-              
-                <a href="/post/" >
-                  
-                  Blog
-                </a>
-              
-            </li>
-            
-            <li class="">
-              
-                <a href="https://appernetic.io/app/" >
-                  
-                  Dashboard
-                </a>
-              
-            </li>
-            
-            
-              
-          </ul>
-        </div>
-        
+          <a class="nav-link" href="https://example.org" title="">Link 1</a>
+          
+        </nav>
       </div>
-    </nav>
+    </div>
+    
+
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
+        <p class="lead blog-description">There is a thin line between agile and fragile</p>
+      </div>
+    </header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/virtualization/running-dockerflix-on-ravello-systems/">Running Dockerflix on Ravello Systems</a></h2>
+    <p class="blog-post-meta"><time datetime="2016-01-14T12:32:59Z">Thu Jan 14, 2016</time> by cmohn in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/docker" rel="tag">Docker</a>, <a href="/tags/dockerflix" rel="tag">Dockerflix</a>, <a href="/tags/hipster-it" rel="tag">Hipster IT</a>, <a href="/tags/ravello" rel="tag">Ravello</a>, <a href="/tags/vmware-photon" rel="tag">VMware Photon</a>
+
+</p>
   </header>
-
-
-
-
-
-<div class="container">
-  <div class="row">
-    <div class="col-sm-9">
-
-
-      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >
-<header class="container hat">
-  <h1>Running Dockerflix on Ravello Systems
-</h1>
-
-</header>
-</div>
-
-
-      <div class="content">
   <p><a href="https://github.com/trick77/dockerflix"><img src="http://vninja.net/wordpress/wp-content/uploads/2016/01/Ravello-2016-01-14-13-30-40-300x141.png" alt="Ravello 2016-01-14 13-30-40" />Dockerflix</a> is a nice little project that allows you to route your Netflix (and other various streaming services) through a SNI Proxy to access content otherwise geo-blocked. Of course, this requires that you have a VM with for instance an US IP to provide the breakout network, and that&rsquo;s where Ravello Systems comes into the equation. Luckily as a current vExpert I have access to <a href="http://vninja.net/virtualization/ravello/">1000 free monthly CPU hours</a> of personal/lab usage, all with a <a href="https://support.ravellosystems.com/hc/en-us/articles/215793017">choice of regions</a> to put the VM in. <em>Perfect.</em></p>
 
 <p><a href="http://go.ravellosystems.com/d80sH0DKRI0UC00C56040C0"><img src="http://vninja.net/wordpress/wp-content/uploads/2016/01/unnamed.png" alt="" /></a>I created a <a href="https://vmware.github.io/photon/">VMware Photon</a> based VM on Ravello, with an <a href="https://www.ravellosystems.com/blog/providing-external-access-application-elastic-ip-addressing/">Elastic IP</a> that allows the IP to stick to the VM, even if it&rsquo;s moved to another public cloud,  and installed Dockerflix. VMware Photon doesn&rsquo;t come with <em>docker-compose</em>, which Dockerflix is dependant on, check <a href="https://docs.docker.com/compose/install/">Install Docker Compose</a> for details on how to install it. Once that is installed, run the following command to download and install Dockerflix.</p>
 
-<p>[cc lang=&laquo;bash&raquo; width=&laquo;100%&raquo; theme=&laquo;blackboard&raquo; nowrap=&laquo;0&raquo;]git clone <a href="https://github.com/trick77/dockerflix.git[/cc">https://github.com/trick77/dockerflix.git[/cc</a>]</p>
+<p>[cc lang=&ldquo;bash&rdquo; width=&ldquo;100%&rdquo; theme=&ldquo;blackboard&rdquo; nowrap=&ldquo;0&rdquo;]git clone <a href="https://github.com/trick77/dockerflix.git[/cc">https://github.com/trick77/dockerflix.git[/cc</a>]</p>
 
 <p>Setup of Dockerflix itself is pretty straight forward, just follow the <a href="https://github.com/trick77/dockerflix/blob/master/README.md">README</a> provided by the project. Make sure you enable http/https/ssh to the VM with a public IP. Once that was done, I set up <a href="http://www.thekelleys.org.uk/dnsmasq/doc.html">dnsmasq</a> on one of the Linux VMs in my home-lab, with the output config the python script provided by Dockerflix.</p>
 
-<p>[cc lang=&laquo;bash&raquo; width=&laquo;100%&raquo; theme=&laquo;blackboard&raquo; nowrap=&laquo;0&raquo;]python ./gendns-conf.py &ndash;remoteip [RAVELLO_PUBLIC_IP][/cc]</p>
+<p>[cc lang=&ldquo;bash&rdquo; width=&ldquo;100%&rdquo; theme=&ldquo;blackboard&rdquo; nowrap=&ldquo;0&rdquo;]python ./gendns-conf.py &ndash;remoteip [RAVELLO_PUBLIC_IP][/cc]</p>
 
 <p><strong>Note:</strong> <em>Running this permanently would be a violation of the Ravello vExpert Terms of Service. This is to be considered a technical Proof of Concept, more than a permanent setup. I haven&rsquo;t investigated the possibility to set up something like this permanently on either vCloud Air, AWS, Azure or Google Cloud Platform, or if you are even allowed to do so. But then again, all you are doing is routing IP traffic&hellip;</em></p>
 
@@ -166,167 +128,73 @@
 
 <p>Configuring it was a great exercise. Not only did I get to play with VMware Photon and Docker, but it also shows that using Ravello Systems to perform Proof of Concept scenarios is perfectly viable, even enjoyable.</p>
 
-</div>
 
-
-      
-    </div>
-    
-      <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-        <div>
   
 
-    <div class="section">
-      <header><div class="title"><b>Latest Posts</b></div></header>
-      <div class="content">
-        <ul>
-        
-        </ul>
-      </div>
-    </div>
+  
+  <hr>
+  <footer>
 
-    
+  
+    <section>
+    <h4>Share</h4>
+    <nav class="nav sharing-icons">
+      <a class="nav-item" href="https://www.facebook.com/sharer/sharer.php?u=%2fvirtualization%2frunning-dockerflix-on-ravello-systems%2f" title="Share on Facebook"><span class="fa fa-facebook fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://plus.google.com/share?url=%2fvirtualization%2frunning-dockerflix-on-ravello-systems%2f" title="Share on Google+"><span class="fa fa-google-plus fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fvirtualization%2frunning-dockerflix-on-ravello-systems%2f" title="Share on LinkedIn"><span class="fa fa-linkedin fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://twitter.com/home?status=%2fvirtualization%2frunning-dockerflix-on-ravello-systems%2f" title="Tweet this"><span class="fa fa-twitter fa-2x"></span></a>
+    </nav>
+  </section>
+
+  
+
+  
+  </footer>
+  
+
+</article> 
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
       
+      <li><a href="https://example.com">Link 1</a></li>
       
-      <div class="section taxonomies">
-        <header><div class="title"><b>tag</b></div></header>
-
-        <div class="content">
-          <ul>
-            <li><a href="/tags/vmware">vmware</a></li><li><a href="/tags/vsphere">vsphere</a></li><li><a href="/tags/vcenter">vcenter</a></li><li><a href="/tags/fun">fun</a></li><li><a href="/tags/ops">ops</a></li><li><a href="/tags/virtualization">virtualization</a></li><li><a href="/tags/esxi">esxi</a></li><li><a href="/tags/vmworld">vmworld</a></li><li><a href="/tags/news">news</a></li><li><a href="/tags/veeam">veeam</a></li>
-          </ul>
-        </div>
-      </div>
+      <li><a href="https://example.org">Link 2</a></li>
       
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
     
+
+    
+    <footer class="blog-footer">
+      <p>
       
+      &copy; Christian Mohn
       
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
     
-
-</div>
-
-      </div>
-    
-  </div>
-</div>
-    
-<footer class="footer hidden-print">
-  <div class="container">
-    <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-           <div class="pull-left">
-  <a class="toplink" href="javascript:" id="return-to-top">back to top</a>
-</div>
-<div class="pull-right">
-
-<a href="/disclaimer/">Disclaimer</a> <i>&middot;</i>
-
-<a href="/terms/">Terms</a> 
-
-</div>
-
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-              
-    
-<div class="container footline">
-    <small>
-  code with <i class='fa fa-heart'></i>
-
-</small>
-</div>
-
-
-    
-<div class="container copyright">
-    <small>
-  &copy; 2016 Copyright my blog
-
-  </small>
-</div>
-
-
-
-        </div>
-    </div>
-  </div>
-</footer>
-
-    
-
-<script src="/js/jquery.min.js"></script>
-<script src="/js/bootstrap.min.js"></script>
-
-
-<script src="/js/highlight.pack.js"></script>
-<script src="/js/site.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
-
-
-<script>
-  var _gaq=[['_setAccount','Your Google Analytics tracking code'],['_trackPageview']];
-  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-  g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-  s.parentNode.insertBefore(g,s)}(document,'script'));
-</script>
-
-<script>
-var ENABLE_POPOVER =  false , 
-EXPIRE_COOKIE =  5 , 
-SHOW_MODAL_TIMEOUT =  10000 , 
-MOUSE_LEAVE =  true , 
-MODAL_SIZE = "", 
-POST_URL = "https://zapier.com/hooks/...", 
-SIGNUP_HEADER = "Join Our Newsletter",
-HEADER_IMAGE = "//placehold.it/1000x600",
-IMG_DESCRIPTION = "Placeholder image for this popover modal optin form",
-SIGNUP_TEXT = "Signup today for free and be the first to get notified on new updates.",
-INPUT_PLACEHOLDER = "Enter your email",
-SUBMIT_BUTTON = "Subscribe",
-SUCCESS_MESSAGE = "Thanks for your subscription!",
-ERROR_MESSAGE = "Submitting form failed!",
-OPTIN =  true ,
-COOKIE_NAME = "mycookie1",
-CONTENTLANGUAGE = ""; 
-</script>
-
-
-
-
-
-<script type="text/javascript"
-        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax//MathJax.js"></script>
-<script type="text/javascript"
-        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax//config/TeX-AMS-MML_HTMLorMML.js"></script>
-
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  tex2jax: {
-    inlineMath: [['$','$'], ['\\(','\\)']],
-    displayMath: [['$$','$$'], ['\[','\]']],
-    processEscapes: true,
-    processEnvironments: true,
-    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-    TeX: { equationNumbers: { autoNumber: "AMS" },
-         extensions: ["AMSmath.js", "AMSsymbols.js"] }
-  }
-});
-</script>
-
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Queue(function() {
-    for(var all in MathJax.Hub.getAllJax()) {
-        all.SourceElement().parentNode.className += ' has-jax';
-
-    }
-});
-</script>
-
-
-
-
-
 
   </body>
-</html>
 
+</html>

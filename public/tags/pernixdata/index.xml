@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Pernixdata on My blog</title>
+    <title>Pernixdata on Adventures in Hugo</title>
     <link>/tags/pernixdata/</link>
-    <description>Recent content in Pernixdata on My blog</description>
+    <description>Recent content in Pernixdata on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <managingEditor>yourname@example.com (yourname)</managingEditor>
-    <webMaster>yourname@example.com (yourname)</webMaster>
-    <copyright>(c) 2016 Copyright my blog</copyright>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Thu, 29 Sep 2016 12:08:21 +0000</lastBuildDate>
     
 	<atom:link href="/tags/pernixdata/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +16,7 @@
       <title>Goodbye PernixData FVP and Architect</title>
       <link>/news/goodbye-fvp-and-architect/</link>
       <pubDate>Thu, 29 Sep 2016 12:08:21 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/news/goodbye-fvp-and-architect/</guid>
       <description>As we all know by now, PernixData was gobbled up by Nutanix a while back, and since then there has been a nothing but silence on the future of the FVP and Architect products. Now it seems it&amp;rsquo;s over. The acquisition trigged a bunch of PernixData employees moving elsewhere, and now it&amp;rsquo;s the products time to move on as well.
 From what I&amp;rsquo;m hearing, End of Sale and End of Life for both products are due to be announced soon.</description>
@@ -28,9 +26,9 @@ From what I&amp;rsquo;m hearing, End of Sale and End of Life for both products 
       <title>PernixData vSphere Pocketbook Blog Edition</title>
       <link>/virtualization/pernixdata-vsphere-pocketbook-blog-edition/</link>
       <pubDate>Tue, 12 Aug 2014 15:03:06 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/virtualization/pernixdata-vsphere-pocketbook-blog-edition/</guid>
-      <description>Following the success of the first vSphere Design Pocketbook, PernixData has created a new version, this time dubbed &amp;laquo;Blog Edition&amp;raquo;. Where the first book focused on small &amp;laquo;tweet sized&amp;raquo; design tips, the new one allows for more in-depth articles, lifting the first editions 200 character limit.
+      <description>Following the success of the first vSphere Design Pocketbook, PernixData has created a new version, this time dubbed &amp;ldquo;Blog Edition&amp;rdquo;. Where the first book focused on small &amp;ldquo;tweet sized&amp;rdquo; design tips, the new one allows for more in-depth articles, lifting the first editions 200 character limit.
 For some reason, I have been lucky enough to be selected as one of the contributors!
 You can pick up a printed copy at the PernixData Booth (1017) at VMworld US, or pre-order your electronic copy today.</description>
     </item>

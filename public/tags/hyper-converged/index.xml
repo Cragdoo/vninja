@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hyper Converged on My blog</title>
+    <title>Hyper Converged on Adventures in Hugo</title>
     <link>/tags/hyper-converged/</link>
-    <description>Recent content in Hyper Converged on My blog</description>
+    <description>Recent content in Hyper Converged on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <managingEditor>yourname@example.com (yourname)</managingEditor>
-    <webMaster>yourname@example.com (yourname)</webMaster>
-    <copyright>(c) 2016 Copyright my blog</copyright>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Wed, 20 Aug 2014 13:05:41 +0000</lastBuildDate>
     
 	<atom:link href="/tags/hyper-converged/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +16,7 @@
       <title>Marvin Related VMworld Sessions?</title>
       <link>/vmware-2/marvin-related-vmworld-sessions/</link>
       <pubDate>Wed, 20 Aug 2014 13:05:41 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/vmware-2/marvin-related-vmworld-sessions/</guid>
       <description>It&amp;rsquo;s been a while since I tried speculating on the soon-to-be-announced VMware Marvin project, but some very recent VMworld US 2014 session additions look really interesting in that regard:
 SDDC1818 - VMware Customers Share Experiences and Requirements for Hyper-Converged SDDC2095 - VMware and Hyper-Converged Infrastructure SDDC1767 - SDDC at Scale with VMware Hyper-Converged Infrastructure: Deeper Dive SDDC3245-S - Software-Defined Data Center through Hyper-Converged Infrastructure
@@ -29,9 +27,9 @@ If you look at 1767 specifically, since the other sessions are still very light
       <title>Is Marvin an Acronym?</title>
       <link>/vmware-2/marvin-acronym/</link>
       <pubDate>Tue, 10 Jun 2014 12:59:54 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/vmware-2/marvin-acronym/</guid>
-      <description>[caption id=&amp;laquo;attachment_3213&amp;raquo; align=&amp;laquo;alignright&amp;raquo; width=&amp;laquo;164&amp;raquo;] Marvin the Paranoid Android (HHGG)[/caption]
+      <description>[caption id=&amp;ldquo;attachment_3213&amp;rdquo; align=&amp;ldquo;alignright&amp;rdquo; width=&amp;ldquo;164&amp;rdquo;] Marvin the Paranoid Android (HHGG)[/caption]
 The recent speculations surrounding Marvin has now hit The Register (to bad they don&amp;rsquo;t link this way, but I guess thats how it is) as well, but one piece is still missing, arguably the most important one. We all know that the most important piece of something like this is it&amp;rsquo;s name, or acronym, not it&amp;rsquo;s technical merit&amp;hellip;
 There has been a few attempts at guessing what Marvin is an acronym for, and here are some good ones from twitter:</description>
     </item>
@@ -40,9 +38,9 @@ There has been a few attempts at guessing what Marvin is an acronym for, and her
       <title>Some more Marvin Speculation</title>
       <link>/vmware-2/marvin-speculation/</link>
       <pubDate>Sun, 08 Jun 2014 22:24:23 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/vmware-2/marvin-speculation/</guid>
-      <description>[caption id=&amp;laquo;attachment_3213&amp;raquo; align=&amp;laquo;alignright&amp;raquo; width=&amp;laquo;121&amp;raquo;]Marvin the Paranoid Android (HHGG)[/caption]
+      <description>[caption id=&amp;ldquo;attachment_3213&amp;rdquo; align=&amp;ldquo;alignright&amp;rdquo; width=&amp;ldquo;121&amp;rdquo;]Marvin the Paranoid Android (HHGG)[/caption]
 After close to a full day of Twitter speculations and discussions on what Marvin really is, some thoughts kept stuck with me, and this is my attempt at articulating what I think VMware might be up to.
 _Please note that I have no real knowledge of the status of the project, nor if it really exists outside of a poster in a window in the VMware campus.</description>
     </item>
@@ -51,10 +49,10 @@ _Please note that I have no real knowledge of the status of the project, nor if 
       <title>What is VMware&#39;s Mystic Marvin Project?</title>
       <link>/vmware-2/vmwares-mystic-marvin-project/</link>
       <pubDate>Sun, 08 Jun 2014 09:09:20 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/vmware-2/vmwares-mystic-marvin-project/</guid>
       <description>Yesterday Fletcher Cocquyt posted a rather interesting photo on his Twitter account:
-This is, as far as I know, the first public sighting confirming the existence of the &amp;laquo;mystic&amp;raquo; project Marvin that VMware is working on. The text reads &amp;laquo;Introducing the worlds first 100% VMware powered hyper converged infrastructure appliance.&amp;raquo; I guess some of the VMware engineers forgot that the VMware campus get external visitors from time to time&amp;hellip;
+This is, as far as I know, the first public sighting confirming the existence of the &amp;ldquo;mystic&amp;rdquo; project Marvin that VMware is working on. The text reads &amp;ldquo;Introducing the worlds first 100% VMware powered hyper converged infrastructure appliance.&amp;rdquo; I guess some of the VMware engineers forgot that the VMware campus get external visitors from time to time&amp;hellip;
 So what is it?</description>
     </item>
     

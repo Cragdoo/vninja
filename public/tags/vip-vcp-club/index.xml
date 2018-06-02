@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vip Vcp Club on My blog</title>
+    <title>Vip Vcp Club on Adventures in Hugo</title>
     <link>/tags/vip-vcp-club/</link>
-    <description>Recent content in Vip Vcp Club on My blog</description>
+    <description>Recent content in Vip Vcp Club on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <managingEditor>yourname@example.com (yourname)</managingEditor>
-    <webMaster>yourname@example.com (yourname)</webMaster>
-    <copyright>(c) 2016 Copyright my blog</copyright>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Thu, 15 Nov 2012 09:59:17 +0000</lastBuildDate>
     
 	<atom:link href="/tags/vip-vcp-club/index.xml" rel="self" type="application/rss+xml" />
@@ -18,11 +16,11 @@
       <title>VIP VCP Club 2012</title>
       <link>/vmware-2/vip-vcp-club-2012/</link>
       <pubDate>Thu, 15 Nov 2012 09:59:17 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/vmware-2/vip-vcp-club-2012/</guid>
       <description>VMware Norway held their first ever _VIP VCP Club_ yesterday in Oslo.
 **What is VIP VCP Club? ** This a new concept by VMware Norway, for certified VMware professionals, where the idea is to gather local certified VMware Professionals for a day of hands-on labs, specialized technical sessions and general community building.
-Agenda: [caption id=&amp;laquo;attachment_2216&amp;raquo; align=&amp;laquo;alignright&amp;raquo; width=&amp;laquo;150&amp;raquo;] Lee Dilworth
+Agenda: [caption id=&amp;ldquo;attachment_2216&amp;rdquo; align=&amp;ldquo;alignright&amp;rdquo; width=&amp;ldquo;150&amp;rdquo;] Lee Dilworth
 Juggling for the Crowd[/caption]
  **Storage/HA/DR/Clustering **Presented by Lee Dilworth</description>
     </item>

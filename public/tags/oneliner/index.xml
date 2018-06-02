@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Oneliner on My blog</title>
+    <title>Oneliner on Adventures in Hugo</title>
     <link>/tags/oneliner/</link>
-    <description>Recent content in Oneliner on My blog</description>
+    <description>Recent content in Oneliner on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <managingEditor>yourname@example.com (yourname)</managingEditor>
-    <webMaster>yourname@example.com (yourname)</webMaster>
-    <copyright>(c) 2016 Copyright my blog</copyright>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Fri, 30 Nov 2012 09:12:50 +0000</lastBuildDate>
     
 	<atom:link href="/tags/oneliner/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +16,7 @@
       <title>Exporting vCenter Events with PowerCLI</title>
       <link>/virtualization/exporting-vcenter-events-powercli/</link>
       <pubDate>Fri, 30 Nov 2012 09:12:50 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/virtualization/exporting-vcenter-events-powercli/</guid>
       <description>One of my clients has recently been having issues with their storage solution, and wanted to export the events from vCenter that show storage performance degradation, to aid in troubleshooting with the vendor.
 For some reason, and I have yet to confirm that this is a bug with the vCenter 5.0 appliance or the vCenter Desktop Client, when an event export is done, the storage related events are not exported with the rest of the events.</description>

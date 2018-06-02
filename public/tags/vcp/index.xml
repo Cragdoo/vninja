@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vcp on My blog</title>
+    <title>Vcp on Adventures in Hugo</title>
     <link>/tags/vcp/</link>
-    <description>Recent content in Vcp on My blog</description>
+    <description>Recent content in Vcp on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <managingEditor>yourname@example.com (yourname)</managingEditor>
-    <webMaster>yourname@example.com (yourname)</webMaster>
-    <copyright>(c) 2016 Copyright my blog</copyright>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Mon, 10 Mar 2014 19:43:13 +0000</lastBuildDate>
     
 	<atom:link href="/tags/vcp/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +16,7 @@
       <title>It&#39;s All Fun and Games Until...</title>
       <link>/vmware-2/fun-games-until/</link>
       <pubDate>Mon, 10 Mar 2014 19:43:13 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/vmware-2/fun-games-until/</guid>
       <description>Remember, it&amp;rsquo;s all fun and games until someone loses a certification</description>
     </item>
@@ -27,7 +25,7 @@
       <title>VMware Certified Professional Recertification</title>
       <link>/vmware-2/vmware-certified-professional-recertification/</link>
       <pubDate>Sat, 08 Mar 2014 12:38:37 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/vmware-2/vmware-certified-professional-recertification/</guid>
       <description>VMware has announced a Recertification Policy for it&amp;rsquo;s VMware Certified Professional program, effective as of March 10, 2014.
 In short, it means that you are no longer a VCP(x) for life, but need to recertify every 2 years, unless you take a VCAP exam during the same period. If you do not upgrade your certification, your VCP status is revoked. For all the details, have a look at Recertification Policy: VMware Certified Professional.</description>
@@ -37,22 +35,22 @@ In short, it means that you are no longer a VCP(x) for life, but need to recerti
       <title>Can Microsoft really be Fair and Balanced?</title>
       <link>/virtualization/microsoft-fair-balanced/</link>
       <pubDate>Tue, 29 Oct 2013 23:25:14 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/virtualization/microsoft-fair-balanced/</guid>
       <description>Microsoft has launched Virtualization2, a program to educate VMware administrators on Hyper-V and the System Center suite of tools. In short, these arefree online training sessiosn on November 19th and 20th, that also comes with a voucher for their new Microsoft virtualization certification exam (74-409).
 This comes in addition to their existing Microsoft Virtualization for VMware Professionals Jump Start training course.
-I think this is a good idea, and if you are able to close your eyes to the hyperbole, and disregard things like &amp;laquo;Microsoft Wants to Help VMware Experts “Future-Proof “ Their Career&amp;raquo;, I applaud this initiative.</description>
+I think this is a good idea, and if you are able to close your eyes to the hyperbole, and disregard things like &amp;ldquo;Microsoft Wants to Help VMware Experts “Future-Proof “ Their Career&amp;rdquo;, I applaud this initiative.</description>
     </item>
     
     <item>
       <title>VIP VCP Club 2012</title>
       <link>/vmware-2/vip-vcp-club-2012/</link>
       <pubDate>Thu, 15 Nov 2012 09:59:17 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/vmware-2/vip-vcp-club-2012/</guid>
       <description>VMware Norway held their first ever _VIP VCP Club_ yesterday in Oslo.
 **What is VIP VCP Club? ** This a new concept by VMware Norway, for certified VMware professionals, where the idea is to gather local certified VMware Professionals for a day of hands-on labs, specialized technical sessions and general community building.
-Agenda: [caption id=&amp;laquo;attachment_2216&amp;raquo; align=&amp;laquo;alignright&amp;raquo; width=&amp;laquo;150&amp;raquo;] Lee Dilworth
+Agenda: [caption id=&amp;ldquo;attachment_2216&amp;rdquo; align=&amp;ldquo;alignright&amp;rdquo; width=&amp;ldquo;150&amp;rdquo;] Lee Dilworth
 Juggling for the Crowd[/caption]
  **Storage/HA/DR/Clustering **Presented by Lee Dilworth</description>
     </item>
@@ -61,7 +59,7 @@ Juggling for the Crowd[/caption]
       <title>VCP 5 Certification Requirements Clarification</title>
       <link>/vmware-2/vcp-5-certification-requirement-clarification/</link>
       <pubDate>Fri, 03 Feb 2012 20:54:51 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/vmware-2/vcp-5-certification-requirement-clarification/</guid>
       <description>In a recent article, VCP 5 certification course deadline looms over VMware pros both vNinja.net contributors (Christian and Ed) are quoted in relation to the VCP 5 certification upgrade deadline of February 29th 2012.
 While I can´t speak for Ed, I can clarify my own comments a bit. The following is a quote from VMware, taken from the article in question:

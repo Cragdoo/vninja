@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vmworld. Rant on My blog</title>
+    <title>Vmworld. Rant on Adventures in Hugo</title>
     <link>/tags/vmworld.-rant/</link>
-    <description>Recent content in Vmworld. Rant on My blog</description>
+    <description>Recent content in Vmworld. Rant on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <managingEditor>yourname@example.com (yourname)</managingEditor>
-    <webMaster>yourname@example.com (yourname)</webMaster>
-    <copyright>(c) 2016 Copyright my blog</copyright>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Fri, 05 Sep 2014 18:38:58 +0000</lastBuildDate>
     
 	<atom:link href="/tags/vmworld.-rant/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +16,7 @@
       <title>VMworld US is over. Now what?</title>
       <link>/rant/vmworld-over-what/</link>
       <pubDate>Fri, 05 Sep 2014 18:38:58 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/rant/vmworld-over-what/</guid>
       <description>Another VMworld US is over, with huge attendee numbers and in keeping with tradition lots of new announcements were made. I&amp;rsquo;m not going to go through them, enough posts have been made about that, the basis of this post is something completely different all together.
 There seems to be a general expectation that we as a community is to be wooed by the announcements and flashy keynotes, but are we really the target audience?</description>

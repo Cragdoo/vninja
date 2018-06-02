@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Patching on My blog</title>
+    <title>Patching on Adventures in Hugo</title>
     <link>/tags/patching/</link>
-    <description>Recent content in Patching on My blog</description>
+    <description>Recent content in Patching on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <managingEditor>yourname@example.com (yourname)</managingEditor>
-    <webMaster>yourname@example.com (yourname)</webMaster>
-    <copyright>(c) 2016 Copyright my blog</copyright>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Mon, 10 Oct 2016 13:18:30 +0000</lastBuildDate>
     
 	<atom:link href="/tags/patching/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +16,7 @@
       <title>Patch those Dell Servers easily!</title>
       <link>/hardware/patch-those-dell-servers-easily/</link>
       <pubDate>Mon, 10 Oct 2016 13:18:30 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/hardware/patch-those-dell-servers-easily/</guid>
       <description>Did you know that Dell has a bootable linux ISO with firmware upgrades for their servers available? Neither did I, but luckily I found it today when needing it at a customer site.
 Check out Updating Dell PowerEdge servers via bootable media / ISO where you can download bootable ISOs for specific server models, and get all your firmware upgraded in one fell swoop.
@@ -29,9 +27,9 @@ Be warned though, it takes quite some time to run though it all (125 update pac
       <title>Poor Man&#39;s WSUS</title>
       <link>/microsoft-2/poor-mans-wsus/</link>
       <pubDate>Thu, 25 Aug 2011 21:51:37 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/microsoft-2/poor-mans-wsus/</guid>
-      <description>Not that WSUS is expensive, after all it&amp;rsquo;s a &amp;laquo;free&amp;raquo; addon to the server you&amp;rsquo;re already running if you need it. Of course, running your own Windows Server Update Services (WSUS) infrastructure is preferable in just about every scenario except for some edge cases where bandwidth or latency issues might prevent you from syncing the updates from a central repository. Sadly, these edge cases enter the fray from time to time and I recently found myself in the middle of such a scenario.</description>
+      <description>Not that WSUS is expensive, after all it&amp;rsquo;s a &amp;ldquo;free&amp;rdquo; addon to the server you&amp;rsquo;re already running if you need it. Of course, running your own Windows Server Update Services (WSUS) infrastructure is preferable in just about every scenario except for some edge cases where bandwidth or latency issues might prevent you from syncing the updates from a central repository. Sadly, these edge cases enter the fray from time to time and I recently found myself in the middle of such a scenario.</description>
     </item>
     
   </channel>

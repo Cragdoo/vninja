@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Todo on My blog</title>
+    <title>Todo on Adventures in Hugo</title>
     <link>/tags/todo/</link>
-    <description>Recent content in Todo on My blog</description>
+    <description>Recent content in Todo on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <managingEditor>yourname@example.com (yourname)</managingEditor>
-    <webMaster>yourname@example.com (yourname)</webMaster>
-    <copyright>(c) 2016 Copyright my blog</copyright>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Tue, 24 Oct 2017 10:38:13 +0000</lastBuildDate>
     
 	<atom:link href="/tags/todo/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +16,7 @@
       <title>How I use Todoist</title>
       <link>/workflow/how-i-use-todoist/</link>
       <pubDate>Tue, 24 Oct 2017 10:38:13 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/workflow/how-i-use-todoist/</guid>
       <description>As I&amp;rsquo;ve mentioned before, I use Todoist to keep track of my personal to-do list. This is the first to-do manager I&amp;rsquo;ve been able to stick with, and I&amp;rsquo;ve been using it daily for well over 2 years now. In that two year period I&amp;rsquo;ve reorganised it a bit, but for the most part I&amp;rsquo;ve been able to keep to the main structure I initially created when setting it up the first time.</description>
     </item>

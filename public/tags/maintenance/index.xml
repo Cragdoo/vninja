@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Maintenance on My blog</title>
+    <title>Maintenance on Adventures in Hugo</title>
     <link>/tags/maintenance/</link>
-    <description>Recent content in Maintenance on My blog</description>
+    <description>Recent content in Maintenance on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <managingEditor>yourname@example.com (yourname)</managingEditor>
-    <webMaster>yourname@example.com (yourname)</webMaster>
-    <copyright>(c) 2016 Copyright my blog</copyright>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Wed, 26 Jun 2013 10:34:18 +0000</lastBuildDate>
     
 	<atom:link href="/tags/maintenance/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +16,7 @@
       <title>Monitoring the ESXi Upgrade Process</title>
       <link>/vmware-2/monitoring-esxi-upgrade-process/</link>
       <pubDate>Wed, 26 Jun 2013 10:34:18 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/vmware-2/monitoring-esxi-upgrade-process/</guid>
       <description>When doing manual host upgrades, either through the direct method or via a locally placed upgrade bundle, there is a distinct lack of progress information available after running the esxcli command.
 Thankfully the ESXi host provides a running logfile of the upgrade process, which makes it much easier to keep track of what is going on and that the upgrade is indeed being performed.
@@ -29,7 +27,7 @@ The esxupdate.log is located in /var/log, and by issuing the following command i
       <title>Installing and configuring VMware vCenter Operations</title>
       <link>/virtualization/installing-and-configuring-vmware-vcenter-operations/</link>
       <pubDate>Mon, 21 Mar 2011 19:50:02 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/virtualization/installing-and-configuring-vmware-vcenter-operations/</guid>
       <description>VMware vCenter Operations was released to the general public a week or so ago and is available for download right now. As usual you can download a 60 day trial, and get started immediately.
 Like other recent management utilities from VMware, vCenter Operations comes in the form of a .OVF template (like vCMA/vMA).
@@ -40,9 +38,9 @@ Installing VMware vCenter Operations Download VMware vCenter Operations and impo
       <title>Virtual Admins - Virtual Pirates?</title>
       <link>/virtualization/virtual-admins-virtual-pirates/</link>
       <pubDate>Thu, 23 Dec 2010 22:20:15 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/virtualization/virtual-admins-virtual-pirates/</guid>
-      <description>When Rich Brambley posted &amp;laquo;A Pirate Invented Server Virtualization&amp;raquo; today, it reminded me of a little story from my own production environment.
+      <description>When Rich Brambley posted &amp;ldquo;A Pirate Invented Server Virtualization&amp;rdquo; today, it reminded me of a little story from my own production environment.
 This story is a couple of years old, but sadly it&amp;rsquo;s still valid. A very specialized application that we run, requires a SQL Server Express instance, a proxy/licensing server and client installation with license files to work. This application isn&amp;rsquo;t very advanced, nor very resource intensive so by nature it&amp;rsquo;s prime for running in a virtualized environment.</description>
     </item>
     
@@ -50,7 +48,7 @@ This story is a couple of years old, but sadly it&amp;rsquo;s still valid. A ver
       <title>vCenter 4.1 Database Recovery Model Defaults</title>
       <link>/virtualization/vcenter-4-1-database-recovery-model-defaults/</link>
       <pubDate>Mon, 04 Oct 2010 21:36:23 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/virtualization/vcenter-4-1-database-recovery-model-defaults/</guid>
       <description>Sometimes leaving the defaults in place might just come back and bite you, hard.
 That might also be the case with your vCenter 4.1 database, as I experienced back in July.
@@ -61,9 +59,9 @@ All of a sudden my vCenter Server stopped working. The symptoms where pretty obv
       <title>P2V a Domain Controller? Why would you?</title>
       <link>/virtualization/p2v-a-domain-controller-why-would-you/</link>
       <pubDate>Tue, 21 Sep 2010 19:39:07 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/virtualization/p2v-a-domain-controller-why-would-you/</guid>
-      <description>Some topics seem to pop up at random intervals, one of them being virtualizing Microsoft Active Directory Domain Controller servers. The question is often either &amp;laquo;Should I virtualize my Domain Controllers, and if so should I virtualize all of them?&amp;raquo; or &amp;laquo;Should I do a P2V (Physical 2 Virtual) conversion of my existing Domain Controllers, or create new ones?&amp;laquo;
+      <description>Some topics seem to pop up at random intervals, one of them being virtualizing Microsoft Active Directory Domain Controller servers. The question is often either &amp;ldquo;Should I virtualize my Domain Controllers, and if so should I virtualize all of them?&amp;rdquo; or &amp;ldquo;Should I do a P2V (Physical 2 Virtual) conversion of my existing Domain Controllers, or create new ones?&amp;ldquo;
 In this post, I&amp;rsquo;ll be talking about the second question. While there is a lot to be said about the first one as well, I&amp;rsquo;ll leave that for future post.</description>
     </item>
     
@@ -71,7 +69,7 @@ In this post, I&amp;rsquo;ll be talking about the second question. While there i
       <title>vCenter Server 4.1 Performance and Best Practices</title>
       <link>/virtualization/vcenter-server-4-1-performance-and-best-practices/</link>
       <pubDate>Tue, 24 Aug 2010 20:06:16 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/virtualization/vcenter-server-4-1-performance-and-best-practices/</guid>
       <description>VMware has published a new whitepaper called VMware vCenter Server Performance and Best Practices.
 This is a must read if you manage a vCenter 4.1 installation, or are currently planning your upgrade.
@@ -82,7 +80,7 @@ The whitepaper highlights the performance improvements in the latest version, si
       <title>Migrating your vCenter from 32bit to 64bit</title>
       <link>/virtualization/migrating-your-vcenter-from-32bit-to-64bit/</link>
       <pubDate>Wed, 21 Jul 2010 12:11:28 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/virtualization/migrating-your-vcenter-from-32bit-to-64bit/</guid>
       <description>As you may or may not know, the new vCenter 4.1 requires that the host it runs on is 64 bit. As 4.0 and previous versions weren&amp;rsquo;t supported on 64 bit at all, this probably means that when you upgrade you will need to move your existing database to a new host.
 There are several ways of doing the migration, but one way is to backup your existing database, and restore it on a new host and point the new vCenter 4.</description>

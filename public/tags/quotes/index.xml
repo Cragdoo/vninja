@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Quotes on My blog</title>
+    <title>Quotes on Adventures in Hugo</title>
     <link>/tags/quotes/</link>
-    <description>Recent content in Quotes on My blog</description>
+    <description>Recent content in Quotes on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <managingEditor>yourname@example.com (yourname)</managingEditor>
-    <webMaster>yourname@example.com (yourname)</webMaster>
-    <copyright>(c) 2016 Copyright my blog</copyright>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Wed, 29 Jan 2014 15:58:10 +0000</lastBuildDate>
     
 	<atom:link href="/tags/quotes/index.xml" rel="self" type="application/rss+xml" />
@@ -18,17 +16,17 @@
       <title>Random VCDX Tips and Quotes?</title>
       <link>/virtualization/random-vcdx-tips-quotes/</link>
       <pubDate>Wed, 29 Jan 2014 15:58:10 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/virtualization/random-vcdx-tips-quotes/</guid>
       <description>I needed something to spruce up my desktop environment, and it seems that one of the more popular ways to do that is to display random quotes and such on your desktop. Instead of hooking up to an existing quotes database, I simply made my own.
-I have collected a few VCDX related tips and quotes, primarily from the archive Duncan Epping put together of VCDX Tips from VCDX 001 John Arrasjid, but also from the &amp;laquo;submissions&amp;raquo; I got from VCDX?</description>
+I have collected a few VCDX related tips and quotes, primarily from the archive Duncan Epping put together of VCDX Tips from VCDX 001 John Arrasjid, but also from the &amp;ldquo;submissions&amp;rdquo; I got from VCDX?</description>
     </item>
     
     <item>
       <title>VCDX? Give me a Quote!</title>
       <link>/news/vcdx-give-quote/</link>
       <pubDate>Fri, 24 Jan 2014 18:25:38 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/news/vcdx-give-quote/</guid>
       <description>For a tiny project, I need some help from anyone who has completed (successfully or not) the VCDX process.
 _All I&amp;rsquo;m asking is that you provide me with a single line quote about the VCDX process, or the VCDX program itself. _
@@ -39,9 +37,9 @@ Please send any quotes to me on Twitter, either as a mention or as a DM, your ch
       <title>Blatant Self Promotion</title>
       <link>/virtualization/blatant-self-promotion/</link>
       <pubDate>Mon, 28 Nov 2011 23:16:10 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/virtualization/blatant-self-promotion/</guid>
-      <description>As the title says, it&amp;rsquo;s been one of my more &amp;laquo;public&amp;raquo; weeks ever. Besides my &amp;laquo;normal&amp;raquo; vSoup engagement, this week I&amp;rsquo;ve also been involved with Mike Laverick&amp;rsquo;s VMTN Subscription Movement Miniwags to voice some of my views about the #VMTNSubscriptionMovement.
+      <description>As the title says, it&amp;rsquo;s been one of my more &amp;ldquo;public&amp;rdquo; weeks ever. Besides my &amp;ldquo;normal&amp;rdquo; vSoup engagement, this week I&amp;rsquo;ve also been involved with Mike Laverick&amp;rsquo;s VMTN Subscription Movement Miniwags to voice some of my views about the #VMTNSubscriptionMovement.
 Fair warning: This is video, and please to remember that during recording Movember was nearing its final phase. VMTN Subscription Movement Miniwags – Christian Mohn
 Secondly, I was a guest on the Veeam Community Podcast Episode 45 – vSphere 5 Storage Potpourri.</description>
     </item>

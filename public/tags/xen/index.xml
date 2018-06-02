@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Xen on My blog</title>
+    <title>Xen on Adventures in Hugo</title>
     <link>/tags/xen/</link>
-    <description>Recent content in Xen on My blog</description>
+    <description>Recent content in Xen on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <managingEditor>yourname@example.com (yourname)</managingEditor>
-    <webMaster>yourname@example.com (yourname)</webMaster>
-    <copyright>(c) 2016 Copyright my blog</copyright>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Sun, 12 Jun 2011 20:34:52 +0000</lastBuildDate>
     
 	<atom:link href="/tags/xen/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +16,7 @@
       <title>Multi-Hypervisor Management and the Future</title>
       <link>/news/multi-hypervisor-management-and-the-future/</link>
       <pubDate>Sun, 12 Jun 2011 20:34:52 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/news/multi-hypervisor-management-and-the-future/</guid>
       <description>In a previous post, vCenter Integration Mantra, I made the point that vSphere vAdmins wants the 3rd party modules to integrate into the vCenter client and show their delicious addon-value there, and not in their own management interface. Give the vAdmins the info they need, where they do most, if not all their work. Open up the admin client and let us get all that juicy and fruity information we need.</description>
     </item>

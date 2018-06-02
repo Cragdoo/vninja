@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Windows on My blog</title>
+    <title>Windows on Adventures in Hugo</title>
     <link>/tags/windows/</link>
-    <description>Recent content in Windows on My blog</description>
+    <description>Recent content in Windows on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <managingEditor>yourname@example.com (yourname)</managingEditor>
-    <webMaster>yourname@example.com (yourname)</webMaster>
-    <copyright>(c) 2016 Copyright my blog</copyright>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Tue, 25 Jun 2013 08:52:03 +0000</lastBuildDate>
     
 	<atom:link href="/tags/windows/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +16,7 @@
       <title>Centrally Disable NAT in VMware Workstation</title>
       <link>/vmware-2/centrally-disable-nat-vmware-workstation/</link>
       <pubDate>Tue, 25 Jun 2013 08:52:03 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/vmware-2/centrally-disable-nat-vmware-workstation/</guid>
       <description>A fellow IT-professional, who works with the non-wired flavor of networking, contacted me with the following scenario:
 A group of users, developers in this case, have VMware Workstation installed on their laptops. This makes it easy for them to manage, test and develop their applications in a closed environment without having to install a bunch of tools/services on their centrally managed laptop environment. An excellent use case for VMware Workstation if there ever was one.</description>
@@ -28,10 +26,10 @@ A group of users, developers in this case, have VMware Workstation installed on 
       <title>SCCM 2007 Not a Virtualization Candidate?</title>
       <link>/microsoft-2/sccm-2007-not-a-virtualization-candidate/</link>
       <pubDate>Fri, 26 Aug 2011 08:10:54 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/microsoft-2/sccm-2007-not-a-virtualization-candidate/</guid>
       <description>The last couple of days I&amp;rsquo;ve been in training class, taking the 6451B Planning, Deploying and Managing Microsoft System Center Configuration Manager 2007 course.
-One of the first things that got mentioned, was that for larger deployments you should not run System Center Configuration Manager virtually. Of course, this caught my eye as I&amp;rsquo;m a proponent for the virtualize first &amp;laquo;movement&amp;raquo;.
+One of the first things that got mentioned, was that for larger deployments you should not run System Center Configuration Manager virtually. Of course, this caught my eye as I&amp;rsquo;m a proponent for the virtualize first &amp;ldquo;movement&amp;rdquo;.
 It runs out that the reason for this is that Configuration Manager is somewhat poorly designed, as just about everything it receives from the clients in the network is placed in text based log files (inbox folder) before being processed and pumped into the back-end SQL DB.</description>
     </item>
     
@@ -39,7 +37,7 @@ It runs out that the reason for this is that Configuration Manager is somewhat p
       <title>Exchange 2010 SP1 and KB2393802 or How to Have an Interesting Afternoon at the Office</title>
       <link>/microsoft-2/exchange-2010-sp1-and-kb2393802-or-how-to-have-an-interesting-afternoon-at-the-office/</link>
       <pubDate>Wed, 06 Jul 2011 12:51:21 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/microsoft-2/exchange-2010-sp1-and-kb2393802-or-how-to-have-an-interesting-afternoon-at-the-office/</guid>
       <description>Let me start this post out with a little story. I am normally a hardcore virtualization and storage guy. Sometimes my career in this sector brings me into working with stuff I haven&amp;rsquo;t worked with before because virtualization encompasses so much. As I continue to work with other teams I learn more and more about what they do everyday. I usually find myself involved in every performance troubleshooting session and every new project these days.</description>
     </item>
@@ -48,7 +46,7 @@ It runs out that the reason for this is that Configuration Manager is somewhat p
       <title>Installing and running VMware Compliance Checker for vSphere</title>
       <link>/news/installing-and-running-vmware-compliance-checker-for-vsphere/</link>
       <pubDate>Wed, 20 Apr 2011 07:01:37 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/news/installing-and-running-vmware-compliance-checker-for-vsphere/</guid>
       <description>The first version of the new VMware Compliance Checker for vSphere tool is now available for download.
 VMware Compliance Checker for vSphere lets you scan your ESX and ESXi hosts for compliance with the VMware vSphere hardening guidelines to make sure your hosts are properly configured. It also lets you save and print your assessment results, so you can track your compliance level over time, or use them as documentation for internal audits.</description>
@@ -58,7 +56,7 @@ VMware Compliance Checker for vSphere lets you scan your ESX and ESXi hosts for 
       <title>Remote Desktop Connection Manager (RDCMan) &#43; Powershell = Win</title>
       <link>/howto/remote-desktop-connection-manager-rdcman-powershell-win/</link>
       <pubDate>Thu, 20 Jan 2011 14:51:46 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/howto/remote-desktop-connection-manager-rdcman-powershell-win/</guid>
       <description>Remote Desktop Connection Manager is a great tool from Microsoft which enables you to keep track of all your RDP sessions and targets in a nice GUI. One of the things it&amp;rsquo;s lacking though, is some sort of Active Directory connection that allows you to import all your server objects directly, and not manually add/remove the serves as your infrastructure changes over time.
 In an attempt to bridge that gap, I&amp;rsquo;ve made a very small PowerShell script that queries your Active Directory for server objects and dumps their names into a text file that you can import into RDCMan.</description>

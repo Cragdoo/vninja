@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Multipath on My blog</title>
+    <title>Multipath on Adventures in Hugo</title>
     <link>/tags/multipath/</link>
-    <description>Recent content in Multipath on My blog</description>
+    <description>Recent content in Multipath on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <managingEditor>yourname@example.com (yourname)</managingEditor>
-    <webMaster>yourname@example.com (yourname)</webMaster>
-    <copyright>(c) 2016 Copyright my blog</copyright>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Mon, 22 Apr 2013 21:31:46 +0000</lastBuildDate>
     
 	<atom:link href="/tags/multipath/index.xml" rel="self" type="application/rss+xml" />
@@ -18,9 +16,9 @@
       <title>Installing Dell Equallogic Multipathing Extension Module (MEM) in vSphere 5.1</title>
       <link>/virtualization/installing-dell-equallogic-multipathing-extension-module-mem-vsphere-5-1/</link>
       <pubDate>Mon, 22 Apr 2013 21:31:46 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/virtualization/installing-dell-equallogic-multipathing-extension-module-mem-vsphere-5-1/</guid>
-      <description>Dell offers a Multipathing Extension Module (MEM) for vSphere, and in this post I´ll highlight how to &amp;laquo;manually&amp;raquo; install it on a ESXi 5.1 host. I will not cover the network setup part of the equation, but rather go through the simple steps required to get the MEM installed on the hosts in question.
+      <description>Dell offers a Multipathing Extension Module (MEM) for vSphere, and in this post I´ll highlight how to &amp;ldquo;manually&amp;rdquo; install it on a ESXi 5.1 host. I will not cover the network setup part of the equation, but rather go through the simple steps required to get the MEM installed on the hosts in question.
 First of all, you need to download the MEM installation package. At the time of writing, the latest version is v1.</description>
     </item>
     

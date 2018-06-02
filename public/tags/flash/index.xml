@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Flash on My blog</title>
+    <title>Flash on Adventures in Hugo</title>
     <link>/tags/flash/</link>
-    <description>Recent content in Flash on My blog</description>
+    <description>Recent content in Flash on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <managingEditor>yourname@example.com (yourname)</managingEditor>
-    <webMaster>yourname@example.com (yourname)</webMaster>
-    <copyright>(c) 2016 Copyright my blog</copyright>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Mon, 13 Jul 2015 22:17:12 +0000</lastBuildDate>
     
 	<atom:link href="/tags/flash/index.xml" rel="self" type="application/rss+xml" />
@@ -18,9 +16,9 @@
       <title>It&#39;s Time to End the Add on Insanity</title>
       <link>/rant/time-add-insanity/</link>
       <pubDate>Mon, 13 Jul 2015 22:17:12 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/rant/time-add-insanity/</guid>
-      <description>For the third time in a week, researchers have discovered a zero-day vulnerability in Adobe’s Flash Player browser plugin. Like the previous two discoveries, this one came to light only after hackers dumped online huge troves of documents stolen from Hacking Team — an Italian security firm that sells software exploits to governments around the world. This quote is from Brian Krebs, who very rightfully goes on to advise that everyone &amp;laquo;please consider removing or at least hobbling this program.</description>
+      <description>For the third time in a week, researchers have discovered a zero-day vulnerability in Adobe’s Flash Player browser plugin. Like the previous two discoveries, this one came to light only after hackers dumped online huge troves of documents stolen from Hacking Team — an Italian security firm that sells software exploits to governments around the world. This quote is from Brian Krebs, who very rightfully goes on to advise that everyone &amp;ldquo;please consider removing or at least hobbling this program.</description>
     </item>
     
   </channel>

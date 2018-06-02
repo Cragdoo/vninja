@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vaio on My blog</title>
+    <title>Vaio on Adventures in Hugo</title>
     <link>/tags/vaio/</link>
-    <description>Recent content in Vaio on My blog</description>
+    <description>Recent content in Vaio on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <managingEditor>yourname@example.com (yourname)</managingEditor>
-    <webMaster>yourname@example.com (yourname)</webMaster>
-    <copyright>(c) 2016 Copyright my blog</copyright>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Tue, 03 Feb 2015 13:17:28 +0000</lastBuildDate>
     
 	<atom:link href="/tags/vaio/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +16,7 @@
       <title>Dude, where is my VAIO?</title>
       <link>/virtualization/dude-vaio/</link>
       <pubDate>Tue, 03 Feb 2015 13:17:28 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/virtualization/dude-vaio/</guid>
       <description>New Update: Alex Jauch, VAIO Product Manager has provided an update on why there there has been so little information available, and when to expect that to change.
 Updated: Since this post was initially published, information about the VAIO capabilities in vSphere 6.0 has been published. In vSphere APIs for IO Filtering Ken Werneburg goes through the details on how it works, and how partners will get access through a SDK some time in the coming months.</description>

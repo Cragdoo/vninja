@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Github on My blog</title>
+    <title>Github on Adventures in Hugo</title>
     <link>/tags/github/</link>
-    <description>Recent content in Github on My blog</description>
+    <description>Recent content in Github on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <managingEditor>yourname@example.com (yourname)</managingEditor>
-    <webMaster>yourname@example.com (yourname)</webMaster>
-    <copyright>(c) 2016 Copyright my blog</copyright>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Mon, 12 Jan 2015 23:31:45 +0000</lastBuildDate>
     
 	<atom:link href="/tags/github/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +16,7 @@
       <title>Markdown All the Things!</title>
       <link>/virtualization/markdown-things/</link>
       <pubDate>Mon, 12 Jan 2015 23:31:45 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/virtualization/markdown-things/</guid>
       <description>Obviously I&amp;rsquo;m a bit late to the party here, but I guess late is better than never. It recently dawned on me that mucking about with lots of different file formats, interfaces and ways of doing things is rather counterproductive.
 A lot of my work these days are related to generating content, be it a simple blog post like this or writing customer proposals and documentation. In the end, the deliverables are often quite different, but at the core they are strangely enough very similar.</description>

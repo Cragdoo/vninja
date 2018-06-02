@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Quote on My blog</title>
+    <title>Quote on Adventures in Hugo</title>
     <link>/tags/quote/</link>
-    <description>Recent content in Quote on My blog</description>
+    <description>Recent content in Quote on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <managingEditor>yourname@example.com (yourname)</managingEditor>
-    <webMaster>yourname@example.com (yourname)</webMaster>
-    <copyright>(c) 2016 Copyright my blog</copyright>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Wed, 23 Jan 2013 14:42:40 +0000</lastBuildDate>
     
 	<atom:link href="/tags/quote/index.xml" rel="self" type="application/rss+xml" />
@@ -18,9 +16,9 @@
       <title>Goodbye Mr. Herrod</title>
       <link>/vmware-2/goodbye-mr-herrod/</link>
       <pubDate>Wed, 23 Jan 2013 14:42:40 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/vmware-2/goodbye-mr-herrod/</guid>
-      <description>SearchserverVirtualization published an article today called &amp;laquo;Experts weigh in on CTO Herrod&amp;rsquo;s departure, future of VMware&amp;raquo; where I have been quoted in regard toSteve Herrod&amp;rsquo;s departure from VMware.
+      <description>SearchserverVirtualization published an article today called &amp;ldquo;Experts weigh in on CTO Herrod&amp;rsquo;s departure, future of VMware&amp;rdquo; where I have been quoted in regard toSteve Herrod&amp;rsquo;s departure from VMware.
 While the quote itself is correct, I feel that there is a need to further expand on what I said, in the context it was given in.
 So here it is, my entire response:
 My reaction to Steve Herrods departure is probably on par with just about everyone else&#39;s, one of surprise.</description>

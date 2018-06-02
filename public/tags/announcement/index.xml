@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Announcement on My blog</title>
+    <title>Announcement on Adventures in Hugo</title>
     <link>/tags/announcement/</link>
-    <description>Recent content in Announcement on My blog</description>
+    <description>Recent content in Announcement on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <managingEditor>yourname@example.com (yourname)</managingEditor>
-    <webMaster>yourname@example.com (yourname)</webMaster>
-    <copyright>(c) 2016 Copyright my blog</copyright>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Mon, 25 Aug 2014 13:30:58 +0000</lastBuildDate>
     
 	<atom:link href="/tags/announcement/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +16,7 @@
       <title>It&#39;s official EVO:RAIL it is</title>
       <link>/vmware-2/official-evorail/</link>
       <pubDate>Mon, 25 Aug 2014 13:30:58 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/vmware-2/official-evorail/</guid>
       <description>VMware has finally announced what I&amp;rsquo;ve been speculating about for some time now, EVO:RAIL was announced at VMworld US this morning. Short story; It&amp;rsquo;s a HCIA (Hyper Converged Infrastructure Appliance), offered through several hardware vendors, with a new integrated management solution.
 Since I&amp;rsquo;m not at VMworld my self, I&amp;rsquo;ll leave the blog postings to those close to the action, but here is a quick collection of links to get you acquainted with the next EVOlution of SDDC from VMware:</description>

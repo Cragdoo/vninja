@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Opinion on My blog</title>
+    <title>Opinion on Adventures in Hugo</title>
     <link>/tags/opinion/</link>
-    <description>Recent content in Opinion on My blog</description>
+    <description>Recent content in Opinion on Adventures in Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <managingEditor>yourname@example.com (yourname)</managingEditor>
-    <webMaster>yourname@example.com (yourname)</webMaster>
-    <copyright>(c) 2016 Copyright my blog</copyright>
+    <language>en-us</language>
+    <copyright>(c) Christian Mohn</copyright>
     <lastBuildDate>Fri, 05 Sep 2014 18:38:58 +0000</lastBuildDate>
     
 	<atom:link href="/tags/opinion/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +16,7 @@
       <title>VMworld US is over. Now what?</title>
       <link>/rant/vmworld-over-what/</link>
       <pubDate>Fri, 05 Sep 2014 18:38:58 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/rant/vmworld-over-what/</guid>
       <description>Another VMworld US is over, with huge attendee numbers and in keeping with tradition lots of new announcements were made. I&amp;rsquo;m not going to go through them, enough posts have been made about that, the basis of this post is something completely different all together.
 There seems to be a general expectation that we as a community is to be wooed by the announcements and flashy keynotes, but are we really the target audience?</description>
@@ -28,12 +26,12 @@ There seems to be a general expectation that we as a community is to be wooed by
       <title>VMware launches Public vCloud &#34;Test-Drive&#34;</title>
       <link>/news/vmware-launches-public-vcloud-test-driv/</link>
       <pubDate>Thu, 16 Aug 2012 21:17:12 +0000</pubDate>
-      <author>yourname@example.com (yourname)</author>
+      
       <guid>/news/vmware-launches-public-vcloud-test-driv/</guid>
       <description>VMware Offers vCloud “Test-Drive” with New Evaluation Service.
-This announcement doesn´t seem to be &amp;laquo;Project Zephyr&amp;raquo; which, if the rumors are true, is VMware´s own fully fledged IaaS service.
+This announcement doesn´t seem to be &amp;ldquo;Project Zephyr&amp;rdquo; which, if the rumors are true, is VMware´s own fully fledged IaaS service.
 This Public vCloud “Test-Drive” service, which VMware themselves describe as “white-label” from a vCloud service provider, seems like a way for VMware to provide cheap test-drive access, to vCloud through their existing service providers.
-Where the rumored &amp;laquo;Project Zephyr&amp;raquo; might be seen as a competing service, Public vCloud looks to be engineered to drive long term customers to the existing ecosystem of providers.</description>
+Where the rumored &amp;ldquo;Project Zephyr&amp;rdquo; might be seen as a competing service, Public vCloud looks to be engineered to drive long term customers to the existing ecosystem of providers.</description>
     </item>
     
   </channel>
