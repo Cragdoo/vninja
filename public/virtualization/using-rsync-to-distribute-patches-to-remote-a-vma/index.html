@@ -1,119 +1,159 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Using rsync to Distribute Patches to a Remote vMA   &middot; Adventures in Hugo</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <head>
-    <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<meta property="og:title" content="Using rsync to Distribute Patches to a Remote vMA " />
-<meta property="og:description" content="I recently posted Using vMA as a local vSphere Patch Repository, where I outlined how you can use your vMA instances as local file repositories for updates.
-This post is a continuation of that concept, but this time I&rsquo;ll take it a step further and utilize rsync to make sure my vMA instances all contain the same set of patches. Rsync is great for this, as it handles fast incremental file transfers, which is a real time and bandwidth saver in my particular scenario." />
-<meta property="og:type" content="article" />
+<meta name="description" content="There is a thin line between agile and fragile" />
+
+<meta name="keywords" content="ESX, ESXi, Ops, rsync, vCLI, Virtual Appliance, vMA, VMware, vSphere, ">
+
+
+<meta property="og:title" content="Using rsync to Distribute Patches to a Remote vMA   &middot; Adventures in Hugo ">
+<meta property="og:site_name" content="Adventures in Hugo"/>
 <meta property="og:url" content="/virtualization/using-rsync-to-distribute-patches-to-remote-a-vma/" />
+<meta property="og:locale" content="en-us">
+
+
+<meta property="og:type" content="article" />
+<meta property="og:description" content=""/>
+<meta property="og:article:published_time" content="2011-03-08T08:00:02Z" />
+<meta property="og:article:modified_time" content="2011-03-08T08:00:02Z" />
+
+  
+    
+<meta property="og:article:tag" content="ESX">
+    
+<meta property="og:article:tag" content="ESXi">
+    
+<meta property="og:article:tag" content="Ops">
+    
+<meta property="og:article:tag" content="rsync">
+    
+<meta property="og:article:tag" content="vCLI">
+    
+<meta property="og:article:tag" content="Virtual Appliance">
+    
+<meta property="og:article:tag" content="vMA">
+    
+<meta property="og:article:tag" content="VMware">
+    
+<meta property="og:article:tag" content="vSphere">
+    
+  
+
+  
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@" />
+<meta name="twitter:creator" content="@" />
+<meta name="twitter:title" content="Using rsync to Distribute Patches to a Remote vMA " />
+<meta name="twitter:description" content="" />
+<meta name="twitter:url" content="/virtualization/using-rsync-to-distribute-patches-to-remote-a-vma/" />
+<meta name="twitter:domain" content="/">
+  
+
+  
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "headline": "Using rsync to Distribute Patches to a Remote vMA ",
+    "author": {
+      "@type": "Person",
+      "name": "http://profiles.google.com/+?rel=author"
+    },
+    "datePublished": "2011-03-08",
+    "description": "",
+    "wordCount": 841
+  }
+</script>
+  
 
 
 
-<meta property="article:published_time" content="2011-03-08T08:00:02&#43;00:00"/>
-
-<meta property="article:modified_time" content="2011-03-08T08:00:02&#43;00:00"/>
-
-
-
-
-
-
-
-
-
-
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Using rsync to Distribute Patches to a Remote vMA "/>
-<meta name="twitter:description" content="I recently posted Using vMA as a local vSphere Patch Repository, where I outlined how you can use your vMA instances as local file repositories for updates.
-This post is a continuation of that concept, but this time I&rsquo;ll take it a step further and utilize rsync to make sure my vMA instances all contain the same set of patches. Rsync is great for this, as it handles fast incremental file transfers, which is a real time and bandwidth saver in my particular scenario."/>
+<link rel="canonical" href="/virtualization/using-rsync-to-distribute-patches-to-remote-a-vma/" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/touch-icon-144-precomposed.png">
+<link rel="icon" href="/favicon.png">
 <meta name="generator" content="Hugo 0.40.3" />
 
-
-    
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "BlogPosting",
-  "headline": "Using rsync to Distribute Patches to a Remote vMA ",
-  "url": "/virtualization/using-rsync-to-distribute-patches-to-remote-a-vma/",
-  "wordCount": "841",
-  "datePublished": "2011-03-08T08:00:02&#43;00:00",
-  "dateModified": "2011-03-08T08:00:02&#43;00:00",
-  "author": {
-    "@type": "Person",
-    "name": "cmohn"
-  },
-  "keywords": "Howto, Virtualization, ESX, ESXi, Ops, rsync, vCLI, Virtual Appliance, vMA, VMware, vSphere"
-}
-</script>
+  <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
 
 
 
-    <link rel="canonical" href="/virtualization/using-rsync-to-distribute-patches-to-remote-a-vma/">
+    <link rel="stylesheet" href="/css/bootswatch/default/bootstrap.min.css">
 
-    <title>Using rsync to Distribute Patches to a Remote vMA | Adventures in Hugo</title>
 
-    <!-- combined, minified CSS -->
-    <link href="/css/style.css" rel="stylesheet" integrity="sha384-NnQTHLV1boeEOT&#43;VkddkaZe9ipwgoxh1CLY2U3LM36/GQpTS/1l4lL/5LnWh02Wk" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/style.css">
 
-    
 
-    
 
-    
 
-    
+  <link rel="stylesheet" href="/css/highlight/default.css">
 
-  </head>
 
-  <body>
-
-    
-    <div class="blog-masthead">
-      <div class="container">
-        <nav class="nav blog-nav">
-          <a class="nav-link " href="/">Home</a>
-          
-          <a class="nav-link" href="https://example.org" title="">Link 1</a>
-          
-        </nav>
-      </div>
-    </div>
-    
-
-    
-    <header class="blog-header">
-      <div class="container">
-        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
-        <p class="lead blog-description">There is a thin line between agile and fragile</p>
-      </div>
-    </header>
-    
-
-    
+</head>
+<body data-ng-app="myapp" data-ng-controller="MyController" data-ng-mouseleave="MouseLeave($event)">
+    <header id="main-header">
+  <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
-      <div class="row">
-        <div class="col-sm-8 blog-main">
-
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        
           
-
-
-<article class="blog-post">
-  <header>
-    <h2 class="blog-post-title"><a href="/virtualization/using-rsync-to-distribute-patches-to-remote-a-vma/">Using rsync to Distribute Patches to a Remote vMA</a></h2>
-    <p class="blog-post-meta"><time datetime="2011-03-08T08:00:02Z">Tue Mar 08, 2011</time> by cmohn in 
-<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/howto" rel="category tag">Howto</a>, <a href="/categories/virtualization" rel="category tag">Virtualization</a>
-
-
-<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/esx" rel="tag">ESX</a>, <a href="/tags/esxi" rel="tag">ESXi</a>, <a href="/tags/ops" rel="tag">Ops</a>, <a href="/tags/rsync" rel="tag">rsync</a>, <a href="/tags/vcli" rel="tag">vCLI</a>, <a href="/tags/virtual-appliance" rel="tag">Virtual Appliance</a>, <a href="/tags/vma" rel="tag">vMA</a>, <a href="/tags/vmware" rel="tag">VMware</a>, <a href="/tags/vsphere" rel="tag">vSphere</a>
-
-</p>
+          <a class="navbar-brand-img" href="/">
+            <img alt="" src="">
+            
+          </a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            
+            
+            
+              
+          </ul>
+        </div>
+        
+      </div>
+    </nav>
   </header>
+
+
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+
+
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >
+<header class="container hat">
+  <h1>Using rsync to Distribute Patches to a Remote vMA 
+</h1>
+
+</header>
+</div>
+
+
+      <div class="content">
   
 
 <p>I recently posted <a href="http://vninja.net/virtualization/using-vma-as-a-local-vsphere-patch-repository/">Using vMA as a local vSphere Patch Repository</a>, where I outlined how you can use your vMA instances as local file repositories for updates.</p>
@@ -239,73 +279,125 @@ drwxr-xr-x 4 root root      4096 Mar  8 18:50 ..
 
 <p>Even if I&rsquo;ve barely touched the features rsync provides, it is clear that this is a way for admins to centrally manage distribution of vSphere patches to remote locations, even if the bandwidth is low and the latency high. Rsync provides us with ways to overcome the patching issues that you might see in poorly networked environments, and it can certainly help vAdmins keeping their environments patched and current, and that has to be a good thing™</p>
 
-
-  
-
-  
-  <hr>
-  <footer>
-
-  
-    <section>
-    <h4>Share</h4>
-    <nav class="nav sharing-icons">
-      <a class="nav-item" href="https://www.facebook.com/sharer/sharer.php?u=%2fvirtualization%2fusing-rsync-to-distribute-patches-to-remote-a-vma%2f" title="Share on Facebook"><span class="fa fa-facebook fa-2x" aria-hidden="true"></span></a>
-      <a class="nav-item" href="https://plus.google.com/share?url=%2fvirtualization%2fusing-rsync-to-distribute-patches-to-remote-a-vma%2f" title="Share on Google+"><span class="fa fa-google-plus fa-2x" aria-hidden="true"></span></a>
-      <a class="nav-item" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fvirtualization%2fusing-rsync-to-distribute-patches-to-remote-a-vma%2f" title="Share on LinkedIn"><span class="fa fa-linkedin fa-2x" aria-hidden="true"></span></a>
-      <a class="nav-item" href="https://twitter.com/home?status=%2fvirtualization%2fusing-rsync-to-distribute-patches-to-remote-a-vma%2f" title="Tweet this"><span class="fa fa-twitter fa-2x"></span></a>
-    </nav>
-  </section>
-
-  
-
-  
-  </footer>
-  
-
-</article> 
+</div>
 
 
-
-        </div> <!-- /.blog-main -->
-
-        <aside class="col-sm-3 ml-auto blog-sidebar">
-  
-
-  
-
-  
-  <section class="sidebar-module">
-    <h4>Links</h4>
-    <ol class="list-unstyled">
       
-      <li><a href="https://example.com">Link 1</a></li>
-      
-      <li><a href="https://example.org">Link 2</a></li>
-      
-    </ol>
-  </section>
-  
-</aside>
-
-
-      </div> <!-- /.row -->
-    </div> <!-- /.container -->
+    </div>
     
+  </div>
+</div>
+    
+<footer class="footer hidden-print">
+  <div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+           <div class="pull-left">
+  <a class="toplink" href="javascript:" id="return-to-top">back to top</a>
+</div>
+<div class="pull-right">
+
+</div>
+
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+              
+    
+<div class="container footline">
+    <small>
+</small>
+</div>
+
 
     
-    <footer class="blog-footer">
-      <p>
-      
-      &copy; Christian Mohn
-      
-      </p>
-      <p>
-      <a href="#">Back to top</a>
-      </p>
-    </footer>
+<div class="container copyright">
+    <small>
+  &copy; Christian Mohn
+
+  </small>
+</div>
+
+
+
+        </div>
+    </div>
+  </div>
+</footer>
+
     
+
+<script src="//s3.amazonaws.com/mailmunch/static/site.js" id="mailmunch-script" data-mailmunch-site-id="" async="async"></script>
+
+
+
+<script src="//load.sumome.com/" data-sumo-site-id="" async="async"></script>
+
+<script src="/js/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+
+
+<script src="/js/highlight.pack.js"></script>
+<script src="/js/site.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+<script>
+var ENABLE_POPOVER = "", 
+EXPIRE_COOKIE = "", 
+SHOW_MODAL_TIMEOUT = "", 
+MOUSE_LEAVE = "", 
+MODAL_SIZE = "", 
+POST_URL = "", 
+SIGNUP_HEADER = "",
+HEADER_IMAGE = "",
+IMG_DESCRIPTION = "",
+SIGNUP_TEXT = "",
+INPUT_PLACEHOLDER = "",
+SUBMIT_BUTTON = "",
+SUCCESS_MESSAGE = "",
+ERROR_MESSAGE = "",
+OPTIN = "",
+COOKIE_NAME = "",
+CONTENTLANGUAGE = ""; 
+</script>
+
+
+
+
+
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax//MathJax.js"></script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax//config/TeX-AMS-MML_HTMLorMML.js"></script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[','\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    for(var all in MathJax.Hub.getAllJax()) {
+        all.SourceElement().parentNode.className += ' has-jax';
+
+    }
+});
+</script>
+
+
+
+
+
 
   </body>
-
 </html>
+

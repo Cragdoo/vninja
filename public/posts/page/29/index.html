@@ -1,267 +1,635 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Posts  &middot; Adventures in Hugo</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <head>
-    <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<meta property="og:title" content="Posts" />
-<meta property="og:description" content="There is a thin line between agile and fragile" />
-<meta property="og:type" content="website" />
+<meta name="description" content="There is a thin line between agile and fragile" />
+
+<meta name="keywords" content="">
+
+
+<meta property="og:title" content="Posts  &middot; Adventures in Hugo ">
+<meta property="og:site_name" content="Adventures in Hugo"/>
 <meta property="og:url" content="/posts/" />
+<meta property="og:locale" content="en-us">
+
+
+<meta property="og:type" content="website" />
 
 
 
-<meta property="og:updated_time" content="2014-02-18T16:16:28&#43;00:00"/>
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="Posts" />
 
-
-
-
-
-
-
-
-
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Posts"/>
-<meta name="twitter:description" content="There is a thin line between agile and fragile"/>
+<link rel="canonical" href="/posts/" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/touch-icon-144-precomposed.png">
+<link rel="icon" href="/favicon.png">
 <meta name="generator" content="Hugo 0.40.3" />
 
-
-    
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "Blog",
-  "headline": "Adventures in Hugo",
-  "url" : "/posts/",
-  "author": {
-    "@type": "Person",
-    "name": "Christian Mohn"
-  },
-  "dateModified": "2014-02-18T16:16:28&#43;00:00",
-  "keywords": "awesometalks,book,hardware,homelab,howto,inthebag,microsoft,misc,network,news,os-x,rant,software,storage,virtualization,vmware,windows,workflow,2011,2014,2015,2016,2017,3par,5.5,6.0,6.5,acronis,adobe,adviceforvmworld,agile,alastair-cooke,alerting,analysis,announcement,annual,api,app-delivery,apple,applescript,appliance,architecture,audio,autolab,automation,automator,availability,award,awesome,awesometalk,aws,awsome,backup,backup-academy,backup-amp-replication,backup-amp-replication-v7,bag,barcelona,bash,best-practice,beta,bitlocker,bl460c,bladesystem,block-size,blog,bloggers,blogging,blogtober,book,boot-camp,bug,c3000,c7000,cancer,care-package,cc,certificate,certificates,certification,change,changelog,changes,charity,christian-mohn,chromecast,cisco,citrix,cloud,cloudflare,cohesity,collaboration,command-line,community,competition,conference,content-creation,contest,contest.-photo,copenhagen,daas,data-center,datastore,day-2,dell,denmark,deployment,desktop,digital-ship,disaster,disaster-recovery,dmarc,dns,docker,dockerflix,documentation,donation,doom,download,dr,dropbox,dynamic-dns,easyvnx,ed,edb-ergogroup,email,embedded-host-client,emc,encryption,epiphany,equallogic,esx,esx-3.5,esxcli,esxi,esxi-4,esxi-5,euc,event,event-id-2915,evernote,everyday,evo,evorail,evry,exchange,experiment,facelift,feature-request,featured,fibre-channel,fire,firewall,firmware,flash,flash-talk,fling,floppy,form-factor,framework,free,free-tool,free-tools,freebie,fun,fundraising,future,g8,gdpr,geektool,github,give-away,gorilla,gpmc,group-policy,group-policy-preferences,ha,hack,hands-on,hands-on-lab,hands-on-labs,happy-dance,harakiri,hardware,hardware-version,health-check,hipster-it,hol,home-lab,homebrew,homelab,homelabops,horizon,horizon-application-manager,host,host-cache,hosted-beta,howto,hp,hp-insight-control,http,hyper-converged,hyper-v,hyperconverged,hypervisor,ideas,ifttt,images,impatient,installation,integrity,intel,internationalization,inthebag,inthebag.-weekly,iomega,ipad,ix2,john-troyer,kb,kb2393802,keep-calm,keynote,keyremap4macbook.-customization,kids,knowledge-base,lab,labs,latency-sensitivity,licenses,licensing,linux,log,log-files,log-insight,mac,macos,maintenance,makyo,management,markdown,marvin,md5,meltdown,messaging,microsoft,microsoft-office,microvisor,mike-laverick,misinformation,monitoring,moref,movember,multipath,nda,neil-armstrong,nested-esxi,networking,news,nfr,nfs,ninja,node,nordic,nordic-vmug,norway,nsx,ntp,nutanix,nutjob,omnigraffle,oneliner,online-training,operations,opinion,ops,organization,os-x,oslo,p220i,packt,pandoc,password,patch,patching,pckeyboardhack,pernixdata,personal,petri,photo,photos,php,pins,plans,plugin,pocket,podcast,podcasting-for-cancer,policy-based-computing,posters,powercli,powergui,powershell,prediction,presentation,proact,productivity,proliant,proof-of-concept,proxy,psc,published,python,quote,quotes,rant,raspberry-pi,ravello,rdcman,real-world,realworld,receiver,recommended,release,remoting,review,role,royaltsx,rpi,rsync,saas,sammy-bogaert,sandisk,sccm,script,scripting,scvmm,sddc,seatrans,security,self-help,self-promotion,server,session,setup,sfp&#43;,sha1,sharing,simulation,site,site-recovery-manager,slack,slate,snapshot,snark,social,social-media,software,speaking,spectacle,spectre,speculation,sql-server-express,ssd,ssh,ssl,sso,statistics,steve-herrod,stickers,storage,storeserv,suggestion,suse,syslog,system-center,tech-conference,tech-field-day,terminal,theme,thin-client,thinapp,tips-amp-tricks,todo,todoist,togaf,tool,topology,topvblog,tpm,training,trainsignal,travel,trial,troubleshooting,tunnels,ubuntu,unconference,unsupported,update,upgrade,usb,usercon,v12n,vaio,vanguards,vblog,vcap,vcap-dca,vcap-dcd,vcdx,vcdxwannabe,vcenter,vcenter-appliance,vcenter-client,vcenter-operations,vcenter-operations-manager,vcenter-server-appliance,vcenter-update-manager,vcenter-web-client,vcli,vcloud,vcloud-air,vcp,vcsa,vdm30in30,vdr,veeam,veeam-backup-amp-replication,venting,vexpert,vflash,vflash-read-cache,vfrc,vib,video,view,vip-vcp-club,virtual-appliance,virtual-application,virtual-connect,virtualization,vkernel,vlaunchpad,vm,vma,vmfs,vmtn,vmtn-subscription,vmug,vmware,vmware-forum,vmware-photon,vmware-player,vmware-server,vmware-software-manager,vmware-studio,vmware-view,vmware-workstation,vmware.-vcl,vmworld,vmworld-2012,vmworld-fun-contest,vmworld.-rant,vmworld2012,vninja,vops,vote,voting,vpostgres,vram,vrealize-log-insight,vrealize-operations,vrli,vrops,vrtx,vsamurai,vsan,vshield,vshield-edge,vshield-manager,vsoup,vsphere,vsphere-5,vsphere-5.5,vsphere-6,vsphere-6.5,vsphere-client,vsphere-land,vsphere-replication,watchguard,waterfall,web-client,webhook,webinar,weekly,weeky,whatsup,whitepaper,window-manager,windows,windows-8,winner,winners,wordpress,work,workaround,workflow,workstation,workstation-8,wsus,xen,xvmotion,youtube,zerto,",
-  "description": "There is a thin line between agile and fragile"
-}
-</script>
+  <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
 
 
-    <link rel="canonical" href="/posts/">
 
-    <title>Adventures in Hugo</title>
+    <link rel="stylesheet" href="/css/bootswatch/default/bootstrap.min.css">
 
-    <!-- combined, minified CSS -->
-    <link href="/css/style.css" rel="stylesheet" integrity="sha384-NnQTHLV1boeEOT&#43;VkddkaZe9ipwgoxh1CLY2U3LM36/GQpTS/1l4lL/5LnWh02Wk" crossorigin="anonymous">
 
-    
-    <!-- RSS 2.0 feed -->
-    <link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="Adventures in Hugo" />
-    
+<link rel="stylesheet" href="/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/style.css">
 
-    
 
-    
 
-    
 
-  </head>
+  <link rel="stylesheet" href="/css/highlight/default.css">
 
-  <body>
 
-    
-    <div class="blog-masthead">
-      <div class="container">
-        <nav class="nav blog-nav">
-          <a class="nav-link " href="/">Home</a>
-          
-          <a class="nav-link" href="https://example.org" title="">Link 1</a>
-          
-        </nav>
-      </div>
-    </div>
-    
-
-    
-    <header class="blog-header">
-      <div class="container">
-        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
-        <p class="lead blog-description">There is a thin line between agile and fragile</p>
-      </div>
-    </header>
-    
-
-    
+</head>
+<body data-ng-app="myapp" data-ng-controller="MyController" data-ng-mouseleave="MouseLeave($event)">
+    <header id="main-header">
+  <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
-      <div class="row">
-        <div class="col-sm-8 blog-main">
-
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        
           
-
-
-
-
-
-
-
-<article class="blog-post">
-  <header>
-    <h2 class="blog-post-title"><a href="/vmware-2/automatically-datastores-vsphere/">Automatically Name Datastores in vSphere?</a></h2>
-    <p class="blog-post-meta"><time datetime="2014-02-18T16:16:28Z">Tue Feb 18, 2014</time> by cmohn in 
-<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/vmware" rel="category tag">VMware</a>
-
-
-<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/datastore" rel="tag">Datastore</a>, <a href="/tags/esxi" rel="tag">ESXi</a>, <a href="/tags/ideas" rel="tag">Ideas</a>, <a href="/tags/policy-based-computing" rel="tag">Policy Based Computing</a>, <a href="/tags/storage" rel="tag">storage</a>, <a href="/tags/vcenter" rel="tag">vCenter</a>, <a href="/tags/virtualization" rel="tag">Virtualization</a>, <a href="/tags/vmware" rel="tag">VMware</a>, <a href="/tags/vsan" rel="tag">VSAN</a>, <a href="/tags/vsphere" rel="tag">vSphere</a>
-
-</p>
+          <a class="navbar-brand-img" href="/">
+            <img alt="" src="">
+            
+          </a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            
+            
+            
+              
+          </ul>
+        </div>
+        
+      </div>
+    </nav>
   </header>
-  William Lam posted &ldquo;Why you should rename the default VSAN Datastore name&rdquo; where he outlines why the default name for VSAN data stores should be changed. Of course, I completely agree with his views on this; Leaving it at the default might cause confusion down the line.
-At the end of the post, William asks the following:
-I wonder if it would be a useful to have a feature in VSAN to automatically append the vSphere Cluster name to the default VSAN Datastore name?
-  <a href='/vmware-2/automatically-datastores-vsphere/'>Read more →</a>
-</article> 
 
 
-
-
-
-
-<article class="blog-post">
+<div id="main-content" class="container">
   <header>
-    <h2 class="blog-post-title"><a href="/virtualization/random-vcdx-tips-quotes/">Random VCDX Tips and Quotes?</a></h2>
-    <p class="blog-post-meta"><time datetime="2014-01-29T15:58:10Z">Wed Jan 29, 2014</time> by cmohn in 
-<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
+    <h1>Posts
+</h1>
 
-
-<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/desktop" rel="tag">Desktop</a>, <a href="/tags/featured" rel="tag">featured</a>, <a href="/tags/fun" rel="tag">fun</a>, <a href="/tags/geektool" rel="tag">GeekTool</a>, <a href="/tags/php" rel="tag">PHP</a>, <a href="/tags/quotes" rel="tag">Quotes</a>, <a href="/tags/script" rel="tag">Script</a>, <a href="/tags/vcdx" rel="tag">VCDX</a>
-
-</p>
   </header>
-  I needed something to spruce up my desktop environment, and it seems that one of the more popular ways to do that is to display random quotes and such on your desktop. Instead of hooking up to an existing quotes database, I simply made my own.
-I have collected a few VCDX related tips and quotes, primarily from the archive Duncan Epping put together of VCDX Tips from VCDX 001 John Arrasjid, but also from the &ldquo;submissions&rdquo; I got from VCDX?
-  <a href='/virtualization/random-vcdx-tips-quotes/'>Read more →</a>
-</article> 
-
-
-
-
-
-
-<article class="blog-post">
-  <header>
-    <h2 class="blog-post-title"><a href="/news/vcdx-give-quote/">VCDX? Give me a Quote!</a></h2>
-    <p class="blog-post-meta"><time datetime="2014-01-24T18:25:38Z">Fri Jan 24, 2014</time> by cmohn in 
-<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/news" rel="category tag">News</a>
-
-
-<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/fun" rel="tag">fun</a>, <a href="/tags/quotes" rel="tag">Quotes</a>, <a href="/tags/vcdx" rel="tag">VCDX</a>
-
-</p>
-  </header>
-  For a tiny project, I need some help from anyone who has completed (successfully or not) the VCDX process.
-_All I&rsquo;m asking is that you provide me with a single line quote about the VCDX process, or the VCDX program itself. _
-Please send any quotes to me on Twitter, either as a mention or as a DM, your choice. Once I have a handful of quotes available, they will be made public for others to use as well&hellip;
-  <a href='/news/vcdx-give-quote/'>Read more →</a>
-</article> 
-
-
-
-
-
-
-<article class="blog-post">
-  <header>
-    <h2 class="blog-post-title"><a href="/virtualization/fixing-could-create-vflash-cache-error-powering-vm/">Fixing &ldquo;Could not create vFlash cache&rdquo; error when powering on a VM</a></h2>
-    <p class="blog-post-meta"><time datetime="2014-01-19T19:19:02Z">Sun Jan 19, 2014</time> by cmohn in 
-<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
-
-
-<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/featured" rel="tag">featured</a>, <a href="/tags/ssd" rel="tag">SSD</a>, <a href="/tags/vcenter" rel="tag">vCenter</a>, <a href="/tags/vcenter-appliance" rel="tag">vCenter Appliance</a>, <a href="/tags/vcsa" rel="tag">VCSA</a>, <a href="/tags/vflash-read-cache" rel="tag">vFlash Read Cache</a>, <a href="/tags/vfrc" rel="tag">vFRC</a>, <a href="/tags/vsphere" rel="tag">vSphere</a>, <a href="/tags/web-client" rel="tag">Web Client</a>
-
-</p>
-  </header>
-  During some way overdue housekeeping in my HP Microserver-based &ldquo;Homelab&rdquo; today, I ran into a rather annoying issue that prevented me from starting one of my more important VMs; namely my home Domain Controller.
-In short, I removed an old SSD drive that I&rsquo;ve used for vFlash Read Cache (vFRC) testing and installed a new 1TB drive instead. Since I have a rather beefy work lab now, I need space more than speed at home, so this seemed like a good idea at the time.
-  <a href='/virtualization/fixing-could-create-vflash-cache-error-powering-vm/'>Read more →</a>
-</article> 
-
-
-
-
-
-
-<article class="blog-post">
-  <header>
-    <h2 class="blog-post-title"><a href="/virtualization/importing-ssl-certificates-raspberry-pi-thin-client/">Importing SSL Certificates to Raspberry Pi Thin Client</a></h2>
-    <p class="blog-post-meta"><time datetime="2013-12-05T22:47:32Z">Thu Dec 05, 2013</time> by cmohn in 
-<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
-
-
-<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/certificates" rel="tag">Certificates</a>, <a href="/tags/citrix" rel="tag">Citrix</a>, <a href="/tags/raspberry-pi" rel="tag">Raspberry Pi</a>, <a href="/tags/receiver" rel="tag">Receiver</a>, <a href="/tags/ssl" rel="tag">SSL</a>, <a href="/tags/thin-client" rel="tag">Thin Client</a>
-
-</p>
-  </header>
-  When playing around with the Raspberry Pi Thin Client, I ran into an issue with the SSL certificates for the Citrix Receiver client. For some reason it didn&rsquo;t want to play with the certificates installed on the server side, and popped the following error message:
-**You have not chosen to trust "AddTrust External CA Root", the issuer of the server's security certificate.** Thankfully there is a quick fix for this! Since Iceweasel is also in the RPTC distribution, and it has a lot more SSL root CA certificates included by default, all that was required (in my case) was to link the certificates it has with the certificates the Citrix Receiver client can use.
-  <a href='/virtualization/importing-ssl-certificates-raspberry-pi-thin-client/'>Read more →</a>
-</article> 
-
-
-
-
-
-<nav class="blog-pagination">
   
-  <a class="btn btn-outline-primary" href="/posts/page/28/" rel="prev" role="button">Previous page</a>
-  <a class="btn btn-outline-primary" href="/posts/page/30/" rel="next" role="button">Next page</a>
+    <h3>
+  <a href="/vmware-2/automatically-datastores-vsphere/">Automatically Name Datastores in vSphere?</a>
+</h3>
+
+
+  
+    <h3>
+  <a href="/virtualization/random-vcdx-tips-quotes/">Random VCDX Tips and Quotes?</a>
+</h3>
+
+
+  
+    <h3>
+  <a href="/news/vcdx-give-quote/">VCDX? Give me a Quote!</a>
+</h3>
+
+
+  
+    <h3>
+  <a href="/virtualization/fixing-could-create-vflash-cache-error-powering-vm/">Fixing &#34;Could not create vFlash cache&#34; error when powering on a VM</a>
+</h3>
+
+
+  
+    <h3>
+  <a href="/virtualization/importing-ssl-certificates-raspberry-pi-thin-client/">Importing SSL Certificates to Raspberry Pi Thin Client</a>
+</h3>
+
+
   
   
-  
+<nav>
+  <ul class="pagination">
+    
+
+
+<li >
+  <a aria-label="First" href="//posts/">
+    <span aria-hidden="true">&laquo;&laquo;</span>
+  </a>
+</li>
+
+<li >
+  <a aria-label="Previous" href="//posts/page/28/">
+    <span aria-hidden="true">&laquo;</span>
+    </a>
+</li>
+
+<li >
+  <a href="//posts/">
+    1
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/2/">
+    2
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/3/">
+    3
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/4/">
+    4
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/5/">
+    5
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/6/">
+    6
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/7/">
+    7
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/8/">
+    8
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/9/">
+    9
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/10/">
+    10
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/11/">
+    11
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/12/">
+    12
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/13/">
+    13
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/14/">
+    14
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/15/">
+    15
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/16/">
+    16
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/17/">
+    17
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/18/">
+    18
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/19/">
+    19
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/20/">
+    20
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/21/">
+    21
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/22/">
+    22
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/23/">
+    23
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/24/">
+    24
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/25/">
+    25
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/26/">
+    26
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/27/">
+    27
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/28/">
+    28
+    </a>
+</li>
+
+<li  class="active" >
+  <a href="//posts/page/29/">
+    29
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/30/">
+    30
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/31/">
+    31
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/32/">
+    32
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/33/">
+    33
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/34/">
+    34
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/35/">
+    35
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/36/">
+    36
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/37/">
+    37
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/38/">
+    38
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/39/">
+    39
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/40/">
+    40
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/41/">
+    41
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/42/">
+    42
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/43/">
+    43
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/44/">
+    44
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/45/">
+    45
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/46/">
+    46
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/47/">
+    47
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/48/">
+    48
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/49/">
+    49
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/50/">
+    50
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/51/">
+    51
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/52/">
+    52
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/53/">
+    53
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/54/">
+    54
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/55/">
+    55
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/56/">
+    56
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/57/">
+    57
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/58/">
+    58
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/59/">
+    59
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/60/">
+    60
+    </a>
+</li>
+
+
+<li >
+  <a aria-label="Next" href="//posts/page/30/">
+    <span aria-hidden="true">&raquo;</span>
+    </a>
+</li>
+<li >
+  <a aria-label="Last" href="//posts/page/60/">
+    <span aria-hidden="true">&raquo;&raquo;</span>
+  </a>
+</li>
+
+
+  </ul>
 </nav>
 
 
-
-
-
-        </div> <!-- /.blog-main -->
-
-        <aside class="col-sm-3 ml-auto blog-sidebar">
-  
-
-  
-
-  
-  <section class="sidebar-module">
-    <h4>Links</h4>
-    <ol class="list-unstyled">
-      
-      <li><a href="https://example.com">Link 1</a></li>
-      
-      <li><a href="https://example.org">Link 2</a></li>
-      
-    </ol>
-  </section>
-  
-</aside>
-
-
-      </div> <!-- /.row -->
-    </div> <!-- /.container -->
+</div>
     
+<footer class="footer hidden-print">
+  <div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+           <div class="pull-left">
+  <a class="toplink" href="javascript:" id="return-to-top">back to top</a>
+</div>
+<div class="pull-right">
+
+</div>
+
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+              
+    
+<div class="container footline">
+    <small>
+</small>
+</div>
+
 
     
-    <footer class="blog-footer">
-      <p>
-      
-      &copy; Christian Mohn
-      
-      </p>
-      <p>
-      <a href="#">Back to top</a>
-      </p>
-    </footer>
+<div class="container copyright">
+    <small>
+  &copy; Christian Mohn
+
+  </small>
+</div>
+
+
+
+        </div>
+    </div>
+  </div>
+</footer>
+
     
+
+<script src="//s3.amazonaws.com/mailmunch/static/site.js" id="mailmunch-script" data-mailmunch-site-id="" async="async"></script>
+
+
+
+<script src="//load.sumome.com/" data-sumo-site-id="" async="async"></script>
+
+<script src="/js/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+
+
+<script src="/js/highlight.pack.js"></script>
+<script src="/js/site.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+<script>
+var ENABLE_POPOVER = "", 
+EXPIRE_COOKIE = "", 
+SHOW_MODAL_TIMEOUT = "", 
+MOUSE_LEAVE = "", 
+MODAL_SIZE = "", 
+POST_URL = "", 
+SIGNUP_HEADER = "",
+HEADER_IMAGE = "",
+IMG_DESCRIPTION = "",
+SIGNUP_TEXT = "",
+INPUT_PLACEHOLDER = "",
+SUBMIT_BUTTON = "",
+SUCCESS_MESSAGE = "",
+ERROR_MESSAGE = "",
+OPTIN = "",
+COOKIE_NAME = "",
+CONTENTLANGUAGE = ""; 
+</script>
+
+
+
+
+
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax//MathJax.js"></script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax//config/TeX-AMS-MML_HTMLorMML.js"></script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[','\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    for(var all in MathJax.Hub.getAllJax()) {
+        all.SourceElement().parentNode.className += ' has-jax';
+
+    }
+});
+</script>
+
+
+
+
+
 
   </body>
-
 </html>
+

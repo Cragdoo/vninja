@@ -1,81 +1,202 @@
-# Hugo variables
-#
+# hostname (and path) to the root eg. https://appernetic.github.io/
 baseurl = "/"
-languageCode = "en-us"
-title = "Adventures in Hugo"
-theme = "bootstrap4-blog"
-# number of posts to show on home/category/tag pages (Default: 10)
-paginate = 5
-# optionally override the site's footer with custom copyright text
-# copyright = "Except where otherwise noted, content on this site is licensed under a [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by-sa/4.0/)."
-copyright = "(c) Christian Mohn"
-#googleAnalytics = "UA-123-45"
-#disqusShortname = "XYW"
+
+# Remark if you want to disable multilingual support.
+DefaultContentLanguage = "en"
+
+# If you want all of the languages to be put below their respective language code,
+# enable DefaultContentLanguageInSubdir = true. Without enabling it english content
+# will be in the root and other languages in their respective subfolder such as /sv/.
+# See [Languages] settings at the end of this file.
+
+# Use this languageCode if it's not a multilingual site and also remove all language blocks and menus in the language sections to disable multilingual support.
+# language blocks.
+# Language
+#languageCode = "en"
+
+# SES friendly url:s
+canonifyurls = true
+
+# Frontmatter format
+# "yaml", "toml", "json"
+metaDataFormat = "toml"
+
+# Theme to use (located in /themes/THEMENAME/)
+theme = "hugo-bootstrap-premium"
+# Pagination
+paginate = 10
+paginatePath = "page"
+
+# Enable Disqus integration
+disqusShortname = "shortname"
+
 
 [permalinks]
-  post = "/:year/:month/:title/"
-  page = "/:slug/"
+post = "/:year/:month/:day/:filename/"
+code = "/:filename/"
 
-[[menu.sidebar]]
-  name = "Link 1"
-  url = "https://example.com"
+[taxonomies]
+tag = "tags"
+topic = "topics"
 
-[[menu.sidebar]]
-  name = "Link 2"
-  url = "https://example.org"
+[author]
+name = "Christian Mohn"
+email = "yourname@example.com"
 
-[[menu.navbar]]
-  name = "Link 1"
-  url = "https://example.org"
-
-
-# Theme variables
 #
+# All parameters below here are optional and can be mixed and matched.
+#
+
+[params.popover]
+# This is a highly configurable popover form.
+#enablepopover = true #enable or disable popover: true/false.
+#posturl = "https://zapier.com/hooks/catch/1227563/" # Your zapier post hook.
+#headerimage = "//placehold.it/1000x600"
+#expirecookie = 5 #show it again after number of days to visitors that has not subscribed.
+#cookiename = "mycookie1" #give the cookie a unique name variable (avoid spaces and strange characters).
+#signupheader = "Join Our Newsletter"
+#showmodaltimeout = 10000 #show popover modal after time interval in milliseconds.
+#mouseleave = true #show popover when mouse leaves window: true/false.
+#modalsize = "" #lg or sm. Empty is md. If phone is detected lg is used.
+#imagedescription = "Placeholder image for this popover modal optin form"
+#signuptext = "Signup today for free and be the first to get notified on new updates."
+#inputplaceholder = "Enter your email"
+#submitbutton = "Subscribe"
+#successmessage = "Thanks for your subscription!"
+#errormessage = "Submitting form failed!"
+#optin = true #opt-in: true/false
+
 [params]
-  # Site author
-  author = "Christian Mohn"
+# bootswatch theme name, unmark and select one: cerulean, cosmo, cyborg, darkly,
+# default, flatly, journal,  lumen, paper, readable, sandstone, simplex,
+# slate, spacelab, superhero, united, yeti.
 
-  # Description/subtitle for homepage (can be Markdown)
-  description = "There is a thin line between agile and fragile"
+bootswatchtheme = "yeti"
 
-  # Format dates with Go's time formatting
-  date_format = "Mon Jan 02, 2006"
+# menu for changing language. This changes languages with js and stores the choice with the help of JavaScript in a Cookie. Then the path is rewritten with pathnamereplace.js. The name of the md files needs to have the same name for each language abbreviation to work correctly. Example: showcase.en.md and showcase.sv.md. It only works if DefaultContentLanguageInSubdir = true
+switchlang = false
 
-  # verification string for Google Webmaster Tools
-  #google_verify_meta = "BAi57DROASu4b2mkVNA_EyUsobfA7Mq8BmSg7Rn-Zp9"
+# You can use markdown here.
+BrandImage = "" #top header brand image.
+brand = "vNinja.net" # brand image alt text.
+topline = "There is a thin line between agile and fragile."
+footline = "code with <i class='fa fa-heart'></i>"
 
-  # verification string for Bing Webmaster Tools
-  #bing_verify_meta = "3DA353059F945D1AA256B1CD8A3DA847"
+customJS = []
+customCSS = ["/css/style_custom.css"]
 
-  # verification string for Yandex Webmaster Tools
-  #yandex_verify_meta = "66b077430f35f04a"
+# Text for the top menu link, which goes to the root URL for the site.
+# Default (if omitted) is "Home".
+home = "home"
 
-  # Optionally display a message about the site's use of cookies, which may be
-  # required for your site in the European Union. Set the parameter below to a
-  # page where the user can get more information about cookies, either on your
-  # site or externally, for example:
-  #cookie_consent_info_url = "/cookie-information/"
-  #cookie_consent_info_url = "http://cookiesandyou.com"
+mailmunchid = "" # Mailmunch site id
+sumomeid = "" # Sumome id
+mathjax = "2.7.1" # cdnjs hosted version; empty string to disable mathjax
 
-  # show sharing icons on pages/posts (default: true)
-  #sharingicons = true
+# Show a sidebar menu
+showRightSidebar = true
+# Select a syntax highlight.
+# Check the static/css/highlight directory for options.
+highlight = "default"
 
-  # Display post summaries instead of content in list templates (default: true)
-  #truncate = true
+# Google Analytics.
+googleAnalytics = "Your Google Analytics tracking code"
 
-  # Disable the use of sub-resource integrity on CSS/JS assets (default: false)
-  # Useful if you're using a CDN or other host where you can't control cache headers
-  #disable_sri = false
+# Sidebar social links.
+github = "Myprofile" # Your Github profile ID
+bitbucket = "" # Your Bitbucket profile ID
+linkedin = "" # Your LinkedIn profile ID (from public URL)
+googleplus = "Myprofile" # Your Google+ profile ID
+facebook = "Myprofile" # Your Facebook profile ID
+twitter = "h0bbel" # Your Twitter profile ID
+youtube = ""  # Your Youtube channel ID
+flattr = ""  # populate with your flattr uid
 
-  [params.sidebar]
-    # Optional about block for sidebar (can be Markdown)
-    #about = "A simple Hugo theme based on the [Bootstrap v4 blog example](http://v4-alpha.getbootstrap.com/examples/blog/)."
+[blackfriday]
+angledQuotes = true
+fractions = false
+hrefTargetBlank = false
+latexDashes = true
+plainIdAnchors = true
+extensions = []
+extensionmask = []
 
-    # How many posts to show on the sidebar (Default: 5)
-    #num_recent_posts = 2
+# Menus
+# If you want active menu items highlighted for internal pages don't add them here, they need to be added in each files front matter.
+# like this:
+#[menu]
+#     [menu.main]
+#        name = "Showcase"
+#        weight = 3
+#        identifier = "showcase"
+# i18n menus. A menu will be added for each language to the right in the top menu. This menu will switch to the selected language. Remember to add the corresponding language in pathnamereplace.js.
+#[[Languages.sv.menu.switchlang]]
+#  name = "English"
+#  identifier = ""
+#  weight = 4
+#  url = "en"
 
-  [params.social]
-    # Optional, used for attribution in Twitter cards (ideally not a person
-    # for example: nytimes, flickr, NatGeo, etc).
-    # See: https://dev.twitter.com/cards/types/summary-large-image
-    twitter = "h0bbel"
+
+[Languages]
+[Languages.en]
+languageCode = "en"
+weight = 1
+copyright = "(c) 2018 Copyright my blog"
+title = "vNinja.net" # Site title
+
+
+[[Languages.en.menu.main]]
+name = "About"
+weight = 1
+identifier = "about"
+url = "/about"
+pre = "<i class='fa fa-bars'></i>"
+
+[[Languages.en.menu.main]]
+name = "About vNinja"
+weight = 2
+parent = "about"
+url = "/about/christian-mohn/"
+pre = "<i class='fa fa-child'></i>"
+
+[[Languages.en.menu.main]]
+name = "About Christian"
+weight = 3
+parent = "about"
+url = "/about/christian-mohn/"
+pre = "<i class='fa fa-child'></i>"
+
+[[Languages.en.menu.main]]
+name = "Advertising"
+weight = 4
+identifier = ""
+url = "/advertising"
+pre = "<i class='fa fa-bank'></i>"
+
+[[Languages.en.menu.main]]
+name = "Site Policy"
+weight = 3
+identifier = "site"
+url = "/"
+pre = "<i class='fa fa-hand-lizard-o'></i>"
+
+[[Languages.en.menu.main]]
+name = "Privacy Policy"
+weight = 4
+parent = "site"
+identifier = ""
+url = "/"
+pre = "<i class='fa fa-hand-lizard-o'></i>"
+
+[[Languages.en.menu.footer]] # add  links to the bottom right corner.
+name = "Disclaimer"
+pre = "<i>&middot;</i>"
+identifier = "disclaimer"
+weight = 1
+url = "/disclaimer/"
+
+[[Languages.en.menu.footer]]
+name = "Terms"
+identifier = "terms"
+weight = 2
+url = "/terms/"

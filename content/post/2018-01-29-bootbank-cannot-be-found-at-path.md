@@ -23,6 +23,8 @@ If you boot your ESXi hosts from SD-cards or USB you might have run into this is
 
 Usually this means that the boot device has been corrupted somehow, either due to a device failure or [other issues](https://kb.vmware.com/s/article/2144283). Normally the host continues to run, until it's rebooted that is...
 
+<!--more-->
+
 For some reason, vRealize Operations doesn't pick this up as a host issue that it alerts on, so if your alerting regime is based on vROps alerts, you might not get alerted immediately. Thankfully there is a way to remedy this, **and** have vROps and vRealize Log Insight work together at the same time.
 
 On order for this to work, you need to have configured the [vRealize Log Insight Integration with vRealize Operations](https://docs.vmware.com/en/VMware-Validated-Design/4.1/com.vmware.vvd.sddc-deploya.doc/GUID-3DFD518E-E5E5-4B10-B4B4-65BFE0BA13A0.html) first.

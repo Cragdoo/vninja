@@ -1,265 +1,635 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Posts  &middot; Adventures in Hugo</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <head>
-    <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<meta property="og:title" content="Posts" />
-<meta property="og:description" content="There is a thin line between agile and fragile" />
-<meta property="og:type" content="website" />
+<meta name="description" content="There is a thin line between agile and fragile" />
+
+<meta name="keywords" content="">
+
+
+<meta property="og:title" content="Posts  &middot; Adventures in Hugo ">
+<meta property="og:site_name" content="Adventures in Hugo"/>
 <meta property="og:url" content="/posts/" />
+<meta property="og:locale" content="en-us">
+
+
+<meta property="og:type" content="website" />
 
 
 
-<meta property="og:updated_time" content="2011-05-16T12:34:45&#43;00:00"/>
+<link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="Posts" />
 
-
-
-
-
-
-
-
-
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Posts"/>
-<meta name="twitter:description" content="There is a thin line between agile and fragile"/>
+<link rel="canonical" href="/posts/" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/touch-icon-144-precomposed.png">
+<link rel="icon" href="/favicon.png">
 <meta name="generator" content="Hugo 0.40.3" />
 
-
-    
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "Blog",
-  "headline": "Adventures in Hugo",
-  "url" : "/posts/",
-  "author": {
-    "@type": "Person",
-    "name": "Christian Mohn"
-  },
-  "dateModified": "2011-05-16T12:34:45&#43;00:00",
-  "keywords": "awesometalks,book,hardware,homelab,howto,inthebag,microsoft,misc,network,news,os-x,rant,software,storage,virtualization,vmware,windows,workflow,2011,2014,2015,2016,2017,3par,5.5,6.0,6.5,acronis,adobe,adviceforvmworld,agile,alastair-cooke,alerting,analysis,announcement,annual,api,app-delivery,apple,applescript,appliance,architecture,audio,autolab,automation,automator,availability,award,awesome,awesometalk,aws,awsome,backup,backup-academy,backup-amp-replication,backup-amp-replication-v7,bag,barcelona,bash,best-practice,beta,bitlocker,bl460c,bladesystem,block-size,blog,bloggers,blogging,blogtober,book,boot-camp,bug,c3000,c7000,cancer,care-package,cc,certificate,certificates,certification,change,changelog,changes,charity,christian-mohn,chromecast,cisco,citrix,cloud,cloudflare,cohesity,collaboration,command-line,community,competition,conference,content-creation,contest,contest.-photo,copenhagen,daas,data-center,datastore,day-2,dell,denmark,deployment,desktop,digital-ship,disaster,disaster-recovery,dmarc,dns,docker,dockerflix,documentation,donation,doom,download,dr,dropbox,dynamic-dns,easyvnx,ed,edb-ergogroup,email,embedded-host-client,emc,encryption,epiphany,equallogic,esx,esx-3.5,esxcli,esxi,esxi-4,esxi-5,euc,event,event-id-2915,evernote,everyday,evo,evorail,evry,exchange,experiment,facelift,feature-request,featured,fibre-channel,fire,firewall,firmware,flash,flash-talk,fling,floppy,form-factor,framework,free,free-tool,free-tools,freebie,fun,fundraising,future,g8,gdpr,geektool,github,give-away,gorilla,gpmc,group-policy,group-policy-preferences,ha,hack,hands-on,hands-on-lab,hands-on-labs,happy-dance,harakiri,hardware,hardware-version,health-check,hipster-it,hol,home-lab,homebrew,homelab,homelabops,horizon,horizon-application-manager,host,host-cache,hosted-beta,howto,hp,hp-insight-control,http,hyper-converged,hyper-v,hyperconverged,hypervisor,ideas,ifttt,images,impatient,installation,integrity,intel,internationalization,inthebag,inthebag.-weekly,iomega,ipad,ix2,john-troyer,kb,kb2393802,keep-calm,keynote,keyremap4macbook.-customization,kids,knowledge-base,lab,labs,latency-sensitivity,licenses,licensing,linux,log,log-files,log-insight,mac,macos,maintenance,makyo,management,markdown,marvin,md5,meltdown,messaging,microsoft,microsoft-office,microvisor,mike-laverick,misinformation,monitoring,moref,movember,multipath,nda,neil-armstrong,nested-esxi,networking,news,nfr,nfs,ninja,node,nordic,nordic-vmug,norway,nsx,ntp,nutanix,nutjob,omnigraffle,oneliner,online-training,operations,opinion,ops,organization,os-x,oslo,p220i,packt,pandoc,password,patch,patching,pckeyboardhack,pernixdata,personal,petri,photo,photos,php,pins,plans,plugin,pocket,podcast,podcasting-for-cancer,policy-based-computing,posters,powercli,powergui,powershell,prediction,presentation,proact,productivity,proliant,proof-of-concept,proxy,psc,published,python,quote,quotes,rant,raspberry-pi,ravello,rdcman,real-world,realworld,receiver,recommended,release,remoting,review,role,royaltsx,rpi,rsync,saas,sammy-bogaert,sandisk,sccm,script,scripting,scvmm,sddc,seatrans,security,self-help,self-promotion,server,session,setup,sfp&#43;,sha1,sharing,simulation,site,site-recovery-manager,slack,slate,snapshot,snark,social,social-media,software,speaking,spectacle,spectre,speculation,sql-server-express,ssd,ssh,ssl,sso,statistics,steve-herrod,stickers,storage,storeserv,suggestion,suse,syslog,system-center,tech-conference,tech-field-day,terminal,theme,thin-client,thinapp,tips-amp-tricks,todo,todoist,togaf,tool,topology,topvblog,tpm,training,trainsignal,travel,trial,troubleshooting,tunnels,ubuntu,unconference,unsupported,update,upgrade,usb,usercon,v12n,vaio,vanguards,vblog,vcap,vcap-dca,vcap-dcd,vcdx,vcdxwannabe,vcenter,vcenter-appliance,vcenter-client,vcenter-operations,vcenter-operations-manager,vcenter-server-appliance,vcenter-update-manager,vcenter-web-client,vcli,vcloud,vcloud-air,vcp,vcsa,vdm30in30,vdr,veeam,veeam-backup-amp-replication,venting,vexpert,vflash,vflash-read-cache,vfrc,vib,video,view,vip-vcp-club,virtual-appliance,virtual-application,virtual-connect,virtualization,vkernel,vlaunchpad,vm,vma,vmfs,vmtn,vmtn-subscription,vmug,vmware,vmware-forum,vmware-photon,vmware-player,vmware-server,vmware-software-manager,vmware-studio,vmware-view,vmware-workstation,vmware.-vcl,vmworld,vmworld-2012,vmworld-fun-contest,vmworld.-rant,vmworld2012,vninja,vops,vote,voting,vpostgres,vram,vrealize-log-insight,vrealize-operations,vrli,vrops,vrtx,vsamurai,vsan,vshield,vshield-edge,vshield-manager,vsoup,vsphere,vsphere-5,vsphere-5.5,vsphere-6,vsphere-6.5,vsphere-client,vsphere-land,vsphere-replication,watchguard,waterfall,web-client,webhook,webinar,weekly,weeky,whatsup,whitepaper,window-manager,windows,windows-8,winner,winners,wordpress,work,workaround,workflow,workstation,workstation-8,wsus,xen,xvmotion,youtube,zerto,",
-  "description": "There is a thin line between agile and fragile"
-}
-</script>
+  <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
 
 
-    <link rel="canonical" href="/posts/">
 
-    <title>Adventures in Hugo</title>
+    <link rel="stylesheet" href="/css/bootswatch/default/bootstrap.min.css">
 
-    <!-- combined, minified CSS -->
-    <link href="/css/style.css" rel="stylesheet" integrity="sha384-NnQTHLV1boeEOT&#43;VkddkaZe9ipwgoxh1CLY2U3LM36/GQpTS/1l4lL/5LnWh02Wk" crossorigin="anonymous">
 
-    
-    <!-- RSS 2.0 feed -->
-    <link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="Adventures in Hugo" />
-    
+<link rel="stylesheet" href="/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/style.css">
 
-    
 
-    
 
-    
 
-  </head>
+  <link rel="stylesheet" href="/css/highlight/default.css">
 
-  <body>
 
-    
-    <div class="blog-masthead">
-      <div class="container">
-        <nav class="nav blog-nav">
-          <a class="nav-link " href="/">Home</a>
-          
-          <a class="nav-link" href="https://example.org" title="">Link 1</a>
-          
-        </nav>
-      </div>
-    </div>
-    
-
-    
-    <header class="blog-header">
-      <div class="container">
-        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
-        <p class="lead blog-description">There is a thin line between agile and fragile</p>
-      </div>
-    </header>
-    
-
-    
+</head>
+<body data-ng-app="myapp" data-ng-controller="MyController" data-ng-mouseleave="MouseLeave($event)">
+    <header id="main-header">
+  <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
-      <div class="row">
-        <div class="col-sm-8 blog-main">
-
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        
           
-
-
-
-
-
-
-
-<article class="blog-post">
-  <header>
-    <h2 class="blog-post-title"><a href="/news/tech-field-day-6-delegate-i-am/">Tech Field Day #6 - Delegate I Am</a></h2>
-    <p class="blog-post-meta"><time datetime="2011-05-16T12:34:45Z">Mon May 16, 2011</time> by cmohn in 
-<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/news" rel="category tag">News</a>
-
-
-<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/fun" rel="tag">fun</a>, <a href="/tags/realworld" rel="tag">realworld</a>, <a href="/tags/tech-field-day" rel="tag">Tech Field Day</a>, <a href="/tags/virtualization" rel="tag">Virtualization</a>
-
-</p>
+          <a class="navbar-brand-img" href="/">
+            <img alt="" src="">
+            
+          </a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            
+            
+            
+              
+          </ul>
+        </div>
+        
+      </div>
+    </nav>
   </header>
-  A while ago I got a surprising email, stating the following:
-You could consider this a sincere compliment from the Gestalt IT community as your name was suggested and we think you are the kind of person we all would love to have as part of our community. This means you're independent-minded, technology-focused, community-oriented, and a thought leader in the area of IT infrastructure.  Of course, this is pretty much hogwash, but nevertheless I&rsquo;m extremely honored to be invited as a delegate for Tech Field Day #6 in Boston, Mass.
-  <a href='/news/tech-field-day-6-delegate-i-am/'>Read more →</a>
-</article> 
 
 
-
-
-
-
-<article class="blog-post">
+<div id="main-content" class="container">
   <header>
-    <h2 class="blog-post-title"><a href="/news/vmworld-2011-session-voting/">VMworld 2011 Session Voting</a></h2>
-    <p class="blog-post-meta"><time datetime="2011-05-09T10:29:39Z">Mon May 09, 2011</time> by cmohn in 
-<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/news" rel="category tag">News</a>
+    <h1>Posts
+</h1>
 
-
-<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/conference" rel="tag">conference</a>, <a href="/tags/session" rel="tag">Session</a>, <a href="/tags/vmworld" rel="tag">vmworld</a>, <a href="/tags/vote" rel="tag">Vote</a>
-
-</p>
   </header>
-  VMware has opened the public voting for the VMworld 2011 sessions. Personally I haven&rsquo;t submitted anything, but I do see a lot of familiar names in the voting application.
-The voting is available to anyone who has a vmworld.com account, and the voting period is from May 9th to May 18th. The voting is global, which means a vote for a session counts as a vote for both VMworld US and VMworld EMEA as 80% of the selected sessions will occur at both events.
-  <a href='/news/vmworld-2011-session-voting/'>Read more →</a>
-</article> 
-
-
-
-
-
-
-<article class="blog-post">
-  <header>
-    <h2 class="blog-post-title"><a href="/virtualization/vcenter-update-manager-a-feature-request/">vCenter Update Manager - A Feature Request</a></h2>
-    <p class="blog-post-meta"><time datetime="2011-04-22T21:07:35Z">Fri Apr 22, 2011</time> by cmohn in 
-<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/virtualization" rel="category tag">Virtualization</a>
-
-
-<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/esx" rel="tag">ESX</a>, <a href="/tags/esxi" rel="tag">ESXi</a>, <a href="/tags/ops" rel="tag">Ops</a>, <a href="/tags/vcenter" rel="tag">vCenter</a>, <a href="/tags/vcenter-update-manager" rel="tag">vCenter Update Manager</a>, <a href="/tags/vmware" rel="tag">VMware</a>
-
-</p>
-  </header>
-  Way back in August 24 2010 I wrote a post called vCenter Update Manager to lose it’s fat. I&rsquo;m still very happy that VMware has decided to drop OS patching from the product, and I still mean that can only be a good thing. In fact, that article prompted Beth Pariseau Senior News Writer for searchservervirtualization.techtarget.com to call me when researching her VMware users eye changes to Update Manager article.
-  <a href='/virtualization/vcenter-update-manager-a-feature-request/'>Read more →</a>
-</article> 
-
-
-
-
-
-
-<article class="blog-post">
-  <header>
-    <h2 class="blog-post-title"><a href="/news/installing-and-running-vmware-compliance-checker-for-vsphere/">Installing and running VMware Compliance Checker for vSphere</a></h2>
-    <p class="blog-post-meta"><time datetime="2011-04-20T07:01:37Z">Wed Apr 20, 2011</time> by cmohn in 
-<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/howto" rel="category tag">Howto</a>, <a href="/categories/news" rel="category tag">News</a>, <a href="/categories/virtualization" rel="category tag">Virtualization</a>
-
-
-<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/ops" rel="tag">Ops</a>, <a href="/tags/security" rel="tag">Security</a>, <a href="/tags/software" rel="tag">Software</a>, <a href="/tags/vmware" rel="tag">VMware</a>, <a href="/tags/windows" rel="tag">Windows</a>
-
-</p>
-  </header>
-  The first version of the new VMware Compliance Checker for vSphere tool is now available for download.
-VMware Compliance Checker for vSphere lets you scan your ESX and ESXi hosts for compliance with the VMware vSphere hardening guidelines to make sure your hosts are properly configured. It also lets you save and print your assessment results, so you can track your compliance level over time, or use them as documentation for internal audits.
-  <a href='/news/installing-and-running-vmware-compliance-checker-for-vsphere/'>Read more →</a>
-</article> 
-
-
-
-
-
-
-<article class="blog-post">
-  <header>
-    <h2 class="blog-post-title"><a href="/news/vninja-enables-h/">vNinja enables HA</a></h2>
-    <p class="blog-post-meta"><time datetime="2011-04-13T21:02:28Z">Wed Apr 13, 2011</time> by cmohn in 
-<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/news" rel="category tag">News</a>
-
-
-<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/ed" rel="tag">Ed</a>, <a href="/tags/fun" rel="tag">fun</a>, <a href="/tags/ha" rel="tag">HA</a>, <a href="/tags/news" rel="tag">News</a>, <a href="/tags/vninja" rel="tag">vNinja</a>
-
-</p>
-  </header>
-  I&rsquo;m happy to announce that my fellow vSoup Podcast co-host Ed Czerwin is on board as blogger here on vNinja.net! This means that from now on you won&rsquo;t just have to put up with the content of one virtualization admin, but two!
-As all good vAdmins know, two is better than one, and it&rsquo; so much easier to build HA solutions around!
-Welcome aboard Ed, glad to have you on!
-  <a href='/news/vninja-enables-h/'>Read more →</a>
-</article> 
-
-
-
-
-
-<nav class="blog-pagination">
   
-  <a class="btn btn-outline-primary" href="/posts/page/50/" rel="prev" role="button">Previous page</a>
-  <a class="btn btn-outline-primary" href="/posts/page/52/" rel="next" role="button">Next page</a>
+    <h3>
+  <a href="/news/tech-field-day-6-delegate-i-am/">Tech Field Day #6 - Delegate I Am</a>
+</h3>
+
+
+  
+    <h3>
+  <a href="/news/vmworld-2011-session-voting/">VMworld 2011 Session Voting</a>
+</h3>
+
+
+  
+    <h3>
+  <a href="/virtualization/vcenter-update-manager-a-feature-request/">vCenter Update Manager - A Feature Request</a>
+</h3>
+
+
+  
+    <h3>
+  <a href="/news/installing-and-running-vmware-compliance-checker-for-vsphere/">Installing and running VMware Compliance Checker for vSphere</a>
+</h3>
+
+
+  
+    <h3>
+  <a href="/news/vninja-enables-h/">vNinja enables HA</a>
+</h3>
+
+
   
   
-  
+<nav>
+  <ul class="pagination">
+    
+
+
+<li >
+  <a aria-label="First" href="//posts/">
+    <span aria-hidden="true">&laquo;&laquo;</span>
+  </a>
+</li>
+
+<li >
+  <a aria-label="Previous" href="//posts/page/50/">
+    <span aria-hidden="true">&laquo;</span>
+    </a>
+</li>
+
+<li >
+  <a href="//posts/">
+    1
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/2/">
+    2
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/3/">
+    3
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/4/">
+    4
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/5/">
+    5
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/6/">
+    6
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/7/">
+    7
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/8/">
+    8
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/9/">
+    9
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/10/">
+    10
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/11/">
+    11
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/12/">
+    12
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/13/">
+    13
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/14/">
+    14
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/15/">
+    15
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/16/">
+    16
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/17/">
+    17
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/18/">
+    18
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/19/">
+    19
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/20/">
+    20
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/21/">
+    21
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/22/">
+    22
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/23/">
+    23
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/24/">
+    24
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/25/">
+    25
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/26/">
+    26
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/27/">
+    27
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/28/">
+    28
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/29/">
+    29
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/30/">
+    30
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/31/">
+    31
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/32/">
+    32
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/33/">
+    33
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/34/">
+    34
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/35/">
+    35
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/36/">
+    36
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/37/">
+    37
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/38/">
+    38
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/39/">
+    39
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/40/">
+    40
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/41/">
+    41
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/42/">
+    42
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/43/">
+    43
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/44/">
+    44
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/45/">
+    45
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/46/">
+    46
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/47/">
+    47
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/48/">
+    48
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/49/">
+    49
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/50/">
+    50
+    </a>
+</li>
+
+<li  class="active" >
+  <a href="//posts/page/51/">
+    51
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/52/">
+    52
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/53/">
+    53
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/54/">
+    54
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/55/">
+    55
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/56/">
+    56
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/57/">
+    57
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/58/">
+    58
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/59/">
+    59
+    </a>
+</li>
+
+<li >
+  <a href="//posts/page/60/">
+    60
+    </a>
+</li>
+
+
+<li >
+  <a aria-label="Next" href="//posts/page/52/">
+    <span aria-hidden="true">&raquo;</span>
+    </a>
+</li>
+<li >
+  <a aria-label="Last" href="//posts/page/60/">
+    <span aria-hidden="true">&raquo;&raquo;</span>
+  </a>
+</li>
+
+
+  </ul>
 </nav>
 
 
-
-
-
-        </div> <!-- /.blog-main -->
-
-        <aside class="col-sm-3 ml-auto blog-sidebar">
-  
-
-  
-
-  
-  <section class="sidebar-module">
-    <h4>Links</h4>
-    <ol class="list-unstyled">
-      
-      <li><a href="https://example.com">Link 1</a></li>
-      
-      <li><a href="https://example.org">Link 2</a></li>
-      
-    </ol>
-  </section>
-  
-</aside>
-
-
-      </div> <!-- /.row -->
-    </div> <!-- /.container -->
+</div>
     
+<footer class="footer hidden-print">
+  <div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+           <div class="pull-left">
+  <a class="toplink" href="javascript:" id="return-to-top">back to top</a>
+</div>
+<div class="pull-right">
+
+</div>
+
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+              
+    
+<div class="container footline">
+    <small>
+</small>
+</div>
+
 
     
-    <footer class="blog-footer">
-      <p>
-      
-      &copy; Christian Mohn
-      
-      </p>
-      <p>
-      <a href="#">Back to top</a>
-      </p>
-    </footer>
+<div class="container copyright">
+    <small>
+  &copy; Christian Mohn
+
+  </small>
+</div>
+
+
+
+        </div>
+    </div>
+  </div>
+</footer>
+
     
+
+<script src="//s3.amazonaws.com/mailmunch/static/site.js" id="mailmunch-script" data-mailmunch-site-id="" async="async"></script>
+
+
+
+<script src="//load.sumome.com/" data-sumo-site-id="" async="async"></script>
+
+<script src="/js/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+
+
+<script src="/js/highlight.pack.js"></script>
+<script src="/js/site.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+<script>
+var ENABLE_POPOVER = "", 
+EXPIRE_COOKIE = "", 
+SHOW_MODAL_TIMEOUT = "", 
+MOUSE_LEAVE = "", 
+MODAL_SIZE = "", 
+POST_URL = "", 
+SIGNUP_HEADER = "",
+HEADER_IMAGE = "",
+IMG_DESCRIPTION = "",
+SIGNUP_TEXT = "",
+INPUT_PLACEHOLDER = "",
+SUBMIT_BUTTON = "",
+SUCCESS_MESSAGE = "",
+ERROR_MESSAGE = "",
+OPTIN = "",
+COOKIE_NAME = "",
+CONTENTLANGUAGE = ""; 
+</script>
+
+
+
+
+
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax//MathJax.js"></script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax//config/TeX-AMS-MML_HTMLorMML.js"></script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[','\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    for(var all in MathJax.Hub.getAllJax()) {
+        all.SourceElement().parentNode.className += ' has-jax';
+
+    }
+});
+</script>
+
+
+
+
+
 
   </body>
-
 </html>
+

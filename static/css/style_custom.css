@@ -1,0 +1,11 @@
+/* Custom CSS goes here */
+
+.navbar-nav>li>a {
+    padding-top: 21px;
+    padding-bottom: 10px;
+    line-height: 21px;
+}
+
+.ads {
+  padding-top: 20px;  
+}

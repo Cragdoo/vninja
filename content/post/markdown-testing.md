@@ -15,7 +15,7 @@ Markdown: Syntax
     <li><a href="/projects/markdown/license" title="Pricing and License Information">License</a></li>
     <li><a href="/projects/markdown/dingus" title="Online Markdown Web Form">Dingus</a></li>
 </ul>
-
+<!--more-->
 
 *   [Overview](#overview)
     *   [Philosophy](#philosophy)
@@ -44,6 +44,8 @@ can [see the source for it by adding '.text' to the URL][src].
   [src]: /projects/markdown/syntax.text
 
 * * *
+
+
 
 <h2 id="overview">Overview</h2>
 

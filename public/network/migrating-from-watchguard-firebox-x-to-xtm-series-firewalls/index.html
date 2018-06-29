@@ -1,123 +1,147 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Migrating from Watchguard Firebox X to XTM Series Firewalls  &middot; Adventures in Hugo</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <head>
-    <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<meta property="og:title" content="Migrating from Watchguard Firebox X to XTM Series Firewalls" />
-<meta property="og:description" content="Watchguard has recently retired their X series of firewalls and replaced them with their new lineup of XTM boxes.
-I took this opportunity to replace my X series firewalls with some from the new lineup, and found a neat way to migrate your existing configuration from old to new in a few very easy steps.
+<meta name="description" content="There is a thin line between agile and fragile" />
 
-Note: _Normally I would not recommend migrating your configuration in this manner. In my mind you should always rebuild rules when replacing your firewall, as it is the perfect time to review and do some QA." />
-<meta property="og:type" content="article" />
+<meta name="keywords" content="firewall, Ops, watchguard, ">
+
+
+<meta property="og:title" content="Migrating from Watchguard Firebox X to XTM Series Firewalls  &middot; Adventures in Hugo ">
+<meta property="og:site_name" content="Adventures in Hugo"/>
 <meta property="og:url" content="/network/migrating-from-watchguard-firebox-x-to-xtm-series-firewalls/" />
+<meta property="og:locale" content="en-us">
+
+
+<meta property="og:type" content="article" />
+<meta property="og:description" content=""/>
+<meta property="og:article:published_time" content="2011-01-07T22:07:31Z" />
+<meta property="og:article:modified_time" content="2011-01-07T22:07:31Z" />
+
+  
+    
+<meta property="og:article:tag" content="firewall">
+    
+<meta property="og:article:tag" content="Ops">
+    
+<meta property="og:article:tag" content="watchguard">
+    
+  
+
+  
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@" />
+<meta name="twitter:creator" content="@" />
+<meta name="twitter:title" content="Migrating from Watchguard Firebox X to XTM Series Firewalls" />
+<meta name="twitter:description" content="" />
+<meta name="twitter:url" content="/network/migrating-from-watchguard-firebox-x-to-xtm-series-firewalls/" />
+<meta name="twitter:domain" content="/">
+  
+
+  
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "headline": "Migrating from Watchguard Firebox X to XTM Series Firewalls",
+    "author": {
+      "@type": "Person",
+      "name": "http://profiles.google.com/+?rel=author"
+    },
+    "datePublished": "2011-01-07",
+    "description": "",
+    "wordCount": 381
+  }
+</script>
+  
 
 
 
-<meta property="article:published_time" content="2011-01-07T22:07:31&#43;00:00"/>
-
-<meta property="article:modified_time" content="2011-01-07T22:07:31&#43;00:00"/>
-
-
-
-
-
-
-
-
-
-
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Migrating from Watchguard Firebox X to XTM Series Firewalls"/>
-<meta name="twitter:description" content="Watchguard has recently retired their X series of firewalls and replaced them with their new lineup of XTM boxes.
-I took this opportunity to replace my X series firewalls with some from the new lineup, and found a neat way to migrate your existing configuration from old to new in a few very easy steps.
-
-Note: _Normally I would not recommend migrating your configuration in this manner. In my mind you should always rebuild rules when replacing your firewall, as it is the perfect time to review and do some QA."/>
+<link rel="canonical" href="/network/migrating-from-watchguard-firebox-x-to-xtm-series-firewalls/" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/touch-icon-144-precomposed.png">
+<link rel="icon" href="/favicon.png">
 <meta name="generator" content="Hugo 0.40.3" />
 
-
-    
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "BlogPosting",
-  "headline": "Migrating from Watchguard Firebox X to XTM Series Firewalls",
-  "url": "/network/migrating-from-watchguard-firebox-x-to-xtm-series-firewalls/",
-  "wordCount": "381",
-  "datePublished": "2011-01-07T22:07:31&#43;00:00",
-  "dateModified": "2011-01-07T22:07:31&#43;00:00",
-  "author": {
-    "@type": "Person",
-    "name": "cmohn"
-  },
-  "keywords": "Network, firewall, Ops, watchguard"
-}
-</script>
+  <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
 
 
 
-    <link rel="canonical" href="/network/migrating-from-watchguard-firebox-x-to-xtm-series-firewalls/">
+    <link rel="stylesheet" href="/css/bootswatch/default/bootstrap.min.css">
 
-    <title>Migrating from Watchguard Firebox X to XTM Series Firewalls | Adventures in Hugo</title>
 
-    <!-- combined, minified CSS -->
-    <link href="/css/style.css" rel="stylesheet" integrity="sha384-NnQTHLV1boeEOT&#43;VkddkaZe9ipwgoxh1CLY2U3LM36/GQpTS/1l4lL/5LnWh02Wk" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/style.css">
 
-    
 
-    
 
-    
 
-    
+  <link rel="stylesheet" href="/css/highlight/default.css">
 
-  </head>
 
-  <body>
-
-    
-    <div class="blog-masthead">
-      <div class="container">
-        <nav class="nav blog-nav">
-          <a class="nav-link " href="/">Home</a>
-          
-          <a class="nav-link" href="https://example.org" title="">Link 1</a>
-          
-        </nav>
-      </div>
-    </div>
-    
-
-    
-    <header class="blog-header">
-      <div class="container">
-        <h1 class="blog-title"><a href="/" rel="home">Adventures in Hugo</a></h1>
-        <p class="lead blog-description">There is a thin line between agile and fragile</p>
-      </div>
-    </header>
-    
-
-    
+</head>
+<body data-ng-app="myapp" data-ng-controller="MyController" data-ng-mouseleave="MouseLeave($event)">
+    <header id="main-header">
+  <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
-      <div class="row">
-        <div class="col-sm-8 blog-main">
-
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        
           
-
-
-<article class="blog-post">
-  <header>
-    <h2 class="blog-post-title"><a href="/network/migrating-from-watchguard-firebox-x-to-xtm-series-firewalls/">Migrating from Watchguard Firebox X to XTM Series Firewalls</a></h2>
-    <p class="blog-post-meta"><time datetime="2011-01-07T22:07:31Z">Fri Jan 07, 2011</time> by cmohn in 
-<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/network" rel="category tag">Network</a>
-
-
-<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/firewall" rel="tag">firewall</a>, <a href="/tags/ops" rel="tag">Ops</a>, <a href="/tags/watchguard" rel="tag">watchguard</a>
-
-</p>
+          <a class="navbar-brand-img" href="/">
+            <img alt="" src="">
+            
+          </a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            
+            
+            
+              
+          </ul>
+        </div>
+        
+      </div>
+    </nav>
   </header>
+
+
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+
+
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >
+<header class="container hat">
+  <h1>Migrating from Watchguard Firebox X to XTM Series Firewalls
+</h1>
+
+</header>
+</div>
+
+
+      <div class="content">
   
 
 <p>Watchguard has recently <a href="http://www.watchguard.com/products/resources/end-of-life-policy.asp">retired their X series</a> of firewalls and replaced them with their new lineup of XTM boxes.</p>
@@ -165,73 +189,125 @@ I used a laptop do do the actual configuration, to make sure that I didn&rsquo;t
 
 <p>You <em>should</em> now be able to do a quick switch between new and old firewalls and all your services should be available immediately. If not, you can always just revert to the old firewall and troubleshoot the new one.</p>
 
-
-  
-
-  
-  <hr>
-  <footer>
-
-  
-    <section>
-    <h4>Share</h4>
-    <nav class="nav sharing-icons">
-      <a class="nav-item" href="https://www.facebook.com/sharer/sharer.php?u=%2fnetwork%2fmigrating-from-watchguard-firebox-x-to-xtm-series-firewalls%2f" title="Share on Facebook"><span class="fa fa-facebook fa-2x" aria-hidden="true"></span></a>
-      <a class="nav-item" href="https://plus.google.com/share?url=%2fnetwork%2fmigrating-from-watchguard-firebox-x-to-xtm-series-firewalls%2f" title="Share on Google+"><span class="fa fa-google-plus fa-2x" aria-hidden="true"></span></a>
-      <a class="nav-item" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fnetwork%2fmigrating-from-watchguard-firebox-x-to-xtm-series-firewalls%2f" title="Share on LinkedIn"><span class="fa fa-linkedin fa-2x" aria-hidden="true"></span></a>
-      <a class="nav-item" href="https://twitter.com/home?status=%2fnetwork%2fmigrating-from-watchguard-firebox-x-to-xtm-series-firewalls%2f" title="Tweet this"><span class="fa fa-twitter fa-2x"></span></a>
-    </nav>
-  </section>
-
-  
-
-  
-  </footer>
-  
-
-</article> 
+</div>
 
 
-
-        </div> <!-- /.blog-main -->
-
-        <aside class="col-sm-3 ml-auto blog-sidebar">
-  
-
-  
-
-  
-  <section class="sidebar-module">
-    <h4>Links</h4>
-    <ol class="list-unstyled">
       
-      <li><a href="https://example.com">Link 1</a></li>
-      
-      <li><a href="https://example.org">Link 2</a></li>
-      
-    </ol>
-  </section>
-  
-</aside>
-
-
-      </div> <!-- /.row -->
-    </div> <!-- /.container -->
+    </div>
     
+  </div>
+</div>
+    
+<footer class="footer hidden-print">
+  <div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+           <div class="pull-left">
+  <a class="toplink" href="javascript:" id="return-to-top">back to top</a>
+</div>
+<div class="pull-right">
+
+</div>
+
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+              
+    
+<div class="container footline">
+    <small>
+</small>
+</div>
+
 
     
-    <footer class="blog-footer">
-      <p>
-      
-      &copy; Christian Mohn
-      
-      </p>
-      <p>
-      <a href="#">Back to top</a>
-      </p>
-    </footer>
+<div class="container copyright">
+    <small>
+  &copy; Christian Mohn
+
+  </small>
+</div>
+
+
+
+        </div>
+    </div>
+  </div>
+</footer>
+
     
+
+<script src="//s3.amazonaws.com/mailmunch/static/site.js" id="mailmunch-script" data-mailmunch-site-id="" async="async"></script>
+
+
+
+<script src="//load.sumome.com/" data-sumo-site-id="" async="async"></script>
+
+<script src="/js/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+
+
+<script src="/js/highlight.pack.js"></script>
+<script src="/js/site.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+<script>
+var ENABLE_POPOVER = "", 
+EXPIRE_COOKIE = "", 
+SHOW_MODAL_TIMEOUT = "", 
+MOUSE_LEAVE = "", 
+MODAL_SIZE = "", 
+POST_URL = "", 
+SIGNUP_HEADER = "",
+HEADER_IMAGE = "",
+IMG_DESCRIPTION = "",
+SIGNUP_TEXT = "",
+INPUT_PLACEHOLDER = "",
+SUBMIT_BUTTON = "",
+SUCCESS_MESSAGE = "",
+ERROR_MESSAGE = "",
+OPTIN = "",
+COOKIE_NAME = "",
+CONTENTLANGUAGE = ""; 
+</script>
+
+
+
+
+
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax//MathJax.js"></script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax//config/TeX-AMS-MML_HTMLorMML.js"></script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[','\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    for(var all in MathJax.Hub.getAllJax()) {
+        all.SourceElement().parentNode.className += ' has-jax';
+
+    }
+});
+</script>
+
+
+
+
+
 
   </body>
-
 </html>
+
