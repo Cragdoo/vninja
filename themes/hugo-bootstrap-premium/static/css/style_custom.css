@@ -1,0 +1,12 @@
+.navbar-brand {
+padding: 220px;
+vertical-align: baseline;;
+}
+
+.footer {
+  position: absolute;
+  bottom: -5%;
+  width: 100%;
+  text-align: right;
+  padding-bottom: 1rem;
+}
