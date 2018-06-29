@@ -28,7 +28,7 @@ paginate = 10
 paginatePath = "page"
 
 # Enable Disqus integration
-disqusShortname = "shortname"
+disqusShortname = ""
 
 
 [permalinks]
