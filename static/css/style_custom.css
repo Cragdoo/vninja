@@ -3,9 +3,37 @@
 .navbar-nav>li>a {
     padding-top: 21px;
     padding-bottom: 10px;
+    margin-bottom: 20px;
     line-height: 21px;
 }
 
 .ads {
-  padding-top: 20px;  
+  padding-top: 20px;
+}
+
+img[src$='#center']
+{
+    display: block;
+    margin: 0.7rem auto; /* you can replace the vertical '0.7rem' by
+                            whatever floats your boat, but keep the
+                            horizontal 'auto' for this to work */
+    /* whatever else styles you fancy here */
+}
+
+img[src$='#floatleft']
+{
+    float:left;
+    margin: 0 2.0rem 0 0;      /* this margin is totally up to you */
+
+/* whatever else styles you fancy here */
+}
+
+img[src$='#floatright']
+{
+    float:right;
+    margin: 0 0 0 2.0rem;      /* this margin is totally up to you */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+
 }

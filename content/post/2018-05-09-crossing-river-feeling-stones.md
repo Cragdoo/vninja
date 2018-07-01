@@ -24,8 +24,7 @@ Simon's presentation technique, flair and master of language is flat out impress
 
 ### Crossing the River by Feeling the Stones
 
+{{< youtube xlNYYy8pzB4 >}}
 
-
-https://youtu.be/xlNYYy8pzB4
 
 Now, do you know what a map is? Do you, really?

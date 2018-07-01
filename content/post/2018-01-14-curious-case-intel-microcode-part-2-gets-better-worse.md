@@ -43,22 +43,22 @@ Last week I wrote about how Intel should improve their microcode update delivery
 
 
 
-    
+
   * Intel released updated microcode bundle 20180108
 
-    
+
   * VMware released updated patches for vSphere, including microcode updates
 
-    
+
   * Then it was discovered that the updates cause stability issues
 
-    
+
   * Most computer vendors recalled BIOS updates for Haswell/Broadwell
 
-    
+
   * VMware recommended not to expose VMs to the new CPU feature flag
 
-    
+
   * I discovered that Xeon SP and Kaby Lake/Coffe Lake updates from most or all vendors is based on the pre-release Intel bundle 20171215!
 
 
@@ -70,7 +70,7 @@ Lets start with the Intel microcode bundle. Deconstructing the bundle using MC e
 This is progress - however there are still no release notes or details except for the updated microcode versions for each processor family:
 
 
-    
+
     - Updates upon 20171117 release --
     IVT C0          (06-3e-04:ed) 428->42a
     SKL-U/Y D0      (06-4e-03:c0) ba->c2
@@ -91,7 +91,7 @@ This is progress - however there are still no release notes or details except fo
     CFL B0          (06-9e-0b:02) 72->80
     SKX H0          (06-55-04:b7) 2000035->200003c
     GLK B0          (06-7a-01:01) 1e->22
-    
+
     Note that 20171117 is Intels previous official release
 
 
@@ -111,13 +111,13 @@ With the wider deployment it did not take long for customers to discover there w
 
 
 
-    
+
   1. (Kaby Lake U/Y, U23e, H/S/X) Symptom: Intermittent system hang during system sleep (S3) cycling. If you have already applied the firmware update and experience hangs during sleep/wake, please flash back to the previous BIOS/UEFI level, or disable sleep (S3) mode on your system; and then apply the improved update when it becomes available. If you have not already applied the update, please wait until the improved firmware level is available.
 
-    
+
   2. (Broadwell E) Symptom: Intermittent blue screen during system restart. If you have already applied the update, Intel suggests continuing to use the firmware level until an improved one is available. If you have not applied the update, please wait until the improved firmware level is available.
 
-    
+
   3. (Broadwell E, H, U/Y; Haswell standard, Core Extreme, ULT) Symptom: Intel has received reports of unexpected page faults, which they are currently investigating. Out of an abundance of caution, Intel requested Lenovo to stop distributing this firmware.
 
 
@@ -159,7 +159,7 @@ While all this is unfolding I am trying to piece together what the Intel and VMw
 It is obvious that Intel made some last minute changes to microcode and failed to notify partners. What changes has been made between update bundle 20171215 and 20180108? Are we installing incomplete non-released microcode to millions of computers? Only Intel knows! It might be as simple as an effort to include some minor fixes now what everyone with an Intel processor have to update their computer, or it can be a monumental error where many computers are still partially vulnerable to Spectre even with patches installed. With the ["security first"](https://newsroom.intel.com/news-releases/security-first-pledge/) pledge from CEO Brian Krzanich promising transparency I expect and demand an explanation from Intel. How is it that VMware, HPE and DellEMC can ship pre-release microcode to millions of computers?
 
 
-    
+
     Intel microcode update bundle pre-release 15. December
     +-------+--------------------------+---------+------------+---------+---------+----------+----------+--------+
     | CPUID |         Platform         | Version |    Date    | Release |   Size  | Checksum |  Offset  | Latest |
@@ -170,7 +170,7 @@ It is obvious that Intel made some last minute changes to microcode and failed t
     | 906EA |        22 [1, 5]         |    7C   | 2017-12-03 |   PRD   | 0x17800 | 55695D1F | 0xD2C00  |  Yes   |
     | 906EB |          02 [1]          |    7C   | 2017-12-03 |   PRD   | 0x18000 | 5046D998 | 0xEA400  |  Yes   |
     +-------+--------------------------+---------+------------+---------+---------+----------+----------+--------+
-    
+
     Intel microcode update bundle released 8. january
     +-------+--------------------------+---------+------------+---------+---------+----------+----------+--------+
     | CPUID |         Platform         | Version |    Date    | Release |   Size  | Checksum |  Offset  | Latest |
@@ -196,23 +196,23 @@ Note that all updates are labeled PRD for production. If we take the [VMware mat
 The same versions was also shipped in Dell BIOS updates. Thanks to Dell engineering for actually listing the microcode updates, I have not seen the same transparency from other vendors. HPE take note!
 
 
-    
+
     R740/R740xd/R640/R940/7920R
-    
+
     Updated the Intel Xeon Processor Scalable Family Processor Microcode to version 0x3A.
-    
-    R830                            
-    
+
+    R830
+
     Updated the Xeon Processor E5-2600 v3 Product Family Processor Microcode to version 0x3B
     Updated the Intel Xeon Processor E5-2600 v4 Product Family Processor Microcode to version 0x0b000025
-    
+
     R630/R730/R730XD
-    
+
     Updated the Xeon Processor E5-2600 v3 Product Family Processor Microcode to version 0x3B
     Updated the Intel Xeon Processor E5-2600 v4 Product Family Processor Microcode to version 0x0b000025
-    
+
     R930
-    
+
     Updated the Intel Xeon processor E7-4800/8800 v3 Product Family Processor Microcode to version 0x10
     Updated the Intel Xeon processor E7-4800/8800 v4 Product Family Processor Microcode to version 0x0b000025
 
@@ -250,8 +250,3 @@ https://twitter.com/aionescu/status/952014225714511872
 As everything [except Rasberry Pi](https://www.raspberrypi.org/blog/why-raspberry-pi-isnt-vulnerable-to-spectre-or-meltdown/) is vulnerable to Spectre, focus on mobiles and tablets. Map you vulnerable devices and vendor updates. Pace yourself, we will be fighting this for years to come. There will be more side-channel vulnerabilities in the future and this is not the last round of patching.
 
 Keep in mind that there are no microcode updates for Sandy Bridge processors yet. This is why Dell and HPE is holding back updates for Poweredge G12 servers and Proliant Gen8 servers. If you have a lot of Xeon 4600/2600/1600/1400/1200 V1 servers, you will have to wait on Intel and server vendors if you want full mitigation for Spectre.
-
-
-
-
-

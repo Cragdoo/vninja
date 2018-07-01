@@ -79,8 +79,8 @@ switchlang = false
 # You can use markdown here.
 BrandImage = "" #top header brand image.
 brand = "vNinja.net" # brand image alt text.
-topline = "There is a thin line between agile and fragile."
-footline = "code with <i class='fa fa-heart'></i>"
+topline = "There is a thin line between agile and fragile." #doesn't seem to be in use.
+footline = "Built with Hugo and lots of <i class='fa fa-coffee'></i>"
 
 customJS = []
 customCSS = ["/css/style_custom.css"]
@@ -142,7 +142,7 @@ extensionmask = []
 languageCode = "en"
 weight = 1
 copyright = "(c) 2018 Copyright my blog"
-title = "vNinja.net" # Site title
+title = "vNinja.net — There is a thin line between agile and fragile." # Site title
 
 
 [[Languages.en.menu.main]]
@@ -177,7 +177,7 @@ pre = "<i class='fa fa-bank'></i>"
 name = "Site Policy"
 weight = 3
 identifier = "site"
-url = "/"
+url = "#"
 pre = "<i class='fa fa-hand-lizard-o'></i>"
 
 [[Languages.en.menu.main]]
@@ -185,7 +185,7 @@ name = "Privacy Policy"
 weight = 4
 parent = "site"
 identifier = ""
-url = "/"
+url = "/about/privacy-policy"
 pre = "<i class='fa fa-hand-lizard-o'></i>"
 
 [[Languages.en.menu.footer]] # add  links to the bottom right corner.
