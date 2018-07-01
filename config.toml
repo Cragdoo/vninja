@@ -142,7 +142,7 @@ extensionmask = []
 languageCode = "en"
 weight = 1
 copyright = "(c) 2018 Copyright my blog"
-title = "vNinja.net — There is a thin line between agile and fragile." # Site title
+title = "vNinja.net" # Site title
 
 
 [[Languages.en.menu.main]]
