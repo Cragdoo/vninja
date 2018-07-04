@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Winners on Adventures in Hugo</title>
+    <title>Winners on vNinja.net</title>
     <link>/tags/winners/</link>
-    <description>Recent content in Winners on Adventures in Hugo</description>
+    <description>Recent content in Winners on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <language>en</language>
+    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
+    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
+    <copyright>(c) 2018 Copyright my blog</copyright>
     <lastBuildDate>Fri, 20 Jun 2014 09:47:22 +0000</lastBuildDate>
     
 	<atom:link href="/tags/winners/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +18,7 @@
       <title>Learning Veeam Backup &amp; Replication for VMware vSphere Book Winners</title>
       <link>/news/learning-veeam-backup-replication-vmware-vsphere-book-winners/</link>
       <pubDate>Fri, 20 Jun 2014 09:47:22 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/news/learning-veeam-backup-replication-vmware-vsphere-book-winners/</guid>
       <description>Packt Publishing has picked three lucky winners for the Veeam® Backup &amp;amp; Replication for VMware vSphere book.
 The winners are as follows, with the winning comments:

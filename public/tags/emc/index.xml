@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Emc on Adventures in Hugo</title>
+    <title>Emc on vNinja.net</title>
     <link>/tags/emc/</link>
-    <description>Recent content in Emc on Adventures in Hugo</description>
+    <description>Recent content in Emc on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <language>en</language>
+    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
+    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
+    <copyright>(c) 2018 Copyright my blog</copyright>
     <lastBuildDate>Tue, 08 Oct 2013 13:12:13 +0000</lastBuildDate>
     
 	<atom:link href="/tags/emc/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +18,7 @@
       <title>Social Media, Karma and Being a Dick</title>
       <link>/rant/social-media-karma-dick/</link>
       <pubDate>Tue, 08 Oct 2013 13:12:13 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/rant/social-media-karma-dick/</guid>
       <description>Rant alert [@Acronis](https://twitter.com/Acronis) sorry, not happening. — Christian Mohn (@h0bbel) [October 8, 2013](https://twitter.com/h0bbel/statuses/387562111972683776) In and of itself, this tweet is fair enough, even if borderline spam. My reaction to it however, tells a different story. _I admit it, it´s a bit harsh and straight to the point, but something has to have triggered such a response, right? _Rewind back to VMworld US, and Acronis posted this:
 [@sbeloussov](https://twitter.com/sbeloussov) [@veeam](https://twitter.com/veeam) [@VMworld](https://twitter.com/VMworld) fortunately we don&#39;t need to make our customers drunk to persuade them to buy our soft.</description>

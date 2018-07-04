@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hol on Adventures in Hugo</title>
+    <title>Hol on vNinja.net</title>
     <link>/tags/hol/</link>
-    <description>Recent content in Hol on Adventures in Hugo</description>
+    <description>Recent content in Hol on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <language>en</language>
+    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
+    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
+    <copyright>(c) 2018 Copyright my blog</copyright>
     <lastBuildDate>Wed, 27 Mar 2013 08:50:29 +0000</lastBuildDate>
     
 	<atom:link href="/tags/hol/index.xml" rel="self" type="application/rss+xml" />
@@ -16,9 +18,9 @@
       <title>Brilliant idea: VMware Hosted Beta</title>
       <link>/vmware-2/brilliant-idea-vmware-hosted-beta/</link>
       <pubDate>Wed, 27 Mar 2013 08:50:29 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/vmware-2/brilliant-idea-vmware-hosted-beta/</guid>
-      <description>Duncan Epping rather unceremoniously published a blog post &amp;ldquo;New Beta Program offering: VMware Hosted Beta&amp;rdquo; yesterday, outlining the availability of the new hosted beta offering that companions some of the current VMware beta programs.
+      <description>Duncan Epping rather unceremoniously published a blog post &amp;laquo;New Beta Program offering: VMware Hosted Beta&amp;raquo; yesterday, outlining the availability of the new hosted beta offering that companions some of the current VMware beta programs.
 _Due to the very NDA nature of the beta programs, I can´t really go into details on what is currently offered, but what I can say is this: Well done VMware!_
 The VMware Hosted Beta runs on the same engine that runs the VMware Hands on Labs Online – Beta, but with a little added twist.</description>
     </item>
@@ -27,7 +29,7 @@ The VMware Hosted Beta runs on the same engine that runs the VMware Hands on La
       <title>VMware Hands-on Lab Online Public Beta Review</title>
       <link>/vmware-2/vmware-hands-on-lab-online-review/</link>
       <pubDate>Thu, 06 Dec 2012 18:44:03 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/vmware-2/vmware-hands-on-lab-online-review/</guid>
       <description>A little while ago VMware announced Project Nee, something I was, and still am, pretty excited about.
 This afternoon I finally got access to the Hands-on Labs Online Beta part of Project Nee, and I have to say, this looks incredibly promising and useful.

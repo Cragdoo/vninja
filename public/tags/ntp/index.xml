@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ntp on Adventures in Hugo</title>
+    <title>Ntp on vNinja.net</title>
     <link>/tags/ntp/</link>
-    <description>Recent content in Ntp on Adventures in Hugo</description>
+    <description>Recent content in Ntp on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <language>en</language>
+    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
+    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
+    <copyright>(c) 2018 Copyright my blog</copyright>
     <lastBuildDate>Wed, 01 Feb 2017 13:18:04 +0000</lastBuildDate>
     
 	<atom:link href="/tags/ntp/index.xml" rel="self" type="application/rss+xml" />
@@ -16,9 +18,9 @@
       <title>ESXi Snapshot Problems: msg.snapshot.error-QUIESCINGERROR</title>
       <link>/vmware-2/esxi-snapshot-problems-msg-snapshot-error-quiescingerror/</link>
       <pubDate>Wed, 01 Feb 2017 13:18:04 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/vmware-2/esxi-snapshot-problems-msg-snapshot-error-quiescingerror/</guid>
-      <description>[caption id=&amp;ldquo;attachment_4559&amp;rdquo; align=&amp;ldquo;alignright&amp;rdquo; width=&amp;ldquo;300&amp;rdquo;] Photo by Sonja Langford[/caption]
+      <description>[caption id=&amp;laquo;attachment_4559&amp;raquo; align=&amp;laquo;alignright&amp;raquo; width=&amp;laquo;300&amp;raquo;] Photo by Sonja Langford[/caption]
 Just a quick post about something I experienced at a client, with ESXi 6.0 hosts, today:
 If you have trouble performing VMware snapshots, and see a msg.snapshot.error-QUIESCINGERROR error, check the host time settings and NTP.
 In this case, snapshots of VMs located on other hosts in the cluster were fine, but once a VM was moved to the new host, snapshot operations failed after an hour or so.</description>

@@ -71,7 +71,7 @@ email = "yourname@example.com"
 # default, flatly, journal,  lumen, paper, readable, sandstone, simplex,
 # slate, spacelab, superhero, united, yeti.
 
-bootswatchtheme = "yeti"
+bootswatchtheme = "flatly"
 
 # menu for changing language. This changes languages with js and stores the choice with the help of JavaScript in a Cookie. Then the path is rewritten with pathnamereplace.js. The name of the md files needs to have the same name for each language abbreviation to work correctly. Example: showcase.en.md and showcase.sv.md. It only works if DefaultContentLanguageInSubdir = true
 switchlang = false
@@ -91,7 +91,8 @@ home = "home"
 
 mailmunchid = "" # Mailmunch site id
 sumomeid = "" # Sumome id
-mathjax = "2.7.1" # cdnjs hosted version; empty string to disable mathjax
+#mathjax = "2.7.1" # cdnjs hosted version; empty string to disable mathjax
+mathjax = ""
 
 # Show a sidebar menu
 showRightSidebar = true

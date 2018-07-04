@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Community on Adventures in Hugo</title>
+    <title>Community on vNinja.net</title>
     <link>/tags/community/</link>
-    <description>Recent content in Community on Adventures in Hugo</description>
+    <description>Recent content in Community on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <language>en</language>
+    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
+    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
+    <copyright>(c) 2018 Copyright my blog</copyright>
     <lastBuildDate>Fri, 03 Apr 2015 22:22:13 +0000</lastBuildDate>
     
 	<atom:link href="/tags/community/index.xml" rel="self" type="application/rss+xml" />
@@ -16,16 +18,16 @@
       <title>The &#34;vCommunity&#34;</title>
       <link>/rant/vcommunity/</link>
       <pubDate>Fri, 03 Apr 2015 22:22:13 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/rant/vcommunity/</guid>
-      <description>The recent months, and weeks, has made me question the value of the &amp;ldquo;vCommunity&amp;rdquo;. I&amp;rsquo;m even questioning if there really is such a thing at all any more. I believe there was such a thing at one point, but it seems to be fading fast into history, only to be replaced by hyperbole of egonormous proportions. Back in the old days, and this might just be me showing my greying of beards moment, the hyperbole wasn&amp;rsquo;t a strong a force as it seems to be today.</description>
+      <description>The recent months, and weeks, has made me question the value of the &amp;laquo;vCommunity&amp;raquo;. I&amp;rsquo;m even questioning if there really is such a thing at all any more. I believe there was such a thing at one point, but it seems to be fading fast into history, only to be replaced by hyperbole of egonormous proportions. Back in the old days, and this might just be me showing my greying of beards moment, the hyperbole wasn&amp;rsquo;t a strong a force as it seems to be today.</description>
     </item>
     
     <item>
       <title>Starting a VMUG</title>
       <link>/virtualization/starting-vmug/</link>
       <pubDate>Fri, 27 Feb 2015 20:23:54 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/virtualization/starting-vmug/</guid>
       <description>Last year, in November, the first ever meeting in VMUG Norway took place in my hometown of Bergen, and since then there has been meetings in Oslo, Trondheim and a second one in Bergen as well.
 Getting the Norwegian VMUG up and running was a long process. I decided to have a go at it, and I spent a lot of time talking to people, thinking, planning and generally wondering how we could get it started and how to proceed.</description>
@@ -35,7 +37,7 @@ Getting the Norwegian VMUG up and running was a long process. I decided to have 
       <title>Rock the Vote 2014</title>
       <link>/virtualization/rock-vote-2014/</link>
       <pubDate>Sat, 22 Feb 2014 18:00:25 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/virtualization/rock-vote-2014/</guid>
       <description>Once again, it&amp;rsquo;s time to vote for the top VMware &amp;amp; virtualization blogs. As usual Eric Siebert has opened up the floodgates and set up a voting system, and once again managed to create a lot of work for himself.
 So, let&amp;rsquo;s all make it worth his while and get as many votes in as possible! There are a lot of blogs listed, this time there are over 300 in total.</description>
@@ -45,7 +47,7 @@ So, let&amp;rsquo;s all make it worth his while and get as many votes in as poss
       <title>Podcasting for Cancer</title>
       <link>/virtualization/podcasting-cancer/</link>
       <pubDate>Sat, 14 Sep 2013 20:14:03 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/virtualization/podcasting-cancer/</guid>
       <description>Some times all it takes is one single tweet to set things in motion:
 Just a year after losing Dad to cancer, Mom&#39;s has now spread from lung to other areas. Too soon for this shit. — Gabriel Chapman (@Bacon_Is_King) [September 12, 2013](https://twitter.com/Bacon_Is_King/statuses/378283415839051776) This started a spiral of tweets, discussions and ideas being thrown around and has now resulted in Podcasting for Cancer.
@@ -56,7 +58,7 @@ The current goal is to raise $5000 USD by November 12th - Let´s absolutely crus
       <title>It`s Not Your Average Data it`s vOpenData</title>
       <link>/virtualization/its-average-data-its-vopendata/</link>
       <pubDate>Fri, 12 Apr 2013 23:09:20 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/virtualization/its-average-data-its-vopendata/</guid>
       <description>So, what is the average airspeed velocity of an unladen swallow?
 As we all (should) know, that is very much a trick question.
@@ -68,10 +70,10 @@ I wonder what the avg disk size is for your virtual machine these days. I do mos
       <title>10 minute lightning Tech Talk at VMworld?</title>
       <link>/vmware-2/techtalks-at-vmworld2012/</link>
       <pubDate>Sun, 22 Jul 2012 17:49:01 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/vmware-2/techtalks-at-vmworld2012/</guid>
       <description>I love it when a plan comes together, especially when someone gets an idea and then someone fires on all cylinders and executes!
-As mentioned before, there has been a lot of talk about various ways to create a &amp;ldquo;soapbox&amp;rdquo; for all those who submitted VMworld sessions and got rejected, or those who did not submit but would still like to present.
+As mentioned before, there has been a lot of talk about various ways to create a &amp;laquo;soapbox&amp;raquo; for all those who submitted VMworld sessions and got rejected, or those who did not submit but would still like to present.
 Thankfully the guys behind vBrownBags has teamed up with VMware communities and are now offering this opportunity at VMworld 2012.</description>
     </item>
     
@@ -79,7 +81,7 @@ Thankfully the guys behind vBrownBags has teamed up with VMware communities and 
       <title>VMworld Session Reject Club</title>
       <link>/virtualization/vmworld-session-reject-club/</link>
       <pubDate>Wed, 27 Jun 2012 00:07:18 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/virtualization/vmworld-session-reject-club/</guid>
       <description>**VMworld Session Reject Club 1st RULE: You do talk about Reject Club. **
 Today VMware has sent out notifications to VMworld 2012 session submitters, with a yay or nay email. Of course, this sparked a lot of conversation on Twitter, and Scott Lowe published a blog post proposing a VMworld Unconference, and exploring several options:
@@ -92,9 +94,9 @@ Today VMware has sent out notifications to VMworld 2012 session submitters, with
       <title>Passion in IT</title>
       <link>/rant/passion-in-modern-it-organizations/</link>
       <pubDate>Sun, 20 Feb 2011 20:45:55 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/rant/passion-in-modern-it-organizations/</guid>
-      <description>Bob Plankers, akaThe Lone Sysadmin, has posted a series of posts on &amp;ldquo;the blame game&amp;rdquo; in modern IT organizations (Blame, Understanding Blame and Preventing Blame).
+      <description>Bob Plankers, akaThe Lone Sysadmin, has posted a series of posts on &amp;laquo;the blame game&amp;raquo; in modern IT organizations (Blame, Understanding Blame and Preventing Blame).
 Bob&amp;rsquo;s posts are most excellent, and well worth a thorough read. Feel free to head on over and read them now, this post will be waiting right here when you come back.
 Are you back yet? In fact, Bob&amp;rsquo;s excellent rants has inspired me to write my own!</description>
     </item>

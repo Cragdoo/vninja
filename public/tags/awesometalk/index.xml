@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Awesometalk on Adventures in Hugo</title>
+    <title>Awesometalk on vNinja.net</title>
     <link>/tags/awesometalk/</link>
-    <description>Recent content in Awesometalk on Adventures in Hugo</description>
+    <description>Recent content in Awesometalk on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <language>en</language>
+    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
+    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
+    <copyright>(c) 2018 Copyright my blog</copyright>
     <lastBuildDate>Wed, 09 May 2018 13:12:07 +0000</lastBuildDate>
     
 	<atom:link href="/tags/awesometalk/index.xml" rel="self" type="application/rss+xml" />
@@ -16,12 +18,11 @@
       <title>Keynote: Crossing the River by Feeling the Stones - Simon Wardley</title>
       <link>/awesometalks/crossing-river-feeling-stones/</link>
       <pubDate>Wed, 09 May 2018 13:12:07 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/awesometalks/crossing-river-feeling-stones/</guid>
-      <description>This is the third talk I&amp;rsquo;ve found worthy of publishing in the Awesome Talks series. Enjoy Simon Wardley&amp;rsquo;s Researcher, Leading Edge Forum, keynote from KubeCon + CloudNativeCon Europe 2018 called &amp;ldquo;Crossing the River by Feeling the Stones&amp;rdquo;.
+      <description>This is the third talk I&amp;rsquo;ve found worthy of publishing in the Awesome Talks series. Enjoy Simon Wardley&amp;rsquo;s Researcher, Leading Edge Forum, keynote from KubeCon + CloudNativeCon Europe 2018 called &amp;laquo;Crossing the River by Feeling the Stones&amp;raquo;.
 Simon&amp;rsquo;s presentation technique, flair and master of language is flat out impressive — and fun!
-Crossing the River by Feeling the Stones https://youtu.be/xlNYYy8pzB4
-Now, do you know what a map is? Do you, really?</description>
+Crossing the River by Feeling the Stones   Now, do you know what a map is? Do you, really?</description>
     </item>
     
   </channel>

@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Beta on Adventures in Hugo</title>
+    <title>Beta on vNinja.net</title>
     <link>/tags/beta/</link>
-    <description>Recent content in Beta on Adventures in Hugo</description>
+    <description>Recent content in Beta on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <language>en</language>
+    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
+    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
+    <copyright>(c) 2018 Copyright my blog</copyright>
     <lastBuildDate>Tue, 10 Feb 2015 00:06:54 +0000</lastBuildDate>
     
 	<atom:link href="/tags/beta/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +18,7 @@
       <title>The vSphere 6.0 Launch and The Misinformation Effect</title>
       <link>/vmware-2/vsphere-6-0-launch-misinformation-effect/</link>
       <pubDate>Tue, 10 Feb 2015 00:06:54 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/vmware-2/vsphere-6-0-launch-misinformation-effect/</guid>
       <description>Have you ever wondered what happens if you give 10.000 people access to an open-beta that is supposed to be under NDA?
 Firstly, the NDA is no-go from the get-go. There is no way you can claim that you actually expect 10.000 people to not talk about something they know about. VMware vSpere 6.0 was the worst kept secret ever, for a reason. It might have been planned that way all along for all I know, but if that was the case, the NDA should never have been in place to begin with.</description>
@@ -26,9 +28,9 @@ Firstly, the NDA is no-go from the get-go. There is no way you can claim that yo
       <title>Brilliant idea: VMware Hosted Beta</title>
       <link>/vmware-2/brilliant-idea-vmware-hosted-beta/</link>
       <pubDate>Wed, 27 Mar 2013 08:50:29 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/vmware-2/brilliant-idea-vmware-hosted-beta/</guid>
-      <description>Duncan Epping rather unceremoniously published a blog post &amp;ldquo;New Beta Program offering: VMware Hosted Beta&amp;rdquo; yesterday, outlining the availability of the new hosted beta offering that companions some of the current VMware beta programs.
+      <description>Duncan Epping rather unceremoniously published a blog post &amp;laquo;New Beta Program offering: VMware Hosted Beta&amp;raquo; yesterday, outlining the availability of the new hosted beta offering that companions some of the current VMware beta programs.
 _Due to the very NDA nature of the beta programs, I can´t really go into details on what is currently offered, but what I can say is this: Well done VMware!_
 The VMware Hosted Beta runs on the same engine that runs the VMware Hands on Labs Online – Beta, but with a little added twist.</description>
     </item>
@@ -37,7 +39,7 @@ The VMware Hosted Beta runs on the same engine that runs the VMware Hands on La
       <title>VMware Workstation 8 - What&#39;s new?</title>
       <link>/virtualization/vmware-workstation-8-whats-new/</link>
       <pubDate>Wed, 07 Sep 2011 12:07:23 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/virtualization/vmware-workstation-8-whats-new/</guid>
       <description>VMware is close (still in beta) to releasing the new major release of VMware Workstation.
 Update 14. September 2011: VMware Workstation 8 has now officially been released.

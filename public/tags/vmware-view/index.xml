@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vmware View on Adventures in Hugo</title>
+    <title>Vmware View on vNinja.net</title>
     <link>/tags/vmware-view/</link>
-    <description>Recent content in Vmware View on Adventures in Hugo</description>
+    <description>Recent content in Vmware View on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <language>en</language>
+    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
+    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
+    <copyright>(c) 2018 Copyright my blog</copyright>
     <lastBuildDate>Fri, 03 Aug 2012 21:17:13 +0000</lastBuildDate>
     
 	<atom:link href="/tags/vmware-view/index.xml" rel="self" type="application/rss+xml" />
@@ -16,9 +18,9 @@
       <title>Building End-User Computing Solutions with VMware View Book Available</title>
       <link>/virtualization/building-end-user-computing-solutions-vmware-view-book/</link>
       <pubDate>Fri, 03 Aug 2012 21:17:13 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/virtualization/building-end-user-computing-solutions-vmware-view-book/</guid>
-      <description>Mike Laverick and Barry Coombs has released their new book, elegantly titled &amp;ldquo;Building End-User Computing Solutions with VMware View&amp;rdquo;.
+      <description>Mike Laverick and Barry Coombs has released their new book, elegantly titled &amp;laquo;Building End-User Computing Solutions with VMware View&amp;raquo;.
 Not only is this a great book, it is something that every existing and potential VMware View (and related technologies in the EUC area) administrator should add to their (digital) bookshelves.
 I´ll let the authors themselves describe it:
 This book is all about VMware View 5.1 and ThinApp 4.7.2 administration - and it takes in a wide scope of complementary technologies from the likes of Teradici, BitDefender and F5 Networks.</description>

@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hyperconverged on Adventures in Hugo</title>
+    <title>Hyperconverged on vNinja.net</title>
     <link>/tags/hyperconverged/</link>
-    <description>Recent content in Hyperconverged on Adventures in Hugo</description>
+    <description>Recent content in Hyperconverged on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <language>en</language>
+    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
+    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
+    <copyright>(c) 2018 Copyright my blog</copyright>
     <lastBuildDate>Mon, 01 Dec 2014 20:39:08 +0000</lastBuildDate>
     
 	<atom:link href="/tags/hyperconverged/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +18,7 @@
       <title>EVO:RAIL: Doing the methmath.</title>
       <link>/virtualization/hyperconvergence-meth-math/</link>
       <pubDate>Mon, 01 Dec 2014 20:39:08 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/virtualization/hyperconvergence-meth-math/</guid>
       <description>Howard Marks has published a post I&amp;rsquo;ve been meaning do myself, but to be honest, I&amp;rsquo;m glad Howard put it out there. His is way more researched and comprehensive than mine would ever have been.
 In his The True Cost Of Hyperconvergence article, Howard compares buying a new EVO:RAIL system, with building your own. Complete with the required hardware, licenses and support contracts. The result might come as a surprise to some&amp;hellip;</description>
@@ -26,7 +28,7 @@ In his The True Cost Of Hyperconvergence article, Howard compares buying a new
       <title>Is Hyperconverged the be-all, end-all? No.</title>
       <link>/rant/hyperconverged-be-all-end-all-no/</link>
       <pubDate>Mon, 22 Sep 2014 21:48:40 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/rant/hyperconverged-be-all-end-all-no/</guid>
       <description>First off, this is not meant to be a post negating the value of current hyperconverged solutions available in the market. I think hyperconverged has it&amp;rsquo;s place, and for many use cases it makes perfect sense to go down that route. But the idea that everyone should go hyperconverged and all data should be placed on local drives, even if made redundant inside the chassis and even between chassis, is to be blunt, a bit silly.</description>
     </item>

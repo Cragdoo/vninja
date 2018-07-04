@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Esxi on Adventures in Hugo</title>
+    <title>Esxi on vNinja.net</title>
     <link>/tags/esxi/</link>
-    <description>Recent content in Esxi on Adventures in Hugo</description>
+    <description>Recent content in Esxi on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <language>en</language>
+    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
+    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
+    <copyright>(c) 2018 Copyright my blog</copyright>
     <lastBuildDate>Sat, 25 Feb 2017 08:50:26 +0000</lastBuildDate>
     
 	<atom:link href="/tags/esxi/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +18,7 @@
       <title>VMware vSphere 6.5 PSOD: GP Exception 13</title>
       <link>/vmware-2/vmware-vsphere-6-5-psod-gp-exception-13/</link>
       <pubDate>Sat, 25 Feb 2017 08:50:26 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/vmware-2/vmware-vsphere-6-5-psod-gp-exception-13/</guid>
       <description>While at a customer site, migrating an old vSphere 5.5 environment to 6.5, several hosts suddenly crashed with a PSOD during the migration. Long story short, we got hit by this: VMware KB 2147958: _ESXi 6.5 host fails with PSOD: GP Exception 13 in multiple VMM world at VmAnonAllocVmmPages (2147958)
 It turned out that a bunch of the VMs we were vMotioning from the old environment had the cpuid.corePerSocket advanced setting set in the .</description>
@@ -26,9 +28,9 @@ It turned out that a bunch of the VMs we were vMotioning from the old environmen
       <title>ESXi Snapshot Problems: msg.snapshot.error-QUIESCINGERROR</title>
       <link>/vmware-2/esxi-snapshot-problems-msg-snapshot-error-quiescingerror/</link>
       <pubDate>Wed, 01 Feb 2017 13:18:04 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/vmware-2/esxi-snapshot-problems-msg-snapshot-error-quiescingerror/</guid>
-      <description>[caption id=&amp;ldquo;attachment_4559&amp;rdquo; align=&amp;ldquo;alignright&amp;rdquo; width=&amp;ldquo;300&amp;rdquo;] Photo by Sonja Langford[/caption]
+      <description>[caption id=&amp;laquo;attachment_4559&amp;raquo; align=&amp;laquo;alignright&amp;raquo; width=&amp;laquo;300&amp;raquo;] Photo by Sonja Langford[/caption]
 Just a quick post about something I experienced at a client, with ESXi 6.0 hosts, today:
 If you have trouble performing VMware snapshots, and see a msg.snapshot.error-QUIESCINGERROR error, check the host time settings and NTP.
 In this case, snapshots of VMs located on other hosts in the cluster were fine, but once a VM was moved to the new host, snapshot operations failed after an hour or so.</description>
@@ -38,11 +40,11 @@ In this case, snapshots of VMs located on other hosts in the cluster were fine, 
       <title>vCenter / SSO unable to retrieve AD-information | Error while extracting local SSO users</title>
       <link>/virtualization/vcenter-sso-unable-to-retrieve-ad-information-error-while-extracting-local-sso-users/</link>
       <pubDate>Tue, 10 Nov 2015 19:30:20 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/virtualization/vcenter-sso-unable-to-retrieve-ad-information-error-while-extracting-local-sso-users/</guid>
       <description>After deploying a new VCSA 6.0u1 I was seeing some weird errors while trying to retrieve AD- users/groups (or anything from the esod.local domain):
 After some serious head scratching, it dawned on me after checking the DNS records for the DC in the domain, from the vCenter Appliance itself:
-[cc lang=&amp;ldquo;bash&amp;rdquo; width=&amp;ldquo;100%&amp;rdquo; theme=&amp;ldquo;blackboard&amp;rdquo; nowrap=&amp;ldquo;0&amp;rdquo;] dig +noall +answer +search dc1.esod.local dc1.esod.local. 3600 IN A 10.0.1.201 [/cc]
+[cc lang=&amp;laquo;bash&amp;raquo; width=&amp;laquo;100%&amp;raquo; theme=&amp;laquo;blackboard&amp;raquo; nowrap=&amp;laquo;0&amp;raquo;] dig +noall +answer +search dc1.esod.local dc1.esod.local. 3600 IN A 10.0.1.201 [/cc]
 So far so good, the DNS lookup works as expected.</description>
     </item>
     
@@ -50,17 +52,17 @@ So far so good, the DNS lookup works as expected.</description>
       <title>VMware Update Manager: Unsupported Configuration</title>
       <link>/vmware-2/vmware-update-manager-unsupported-configuration/</link>
       <pubDate>Fri, 28 Aug 2015 10:46:24 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/vmware-2/vmware-update-manager-unsupported-configuration/</guid>
       <description>During an upgrade from vSphere 5.1 to 5.5, I ran into a rather strange issue when trying to utilize VMware Update Manager to perform the ESXi upgrade.
-During scanning, VUM reported the ESXi host as &amp;ldquo;Incompatible&amp;rdquo;, without offering any other explanation. I spent ages looking through VUM logs, trying to find the culprit, suspecting it was an incompatible VIB. Without finding anything that gave me any indication on what the problem might be, I moved on to looking at the ESXi image I had imported into VUM.</description>
+During scanning, VUM reported the ESXi host as &amp;laquo;Incompatible&amp;raquo;, without offering any other explanation. I spent ages looking through VUM logs, trying to find the culprit, suspecting it was an incompatible VIB. Without finding anything that gave me any indication on what the problem might be, I moved on to looking at the ESXi image I had imported into VUM.</description>
     </item>
     
     <item>
       <title>Update ESXi Embedded Host Client Fling</title>
       <link>/vmware-2/update-esxi-embedded-host-client-fling/</link>
       <pubDate>Wed, 26 Aug 2015 16:45:10 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/vmware-2/update-esxi-embedded-host-client-fling/</guid>
       <description>The ESXi Embedded Host Client Fling got an upgrade today, and in addition to new features it now works properly on ESXi 5.5. In addition to this, it&amp;rsquo;s also available as an offline bundle so you can distribute it with Update Manager.
 Since I&amp;rsquo;ve spent most of my day in esxcli, here is a quick post on how to perform the upgrade from a local http repository hosting the .</description>
@@ -70,7 +72,7 @@ Since I&amp;rsquo;ve spent most of my day in esxcli, here is a quick post on how
       <title>ESXi5.5 to 6.0 Upgrade From Local HTTP Daemon</title>
       <link>/vmware-2/esxi5-5-to-6-0-upgrade-from-local-http-daemon/</link>
       <pubDate>Wed, 26 Aug 2015 11:35:08 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/vmware-2/esxi5-5-to-6-0-upgrade-from-local-http-daemon/</guid>
       <description>I was recently involved with consulting for a Norwegian shipping company who has quite a few remote vSphere installations, most of them with a couple of ESXi hosts, but no vCenter and hence no Update Manager. While looking at methods for managing these installations, in particular how to facilitate patching and upgrading scenarios, I remembered that way back in 2013, I posted Quick and Dirty HTTP-based Deployment which shows how to use the Python to run a simple http daemon, and serve files from it.</description>
     </item>
@@ -79,7 +81,7 @@ Since I&amp;rsquo;ve spent most of my day in esxcli, here is a quick post on how
       <title>Need the vSphere Client? VMware Has You Covered.</title>
       <link>/vmware-2/vsphere-client-vmware-covered/</link>
       <pubDate>Wed, 17 Sep 2014 21:24:24 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/vmware-2/vsphere-client-vmware-covered/</guid>
       <description>One of the more popular posts, currently in third place, on vNinja.net is my list of vSphere Client direct download links posted back in March 2012.
 Thankfully William Lam had the same idea, and got a new Knowledgebase Article published: Download URLs for VMware vSphere Client (2089791). Please use that article as the official download link documentation from now on.</description>
@@ -89,10 +91,10 @@ Thankfully William Lam had the same idea, and got a new Knowledgebase Article pu
       <title>Root Cause of Invalid memory setting: memory reservation (sched.mem.min) should be equal to memsize (memsize)</title>
       <link>/vmware-2/root-invalid-memory-setting-memory-reservation-sched-mem-min-equal-memsize-memsize/</link>
       <pubDate>Tue, 15 Jul 2014 10:59:42 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/vmware-2/root-invalid-memory-setting-memory-reservation-sched-mem-min-equal-memsize-memsize/</guid>
       <description>While working on reconfiguring my home lab setup, and migrating all the vSphere resources into a single cluster I ran into a problem powering on one of the VMs which used to run on a single host. The power on operation yielded the following error message:
-Invalid memory setting: memory reservation (sched.mem.min) should be equal to memsize (memsize) [showhide type=&amp;ldquo;errorstack&amp;rdquo; more_text=&amp;ldquo;Show error stack (%s More Words)&amp;rdquo;]
+Invalid memory setting: memory reservation (sched.mem.min) should be equal to memsize (memsize) [showhide type=&amp;laquo;errorstack&amp;raquo; more_text=&amp;laquo;Show error stack (%s More Words)&amp;raquo;]
   **Task Details:**         Status:    Invalid memory setting: memory reservation (sched.</description>
     </item>
     
@@ -100,7 +102,7 @@ Invalid memory setting: memory reservation (sched.mem.min) should be equal to me
       <title>Configuring VSAN on a Dell PowerEdge VRTX</title>
       <link>/virtualization/configuring-vsan-dell-poweredge-vrtx/</link>
       <pubDate>Wed, 19 Feb 2014 12:30:08 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/virtualization/configuring-vsan-dell-poweredge-vrtx/</guid>
       <description>The Dell PowerEdge VRTX shared infrastructure platform is interesting, and I&amp;rsquo;ve been lucky enough to be able to borrow one from Dell for testing purposes.
 One of the things I wanted to test, was if it was possible to run VMware VSAN on it, even if the Shared PERC8 RAID controller it comes with is not on the VMware VSAN HCL, nor does it provide a method to do passthrough to present raw disks directly to the hosts.</description>
@@ -110,9 +112,9 @@ One of the things I wanted to test, was if it was possible to run VMware VSAN on
       <title>Automatically Name Datastores in vSphere?</title>
       <link>/vmware-2/automatically-datastores-vsphere/</link>
       <pubDate>Tue, 18 Feb 2014 16:16:28 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/vmware-2/automatically-datastores-vsphere/</guid>
-      <description>William Lam posted &amp;ldquo;Why you should rename the default VSAN Datastore name&amp;rdquo; where he outlines why the default name for VSAN data stores should be changed. Of course, I completely agree with his views on this; Leaving it at the default might cause confusion down the line.
+      <description>William Lam posted &amp;laquo;Why you should rename the default VSAN Datastore name&amp;raquo; where he outlines why the default name for VSAN data stores should be changed. Of course, I completely agree with his views on this; Leaving it at the default might cause confusion down the line.
 At the end of the post, William asks the following:
 I wonder if it would be a useful to have a feature in VSAN to automatically append the vSphere Cluster name to the default VSAN Datastore name?</description>
     </item>
@@ -121,7 +123,7 @@ I wonder if it would be a useful to have a feature in VSAN to automatically appe
       <title>Can you combine vSphere Host Cache and vFlash on a single SSD?</title>
       <link>/vmware-2/combine-vsphere-host-cache-vflash-single-ssd/</link>
       <pubDate>Mon, 30 Sep 2013 00:12:39 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/vmware-2/combine-vsphere-host-cache-vflash-single-ssd/</guid>
       <description>One of the new features in vSphere 5.5 is the vSphere vFlash that enables you to use a SSD/Flash device as a read cache for your storage. Duncan Epping has a series of posts on vSphere Flash Cache that is well worth a read.
 vSphere vFlash caches your read IOs, but at the same time you can use it as a swap device if you run into memory contention issues. The vSphere vFlash Host Cache is similar to the older Host Cache feature, but if you are upgrading from an older version of ESXi there is a couple of things that needs to be done to be able to use this feature.</description>
@@ -131,7 +133,7 @@ vSphere vFlash caches your read IOs, but at the same time you can use it as a sw
       <title>VMware vCenter Server Appliance Error: VPXD must be stopped to perform this operation</title>
       <link>/vmware-2/vmware-vcenter-server-appliance-error-vpxd-stopped-perform-operation/</link>
       <pubDate>Sun, 29 Sep 2013 23:16:25 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/vmware-2/vmware-vcenter-server-appliance-error-vpxd-stopped-perform-operation/</guid>
       <description>While deploying a fresh vCenter Server 5.5 Appliance, I ran into an issue getting it configured.
 When the appliance is deployed, the first time you log in you get presented with the configuration wizard. The wizard clearly states that if you want to set a static ip, or hostname, you should cancel the wizard, do the network configuration and then re-run the wizard after the fact.
@@ -142,18 +144,18 @@ Well, that´s what I did, and it resulted in the following error when trying to 
       <title>Quick and Dirty ESXi 5.5 Upgrade</title>
       <link>/virtualization/quick-dirty-esxi-5-5-upgrade/</link>
       <pubDate>Mon, 23 Sep 2013 23:28:04 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/virtualization/quick-dirty-esxi-5-5-upgrade/</guid>
       <description>As I´ve posted about earlier, you can update your ESXi hosts to a new release from the command line. Now that ESXi 5.5 has been released, the same procedure can be applied to upgrade once more.
 Place the host in maintenance mode, then run the following command to do an online update to ESXi 5.5:
-[cc lang=&amp;ldquo;bash&amp;rdquo; width=&amp;ldquo;100%&amp;rdquo; theme=&amp;ldquo;blackboard&amp;rdquo; nowrap=&amp;ldquo;0&amp;rdquo;] ~ # esxcli software profile update -d https://hostupdate.vmware.com/software/VUM/PRODUCTION/main/vmw-depot-index.xml -p ESXi-5.</description>
+[cc lang=&amp;laquo;bash&amp;raquo; width=&amp;laquo;100%&amp;raquo; theme=&amp;laquo;blackboard&amp;raquo; nowrap=&amp;laquo;0&amp;raquo;] ~ # esxcli software profile update -d https://hostupdate.vmware.com/software/VUM/PRODUCTION/main/vmw-depot-index.xml -p ESXi-5.</description>
     </item>
     
     <item>
       <title>Monitoring the ESXi Upgrade Process</title>
       <link>/vmware-2/monitoring-esxi-upgrade-process/</link>
       <pubDate>Wed, 26 Jun 2013 10:34:18 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/vmware-2/monitoring-esxi-upgrade-process/</guid>
       <description>When doing manual host upgrades, either through the direct method or via a locally placed upgrade bundle, there is a distinct lack of progress information available after running the esxcli command.
 Thankfully the ESXi host provides a running logfile of the upgrade process, which makes it much easier to keep track of what is going on and that the upgrade is indeed being performed.
@@ -164,7 +166,7 @@ The esxupdate.log is located in /var/log, and by issuing the following command i
       <title>Quick and Dirty ESXi 5.1U1 Upgrade</title>
       <link>/vmware-2/quick-dirty-esxi-5-1u1-upgrade/</link>
       <pubDate>Fri, 26 Apr 2013 12:36:07 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/vmware-2/quick-dirty-esxi-5-1u1-upgrade/</guid>
       <description>Now that VMware ESXi 5.1 Update 1 has been released I decided to do a quick and dirty upgrade of my home installation. I refuse to call it a lab these days, since it´s one singular host and all it does it contain my home domain controller&amp;hellip;
 Anyway, the following procedure upgraded the host from 5.1b to 5.1U1, by downloading the upgrade directly from VMware and installing it. Make sure the host is in maintenance mode before attempting this procedure.</description>
@@ -174,20 +176,20 @@ Anyway, the following procedure upgraded the host from 5.1b to 5.1U1, by downloa
       <title>Adding a secondary NIC to the vCenter 5.1 Appliance (VCSA)</title>
       <link>/virtualization/adding-secondary-nic-vcenter-5-1-appliance-vcsa/</link>
       <pubDate>Thu, 25 Apr 2013 11:10:33 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/virtualization/adding-secondary-nic-vcenter-5-1-appliance-vcsa/</guid>
       <description>While building my lab environment, I ran into a situation where I wanted to have a completely sealed off networking segment that had no outside access.
 This is a trivial task on it`s own, just create a vSwitch with no physical NICs attached to it, and then connect the VMs to it. The VMs will then have interconnectivity, but no outside network access at all.
-In this particular case, I was setting up a couple of nested ESXi servers that I wanted to connect to the &amp;ldquo;outside&amp;rdquo; vCenter Appliance (VCSA).</description>
+In this particular case, I was setting up a couple of nested ESXi servers that I wanted to connect to the &amp;laquo;outside&amp;raquo; vCenter Appliance (VCSA).</description>
     </item>
     
     <item>
       <title>Installing Dell Equallogic Multipathing Extension Module (MEM) in vSphere 5.1</title>
       <link>/virtualization/installing-dell-equallogic-multipathing-extension-module-mem-vsphere-5-1/</link>
       <pubDate>Mon, 22 Apr 2013 21:31:46 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/virtualization/installing-dell-equallogic-multipathing-extension-module-mem-vsphere-5-1/</guid>
-      <description>Dell offers a Multipathing Extension Module (MEM) for vSphere, and in this post I´ll highlight how to &amp;ldquo;manually&amp;rdquo; install it on a ESXi 5.1 host. I will not cover the network setup part of the equation, but rather go through the simple steps required to get the MEM installed on the hosts in question.
+      <description>Dell offers a Multipathing Extension Module (MEM) for vSphere, and in this post I´ll highlight how to &amp;laquo;manually&amp;raquo; install it on a ESXi 5.1 host. I will not cover the network setup part of the equation, but rather go through the simple steps required to get the MEM installed on the hosts in question.
 First of all, you need to download the MEM installation package. At the time of writing, the latest version is v1.</description>
     </item>
     
@@ -195,7 +197,7 @@ First of all, you need to download the MEM installation package. At the time of 
       <title>VMware vSphere Health Check - What´s in it for You?</title>
       <link>/vmware-2/vmware-vsphere-health-checks-wha/</link>
       <pubDate>Tue, 04 Dec 2012 22:49:27 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/vmware-2/vmware-vsphere-health-checks-wha/</guid>
       <description>VMware vSphere Health Check is a service provided by VMware Professional Services, either by their own consultants or by a consultant from a VMware Certified Solution Provider.
 I´m lucky enough to be employed by a Premier VMware Solution Provider who offers this service to our customers, and I´ve completed a fair number of these health checks in the last couple of months.
@@ -206,7 +208,7 @@ You might ask what the value of the Health Check is, and for the end customer it
       <title>Exporting vCenter Events with PowerCLI</title>
       <link>/virtualization/exporting-vcenter-events-powercli/</link>
       <pubDate>Fri, 30 Nov 2012 09:12:50 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/virtualization/exporting-vcenter-events-powercli/</guid>
       <description>One of my clients has recently been having issues with their storage solution, and wanted to export the events from vCenter that show storage performance degradation, to aid in troubleshooting with the vendor.
 For some reason, and I have yet to confirm that this is a bug with the vCenter 5.0 appliance or the vCenter Desktop Client, when an event export is done, the storage related events are not exported with the rest of the events.</description>
@@ -216,7 +218,7 @@ For some reason, and I have yet to confirm that this is a bug with the vCenter 5
       <title>Why Did the HP BL460c G8 Lose It&#39;s Datastore?</title>
       <link>/vmware-2/hp-bl460c-g8-lose-its-datastore/</link>
       <pubDate>Mon, 29 Oct 2012 21:48:08 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/vmware-2/hp-bl460c-g8-lose-its-datastore/</guid>
       <description>Post Update: As per Preetam´s comment, HP has published a customer advisory regarding the usage of install vs update.
 After installing a couple of brand new HP ProLiant BL460c G8 blades with HP Smart Array P220i controllers at a customer site, I decided that I should upgrade from the VMware-ESXi-5.0.0-Update1-623860-HP-5.20.43.iso Build 623860 used to install the blades, to the latest 821926 build offered by VMware.
@@ -227,7 +229,7 @@ Normally this is a really easy process using VMware Update Manager, but since th
       <title>VMware ESXi 4 vs ESXi 5 Log File Locations</title>
       <link>/virtualization/vmware-esxi-4-vs-esxi-5-log-file-locations/</link>
       <pubDate>Mon, 17 Sep 2012 21:24:18 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/virtualization/vmware-esxi-4-vs-esxi-5-log-file-locations/</guid>
       <description>This post is inspired by a tweet from Andrew Storrs, where he pinpoints that the host log file locations have changed between ESXi 4 and ESXi 5.
 Note: This post has been updated with new log files for ESXi 5.1
@@ -240,7 +242,7 @@ Between version 5.0 and 5.1 the log file locations have not changed, but a coupl
       <title>vSphere 5: Creating a Hardware Version 4 VM</title>
       <link>/virtualization/vsphere-5-creating-hardware-version-4-vm/</link>
       <pubDate>Mon, 02 Jul 2012 19:50:03 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/virtualization/vsphere-5-creating-hardware-version-4-vm/</guid>
       <description>I recently had a need to create a VM for usage on ESX 3.x, but the only thing available to me in my lab was vSphere 5, which naturally creates new VMs with the latest and greatest version 8 virtual hardware.
 The following table lists the virtual hardware versions and the corresponding ESX and ESXi releases: Version 
@@ -252,7 +254,7 @@ Virtual Hardware Version   ESXi 5.x
       <title>Creating and Using a Virtual Floppy in vSphere</title>
       <link>/virtualization/creating-virtual-floppy-vsphere/</link>
       <pubDate>Sat, 07 Jan 2012 22:44:33 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/virtualization/creating-virtual-floppy-vsphere/</guid>
       <description>My new colleague Olav Tvedt asked me if I could test his method of enabling Bitlocker in a VM, on VMware vSphere. Of course, I was happy to oblige.
 I followed the same steps as he did in his Running Bitlocker on a Virtual computer post, and it worked perfectly.
@@ -263,7 +265,7 @@ The only real difference between doing this in Hyper-V and on ESXi, is that the 
       <title>Auto Installation and Configuring of vSphere ESXi 5</title>
       <link>/virtualization/auto-installation-and-configuring-of-vsphere-esxi-5/</link>
       <pubDate>Wed, 21 Dec 2011 23:36:19 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/virtualization/auto-installation-and-configuring-of-vsphere-esxi-5/</guid>
       <description>One of the last projects I&amp;rsquo;ve been involved with at Seatrans, is to automate the installation and configuration of vSphere ESXi 5 hosts for deployment on vessels. I&amp;rsquo;ve talked a bit about this before, both on vSoup and in Setting Up Automated ESXi Deployments where I outlined my PXE and PowerCLI based installation and configuration scheme. Not much has changed since then, except updating the PXE server to offer ESXi 5, instead of ESXi 4 and a lot of work has been put into the scripting, including a front-end GUI for the PowerCLI script itself.</description>
     </item>
@@ -272,7 +274,7 @@ The only real difference between doing this in Hyper-V and on ESXi, is that the 
       <title>Why Can&#39;t I Syslog my VMware ESXi Installation?</title>
       <link>/virtualization/why-cant-i-syslog-my-vmware-esxi-installation/</link>
       <pubDate>Fri, 04 Nov 2011 22:06:32 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/virtualization/why-cant-i-syslog-my-vmware-esxi-installation/</guid>
       <description>Juan Manuel Rey&amp;rsquo;s post Monitor ESX 4.x to ESXi 5.0 migration process show how you can watch the progress of an ESX 4 to ESXi 5 upgrade procedure, by looking at the live logs.
 While this is very useful, and in many cases a real learning experience, it got me thinking that these logs should be available remotely as well. Since ESXi supports, and actively encourages, the use of an external Syslog service for log file safekeeping and monitoring, shouldn&amp;rsquo;t the installation logs for ESXi also be logged externally if configured?</description>
@@ -282,7 +284,7 @@ While this is very useful, and in many cases a real learning experience, it got 
       <title>vSphere 5: ESXi Installation Video</title>
       <link>/virtualization/vsphere-5-esxi-installation-video/</link>
       <pubDate>Thu, 25 Aug 2011 09:28:03 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/virtualization/vsphere-5-esxi-installation-video/</guid>
       <description>To celebrate vSphere 5 GA release today, I&amp;rsquo;ve recorded a quick video of the old school CD/ISO based installation:
 vSphere 5 ESXi Install Video from Christian Mohn on Vimeo.
@@ -293,7 +295,7 @@ Seems strangely familiar, right? Enjoy!</description>
       <title>vSphere 5 and new licensing - Good or bad?</title>
       <link>/news/vsphere-5-and-new-licensing-good-or-bad/</link>
       <pubDate>Tue, 12 Jul 2011 18:36:07 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/news/vsphere-5-and-new-licensing-good-or-bad/</guid>
       <description>As many of you did I watched todays Cloud Infrastructure Forum and the release of vSphere 5 today. I was very excited with many of the features such as Storage Profiling, Storage DRS, VMFS 5 release, and they have blown the top off of the resource limits on VMs to create Monster VMs - just to mention a few. However, one topic I notice causing quite a stir is the new licensing that seemed to be very briefly mentioned at the end of the webinar.</description>
     </item>
@@ -302,7 +304,7 @@ Seems strangely familiar, right? Enjoy!</description>
       <title>Setting Up Automated ESXi Deployments</title>
       <link>/virtualization/setting-up-automated-esxi-deployments/</link>
       <pubDate>Thu, 07 Jul 2011 08:10:55 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/virtualization/setting-up-automated-esxi-deployments/</guid>
       <description>Automating ESXi installs was made much easier after the release of vSphere 4.1 where the Scripted Install feature was added, and by using VMware Auto Deploy from VMware Labs. VMware Auto Deploy requires that you have vCenter and Host Profiles in your environment, and that again requires that you have Enterprise Plus licenses in your environment.
 It is, however, possible to deploy ESXi in an automated fashion completely without vCenter and Host Profiles!</description>
@@ -312,7 +314,7 @@ It is, however, possible to deploy ESXi in an automated fashion completely witho
       <title>vCenter Update Manager - A Feature Request</title>
       <link>/virtualization/vcenter-update-manager-a-feature-request/</link>
       <pubDate>Fri, 22 Apr 2011 21:07:35 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/virtualization/vcenter-update-manager-a-feature-request/</guid>
       <description>Way back in August 24 2010 I wrote a post called vCenter Update Manager to lose it’s fat. I&amp;rsquo;m still very happy that VMware has decided to drop OS patching from the product, and I still mean that can only be a good thing. In fact, that article prompted Beth Pariseau Senior News Writer for searchservervirtualization.techtarget.com to call me when researching her VMware users eye changes to Update Manager article.</description>
     </item>
@@ -321,7 +323,7 @@ It is, however, possible to deploy ESXi in an automated fashion completely witho
       <title>Using rsync to Distribute Patches to a Remote vMA </title>
       <link>/virtualization/using-rsync-to-distribute-patches-to-remote-a-vma/</link>
       <pubDate>Tue, 08 Mar 2011 08:00:02 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/virtualization/using-rsync-to-distribute-patches-to-remote-a-vma/</guid>
       <description>I recently posted Using vMA as a local vSphere Patch Repository, where I outlined how you can use your vMA instances as local file repositories for updates.
 This post is a continuation of that concept, but this time I&amp;rsquo;ll take it a step further and utilize rsync to make sure my vMA instances all contain the same set of patches. Rsync is great for this, as it handles fast incremental file transfers, which is a real time and bandwidth saver in my particular scenario.</description>
@@ -331,7 +333,7 @@ This post is a continuation of that concept, but this time I&amp;rsquo;ll take i
       <title>Using vMA as a local vSphere Patch Repository</title>
       <link>/virtualization/using-vma-as-a-local-vsphere-patch-repository/</link>
       <pubDate>Mon, 07 Mar 2011 22:43:33 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/virtualization/using-vma-as-a-local-vsphere-patch-repository/</guid>
       <description>I like using http as the transport protocol when patching my vSphere hosts. It&amp;rsquo;s easy to use and in most cases immediately available over most networks. Since I want to use http as the transport, we need to make vMA work as a http server.
 Starting Apache inside vMA Luckily, the Apache http daemon is installed, by default, in vMA and to utilize it all you have to do is to start it!</description>
@@ -341,7 +343,7 @@ Starting Apache inside vMA Luckily, the Apache http daemon is installed, by defa
       <title>Installing vSphere Management Assistant (vMA)</title>
       <link>/virtualization/installing-vsphere-management-assistant-vma/</link>
       <pubDate>Mon, 28 Feb 2011 23:26:15 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/virtualization/installing-vsphere-management-assistant-vma/</guid>
       <description>The vMA is a Virtual Appliance that you can download from VMware. It&amp;rsquo;s primary function is to enable command line based management of your ESX/ESXi systems.
 Basically this is a pre-packaged virtual machine that includes vCLI and the vSphere SDK for Perl, which means that you don&amp;rsquo;t have to build your own management VM or install these tools locally on a management station.

@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Dropbox on Adventures in Hugo</title>
+    <title>Dropbox on vNinja.net</title>
     <link>/tags/dropbox/</link>
-    <description>Recent content in Dropbox on Adventures in Hugo</description>
+    <description>Recent content in Dropbox on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <language>en</language>
+    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
+    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
+    <copyright>(c) 2018 Copyright my blog</copyright>
     <lastBuildDate>Sun, 13 Mar 2011 21:29:42 +0000</lastBuildDate>
     
 	<atom:link href="/tags/dropbox/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +18,7 @@
       <title>Custom Dictionary Syncronization with Dropbox</title>
       <link>/howto/custom-dictionary-syncronization-with-dropbox/</link>
       <pubDate>Sun, 13 Mar 2011 21:29:42 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/howto/custom-dictionary-syncronization-with-dropbox/</guid>
       <description>In the last couple of weeks I&amp;rsquo;ve been using Microsoft Word 2010 a lot more than I&amp;rsquo;ve previously done, and at the same time I&amp;rsquo;ve been switching computers a lot making it somewhat of an annoyance that a lot of the words I use in my documents are not recognized and marked with a wiggly red line underneath it.
 If only there was a way to keep the custom dictionary synchronized between computers.</description>

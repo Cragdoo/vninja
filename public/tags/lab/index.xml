@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Lab on Adventures in Hugo</title>
+    <title>Lab on vNinja.net</title>
     <link>/tags/lab/</link>
-    <description>Recent content in Lab on Adventures in Hugo</description>
+    <description>Recent content in Lab on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <language>en</language>
+    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
+    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
+    <copyright>(c) 2018 Copyright my blog</copyright>
     <lastBuildDate>Tue, 15 Nov 2016 12:00:50 +0000</lastBuildDate>
     
 	<atom:link href="/tags/lab/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +18,7 @@
       <title>Generating Random Data in Linux</title>
       <link>/virtualization/generating-random-data-in-linux/</link>
       <pubDate>Tue, 15 Nov 2016 12:00:50 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/virtualization/generating-random-data-in-linux/</guid>
       <description>I&amp;rsquo;ve been fleshing out a properVeeam Backup &amp;amp; Replication Demo lab at work, but doing demos on static VMs isn&amp;rsquo;t all that much fun and doesn&amp;rsquo;t really give us much. Doing scheduled backups of non-changing data is really boring.
 So, in order to get some changes done on the file system on a few Linux VMs running in the environment, I came up with the following solution:
@@ -27,7 +29,7 @@ I set up a crontab entry that generates a file with random data in it a couple o
       <title>Ravello Offers Free Lab Service for all 2015 vExperts</title>
       <link>/virtualization/ravello/</link>
       <pubDate>Fri, 19 Jun 2015 10:10:52 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/virtualization/ravello/</guid>
       <description>RavelloSystems has announced free lab service for all 2015 vExperts, which offers 1,000 free CPU hours per month for personal or home lab use.
 I was lucky enough to be one of the early VMware on AWS VIP Pass users, and I&amp;rsquo;ve been working on several setups the last few weeks. Hopefully I&amp;rsquo;ll be able to make those available as blueprints in the new Ravello Repo, once they are ready for publishing.</description>
@@ -37,9 +39,9 @@ I was lucky enough to be one of the early VMware on AWS VIP Pass users, and I&a
       <title>Autolab goes Cloudy with a Chance of Free Credits </title>
       <link>/virtualization/autolab-meets-cloud/</link>
       <pubDate>Thu, 14 Mar 2013 00:02:35 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/virtualization/autolab-meets-cloud/</guid>
-      <description>Autolab, that awesome &amp;ldquo;little&amp;rdquo; thing that automagically builds a nested vSphere Lab environment for you, was definitely not put together by Flint Lockwood but by Alastair Cooke (www.demitasse.co.nz). Unlike Flint´s inventions, this one actually makes sense and serves a purpose!
+      <description>Autolab, that awesome &amp;laquo;little&amp;raquo; thing that automagically builds a nested vSphere Lab environment for you, was definitely not put together by Flint Lockwood but by Alastair Cooke (www.demitasse.co.nz). Unlike Flint´s inventions, this one actually makes sense and serves a purpose!
 Now, how sweet would it be to deploy Autolab without having to invest time, money and effort into acquiring your own hardware?
 Well, thanks to baremetalcloud.com, you might now actually be able to do just that (and more, if you wish).</description>
     </item>
@@ -48,9 +50,9 @@ Well, thanks to baremetalcloud.com, you might now actually be able to do just th
       <title>Building The Ultimate vSphere Lab Series</title>
       <link>/news/building-ultimate-vsphere-lab-series/</link>
       <pubDate>Tue, 03 Jan 2012 12:32:29 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/news/building-ultimate-vsphere-lab-series/</guid>
-      <description>Sammy Bogaert has posted a 12 part series called &amp;ldquo;Building The Ultimate vSphere Lab&amp;rdquo;, which knocks the socks of my previous vSphere 4.x series.
+      <description>Sammy Bogaert has posted a 12 part series called &amp;laquo;Building The Ultimate vSphere Lab&amp;raquo;, which knocks the socks of my previous vSphere 4.x series.
 In reality this means that my planned series for vSphere 5.x is now cancelled, as there is no need to duplicate Sammy&amp;rsquo;s efforts. Be sure to check the series out!</description>
     </item>
     

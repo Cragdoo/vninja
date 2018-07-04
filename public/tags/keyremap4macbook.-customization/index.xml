@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Keyremap4macbook. Customization on Adventures in Hugo</title>
+    <title>Keyremap4macbook. Customization on vNinja.net</title>
     <link>/tags/keyremap4macbook.-customization/</link>
-    <description>Recent content in Keyremap4macbook. Customization on Adventures in Hugo</description>
+    <description>Recent content in Keyremap4macbook. Customization on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <language>en</language>
+    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
+    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
+    <copyright>(c) 2018 Copyright my blog</copyright>
     <lastBuildDate>Wed, 31 Jul 2013 23:10:42 +0000</lastBuildDate>
     
 	<atom:link href="/tags/keyremap4macbook.-customization/index.xml" rel="self" type="application/rss+xml" />
@@ -16,10 +18,10 @@
       <title>My Slate Setup</title>
       <link>/osx/slate-setup/</link>
       <pubDate>Wed, 31 Jul 2013 23:10:42 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/osx/slate-setup/</guid>
-      <description>About a year and a half I go, I took the leap from running Microsoft Windows as my main operating system and switched into full &amp;ldquo;hipster mode&amp;rdquo;, i.e. switched to a Macbook Air and OS X.
-Simply put, &amp;ldquo;the change&amp;rdquo; was not that hard and most everything has worked without problems, and for those things that still require Microsoft Windows, well, there is VMware Fusion for that.
+      <description>About a year and a half I go, I took the leap from running Microsoft Windows as my main operating system and switched into full &amp;laquo;hipster mode&amp;raquo;, i.e. switched to a Macbook Air and OS X.
+Simply put, &amp;laquo;the change&amp;raquo; was not that hard and most everything has worked without problems, and for those things that still require Microsoft Windows, well, there is VMware Fusion for that.
 While I´m admittedly still a novice OS X user, and not even close to mastering OS X, I´d like to share my current Slate setup.</description>
     </item>
     

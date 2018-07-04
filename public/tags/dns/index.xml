@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Dns on Adventures in Hugo</title>
+    <title>Dns on vNinja.net</title>
     <link>/tags/dns/</link>
-    <description>Recent content in Dns on Adventures in Hugo</description>
+    <description>Recent content in Dns on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <language>en</language>
+    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
+    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
+    <copyright>(c) 2018 Copyright my blog</copyright>
     <lastBuildDate>Tue, 09 Aug 2016 22:21:07 +0000</lastBuildDate>
     
 	<atom:link href="/tags/dns/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +18,7 @@
       <title>Using CloudFlare for Dynamic DNS</title>
       <link>/homelab/using-cloudflare-for-dynamic-dns/</link>
       <pubDate>Tue, 09 Aug 2016 22:21:07 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/homelab/using-cloudflare-for-dynamic-dns/</guid>
       <description>In my previous post, I tried to lay out the foundation and reasoning behind requiring a Dynamic DNS Service, and here is how I solved it using CloudFlare.
 First of all, I moved my chosen domain name to CloudFlare, and made sure everything resolved ok with static records. Once that was working, I started playing around with the CloudFlare API, using Cocoa Rest Client. I&amp;rsquo;m no developer (as is probably very apparent by the script below), nor API wizard of any kind, but it was fairly easy figuring out how to craft a request that lists my DNS zone.</description>
@@ -26,7 +28,7 @@ First of all, I moved my chosen domain name to CloudFlare, and made sure everyth
       <title>Dynamic DNS Requirements</title>
       <link>/homelab/dynamic-dns-requirements/</link>
       <pubDate>Tue, 09 Aug 2016 22:18:57 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/homelab/dynamic-dns-requirements/</guid>
       <description>While working on my new Homelab setup, I&amp;rsquo;ve been investigating ways to provide hostname based access to several web services located in my DMZ zone. Since my provider doesn&amp;rsquo;t provide static IP addresses, I also need an external Dynamic DNS service, to provide said hostname mappings through the reverse proxy on the inside.
 There are loads of Dynamic DNS services available, most of them lets you use some sort of predefined domain name scheme, and point it to your external IP, but I wanted to use a domain name that I own and control.</description>

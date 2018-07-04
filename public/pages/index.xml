@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on vNinja.net</title>
+    <link>/pages/</link>
+    <description>Recent content in Pages on vNinja.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
+    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
+    <copyright>(c) 2018 Copyright my blog</copyright>
+    <lastBuildDate>Sun, 01 Jul 2018 11:59:56 +0200</lastBuildDate>
+    
+	<atom:link href="/pages/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Advertising</title>
+      <link>/advertising/</link>
+      <pubDate>Sun, 01 Jul 2018 11:59:56 +0200</pubDate>
+      <author>yourname@example.com (Christian Mohn)</author>
+      <guid>/advertising/</guid>
+      <description>Thank you for your interest in advertising on vNinja.net!
+vNinja.net currently only offers 250 x 250px ads in the site wide sidebar. Other suggestions are welcome, and all inquiries will be entertained on a case-by-case basis.
+Terms and conditions Purchasing advertising space on vNinja.net does not guarantee any, favourable or not, review of the product or services advertised, nor is it to be considered an endorsement of any kind. vNinja.</description>
+    </item>
+    
+    <item>
+      <title>vNinja.net Privacy Policy</title>
+      <link>/about/privacy-policy/</link>
+      <pubDate>Sun, 01 Jul 2018 11:56:57 +0200</pubDate>
+      <author>yourname@example.com (Christian Mohn)</author>
+      <guid>/about/privacy-policy/</guid>
+      <description>vNinja.net is a privately owned and operated site run by Christian Mohn.</description>
+    </item>
+    
+    <item>
+      <title>Christian Mohn</title>
+      <link>/about/christian-mohn/</link>
+      <pubDate>Sun, 01 Jul 2018 11:10:17 +0200</pubDate>
+      <author>yourname@example.com (Christian Mohn)</author>
+      <guid>/about/christian-mohn/</guid>
+      <description>Christian Mohn is an eight time VMware vExpert (2011-2018), and an inaugural vExpert vSAN, VMware EUC Champion (2015-2017), ex-PernixPro, and four time Veeam Vanguard (2015-2018).
+Christian currently works as a Senior Solutions Architect for Proact IT Norge AS, working on building the strongest SDDC practice possible.
+He is an IT industry veteran, author and blogger with more than 20 years of experience. He is also a member of the Norwegian VMUG leadership and has helped launch VMUG in three Norwegian cities (Oslo, Bergen and Trondheim).</description>
+    </item>
+    
+  </channel>
+</rss>

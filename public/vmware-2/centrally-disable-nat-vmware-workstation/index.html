@@ -5,22 +5,24 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <title>Centrally Disable NAT in VMware Workstation  &middot; Adventures in Hugo</title>
+  <title>Centrally Disable NAT in VMware Workstation  &middot; vNinja.net</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-<meta name="description" content="There is a thin line between agile and fragile" />
+<meta name="description" content="" />
 
 <meta name="keywords" content="GPMC, Group Policy, Group Policy Preferences, management, VMware, VMware Workstation, Windows, Workstation, ">
 
+<link rel="author" href="http://plus.google.com/+Myprofile">
 
-<meta property="og:title" content="Centrally Disable NAT in VMware Workstation  &middot; Adventures in Hugo ">
-<meta property="og:site_name" content="Adventures in Hugo"/>
+
+<meta property="og:title" content="Centrally Disable NAT in VMware Workstation  &middot; vNinja.net ">
+<meta property="og:site_name" content="vNinja.net"/>
 <meta property="og:url" content="/vmware-2/centrally-disable-nat-vmware-workstation/" />
-<meta property="og:locale" content="en-us">
+<meta property="og:locale" content="en">
 
 
 <meta property="og:type" content="article" />
@@ -50,8 +52,8 @@
 
   
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:site" content="@" />
-<meta name="twitter:creator" content="@" />
+<meta name="twitter:site" content="@h0bbel" />
+<meta name="twitter:creator" content="@h0bbel" />
 <meta name="twitter:title" content="Centrally Disable NAT in VMware Workstation" />
 <meta name="twitter:description" content="" />
 <meta name="twitter:url" content="/vmware-2/centrally-disable-nat-vmware-workstation/" />
@@ -66,7 +68,7 @@
     "headline": "Centrally Disable NAT in VMware Workstation",
     "author": {
       "@type": "Person",
-      "name": "http://profiles.google.com/+?rel=author"
+      "name": "http://profiles.google.com/+Myprofile?rel=author"
     },
     "datePublished": "2013-06-25",
     "description": "",
@@ -89,12 +91,14 @@
 
 
 
-    <link rel="stylesheet" href="/css/bootswatch/default/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootswatch/lux/bootstrap.min.css">
 
 
 <link rel="stylesheet" href="/css/font-awesome.min.css">
 <link rel="stylesheet" href="/css/style.css">
 
+
+<link rel="stylesheet" href="/css/style_custom.css">
 
 
 
@@ -114,15 +118,54 @@
           <span class="icon-bar"></span>
         </button>
         
+        <a class="navbar-brand" href="/">
+          vNinja.net
           
-          <a class="navbar-brand-img" href="/">
-            <img alt="" src="">
-            
+          
           </a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
             
+            
+            <li class="">
+              
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class='fa fa-bars'></i> About <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    
+                      <li class="">
+                        <a href="/about/christian-mohn/"><i class='fa fa-child'></i> About vNinja</a>
+                      </li>
+                    
+                      <li class="">
+                        <a href="/about/christian-mohn/"><i class='fa fa-child'></i> About Christian</a>
+                      </li>
+                    
+                  </ul>
+              
+            </li>
+            
+            <li class="">
+              
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class='fa fa-hand-lizard-o'></i> Site Policy <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    
+                      <li class="">
+                        <a href="/about/privacy-policy"><i class='fa fa-hand-lizard-o'></i> Privacy Policy</a>
+                      </li>
+                    
+                  </ul>
+              
+            </li>
+            
+            <li class="">
+              
+                <a href="/advertising" >
+                  <i class='fa fa-bank'></i>
+                  Advertising
+                </a>
+              
+            </li>
             
             
               
@@ -139,15 +182,76 @@
 
 <div class="container">
   <div class="row">
-    <div class="col-sm-12">
+    <div class="col-sm-9">
 
 
-      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >
-<header class="container hat">
-  <h1>Centrally Disable NAT in VMware Workstation
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+  <div class="title-metas text-center">
+
+    <h1>Centrally Disable NAT in VMware Workstation
 </h1>
 
-</header>
+    <div class="metas">
+<small>
+  <i class="fa fa-calendar"></i>
+  <time datetime="2013-06-25">25 Jun, 2013</time>
+</small>
+
+
+  <small>
+    &middot; by cmohn
+  
+  &middot; Read in about 3 min
+  &middot; (588 words)
+  &middot; 
+<span class="share-box">Share this on:
+    <a href="https://www.facebook.com/sharer/sharer.php?u=%2fvmware-2%2fcentrally-disable-nat-vmware-workstation%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-facebook-official "></i></a>
+
+    <a href="https://twitter.com/intent/tweet?text=Centrally%20Disable%20NAT%20in%20VMware%20Workstation&amp;url=%2fvmware-2%2fcentrally-disable-nat-vmware-workstation%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-twitter"></i></a>
+
+    <a href="https://plus.google.com/share?url=%2fvmware-2%2fcentrally-disable-nat-vmware-workstation%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-google-plus"></i></a>
+
+    <a href="http://www.reddit.com/submit?url=%2fvmware-2%2fcentrally-disable-nat-vmware-workstation%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-reddit"></i></a>
+
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fvmware-2%2fcentrally-disable-nat-vmware-workstation%2f&amp;title=Centrally%20Disable%20NAT%20in%20VMware%20Workstation" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-linkedin"></i></a>
+
+    <a href="mailto:?subject=Centrally%20Disable%20NAT%20in%20VMware%20Workstation&amp;body=Check out this site %2fvmware-2%2fcentrally-disable-nat-vmware-workstation%2f" data-proofer-ignore=""><i class="fa fa-envelope"></i></a>
+  </span>
+
+  </small>
+
+<div class="margin-10">
+  <i class="fa fa-tags"></i>
+  
+  <a href="/tags/gpmc" class="label label-primary">GPMC</a>
+  
+  <a href="/tags/group-policy" class="label label-primary">Group Policy</a>
+  
+  <a href="/tags/group-policy-preferences" class="label label-primary">Group Policy Preferences</a>
+  
+  <a href="/tags/management" class="label label-primary">management</a>
+  
+  <a href="/tags/vmware" class="label label-primary">VMware</a>
+  
+  <a href="/tags/vmware-workstation" class="label label-primary">VMware Workstation</a>
+  
+  <a href="/tags/windows" class="label label-primary">Windows</a>
+  
+  <a href="/tags/workstation" class="label label-primary">Workstation</a>
+  
+
+
+</div>
+
+<br>
+</div>
+
+  </div>
 </div>
 
 
@@ -162,15 +266,15 @@
 
 <blockquote>Network address translation (NAT) configures your virtual machine to share the IP and MAC addresses of the host. The virtual machine and the host share a single network identity that is not visible outside the network. NAT can be useful when you are allowed a single IP address or MAC address by your network administrator. You might also use NAT to configure separate virtual machines for handling http and ftp requests, with both virtual machines running off the same IP address or domain. See Network Address Translation (NAT).</blockquote>
 
-<p>[caption id=&ldquo;attachment_2602&rdquo; align=&ldquo;aligncenter&rdquo; width=&ldquo;300&rdquo;]<a href="http://pubs.vmware.com/workstation-9/index.jsp#com.vmware.ws.using.doc/GUID-89311E3D-CCA9-4ECC-AF5C-C52BE6A89A95.html"><img src="http://vninja.net/wordpress/wp-content/uploads/2013/06/GUID-4C1FE8E1-9C52-4A43-9C36-97AEC38C737B-high-1-300x125.png" alt="VMware Workstation NAT Configuration " /></a> VMware Workstation NAT Configuration[/caption]</p>
+<p>[caption id=&laquo;attachment_2602&raquo; align=&laquo;aligncenter&raquo; width=&laquo;300&raquo;]<a href="http://pubs.vmware.com/workstation-9/index.jsp#com.vmware.ws.using.doc/GUID-89311E3D-CCA9-4ECC-AF5C-C52BE6A89A95.html"><img src="http://vninja.net/wordpress/wp-content/uploads/2013/06/GUID-4C1FE8E1-9C52-4A43-9C36-97AEC38C737B-high-1-300x125.png" alt="VMware Workstation NAT Configuration " /></a> VMware Workstation NAT Configuration[/caption]</p>
 
 <p>Since the VM shares the host MAC address and IP, blocking network access from the VM is not trivial in this scenario.</p>
 
-<p>Thankfully, in VMware Workstation for Windows, NAT is provided through a Windows Service that we can manipulate. By disabling the &ldquo;<em>VMware NAT Service</em>&rdquo; we can ensure that NAT does not work, and that the only real alternative is to run the VM in &ldquo;Bridged Mode&rdquo;.</p>
+<p>Thankfully, in VMware Workstation for Windows, NAT is provided through a Windows Service that we can manipulate. By disabling the &laquo;<em>VMware NAT Service</em>&raquo; we can ensure that NAT does not work, and that the only real alternative is to run the VM in &laquo;Bridged Mode&raquo;.</p>
 
-<p>Bridged Mode makes it easier for network admins to manipulate access, since the virtual network adapter is exposed to the switches with their own MAC address, and thus possibly also their own IP address, and the VM is not &ldquo;hidden&rdquo; behind the hosts MAC. For instance, this makes it possible for the network gurus to limit the VMs physical network access to internet access only, and not exposing the internal network to the VM.</p>
+<p>Bridged Mode makes it easier for network admins to manipulate access, since the virtual network adapter is exposed to the switches with their own MAC address, and thus possibly also their own IP address, and the VM is not &laquo;hidden&raquo; behind the hosts MAC. For instance, this makes it possible for the network gurus to limit the VMs physical network access to internet access only, and not exposing the internal network to the VM.</p>
 
-<p>Running around disabling the &rdquo;<em>VMware NAT Service</em>&rdquo; on all clients that run VMware Workstation is no fun job, so naturally we need to find a way to automate this as well.</p>
+<p>Running around disabling the &raquo;<em>VMware NAT Service</em>&raquo; on all clients that run VMware Workstation is no fun job, so naturally we need to find a way to automate this as well.</p>
 
 <p>**Enter Group Policy Preferences!
 **</p>
@@ -182,11 +286,11 @@
 
 <li><p>In the menu click on Action &gt; New &gt; Service and and click on  “…” next to the Service Name field</p></li>
 
-<li><p>Select the &ldquo;VMware NAT Service&rdquo;and click “Select”<a href="http://vninja.net/wordpress/wp-content/uploads/2013/06/5.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2013/06/5-300x191.png" alt="Services" /></a></p></li>
+<li><p>Select the &laquo;VMware NAT Service&raquo;and click “Select”<a href="http://vninja.net/wordpress/wp-content/uploads/2013/06/5.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2013/06/5-300x191.png" alt="Services" /></a></p></li>
 
-<li><p>Set the Startup mode to &ldquo;disabled&rdquo;</p></li>
+<li><p>Set the Startup mode to &laquo;disabled&raquo;</p></li>
 
-<li><p>Assign this new Group Policy Preference to the OU that the clients that have VMware Workstation installed on resides in, and the next time the policies are refreshed, the &rdquo;VMware NAT Service&rdquo; should be set to disabled.Note: This might require a reboot of the client.</p></li>
+<li><p>Assign this new Group Policy Preference to the OU that the clients that have VMware Workstation installed on resides in, and the next time the policies are refreshed, the &raquo;VMware NAT Service&raquo; should be set to disabled.Note: This might require a reboot of the client.</p></li>
 
 <li><p>Profit.</p></li>
 </ol>
@@ -202,8 +306,90 @@
 </div>
 
 
+      <footer>
+  
+<span class="share-box">Share this on:
+    <a href="https://www.facebook.com/sharer/sharer.php?u=%2fvmware-2%2fcentrally-disable-nat-vmware-workstation%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-facebook-official "></i></a>
+
+    <a href="https://twitter.com/intent/tweet?text=Centrally%20Disable%20NAT%20in%20VMware%20Workstation&amp;url=%2fvmware-2%2fcentrally-disable-nat-vmware-workstation%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-twitter"></i></a>
+
+    <a href="https://plus.google.com/share?url=%2fvmware-2%2fcentrally-disable-nat-vmware-workstation%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-google-plus"></i></a>
+
+    <a href="http://www.reddit.com/submit?url=%2fvmware-2%2fcentrally-disable-nat-vmware-workstation%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-reddit"></i></a>
+
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fvmware-2%2fcentrally-disable-nat-vmware-workstation%2f&amp;title=Centrally%20Disable%20NAT%20in%20VMware%20Workstation" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-linkedin"></i></a>
+
+    <a href="mailto:?subject=Centrally%20Disable%20NAT%20in%20VMware%20Workstation&amp;body=Check out this site %2fvmware-2%2fcentrally-disable-nat-vmware-workstation%2f" data-proofer-ignore=""><i class="fa fa-envelope"></i></a>
+  </span>
+
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
       
+  
+    <nav><ul class="pager">
+    
+        <li class="previous">
+          <a href="/storage-2/virtual-connect-flexfabric-direct-attach-fc-3par-caveat/" title="Virtual Connect FlexFabric and Direct-Attach FC 3Par Caveat">
+            <span aria-hidden="true">&larr;</span>Previous
+          </a>
+        </li>
+    
+
+    
+      <li class="next">
+        <a href="/vmware-2/monitoring-esxi-upgrade-process/" title="Monitoring the ESXi Upgrade Process">
+            Next <span aria-hidden="true">&rarr;</span>
+        </a>
+      </li>
+    
+    </ul> </nav>
+  
+
+
+</div>
+
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+  
+
+</div>
+
+</footer>
+
     </div>
+    
+      <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+        <hr>
+<div>
+  
+
+    <div class="section">
+      <div class="ads">
+        <a href="http://turbonomic.com/resources/hybrid-cloud-intelligent-bursting-aws-microsoft-azure/?utm_source=vninja&amp;utm_medium=banner-ad&amp;utm_campaign=wp-path-to-hybrid-cloud&amp;utm_content=250x250"><img width="250" height="250" src="https://i1.wp.com/vninja.net/wordpress/wp-content/uploads/2017/11/wp-intelligent-bursting-aws-azure-250x250.png?zoom=2&amp;fit=250%2C250" alt="" title="wp-intelligent-bursting-aws-azure (250x250)" src-orig="https://i1.wp.com/vninja.net/wordpress/wp-content/uploads/2017/11/wp-intelligent-bursting-aws-azure-250x250.png?fit=250%2C250" scale="2"></a>
+      </div>
+      <div class="ads">
+        <a href="http://cohesity.com"><img width="250" height="250" src="https://i2.wp.com/vninja.net/wordpress/wp-content/uploads/2016/12/250x250_cohesity_ad-1.gif?zoom=2&amp;fit=250%2C250" alt="" title="250x250_cohesity_ad-1" src-orig="https://i2.wp.com/vninja.net/wordpress/wp-content/uploads/2016/12/250x250_cohesity_ad-1.gif?fit=250%2C250" scale="2"></a>
+      </div>
+    </div>
+<hr>
+    
+      
+      
+      <div class="section">
+        sidebar 2
+      </div>
+      
+    
+      
+      
+    
+
+</div>
+
+      </div>
     
   </div>
 </div>
@@ -217,6 +403,10 @@
 </div>
 <div class="pull-right">
 
+<a href="/disclaimer/">Disclaimer</a> <i>&middot;</i>
+
+<a href="/terms/">Terms</a> 
+
 </div>
 
         </div>
@@ -225,6 +415,8 @@
     
 <div class="container footline">
     <small>
+  Built with Hugo and lots of <i class='fa fa-coffee'></i>
+
 </small>
 </div>
 
@@ -232,10 +424,11 @@
     
 <div class="container copyright">
     <small>
-  &copy; Christian Mohn
+  &copy; 2018 Copyright my blog
 
   </small>
 </div>
+
 
 
 
@@ -246,12 +439,6 @@
 
     
 
-<script src="//s3.amazonaws.com/mailmunch/static/site.js" id="mailmunch-script" data-mailmunch-site-id="" async="async"></script>
-
-
-
-<script src="//load.sumome.com/" data-sumo-site-id="" async="async"></script>
-
 <script src="/js/jquery.min.js"></script>
 <script src="/js/bootstrap.min.js"></script>
 
@@ -260,6 +447,13 @@
 <script src="/js/site.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
+
+<script>
+  var _gaq=[['_setAccount','Your Google Analytics tracking code'],['_trackPageview']];
+  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+  g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+  s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
 
 <script>
 var ENABLE_POPOVER = "", 
@@ -284,34 +478,6 @@ CONTENTLANGUAGE = "";
 
 
 
-
-<script type="text/javascript"
-        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax//MathJax.js"></script>
-<script type="text/javascript"
-        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax//config/TeX-AMS-MML_HTMLorMML.js"></script>
-
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  tex2jax: {
-    inlineMath: [['$','$'], ['\\(','\\)']],
-    displayMath: [['$$','$$'], ['\[','\]']],
-    processEscapes: true,
-    processEnvironments: true,
-    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-    TeX: { equationNumbers: { autoNumber: "AMS" },
-         extensions: ["AMSmath.js", "AMSsymbols.js"] }
-  }
-});
-</script>
-
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Queue(function() {
-    for(var all in MathJax.Hub.getAllJax()) {
-        all.SourceElement().parentNode.className += ' has-jax';
-
-    }
-});
-</script>
 
 
 

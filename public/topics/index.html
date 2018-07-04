@@ -5,7 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <title>Topics  &middot; My blog</title>
+  <title>Topics  &middot; vNinja.net</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">
@@ -16,9 +16,11 @@
 
 <meta name="keywords" content="">
 
+<link rel="author" href="http://plus.google.com/+Myprofile">
 
-<meta property="og:title" content="Topics  &middot; My blog ">
-<meta property="og:site_name" content="My blog"/>
+
+<meta property="og:title" content="Topics  &middot; vNinja.net ">
+<meta property="og:site_name" content="vNinja.net"/>
 <meta property="og:url" content="/topics/" />
 <meta property="og:locale" content="en">
 
@@ -41,12 +43,14 @@
 
 
 
-    <link rel="stylesheet" href="/css/bootswatch/paper/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootswatch/lux/bootstrap.min.css">
 
 
 <link rel="stylesheet" href="/css/font-awesome.min.css">
 <link rel="stylesheet" href="/css/style.css">
 
+
+<link rel="stylesheet" href="/css/style_custom.css">
 
 
 
@@ -66,10 +70,10 @@
           <span class="icon-bar"></span>
         </button>
         
+        <a class="navbar-brand" href="/">
+          vNinja.net
           
-          <a class="navbar-brand-img" href="/">
-            <img alt="Appernetic blog" src="http://blog.appernetic.io/images/apperneticlogo.png">
-            
+          
           </a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
@@ -78,27 +82,39 @@
             
             <li class="">
               
-                <a href="https://appernetic.io/app/#/about" >
-                  <i class='fa fa-road'></i>
-                  About
-                </a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class='fa fa-bars'></i> About <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    
+                      <li class="">
+                        <a href="/about/christian-mohn/"><i class='fa fa-child'></i> About vNinja</a>
+                      </li>
+                    
+                      <li class="">
+                        <a href="/about/christian-mohn/"><i class='fa fa-child'></i> About Christian</a>
+                      </li>
+                    
+                  </ul>
               
             </li>
             
             <li class="">
               
-                <a href="/post/" >
-                  
-                  Blog
-                </a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class='fa fa-hand-lizard-o'></i> Site Policy <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    
+                      <li class="">
+                        <a href="/about/privacy-policy"><i class='fa fa-hand-lizard-o'></i> Privacy Policy</a>
+                      </li>
+                    
+                  </ul>
               
             </li>
             
             <li class="">
               
-                <a href="https://appernetic.io/app/" >
-                  
-                  Dashboard
+                <a href="/advertising" >
+                  <i class='fa fa-bank'></i>
+                  Advertising
                 </a>
               
             </li>
@@ -145,7 +161,7 @@
     
 <div class="container footline">
     <small>
-  code with <i class='fa fa-heart'></i>
+  Built with Hugo and lots of <i class='fa fa-coffee'></i>
 
 </small>
 </div>
@@ -154,10 +170,11 @@
     
 <div class="container copyright">
     <small>
-  &copy; 2016 Copyright my blog
+  &copy; 2018 Copyright my blog
 
   </small>
 </div>
+
 
 
 
@@ -185,56 +202,28 @@
 </script>
 
 <script>
-var ENABLE_POPOVER =  false , 
-EXPIRE_COOKIE =  5 , 
-SHOW_MODAL_TIMEOUT =  10000 , 
-MOUSE_LEAVE =  true , 
+var ENABLE_POPOVER = "", 
+EXPIRE_COOKIE = "", 
+SHOW_MODAL_TIMEOUT = "", 
+MOUSE_LEAVE = "", 
 MODAL_SIZE = "", 
-POST_URL = "https://zapier.com/hooks/...", 
-SIGNUP_HEADER = "Join Our Newsletter",
-HEADER_IMAGE = "//placehold.it/1000x600",
-IMG_DESCRIPTION = "Placeholder image for this popover modal optin form",
-SIGNUP_TEXT = "Signup today for free and be the first to get notified on new updates.",
-INPUT_PLACEHOLDER = "Enter your email",
-SUBMIT_BUTTON = "Subscribe",
-SUCCESS_MESSAGE = "Thanks for your subscription!",
-ERROR_MESSAGE = "Submitting form failed!",
-OPTIN =  true ,
-COOKIE_NAME = "mycookie1",
+POST_URL = "", 
+SIGNUP_HEADER = "",
+HEADER_IMAGE = "",
+IMG_DESCRIPTION = "",
+SIGNUP_TEXT = "",
+INPUT_PLACEHOLDER = "",
+SUBMIT_BUTTON = "",
+SUCCESS_MESSAGE = "",
+ERROR_MESSAGE = "",
+OPTIN = "",
+COOKIE_NAME = "",
 CONTENTLANGUAGE = ""; 
 </script>
 
 
 
 
-
-<script type="text/javascript"
-        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax//MathJax.js"></script>
-<script type="text/javascript"
-        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax//config/TeX-AMS-MML_HTMLorMML.js"></script>
-
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  tex2jax: {
-    inlineMath: [['$','$'], ['\\(','\\)']],
-    displayMath: [['$$','$$'], ['\[','\]']],
-    processEscapes: true,
-    processEnvironments: true,
-    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-    TeX: { equationNumbers: { autoNumber: "AMS" },
-         extensions: ["AMSmath.js", "AMSsymbols.js"] }
-  }
-});
-</script>
-
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Queue(function() {
-    for(var all in MathJax.Hub.getAllJax()) {
-        all.SourceElement().parentNode.className += ' has-jax';
-
-    }
-});
-</script>
 
 
 

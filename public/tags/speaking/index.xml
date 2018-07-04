@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Speaking on Adventures in Hugo</title>
+    <title>Speaking on vNinja.net</title>
     <link>/tags/speaking/</link>
-    <description>Recent content in Speaking on Adventures in Hugo</description>
+    <description>Recent content in Speaking on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <language>en</language>
+    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
+    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
+    <copyright>(c) 2018 Copyright my blog</copyright>
     <lastBuildDate>Wed, 28 Oct 2015 22:30:14 +0000</lastBuildDate>
     
 	<atom:link href="/tags/speaking/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +18,7 @@
       <title>Nordic VMUG UserCon Session</title>
       <link>/virtualization/nordic-vmug-usercon-session/</link>
       <pubDate>Wed, 28 Oct 2015 22:30:14 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/virtualization/nordic-vmug-usercon-session/</guid>
       <description>VMUG Denmark is arranging the Nordic VMUG UserCon in Copenhagen December 1st 2015, and the agenda went live earlier today. I&amp;rsquo;m definitely going to be there, and as it turns out I even have my own session lined up:
 **Session Title: **VCS to VCVA Converter or how a fling can be good for you! ** Session Abstract: **Migrating from Windows vCenter to the VCVA? No worries, the VMware VCS to VCVA Converter fling has you covered!</description>

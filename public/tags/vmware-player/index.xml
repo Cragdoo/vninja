@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vmware Player on Adventures in Hugo</title>
+    <title>Vmware Player on vNinja.net</title>
     <link>/tags/vmware-player/</link>
-    <description>Recent content in Vmware Player on Adventures in Hugo</description>
+    <description>Recent content in Vmware Player on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <language>en</language>
+    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
+    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
+    <copyright>(c) 2018 Copyright my blog</copyright>
     <lastBuildDate>Tue, 24 Aug 2010 21:48:02 +0000</lastBuildDate>
     
 	<atom:link href="/tags/vmware-player/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +18,7 @@
       <title>vCenter Update Manager to lose it&#39;s fat</title>
       <link>/virtualization/vcenter-update-manager-to-lose-its-fat/</link>
       <pubDate>Tue, 24 Aug 2010 21:48:02 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/virtualization/vcenter-update-manager-to-lose-its-fat/</guid>
       <description>Dwayne Lessner who runs IT Blood Pressure, has written a guest post on GestaltIT called Is My Favourite VSphere Tool Is Going Away?
 In his article, Dwayne talks about vCenter Update Manager 4.1, and the fact that it seems to be the last version of the tools that will allow you to patch your Windows and Linux guests:
@@ -27,10 +29,10 @@ In his article, Dwayne talks about vCenter Update Manager 4.1, and the fact that
       <title>Where in the world is VMware Server?</title>
       <link>/virtualization/where-in-the-world-is-vmware-server/</link>
       <pubDate>Fri, 13 Aug 2010 23:05:33 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/virtualization/where-in-the-world-is-vmware-server/</guid>
       <description>Over at PlanetVM Wil van Antwerpen posted The Future of VMware Server back in May 2010. Wil makes the argument that it seems like VMware is indeed abandoning VMware Server as a product, leaving us with VMware Workstation and VMware Player as the two Windows installable virtualization solutions from the company.
-This has caused some reactions, including my own comment, where I question the smartness of abandoning what might just be one of the best virtualization &amp;ldquo;gateway drugs&amp;rdquo; VMware has to offer.</description>
+This has caused some reactions, including my own comment, where I question the smartness of abandoning what might just be one of the best virtualization &amp;laquo;gateway drugs&amp;raquo; VMware has to offer.</description>
     </item>
     
   </channel>

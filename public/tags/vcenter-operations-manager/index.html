@@ -5,22 +5,24 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <title>Vcenter Operations Manager  &middot; Adventures in Hugo</title>
+  <title>Vcenter Operations Manager  &middot; vNinja.net</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-<meta name="description" content="There is a thin line between agile and fragile" />
+<meta name="description" content="" />
 
 <meta name="keywords" content="">
 
+<link rel="author" href="http://plus.google.com/+Myprofile">
 
-<meta property="og:title" content="Vcenter Operations Manager  &middot; Adventures in Hugo ">
-<meta property="og:site_name" content="Adventures in Hugo"/>
+
+<meta property="og:title" content="Vcenter Operations Manager  &middot; vNinja.net ">
+<meta property="og:site_name" content="vNinja.net"/>
 <meta property="og:url" content="/tags/vcenter-operations-manager/" />
-<meta property="og:locale" content="en-us">
+<meta property="og:locale" content="en">
 
 
 <meta property="og:type" content="website" />
@@ -41,12 +43,14 @@
 
 
 
-    <link rel="stylesheet" href="/css/bootswatch/default/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootswatch/lux/bootstrap.min.css">
 
 
 <link rel="stylesheet" href="/css/font-awesome.min.css">
 <link rel="stylesheet" href="/css/style.css">
 
+
+<link rel="stylesheet" href="/css/style_custom.css">
 
 
 
@@ -66,15 +70,54 @@
           <span class="icon-bar"></span>
         </button>
         
+        <a class="navbar-brand" href="/">
+          vNinja.net
           
-          <a class="navbar-brand-img" href="/">
-            <img alt="" src="">
-            
+          
           </a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
             
+            
+            <li class="">
+              
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class='fa fa-bars'></i> About <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    
+                      <li class="">
+                        <a href="/about/christian-mohn/"><i class='fa fa-child'></i> About vNinja</a>
+                      </li>
+                    
+                      <li class="">
+                        <a href="/about/christian-mohn/"><i class='fa fa-child'></i> About Christian</a>
+                      </li>
+                    
+                  </ul>
+              
+            </li>
+            
+            <li class="">
+              
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class='fa fa-hand-lizard-o'></i> Site Policy <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    
+                      <li class="">
+                        <a href="/about/privacy-policy"><i class='fa fa-hand-lizard-o'></i> Privacy Policy</a>
+                      </li>
+                    
+                  </ul>
+              
+            </li>
+            
+            <li class="">
+              
+                <a href="/advertising" >
+                  <i class='fa fa-bank'></i>
+                  Advertising
+                </a>
+              
+            </li>
             
             
               
@@ -128,6 +171,10 @@
 </div>
 <div class="pull-right">
 
+<a href="/disclaimer/">Disclaimer</a> <i>&middot;</i>
+
+<a href="/terms/">Terms</a> 
+
 </div>
 
         </div>
@@ -136,6 +183,8 @@
     
 <div class="container footline">
     <small>
+  Built with Hugo and lots of <i class='fa fa-coffee'></i>
+
 </small>
 </div>
 
@@ -143,10 +192,11 @@
     
 <div class="container copyright">
     <small>
-  &copy; Christian Mohn
+  &copy; 2018 Copyright my blog
 
   </small>
 </div>
+
 
 
 
@@ -157,12 +207,6 @@
 
     
 
-<script src="//s3.amazonaws.com/mailmunch/static/site.js" id="mailmunch-script" data-mailmunch-site-id="" async="async"></script>
-
-
-
-<script src="//load.sumome.com/" data-sumo-site-id="" async="async"></script>
-
 <script src="/js/jquery.min.js"></script>
 <script src="/js/bootstrap.min.js"></script>
 
@@ -171,6 +215,13 @@
 <script src="/js/site.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
+
+<script>
+  var _gaq=[['_setAccount','Your Google Analytics tracking code'],['_trackPageview']];
+  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+  g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+  s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
 
 <script>
 var ENABLE_POPOVER = "", 
@@ -195,34 +246,6 @@ CONTENTLANGUAGE = "";
 
 
 
-
-<script type="text/javascript"
-        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax//MathJax.js"></script>
-<script type="text/javascript"
-        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax//config/TeX-AMS-MML_HTMLorMML.js"></script>
-
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  tex2jax: {
-    inlineMath: [['$','$'], ['\\(','\\)']],
-    displayMath: [['$$','$$'], ['\[','\]']],
-    processEscapes: true,
-    processEnvironments: true,
-    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-    TeX: { equationNumbers: { autoNumber: "AMS" },
-         extensions: ["AMSmath.js", "AMSsymbols.js"] }
-  }
-});
-</script>
-
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Queue(function() {
-    for(var all in MathJax.Hub.getAllJax()) {
-        all.SourceElement().parentNode.className += ' has-jax';
-
-    }
-});
-</script>
 
 
 

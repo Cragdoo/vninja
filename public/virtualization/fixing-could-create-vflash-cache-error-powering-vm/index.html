@@ -5,22 +5,24 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <title>Fixing &#34;Could not create vFlash cache&#34; error when powering on a VM  &middot; Adventures in Hugo</title>
+  <title>Fixing &#34;Could not create vFlash cache&#34; error when powering on a VM  &middot; vNinja.net</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-<meta name="description" content="There is a thin line between agile and fragile" />
+<meta name="description" content="" />
 
 <meta name="keywords" content="featured, SSD, vCenter, vCenter Appliance, VCSA, vFlash Read Cache, vFRC, vSphere, Web Client, ">
 
+<link rel="author" href="http://plus.google.com/+Myprofile">
 
-<meta property="og:title" content="Fixing &#34;Could not create vFlash cache&#34; error when powering on a VM  &middot; Adventures in Hugo ">
-<meta property="og:site_name" content="Adventures in Hugo"/>
+
+<meta property="og:title" content="Fixing &#34;Could not create vFlash cache&#34; error when powering on a VM  &middot; vNinja.net ">
+<meta property="og:site_name" content="vNinja.net"/>
 <meta property="og:url" content="/virtualization/fixing-could-create-vflash-cache-error-powering-vm/" />
-<meta property="og:locale" content="en-us">
+<meta property="og:locale" content="en">
 
 
 <meta property="og:type" content="article" />
@@ -52,8 +54,8 @@
 
   
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:site" content="@" />
-<meta name="twitter:creator" content="@" />
+<meta name="twitter:site" content="@h0bbel" />
+<meta name="twitter:creator" content="@h0bbel" />
 <meta name="twitter:title" content="Fixing &#34;Could not create vFlash cache&#34; error when powering on a VM" />
 <meta name="twitter:description" content="" />
 <meta name="twitter:url" content="/virtualization/fixing-could-create-vflash-cache-error-powering-vm/" />
@@ -68,7 +70,7 @@
     "headline": "Fixing &#34;Could not create vFlash cache&#34; error when powering on a VM",
     "author": {
       "@type": "Person",
-      "name": "http://profiles.google.com/+?rel=author"
+      "name": "http://profiles.google.com/+Myprofile?rel=author"
     },
     "datePublished": "2014-01-19",
     "description": "",
@@ -91,12 +93,14 @@
 
 
 
-    <link rel="stylesheet" href="/css/bootswatch/default/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootswatch/lux/bootstrap.min.css">
 
 
 <link rel="stylesheet" href="/css/font-awesome.min.css">
 <link rel="stylesheet" href="/css/style.css">
 
+
+<link rel="stylesheet" href="/css/style_custom.css">
 
 
 
@@ -116,15 +120,54 @@
           <span class="icon-bar"></span>
         </button>
         
+        <a class="navbar-brand" href="/">
+          vNinja.net
           
-          <a class="navbar-brand-img" href="/">
-            <img alt="" src="">
-            
+          
           </a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
             
+            
+            <li class="">
+              
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class='fa fa-bars'></i> About <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    
+                      <li class="">
+                        <a href="/about/christian-mohn/"><i class='fa fa-child'></i> About vNinja</a>
+                      </li>
+                    
+                      <li class="">
+                        <a href="/about/christian-mohn/"><i class='fa fa-child'></i> About Christian</a>
+                      </li>
+                    
+                  </ul>
+              
+            </li>
+            
+            <li class="">
+              
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class='fa fa-hand-lizard-o'></i> Site Policy <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    
+                      <li class="">
+                        <a href="/about/privacy-policy"><i class='fa fa-hand-lizard-o'></i> Privacy Policy</a>
+                      </li>
+                    
+                  </ul>
+              
+            </li>
+            
+            <li class="">
+              
+                <a href="/advertising" >
+                  <i class='fa fa-bank'></i>
+                  Advertising
+                </a>
+              
+            </li>
             
             
               
@@ -141,20 +184,83 @@
 
 <div class="container">
   <div class="row">
-    <div class="col-sm-12">
+    <div class="col-sm-9">
 
 
-      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >
-<header class="container hat">
-  <h1>Fixing &#34;Could not create vFlash cache&#34; error when powering on a VM
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+  <div class="title-metas text-center">
+
+    <h1>Fixing &#34;Could not create vFlash cache&#34; error when powering on a VM
 </h1>
 
-</header>
+    <div class="metas">
+<small>
+  <i class="fa fa-calendar"></i>
+  <time datetime="2014-01-19">19 Jan, 2014</time>
+</small>
+
+
+  <small>
+    &middot; by cmohn
+  
+  &middot; Read in about 4 min
+  &middot; (736 words)
+  &middot; 
+<span class="share-box">Share this on:
+    <a href="https://www.facebook.com/sharer/sharer.php?u=%2fvirtualization%2ffixing-could-create-vflash-cache-error-powering-vm%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-facebook-official "></i></a>
+
+    <a href="https://twitter.com/intent/tweet?text=Fixing%20%22Could%20not%20create%20vFlash%20cache%22%20error%20when%20powering%20on%20a%20VM&amp;url=%2fvirtualization%2ffixing-could-create-vflash-cache-error-powering-vm%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-twitter"></i></a>
+
+    <a href="https://plus.google.com/share?url=%2fvirtualization%2ffixing-could-create-vflash-cache-error-powering-vm%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-google-plus"></i></a>
+
+    <a href="http://www.reddit.com/submit?url=%2fvirtualization%2ffixing-could-create-vflash-cache-error-powering-vm%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-reddit"></i></a>
+
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fvirtualization%2ffixing-could-create-vflash-cache-error-powering-vm%2f&amp;title=Fixing%20%22Could%20not%20create%20vFlash%20cache%22%20error%20when%20powering%20on%20a%20VM" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-linkedin"></i></a>
+
+    <a href="mailto:?subject=Fixing%20%22Could%20not%20create%20vFlash%20cache%22%20error%20when%20powering%20on%20a%20VM&amp;body=Check out this site %2fvirtualization%2ffixing-could-create-vflash-cache-error-powering-vm%2f" data-proofer-ignore=""><i class="fa fa-envelope"></i></a>
+  </span>
+
+  </small>
+
+<div class="margin-10">
+  <i class="fa fa-tags"></i>
+  
+  <a href="/tags/featured" class="label label-primary">featured</a>
+  
+  <a href="/tags/ssd" class="label label-primary">SSD</a>
+  
+  <a href="/tags/vcenter" class="label label-primary">vCenter</a>
+  
+  <a href="/tags/vcenter-appliance" class="label label-primary">vCenter Appliance</a>
+  
+  <a href="/tags/vcsa" class="label label-primary">VCSA</a>
+  
+  <a href="/tags/vflash-read-cache" class="label label-primary">vFlash Read Cache</a>
+  
+  <a href="/tags/vfrc" class="label label-primary">vFRC</a>
+  
+  <a href="/tags/vsphere" class="label label-primary">vSphere</a>
+  
+  <a href="/tags/web-client" class="label label-primary">Web Client</a>
+  
+
+
+</div>
+
+<br>
+</div>
+
+  </div>
 </div>
 
 
       <div class="content">
-  <p>During some way overdue housekeeping in my HP Microserver-based &ldquo;Homelab&rdquo; today, I ran into a rather annoying issue that prevented me from starting one of my more important VMs; namely my home Domain Controller.</p>
+  <p>During some way overdue housekeeping in my HP Microserver-based &laquo;Homelab&raquo; today, I ran into a rather annoying issue that prevented me from starting one of my more important VMs; namely my home Domain Controller.</p>
 
 <p>In short, I removed an old SSD drive that I&rsquo;ve used for vFlash Read Cache (vFRC) testing and installed a new 1TB drive instead. Since I have a rather beefy work lab now, I need space more than speed at home, so this seemed like a good idea at the time.</p>
 
@@ -162,7 +268,7 @@
 
 <p><a href="http://vninja.net/wordpress/wp-content/uploads/2014/01/Zappa-SSD-Failure.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2014/01/Zappa-SSD-Failure.png" alt="Zappa-SSD-Failure" /></a></p>
 
-<p>The &ldquo;_Could not create vFlash cache: msg.vflashcache.error.VFC<em>FAILURE</em>&rdquo; error is understandable, the SSD drive was removed, but I honestly did not think that even if a VM was configured to use it, that it&rsquo;s absence would prevent a power-on operation on that VM. I would have expected it to throw a warning about the cache location missing, and warn me that acceleration was not happening, not a flat out &ldquo;<em>cannot power on</em>&rdquo;.</p>
+<p>The &laquo;_Could not create vFlash cache: msg.vflashcache.error.VFC<em>FAILURE</em>&raquo; error is understandable, the SSD drive was removed, but I honestly did not think that even if a VM was configured to use it, that it&rsquo;s absence would prevent a power-on operation on that VM. I would have expected it to throw a warning about the cache location missing, and warn me that acceleration was not happening, not a flat out &laquo;<em>cannot power on</em>&raquo;.</p>
 
 <p>Normally the fix for this would be quick and easy, edit the VM and remove the <strong>vFRC</strong> configuration, but since my host has a whopping total of 8GB of memory I don&rsquo;t have vCenter running at all times.  Editing the VM settings through the vCenter Legacy Client (C#) does not work, since vFRC requires Virtual Hardware Version 10, which it cannot edit.</p>
 
@@ -176,19 +282,19 @@ _</strong></a></p>
 <p>Thankfully this was an easy way to fix the problem, and get the VM powered on. For each vmdk file that is configured to use <strong>vFRC</strong>, there is a corresponding entry in the <em>vmx</em> file, that controls <strong>vFRC</strong>.</p>
 
 <p>In order to turn off <strong>vFRC</strong> acceleration for a given disk, download the vmx file, and change the value for <device>.vFlash.enabled from
-[cc lang=&ldquo;bash&rdquo; width=&ldquo;100%&rdquo; theme=&ldquo;blackboard&rdquo; nowrap=&ldquo;0&rdquo;]
-sched.scsi0:2.vFlash.enabled = &ldquo;TRUE&rdquo;
+[cc lang=&laquo;bash&raquo; width=&laquo;100%&raquo; theme=&laquo;blackboard&raquo; nowrap=&laquo;0&raquo;]
+sched.scsi0:2.vFlash.enabled = &laquo;TRUE&raquo;
 [/cc]
 to
-[cc lang=&ldquo;bash&rdquo; width=&ldquo;100%&rdquo; theme=&ldquo;blackboard&rdquo; nowrap=&ldquo;0&rdquo;]
-sched.scsi0:2.vFlash.enabled = &ldquo;FALSE&rdquo;
+[cc lang=&laquo;bash&raquo; width=&laquo;100%&raquo; theme=&laquo;blackboard&raquo; nowrap=&laquo;0&raquo;]
+sched.scsi0:2.vFlash.enabled = &laquo;FALSE&raquo;
 [/cc]</p>
 
 <p>Re-upload the <em>vmx</em> file, and try to power on. In my case, this fixed the problem of powering on the VM.</p>
 
 <p>This problem again highlights one of the problems with the dependancy on the new vSphere Web Client. In a real production environment, the vCenter would be up and running at all times, and editing the VM would have been a small task, but what if you had used <strong>vFRC</strong> to speed up <strong>vCSA</strong> itself, and you had a failed SSD drive?</p>
 
-<p>Of course, in this case the fault is mostly mine. I removed a &ldquo;production SSD&rdquo;, without first removing the <strong>vFRC</strong> configuration. I did not have a working vCSA with Web Client up and running when this was done, and I had forgotten my passwords. A pretty specific error generating procedure if there ever was one.</p>
+<p>Of course, in this case the fault is mostly mine. I removed a &laquo;production SSD&raquo;, without first removing the <strong>vFRC</strong> configuration. I did not have a working vCSA with Web Client up and running when this was done, and I had forgotten my passwords. A pretty specific error generating procedure if there ever was one.</p>
 
 <p>It&rsquo;s an easy fix to edit the <em>vmx</em> file, but it does at times feel a little bit like you are now able to cut of the branch you are sitting on with the new vSphere Web Client. In simpler days, you could pretty much fix anything by connecting the vSphere Client to the host and fix any errors there, but now the dependancy on the vCenter Server is stronger than ever.</p>
 
@@ -197,8 +303,90 @@ sched.scsi0:2.vFlash.enabled = &ldquo;FALSE&rdquo;
 </div>
 
 
+      <footer>
+  
+<span class="share-box">Share this on:
+    <a href="https://www.facebook.com/sharer/sharer.php?u=%2fvirtualization%2ffixing-could-create-vflash-cache-error-powering-vm%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-facebook-official "></i></a>
+
+    <a href="https://twitter.com/intent/tweet?text=Fixing%20%22Could%20not%20create%20vFlash%20cache%22%20error%20when%20powering%20on%20a%20VM&amp;url=%2fvirtualization%2ffixing-could-create-vflash-cache-error-powering-vm%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-twitter"></i></a>
+
+    <a href="https://plus.google.com/share?url=%2fvirtualization%2ffixing-could-create-vflash-cache-error-powering-vm%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-google-plus"></i></a>
+
+    <a href="http://www.reddit.com/submit?url=%2fvirtualization%2ffixing-could-create-vflash-cache-error-powering-vm%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-reddit"></i></a>
+
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fvirtualization%2ffixing-could-create-vflash-cache-error-powering-vm%2f&amp;title=Fixing%20%22Could%20not%20create%20vFlash%20cache%22%20error%20when%20powering%20on%20a%20VM" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-linkedin"></i></a>
+
+    <a href="mailto:?subject=Fixing%20%22Could%20not%20create%20vFlash%20cache%22%20error%20when%20powering%20on%20a%20VM&amp;body=Check out this site %2fvirtualization%2ffixing-could-create-vflash-cache-error-powering-vm%2f" data-proofer-ignore=""><i class="fa fa-envelope"></i></a>
+  </span>
+
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
       
+  
+    <nav><ul class="pager">
+    
+        <li class="previous">
+          <a href="/virtualization/importing-ssl-certificates-raspberry-pi-thin-client/" title="Importing SSL Certificates to Raspberry Pi Thin Client">
+            <span aria-hidden="true">&larr;</span>Previous
+          </a>
+        </li>
+    
+
+    
+      <li class="next">
+        <a href="/news/vcdx-give-quote/" title="VCDX? Give me a Quote!">
+            Next <span aria-hidden="true">&rarr;</span>
+        </a>
+      </li>
+    
+    </ul> </nav>
+  
+
+
+</div>
+
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+  
+
+</div>
+
+</footer>
+
     </div>
+    
+      <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+        <hr>
+<div>
+  
+
+    <div class="section">
+      <div class="ads">
+        <a href="http://turbonomic.com/resources/hybrid-cloud-intelligent-bursting-aws-microsoft-azure/?utm_source=vninja&amp;utm_medium=banner-ad&amp;utm_campaign=wp-path-to-hybrid-cloud&amp;utm_content=250x250"><img width="250" height="250" src="https://i1.wp.com/vninja.net/wordpress/wp-content/uploads/2017/11/wp-intelligent-bursting-aws-azure-250x250.png?zoom=2&amp;fit=250%2C250" alt="" title="wp-intelligent-bursting-aws-azure (250x250)" src-orig="https://i1.wp.com/vninja.net/wordpress/wp-content/uploads/2017/11/wp-intelligent-bursting-aws-azure-250x250.png?fit=250%2C250" scale="2"></a>
+      </div>
+      <div class="ads">
+        <a href="http://cohesity.com"><img width="250" height="250" src="https://i2.wp.com/vninja.net/wordpress/wp-content/uploads/2016/12/250x250_cohesity_ad-1.gif?zoom=2&amp;fit=250%2C250" alt="" title="250x250_cohesity_ad-1" src-orig="https://i2.wp.com/vninja.net/wordpress/wp-content/uploads/2016/12/250x250_cohesity_ad-1.gif?fit=250%2C250" scale="2"></a>
+      </div>
+    </div>
+<hr>
+    
+      
+      
+      <div class="section">
+        sidebar 2
+      </div>
+      
+    
+      
+      
+    
+
+</div>
+
+      </div>
     
   </div>
 </div>
@@ -212,6 +400,10 @@ sched.scsi0:2.vFlash.enabled = &ldquo;FALSE&rdquo;
 </div>
 <div class="pull-right">
 
+<a href="/disclaimer/">Disclaimer</a> <i>&middot;</i>
+
+<a href="/terms/">Terms</a> 
+
 </div>
 
         </div>
@@ -220,6 +412,8 @@ sched.scsi0:2.vFlash.enabled = &ldquo;FALSE&rdquo;
     
 <div class="container footline">
     <small>
+  Built with Hugo and lots of <i class='fa fa-coffee'></i>
+
 </small>
 </div>
 
@@ -227,10 +421,11 @@ sched.scsi0:2.vFlash.enabled = &ldquo;FALSE&rdquo;
     
 <div class="container copyright">
     <small>
-  &copy; Christian Mohn
+  &copy; 2018 Copyright my blog
 
   </small>
 </div>
+
 
 
 
@@ -241,12 +436,6 @@ sched.scsi0:2.vFlash.enabled = &ldquo;FALSE&rdquo;
 
     
 
-<script src="//s3.amazonaws.com/mailmunch/static/site.js" id="mailmunch-script" data-mailmunch-site-id="" async="async"></script>
-
-
-
-<script src="//load.sumome.com/" data-sumo-site-id="" async="async"></script>
-
 <script src="/js/jquery.min.js"></script>
 <script src="/js/bootstrap.min.js"></script>
 
@@ -255,6 +444,13 @@ sched.scsi0:2.vFlash.enabled = &ldquo;FALSE&rdquo;
 <script src="/js/site.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
+
+<script>
+  var _gaq=[['_setAccount','Your Google Analytics tracking code'],['_trackPageview']];
+  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+  g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+  s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
 
 <script>
 var ENABLE_POPOVER = "", 
@@ -279,34 +475,6 @@ CONTENTLANGUAGE = "";
 
 
 
-
-<script type="text/javascript"
-        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax//MathJax.js"></script>
-<script type="text/javascript"
-        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax//config/TeX-AMS-MML_HTMLorMML.js"></script>
-
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  tex2jax: {
-    inlineMath: [['$','$'], ['\\(','\\)']],
-    displayMath: [['$$','$$'], ['\[','\]']],
-    processEscapes: true,
-    processEnvironments: true,
-    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-    TeX: { equationNumbers: { autoNumber: "AMS" },
-         extensions: ["AMSmath.js", "AMSsymbols.js"] }
-  }
-});
-</script>
-
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Queue(function() {
-    for(var all in MathJax.Hub.getAllJax()) {
-        all.SourceElement().parentNode.className += ' has-jax';
-
-    }
-});
-</script>
 
 
 

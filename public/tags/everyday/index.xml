@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Everyday on Adventures in Hugo</title>
+    <title>Everyday on vNinja.net</title>
     <link>/tags/everyday/</link>
-    <description>Recent content in Everyday on Adventures in Hugo</description>
+    <description>Recent content in Everyday on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <language>en</language>
+    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
+    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
+    <copyright>(c) 2018 Copyright my blog</copyright>
     <lastBuildDate>Sat, 05 Nov 2016 23:16:06 +0000</lastBuildDate>
     
 	<atom:link href="/tags/everyday/index.xml" rel="self" type="application/rss+xml" />
@@ -16,9 +18,9 @@
       <title>What&#39;s Really in the Bag?</title>
       <link>/misc/whats-really-in-the-bag/</link>
       <pubDate>Sat, 05 Nov 2016 23:16:06 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/misc/whats-really-in-the-bag/</guid>
-      <description>#vDM30in30 progress:        Since I &amp;ldquo;launched&amp;rdquo; my In the Bag series of weekly links yesterday, I figured I should really show what is indeed in the bag. Lifehacker runs a series called Featured Bag and the voyeur in me finds it interesting what other people carry around, and how they organize it.</description>
+      <description>#vDM30in30 progress:        Since I &amp;laquo;launched&amp;raquo; my In the Bag series of weekly links yesterday, I figured I should really show what is indeed in the bag. Lifehacker runs a series called Featured Bag and the voyeur in me finds it interesting what other people carry around, and how they organize it.</description>
     </item>
     
   </channel>

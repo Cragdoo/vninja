@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Virtual Connect on Adventures in Hugo</title>
+    <title>Virtual Connect on vNinja.net</title>
     <link>/tags/virtual-connect/</link>
-    <description>Recent content in Virtual Connect on Adventures in Hugo</description>
+    <description>Recent content in Virtual Connect on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <language>en</language>
+    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
+    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
+    <copyright>(c) 2018 Copyright my blog</copyright>
     <lastBuildDate>Thu, 30 May 2013 21:08:45 +0000</lastBuildDate>
     
 	<atom:link href="/tags/virtual-connect/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +18,7 @@
       <title>Virtual Connect FlexFabric and Direct-Attach FC 3Par Caveat</title>
       <link>/storage-2/virtual-connect-flexfabric-direct-attach-fc-3par-caveat/</link>
       <pubDate>Thu, 30 May 2013 21:08:45 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/storage-2/virtual-connect-flexfabric-direct-attach-fc-3par-caveat/</guid>
       <description>When configuring a new C7000 Blade Enclosure with a couple of FlexFabric 10Gb/24-port modules I ran into a rather annoying issue during setup.
 HP Virtual Connect 3.70 introduced support for Direct-Attach setups of HP 3Par StoreServ 7000 storage systems, where you can eliminate the need for dedicated FC switches. For full details, have a look at Implementing HP Virtual Connect Direct-Attach Fibre Channel with HP 3PAR StoreServ Systems.

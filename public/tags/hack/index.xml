@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hack on Adventures in Hugo</title>
+    <title>Hack on vNinja.net</title>
     <link>/tags/hack/</link>
-    <description>Recent content in Hack on Adventures in Hugo</description>
+    <description>Recent content in Hack on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <language>en</language>
+    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
+    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
+    <copyright>(c) 2018 Copyright my blog</copyright>
     <lastBuildDate>Tue, 07 Oct 2014 23:26:03 +0000</lastBuildDate>
     
 	<atom:link href="/tags/hack/index.xml" rel="self" type="application/rss+xml" />
@@ -16,12 +18,12 @@
       <title>Building an Ubuntu 14.04 Appliance with VMware Studio 2.6</title>
       <link>/vmware-2/building-ubuntu-14-04-appliance-vmware-studio-2-6/</link>
       <pubDate>Tue, 07 Oct 2014 23:26:03 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/vmware-2/building-ubuntu-14-04-appliance-vmware-studio-2-6/</guid>
       <description>VMware Studio 2.6 was released way back in March 2012, and surprisingly there seems to be no new update in sight. While VMware Studio technically still works, even with newer versions of ESXi and vCenter, the supported operating systems for the appliances it can build is somewhat outdated:
- Red Hat Enterprise Linux 5.5&amp;frasl;6.0
- SUSE Linux Enterprise Server 10.2&amp;frasl;11.1
- Ubuntu 8.04.4&amp;frasl;10.04.1
+ Red Hat Enterprise Linux 5.5/6.0
+ SUSE Linux Enterprise Server 10.2/11.1
+ Ubuntu 8.04.4/10.04.1
  Windows Server 2003 R2 / 2008 R2 w/SP1</description>
     </item>
     
@@ -29,18 +31,18 @@
       <title>Adding a secondary NIC to the vCenter 5.1 Appliance (VCSA)</title>
       <link>/virtualization/adding-secondary-nic-vcenter-5-1-appliance-vcsa/</link>
       <pubDate>Thu, 25 Apr 2013 11:10:33 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/virtualization/adding-secondary-nic-vcenter-5-1-appliance-vcsa/</guid>
       <description>While building my lab environment, I ran into a situation where I wanted to have a completely sealed off networking segment that had no outside access.
 This is a trivial task on it`s own, just create a vSwitch with no physical NICs attached to it, and then connect the VMs to it. The VMs will then have interconnectivity, but no outside network access at all.
-In this particular case, I was setting up a couple of nested ESXi servers that I wanted to connect to the &amp;ldquo;outside&amp;rdquo; vCenter Appliance (VCSA).</description>
+In this particular case, I was setting up a couple of nested ESXi servers that I wanted to connect to the &amp;laquo;outside&amp;raquo; vCenter Appliance (VCSA).</description>
     </item>
     
     <item>
       <title>Iomega IX2 and Time Machine Support</title>
       <link>/osx/iomega-ix2-time-machine-support/</link>
       <pubDate>Mon, 23 Jan 2012 19:57:49 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/osx/iomega-ix2-time-machine-support/</guid>
       <description>As Mr. Simon Seagrave has pointed out, there is a fix available to enable OSX Lion Time Machine support for Iomega IX2 and IX4 NAS storage devices.
 I decided to take this a little step further, and try to upgrade my old (and discontinued) Iomega IX2-200 to the new IX2-200 Cloud Edition firmware.

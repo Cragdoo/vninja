@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Todoist on Adventures in Hugo</title>
+    <title>Todoist on vNinja.net</title>
     <link>/tags/todoist/</link>
-    <description>Recent content in Todoist on Adventures in Hugo</description>
+    <description>Recent content in Todoist on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <language>en</language>
+    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
+    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
+    <copyright>(c) 2018 Copyright my blog</copyright>
     <lastBuildDate>Tue, 24 Oct 2017 13:47:35 +0000</lastBuildDate>
     
 	<atom:link href="/tags/todoist/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +18,7 @@
       <title>Integrating Pocket with Todoist via IFTTT</title>
       <link>/workflow/integrating-pocket-with-todoist-via-ifttt/</link>
       <pubDate>Tue, 24 Oct 2017 13:47:35 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/workflow/integrating-pocket-with-todoist-via-ifttt/</guid>
       <description>Myles Gray asked me how I integrate Pocket with Todoist, after my How I use Todoist post, and the answer is very simple: IFTTT. If-This-Then-That lets you connect services, and create rules (or applets) that trigger based on events in those services, luckily both Todoist and Pocket are supported.
 Now, there is a bit of overlap between how I use Pocket and Todoist, but I mainly use Pocket to keep track of links I want to either read later, or use as basis for blog posts.</description>
@@ -26,7 +28,7 @@ Now, there is a bit of overlap between how I use Pocket and Todoist, but I mainl
       <title>How I use Todoist</title>
       <link>/workflow/how-i-use-todoist/</link>
       <pubDate>Tue, 24 Oct 2017 10:38:13 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/workflow/how-i-use-todoist/</guid>
       <description>As I&amp;rsquo;ve mentioned before, I use Todoist to keep track of my personal to-do list. This is the first to-do manager I&amp;rsquo;ve been able to stick with, and I&amp;rsquo;ve been using it daily for well over 2 years now. In that two year period I&amp;rsquo;ve reorganised it a bit, but for the most part I&amp;rsquo;ve been able to keep to the main structure I initially created when setting it up the first time.</description>
     </item>
@@ -35,7 +37,7 @@ Now, there is a bit of overlap between how I use Pocket and Todoist, but I mainl
       <title>Todoist: One year later</title>
       <link>/workflow/todoist-one-year-later/</link>
       <pubDate>Wed, 06 Jan 2016 13:51:58 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/workflow/todoist-one-year-later/</guid>
       <description>A little over a year ago I posted Combining Todoist and Evernote, because awesome and I thought it was about time to post a follow up now one year later.
 Evernote: Firstly, my Evernote is still a giant mess, just as it was a year ago. I have lots of data in Evernote, but it&amp;rsquo;s main purpose is just storing quick notes on ongoing projects and it serves as a basis for generating proper documentation.</description>
@@ -45,7 +47,7 @@ Evernote: Firstly, my Evernote is still a giant mess, just as it was a year ago.
       <title>Combining Todoist and Evernote, because awesome</title>
       <link>/workflow/combining-todoist-evernote-awesome/</link>
       <pubDate>Wed, 03 Dec 2014 16:22:11 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/workflow/combining-todoist-evernote-awesome/</guid>
       <description>A while back I declared Evernote bankruptcy, even if I managed to misspell it while doing so:
 That&#39;s it, I&#39;m declaring [@evernote](https://twitter.com/evernote) bankrupcy. — Christian Mohn™ (@h0bbel) [May 22, 2014](https://twitter.com/h0bbel/status/469455493631860736)  The thing is, I really want to use Evernote in a proper and organised manner. The problem is; I was completely unable to do so, mostly since I had no clear idea on the how, the when and the why back when I started using it many moons ago.</description>

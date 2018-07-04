@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Proxy on Adventures in Hugo</title>
+    <title>Proxy on vNinja.net</title>
     <link>/tags/proxy/</link>
-    <description>Recent content in Proxy on Adventures in Hugo</description>
+    <description>Recent content in Proxy on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <language>en</language>
+    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
+    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
+    <copyright>(c) 2018 Copyright my blog</copyright>
     <lastBuildDate>Fri, 14 Oct 2016 13:03:41 +0000</lastBuildDate>
     
 	<atom:link href="/tags/proxy/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +18,7 @@
       <title>macOS: Secure Pipes</title>
       <link>/osx/macos-secure-pipes/</link>
       <pubDate>Fri, 14 Oct 2016 13:03:41 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/osx/macos-secure-pipes/</guid>
       <description>Since I set up a public jumphost for my homelab/network, I&amp;rsquo;ve been looking for an easy way to manage my SSH tunnels. After trying a couple of different managers, I&amp;rsquo;ve chosen to use Secure Pipes.This little piece of free software allows you to easily manage SSH tunnels, with features like Remote Forwards, Local Forwards and SOCKS proxies. It runs in the toolbar, and makes connections easily available. It even reconfigures your network settings to use the SOCKS proxy, if allowed to.</description>
     </item>

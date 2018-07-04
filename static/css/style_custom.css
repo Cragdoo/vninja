@@ -1,5 +1,11 @@
 /* Custom CSS goes here */
 
+#override link color -> to be changed.
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
 .navbar-nav>li>a {
     padding-top: 21px;
     padding-bottom: 10px;

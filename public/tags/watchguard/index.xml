@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Watchguard on Adventures in Hugo</title>
+    <title>Watchguard on vNinja.net</title>
     <link>/tags/watchguard/</link>
-    <description>Recent content in Watchguard on Adventures in Hugo</description>
+    <description>Recent content in Watchguard on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <language>en</language>
+    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
+    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
+    <copyright>(c) 2018 Copyright my blog</copyright>
     <lastBuildDate>Fri, 07 Jan 2011 22:07:31 +0000</lastBuildDate>
     
 	<atom:link href="/tags/watchguard/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +18,7 @@
       <title>Migrating from Watchguard Firebox X to XTM Series Firewalls</title>
       <link>/network/migrating-from-watchguard-firebox-x-to-xtm-series-firewalls/</link>
       <pubDate>Fri, 07 Jan 2011 22:07:31 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/network/migrating-from-watchguard-firebox-x-to-xtm-series-firewalls/</guid>
       <description>Watchguard has recently retired their X series of firewalls and replaced them with their new lineup of XTM boxes.
 I took this opportunity to replace my X series firewalls with some from the new lineup, and found a neat way to migrate your existing configuration from old to new in a few very easy steps.

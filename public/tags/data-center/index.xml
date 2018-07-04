@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Data Center on Adventures in Hugo</title>
+    <title>Data Center on vNinja.net</title>
     <link>/tags/data-center/</link>
-    <description>Recent content in Data Center on Adventures in Hugo</description>
+    <description>Recent content in Data Center on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <language>en</language>
+    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
+    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
+    <copyright>(c) 2018 Copyright my blog</copyright>
     <lastBuildDate>Mon, 17 Mar 2014 22:41:34 +0000</lastBuildDate>
     
 	<atom:link href="/tags/data-center/index.xml" rel="self" type="application/rss+xml" />
@@ -16,9 +18,9 @@
       <title>VSAN - The Unspoken Future</title>
       <link>/virtualization/vsan-unspoken-future/</link>
       <pubDate>Mon, 17 Mar 2014 22:41:34 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/virtualization/vsan-unspoken-future/</guid>
-      <description>This rather tongue-in-cheek title, is a play on Maish recent VSAN - The Unspoken Truth post where he highlights what he thinks is one of the hidden &amp;ldquo;problems&amp;rdquo; with the current version of VSAN is it&amp;rsquo;s inherent non-blade compatibility and current lack of &amp;ldquo;rack based VSAN ready nodes&amp;rdquo;.
+      <description>This rather tongue-in-cheek title, is a play on Maish recent VSAN - The Unspoken Truth post where he highlights what he thinks is one of the hidden &amp;laquo;problems&amp;raquo; with the current version of VSAN is it&amp;rsquo;s inherent non-blade compatibility and current lack of &amp;laquo;rack based VSAN ready nodes&amp;raquo;.
 Of course, this is a reality; If you base your current infrastructure on blade servers, VSAN probably isn&amp;rsquo;t a good match as it stands today.</description>
     </item>
     

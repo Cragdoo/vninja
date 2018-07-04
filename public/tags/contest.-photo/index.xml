@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Contest. Photo on Adventures in Hugo</title>
+    <title>Contest. Photo on vNinja.net</title>
     <link>/tags/contest.-photo/</link>
-    <description>Recent content in Contest. Photo on Adventures in Hugo</description>
+    <description>Recent content in Contest. Photo on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>(c) Christian Mohn</copyright>
+    <language>en</language>
+    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
+    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
+    <copyright>(c) 2018 Copyright my blog</copyright>
     <lastBuildDate>Wed, 02 Apr 2014 18:51:05 +0000</lastBuildDate>
     
 	<atom:link href="/tags/contest.-photo/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +18,7 @@
       <title>Want to Win a Google Chromecast?</title>
       <link>/news/win-google-chromecast/</link>
       <pubDate>Wed, 02 Apr 2014 18:51:05 +0000</pubDate>
-      
+      <author>yourname@example.com (Christian Mohn)</author>
       <guid>/news/win-google-chromecast/</guid>
       <description>I have a free Google Chromecast to give a way to one lucky winner. As part of being voted into the top 50 VMware &amp;amp; virtualization blogs I was lucky enough to win one for myself, and as an added bonus I get to give away one to one of my readers too!
 To be able to find a worthy winner of it, I&amp;rsquo;ve decided to host a contest.</description>

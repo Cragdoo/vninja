@@ -3,12 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/posts/markdown-testing/</loc>
+    <loc>/advertising/</loc>
+    <lastmod>2018-07-01T11:59:56+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/about/privacy-policy/</loc>
+    <lastmod>2018-07-01T11:56:57+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/about/christian-mohn/</loc>
+    <lastmod>2018-07-01T11:10:17+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2018/05/23/markdown-testing/</loc>
     <lastmod>2018-05-23T14:48:02+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/another-test.post/</loc>
+    <loc>/2018/05/23/another-test.post/</loc>
     <lastmod>2018-05-23T14:45:05+02:00</lastmod>
   </url>
   
@@ -1569,12 +1584,6 @@
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2018-05-23T14:48:02+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/adviceforvmworld/</loc>
     <lastmod>2014-08-22T18:08:56+00:00</lastmod>
     <priority>0</priority>
@@ -1701,12 +1710,6 @@
   </url>
   
   <url>
-    <loc>/categories/awesometalks/</loc>
-    <lastmod>2018-05-09T13:12:07+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/aws/</loc>
     <lastmod>2016-10-14T18:57:20+00:00</lastmod>
     <priority>0</priority>
@@ -1827,12 +1830,6 @@
   </url>
   
   <url>
-    <loc>/categories/book/</loc>
-    <lastmod>2014-06-09T08:42:28+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/boot-camp/</loc>
     <lastmod>2013-11-27T17:09:30+00:00</lastmod>
     <priority>0</priority>
@@ -1865,12 +1862,6 @@
   <url>
     <loc>/tags/care-package/</loc>
     <lastmod>2012-09-11T17:33:35+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
-    <lastmod>2018-05-09T13:12:07+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2523,12 +2514,6 @@
   </url>
   
   <url>
-    <loc>/categories/hardware/</loc>
-    <lastmod>2016-10-10T13:18:30+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/hardware-version/</loc>
     <lastmod>2012-07-02T19:50:03+00:00</lastmod>
     <priority>0</priority>
@@ -2566,12 +2551,6 @@
   
   <url>
     <loc>/tags/homelab/</loc>
-    <lastmod>2016-10-06T11:31:51+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/homelab/</loc>
     <lastmod>2016-10-06T11:31:51+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -2615,12 +2594,6 @@
   <url>
     <loc>/tags/howto/</loc>
     <lastmod>2013-04-22T21:31:46+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/howto/</loc>
-    <lastmod>2015-10-15T16:01:38+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2716,12 +2689,6 @@
   
   <url>
     <loc>/tags/inthebag/</loc>
-    <lastmod>2017-03-17T14:24:11+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/inthebag/</loc>
     <lastmod>2017-03-17T14:24:11+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -2919,12 +2886,6 @@
   </url>
   
   <url>
-    <loc>/categories/microsoft/</loc>
-    <lastmod>2015-10-15T16:01:38+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/microsoft-office/</loc>
     <lastmod>2011-03-13T21:29:42+00:00</lastmod>
     <priority>0</priority>
@@ -2939,12 +2900,6 @@
   <url>
     <loc>/tags/mike-laverick/</loc>
     <lastmod>2013-03-14T00:02:35+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/misc/</loc>
-    <lastmod>2017-12-18T14:00:55+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2997,12 +2952,6 @@
   </url>
   
   <url>
-    <loc>/categories/network/</loc>
-    <lastmod>2016-05-03T08:47:23+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/networking/</loc>
     <lastmod>2014-06-10T12:48:10+00:00</lastmod>
     <priority>0</priority>
@@ -3011,12 +2960,6 @@
   <url>
     <loc>/tags/news/</loc>
     <lastmod>2017-04-11T16:08:30+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/news/</loc>
-    <lastmod>2018-01-14T16:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3135,12 +3078,6 @@
   </url>
   
   <url>
-    <loc>/categories/os-x/</loc>
-    <lastmod>2017-11-24T12:33:04+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/oslo/</loc>
     <lastmod>2012-04-26T20:35:39+00:00</lastmod>
     <priority>0</priority>
@@ -3155,6 +3092,12 @@
   <url>
     <loc>/tags/packt/</loc>
     <lastmod>2014-06-20T12:34:49+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/pages/</loc>
+    <lastmod>2018-07-01T11:59:56+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3273,7 +3216,7 @@
   </url>
   
   <url>
-    <loc>/posts/</loc>
+    <loc>/post/</loc>
     <lastmod>2018-05-23T14:48:02+02:00</lastmod>
     <priority>0</priority>
   </url>
@@ -3371,12 +3314,6 @@
   <url>
     <loc>/tags/rant/</loc>
     <lastmod>2015-07-13T22:17:12+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/rant/</loc>
-    <lastmod>2018-05-22T21:21:27+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3633,12 +3570,6 @@
   </url>
   
   <url>
-    <loc>/categories/software/</loc>
-    <lastmod>2017-11-24T12:33:04+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/speaking/</loc>
     <lastmod>2015-10-28T22:30:14+00:00</lastmod>
     <priority>0</priority>
@@ -3713,12 +3644,6 @@
   <url>
     <loc>/tags/storage/</loc>
     <lastmod>2016-11-23T13:57:56+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/storage/</loc>
-    <lastmod>2014-08-21T22:21:59+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3821,6 +3746,11 @@
   <url>
     <loc>/tags/tool/</loc>
     <lastmod>2011-08-25T21:51:37+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/topics/</loc>
     <priority>0</priority>
   </url>
   
@@ -4155,12 +4085,6 @@
   </url>
   
   <url>
-    <loc>/categories/virtualization/</loc>
-    <lastmod>2017-11-13T16:45:46+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/vkernel/</loc>
     <lastmod>2013-01-14T23:53:50+00:00</lastmod>
     <priority>0</priority>
@@ -4211,12 +4135,6 @@
   <url>
     <loc>/tags/vmware/</loc>
     <lastmod>2018-01-14T16:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/vmware/</loc>
-    <lastmod>2018-01-29T22:49:53+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -4521,12 +4439,6 @@
   </url>
   
   <url>
-    <loc>/categories/windows/</loc>
-    <lastmod>2012-01-07T22:44:33+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/windows-8/</loc>
     <lastmod>2011-09-14T12:33:12+00:00</lastmod>
     <priority>0</priority>
@@ -4564,12 +4476,6 @@
   
   <url>
     <loc>/tags/workflow/</loc>
-    <lastmod>2017-10-24T13:47:35+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/workflow/</loc>
     <lastmod>2017-10-24T13:47:35+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -4613,6 +4519,12 @@
   <url>
     <loc>/tags/zerto/</loc>
     <lastmod>2011-06-27T22:38:26+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2018-07-01T11:59:56+02:00</lastmod>
     <priority>0</priority>
   </url>
   
