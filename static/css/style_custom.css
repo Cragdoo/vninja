@@ -6,6 +6,10 @@ a {
     text-decoration: none;
 }
 
+h1, .h1 {
+
+}
+
 .navbar-nav>li>a {
     padding-top: 21px;
     padding-bottom: 10px;
@@ -38,7 +42,17 @@ img[src$='#floatright']
 {
     float:right;
     margin: 0 0 0 2.0rem;      /* this margin is totally up to you */
-    border: 1px solid #ddd;
+    #border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+
+}
+
+img[src$='#profile']
+{
+    float:right;
+    margin: 0 0 0 2.0rem;      /* this margin is totally up to you */
+    #border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
 
