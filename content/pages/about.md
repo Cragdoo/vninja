@@ -12,7 +12,7 @@ url: /about/christian-mohn/
   Come say hello to me on [Twitter](https://twitter.com/h0bbel)!
 <p>
 
-I live in [Bergen, Norway](https://en.wikipedia.org/wiki/Bergen), where I currently work as a **Senior Solutions Architect** and **Technical Lead SDDC** for [Proact IT Norge AS](http://proact.no), working on building Norways best, and _strongest_, VMware SDDC practice.
+I live in [Bergen, Norway](https://en.wikipedia.org/wiki/Bergen), where I currently work as a **Senior Solutions Architect** and **Technical Lead SDDC** for [Proact IT Norge AS](http://proact.no), working on building Norways best, and _strongest_, VMware SDDC practice. I'm a strong believer in that software is eating the world.
 
 I'm an IT industry veteran, podcaster, author and blogger with over 20 years of real world experience. For some reason, I'm an eight time [VMware vExpert (2011-2018)](https://vexpert.vmware.com/), and an inaugural vExpert vSAN, [VMware EUC Champion (2015-2018)](https://www.vmware.com/euc-champions/current-champions.html), ex-PernixPro, and four time [Veeam Vanguard (2015-2018)](https://www.veeam.com/vanguard.html).
 
