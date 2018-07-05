@@ -12,7 +12,7 @@ DefaultContentLanguage = "en"
 # Use this languageCode if it's not a multilingual site and also remove all language blocks and menus in the language sections to disable multilingual support.
 # language blocks.
 # Language
-#languageCode = "en"
+languageCode = "en"
 
 # SES friendly url:s
 canonifyurls = true
@@ -88,7 +88,6 @@ customCSS = ["/css/style_custom.css"]
 # Text for the top menu link, which goes to the root URL for the site.
 # Default (if omitted) is "Home".
 home = "home"
-
 mailmunchid = "" # Mailmunch site id
 sumomeid = "" # Sumome id
 #mathjax = "2.7.1" # cdnjs hosted version; empty string to disable mathjax
@@ -101,7 +100,7 @@ showRightSidebar = true
 highlight = "default"
 
 # Google Analytics.
-googleAnalytics = "Your Google Analytics tracking code"
+googleAnalytics = "UA-121910549-1"
 
 # Sidebar social links.
 github = "Myprofile" # Your Github profile ID
@@ -145,6 +144,12 @@ weight = 1
 copyright = "(c) 2018 Christian Mohn"
 title = "vNinja.net" # Site title
 
+[[Languages.en.menu.main]]
+  name = "RSS"
+  url = "/post/index.xml"
+  weight = 0
+  identifier = "RSS"
+  pre = "<i class='fa fa-rss'></i>"
 
 [[Languages.en.menu.main]]
 name = "About"
@@ -153,12 +158,12 @@ identifier = "about"
 url = "/about"
 pre = "<i class='fa fa-bars'></i>"
 
-[[Languages.en.menu.main]]
-name = "About vNinja"
-weight = 2
-parent = "about"
-url = "/about/vninja/"
-pre = "<i class='fa fa-child'></i>"
+#[[Languages.en.menu.main]]
+#name = "About vNinja"
+#weight = 2
+#parent = "about"
+#url = "/about/vninja/"
+#pre = "<i class='fa fa-child'></i>"
 
 [[Languages.en.menu.main]]
 name = "About Christian"
