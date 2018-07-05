@@ -24,7 +24,7 @@ Currently serving as the vice-chairman of the the [Norwegian VMware User Group (
 
 On a more personal note, I'm married, have two grown kids and have a potentially overshadowing passion for football – I've been a football coach for various girls teams in Bergen for a total of 11 years.
 
-**I prefer my coffee [black as midnight on a moonless night](https://www.youtube.com/watch?v=5PcoMrwEa5o), [beer with taste](https://untappd.com/user/h0bbel), and Whiskey that tastes like [peat fire](https://www.whisky.com/whisky-database/details/laphroaig.html).**
+**I prefer my coffee [black as midnight on a moonless night](https://www.youtube.com/watch?v=5PcoMrwEa5o), [beer with taste](https://untappd.com/user/h0bbel), and Whisky that tastes like [peat fire](https://www.whisky.com/whisky-database/details/laphroaig.html).**
 
 
 I have some stuff hosted on [GitHub](https://github.com/h0bbel/), including this entire site which is now published using [Hugo](http://gohugo.io/). Previous incarnations of the site has been published using Wordpress.
