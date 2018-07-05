@@ -157,7 +157,7 @@ pre = "<i class='fa fa-bars'></i>"
 name = "About vNinja"
 weight = 2
 parent = "about"
-url = "/about/christian-mohn/"
+url = "/about/vninja/"
 pre = "<i class='fa fa-child'></i>"
 
 [[Languages.en.menu.main]]

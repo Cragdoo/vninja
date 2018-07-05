@@ -33,16 +33,7 @@ As I'm a rather passionate hobby photographer, you can find most of my published
 
 
 
-<!-- <blockquote class="blockquote text-center">
+<blockquote class="blockquote text-center">
   <p class="mb-0">Wanting to be someone else is a waste of the person you are.</p>
   <footer class="blockquote-footer">Kurt Cobain</footer>
-</blockquote> -->
-
-
-
-<div class="alert alert-light" role="alert">
-  <h4 class="alert-heading">Disclaimer</h4>
-  <p>All posts and pages on this website constitute my own personal opinions. They are neither read nor approved by my employers, sponsors or anyone else before posting and do not represent the views and opinions of anyone besides <a href="https://www.youtube.com/watch?v=qJmPTQipOeI">me, myself and I</a>.</p>
-  <p>They also do not constitute the official corporate position taken by Proact. Furthermore, I take personal responsibility for any content created by any guest author, as I approve all such posts before they are published, though I do not necessarily share the views of that guest author.</p>
-</p>
-</div>
+</blockquote> 
