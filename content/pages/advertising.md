@@ -13,6 +13,32 @@ Other suggestions are welcome, and all inquiries will be entertained on a case-b
 ## Terms and conditions
 Purchasing advertising space on vNinja.net does not guarantee any, favourable or not, review of the product or services advertised, nor is it to be considered an endorsement of any kind.
 vNinja.net does not guarantee any given level of circulation or readership for an advertisement.
+
 Advertising policies may be revised without notice, and vNinja.net reserves the right to refuse any advertisement request.
-All ads are given equal weight, and the ad order is randomized.
 The minimum advertising duration is three months.
+
+## Want to sponsor vNinja.net?
+Fill out the form below, and I'll get back to you!
+
+
+<form id="contactform" action="//formspree.io/christian@drible.net" method="POST">
+<div class="col-sm-7 slideanim">
+  <div class="row">
+    <div class="col-sm-6 form-group">
+      <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+    </div>
+    <div class="col-sm-6 form-group">
+      <input class="form-control" id="email" name="_replyto" placeholder="Email" type="email" required>
+    </div>
+  </div>
+  <textarea class="form-control" id="comments" name="message" placeholder="Message" rows="5"></textarea><br>
+  <div class="row">
+    <div class="col-sm-12 form-group">
+      <button class="btn btn-default pull-right" type="submit">Send</button>
+    </div>
+  </div>
+</div>
+<input type="hidden" name="_next" value="/confirmation/" />
+<input type="text" name="_gotcha" style="display:none" />
+<input type="hidden" name="_subject" value="vNinja Sponsor Request" />
+</form>

@@ -1,3 +1,11 @@
 <div class="content">
+
+  {{ if and .IsPage (eq .Params.toc true) }}
+    <div class="section">
+      <header><div class="title"><H1>Table Of Contents</H1></div></header>
+      <div class="list-default">{{ .TableOfContents }}</div>
+    </div>
+    {{ end }}
+
   {{ .Content }}
 </div>

@@ -3,6 +3,7 @@ title: ""
 date: 2018-07-01T11:10:17+02:00
 draft: false
 url: /about/christian-mohn/
+toc: false
 ---
 
 ![](/personal/mug.jpg#profile)

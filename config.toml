@@ -2,7 +2,7 @@
 baseurl = "/"
 
 # Remark if you want to disable multilingual support.
-DefaultContentLanguage = "en"
+#DefaultContentLanguage = "en"
 
 # If you want all of the languages to be put below their respective language code,
 # enable DefaultContentLanguageInSubdir = true. Without enabling it english content
@@ -184,7 +184,7 @@ name = "Site Policy"
 weight = 3
 identifier = "site"
 url = "#"
-pre = "<i class='fa fa-hand-lizard-o'></i>"
+pre = "<i class='fa fa-asterisk'></i>"
 
 [[Languages.en.menu.main]]
 name = "Privacy Policy"
@@ -192,7 +192,7 @@ weight = 4
 parent = "site"
 identifier = ""
 url = "/about/privacy-policy"
-pre = "<i class='fa fa-hand-lizard-o'></i>"
+pre = "<i class='fa fa-asterisk'></i>"
 
 [[Languages.en.menu.footer]] # add  links to the bottom right corner.
 name = "Disclaimer"
@@ -201,8 +201,8 @@ identifier = "disclaimer"
 weight = 1
 url = "/disclaimer/"
 
-[[Languages.en.menu.footer]]
-name = "Terms"
-identifier = "terms"
-weight = 2
-url = "/terms/"
+#[[Languages.en.menu.footer]]
+##name = "Terms"
+#identifier = "terms"
+#weight = 2
+#url = "/terms/"
