@@ -28,3 +28,10 @@ Duis scelerisque nisl eget faucibus hendrerit. In velit neque, elementum ac feli
 |content 1.1   |content 2.1|
 |content 1.2   |content 2.2|
 |content 1.3   |content 2.3|
+
+
+![](/personal/mug.jpg#floatright)
+![](/personal/mug.jpg#floatleft)
+
+Center
+![](/personal/mug.jpg#center)

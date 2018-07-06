@@ -58,4 +58,4 @@ I have also received several books from different publishers, either for pre-pri
 I maintain this site on my own spare time, some times utilizing technology that I am exposed to in my day-to-day job as a Senior Solutions Architect for Proact IT Norge AS. Commentary on aforementioned technology should not be viewed as my employers official commentary, it’s just my own personal opinion.
 
 
-If you have any questions about this material, please contact me via email at _info@vninja.net_
+If you have any questions about this material, please contact me via my [contact form](/contact/).
