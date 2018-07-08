@@ -15,15 +15,18 @@ toc: false
 
 I live in [Bergen, Norway](https://en.wikipedia.org/wiki/Bergen), and I'm as old as the original Rocky movie. I currently work as a **Senior Solutions Architect** and **Technical Lead SDDC** for [Proact IT Norge AS](http://proact.no), working on building Norways best, and _strongest_, VMware SDDC practice, and I'm a strong believer in that software is indeed eating the world.
 
-I'm an IT industry "veteran", podcaster, author and blogger with over 20 years of real world experience. For some reason, I'm an eight time [VMware vExpert (2011-2018)](https://vexpert.vmware.com/), and an inaugural vExpert vSAN, [VMware EUC Champion (2015-2018)](https://www.vmware.com/euc-champions/current-champions.html), ex-PernixPro, and four time [Veeam Vanguard (2015-2018)](https://www.veeam.com/vanguard.html).
+I'm an IT industry "veteran", podcaster, author and blogger with over 20 years of real world IT experience. I've been running blog of some sorts for the better part of those 20 years too, which is kinda scary.
 
+For some reason, I'm an eight time [VMware vExpert (2011-2018)](https://vexpert.vmware.com/), and an inaugural vExpert vSAN, [VMware EUC Champion (2015-2018)](https://www.vmware.com/euc-champions/current-champions.html), ex-PernixPro, and four time [Veeam Vanguard (2015-2018)](https://www.veeam.com/vanguard.html).
+
+I have also been featured as a cartoon, _twice_. Once for Rubrik who made [trading cards for VMworld 2017](https://technicloud.com/2017/11/22/vmware-community-vallstars/), and once for Proact who made a rather [spiffy animated video](https://www.youtube.com/watch?v=nzm79VWWXKs).
 
 Currently serving as the vice-chairman of the the [Norwegian VMware User Group (VMUG)](http://vmug.no) leadership team and has helped launch VMUG in three Norwegian cities; Oslo, Bergen and Trondheim.
 <p class="lead">
   For more details on work experience, certifications and such, check [LinkedIn](https://www.linkedin.com/in/christianmohn/). I tend to keep that updated.
 <p>
 
-On a more personal note, I'm married, have two grown kids and have a potentially overshadowing passion for football – I've been a football coach for various girls teams in Bergen for a total of 11 years.
+On a more personal note, I'm a father of two, husband of one, and I have a potentially overshadowing passion for football – I've been a football coach for various girls teams in Bergen for a total of 11 years.
 
 **I prefer my coffee [black as midnight on a moonless night](https://www.youtube.com/watch?v=5PcoMrwEa5o), [beer with taste](https://untappd.com/user/h0bbel), and Whisky that tastes like [peat fire](https://www.whisky.com/whisky-database/details/laphroaig.html).**
 
