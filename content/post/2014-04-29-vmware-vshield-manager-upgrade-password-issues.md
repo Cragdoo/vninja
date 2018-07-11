@@ -1,5 +1,5 @@
 ---
-author: cmohn
+author: Christian Mohn
 comments: true
 date: 2014-04-29 08:18:35+00:00
 layout: post

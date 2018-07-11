@@ -24,7 +24,7 @@ metaDataFormat = "toml"
 # Theme to use (located in /themes/THEMENAME/)
 theme = "hugo-bootstrap-premium"
 # Pagination
-paginate = 10
+paginate = 30
 paginatePath = "page"
 
 # Enable Disqus integration

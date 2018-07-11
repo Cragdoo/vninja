@@ -1,5 +1,5 @@
 ---
-author: cmohn
+author: Christian Mohn
 comments: true
 date: 2017-11-13 16:45:46+00:00
 layout: post
@@ -24,10 +24,10 @@ November 30th I'll be joining [Martin Plesner-Jacobsen](https://twitter.com/mple
 <!--more-->
 
 
-[**![](/img/250x250_webinar-1.png)**](https://go.veeam.com/webinar-integration-vmware-vsan-vsphere-spbm-policies?ccode=blogger_CMohn_q042017)
+[**![](/img/250x250_webinar-1.png)**](https://go.veeam.com/webinar-integration-vmware-vsan-vsphere-spbm-policies?ccode=blogger_Christian Mohn_q042017)
 
 
 
 ![](/img/Screenshot-2017-11-09-12.45.40.png)
 
-Click on the banner above to [register now](https://go.veeam.com/webinar-integration-vmware-vsan-vsphere-spbm-policies?ccode=blogger_CMohn_q042017), and reserve your spot!
+Click on the banner above to [register now](https://go.veeam.com/webinar-integration-vmware-vsan-vsphere-spbm-policies?ccode=blogger_Christian Mohn_q042017), and reserve your spot!
