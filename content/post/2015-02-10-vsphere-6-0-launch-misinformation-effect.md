@@ -20,6 +20,7 @@ tags:
 Have you ever wondered what happens if you give 10.000 people access to an open-beta that is supposed to be under [NDA](http://en.wikipedia.org/wiki/Non-disclosure_agreement)?
 
 Firstly, the NDA is no-go from the get-go. There is no way you can claim that you actually expect 10.000 people to not talk about something they know about. VMware vSpere 6.0 was the worst kept secret ever, for a reason. It might have been planned that way all along for all I know, but if that was the case, the NDA should never have been in place to begin with.
+<!--more-->
 
 Secondly, what happens when said product finally gets announced, and scores of people have pre-made blog content about all the new, and presumably secret, features? A lot of it is wrong, because people have been writing about features that have either been dropped or changed come release time.
 

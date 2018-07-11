@@ -16,12 +16,14 @@ tags:
 - Speculation
 - VMware
 ---
-
-[caption id="attachment_3213" align="alignright" width="121"]![Marvin the Paranoid Android (HHGG)](http://vninja.net/wordpress/wp-content/uploads/2014/06/Marvin_HHGG.jpg) Marvin the Paranoid Android (HHGG)[/caption]
+![Marvin the Paranoid Android (HHGG)](http://vninja.net/wordpress/wp-content/uploads/2014/06/Marvin_HHGG.jpg#floatright) Marvin the Paranoid Android (HHGG)
 
 After close to a full day of Twitter speculations and discussions on what [Marvin really is](http://vninja.net/vmware-2/vmwares-mystic-marvin-project/), some thoughts kept stuck with me, and this is my attempt at articulating what I think VMware might be up to.
 
 _Please note that I have no real knowledge of the status of the project, nor if it really exists outside of a poster in a window in the VMware campus. All I do know is that there is a [trademark registered](http://trademarks.justia.com/861/60/marvin-86160864.html), and that there seems to be some merit behind the speculations done by [CRN](30/project-mystics-potential-competitors-to-vmware-bring-it-on.htm) and [The Register](http://www.theregister.co.uk/2014/03/19/emc_sailing_up_the_mystic_river/)._
+
+<!--more-->
+
 
 There is one little tidbit in the trademark registration that has caused more than a few people to raise their eyebrows:
 
@@ -45,5 +47,5 @@ The second thing is the magic sauce that will tie everything together, and I hav
 
 
 
-<blockquote>_Why should I want to make anything up? Life's bad enough as it is without wanting to invent anymore of it._  
+<blockquote>Why should I want to make anything up? Life's bad enough as it is without wanting to invent anymore of it.<br/>
 - Marvin, the Paranoid Android</blockquote>

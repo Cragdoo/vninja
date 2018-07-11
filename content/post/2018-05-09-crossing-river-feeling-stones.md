@@ -20,6 +20,8 @@ This is the third talk I've found worthy of publishing in the [Awesome Talks](ht
 
 Simon's presentation technique, flair and master of language is flat out impressive — and fun!
 
+<!--more-->
+
 
 
 ### Crossing the River by Feeling the Stones

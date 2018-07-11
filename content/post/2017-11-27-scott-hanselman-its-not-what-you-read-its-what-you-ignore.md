@@ -15,6 +15,8 @@ This is the second recorded talk published in the [Awesome Talks](http://vninja
 
 This isn't a technical talk, it's originally geared towards developers but Scott's message should resonate with everyone in the tech field. In general, it's about how you can deal with large amounts of information. Lot's of great takeaways here!
 
+<!--more-->
+
 **Enjoy!**
 
 https://www.youtube.com/watch?v=IWPgUn8tL8s

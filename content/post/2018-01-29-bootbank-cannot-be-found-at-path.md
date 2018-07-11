@@ -56,5 +56,3 @@ _"The device containing the VMware ESXi bootbank can not be found. This may be b
 
 
 _"Change or replace the boot device, if necessary. Contact the hardware vendor for assistance. After the problem is resolved, the alert will be canceled when the sensor that reported the problem indicates that the problem no longer exists."_
-
-

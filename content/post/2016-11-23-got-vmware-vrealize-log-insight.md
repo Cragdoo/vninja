@@ -19,43 +19,44 @@ tags:
 Recent conversations with existing and potential clients made me realize that many are not aware that they most likely are entitled to use [VMware vRealize Log Insight](http://www.vmware.com/products/vrealize-log-insight.html) in their environment. _For free._
 
 Back in March 2016 VMware announced that everyone with a valid VMware vCenter license are also entitled to  25-OSI pack of vRealize Log Insight for vCenter Server. This means that you can gather logs for up to 25 ESXi hosts, VMs or other devices, in your environment.
+<!--more-->
 
 It even allows you to use the following VMware content packs (3rd party content packs requires a full Log Insight license)
 
 
 
 
-    
+
   * Horizon View
 
-    
+
   * NSX
 
-    
+
   * OpenStack
 
-    
+
   * vCenter Operations Manager
 
-    
+
   * vCloud Automation Center
 
-    
+
   * vCloud Director
 
-    
+
   * vCNS
 
-    
+
   * Virtual SAN
 
-    
+
   * vRealize Automation
 
-    
+
   * vRealize Operations Manager
 
-    
+
   * vSphere
 
 

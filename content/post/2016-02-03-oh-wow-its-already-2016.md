@@ -16,15 +16,8 @@ tags:
 
 A bit late, considering it's already February, but here it is:
 
-
-
 # My plan for 2016.
-
-
-
-
-
-
+<!--more-->
 
   * **Shake things up a bit** - **Go big or go home.** 2016 will be a year of changes. It's about time I _shake things up a bit_, and 2016 will be that year. More details on this to come later, for now I have to keep it under wraps.
 
@@ -39,7 +32,7 @@ A bit late, considering it's already February, but here it is:
 
 
   * **VMUG** - The [Norwegian VMUG](http://vmug.no) is up and running, but I would like to get even better attendance records and more community contributions._The sponsors pays the bills, the community contributions brings the most value._
-In the spirit of the [Feed4ward program](https://www.vmug.com/p/cm/ld/fid=7221) I'll be happy to mentor/help anyone who wants to present at a VMUG meeting in Norway. 
+In the spirit of the [Feed4ward program](https://www.vmug.com/p/cm/ld/fid=7221) I'll be happy to mentor/help anyone who wants to present at a VMUG meeting in Norway.
 I intend to arrange at least 3 VMUG meetings in Bergen in 2016.
 
 

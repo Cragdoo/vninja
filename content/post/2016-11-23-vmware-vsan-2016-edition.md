@@ -24,31 +24,33 @@ My previous posts:
 
 vSAN 6.5 was released with vSphere 6.5, and brings a few new features to the table:
 
+<!--more-->
 
 
 
-    
+
+
   * **Virtual SAN iSCSI Target Service**
 
-    
+
   * **Support for Cloud Native Apps running on the Photon Platform**
 
-    
+
   * **REST APIs and Enhanced PowerCLI support**
 
-    
+
   * 2-Node Direct Connect
 
-    
+
     * Witness Traffic Separation for ROBO
 
 
 
 
-    
+
   * All-Flash support in the standard license (Deduplication and compression still needs advanced or enterprise)
 
-    
+
   * 512e drive support
 
 

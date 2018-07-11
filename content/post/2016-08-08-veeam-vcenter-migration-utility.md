@@ -21,6 +21,9 @@ Way back in 2013, I published [Preserve your Veeam B&R Backups Jobs when Moving
 
 Naturally, when there is a new vCenter instance, all the Virtual Machine Managed Object Reference's (MoRef) change, which makes Veeam Backup & Replication start a new backup/replication chain, since all VMs are treated as new ones. Not ideal by any means, but at least you wouldn't have to recreate all your jobs.
 
+<!--more-->
+
+
 **Veeam has now made a tool available that can map old MoRef's to new MoRef's in your backup jobs, in order to keep your incremental chains intact even after replacing your vCenter.  **
 
 Check out [vCenter Migration Utility](https://www.veeam.com/kb2136)!

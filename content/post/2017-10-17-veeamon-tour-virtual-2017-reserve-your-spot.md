@@ -18,10 +18,9 @@ Veeam is hosting their [VeeamOn Tour Virtual 2017](http://vee.am/qbawEw) event 
 
 Veeam describes the event like this:
 
-
-
 <blockquote>The biggest online Availability event in EMEA — VeeamON Tour Virtual 2017 — is once again coming to your desktop! No need to leave your chair — Experience Availability simply by joining us for an ultimate digital journey!</blockquote>
 
+<!--more-->
 
 
 VeeamON Tour Virtual runs from 11 am to 5 pm CET, and offers three separate tracks; [Business](https://go.veeam.com/veeamon-tour-virtual-en/#business), [Technical](https://go.veeam.com/veeamon-tour-virtual-en/#technical) and [Cloud](https://go.veeam.com/veeamon-tour-virtual-en/#cloud).

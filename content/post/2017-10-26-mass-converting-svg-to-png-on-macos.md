@@ -19,6 +19,8 @@ When playing around with [Royal TSX](http://vninja.net/osx/making-royal-tsx-even
 
 After trying a series of different approaches, I ended up with using [rsvg-convert from libRSVG](https://wiki.gnome.org/action/show/Projects/LibRsvg?action=show&redirect=LibRsvg). In order to get _rsvg-convert_ installed on my MacBook, I turned to [HomeBrew](https://brew.sh).
 
+<!--more-->
+
 HomeBrew, which calls itself **The missing package manager for macOS **is in my opinion essential for any macOS user. If you are missing a command or utility, chances are that HomeBrew has you covered.
 
 
@@ -30,7 +32,7 @@ HomeBrew, which calls itself **The missing package manager for macOS **is in m
 Once you have HomeBrew installed, you're pretty much ready to go by running the following command in Terminal:
 
 
-    
+
     brew install librsvg
 
 
@@ -40,7 +42,7 @@ This installs the [libRSVG](http://formulae.brew.sh/formula/librsvg) formulae, a
 Once libRSVG installed locally, you can mass-convert .svg files by running the following command in your terminal of choice.
 
 
-    
+
     for i in *; do rsvg-convert $i -o `echo $i | sed -e 's/svg$/png/'`; done
 
 

@@ -20,6 +20,7 @@ tags:
 I've been fleshing out a proper[ Veeam Backup & Replication](http://veeam.com) Demo lab at work, but doing demos on static VMs isn't all that much fun and doesn't really give us much. Doing scheduled backups of non-changing data is really boring.
 
 So, in order to get some changes done on the file system on a few Linux VMs running in the environment, I came up with the following solution:
+<!--more-->
 
 I set up a crontab entry that generates a file with random data in it a couple of times a day, just to make sure that there are some changes made to the VM. The crontab entry looks like this:
 

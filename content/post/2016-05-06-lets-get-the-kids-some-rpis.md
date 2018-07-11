@@ -16,7 +16,8 @@ tags:
 - RPi
 ---
 
-![rpi](http://vninja.net/wordpress/wp-content/uploads/2016/05/rpi-300x193.jpg)A friend of [Mr. Jase McCarty](https://twitter.com/jasemccarty) is teaching a class in programming control systems, and is in need of a few Raspberry Pi's.
+![rpi](/img/2016/05/rpi-300x193.jpg)A friend of [Mr. Jase McCarty](https://twitter.com/jasemccarty) is teaching a class in programming control systems, and is in need of a few Raspberry Pi's.
+<!--more-->
 
 Sadly the school can't afford buying them outright, so if you have one laying around, that you are not using, get in touch with [Jase](https://twitter.com/jasemccarty) and he'll set you up with the details on how you can contribute! If you want to do even better, and buy some RPi's outright and donate them to the project, check out this [Amazon Wishlist](http://www.amazon.com/registry/wishlist/CMIS7RC015O7/ref=cm_sw_r_tw_ws_XZ3kxbGSESSCZ)!
 

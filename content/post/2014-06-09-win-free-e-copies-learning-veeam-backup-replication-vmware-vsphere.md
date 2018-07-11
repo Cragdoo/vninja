@@ -17,12 +17,13 @@ tags:
 - Veeam
 ---
 
-![LearningVeeam125](http://vninja.net/wordpress/wp-content/uploads/2014/05/LearningVeeam125.png)**Update:** _The contest is now closed, and I have forwarded all comments to Packt Publishing, and they will contact the winners directly. Thanks to everyone who entered!_
+![LearningVeeam125](/img/LearningVeeam125.png)**Update:** _The contest is now closed, and I have forwarded all comments to Packt Publishing, and they will contact the winners directly. Thanks to everyone who entered!_
 
 I have teamed up with Packt Publishing  to organize a giveaway of  my new **[Veeam® Backup & Replication for VMware vSphere](http://www.packtpub.com/learning-veeam-backup-and-replication-for-vmware-vsphere/book) **book.
 
 3 lucky winners stand a chance to win e-copies of their new book. Keep reading to find out how you can be one of them!
 
+<!--more-->
 
 
 ### Overview:
@@ -32,13 +33,13 @@ I have teamed up with Packt Publishing  to organize a giveaway of  my new **[
 
 
 
-    
+
   * Explore Veeam Backup and Replication v7 infrastructure and its components
 
-    
+
   * Create backup, replication, and restore strategies that protect data, your company's most valuable asset
 
-    
+
   * Includes advanced features like off-site replication and tape retention
 
 

@@ -18,28 +18,26 @@ tags:
 - vSphere
 ---
 
-# 
-
-
 
 After deploying a new VCSA 6.0u1 I was seeing some weird errors while trying to retrieve AD- users/groups (or anything from the esod.local domain):
 
-![_1446154857693](http://vninja.net/wordpress/wp-content/uploads/2015/10/1446154857693.png)
+![_1446154857693](/img/1446154857693.png)
+
+<!--more-->
+
 
 After some serious head scratching, it dawned on me after checking the DNS records for the DC in the domain, from the vCenter Appliance itself:
 
-[cc lang="bash" width="100%" theme="blackboard" nowrap="0"]
+{{< highlight bash >}}
 dig +noall +answer +search dc1.esod.local
 dc1.esod.local. 3600 IN A 10.0.1.201
-[/cc]
+{{< /highlight >}}
 
 So far so good, the DNS lookup works as expected.
 
-[cc lang="bash" width="100%" theme="blackboard" nowrap="0"]
+{{< highlight bash >}}
 dig +noall +answer +search -x 10.0.1.201
-
-[/cc]
-
+{{< /highlight >}}
 That's right, the reverse lookup returns exactly zilch, zero, zippo, nil, nada and null.
 
 
@@ -47,16 +45,14 @@ That's right, the reverse lookup returns exactly zilch, zero, zippo, nil, nada a
 # The Solution
 
 
-
-Add reverse lookup zone to DNS and update the DC PTR record.![_1446155633910](http://vninja.net/wordpress/wp-content/uploads/2015/10/1446155633910.png)
-
-
+Add reverse lookup zone to DNS and update the DC PTR record.![_1446155633910](/img/1446155633910.png)
 
 Once that it done, it works as expected:
 
-[cc lang="bash" width="100%" theme="blackboard" nowrap="0"]
+{{< highlight bash >}}
 dig +noall +answer +search -x 10.0.1.201
-201.1.0.10.in-addr.arpa. 3600 IN PTR dc1.esod.local.[/cc]
+201.1.0.10.in-addr.arpa. 3600 IN PTR dc1.esod.local.
+{{< /highlight >}}
 
 Re-checking the domain in the vCenter Web Client, and  AD-information is retrieved correctly.
 

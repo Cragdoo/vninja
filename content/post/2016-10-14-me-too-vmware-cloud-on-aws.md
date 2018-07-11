@@ -16,25 +16,27 @@ tags:
 - VMware
 ---
 
-![](http://vninja.net/wordpress/wp-content/uploads/2016/10/VMware-AWS_750.png)After yesterdays announcement of VMware Cloud™ on AWS [everyone and their distant relatives](https://twitter.com/hashtag/VMWonAWS?src=hash) have published their opinion pieces on the relevance of the deal, and what who got the short end of the stick in this deal.  I guess this is my attempt, or me too post if you will.
+![](/img/VMware-AWS_750.png)After yesterdays announcement of VMware Cloud™ on AWS [everyone and their distant relatives](https://twitter.com/hashtag/VMWonAWS?src=hash) have published their opinion pieces on the relevance of the deal, and what who got the short end of the stick in this deal.  I guess this is my attempt, or me too post if you will.
 
-First off, the best source for actual facts and not conjecture, besides the press releases and [actual announcement](https://blogs.vmware.com/vsphere/2016/10/vmware-aws-announce-strategic-partnership.html),  is Frank Denneman's [VMware Cloud™ on AWS – A Closer Look](http://frankdenneman.nl/2016/10/13/vmware-cloud-aws-closer-look/) post (and by the way, it just_ feels right_ that Frank is back at VMware).
+<!--more-->
+
+First off, the best source for actual facts and not conjecture, besides the press releases and [actual announcement](https://blogs.vmware.com/vsphere/2016/10/vmware-aws-announce-strategic-partnership.html),  is Frank Denneman's [VMware Cloud™ on AWS – A Closer Look](http://frankdenneman.nl/2016/10/13/vmware-cloud-aws-closer-look/) post (and by the way, it just _feels right_ that Frank is back at VMware).
+
+<!--more-->
 
 So far, not many details are available (naturally, since it's a tech preview that hasn't even entered the beta stage yet), but we know this:
 
 
 
-
-    
   * It's not a nested environment, it's VMware SDDC running on physical hardware hosted in amazon data centers.
 
-    
+
   * Your "old" management tools will be supported. Use VDP for backup, or PowerCLI to manage your environment? You can continue to do so, even if the workloads run in AWS.
 
-    
+
   * vMotion will be supported, making it possible to migrate workloads directly.
 
-    
+
   * AWS provides the hardware, VMware provides the stack and supports it.
 
 

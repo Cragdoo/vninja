@@ -20,6 +20,9 @@ tags:
 
 VMware has just [announced vSAN v6.6](https://blogs.vmware.com/virtualblocks/2017/04/11/whats-new-vmware-vsan-6-6/), with over 20 new features. While new and shiny features are nice I'd like to highlight **a couple** that I think might be undervalued from release feature-set perspective, but highly valuable in day to day operations of a vSAN environment, otherwise known as _Day 2 operations_.
 
+<!--more-->
+
+
 **vSAN Configuration Assist** is one such new feature. While it's true that it helps first time configuration of a greenfield installation with vSAN (no more [bootstrapping](https://vdc-download.vmware.com/vmwb-repository/dcr-public/b5a7ed3b-388b-4baf-9345-f3cc675efa26/8f9e7e36-c473-484a-a762-462e2c557992/VSANTechnote_BootstrappingVSAN_final.pdf), yay!), it also helps with Day 2 operations.
 
 It helps configure new hosts added to an existing vSAN enabled cluster, but it also makes it possible to automate updating of IO controllers, both firmware and drivers directly from within vCenter. As everyone should know by now, vSAN is highly dependent on drivers and firmware being on supported levels. This improvement helps the improved vSAN Health Check (Enhanced Health Monitoring) [![](/img/vsan-host-health-check-300x177.png)](/img/vsan-host-health-check.png)alert you when new and _verified _drivers/firmware are available, and if the controller tools are available on the ESXi host, it can also update the firmware for you.

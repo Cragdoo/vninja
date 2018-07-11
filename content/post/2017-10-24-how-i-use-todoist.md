@@ -18,6 +18,7 @@ tags:
 ---
 
 As I've mentioned before, [I use Todoist](http://vninja.net/workflow/todoist-one-year-later/) to keep track of my personal to-do list. This is the first to-do manager I've been able to stick with, and I've been using it daily for well over 2 years now. In that two year period I've reorganised it a bit, but for the most part I've been able to keep to the main structure I initially created when setting it up the first time.
+<!--more-->
 
 [caption id="attachment_4801" align="aligncenter" width="644"][![](/img/glenn-carstens-peters-190592-644x429.jpg)](https://unsplash.com/@glenncarstenspeters) Photo by Glenn Carstens-Peters[/caption]
 
@@ -33,16 +34,16 @@ I have the following main projects defined.
 
 
 
-    
+
   * **Work**
 
-    
+
   * **Private**
 
-    
+
   * **VMUG**
 
-    
+
   * **vNinja**
 
 
@@ -62,16 +63,16 @@ My current list of labels are:
 
 
 
-    
+
   * **@Waiting**_—Anything that I'm currently waiting for someone else to to something with before I can continue._
 
-    
+
   * **@Writing**_—Things I'm planning on writing._
 
-    
+
   * **@Someday**_—Something I plan on doing at some point, but haven't set a deadline for._
 
-    
+
   * **@Read**_—Things I'm planning on reading._
 
 
@@ -85,16 +86,16 @@ My current list of labels are:
 
 
 
-    
+
   * **P1**_—_Important and urgent. Do these now.
 
-    
+
   * **P2**_—_Important but not urgent. Must have a due date. Move to P1 on or before due date.
 
-    
+
   * **P3**_—_Not important but urgent. Delegate to others, or change priority to P2 or P4.
 
-    
+
   * **P4**_—_Not important and not urgent. Only do if time permits. No due date.
 
 
@@ -108,7 +109,3 @@ So far I've completed 2850 tasks in Todoist, giving me the Karma level of Grandm
 For any [GTD](https://en.wikipedia.org/wiki/Getting_Things_Done) aficionados out there, you can clearly see that I don't follow that structure. GTD in itself is probably awesome, if you're able to stick with it. For me though, GTD takes to much of an effort in organising tasks and projects, so I've created a system that **works for me**.
 
 **How do you use your task manager to keep track of your todo items?**
-
-
-
-

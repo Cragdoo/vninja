@@ -23,6 +23,7 @@ tags:
 This rather _tongue-in-cheek_ title, is a play on [Maish ](https://twitter.com/maishsk/)recent [VSAN - The Unspoken Truth](http://technodrone.blogspot.com/2014/03/vsan-unspoken-truth.html) post where he highlights what he thinks is one of the hidden "problems" with the current version of VSAN is it's inherent non-blade compatibility and current lack of "rack based VSAN ready nodes".
 
 Of course, this is a reality; If you base your current infrastructure on blade servers, [VSAN](http://www.vmware.com/products/virtual-san) probably isn't a good match as it stands today. Chances are that if you are currently running a blade-based datacenter, you have traditional external storage on the back end of that, and that you for quite some time will be running a form factor that VSAN simply isn't designed for. I don't disagree with Maish in that conclusion, not a bit.
+<!--more-->
 
 But what about the next server refresh? One of the things that VSAN is a facilitator for, along with enhancements in the storage industry, is the ability to move to other form factors. Currently Supermicro offers their rather nice looking[ FatTwin™ Server Solution](http://www.supermicro.nl/products/nfo/FatTwin.cfm). If we look at what the [SYS-F617R2-R72+](http://www.supermicro.nl/products/system/4U/F617/SYS-F617R2-R72_.cfm) box offers, in the total rack space of 4U (less than most blade chassis), it is clear that the form factor choices will not just be tower or blade, the will also include other new form factors that are currently not in the forefront of peoples minds when designing their data center.
 
@@ -30,14 +31,12 @@ Looking at the Supermicro box again, in a 4U rack footprint, it offers these max
 
 
 
-
-    
   * 2 x Intel® Xeon® processor E5-2600
 
-    
+
   * Up to 1TB DDR3 ECC LRDIMM
 
-    
+
   * 6x Hot-swap 2.5" SAS2/SATA HDD trays
 
 
@@ -51,7 +50,7 @@ That's right, a server is becoming a node and which vendors sticker is in the fr
 
 
 <blockquote>The future is already here – it's just not evenly distributed.
-— William Gibson</blockquote>
+<br/>— William Gibson</blockquote>
 
 
 

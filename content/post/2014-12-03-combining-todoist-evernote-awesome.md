@@ -21,11 +21,10 @@ tags:
 A while back I declared [Evernote](http://evernote.com) bankruptcy, even if I managed to misspell it while doing so:
 
 
+{{< tweet 469455493631860736 >}}
 
-<blockquote>That's it, I'm declaring [@evernote](https://twitter.com/evernote) bankrupcy.
 
-— Christian Mohn™ (@h0bbel) [May 22, 2014](https://twitter.com/h0bbel/status/469455493631860736)</blockquote>
-
+<!--more-->
 
 
   The thing is, I really want to use Evernote in a proper and organised manner. The problem is; I was completely unable to do so, mostly since I had no clear idea on the how, the when and the why back when I started using it many moons ago. In the end, all I had was a lot of unorganised notes, with no clear idea or taxonomy. So, to get myself out of the mess I had made, I decided to delete _all_ my notebooks, and stacks, and move every single note I had into a new **@graveyard** notebook. I then decided on a new top-level notebook hierarchy that I wanted to make general enough to fit most notes into, but still keep it reasonably structured. For now, I've decided on the following structure (I've excluded a couple here, but you get the gist):
@@ -33,25 +32,25 @@ A while back I declared [Evernote](http://evernote.com) bankruptcy, even if I ma
 
 
 
-    
+
   * @Graveyard
 
-    
+
   * @Inbox
 
-    
+
   * @To-Do
 
-    
+
   * @To-Blog
 
-    
+
   * Personal
 
-    
+
   * Professional
 
-    
+
   * Clippings
 
 

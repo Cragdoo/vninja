@@ -18,6 +18,7 @@ tags:
 
 <blockquote>For the third time in a week, researchers have discovered a zero-day vulnerability in Adobe’s Flash Player browser plugin. Like the previous two discoveries, this one came to light only after hackers dumped online huge troves of documents stolen from Hacking Team — an Italian security firm that sells software exploits to governments around the world.</blockquote>
 
+<!--more-->
 
 
 This quote is from [Brian Krebs](http://Third Hacking Team Flash Zero-Day Found), who very rightfully goes on to advise that everyone _"please consider removing or at least hobbling this program."_ Now, that is fine for the most part. I mean, who really needs Adobe Flash these days? Don't most services we use have other methods of handing us the content we <del>need</del> want? The [Apple iPhone doesn't have Adobe Flash](https://www.apple.com/hotnews/thoughts-on-flash/), so why do we need it on our laptops?

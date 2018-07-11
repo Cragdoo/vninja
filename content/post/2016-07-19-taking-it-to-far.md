@@ -12,7 +12,7 @@ categories:
 - News
 ---
 
-[![Caricature of a mad scientist drawn by User:J.J.](http://vninja.net/wordpress/wp-content/uploads/2016/07/Mad_scientist_transparent_background.svg_-1024x959.png)](https://commons.wikimedia.org/wiki/File:Mad_scientist_transparent_background.svg)
+[![Caricature of a mad scientist drawn by User:J.J.](/img/Mad_scientist_transparent_background.svg_-1024x959.png)](https://commons.wikimedia.org/wiki/File:Mad_scientist_transparent_background.svg)
 
 A few days ago I decided to go full-on mad scientist in documenting my new home lab / network setup, and I've even created a [GitHub ](https://github.com/h0bbel/homelab)repository for it.
 

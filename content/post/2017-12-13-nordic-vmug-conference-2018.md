@@ -21,16 +21,17 @@ tags:
 The Nordic VMUG Conference promises to be just as awesome as previous versions, just have a look at this speaker list:
 
 
+<!--more-->
 
 
-    
-  * Opening Keynote:** Kit Colbert**
 
-    
-  * Breakout sessions: **Ole Agesen, Duncan Epping, Myles Gray, Frank Denneman, Niels Hagoort, Grant Orchard **and** Joerg Lew**
+  * Opening Keynote: **Kit Colbert**
 
-    
-  * Closing Keynote:** Ken Westin**
+
+  * Breakout sessions: **Ole Agesen, Duncan Epping, Myles Gray, Frank Denneman, Niels Hagoort, Grant Orchard and Joerg Lew**
+
+
+  * Closing Keynote: **Ken Westin**
 
 
 
@@ -39,31 +40,31 @@ The Nordic VMUG Conference promises to be just as awesome as previous versions,
 
 
 
-    
+
   * **Michael Armstrong** - A sneak peak behind the scenes of running the VMworld Hands On Labs
 
-    
+
   * **Steffen Christensen** - From The Field: Most Common vRA/vRO Use Cases from The Real World.
 
-    
+
   * **Thomas Poppelgaard** - Horizon in Azure all you need to know
 
-    
+
   * **Johan van Amersfoort** - VMware Workspace ONE: How to secure a workplace without consessions?
 
-    
+
   * **Jacob Styrup Bang** - A bottom up presentation of Aarhus University’s new SDDC.
 
-    
+
   * **Michael Monberg** - Tips & Tricks in vRops
 
-    
+
   * **Mads Fog Albrechtslund** - Create scalable and reusable code in vRealize Orchestrator
 
-    
+
   * **Stefan Pahrmann** - NSX micro segmenting in the real World
 
-    
+
   * **Simon Eady** - Roundtable: vROps Clinic / Workshop
 Come and discuss all things vROps. Design, Alerts, policies etc.
 
@@ -74,7 +75,7 @@ Come and discuss all things vROps. Design, Alerts, policies etc.
 
 
 
-    
+
   * **Per Buer** - IncludeOS
 
 

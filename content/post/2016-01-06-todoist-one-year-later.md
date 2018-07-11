@@ -18,6 +18,7 @@ tags:
 A little over a year ago I posted [Combining Todoist and Evernote, because awesome](http://vninja.net/workflow/combining-todoist-evernote-awesome/) and I thought it was about time to post a follow up now one year later.
 
 
+<!--more-->
 
 ## Evernote:
 
@@ -33,7 +34,7 @@ Since my original post, I've stopped my **Todoist Task -> Evernote IFTT** recipe
 
 
 
-![Todoist2](http://vninja.net/wordpress/wp-content/uploads/2016/01/Todoist2.png)2015 was the first full year I've used [Todoist](http://todoist.com) as my primary task manager. 722 completed tasks later, and I couldn't be happier with it._ It's easy to work with, very flexible, and doesn't get in the way._ I have the iOS app running on my phone, the desktop application running on OS X and the Outlook plugin running in my corporate VM.
+![Todoist2](/img/Todoist2.png)2015 was the first full year I've used [Todoist](http://todoist.com) as my primary task manager. 722 completed tasks later, and I couldn't be happier with it. _It's easy to work with, very flexible, and doesn't get in the way._ I have the iOS app running on my phone, the desktop application running on OS X and the Outlook plugin running in my corporate VM.
 
 It helps me focus on the things I need to get done, and if I need to take notes or document things in relation to those tasks, I create Evernote notes for them manually.  I've tried several ToDo task managers in the past, but Todoist is the first one that's stuck with me.
 
@@ -41,4 +42,4 @@ Plus, completing a task given me [Karma](https://todoist.com/karma) points. I li
 
 Now, of course, I have to do _some_ automation. Everything I tag with "_reading_" in Pocket, gets added to my "_To Read_" project in Todoist. That provides me with a nice list of things I've been meaning to read later, all within the same interface as my daily tasks.
 
-Has it made me more productive? I don't know. What I do know is this:** It certainly makes it much harder to forget to do something, and that can't be bad.**
+Has it made me more productive? I don't know. What I do know is this: **It certainly makes it much harder to forget to do something, and that can't be bad.**

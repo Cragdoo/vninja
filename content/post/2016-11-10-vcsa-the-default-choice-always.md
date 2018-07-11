@@ -22,6 +22,7 @@ I've been a big proponent of the VMware vCenter Appliance for a long time, I eve
 The VCSA has gone through a few iterations and versions by now, coinciding with the vSphere releases.
 
 
+<!--more-->
 
 ### History
 
@@ -45,5 +46,3 @@ Also worth noting is that in v6.5, VMware Update Manager has been included in th
 
 **#vDM30in30 progress:**
 [progressbar_circle percent= 26.66]
-
-

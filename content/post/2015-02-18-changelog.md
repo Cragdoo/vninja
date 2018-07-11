@@ -20,6 +20,7 @@ In my work as a consultant I often have many small tasks to perform for customer
 
 As for [just about everything else](http://vninja.net/virtualization/markdown-things/), I use Markdown to make it easy to format and edit.
 
+<!--more-->
 
 
 ### Example
@@ -27,30 +28,6 @@ As for [just about everything else](http://vninja.net/virtualization/markdown-th
 
 
 Currently, I use the following format to keep track of changes done to a customer environment
-
-
-    
-    
-    # [customername]
-    
-    ## Changelog
-    
-    ### Completed
-    | Date | Task | By |
-    |-------------|---------------|-------|
-    |14.02.2015|ChangeLog created| Christian Mohn
-    |15.02.2015|Upgraded vCenter Operations Manager 5.8.3 Build 2076729 to 5.8.4 (Build 2199700)| CM
-    |16.02.2015|Updated *vCSA01* from 5.5.0.20000 Build 2063318 til 5.5.0.20400 (Build 2442330)| CM
-    |16.02.2015|Updated *esxi01* from 5.5.0 (Build 1623387) til 5.5.0 (Build 2456374) | CM
-    |16.02.2015|Updated *esxi02* from 5.5.0 (Build 1623387) til 5.5.0 (Build 2456374) | CM
-    |16.02.2015|Updated *esxi03* from 5.5.0 (Build 1623387) til 5.5.0 (Build 2456374) | CM
-    
-
-
-
-Once rendered as HTML, I get a nice list displaying all the recent changes.
-
-
 
 ### Completed
 
@@ -66,68 +43,68 @@ Once rendered as HTML, I get a nice list displaying all the recent changes.
 
 <tbody >
 <tr >
-  
+
 <td >14.02.2015
 </td>
-  
+
 <td >ChangeLog created
 </td>
-  
+
 <td >CM
 </td>
 </tr>
 <tr >
-  
+
 <td >15.02.2015
 </td>
-  
+
 <td >Upgraded vCenter Operations Manager 5.8.3 Build 2076729 to 5.8.4 (Build 2199700)
 </td>
-  
+
 <td >CM
 </td>
 </tr>
 <tr >
-  
+
 <td >16.02.2015
 </td>
-  
+
 <td >Updated _vCSA01_ from 5.5.0.20000 Build 2063318 til 5.5.0.20400 (Build 2442330)
 </td>
-  
+
 <td >CM
 </td>
 </tr>
 <tr >
-  
+
 <td >16.02.2015
 </td>
-  
+
 <td >Updated _esxi01_ from 5.5.0 (Build 1623387) til 5.5.0 (Build 2456374)
 </td>
-  
+
 <td >CM
 </td>
 </tr>
 <tr >
-  
+
 <td >16.02.2015
 </td>
-  
+
 <td >Updated _esxi02_ from 5.5.0 (Build 1623387) til 5.5.0 (Build 2456374)
 </td>
-  
+
 <td >CM
 </td>
 </tr>
 <tr >
-  
+
 <td >16.02.2015
 </td>
-  
+
 <td >Updated _esxi03_ from 5.5.0 (Build 1623387) til 5.5.0 (Build 2456374)
 </td>
-  
+
 <td >CM
 </td>
 </tr>

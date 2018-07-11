@@ -19,6 +19,9 @@ In the last few months, I've seen an uptick in spoofed emails being sent with m
 
 I didn't think there was much I could do about this, but a recent tweet by my friend [Per Thorsheim](https://twitter.com/thorsheim) sent me down the rabbit hole.
 
+<!--more-->
+
+
 https://twitter.com/thorsheim/status/852099743908016128
 
 https://twitter.com/thorsheim/status/852103821090279425
@@ -32,13 +35,13 @@ So, what is this [DMARC](https://blog.returnpath.com/how-to-explain-dmarc-in-p
 
 
 
-    
+
   1. [Configure SPF records to work with G Suite](https://support.google.com/a/answer/178723?hl=en)
 
-    
+
   2. [Authenticate email with DKIM](https://support.google.com/a/answer/174124?hl=en&ref_topic=2752442&visit_id=1-636278646523486675-1928954652&rd=1)
 
-    
+
   3. [Add a DMARC record](https://support.google.com/a/answer/2466563?hl=en)
 
 

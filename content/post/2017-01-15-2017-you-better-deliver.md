@@ -23,10 +23,7 @@ Considering it's mid-january 2017 already, it's time to do my annual goal list 
 # My goals for 2017:
 
 
-
-
-
-
+<!--more-->
 
   * **Get that [VCAP6-DCV Design](https://mylearn.vmware.com/mgrReg/plan.cfm?plan=89133&ui=www_cert) exam out of the way** — I did the beta in march 2016, but missed the mark by a small margin.
 

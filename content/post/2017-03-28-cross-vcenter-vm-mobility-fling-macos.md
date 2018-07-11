@@ -19,21 +19,21 @@ tags:
 
 The [VMware Cross vCenter VM Mobility - CLI](https://labs.vmware.com/flings/xvc-mobility-cli#requirements) was recently updated so I decided to try it out. In short, this little Java based application allows you to easily move or clone VMs between disparate vCenter environments.
 
+<!--more-->
+
+
 The Fling is listed with the following requirements:
 
 
-
-
-    
   * JDK 1.7 or above
 
-    
+
   * Two vCenter instances with ESX 6.0
 
-    
+
   * Windows : Windows Server 2003 or above
 
-    
+
   * Linux : RHEL 7.x or above, Ubuntu 11.04 or above
 
 

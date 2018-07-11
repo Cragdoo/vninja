@@ -16,41 +16,25 @@ tags:
 ---
 
 I recently set up a VMware Virtual SAN 6.1 Proof-of-Concept for a customer, configuring a 3-node cluster based on the following setup:
+<!--more-->
 
 
+### Hardware:![c04411605](/img/c04411605-300x225.png)
 
-### Hardware:![c04411605](http://vninja.net/wordpress/wp-content/uploads/2016/02/c04411605-300x225.png)
-
-
-
-
-
-
-    
   * HP ProLiant DL380 G9
 
-    
   * 2 x Intel Xeon E5-2680 @ 2.50Ghz w/12 Cores
 
-    
   * 392 GB RAM
 
-    
   * 1 x Intel DC 3700 800GB NVMe
 
-    
   * 6 x Intel DC S3610 1.4TB SSD
 
-    
   * HP FlexFabric 556FLR-SFP+ 10GBe NICs
 
 
-
-
-
 ### Virtual SAN Setup:
-
-
 
 Since this was a simple PoC setup, the VSAN was configured with 1 disk group pr host with all 6 Intel DC S3610 drives used as the capacity layer, and the [Intel DC P3700 NVMe](http://www.intel.com/content/www/us/en/solid-state-drives/intel-ssd-dc-family-for-pcie.html) cards set up as the cache. This gives a total of **21.61TB** of usable space for VSAN across the cluster. With the _Failures-To-Tolerate=1_ (the only real FTT policy available in a three node 6.1 cluster) policy this gives 10.8TB of usable space.
 

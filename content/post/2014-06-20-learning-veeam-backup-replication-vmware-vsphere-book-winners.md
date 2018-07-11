@@ -22,6 +22,7 @@ The winners are as follows, with the winning comments:
 
 [Chris Childerhose](http://vninja.net/book/win-free-e-copies-learning-veeam-backup-replication-vmware-vsphere/#comment-13043):
 
+<!--more-->
 
 
 <blockquote>Wow nice to see a book come out for Veeam. Look forward to the following things from this book to help better my Veeam skills -

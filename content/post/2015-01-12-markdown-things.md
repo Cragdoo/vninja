@@ -24,9 +24,12 @@ Obviously I'm a bit late to the party here, but I guess late is better than neve
 
 A lot of my work these days are related to generating content, be it a simple blog post like this or writing customer proposals and documentation. In the end, the deliverables are often quite different, but at the core they are strangely enough very similar. After all, the main thing is content, right? The file format itself, or how it is generated, doesn't really have a bearing on the content at all, it's just a delivery method. Lipstick on a pig, if you will.
 
+<!--more-->
+
+
 So, in an effort to get rid of a lot of unnecessary visual and mental clutter , I've decided to go all in and **[Markdown](http://daringfireball.net/projects/markdown/) all the things.**
 
-![](http://vninja.net/wordpress/wp-content/uploads/2015/01/58015307.jpg)
+![](/img/58015307.jpg)
 
 After all, Markdown is just text, with some simple formatting options. No fluff, no convoluted UI's, just text. Plain, simple, and very easy to work with. I currently use [atom.io](http://atom.io) as my preferred editor, which is working out very well so far.
 

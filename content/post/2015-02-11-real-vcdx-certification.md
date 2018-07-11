@@ -24,8 +24,7 @@ _But why is this the case, and why does "everyone" want to become one?_
 
 The reasons for it being such a highly coveted title, are pretty obvious:
 
-
-
+<!--more-->
 
 
   * Very few people can call themselves VCDX, at the time of writing only 186 people have successfully defended their design. 1
@@ -69,16 +68,11 @@ Also, becoming a VCDX is not like beating that [Final Boss in Doom II](http://do
 
 
 
-  1. 
+  1.
 More than 186 people actually call themselves VCDX, and are outright lying. Check the [official directory](http://vcdx.vmware.com) for verification. ↩
 
 
 
 
-  2. 
+  2.
 For a complete list of requirements, look at the official blueprint for the chosen track. ↩
-
-
-
-
-

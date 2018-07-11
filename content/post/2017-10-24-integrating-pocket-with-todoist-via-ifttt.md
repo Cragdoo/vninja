@@ -19,6 +19,7 @@ tags:
 [Myles Gray](https://twitter.com/mylesagray/status/922783625241866241) asked me how I integrate Pocket with Todoist, after my [How I use Todoist](http://vninja.net/workflow/how-i-use-todoist/) post, and the answer is very simple: [IFTTT](https://ifttt.com/). If-This-Then-That lets you connect services, and create rules (or applets) that trigger based on events in those services, luckily both Todoist and Pocket are supported.
 
 Now, there is a bit of overlap between how I use Pocket and Todoist, but I mainly use Pocket to keep track of links I want to either read later, or use as basis for blog posts.
+<!--more-->
 
 [caption id="attachment_4807" align="alignright" width="644"][![](/img/kari-shea-199320-644x429.jpg)](https://unsplash.com/@karishea) Photo by Kari Shea on Unsplash[/caption]
 

@@ -22,6 +22,7 @@ This is, as far as I know, the first public sighting confirming the existence of
 
 So what is it? Well, there aren't many details available but [Marvin is indeed a registered trademark](http://trademarks.justia.com/861/60/marvin-86160864.html), by VMware. According to the trademark registration, it's purpose is pretty clear:
 
+<!--more-->
 
 
 <blockquote>Computer hardware for virtualization; computer hardware enabling users to manage virtual computing resources that include networking and data storage.</blockquote>
@@ -38,7 +39,7 @@ I like the idea of "roll your own hyper converged stack", based on an appliance 
 
 
 
-[caption id="attachment_3213" align="alignright" width="121"][![Marvin the Paranoid Android (HHGG)](http://vninja.net/wordpress/wp-content/uploads/2014/06/Marvin_HHGG-182x300.jpg)](http://vninja.net/wordpress/wp-content/uploads/2014/06/Marvin_HHGG.jpg) Marvin the Paranoid Android (HHGG)[/caption]
+[![Marvin the Paranoid Android (HHGG)](http://vninja.net/wordpress/wp-content/uploads/2014/06/Marvin_HHGG-182x300.jpg)](http://vninja.net/wordpress/wp-content/uploads/2014/06/Marvin_HHGG.jpg) Marvin the Paranoid Android (HHGG)
 
 Bring on VMworld, I really want to meet Marvin, but lets hope he's a bit more upbeat than the original from [Hitchhikers Guide to the Galaxy](http://hitchhikers.wikia.com/wiki/Marvin):
 

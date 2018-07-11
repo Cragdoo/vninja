@@ -15,14 +15,17 @@ tags:
 - Veeam
 ---
 
-![veeam_vanguard_logo](http://vninja.net/wordpress/wp-content/uploads/2015/07/veeam_vanguard_logo.png)Veeam has been "silently" working on their own global influencer program, and the inaugural list of Veeam Vanguards was published today. I am thrilled to be selected amongst the first 31 people awarded this title, it's quite an exclusive list!
+![veeam_vanguard_logo](/img/veeam_vanguard_logo.png)Veeam has been "silently" working on their own global influencer program, and the inaugural list of Veeam Vanguards was published today. I am thrilled to be selected amongst the first 31 people awarded this title, it's quite an exclusive list!
+
+<!--more-->
+
 
 So what's up with the name? Well, here is one of the definitions of vanguard I found:
 
 
-    
-    <strong>vanguard</strong>
-     <em>ˈvanɡɑːd/</em>
+
+    vanguard
+    ˈvanɡɑːd/
      noun
      a group of people leading the way in new developments or ideas.
 

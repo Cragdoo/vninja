@@ -20,6 +20,7 @@ tags:
 On Tuesday, December 3, 2013 VMware User Group Denmark arranged the[ Nordic VMUG Conference](http://www.vmug.com/p/cm/ld/fid=1760). The event itself can only be described as a mini-VMworld, with over 600 registered attendees, and a speaker list worthy of such a nick-name.
 
 The opening keynote was held by Joe Baguley, the closing keynote was held by Chad Sakac. In between those two, you had the possibility to attend sessions held by Cormac Hogan, Mike Laverick,  Frank Brix, Paudie O-Riordan, Frank Denneman, Mattias Sundling, David Davis and Duncan Epping.
+<!--more-->
 
 There was even a mini solutions exchange where vendors scanned your badges, tried to sell you products and concepts or just update your geeky t-shirt wardrobe. Got that VMworld feeling yet?
 

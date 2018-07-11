@@ -20,9 +20,10 @@ tags:
 - vSphere Replication
 ---
 
-[caption id="attachment_3241" align="alignright" width="221"][![Disaster Recovery using VMware vSphere Replication and vCenter Site Recovery Manager](http://vninja.net/wordpress/wp-content/uploads/2014/06/DisasterRecoveryUsingVMwarevSphereReplication.png)](http://bit.ly/1kosrhz) Disaster Recovery using VMware vSphere Replication and vCenter Site Recovery Manager[/caption]
+[![Disaster Recovery using VMware vSphere Replication and vCenter Site Recovery Manager](/img/DisasterRecoveryUsingVMwarevSphereReplication.png#floatright)](http://bit.ly/1kosrhz)
 
 Hot off the heals of the [Veeam® Backup & Replication for VMware vSphere](http://bit.ly/1qvBypQ) giveaway, here is another one for you!
+<!--more-->
 
 Win a free eBook copy of [Disaster Recovery using VMware vSphere Replication and vCenter Site Recovery Manager](http://bit.ly/1kosrhz), just by commenting!
 
@@ -57,5 +58,3 @@ _This is a step-by-step guide that will help you understand disaster recovery us
 _This book is a guide for anyone who is keen on using vSphere Replication or vCenter Site Recovery Manager as a disaster recovery solution. This is an excellent handbook for solution architects, administrators, on-field engineers, and support professionals. Although the book assumes that the reader has some basic knowledge of data center virtualization using VMware vSphere, it can still be a very good reference for anyone who is new to virtualization._
 
 So go ahead, leave a comment and win a copy!
-
-

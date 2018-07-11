@@ -20,11 +20,11 @@ tags:
 - VMware
 ---
 
-[![Screenshot 2014-07-12 20.04.31](http://vninja.net/wordpress/wp-content/uploads/2014/07/Screenshot-2014-07-12-20.04.31-300x168.png)](http://vninja.net/wordpress/wp-content/uploads/2014/07/Screenshot-2014-07-12-20.04.31.png)While working on reconfiguring my home lab setup, and migrating all the vSphere resources into a single cluster I ran into a problem powering on one of the VMs which used to run on a single host. The power on operation yielded the following error message:
+[![Screenshot 2014-07-12 20.04.31](/img/Screenshot-2014-07-12-20.04.31-300x168.png)](/img/Screenshot-2014-07-12-20.04.31.png)While working on reconfiguring my home lab setup, and migrating all the vSphere resources into a single cluster I ran into a problem powering on one of the VMs which used to run on a single host. The power on operation yielded the following error message:
 
 **_Invalid memory setting: memory reservation (sched.mem.min) should be equal to memsize (memsize)_**
-[showhide type="errorstack" more_text="Show error stack (%s More Words)"]
 
+<!--more-->
 
 <blockquote>
 <table border="0" >
@@ -91,29 +91,29 @@ tags:
 
 > <td >
 
-> 
+>
 > ![](https://192.168.5.12:9443/vsphere-client/errorReport/assets/errorStack.png) An error was received from the ESX host while powering on VM MinecraftServer.
-> 
-> 
+>
+>
 
-> 
+>
 > ![](https://192.168.5.12:9443/vsphere-client/errorReport/assets/errorStack.png) Failed to start the virtual machine.
-> 
-> 
+>
+>
 
-> 
+>
 > ![](https://192.168.5.12:9443/vsphere-client/errorReport/assets/errorStack.png) Module MemSched power on failed.
-> 
-> 
+>
+>
 
-> 
+>
 > ![](https://192.168.5.12:9443/vsphere-client/errorReport/assets/errorStack.png) An error occurred while parsing scheduler-specific configuration parameters.
-> 
-> 
+>
+>
 
-> 
+>
 > ![](https://192.168.5.12:9443/vsphere-client/errorReport/assets/errorStack.png) Invalid memory setting: memory reservation (sched.mem.min) should be equal to memsize(4096).
-> 
+>
 > </td>
 </tr>
 <tr >
@@ -195,7 +195,6 @@ tags:
 </blockquote>
 
 
-[/showhide]
 
 Clearly there was an issue with memory reservations on the VM, but there was no memory reservation enabled on it at all, nor should there be. The only related errors I found while investigating the issue, was with regards to [pass-through devices,](http://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=2002779) which also did not apply in this case. It turns out that the problem was due to the VM was configured to use the latency sensitivity feature introduced in vSphere 5.5.
 
@@ -207,7 +206,7 @@ The [Deploying Extremely Latency-Sensitive Applications in VMware vSphere 5.5](h
 
 
 
-**In the end, the solution was a simple one, revert the latency [![Screenshot 2014-07-12 21.10.12](http://vninja.net/wordpress/wp-content/uploads/2014/07/Screenshot-2014-07-12-21.10.12-300x168.png)](http://vninja.net/wordpress/wp-content/uploads/2014/07/Screenshot-2014-07-12-21.10.12.png)sensitivity advanced option for the VM to the default value of _Normal_ let me power-on the VM again without issues.**
+**In the end, the solution was a simple one, revert the latency [![Screenshot 2014-07-12 21.10.12](/img/Screenshot-2014-07-12-21.10.12-300x168.png)](/img/Screenshot-2014-07-12-21.10.12.png)sensitivity advanced option for the VM to the default value of _Normal_ let me power-on the VM again without issues.**
 
 The error message received in vCenter could be a lot clearer though, and a knowledge base article with the exact error message and resolution paths might be in order. It was not immediately obvious that the lack of memory reservation error message was related to the latency sensitivity settings for the given VM. The vSphere Web Client shows a warning that you should check the CPU reservations, but does not mention memory reservations when you enable this feature.
 

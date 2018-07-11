@@ -16,6 +16,7 @@ tags:
 ---
 
 As we all know by now, PernixData was [gobbled up by Nutanix](http://fortune.com/2016/08/28/nutanix-snarfs-up-two-companies-to-bolster-data-center-hardware-story/) a while back, and since then there has been a nothing but silence on the future of the FVP and Architect products. Now it seems it's over. The acquisition trigged a bunch of PernixData employees moving elsewhere, and now it's the products time to move on as well.
+<!--more-->
 
 From what I'm hearing, End of Sale and End of Life for both products are due to be announced soon. Existing support contracts will be honored, but will not be renewable beyond the current time frame.
 

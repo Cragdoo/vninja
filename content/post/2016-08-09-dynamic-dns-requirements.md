@@ -21,13 +21,14 @@ While working on my new [Homelab](http://vninja.net/news/taking-it-to-far/) setu
 
 There are loads of Dynamic DNS services available, most of them lets you use some sort of predefined domain name scheme, and point it to your external IP, but I wanted to use a domain name that I own and control. Since I use [CloudFlare](https://cloudflare.com) to provide DNS services (amongst other things) for this very site, it was a natural choice to see if they could fit the bill for my lab needs as well. Turns out, not only can they provide the services I need for free, they also allow me to play around and have fun at the same time!
 
+<!--more-->
 
 
 ##### My setup looks like this:
 
 
+![Logical Web Services Access Diagram](/img/conceptualOutsideAcess2.png) Logical Web Services Access Diagram
 
-[caption id="attachment_4170" align="alignleft" width="357"]![Logical Web Services Access Diagram](http://vninja.net/wordpress/wp-content/uploads/2016/08/conceptualOutsideAcess2.png) Logical Web Services Access Diagram[/caption]
 
 As seen in the diagram, the setup is pretty simple. As far as Dynamic DNS requirements go, all I need to be able to do (for now) is to update the IP address for a couple of [A records](https://support.dnsimple.com/articles/a-record/) for my domain, if my external IP changes.  This in turn makes the reverse proxy work, since it redirects traffic based on hostname when there is an incoming request.
 

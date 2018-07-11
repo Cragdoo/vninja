@@ -166,6 +166,7 @@ pre = "<i class='fa fa-bars'></i>"
 #pre = "<i class='fa fa-child'></i>"
 
 [[Languages.en.menu.main]]
+identifier = "abtchris"
 name = "About Christian"
 weight = 3
 parent = "about"

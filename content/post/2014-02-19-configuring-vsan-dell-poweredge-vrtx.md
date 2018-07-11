@@ -19,39 +19,42 @@ tags:
 - VSAN
 ---
 
-![OriginalJPG](http://vninja.net/wordpress/wp-content/uploads/2014/02/OriginalJPG.jpeg)
+![OriginalJPG](/img/OriginalJPG.jpeg)
 
 The [Dell PowerEdge VRTX shared infrastructure platform](http://www.dell.com/us/business/p/poweredge-vrtx/pd) is interesting, and I've been lucky enough to be able to borrow one from Dell for testing purposes.
 
 One of the things I wanted to test, was if it was possible to run [VMware VSAN](http://www.vmware.com/products/virtual-san) on it, even if the Shared PERC8 RAID controller it comes with is not on the [VMware VSAN HCL](http://www.vmware.com/resources/compatibility/search.php), nor does it provide a method to do passthrough to present raw disks directly to the hosts.
+
+<!--more-->
+
 
 My test setup consists of:
 
 
 
 
-    
+
   * 1 Dell PowerEdge VRTX
 
-    
+
     * SPERC 8
 
-    
+
       * 7 x 300GB 15k SAS drives
 
 
 
 
-    
+
     * 2 x Dell PowerEdge M520 blades
 
-    
+
       * 2 x 6 core Intel Xeon E5-2420 @ 1.90Ghz CPU
 
-    
+
       * 32 GB RAM
 
-    
+
       * 2 x 146GB 15 SAS drives
 
 
@@ -72,7 +75,7 @@ By creating several RAID0 Virtual Volumes on the controller, each one with only 
 
 
 
-[![Dell PowerEdge VRTX VSAN Virtual Disks](http://vninja.net/wordpress/wp-content/uploads/2014/02/CMC-FLBNZY1-Manage-Virtual-Disks-2014-02-18-13-14-41-2014-02-18-13-14-43-1024x489.png)](http://vninja.net/wordpress/wp-content/uploads/2014/02/CMC-FLBNZY1-Manage-Virtual-Disks-2014-02-18-13-14-41-2014-02-18-13-14-43.png)
+[![Dell PowerEdge VRTX VSAN Virtual Disks](/img/CMC-FLBNZY1-Manage-Virtual-Disks-2014-02-18-13-14-41-2014-02-18-13-14-43-1024x489.png)](/img/CMC-FLBNZY1-Manage-Virtual-Disks-2014-02-18-13-14-41-2014-02-18-13-14-43.png)
 
 
 
@@ -80,7 +83,7 @@ A total of six RAID0 volumes have been created, three for each host.
 
 
 
-[![Dell PowerEdge VRTX Disk Assignment](http://vninja.net/wordpress/wp-content/uploads/2014/02/CMC-FLBNZY1-Assign-Virtual-Disks-2014-02-18-13-15-45-2014-02-18-13-15-47-1024x489.png)](http://vninja.net/wordpress/wp-content/uploads/2014/02/CMC-FLBNZY1-Assign-Virtual-Disks-2014-02-18-13-15-45-2014-02-18-13-15-47.png)
+[![Dell PowerEdge VRTX Disk Assignment](/img/CMC-FLBNZY1-Assign-Virtual-Disks-2014-02-18-13-15-45-2014-02-18-13-15-47-1024x489.png)](/img/CMC-FLBNZY1-Assign-Virtual-Disks-2014-02-18-13-15-45-2014-02-18-13-15-47.png)
 
 
 
@@ -88,7 +91,7 @@ Each host gets granted exclusive access to three disks, resulting in them being 
 
 
 
-[![RawDisksVRTX](http://vninja.net/wordpress/wp-content/uploads/2014/02/RawDisksVRTX.png)](http://vninja.net/wordpress/wp-content/uploads/2014/02/RawDisksVRTX.png)
+[![RawDisksVRTX](/img/RawDisksVRTX.png)](/img/RawDisksVRTX.png)
 
 
 
@@ -96,16 +99,16 @@ Since I don't have any SSD drives in the chassis, something that is a requiremen
 
 (Check [KB2013188 Enabling the SSD option on SSD based disks/LUNs that are not detected as SSD](http://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=2013188) by default for details.)
 
-[cc lang="bash" width="100%" theme="blackboard" nowrap="0"]
+{{< highlight bash >}}
 ~ # esxcli storage nmp satp rule add --satp VMW_SATP_LOCAL --device naa.6b8ca3a0edc7a9001a961838899ee72a --option=enable_ssd
 ~ # esxcli storage core claiming reclaim -d naa.6b8ca3a0edc7a9001a961838899ee72a
-[/cc]
+{{< /highlight >}}
 
 Once that part is taken care of, the rest of the setup is done by following the VSAN setup guides found in the [beta community](http://www.vsanbeta.com/).
 
 
 
-[![VSAN Configured](http://vninja.net/wordpress/wp-content/uploads/2014/02/New-Document-Royal-TSX-2014-02-19-12-27-47-2014-02-19-12-27-50.png)](http://vninja.net/wordpress/wp-content/uploads/2014/02/New-Document-Royal-TSX-2014-02-19-12-27-47-2014-02-19-12-27-50.png)
+[![VSAN Configured](/img/New-Document-Royal-TSX-2014-02-19-12-27-47-2014-02-19-12-27-50.png)](/img/New-Document-Royal-TSX-2014-02-19-12-27-47-2014-02-19-12-27-50.png)
 
 
 

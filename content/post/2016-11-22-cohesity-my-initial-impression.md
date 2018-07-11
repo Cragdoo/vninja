@@ -15,12 +15,13 @@ tags:
 - storage
 ---
 
-![cohesity-logo](http://vninja.net/wordpress/wp-content/uploads/2016/11/Cohesity-logo-300x232.png)
+![cohesity-logo](http://vninja.net/wordpress/wp-content/uploads/2016/11/Cohesity-logo-300x232.png#floatleft)
 
 A few weeks back [Cohesity](http://cohesity.com) gave me access to a lab environment, where I could play around with their HyperConverged Secondary Data solution. For those unaware of their offering entails, it's simply put a solution for managing secondary storage. In this case, secondary storage is really everything that isn't mission critical. It can be your backups, test/dev workloads, file shares and so on . The idea to place these unstructured data sets on a secondary storage platform, to ease management and analytics but at the same time keep it integrated with the rest of the existing environment. It's a Distributed scale-out platform, with a pay-as-you-grow model.
 
 Currently Cohesity supports both SMB and NFS as data entry points, and it also supports acting as a front-end for Google Cloud Storage Nearline, Microsoft Azure, Amazon S3 and Glacier.
 
+<!--more-->
 
 
 ### Partial Feature List
@@ -32,22 +33,22 @@ I won't go through a complete feature list for the current v3.0 offering, but he
 
 
 
-    
+
   * Replication between Cohesity Clusters
 
-    
+
   * Physical Windows and Linux support (in addition to VMs)
 
-    
+
   * Single object restore for MS SQL, MS Sharepoint and MS Exchange.
 
-    
+
   * Archival of data to Azure, Amazon, Google
 
-    
+
   * Tape support
 
-    
+
   * Data Analytics
 
 

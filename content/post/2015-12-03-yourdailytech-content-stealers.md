@@ -12,11 +12,16 @@ categories:
 ---
 
 Yesterday I saw this tweet from Stephen Foskett:
-https://twitter.com/sfoskett/status/672071591245783042
+
+{{< tweet 672071591245783042 >}}
 
 Which spurred a discussion back and forth, with a few rather interesting statements from yourdailytech.com, like this one
 
-https://twitter.com/yourdailytechus/status/672083101682679808
+{{< tweet 672083101682679808 >}}
+
+
+<!--more-->
+
 
 The problem is that they take original content from other sites, and republish it on their own. At first glance, you'll see [Angelica](http://yourdailytech.com/author/angelica/) as the author, even if they claim that that's not the intention. It just happens to be that user account that published the reproduced content, like this one [5 Key Aspects for Safe Virtualization](http://yourdailytech.com/2015/12/01/5-key-aspects-for-safe-virtualization/) -- The original author is mentioned in the article itself, in this case [Camilo Gutierrez Amaya published on www.welivesecurity.com](http://www.welivesecurity.com/2015/11/19/5-key-aspects-safe-virtualization/).  For all I know YourDailyTech has an official partnership with welivesecurity.com, but I don't see any information about that on the site itself.
 

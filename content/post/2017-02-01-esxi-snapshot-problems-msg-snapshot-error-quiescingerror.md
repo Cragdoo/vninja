@@ -16,11 +16,14 @@ tags:
 - vSphere
 ---
 
-[caption id="attachment_4559" align="alignright" width="300"][![](/img/eikbsc3sdti-sonja-langford-300x200.jpg)](https://unsplash.com/@sonjalangford) Photo by Sonja Langford[/caption]
+[![](/img/eikbsc3sdti-sonja-langford-300x200.jpg)](https://unsplash.com/@sonjalangford) Photo by Sonja Langford
 
 Just a quick post about something I experienced at a client, with _ESXi 6.0 hosts_, today:
 
 If you have trouble performing VMware snapshots, and see a  _msg.snapshot.error-QUIESCINGERROR_ error, **check the host time settings and NTP**.
+
+<!--more-->
+
 
 In this case, snapshots of VMs located on other hosts in the cluster were fine, but once a VM was moved to the new host, snapshot operations failed after an hour or so.
 

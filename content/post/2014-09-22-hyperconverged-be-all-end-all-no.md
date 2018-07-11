@@ -20,7 +20,10 @@ First off, this is not meant to be a post negating the value of current hypercon
 
 Parts of this post is inspired by a recent discussion on Twitter:
 
-https://twitter.com/h0bbel/status/513379995155447808
+<!--more-->
+
+{{< tweet 513379995155447808 >}}
+
 
 I don't believe that replacing your existing storage array with a hyperconverged solution, regardless of vendor, by moving your data off the array and on to the local disks in the cluster makes that much sense. Sure, keep your hot and fresh data set as close to the compute layer as possible, but for long time archiving purposes? For rarely accessed, but required data? Why would you do that? Of course, going hyperconverged would mean that you can free up some of that costly array space and leave long term retention data on the array, but does the hyperconverged solution of choice let you do that? Does it even have FC HBA's? If not, is it cost effective to invest in it, while you at the same time need to keep your "traditional" infrastructure in place to keep all that data available?
 

@@ -22,16 +22,14 @@ This guest post by [Bjørn Anders Jørgensen](https://twitter.com/bajorgensen), 
 
 Before you start on this rather long post, [have a go at part #1](http://vninja.net/news/the-curious-case-of-the-intel-microcode/):
 
-![](/img/spectre-text-252x300.png) ![](/img/meltdown-text-154x300.png)
-
-
 
 ##  tl;dr
 
 
-
 This is a long read. To get to the juicy part on how Intel potentially shipped pre-release microcode to partners, skip to section 3. The short, short version is that the official Intel microcode update contains newer microcode for Skylake-SP and Kaby Lake/Coffe Lake than what currently is shipping from VMware/HPE/DellEMC etc.
+<!--more-->
 
+![](/img/spectre-text-252x300.png#floatleft) ![](/img/meltdown-text-154x300.png#floatright)
 
 
 ## Section 1: The good

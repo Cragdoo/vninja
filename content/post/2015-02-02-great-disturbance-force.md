@@ -18,9 +18,14 @@ tags:
 
 So, the cat formerly known as vSphere.next is finally out of it's rather big bag, and vSphere 6.0 has been officially announced and will be available some time in Q1 (no date has been announced yet). There is [enough of posts](http://blogs.vmware.com/vmtn/2015/02/vsphere-6-0-vexpert-blog-articles.html) going into details on what is new and what has been announced, so I won't be going over that right now. If you want to hear me talk about vSphere 6.0 and related news, you can always attend [VMUG Norway on the 19th of february](http://vmug.no/pamelding-vmug-bergen-19-februar/).
 
+<!--more-->
+
+
 I do however have some other comments to make, and perhaps some observations that might have passed below radar altitude in all the announcement hoopla.
 
-https://twitter.com/mcowger/status/562292397875273729
+
+{{< tweet 562292397875273729 >}}
+
 
 Some read this as "VMware is shifting to offering new features on their own cloud services first, then on premises later", I don't. I believe this means a monumental shift on how VMware is handling releases and offering new features. I wouldn't be suprised if vSphere 6, and related products, **is one of the last or even the last monolithic release they do.**
 

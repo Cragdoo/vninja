@@ -23,14 +23,16 @@ When playing around with the [Raspberry Pi Thin Client](http://rpitc.blogspot.co
 
 <blockquote>**You have not chosen to trust "AddTrust External CA Root", the issuer of the server's security certificate.**</blockquote>
 
+<!--more-->
+
 
 Thankfully there is a quick fix for this! Since Iceweasel is also in the RPTC distribution, and it has a lot more SSL root CA certificates included by default, all that was required (in my case) was to link the certificates it has with the certificates the Citrix Receiver client can use.
 
 Issue the following command to create symlinks for the "missing" certificates in the Citrix Receiver keystore:
 
-[cc lang="bash" width="100%" theme="blackboard" nowrap="0"]
+{{< highlight bash >}}
 sudo ln -s /usr/share/ca-certificates/mozilla/* /opt/Citrix/ICAClient/keystore/cacerts/
-[/cc]
+{{< /highlight >}}
 
 supply in the root password, which in RPTC is raspberry by default, and if your CA's root certificate is included with Iceweasel, you should now be able to connect without getting certificate errors.
 

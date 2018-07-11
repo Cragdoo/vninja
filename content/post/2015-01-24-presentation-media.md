@@ -15,6 +15,7 @@ tags:
 - Photos
 - Presentation
 - Sharing
+draft: true
 ---
 
 I've made a few photos available on my [Presentation Media](http://vninja.net/presentation-media/) page. Feel free to use any and all of these images in your presentations, blog posts or wherever you may see fit.

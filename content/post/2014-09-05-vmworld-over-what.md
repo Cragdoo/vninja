@@ -17,6 +17,7 @@ tags:
 Another VMworld US is over, with huge attendee numbers and in keeping with tradition lots of [new announcements](http://www.viktorious.nl/2014/09/01/vmworld-2014-announcements/) were made.  I'm not going to go through them, enough posts have been made about that, the basis of this post is something completely different all together.
 
 There seems to be a general expectation that we as a community is to be wooed by the announcements and flashy keynotes, but are we really the target audience? If you think about it, we probably aren't.
+<!--more-->
 
 While we certainly like to think that we are the center of the universe, there is no factual evidence available to back that up.
 
@@ -26,7 +27,8 @@ We can talk about Software Defined Data Centers, with all its bells and whistles
 
 
 
-<blockquote>Reality
+<blockquote>Reality<br/>
+
 
 The state of things as they actually exist, as opposed to an idealistic or notional idea of them.</blockquote>
 

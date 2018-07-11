@@ -22,16 +22,21 @@ tags:
 
 First of all, I moved my chosen domain name to CloudFlare, and made sure everything resolved ok with static records. Once that was working, I started playing around with the CloudFlare API, using [Cocoa Rest Client](http://mmattozzi.github.io/cocoa-rest-client/). I'm no developer (as is probably very apparent by the script below), nor API wizard of any kind, but it was fairly easy figuring out how to craft a request that lists my DNS zone.
 
+<!--more-->
+
+
 By using the [List DNS Records](https://api.cloudflare.com/#dns-records-for-a-zone-list-dns-records) query, I found the unique ID for the hostnames I wanted to update, and created a new [Update DNS record query](https://api.cloudflare.com/#dns-records-for-a-zone-update-dns-record) to update it with a new IP address. Since the Cocoa Rest Client is pretty clever, it has an option to "Copy Curl Command", that basically gives you a preformatted  curl command to run the query you just crafted in it. Pasting that into a Terminal window on my Mac, verified that it worked as intended. From there on, I simply wrapped these commands in a little bash script, to avoid hitting the API unless there was an actual public IP change.
 
 In the end, my script ended up looking like this.
 
-UPDATE:
+### UPDATE:
 I've published a more fleshed out script on GitHub, [details here](http://vninja.net/homelab/cloudflare-dynamic-dns-update-script-cf-ddns-sh/).
-_NOTE: You will need to fill out your own values for {TOKEN}, {EMAIL}, {DOMAIN}, {ID} and {HOSTNAME} in line 18 and 21 for this to work for you. _
+
+_NOTE_: You will need to fill out your own values for {TOKEN}, {EMAIL}, {DOMAIN}, {ID} and {HOSTNAME} in line 18 and 21 for this to work for you. 
 
 **cloudflare-ddns.sh**
-[cc lang="bash" escaped="true"]
+{{< highlight bash >}}
+
 #!/bin/sh
 
 #get public ip
@@ -56,7 +61,7 @@ curl -k -L -X POST -H 'Content-Type: application/x-www-form-urlencoded' -d 'a=re
 
 echo $MYIP > oldip.txt
 fi
-[/cc]
+{{< /highlight >}}
 
 
 

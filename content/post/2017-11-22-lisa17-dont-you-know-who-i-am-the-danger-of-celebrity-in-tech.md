@@ -15,6 +15,9 @@ This is the first post, in what hopefully will turn into a series of posts, high
 
 **So here is the first one!**
 
+<!--more-->
+
+
 John Nicholson [shared](https://twitter.com/lost_signal/status/933291400996700160) this awesome talk by [Corey Quinn](https://twitter.com/@QuinnyPig) from [LISA17](https://www.usenix.org/conference/lisa17), which should be **mandatory** for anyone attending conferences, or talks in general. Not only does it dive into the culture of asking questions when attending a talk, but also has lots of good information for speakers as well. Trust me, this is ~44 minutes very well spent.
 
 https://www.youtube.com/watch?v=bQU_29Cglyk&feature=youtu.be

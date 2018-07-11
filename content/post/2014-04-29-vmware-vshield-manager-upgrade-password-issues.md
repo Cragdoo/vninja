@@ -19,8 +19,9 @@ tags:
 ---
 
 While upgrading a vShield Manager 5.1.1 install to 5.1.4 at a client, I ran into an issue with logging in after a completed upgrade. The username and password used to log in, and subsequently upload the upgrade file, was no longer working after the upgrade finished and the vShield Manager appliance had been rebooted.
+<!--more-->
 
-![vShieldManagerError](http://vninja.net/wordpress/wp-content/uploads/2014/04/vShieldManagerError.png)
+![vShieldManagerError](/img/vShieldManagerError.png)
 
 It turns out that this was due to using international characters in the password for the _admin_ user, in this case the Norwegian specialities æ, ø or å.
 

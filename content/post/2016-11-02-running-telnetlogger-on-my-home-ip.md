@@ -24,9 +24,11 @@ categories:
 
 For those still unaware of what the Mirai botnet is, it's basically malware that scans for vulnerable devices with port 23 (telnet) open to the outside world, and tries to log on with known hardcoded credentials.
 
-Compromised devices have then been used to launch some of the largest DDoS attacks seen to date. For more details, check out [Breaking Down Mirai: An IoT DDoS Botnet Analysis](https://www.incapsula.com/blog/malware-analysis-mirai-ddos-botnet.html) and [Double-dip Internet-of-Things botnet attack felt across the Internet](http://arstechnica.com/security/2016/10/double-dip-internet-of-things-botnet-attack-felt-across-the-internet/)
 
-[caption id="attachment_4288" align="aligncenter" width="620"]![Photo credit: gratisography.com](http://vninja.net/wordpress/wp-content/uploads/2016/11/330H-1024x683.jpg) Photo credit: [gratisography.com](http://gratisography.com)[/caption]
+
+<!--more-->Compromised devices have then been used to launch some of the largest DDoS attacks seen to date. For more details, check out [Breaking Down Mirai: An IoT DDoS Botnet Analysis](https://www.incapsula.com/blog/malware-analysis-mirai-ddos-botnet.html) and [Double-dip Internet-of-Things botnet attack felt across the Internet](http://arstechnica.com/security/2016/10/double-dip-internet-of-things-botnet-attack-felt-across-the-internet/)
+
+![Photo credit: gratisography.com](http://vninja.net/wordpress/wp-content/uploads/2016/11/330H-1024x683.jpg) Photo credit: [gratisography.com](http://gratisography.com)
 
 Yes, Mirai is **not** your grandmothers botnet.
 
@@ -37,8 +39,6 @@ And guess what, it took all of 1 second before I saw the first connection attemp
 
 
 #### Top connection attempts, sorted by country
-
-
 
 36 TW
 32 VN
@@ -103,6 +103,3 @@ And guess what, it took all of 1 second before I saw the first connection attemp
 I guess it's best to close port 23 again, for good this time.
 
 Hat tip to a former colleague of mine, security afficionado and all around great guy [Per Thorsheim](https://twitter.com/thorsheim) for letting me know about this [tool](https://twitter.com/thorsheim/status/793055315369549824).
-
-#vDM30in30 progress:
-[progressbar_circle percent= 6.66]

@@ -19,6 +19,7 @@ tags:
 ---
 
 For those who don't know, [Royal TSX](https://www.royalapplications.com/ts/mac/features) is an awesome Remote Management solution, which supports RDP, VNC, SSH, S/FTP and even ESXi and vCenter. I've been using it for years, not just because they offer [free licenses for vExperts](https://www.royalapplications.com/ts/nfr/) (and others), but simply because it works really well. Store it's config file on a synchronized file area (like Dropbox), and boom, your config follows you around from machine to machine, including custom icons. What's _not_ to like?
+<!--more-->
 
 Following [Ryan Johnson's tweet](https://twitter.com/tenthirtyam/status/913734554216693765), where he showed off his [VMware Clarity](https://github.com/vmware/clarity/tree/master/src/clarity-icons) inspired [Royal TSX](https://www.royalapplications.com/ts/mac/features) setup, I decided to do something similar. Unlike Ryan, I decided to run with the standard Clarity icons, and not invert them. Since the Clarity icons are in .svg format, I had to convert them to .png to be able to use them as icons in Royal TSX, [I'll post a separate post on how I batch converted them later](http://vninja.net/osx/mass-converting-svg-to-png-on-macos/).
 
@@ -84,5 +85,3 @@ I run OpenVPN at home, and use [Tunnelblick](https://www.tunnelblick.net) as my 
 I guess I really understated the percentage of awesomeness increase by doing this, _it should at least have been <del>84% </del>**92,7%**_.
 
 https://twitter.com/h0bbel/status/918111617698627584
-
-

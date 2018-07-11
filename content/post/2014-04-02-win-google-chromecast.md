@@ -27,7 +27,8 @@ _The winner gets the Chromecast. Entries sent in before April 30th will be judge
 
 If you need tips on how to dress up, have a look at this:
 
-https://www.youtube.com/watch?v=9Pobuw7Wk2k
+{{< youtube 9Pobuw7Wk2k >}}
+
 
 
 
@@ -36,5 +37,3 @@ https://www.youtube.com/watch?v=9Pobuw7Wk2k
 
 
 [gallery ids="3144,3143,3147,3153,3163" orderby="rand"]
-
-

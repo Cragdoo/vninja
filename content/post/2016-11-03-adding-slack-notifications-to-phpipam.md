@@ -15,7 +15,7 @@ categories:
 
 The latest rendition of that, is adding Slack notifications from [phpipam](http://phpipam.net). Once phpipam detects a new device picking up an IP in my network, it notifies me like this:
 
-![screenshot-2016-11-03-22-24-18](http://vninja.net/wordpress/wp-content/uploads/2016/11/Screenshot-2016-11-03-22.24.18-1024x65.png)
+![screenshot-2016-11-03-22-24-18](/img/Screenshot-2016-11-03-22.24.18-1024x65.png)
 
 In order to get this working, I had to edit the _/var/www/phpipam/functions/scripts/discoveryCheck.php_ file in phpipam. _discoveryCheck.php_ is the script that is run when phpipam does local subnet discovery  check, so this was a natural place to add my custom curl command.
 

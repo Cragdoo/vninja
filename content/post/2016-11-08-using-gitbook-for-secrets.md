@@ -15,6 +15,9 @@ tags:
 
 A while ago I decided to try and gather a bunch of non-public information in an easy to write and consume fashion. After a bit of fiddling, and testing different potential solutions, [GitBook](http://gitbook.com/) emerged as the best option. By using [MarkDown](https://daringfireball.net/projects/markdown/) as the markup language, it’s both cross-platform and easy to manage, as the content is nothing but raw text files.
 
+<!--more-->
+
+
 GitBook is awesome, no question about it, but in this case I didn't want the content hosted publicly on [gitbook.com](http://gitbook.com). Thankfully, GitBook is [available for download](https://github.com/GitbookIO/gitbook) as well, so I ended up running that locally on my MacBook. For details on how to run it locally, check out [Setup and Installation of GitBook](https://github.com/GitbookIO/gitbook/blob/master/docs/setup.md).
 
 I then set up a private (free) repository on [Bitbucket](https://bitbucket.org/) to host the content.

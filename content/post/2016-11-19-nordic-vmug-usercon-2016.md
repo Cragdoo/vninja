@@ -16,15 +16,15 @@ tags:
 - VMUG
 ---
 
-![vcpknfzf](http://vninja.net/wordpress/wp-content/uploads/2016/11/vcpknfzf.png)
-
-
 
 ## The 2016 Nordic VMUG UserCon in Copenhagen, Denmark, is just 11 days away, and if you haven't registered already now is the time to do so.
 
 
 
 As usual the speaker lineup for the event is awesome, with a lot of the usual suspects like _Duncan Epping (VMware)_, _Cormac Hogan (VMware)_, _Lee Dilworth (VMware)_, and _Frank Denneman (VMware)_, but VMware is also showing it's commitment to VMUG by sending some non-europeans as well, like _Grant Orchard_ and_ Mike Foley_. This, coupled with "local" speakers like _Michael Ryom_, _Nicolai Sandager_ and _Marteinn Sigurdsson_ this promises to be every bit as awesome as the event was last year.
+
+<!--more-->
+
 
 I was lucky enough to attend last year, and I even had a speaker slot. To be honest, I had submitted (and gotten approval for) a session this year as well, but ultimately I'll be unable to attend due to circumstances out of my control. Sadly there isn't anything I can do about that, as I would have loved to be there again. I'm really bummed out that I won't be able to see_[ Simon Eady's](https://twitter.com/simoneady)_ _Building Self Healing Environments with vRealize Operations Manager_ session!
 

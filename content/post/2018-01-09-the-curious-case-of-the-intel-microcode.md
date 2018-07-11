@@ -19,26 +19,7 @@ tags:
 
 This guest post by [Bjørn Anders Jørgensen](https://twitter.com/bajorgensen), Senior Systems Consultant Basefarm, first appeared on [LinkedIn](https://www.linkedin.com/pulse/curious-case-intel-microcode-bjørn-anders-jørgensen/).
 
-
-
 **Disclaimer: This is a report based on current development as of 7. January, the situation is changing by the hour so read this opinion piece with that in hindsight.**
-
-
-
-![](/img/spectre-text-252x300.png) ![](/img/meltdown-text-154x300.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 Unless you have been living under a rock for the last week you will know by now that there is a universal design flaw in most modern microprocessors, leaving them vulnerable to a serious information disclosure problem that requires updates to all operating systems and processors.
@@ -48,6 +29,11 @@ If you are not familiar with the issue, start here: [Meltdown and Spectre](http
 [Jan Wildeboer](https://plus.google.com/+jwildeboer) also has a comprehensive timeline: [How we got to #Spectre and #Meltdown A Timeline](https://plus.google.com/+jwildeboer/posts/jj6a9JUaovP)
 
 The issue has been known by Intel at least since June, and has been under embargo while everyone has been hammering out code to mitigate the threat and be ready when the embargo was lifted.
+
+<!--more-->
+
+![](/img/spectre-text-252x300.png) ![](/img/meltdown-text-154x300.png)
+
 
 So we have three vulnerabilities, one that requires microcode update:
 
@@ -64,7 +50,7 @@ Disclaimer: [The Register claims ](https://www.theregister.co.uk/2018/01/05/spec
 Intel is as normal very, very quiet regarding microcode updates. They usually come with no or little release notes, and is basically treated like a black box, even though it becomes an integral part, changing critical functions in the CPU. The only content I've found was from an updated [Debian bug report](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=886367):
 
 
-    
+
     New upstream microcodes to partially address CVE-2017-5715
          + Updated Microcodes:
            sig 0x000306c3, pf_mask 0x32, 2017-11-20, rev 0x0023, size 23552
@@ -87,9 +73,9 @@ Intel is as normal very, very quiet regarding microcode updates. They usually co
 Note the use of "partially". We'll get back to that in a minute. Breaking open the package, the changelog says:
 
 
-    
+
     "unofficial bundle with CVE-2017-5715 mitigation"
-    
+
 
 
 
@@ -110,5 +96,3 @@ So we have possibly a partial patch currently and most likely new vulnerabilitie
 For virtual machines there are more steps required for the VM to enable the patch. More on that in a follow up post.
 
 **Note:** We do have some unofficial Intel microcode repositories by [BIOS modders](https://www.win-raid.com/t3355f47-Intel-AMD-amp-VIA-CPU-Microcode-Repositories.html#msg45886) and [enthusiasts](https://vibsdepot.v-front.de/wiki/index.php/Cpu-microcode). While I applaud the effort and work, it really should not be necessary, and while the microcode is signed by Intel, modifying the inner workings of the CPU opens for absolutely undetectable persistent hacks and should only come from an official source.
-
-

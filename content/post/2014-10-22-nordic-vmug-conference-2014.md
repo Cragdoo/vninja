@@ -18,38 +18,37 @@ tags:
 - VMware
 ---
 
-[Last year](http://vninja.net/vmware-2/nordic-vmug-conference-thoughts/) I was lucky enough to get to travel to Copenhagen and visit the Nordic VMUG conference. Sadly it doesn't seem like I'll be able to make it this year, but don't let that stop **you! **While we in Norway are still trying to get our local VMUG up and running, more news on that in a very short while, the danish VMUG is really the driving force and the leading star for the rest of us in the nordics.
+[Last year](/img/nordic-vmug-conference-thoughts/) I was lucky enough to get to travel to Copenhagen and visit the Nordic VMUG conference. Sadly it doesn't seem like I'll be able to make it this year, but don't let that stop **you! **While we in Norway are still trying to get our local VMUG up and running, more news on that in a very short while, the danish VMUG is really the driving force and the leading star for the rest of us in the nordics.
+<!--more-->
 
 Last years conference was awesome, and the 2014 edition looks no different. A quick glance at the [agenda](http://www.vmug.com/p/cm/ld/fid=5244) shows a bunch of familiar names:
-
-
 
 
     
   * _Frank Denneman_, PernixData
 
-    
+
   * _Kamau Wanguhu_, VMware
 
-    
+
   * _Duncan Epping_, VMware
 
-    
+
   * _Raymon Epping_, Nutanix
 
-    
+
   * _Chris Wahl_, Ahead
 
-    
+
   * _Paudie O’Riordan_, VMware
 
-    
+
   * _Cormac Hogan_, VMware
 
-    
+
   * _Shawn Bass,_ VMware
 
-    
+
   * _Hugo Phan_, Atlantis Computing
 
 
@@ -63,7 +62,3 @@ The topics range from NSX, VMware vSphere futures, various storage topics, backu
 
 
 _I can guarantee you that you will not regret it, and I really wish I could join in this year as well.Perhaps next year, and I might even have a speaking slot then, who knows..._
-
-
-
-

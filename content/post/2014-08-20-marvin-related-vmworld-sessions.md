@@ -26,6 +26,7 @@ It's been a while since I tried speculating on the s_oon-to-be-announced_ VMware
 
 If you look at 1767 specifically, since the other sessions are still very light on details, it has a rather interesting description:
 
+<!--more-->
 
 
 <blockquote>One way to simplify the CI environments is via a VMware-powered Converged Infrastructure solution (VMCI) that ties together hardware and software components under a single virtualization umbrella to offer a single point of-entry for a Software Define Data Center (SDDC). We will tie together VMware (and partner) assets spanning virtualization (compute/storage/networking), management (vCenter, VCAC), and operations/analytics (vCOPS, vCAC, etc) with hardware management, to offer a single point of SDDC entry with a tightly integrated automation for SDDC.</blockquote>
