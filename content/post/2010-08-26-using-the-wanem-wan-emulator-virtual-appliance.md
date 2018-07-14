@@ -27,14 +27,14 @@ Setup is pretty straight forward, and I won't get into the detailed instructions
 
 After the WANem Virtual Appliance has been started and setup in your network environment, all you have to do is to route your traffic through it. In my test environment, I decided to route all traffic between my local computer and my vCenter Server through the WANem appliance. Doing so is pretty straight forward; Open up a cmd window, with administrator privileges, on your local computer and use the route command to force traffic through WANem:
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2010/08/WANem-AddRoute-300x125.png)](http://vninja.net/wordpress/wp-content/uploads/2010/08/WANem-AddRoute.png rel=)
+[![](/img/WANem-AddRoute-300x125.png)](/img/WANem-AddRoute.png rel=)
 
 the command itself is:
 **_route add {destination IP} mask 255.255.255.255 {WANem IP}_**
 
 To tune the network properties of the traffic going through WANem, open the WANem admin page in your browser and work some magic. The screenshots below are from the **advanced tab**:
 
-[![WANem Advanced Mode Screenshot #1](http://vninja.net/wordpress/wp-content/uploads/2010/08/WANem-Advanced1-300x220.png)](http://vninja.net/wordpress/wp-content/uploads/2010/08/WANem-Advanced1.png)[![WANem Advanced Mode Screenshot #2](http://vninja.net/wordpress/wp-content/uploads/2010/08/WANem-Advanced2-300x220.png)](http://vninja.net/wordpress/wp-content/uploads/2010/08/WANem-Advanced2.png)
+[![WANem Advanced Mode Screenshot #1](/img/WANem-Advanced1-300x220.png)](/img/WANem-Advanced1.png)[![WANem Advanced Mode Screenshot #2](/img/WANem-Advanced2-300x220.png)](/img/WANem-Advanced2.png)
 
 As a simple test, I decided to add **500ms latency** (delay time) and a **packet loss of 25%**, and as you can see from the video below it works as expected
 

@@ -16,7 +16,7 @@ tags:
 - VMware
 ---
 
-![](/images/logos/vmware-logo.gif)SolarWinds has released a new free vSphere tool called [SolarWinds VM Console](http://www.solarwinds.com/products/freetools/vm_console.aspx). 
+![](/img/logos/vmware-logo.gif)SolarWinds has released a new free vSphere tool called [SolarWinds VM Console](http://www.solarwinds.com/products/freetools/vm_console.aspx). 
 
 
 
@@ -44,6 +44,6 @@ Additional VM Monitoring Features:
 
 
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2010/08/SolarWinds-VM-Console-300x282.png)](http://vninja.net/wordpress/wp-content/uploads/2010/08/SolarWinds-VM-Console.png)
+[![](/img/SolarWinds-VM-Console-300x282.png)](/img/SolarWinds-VM-Console.png)
 
 I'm not sure why you as an admin might want to use this tool instead of the vSphere Client, but in environments where you have delegated control over certain VMs (like a test environment etc.) it might be a useful addition to your tool-belt.

@@ -18,7 +18,7 @@ tags:
 - VMware Workstation
 ---
 
-![](/images/logos/vmware-logo.gif)[Dwayne Lessner](http://twitter.com/dlink7) who runs [IT Blood Pressure](http://www.itbloodpressure.com/), has written a guest post on GestaltIT called [Is My Favourite VSphere Tool Is Going Away?](http://gestaltit.com/all/tech/storage/guest/favourite-vsphere-tool/) 
+![](/img/vmware-logo.gif)[Dwayne Lessner](http://twitter.com/dlink7) who runs [IT Blood Pressure](http://www.itbloodpressure.com/), has written a guest post on GestaltIT called [Is My Favourite VSphere Tool Is Going Away?](http://gestaltit.com/all/tech/storage/guest/favourite-vsphere-tool/) 
 
 In his article, Dwayne talks about vCenter Update Manager 4.1, and the fact that it seems to be the last version of the tools that will allow you to patch your Windows and Linux guests:
 

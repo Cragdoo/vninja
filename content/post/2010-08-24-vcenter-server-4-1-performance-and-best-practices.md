@@ -18,7 +18,7 @@ tags:
 - Whitepaper
 ---
 
-![](/images/logos/vmware-logo.gif)VMware has published a new whitepaper called [VMware vCenter Server Performance and Best Practices](http://www.vmware.com/files/pdf/techpaper/vsp_41_perf_VC_Best_Practices.pdf).
+![](/img/logos/vmware-logo.gif)VMware has published a new whitepaper called [VMware vCenter Server Performance and Best Practices](http://www.vmware.com/files/pdf/techpaper/vsp_41_perf_VC_Best_Practices.pdf).
 
 This is a must read if you manage a vCenter 4.1 installation, or are currently planning your upgrade. 
 
@@ -26,6 +26,6 @@ The whitepaper highlights the performance improvements in the latest version, si
 
 The whitepaper also comes complete with performance graphs comparing the latest release with the 4.0 release, based on real data from several case studies.
 
-[![vCenter Performance Graph](http://vninja.net/wordpress/wp-content/uploads/2010/08/vCenter-Performance-Graph1-300x171.png)](http://vninja.net/wordpress/wp-content/uploads/2010/08/vCenter-Performance-Graph1.png)
+[![vCenter Performance Graph](/img/vCenter-Performance-Graph1-300x171.png)](/img/vCenter-Performance-Graph1.png)
 
 If you only read one whitepaper (this week), let it be this one. You will not regret it, I promise.

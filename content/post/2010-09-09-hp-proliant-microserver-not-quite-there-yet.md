@@ -13,7 +13,7 @@ categories:
 - Virtualization
 ---
 
-![](/images/logos/hp.png)When HP announced their new [ProLiant MicroServer](http://h10010.www1.hp.com/wwpc/us/en/sm/WF05a/15351-15351-4237916-4237918-4237917-4248009.html), I really hoped that it would be the perfect answer to a specific use case I've been looking at lately.
+![](/img/logos/hp.png)When HP announced their new [ProLiant MicroServer](http://h10010.www1.hp.com/wwpc/us/en/sm/WF05a/15351-15351-4237916-4237918-4237917-4248009.html), I really hoped that it would be the perfect answer to a specific use case I've been looking at lately.
 
 Basically, what I'm looking for is a small chassis, low noise branch office server that would be used to host a single virtual machine, offering [Read-Only Domain Controller (RODC)](http://technet.microsoft.com/en-us/library/cc732801%28WS.10%29.aspx) and [Distributed File System (DFS)](http://en.wikipedia.org/wiki/Distributed_File_System_%28Microsoft%29) file-shares.
 
