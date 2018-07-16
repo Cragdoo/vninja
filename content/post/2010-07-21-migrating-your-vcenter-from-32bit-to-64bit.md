@@ -38,9 +38,6 @@ All in all, this tool is a great assistant for all of you that need to migrate t
 #### Related VMware Knowledgebase Articles
 
 
-
-
-
 	
   * [vSphere 4.1 upgrade pre-installation requirements and considerations](http://kb.vmware.com/selfservice/microsites/search.do?cmd=displayKC&docType=kc&externalId=1022137&sliceId=1&docTypeID=DT_KB_1_1&dialogID=90426222&stateId=1%200%2090428570)
 
