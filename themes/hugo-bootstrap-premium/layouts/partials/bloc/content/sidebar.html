@@ -7,6 +7,7 @@
     {{ end }} -->
 
     <div class="section">
+      <h4>Sponsors</h4>
       <div class="ads" id="veeam">
         <ins class='dcmads' style='display:inline-block;width:250px;height:250px' data-dcm-placement='N410401.1772869VNINJA.NET/B10464038.145283149' data-dcm-rendering-mode='iframe' data-dcm-https-only data-dcm-resettable-device-id='' data-dcm-app-id=''> <script src='https://www.googletagservices.com/dcm/dcmads.js'></script> </ins>
       </div>
@@ -23,12 +24,14 @@
 
 
     </div>
-<hr>
+
+    <hr>
     {{ range $key, $value := .Site.Taxonomies }}
       {{ $len := len $value }}
       {{ if (not ( eq $len 0 ) ) }}
       <div class="section">
-        sidebar 2
+
+
       </div>
       {{ end }}
     {{ end }}
