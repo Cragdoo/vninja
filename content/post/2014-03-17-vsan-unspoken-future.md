@@ -52,6 +52,3 @@ That's right, a server is becoming a node and which vendors sticker is in the fr
 <blockquote>The future is already here – it's just not evenly distributed.
 <br/>— William Gibson</blockquote>
 
-
-
-[Header photo credit: [www.LendingMemo.com](www.LendingMemo.com)]

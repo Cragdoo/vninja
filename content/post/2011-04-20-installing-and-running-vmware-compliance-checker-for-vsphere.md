@@ -31,18 +31,18 @@ VMware Compliance Checker for vSphere lets you scan your ESX and ESXi hosts for 
 After downloading the _VMwareComplianceCheckerForvSphere.msi_ installing is done in a matter of seconds, using the all to familiar _click Next to continue_ Windows installation routine. The tool is Windows only at this point.
 
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2011/04/Installing-and-running-VMware-Compliance-Checker-for-vSphere-1-300x234.png)](http://vninja.net/wordpress/wp-content/uploads/2011/04/Installing-and-running-VMware-Compliance-Checker-for-vSphere-1.png)
-[![](http://vninja.net/wordpress/wp-content/uploads/2011/04/Installing-and-running-VMware-Compliance-Checker-for-vSphere-2-300x234.png)](http://vninja.net/wordpress/wp-content/uploads/2011/04/Installing-and-running-VMware-Compliance-Checker-for-vSphere-2.png)
+[![](/img/Installing-and-running-VMware-Compliance-Checker-for-vSphere-1-300x234.png)](/img/Installing-and-running-VMware-Compliance-Checker-for-vSphere-1.png)
+[![](/img/Installing-and-running-VMware-Compliance-Checker-for-vSphere-2-300x234.png)](/img/Installing-and-running-VMware-Compliance-Checker-for-vSphere-2.png)
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2011/04/Installing-and-running-VMware-Compliance-Checker-for-vSphere-3-300x234.png)](http://vninja.net/wordpress/wp-content/uploads/2011/04/Installing-and-running-VMware-Compliance-Checker-for-vSphere-3.png)
+[![](/img/Installing-and-running-VMware-Compliance-Checker-for-vSphere-3-300x234.png)](/img/Installing-and-running-VMware-Compliance-Checker-for-vSphere-3.png)
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2011/04/Installing-and-running-VMware-Compliance-Checker-for-vSphere-4-300x234.png)](http://vninja.net/wordpress/wp-content/uploads/2011/04/Installing-and-running-VMware-Compliance-Checker-for-vSphere-4.png)
+[![](/img/Installing-and-running-VMware-Compliance-Checker-for-vSphere-4-300x234.png)](/img/Installing-and-running-VMware-Compliance-Checker-for-vSphere-4.png)
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2011/04/Installing-and-running-VMware-Compliance-Checker-for-vSphere-5-300x234.png)](http://vninja.net/wordpress/wp-content/uploads/2011/04/Installing-and-running-VMware-Compliance-Checker-for-vSphere-5.png)
+[![](/img/Installing-and-running-VMware-Compliance-Checker-for-vSphere-5-300x234.png)](/img/Installing-and-running-VMware-Compliance-Checker-for-vSphere-5.png)
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2011/04/Installing-and-running-VMware-Compliance-Checker-for-vSphere-6-300x234.png)](http://vninja.net/wordpress/wp-content/uploads/2011/04/Installing-and-running-VMware-Compliance-Checker-for-vSphere-6.png)
+[![](/img/Installing-and-running-VMware-Compliance-Checker-for-vSphere-6-300x234.png)](/img/Installing-and-running-VMware-Compliance-Checker-for-vSphere-6.png)
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2011/04/Installing-and-running-VMware-Compliance-Checker-for-vSphere-7-300x234.png)](http://vninja.net/wordpress/wp-content/uploads/2011/04/Installing-and-running-VMware-Compliance-Checker-for-vSphere-7.png)
+[![](/img/Installing-and-running-VMware-Compliance-Checker-for-vSphere-7-300x234.png)](/img/Installing-and-running-VMware-Compliance-Checker-for-vSphere-7.png)
 
 The tool is Java based, so the client machine you run it on needs to have it installed locally before you can use it.
 
@@ -53,13 +53,13 @@ The tool is Java based, so the client machine you run it on needs to have it ins
 
 Running a compliance scan is very easy. Start up VMware Compliance Checker for vSphere and point it towards either a ESX/ESXi host, or towards your vCenter installation.
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2011/04/Installing-and-running-VMware-Compliance-Checker-for-vSphere-91-300x173.png)](http://vninja.net/wordpress/wp-content/uploads/2011/04/Installing-and-running-VMware-Compliance-Checker-for-vSphere-91.png)
+[![](/img/Installing-and-running-VMware-Compliance-Checker-for-vSphere-91-300x173.png)](/img/Installing-and-running-VMware-Compliance-Checker-for-vSphere-91.png)
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2011/04/Installing-and-running-VMware-Compliance-Checker-for-vSphere-10-300x176.png)](http://vninja.net/wordpress/wp-content/uploads/2011/04/Installing-and-running-VMware-Compliance-Checker-for-vSphere-10.png)
+[![](/img/Installing-and-running-VMware-Compliance-Checker-for-vSphere-10-300x176.png)](/img/Installing-and-running-VMware-Compliance-Checker-for-vSphere-10.png)
 
 The tool runs for a while, and in the end you'll be presented with a nice HTML based report highlighting all your compliance shortcomings!
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2011/04/Installing-and-running-VMware-Compliance-Checker-for-vSphere-11-300x209.png)](http://vninja.net/wordpress/wp-content/uploads/2011/04/Installing-and-running-VMware-Compliance-Checker-for-vSphere-11.png)
+[![](/img/Installing-and-running-VMware-Compliance-Checker-for-vSphere-11-300x209.png)](/img/Installing-and-running-VMware-Compliance-Checker-for-vSphere-11.png)
 
 
 

@@ -26,10 +26,6 @@ The VCSA has gone through a few iterations and versions by now, coinciding with 
 
 ### History
 
-
-
-[table id=14 /]
-
 Since v6.0 scaling has been on par with it's Windows based counterpart, supporting the same number of  hosts and VMs.
 
 When it comes to features, VCSA 6.5 surpasses the Windows version. New tools like the Migration Tool, vCenter High Availability, Backup / Restore and the new Management Interface are all exclusively available on the VCSA.
@@ -43,6 +39,3 @@ The **Backup / Restore** feature is very nice as well. One of the (few) argument
 Also worth noting is that in v6.5, VMware Update Manager has been included in the VCSA, and runs natively on the appliance. The last argument for keeping your Windows vCenter has just disappeared.
 
 **With the upcoming vSphere 6.5 release it's clear that the VCSA should be the default deployment model for a new vCenter. There is really no question about it anymore. [#migrate2vcsa](https://twitter.com/search?q=%23migrate2vcsa&src=typd) you should.**
-
-**#vDM30in30 progress:**
-[progressbar_circle percent= 26.66]

@@ -26,7 +26,7 @@ As usual the speaker lineup for the event is awesome, with a lot of the usual su
 <!--more-->
 
 
-I was lucky enough to attend last year, and I even had a speaker slot. To be honest, I had submitted (and gotten approval for) a session this year as well, but ultimately I'll be unable to attend due to circumstances out of my control. Sadly there isn't anything I can do about that, as I would have loved to be there again. I'm really bummed out that I won't be able to see_[ Simon Eady's](https://twitter.com/simoneady)_ _Building Self Healing Environments with vRealize Operations Manager_ session!
+I was lucky enough to attend last year, and I even had a speaker slot. To be honest, I had submitted (and gotten approval for) a session this year as well, but ultimately I'll be unable to attend due to circumstances out of my control. Sadly there isn't anything I can do about that, as I would have loved to be there again. I'm really bummed out that I won't be able to see [ Simon Eady's](https://twitter.com/simoneady) _Building Self Healing Environments with vRealize Operations Manager_ session!
 
 
 
@@ -36,5 +36,3 @@ I was lucky enough to attend last year, and I even had a speaker slot. To be hon
 
 Again, big kudos to the danish VMUG team who puts this together every year. You're doing an awesome organising this!
 
-#vDM30in30 progress:
-[progressbar_circle percent= 43]

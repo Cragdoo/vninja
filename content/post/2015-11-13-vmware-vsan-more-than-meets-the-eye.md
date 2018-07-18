@@ -23,7 +23,7 @@ Way back in 2014 I wrote a piece called [VSAN – The Unspoken Future](http://v
 
 At the moment, VSAN does storage internally in a vSphere Cluster. If you want to use that storage in other ways, you either have to share it from a VM over the network or use [NexentaConnect for VMware Virtual SAN](https://nexenta.com/products/nexentaconnect/nexentaconnect-vsan).
 
-Yesterday, [VMUG.it ](https://twitter.com/vmugit/status/664759077059371009)shared the following photo from [Duncan Eppings](http://twiitter.com/DuncanYB) "**Goodbye SAN Huggers, Hello Virtual SAN**" session from their VMUG UserCon:
+Yesterday, [VMUG.it](https://twitter.com/vmugit/status/664759077059371009)shared the following photo from [Duncan Eppings](http://twitter.com/DuncanYB) "**Goodbye SAN Huggers, Hello Virtual SAN**" session from their VMUG UserCon:
 
 [![Generic Object Storage Platform](http://vninja.net/wordpress/wp-content/uploads/2015/11/CTmy15VWwAAY8Y9.jpg-large-1024x576.jpeg)](http://vninja.net/wordpress/wp-content/uploads/2015/11/CTmy15VWwAAY8Y9.jpg-large.jpeg)
 

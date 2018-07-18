@@ -16,7 +16,7 @@ tags:
 - VMUG
 ---
 
-![](http://vninja.net/wordpress/wp-content/uploads/2015/02/nmqqcqrf.jpg-300x257.png)My good friends, and fellow VMUGgers, in Denmark is once again arranging the largest VMUG event in the Nordics in January 2018.
+![](/img/nmqqcqrf.jpg-300x257.png)My good friends, and fellow VMUGgers, in Denmark is once again arranging the largest VMUG event in the Nordics in January 2018.
 
 The Nordic VMUG Conference promises to be just as awesome as previous versions, just have a look at this speaker list:
 

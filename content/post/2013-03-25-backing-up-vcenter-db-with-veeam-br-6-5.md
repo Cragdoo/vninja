@@ -25,7 +25,7 @@ It´s a well known problem that with Veeam Backup & Recovery Replication 6.5, an
 
 If you experience this problem, you will see entries like this in your Veeam B&R backup logs:
 
-[caption id="attachment_2490" align="aligncenter" width="640"][![Veeam vCenterDB Backup Error](http://vninja.net/wordpress/wp-content/uploads/2013/03/VeeamvCenterBackup01-1024x214.png)](http://vninja.net/wordpress/wp-content/uploads/2013/03/VeeamvCenterBackup01.png) Veeam vCenterDB Backup Error[/caption]
+[![Veeam vCenterDB Backup Error](/img/VeeamvCenterBackup01-1024x214.png)](/img/VeeamvCenterBackup01.png) Veeam vCenterDB Backup Error
 
 The workaround provided by Veeam is to create host VM-Host Affinity Rules, effectively pinning a VM to a given host, and then perform the VM backup through the host rather than through the vCenter.
 
@@ -45,11 +45,10 @@ That way we could work without having to set VM-host Affinity Rules, yet still k
 
 Doing such a query is pretty easy,  below is an example using PowerCLI:
 
-[cc lang="powershell" width="95%" theme="blackboard" nowrap="0"]
+{{< highlight bash >}}
 Get-VMHost -VM dbserv | fl -Property Name
 Name : esx02
-[/cc]
-
+{{< /highlight >}}
 
 
 **This simple query returns the host that the given VM resides on at the given time, why not do something like this inside of Veeam B&R to make sure that vCenter DB backups work, without having to resort to VM-Host Affinity Rules?**

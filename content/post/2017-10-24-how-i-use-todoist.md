@@ -20,7 +20,7 @@ tags:
 As I've mentioned before, [I use Todoist](http://vninja.net/workflow/todoist-one-year-later/) to keep track of my personal to-do list. This is the first to-do manager I've been able to stick with, and I've been using it daily for well over 2 years now. In that two year period I've reorganised it a bit, but for the most part I've been able to keep to the main structure I initially created when setting it up the first time.
 <!--more-->
 
-[caption id="attachment_4801" align="aligncenter" width="644"][![](/img/glenn-carstens-peters-190592-644x429.jpg)](https://unsplash.com/@glenncarstenspeters) Photo by Glenn Carstens-Peters[/caption]
+[![](/img/glenn-carstens-peters-190592-644x429.jpg)](https://unsplash.com/@glenncarstenspeters) Photo by Glenn Carstens-Peters
 
 
 

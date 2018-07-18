@@ -33,11 +33,11 @@ Before the POST, a RSOD (red screen of death) displayed stating:  **NMI Detecte
 
 and then after I resolved that error, and attempted the vSphere6 install, I received the following:
 
-[![Decompressed-MD5](/img/Decompressed-MD5-300x92.png)](/img//Decompressed-MD5.png)
+[![Decompressed-MD5](/img/Decompressed-MD5-300x92.png)](/img/Decompressed-MD5.png)
 
 When I reviewed the iLO log for the RSOD NMI error, I saw the following recurring messages:
 
-[![iLO-Log](/img//iLO-Log-300x21.png)
+[![iLO-Log](/img/iLO-Log-300x21.png)
 ](/img//iLO-Log.png)
 After many attempts searching the “interwebz” for a resolution to both issues, and having no luck, it was time to ping HP Support. After several correspondences with HP and attempting different configs, below is what was done to finally resolve each issue.
 

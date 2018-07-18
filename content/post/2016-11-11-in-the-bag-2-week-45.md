@@ -17,7 +17,7 @@ tags:
 
 Welcome to the second edition of In The Bag!
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2016/11/11057276504_2acf34be04_o-1024x683.jpg)](https://www.flickr.com/photos/enerva/11057276504/in/photolist-hR6r5m-EjDHYD-s5N5ug-7mupFc-pRGXKb-mCuo8D-2eKBVn-ptTvq4-iTnJ5R-hNhv7r-zQYi8-ouF4WU-67A26z-6HzJgG-vjnrJ-KSnq-dRfFxj-jafws-dMrntt-ot3nPf-dbexc8-aLrQZg-pFyH1e-9mtAak-7F4dJ5-jKQWDs-qqyNm8-jaBCBd-dRHUab-ohXLDB-ejvSsu-eipa91-7UVD3Q-91hfJM-k6TeEL-e9SjCB-gVvTgW-dY8wGK-dGiyJX-64BQjG-aLzCzK-8xHqyd-dVAGmn-fvMTyw-cTGbnu-pXpiSU-j5snjj-rQ5sJ7-9DvemK-g93VKZ) Photo by Sonny Abesamis
+[![](/img/11057276504_2acf34be04_o-1024x683.jpg)](https://www.flickr.com/photos/enerva/11057276504/in/photolist-hR6r5m-EjDHYD-s5N5ug-7mupFc-pRGXKb-mCuo8D-2eKBVn-ptTvq4-iTnJ5R-hNhv7r-zQYi8-ouF4WU-67A26z-6HzJgG-vjnrJ-KSnq-dRfFxj-jafws-dMrntt-ot3nPf-dbexc8-aLrQZg-pFyH1e-9mtAak-7F4dJ5-jKQWDs-qqyNm8-jaBCBd-dRHUab-ohXLDB-ejvSsu-eipa91-7UVD3Q-91hfJM-k6TeEL-e9SjCB-gVvTgW-dY8wGK-dGiyJX-64BQjG-aLzCzK-8xHqyd-dVAGmn-fvMTyw-cTGbnu-pXpiSU-j5snjj-rQ5sJ7-9DvemK-g93VKZ) Photo by Sonny Abesamis
 
 **In The Bag #2 - Week 45**
 
@@ -83,6 +83,3 @@ This is a TV Series by Viceland, each episode goes through an aspect of cyberwar
 
 
 That's it for this week, a new one is in the works for next friday
-
-#vDM30in30 progress:
-[progressbar_circle percent= 30]

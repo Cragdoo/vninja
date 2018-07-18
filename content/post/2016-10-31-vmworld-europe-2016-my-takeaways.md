@@ -73,6 +73,3 @@ I met up with [Ed](https://twitter.com/eczerwin) and [Chris](https://twitter.com
 VMworld 2016 has left me happy. Happy with the direction VMware is going, happy with the event and really happy I wore [**that** shirt](https://twitter.com/atherbeg/status/789482037627523072) for the vRockstar party. As a side note, my FitBit logged _108,427_ steps while I was in Barcelona, not to bad for under a weeks worth of conference.
 
 Now, can someone tell me where VMworld Europe 2017 will be held?
-
-#vDM30in30 progress:
-[progressbar_circle percent= 3.33]

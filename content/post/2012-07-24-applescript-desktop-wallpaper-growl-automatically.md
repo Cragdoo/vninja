@@ -26,7 +26,7 @@ That solution left me with two things; _One, it worked!_ and Two, it could be do
 
 Here is the solution I ended up with:
 
-[cc lang="applescript" tab_size="2"]
+{{< highlight applescriptb >}}
 # Populate ipaddr variable with IP address
 set ipaddr to do shell script "ifconfig | awk '/broadcast/ {print $2}' | tail -1"
 
@@ -72,24 +72,22 @@ register as application "Wallpaper Change" all notifications allNotificationsLis
 notify with name "Wallpaper Change" title "Wallpaper Change" description "Wallpaper changed to " & (situation) application name "Wallpaper Change"
 end tell
 end if
-[/cc]
+{{< /highlight >}}
 
 I know my theme isn´t very suited for code pastes, so the whole applescript source code is also available for [download](https://dl.dropbox.com/u/20629/vninja/Switcher.scpt).
 
 After the script was finished, I added it to my [Geektools](http://projects.tynsoe.org/en/geektool/) bash script, that refreshes at a fairly frequent interval:
 
-[cc lang="bash" tab_size="2"]
+{{< highlight bash >}}
 # Run Background Switcher Applescript
 osascript /Applescript/Switcher.scpt
-[/cc]
+{{< /highlight >}}
 
 Sure, I could have used a crontab instead, but for me the easiest way to get this working quickly was to add it to the existing setup I had in place.
 
 
 
 ### Demo time!
-
-
 
 
 The Applescript detects if the computers IP address is on a given subnet, and if so it sets the wallpaper specified for that subnet, dubbed "Home". If it determines that it is not on that particular subnet, it´s officially at "Work" and sets the wallpaper accordingly. That´s all the logic there is too it, and I´m sure that can be improved either by me or more likely someone who has been hit by the Applescript clue bat.

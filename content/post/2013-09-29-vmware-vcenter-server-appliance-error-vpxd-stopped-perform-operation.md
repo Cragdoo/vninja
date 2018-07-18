@@ -25,17 +25,17 @@ When the appliance is deployed, the first time you log in you get presented with
 
 Well, that´s what I did, and it resulted in the following error when trying to create the embedded database:
 
-[cc lang="bash" width="100%" nowrap="0"]
+{{< highlight bash >}}
 VC_CFG_RESULT=410(Error: VPXD must be stopped to perform this operation.)
-[/cc]
+{{< /highlight >}}
 
 I even tried redeploying the appliance from scratch, but sadly that had the same outcome.
 
 In the end, I was able to complete the configuration by opening an SSH session to the vCenter appliance, and running the following command to stop the vmware-vpxd service mentioned in the error message:
 
-[cc lang="bash" width="100%" theme="blackboard" nowrap="0"]
+{{< highlight bash >}}
 ~ # service vmware-vpxd stop
-[/cc]
+{{< /highlight >}}
 
 After that I could successfully complete the Setup Wizard. Hopefully this will help someone finding themselves in the same conundrum in the future.
 

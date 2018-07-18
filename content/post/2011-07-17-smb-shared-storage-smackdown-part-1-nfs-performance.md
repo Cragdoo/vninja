@@ -77,20 +77,20 @@ First important thing to mention is only the VM generating the load was powered 
 
 _**NFS Max Throughput 100% Read**_
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2011/07/NFS100ReadIOps.jpg)](http://vninja.net/wordpress/wp-content/uploads/2011/07/NFS100ReadIOps.jpg)
+[![](/img/NFS100ReadIOps.jpg)](/img/NFS100ReadIOps.jpg)
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2011/07/NFS100ReadMBps.jpg)](http://vninja.net/wordpress/wp-content/uploads/2011/07/NFS100ReadMBps.jpg)
+[![](/img/NFS100ReadMBps.jpg)](/img/NFS100ReadMBps.jpg)
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2011/07/NFS100ReadART.jpg)](http://vninja.net/wordpress/wp-content/uploads/2011/07/NFS100ReadART.jpg)
+[![](/img/NFS100ReadART.jpg)](/img/NFS100ReadART.jpg)
 
 
 
 _** RealLife-60% random - 65% Read**_
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2011/07/NFS60RandomIOps1.jpg)](http://vninja.net/wordpress/wp-content/uploads/2011/07/NFS60RandomIOps1.jpg)
-[![](http://vninja.net/wordpress/wp-content/uploads/2011/07/NFS60RandMBps.jpg)](http://vninja.net/wordpress/wp-content/uploads/2011/07/NFS60RandMBps.jpg)
+[![](/img/NFS60RandomIOps1.jpg)](/img/NFS60RandomIOps1.jpg)
+[![](/img/NFS60RandMBps.jpg)](/img/NFS60RandMBps.jpg)
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2011/07/NFS60RandART.jpg)](http://vninja.net/wordpress/wp-content/uploads/2011/07/NFS60RandART.jpg)
+[![](/img/NFS60RandART.jpg)](/img/NFS60RandART.jpg)
 
 
 
@@ -98,11 +98,11 @@ _** RealLife-60% random - 65% Read**_
 
 _**Max Throughput-50% Read**_
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2011/07/NFS50ReadIOps.jpg)](http://vninja.net/wordpress/wp-content/uploads/2011/07/NFS50ReadIOps.jpg)
+[![](/img/NFS50ReadIOps.jpg)](/img/NFS50ReadIOps.jpg)
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2011/07/NFS50ReadMBps.jpg)](http://vninja.net/wordpress/wp-content/uploads/2011/07/NFS50ReadMBps.jpg)
+[![](/img/NFS50ReadMBps.jpg)](/img/NFS50ReadMBps.jpg)
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2011/07/NFS50ReadART.jpg)](http://vninja.net/wordpress/wp-content/uploads/2011/07/NFS50ReadART.jpg)
+[![](/img/NFS50ReadART.jpg)](/img/NFS50ReadART.jpg)
 
 
 
@@ -110,11 +110,11 @@ _**Max Throughput-50% Read**_
 
 _**Random-8k 70% Read**_
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2011/07/NFS70RandIOps.jpg)](http://vninja.net/wordpress/wp-content/uploads/2011/07/NFS70RandIOps.jpg)
+[![](/img/NFS70RandIOps.jpg)](/img/NFS70RandIOps.jpg)
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2011/07/NFS70RandMBps.jpg)](http://vninja.net/wordpress/wp-content/uploads/2011/07/NFS70RandMBps.jpg)
+[![](/img/NFS70RandMBps.jpg)](/img/NFS70RandMBps.jpg)
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2011/07/NFS70RandART.jpg)](http://vninja.net/wordpress/wp-content/uploads/2011/07/NFS70RandART.jpg)
+[![](/img/NFS70RandART.jpg)](/img/NFS70RandART.jpg)
 
 
 

@@ -47,7 +47,7 @@ These instructions are pretty much copied from Williams post, but added here for
 ##### Creating the repository configuration file
 
 
-To create the file, in the correct directory, run the followinf command:
+To create the file, in the correct directory, run the followingf command:
 
     
     [vi-admin@vMA /]$ sudo vi /etc/yum.repos.d/centos-base.repo

@@ -19,7 +19,7 @@ tags:
 
 One of the smaller improvements in vSphere 5 was the introduction of the **"Virtual machine disks consolidation is needed"** configuration alert if vSphere determines that there are orphaned snapshots for a given VM.
 
-[![Consolidation Needed Warning](http://vninja.net/wordpress/wp-content/uploads/2013/01/Consolidation.png)](http://vninja.net/wordpress/wp-content/uploads/2013/01/Consolidation.png)
+[![Consolidation Needed Warning](/img/Consolidation.png)](/img/Consolidation.png)
 
 Previous versions does not show this warning message, and datastore usage could potentially skyrocket for no apparent reason if something continues to create snapshots that are not properly cleaned up when they are no longer in use. Unless there is active space monitoring for your datastores, _and there should be_, it could go on unnoticed for some time.
 

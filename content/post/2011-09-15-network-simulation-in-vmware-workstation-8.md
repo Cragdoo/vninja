@@ -31,17 +31,17 @@ Configuring it is very easy, but you need to know where to look to be able to fi
 
 
   * Find your VM, right click it and select settings
-[![](http://vninja.net/wordpress/wp-content/uploads/2011/09/Network-Simulation-in-VMware-Workstation-8-1-150x150.png)](http://vninja.net/wordpress/wp-content/uploads/2011/09/Network-Simulation-in-VMware-Workstation-8-1.png)
+[![](/img/Network-Simulation-in-VMware-Workstation-8-1-150x150.png)](/img/Network-Simulation-in-VMware-Workstation-8-1.png)
 
 
 
   * Select the _Network Adapter_ and click on the "Advanced..." button
-[![](http://vninja.net/wordpress/wp-content/uploads/2011/09/Network-Simulation-in-VMware-Workstation-8-2-150x150.png)](http://vninja.net/wordpress/wp-content/uploads/2011/09/Network-Simulation-in-VMware-Workstation-8-2.png)
+[![](/img/Network-Simulation-in-VMware-Workstation-8-2-150x150.png)](/img/Network-Simulation-in-VMware-Workstation-8-2.png)
 
 
 
   * This brings up the Network Adapter Advanced Settings window, where you can tweak the network settings including inbound/outbound bandwidth and packet loss percentage
-[![](http://vninja.net/wordpress/wp-content/uploads/2011/09/Network-Simulation-in-VMware-Workstation-8-3-150x150.png)](http://vninja.net/wordpress/wp-content/uploads/2011/09/Network-Simulation-in-VMware-Workstation-8-3.png)
+[![](/img/Network-Simulation-in-VMware-Workstation-8-3-150x150.png)](/img/Network-Simulation-in-VMware-Workstation-8-3.png)
 There are a number of predefined settings for bandwidth, making it easy to simulate various scenarios like ISDN, cable, leased T3 and so on. You can even modify the virtual network card MAC address in the same window, if you need to do that.
 
 

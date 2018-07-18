@@ -17,9 +17,9 @@ tags:
 
 I recently set up a VMware Virtual SAN 6.1 Proof-of-Concept for a customer, configuring a 3-node cluster based on the following setup:
 <!--more-->
+![c04411605](/img/c04411605-300x225.png#floatright)
 
-
-### Hardware:![c04411605](/img/c04411605-300x225.png)
+### Hardware:
 
   * HP ProLiant DL380 G9
 

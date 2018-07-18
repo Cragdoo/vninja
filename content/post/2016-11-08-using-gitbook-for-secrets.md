@@ -24,7 +24,7 @@ I then set up a private (free) repository on [Bitbucket](https://bitbucket.org/)
 
 So far this has been a very good experience. Writing content in Markdown is easy and quick, and running this locally makes it easy to check that the edits and additions look like expected in my browser.
 
-[cc lang="bash" escaped="true"]
+{{< highlight bash >}}
 $ gitbook serve dummy
 Live reload server started on port: 35729
 Press CTRL+C to quit ...
@@ -43,15 +43,12 @@ info: >> generation finished with success in 2.8s !
 
 Starting server ...
 Serving book on http://localhost:4000
-[/cc]
+{{< /highlight >}}
 
 This way I can have my browser open http://localhost:4000 on one screen, and edit the content on my second screen while the browser auto refreshes.
 
-[![screenshot-2016-11-09-00-37-02](http://vninja.net/wordpress/wp-content/uploads/2016/11/Screenshot-2016-11-09-00.37.02-1024x645.png)](http://slipsum.com/)
+[![screenshot-2016-11-09-00-37-02](/img/Screenshot-2016-11-09-00.37.02-1024x645.png)](http://slipsum.com/)
 
 Once I've added some content I'm happy with, I push the changes back to the Bitbucket repository with my Git client. Once I'm happy with everything, GitBook makes it easy to create PDF and eBook versions for distribution.
 
 We happy.
-
-**#vDM30in30 progress:**
-[progressbar_circle percent= 23.333]

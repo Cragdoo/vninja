@@ -30,9 +30,10 @@ Simply removing the registration of the old vCenter and replacing it with the ne
 
 Trying to force the registration from the command line on the vCenter Operations Manager UI VM using the following command also failed, with the same error message:
 
-[cc lang="bash" width="95%" theme="blackboard" nowrap="0"]
+{{< highlight bash >}}
 vcops-admin register update --vc-name [vc-name] --vc-server [https://vc-server/sdk] --username [vc-username] --password [vc-password] --force
-[/cc]
+{{< /highlight >}}
+
 
 Naturally the issue is caused by the non-standard "upgrade" performed on the vCenter, but the end result that I no longer had old performance data available anywhere. The vCenter database was no longer available, since no actual upgrade was performed and the old vCenter had been removed from vCenter Operations Manager.
 
@@ -40,9 +41,9 @@ My first thought was to simply delete and re-deploy vCenter Operations Manager, 
 
 After some playing around to try to avoid deploying again over a slow WAN link, I discovered a somewhat undocumented parameter for the _vcops-admin (run on the UI VM command line)_ command.
 
-[cc lang="bash" width="95%" theme="blackboard" nowrap="0"]
+{{< highlight bash >}}
 vcops-admin purge --vc-name
-[/cc]
+{{< /highlight >}}
 
 This parameter is not listed in the man pages for the _vcops-admin_ command, and what it does is to completely purge a previously registered vCenter. And by purge, it really means purge. **All traces of the old vCenter data is removed from the vCenter Operations Manager database, any old performance data and metrics are completely removed.**
 

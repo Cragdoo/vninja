@@ -37,14 +37,14 @@ By reading, and understanding the automated observations generated through the d
 
 
 ### Examples:
-[![](http://vninja.net/wordpress/wp-content/uploads/2012/12/HealthCheck1-300x160.png)](http://vninja.net/wordpress/wp-content/uploads/2012/12/HealthCheck1.png)
+[![](/img/HealthCheck1-300x160.png)](/img/HealthCheck1.png)
 
 
 It´s hard to come up with arguments against the situation in the screenshot, but this is just an example of how detailed the information provided is.
 
 Some observations even come with links to relevant documentation providing more background on why something is recommended:
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2012/12/HealthCheck2-300x146.png)](http://vninja.net/wordpress/wp-content/uploads/2012/12/HealthCheck2.png)
+[![](/img/HealthCheck2-300x146.png)](/img/HealthCheck2.png)
 
 For me, this has been an invaluable resource for learning and understanding why VMware recommends certain practices.
 

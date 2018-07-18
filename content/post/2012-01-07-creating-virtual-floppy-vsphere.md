@@ -30,11 +30,11 @@ The only real difference between doing this in Hyper-V and on ESXi, is that the 
 
 To use the vSphere Client to create a floppy image you can later mount in a VM, you need to edit a VM's settings. Find the floppy drive, if the VM doesn't have one add one, close the window and return to the VM settings once the floppy drive has been added, and select "Create new floppy image in datastore: ".
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2012/01/Create-Virtual-Floppy-2-1-300x267.png)](http://vninja.net/wordpress/wp-content/uploads/2012/01/Create-Virtual-Floppy-2-1.png)
+[![](/img/Create-Virtual-Floppy-2-1-300x267.png)](/img/Create-Virtual-Floppy-2-1.png)
 
 Click on the **Browse** button and browse to your preferred location for the floppy image. Name it, and click on **Ok**.
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2012/01/Create-Virtual-Floppy-2-2-300x210.png)](http://vninja.net/wordpress/wp-content/uploads/2012/01/Create-Virtual-Floppy-2-2.png)
+[![](/img/Create-Virtual-Floppy-2-2-300x210.png)](/img/Create-Virtual-Floppy-2-2.png)
 
 Click on **Ok** again to close the VM settings window and return to the vSphere Client.
 
@@ -42,11 +42,11 @@ There you go, an empty virtual floppy image that you can mount in a VM is now cr
 
 To mount the image, find the floppy drive icon in the vSphere client and select the **Connect to floppy image on a datastore** option.
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2012/01/Create-Virtual-Floppy-2-3-300x200.png)](http://vninja.net/wordpress/wp-content/uploads/2012/01/Create-Virtual-Floppy-2-3.png)
+[![](/img/Create-Virtual-Floppy-2-3-300x200.png)](/img/Create-Virtual-Floppy-2-3.png)
 
 Browse to the location where you created the floppy image, and select it.
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2012/01/Create-Virtual-Floppy-2-4-300x210.png)](http://vninja.net/wordpress/wp-content/uploads/2012/01/Create-Virtual-Floppy-2-4.png)
+[![](/img/Create-Virtual-Floppy-2-4-300x210.png)](/img/Create-Virtual-Floppy-2-4.png)
 
 Now, the VM has an empty floppy that you'll need to format before you can use it.
 
@@ -54,6 +54,6 @@ Follow Olav's guide to [encrypt the boot drive with Bitlocker, without the need 
 
 And yes, it works as you can see here:
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2012/01/Create-Virtual-Floppy-2-5-300x180.png)](http://vninja.net/wordpress/wp-content/uploads/2012/01/Create-Virtual-Floppy-2-5.png)
+[![](/img/Create-Virtual-Floppy-2-5-300x180.png)](/img/Create-Virtual-Floppy-2-5.png)
 
 So much for never needing a floppy disk again. Oh, and by the way, you can of course do this is VMware Workstation 8 as well.

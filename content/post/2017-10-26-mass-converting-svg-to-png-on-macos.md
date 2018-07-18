@@ -32,9 +32,7 @@ HomeBrew, which calls itself **The missing package manager for macOS **is in m
 Once you have HomeBrew installed, you're pretty much ready to go by running the following command in Terminal:
 
 
-
     brew install librsvg
-
 
 
 This installs the [libRSVG](http://formulae.brew.sh/formula/librsvg) formulae, and all it's dependencies, and makes rsvg-convert available.

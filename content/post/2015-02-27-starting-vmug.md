@@ -15,7 +15,7 @@ tags:
 - VMUG
 ---
 
-![VMUG](/img/nmqqcqrf.jpg-300x257.png)Last year, in November, the first ever meeting in [VMUG Norway](http://vmug.no) took place in my hometown of [Bergen](http://en.wikipedia.org/wiki/Bergen), and since then there has been meetings in [Oslo](http://en.wikipedia.org/wiki/Oslo), [Trondheim](http://en.wikipedia.org/wiki/Trondheim) and a second one in Bergen as well.
+![VMUG](/img/nmqqcqrf.jpg-300x257.png#center)Last year, in November, the first ever meeting in [VMUG Norway](http://vmug.no) took place in my hometown of [Bergen](http://en.wikipedia.org/wiki/Bergen), and since then there has been meetings in [Oslo](http://en.wikipedia.org/wiki/Oslo), [Trondheim](http://en.wikipedia.org/wiki/Trondheim) and a second one in Bergen as well.
 
 Getting the Norwegian VMUG up and running was a long process. I decided to have a go at it, and I spent a lot of time talking to people, thinking, planning and generally wondering how we could get it started and how to proceed. Some might say an inordinate amount of time, and they are right. I'm lucky to have talented and passionate people on board with me for this, this is not something I have done on my own. But, someone had to get the ball rolling.
 

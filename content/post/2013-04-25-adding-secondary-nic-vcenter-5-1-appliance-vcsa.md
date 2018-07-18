@@ -44,7 +44,7 @@ In order to rectify this, I performed the following steps:
 
     
   3. Edit _ifcfg-eth1 _and replace the networking information with your values, here is how mine looks:
-[cc lang="bash" width="100%" theme="blackboard" nowrap="0"]
+{{< highlight bash >}}
 DEVICE=eth1
 BOOTPROTO='static'
 STARTMODE='auto'
@@ -53,8 +53,7 @@ USERCONTROL='no'
 IPADDR='172.16.1.52'
 NETMASK='255.255.255.0'
 BROADCAST='172.16.1.255'
-[/cc]
-
+{{< /highlight >}}
     
   4. Create a symlink for this file in /etc/sysconfig/network[cc lang="bash" width="100%" theme="blackboard" nowrap="0"]
 ln -s /etc/sysconfig/networking/devices/ifcfg-eth1 /etc/sysconfig/network/ifcfg-eth1[/cc]
@@ -65,13 +64,13 @@ service network restart[/cc]Check the VCSA web management interface to verify th
 
 
 
-![Client 2013-04-25 10-54-37](http://vninja.net/wordpress/wp-content/uploads/2013/04/Client-2013-04-25-10-54-37-300x200.png)
+![Client 2013-04-25 10-54-37](/img/Client-2013-04-25-10-54-37-300x200.png)
 
 By adding a secondary NIC, configuring it and connecting it to the isolated vSwitch I was now able to add my sequestered nested ESXi hosts to my existing VCSA installation.
 
 
 
-[![Client 2013-04-25 13-07-01](http://vninja.net/wordpress/wp-content/uploads/2013/04/Client-2013-04-25-13-07-01-300x116.png)](http://vninja.net/wordpress/wp-content/uploads/2013/04/Client-2013-04-25-13-07-01.png)
+[![Client 2013-04-25 13-07-01](/img/Client-2013-04-25-13-07-01-300x116.png)](/img/Client-2013-04-25-13-07-01.png)
 
 There may be several reasons for a setup like this, perhaps you want your VCSA to be available on a management VLAN but reach ESXi hosts on another VLAN without having routing in place between the segmented networks, or you just want to play around with it like I am in this lab environment.
 

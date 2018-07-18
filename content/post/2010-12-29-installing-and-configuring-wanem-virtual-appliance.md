@@ -44,37 +44,37 @@ I have chose to use the [WANem Virtual Appliance](http://wanem.sourceforge.net/d
 
 First off, extract the _WANemv2.1.zip_ file, and place the virtual machine files in a know location. My choice is _c:\virtual machines\_ but you will have to adjust that for your specific environment.
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2010/12/WANem-1-300x131.png)](http://vninja.net/wordpress/wp-content/uploads/2010/12/WANem-1.png)
+[![](/img/WANem-1-300x131.png)](/img/WANem-1.png)
 
 Secondly, fire up VMware Workstation and chose the "Open existing VM or Team" option
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2010/12/WANem-2-300x210.png)](http://vninja.net/wordpress/wp-content/uploads/2010/12/WANem-2.png)
+[![](/img/WANem-2-300x210.png)](/img/WANem-2.png)
 
 In the file dialog box browse to where you extracted the virtual machine files and select "Open"
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2010/12/WANem-3-300x210.png)](http://vninja.net/wordpress/wp-content/uploads/2010/12/WANem-3.png)
+[![](/img/WANem-3-300x210.png)](/img/WANem-3.png)
 
 I like to run the WANem VM in bridge mode, since this gives the VM it's own IP address from my DHCP server. This comes in handy later when we setup what traffic we want to route through WANem.
 By default the VM is configured in "Bridge Mode" which is the network mode we want, so go ahead and start the VM by pressing the _"Power on this virtual machine"_ option.
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2010/12/WANem-4-300x137.png)](http://vninja.net/wordpress/wp-content/uploads/2010/12/WANem-4.png)
+[![](/img/WANem-4-300x137.png)](/img/WANem-4.png)
 
 The WANem VM starts to boot up, but it stops asking if you want to configure all network interfaces via DHCP.
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2010/12/WANem-5-300x198.png)](http://vninja.net/wordpress/wp-content/uploads/2010/12/WANem-5.png)
+[![](/img/WANem-5-300x198.png)](/img/WANem-5.png)
 
 As I use DHCP in my network, I don't have to specify any network information so I hit _'y'_ to let it continue booting.
 Once again the boot process stops, this time asking you to specify a root password for the VM. Provide your own password twice, and the boot process is finished. Don't worry about the password strength, or even if you remember it later. The VM boots on a pre-configured Knoppix LiveCD, and the next time you start it it will ask for a new password.
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2010/12/WANem-6-300x180.png)](http://vninja.net/wordpress/wp-content/uploads/2010/12/WANem-6.png)
+[![](/img/WANem-6-300x180.png)](/img/WANem-6.png)
 
 If you don't see the IP address that WANem has received from your DHCP server, type _status_ and hit enter, and it will show you the IP it has been assigned.
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2010/12/WANem-7-300x201.png)](http://vninja.net/wordpress/wp-content/uploads/2010/12/WANem-7.png)
+[![](/img/WANem-7-300x201.png)](/img/WANem-7.png)
 
 Open your favorite browser, and point it to _http://WANemIP/WANem_ (in my case this was http://192.168.5.90/WANem)
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2010/12/WANem-8-300x220.png)](http://vninja.net/wordpress/wp-content/uploads/2010/12/WANem-8.png)
+[![](/img/WANem-8-300x220.png)](/img/WANem-8.png)
 
 And there it is, WANem is up and running. We'll leave it as is for the time being, and start routing traffic through it as is.
 
@@ -94,7 +94,7 @@ Obviously, we need a destination as well. For this lab setup I decided to route 
 
 **_route add 192.168.5.12 mask 255.255.255.255 192.168.5.90_**
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2010/12/WANem-9-300x151.png)](http://vninja.net/wordpress/wp-content/uploads/2010/12/WANem-9.png)
+[![](/img/WANem-9-300x151.png)](/img/WANem-9.png)
 
 Now, all traffic from my local computer to my printer is routed through WANem. For now, nothing much happens. WANem receives the data on it's network card, and promptly sends it on it's merry way to the final destination; my printer. No innocent packets have been mauled or otherwise hurt in the process, at least not so far.
 
@@ -116,21 +116,21 @@ I'm not going to try to print over the link as it is now, we'll have to settle f
 
 Tool of choice the ever faithfull _ping_. Basically I'll demonstrate how WANem fiddles with your network traffic. First off, a just a normal ping of my printer with no edits done by WANem what so ever:
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2010/12/WANem-10-300x151.png)](http://vninja.net/wordpress/wp-content/uploads/2010/12/WANem-10.png)
+[![](/img/WANem-10-300x151.png)](/img/WANem-10.png)
 
 As you can see, as this is on my local network, the response time is great at 1ms and no dropped packets.
 
 Now we can open the WANem web interface, and start messing about. Click on "Advanced Mode" and then on the "Start" button to bring up the web interface.
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2010/12/WANem-12-300x220.png)](http://vninja.net/wordpress/wp-content/uploads/2010/12/WANem-12.png)
+[![](/img/WANem-12-300x220.png)](/img/WANem-12.png)
 
 The next screen brings up a lot of options, and we're going to tweak a couple of them.
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2010/12/WANem-12a-300x220.png)](http://vninja.net/wordpress/wp-content/uploads/2010/12/WANem-12a.png)
+[![](/img/WANem-12a-300x220.png)](/img/WANem-12a.png)
 
 I set the _"Delay Time (ms)"_ to 200ms and the _"Loss %"_ to 25%, and hit _"Apply Settings"_. When we turn back to our cmd window, we should see instant results in our ping monitor.
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2010/12/WANem-12b-300x151.png)](http://vninja.net/wordpress/wp-content/uploads/2010/12/WANem-12b.png)
+[![](/img/WANem-12b-300x151.png)](/img/WANem-12b.png)
 
 As you can see, the response time is now approximately 200ms and the packet loss is about 25%, in accordance with the settings I've applied. Of course, as you can see, there are lots of other settings to play around with as well.
 
@@ -144,7 +144,7 @@ When testing is over, be sure to remove your static route(s) again. If you don't
 
 **_route delete {destination IP}_**
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2010/12/WANem-13-300x151.png)](http://vninja.net/wordpress/wp-content/uploads/2010/12/WANem-13.png)
+[![](/img/WANem-13-300x151.png)](/img/WANem-13.png)
 
 
 #### Conclusion

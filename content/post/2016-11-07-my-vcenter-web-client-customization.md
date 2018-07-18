@@ -21,6 +21,3 @@ William Lam has a repository of [vCenter Web Client customizations](https://gith
 Simple, but kind of fun. Photo credits go to [gratisography.com](http://www.gratisography.com)
 
 I have a couple of other ideas as well, so I might make a few more, but I'll wait until vSphere 6.5 is released in case the formats and paths change again. After all the new VCSA is based on [VMware Photon](https://vmware.github.io/photon/), so things might just moved around a bit.
-
-**#vDM30in30 progress:**
-[progressbar_circle percent= 20]

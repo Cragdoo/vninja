@@ -17,7 +17,7 @@ tags:
 - Windows
 ---
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2011/08/6451b-150x150.jpg)](http://vninja.net/wordpress/wp-content/uploads/2011/08/6451b.jpg)
+[![](/img/6451b-150x150.jpg)](/img/6451b.jpg)
 
 The last couple of days I've been in training class, taking the [6451B Planning, Deploying and Managing Microsoft System Center Configuration Manager 2007](http://www.microsoft.com/learning/en/us/Course.aspx?ID=6451B) course.
 

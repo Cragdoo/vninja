@@ -18,5 +18,5 @@ Some times things just happen, and before you know it you're sitting in your in-
 
 What I'm trying to say here is that yours truly, [Ed Czerwin](http://twitter.com/#!/eczerwin) and [Chris Dearden](http://jfvi.co.uk/) has decided that we want to be rock-stars and start our own little virtualization related podcast.
 
-![](http://vninja.net/wordpress/wp-content/uploads/2011/01/vSoup-Logo1.png)
+![](/img/vSoup-Logo1.png)
 The first episode of vSoup is now available, head on over to [vSoup.net](http://vSoup.net) to check it out, and remember, we are all virgins here. Be gentle.

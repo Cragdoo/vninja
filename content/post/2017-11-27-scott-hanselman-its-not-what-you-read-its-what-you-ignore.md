@@ -19,6 +19,6 @@ This isn't a technical talk, it's originally geared towards developers but Scott
 
 **Enjoy!**
 
-https://www.youtube.com/watch?v=IWPgUn8tL8s
+{{< youtube IWPgUn8tL8s >}}
 
 BTW: Hey, [Scott](http://hanselman.com) did not suck that much.

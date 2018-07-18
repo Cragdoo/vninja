@@ -30,6 +30,6 @@ The developers reasoning for doing this was that it was way to easy to duplicate
 
 Bad call? Very much so, and I have made this very clear to them to no avail. 
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2010/12/108768.strip_-300x93.gif)](http://vninja.net/wordpress/wp-content/uploads/2010/12/108768.strip_.gif)
+[![](/img/108768.strip_-300x93.gif)](/img/108768.strip_.gif)
 
 So, perhaps Dilbert is right? Was virtualization indeed created by pirates? I would rather be a Ninja than a Pirate any day.

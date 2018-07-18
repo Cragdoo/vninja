@@ -29,7 +29,7 @@ As per [Preetam´s](http://vcp5.wordpress.com) [comment](http://vninja.net/vmwar
 
 
 
-![HP BL 460c G8](http://vninja.net/wordpress/wp-content/uploads/2012/10/IMG_3814-2-300x225.jpg)
+![HP BL 460c G8](/img/IMG_3814-2-300x225.jpg)
 
 After installing a couple of brand new **HP ProLiant BL460c G8** blades with **HP Smart Array P220i** controllers at a customer site, I decided that I should upgrade from the [VMware-ESXi-5.0.0-Update1-623860-HP-5.20.43.iso](https://my.vmware.com/web/vmware/details?downloadGroup=HP-ESXI-5.0.0-U1-15MAR2012&productId=229) Build _623860_ used to install the blades, to the latest _821926_ [build offered by VMware](http://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=2032584).
 
@@ -82,7 +82,7 @@ VIBs Installed: [...]
 [/cc]
 
 After installing the update, I then installed the **HP ProLiant Smart Array Controller Driver**
-[cc lang="bash" width="95%" theme="blackboard" nowrap="0"]
+{{< highlight bash >}}
 ~ # esxcli software vib install -v file:/tmp/scsi-hpsa-5.0.0-28OEM.500.0.0.472560.x86_64.vib
 Installation Result
 Message: The update completed successfully, but the system needs to be rebooted for the changes to be effective.
@@ -91,13 +91,13 @@ VIBs Installed: Hewlett-Packard_bootbank_scsi-hpsa_5.0.0-28OEM.500.0.0.472560
 VIBs Removed: VMware_bootbank_scsi-hpsa_5.0.0-17vmw.500.0.0.469512
 VIBs Skipped:
 ~ #
-[/cc]
+{{< /highlight >}}
 
 This reverses the removal of the _Hewlett-Packard_bootbank_scsi-hpsa_5.0.0-28OEM.500.0.0.472560_ VIB by the VMware Update itself.
 
 Another (quick) reboot, and finally my host was upgraded to the correct build and the local datastore was available too.
 
-[cc lang="bash" width="95%" theme="blackboard" nowrap="0"]
+{{< highlight bash >}}
 ~ # cat /proc/driver/hpsa/hpsa0
 hpsa0: HP Smart Array P220i Controller
 Board ID: 0x3355103c
@@ -116,7 +116,7 @@ SCSI host number: 0
 
 hpsa0/C0:B0:T0:L1 Direct-Access LOGICAL VOLUME 3.04 RAID 1(1+0)
 ~ #
-[/cc]
+{{< /highlight >}}
 
 Thankfully these blades had not yet been put into production, and I was free to wrestle with them as much as I wanted to make this work, without it affecting anything other than my troubleshooting genes.
 

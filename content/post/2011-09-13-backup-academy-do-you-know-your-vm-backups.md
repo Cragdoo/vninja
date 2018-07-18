@@ -27,7 +27,7 @@ Even if it is run by Veeam, it does not focus on Veeam specific products or serv
 
 Complete with training videos and even a free certification exam you can take when finishing the very nice videos provided by the [academy professors](http://www.backupacademy.com/professors.html).
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2011/09/snippet_ba_white.png)](http://www.backupacademy.com/)
+[![](/img/snippet_ba_white.png)](http://www.backupacademy.com/)
 
 Head over to the [Backup Academy](http://www.backupacademy.com/) today, even if you are a seasoned virtual administrator. Who knows, you might even learn something!
 

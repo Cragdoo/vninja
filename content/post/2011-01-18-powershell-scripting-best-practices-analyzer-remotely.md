@@ -15,7 +15,7 @@ tags:
 - Remoting
 ---
 
-![](http://vninja.net/wordpress/wp-content/uploads/2011/01/PowerShell.png)[Jan Egil Ring](http://twitter.com/#!/janegilring) over at [blog.powershell.no](http://blog.powershell.no) has created a great PowerShell script that lets you run the [Microsoft Best Practices Analyzer](http://technet.microsoft.com/en-us/library/dd392255%28WS.10%29.aspx) on remote Windows Server 2008 R2 machines. 
+![](/img/PowerShell.png)[Jan Egil Ring](http://twitter.com/#!/janegilring) over at [blog.powershell.no](http://blog.powershell.no) has created a great PowerShell script that lets you run the [Microsoft Best Practices Analyzer](http://technet.microsoft.com/en-us/library/dd392255%28WS.10%29.aspx) on remote Windows Server 2008 R2 machines. 
 
 In short, [Invoke-BPAModeling.ps1](http://blog.powershell.no/2010/08/17/invoke-best-practices-analyzer-on-remote-servers-using-powershell)  queries your Active Directory for any machines that run Windows Server 2008 R2, runs BPA on them (if Windows PowerShell Remoting is enabled) and emails you the report. 
 

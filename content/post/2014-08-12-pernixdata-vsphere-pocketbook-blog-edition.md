@@ -16,7 +16,7 @@ tags:
 - vmworld
 ---
 
-![vSphere Design Book](http://vninja.net/wordpress/wp-content/uploads/2014/08/vSphere_design_book_Front_246px-182x300.png)Following the success of the first vSphere Design Pocketbook, [PernixData ](http://pernixdata.com)has created a new version, this time dubbed _"Blog Edition"_.  Where the first book focused on small "tweet sized" design tips, the new one allows for more in-depth articles, lifting the first editions 200 character limit.
+![vSphere Design Book](/img/vSphere_design_book_Front_246px-182x300.png#floatright)Following the success of the first vSphere Design Pocketbook, [PernixData ](http://pernixdata.com)has created a new version, this time dubbed _"Blog Edition"_.  Where the first book focused on small "tweet sized" design tips, the new one allows for more in-depth articles, lifting the first editions 200 character limit.
 <!--more-->
 
 For some reason, I have been lucky enough to be selected as one of the contributors!

@@ -30,7 +30,7 @@ Cut to Monday night - I flew from Zuerich to Charles De Gaulle in Paris had a fe
 When I arrived in the office I found** 10 seriously charred physical servers**.  Some with cut off melted power plugs and ethernet cables still in them.  I quickly asked them to place stickers on the servers that were priority and explain to me what exactly is the most important application/server to recover first. Again without getting into to much - our backups there were _"no longer available_"
 
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2012/08/Burned-Server-300x225.jpg)](http://vninja.net/wordpress/wp-content/uploads/2012/08/Burned-Server.jpg)
+[![](/img/Burned-Server-300x225.jpg)](/img/Burned-Server.jpg)
 
 
 

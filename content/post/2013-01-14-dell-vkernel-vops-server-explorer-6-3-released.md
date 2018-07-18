@@ -19,14 +19,14 @@ tags:
 - vOPS
 ---
 
-[caption id="attachment_2341" align="alignright" width="300"][![vOPS 6.3 Environment Explorer](http://vninja.net/wordpress/wp-content/uploads/2013/01/environment-explorer-300x216.png)](http://vninja.net/wordpress/wp-content/uploads/2013/01/environment-explorer.png) vOPS 6.3 Environment Explorer[/caption]
+[![vOPS 6.3 Environment Explorer](/img/environment-explorer-300x216.png)](/img/environment-explorer.png) vOPS 6.3 Environment Explorer
 
 Yesterday fellow vExpert [Mattias Sundling](http://twitter.com/msundling) gave me a little pre-release briefing of the new [Dell/VKernel vOPS Server Explorer 6.3 release.](http://www.vkernel.com/products/server-explorer/overview)
 
 While I don´t normally do press release posts like these, I´m willing to make an exception in this case.
 
 Not only is **vOPS Server Explorer 6.3** available in a free version, with the familiar tools from previous versions, the new release also comes armed with a couple of new interesting tools in the suite:
-[![storage-explorer](http://vninja.net/wordpress/wp-content/uploads/2013/01/storage-explorer-150x150.png)](http://vninja.net/wordpress/wp-content/uploads/2013/01/storage-explorer.png)
+[![storage-explorer](/img/storage-explorer-150x150.png)](/img/storage-explorer.png)
 
 
 
@@ -54,7 +54,7 @@ Not only is **vOPS Server Explorer 6.3** available in a free version, with the f
 
 
 	
-  * **Change Explorer[![change-explorer](http://vninja.net/wordpress/wp-content/uploads/2013/01/change-explorer-150x150.png)](http://vninja.net/wordpress/wp-content/uploads/2013/01/change-explorer.png)**
+  * **Change Explorer[![change-explorer](/img/change-explorer-150x150.png)](/img/change-explorer.png)**
 
 	
     * Lists all changes that occurred to datacenters, clusters, resource pools, hosts, datastores and VMs within the last seven days with associated risk impact

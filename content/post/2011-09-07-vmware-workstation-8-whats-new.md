@@ -32,7 +32,7 @@ VMware Workstation 8 brings a lot of new features and enhancements to the table,
 To be able to install VMware Workstation, the host system processor needs to meet the following requirements:
 
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2011/09/VMware-Workstation-8-Whats-New-CPU-Z-1-150x150.png)](http://vninja.net/wordpress/wp-content/uploads/2011/09/VMware-Workstation-8-Whats-New-CPU-Z-1.png)
+[![](/img/VMware-Workstation-8-Whats-New-CPU-Z-1-150x150.png)](/img/VMware-Workstation-8-Whats-New-CPU-Z-1.png)
 
   * 64-bit x86 CPU
 
@@ -71,9 +71,9 @@ For a list of Intel processors that support VT-x check [Intel® Virtualization T
   * **New User Interface**
 The user interface has been updated with new menus, toolbars, and an improved preferences screen.
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2011/09/VMware-Workstation-8-Whats-New-GUI-11-150x150.png)](http://vninja.net/wordpress/wp-content/uploads/2011/09/VMware-Workstation-8-Whats-New-GUI-11.png)
+[![](/img/VMware-Workstation-8-Whats-New-GUI-11-150x150.png)](/img/VMware-Workstation-8-Whats-New-GUI-11.png)
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2011/09/VMware-Workstation-8-Whats-New-GUI-2-150x150.png)](http://vninja.net/wordpress/wp-content/uploads/2011/09/VMware-Workstation-8-Whats-New-GUI-2.png)
+[![](/img/VMware-Workstation-8-Whats-New-GUI-2-150x150.png)](/img/VMware-Workstation-8-Whats-New-GUI-2.png)
 
   
 
@@ -106,14 +106,14 @@ This new features allows you to control who access them from other instances of 
 
 
   * **New default keyboard driver**
-[![](http://vninja.net/wordpress/wp-content/uploads/2011/09/VMware-Workstation-8-Whats-New-Enhanced-Keyboard-Installation-1-150x150.png)](http://vninja.net/wordpress/wp-content/uploads/2011/09/VMware-Workstation-8-Whats-New-Enhanced-Keyboard-Installation-1.png)To limit the number of reboots required during installation/upgrade of VMware Workstation, the Enhanced Keyboard functionality is no longer installed by default. 
+[![](/img/VMware-Workstation-8-Whats-New-Enhanced-Keyboard-Installation-1-150x150.png)](/img/VMware-Workstation-8-Whats-New-Enhanced-Keyboard-Installation-1.png)To limit the number of reboots required during installation/upgrade of VMware Workstation, the Enhanced Keyboard functionality is no longer installed by default. 
 _Note: Upgrading from VMware Workstation 7 to 8 keeps and upgrades the existing driver unless VMware Workstation 7 is uninstalled before installing version 8._
   
 
 
 
   * **Virtual VT-x/EPT or AMD-V/RVI**
-[![](http://vninja.net/wordpress/wp-content/uploads/2011/09/VMware-Workstation-8-Whats-New-VT-x-1-150x150.png)](http://vninja.net/wordpress/wp-content/uploads/2011/09/VMware-Workstation-8-Whats-New-VT-x-1.png)This is a good one, at least for all of us that run lab environments on our desktops or laptops. 
+[![](/img/VMware-Workstation-8-Whats-New-VT-x-1-150x150.png)](/img/VMware-Workstation-8-Whats-New-VT-x-1.png)This is a good one, at least for all of us that run lab environments on our desktops or laptops. 
 This setting enables you to run 64bit guests inside nested hypervisors like VMware vSphere 5. To enable it, edit the vCPU settings for the particular VM.
   
 

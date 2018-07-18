@@ -19,7 +19,7 @@ tags:
 - VMware
 ---
 
-![Beta](http://vninja.net/wordpress/wp-content/uploads/2013/03/beta.png)Duncan Epping rather unceremoniously published a blog post "[New Beta Program offering: VMware Hosted Beta](http://blogs.vmware.com/vsphere/2013/03/new-beta-program-offering-vmware-hosted-beta.html)" yesterday, outlining the availability of the new hosted beta offering that companions some of the current VMware beta programs.
+![Beta](/img/beta.png#floatleft)Duncan Epping rather unceremoniously published a blog post "[New Beta Program offering: VMware Hosted Beta](http://blogs.vmware.com/vsphere/2013/03/new-beta-program-offering-vmware-hosted-beta.html)" yesterday, outlining the availability of the new hosted beta offering that companions some of the current VMware beta programs.
 
 _Due to the very [NDA](http://en.wikipedia.org/wiki/Non-disclosure_agreement) nature of the beta programs, I can´t really go into details on what is currently offered, but what I can say is this: Well done VMware!_
 

@@ -96,22 +96,21 @@ For DHCP and PXE services, we are using [Tftpd32](http://tftpd32.jounin.net/) a 
 
 
 Our very basic kickstart script - _ks.cfg_ - looks like this
-  [cc lang="kixtart" escaped="true" width="95%"]
+{{< highlight powershell >}}
 vmaccepteula
 rootpw password
 autopart --firstdisk --overwritevmfs
 install url http://172.16.200.1/ESXi
 network --bootproto=dhcp --device=vmnic0
 reboot
-[/cc]
+{{< /highlight >}}
 
 Basically this sets the root password, automatically deletes all partitions and sets up a new vmfs, tells the installer that it will find the installation files via http on the server and sets the networking configuration to DHCP. This will of course need tweaking in your environment, but this should at least get you started with building your own. More details on the ks.cfg bootstrap commands can be found in the [ESX and vCenter Server Installation Guide](http://www.vmware.com/pdf/vsphere4/r41/vsp_41_esx_vc_installation_guide.pdf)
 
 
 #### PowerCLI Configuration Script
 
-
-[cc lang="powershell" escaped="true" width="95%" height="700"]
+{{< highlight powershell >}}
 ########################################################
 #
 # Created by Christian Mohn
@@ -283,7 +282,7 @@ Add-VMHostNtpServer -VMHost $hostName -NtpServer "2.vmware.pool.ntp.org"
 # Set VM Start Policy
 $vmstartpolicy = Get-VMStartPolicy -VM MyTestVM
 Set-VMStartPolicy -StartPolicy $vmstartpolicy -StartAction PowerOn
-[/cc]
+{{< /highlight >}}
 
 This PowerCLI script is not 100% finished yet, the networking part remains to be automated to provide correct configuration based on which vessel we are deploying to, but in general it's pretty much good to go.
 

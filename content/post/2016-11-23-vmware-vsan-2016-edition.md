@@ -19,8 +19,8 @@ Both in 2014 and in 2015 I wrote pieces on the current status of VMware vSAN, an
 
 My previous posts:
 
-2014: [VSAN: The Unspoken Future
-](http://vninja.net/virtualization/vsan-unspoken-future/)2015: [VMware VSAN: More than meets the eye.](http://vninja.net/virtualization/vmware-vsan-more-than-meets-the-eye/)
+2014: [VSAN: The Unspoken Future](http://vninja.net/virtualization/vsan-unspoken-future/)
+2015: [VMware VSAN: More than meets the eye.](http://vninja.net/virtualization/vmware-vsan-more-than-meets-the-eye/)
 
 vSAN 6.5 was released with vSphere 6.5, and brings a few new features to the table:
 
@@ -39,19 +39,16 @@ vSAN 6.5 was released with vSphere 6.5, and brings a few new features to the tab
   * **REST APIs and Enhanced PowerCLI support**
 
 
-  * 2-Node Direct Connect
+  * **2-Node Direct Connect**
 
 
     * Witness Traffic Separation for ROBO
 
 
+  * **All-Flash support in the standard license (Deduplication and compression still needs advanced or enterprise)**
 
 
-
-  * All-Flash support in the standard license (Deduplication and compression still needs advanced or enterprise)
-
-
-  * 512e drive support
+  * **512e drive support**
 
 
 
@@ -68,9 +65,3 @@ Being able to use [SBPM](http://blogs.vmware.com/vsphere/2014/09/storage-policy-
 Sure the rest of the items on the list are nice too, the two 2-node Direct Connect feature allows you to connect two nodes without the need for external 10 GbE switches, cutting costs in those scenarios. All-Flash support on all license levels is also nice, but as is the case with [512e](https://en.wikipedia.org/wiki/Advanced_Format#512e) drive support, it's natural progression. With the current price point on flash devices, the vSAN Hybrid model is not going to get used much going forward.
 
 _All in all, the vSAN 6.5 release is a natural evolution of a storage product that's still in it's infancy. That's the beauty of SDS, new features like this can be made available without having to wait for a hardware refresh._
-
-
-
-#### #vDM30in30 progress:
-[progressbar_circle percent= 50]
-  *[SDS]: Software Defined Storage

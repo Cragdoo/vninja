@@ -24,7 +24,7 @@ November 30th I'll be joining [Martin Plesner-Jacobsen](https://twitter.com/mple
 <!--more-->
 
 
-[**![](/img/250x250_webinar-1.png)**](https://go.veeam.com/webinar-integration-vmware-vsan-vsphere-spbm-policies?ccode=blogger_Christian Mohn_q042017)
+[![](/img/250x250_webinar-1.png)](https://go.veeam.com/webinar-integration-vmware-vsan-vsphere-spbm-policies?ccode=blogger_Christian Mohn_q042017)
 
 
 

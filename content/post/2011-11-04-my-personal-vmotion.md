@@ -17,7 +17,7 @@ tags:
 - Work
 ---
 
-Every [![](http://vninja.net/wordpress/wp-content/uploads/2011/11/EDB_ErgoGroup.gif)](http://www.edbergogroup.com/) once in a while an opportunity  presents itself that is just too good to pass up and after 8 years at [Seatrans AS](http://www.seatrans.no)  I've decided to move on and and accept a position as a Senior Consultant in the Infrastructure Consulting division of [EDB ErgoGroup](http://www.edbergogroup.com/). 
+Every [![](/img/EDB_ErgoGroup.gif)](http://www.edbergogroup.com/) once in a while an opportunity  presents itself that is just too good to pass up and after 8 years at [Seatrans AS](http://www.seatrans.no)  I've decided to move on and and accept a position as a Senior Consultant in the Infrastructure Consulting division of [EDB ErgoGroup](http://www.edbergogroup.com/). 
 
 Seatrans has been a fantastic employer, and without the backing and support I've had over the years I would not be in a position where this change would be possible. It was with mixed emotions I handed in my notice, but I'm 100% certain that this is the right move, at the right time, for me personally. 
 

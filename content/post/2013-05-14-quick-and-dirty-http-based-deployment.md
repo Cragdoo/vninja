@@ -25,15 +25,14 @@ A lot of the scripted installation tools that VMware offers allows the usage of 
 
 The trick here is a one line Python command that simply creates a HTTP server listing the files in your current directory over a given port. On my MacBook, I opened Terminal and ran the following command:
 
-[cc lang="bash" width="100%" theme="blackboard" nowrap="0"]
+{{< highlight bash >}}
 python -m SimpleHTTPServer 8000
 Serving HTTP on 0.0.0.0 port 8000 ..
-
-[/cc]
+{{< /highlight >}}
 
 If I then open my browser, and point it to the IP address of my MacBook, I get a directory listing showing the contents of the current directory.
 
-[![Quick and Dirty HTTP Deployment #01](http://vninja.net/wordpress/wp-content/uploads/2013/05/QnDHTTP01-300x196.png)](http://vninja.net/wordpress/wp-content/uploads/2013/05/QnDHTTP01.png)
+[![Quick and Dirty HTTP Deployment #01](/img/QnDHTTP01-300x196.png)](/img/QnDHTTP01.png)
 
 
 
@@ -43,7 +42,7 @@ In this particular case, I wanted to install ovftool inside a running [vMA](http
 
 By running the following command (output edited for verbosity)
 
-[cc lang="bash" width="100%" theme="blackboard" nowrap="0"]
+{{< highlight bash >}}
 vi-admin@record:> wget http://192.168.5.62:8000/VMware-ovftool-3.0.1-801290-lin.x86_64.bundle && sudo sh VMware-ovftool-3.0.1-801290-lin.x86_64.bundle
 100%[======================================>] 36,631,447  1.46M/s   in 23s
 2013-05-14 12:13:06 (1.52 MB/s) - `VMware-ovftool-3.0.1-801290-lin.x86_64.bundle.saved [36631447/36631447]
@@ -58,7 +57,7 @@ Configuring...
 [######################################################################] 100%
 Installation was successful.
 vi-admin@record:/tmp>
-[/cc]_
+{{< /highlight >}}
 
 I was able to download and install ovftool, in one command.
 

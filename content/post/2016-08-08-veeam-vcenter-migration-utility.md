@@ -24,6 +24,6 @@ Naturally, when there is a new vCenter instance, all the Virtual Machine Manage
 <!--more-->
 
 
-**Veeam has now made a tool available that can map old MoRef's to new MoRef's in your backup jobs, in order to keep your incremental chains intact even after replacing your vCenter.  **
+**Veeam has now made a tool available that can map old MoRef's to new MoRef's in your backup jobs, in order to keep your incremental chains intact even after replacing your vCenter.**
 
 Check out [vCenter Migration Utility](https://www.veeam.com/kb2136)!

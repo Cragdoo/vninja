@@ -101,10 +101,10 @@ Clearly there is a good collection of good content here, and as the catalog grad
 ## Sample screenshots:
 
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2012/12/HoL-2-300x167.png)](http://vninja.net/wordpress/wp-content/uploads/2012/12/HoL-2.png)
+[![](/img/HoL-2-300x167.png)](/img/HoL-2.png)
 
 
-###  [![](http://vninja.net/wordpress/wp-content/uploads/2012/12/HoL-1-300x166.png)](http://vninja.net/wordpress/wp-content/uploads/2012/12/HoL-1.png)
+###  [![](/img/HoL-1-300x166.png)](/img/HoL-1.png)
 
 
 

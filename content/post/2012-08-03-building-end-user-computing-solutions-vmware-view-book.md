@@ -21,7 +21,7 @@ tags:
 - VMware View
 ---
 
-![](http://vninja.net/wordpress/wp-content/uploads/2012/08/product_thumbnail.php_.jpeg)[Mike Laverick](http://twitter.com/Mike_Laverick/) and [Barry Coombs](http://twitter.com/VirtualisedReal) has released their new book, elegantly titled "[Building End-User Computing Solutions with VMware View](http://www.lulu.com/shop/mike-laverick-and-barry-coombs/building-end-user-computing-solutions-with-vmware-view/ebook/product-20309411.html)".
+![](/img/product_thumbnail.php_.jpeg)[Mike Laverick](http://twitter.com/Mike_Laverick/) and [Barry Coombs](http://twitter.com/VirtualisedReal) has released their new book, elegantly titled "[Building End-User Computing Solutions with VMware View](http://www.lulu.com/shop/mike-laverick-and-barry-coombs/building-end-user-computing-solutions-with-vmware-view/ebook/product-20309411.html)".
 
 Not only is this a great book, it is something that every existing _and_ potential VMware View (and related technologies in the [EUC](http://www.vmware.com/end-user-computing/euc-platform.html) area) administrator should add to their (digital) bookshelves.
 

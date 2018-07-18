@@ -23,23 +23,23 @@ Now, in my miniscule home lab setting it's somewhat hard to get some real tangib
 
 After installing the SSD drive, and configuring Swap to Host Cache, I created two VMs ingeniously called _hostcacheA_ and _hostcacheB_. Both were configured with 14GB of memory, which should nicely overload my host that has a whopping 8GB of memory in total.
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2011/11/hostcache-300x48.png)](http://vninja.net/wordpress/wp-content/uploads/2011/11/hostcache.png)
+[![](/img/hostcache-300x48.png)](/img/hostcache.png)
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2011/11/1-300x196.png)](http://vninja.net/wordpress/wp-content/uploads/2011/11/1.png)
+[![](/img/1-300x196.png)](/img/1.png)
 
 Now, with memory features like _ballooning_, _transparent page sharing_, and _memory compression_ I needed to make sure that the actual memory was used, and in addition it had to contain different datasets to make sure that the host cache actually kicked in.
 
 To make sure of this, I downloaded the latest ISO version of [Memtest86+](http://www.memtest.org/) and connected it to the empty VMs. 
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2011/11/2-300x267.png)](http://vninja.net/wordpress/wp-content/uploads/2011/11/2.png)
+[![](/img/2-300x267.png)](/img/2.png)
 
 When starting the VMs, they immediately started testing their available memory and sure enough, they started eating into the host cache.
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2011/11/3-300x166.png)](http://vninja.net/wordpress/wp-content/uploads/2011/11/3.png)
+[![](/img/3-300x166.png)](/img/3.png)
 
 As you can see from the screenshot below, the longer the memtest ran the more host cache was utilized. 
 _Bonus points for figuring out when the test VMs were shut down..._
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2011/11/Problem2-300x137.png)](http://vninja.net/wordpress/wp-content/uploads/2011/11/Problem2.png)
+[![](/img/Problem2-300x137.png)](/img/Problem2.png)
 
 So there it is, performance graphs showing that the host cache is indeed kicking in and getting a run for it's money. Since this was a non-scientific experiment, I don't have any real performance counters or metrics to base any sort of conclusion on. All I was after was to see if it came alive, and clearly it did.

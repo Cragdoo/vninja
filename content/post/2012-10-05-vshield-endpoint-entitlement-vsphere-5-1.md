@@ -17,7 +17,7 @@ tags:
 - vSphere
 ---
 
-![](http://vninja.net/wordpress/wp-content/uploads/2011/06/VMware.gif)When VMware vSphere 5.1 and vCloud Networking and Security 5.1 was launched at VMworld US in late August, one of the news items was the change in licensing relating to vShield Endpoint.
+![](/img/VMware.gif)When VMware vSphere 5.1 and vCloud Networking and Security 5.1 was launched at VMworld US in late August, one of the news items was the change in licensing relating to vShield Endpoint.
 
 vShield Endpoint is now included in every vSphere edition, with the exception of the lowest tier vSphere Essentials package.
 

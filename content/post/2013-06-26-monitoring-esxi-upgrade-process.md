@@ -27,25 +27,25 @@ Thankfully the ESXi host provides a running logfile of the upgrade process, whic
 
 The _esxupdate.log_ is located in _/var/log_, and by issuing the following command in a terminal window you can have a rolling log showing you the upgrade status and progress:
 
-[cc lang="bash" width="100%" theme="blackboard" nowrap="0"]
+{{< highlight bash >}}
 ~ # tail -f /var/log/esxupdate.log
-[/cc]
+{{< /highlight >}}
 
 By running the following command in one terminal window (this uses the VMware offline bundle to upgrade from ESXi 5.1 to 5.1 Update 1):
 
-[cc lang="bash" width="100%" theme="blackboard" nowrap="0"]
+{{< highlight bash >}}
 ~ # esxcli software vib update -d /vmfs/volumes/[lunID]/update-from-esxi5.1-5.1_update01.zip
-[/cc]
+{{< /highlight >}}
 
 you get output like this in the secondary terminal window where the log file is being monitored:
 
-[cc lang="bash" width="100%" theme="blackboard" nowrap="0"]
+{{< highlight bash >}}
 2013-06-26T10:24:51Z esxupdate: HostImage: INFO: Attempting to download VIB tools-light
 2013-06-26T10:25:07Z esxupdate: vmware.runcommand: INFO: runcommand called with: args = '/sbin/backup.sh 0 /altbootbank', outfile = 'None', returnoutput = 'True', timeout = '0.0'.
 2013-06-26T10:25:08Z esxupdate: BootBankInstaller.pyc: INFO: boot config of '/altbootbank' is being updated, 5
 2013-06-26T10:25:08Z esxupdate: HostImage: DEBUG: Host is remediated by installer: locker, boot
 2013-06-26T10:25:08Z esxupdate: root: DEBUG: Finished execution of command = vib.install
 2013-06-26T10:25:08Z esxupdate: root: DEBUG: Completed esxcli output, going to exit esxcli-software
-[/cc]
+{{< /highlight >}}
 
 That sure beats waiting "blindly" for an upgrade/installation to finish, and in many ways this is also much better than a non-sensical progressbar.

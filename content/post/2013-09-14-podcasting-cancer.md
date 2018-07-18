@@ -18,7 +18,7 @@ tags:
 
 Some times all it takes is one single tweet to set things in motion:
 
-![](http://vninja.net/wordpress/wp-content/uploads/2013/09/20130913150122-1600-Podcaster_mounted-300x200.png)
+![](/img/20130913150122-1600-Podcaster_mounted-300x200.png)
 
 
 <blockquote>Just a year after losing Dad to cancer, Mom's has now spread from lung to other areas. Too soon for this shit.

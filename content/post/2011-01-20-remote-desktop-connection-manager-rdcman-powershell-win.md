@@ -49,8 +49,8 @@ In short, replace the path in **line 11**, and you should be able to run the scr
 
 This file can then be imported into RDCMan by going to the _Edit_ menu and select _Import Servers_. This brings up  the _Import Servers_ dialog box where you can browse to the file that the PowerShell script created. Click on the _Import Button_ and all your servers should now be listed in RDCMan. The next time you need to update, delete the existing servers, re-run the PowerShell script and import again. 
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2011/01/RDCMan-1.png)](http://vninja.net/wordpress/wp-content/uploads/2011/01/RDCMan-1.png)
-[![](http://vninja.net/wordpress/wp-content/uploads/2011/01/RDCMan-2-300x231.png)](http://vninja.net/wordpress/wp-content/uploads/2011/01/RDCMan-2.png)
+[![](/img/RDCMan-1.png)](/img/RDCMan-1.png)
+[![](/img/RDCMan-2-300x231.png)](/img/RDCMan-2.png)
 
 While this isn't a fully automated solution, and I really wish RDCMan could do this for you by querying AD directly and finding new servers and removing the ones that are no longer present and so on, it is a quick way to get your current servers into RDCMan without manually creating each and every entry.
 

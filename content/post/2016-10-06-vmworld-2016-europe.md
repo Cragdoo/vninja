@@ -23,4 +23,4 @@ As usual I'm looking forward to a bunch of sessions, and general announcements, 
 
 A lot of the people I get to meet while at VMworld are people I interact with often, but seldom meet face to face. For me, that is the true, and perhaps somewhat hidden, value of attending. Tech skills are great, but it's the soft skills that makes you stand out.
 
-** So, come look for me in at the blogger table and say hi! I suspect that's where I'll spend the most of my time.**
+**So, come look for me in at the blogger table and say hi! I suspect that's where I'll spend the most of my time.**

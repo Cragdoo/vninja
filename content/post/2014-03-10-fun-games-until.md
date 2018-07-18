@@ -18,6 +18,6 @@ tags:
 
 Remember, it's all fun and games until someone loses a certification
 
-![VCP-DQ](http://vninja.net/wordpress/wp-content/uploads/2014/03/VCP-DQ.png)
+![VCP-DQ](/img/VCP-DQ.png)
 
 <!--more-->

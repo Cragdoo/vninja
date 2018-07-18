@@ -74,7 +74,7 @@ This downloads the patch bundle, using the wget command, to the current director
 
 Now, to make sure your downloaded patch bundle is available via the web server, open **http://vMA-IP/repo/** and you should see the directory contents listed. Your browser should display something similar to this:
 
-![](http://vninja.net/wordpress/wp-content/uploads/2011/03/vMA-Patch-1-300x117.png)
+![](/img/vMA-Patch-1-300x117.png)
 
 Before patching a host, power off or migrate any virtual machines that are running on the host and place the host into maintenance mode.
 
@@ -117,7 +117,7 @@ Before patching a host, power off or migrate any virtual machines that are runni
 
 While the update runs, you can also follow it's progress in the vSphere Client
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2011/03/vMA-Patch-2-300x247.png)](http://vninja.net/wordpress/wp-content/uploads/2011/03/vMA-Patch-2.png)
+[![](/img/vMA-Patch-2-300x247.png)](/img/vMA-Patch-2.png)
 When the patch has completed, and the host has been rebooted you can run the scan command again to make sure all of the patches are installed and no longer required.
 
 
@@ -140,6 +140,6 @@ Another thing to note, is that when you restart vMA the http service will be sto
 
 This brings up a screen where you can choose which daemons should start at boot time inside of vMA.
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2011/03/vMA-Patch-3-300x198.png)](http://vninja.net/wordpress/wp-content/uploads/2011/03/vMA-Patch-3.png)
+[![](/img/vMA-Patch-3-300x198.png)](/img/vMA-Patch-3.png)
 
 Find _httpd_, select it and hit the OK button. The next time vMA boots, the Apache web server starts with it.

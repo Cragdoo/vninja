@@ -21,7 +21,7 @@ VMware Labs has released a new fling called Makyo ([魔境 _makyō_ means “g
 
 It works by doing an automated OVF export on the source vCenter, and then an import on the destination vCenter.
 
-[![mayko-summary](http://vninja.net/wordpress/wp-content/uploads/2013/02/mayko-summary-300x203.png)](http://vninja.net/wordpress/wp-content/uploads/2013/02/mayko-summary.png)
+[![mayko-summary](/img/mayko-summary-300x203.png)](/img/mayko-summary.png)
 
 
 

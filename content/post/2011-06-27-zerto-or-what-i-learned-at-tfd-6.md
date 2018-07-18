@@ -27,8 +27,7 @@ It works similar to a lot of current enterprise replication products where in th
 
 Zerto boasts application protection policies and built in support for VSS to attain better application consistency on the other side. This would be useful for example with Virtualized Exchange environments and running databases. The feature I really like is RDM replication to VMDK or the other way around.  This would be really useful if you were moving datacenters and wanted to change some things around in your storage configuration during the initial replication stage.  What I also like a lot is the ability to create checkpoints/bookmarks on your replicated VMs from different points in time just in case you had a replication of a corrupted VM or data inconsistency that you needed to go back in time to resolve (This is similar to the Recoverpoint technology).  See the video below for a quick explanation of their product:
 
-[youtube http://www.youtube.com/watch?v=LDXZ3X9DJ-k&w;=450&h;=256]
-
+{{< youtube LDXZ3X9DJ  >}}
 
 Being kind of an old school FC Network guy and a big user of array specific replication products like SRDF and Recover point (the founders of the company actually created the Recover Point Technology and sold it to EMC) I am still very curious to see the speed and resilliency of the replication.  For instance would the built in compression and WAN optimization be enough for a massive 100TB+ environment and how would it handle the initial synchronization?
 

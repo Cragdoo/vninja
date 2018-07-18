@@ -63,14 +63,10 @@ Pre-formatted notes like this makes it easy to fill out detailed information for
 
 The pre-formatted notes looks like this:
 
-[![Evernote 2014-12-03 17-34-14](http://vninja.net/wordpress/wp-content/uploads/2014/12/Evernote-2014-12-03-17-34-14-300x110.png)](http://vninja.net/wordpress/wp-content/uploads/2014/12/Evernote-2014-12-03-17-34-14.png)
-
-
+![Evernote 2014-12-03 17-34-14](/img/Evernote-2014-12-03-17-34-14-300x110.png)
 
 In addition to this, I've created a saved search in Evernote called "_Daily Review (any:any: created:day updated:day)_" that shows me all notes that has been updated the same day, to give me a quick overview. Not quite [GTD](http://en.wikipedia.org/wiki/Getting_Things_Done), but better than total anarchy and disarray.
 
 I also have IFTTT recipes for putting the tweets I favorite into Evernote, so I reference and move the ones I want to inspect further into either @To-Read or @To-Learn.
 
 So far, so good. At least there is some level of organization to my Evernote madness now, and that has to be a good thing.
-
-[Featured Photo](http://wpinject.com/) by [Zeusandhera](http://www.flickr.com/photos/55476234@N00/2112069242) [![](http://vninja.net/wordpress/wp-content/plugins/wp-inject/images/cc.png)](http://creativecommons.org/licenses/by-sa/2.0/)

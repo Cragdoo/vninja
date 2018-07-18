@@ -16,7 +16,7 @@ tags:
 - Presentation
 ---
 
-![](http://vninja.net/wordpress/wp-content/uploads/2011/04/DigitalShip-chm-207x240.jpg)Back in February 2011 I was invited, along with my IT Manager, to do a presentation at [Digital Ship Scandinavia 2011](http://www.thedigitalship.com/conferences/scandinavia/scando_2011.shtml).
+![](/img/DigitalShip-chm-207x240.jpg)Back in February 2011 I was invited, along with my IT Manager, to do a presentation at [Digital Ship Scandinavia 2011](http://www.thedigitalship.com/conferences/scandinavia/scando_2011.shtml).
 
 Digital Ship magazine has now published an article based on what we presented at the live event. As far as I can gather, based on the feedback both at the event and afterwards, the presentation was a success and now the Digital Ship Magazine for April 2011 includes a two page article based on the entire presentation.
 

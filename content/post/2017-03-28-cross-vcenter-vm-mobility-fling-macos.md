@@ -41,20 +41,22 @@ The Fling is listed with the following requirements:
 There is no mention of macOS there, but I decided to give it a go any way, and i**t turns out that it works just fine on macOS as well!
 **Just make sure you have the Java JDK installed locally. When I ran it the first time, I got the following error, since the _JAVA_HOME_ environment variable was not set.
 
-[cc lang="bash"]
+{{< highlight bash >}}
 ~/Downloads/xvc-mobility-cli_1.2$ sh xvc-mobility.sh
 set JAVA_HOME to continue the operation
-[/cc]
+{{< /highlight >}}
+
 
 This is very easy to fix, just run the following command in your terminal of choice, and _xvc-mobility.sh_ should work just fine on your Mac.
 
-[cc lang="bash"]
+{{< highlight bash >}}
 export JAVA_HOME=$(/usr/libexec/java_home)
-[/cc]
+{{< /highlight >}}
+
 
 Next up is running the fling with the correct parameters (this is a clone operation, not a relocate):
 
-[cc lang="bash"]
+{{< highlight bash >}}
 ~/Downloads/xvc-mobility-cli_1.2$ sh xvc-mobility.sh -svc [source-vcenter] -su [source-vcenter-username]
 -dvc [destination-vcenter] -du [destination-vcenter-username]
 -vms [vm-name] -dh [destination-host]
@@ -64,7 +66,8 @@ Next up is running the fling with the correct parameters (this is a clone operat
 13:41:40.597 [main] INFO com.vmware.sdkclient.vim.Task - Monitor task end
 13:41:40.597 [main] INFO com.vmware.sdkclient.vim.Task - CloneVM_Task took : 0:51:33.728
 13:41:40.603 [main] INFO c.v.s.helpers.CrossVcProvHelper - Successfully cloned the vm:[destination-vm-name]
-[/cc]
+{{< /highlight >}}
+
 
 I was able to clone a VM from my lab in Bergen to my lab in Oslo, without any problems what-so-ever. Not only is that a Cross vCenter vMotion, but also a Cross Country one, awesome!
 

@@ -33,24 +33,18 @@ Sadly, that was not the case. It seems there is a bug in the web GUI for VC 3.70
 
 For some reason, the "Fabric Type" dropdown where you should be able to select either "FabricAttach" or "DirectAttach" is greyed out, thus preventing the proper configuration of the SAN Fabric in "DirectAttach" mode. It defaults to "FabricAttach", and in a Direct-Attach scenario that simply does not work. You will not be able to get a FC link and the SFP+ module will be listed as "unsupported".
 
-[![SanFabric-1a](http://vninja.net/wordpress/wp-content/uploads/2013/05/SanFabric-1a-300x157.png)](http://vninja.net/wordpress/wp-content/uploads/2013/05/SanFabric-1a.png)
-
-
-
-
+[![SanFabric-1a](/img/SanFabric-1a-300x157.png)](/img/SanFabric-1a.png)
 
 The solution was to create the SAN Fabric manually by using the Virtual Connect CLI interface. T
 he following commands created the two fabrics required for redundancy (VC module in Bay 1 and in Bay 2)
 
-[cc lang="bash" width="100%" theme="blackboard" nowrap="0"]
+{{< highlight bash >}}
 add fabric Fabric-1-3PAR Bay=1 Ports=1 Type=DirectAttach
 add fabric Fabric-2-3PAR Bay=2 Ports=1 Type=DirectAttach
-[/cc]
+{{< /highlight >}}
 
 As you can see, by using the _add fabric_ command it was possible to define the correct Fabric Type and I could then proceed to add Port 2 from Bay 2 to Fabric-1-3PAR and vice versa to create a fully redundant setup.
 
-[![SanFabric-2](http://vninja.net/wordpress/wp-content/uploads/2013/05/SanFabric-2-300x76.png)](http://vninja.net/wordpress/wp-content/uploads/2013/05/SanFabric-2.png)
-
-Why the VC GUI prevented me from setting the correct fabric type is beyond me, but for some reason it simply did not allow me to change this rather important setting, and prevented the setup from working without using the CLI for configuration.
+[![SanFabric-2](/img/SanFabric-2-300x76.png)](/img/SanFabric-2.png)
 
 

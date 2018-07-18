@@ -24,14 +24,14 @@ Luckily [Paul Valentino](http://twitter.com/sysxperts) from [vCommunity Trust](h
 
 Imagine my surprise today when this little square meter of carton appeared, courtesy of Mr. Valentino:
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2012/09/IMG_3679-300x225.jpg)](http://vninja.net/wordpress/wp-content/uploads/2012/09/IMG_3679.jpg)
+[![](/img/IMG_3679-300x225.jpg)](/img/IMG_3679.jpg)
 
 For some reason I suspected that Paul had not only shipped me a VCP pin and that there might be a couple of other things in the package as well.
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2012/09/IMG_36801-225x300.jpg)](http://vninja.net/wordpress/wp-content/uploads/2012/09/IMG_36801.jpg)
+[![](/img/IMG_36801-225x300.jpg)](/img/IMG_36801.jpg)
 
 Indeed, a VMworld 2012 Backpack filled with various items, like the [VMware vSphere 5.1 Clustering Deepdive](http://www.yellow-bricks.com/2012/08/27/vmware-vsphere-5-1-clustering-deepdive-available-on-amazon-now/) book, the [NetApp Data ONTAP Edge VSA](https://communities.netapp.com/community/products_and_solutions/data-ontap-edge), and a [VMware Workstation 9](https://www.vmware.com/tryvmware/?p=vmware-workstation9) license key amongst other things (stickers, pins and a t-shirt).
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2012/09/IMG_3683-300x225.jpg)](http://vninja.net/wordpress/wp-content/uploads/2012/09/IMG_3683.jpg)
+[![](/img/IMG_3683-300x225.jpg)](/img/IMG_3683.jpg)
 
 Thanks a lot Paul, your VMworld [Marshall Plan](http://en.wikipedia.org/wiki/Marshall_Plan) is very, very much appreciated!

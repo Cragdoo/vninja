@@ -39,7 +39,7 @@ Scan entity
 
 Naturally I go digging into the  _/etc/vmware/esx.conf_ file, and found the following entries:
 
-[{{< highlight bash >}}
+{{< highlight bash >}}
 /nas/[oldserver]/readOnly = "false"
 /nas/[oldserver]/enabled = "true"
 /nas/[oldserver]/host = "[oldserver.fqdn]"

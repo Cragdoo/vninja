@@ -25,33 +25,29 @@ It´s very, very simple, but I think it does the job:
 
 First off, pop into Terminal and get root access:
 
-[cc lang="bash" width="100%" theme="blackboard" nowrap="0"]
+{{< highlight bash >}}
 h0bbel::h0bair { ~ }-> sudo su -
-[/cc]
-
+{{< /highlight >}}
 Then create a small bash script, I named mine _update.sh_, that contains the following:
 
-[cc lang="bash" width="100%" theme="blackboard" nowrap="0"]
+{{< highlight bash >}}
 while true
 do
 softwareupdate -l
 sleep 60
 done
-[/cc]
-
+{{< /highlight >}}
 Change it to be executable by running
-[cc lang="bash" width="100%" theme="blackboard" nowrap="0"]
+{{< highlight bash >}}
 chmod +x update.sh
-[/cc]
-
+{{< /highlight >}}
 Then run the script, to have softwareupdate run over and over again (60 seconds after it completes) until you break it with _ctrl-c_
 
-[cc lang="bash" width="100%" theme="blackboard" nowrap="0"]
+{{< highlight bash >}}
 h0bair:~ root# ./update.sh
 Software Update Tool
 Copyright 2002-2010 Apple
 
 No new software available.
-[/cc]
-
+{{< /highlight >}}
 At least I now get warning once it´s available. **I can has Mavericks nao?**

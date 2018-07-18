@@ -40,18 +40,18 @@ Setting up custom dictionary synchronization between several computers is pretty
   4. Configure Microsoft Word 2010 to use the Dropbox syncronized file by going to **File -> Options - Proofing** and clicking on the "**Custom Dictionaries...**" button.
   
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2011/03/Custom-Dictionaries-across-Computers01-300x244.png)](http://vninja.net/wordpress/wp-content/uploads/2011/03/Custom-Dictionaries-across-Computers01.png)
+[![](/img/Custom-Dictionaries-across-Computers01-300x244.png)](/img/Custom-Dictionaries-across-Computers01.png)
 This brings up a new window where you can change your custom dictionary file location. Click on "**Add**"
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2011/03/Custom-Dictionaries-across-Computers02-300x124.png)](http://vninja.net/wordpress/wp-content/uploads/2011/03/Custom-Dictionaries-across-Computers02.png)
+[![](/img/Custom-Dictionaries-across-Computers02-300x124.png)](/img/Custom-Dictionaries-across-Computers02.png)
 
 Browse to your Dropbox located custom.dic file and add it.
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2011/03/Custom-Dictionaries-across-Computers03-300x208.png)](http://vninja.net/wordpress/wp-content/uploads/2011/03/Custom-Dictionaries-across-Computers03.png)
+[![](/img/Custom-Dictionaries-across-Computers03-300x208.png)](/img/Custom-Dictionaries-across-Computers03.png)
 
 Now you have two custom dictionaries selected. I normally opt for using just one to make sure I get all my additions synchronized. Do your changes, and click on "**Ok**"
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2011/03/Custom-Dictionaries-across-Computers04-300x124.png)](http://vninja.net/wordpress/wp-content/uploads/2011/03/Custom-Dictionaries-across-Computers04.png)
+[![](/img/Custom-Dictionaries-across-Computers04-300x124.png)](/img/Custom-Dictionaries-across-Computers04.png)
 
 
   5. Repeat _step 4_ the different computers you use, and the custom dictionary will automatically sync between them. Of course, this requires that you have Dropbox installed as well.

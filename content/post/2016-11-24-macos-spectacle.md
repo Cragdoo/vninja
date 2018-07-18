@@ -25,7 +25,3 @@ Spectacle has everything I need, especially [keyboard shortcuts](https://github
 
 [Spectacle](https://www.spectacleapp.com) is free and comes highly recommended, give it a try!
 
-
-
-#### #vDM30in30 progress:
-[progressbar_circle percent= 60]

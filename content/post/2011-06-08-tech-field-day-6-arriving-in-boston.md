@@ -23,7 +23,7 @@ The travel itself was pretty uneventful, the only trouble I had was that when I 
 
 The flight from Schipol to Logan was incredibly boring though.Normally I have no problems sleeping while flying, but this time around I got the grand total of zero minutes of sleep on the entire trip. Add in the 6 hour time difference, and you've got one tired traveling vNinja on your hands.
 
-![](http://vninja.net/wordpress/wp-content/uploads/2011/06/316569365.jpg)Stephen and I met up with Chris Wells at the hotel, and went out searching for dinner. Stephen, who seems to know everything there is to know, and then some, about Boston and the surrounding areas, guided us to a local Indian restaurant where we got some great [Thali](http://en.wikipedia.org/wiki/Thali). 
+![](/img/316569365.jpg)Stephen and I met up with Chris Wells at the hotel, and went out searching for dinner. Stephen, who seems to know everything there is to know, and then some, about Boston and the surrounding areas, guided us to a local Indian restaurant where we got some great [Thali](http://en.wikipedia.org/wiki/Thali). 
 
 After that we ended up at the [Horseshoe Pub & Restaurant](http://www.horseshoepub.com/) for some vTFDbeers! How many beers do they have on tap? Who knows, all I know is that it's [a lot!](http://www.horseshoepub.com/beer_list.html). I haven't seen that many beer taps since I was at The Gingerbreadman in New York many moons ago.
 

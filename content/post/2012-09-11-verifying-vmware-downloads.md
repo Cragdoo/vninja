@@ -27,21 +27,25 @@ Checking the **MD5** or **SHA1** hash for a single file is easy, at least in OS 
 
 Open up _Terminal_ and navigate to your download directory and run either the _md5_ command, or the _shasum_ command to verify the file signature. You can then compare the signature to the checksums provided by VMware on the download page.
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2012/09/VerifyingDownloads-1-300x131.png)](http://vninja.net/wordpress/wp-content/uploads/2012/09/VerifyingDownloads-1.png)  [![](http://vninja.net/wordpress/wp-content/uploads/2012/09/VerifyingDownloads-21-300x57.png)](http://vninja.net/wordpress/wp-content/uploads/2012/09/VerifyingDownloads-21.png)
+[![](/img/VerifyingDownloads-1-300x131.png)](/img/VerifyingDownloads-1.png)  [![](/img/VerifyingDownloads-21-300x57.png)](/img/VerifyingDownloads-21.png)
 
 For a single file, this is not a problem, but what if you have downloaded a bunch of files into a directory and want to calculate the checksums for all of them in one go?
 
 Thankfully this is pretty simple as well, just add a little Terminal (It´s really bash, I know) magic and you´re all set:
 
 **MD5:**
-[cci lang="bash"]find . -type f -exec md5 '{}' \;[/cci]
+{{< highlight bash >}}
+find . -type f -exec md5 '{}' \;
+{{< /highlight >}}
 
 **SHA1:**
-[cci lang="bash"]find . -type f -exec shasum '{}' \;[/cci]
+{{< highlight bash >}}
+find . -type f -exec shasum '{}' \;
+{{< /highlight >}}
 
 These small bash one-liners will go through all the files in the current directory, and calculate checksums for each of them.
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2012/09/VerifyingDownloads-3-300x131.png)](http://vninja.net/wordpress/wp-content/uploads/2012/09/VerifyingDownloads-3.png)
+[![](/img/VerifyingDownloads-3-300x131.png)](/img/VerifyingDownloads-3.png)
 
 _There are tools available for Windows as well that perform the same operations, but I haven´t looked into those for this post._
 
@@ -55,7 +59,7 @@ _There are tools available for Windows as well that perform the same operations,
 
 As far as I can tell, VMware does not offer a single page that lists all of the checksums for their files, something that makes finding the checksums a bit tedious. I´ve found that the best way to find then, after you have downloaded the files, is to check the [My VMware Downloads History](https://my.vmware.com/group/vmware/my-downloads), page since it shows you all the downloads you have performed on one page, instead of going through multiple pages. Find the "_Show Checksums_" link to show the checksums, without having to open the download page for each item.
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2012/09/VerifyingDownloads-4-300x156.png)](http://vninja.net/wordpress/wp-content/uploads/2012/09/VerifyingDownloads-4.png)  [![](http://vninja.net/wordpress/wp-content/uploads/2012/09/VerifyingDownloads-5-300x176.png)](http://vninja.net/wordpress/wp-content/uploads/2012/09/VerifyingDownloads-5.png)
+[![](/img/VerifyingDownloads-4-300x156.png)](/img/VerifyingDownloads-4.png)  [![](/img/VerifyingDownloads-5-300x176.png)](/img/VerifyingDownloads-5.png)
 
 
 ### Wishlist
@@ -66,7 +70,10 @@ I´m sure some scripting Wizkid could easily create a script that runs the check
 If we could do a simple HTML request to a service that returns the checksum for a given file, that would easily be scriptable and comparisons could be performed automatically.
 
 That way, doing a request like this (yes, this is indeed a fake non-working URL):
-[cci lang="bash"]curl vmware.com/integrity/md5/vCO_VA-5.1.0.0-817595_OVF10.cert[/cci]
+{{< highlight bash >}}
+curl vmware.com/integrity/md5/vCO_VA-5.1.0.0-817595_OVF10.cert
+{{< /highlight >}}
+
 
 would return a simple
 

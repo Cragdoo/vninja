@@ -56,9 +56,3 @@ As usual at events, I spent most my time networking and talking to people, and I
 I have to say that _I am very impressed_ by what the Danish VMUG leadership has been able to pull off here, it is no small task arranging an event of this magnitude, especially when you do it on your spare time. I am honoured to have been invited as a guest, and it serves as a real inspiration now that **we are really trying to get the Norwegian VMUG active with our first meeting in Bergen in March 2014.** Hopefully things are in motion, and we will have meetings in Oslo and in Trondheim as well.
 
 There is absolutely no way we are aiming as high as VMUGDK, at least not initially, but one thing is certain; _If you don't know where you are going, any road will get you there._
-
-
-
-Random photos from the event:
-
-[gallery ids="2900,2901,2902,2903,2904,2905,2906,2907,2913"]

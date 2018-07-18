@@ -24,15 +24,12 @@ The closest description I have found to describe what my new role is this:
 
 
 <blockquote> Leads in the development of the technical solution or offering, in translating the business needs into technical requirements. Identifies gaps, strategic impacts, financial impacts and the risk profile in the technical solution or offering, and provides technical support.
-
-[
--- Joe McKendrick / Forbes](http://www.forbes.com/sites/joemckendrick/2013/01/28/5-skills-that-should-be-part-of-every-cloud-job-description/)</blockquote>
-
-
+</blockquote>
+[Joe McKendrick / Forbes](http://www.forbes.com/sites/joemckendrick/2013/01/28/5-skills-that-should-be-part-of-every-cloud-job-description/)
 
 Or, as [Mrs. Josh Atwell](https://twitter.com/josh_atwell/status/640206974236393474) would say:
 
-![](https://pbs.twimg.com/media/COJ42WaWcAAl8mD.jpg)
+![](https://pbs.twimg.com/media/COJ42WaWcAAl8mD.jpg#floatright)
 
 This change comes with the realization that for most SMB customers, moving IT-services to cloud based solutions makes a lot of sense. No, this doesn't mean I'm abandoning virtualization. I still have a passion for running efficient data centers, but only when it makes sense to do so - _and often it does not_ - but when it does, I sure want to be there and help build it.
 

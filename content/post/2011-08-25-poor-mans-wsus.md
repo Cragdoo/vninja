@@ -23,7 +23,7 @@ Thankfully his is where [WSUS Offline Update](http://www.wsusoffline.net/) comes
 
 In essence WSUS Offline Update lets you specify which operating systems and what versions of Office (and languages) you want to have patches available for in it's repository. Run _..\wsusoffline\UpdateGenerator.exe_ to select versions and download them.
 
-[![Poor Mans WSUS Screenshot](http://vninja.net/wordpress/wp-content/uploads/2011/08/PoorMansWsus02-150x150.png)](http://vninja.net/wordpress/wp-content/uploads/2011/08/PoorMansWsus02.png)[![Poor Mans WSUS Screenshot](http://vninja.net/wordpress/wp-content/uploads/2011/08/PoorMansWsus03-150x150.png)](http://vninja.net/wordpress/wp-content/uploads/2011/08/PoorMansWsus03.png)
+[![Poor Mans WSUS Screenshot](/img/PoorMansWsus02-150x150.png)](/img/PoorMansWsus02.png)[![Poor Mans WSUS Screenshot](/img/PoorMansWsus03-150x150.png)](/img/PoorMansWsus03.png)
 
 
 
@@ -37,7 +37,7 @@ In essence WSUS Offline Update lets you specify which operating systems and what
 
 It then proceeds to connect to Microsoft and download all applicable patches, and service packs if you want it to, figuring out the dependencies and supersedes along the way.
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2011/08/PoorMansWsus05-150x150.png)](http://vninja.net/wordpress/wp-content/uploads/2011/08/PoorMansWsus05.png)
+[![](/img/PoorMansWsus05-150x150.png)](/img/PoorMansWsus05.png)
 
 
 

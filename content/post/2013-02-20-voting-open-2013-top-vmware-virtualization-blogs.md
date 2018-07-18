@@ -22,7 +22,7 @@ Huge kudos to Eric, I know this is a big undertaking for you, and myself and the
 
 
 
-[![vote-button-300x298](http://vninja.net/wordpress/wp-content/uploads/2013/02/vote-button-300x298.jpg)](http://www.surveygizmo.com/s3/1165270/Top-vBlog-2013)
+[![vote-button-300x298](/img/vote-button-300x298.jpg)](http://www.surveygizmo.com/s3/1165270/Top-vBlog-2013)
 
 
 

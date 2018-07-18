@@ -29,7 +29,7 @@ Following [Ryan Johnson's tweet](https://twitter.com/tenthirtyam/status/9137345
 
 
 
-[caption id="attachment_4760" align="alignnone" width="186"][![](/img/Screenshot-2017-10-11-23.16.25-186x300.png)](/img/Screenshot-2017-10-11-23.16.25.png) Royal TSX with Clarity icons[/caption]
+[![](/img/Screenshot-2017-10-11-23.16.25-186x300.png)](/img/Screenshot-2017-10-11-23.16.25.png) Royal TSX with Clarity icons
 
 Changing the icons for entries is pretty straight forward. For existing entries in your config file, simply open the items **properties** and click on the small icon besides the Display Name. This brings up a dialog showing the built-in icons, but also reveals an option to browse your filesystem for a new icon to use.
 
@@ -84,4 +84,4 @@ I run OpenVPN at home, and use [Tunnelblick](https://www.tunnelblick.net) as my 
 
 I guess I really understated the percentage of awesomeness increase by doing this, _it should at least have been <del>84% </del>**92,7%**_.
 
-https://twitter.com/h0bbel/status/918111617698627584
+{{< tweet 918111617698627584 >}}

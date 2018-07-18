@@ -22,9 +22,7 @@ Simply put, this little gem let's you hide any or all menu bar icons in macOS, w
 **After hiding with Vanilla:![](/img/Screenshot-2017-11-24-13.26.30-644x48.png)**
 
 
-
 **Expanded view:**![](/img/Screenshot-2017-11-24-13.27.14-644x48.png)
-
 
 
 I for one like getting rid of the unnecessary clutter!

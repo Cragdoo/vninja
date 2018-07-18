@@ -18,7 +18,7 @@ tags:
 - VMware
 ---
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2012/02/photo-150x150.jpg)](http://vninja.net/wordpress/wp-content/uploads/2012/02/photo.jpg)Now there is an ambitious post title if there ever was one, but it seems fitting as the next 12 months promises to be my most ambitious professional year to date.
+[![](/img/photo-150x150.jpg)](/img/photo.jpg)Now there is an ambitious post title if there ever was one, but it seems fitting as the next 12 months promises to be my most ambitious professional year to date.
 
 Like [Neil](http://en.wikipedia.org/wiki/Neil_Armstrong), I´ve started a journey that could either crash and burn, or end up with my very own personal moon landing.
 

@@ -18,7 +18,7 @@ tags:
 - Whitepaper
 ---
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2011/06/veeam_logo.jpg)](http://vninja.net/wordpress/wp-content/uploads/2011/06/veeam_logo.jpg)Now there is a catchy title if I ever saw one. Only "problem" is that it's a whitepaper that I have written for [Veeam](http://www.veeam.com/). In reality this is the first published article I have ever written, that I didn't publish on my own. I'm excited about it, yet strangely nervous about how it will be received by the people who download it. If you happen to do so, make sure to let me know how you found it, all comments and criticism will be most appreciated.
+[![](/img/veeam_logo.jpg)](/img/veeam_logo.jpg)Now there is a catchy title if I ever saw one. Only "problem" is that it's a whitepaper that I have written for [Veeam](http://www.veeam.com/). In reality this is the first published article I have ever written, that I didn't publish on my own. I'm excited about it, yet strangely nervous about how it will be received by the people who download it. If you happen to do so, make sure to let me know how you found it, all comments and criticism will be most appreciated.
 
 
 

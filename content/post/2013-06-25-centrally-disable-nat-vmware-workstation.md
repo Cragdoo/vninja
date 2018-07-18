@@ -30,7 +30,7 @@ So far, so good. The problem in this particular case was that due to security po
 <blockquote>Network address translation (NAT) configures your virtual machine to share the IP and MAC addresses of the host. The virtual machine and the host share a single network identity that is not visible outside the network. NAT can be useful when you are allowed a single IP address or MAC address by your network administrator. You might also use NAT to configure separate virtual machines for handling http and ftp requests, with both virtual machines running off the same IP address or domain. See Network Address Translation (NAT).</blockquote>
 
 
-[caption id="attachment_2602" align="aligncenter" width="300"][![VMware Workstation NAT Configuration ](http://vninja.net/wordpress/wp-content/uploads/2013/06/GUID-4C1FE8E1-9C52-4A43-9C36-97AEC38C737B-high-1-300x125.png)](http://pubs.vmware.com/workstation-9/index.jsp#com.vmware.ws.using.doc/GUID-89311E3D-CCA9-4ECC-AF5C-C52BE6A89A95.html) VMware Workstation NAT Configuration[/caption]
+[![VMware Workstation NAT Configuration ](/img/GUID-4C1FE8E1-9C52-4A43-9C36-97AEC38C737B-high-1-300x125.png)](http://pubs.vmware.com/workstation-9/index.jsp#com.vmware.ws.using.doc/GUID-89311E3D-CCA9-4ECC-AF5C-C52BE6A89A95.html) VMware Workstation NAT Configuration[/caption]
 
 Since the VM shares the host MAC address and IP, blocking network access from the VM is not trivial in this scenario.
 
@@ -40,13 +40,12 @@ Bridged Mode makes it easier for network admins to manipulate access, since the 
 
 Running around disabling the "_VMware NAT Service_" on all clients that run VMware Workstation is no fun job, so naturally we need to find a way to automate this as well.
 
-**Enter Group Policy Preferences!
-**
+**Enter Group Policy Preferences!**
 
 
 
 	
-  1. On a computer that has VMware Workstation installed, run the Group Policy Management Console and create a new GPO.[![Group Policy Management Console](http://vninja.net/wordpress/wp-content/uploads/2013/06/1-300x277.png)](http://vninja.net/wordpress/wp-content/uploads/2013/06/1.png)
+  1. On a computer that has VMware Workstation installed, run the Group Policy Management Console and create a new GPO.[![Group Policy Management Console](/img/1-300x277.png)](/img/1.png)
 
 	
   2. In Computer Configuration > Preferences > Control Panel Settings select Services
@@ -55,7 +54,7 @@ Running around disabling the "_VMware NAT Service_" on all clients that run VMw
   3. In the menu click on Action > New > Service and and click on  “…” next to the Service Name field
 
 	
-  4. Select the "VMware NAT Service"and click “Select”[![Services](http://vninja.net/wordpress/wp-content/uploads/2013/06/5-300x191.png)](http://vninja.net/wordpress/wp-content/uploads/2013/06/5.png)
+  4. Select the "VMware NAT Service"and click “Select”[![Services](/img/5-300x191.png)](/img/5.png)
 
 	
   5. Set the Startup mode to "disabled"

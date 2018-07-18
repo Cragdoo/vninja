@@ -28,10 +28,10 @@ Thankfully [Will van Antwerpen](https://twitter.com/wilva) had investigated the 
 
 As that article also mentions, I had to do the process twice to get it to kick in and un-brick my IX2-200 and get it running with the new Cloud Edition firmware.
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2012/01/ix2-300x206.png)](http://vninja.net/wordpress/wp-content/uploads/2012/01/ix2.png)
+[![](/img/ix2-300x206.png)](/img/ix2.png)
 
 After configuring the IX2 with security and setting up Time Machine on the Macbook Air, Time Machine seems to be running without problems.
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2012/01/timemachine-300x214.png)](http://vninja.net/wordpress/wp-content/uploads/2012/01/timemachine.png)
+[![](/img/timemachine-300x214.png)](/img/timemachine.png)
 
 <MrBurns>Excellent</MrBurns>

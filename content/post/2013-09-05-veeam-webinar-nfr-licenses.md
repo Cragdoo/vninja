@@ -19,7 +19,7 @@ tags:
 
 This coming tuesday the first ever [Veeam](http://veeam.com) Webinar held in **_Norwegian_** will be held by yours truly. Feel free to sign up now and listen to me speak for an hour or so.
 
-[![signature_webinar_2](http://vninja.net/wordpress/wp-content/uploads/2013/09/signature_webinar_2.png)](http://go.veeam.com/webinar-20130910-mohn-v7/)
+[![signature_webinar_2](/img/signature_webinar_2.png)](http://go.veeam.com/webinar-20130910-mohn-v7/)
 
 Also, Veeam is continuing it´s support of the virtualization community and is yet again offering [free 180-days Veeam Backup Management Suite v7 NFR licenses for VMware and Hyper-V](http://go.veeam.com/free-nfr-backup-management-suite.html).
 

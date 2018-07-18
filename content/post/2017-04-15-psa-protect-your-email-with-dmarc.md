@@ -21,18 +21,16 @@ I didn't think there was much I could do about this, but a recent tweet by my fr
 
 <!--more-->
 
+{{< tweet 852099743908016128 >}}
+{{< tweet 852103821090279425 >}}
 
-https://twitter.com/thorsheim/status/852099743908016128
 
-https://twitter.com/thorsheim/status/852103821090279425
 
 So, obviously there are options available to me that I was completely unaware of. I haven't managed any public facing email services for 6-7 years, so I've not kept up with whatever has been happening in that particular space. Also, my personal email domain has been hosted by Google since 2008, so I haven't really managed that either. Set and forget, right? Well, not quite.
 
 So, what is this [DMARC](https://blog.returnpath.com/how-to-explain-dmarc-in-plain-english/) thing? It stands for _Domain-based Message Authentication, Reporting & Conformance,_ and is a way to try and validate that emails from a given domain is being sent using one of the valid mail servers configured for that domain. In order to be able to use DMARC, you first need to first have [Sender Policy Framework](https://en.wikipedia.org/wiki/Sender_Policy_Framework) (SPF) and [DomainKeys Identified Mail](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail) (DKIM) configured for you domain.
 
 **Here are the resources I used to get all of this configured for my domain:**
-
-
 
 
 

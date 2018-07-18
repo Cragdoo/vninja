@@ -25,24 +25,24 @@ tags:
 
 Place the host in maintenance mode, then run the following command to do an online update to ESXi 5.5:
 
-[cc lang="bash" width="100%" theme="blackboard" nowrap="0"]
+{{< highlight bash >}}
 ~ # esxcli software profile update -d https://hostupdate.vmware.com/software/VUM/PRODUCTION/main/vmw-depot-index.xml -p ESXi-5.5.0-1331820-standard
-[/cc]
+{{< /highlight >}}
 
 While this runs, [monitor the log file](http://vninja.net/vmware-2/monitoring-esxi-upgrade-process/) to check upgrade process:
 
-[cc lang="bash" width="100%" theme="blackboard" nowrap="0"]
+{{< highlight bash >}}
 ~ # tail -f /var/log/esxupdate.log
-[/cc]
+{{< /highlight >}}
 
 Let it run for a while all the way until it´s finished, reboot the host and hey presto, fresh new ESXi 5.5 upgrade completed! Quick and dirty, just the way we like it.
 
 To verify the version, still using the command line, issue the following command:
 
-[cc lang="bash" width="100%" theme="blackboard" nowrap="0"]
+{{< highlight bash >}}
 ~ # vmware -l
 VMware ESXi 5.5.0 GA
-[/cc]
+{{< /highlight >}}
 ** Of course, test this thoroughly before doing this in a production environment, after all your hosts might need VIBs not included in the standard download.**
 
 

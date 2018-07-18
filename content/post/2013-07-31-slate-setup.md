@@ -19,7 +19,7 @@ tags:
 - Window Manager
 ---
 
-![macbook-pro-too-mainstream-1.jpg](http://vninja.net/wordpress/wp-content/uploads/2013/08/macbook-pro-too-mainstream-1.jpg-199x300.png)About a year and a half I go, I took the leap from running Microsoft Windows as my main operating system and switched into full "hipster mode", i.e. switched to a Macbook Air and OS X.
+![macbook-pro-too-mainstream-1.jpg](/img/macbook-pro-too-mainstream-1.jpg-199x300.png)About a year and a half I go, I took the leap from running Microsoft Windows as my main operating system and switched into full "hipster mode", i.e. switched to a Macbook Air and OS X.
 
 Simply put, "the change" was not that hard and most everything has worked without problems, and for those things that still require Microsoft Windows, well, there is [VMware Fusion](http://www.vmware.com/products/fusion/overview.html) for that.
 

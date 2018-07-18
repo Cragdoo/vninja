@@ -20,7 +20,7 @@ tags:
 - VMware
 ---
 
-![](http://vninja.net/wordpress/wp-content/uploads/2011/11/VMware-Horizon-Application-Manager-1.21.png)VMware has announced [Horizon Application Manager 1.2](http://www.vmware.com/products/desktop_virtualization/horizon/), and together with the new [ThinApp 4.7](http://blogs.vmware.com/thinapp/2011/11/vmware-thinapp-47-whats-new.html) release it promises _"end users access to Windows, SaaS and enterprise web applications across different devices while retaining control and visibility via policy-driven management"_.
+![](/img/VMware-Horizon-Application-Manager-1.21.png)VMware has announced [Horizon Application Manager 1.2](http://www.vmware.com/products/desktop_virtualization/horizon/), and together with the new [ThinApp 4.7](http://blogs.vmware.com/thinapp/2011/11/vmware-thinapp-47-whats-new.html) release it promises _"end users access to Windows, SaaS and enterprise web applications across different devices while retaining control and visibility via policy-driven management"_.
 
 
 

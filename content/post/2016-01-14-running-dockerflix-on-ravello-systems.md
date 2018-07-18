@@ -25,7 +25,7 @@ tags:
 [![](/img/unnamed.png)](http://go.ravellosystems.com/d80sH0DKRI0UC00C56040C0)I created a [VMware Photon](https://vmware.github.io/photon/) based VM on Ravello, with an [Elastic IP](https://www.ravellosystems.com/blog/providing-external-access-application-elastic-ip-addressing/) that allows the IP to stick to the VM, even if it's moved to another public cloud,  and installed Dockerflix. VMware Photon doesn't come with _docker-compose_, which Dockerflix is dependant on, check [Install Docker Compose](https://docs.docker.com/compose/install/) for details on how to install it. Once that is installed, run the following command to download and install Dockerflix.
 
 {{< highlight bash >}}
-git clone https://github.com/trick77/dockerflix.git[/cc]
+git clone https://github.com/trick77/dockerflix.git
 {{< /highlight >}}
 
 Setup of Dockerflix itself is pretty straight forward, just follow the [README](https://github.com/trick77/dockerflix/blob/master/README.md) provided by the project. Make sure you enable http/https/ssh to the VM with a public IP. Once that was done, I set up [dnsmasq](http://www.thekelleys.org.uk/dnsmasq/doc.html) on one of the Linux VMs in my home-lab, with the output config the python script provided by Dockerflix.

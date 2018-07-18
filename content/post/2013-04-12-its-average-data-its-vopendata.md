@@ -15,7 +15,7 @@ tags:
 - Statistics
 ---
 
-[![vOpenData](http://vninja.net/wordpress/wp-content/uploads/2013/04/vOpenData-2013-04-13-00-45-45.jpg)](http://vninja.net/wordpress/wp-content/uploads/2013/04/vOpenData-2013-04-13-00-45-45.jpg)**So, what _is_ the average airspeed velocity of an unladen swallow?**
+[![vOpenData](/img/vOpenData-2013-04-13-00-45-45.jpg)](/img/vOpenData-2013-04-13-00-45-45.jpg)**So, what _is_ the average airspeed velocity of an unladen swallow?**
 
 As we all (should) know, that is very much a trick question.
 
@@ -42,7 +42,7 @@ _Simplistically put, this site gathers anonymous [data](http://www.vopendata.org
 
 As data is contributed from various sources, the [public dashboard](http://dash.vopendata.org/public) is updated.
 
-[![vOpenData Public Dashboard](http://vninja.net/wordpress/wp-content/uploads/2013/04/vOpenData-Public-Dashboard-2013-04-13-01-06-15-1024x600.jpg)](http://dash.vopendata.org/public)
+[![vOpenData Public Dashboard](/img/vOpenData-Public-Dashboard-2013-04-13-01-06-15-1024x600.jpg)](http://dash.vopendata.org/public)
 
 Another great community driven resource is born, this time by [Ben Thomas](https://twitter.com/wazoo) and [William Lam](https://twitter.com/lamw).
 

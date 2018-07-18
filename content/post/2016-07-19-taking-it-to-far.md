@@ -28,6 +28,7 @@ It's built using [Markdown](https://daringfireball.net/projects/markdown/) as t
 
 Of course, since this is my own personal home lab, it's not quite up to par as a real enterprise architecture, but it's still real to me.
 
-https://www.youtube.com/watch?v=BvTNyKIGXiI
+{{< youtube BvTNyKIGXiI >}}
+
 
 Now, where is my lab coat again?

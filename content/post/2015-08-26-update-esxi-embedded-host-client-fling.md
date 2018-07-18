@@ -15,7 +15,7 @@ tags:
 - vSphere
 ---
 
-![VMware ESXi Host Client 2015-08-26 18-42-24](/img//VMware-ESXi-Host-Client-2015-08-26-18-42-24-300x164.png)The ESXi Embedded Host Client Fling [got an upgrade today](http://www.virtuallyghetto.com/2015/08/esxi-embedded-host-client-fling-updated-to-v2.html), and in addition to new features it now works properly on ESXi 5.5. In addition to this, it's also available as an [offline bundle](http://download3.vmware.com/software/vmw-tools/esxui/esxui-offline-bundle-3015331.zip) so you can distribute it with Update Manager.
+![VMware ESXi Host Client 2015-08-26 18-42-24](/img/VMware-ESXi-Host-Client-2015-08-26-18-42-24-300x164.png)The ESXi Embedded Host Client Fling [got an upgrade today](http://www.virtuallyghetto.com/2015/08/esxi-embedded-host-client-fling-updated-to-v2.html), and in addition to new features it now works properly on ESXi 5.5. In addition to this, it's also available as an [offline bundle](http://download3.vmware.com/software/vmw-tools/esxui/esxui-offline-bundle-3015331.zip) so you can distribute it with Update Manager.
 
 Since I've spent most of my day in esxcli, here is a quick post on how to perform the upgrade from a [local http repository](http://vninja.net/vmware-2/esxi5-5-to-6-0-upgrade-from-local-http-daemon/) hosting the .vib file.
 

@@ -17,7 +17,7 @@ tags:
 
 Welcome to the fourth edition of In The Bag!
 
-[![](http://vninja.net/wordpress/wp-content/uploads/2016/11/11057276504_2acf34be04_o-1024x683.jpg)](https://www.flickr.com/photos/enerva/11057276504/in/photolist-hR6r5m-EjDHYD-s5N5ug-7mupFc-pRGXKb-mCuo8D-2eKBVn-ptTvq4-iTnJ5R-hNhv7r-zQYi8-ouF4WU-67A26z-6HzJgG-vjnrJ-KSnq-dRfFxj-jafws-dMrntt-ot3nPf-dbexc8-aLrQZg-pFyH1e-9mtAak-7F4dJ5-jKQWDs-qqyNm8-jaBCBd-dRHUab-ohXLDB-ejvSsu-eipa91-7UVD3Q-91hfJM-k6TeEL-e9SjCB-gVvTgW-dY8wGK-dGiyJX-64BQjG-aLzCzK-8xHqyd-dVAGmn-fvMTyw-cTGbnu-pXpiSU-j5snjj-rQ5sJ7-9DvemK-g93VKZ) Photo by Sonny Abesamis
+[![](/img//11057276504_2acf34be04_o-1024x683.jpg)](https://www.flickr.com/photos/enerva/11057276504/in/photolist-hR6r5m-EjDHYD-s5N5ug-7mupFc-pRGXKb-mCuo8D-2eKBVn-ptTvq4-iTnJ5R-hNhv7r-zQYi8-ouF4WU-67A26z-6HzJgG-vjnrJ-KSnq-dRfFxj-jafws-dMrntt-ot3nPf-dbexc8-aLrQZg-pFyH1e-9mtAak-7F4dJ5-jKQWDs-qqyNm8-jaBCBd-dRHUab-ohXLDB-ejvSsu-eipa91-7UVD3Q-91hfJM-k6TeEL-e9SjCB-gVvTgW-dY8wGK-dGiyJX-64BQjG-aLzCzK-8xHqyd-dVAGmn-fvMTyw-cTGbnu-pXpiSU-j5snjj-rQ5sJ7-9DvemK-g93VKZ) Photo by Sonny Abesamis
 
 **In The Bag #4 - Week 47**
 
@@ -25,10 +25,6 @@ Welcome to the fourth edition of In The Bag!
 
 
 ## Technology
-
-
-
-
 
 
 
@@ -52,19 +48,14 @@ Great deep dive by [Luca](https://twitter.com/dellock6) into how Veeam B&R integ
 
 
 
+  * **[The Fascinating Science Behind 'Talking' With Your Hands](http://www.huffingtonpost.com/entry/talking-with-hands-gestures_us_56afcfaae4b0b8d7c230414e) — I admit it, and everyone who has ever seen me do a presentation or talk can verify it, I'm a "hand-talker", and this is also why I hate using hand-held microphones. I forget, and move my hands around all over place.
 
 
-
-  * **[The Fascinating Science Behind 'Talking' With Your Hands
-](http://www.huffingtonpost.com/entry/talking-with-hands-gestures_us_56afcfaae4b0b8d7c230414e)**I admit it, and everyone who has ever seen me do a presentation or talk can verify it, I'm a "hand-talker", and this is also why I hate using hand-held microphones. I forget, and move my hands around all over place.
-
-
-  * **[Tiny Desk: how NPR’s intimate concert series earned a cult following](http://www.vox.com/culture/2016/11/21/13550754/npr-tiny-desk-concert)**
-There is something about live, not overproduced and raw music that appeals to me. The Tiny Desk recordings are fun, quirky and sometimes you can even spot that the artists gets it wrong. Great stuff. I particularly like the set played by [Death Cab for Cutie](https://www.youtube.com/watch?v=mi6uRT7PxTQ).
+  * **[Tiny Desk: how NPR’s intimate concert series earned a cult following](http://www.vox.com/culture/2016/11/21/13550754/npr-tiny-desk-concert) — There is something about live, not overproduced and raw music that appeals to me. The Tiny Desk recordings are fun, quirky and sometimes you can even spot that the artists gets it wrong. Great stuff. I particularly like the set played by [Death Cab for Cutie](https://www.youtube.com/watch?v=mi6uRT7PxTQ).
 
 
   * [**The Most Influential Images of All Time**](http://100photos.time.com)
-Time has created a list of what they think are the most influential images of all time, and it's a great one. A bunch of these are really interesting, both from an historic perspective, but also from a photography one.
+— Time has created a list of what they think are the most influential images of all time, and it's a great one. A bunch of these are really interesting, both from an historic perspective, but also from a photography one.
 
 
 
@@ -82,11 +73,8 @@ This week I've decided to add a new section. This "Special" section will some ti
 
 So here he is, in all his glory:
 
-https://youtu.be/MU-4lyUm3uo
 
-
+{{< youtube MU-4lyUm3uo >}}
 
 That's it for this week, a new one is in the works for next friday
 
-#vDM30in30 progress:
-[progressbar_circle percent= 63]

@@ -22,15 +22,12 @@ In order to get this working, I had to edit the _/var/www/phpipam/functions/scr
 I added the following code on _line 254_ in that file, just below the  code block that ends with
 _$Addresses->modify_address($values);_
 
-[cc lang="php" escaped="true"]
+{{< highlight bash >}}
 // Log to Slack -- Run custom CURL script
 $command = "curl -s -X POST -H \"Content-type: application/json\" --data '{\"text\":\"$values[lastSeen] - new host autodiscovered: IP: $ip Hostname: $values[dns_name] \"} https://[WEBHOOK URL]";
 system($command);
-[/cc]
+{{< /highlight >}}
 
 Replace [WEBHOOK URL] with your actual URL. For more details on how to set up a webhook URL, check [Logging SSH logins to Slack](http://vninja.net/homelab/logging-ssh-logins-to-slack/).
 
 Pretty easy to do locally, but it would be nice of the phpipam developers could make alerting to third party services a native feature - I'm sure there are other use cases for this as well.
-
-#vDM30in30 progress:
-[progressbar_circle percent= 10]

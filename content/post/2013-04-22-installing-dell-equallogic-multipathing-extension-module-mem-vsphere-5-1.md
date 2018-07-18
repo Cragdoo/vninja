@@ -29,13 +29,13 @@ The VIB file, which resides inside the _dell-eql-mem-esx5-1.1.2.292203.zip_, fi
 
 The command required to install the MEM is as follows:
 
-[cc lang="bash" width="100%" theme="blackboard" nowrap="0"]
-esxcli software vib install --depot /vmfs/volumes/vmfsvol/dell/dell-eql-mem-esx5-1.1.2.292203.zip[/cc]
+{{< highlight bash >}}
+esxcli software vib install --depot /vmfs/volumes/vmfsvol/dell/dell-eql-mem-esx5-1.1.2.292203.zip
+{{< /highlight >}}
 
 A completed installation looks like this:
 
-[cc lang="bash" width="100%" theme="blackboard" nowrap="0"]
-
+{{< highlight bash >}}
 login as: root
 Using keyboard-interactive authentication.
 Password:
@@ -53,56 +53,38 @@ Reboot Required: false
 VIBs Installed: Dell_bootbank_dell-eql-host-connection-mgr_1.1.1-268843, Dell_bootbank_dell-eql-hostprofile_1.1.0-212190, Dell_bootbank_dell-eql-routed-psp_1.1.1-262227
 VIBs Removed:
 VIBs Skipped:
-~ #[/cc]
+~ #
+{{< /highlight >}}
 
 I then restart the hosts process, to make sure that the multipath module is activated.
 
-[cc lang="bash" width="100%" theme="blackboard" nowrap="0"]
-~ # /etc/init.d/hostd restart
+{{< highlight bash >}}~ # /etc/init.d/hostd restart
 watchdog-hostd: Terminating watchdog process with PID 9592
 hostd stopped.
 hostd started.
-~ #[/cc]
+~ #{{< /highlight >}}
 
 Finally, a quick check to see if the new Equallogic namespace is available, and that it is gathering statistics, i.e. being used:
 
-[cc lang="bash" width="100%" theme="blackboard" nowrap="0"]
-~ # esxcli equallogic stat summary
+{{< highlight bash >}}~ # esxcli equallogic stat summary
 DeviceId VolumeName PathCount Reads Writes KBRead KBWritten
 -------------------------------- ---------- --------- ----- ------ ------ ---------
 6090A098E0DC5D9F71E6940292F8569C vmvolume 2 2573 30 20429 14
 6090A098D06C5A31CEDE44CC17CBF14B test2t 2 651 30 13028 14
 6090A098D06C4AF067EDD4C904C6A453 vmvolume3 2 642 30 10592 14
 6090A098C08D5E928EE634938F42605B vmvolume1 2 1834 30 20023 14
-~ #[/cc]
+~ #{{< /highlight >}}
 
 
+[![pre-mem-install](/img/pre-mem-install-300x221.png)](/img/pre-mem-install.png)
+
+Screenshots displaying the ESXi host path policy before:[](/img/pre-mem-install.png)
 
 
-
-[![pre-mem-install](http://vninja.net/wordpress/wp-content/uploads/2013/04/pre-mem-install-300x221.png)](http://vninja.net/wordpress/wp-content/uploads/2013/04/pre-mem-install.png)
-
-Screenshots displaying the ESXi host path policy before:[
-](http://vninja.net/wordpress/wp-content/uploads/2013/04/pre-mem-install.png)
-
-
-
-
-
-
-
-
-
-
-
-![post-mem-install](http://vninja.net/wordpress/wp-content/uploads/2013/04/post-mem-install-300x221.png)
+![post-mem-install](/img/post-mem-install-300x221.png)
 
 and after installing the Dell Equallogic MEM:
 
-
-
-[
-
-](http://vninja.net/wordpress/wp-content/uploads/2013/04/post-mem-install.png)
+![](/img/post-mem-install.png)
 
 
