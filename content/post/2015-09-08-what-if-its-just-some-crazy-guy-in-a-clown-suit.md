@@ -29,7 +29,7 @@ The closest description I have found to describe what my new role is this:
 
 Or, as [Mrs. Josh Atwell](https://twitter.com/josh_atwell/status/640206974236393474) would say:
 
-![](https://pbs.twimg.com/media/COJ42WaWcAAl8mD.jpg#floatright)
+![](https://pbs.twimg.com/media/COJ42WaWcAAl8mD.jpg)
 
 This change comes with the realization that for most SMB customers, moving IT-services to cloud based solutions makes a lot of sense. No, this doesn't mean I'm abandoning virtualization. I still have a passion for running efficient data centers, but only when it makes sense to do so - _and often it does not_ - but when it does, I sure want to be there and help build it.
 
