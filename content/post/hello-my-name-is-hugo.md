@@ -8,28 +8,28 @@ tags: ["vninja", "site", "news", "hugo", "wordpress"]
 
 title: "Hello, My Name Is Hugo (Montoya)"
 
-description: "Goodbye Wordpress, hello Hugo! vNinja.net has been powered by Wordpress since it was launched back in 2010, **and frankly it was time for a change**."
+description: "**Goodbye Wordpress, hello Hugo!** vNinja.net has been powered by Wordpress since it was launched back in 2010, **and frankly it was time for a change**."
 ---
 
 # Goodbye Wordpress, hello Hugo!
 
-vNinja.net has been powered by Wordpress since it was launched back in 2010, and frankly it was time for a change. What really triggered it, was my hosting providers unwillingness to upgrade basic things, like PHP versions and MySQL. That combined with the security issues you have to live with when using traditional shared hosting made me look around for alternatives. While looking at hosting options, it slowly dawned on me that perhaps I should be looking at doing [something completely different](https://www.youtube.com/watch?v=FGK8IC-bGnU).
+vNinja.net has been powered by Wordpress since it was launched back in 2010, and frankly it was time for a change. What _really_ triggered it, was my hosting providers unwillingness to upgrade basic things, like PHP versions and MySQL. That combined with the security issues you have to live with when using traditional shared hosting made me look around for alternatives. While looking at hosting options, it slowly dawned on me that perhaps I should be looking at doing [something completely different](https://www.youtube.com/watch?v=FGK8IC-bGnU).
 
 After looking around a bit, I started playing with [Hugo](http://gohugo.io/), and it just kind of stuck with me. 
 
-_The allure of everything being static, just plain old files [written in Markdown](/virtualization/markdown-things/) was too just much to resist._
+_The allure of everything being static, just plain old files [written in Markdown](/virtualization/markdown-things/) was just impossible to resist._
 
-So, what you're accessing right this very moment, is the new vNinja in it's new Hugo powered static glory over [HTTPS-only](https://blog.chromium.org/2018/02/a-secure-web-is-here-to-stay.html)! 
+So, what you're accessing right this very moment, is the new vNinja, in its new Hugo powered static glory over [HTTPS-only](https://blog.chromium.org/2018/02/a-secure-web-is-here-to-stay.html)! 
 
 [![](/img/hugo-logo.png#center)](http://gohugo.io/)
 
 When I discovered that I could combine [Hugo](http://gohugo.io/), [Github](https://github.com/h0bbel/vninja) and [Netlify](https://www.netlify.com/) it just clicked. I can now edit — and preview — locally, wherever I am, check in changes to GitHub and the [Netlify's Continous Development](https://www.netlify.com/docs/continuous-deployment/) takes care of updating the site automatically: 
 
-![Netlify deploy](/img/Screenshot 2018-07-20 00.21.30.png)
+![Netlify deploy](/img/Screenshot 2018-07-20 00.21.30.png#center)
 
 I've even created a Slack-bot that notifies me of the status of the checking and publishing, to make sure I catch it when I mess things up:
 
-![Go Live!](/img/Screenshot 2018-07-20 00.19.08.png)
+![Go Live!](/img/Screenshot 2018-07-20 00.19.08.png#center)
 
 Added bonus: Being able to use whatever editor I fancy to edit this thing, at the moment [Visual Code](https://code.visualstudio.com/) looks like it will do the job _just_ right.
 
