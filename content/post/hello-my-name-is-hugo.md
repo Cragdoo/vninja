@@ -41,6 +41,7 @@ There is a few things I know isn't working, or missing:
 * **Search is missing**, I'll add that later — Sneak preview [here](/search)
 * **Author pages** for guest authors, and how to handle multiple authors/guest posts in general.
 * **Various theme tweaks** — it's a work in progress. [Please provide feedback](https://twitter.com/h0bbel), if you have it.
+* Favicon is not working right now, need to intestigate that.
 
 The theme itself is a work in progress, expect changes or breakage. Or both. 
 
