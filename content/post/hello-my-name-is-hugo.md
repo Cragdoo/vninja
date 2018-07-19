@@ -27,7 +27,7 @@ When I discovered that I could combine [Hugo](http://gohugo.io/), [Github](https
 
 ![Netlify deploy](/img/Screenshot 2018-07-20 00.21.30.png#center)
 
-I've even created a Slack-bot that notifies me of the status of the checking and publishing, to make sure I catch it when I mess things up:
+I've even created a Slack-bot that notifies me of the status of the check-in and publishing, to make sure I catch it when I mess things up:
 
 ![Go Live!](/img/Screenshot 2018-07-20 00.19.08.png#center)
 
