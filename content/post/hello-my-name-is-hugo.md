@@ -23,7 +23,13 @@ So, what you're accessing right this very moment, is the new vNinja in it's new 
 
 [![](/img/hugo-logo.png#center)](http://gohugo.io/)
 
-When I discovered that I could combine [Hugo](http://gohugo.io/), [Github](https://github.com/h0bbel/vninja) and [Netlify](https://www.netlify.com/) it just clicked. I can now edit — and preview — locally, wherever I am, check in changes to GitHub and the [Netlify's Continous Development](https://www.netlify.com/docs/continuous-deployment/) takes care of updating the site automatically. I've even created a Slack-bot that notifies me of the status of the checking and publishing, to make sure I catch it when I mess things up. 
+When I discovered that I could combine [Hugo](http://gohugo.io/), [Github](https://github.com/h0bbel/vninja) and [Netlify](https://www.netlify.com/) it just clicked. I can now edit — and preview — locally, wherever I am, check in changes to GitHub and the [Netlify's Continous Development](https://www.netlify.com/docs/continuous-deployment/) takes care of updating the site automatically: 
+
+![Netlify deploy](/img/Screenshot 2018-07-20 00.21.30.png)
+
+I've even created a Slack-bot that notifies me of the status of the checking and publishing, to make sure I catch it when I mess things up:
+
+![Go Live!](/img/Screenshot 2018-07-20 00.19.08.png)
 
 Added bonus: Being able to use whatever editor I fancy to edit this thing, at the moment [Visual Code](https://code.visualstudio.com/) looks like it will do the job _just_ right.
 
