@@ -7,8 +7,8 @@ url: /advertising
 
 _Thank you for your interest in advertising on vNinja.net!_
 
-vNinja.net currently only offers 250 x 250px ads in the site wide sidebar.
-Other suggestions are welcome, and all inquiries will be entertained on a case-by-case basis.
+vNinja.net currently **only** offers 250 x 250px ads in the site wide sidebar.
+Other suggestions are welcome, and all inquiries will be entertained on a case-by-case basis. Note: Sponsored links is completely out of the question.
 
 ## Terms and conditions
 Purchasing advertising space on vNinja.net does not guarantee any, favourable or not, review of the product or services advertised, nor is it to be considered an endorsement of any kind.

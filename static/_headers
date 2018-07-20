@@ -1,6 +1,6 @@
 # Set max-age to 1 year for stuff not expected to update any time soon.
 
-# Reference
+# Reference ( https://varvy.com/pagespeed/cache-control.html#max-age )
 #One minute: max-age=60
 #One hour: max-age=3600
 #One day: max-age=86400
@@ -18,7 +18,7 @@
   Cache-Control: public, max-age=604800
 
 # Favicons
-/favicon.ico
+/favicon.*
   Cache-Control: public, max-age=604800
 
 /ads/*.jpg
@@ -32,3 +32,8 @@ Cache-Control: public, max-age=3153600
 
 /img/*.*
 Cache-Control: public, max-age=604800
+
+# Security Headers
+
+X-XSS-Protection: 1; mode=block
+X-Frame-Option: SAMEORIGIN
