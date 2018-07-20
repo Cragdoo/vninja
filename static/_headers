@@ -32,3 +32,12 @@
 
 /images/permalink-*.svg
   Cache-Control: public, max-age=31536000
+
+/ads/*.jpg
+Cache-Control: public, max-age=3153600
+
+/ads/*.gif
+Cache-Control: public, max-age=3153600
+
+/ads/*.png
+Cache-Control: public, max-age=3153600
