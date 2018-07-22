@@ -10,14 +10,11 @@ title: "Hello, My Name Is Hugo (Montoya)"
 
 description: "**Goodbye Wordpress, hello Hugo!** vNinja.net has been powered by Wordpress since it was launched back in 2010, **and frankly it was time for a change**."
 
-[twitter]
-  card = "summary_large_image"
-  site = "@vninjanet"
-  creator = "@h0bbel"
-  title = "Hello, My Name Is Hugo (Montoya)"
-  description = "Goodbye Wordpress, hello Hugo! vNinja.net has been powered by Wordpress since it was launched back in 2010, and frankly it was time for a change"
-  image = "https://vninja.net/img/hugo-logo.png"
-
+card: "summary"
+site: "@h0bbel"
+title: "Special Title for the Card"
+description: "Goodbye Wordpress, hello Hugo! vNinja.net has been powered by Wordpress since it was launched back in 2010, and frankly it was time for a change"
+image: "https://example.com/great-picture.jpg"
 ---
 
 # Goodbye Wordpress, hello Hugo!
@@ -36,7 +33,7 @@ When I discovered that I could combine [Hugo](http://gohugo.io/), [Github](https
 
 ![Netlify deploy](/img/Screenshot 2018-07-20 00.21.30.png#center)
 
-I've even created a Slack-bot that notifies me of the status of the check-in and publishing, to make sure I catch it when I mess things up:
+I've even created a Slack-bot that notifies me of the status of the checking and publishing, to make sure I catch it when I mess things up:
 
 ![Go Live!](/img/Screenshot 2018-07-20 00.19.08.png#center)
 
