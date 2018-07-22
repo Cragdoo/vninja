@@ -17,6 +17,11 @@ creator: "@h0bbel"
 image: "https://vninja.net/img/hugo-logo.png"
 ---
 
+<h1>
+  Migrating From Wordpress to Hugo<br/>
+  <small class="text-muted">aka The Long and Winding Road</small>
+</h1>
+
 When I decided to [move away from Wordpress](/2018/07/19/hello-my-name-is-hugo/) and over to [Hugo](https://gohugo.io), I really had no concept of the amount of work it would be. _Simply put; I just decided to do it — without really knowing what I set out to do._ 
 
 Once I had decided on a foundation theme, I chose the [Hugo Bootstrap Premium](https://github.com/appernetic/hugo-bootstrap-premium/) as my starting point, the real work started.
