@@ -12,6 +12,11 @@ title: "{{ replace .TranslationBaseName "-" " " | title }}"
 
 description: "description"
 
+
+card: "summary_large_image"
+site: "@vninjanet"
+creator: "@h0bbel"
+image: "https://vninja.net/"
 ---
 
 # Headline

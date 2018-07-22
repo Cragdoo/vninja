@@ -5,17 +5,16 @@ date: "2018-07-19"
 year: "2018"
 author: Christian Mohn
 tags: ["vninja", "site", "news", "hugo", "wordpress"]
+categories: ["site migration"]
 
 title: "Hello, My Name Is Hugo (Montoya)"
 
-description: "**Goodbye Wordpress, hello Hugo!** vNinja.net has been powered by Wordpress since it was launched back in 2010, **and frankly it was time for a change**."
+description: "Goodbye Wordpress, hello Hugo! vNinja.net has been powered by Wordpress since it was launched back in 2010, and frankly it was time for a change."
 
 card: "summary_large_image"
 site: "@vninjanet"
 creator: "@h0bbel"
 image: "https://vninja.net/img/hugo-logo.png"
-
-
 ---
 
 
@@ -56,7 +55,7 @@ There is a few things I know isn't working, or missing:
 
 The theme itself is a work in progress, expect changes or breakage. Or both. 
 
-I'll do a writeup of the Wordpress to Hugo conversion process, and challenges I met, as well as the Netlify setup later on. For now, I just wanted it to go live.
+I'll do a writeup of the [Wordpress to Hugo conversion process](/2018/07/22/migrating-from-wordpress-to-hugo/), and challenges I met, as well as the Netlify setup later on. For now, I just wanted it to go live.
 
 
 
