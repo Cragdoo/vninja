@@ -42,5 +42,6 @@ X-XSS-Protection: 1; mode=block
 Content-Security-Policy-Report-Only: default-src https://vninja.net:*
 Strict-Transport-Security: max-age=2628000
 Referrer-Policy: strict-origin
+Content-Security-Policy: script-src vninja.net vninja.com *.maxcdn.com *.cloudflare.com 
 
 
