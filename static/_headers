@@ -37,3 +37,5 @@ Cache-Control: public, max-age=604800
 
 X-XSS-Protection: 1; mode=block
 X-Frame-Option: SAMEORIGIN
+
+Content-Security-Policy-Report-Only: default-src https://vninja.net:*
