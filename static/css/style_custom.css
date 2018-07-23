@@ -146,3 +146,12 @@ div.tranbox {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+
+.hljs {
+    display: block;
+    overflow-x: auto;
+    padding: 0.5em;
+    background: #F0F0F0;
+    margin: -5px;
+}
