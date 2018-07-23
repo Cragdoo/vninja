@@ -21,7 +21,7 @@
 
 <meta property="og:title" content="VMware VSAN - More than meets the eye.  &middot; vNinja.net ">
 <meta property="og:site_name" content="vNinja.net"/>
-<meta property="og:url" content="/virtualization/vmware-vsan-more-than-meets-the-eye/" />
+<meta property="og:url" content="https://vninja.net/virtualization/vmware-vsan-more-than-meets-the-eye/" />
 <meta property="og:locale" content="en">
 
 
@@ -48,8 +48,8 @@
 <meta name="twitter:creator" content="@h0bbel" />
 <meta name="twitter:title" content="VMware VSAN - More than meets the eye." />
 <meta name="twitter:description" content="" />
-<meta name="twitter:url" content="/virtualization/vmware-vsan-more-than-meets-the-eye/" />
-<meta name="twitter:domain" content="/">
+<meta name="twitter:url" content="https://vninja.net/virtualization/vmware-vsan-more-than-meets-the-eye/" />
+<meta name="twitter:domain" content="https://vninja.net">
   
 
   
@@ -64,17 +64,17 @@
     },
     "datePublished": "2015-11-13",
     "description": "",
-    "wordCount": 440
+    "wordCount": 439
   }
 </script>
   
 
 
 
-<link rel="canonical" href="/virtualization/vmware-vsan-more-than-meets-the-eye/" />
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/touch-icon-144-precomposed.png">
-<link rel="icon" href="/favicon.png">
-<meta name="generator" content="Hugo 0.40.3" />
+<link rel="canonical" href="https://vninja.net/virtualization/vmware-vsan-more-than-meets-the-eye/" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://vninja.net/touch-icon-144-precomposed.png">
+<link rel="icon" href="https://vninja.net/favicon.png">
+<meta name="generator" content="Hugo 0.42.2" />
 
   <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
@@ -83,18 +83,42 @@
 
 
 
-    <link rel="stylesheet" href="/css/bootswatch/lux/bootstrap.min.css">
+    <link rel="stylesheet" href="https://vninja.net/css/bootswatch/yeti/bootstrap.min.css">
 
 
-<link rel="stylesheet" href="/css/font-awesome.min.css">
-<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="https://vninja.net/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://vninja.net/css/style.css">
 
 
-<link rel="stylesheet" href="/css/style_custom.css">
+<link rel="stylesheet" href="https://vninja.net/css/style_custom.css">
 
 
 
-  <link rel="stylesheet" href="/css/highlight/default.css">
+  <link rel="stylesheet" href="https://vninja.net/css/highlight/default.css">
+
+
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+  <script>
+  window.addEventListener("load", function(){
+  window.cookieconsent.initialise({
+    "palette": {
+      "popup": {
+        "background": "#efefef",
+        "text": "#404040"
+      },
+      "button": {
+        "background": "#8ec760",
+        "text": "#ffffff"
+      }
+    },
+    "showLink": false,
+    "position": "bottom-right"
+  })});
+  </script>
+</script>
+
+
 
 
 </head>
@@ -110,7 +134,7 @@
           <span class="icon-bar"></span>
         </button>
         
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand" href="https://vninja.net/">
           vNinja.net
           
           
@@ -126,11 +150,7 @@
                   <ul class="dropdown-menu">
                     
                       <li class="">
-                        <a href="/about/christian-mohn/"><i class='fa fa-child'></i> About vNinja</a>
-                      </li>
-                    
-                      <li class="">
-                        <a href="/about/christian-mohn/"><i class='fa fa-child'></i> About Christian</a>
+                        <a href="https://vninja.net/about/christian-mohn/"><i class='fa fa-child'></i> About Christian</a>
                       </li>
                     
                   </ul>
@@ -139,11 +159,11 @@
             
             <li class="">
               
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class='fa fa-hand-lizard-o'></i> Site Policy <span class="caret"></span></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class='fa fa-asterisk'></i> Site Policy <span class="caret"></span></a>
                   <ul class="dropdown-menu">
                     
                       <li class="">
-                        <a href="/about/privacy-policy"><i class='fa fa-hand-lizard-o'></i> Privacy Policy</a>
+                        <a href="https://vninja.net/about/privacy-policy"><i class='fa fa-asterisk'></i> Privacy Policy</a>
                       </li>
                     
                   </ul>
@@ -152,9 +172,18 @@
             
             <li class="">
               
-                <a href="/advertising" >
+                <a href="https://vninja.net/advertising" >
                   <i class='fa fa-bank'></i>
                   Advertising
+                </a>
+              
+            </li>
+            
+            <li class="">
+              
+                <a href="https://vninja.net/post/index.xml" >
+                  <i class='fa fa-rss'></i>
+                  RSS
                 </a>
               
             </li>
@@ -194,39 +223,22 @@
     &middot; by Christian Mohn
   
   &middot; Read in about 3 min
-  &middot; (440 words)
+  &middot; (439 words)
   &middot; 
-<span class="share-box">Share this on:
-    <a href="https://www.facebook.com/sharer/sharer.php?u=%2fvirtualization%2fvmware-vsan-more-than-meets-the-eye%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-facebook-official "></i></a>
 
-    <a href="https://twitter.com/intent/tweet?text=VMware%20VSAN%20-%20More%20than%20meets%20the%20eye.&amp;url=%2fvirtualization%2fvmware-vsan-more-than-meets-the-eye%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-twitter"></i></a>
-
-    <a href="https://plus.google.com/share?url=%2fvirtualization%2fvmware-vsan-more-than-meets-the-eye%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-google-plus"></i></a>
-
-    <a href="http://www.reddit.com/submit?url=%2fvirtualization%2fvmware-vsan-more-than-meets-the-eye%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-reddit"></i></a>
-
-    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fvirtualization%2fvmware-vsan-more-than-meets-the-eye%2f&amp;title=VMware%20VSAN%20-%20More%20than%20meets%20the%20eye." onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-linkedin"></i></a>
-
-    <a href="mailto:?subject=VMware%20VSAN%20-%20More%20than%20meets%20the%20eye.&amp;body=Check out this site %2fvirtualization%2fvmware-vsan-more-than-meets-the-eye%2f" data-proofer-ignore=""><i class="fa fa-envelope"></i></a>
-  </span>
 
   </small>
 
 <div class="margin-10">
   <i class="fa fa-tags"></i>
   
-  <a href="/tags/future" class="label label-primary">Future</a>
+  <a href="https://vninja.net/tags/future" class="label label-primary">Future</a>
   
-  <a href="/tags/microvisor" class="label label-primary">Microvisor</a>
+  <a href="https://vninja.net/tags/microvisor" class="label label-primary">Microvisor</a>
   
-  <a href="/tags/vsan" class="label label-primary">VSAN</a>
+  <a href="https://vninja.net/tags/vsan" class="label label-primary">VSAN</a>
   
-  <a href="/tags/vsphere" class="label label-primary">vSphere</a>
+  <a href="https://vninja.net/tags/vsphere" class="label label-primary">vSphere</a>
   
 
 
@@ -240,45 +252,35 @@
 
 
       <div class="content">
+
+  
+
   <p>Way back in 2014 I wrote a piece called <a href="http://vninja.net/virtualization/vsan-unspoken-future/">VSAN – The Unspoken Future</a>, and I think it&rsquo;s about time it got a revision. Of course, lots of things have happened to VSAN since then and even more is on the way, but I think there is more to this than adding features like <a href="http://www.yellow-bricks.com/2015/09/01/virtual-san-beta-coming-up-with-dedupe-and-erasure-coding/">erasure coding, deduplication</a> and compression. All of these are important features, and frankly they need to be in a product that aims a lot higher than you might think.</p>
+
+<p></p>
 
 <p>At the moment, VSAN does storage internally in a vSphere Cluster. If you want to use that storage in other ways, you either have to share it from a VM over the network or use <a href="https://nexenta.com/products/nexentaconnect/nexentaconnect-vsan">NexentaConnect for VMware Virtual SAN</a>.</p>
 
-<p>Yesterday, <a href="https://twitter.com/vmugit/status/664759077059371009">VMUG.it </a>shared the following photo from <a href="http://twiitter.com/DuncanYB">Duncan Eppings</a> &laquo;<strong>Goodbye SAN Huggers, Hello Virtual SAN</strong>&raquo; session from their VMUG UserCon:</p>
+<p>Yesterday, <a href="https://twitter.com/vmugit/status/664759077059371009">VMUG.it</a>shared the following photo from <a href="http://twitter.com/DuncanYB">Duncan Eppings</a> &laquo;<strong>Goodbye SAN Huggers, Hello Virtual SAN</strong>&raquo; session from their VMUG UserCon:</p>
 
 <p><a href="http://vninja.net/wordpress/wp-content/uploads/2015/11/CTmy15VWwAAY8Y9.jpg-large.jpeg"><img src="http://vninja.net/wordpress/wp-content/uploads/2015/11/CTmy15VWwAAY8Y9.jpg-large-1024x576.jpeg" alt="Generic Object Storage Platform" /></a></p>
 
-<p>Look closely at that one for a minute. What is Duncan and VMware telling us here, if you squint your eyes and try to read between the lines? For me, this slide was a bit of a lightbulb moment:** VMware wants to turn VSAN into a generic storage provider in the data center. **You need some storage of some sort? VSAN will provide it, even if your applications are not located on the same cluster.  Object based? Sure. Block? Sure. REST? Sure, that&rsquo;s what the cool kids do. VMFS? Only if you need to run a VM.</p>
+<p>Look closely at that one for a minute. What is Duncan and VMware telling us here, if you squint your eyes and try to read between the lines? For me, this slide was a bit of a lightbulb moment: <strong>VMware wants to turn VSAN into a generic storage provider in the data center.</strong>
+You need some storage of some sort? VSAN will provide it, even if your applications are not located on the same cluster.  Object based? Sure. Block? Sure. REST? Sure, that&rsquo;s what the cool kids do. VMFS? Only if you need to run a VM.</p>
 
-<p>Couple this with  the <a href="http://www.vmware.com/radius/vmworld-2015-the-end-of-the-beginning-lets-go/">vSphere Integrated Containers and Photon Platform announcements</a>, VMware is already talking about the microvisor. So, remove the vSphere layer in the slide above, and replace it with a variant of the <a href="http://cormachogan.com/2015/09/11/a-closer-look-at-the-vsan-witness-appliance/">VSAN ROBO witness appliance</a> of some sort, which runs enough to provide policy based storage services. Once you have those two bits talking to each other, you don&rsquo;t need the traditional vSphere layer to provide hardware virtualization at all for those cloud native apps. Add NSX to the mix, and network policies that follow the application, and you have a portable application infrastructure that can run pretty much anywhere you prefer.  At VMworld 2015, VMware showed NSX for Multi-Hypervisor running on AWS, extending the network from on-premises to Amazon. Why not do the same with storage?  Want cloud based storage? Sure, add the little VSAN layer in front of your providers storage offering, and boom, instant policy  management and portability.</p>
+<p>Couple this with  the <a href="http://www.vmware.com/radius/vmworld-2015-the-end-of-the-beginning-lets-go/">vSphere Integrated Containers and Photon Platform announcements</a>, VMware is already talking about the microvisor. So, remove the vSphere layer in the slide above, and replace it with a variant of the <a href="http://cormachogan.com/2015/09/11/a-closer-look-at-the-vsan-witness-appliance/">VSAN ROBO witness appliance</a> of some sort, which runs enough to provide policy based storage services. Once you have those two bits talking to each other, you don&rsquo;t need the traditional vSphere layer to provide hardware virtualization at all for those cloud native apps. Add NSX to the mix, and network policies that follow the application, and you have a portable application infrastructure that can run pretty much anywhere you prefer.</p>
+
+<p>At VMworld 2015, VMware showed NSX for Multi-Hypervisor running on AWS, extending the network from on-premises to Amazon. Why not do the same with storage?  Want cloud based storage? Sure, add the little VSAN layer in front of your providers storage offering, and boom, instant policy  management and portability.</p>
 
 <p>And of course, VMware will be there to provide you with the management and monitoring layer for all of this - Even if you don&rsquo;t run vSphere.</p>
 
 <p>VMware is getting ready for the post-virtualization, multi-platform, world, no question about it.  Are You Ready for Any?</p>
-
 </div>
 
 
       <footer>
   
-<span class="share-box">Share this on:
-    <a href="https://www.facebook.com/sharer/sharer.php?u=%2fvirtualization%2fvmware-vsan-more-than-meets-the-eye%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-facebook-official "></i></a>
 
-    <a href="https://twitter.com/intent/tweet?text=VMware%20VSAN%20-%20More%20than%20meets%20the%20eye.&amp;url=%2fvirtualization%2fvmware-vsan-more-than-meets-the-eye%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-twitter"></i></a>
-
-    <a href="https://plus.google.com/share?url=%2fvirtualization%2fvmware-vsan-more-than-meets-the-eye%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-google-plus"></i></a>
-
-    <a href="http://www.reddit.com/submit?url=%2fvirtualization%2fvmware-vsan-more-than-meets-the-eye%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-reddit"></i></a>
-
-    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fvirtualization%2fvmware-vsan-more-than-meets-the-eye%2f&amp;title=VMware%20VSAN%20-%20More%20than%20meets%20the%20eye." onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-linkedin"></i></a>
-
-    <a href="mailto:?subject=VMware%20VSAN%20-%20More%20than%20meets%20the%20eye.&amp;body=Check out this site %2fvirtualization%2fvmware-vsan-more-than-meets-the-eye%2f" data-proofer-ignore=""><i class="fa fa-envelope"></i></a>
-  </span>
 
   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
       
@@ -286,7 +288,7 @@
     <nav><ul class="pager">
     
         <li class="previous">
-          <a href="/virtualization/vcenter-sso-unable-to-retrieve-ad-information-error-while-extracting-local-sso-users/" title="vCenter / SSO unable to retrieve AD-information | Error while extracting local SSO users">
+          <a href="https://vninja.net/virtualization/vcenter-sso-unable-to-retrieve-ad-information-error-while-extracting-local-sso-users/" title="vCenter / SSO unable to retrieve AD-information | Error while extracting local SSO users">
             <span aria-hidden="true">&larr;</span>Previous
           </a>
         </li>
@@ -294,7 +296,7 @@
 
     
       <li class="next">
-        <a href="/news/yourdailytech-content-stealers/" title="YourDailyTech - Content Stealers">
+        <a href="https://vninja.net/news/yourdailytech-content-stealers/" title="YourDailyTech - Content Stealers">
             Next <span aria-hidden="true">&rarr;</span>
         </a>
       </li>
@@ -315,24 +317,35 @@
     </div>
     
       <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-        <hr>
-<div>
+        <div>
   
 
     <div class="section">
-      <div class="ads">
-        <a href="http://turbonomic.com/resources/hybrid-cloud-intelligent-bursting-aws-microsoft-azure/?utm_source=vninja&amp;utm_medium=banner-ad&amp;utm_campaign=wp-path-to-hybrid-cloud&amp;utm_content=250x250"><img width="250" height="250" src="https://i1.wp.com/vninja.net/wordpress/wp-content/uploads/2017/11/wp-intelligent-bursting-aws-azure-250x250.png?zoom=2&amp;fit=250%2C250" alt="" title="wp-intelligent-bursting-aws-azure (250x250)" src-orig="https://i1.wp.com/vninja.net/wordpress/wp-content/uploads/2017/11/wp-intelligent-bursting-aws-azure-250x250.png?fit=250%2C250" scale="2"></a>
+      <h4>Sponsors</h4>
+      <div class="ads" id="veeam">
+        <ins class='dcmads' style='display:inline-block;width:250px;height:250px' data-dcm-placement='N410401.1772869VNINJA.NET/B10464038.145283149' data-dcm-rendering-mode='iframe' data-dcm-https-only data-dcm-resettable-device-id='' data-dcm-app-id=''> <script src='https://www.googletagservices.com/dcm/dcmads.js'></script> </ins>
       </div>
-      <div class="ads">
-        <a href="http://cohesity.com"><img width="250" height="250" src="https://i2.wp.com/vninja.net/wordpress/wp-content/uploads/2016/12/250x250_cohesity_ad-1.gif?zoom=2&amp;fit=250%2C250" alt="" title="250x250_cohesity_ad-1" src-orig="https://i2.wp.com/vninja.net/wordpress/wp-content/uploads/2016/12/250x250_cohesity_ad-1.gif?fit=250%2C250" scale="2"></a>
+      <div class="ads" id="turbonomic">
+        <a href="http://turbonomic.com/resources/hybrid-cloud-intelligent-bursting-aws-microsoft-azure/?utm_source=vninja&amp;utm_medium=banner-ad&amp;utm_campaign=wp-path-to-hybrid-cloud&amp;">
+          <img width="250" height="250" src="https://vninja.net/ads/wp-intelligent-bursting-aws-azure-250x250.png"></a>
       </div>
+      <div class="ads" id="goliath">
+        <a href="http://goliathtechnologies.com/performance-monitoring/application-desktop-virtualization/vmware-horizon-view-monitoring/?utm_source=VNINJA&#038;utm_medium=PARTNER-MKTG&#038;utm_campaign=PARTNER-MKTG-VNINJA"><img width="250" height="250" src='https://vninja.net/ads/VMwareHorizon.jpg' alt='' title='VMwareHorizon' /></a>
+      </div>
+      <div class="ads" id="vembu">
+        <a href="https://www.vembu.com/free-vm-backup/?utm_source=vninja.net&#038;utm_medium=Banner"><img width="250" height="250" src='https://vninja.net/ads/vembu250-250.gif'/></a>
+      </div>
+
+
     </div>
-<hr>
+
+    <hr>
     
       
       
       <div class="section">
-        sidebar 2
+
+
       </div>
       
     
@@ -356,9 +369,7 @@
 </div>
 <div class="pull-right">
 
-<a href="/disclaimer/">Disclaimer</a> <i>&middot;</i>
-
-<a href="/terms/">Terms</a> 
+<a href="https://vninja.net/disclaimer/">Disclaimer</a> <i>&middot;</i>
 
 </div>
 
@@ -377,7 +388,7 @@
     
 <div class="container copyright">
     <small>
-  &copy; 2018 Copyright my blog
+  &copy; 2018 Christian Mohn
 
   </small>
 </div>
@@ -392,17 +403,17 @@
 
     
 
-<script src="/js/jquery.min.js"></script>
-<script src="/js/bootstrap.min.js"></script>
+<script src="https://vninja.net/js/jquery.min.js"></script>
+<script src="https://vninja.net/js/bootstrap.min.js"></script>
 
 
-<script src="/js/highlight.pack.js"></script>
-<script src="/js/site.js"></script>
+<script src="https://vninja.net/js/highlight.pack.js"></script>
+<script src="https://vninja.net/js/site.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
 
 <script>
-  var _gaq=[['_setAccount','Your Google Analytics tracking code'],['_trackPageview']];
+  var _gaq=[['_setAccount','UA-121910549-1'],['_trackPageview']];
   (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
   g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
   s.parentNode.insertBefore(g,s)}(document,'script'));

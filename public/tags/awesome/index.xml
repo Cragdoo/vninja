@@ -2,97 +2,99 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Awesome on vNinja.net</title>
-    <link>/tags/awesome/</link>
+    <link>https://vninja.net/tags/awesome/</link>
     <description>Recent content in Awesome on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Wed, 11 Oct 2017 21:45:11 +0000</lastBuildDate>
     
-	<atom:link href="/tags/awesome/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/awesome/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Making Royal TSX Even More Awesome</title>
-      <link>/osx/making-royal-tsx-even-more-awesome/</link>
+      <link>https://vninja.net/osx/making-royal-tsx-even-more-awesome/</link>
       <pubDate>Wed, 11 Oct 2017 21:45:11 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/osx/making-royal-tsx-even-more-awesome/</guid>
-      <description>For those who don&amp;rsquo;t know, Royal TSX is an awesome Remote Management solution, which supports RDP, VNC, SSH, S/FTP and even ESXi and vCenter. I&amp;rsquo;ve been using it for years, not just because they offer free licenses for vExperts (and others), but simply because it works really well. Store it&amp;rsquo;s config file on a synchronized file area (like Dropbox), and boom, your config follows you around from machine to machine, including custom icons.</description>
+      
+      <guid>https://vninja.net/osx/making-royal-tsx-even-more-awesome/</guid>
+      <description>&lt;p&gt;For those who don&amp;rsquo;t know, &lt;a href=&#34;https://www.royalapplications.com/ts/mac/features&#34;&gt;Royal TSX&lt;/a&gt; is an awesome Remote Management solution, which supports RDP, VNC, SSH, S/FTP and even ESXi and vCenter. I&amp;rsquo;ve been using it for years, not just because they offer &lt;a href=&#34;https://www.royalapplications.com/ts/nfr/&#34;&gt;free licenses for vExperts&lt;/a&gt; (and others), but simply because it works really well. Store it&amp;rsquo;s config file on a synchronized file area (like Dropbox), and boom, your config follows you around from machine to machine, including custom icons. What&amp;rsquo;s &lt;em&gt;not&lt;/em&gt; to like?
+&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Cross vCenter VM Mobility Fling - macOS?</title>
-      <link>/vmware-2/cross-vcenter-vm-mobility-fling-macos/</link>
+      <link>https://vninja.net/vmware-2/cross-vcenter-vm-mobility-fling-macos/</link>
       <pubDate>Tue, 28 Mar 2017 11:44:58 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/vmware-2/cross-vcenter-vm-mobility-fling-macos/</guid>
-      <description>The VMware Cross vCenter VM Mobility - CLI was recently updated so I decided to try it out. In short, this little Java based application allows you to easily move or clone VMs between disparate vCenter environments.
-The Fling is listed with the following requirements:
- JDK 1.7 or above
- Two vCenter instances with ESX 6.0
- Windows : Windows Server 2003 or above
- Linux : RHEL 7.x or above, Ubuntu 11.</description>
+      
+      <guid>https://vninja.net/vmware-2/cross-vcenter-vm-mobility-fling-macos/</guid>
+      <description>&lt;p&gt;The &lt;a href=&#34;https://labs.vmware.com/flings/xvc-mobility-cli#requirements&#34;&gt;VMware Cross vCenter VM Mobility - CLI&lt;/a&gt; was recently updated so I decided to try it out. In short, this little Java based application allows you to easily move or clone VMs between disparate vCenter environments.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Logging SSH logins to Slack</title>
-      <link>/homelab/logging-ssh-logins-to-slack/</link>
+      <link>https://vninja.net/homelab/logging-ssh-logins-to-slack/</link>
       <pubDate>Thu, 06 Oct 2016 11:31:51 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/homelab/logging-ssh-logins-to-slack/</guid>
-      <description>I&amp;rsquo;m using Slack to alert and log a few things in my environment, and one of the things I use it for is to alert me if someone logs on via SSH to my public facing Jumphost.
-For a good walkthrough on how to set up such a host, check out Tunnel all your remote connections through ssh with a linux jumpbox by Luca Dell&amp;rsquo;Oca.
-My Ubuntu 16.04 Jumphost is set up to only accept Key-Based Authentication, to secure it as much as possible, but I would still like to get instant notification if someone logs into it interactively.</description>
+      
+      <guid>https://vninja.net/homelab/logging-ssh-logins-to-slack/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m using &lt;a href=&#34;http://vninja.net/homelab/homelabops-via-slack/&#34;&gt;Slack to alert and log &lt;/a&gt;a few things in my environment, and one of the things I use it for is to alert me if someone logs on via SSH to my public facing Jumphost.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;For a good walkthrough on how to set up such a host, check out &lt;a href=&#34;http://www.virtualtothecore.com/en/tunnel-all-your-remote-connections-through-ssh-with-a-linux-jumpbox/&#34;&gt;Tunnel all your remote connections through ssh with a linux jumpbox&lt;/a&gt; by &lt;a href=&#34;https://twitter.com/dellock6&#34;&gt;Luca Dell&amp;rsquo;Oca&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Let&#39;s get the kids some RPi&#39;s!</title>
-      <link>/news/lets-get-the-kids-some-rpis/</link>
+      <link>https://vninja.net/news/lets-get-the-kids-some-rpis/</link>
       <pubDate>Fri, 06 May 2016 09:26:13 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/news/lets-get-the-kids-some-rpis/</guid>
-      <description>A friend of Mr. Jase McCarty is teaching a class in programming control systems, and is in need of a few Raspberry Pi&amp;rsquo;s.
-Sadly the school can&amp;rsquo;t afford buying them outright, so if you have one laying around, that you are not using, get in touch with Jase and he&amp;rsquo;ll set you up with the details on how you can contribute! If you want to do even better, and buy some RPi&amp;rsquo;s outright and donate them to the project, check out this Amazon Wishlist!</description>
+      
+      <guid>https://vninja.net/news/lets-get-the-kids-some-rpis/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://vninja.net/img/2016/05/rpi-300x193.jpg&#34; alt=&#34;rpi&#34; /&gt;A friend of &lt;a href=&#34;https://twitter.com/jasemccarty&#34;&gt;Mr. Jase McCarty&lt;/a&gt; is teaching a class in programming control systems, and is in need of a few Raspberry Pi&amp;rsquo;s.
+&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>ESXi Embedded Host Client</title>
-      <link>/vmware-2/esxi-embedded-host-client/</link>
+      <link>https://vninja.net/vmware-2/esxi-embedded-host-client/</link>
       <pubDate>Wed, 12 Aug 2015 16:11:16 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/vmware-2/esxi-embedded-host-client/</guid>
-      <description>I almost choked on my coffee this morning when I saw William Lam announcing a new VMware Fling called ESXi Embedded Host Client. Finally the day when we can get a local vSphere Web Client on a standalone host is here, and it&amp;rsquo;s not a moment too soon. This feature has been missing since ESX 3 and it&amp;rsquo;s VMware Infrastructure Web Access. For now, this is a Fling (which means unsupported and so on), but I really hope that this ends up being built-in to ESXi very soon &amp;ndash; even on the free vSphere Hypervisor.</description>
+      
+      <guid>https://vninja.net/vmware-2/esxi-embedded-host-client/</guid>
+      <description>&lt;p&gt;I almost choked on my coffee this morning when I saw &lt;a href=&#34;http://www.virtuallyghetto.com/2015/08/new-html5-embedded-host-client-for-esxi.html&#34;&gt;William Lam announcing a new VMware Fling&lt;/a&gt; called &lt;a href=&#34;https://labs.vmware.com/flings/esxi-embedded-host-client&#34;&gt;ESXi Embedded Host Client&lt;/a&gt;. Finally the day when we can get a local vSphere Web Client on a standalone host is here, and it&amp;rsquo;s not a moment too soon. This feature has been missing since ESX 3 and it&amp;rsquo;s VMware Infrastructure Web Access. For now, this is a Fling (which means unsupported and so on), but I really hope that this ends up being built-in to ESXi very soon &amp;ndash; even on the free vSphere Hypervisor.
+&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Nordic VMUG Conference 2014</title>
-      <link>/virtualization/nordic-vmug-conference-2014/</link>
+      <link>https://vninja.net/virtualization/nordic-vmug-conference-2014/</link>
       <pubDate>Wed, 22 Oct 2014 21:18:23 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/nordic-vmug-conference-2014/</guid>
-      <description>Last year I was lucky enough to get to travel to Copenhagen and visit the Nordic VMUG conference. Sadly it doesn&amp;rsquo;t seem like I&amp;rsquo;ll be able to make it this year, but don&amp;rsquo;t let that stop you! While we in Norway are still trying to get our local VMUG up and running, more news on that in a very short while, the danish VMUG is really the driving force and the leading star for the rest of us in the nordics.</description>
+      
+      <guid>https://vninja.net/virtualization/nordic-vmug-conference-2014/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://vninja.net/img/nordic-vmug-conference-thoughts/&#34;&gt;Last year&lt;/a&gt; I was lucky enough to get to travel to Copenhagen and visit the Nordic VMUG conference. Sadly it doesn&amp;rsquo;t seem like I&amp;rsquo;ll be able to make it this year, but don&amp;rsquo;t let that stop &lt;strong&gt;you! &lt;/strong&gt;While we in Norway are still trying to get our local VMUG up and running, more news on that in a very short while, the danish VMUG is really the driving force and the leading star for the rest of us in the nordics.
+&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>2014 Top vBlog Results </title>
-      <link>/virtualization/2014-top-vblog-results/</link>
+      <link>https://vninja.net/virtualization/2014-top-vblog-results/</link>
       <pubDate>Thu, 27 Mar 2014 19:37:55 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/2014-top-vblog-results/</guid>
-      <description>Eric Siebert has yet again pulled through, and organized his annual top VMware &amp;amp; virtualization blogs vote, and the results are now in. Congratulations to everyone involved, be it bloggers, podcasters or otherwise engaged in making this possible.
-This year, Eric hosted a live Google Hangout session with John M. Troyer, David M. Davis and Rick Vanover where the top lists were revealed, be sure to check it out:
-http://www.youtube.com/watch?v=W2IVfOvKA5M</description>
+      
+      <guid>https://vninja.net/virtualization/2014-top-vblog-results/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Eric Siebert&lt;/strong&gt; has yet again pulled through, and organized his annual top VMware &amp;amp; virtualization blogs vote, and the &lt;a href=&#34;http://vsphere-land.com/news/2014-top-vmware-virtualization-blog-voting-results.html&#34;&gt;results are now in&lt;/a&gt;. Congratulations to everyone involved, be it bloggers, podcasters or otherwise engaged in making this possible.&lt;/p&gt;
+
+&lt;p&gt;This year, Eric hosted a live Google Hangout session with &lt;strong&gt;John M. Troyer&lt;/strong&gt;, &lt;strong&gt;David M. Davis&lt;/strong&gt; and &lt;strong&gt;Rick Vanover&lt;/strong&gt; where the top lists were revealed, be sure to check it out:&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Podcasting for Cancer</title>
-      <link>/virtualization/podcasting-cancer/</link>
+      <link>https://vninja.net/virtualization/podcasting-cancer/</link>
       <pubDate>Sat, 14 Sep 2013 20:14:03 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/podcasting-cancer/</guid>
+      
+      <guid>https://vninja.net/virtualization/podcasting-cancer/</guid>
       <description>Some times all it takes is one single tweet to set things in motion:
 Just a year after losing Dad to cancer, Mom&#39;s has now spread from lung to other areas. Too soon for this shit. — Gabriel Chapman (@Bacon_Is_King) [September 12, 2013](https://twitter.com/Bacon_Is_King/statuses/378283415839051776) This started a spiral of tweets, discussions and ideas being thrown around and has now resulted in Podcasting for Cancer.
 The current goal is to raise $5000 USD by November 12th - Let´s absolutely crush that goal!</description>
@@ -100,10 +102,10 @@ The current goal is to raise $5000 USD by November 12th - Let´s absolutely crus
     
     <item>
       <title>It`s Not Your Average Data it`s vOpenData</title>
-      <link>/virtualization/its-average-data-its-vopendata/</link>
+      <link>https://vninja.net/virtualization/its-average-data-its-vopendata/</link>
       <pubDate>Fri, 12 Apr 2013 23:09:20 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/its-average-data-its-vopendata/</guid>
+      
+      <guid>https://vninja.net/virtualization/its-average-data-its-vopendata/</guid>
       <description>So, what is the average airspeed velocity of an unladen swallow?
 As we all (should) know, that is very much a trick question.
 Now, consider this little non-trick question:

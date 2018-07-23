@@ -21,7 +21,7 @@
 
 <meta property="og:title" content="Backing up vCenter DB with Veeam B&amp;R 6.5  &middot; vNinja.net ">
 <meta property="og:site_name" content="vNinja.net"/>
-<meta property="og:url" content="/virtualization/backing-up-vcenter-db-with-veeam-br-6-5/" />
+<meta property="og:url" content="https://vninja.net/virtualization/backing-up-vcenter-db-with-veeam-br-6-5/" />
 <meta property="og:locale" content="en">
 
 
@@ -58,8 +58,8 @@
 <meta name="twitter:creator" content="@h0bbel" />
 <meta name="twitter:title" content="Backing up vCenter DB with Veeam B&amp;R 6.5" />
 <meta name="twitter:description" content="" />
-<meta name="twitter:url" content="/virtualization/backing-up-vcenter-db-with-veeam-br-6-5/" />
-<meta name="twitter:domain" content="/">
+<meta name="twitter:url" content="https://vninja.net/virtualization/backing-up-vcenter-db-with-veeam-br-6-5/" />
+<meta name="twitter:domain" content="https://vninja.net">
   
 
   
@@ -74,17 +74,17 @@
     },
     "datePublished": "2013-03-25",
     "description": "",
-    "wordCount": 368
+    "wordCount": 358
   }
 </script>
   
 
 
 
-<link rel="canonical" href="/virtualization/backing-up-vcenter-db-with-veeam-br-6-5/" />
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/touch-icon-144-precomposed.png">
-<link rel="icon" href="/favicon.png">
-<meta name="generator" content="Hugo 0.40.3" />
+<link rel="canonical" href="https://vninja.net/virtualization/backing-up-vcenter-db-with-veeam-br-6-5/" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://vninja.net/touch-icon-144-precomposed.png">
+<link rel="icon" href="https://vninja.net/favicon.png">
+<meta name="generator" content="Hugo 0.42.2" />
 
   <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
@@ -93,18 +93,42 @@
 
 
 
-    <link rel="stylesheet" href="/css/bootswatch/lux/bootstrap.min.css">
+    <link rel="stylesheet" href="https://vninja.net/css/bootswatch/yeti/bootstrap.min.css">
 
 
-<link rel="stylesheet" href="/css/font-awesome.min.css">
-<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="https://vninja.net/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://vninja.net/css/style.css">
 
 
-<link rel="stylesheet" href="/css/style_custom.css">
+<link rel="stylesheet" href="https://vninja.net/css/style_custom.css">
 
 
 
-  <link rel="stylesheet" href="/css/highlight/default.css">
+  <link rel="stylesheet" href="https://vninja.net/css/highlight/default.css">
+
+
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+  <script>
+  window.addEventListener("load", function(){
+  window.cookieconsent.initialise({
+    "palette": {
+      "popup": {
+        "background": "#efefef",
+        "text": "#404040"
+      },
+      "button": {
+        "background": "#8ec760",
+        "text": "#ffffff"
+      }
+    },
+    "showLink": false,
+    "position": "bottom-right"
+  })});
+  </script>
+</script>
+
+
 
 
 </head>
@@ -120,7 +144,7 @@
           <span class="icon-bar"></span>
         </button>
         
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand" href="https://vninja.net/">
           vNinja.net
           
           
@@ -136,11 +160,7 @@
                   <ul class="dropdown-menu">
                     
                       <li class="">
-                        <a href="/about/christian-mohn/"><i class='fa fa-child'></i> About vNinja</a>
-                      </li>
-                    
-                      <li class="">
-                        <a href="/about/christian-mohn/"><i class='fa fa-child'></i> About Christian</a>
+                        <a href="https://vninja.net/about/christian-mohn/"><i class='fa fa-child'></i> About Christian</a>
                       </li>
                     
                   </ul>
@@ -149,11 +169,11 @@
             
             <li class="">
               
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class='fa fa-hand-lizard-o'></i> Site Policy <span class="caret"></span></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class='fa fa-asterisk'></i> Site Policy <span class="caret"></span></a>
                   <ul class="dropdown-menu">
                     
                       <li class="">
-                        <a href="/about/privacy-policy"><i class='fa fa-hand-lizard-o'></i> Privacy Policy</a>
+                        <a href="https://vninja.net/about/privacy-policy"><i class='fa fa-asterisk'></i> Privacy Policy</a>
                       </li>
                     
                   </ul>
@@ -162,9 +182,18 @@
             
             <li class="">
               
-                <a href="/advertising" >
+                <a href="https://vninja.net/advertising" >
                   <i class='fa fa-bank'></i>
                   Advertising
+                </a>
+              
+            </li>
+            
+            <li class="">
+              
+                <a href="https://vninja.net/post/index.xml" >
+                  <i class='fa fa-rss'></i>
+                  RSS
                 </a>
               
             </li>
@@ -204,49 +233,32 @@
     &middot; by Christian Mohn
   
   &middot; Read in about 2 min
-  &middot; (368 words)
+  &middot; (358 words)
   &middot; 
-<span class="share-box">Share this on:
-    <a href="https://www.facebook.com/sharer/sharer.php?u=%2fvirtualization%2fbacking-up-vcenter-db-with-veeam-br-6-5%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-facebook-official "></i></a>
 
-    <a href="https://twitter.com/intent/tweet?text=Backing%20up%20vCenter%20DB%20with%20Veeam%20B%26R%206.5&amp;url=%2fvirtualization%2fbacking-up-vcenter-db-with-veeam-br-6-5%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-twitter"></i></a>
-
-    <a href="https://plus.google.com/share?url=%2fvirtualization%2fbacking-up-vcenter-db-with-veeam-br-6-5%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-google-plus"></i></a>
-
-    <a href="http://www.reddit.com/submit?url=%2fvirtualization%2fbacking-up-vcenter-db-with-veeam-br-6-5%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-reddit"></i></a>
-
-    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fvirtualization%2fbacking-up-vcenter-db-with-veeam-br-6-5%2f&amp;title=Backing%20up%20vCenter%20DB%20with%20Veeam%20B%26R%206.5" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-linkedin"></i></a>
-
-    <a href="mailto:?subject=Backing%20up%20vCenter%20DB%20with%20Veeam%20B%26R%206.5&amp;body=Check out this site %2fvirtualization%2fbacking-up-vcenter-db-with-veeam-br-6-5%2f" data-proofer-ignore=""><i class="fa fa-envelope"></i></a>
-  </span>
 
   </small>
 
 <div class="margin-10">
   <i class="fa fa-tags"></i>
   
-  <a href="/tags/automation" class="label label-primary">automation</a>
+  <a href="https://vninja.net/tags/automation" class="label label-primary">automation</a>
   
-  <a href="/tags/backup" class="label label-primary">Backup</a>
+  <a href="https://vninja.net/tags/backup" class="label label-primary">Backup</a>
   
-  <a href="/tags/ops" class="label label-primary">Ops</a>
+  <a href="https://vninja.net/tags/ops" class="label label-primary">Ops</a>
   
-  <a href="/tags/realworld" class="label label-primary">realworld</a>
+  <a href="https://vninja.net/tags/realworld" class="label label-primary">realworld</a>
   
-  <a href="/tags/vcenter" class="label label-primary">vCenter</a>
+  <a href="https://vninja.net/tags/vcenter" class="label label-primary">vCenter</a>
   
-  <a href="/tags/veeam" class="label label-primary">Veeam</a>
+  <a href="https://vninja.net/tags/veeam" class="label label-primary">Veeam</a>
   
-  <a href="/tags/vmware" class="label label-primary">VMware</a>
+  <a href="https://vninja.net/tags/vmware" class="label label-primary">VMware</a>
   
-  <a href="/tags/vsphere" class="label label-primary">vSphere</a>
+  <a href="https://vninja.net/tags/vsphere" class="label label-primary">vSphere</a>
   
-  <a href="/tags/workaround" class="label label-primary">workaround</a>
+  <a href="https://vninja.net/tags/workaround" class="label label-primary">workaround</a>
   
 
 
@@ -260,13 +272,16 @@
 
 
       <div class="content">
+
+  
+
   
 
 <p>It´s a well known problem that with Veeam Backup &amp; Recovery Replication 6.5, and earlier, backing up the SQL server that hosts the vCenter DB poses a problem. <a href="http://www.veeam.com/kb1051">KB1051 VSS for vCenter</a> outlines the issue well, and provides a workaround.</p>
 
 <p>If you experience this problem, you will see entries like this in your Veeam B&amp;R backup logs:</p>
 
-<p>[caption id=&laquo;attachment_2490&raquo; align=&laquo;aligncenter&raquo; width=&laquo;640&raquo;]<a href="http://vninja.net/wordpress/wp-content/uploads/2013/03/VeeamvCenterBackup01.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2013/03/VeeamvCenterBackup01-1024x214.png" alt="Veeam vCenterDB Backup Error" /></a> Veeam vCenterDB Backup Error[/caption]</p>
+<p><a href="https://vninja.net/img/VeeamvCenterBackup01.png"><img src="https://vninja.net/img/VeeamvCenterBackup01-1024x214.png" alt="Veeam vCenterDB Backup Error" /></a> Veeam vCenterDB Backup Error</p>
 
 <p>The workaround provided by Veeam is to create host VM-Host Affinity Rules, effectively pinning a VM to a given host, and then perform the VM backup through the host rather than through the vCenter.</p>
 
@@ -284,10 +299,8 @@
 
 <p>Doing such a query is pretty easy,  below is an example using PowerCLI:</p>
 
-<p>[cc lang=&laquo;powershell&raquo; width=&laquo;95%&raquo; theme=&laquo;blackboard&raquo; nowrap=&laquo;0&raquo;]
-Get-VMHost -VM dbserv | fl -Property Name
-Name : esx02
-[/cc]</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">Get-VMHost -VM dbserv | fl -Property Name
+Name : esx02</code></pre></div>
 
 <p><strong>This simple query returns the host that the given VM resides on at the given time, why not do something like this inside of Veeam B&amp;R to make sure that vCenter DB backups work, without having to resort to VM-Host Affinity Rules?</strong></p>
 
@@ -296,24 +309,7 @@ Name : esx02
 
       <footer>
   
-<span class="share-box">Share this on:
-    <a href="https://www.facebook.com/sharer/sharer.php?u=%2fvirtualization%2fbacking-up-vcenter-db-with-veeam-br-6-5%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-facebook-official "></i></a>
 
-    <a href="https://twitter.com/intent/tweet?text=Backing%20up%20vCenter%20DB%20with%20Veeam%20B%26R%206.5&amp;url=%2fvirtualization%2fbacking-up-vcenter-db-with-veeam-br-6-5%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-twitter"></i></a>
-
-    <a href="https://plus.google.com/share?url=%2fvirtualization%2fbacking-up-vcenter-db-with-veeam-br-6-5%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-google-plus"></i></a>
-
-    <a href="http://www.reddit.com/submit?url=%2fvirtualization%2fbacking-up-vcenter-db-with-veeam-br-6-5%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-reddit"></i></a>
-
-    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fvirtualization%2fbacking-up-vcenter-db-with-veeam-br-6-5%2f&amp;title=Backing%20up%20vCenter%20DB%20with%20Veeam%20B%26R%206.5" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-linkedin"></i></a>
-
-    <a href="mailto:?subject=Backing%20up%20vCenter%20DB%20with%20Veeam%20B%26R%206.5&amp;body=Check out this site %2fvirtualization%2fbacking-up-vcenter-db-with-veeam-br-6-5%2f" data-proofer-ignore=""><i class="fa fa-envelope"></i></a>
-  </span>
 
   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
       
@@ -321,7 +317,7 @@ Name : esx02
     <nav><ul class="pager">
     
         <li class="previous">
-          <a href="/virtualization/preserve-veeam-br-backups-jobs-moving-vcenter/" title="Preserve your Veeam B&amp;R Backups Jobs when Moving vCenter">
+          <a href="https://vninja.net/virtualization/preserve-veeam-br-backups-jobs-moving-vcenter/" title="Preserve your Veeam B&amp;R Backups Jobs when Moving vCenter">
             <span aria-hidden="true">&larr;</span>Previous
           </a>
         </li>
@@ -329,7 +325,7 @@ Name : esx02
 
     
       <li class="next">
-        <a href="/vmware-2/brilliant-idea-vmware-hosted-beta/" title="Brilliant idea: VMware Hosted Beta">
+        <a href="https://vninja.net/vmware-2/brilliant-idea-vmware-hosted-beta/" title="Brilliant idea: VMware Hosted Beta">
             Next <span aria-hidden="true">&rarr;</span>
         </a>
       </li>
@@ -350,24 +346,35 @@ Name : esx02
     </div>
     
       <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-        <hr>
-<div>
+        <div>
   
 
     <div class="section">
-      <div class="ads">
-        <a href="http://turbonomic.com/resources/hybrid-cloud-intelligent-bursting-aws-microsoft-azure/?utm_source=vninja&amp;utm_medium=banner-ad&amp;utm_campaign=wp-path-to-hybrid-cloud&amp;utm_content=250x250"><img width="250" height="250" src="https://i1.wp.com/vninja.net/wordpress/wp-content/uploads/2017/11/wp-intelligent-bursting-aws-azure-250x250.png?zoom=2&amp;fit=250%2C250" alt="" title="wp-intelligent-bursting-aws-azure (250x250)" src-orig="https://i1.wp.com/vninja.net/wordpress/wp-content/uploads/2017/11/wp-intelligent-bursting-aws-azure-250x250.png?fit=250%2C250" scale="2"></a>
+      <h4>Sponsors</h4>
+      <div class="ads" id="veeam">
+        <ins class='dcmads' style='display:inline-block;width:250px;height:250px' data-dcm-placement='N410401.1772869VNINJA.NET/B10464038.145283149' data-dcm-rendering-mode='iframe' data-dcm-https-only data-dcm-resettable-device-id='' data-dcm-app-id=''> <script src='https://www.googletagservices.com/dcm/dcmads.js'></script> </ins>
       </div>
-      <div class="ads">
-        <a href="http://cohesity.com"><img width="250" height="250" src="https://i2.wp.com/vninja.net/wordpress/wp-content/uploads/2016/12/250x250_cohesity_ad-1.gif?zoom=2&amp;fit=250%2C250" alt="" title="250x250_cohesity_ad-1" src-orig="https://i2.wp.com/vninja.net/wordpress/wp-content/uploads/2016/12/250x250_cohesity_ad-1.gif?fit=250%2C250" scale="2"></a>
+      <div class="ads" id="turbonomic">
+        <a href="http://turbonomic.com/resources/hybrid-cloud-intelligent-bursting-aws-microsoft-azure/?utm_source=vninja&amp;utm_medium=banner-ad&amp;utm_campaign=wp-path-to-hybrid-cloud&amp;">
+          <img width="250" height="250" src="https://vninja.net/ads/wp-intelligent-bursting-aws-azure-250x250.png"></a>
       </div>
+      <div class="ads" id="goliath">
+        <a href="http://goliathtechnologies.com/performance-monitoring/application-desktop-virtualization/vmware-horizon-view-monitoring/?utm_source=VNINJA&#038;utm_medium=PARTNER-MKTG&#038;utm_campaign=PARTNER-MKTG-VNINJA"><img width="250" height="250" src='https://vninja.net/ads/VMwareHorizon.jpg' alt='' title='VMwareHorizon' /></a>
+      </div>
+      <div class="ads" id="vembu">
+        <a href="https://www.vembu.com/free-vm-backup/?utm_source=vninja.net&#038;utm_medium=Banner"><img width="250" height="250" src='https://vninja.net/ads/vembu250-250.gif'/></a>
+      </div>
+
+
     </div>
-<hr>
+
+    <hr>
     
       
       
       <div class="section">
-        sidebar 2
+
+
       </div>
       
     
@@ -391,9 +398,7 @@ Name : esx02
 </div>
 <div class="pull-right">
 
-<a href="/disclaimer/">Disclaimer</a> <i>&middot;</i>
-
-<a href="/terms/">Terms</a> 
+<a href="https://vninja.net/disclaimer/">Disclaimer</a> <i>&middot;</i>
 
 </div>
 
@@ -412,7 +417,7 @@ Name : esx02
     
 <div class="container copyright">
     <small>
-  &copy; 2018 Copyright my blog
+  &copy; 2018 Christian Mohn
 
   </small>
 </div>
@@ -427,17 +432,17 @@ Name : esx02
 
     
 
-<script src="/js/jquery.min.js"></script>
-<script src="/js/bootstrap.min.js"></script>
+<script src="https://vninja.net/js/jquery.min.js"></script>
+<script src="https://vninja.net/js/bootstrap.min.js"></script>
 
 
-<script src="/js/highlight.pack.js"></script>
-<script src="/js/site.js"></script>
+<script src="https://vninja.net/js/highlight.pack.js"></script>
+<script src="https://vninja.net/js/site.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
 
 <script>
-  var _gaq=[['_setAccount','Your Google Analytics tracking code'],['_trackPageview']];
+  var _gaq=[['_setAccount','UA-121910549-1'],['_trackPageview']];
   (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
   g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
   s.parentNode.insertBefore(g,s)}(document,'script'));

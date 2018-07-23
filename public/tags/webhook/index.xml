@@ -2,27 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Webhook on vNinja.net</title>
-    <link>/tags/webhook/</link>
+    <link>https://vninja.net/tags/webhook/</link>
     <description>Recent content in Webhook on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Thu, 06 Oct 2016 10:52:09 +0000</lastBuildDate>
     
-	<atom:link href="/tags/webhook/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/webhook/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>HomeLabOps via Slack</title>
-      <link>/homelab/homelabops-via-slack/</link>
+      <link>https://vninja.net/homelab/homelabops-via-slack/</link>
       <pubDate>Thu, 06 Oct 2016 10:52:09 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/homelab/homelabops-via-slack/</guid>
-      <description>Just like Lior Kamrat I&amp;rsquo;ve set up my own private Slack for messaging and alerting from various services running both in my lab and some external facing services. It&amp;rsquo;s only been running a few days, but so far it works brilliantly and helps me keep track.
-So far, I&amp;rsquo;ve set up Slack alerting and/or integrations for the following items:
- StatusCake monitoring for vNinja.net and other public facing web services</description>
+      
+      <guid>https://vninja.net/homelab/homelabops-via-slack/</guid>
+      <description>&lt;p&gt;Just like &lt;a href=&#34;http://imallvirtual.com/vrops-and-slack-collaborate-your-ops/&#34;&gt;Lior Kamrat&lt;/a&gt; I&amp;rsquo;ve set up my own private Slack for messaging and alerting from various services running both in my lab and some external facing services.  It&amp;rsquo;s only been running a few days, but so far it works brilliantly and helps me keep track.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

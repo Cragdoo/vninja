@@ -2,24 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Competition on vNinja.net</title>
-    <link>/tags/competition/</link>
+    <link>https://vninja.net/tags/competition/</link>
     <description>Recent content in Competition on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Sat, 27 Oct 2012 16:42:11 +0000</lastBuildDate>
     
-	<atom:link href="/tags/competition/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/competition/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Want Access to the VMworld 2012 Sessions?</title>
-      <link>/vmware-2/access-vmworld-2012-sessions/</link>
+      <link>https://vninja.net/vmware-2/access-vmworld-2012-sessions/</link>
       <pubDate>Sat, 27 Oct 2012 16:42:11 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/vmware-2/access-vmworld-2012-sessions/</guid>
+      
+      <guid>https://vninja.net/vmware-2/access-vmworld-2012-sessions/</guid>
       <description>Fellow vExpert Rick Scherer is giving away a voucher that provides free access to all of the VMworld 2012 sessions, including associated MP3′s and PDF’s.
 Have a look at his post Win Access to VMworld 2012 Sessions and enter to win now!
 Good stuff Rick, real good!

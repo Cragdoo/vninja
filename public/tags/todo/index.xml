@@ -2,25 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Todo on vNinja.net</title>
-    <link>/tags/todo/</link>
+    <link>https://vninja.net/tags/todo/</link>
     <description>Recent content in Todo on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Tue, 24 Oct 2017 10:38:13 +0000</lastBuildDate>
     
-	<atom:link href="/tags/todo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/todo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>How I use Todoist</title>
-      <link>/workflow/how-i-use-todoist/</link>
+      <link>https://vninja.net/workflow/how-i-use-todoist/</link>
       <pubDate>Tue, 24 Oct 2017 10:38:13 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/workflow/how-i-use-todoist/</guid>
-      <description>As I&amp;rsquo;ve mentioned before, I use Todoist to keep track of my personal to-do list. This is the first to-do manager I&amp;rsquo;ve been able to stick with, and I&amp;rsquo;ve been using it daily for well over 2 years now. In that two year period I&amp;rsquo;ve reorganised it a bit, but for the most part I&amp;rsquo;ve been able to keep to the main structure I initially created when setting it up the first time.</description>
+      
+      <guid>https://vninja.net/workflow/how-i-use-todoist/</guid>
+      <description>&lt;p&gt;As I&amp;rsquo;ve mentioned before, &lt;a href=&#34;http://vninja.net/workflow/todoist-one-year-later/&#34;&gt;I use Todoist&lt;/a&gt; to keep track of my personal to-do list. This is the first to-do manager I&amp;rsquo;ve been able to stick with, and I&amp;rsquo;ve been using it daily for well over 2 years now. In that two year period I&amp;rsquo;ve reorganised it a bit, but for the most part I&amp;rsquo;ve been able to keep to the main structure I initially created when setting it up the first time.
+&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -2,26 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Day 2 on vNinja.net</title>
-    <link>/tags/day-2/</link>
+    <link>https://vninja.net/tags/day-2/</link>
     <description>Recent content in Day 2 on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Tue, 11 Apr 2017 16:08:30 +0000</lastBuildDate>
     
-	<atom:link href="/tags/day-2/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/day-2/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>VMware vSAN 6.6 - What&#39;s New for Day 2 Operations?</title>
-      <link>/virtualization/vmware-vsan-6-6-whats-new-for-day-2-operations/</link>
+      <link>https://vninja.net/virtualization/vmware-vsan-6-6-whats-new-for-day-2-operations/</link>
       <pubDate>Tue, 11 Apr 2017 16:08:30 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/vmware-vsan-6-6-whats-new-for-day-2-operations/</guid>
-      <description>VMware has just announced vSAN v6.6, with over 20 new features. While new and shiny features are nice I&amp;rsquo;d like to highlight a couple that I think might be undervalued from release feature-set perspective, but highly valuable in day to day operations of a vSAN environment, otherwise known as Day 2 operations.
-vSAN Configuration Assist is one such new feature. While it&amp;rsquo;s true that it helps first time configuration of a greenfield installation with vSAN (no more bootstrapping, yay!</description>
+      
+      <guid>https://vninja.net/virtualization/vmware-vsan-6-6-whats-new-for-day-2-operations/</guid>
+      <description>&lt;p&gt;VMware has just &lt;a href=&#34;https://blogs.vmware.com/virtualblocks/2017/04/11/whats-new-vmware-vsan-6-6/&#34;&gt;announced vSAN v6.6&lt;/a&gt;, with over 20 new features. While new and shiny features are nice I&amp;rsquo;d like to highlight &lt;strong&gt;a couple&lt;/strong&gt; that I think might be undervalued from release feature-set perspective, but highly valuable in day to day operations of a vSAN environment, otherwise known as &lt;em&gt;Day 2 operations&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

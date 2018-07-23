@@ -21,7 +21,7 @@
 
 <meta property="og:title" content="Installing Dell Equallogic Multipathing Extension Module (MEM) in vSphere 5.1  &middot; vNinja.net ">
 <meta property="og:site_name" content="vNinja.net"/>
-<meta property="og:url" content="/virtualization/installing-dell-equallogic-multipathing-extension-module-mem-vsphere-5-1/" />
+<meta property="og:url" content="https://vninja.net/virtualization/installing-dell-equallogic-multipathing-extension-module-mem-vsphere-5-1/" />
 <meta property="og:locale" content="en">
 
 
@@ -54,8 +54,8 @@
 <meta name="twitter:creator" content="@h0bbel" />
 <meta name="twitter:title" content="Installing Dell Equallogic Multipathing Extension Module (MEM) in vSphere 5.1" />
 <meta name="twitter:description" content="" />
-<meta name="twitter:url" content="/virtualization/installing-dell-equallogic-multipathing-extension-module-mem-vsphere-5-1/" />
-<meta name="twitter:domain" content="/">
+<meta name="twitter:url" content="https://vninja.net/virtualization/installing-dell-equallogic-multipathing-extension-module-mem-vsphere-5-1/" />
+<meta name="twitter:domain" content="https://vninja.net">
   
 
   
@@ -70,17 +70,17 @@
     },
     "datePublished": "2013-04-22",
     "description": "",
-    "wordCount": 432
+    "wordCount": 417
   }
 </script>
   
 
 
 
-<link rel="canonical" href="/virtualization/installing-dell-equallogic-multipathing-extension-module-mem-vsphere-5-1/" />
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/touch-icon-144-precomposed.png">
-<link rel="icon" href="/favicon.png">
-<meta name="generator" content="Hugo 0.40.3" />
+<link rel="canonical" href="https://vninja.net/virtualization/installing-dell-equallogic-multipathing-extension-module-mem-vsphere-5-1/" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://vninja.net/touch-icon-144-precomposed.png">
+<link rel="icon" href="https://vninja.net/favicon.png">
+<meta name="generator" content="Hugo 0.42.2" />
 
   <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
@@ -89,18 +89,42 @@
 
 
 
-    <link rel="stylesheet" href="/css/bootswatch/lux/bootstrap.min.css">
+    <link rel="stylesheet" href="https://vninja.net/css/bootswatch/yeti/bootstrap.min.css">
 
 
-<link rel="stylesheet" href="/css/font-awesome.min.css">
-<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="https://vninja.net/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://vninja.net/css/style.css">
 
 
-<link rel="stylesheet" href="/css/style_custom.css">
+<link rel="stylesheet" href="https://vninja.net/css/style_custom.css">
 
 
 
-  <link rel="stylesheet" href="/css/highlight/default.css">
+  <link rel="stylesheet" href="https://vninja.net/css/highlight/default.css">
+
+
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+  <script>
+  window.addEventListener("load", function(){
+  window.cookieconsent.initialise({
+    "palette": {
+      "popup": {
+        "background": "#efefef",
+        "text": "#404040"
+      },
+      "button": {
+        "background": "#8ec760",
+        "text": "#ffffff"
+      }
+    },
+    "showLink": false,
+    "position": "bottom-right"
+  })});
+  </script>
+</script>
+
+
 
 
 </head>
@@ -116,7 +140,7 @@
           <span class="icon-bar"></span>
         </button>
         
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand" href="https://vninja.net/">
           vNinja.net
           
           
@@ -132,11 +156,7 @@
                   <ul class="dropdown-menu">
                     
                       <li class="">
-                        <a href="/about/christian-mohn/"><i class='fa fa-child'></i> About vNinja</a>
-                      </li>
-                    
-                      <li class="">
-                        <a href="/about/christian-mohn/"><i class='fa fa-child'></i> About Christian</a>
+                        <a href="https://vninja.net/about/christian-mohn/"><i class='fa fa-child'></i> About Christian</a>
                       </li>
                     
                   </ul>
@@ -145,11 +165,11 @@
             
             <li class="">
               
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class='fa fa-hand-lizard-o'></i> Site Policy <span class="caret"></span></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class='fa fa-asterisk'></i> Site Policy <span class="caret"></span></a>
                   <ul class="dropdown-menu">
                     
                       <li class="">
-                        <a href="/about/privacy-policy"><i class='fa fa-hand-lizard-o'></i> Privacy Policy</a>
+                        <a href="https://vninja.net/about/privacy-policy"><i class='fa fa-asterisk'></i> Privacy Policy</a>
                       </li>
                     
                   </ul>
@@ -158,9 +178,18 @@
             
             <li class="">
               
-                <a href="/advertising" >
+                <a href="https://vninja.net/advertising" >
                   <i class='fa fa-bank'></i>
                   Advertising
+                </a>
+              
+            </li>
+            
+            <li class="">
+              
+                <a href="https://vninja.net/post/index.xml" >
+                  <i class='fa fa-rss'></i>
+                  RSS
                 </a>
               
             </li>
@@ -199,46 +228,29 @@
   <small>
     &middot; by Christian Mohn
   
-  &middot; Read in about 3 min
-  &middot; (432 words)
+  &middot; Read in about 2 min
+  &middot; (417 words)
   &middot; 
-<span class="share-box">Share this on:
-    <a href="https://www.facebook.com/sharer/sharer.php?u=%2fvirtualization%2finstalling-dell-equallogic-multipathing-extension-module-mem-vsphere-5-1%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-facebook-official "></i></a>
 
-    <a href="https://twitter.com/intent/tweet?text=Installing%20Dell%20Equallogic%20Multipathing%20Extension%20Module%20%28MEM%29%20in%20vSphere%205.1&amp;url=%2fvirtualization%2finstalling-dell-equallogic-multipathing-extension-module-mem-vsphere-5-1%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-twitter"></i></a>
-
-    <a href="https://plus.google.com/share?url=%2fvirtualization%2finstalling-dell-equallogic-multipathing-extension-module-mem-vsphere-5-1%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-google-plus"></i></a>
-
-    <a href="http://www.reddit.com/submit?url=%2fvirtualization%2finstalling-dell-equallogic-multipathing-extension-module-mem-vsphere-5-1%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-reddit"></i></a>
-
-    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fvirtualization%2finstalling-dell-equallogic-multipathing-extension-module-mem-vsphere-5-1%2f&amp;title=Installing%20Dell%20Equallogic%20Multipathing%20Extension%20Module%20%28MEM%29%20in%20vSphere%205.1" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-linkedin"></i></a>
-
-    <a href="mailto:?subject=Installing%20Dell%20Equallogic%20Multipathing%20Extension%20Module%20%28MEM%29%20in%20vSphere%205.1&amp;body=Check out this site %2fvirtualization%2finstalling-dell-equallogic-multipathing-extension-module-mem-vsphere-5-1%2f" data-proofer-ignore=""><i class="fa fa-envelope"></i></a>
-  </span>
 
   </small>
 
 <div class="margin-10">
   <i class="fa fa-tags"></i>
   
-  <a href="/tags/dell" class="label label-primary">Dell</a>
+  <a href="https://vninja.net/tags/dell" class="label label-primary">Dell</a>
   
-  <a href="/tags/equallogic" class="label label-primary">Equallogic</a>
+  <a href="https://vninja.net/tags/equallogic" class="label label-primary">Equallogic</a>
   
-  <a href="/tags/esxi" class="label label-primary">ESXi</a>
+  <a href="https://vninja.net/tags/esxi" class="label label-primary">ESXi</a>
   
-  <a href="/tags/howto" class="label label-primary">HowTo</a>
+  <a href="https://vninja.net/tags/howto" class="label label-primary">HowTo</a>
   
-  <a href="/tags/multipath" class="label label-primary">Multipath</a>
+  <a href="https://vninja.net/tags/multipath" class="label label-primary">Multipath</a>
   
-  <a href="/tags/storage" class="label label-primary">storage</a>
+  <a href="https://vninja.net/tags/storage" class="label label-primary">storage</a>
   
-  <a href="/tags/vsphere" class="label label-primary">vSphere</a>
+  <a href="https://vninja.net/tags/vsphere" class="label label-primary">vSphere</a>
   
 
 
@@ -252,6 +264,9 @@
 
 
       <div class="content">
+
+  
+
   <p>Dell offers a Multipathing Extension Module (MEM) for vSphere, and in this post I´ll highlight how to &laquo;manually&raquo; install it on a ESXi 5.1 host. <em>I will not cover the network setup part of the equation, but rather go through the simple steps required to get the MEM installed on the hosts in question.</em></p>
 
 <p>First of all, you need to download the MEM installation package. At the time of writing, the latest version is v1.1.2.292203, available from <a href="http://equallogic.com">equallogic.com</a>. One the archive file is aquired, unzip it and upload the <em>dell-eql-mem-esx5-1.1.2.292203.zip</em> file to a shared location available in your environment. For the example below, I have used a VMFS datastore that is available to all the hosts in this particular cluster.</p>
@@ -262,91 +277,64 @@
 
 <p>The command required to install the MEM is as follows:</p>
 
-<p>[cc lang=&laquo;bash&raquo; width=&laquo;100%&raquo; theme=&laquo;blackboard&raquo; nowrap=&laquo;0&raquo;]
-esxcli software vib install &ndash;depot /vmfs/volumes/vmfsvol/dell/dell-eql-mem-esx5-1.1.2.292203.zip[/cc]</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">esxcli software vib install --depot /vmfs/volumes/vmfsvol/dell/dell-eql-mem-esx5-1.1.2.292203.zip</code></pre></div>
 
 <p>A completed installation looks like this:</p>
 
-<p>[cc lang=&laquo;bash&raquo; width=&laquo;100%&raquo; theme=&laquo;blackboard&raquo; nowrap=&laquo;0&raquo;]</p>
-
-<p>login as: root
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">login as: root
 Using keyboard-interactive authentication.
 Password:
-The time and date of this login have been sent to the system logs.</p>
+The time and date of this login have been sent to the system logs.
 
-<p>VMware offers supported, powerful system administration tools. Please
-see www.vmware.com/go/sysadmintools for details.</p>
+VMware offers supported, powerful system administration tools. Please
+see www.vmware.com/go/sysadmintools <span style="color:#66d9ef">for</span> details.
 
-<p>The ESXi Shell can be disabled by an administrative user. See the
-vSphere Security documentation for more information.
-~ # esxcli software vib install &ndash;depot /vmfs/volumes/vmfsvol/dell/dell-eql-mem-esx5-1.1.2.292203.zip
-Installation Result
+The ESXi Shell can be disabled by an administrative user. See the
+vSphere Security documentation <span style="color:#66d9ef">for</span> more information.
+~ <span style="color:#75715e"># esxcli software vib install --depot /vmfs/volumes/vmfsvol/dell/dell-eql-mem-esx5-1.1.2.292203.zip
+</span><span style="color:#75715e"></span>Installation Result
 Message: Operation finished successfully.
 Reboot Required: false
 VIBs Installed: Dell_bootbank_dell-eql-host-connection-mgr_1.1.1-268843, Dell_bootbank_dell-eql-hostprofile_1.1.0-212190, Dell_bootbank_dell-eql-routed-psp_1.1.1-262227
 VIBs Removed:
 VIBs Skipped:
-~ #[/cc]</p>
+~ #</code></pre></div>
 
 <p>I then restart the hosts process, to make sure that the multipath module is activated.</p>
 
-<p>[cc lang=&laquo;bash&raquo; width=&laquo;100%&raquo; theme=&laquo;blackboard&raquo; nowrap=&laquo;0&raquo;]
-~ # /etc/init.d/hostd restart
-watchdog-hostd: Terminating watchdog process with PID 9592
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">~ <span style="color:#75715e"># /etc/init.d/hostd restart
+</span><span style="color:#75715e"></span>watchdog-hostd: Terminating watchdog process with PID <span style="color:#ae81ff">9592</span>
 hostd stopped.
 hostd started.
-~ #[/cc]</p>
+~ #</code></pre></div>
 
 <p>Finally, a quick check to see if the new Equallogic namespace is available, and that it is gathering statistics, i.e. being used:</p>
 
-<p>[cc lang=&laquo;bash&raquo; width=&laquo;100%&raquo; theme=&laquo;blackboard&raquo; nowrap=&laquo;0&raquo;]
-~ # esxcli equallogic stat summary
-DeviceId VolumeName PathCount Reads Writes KBRead KBWritten</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">~ <span style="color:#75715e"># esxcli equallogic stat summary
+</span><span style="color:#75715e"></span>DeviceId VolumeName PathCount Reads Writes KBRead KBWritten
+-------------------------------- ---------- --------- ----- ------ ------ ---------
+6090A098E0DC5D9F71E6940292F8569C vmvolume <span style="color:#ae81ff">2</span> <span style="color:#ae81ff">2573</span> <span style="color:#ae81ff">30</span> <span style="color:#ae81ff">20429</span> <span style="color:#ae81ff">14</span>
+6090A098D06C5A31CEDE44CC17CBF14B test2t <span style="color:#ae81ff">2</span> <span style="color:#ae81ff">651</span> <span style="color:#ae81ff">30</span> <span style="color:#ae81ff">13028</span> <span style="color:#ae81ff">14</span>
+6090A098D06C4AF067EDD4C904C6A453 vmvolume3 <span style="color:#ae81ff">2</span> <span style="color:#ae81ff">642</span> <span style="color:#ae81ff">30</span> <span style="color:#ae81ff">10592</span> <span style="color:#ae81ff">14</span>
+6090A098C08D5E928EE634938F42605B vmvolume1 <span style="color:#ae81ff">2</span> <span style="color:#ae81ff">1834</span> <span style="color:#ae81ff">30</span> <span style="color:#ae81ff">20023</span> <span style="color:#ae81ff">14</span>
+~ #</code></pre></div>
 
-<hr />
+<p><a href="https://vninja.net/img/pre-mem-install.png"><img src="https://vninja.net/img/pre-mem-install-300x221.png" alt="pre-mem-install" /></a></p>
 
-<p>6090A098E0DC5D9F71E6940292F8569C vmvolume 2 2573 30 20429 14
-6090A098D06C5A31CEDE44CC17CBF14B test2t 2 651 30 13028 14
-6090A098D06C4AF067EDD4C904C6A453 vmvolume3 2 642 30 10592 14
-6090A098C08D5E928EE634938F42605B vmvolume1 2 1834 30 20023 14
-~ #[/cc]</p>
+<p>Screenshots displaying the ESXi host path policy before:[](/img/pre-mem-install.png)</p>
 
-<p><a href="http://vninja.net/wordpress/wp-content/uploads/2013/04/pre-mem-install.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2013/04/pre-mem-install-300x221.png" alt="pre-mem-install" /></a></p>
-
-<p>Screenshots displaying the ESXi host path policy before:<a href="http://vninja.net/wordpress/wp-content/uploads/2013/04/pre-mem-install.png">
-</a></p>
-
-<p><img src="http://vninja.net/wordpress/wp-content/uploads/2013/04/post-mem-install-300x221.png" alt="post-mem-install" /></p>
+<p><img src="https://vninja.net/img/post-mem-install-300x221.png" alt="post-mem-install" /></p>
 
 <p>and after installing the Dell Equallogic MEM:</p>
 
-<p>[</p>
-
-<p>](<a href="http://vninja.net/wordpress/wp-content/uploads/2013/04/post-mem-install.png">http://vninja.net/wordpress/wp-content/uploads/2013/04/post-mem-install.png</a>)</p>
+<p><img src="https://vninja.net/img/post-mem-install.png" alt="" /></p>
 
 </div>
 
 
       <footer>
   
-<span class="share-box">Share this on:
-    <a href="https://www.facebook.com/sharer/sharer.php?u=%2fvirtualization%2finstalling-dell-equallogic-multipathing-extension-module-mem-vsphere-5-1%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-facebook-official "></i></a>
 
-    <a href="https://twitter.com/intent/tweet?text=Installing%20Dell%20Equallogic%20Multipathing%20Extension%20Module%20%28MEM%29%20in%20vSphere%205.1&amp;url=%2fvirtualization%2finstalling-dell-equallogic-multipathing-extension-module-mem-vsphere-5-1%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-twitter"></i></a>
-
-    <a href="https://plus.google.com/share?url=%2fvirtualization%2finstalling-dell-equallogic-multipathing-extension-module-mem-vsphere-5-1%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-google-plus"></i></a>
-
-    <a href="http://www.reddit.com/submit?url=%2fvirtualization%2finstalling-dell-equallogic-multipathing-extension-module-mem-vsphere-5-1%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-reddit"></i></a>
-
-    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fvirtualization%2finstalling-dell-equallogic-multipathing-extension-module-mem-vsphere-5-1%2f&amp;title=Installing%20Dell%20Equallogic%20Multipathing%20Extension%20Module%20%28MEM%29%20in%20vSphere%205.1" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-linkedin"></i></a>
-
-    <a href="mailto:?subject=Installing%20Dell%20Equallogic%20Multipathing%20Extension%20Module%20%28MEM%29%20in%20vSphere%205.1&amp;body=Check out this site %2fvirtualization%2finstalling-dell-equallogic-multipathing-extension-module-mem-vsphere-5-1%2f" data-proofer-ignore=""><i class="fa fa-envelope"></i></a>
-  </span>
 
   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
       
@@ -354,7 +342,7 @@ DeviceId VolumeName PathCount Reads Writes KBRead KBWritten</p>
     <nav><ul class="pager">
     
         <li class="previous">
-          <a href="/virtualization/its-average-data-its-vopendata/" title="It`s Not Your Average Data it`s vOpenData">
+          <a href="https://vninja.net/virtualization/its-average-data-its-vopendata/" title="It`s Not Your Average Data it`s vOpenData">
             <span aria-hidden="true">&larr;</span>Previous
           </a>
         </li>
@@ -362,7 +350,7 @@ DeviceId VolumeName PathCount Reads Writes KBRead KBWritten</p>
 
     
       <li class="next">
-        <a href="/virtualization/adding-secondary-nic-vcenter-5-1-appliance-vcsa/" title="Adding a secondary NIC to the vCenter 5.1 Appliance (VCSA)">
+        <a href="https://vninja.net/virtualization/adding-secondary-nic-vcenter-5-1-appliance-vcsa/" title="Adding a secondary NIC to the vCenter 5.1 Appliance (VCSA)">
             Next <span aria-hidden="true">&rarr;</span>
         </a>
       </li>
@@ -383,24 +371,35 @@ DeviceId VolumeName PathCount Reads Writes KBRead KBWritten</p>
     </div>
     
       <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-        <hr>
-<div>
+        <div>
   
 
     <div class="section">
-      <div class="ads">
-        <a href="http://turbonomic.com/resources/hybrid-cloud-intelligent-bursting-aws-microsoft-azure/?utm_source=vninja&amp;utm_medium=banner-ad&amp;utm_campaign=wp-path-to-hybrid-cloud&amp;utm_content=250x250"><img width="250" height="250" src="https://i1.wp.com/vninja.net/wordpress/wp-content/uploads/2017/11/wp-intelligent-bursting-aws-azure-250x250.png?zoom=2&amp;fit=250%2C250" alt="" title="wp-intelligent-bursting-aws-azure (250x250)" src-orig="https://i1.wp.com/vninja.net/wordpress/wp-content/uploads/2017/11/wp-intelligent-bursting-aws-azure-250x250.png?fit=250%2C250" scale="2"></a>
+      <h4>Sponsors</h4>
+      <div class="ads" id="veeam">
+        <ins class='dcmads' style='display:inline-block;width:250px;height:250px' data-dcm-placement='N410401.1772869VNINJA.NET/B10464038.145283149' data-dcm-rendering-mode='iframe' data-dcm-https-only data-dcm-resettable-device-id='' data-dcm-app-id=''> <script src='https://www.googletagservices.com/dcm/dcmads.js'></script> </ins>
       </div>
-      <div class="ads">
-        <a href="http://cohesity.com"><img width="250" height="250" src="https://i2.wp.com/vninja.net/wordpress/wp-content/uploads/2016/12/250x250_cohesity_ad-1.gif?zoom=2&amp;fit=250%2C250" alt="" title="250x250_cohesity_ad-1" src-orig="https://i2.wp.com/vninja.net/wordpress/wp-content/uploads/2016/12/250x250_cohesity_ad-1.gif?fit=250%2C250" scale="2"></a>
+      <div class="ads" id="turbonomic">
+        <a href="http://turbonomic.com/resources/hybrid-cloud-intelligent-bursting-aws-microsoft-azure/?utm_source=vninja&amp;utm_medium=banner-ad&amp;utm_campaign=wp-path-to-hybrid-cloud&amp;">
+          <img width="250" height="250" src="https://vninja.net/ads/wp-intelligent-bursting-aws-azure-250x250.png"></a>
       </div>
+      <div class="ads" id="goliath">
+        <a href="http://goliathtechnologies.com/performance-monitoring/application-desktop-virtualization/vmware-horizon-view-monitoring/?utm_source=VNINJA&#038;utm_medium=PARTNER-MKTG&#038;utm_campaign=PARTNER-MKTG-VNINJA"><img width="250" height="250" src='https://vninja.net/ads/VMwareHorizon.jpg' alt='' title='VMwareHorizon' /></a>
+      </div>
+      <div class="ads" id="vembu">
+        <a href="https://www.vembu.com/free-vm-backup/?utm_source=vninja.net&#038;utm_medium=Banner"><img width="250" height="250" src='https://vninja.net/ads/vembu250-250.gif'/></a>
+      </div>
+
+
     </div>
-<hr>
+
+    <hr>
     
       
       
       <div class="section">
-        sidebar 2
+
+
       </div>
       
     
@@ -424,9 +423,7 @@ DeviceId VolumeName PathCount Reads Writes KBRead KBWritten</p>
 </div>
 <div class="pull-right">
 
-<a href="/disclaimer/">Disclaimer</a> <i>&middot;</i>
-
-<a href="/terms/">Terms</a> 
+<a href="https://vninja.net/disclaimer/">Disclaimer</a> <i>&middot;</i>
 
 </div>
 
@@ -445,7 +442,7 @@ DeviceId VolumeName PathCount Reads Writes KBRead KBWritten</p>
     
 <div class="container copyright">
     <small>
-  &copy; 2018 Copyright my blog
+  &copy; 2018 Christian Mohn
 
   </small>
 </div>
@@ -460,17 +457,17 @@ DeviceId VolumeName PathCount Reads Writes KBRead KBWritten</p>
 
     
 
-<script src="/js/jquery.min.js"></script>
-<script src="/js/bootstrap.min.js"></script>
+<script src="https://vninja.net/js/jquery.min.js"></script>
+<script src="https://vninja.net/js/bootstrap.min.js"></script>
 
 
-<script src="/js/highlight.pack.js"></script>
-<script src="/js/site.js"></script>
+<script src="https://vninja.net/js/highlight.pack.js"></script>
+<script src="https://vninja.net/js/site.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
 
 <script>
-  var _gaq=[['_setAccount','Your Google Analytics tracking code'],['_trackPageview']];
+  var _gaq=[['_setAccount','UA-121910549-1'],['_trackPageview']];
   (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
   g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
   s.parentNode.insertBefore(g,s)}(document,'script'));

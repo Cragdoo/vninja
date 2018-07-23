@@ -2,32 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Proof of Concept on vNinja.net</title>
-    <link>/tags/proof-of-concept/</link>
+    <link>https://vninja.net/tags/proof-of-concept/</link>
     <description>Recent content in Proof of Concept on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Wed, 24 Feb 2016 10:42:26 +0000</lastBuildDate>
     
-	<atom:link href="/tags/proof-of-concept/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/proof-of-concept/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Running a VSAN PoC - Customer reactions</title>
-      <link>/virtualization/running-a-vsan-poc-customer-reactions/</link>
+      <link>https://vninja.net/virtualization/running-a-vsan-poc-customer-reactions/</link>
       <pubDate>Wed, 24 Feb 2016 10:42:26 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/running-a-vsan-poc-customer-reactions/</guid>
-      <description>I recently set up a VMware Virtual SAN 6.1 Proof-of-Concept for a customer, configuring a 3-node cluster based on the following setup:
-Hardware:  HP ProLiant DL380 G9
- 2 x Intel Xeon E5-2680 @ 2.50Ghz w/12 Cores
- 392 GB RAM
- 1 x Intel DC 3700 800GB NVMe
- 6 x Intel DC S3610 1.4TB SSD
- HP FlexFabric 556FLR-SFP+ 10GBe NICs
-  Virtual SAN Setup: Since this was a simple PoC setup, the VSAN was configured with 1 disk group pr host with all 6 Intel DC S3610 drives used as the capacity layer, and the Intel DC P3700 NVMe cards set up as the cache.</description>
+      
+      <guid>https://vninja.net/virtualization/running-a-vsan-poc-customer-reactions/</guid>
+      <description>&lt;p&gt;I recently set up a VMware Virtual SAN 6.1 Proof-of-Concept for a customer, configuring a 3-node cluster based on the following setup:
+
+&lt;img src=&#34;https://vninja.net/img/c04411605-300x225.png#floatright&#34; alt=&#34;c04411605&#34; /&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

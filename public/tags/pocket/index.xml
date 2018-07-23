@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pocket on vNinja.net</title>
-    <link>/tags/pocket/</link>
+    <link>https://vninja.net/tags/pocket/</link>
     <description>Recent content in Pocket on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Tue, 24 Oct 2017 13:47:35 +0000</lastBuildDate>
     
-	<atom:link href="/tags/pocket/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/pocket/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Integrating Pocket with Todoist via IFTTT</title>
-      <link>/workflow/integrating-pocket-with-todoist-via-ifttt/</link>
+      <link>https://vninja.net/workflow/integrating-pocket-with-todoist-via-ifttt/</link>
       <pubDate>Tue, 24 Oct 2017 13:47:35 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/workflow/integrating-pocket-with-todoist-via-ifttt/</guid>
-      <description>Myles Gray asked me how I integrate Pocket with Todoist, after my How I use Todoist post, and the answer is very simple: IFTTT. If-This-Then-That lets you connect services, and create rules (or applets) that trigger based on events in those services, luckily both Todoist and Pocket are supported.
-Now, there is a bit of overlap between how I use Pocket and Todoist, but I mainly use Pocket to keep track of links I want to either read later, or use as basis for blog posts.</description>
+      
+      <guid>https://vninja.net/workflow/integrating-pocket-with-todoist-via-ifttt/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://twitter.com/mylesagray/status/922783625241866241&#34;&gt;Myles Gray&lt;/a&gt; asked me how I integrate Pocket with Todoist, after my &lt;a href=&#34;http://vninja.net/workflow/how-i-use-todoist/&#34;&gt;How I use Todoist&lt;/a&gt; post, and the answer is very simple: &lt;a href=&#34;https://ifttt.com/&#34;&gt;IFTTT&lt;/a&gt;. If-This-Then-That lets you connect services, and create rules (or applets) that trigger based on events in those services, luckily both Todoist and Pocket are supported.&lt;/p&gt;
+
+&lt;p&gt;Now, there is a bit of overlap between how I use Pocket and Todoist, but I mainly use Pocket to keep track of links I want to either read later, or use as basis for blog posts.
+&lt;/p&gt;</description>
     </item>
     
   </channel>

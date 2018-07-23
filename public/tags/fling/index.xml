@@ -2,38 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fling on vNinja.net</title>
-    <link>/tags/fling/</link>
+    <link>https://vninja.net/tags/fling/</link>
     <description>Recent content in Fling on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Tue, 28 Mar 2017 11:44:58 +0000</lastBuildDate>
     
-	<atom:link href="/tags/fling/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/fling/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Cross vCenter VM Mobility Fling - macOS?</title>
-      <link>/vmware-2/cross-vcenter-vm-mobility-fling-macos/</link>
+      <link>https://vninja.net/vmware-2/cross-vcenter-vm-mobility-fling-macos/</link>
       <pubDate>Tue, 28 Mar 2017 11:44:58 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/vmware-2/cross-vcenter-vm-mobility-fling-macos/</guid>
-      <description>The VMware Cross vCenter VM Mobility - CLI was recently updated so I decided to try it out. In short, this little Java based application allows you to easily move or clone VMs between disparate vCenter environments.
-The Fling is listed with the following requirements:
- JDK 1.7 or above
- Two vCenter instances with ESX 6.0
- Windows : Windows Server 2003 or above
- Linux : RHEL 7.x or above, Ubuntu 11.</description>
+      
+      <guid>https://vninja.net/vmware-2/cross-vcenter-vm-mobility-fling-macos/</guid>
+      <description>&lt;p&gt;The &lt;a href=&#34;https://labs.vmware.com/flings/xvc-mobility-cli#requirements&#34;&gt;VMware Cross vCenter VM Mobility - CLI&lt;/a&gt; was recently updated so I decided to try it out. In short, this little Java based application allows you to easily move or clone VMs between disparate vCenter environments.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>New Fling from VMware Labs: Makyo</title>
-      <link>/vmware-2/fling-vmware-labs-makyo/</link>
+      <link>https://vninja.net/vmware-2/fling-vmware-labs-makyo/</link>
       <pubDate>Thu, 21 Feb 2013 08:45:25 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/vmware-2/fling-vmware-labs-makyo/</guid>
+      
+      <guid>https://vninja.net/vmware-2/fling-vmware-labs-makyo/</guid>
       <description>VMware Labs has released a new fling called Makyo (魔境 _makyō_ means “ghost cave” or “devil’s cave.”) which basically is a tool to copy VMs or vApps from one vCenter instance to another.
 It works by doing an automated OVF export on the source vCenter, and then an import on the destination vCenter.
 

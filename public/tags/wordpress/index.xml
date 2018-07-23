@@ -2,26 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wordpress on vNinja.net</title>
-    <link>/tags/wordpress/</link>
+    <link>https://vninja.net/tags/wordpress/</link>
     <description>Recent content in Wordpress on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
-    <lastBuildDate>Thu, 24 Nov 2016 00:11:08 +0000</lastBuildDate>
+    <copyright>(c) 2018 Christian Mohn</copyright>
+    <lastBuildDate>Sun, 22 Jul 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Migrating From Wordpress to Hugo</title>
+      <link>https://vninja.net/2018/07/22/migrating-from-wordpress-to-hugo/</link>
+      <pubDate>Sun, 22 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vninja.net/2018/07/22/migrating-from-wordpress-to-hugo/</guid>
+      <description>Migrating From Wordpress to Hugo aka The Long and Winding Road  When I decided to move away from Wordpress and over to Hugo, I really had no concept of the amount of work it would be. Simply put; I just decided to do it — without really knowing what I set out to do.
+Once I had decided on a foundation theme, I chose the Hugo Bootstrap Premium as my starting point, the real work started.</description>
+    </item>
+    
+    <item>
+      <title>Hello, My Name Is Hugo (Montoya)</title>
+      <link>https://vninja.net/2018/07/19/hello-my-name-is-hugo/</link>
+      <pubDate>Thu, 19 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vninja.net/2018/07/19/hello-my-name-is-hugo/</guid>
+      <description>Goodbye Wordpress, hello Hugo! vNinja.net has been powered by Wordpress since it was launched back in 2010, and frankly it was time for a change. What really triggered it, was my hosting providers unwillingness to upgrade basic things, like PHP versions and MySQL. That combined with the security issues you have to live with when using traditional shared hosting made me look around for alternatives. While looking at hosting options, it slowly dawned on me that perhaps I should be looking at doing something completely different.</description>
+    </item>
+    
+    <item>
       <title>Facelift</title>
-      <link>/news/facelift/</link>
+      <link>https://vninja.net/news/facelift/</link>
       <pubDate>Thu, 24 Nov 2016 00:11:08 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/news/facelift/</guid>
-      <description>I have given the site a small facelift, replacing the old theme with a new and cleaner version. For some reason, I get this &amp;laquo;theme itch&amp;raquo; a couple of times a year, but usually I manage to let it pass without doing many changes.
-This time it stuck with me though, and ended up with replacing the old theme with a new one. In fact, the old theme had been active for close to two years now, so it was time to shake things up a bit any way.</description>
+      
+      <guid>https://vninja.net/news/facelift/</guid>
+      <description>&lt;p&gt;I have given the site a small facelift, replacing the old theme with a new and cleaner version. For some reason, I get this &amp;laquo;theme itch&amp;raquo; a couple of times a year, but usually I manage to let it pass without doing many changes.&lt;/p&gt;
+
+&lt;p&gt;This time it stuck with me though, and ended up with replacing the old theme with a new one. In fact, the old theme had been active for close to two years now, so it was time to shake things up a bit any way. The new theme gives the site a fresh and in my opinion better look. The double menus in the header makes it look more organised, and less cluttered and the static navigation header is something I&amp;rsquo;ve wanted to have for a long time now.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

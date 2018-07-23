@@ -2,55 +2,62 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Todoist on vNinja.net</title>
-    <link>/tags/todoist/</link>
+    <link>https://vninja.net/tags/todoist/</link>
     <description>Recent content in Todoist on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Tue, 24 Oct 2017 13:47:35 +0000</lastBuildDate>
     
-	<atom:link href="/tags/todoist/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/todoist/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Integrating Pocket with Todoist via IFTTT</title>
-      <link>/workflow/integrating-pocket-with-todoist-via-ifttt/</link>
+      <link>https://vninja.net/workflow/integrating-pocket-with-todoist-via-ifttt/</link>
       <pubDate>Tue, 24 Oct 2017 13:47:35 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/workflow/integrating-pocket-with-todoist-via-ifttt/</guid>
-      <description>Myles Gray asked me how I integrate Pocket with Todoist, after my How I use Todoist post, and the answer is very simple: IFTTT. If-This-Then-That lets you connect services, and create rules (or applets) that trigger based on events in those services, luckily both Todoist and Pocket are supported.
-Now, there is a bit of overlap between how I use Pocket and Todoist, but I mainly use Pocket to keep track of links I want to either read later, or use as basis for blog posts.</description>
+      
+      <guid>https://vninja.net/workflow/integrating-pocket-with-todoist-via-ifttt/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://twitter.com/mylesagray/status/922783625241866241&#34;&gt;Myles Gray&lt;/a&gt; asked me how I integrate Pocket with Todoist, after my &lt;a href=&#34;http://vninja.net/workflow/how-i-use-todoist/&#34;&gt;How I use Todoist&lt;/a&gt; post, and the answer is very simple: &lt;a href=&#34;https://ifttt.com/&#34;&gt;IFTTT&lt;/a&gt;. If-This-Then-That lets you connect services, and create rules (or applets) that trigger based on events in those services, luckily both Todoist and Pocket are supported.&lt;/p&gt;
+
+&lt;p&gt;Now, there is a bit of overlap between how I use Pocket and Todoist, but I mainly use Pocket to keep track of links I want to either read later, or use as basis for blog posts.
+&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>How I use Todoist</title>
-      <link>/workflow/how-i-use-todoist/</link>
+      <link>https://vninja.net/workflow/how-i-use-todoist/</link>
       <pubDate>Tue, 24 Oct 2017 10:38:13 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/workflow/how-i-use-todoist/</guid>
-      <description>As I&amp;rsquo;ve mentioned before, I use Todoist to keep track of my personal to-do list. This is the first to-do manager I&amp;rsquo;ve been able to stick with, and I&amp;rsquo;ve been using it daily for well over 2 years now. In that two year period I&amp;rsquo;ve reorganised it a bit, but for the most part I&amp;rsquo;ve been able to keep to the main structure I initially created when setting it up the first time.</description>
+      
+      <guid>https://vninja.net/workflow/how-i-use-todoist/</guid>
+      <description>&lt;p&gt;As I&amp;rsquo;ve mentioned before, &lt;a href=&#34;http://vninja.net/workflow/todoist-one-year-later/&#34;&gt;I use Todoist&lt;/a&gt; to keep track of my personal to-do list. This is the first to-do manager I&amp;rsquo;ve been able to stick with, and I&amp;rsquo;ve been using it daily for well over 2 years now. In that two year period I&amp;rsquo;ve reorganised it a bit, but for the most part I&amp;rsquo;ve been able to keep to the main structure I initially created when setting it up the first time.
+&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Todoist: One year later</title>
-      <link>/workflow/todoist-one-year-later/</link>
+      <link>https://vninja.net/workflow/todoist-one-year-later/</link>
       <pubDate>Wed, 06 Jan 2016 13:51:58 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/workflow/todoist-one-year-later/</guid>
-      <description>A little over a year ago I posted Combining Todoist and Evernote, because awesome and I thought it was about time to post a follow up now one year later.
-Evernote: Firstly, my Evernote is still a giant mess, just as it was a year ago. I have lots of data in Evernote, but it&amp;rsquo;s main purpose is just storing quick notes on ongoing projects and it serves as a basis for generating proper documentation.</description>
+      
+      <guid>https://vninja.net/workflow/todoist-one-year-later/</guid>
+      <description>&lt;p&gt;A little over a year ago I posted &lt;a href=&#34;http://vninja.net/workflow/combining-todoist-evernote-awesome/&#34;&gt;Combining Todoist and Evernote, because awesome&lt;/a&gt; and I thought it was about time to post a follow up now one year later.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Combining Todoist and Evernote, because awesome</title>
-      <link>/workflow/combining-todoist-evernote-awesome/</link>
+      <link>https://vninja.net/workflow/combining-todoist-evernote-awesome/</link>
       <pubDate>Wed, 03 Dec 2014 16:22:11 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/workflow/combining-todoist-evernote-awesome/</guid>
-      <description>A while back I declared Evernote bankruptcy, even if I managed to misspell it while doing so:
-That&#39;s it, I&#39;m declaring [@evernote](https://twitter.com/evernote) bankrupcy. — Christian Mohn™ (@h0bbel) [May 22, 2014](https://twitter.com/h0bbel/status/469455493631860736)  The thing is, I really want to use Evernote in a proper and organised manner. The problem is; I was completely unable to do so, mostly since I had no clear idea on the how, the when and the why back when I started using it many moons ago.</description>
+      
+      <guid>https://vninja.net/workflow/combining-todoist-evernote-awesome/</guid>
+      <description>&lt;p&gt;A while back I declared &lt;a href=&#34;http://evernote.com&#34;&gt;Evernote&lt;/a&gt; bankruptcy, even if I managed to misspell it while doing so:&lt;/p&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;That&amp;#39;s it, I&amp;#39;m declaring &lt;a href=&#34;https://twitter.com/evernote?ref_src=twsrc%5Etfw&#34;&gt;@evernote&lt;/a&gt; bankrupcy.&lt;/p&gt;&amp;mdash; Christian Mohn™ (@h0bbel) &lt;a href=&#34;https://twitter.com/h0bbel/status/469455493631860736?ref_src=twsrc%5Etfw&#34;&gt;May 22, 2014&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

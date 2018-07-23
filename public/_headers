@@ -1,5 +1,39 @@
- Don't load any resource type not explicitly enabled
-    # Disable plugins like Flash or Silverlight
-    # Load images, scripts, stylesheets and fonts from self
-    # Send reports to report-uri.io
-    Content-Security-Policy: default-src 'none'; object-src 'none'; img-src 'self'; script-src 'self'; style-src 'self'; font-src 'self'; report-uri https://vninja.report-uri.com/r/d/csp/enforce.report-uri.io/r/default/csp/enforce;
+# Set max-age to 1 year for stuff not expected to update any time soon.
+
+# Reference ( https://varvy.com/pagespeed/cache-control.html#max-age )
+#One minute: max-age=60
+#One hour: max-age=3600
+#One day: max-age=86400
+#One week: max-age=604800
+#One month: max-age=2628000
+#One year: max-age=31536000
+
+/css/*
+  # Cache-Control: public, max-age=604800
+
+/js/*
+  Cache-Control: public, max-age=604800
+
+/fonts/*
+  Cache-Control: public, max-age=604800
+
+# Favicons
+/favicon.*
+  Cache-Control: public, max-age=604800
+
+/ads/*.jpg
+Cache-Control: public, max-age=3153600
+
+/ads/*.gif
+Cache-Control: public, max-age=3153600
+
+/ads/*.png
+Cache-Control: public, max-age=3153600
+
+/img/*.*
+Cache-Control: public, max-age=604800
+
+# Security Headers
+
+X-XSS-Protection: 1; mode=block
+X-Frame-Option: SAMEORIGIN

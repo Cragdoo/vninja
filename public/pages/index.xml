@@ -2,47 +2,99 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on vNinja.net</title>
-    <link>/pages/</link>
+    <link>https://vninja.net/pages/</link>
     <description>Recent content in Pages on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
-    <lastBuildDate>Sun, 01 Jul 2018 11:59:56 +0200</lastBuildDate>
+    <copyright>(c) 2018 Christian Mohn</copyright>
+    <lastBuildDate>Fri, 06 Jul 2018 13:04:58 +0200</lastBuildDate>
     
-	<atom:link href="/pages/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/pages/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title></title>
+      <link>https://vninja.net/disclaimer/</link>
+      <pubDate>Fri, 06 Jul 2018 13:04:58 +0200</pubDate>
+      
+      <guid>https://vninja.net/disclaimer/</guid>
+      <description>Disclaimer All posts and pages on this website constitute my own personal opinions. They are neither read nor approved by my employers, sponsors or anyone else before posting and do not represent the views and opinions of anyone besides me, myself and I.
+They also do not constitute the official corporate position taken by my employer (Proact). Furthermore, I take personal responsibility for any content created by any guest author, as I approve all such posts before they are published, though I do not necessarily share the views of that guest author.</description>
+    </item>
+    
+    <item>
+      <title>Search</title>
+      <link>https://vninja.net/search/</link>
+      <pubDate>Fri, 06 Jul 2018 12:57:17 +0200</pubDate>
+      
+      <guid>https://vninja.net/search/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vninja.net/confirmation/</link>
+      <pubDate>Fri, 06 Jul 2018 11:04:38 +0200</pubDate>
+      
+      <guid>https://vninja.net/confirmation/</guid>
+      <description>Contact request sent!  I will get back to you shortly. In the mean time, breathe and and have a nice cup of coffee.
+  Photo by Isaac Benhesed on Unsplash   </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vninja.net/contact/</link>
+      <pubDate>Fri, 06 Jul 2018 10:51:33 +0200</pubDate>
+      
+      <guid>https://vninja.net/contact/</guid>
+      <description> Want to get in touch? It&amp;rsquo;s usually quicker to hit me up on Twitter, but if that doesn&amp;rsquo;t work for you fill out the form below, and I&amp;rsquo;ll get back to you.
+
+   
+Send     </description>
+    </item>
+    
+    <item>
+      <title>Disclosure</title>
+      <link>https://vninja.net/about/christian/disclosure/</link>
+      <pubDate>Thu, 05 Jul 2018 23:02:48 +0200</pubDate>
+      
+      <guid>https://vninja.net/about/christian/disclosure/</guid>
+      <description>As a blogger it is important that disclosures are made for all applicable interests, and here is my attempt.
+This is the official blogger disclosure resource for Christian Mohn – Inspired by and copied from Rick Vanover.
+Commercial Content List I have engaged in commercial (paid and non-paid) content (blogs, articles, commentaries, etc.) for the following organizations:
+ Petri IT Knowledgebase Veeam SearchSiteVirtualization  For a more complete list, check my LinkedIn profile.</description>
+    </item>
+    
+    <item>
       <title>Advertising</title>
-      <link>/advertising/</link>
+      <link>https://vninja.net/advertising/</link>
       <pubDate>Sun, 01 Jul 2018 11:59:56 +0200</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/advertising/</guid>
+      
+      <guid>https://vninja.net/advertising/</guid>
       <description>Thank you for your interest in advertising on vNinja.net!
-vNinja.net currently only offers 250 x 250px ads in the site wide sidebar. Other suggestions are welcome, and all inquiries will be entertained on a case-by-case basis.
-Terms and conditions Purchasing advertising space on vNinja.net does not guarantee any, favourable or not, review of the product or services advertised, nor is it to be considered an endorsement of any kind. vNinja.</description>
+vNinja.net currently only offers 250 x 250px ads in the site wide sidebar. Other suggestions are welcome, and all inquiries will be entertained on a case-by-case basis. Note: Sponsored links is completely out of the question.
+Terms and conditions Purchasing advertising space on vNinja.net does not guarantee any, favourable or not, review of the product or services advertised, nor is it to be considered an endorsement of any kind.</description>
     </item>
     
     <item>
       <title>vNinja.net Privacy Policy</title>
-      <link>/about/privacy-policy/</link>
+      <link>https://vninja.net/about/privacy-policy/</link>
       <pubDate>Sun, 01 Jul 2018 11:56:57 +0200</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/about/privacy-policy/</guid>
-      <description>vNinja.net is a privately owned and operated site run by Christian Mohn.</description>
+      
+      <guid>https://vninja.net/about/privacy-policy/</guid>
+      <description>vNinja.net is a privately owned and operated site run by Christian Mohn.
+Comments Comments are disabled to avoid collecting any Personally Identifiable Information. Please feel free to reach out to me, or the guest author, on Twitter if you have any feedback.
+Google Analytics Google Analytics is a web analytics service offered by Google that tracks and reports website traffic. Google uses the data collected to track and monitor the use of our Service.</description>
     </item>
     
     <item>
-      <title>Christian Mohn</title>
-      <link>/about/christian-mohn/</link>
+      <title></title>
+      <link>https://vninja.net/about/christian-mohn/</link>
       <pubDate>Sun, 01 Jul 2018 11:10:17 +0200</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/about/christian-mohn/</guid>
-      <description>Christian Mohn is an eight time VMware vExpert (2011-2018), and an inaugural vExpert vSAN, VMware EUC Champion (2015-2017), ex-PernixPro, and four time Veeam Vanguard (2015-2018).
-Christian currently works as a Senior Solutions Architect for Proact IT Norge AS, working on building the strongest SDDC practice possible.
-He is an IT industry veteran, author and blogger with more than 20 years of experience. He is also a member of the Norwegian VMUG leadership and has helped launch VMUG in three Norwegian cities (Oslo, Bergen and Trondheim).</description>
+      
+      <guid>https://vninja.net/about/christian-mohn/</guid>
+      <description>Hey there, my name is Christian Mohn. Come say hello to me on Twitter! 
+I live in Bergen, Norway, and I&amp;rsquo;m as old as the original Rocky movie. I currently work as a Senior Solutions Architect and Technical Lead SDDC for Proact IT Norge AS, working on building Norways best, and strongest, VMware SDDC practice, and I&amp;rsquo;m a strong believer in that software is indeed eating the world.</description>
     </item>
     
   </channel>

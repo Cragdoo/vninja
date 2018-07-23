@@ -2,26 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vshield Manager on vNinja.net</title>
-    <link>/tags/vshield-manager/</link>
+    <link>https://vninja.net/tags/vshield-manager/</link>
     <description>Recent content in Vshield Manager on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Tue, 29 Apr 2014 08:18:35 +0000</lastBuildDate>
     
-	<atom:link href="/tags/vshield-manager/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/vshield-manager/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>VMware vShield Manager Upgrade - Password Issues</title>
-      <link>/vmware-2/vmware-vshield-manager-upgrade-password-issues/</link>
+      <link>https://vninja.net/vmware-2/vmware-vshield-manager-upgrade-password-issues/</link>
       <pubDate>Tue, 29 Apr 2014 08:18:35 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/vmware-2/vmware-vshield-manager-upgrade-password-issues/</guid>
-      <description>While upgrading a vShield Manager 5.1.1 install to 5.1.4 at a client, I ran into an issue with logging in after a completed upgrade. The username and password used to log in, and subsequently upload the upgrade file, was no longer working after the upgrade finished and the vShield Manager appliance had been rebooted.
-It turns out that this was due to using international characters in the password for the admin user, in this case the Norwegian specialities æ, ø or å.</description>
+      
+      <guid>https://vninja.net/vmware-2/vmware-vshield-manager-upgrade-password-issues/</guid>
+      <description>&lt;p&gt;While upgrading a vShield Manager 5.1.1 install to 5.1.4 at a client, I ran into an issue with logging in after a completed upgrade. The username and password used to log in, and subsequently upload the upgrade file, was no longer working after the upgrade finished and the vShield Manager appliance had been rebooted.
+&lt;/p&gt;</description>
     </item>
     
   </channel>

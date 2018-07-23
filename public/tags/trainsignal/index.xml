@@ -2,24 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Trainsignal on vNinja.net</title>
-    <link>/tags/trainsignal/</link>
+    <link>https://vninja.net/tags/trainsignal/</link>
     <description>Recent content in Trainsignal on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Fri, 22 Feb 2013 08:55:41 +0000</lastBuildDate>
     
-	<atom:link href="/tags/trainsignal/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/trainsignal/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Trainsignal: Training as a Service (TaaS)</title>
-      <link>/news/trainsignal-training-service-taas/</link>
+      <link>https://vninja.net/news/trainsignal-training-service-taas/</link>
       <pubDate>Fri, 22 Feb 2013 08:55:41 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/news/trainsignal-training-service-taas/</guid>
+      
+      <guid>https://vninja.net/news/trainsignal-training-service-taas/</guid>
       <description>Trainsignal has just launched a new Online Training bundle, and for $49 a month you can get unlimited access to their entire set of training courses and practice exams for Cisco, Apple, Microsoft, Citrix, CompTIA, and VMware.
 
 The new pricing is very attractive, especially since you no longer need to buy access on a course by course basis.

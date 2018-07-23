@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Management on vNinja.net</title>
-    <link>/tags/management/</link>
+    <link>https://vninja.net/tags/management/</link>
     <description>Recent content in Management on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Wed, 11 Oct 2017 21:45:11 +0000</lastBuildDate>
     
-	<atom:link href="/tags/management/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/management/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Making Royal TSX Even More Awesome</title>
-      <link>/osx/making-royal-tsx-even-more-awesome/</link>
+      <link>https://vninja.net/osx/making-royal-tsx-even-more-awesome/</link>
       <pubDate>Wed, 11 Oct 2017 21:45:11 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/osx/making-royal-tsx-even-more-awesome/</guid>
-      <description>For those who don&amp;rsquo;t know, Royal TSX is an awesome Remote Management solution, which supports RDP, VNC, SSH, S/FTP and even ESXi and vCenter. I&amp;rsquo;ve been using it for years, not just because they offer free licenses for vExperts (and others), but simply because it works really well. Store it&amp;rsquo;s config file on a synchronized file area (like Dropbox), and boom, your config follows you around from machine to machine, including custom icons.</description>
+      
+      <guid>https://vninja.net/osx/making-royal-tsx-even-more-awesome/</guid>
+      <description>&lt;p&gt;For those who don&amp;rsquo;t know, &lt;a href=&#34;https://www.royalapplications.com/ts/mac/features&#34;&gt;Royal TSX&lt;/a&gt; is an awesome Remote Management solution, which supports RDP, VNC, SSH, S/FTP and even ESXi and vCenter. I&amp;rsquo;ve been using it for years, not just because they offer &lt;a href=&#34;https://www.royalapplications.com/ts/nfr/&#34;&gt;free licenses for vExperts&lt;/a&gt; (and others), but simply because it works really well. Store it&amp;rsquo;s config file on a synchronized file area (like Dropbox), and boom, your config follows you around from machine to machine, including custom icons. What&amp;rsquo;s &lt;em&gt;not&lt;/em&gt; to like?
+&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>VMware vSAN 6.6 - What&#39;s New for Day 2 Operations?</title>
-      <link>/virtualization/vmware-vsan-6-6-whats-new-for-day-2-operations/</link>
+      <link>https://vninja.net/virtualization/vmware-vsan-6-6-whats-new-for-day-2-operations/</link>
       <pubDate>Tue, 11 Apr 2017 16:08:30 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/vmware-vsan-6-6-whats-new-for-day-2-operations/</guid>
-      <description>VMware has just announced vSAN v6.6, with over 20 new features. While new and shiny features are nice I&amp;rsquo;d like to highlight a couple that I think might be undervalued from release feature-set perspective, but highly valuable in day to day operations of a vSAN environment, otherwise known as Day 2 operations.
-vSAN Configuration Assist is one such new feature. While it&amp;rsquo;s true that it helps first time configuration of a greenfield installation with vSAN (no more bootstrapping, yay!</description>
+      
+      <guid>https://vninja.net/virtualization/vmware-vsan-6-6-whats-new-for-day-2-operations/</guid>
+      <description>&lt;p&gt;VMware has just &lt;a href=&#34;https://blogs.vmware.com/virtualblocks/2017/04/11/whats-new-vmware-vsan-6-6/&#34;&gt;announced vSAN v6.6&lt;/a&gt;, with over 20 new features. While new and shiny features are nice I&amp;rsquo;d like to highlight &lt;strong&gt;a couple&lt;/strong&gt; that I think might be undervalued from release feature-set perspective, but highly valuable in day to day operations of a vSAN environment, otherwise known as &lt;em&gt;Day 2 operations&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Centrally Disable NAT in VMware Workstation</title>
-      <link>/vmware-2/centrally-disable-nat-vmware-workstation/</link>
+      <link>https://vninja.net/vmware-2/centrally-disable-nat-vmware-workstation/</link>
       <pubDate>Tue, 25 Jun 2013 08:52:03 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/vmware-2/centrally-disable-nat-vmware-workstation/</guid>
+      
+      <guid>https://vninja.net/vmware-2/centrally-disable-nat-vmware-workstation/</guid>
       <description>A fellow IT-professional, who works with the non-wired flavor of networking, contacted me with the following scenario:
 A group of users, developers in this case, have VMware Workstation installed on their laptops. This makes it easy for them to manage, test and develop their applications in a closed environment without having to install a bunch of tools/services on their centrally managed laptop environment. An excellent use case for VMware Workstation if there ever was one.</description>
     </item>
     
     <item>
       <title>Multi-Hypervisor Management and the Future</title>
-      <link>/news/multi-hypervisor-management-and-the-future/</link>
+      <link>https://vninja.net/news/multi-hypervisor-management-and-the-future/</link>
       <pubDate>Sun, 12 Jun 2011 20:34:52 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/news/multi-hypervisor-management-and-the-future/</guid>
+      
+      <guid>https://vninja.net/news/multi-hypervisor-management-and-the-future/</guid>
       <description>In a previous post, vCenter Integration Mantra, I made the point that vSphere vAdmins wants the 3rd party modules to integrate into the vCenter client and show their delicious addon-value there, and not in their own management interface. Give the vAdmins the info they need, where they do most, if not all their work. Open up the admin client and let us get all that juicy and fruity information we need.</description>
     </item>
     

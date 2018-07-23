@@ -2,46 +2,50 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vcdx on vNinja.net</title>
-    <link>/tags/vcdx/</link>
+    <link>https://vninja.net/tags/vcdx/</link>
     <description>Recent content in Vcdx on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Wed, 11 Feb 2015 23:28:23 +0000</lastBuildDate>
     
-	<atom:link href="/tags/vcdx/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/vcdx/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The Real Value of the VCDX Certification</title>
-      <link>/virtualization/real-vcdx-certification/</link>
+      <link>https://vninja.net/virtualization/real-vcdx-certification/</link>
       <pubDate>Wed, 11 Feb 2015 23:28:23 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/real-vcdx-certification/</guid>
-      <description>The VMware Certified Design Expert: VCDX. THE certification of certifications, especially if you work with VMware based solutions. It&amp;rsquo;s often regarded as the holy grail of certifications, and rightfully so.
-But why is this the case, and why does &amp;laquo;everyone&amp;raquo; want to become one?
-The reasons for it being such a highly coveted title, are pretty obvious:
- Very few people can call themselves VCDX, at the time of writing only 186 people have successfully defended their design.</description>
+      
+      <guid>https://vninja.net/virtualization/real-vcdx-certification/</guid>
+      <description>&lt;p&gt;The VMware Certified Design Expert: &lt;strong&gt;VCDX&lt;/strong&gt;. THE certification of certifications, especially if you work with VMware based solutions. It&amp;rsquo;s often regarded as the holy grail of certifications, and rightfully so.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;But why is this the case, and why does &amp;laquo;everyone&amp;raquo; want to become one?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The reasons for it being such a highly coveted title, are pretty obvious:&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Random VCDX Tips and Quotes?</title>
-      <link>/virtualization/random-vcdx-tips-quotes/</link>
+      <link>https://vninja.net/virtualization/random-vcdx-tips-quotes/</link>
       <pubDate>Wed, 29 Jan 2014 15:58:10 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/random-vcdx-tips-quotes/</guid>
-      <description>I needed something to spruce up my desktop environment, and it seems that one of the more popular ways to do that is to display random quotes and such on your desktop. Instead of hooking up to an existing quotes database, I simply made my own.
-I have collected a few VCDX related tips and quotes, primarily from the archive Duncan Epping put together of VCDX Tips from VCDX 001 John Arrasjid, but also from the &amp;laquo;submissions&amp;raquo; I got from VCDX?</description>
+      
+      <guid>https://vninja.net/virtualization/random-vcdx-tips-quotes/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://vninja.net/wordpress/wp-content/uploads/2014/01/vNinja-Labs.png&#34; alt=&#34;vNinja-Labs&#34; /&gt;I needed something to spruce up my desktop environment, and it seems that one of the more popular ways to do that is to display random quotes and such on your desktop. Instead of hooking up to an existing quotes database, I simply made my own.&lt;/p&gt;
+
+&lt;p&gt;I have collected a few VCDX related tips and quotes, primarily from the archive &lt;a href=&#34;http://twitter.com/DuncanYB&#34;&gt;Duncan Epping&lt;/a&gt; put together of &lt;a href=&#34;http://www.yellow-bricks.com/2009/10/01/vcdx-tips-from-vcdx-001-john-arrasjid/&#34;&gt;VCDX Tips from VCDX 001 John Arrasjid&lt;/a&gt;, but also from the &amp;laquo;submissions&amp;raquo; I got from &lt;a href=&#34;http://vninja.net/news/vcdx-give-quote/&#34;&gt;VCDX? Give Me a Quote!&lt;/a&gt; &lt;strong&gt;If anyone else wants their quote/tip/hint added to the database, please let me know!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>VCDX? Give me a Quote!</title>
-      <link>/news/vcdx-give-quote/</link>
+      <link>https://vninja.net/news/vcdx-give-quote/</link>
       <pubDate>Fri, 24 Jan 2014 18:25:38 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/news/vcdx-give-quote/</guid>
+      
+      <guid>https://vninja.net/news/vcdx-give-quote/</guid>
       <description>For a tiny project, I need some help from anyone who has completed (successfully or not) the VCDX process.
 _All I&amp;rsquo;m asking is that you provide me with a single line quote about the VCDX process, or the VCDX program itself. _
 Please send any quotes to me on Twitter, either as a mention or as a DM, your choice. Once I have a handful of quotes available, they will be made public for others to use as well&amp;hellip;</description>
@@ -49,20 +53,20 @@ Please send any quotes to me on Twitter, either as a mention or as a DM, your ch
     
     <item>
       <title>VCDX Wannabe goes live</title>
-      <link>/virtualization/vcdx-wannabe-live/</link>
+      <link>https://vninja.net/virtualization/vcdx-wannabe-live/</link>
       <pubDate>Tue, 27 Mar 2012 08:46:21 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/vcdx-wannabe-live/</guid>
+      
+      <guid>https://vninja.net/virtualization/vcdx-wannabe-live/</guid>
       <description>My little pet project VCDX Wannabe has now (finally) gone live. For now it´s mostly a collection of links and resources, but that will change over time.
 So, if you want to see me (and possibly a few others) either go down in flames, kicking and screaming, or succeed obtaining the VCDX certification you now have the opportunity to do so.</description>
     </item>
     
     <item>
       <title>Being Neil Armstrong</title>
-      <link>/rant/neil-armstrong/</link>
+      <link>https://vninja.net/rant/neil-armstrong/</link>
       <pubDate>Sun, 26 Feb 2012 22:42:01 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/rant/neil-armstrong/</guid>
+      
+      <guid>https://vninja.net/rant/neil-armstrong/</guid>
       <description>Now there is an ambitious post title if there ever was one, but it seems fitting as the next 12 months promises to be my most ambitious professional year to date.
 Like Neil, I´ve started a journey that could either crash and burn, or end up with my very own personal moon landing.
 Those of you that follow my antics on Twitter already know what I´m talking about, but I´ll spell it out once and for all:</description>

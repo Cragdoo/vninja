@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vmworld. Rant on vNinja.net</title>
-    <link>/tags/vmworld.-rant/</link>
+    <link>https://vninja.net/tags/vmworld.-rant/</link>
     <description>Recent content in Vmworld. Rant on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Fri, 05 Sep 2014 18:38:58 +0000</lastBuildDate>
     
-	<atom:link href="/tags/vmworld.-rant/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/vmworld.-rant/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>VMworld US is over. Now what?</title>
-      <link>/rant/vmworld-over-what/</link>
+      <link>https://vninja.net/rant/vmworld-over-what/</link>
       <pubDate>Fri, 05 Sep 2014 18:38:58 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/rant/vmworld-over-what/</guid>
-      <description>Another VMworld US is over, with huge attendee numbers and in keeping with tradition lots of new announcements were made. I&amp;rsquo;m not going to go through them, enough posts have been made about that, the basis of this post is something completely different all together.
-There seems to be a general expectation that we as a community is to be wooed by the announcements and flashy keynotes, but are we really the target audience?</description>
+      
+      <guid>https://vninja.net/rant/vmworld-over-what/</guid>
+      <description>&lt;p&gt;Another VMworld US is over, with huge attendee numbers and in keeping with tradition lots of &lt;a href=&#34;http://www.viktorious.nl/2014/09/01/vmworld-2014-announcements/&#34;&gt;new announcements&lt;/a&gt; were made.  I&amp;rsquo;m not going to go through them, enough posts have been made about that, the basis of this post is something completely different all together.&lt;/p&gt;
+
+&lt;p&gt;There seems to be a general expectation that we as a community is to be wooed by the announcements and flashy keynotes, but are we really the target audience? If you think about it, we probably aren&amp;rsquo;t.
+&lt;/p&gt;</description>
     </item>
     
   </channel>

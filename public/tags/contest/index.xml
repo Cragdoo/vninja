@@ -2,99 +2,108 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Contest on vNinja.net</title>
-    <link>/tags/contest/</link>
+    <link>https://vninja.net/tags/contest/</link>
     <description>Recent content in Contest on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Sat, 09 Jul 2016 20:59:02 +0000</lastBuildDate>
     
-	<atom:link href="/tags/contest/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/contest/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Top vBlog 2016: Thank you!</title>
-      <link>/news/top-vblog-2016-thank-you/</link>
+      <link>https://vninja.net/news/top-vblog-2016-thank-you/</link>
       <pubDate>Sat, 09 Jul 2016 20:59:02 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/news/top-vblog-2016-thank-you/</guid>
-      <description>While I was away on a two week holiday on the Croatia&amp;rsquo;s sunny Makarska Rivijera, Eric Siebert announced the result of his annual Top vBlog, and much to my surprise vNinja did quite the jump from last years 46th spot to this years 27th! Honestly, I thought the site would drop out of the the top 50 list this year, but once again I&amp;rsquo;m proven to be mistaken. Some times being wrong is just great!</description>
+      
+      <guid>https://vninja.net/news/top-vblog-2016-thank-you/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://vninja.net/img/bronze_vsphereland-e1468096666692.png#floatright&#34; alt=&#34;bronze_vsphereland&#34; /&gt; While I was away on a two week holiday on the Croatia&amp;rsquo;s sunny Makarska Rivijera, &lt;a href=&#34;https://twitter.com/ericsiebert&#34;&gt;Eric Siebert&lt;/a&gt; announced the result of his annual &lt;a href=&#34;http://vsphere-land.com/news/top-vblog-2016-full-results.html&#34;&gt;Top vBlog&lt;/a&gt;, and much to my surprise &lt;strong&gt;vNinja&lt;/strong&gt; did quite the jump from last years 46th spot to this years 27th!  Honestly, I thought the site would drop out of the the top 50 list this year, but once again I&amp;rsquo;m proven to be mistaken. &lt;strong&gt;Some times being wrong is just great!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Win a eBook Copy of Disaster Recovery using VMware vSphere Replication and vCenter Site Recovery Manager</title>
-      <link>/news/win-ebook-copy-disaster-recovery-vmware-vsphere-replication-vcenter-site-recovery-manager/</link>
+      <link>https://vninja.net/news/win-ebook-copy-disaster-recovery-vmware-vsphere-replication-vcenter-site-recovery-manager/</link>
       <pubDate>Fri, 20 Jun 2014 12:34:49 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/news/win-ebook-copy-disaster-recovery-vmware-vsphere-replication-vcenter-site-recovery-manager/</guid>
-      <description>[caption id=&amp;laquo;attachment_3241&amp;raquo; align=&amp;laquo;alignright&amp;raquo; width=&amp;laquo;221&amp;raquo;] Disaster Recovery using VMware vSphere Replication and vCenter Site Recovery Manager[/caption]
-Hot off the heals of the Veeam® Backup &amp;amp; Replication for VMware vSphere giveaway, here is another one for you!
-Win a free eBook copy of Disaster Recovery using VMware vSphere Replication and vCenter Site Recovery Manager, just by commenting!
-For the contest I have 2 eBook copies to be given away to 2 lucky winners.</description>
+      
+      <guid>https://vninja.net/news/win-ebook-copy-disaster-recovery-vmware-vsphere-replication-vcenter-site-recovery-manager/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://bit.ly/1kosrhz&#34;&gt;&lt;img src=&#34;https://vninja.net/img/DisasterRecoveryUsingVMwarevSphereReplication.png#floatright&#34; alt=&#34;Disaster Recovery using VMware vSphere Replication and vCenter Site Recovery Manager&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Hot off the heals of the &lt;a href=&#34;http://bit.ly/1qvBypQ&#34;&gt;Veeam® Backup &amp;amp; Replication for VMware vSphere&lt;/a&gt; giveaway, here is another one for you!
+&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Learning Veeam Backup &amp; Replication for VMware vSphere Book Winners</title>
-      <link>/news/learning-veeam-backup-replication-vmware-vsphere-book-winners/</link>
+      <link>https://vninja.net/news/learning-veeam-backup-replication-vmware-vsphere-book-winners/</link>
       <pubDate>Fri, 20 Jun 2014 09:47:22 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/news/learning-veeam-backup-replication-vmware-vsphere-book-winners/</guid>
-      <description>Packt Publishing has picked three lucky winners for the Veeam® Backup &amp;amp; Replication for VMware vSphere book.
-The winners are as follows, with the winning comments:
-Chris Childerhose:
-Wow nice to see a book come out for Veeam. Look forward to the following things from this book to help better my Veeam skills - Install and manage a Veeam® Backup &amp; Replication v7 infrastructure Discover how to back up and restore data in virtual environments Utilize WAN acceleration to speed up backup to remote locations Understand what options are available for Veeam® Backup &amp; Replication, and how to configure these options These topics will help further my skills with Veeam.</description>
+      
+      <guid>https://vninja.net/news/learning-veeam-backup-replication-vmware-vsphere-book-winners/</guid>
+      <description>&lt;p&gt;Packt Publishing  has picked &lt;a href=&#34;http://vninja.net/book/win-free-e-copies-learning-veeam-backup-replication-vmware-vsphere/&#34;&gt;three lucky winners&lt;/a&gt;  for the &lt;a href=&#34;http://bit.ly/1qvBypQ&#34;&gt;Veeam® Backup &amp;amp; Replication for VMware vSphere&lt;/a&gt; book.&lt;/p&gt;
+
+&lt;p&gt;The winners are as follows, with the winning comments:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://vninja.net/book/win-free-e-copies-learning-veeam-backup-replication-vmware-vsphere/#comment-13043&#34;&gt;Chris Childerhose&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Win Free e-copies of Learning Veeam® Backup &amp; Replication for VMware vSphere</title>
-      <link>/book/win-free-e-copies-learning-veeam-backup-replication-vmware-vsphere/</link>
+      <link>https://vninja.net/book/win-free-e-copies-learning-veeam-backup-replication-vmware-vsphere/</link>
       <pubDate>Mon, 09 Jun 2014 08:42:28 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/book/win-free-e-copies-learning-veeam-backup-replication-vmware-vsphere/</guid>
-      <description>Update: The contest is now closed, and I have forwarded all comments to Packt Publishing, and they will contact the winners directly. Thanks to everyone who entered!
-I have teamed up with Packt Publishing to organize a giveaway of my new Veeam® Backup &amp;amp; Replication for VMware vSphere book.
-3 lucky winners stand a chance to win e-copies of their new book. Keep reading to find out how you can be one of them!</description>
+      
+      <guid>https://vninja.net/book/win-free-e-copies-learning-veeam-backup-replication-vmware-vsphere/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://vninja.net/img/LearningVeeam125.png&#34; alt=&#34;LearningVeeam125&#34; /&gt;&lt;strong&gt;Update:&lt;/strong&gt; &lt;em&gt;The contest is now closed, and I have forwarded all comments to Packt Publishing, and they will contact the winners directly. Thanks to everyone who entered!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I have teamed up with Packt Publishing  to organize a giveaway of  my new &lt;strong&gt;&lt;a href=&#34;http://www.packtpub.com/learning-veeam-backup-and-replication-for-vmware-vsphere/book&#34;&gt;Veeam® Backup &amp;amp; Replication for VMware vSphere&lt;/a&gt; &lt;/strong&gt;book.&lt;/p&gt;
+
+&lt;p&gt;3 lucky winners stand a chance to win e-copies of their new book. Keep reading to find out how you can be one of them!&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>And the Chromecast Winner is ...</title>
-      <link>/virtualization/chromecast-winner/</link>
+      <link>https://vninja.net/virtualization/chromecast-winner/</link>
       <pubDate>Thu, 08 May 2014 11:21:00 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/chromecast-winner/</guid>
+      
+      <guid>https://vninja.net/virtualization/chromecast-winner/</guid>
       <description>A little over a month ago I announced the Want to Win a Google Chromecast contest and finally the winner has been selected. Since there was a grand total of 5 submissions, and one of them was immediately disqualified for a distinct lack of Ninja-presence, I decided to just do a random draw.
 The submitted photos were numbered by the order they appeared in on my post as I took this screenshot.</description>
     </item>
     
     <item>
       <title>2014 Top vBlog Results </title>
-      <link>/virtualization/2014-top-vblog-results/</link>
+      <link>https://vninja.net/virtualization/2014-top-vblog-results/</link>
       <pubDate>Thu, 27 Mar 2014 19:37:55 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/2014-top-vblog-results/</guid>
-      <description>Eric Siebert has yet again pulled through, and organized his annual top VMware &amp;amp; virtualization blogs vote, and the results are now in. Congratulations to everyone involved, be it bloggers, podcasters or otherwise engaged in making this possible.
-This year, Eric hosted a live Google Hangout session with John M. Troyer, David M. Davis and Rick Vanover where the top lists were revealed, be sure to check it out:
-http://www.youtube.com/watch?v=W2IVfOvKA5M</description>
+      
+      <guid>https://vninja.net/virtualization/2014-top-vblog-results/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Eric Siebert&lt;/strong&gt; has yet again pulled through, and organized his annual top VMware &amp;amp; virtualization blogs vote, and the &lt;a href=&#34;http://vsphere-land.com/news/2014-top-vmware-virtualization-blog-voting-results.html&#34;&gt;results are now in&lt;/a&gt;. Congratulations to everyone involved, be it bloggers, podcasters or otherwise engaged in making this possible.&lt;/p&gt;
+
+&lt;p&gt;This year, Eric hosted a live Google Hangout session with &lt;strong&gt;John M. Troyer&lt;/strong&gt;, &lt;strong&gt;David M. Davis&lt;/strong&gt; and &lt;strong&gt;Rick Vanover&lt;/strong&gt; where the top lists were revealed, be sure to check it out:&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Want a Free Pass to TechEd 2013?</title>
-      <link>/news/free-pass-teched-2013/</link>
+      <link>https://vninja.net/news/free-pass-teched-2013/</link>
       <pubDate>Tue, 26 Feb 2013 16:14:48 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/news/free-pass-teched-2013/</guid>
+      
+      <guid>https://vninja.net/news/free-pass-teched-2013/</guid>
       <description>Our sponsor Veeam is giving away a free pass to TechEd 2013 in this months giveaway.
 Register now to be entered into the draw before March 18th when the winner will be announced.</description>
     </item>
     
     <item>
       <title>Want a VMware Workstation License?</title>
-      <link>/virtualization/vmware-workstation-license/</link>
+      <link>https://vninja.net/virtualization/vmware-workstation-license/</link>
       <pubDate>Thu, 10 Jan 2013 23:09:56 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/vmware-workstation-license/</guid>
+      
+      <guid>https://vninja.net/virtualization/vmware-workstation-license/</guid>
       <description>Christopher Kusek, who runs pkguild.com, has just announced that he is running a contest where you can win a VMware Workstation 9 license.
 Seeing that announcement, and the fact that Christopher was nice enough to mention both me and vNinja.net in it, I have decided to also give away a license that has been lingering unused in my possession way to long.
 Instead of running my own contest, my license has been added to the existing contest so head on over there to read all the details.</description>
@@ -102,10 +111,10 @@ Instead of running my own contest, my license has been added to the existing con
     
     <item>
       <title>VMworld europe 2010</title>
-      <link>/virtualization/vmworld-europe-2010/</link>
+      <link>https://vninja.net/virtualization/vmworld-europe-2010/</link>
       <pubDate>Sun, 10 Oct 2010 20:25:42 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/vmworld-europe-2010/</guid>
+      
+      <guid>https://vninja.net/virtualization/vmworld-europe-2010/</guid>
       <description>[VMworld Europe 2010 is close. Very close. In fact, lots of people are already in place in Copenhagen, personally I don’t get until tomorrow evening (the 11th).
 Since I get in pretty late, I really hope I’ll be able to get to my hotel quickly, and then find Custom House for the Tweetup/VMUG Party.
 Remember I have a little contest going, where you can win a copy of Trainsignal VMware vSphere Pro Series Training Vol.</description>

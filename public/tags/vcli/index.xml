@@ -2,44 +2,42 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vcli on vNinja.net</title>
-    <link>/tags/vcli/</link>
+    <link>https://vninja.net/tags/vcli/</link>
     <description>Recent content in Vcli on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Tue, 08 Mar 2011 08:00:02 +0000</lastBuildDate>
     
-	<atom:link href="/tags/vcli/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/vcli/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Using rsync to Distribute Patches to a Remote vMA </title>
-      <link>/virtualization/using-rsync-to-distribute-patches-to-remote-a-vma/</link>
+      <link>https://vninja.net/virtualization/using-rsync-to-distribute-patches-to-remote-a-vma/</link>
       <pubDate>Tue, 08 Mar 2011 08:00:02 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/using-rsync-to-distribute-patches-to-remote-a-vma/</guid>
+      
+      <guid>https://vninja.net/virtualization/using-rsync-to-distribute-patches-to-remote-a-vma/</guid>
       <description>I recently posted Using vMA as a local vSphere Patch Repository, where I outlined how you can use your vMA instances as local file repositories for updates.
 This post is a continuation of that concept, but this time I&amp;rsquo;ll take it a step further and utilize rsync to make sure my vMA instances all contain the same set of patches. Rsync is great for this, as it handles fast incremental file transfers, which is a real time and bandwidth saver in my particular scenario.</description>
     </item>
     
     <item>
       <title>Using vMA as a local vSphere Patch Repository</title>
-      <link>/virtualization/using-vma-as-a-local-vsphere-patch-repository/</link>
+      <link>https://vninja.net/virtualization/using-vma-as-a-local-vsphere-patch-repository/</link>
       <pubDate>Mon, 07 Mar 2011 22:43:33 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/using-vma-as-a-local-vsphere-patch-repository/</guid>
+      
+      <guid>https://vninja.net/virtualization/using-vma-as-a-local-vsphere-patch-repository/</guid>
       <description>I like using http as the transport protocol when patching my vSphere hosts. It&amp;rsquo;s easy to use and in most cases immediately available over most networks. Since I want to use http as the transport, we need to make vMA work as a http server.
 Starting Apache inside vMA Luckily, the Apache http daemon is installed, by default, in vMA and to utilize it all you have to do is to start it!</description>
     </item>
     
     <item>
       <title>Installing vSphere Management Assistant (vMA)</title>
-      <link>/virtualization/installing-vsphere-management-assistant-vma/</link>
+      <link>https://vninja.net/virtualization/installing-vsphere-management-assistant-vma/</link>
       <pubDate>Mon, 28 Feb 2011 23:26:15 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/installing-vsphere-management-assistant-vma/</guid>
+      
+      <guid>https://vninja.net/virtualization/installing-vsphere-management-assistant-vma/</guid>
       <description>The vMA is a Virtual Appliance that you can download from VMware. It&amp;rsquo;s primary function is to enable command line based management of your ESX/ESXi systems.
 Basically this is a pre-packaged virtual machine that includes vCLI and the vSphere SDK for Perl, which means that you don&amp;rsquo;t have to build your own management VM or install these tools locally on a management station.
 vMA is in many regards seen as a replacement for the ESX Service Console which no longer is present in ESXi.</description>

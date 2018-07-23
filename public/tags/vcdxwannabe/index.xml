@@ -2,24 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vcdxwannabe on vNinja.net</title>
-    <link>/tags/vcdxwannabe/</link>
+    <link>https://vninja.net/tags/vcdxwannabe/</link>
     <description>Recent content in Vcdxwannabe on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Tue, 27 Mar 2012 08:46:21 +0000</lastBuildDate>
     
-	<atom:link href="/tags/vcdxwannabe/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/vcdxwannabe/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>VCDX Wannabe goes live</title>
-      <link>/virtualization/vcdx-wannabe-live/</link>
+      <link>https://vninja.net/virtualization/vcdx-wannabe-live/</link>
       <pubDate>Tue, 27 Mar 2012 08:46:21 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/vcdx-wannabe-live/</guid>
+      
+      <guid>https://vninja.net/virtualization/vcdx-wannabe-live/</guid>
       <description>My little pet project VCDX Wannabe has now (finally) gone live. For now it´s mostly a collection of links and resources, but that will change over time.
 So, if you want to see me (and possibly a few others) either go down in flames, kicking and screaming, or succeed obtaining the VCDX certification you now have the opportunity to do so.</description>
     </item>

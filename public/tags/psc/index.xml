@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Psc on vNinja.net</title>
-    <link>/tags/psc/</link>
+    <link>https://vninja.net/tags/psc/</link>
     <description>Recent content in Psc on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Sun, 22 May 2016 19:19:52 +0000</lastBuildDate>
     
-	<atom:link href="/tags/psc/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/psc/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>vSphere Platform Services Controller (PSC) topology and Omnigraffle</title>
-      <link>/virtualization/vsphere-platform-services-controller-psc-topology-and-omnigraffle/</link>
+      <link>https://vninja.net/virtualization/vsphere-platform-services-controller-psc-topology-and-omnigraffle/</link>
       <pubDate>Sun, 22 May 2016 19:19:52 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/vsphere-platform-services-controller-psc-topology-and-omnigraffle/</guid>
-      <description>A little while ago William Lam published a little python script called extract_vsphere_deployment_topology.py that basically lets you export your current vSphere PSC topology as a DOT (graph description language) file. Great stuff, and in itself useful as is, especially if you run it through webgraphviz.com as William suggests.
-The thing is, you might want to edit the topology map, change colours and fonts, and even move the boxes around, after you get the output.</description>
+      
+      <guid>https://vninja.net/virtualization/vsphere-platform-services-controller-psc-topology-and-omnigraffle/</guid>
+      <description>&lt;p&gt;A little while ago &lt;a href=&#34;https://twitter.com/lamw&#34;&gt;William Lam&lt;/a&gt; published a little python script called &lt;a href=&#34;http://www.virtuallyghetto.com/2016/05/generating-vcenter-server-platform-services-controller-deployment-topology-diagrams.html&#34;&gt;extract_vsphere_deployment_topology.py&lt;/a&gt; that basically lets you export your current vSphere PSC topology as a &lt;a href=&#34;https://en.wikipedia.org/wiki/DOT_(graph_description_language)&#34;&gt;DOT (graph description language)&lt;/a&gt; file. Great stuff, and in itself useful as is, especially if you run it through &lt;a href=&#34;http://www.webgraphviz.com&#34;&gt;webgraphviz.com&lt;/a&gt; as William suggests.&lt;/p&gt;
+
+&lt;p&gt;The thing is, you might want to edit the topology map, change colours and fonts, and even move the boxes around, after you get the output. If you have a large environment, you might want to combine all your PSC topologies into a single document? It turns out, that&amp;rsquo;s pretty easy to do!
+&lt;/p&gt;</description>
     </item>
     
   </channel>

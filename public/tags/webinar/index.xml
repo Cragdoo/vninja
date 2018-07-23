@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Webinar on vNinja.net</title>
-    <link>/tags/webinar/</link>
+    <link>https://vninja.net/tags/webinar/</link>
     <description>Recent content in Webinar on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Mon, 13 Nov 2017 16:45:46 +0000</lastBuildDate>
     
-	<atom:link href="/tags/webinar/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/webinar/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Webinar: Veeam integration with VMware vSAN, vSphere tags and SPBM policies</title>
-      <link>/virtualization/webinar-veeam-integration-with-vmware-vsan-vsphere-tags-and-spbm-policies/</link>
+      <link>https://vninja.net/virtualization/webinar-veeam-integration-with-vmware-vsan-vsphere-tags-and-spbm-policies/</link>
       <pubDate>Mon, 13 Nov 2017 16:45:46 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/webinar-veeam-integration-with-vmware-vsan-vsphere-tags-and-spbm-policies/</guid>
-      <description>Warning: Shameless self promotion ahead!
-November 30th I&amp;rsquo;ll be joining Martin Plesner-Jacobsen from Veeam for a Live Webinar: _Veeam integration with VMware vSAN, vSphere tags and SPBM policies. _
-Now that&amp;rsquo;s a lot of goodies in one place!
+      
+      <guid>https://vninja.net/virtualization/webinar-veeam-integration-with-vmware-vsan-vsphere-tags-and-spbm-policies/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Warning: Shameless self promotion ahead!&lt;/strong&gt;&lt;/p&gt;
 
-Click on the banner above to register now, and reserve your spot!</description>
+&lt;p&gt;November 30th I&amp;rsquo;ll be joining &lt;a href=&#34;https://twitter.com/mplesnerj&#34;&gt;Martin Plesner-Jacobsen&lt;/a&gt; from Veeam for a Live Webinar: _Veeam integration with VMware vSAN, vSphere tags and SPBM policies. _&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Now that&amp;rsquo;s a lot of goodies in one place!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Veeam Webinar &amp; NFR Licenses</title>
-      <link>/virtualization/veeam-webinar-nfr-licenses/</link>
+      <link>https://vninja.net/virtualization/veeam-webinar-nfr-licenses/</link>
       <pubDate>Thu, 05 Sep 2013 15:38:56 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/veeam-webinar-nfr-licenses/</guid>
+      
+      <guid>https://vninja.net/virtualization/veeam-webinar-nfr-licenses/</guid>
       <description>This coming tuesday the first ever Veeam Webinar held in Norwegian will be held by yours truly. Feel free to sign up now and listen to me speak for an hour or so.
 
 Also, Veeam is continuing it´s support of the virtualization community and is yet again offering free 180-days Veeam Backup Management Suite v7 NFR licenses for VMware and Hyper-V.

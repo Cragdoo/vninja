@@ -2,45 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cloud on vNinja.net</title>
-    <link>/tags/cloud/</link>
+    <link>https://vninja.net/tags/cloud/</link>
     <description>Recent content in Cloud on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Fri, 14 Oct 2016 18:57:20 +0000</lastBuildDate>
     
-	<atom:link href="/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Me too: VMware Cloud™ on AWS</title>
-      <link>/news/me-too-vmware-cloud-on-aws/</link>
+      <link>https://vninja.net/news/me-too-vmware-cloud-on-aws/</link>
       <pubDate>Fri, 14 Oct 2016 18:57:20 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/news/me-too-vmware-cloud-on-aws/</guid>
-      <description>After yesterdays announcement of VMware Cloud™ on AWS everyone and their distant relatives have published their opinion pieces on the relevance of the deal, and what who got the short end of the stick in this deal. I guess this is my attempt, or me too post if you will.
-First off, the best source for actual facts and not conjecture, besides the press releases and actual announcement, is Frank Denneman&amp;rsquo;s VMware Cloud™ on AWS – A Closer Look post (and by the way, it just_ feels right_ that Frank is back at VMware).</description>
+      
+      <guid>https://vninja.net/news/me-too-vmware-cloud-on-aws/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://vninja.net/img/VMware-AWS_750.png&#34; alt=&#34;&#34; /&gt;After yesterdays announcement of VMware Cloud™ on AWS &lt;a href=&#34;https://twitter.com/hashtag/VMWonAWS?src=hash&#34;&gt;everyone and their distant relatives&lt;/a&gt; have published their opinion pieces on the relevance of the deal, and what who got the short end of the stick in this deal.  I guess this is my attempt, or me too post if you will.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>What if it&#39;s Just Some Crazy Guy in a Clown Suit?</title>
-      <link>/news/what-if-its-just-some-crazy-guy-in-a-clown-suit/</link>
+      <link>https://vninja.net/news/what-if-its-just-some-crazy-guy-in-a-clown-suit/</link>
       <pubDate>Tue, 08 Sep 2015 21:51:44 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/news/what-if-its-just-some-crazy-guy-in-a-clown-suit/</guid>
-      <description>As a few of you have noticed, I recently changed my title on LinkedIn from Chief Consultant to Cloud Architect in the newly formed EVRY Cloud Consulting division, but what does that mean and perhaps more importantly, why?
-The closest description I have found to describe what my new role is this:
- Leads in the development of the technical solution or offering, in translating the business needs into technical requirements.</description>
+      
+      <guid>https://vninja.net/news/what-if-its-just-some-crazy-guy-in-a-clown-suit/</guid>
+      <description>&lt;p&gt;As a few of you have noticed, I recently changed my title on &lt;a href=&#34;https://no.linkedin.com/in/christianmohn&#34;&gt;LinkedIn&lt;/a&gt; from &lt;strong&gt;Chief Consultant&lt;/strong&gt; to &lt;strong&gt;Cloud Architect&lt;/strong&gt; in the newly formed &lt;a href=&#34;http://evry.no&#34;&gt;EVRY&lt;/a&gt; Cloud Consulting division, but what does that mean and perhaps more importantly, why?&lt;/p&gt;
+
+&lt;p&gt;The closest description I have found to describe what my new role is this:&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Autolab goes Cloudy with a Chance of Free Credits </title>
-      <link>/virtualization/autolab-meets-cloud/</link>
+      <link>https://vninja.net/virtualization/autolab-meets-cloud/</link>
       <pubDate>Thu, 14 Mar 2013 00:02:35 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/autolab-meets-cloud/</guid>
+      
+      <guid>https://vninja.net/virtualization/autolab-meets-cloud/</guid>
       <description>Autolab, that awesome &amp;laquo;little&amp;raquo; thing that automagically builds a nested vSphere Lab environment for you, was definitely not put together by Flint Lockwood but by Alastair Cooke (www.demitasse.co.nz). Unlike Flint´s inventions, this one actually makes sense and serves a purpose!
 Now, how sweet would it be to deploy Autolab without having to invest time, money and effort into acquiring your own hardware?
 Well, thanks to baremetalcloud.com, you might now actually be able to do just that (and more, if you wish).</description>
@@ -48,10 +49,10 @@ Well, thanks to baremetalcloud.com, you might now actually be able to do just th
     
     <item>
       <title>VMware launches Public vCloud &#34;Test-Drive&#34;</title>
-      <link>/news/vmware-launches-public-vcloud-test-driv/</link>
+      <link>https://vninja.net/news/vmware-launches-public-vcloud-test-driv/</link>
       <pubDate>Thu, 16 Aug 2012 21:17:12 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/news/vmware-launches-public-vcloud-test-driv/</guid>
+      
+      <guid>https://vninja.net/news/vmware-launches-public-vcloud-test-driv/</guid>
       <description>VMware Offers vCloud “Test-Drive” with New Evaluation Service.
 This announcement doesn´t seem to be &amp;laquo;Project Zephyr&amp;raquo; which, if the rumors are true, is VMware´s own fully fledged IaaS service.
 This Public vCloud “Test-Drive” service, which VMware themselves describe as “white-label” from a vCloud service provider, seems like a way for VMware to provide cheap test-drive access, to vCloud through their existing service providers.

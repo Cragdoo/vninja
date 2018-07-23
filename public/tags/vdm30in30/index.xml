@@ -2,89 +2,108 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vdm30in30 on vNinja.net</title>
-    <link>/tags/vdm30in30/</link>
+    <link>https://vninja.net/tags/vdm30in30/</link>
     <description>Recent content in Vdm30in30 on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Sat, 19 Nov 2016 13:04:50 +0000</lastBuildDate>
     
-	<atom:link href="/tags/vdm30in30/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/vdm30in30/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Nordic VMUG UserCon 2016</title>
-      <link>/news/nordic-vmug-usercon-2016/</link>
+      <link>https://vninja.net/news/nordic-vmug-usercon-2016/</link>
       <pubDate>Sat, 19 Nov 2016 13:04:50 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/news/nordic-vmug-usercon-2016/</guid>
-      <description>The 2016 Nordic VMUG UserCon in Copenhagen, Denmark, is just 11 days away, and if you haven&amp;rsquo;t registered already now is the time to do so. As usual the speaker lineup for the event is awesome, with a lot of the usual suspects like Duncan Epping (VMware), Cormac Hogan (VMware), Lee Dilworth (VMware), and Frank Denneman (VMware), but VMware is also showing it&amp;rsquo;s commitment to VMUG by sending some non-europeans as well, like Grant Orchard and_ Mike Foley_.</description>
+      
+      <guid>https://vninja.net/news/nordic-vmug-usercon-2016/</guid>
+      <description>&lt;h2 id=&#34;the-2016-nordic-vmug-usercon-in-copenhagen-denmark-is-just-11-days-away-and-if-you-haven-t-registered-already-now-is-the-time-to-do-so&#34;&gt;The 2016 Nordic VMUG UserCon in Copenhagen, Denmark, is just 11 days away, and if you haven&amp;rsquo;t registered already now is the time to do so.&lt;/h2&gt;
+
+&lt;p&gt;As usual the speaker lineup for the event is awesome, with a lot of the usual suspects like &lt;em&gt;Duncan Epping (VMware)&lt;/em&gt;, &lt;em&gt;Cormac Hogan (VMware)&lt;/em&gt;, &lt;em&gt;Lee Dilworth (VMware)&lt;/em&gt;, and &lt;em&gt;Frank Denneman (VMware)&lt;/em&gt;, but VMware is also showing it&amp;rsquo;s commitment to VMUG by sending some non-europeans as well, like &lt;em&gt;Grant Orchard&lt;/em&gt; and_ Mike Foley_. This, coupled with &amp;laquo;local&amp;raquo; speakers like &lt;em&gt;Michael Ryom&lt;/em&gt;, &lt;em&gt;Nicolai Sandager&lt;/em&gt; and &lt;em&gt;Marteinn Sigurdsson&lt;/em&gt; this promises to be every bit as awesome as the event was last year.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>In The Bag #3 - Week 46</title>
-      <link>/virtualization/in-the-bag-3-week-46/</link>
+      <link>https://vninja.net/virtualization/in-the-bag-3-week-46/</link>
       <pubDate>Fri, 18 Nov 2016 22:38:33 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/in-the-bag-3-week-46/</guid>
-      <description>Welcome to the third edition of In The Bag!
-[caption id=&amp;laquo;attachment_4314&amp;raquo; align=&amp;laquo;aligncenter&amp;raquo; width=&amp;laquo;620&amp;raquo;] Photo by Sonny Abesamis[/caption]
-In The Bag #3 - Week 46
-Technology  Slow news week, not much happening really. Oh wait, there was this thing called vSphere 6.5 that was released. William Lam has the lowdown in his All vSphere 6.5 release notes &amp;amp; download links post. Please read the release notes. They are important.</description>
+      
+      <guid>https://vninja.net/virtualization/in-the-bag-3-week-46/</guid>
+      <description>&lt;p&gt;Welcome to the third edition of In The Bag!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.flickr.com/photos/enerva/11057276504/in/photolist-hR6r5m-EjDHYD-s5N5ug-7mupFc-pRGXKb-mCuo8D-2eKBVn-ptTvq4-iTnJ5R-hNhv7r-zQYi8-ouF4WU-67A26z-6HzJgG-vjnrJ-KSnq-dRfFxj-jafws-dMrntt-ot3nPf-dbexc8-aLrQZg-pFyH1e-9mtAak-7F4dJ5-jKQWDs-qqyNm8-jaBCBd-dRHUab-ohXLDB-ejvSsu-eipa91-7UVD3Q-91hfJM-k6TeEL-e9SjCB-gVvTgW-dY8wGK-dGiyJX-64BQjG-aLzCzK-8xHqyd-dVAGmn-fvMTyw-cTGbnu-pXpiSU-j5snjj-rQ5sJ7-9DvemK-g93VKZ&#34;&gt;&lt;img src=&#34;https://vninja.net/img/11057276504_2acf34be04_o-1024x683.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt; Photo by Sonny Abesamis&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;In The Bag #3 - Week 46&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>In The Bag #2 - Week 45</title>
-      <link>/inthebag/in-the-bag-2-week-45/</link>
+      <link>https://vninja.net/inthebag/in-the-bag-2-week-45/</link>
       <pubDate>Fri, 11 Nov 2016 17:08:24 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/inthebag/in-the-bag-2-week-45/</guid>
-      <description>Welcome to the second edition of In The Bag!
-[caption id=&amp;laquo;attachment_4314&amp;raquo; align=&amp;laquo;aligncenter&amp;raquo; width=&amp;laquo;620&amp;raquo;] Photo by Sonny Abesamis[/caption]
-In The Bag #2 - Week 45
-Technology  vSAN 6.5 Licensing Guide The vSAN 6.5 Licensing Guide is now available, worth noticing is that All Flash (but not compression/dedup and RAID5/6) is now available in the Standard edition. Also nice to see that the new iSCSI Target Service is also included in Standard.</description>
+      
+      <guid>https://vninja.net/inthebag/in-the-bag-2-week-45/</guid>
+      <description>&lt;p&gt;Welcome to the second edition of In The Bag!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.flickr.com/photos/enerva/11057276504/in/photolist-hR6r5m-EjDHYD-s5N5ug-7mupFc-pRGXKb-mCuo8D-2eKBVn-ptTvq4-iTnJ5R-hNhv7r-zQYi8-ouF4WU-67A26z-6HzJgG-vjnrJ-KSnq-dRfFxj-jafws-dMrntt-ot3nPf-dbexc8-aLrQZg-pFyH1e-9mtAak-7F4dJ5-jKQWDs-qqyNm8-jaBCBd-dRHUab-ohXLDB-ejvSsu-eipa91-7UVD3Q-91hfJM-k6TeEL-e9SjCB-gVvTgW-dY8wGK-dGiyJX-64BQjG-aLzCzK-8xHqyd-dVAGmn-fvMTyw-cTGbnu-pXpiSU-j5snjj-rQ5sJ7-9DvemK-g93VKZ&#34;&gt;&lt;img src=&#34;https://vninja.net/img/11057276504_2acf34be04_o-1024x683.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt; Photo by Sonny Abesamis&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;In The Bag #2 - Week 45&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>VCSA - The default choice. Always.</title>
-      <link>/virtualization/vcsa-the-default-choice-always/</link>
+      <link>https://vninja.net/virtualization/vcsa-the-default-choice-always/</link>
       <pubDate>Thu, 10 Nov 2016 09:57:29 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/vcsa-the-default-choice-always/</guid>
-      <description>I&amp;rsquo;ve been a big proponent of the VMware vCenter Appliance for a long time, I even did a talk called VCS to VCSA Converter or How a Fling Can Be Good for You! on migrating to the VCSA at the Nordic VMUG last year.
-The VCSA has gone through a few iterations and versions by now, coinciding with the vSphere releases.
-History [table id=14 /]
-Since v6.0 scaling has been on par with it&amp;rsquo;s Windows based counterpart, supporting the same number of hosts and VMs.</description>
+      
+      <guid>https://vninja.net/virtualization/vcsa-the-default-choice-always/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been a big proponent of the VMware vCenter Appliance for a long time, I even did a talk called &lt;a href=&#34;https://www.vmug.com/p/cm/ld/fid=10931&#34;&gt;VCS to VCSA Converter or How a Fling Can Be Good for You!&lt;/a&gt; on migrating to the VCSA at the Nordic VMUG last year.&lt;/p&gt;
+
+&lt;p&gt;The VCSA has gone through a few iterations and versions by now, coinciding with the vSphere releases.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Using GitBook for Secrets</title>
-      <link>/misc/using-gitbook-for-secrets/</link>
+      <link>https://vninja.net/misc/using-gitbook-for-secrets/</link>
       <pubDate>Tue, 08 Nov 2016 23:42:49 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/misc/using-gitbook-for-secrets/</guid>
-      <description>A while ago I decided to try and gather a bunch of non-public information in an easy to write and consume fashion. After a bit of fiddling, and testing different potential solutions, GitBook emerged as the best option. By using MarkDown as the markup language, it’s both cross-platform and easy to manage, as the content is nothing but raw text files.
-GitBook is awesome, no question about it, but in this case I didn&amp;rsquo;t want the content hosted publicly on gitbook.</description>
+      
+      <guid>https://vninja.net/misc/using-gitbook-for-secrets/</guid>
+      <description>&lt;p&gt;A while ago I decided to try and gather a bunch of non-public information in an easy to write and consume fashion. After a bit of fiddling, and testing different potential solutions, &lt;a href=&#34;http://gitbook.com/&#34;&gt;GitBook&lt;/a&gt; emerged as the best option. By using &lt;a href=&#34;https://daringfireball.net/projects/markdown/&#34;&gt;MarkDown&lt;/a&gt; as the markup language, it’s both cross-platform and easy to manage, as the content is nothing but raw text files.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>What&#39;s Really in the Bag?</title>
-      <link>/misc/whats-really-in-the-bag/</link>
+      <link>https://vninja.net/misc/whats-really-in-the-bag/</link>
       <pubDate>Sat, 05 Nov 2016 23:16:06 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/misc/whats-really-in-the-bag/</guid>
-      <description>#vDM30in30 progress:        Since I &amp;laquo;launched&amp;raquo; my In the Bag series of weekly links yesterday, I figured I should really show what is indeed in the bag. Lifehacker runs a series called Featured Bag and the voyeur in me finds it interesting what other people carry around, and how they organize it.</description>
+      
+      <guid>https://vninja.net/misc/whats-really-in-the-bag/</guid>
+      <description>&lt;p&gt;Since I &amp;laquo;launched&amp;raquo; my &lt;a href=&#34;http://vninja.net/in-the-bag/&#34;&gt;In the Bag&lt;/a&gt; series of weekly links yesterday, I figured I should really show what is indeed in the bag. Lifehacker runs a series called &lt;a href=&#34;http://lifehacker.com/tag/featured-bag&#34;&gt;Featured Bag&lt;/a&gt; and the voyeur in me finds it interesting what other people carry around, and how they organize it.&lt;/p&gt;
+
+&lt;p&gt;This is my attempt at doing the same. This is my everyday carry, most of these items are always in the bag when I leave the house in the morning. I&amp;rsquo;ve been using backpacks for years, but noticed I always just carry it around on righ shoulder, so I decided to go for a shoulder bag instead. For the most part this works our fine, if I&amp;rsquo;m travelling for more than a day, I tend to re-pack in one of the backpacks I have instead.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://vninja.net/img/IMG_7371-1024x768.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>VMworld Europe 2016 - My takeaways</title>
-      <link>/vmware-2/vmworld-europe-2016-my-takeaways/</link>
+      <link>https://vninja.net/vmware-2/vmworld-europe-2016-my-takeaways/</link>
       <pubDate>Mon, 31 Oct 2016 23:07:40 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/vmware-2/vmworld-europe-2016-my-takeaways/</guid>
-      <description>VMworld Europe 2016 in Barcelona is a couple of weeks old now, and most of the dust has settled. Besides the general announcements around vSphere 6.5 and surrounding products, the next big thing might just be Cross-Cloud Architecture and of course VMware Cloud on AWS. The announcements around vSAN 6.5 (yes, it is now vSAN and not Virtual SAN/VSAN anymore), are also very interesting. Perhaps it&amp;rsquo;s time I revisit my earlier VMware VSAN; More than meets the eye post and update it for vSAN 6.</description>
+      
+      <guid>https://vninja.net/vmware-2/vmworld-europe-2016-my-takeaways/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://vninja.net/img//IMG_7292-1024x1024.jpg&#34; alt=&#34;VMworld Europe 2016&#34; /&gt;
+VMworld Europe 2016 in Barcelona is a couple of weeks old now, and most of the dust has settled. Besides the general announcements around vSphere 6.5 and surrounding products, the next big thing might just be &lt;a href=&#34;http://www.vmware.com/radius/cross-cloud-introduction/&#34;&gt;Cross-Cloud Architecture&lt;/a&gt; and of course &lt;a href=&#34;http://vninja.net/news/me-too-vmware-cloud-on-aws/&#34;&gt;VMware Cloud on AWS&lt;/a&gt;. The announcements around vSAN 6.5 (yes, it is now &lt;a href=&#34;https://twitter.com/leecaswell/status/790679575499907072&#34;&gt;vSAN and not Virtual SAN/VSAN anymore&lt;/a&gt;), are also very interesting. Perhaps it&amp;rsquo;s time I revisit my earlier &lt;a href=&#34;http://vninja.net/virtualization/vmware-vsan-more-than-meets-the-eye/&#34;&gt;VMware VSAN; More than meets the eye&lt;/a&gt; post and update it for vSAN 6.5?&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

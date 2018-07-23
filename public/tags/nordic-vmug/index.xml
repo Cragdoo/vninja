@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nordic Vmug on vNinja.net</title>
-    <link>/tags/nordic-vmug/</link>
+    <link>https://vninja.net/tags/nordic-vmug/</link>
     <description>Recent content in Nordic Vmug on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Wed, 04 Dec 2013 23:23:23 +0000</lastBuildDate>
     
-	<atom:link href="/tags/nordic-vmug/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/nordic-vmug/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Nordic VMUG Conference - My Thoughts</title>
-      <link>/vmware-2/nordic-vmug-conference-thoughts/</link>
+      <link>https://vninja.net/vmware-2/nordic-vmug-conference-thoughts/</link>
       <pubDate>Wed, 04 Dec 2013 23:23:23 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/vmware-2/nordic-vmug-conference-thoughts/</guid>
-      <description>On Tuesday, December 3, 2013 VMware User Group Denmark arranged theNordic VMUG Conference. The event itself can only be described as a mini-VMworld, with over 600 registered attendees, and a speaker list worthy of such a nick-name.
-The opening keynote was held by Joe Baguley, the closing keynote was held by Chad Sakac. In between those two, you had the possibility to attend sessions held by Cormac Hogan, Mike Laverick, Frank Brix, Paudie O-Riordan, Frank Denneman, Mattias Sundling, David Davis and Duncan Epping.</description>
+      
+      <guid>https://vninja.net/vmware-2/nordic-vmug-conference-thoughts/</guid>
+      <description>&lt;p&gt;On Tuesday, December 3, 2013 VMware User Group Denmark arranged the&lt;a href=&#34;http://www.vmug.com/p/cm/ld/fid=1760&#34;&gt; Nordic VMUG Conference&lt;/a&gt;. The event itself can only be described as a mini-VMworld, with over 600 registered attendees, and a speaker list worthy of such a nick-name.&lt;/p&gt;
+
+&lt;p&gt;The opening keynote was held by Joe Baguley, the closing keynote was held by Chad Sakac. In between those two, you had the possibility to attend sessions held by Cormac Hogan, Mike Laverick,  Frank Brix, Paudie O-Riordan, Frank Denneman, Mattias Sundling, David Davis and Duncan Epping.
+&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -2,25 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Audio on vNinja.net</title>
-    <link>/tags/audio/</link>
+    <link>https://vninja.net/tags/audio/</link>
     <description>Recent content in Audio on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Fri, 18 Jul 2014 21:59:52 +0000</lastBuildDate>
     
-	<atom:link href="/tags/audio/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/audio/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>This Week in Virtualization</title>
-      <link>/virtualization/week-virtualization/</link>
+      <link>https://vninja.net/virtualization/week-virtualization/</link>
       <pubDate>Fri, 18 Jul 2014 21:59:52 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/week-virtualization/</guid>
-      <description>I was invited by Nick Martin and Tom Walat to join them in this pre-VMworld edition of the podcast, so if you&amp;rsquo;re not bored reading about my Marvin speculations already, you can now listen to them as well over at This Week in Virtualizationby SearchServerVirtualization. It also covers some expectation for VMworld 2014, which is rapidly getting closer.</description>
+      
+      <guid>https://vninja.net/virtualization/week-virtualization/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://vninja.net/img/4698e4136cb25d23d2ee4441_150_recording.jpg#floatright&#34; alt=&#34;recording photo&#34; /&gt;I was invited by Nick Martin and Tom Walat to join them in this pre-VMworld edition of the podcast, so if you&amp;rsquo;re not bored reading about my &lt;a href=&#34;http://vninja.net/vmware-2/vmwares-mystic-marvin-project/&#34;&gt;Marvin&lt;/a&gt; &lt;a href=&#34;http://vninja.net/vmware-2/marvin-speculation/&#34;&gt;speculations&lt;/a&gt; already, you can now listen to them as well over at &lt;a href=&#34;http://searchservervirtualization.techtarget.com/podcast/VMware-Marvin-speculation-and-VMworld-expectations&#34;&gt;This Week in Virtualization&lt;/a&gt;&lt;a href=&#34;http://searchservervirtualization.techtarget.com/podcast/VMware-Marvin-speculation-and-VMworld-expectations&#34;&gt; by SearchServerVirtualization&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;It also covers some expectation for VMworld 2014, which is rapidly getting closer.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

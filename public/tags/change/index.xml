@@ -2,36 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Change on vNinja.net</title>
-    <link>/tags/change/</link>
+    <link>https://vninja.net/tags/change/</link>
     <description>Recent content in Change on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Thu, 31 Mar 2016 22:16:31 +0000</lastBuildDate>
     
-	<atom:link href="/tags/change/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/change/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>I Made Something Happen</title>
-      <link>/news/i-made-something-happen/</link>
+      <link>https://vninja.net/news/i-made-something-happen/</link>
       <pubDate>Thu, 31 Mar 2016 22:16:31 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/news/i-made-something-happen/</guid>
-      <description>I think Seth Godin might have been onto something with &amp;laquo;Make something happen&amp;raquo;, so I did.
-Today was my last day at EVRY. Some might already have been aware of this, mostly because of Hoff-Job-Announcement-as-a-Service, but also because of my own tweet as I left the EVRY offices in Bergen as an employee for the last time:
-https://twitter.com/h0bbel/status/715526670254473217
-The decision to leave EVRY was not an easy one, but it was time to try something else.</description>
+      
+      <guid>https://vninja.net/news/i-made-something-happen/</guid>
+      <description>&lt;p&gt;I think &lt;a href=&#34;http://www.sethgodin.com/sg/&#34;&gt;Seth Godin&lt;/a&gt; might have been onto something with &amp;laquo;Make something happen&amp;raquo;, so I did.&lt;/p&gt;
+
+&lt;p&gt;Today was my last day at &lt;a href=&#34;http://evry.no&#34;&gt;EVRY&lt;/a&gt;. Some might already have been aware of this, mostly because of &lt;a href=&#34;https://twitter.com/Beaker/status/704375129485156352&#34;&gt;Hoff-Job-Announcement-as-a-Service&lt;/a&gt;, but also because of my own tweet as I left the EVRY offices in Bergen  as an employee for the last time:&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>My Personal vMotion</title>
-      <link>/news/my-personal-vmotion/</link>
+      <link>https://vninja.net/news/my-personal-vmotion/</link>
       <pubDate>Fri, 04 Nov 2011 09:26:16 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/news/my-personal-vmotion/</guid>
+      
+      <guid>https://vninja.net/news/my-personal-vmotion/</guid>
       <description>Every  once in a while an opportunity presents itself that is just too good to pass up and after 8 years at Seatrans AS I&amp;rsquo;ve decided to move on and and accept a position as a Senior Consultant in the Infrastructure Consulting division of EDB ErgoGroup.
 Seatrans has been a fantastic employer, and without the backing and support I&amp;rsquo;ve had over the years I would not be in a position where this change would be possible.</description>
     </item>

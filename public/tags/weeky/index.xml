@@ -2,28 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Weeky on vNinja.net</title>
-    <link>/tags/weeky/</link>
+    <link>https://vninja.net/tags/weeky/</link>
     <description>Recent content in Weeky on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Fri, 25 Nov 2016 12:00:45 +0000</lastBuildDate>
     
-	<atom:link href="/tags/weeky/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/weeky/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>In The Bag #4 - Week 47</title>
-      <link>/inthebag/in-the-bag-4-week-47/</link>
+      <link>https://vninja.net/inthebag/in-the-bag-4-week-47/</link>
       <pubDate>Fri, 25 Nov 2016 12:00:45 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/inthebag/in-the-bag-4-week-47/</guid>
-      <description>Welcome to the fourth edition of In The Bag!
-[caption id=&amp;laquo;attachment_4314&amp;raquo; align=&amp;laquo;aligncenter&amp;raquo; width=&amp;laquo;620&amp;raquo;] Photo by Sonny Abesamis[/caption]
-In The Bag #4 - Week 47
-Technology  Capacity Expansion &amp;amp; Disk Group Design Decisions–All Flash vSAN Every design decision has a consequence, and thats also the case when it comes to vSAN. Jason Langer has written a great article highlighting how enabling deduplication and compression has consequences for drive failure scenarios.</description>
+      
+      <guid>https://vninja.net/inthebag/in-the-bag-4-week-47/</guid>
+      <description>&lt;p&gt;Welcome to the fourth edition of In The Bag!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.flickr.com/photos/enerva/11057276504/in/photolist-hR6r5m-EjDHYD-s5N5ug-7mupFc-pRGXKb-mCuo8D-2eKBVn-ptTvq4-iTnJ5R-hNhv7r-zQYi8-ouF4WU-67A26z-6HzJgG-vjnrJ-KSnq-dRfFxj-jafws-dMrntt-ot3nPf-dbexc8-aLrQZg-pFyH1e-9mtAak-7F4dJ5-jKQWDs-qqyNm8-jaBCBd-dRHUab-ohXLDB-ejvSsu-eipa91-7UVD3Q-91hfJM-k6TeEL-e9SjCB-gVvTgW-dY8wGK-dGiyJX-64BQjG-aLzCzK-8xHqyd-dVAGmn-fvMTyw-cTGbnu-pXpiSU-j5snjj-rQ5sJ7-9DvemK-g93VKZ&#34;&gt;&lt;img src=&#34;https://vninja.net/img//11057276504_2acf34be04_o-1024x683.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt; Photo by Sonny Abesamis&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;In The Bag #4 - Week 47&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

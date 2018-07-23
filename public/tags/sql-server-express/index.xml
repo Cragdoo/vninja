@@ -2,24 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sql Server Express on vNinja.net</title>
-    <link>/tags/sql-server-express/</link>
+    <link>https://vninja.net/tags/sql-server-express/</link>
     <description>Recent content in Sql Server Express on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Mon, 04 Oct 2010 21:36:23 +0000</lastBuildDate>
     
-	<atom:link href="/tags/sql-server-express/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/sql-server-express/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>vCenter 4.1 Database Recovery Model Defaults</title>
-      <link>/virtualization/vcenter-4-1-database-recovery-model-defaults/</link>
+      <link>https://vninja.net/virtualization/vcenter-4-1-database-recovery-model-defaults/</link>
       <pubDate>Mon, 04 Oct 2010 21:36:23 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/vcenter-4-1-database-recovery-model-defaults/</guid>
+      
+      <guid>https://vninja.net/virtualization/vcenter-4-1-database-recovery-model-defaults/</guid>
       <description>Sometimes leaving the defaults in place might just come back and bite you, hard.
 That might also be the case with your vCenter 4.1 database, as I experienced back in July.
 All of a sudden my vCenter Server stopped working. The symptoms where pretty obvious, my client couldn&amp;rsquo;t connect to the vCenter server. Naturally I connected to the server, and noticed that the VMware VirtualCenter Server services had indeed stopped. No wonder the client couldn&amp;rsquo;t connect to it.</description>
@@ -27,10 +25,10 @@ All of a sudden my vCenter Server stopped working. The symptoms where pretty obv
     
     <item>
       <title>Scheduling vCenter Backups</title>
-      <link>/virtualization/scheduling-vcenter-backups/</link>
+      <link>https://vninja.net/virtualization/scheduling-vcenter-backups/</link>
       <pubDate>Thu, 22 Jul 2010 12:17:56 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/scheduling-vcenter-backups/</guid>
+      
+      <guid>https://vninja.net/virtualization/scheduling-vcenter-backups/</guid>
       <description>If you run your vCenter on SQL Server Express 2005, you are missing the ability to set up scheduled backup jobs with SQL Maintenance Plans, a feature available in the full version of SQL Server.
 This might not be a problem if your backup software has SQL Server agents that you use to backup your vCenter databaser, but in smaller environments or even in your lab, you might not have that kind of backup scheme available to you, so what do you do?</description>
     </item>

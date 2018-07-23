@@ -2,24 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Remoting on vNinja.net</title>
-    <link>/tags/remoting/</link>
+    <link>https://vninja.net/tags/remoting/</link>
     <description>Recent content in Remoting on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Tue, 18 Jan 2011 08:10:02 +0000</lastBuildDate>
     
-	<atom:link href="/tags/remoting/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/remoting/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Powershell: Scripting Best Practices Analyzer remotely</title>
-      <link>/windows/powershell-scripting-best-practices-analyzer-remotely/</link>
+      <link>https://vninja.net/windows/powershell-scripting-best-practices-analyzer-remotely/</link>
       <pubDate>Tue, 18 Jan 2011 08:10:02 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/windows/powershell-scripting-best-practices-analyzer-remotely/</guid>
+      
+      <guid>https://vninja.net/windows/powershell-scripting-best-practices-analyzer-remotely/</guid>
       <description>Jan Egil Ring over at blog.powershell.no has created a great PowerShell script that lets you run the Microsoft Best Practices Analyzer on remote Windows Server 2008 R2 machines.
 In short, Invoke-BPAModeling.ps1 queries your Active Directory for any machines that run Windows Server 2008 R2, runs BPA on them (if Windows PowerShell Remoting is enabled) and emails you the report.
 Great tool that should be in every Windows Server admins tool-belt, and probably also set as a scheduled job to make sure you stay up to date on your servers status.</description>

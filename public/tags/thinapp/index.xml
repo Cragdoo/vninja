@@ -2,24 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Thinapp on vNinja.net</title>
-    <link>/tags/thinapp/</link>
+    <link>https://vninja.net/tags/thinapp/</link>
     <description>Recent content in Thinapp on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Fri, 03 Aug 2012 21:17:13 +0000</lastBuildDate>
     
-	<atom:link href="/tags/thinapp/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/thinapp/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Building End-User Computing Solutions with VMware View Book Available</title>
-      <link>/virtualization/building-end-user-computing-solutions-vmware-view-book/</link>
+      <link>https://vninja.net/virtualization/building-end-user-computing-solutions-vmware-view-book/</link>
       <pubDate>Fri, 03 Aug 2012 21:17:13 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/building-end-user-computing-solutions-vmware-view-book/</guid>
+      
+      <guid>https://vninja.net/virtualization/building-end-user-computing-solutions-vmware-view-book/</guid>
       <description>Mike Laverick and Barry Coombs has released their new book, elegantly titled &amp;laquo;Building End-User Computing Solutions with VMware View&amp;raquo;.
 Not only is this a great book, it is something that every existing and potential VMware View (and related technologies in the EUC area) administrator should add to their (digital) bookshelves.
 I´ll let the authors themselves describe it:
@@ -28,10 +26,10 @@ This book is all about VMware View 5.1 and ThinApp 4.7.2 administration - and it
     
     <item>
       <title>Thinapped vSphere Client Updated to V5.0</title>
-      <link>/vmware-2/thinapped-vsphere-client-updated-v5-0/</link>
+      <link>https://vninja.net/vmware-2/thinapped-vsphere-client-updated-v5-0/</link>
       <pubDate>Thu, 31 May 2012 11:45:52 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/vmware-2/thinapped-vsphere-client-updated-v5-0/</guid>
+      
+      <guid>https://vninja.net/vmware-2/thinapped-vsphere-client-updated-v5-0/</guid>
       <description>The Thinapped vSphere Client has finally been updated to v5.0, and is readily available for download!
 Sadly the new version is v5.0 only, and will only allow you to connect to vSphere v5 hosts and since the new release has replaced the old release on the VMware Fling website, you´re out of luck if you haven´t already got the 4.0 version stowed away in your own private locker.
 I hope VMware decides to either make the 4.</description>
@@ -39,10 +37,10 @@ I hope VMware decides to either make the 4.</description>
     
     <item>
       <title>DaaS or Having Fun with ThinApp</title>
-      <link>/virtualization/daas-or-having-fun-with-thinapp/</link>
+      <link>https://vninja.net/virtualization/daas-or-having-fun-with-thinapp/</link>
       <pubDate>Fri, 09 Dec 2011 21:59:21 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/daas-or-having-fun-with-thinapp/</guid>
+      
+      <guid>https://vninja.net/virtualization/daas-or-having-fun-with-thinapp/</guid>
       <description>While using ThinApp to create a standalone version of TweetDeck 0.38.2, since the newly announced 1.0 version looks, acts and feels like a 0.1 version, I posed the following question on Twitter:
 [&#34;Hrm, what other apps should i #ThinApp while I&#39;m at it?&#34;](https://twitter.com/#!/h0bbel/status/145249562490179585). Kevin Kelling immediately responded with &amp;laquo;Doom&amp;raquo;.
 Naturally, I decided to give it a go. A quick download of ZDoom later, and a quick run through the ThinApp Setup Capture later, the following was born (view in full screen for better viewing):</description>
@@ -50,10 +48,10 @@ Naturally, I decided to give it a go. A quick download of ZDoom later, and a qui
     
     <item>
       <title>VMware Horizon Application Manager Now and Beyond</title>
-      <link>/virtualization/vmware-horizon-application-manager-now-and-beyond/</link>
+      <link>https://vninja.net/virtualization/vmware-horizon-application-manager-now-and-beyond/</link>
       <pubDate>Wed, 16 Nov 2011 23:05:06 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/vmware-horizon-application-manager-now-and-beyond/</guid>
+      
+      <guid>https://vninja.net/virtualization/vmware-horizon-application-manager-now-and-beyond/</guid>
       <description>VMware has announced Horizon Application Manager 1.2, and together with the new ThinApp 4.7 release it promises &amp;laquo;end users access to Windows, SaaS and enterprise web applications across different devices while retaining control and visibility via policy-driven management&amp;raquo;.
 VMware Horizon Application Manager now manages your ThinApp applications making it easier and faster to provide virtualized Windows applications to end users. From Horizon Administration, you can deploy ThinApp packages, entitle users and groups, track user licenses, and manage application updates.</description>
     </item>

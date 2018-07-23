@@ -2,35 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Voting on vNinja.net</title>
-    <link>/tags/voting/</link>
+    <link>https://vninja.net/tags/voting/</link>
     <description>Recent content in Voting on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Tue, 03 May 2016 08:47:23 +0000</lastBuildDate>
     
-	<atom:link href="/tags/voting/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/voting/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Top vBlog 2016</title>
-      <link>/network/top-vblog-2016/</link>
+      <link>https://vninja.net/network/top-vblog-2016/</link>
       <pubDate>Tue, 03 May 2016 08:47:23 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/network/top-vblog-2016/</guid>
-      <description>The top vBlog 2016 voting has opened, go forth and vote for your favourites now - There are a lot of them to choose from!</description>
+      
+      <guid>https://vninja.net/network/top-vblog-2016/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://vninja.net/img/vspherelandtopvblog2016logo-300x150.jpg&#34; alt=&#34;vspherelandtopvblog2016logo&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The top vBlog 2016 voting has opened, go forth and &lt;a href=&#34;http://sgiz.mobi/s3/TopvBlog2016&#34;&gt;vote for your favourites now&lt;/a&gt; - There are &lt;strong&gt;a lot&lt;/strong&gt; of them to choose from!
+&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Rock the Vote 2014</title>
-      <link>/virtualization/rock-vote-2014/</link>
+      <link>https://vninja.net/virtualization/rock-vote-2014/</link>
       <pubDate>Sat, 22 Feb 2014 18:00:25 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/rock-vote-2014/</guid>
-      <description>Once again, it&amp;rsquo;s time to vote for the top VMware &amp;amp; virtualization blogs. As usual Eric Siebert has opened up the floodgates and set up a voting system, and once again managed to create a lot of work for himself.
-So, let&amp;rsquo;s all make it worth his while and get as many votes in as possible! There are a lot of blogs listed, this time there are over 300 in total.</description>
+      
+      <guid>https://vninja.net/virtualization/rock-vote-2014/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://upload.wikimedia.org/wikipedia/en/7/70/Rock_the_Vote_logo.png&#34; alt=&#34;&#34; /&gt;Once again, it&amp;rsquo;s time to vote for the top VMware &amp;amp; virtualization blogs.  As usual Eric Siebert has opened up the floodgates and set up a voting system, and once again managed to create a lot of work for himself.&lt;/p&gt;
+
+&lt;p&gt;So, let&amp;rsquo;s all make it worth his while and get as many votes in as possible! There are a lot of blogs listed, this time there are over 300 in total.&lt;/p&gt;
+
+&lt;p&gt;Cast your vote, and get more information about the process:&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

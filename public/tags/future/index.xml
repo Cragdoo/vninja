@@ -2,34 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Future on vNinja.net</title>
-    <link>/tags/future/</link>
+    <link>https://vninja.net/tags/future/</link>
     <description>Recent content in Future on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Fri, 13 Nov 2015 08:54:01 +0000</lastBuildDate>
     
-	<atom:link href="/tags/future/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/future/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>VMware VSAN - More than meets the eye.</title>
-      <link>/virtualization/vmware-vsan-more-than-meets-the-eye/</link>
+      <link>https://vninja.net/virtualization/vmware-vsan-more-than-meets-the-eye/</link>
       <pubDate>Fri, 13 Nov 2015 08:54:01 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/vmware-vsan-more-than-meets-the-eye/</guid>
-      <description>Way back in 2014 I wrote a piece called VSAN – The Unspoken Future, and I think it&amp;rsquo;s about time it got a revision. Of course, lots of things have happened to VSAN since then and even more is on the way, but I think there is more to this than adding features like erasure coding, deduplication and compression. All of these are important features, and frankly they need to be in a product that aims a lot higher than you might think.</description>
+      
+      <guid>https://vninja.net/virtualization/vmware-vsan-more-than-meets-the-eye/</guid>
+      <description>&lt;p&gt;Way back in 2014 I wrote a piece called &lt;a href=&#34;http://vninja.net/virtualization/vsan-unspoken-future/&#34;&gt;VSAN – The Unspoken Future&lt;/a&gt;, and I think it&amp;rsquo;s about time it got a revision. Of course, lots of things have happened to VSAN since then and even more is on the way, but I think there is more to this than adding features like &lt;a href=&#34;http://www.yellow-bricks.com/2015/09/01/virtual-san-beta-coming-up-with-dedupe-and-erasure-coding/&#34;&gt;erasure coding, deduplication&lt;/a&gt; and compression. All of these are important features, and frankly they need to be in a product that aims a lot higher than you might think.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Is Hyperconverged the be-all, end-all? No.</title>
-      <link>/rant/hyperconverged-be-all-end-all-no/</link>
+      <link>https://vninja.net/rant/hyperconverged-be-all-end-all-no/</link>
       <pubDate>Mon, 22 Sep 2014 21:48:40 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/rant/hyperconverged-be-all-end-all-no/</guid>
-      <description>First off, this is not meant to be a post negating the value of current hyperconverged solutions available in the market. I think hyperconverged has it&amp;rsquo;s place, and for many use cases it makes perfect sense to go down that route. But the idea that everyone should go hyperconverged and all data should be placed on local drives, even if made redundant inside the chassis and even between chassis, is to be blunt, a bit silly.</description>
+      
+      <guid>https://vninja.net/rant/hyperconverged-be-all-end-all-no/</guid>
+      <description>&lt;p&gt;First off, this is not meant to be a post negating the value of current hyperconverged solutions available in the market. I think hyperconverged has it&amp;rsquo;s place, and for many use cases it makes perfect sense to go down that route. But the idea that everyone should go hyperconverged and all data should be placed on local drives, even if made redundant inside the chassis and even between chassis, is to be blunt, a bit silly.&lt;/p&gt;
+
+&lt;p&gt;Parts of this post is inspired by a recent discussion on Twitter:&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

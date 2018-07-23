@@ -2,25 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Architecture on vNinja.net</title>
-    <link>/tags/architecture/</link>
+    <link>https://vninja.net/tags/architecture/</link>
     <description>Recent content in Architecture on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Mon, 22 Sep 2014 21:48:40 +0000</lastBuildDate>
     
-	<atom:link href="/tags/architecture/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/architecture/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Is Hyperconverged the be-all, end-all? No.</title>
-      <link>/rant/hyperconverged-be-all-end-all-no/</link>
+      <link>https://vninja.net/rant/hyperconverged-be-all-end-all-no/</link>
       <pubDate>Mon, 22 Sep 2014 21:48:40 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/rant/hyperconverged-be-all-end-all-no/</guid>
-      <description>First off, this is not meant to be a post negating the value of current hyperconverged solutions available in the market. I think hyperconverged has it&amp;rsquo;s place, and for many use cases it makes perfect sense to go down that route. But the idea that everyone should go hyperconverged and all data should be placed on local drives, even if made redundant inside the chassis and even between chassis, is to be blunt, a bit silly.</description>
+      
+      <guid>https://vninja.net/rant/hyperconverged-be-all-end-all-no/</guid>
+      <description>&lt;p&gt;First off, this is not meant to be a post negating the value of current hyperconverged solutions available in the market. I think hyperconverged has it&amp;rsquo;s place, and for many use cases it makes perfect sense to go down that route. But the idea that everyone should go hyperconverged and all data should be placed on local drives, even if made redundant inside the chassis and even between chassis, is to be blunt, a bit silly.&lt;/p&gt;
+
+&lt;p&gt;Parts of this post is inspired by a recent discussion on Twitter:&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

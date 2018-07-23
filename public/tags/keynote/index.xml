@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Keynote on vNinja.net</title>
-    <link>/tags/keynote/</link>
+    <link>https://vninja.net/tags/keynote/</link>
     <description>Recent content in Keynote on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Wed, 09 May 2018 13:12:07 +0000</lastBuildDate>
     
-	<atom:link href="/tags/keynote/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/keynote/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Keynote: Crossing the River by Feeling the Stones - Simon Wardley</title>
-      <link>/awesometalks/crossing-river-feeling-stones/</link>
+      <link>https://vninja.net/awesometalks/crossing-river-feeling-stones/</link>
       <pubDate>Wed, 09 May 2018 13:12:07 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/awesometalks/crossing-river-feeling-stones/</guid>
-      <description>This is the third talk I&amp;rsquo;ve found worthy of publishing in the Awesome Talks series. Enjoy Simon Wardley&amp;rsquo;s Researcher, Leading Edge Forum, keynote from KubeCon + CloudNativeCon Europe 2018 called &amp;laquo;Crossing the River by Feeling the Stones&amp;raquo;.
-Simon&amp;rsquo;s presentation technique, flair and master of language is flat out impressive — and fun!
-Crossing the River by Feeling the Stones   Now, do you know what a map is? Do you, really?</description>
+      
+      <guid>https://vninja.net/awesometalks/crossing-river-feeling-stones/</guid>
+      <description>&lt;p&gt;This is the third talk I&amp;rsquo;ve found worthy of publishing in the &lt;a href=&#34;http://vninja.net/awesome-talks/&#34;&gt;Awesome Talks&lt;/a&gt; series. Enjoy &lt;a href=&#34;https://twitter.com/swardley&#34;&gt;Simon Wardley&amp;rsquo;s&lt;/a&gt; Researcher, Leading Edge Forum, keynote from &lt;a href=&#34;https://kccnceu18.sched.com/event/EDv7/keynote-crossing-the-river-by-feeling-the-stones-simon-wardley-researcher-leading-edge-forum?iframe=no&amp;amp;w=100%&amp;amp;sidebar=yes&amp;amp;bg=no&#34;&gt;KubeCon + CloudNativeCon Europe 2018&lt;/a&gt; called &amp;laquo;Crossing the River by Feeling the Stones&amp;raquo;.&lt;/p&gt;
+
+&lt;p&gt;Simon&amp;rsquo;s presentation technique, flair and master of language is flat out impressive — and fun!&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -2,39 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Norway on vNinja.net</title>
-    <link>/tags/norway/</link>
+    <link>https://vninja.net/tags/norway/</link>
     <description>Recent content in Norway on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Fri, 27 Feb 2015 20:23:54 +0000</lastBuildDate>
     
-	<atom:link href="/tags/norway/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/norway/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Starting a VMUG</title>
-      <link>/virtualization/starting-vmug/</link>
+      <link>https://vninja.net/virtualization/starting-vmug/</link>
       <pubDate>Fri, 27 Feb 2015 20:23:54 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/starting-vmug/</guid>
-      <description>Last year, in November, the first ever meeting in VMUG Norway took place in my hometown of Bergen, and since then there has been meetings in Oslo, Trondheim and a second one in Bergen as well.
-Getting the Norwegian VMUG up and running was a long process. I decided to have a go at it, and I spent a lot of time talking to people, thinking, planning and generally wondering how we could get it started and how to proceed.</description>
+      
+      <guid>https://vninja.net/virtualization/starting-vmug/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://vninja.net/img/nmqqcqrf.jpg-300x257.png#center&#34; alt=&#34;VMUG&#34; /&gt;Last year, in November, the first ever meeting in &lt;a href=&#34;http://vmug.no&#34;&gt;VMUG Norway&lt;/a&gt; took place in my hometown of &lt;a href=&#34;http://en.wikipedia.org/wiki/Bergen&#34;&gt;Bergen&lt;/a&gt;, and since then there has been meetings in &lt;a href=&#34;http://en.wikipedia.org/wiki/Oslo&#34;&gt;Oslo&lt;/a&gt;, &lt;a href=&#34;http://en.wikipedia.org/wiki/Trondheim&#34;&gt;Trondheim&lt;/a&gt; and a second one in Bergen as well.&lt;/p&gt;
+
+&lt;p&gt;Getting the Norwegian VMUG up and running was a long process. I decided to have a go at it, and I spent a lot of time talking to people, thinking, planning and generally wondering how we could get it started and how to proceed. Some might say an inordinate amount of time, and they are right. I&amp;rsquo;m lucky to have talented and passionate people on board with me for this, this is not something I have done on my own. But, someone had to get the ball rolling.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>VIP VCP Club 2012</title>
-      <link>/vmware-2/vip-vcp-club-2012/</link>
+      <link>https://vninja.net/vmware-2/vip-vcp-club-2012/</link>
       <pubDate>Thu, 15 Nov 2012 09:59:17 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/vmware-2/vip-vcp-club-2012/</guid>
+      
+      <guid>https://vninja.net/vmware-2/vip-vcp-club-2012/</guid>
       <description>VMware Norway held their first ever _VIP VCP Club_ yesterday in Oslo.
 **What is VIP VCP Club? ** This a new concept by VMware Norway, for certified VMware professionals, where the idea is to gather local certified VMware Professionals for a day of hands-on labs, specialized technical sessions and general community building.
-Agenda: [caption id=&amp;laquo;attachment_2216&amp;raquo; align=&amp;laquo;alignright&amp;raquo; width=&amp;laquo;150&amp;raquo;] Lee Dilworth
-Juggling for the Crowd[/caption]
- **Storage/HA/DR/Clustering **Presented by Lee Dilworth</description>
+Agenda:  Lee Dilworth
+Juggling for the Crowd
+ **Storage/HA/DR/Clustering **Presented by Lee Dilworth
+ **End User Computing **Presented by Joel Lindberg</description>
     </item>
     
   </channel>

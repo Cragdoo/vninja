@@ -2,26 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Theme on vNinja.net</title>
-    <link>/tags/theme/</link>
+    <link>https://vninja.net/tags/theme/</link>
     <description>Recent content in Theme on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Thu, 24 Nov 2016 00:11:08 +0000</lastBuildDate>
     
-	<atom:link href="/tags/theme/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/theme/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Facelift</title>
-      <link>/news/facelift/</link>
+      <link>https://vninja.net/news/facelift/</link>
       <pubDate>Thu, 24 Nov 2016 00:11:08 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/news/facelift/</guid>
-      <description>I have given the site a small facelift, replacing the old theme with a new and cleaner version. For some reason, I get this &amp;laquo;theme itch&amp;raquo; a couple of times a year, but usually I manage to let it pass without doing many changes.
-This time it stuck with me though, and ended up with replacing the old theme with a new one. In fact, the old theme had been active for close to two years now, so it was time to shake things up a bit any way.</description>
+      
+      <guid>https://vninja.net/news/facelift/</guid>
+      <description>&lt;p&gt;I have given the site a small facelift, replacing the old theme with a new and cleaner version. For some reason, I get this &amp;laquo;theme itch&amp;raquo; a couple of times a year, but usually I manage to let it pass without doing many changes.&lt;/p&gt;
+
+&lt;p&gt;This time it stuck with me though, and ended up with replacing the old theme with a new one. In fact, the old theme had been active for close to two years now, so it was time to shake things up a bit any way. The new theme gives the site a fresh and in my opinion better look. The double menus in the header makes it look more organised, and less cluttered and the static navigation header is something I&amp;rsquo;ve wanted to have for a long time now.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

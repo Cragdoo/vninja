@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Adobe on vNinja.net</title>
-    <link>/tags/adobe/</link>
+    <link>https://vninja.net/tags/adobe/</link>
     <description>Recent content in Adobe on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Mon, 13 Jul 2015 22:17:12 +0000</lastBuildDate>
     
-	<atom:link href="/tags/adobe/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/adobe/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>It&#39;s Time to End the Add on Insanity</title>
-      <link>/rant/time-add-insanity/</link>
+      <link>https://vninja.net/rant/time-add-insanity/</link>
       <pubDate>Mon, 13 Jul 2015 22:17:12 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/rant/time-add-insanity/</guid>
-      <description>For the third time in a week, researchers have discovered a zero-day vulnerability in Adobe’s Flash Player browser plugin. Like the previous two discoveries, this one came to light only after hackers dumped online huge troves of documents stolen from Hacking Team — an Italian security firm that sells software exploits to governments around the world. This quote is from Brian Krebs, who very rightfully goes on to advise that everyone &amp;laquo;please consider removing or at least hobbling this program.</description>
+      
+      <guid>https://vninja.net/rant/time-add-insanity/</guid>
+      <description>&lt;blockquote&gt;For the third time in a week, researchers have discovered a zero-day vulnerability in Adobe’s Flash Player browser plugin. Like the previous two discoveries, this one came to light only after hackers dumped online huge troves of documents stolen from Hacking Team — an Italian security firm that sells software exploits to governments around the world.&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -2,27 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Inthebag. Weekly on vNinja.net</title>
-    <link>/tags/inthebag.-weekly/</link>
+    <link>https://vninja.net/tags/inthebag.-weekly/</link>
     <description>Recent content in Inthebag. Weekly on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Fri, 10 Mar 2017 11:55:46 +0000</lastBuildDate>
     
-	<atom:link href="/tags/inthebag.-weekly/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/inthebag.-weekly/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>In The Bag #12 - Week 10 2017</title>
-      <link>/inthebag/in-the-bag-12-week-10-2017/</link>
+      <link>https://vninja.net/inthebag/in-the-bag-12-week-10-2017/</link>
       <pubDate>Fri, 10 Mar 2017 11:55:46 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/inthebag/in-the-bag-12-week-10-2017/</guid>
-      <description>Welcome to the twelfth edition of _In The Bag! _ In The Bag #12 - Week 10 2017
-Technology  Cloud outages and the couch architects all over the world Luca has written a great article about the recent AWS S3 outage, it&amp;rsquo;s sane, articulate and well worth a read.
- What&amp;rsquo;s New in VMware Validated Design for Software-Defined Data Center 4.0 I&amp;rsquo;m a huge fan of the VVD, and the new additions in 4.</description>
+      
+      <guid>https://vninja.net/inthebag/in-the-bag-12-week-10-2017/</guid>
+      <description>&lt;h2 id=&#34;welcome-to-the-twelfth-edition-of-in-the-bag&#34;&gt;Welcome to the twelfth edition of In The Bag!&lt;/h2&gt;
+
+&lt;p&gt;_
+&lt;a href=&#34;https://unsplash.com/@joaoplrocha&#34;&gt;&lt;img src=&#34;https://vninja.net/img/joao-rocha-219808-644x429.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;In The Bag #12 - Week 10 2017&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

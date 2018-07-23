@@ -2,24 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Log on vNinja.net</title>
-    <link>/tags/log/</link>
+    <link>https://vninja.net/tags/log/</link>
     <description>Recent content in Log on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Wed, 26 Jun 2013 10:34:18 +0000</lastBuildDate>
     
-	<atom:link href="/tags/log/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/log/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Monitoring the ESXi Upgrade Process</title>
-      <link>/vmware-2/monitoring-esxi-upgrade-process/</link>
+      <link>https://vninja.net/vmware-2/monitoring-esxi-upgrade-process/</link>
       <pubDate>Wed, 26 Jun 2013 10:34:18 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/vmware-2/monitoring-esxi-upgrade-process/</guid>
+      
+      <guid>https://vninja.net/vmware-2/monitoring-esxi-upgrade-process/</guid>
       <description>When doing manual host upgrades, either through the direct method or via a locally placed upgrade bundle, there is a distinct lack of progress information available after running the esxcli command.
 Thankfully the ESXi host provides a running logfile of the upgrade process, which makes it much easier to keep track of what is going on and that the upgrade is indeed being performed.
 The esxupdate.log is located in /var/log, and by issuing the following command in a terminal window you can have a rolling log showing you the upgrade status and progress:</description>

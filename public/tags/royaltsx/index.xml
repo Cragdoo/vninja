@@ -2,25 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Royaltsx on vNinja.net</title>
-    <link>/tags/royaltsx/</link>
+    <link>https://vninja.net/tags/royaltsx/</link>
     <description>Recent content in Royaltsx on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Wed, 11 Oct 2017 21:45:11 +0000</lastBuildDate>
     
-	<atom:link href="/tags/royaltsx/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/royaltsx/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Making Royal TSX Even More Awesome</title>
-      <link>/osx/making-royal-tsx-even-more-awesome/</link>
+      <link>https://vninja.net/osx/making-royal-tsx-even-more-awesome/</link>
       <pubDate>Wed, 11 Oct 2017 21:45:11 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/osx/making-royal-tsx-even-more-awesome/</guid>
-      <description>For those who don&amp;rsquo;t know, Royal TSX is an awesome Remote Management solution, which supports RDP, VNC, SSH, S/FTP and even ESXi and vCenter. I&amp;rsquo;ve been using it for years, not just because they offer free licenses for vExperts (and others), but simply because it works really well. Store it&amp;rsquo;s config file on a synchronized file area (like Dropbox), and boom, your config follows you around from machine to machine, including custom icons.</description>
+      
+      <guid>https://vninja.net/osx/making-royal-tsx-even-more-awesome/</guid>
+      <description>&lt;p&gt;For those who don&amp;rsquo;t know, &lt;a href=&#34;https://www.royalapplications.com/ts/mac/features&#34;&gt;Royal TSX&lt;/a&gt; is an awesome Remote Management solution, which supports RDP, VNC, SSH, S/FTP and even ESXi and vCenter. I&amp;rsquo;ve been using it for years, not just because they offer &lt;a href=&#34;https://www.royalapplications.com/ts/nfr/&#34;&gt;free licenses for vExperts&lt;/a&gt; (and others), but simply because it works really well. Store it&amp;rsquo;s config file on a synchronized file area (like Dropbox), and boom, your config follows you around from machine to machine, including custom icons. What&amp;rsquo;s &lt;em&gt;not&lt;/em&gt; to like?
+&lt;/p&gt;</description>
     </item>
     
   </channel>

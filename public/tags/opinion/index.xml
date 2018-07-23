@@ -2,34 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Opinion on vNinja.net</title>
-    <link>/tags/opinion/</link>
+    <link>https://vninja.net/tags/opinion/</link>
     <description>Recent content in Opinion on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Fri, 05 Sep 2014 18:38:58 +0000</lastBuildDate>
     
-	<atom:link href="/tags/opinion/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/opinion/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>VMworld US is over. Now what?</title>
-      <link>/rant/vmworld-over-what/</link>
+      <link>https://vninja.net/rant/vmworld-over-what/</link>
       <pubDate>Fri, 05 Sep 2014 18:38:58 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/rant/vmworld-over-what/</guid>
-      <description>Another VMworld US is over, with huge attendee numbers and in keeping with tradition lots of new announcements were made. I&amp;rsquo;m not going to go through them, enough posts have been made about that, the basis of this post is something completely different all together.
-There seems to be a general expectation that we as a community is to be wooed by the announcements and flashy keynotes, but are we really the target audience?</description>
+      
+      <guid>https://vninja.net/rant/vmworld-over-what/</guid>
+      <description>&lt;p&gt;Another VMworld US is over, with huge attendee numbers and in keeping with tradition lots of &lt;a href=&#34;http://www.viktorious.nl/2014/09/01/vmworld-2014-announcements/&#34;&gt;new announcements&lt;/a&gt; were made.  I&amp;rsquo;m not going to go through them, enough posts have been made about that, the basis of this post is something completely different all together.&lt;/p&gt;
+
+&lt;p&gt;There seems to be a general expectation that we as a community is to be wooed by the announcements and flashy keynotes, but are we really the target audience? If you think about it, we probably aren&amp;rsquo;t.
+&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>VMware launches Public vCloud &#34;Test-Drive&#34;</title>
-      <link>/news/vmware-launches-public-vcloud-test-driv/</link>
+      <link>https://vninja.net/news/vmware-launches-public-vcloud-test-driv/</link>
       <pubDate>Thu, 16 Aug 2012 21:17:12 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/news/vmware-launches-public-vcloud-test-driv/</guid>
+      
+      <guid>https://vninja.net/news/vmware-launches-public-vcloud-test-driv/</guid>
       <description>VMware Offers vCloud “Test-Drive” with New Evaluation Service.
 This announcement doesn´t seem to be &amp;laquo;Project Zephyr&amp;raquo; which, if the rumors are true, is VMware´s own fully fledged IaaS service.
 This Public vCloud “Test-Drive” service, which VMware themselves describe as “white-label” from a vCloud service provider, seems like a way for VMware to provide cheap test-drive access, to vCloud through their existing service providers.

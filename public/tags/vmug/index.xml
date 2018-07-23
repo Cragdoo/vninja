@@ -2,77 +2,88 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vmug on vNinja.net</title>
-    <link>/tags/vmug/</link>
+    <link>https://vninja.net/tags/vmug/</link>
     <description>Recent content in Vmug on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Wed, 13 Dec 2017 15:07:40 +0000</lastBuildDate>
     
-	<atom:link href="/tags/vmug/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/vmug/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Nordic VMUG Conference 2018</title>
-      <link>/news/nordic-vmug-conference-2018/</link>
+      <link>https://vninja.net/news/nordic-vmug-conference-2018/</link>
       <pubDate>Wed, 13 Dec 2017 15:07:40 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/news/nordic-vmug-conference-2018/</guid>
-      <description>My good friends, and fellow VMUGgers, in Denmark is once again arranging the largest VMUG event in the Nordics in January 2018.
-The Nordic VMUG Conference promises to be just as awesome as previous versions, just have a look at this speaker list:
- Opening Keynote:** Kit Colbert**
- Breakout sessions: **Ole Agesen, Duncan Epping, Myles Gray, Frank Denneman, Niels Hagoort, Grant Orchard and Joerg Lew**
- Closing Keynote:** Ken Westin**</description>
+      
+      <guid>https://vninja.net/news/nordic-vmug-conference-2018/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://vninja.net/img/nmqqcqrf.jpg-300x257.png&#34; alt=&#34;&#34; /&gt;My good friends, and fellow VMUGgers, in Denmark is once again arranging the largest VMUG event in the Nordics in January 2018.&lt;/p&gt;
+
+&lt;p&gt;The Nordic VMUG Conference promises to be just as awesome as previous versions, just have a look at this speaker list:&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Nordic VMUG UserCon 2016</title>
-      <link>/news/nordic-vmug-usercon-2016/</link>
+      <link>https://vninja.net/news/nordic-vmug-usercon-2016/</link>
       <pubDate>Sat, 19 Nov 2016 13:04:50 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/news/nordic-vmug-usercon-2016/</guid>
-      <description>The 2016 Nordic VMUG UserCon in Copenhagen, Denmark, is just 11 days away, and if you haven&amp;rsquo;t registered already now is the time to do so. As usual the speaker lineup for the event is awesome, with a lot of the usual suspects like Duncan Epping (VMware), Cormac Hogan (VMware), Lee Dilworth (VMware), and Frank Denneman (VMware), but VMware is also showing it&amp;rsquo;s commitment to VMUG by sending some non-europeans as well, like Grant Orchard and_ Mike Foley_.</description>
+      
+      <guid>https://vninja.net/news/nordic-vmug-usercon-2016/</guid>
+      <description>&lt;h2 id=&#34;the-2016-nordic-vmug-usercon-in-copenhagen-denmark-is-just-11-days-away-and-if-you-haven-t-registered-already-now-is-the-time-to-do-so&#34;&gt;The 2016 Nordic VMUG UserCon in Copenhagen, Denmark, is just 11 days away, and if you haven&amp;rsquo;t registered already now is the time to do so.&lt;/h2&gt;
+
+&lt;p&gt;As usual the speaker lineup for the event is awesome, with a lot of the usual suspects like &lt;em&gt;Duncan Epping (VMware)&lt;/em&gt;, &lt;em&gt;Cormac Hogan (VMware)&lt;/em&gt;, &lt;em&gt;Lee Dilworth (VMware)&lt;/em&gt;, and &lt;em&gt;Frank Denneman (VMware)&lt;/em&gt;, but VMware is also showing it&amp;rsquo;s commitment to VMUG by sending some non-europeans as well, like &lt;em&gt;Grant Orchard&lt;/em&gt; and_ Mike Foley_. This, coupled with &amp;laquo;local&amp;raquo; speakers like &lt;em&gt;Michael Ryom&lt;/em&gt;, &lt;em&gt;Nicolai Sandager&lt;/em&gt; and &lt;em&gt;Marteinn Sigurdsson&lt;/em&gt; this promises to be every bit as awesome as the event was last year.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Nordic VMUG UserCon Session</title>
-      <link>/virtualization/nordic-vmug-usercon-session/</link>
+      <link>https://vninja.net/virtualization/nordic-vmug-usercon-session/</link>
       <pubDate>Wed, 28 Oct 2015 22:30:14 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/nordic-vmug-usercon-session/</guid>
-      <description>VMUG Denmark is arranging the Nordic VMUG UserCon in Copenhagen December 1st 2015, and the agenda went live earlier today. I&amp;rsquo;m definitely going to be there, and as it turns out I even have my own session lined up:
-**Session Title: **VCS to VCVA Converter or how a fling can be good for you! ** Session Abstract: **Migrating from Windows vCenter to the VCVA? No worries, the VMware VCS to VCVA Converter fling has you covered!</description>
+      
+      <guid>https://vninja.net/virtualization/nordic-vmug-usercon-session/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://vninja.net/img/cdqpcqzg.png&#34; alt=&#34;VMUG UserCon&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;VMUG Denmark is arranging the &lt;a href=&#34;https://www.vmug.com/p/cm/ld/fid=10926&#34;&gt;Nordic VMUG UserCon&lt;/a&gt; in Copenhagen December 1st 2015, and the &lt;a href=&#34;https://www.vmug.com/p/cm/ld/fid=10931&#34;&gt;agenda&lt;/a&gt; went live earlier today. I&amp;rsquo;m definitely going to be there, and as it turns out I even have my own session lined up:&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Starting a VMUG</title>
-      <link>/virtualization/starting-vmug/</link>
+      <link>https://vninja.net/virtualization/starting-vmug/</link>
       <pubDate>Fri, 27 Feb 2015 20:23:54 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/starting-vmug/</guid>
-      <description>Last year, in November, the first ever meeting in VMUG Norway took place in my hometown of Bergen, and since then there has been meetings in Oslo, Trondheim and a second one in Bergen as well.
-Getting the Norwegian VMUG up and running was a long process. I decided to have a go at it, and I spent a lot of time talking to people, thinking, planning and generally wondering how we could get it started and how to proceed.</description>
+      
+      <guid>https://vninja.net/virtualization/starting-vmug/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://vninja.net/img/nmqqcqrf.jpg-300x257.png#center&#34; alt=&#34;VMUG&#34; /&gt;Last year, in November, the first ever meeting in &lt;a href=&#34;http://vmug.no&#34;&gt;VMUG Norway&lt;/a&gt; took place in my hometown of &lt;a href=&#34;http://en.wikipedia.org/wiki/Bergen&#34;&gt;Bergen&lt;/a&gt;, and since then there has been meetings in &lt;a href=&#34;http://en.wikipedia.org/wiki/Oslo&#34;&gt;Oslo&lt;/a&gt;, &lt;a href=&#34;http://en.wikipedia.org/wiki/Trondheim&#34;&gt;Trondheim&lt;/a&gt; and a second one in Bergen as well.&lt;/p&gt;
+
+&lt;p&gt;Getting the Norwegian VMUG up and running was a long process. I decided to have a go at it, and I spent a lot of time talking to people, thinking, planning and generally wondering how we could get it started and how to proceed. Some might say an inordinate amount of time, and they are right. I&amp;rsquo;m lucky to have talented and passionate people on board with me for this, this is not something I have done on my own. But, someone had to get the ball rolling.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Nordic VMUG Conference 2014</title>
-      <link>/virtualization/nordic-vmug-conference-2014/</link>
+      <link>https://vninja.net/virtualization/nordic-vmug-conference-2014/</link>
       <pubDate>Wed, 22 Oct 2014 21:18:23 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/nordic-vmug-conference-2014/</guid>
-      <description>Last year I was lucky enough to get to travel to Copenhagen and visit the Nordic VMUG conference. Sadly it doesn&amp;rsquo;t seem like I&amp;rsquo;ll be able to make it this year, but don&amp;rsquo;t let that stop you! While we in Norway are still trying to get our local VMUG up and running, more news on that in a very short while, the danish VMUG is really the driving force and the leading star for the rest of us in the nordics.</description>
+      
+      <guid>https://vninja.net/virtualization/nordic-vmug-conference-2014/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://vninja.net/img/nordic-vmug-conference-thoughts/&#34;&gt;Last year&lt;/a&gt; I was lucky enough to get to travel to Copenhagen and visit the Nordic VMUG conference. Sadly it doesn&amp;rsquo;t seem like I&amp;rsquo;ll be able to make it this year, but don&amp;rsquo;t let that stop &lt;strong&gt;you! &lt;/strong&gt;While we in Norway are still trying to get our local VMUG up and running, more news on that in a very short while, the danish VMUG is really the driving force and the leading star for the rest of us in the nordics.
+&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Nordic VMUG Conference - My Thoughts</title>
-      <link>/vmware-2/nordic-vmug-conference-thoughts/</link>
+      <link>https://vninja.net/vmware-2/nordic-vmug-conference-thoughts/</link>
       <pubDate>Wed, 04 Dec 2013 23:23:23 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/vmware-2/nordic-vmug-conference-thoughts/</guid>
-      <description>On Tuesday, December 3, 2013 VMware User Group Denmark arranged theNordic VMUG Conference. The event itself can only be described as a mini-VMworld, with over 600 registered attendees, and a speaker list worthy of such a nick-name.
-The opening keynote was held by Joe Baguley, the closing keynote was held by Chad Sakac. In between those two, you had the possibility to attend sessions held by Cormac Hogan, Mike Laverick, Frank Brix, Paudie O-Riordan, Frank Denneman, Mattias Sundling, David Davis and Duncan Epping.</description>
+      
+      <guid>https://vninja.net/vmware-2/nordic-vmug-conference-thoughts/</guid>
+      <description>&lt;p&gt;On Tuesday, December 3, 2013 VMware User Group Denmark arranged the&lt;a href=&#34;http://www.vmug.com/p/cm/ld/fid=1760&#34;&gt; Nordic VMUG Conference&lt;/a&gt;. The event itself can only be described as a mini-VMworld, with over 600 registered attendees, and a speaker list worthy of such a nick-name.&lt;/p&gt;
+
+&lt;p&gt;The opening keynote was held by Joe Baguley, the closing keynote was held by Chad Sakac. In between those two, you had the possibility to attend sessions held by Cormac Hogan, Mike Laverick,  Frank Brix, Paudie O-Riordan, Frank Denneman, Mattias Sundling, David Davis and Duncan Epping.
+&lt;/p&gt;</description>
     </item>
     
   </channel>

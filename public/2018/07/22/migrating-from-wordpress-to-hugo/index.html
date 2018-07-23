@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Migrating From Wordpress to Hugo  &middot; vNinja.net</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<meta name="description" content="Migrating From Wordpress to Hugo aka The Long and Winding Road" />
+
+<meta name="keywords" content="vninja, site, news, hugo, wordpress, ">
+
+<link rel="author" href="http://plus.google.com/+Myprofile">
+
+
+<meta property="og:title" content="Migrating From Wordpress to Hugo  &middot; vNinja.net ">
+<meta property="og:site_name" content="vNinja.net"/>
+<meta property="og:url" content="https://vninja.net/2018/07/22/migrating-from-wordpress-to-hugo/" />
+<meta property="og:locale" content="en">
+
+
+<meta property="og:type" content="article" />
+<meta property="og:description" content="Migrating From Wordpress to Hugo aka The Long and Winding Road"/>
+<meta property="og:article:published_time" content="2018-07-22T00:00:00Z" />
+<meta property="og:article:modified_time" content="2018-07-22T00:00:00Z" />
+
+  
+    
+<meta property="og:article:tag" content="vninja">
+    
+<meta property="og:article:tag" content="site">
+    
+<meta property="og:article:tag" content="news">
+    
+<meta property="og:article:tag" content="hugo">
+    
+<meta property="og:article:tag" content="wordpress">
+    
+  
+
+  
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@h0bbel" />
+<meta name="twitter:creator" content="@h0bbel" />
+<meta name="twitter:title" content="Migrating From Wordpress to Hugo" />
+<meta name="twitter:description" content="Migrating From Wordpress to Hugo aka The Long and Winding Road" />
+<meta name="twitter:url" content="https://vninja.net/2018/07/22/migrating-from-wordpress-to-hugo/" />
+<meta name="twitter:domain" content="https://vninja.net">
+  
+
+  
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "headline": "Migrating From Wordpress to Hugo",
+    "author": {
+      "@type": "Person",
+      "name": "http://profiles.google.com/+Myprofile?rel=author"
+    },
+    "datePublished": "2018-07-22",
+    "description": "Migrating From Wordpress to Hugo aka The Long and Winding Road",
+    "wordCount": 754
+  }
+</script>
+  
+
+
+
+<link rel="canonical" href="https://vninja.net/2018/07/22/migrating-from-wordpress-to-hugo/" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://vninja.net/touch-icon-144-precomposed.png">
+<link rel="icon" href="https://vninja.net/favicon.png">
+<meta name="generator" content="Hugo 0.42.2" />
+
+  <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+
+
+    <link rel="stylesheet" href="https://vninja.net/css/bootswatch/yeti/bootstrap.min.css">
+
+
+<link rel="stylesheet" href="https://vninja.net/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://vninja.net/css/style.css">
+
+
+<link rel="stylesheet" href="https://vninja.net/css/style_custom.css">
+
+
+
+  <link rel="stylesheet" href="https://vninja.net/css/highlight/default.css">
+
+
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+  <script>
+  window.addEventListener("load", function(){
+  window.cookieconsent.initialise({
+    "palette": {
+      "popup": {
+        "background": "#efefef",
+        "text": "#404040"
+      },
+      "button": {
+        "background": "#8ec760",
+        "text": "#ffffff"
+      }
+    },
+    "showLink": false,
+    "position": "bottom-right"
+  })});
+  </script>
+</script>
+
+
+
+
+</head>
+<body data-ng-app="myapp" data-ng-controller="MyController" data-ng-mouseleave="MouseLeave($event)">
+    <header id="main-header">
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        
+        <a class="navbar-brand" href="https://vninja.net/">
+          vNinja.net
+          
+          
+          </a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            
+            
+            <li class="">
+              
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class='fa fa-bars'></i> About <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    
+                      <li class="">
+                        <a href="https://vninja.net/about/christian-mohn/"><i class='fa fa-child'></i> About Christian</a>
+                      </li>
+                    
+                  </ul>
+              
+            </li>
+            
+            <li class="">
+              
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class='fa fa-asterisk'></i> Site Policy <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    
+                      <li class="">
+                        <a href="https://vninja.net/about/privacy-policy"><i class='fa fa-asterisk'></i> Privacy Policy</a>
+                      </li>
+                    
+                  </ul>
+              
+            </li>
+            
+            <li class="">
+              
+                <a href="https://vninja.net/advertising" >
+                  <i class='fa fa-bank'></i>
+                  Advertising
+                </a>
+              
+            </li>
+            
+            <li class="">
+              
+                <a href="https://vninja.net/post/index.xml" >
+                  <i class='fa fa-rss'></i>
+                  RSS
+                </a>
+              
+            </li>
+            
+            
+              
+          </ul>
+        </div>
+        
+      </div>
+    </nav>
+  </header>
+
+
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-9">
+
+
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+  <div class="title-metas text-center">
+
+    <h1>Migrating From Wordpress to Hugo
+</h1>
+
+    <div class="metas">
+<small>
+  <i class="fa fa-calendar"></i>
+  <time datetime="2018-07-22">22 Jul, 2018</time>
+</small>
+
+
+  <small>
+    &middot; by Christian Mohn
+  
+  &middot; Read in about 4 min
+  &middot; (754 words)
+  &middot; 
+
+
+  </small>
+
+<div class="margin-10">
+  <i class="fa fa-tags"></i>
+  
+  <a href="https://vninja.net/tags/vninja" class="label label-primary">vninja</a>
+  
+  <a href="https://vninja.net/tags/site" class="label label-primary">site</a>
+  
+  <a href="https://vninja.net/tags/news" class="label label-primary">news</a>
+  
+  <a href="https://vninja.net/tags/hugo" class="label label-primary">hugo</a>
+  
+  <a href="https://vninja.net/tags/wordpress" class="label label-primary">wordpress</a>
+  
+
+
+</div>
+
+<br>
+</div>
+
+  </div>
+</div>
+
+
+      <div class="content">
+
+  
+
+  
+
+<h1>
+  Migrating From Wordpress to Hugo<br/>
+ <small class="text-muted">aka The Long and Winding Road</small>
+</h1>
+
+<p>When I decided to <a href="https://vninja.net/2018/07/19/hello-my-name-is-hugo/">move away from Wordpress</a> and over to <a href="https://gohugo.io">Hugo</a>, I really had no concept of the amount of work it would be. <em>Simply put; I just decided to do it — without really knowing what I set out to do.</em></p>
+
+<p>Once I had decided on a foundation theme, I chose the <a href="https://github.com/appernetic/hugo-bootstrap-premium/">Hugo Bootstrap Premium</a> as my starting point, the real work started.</p>
+
+<p>The first challenge I had, was to get all the existing content moved over to Hugo. Hugo is entirely Markdown based, which ment I would have to find a way to export all the Wordpress posts in a format that Hugo could work with. After trying several Wordpress based plugins, that really didn&rsquo;t get the job done, either because the plugin itself had issues or that my hosting providers setup didn&rsquo;t match the requirements (or timed out while trying).</p>
+
+<p>In the end, I decided to give <a href="https://github.com/thomasf/exitwp">Exitwp</a> a try. In essence, <a href="https://github.com/thomasf/exitwp">Exitwp</a> works with a &laquo;normal&raquo; Wordpress XML export, which meant that I could do an export, and then work with the exported data locally (for details, <a href="https://github.com/thomasf/exitwp/blob/master/README.rst">check the documentation</a>).
+<em>Exitwp is designed for use with <a href="http://www.jekyllnow.com">Jekyll</a>, it works perfectly fine with Hugo as well.</em></p>
+
+<p>Basically what Exitwp does is to convert the existing Wordpress posts into Markdown files, with the publish date and post title as the filename (example: <em>2018-01-29-bootbank-cannot-be-found-at-path.md</em>)</p>
+
+<p>This created a great foundation, as all the existing posts where now converted to Markdown, with existing metadata in the Front Matter.</p>
+
+<p>After conversion, my posts Front Matter looked like this example:</p>
+
+<pre><code>---
+author: cmohn
+comments: true
+date: 2018-01-29 22:49:53+00:00
+layout: post
+slug: bootbank-cannot-be-found-at-path
+title: Alerting on &quot;Bootbank cannot be found at path ‘/bootbank’&quot; in vRealize Operations
+url: /vmware-2/bootbank-cannot-be-found-at-path/
+wordpress_id: 4963
+categories:
+- VMware
+tags:
+- Alerting
+...
+---
+
+</code></pre>
+
+<p>Great! The <strong>url:</strong> parameter there is fantastic, as it means that old URLs would still work as before, even Hugo generates a new URL for them, with my preferred <em>/:year/:month/:day/:filename/</em> format (because I believe easiliy accessible date information is pretty crucial). <strong>Win!</strong> Also, note how easy it is to have multiple URLs pointing to one post in Hugo! Also, if you want more, there is always the <a href="https://gohugo.io/content-management/urls/#example-aliases">Alias:</a> parameter.</p>
+
+<p>I then did a quick Search and Replace in all the files, <a href="https://github.com/h0bbel/vninja/commit/1340b3bebe9a8a486ca7f4c87e397afe221806c3">replacing <em>cmohn</em> with <em>Christian Mohn</em></a>. I don&rsquo;t really need the comments or wordpress_id metadata there anymore, but there&rsquo;s really no harm in it being there, so I left them.</p>
+
+<p class="lead text-center">Once that was done, I copied all my posts from the Exitwp conversion directory, to my Hugo /content/posts directory and all my posts showed up in Hugo locally! <strong>Awesome!</strong></p>
+
+<p>Everything looked OK, until I realized that all the image references were pointing to the existing absolute URL, which worked fine locally (as they pointed to the still running Wordpress site when I ran the local Hugo server) but that would break spectacularly once once I pointed the domain to the new location. I&rsquo;m glad I caught that one before cutting over the domain! Sadly this was a real pain to fix, due to the following issues:</p>
+
+<ul>
+<li><p>My general non-proficiency in regexp.</p></li>
+
+<li><p>Wordpress is kind of stupid when it comes to uploads as it places uploaded files into <em>wp-content/uploads/{year}/{month}/{filename}</em>.</p></li>
+</ul>
+
+<p>This made it hard to do a general search and replace for all the image references, so I pretty much went through each end every post <a href="https://github.com/h0bbel/vninja/commit/cb3e9d9f494c49fe7a6f4d37253467c7ce230e2f">fixing and cleaning up the image URLs</a>.</p>
+
+<p>Once that was done, I also noticed that there was quite a lot of other Wordpress specific things I needed to clean up. All posts I had with code snippets in them needed to be fixed, as they were littered with Wordpress Plugin specific code tags. All posts that had images with captions also needed <del>deletion</del> cleanup, any Wordpress galleries as well as all embeds that I had (Twitter, Youtube etc.)</p>
+
+<p>The next thing I did was to go parse through the image files in my /img/ folder, and <a href="https://github.com/h0bbel/vninja/commit/6d92638132bba394ae98c31df4ff65f61ebd993f">optimize them</a>. I used <a href="https://github.com/tjko/jpegoptim">jpegoptim</a> and <a href="http://optipng.sourceforge.net/">optipng</a> to accomplish that:</p>
+
+<h4 id="jpegoptim">jpegoptim</h4>
+
+<pre><code>find . -name &quot;*.jpg&quot; -exec jpegoptim -m80 -o -p --strip-all {} \;
+</code></pre>
+
+<h4 id="optipng">optipng</h4>
+
+<pre><code>find . -name &quot;*.png&quot; -exec optipng -o7 {} \;
+</code></pre>
+
+<p>By running this on my new img directory, which took quite a while on a total of &gt;2.5k files,  I got a reduction of ~47 % or 187 MB, from 393,9 MB to 206,6 MB, without any noticeable quality degradation.</p>
+
+<p>And that just about covers it, my Wordpress to Hugo migration, a short story long.</p>
+
+</div>
+
+
+      <footer>
+  
+
+
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+      
+  
+    <nav><ul class="pager">
+    
+        <li class="previous">
+          <a href="https://vninja.net/2018/07/19/hello-my-name-is-hugo/" title="Hello, My Name Is Hugo (Montoya)">
+            <span aria-hidden="true">&larr;</span>Previous
+          </a>
+        </li>
+    
+
+    
+    </ul> </nav>
+  
+
+
+</div>
+
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+  
+
+</div>
+
+</footer>
+
+    </div>
+    
+      <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+        <div>
+  
+
+    <div class="section">
+      <h4>Sponsors</h4>
+      <div class="ads" id="veeam">
+        <ins class='dcmads' style='display:inline-block;width:250px;height:250px' data-dcm-placement='N410401.1772869VNINJA.NET/B10464038.145283149' data-dcm-rendering-mode='iframe' data-dcm-https-only data-dcm-resettable-device-id='' data-dcm-app-id=''> <script src='https://www.googletagservices.com/dcm/dcmads.js'></script> </ins>
+      </div>
+      <div class="ads" id="turbonomic">
+        <a href="http://turbonomic.com/resources/hybrid-cloud-intelligent-bursting-aws-microsoft-azure/?utm_source=vninja&amp;utm_medium=banner-ad&amp;utm_campaign=wp-path-to-hybrid-cloud&amp;">
+          <img width="250" height="250" src="https://vninja.net/ads/wp-intelligent-bursting-aws-azure-250x250.png"></a>
+      </div>
+      <div class="ads" id="goliath">
+        <a href="http://goliathtechnologies.com/performance-monitoring/application-desktop-virtualization/vmware-horizon-view-monitoring/?utm_source=VNINJA&#038;utm_medium=PARTNER-MKTG&#038;utm_campaign=PARTNER-MKTG-VNINJA"><img width="250" height="250" src='https://vninja.net/ads/VMwareHorizon.jpg' alt='' title='VMwareHorizon' /></a>
+      </div>
+      <div class="ads" id="vembu">
+        <a href="https://www.vembu.com/free-vm-backup/?utm_source=vninja.net&#038;utm_medium=Banner"><img width="250" height="250" src='https://vninja.net/ads/vembu250-250.gif'/></a>
+      </div>
+
+
+    </div>
+
+    <hr>
+    
+      
+      
+      <div class="section">
+
+
+      </div>
+      
+    
+      
+      
+    
+
+</div>
+
+      </div>
+    
+  </div>
+</div>
+    
+<footer class="footer hidden-print">
+  <div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+           <div class="pull-left">
+  <a class="toplink" href="javascript:" id="return-to-top">back to top</a>
+</div>
+<div class="pull-right">
+
+<a href="https://vninja.net/disclaimer/">Disclaimer</a> <i>&middot;</i>
+
+</div>
+
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+              
+    
+<div class="container footline">
+    <small>
+  Built with Hugo and lots of <i class='fa fa-coffee'></i>
+
+</small>
+</div>
+
+
+    
+<div class="container copyright">
+    <small>
+  &copy; 2018 Christian Mohn
+
+  </small>
+</div>
+
+
+
+
+        </div>
+    </div>
+  </div>
+</footer>
+
+    
+
+<script src="https://vninja.net/js/jquery.min.js"></script>
+<script src="https://vninja.net/js/bootstrap.min.js"></script>
+
+
+<script src="https://vninja.net/js/highlight.pack.js"></script>
+<script src="https://vninja.net/js/site.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+<script>
+  var _gaq=[['_setAccount','UA-121910549-1'],['_trackPageview']];
+  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+  g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+  s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+
+<script>
+var ENABLE_POPOVER = "", 
+EXPIRE_COOKIE = "", 
+SHOW_MODAL_TIMEOUT = "", 
+MOUSE_LEAVE = "", 
+MODAL_SIZE = "", 
+POST_URL = "", 
+SIGNUP_HEADER = "",
+HEADER_IMAGE = "",
+IMG_DESCRIPTION = "",
+SIGNUP_TEXT = "",
+INPUT_PLACEHOLDER = "",
+SUBMIT_BUTTON = "",
+SUCCESS_MESSAGE = "",
+ERROR_MESSAGE = "",
+OPTIN = "",
+COOKIE_NAME = "",
+CONTENTLANGUAGE = ""; 
+</script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
+

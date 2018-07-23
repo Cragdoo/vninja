@@ -2,44 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Personal on vNinja.net</title>
-    <link>/tags/personal/</link>
+    <link>https://vninja.net/tags/personal/</link>
     <description>Recent content in Personal on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Sat, 30 Jan 2016 22:36:22 +0000</lastBuildDate>
     
-	<atom:link href="/tags/personal/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/personal/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>2015: The verdict</title>
-      <link>/misc/2015-the-verdict/</link>
+      <link>https://vninja.net/misc/2015-the-verdict/</link>
       <pubDate>Sat, 30 Jan 2016 22:36:22 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/misc/2015-the-verdict/</guid>
-      <description>Last year, in January, I posted 2015: Let&amp;rsquo;s DOS IT! and it&amp;rsquo;s time to do some reviewing (again, inspired by Scott Lowe).
-So, how did I do?  Master Markdown: I&amp;rsquo;m happy to say that most of the writing I&amp;rsquo;ve done in 2015 has been done in Markdown. I haven&amp;rsquo;t really moved on to really create Markdown based documentation and convert it like I intended, but still, Markdown has become second nature in 2015.</description>
+      
+      <guid>https://vninja.net/misc/2015-the-verdict/</guid>
+      <description>&lt;p&gt;Last year, in January, I posted &lt;a href=&#34;http://vninja.net/misc/2015-dos-it/&#34;&gt;2015: Let&amp;rsquo;s DOS IT!&lt;/a&gt; and it&amp;rsquo;s time to do some reviewing (again, inspired by &lt;a href=&#34;http://blog.scottlowe.org/2015/12/31/looking-back-2015-project-report-card/&#34;&gt;Scott Lowe&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>2015: Let&#39;s DOS IT!</title>
-      <link>/misc/2015-dos-it/</link>
+      <link>https://vninja.net/misc/2015-dos-it/</link>
       <pubDate>Fri, 16 Jan 2015 23:27:49 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/misc/2015-dos-it/</guid>
-      <description>Inspired by Scott Lowe&amp;rsquo;s Looking Ahead: My 2015 Projects, I&amp;rsquo;ve decided to do something similar.
-Since I didn&amp;rsquo;t post anything like this in 2014, I can&amp;rsquo;t really go back and see how my plans turned out, or provide any assessement of it. I can say this though, 2014 was pretty awesome. I got a promotion, my vExpert status was renewed, vNinja was voted in the top 50 of the 2014 top VMware &amp;amp; virtualization vote, I published a book and finally got the Norwegian VMUG up and running.</description>
+      
+      <guid>https://vninja.net/misc/2015-dos-it/</guid>
+      <description>&lt;p&gt;Inspired by Scott Lowe&amp;rsquo;s &lt;a href=&#34;http://blog.scottlowe.org/2015/01/16/looking-ahead-2015-projects/&#34;&gt;Looking Ahead: My 2015 Projects&lt;/a&gt;, I&amp;rsquo;ve decided to do something similar.&lt;/p&gt;
+
+&lt;p&gt;Since I didn&amp;rsquo;t post anything like this in 2014, I can&amp;rsquo;t really go back and see how my plans turned out, or provide any assessement of it. I can say this though, 2014 was pretty awesome. I got a promotion, my vExpert status was renewed, vNinja was voted in the top 50 of the &lt;a href=&#34;http://vsphere-land.com/news/2014-top-vmware-virtualization-blog-voting-results.html&#34;&gt;2014 top VMware &amp;amp; virtualization vote&lt;/a&gt;, I &lt;a href=&#34;https://www.packtpub.com/networking-and-servers/learning-veeam®-backup-replication-vmware-vsphere&#34;&gt;published a book&lt;/a&gt; and finally got the &lt;a href=&#34;http://vmug.no&#34;&gt;Norwegian VMUG&lt;/a&gt; up and running. My VCAP-DCA 550 should be on this list as well, and so should my failure in achieving VCAP-DCD certification status. 2014 was also the busiest year in &lt;a href=&#34;http://vNinja.net&#34;&gt;vNinja.net&lt;/a&gt;&amp;rsquo;s history, with close to a doubling of traffic generated through the year. The same goes for &lt;a href=&#34;http://vSoup.net&#34;&gt;vSoup&lt;/a&gt;, some of the episodes we recorded in 2014 had some rather insane listening numbers&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>My Personal vMotion</title>
-      <link>/news/my-personal-vmotion/</link>
+      <link>https://vninja.net/news/my-personal-vmotion/</link>
       <pubDate>Fri, 04 Nov 2011 09:26:16 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/news/my-personal-vmotion/</guid>
+      
+      <guid>https://vninja.net/news/my-personal-vmotion/</guid>
       <description>Every  once in a while an opportunity presents itself that is just too good to pass up and after 8 years at Seatrans AS I&amp;rsquo;ve decided to move on and and accept a position as a Senior Consultant in the Infrastructure Consulting division of EDB ErgoGroup.
 Seatrans has been a fantastic employer, and without the backing and support I&amp;rsquo;ve had over the years I would not be in a position where this change would be possible.</description>
     </item>

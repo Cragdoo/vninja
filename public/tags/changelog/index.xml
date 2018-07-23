@@ -2,25 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Changelog on vNinja.net</title>
-    <link>/tags/changelog/</link>
+    <link>https://vninja.net/tags/changelog/</link>
     <description>Recent content in Changelog on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Wed, 18 Feb 2015 10:31:53 +0000</lastBuildDate>
     
-	<atom:link href="/tags/changelog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/changelog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Do you ChangeLog?</title>
-      <link>/workflow/changelog/</link>
+      <link>https://vninja.net/workflow/changelog/</link>
       <pubDate>Wed, 18 Feb 2015 10:31:53 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/workflow/changelog/</guid>
-      <description>In my work as a consultant I often have many small tasks to perform for customers, all while completing a bigger project. I have found that an easy way to keep track of all the little and big changes, is to create a ChangeLog. Normally ChangeLog&amp;rsquo;s are referenced in development projects, but it also sense to use it to track of your own, or your team members, changes to an infrastructure environment.</description>
+      
+      <guid>https://vninja.net/workflow/changelog/</guid>
+      <description>&lt;p&gt;In my work as a consultant I often have many small tasks to perform for customers, all while completing a bigger project. I have found that an easy way to keep track of all the little and big changes, is to create a ChangeLog. Normally ChangeLog&amp;rsquo;s are referenced in development projects, but it also sense to use it to track of your own, or your team members, changes to an infrastructure environment.&lt;/p&gt;
+
+&lt;p&gt;As for &lt;a href=&#34;http://vninja.net/virtualization/markdown-things/&#34;&gt;just about everything else&lt;/a&gt;, I use Markdown to make it easy to format and edit.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -2,28 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Venting on vNinja.net</title>
-    <link>/tags/venting/</link>
+    <link>https://vninja.net/tags/venting/</link>
     <description>Recent content in Venting on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Fri, 22 Aug 2014 18:08:56 +0000</lastBuildDate>
     
-	<atom:link href="/tags/venting/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/venting/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>#AdviceForVMworld</title>
-      <link>/rant/adviceforvmworld/</link>
+      <link>https://vninja.net/rant/adviceforvmworld/</link>
       <pubDate>Fri, 22 Aug 2014 18:08:56 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/rant/adviceforvmworld/</guid>
-      <description>VMworld US is very soon upon us, and I&amp;rsquo;m one of the jealous ones left behind not being able to attend. I will hopefully be able to join everyone oat VMworld Europe in Barcelona on October though.
-An interesting Twitter hashtag #AdviceForVMworld appeared a week or so ago, with lots of good advice for people attending a huge tech conference.
-Here are a few good examples:
-[#AdviceForVMworld](https://twitter.com/hashtag/AdviceForVMworld?src=hash): Just Say Hi, it is all about the conversations, networking.</description>
+      
+      <guid>https://vninja.net/rant/adviceforvmworld/</guid>
+      <description>&lt;p&gt;VMworld US is very soon upon us, and I&amp;rsquo;m one of the jealous ones left behind not being able to attend. I will hopefully be able to join everyone oat VMworld Europe in Barcelona on October though.&lt;/p&gt;
+
+&lt;p&gt;An interesting Twitter hashtag &lt;a href=&#34;https://twitter.com/search?q=%23AdviceForVMworld&amp;amp;src=tyah&#34;&gt;#AdviceForVMworld&lt;/a&gt; appeared a week or so ago, with lots of good advice for people attending a huge tech conference.&lt;/p&gt;
+
+&lt;p&gt;Here are a few good examples:&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

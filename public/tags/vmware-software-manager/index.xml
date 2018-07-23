@@ -2,26 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vmware Software Manager on vNinja.net</title>
-    <link>/tags/vmware-software-manager/</link>
+    <link>https://vninja.net/tags/vmware-software-manager/</link>
     <description>Recent content in Vmware Software Manager on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Fri, 13 Mar 2015 11:34:21 +0000</lastBuildDate>
     
-	<atom:link href="/tags/vmware-software-manager/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/vmware-software-manager/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>VMware Software Manager - Changing Download Directory</title>
-      <link>/virtualization/vmware-software-manager-changing-download-directory/</link>
+      <link>https://vninja.net/virtualization/vmware-software-manager-changing-download-directory/</link>
       <pubDate>Fri, 13 Mar 2015 11:34:21 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/vmware-software-manager-changing-download-directory/</guid>
-      <description>The new VMware Software Manager, which was released at the same time as vSphere 6, is a great way to get your download ducks in a row, and not manually download all the different vSphere pieces one by one.
-But all these downloads sure eat up disk space, and if you, like me, chose the wrong download location while installing VMware Software Manager what do you do? There is no way in the web interface to change the download directory after installation, so how do you change it?</description>
+      
+      <guid>https://vninja.net/virtualization/vmware-software-manager-changing-download-directory/</guid>
+      <description>&lt;p&gt;The new &lt;a href=&#34;http://blogs.vmware.com/vsphere/2015/03/downloading-vmware-suite-push-button-using-vmware-software-manager.html&#34;&gt;VMware Software Manager&lt;/a&gt;, which was released at the same time as vSphere 6, is a great way to get your download ducks in a row, and not manually download all the different vSphere pieces one by one.&lt;/p&gt;
+
+&lt;p&gt;But all these downloads sure eat up disk space, and if you, like me, chose the wrong download location while installing VMware Software Manager what do you do? &lt;del&gt;There is no way in the web interface to change the download directory after installation, so how do you change it? &lt;/del&gt;There is a way through the GUI as well, but here is how to do it manually:&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

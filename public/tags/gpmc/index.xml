@@ -2,24 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gpmc on vNinja.net</title>
-    <link>/tags/gpmc/</link>
+    <link>https://vninja.net/tags/gpmc/</link>
     <description>Recent content in Gpmc on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Tue, 25 Jun 2013 08:52:03 +0000</lastBuildDate>
     
-	<atom:link href="/tags/gpmc/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/gpmc/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Centrally Disable NAT in VMware Workstation</title>
-      <link>/vmware-2/centrally-disable-nat-vmware-workstation/</link>
+      <link>https://vninja.net/vmware-2/centrally-disable-nat-vmware-workstation/</link>
       <pubDate>Tue, 25 Jun 2013 08:52:03 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/vmware-2/centrally-disable-nat-vmware-workstation/</guid>
+      
+      <guid>https://vninja.net/vmware-2/centrally-disable-nat-vmware-workstation/</guid>
       <description>A fellow IT-professional, who works with the non-wired flavor of networking, contacted me with the following scenario:
 A group of users, developers in this case, have VMware Workstation installed on their laptops. This makes it easy for them to manage, test and develop their applications in a closed environment without having to install a bunch of tools/services on their centrally managed laptop environment. An excellent use case for VMware Workstation if there ever was one.</description>
     </item>

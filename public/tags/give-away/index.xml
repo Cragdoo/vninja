@@ -2,24 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Give Away on vNinja.net</title>
-    <link>/tags/give-away/</link>
+    <link>https://vninja.net/tags/give-away/</link>
     <description>Recent content in Give Away on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Tue, 26 Feb 2013 16:14:48 +0000</lastBuildDate>
     
-	<atom:link href="/tags/give-away/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/give-away/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Want a Free Pass to TechEd 2013?</title>
-      <link>/news/free-pass-teched-2013/</link>
+      <link>https://vninja.net/news/free-pass-teched-2013/</link>
       <pubDate>Tue, 26 Feb 2013 16:14:48 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/news/free-pass-teched-2013/</guid>
+      
+      <guid>https://vninja.net/news/free-pass-teched-2013/</guid>
       <description>Our sponsor Veeam is giving away a free pass to TechEd 2013 in this months giveaway.
 Register now to be entered into the draw before March 18th when the winner will be announced.</description>
     </item>

@@ -2,26 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hardware on vNinja.net</title>
-    <link>/tags/hardware/</link>
+    <link>https://vninja.net/tags/hardware/</link>
     <description>Recent content in Hardware on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Wed, 19 Feb 2014 12:30:08 +0000</lastBuildDate>
     
-	<atom:link href="/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Configuring VSAN on a Dell PowerEdge VRTX</title>
-      <link>/virtualization/configuring-vsan-dell-poweredge-vrtx/</link>
+      <link>https://vninja.net/virtualization/configuring-vsan-dell-poweredge-vrtx/</link>
       <pubDate>Wed, 19 Feb 2014 12:30:08 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/configuring-vsan-dell-poweredge-vrtx/</guid>
-      <description>The Dell PowerEdge VRTX shared infrastructure platform is interesting, and I&amp;rsquo;ve been lucky enough to be able to borrow one from Dell for testing purposes.
-One of the things I wanted to test, was if it was possible to run VMware VSAN on it, even if the Shared PERC8 RAID controller it comes with is not on the VMware VSAN HCL, nor does it provide a method to do passthrough to present raw disks directly to the hosts.</description>
+      
+      <guid>https://vninja.net/virtualization/configuring-vsan-dell-poweredge-vrtx/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://vninja.net/img/OriginalJPG.jpeg&#34; alt=&#34;OriginalJPG&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&#34;http://www.dell.com/us/business/p/poweredge-vrtx/pd&#34;&gt;Dell PowerEdge VRTX shared infrastructure platform&lt;/a&gt; is interesting, and I&amp;rsquo;ve been lucky enough to be able to borrow one from Dell for testing purposes.&lt;/p&gt;
+
+&lt;p&gt;One of the things I wanted to test, was if it was possible to run &lt;a href=&#34;http://www.vmware.com/products/virtual-san&#34;&gt;VMware VSAN&lt;/a&gt; on it, even if the Shared PERC8 RAID controller it comes with is not on the &lt;a href=&#34;http://www.vmware.com/resources/compatibility/search.php&#34;&gt;VMware VSAN HCL&lt;/a&gt;, nor does it provide a method to do passthrough to present raw disks directly to the hosts.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -2,27 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vanguards on vNinja.net</title>
-    <link>/tags/vanguards/</link>
+    <link>https://vninja.net/tags/vanguards/</link>
     <description>Recent content in Vanguards on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Mon, 27 Jul 2015 13:38:49 +0000</lastBuildDate>
     
-	<atom:link href="/tags/vanguards/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/vanguards/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Veeam Vanguard 2015</title>
-      <link>/virtualization/veeam-vanguard-2015/</link>
+      <link>https://vninja.net/virtualization/veeam-vanguard-2015/</link>
       <pubDate>Mon, 27 Jul 2015 13:38:49 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/veeam-vanguard-2015/</guid>
-      <description>Veeam has been &amp;laquo;silently&amp;raquo; working on their own global influencer program, and the inaugural list of Veeam Vanguards was published today. I am thrilled to be selected amongst the first 31 people awarded this title, it&amp;rsquo;s quite an exclusive list!
-So what&amp;rsquo;s up with the name? Well, here is one of the definitions of vanguard I found:
-&amp;lt;strong&amp;gt;vanguard&amp;lt;/strong&amp;gt; &amp;lt;em&amp;gt;ˈvanɡɑːd/&amp;lt;/em&amp;gt; noun a group of people leading the way in new developments or ideas.</description>
+      
+      <guid>https://vninja.net/virtualization/veeam-vanguard-2015/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://vninja.net/img/veeam_vanguard_logo.png&#34; alt=&#34;veeam_vanguard_logo&#34; /&gt;Veeam has been &amp;laquo;silently&amp;raquo; working on their own global influencer program, and the inaugural list of Veeam Vanguards was published today. I am thrilled to be selected amongst the first 31 people awarded this title, it&amp;rsquo;s quite an exclusive list!&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

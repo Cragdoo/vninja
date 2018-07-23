@@ -2,26 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Github on vNinja.net</title>
-    <link>/tags/github/</link>
+    <link>https://vninja.net/tags/github/</link>
     <description>Recent content in Github on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Mon, 12 Jan 2015 23:31:45 +0000</lastBuildDate>
     
-	<atom:link href="/tags/github/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/github/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Markdown All the Things!</title>
-      <link>/virtualization/markdown-things/</link>
+      <link>https://vninja.net/virtualization/markdown-things/</link>
       <pubDate>Mon, 12 Jan 2015 23:31:45 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/markdown-things/</guid>
-      <description>Obviously I&amp;rsquo;m a bit late to the party here, but I guess late is better than never. It recently dawned on me that mucking about with lots of different file formats, interfaces and ways of doing things is rather counterproductive.
-A lot of my work these days are related to generating content, be it a simple blog post like this or writing customer proposals and documentation. In the end, the deliverables are often quite different, but at the core they are strangely enough very similar.</description>
+      
+      <guid>https://vninja.net/virtualization/markdown-things/</guid>
+      <description>&lt;p&gt;Obviously I&amp;rsquo;m a bit late to the party here, but I guess late is better than never. It recently dawned on me that mucking about with lots of different file formats, interfaces and ways of doing things is rather counterproductive.&lt;/p&gt;
+
+&lt;p&gt;A lot of my work these days are related to generating content, be it a simple blog post like this or writing customer proposals and documentation. In the end, the deliverables are often quite different, but at the core they are strangely enough very similar. After all, the main thing is content, right? The file format itself, or how it is generated, doesn&amp;rsquo;t really have a bearing on the content at all, it&amp;rsquo;s just a delivery method. Lipstick on a pig, if you will.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

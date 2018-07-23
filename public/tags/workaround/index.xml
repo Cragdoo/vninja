@@ -2,56 +2,54 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Workaround on vNinja.net</title>
-    <link>/tags/workaround/</link>
+    <link>https://vninja.net/tags/workaround/</link>
     <description>Recent content in Workaround on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Mon, 25 Mar 2013 09:03:41 +0000</lastBuildDate>
     
-	<atom:link href="/tags/workaround/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/workaround/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Backing up vCenter DB with Veeam B&amp;R 6.5</title>
-      <link>/virtualization/backing-up-vcenter-db-with-veeam-br-6-5/</link>
+      <link>https://vninja.net/virtualization/backing-up-vcenter-db-with-veeam-br-6-5/</link>
       <pubDate>Mon, 25 Mar 2013 09:03:41 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/backing-up-vcenter-db-with-veeam-br-6-5/</guid>
+      
+      <guid>https://vninja.net/virtualization/backing-up-vcenter-db-with-veeam-br-6-5/</guid>
       <description>It´s a well known problem that with Veeam Backup &amp;amp; Recovery Replication 6.5, and earlier, backing up the SQL server that hosts the vCenter DB poses a problem. KB1051 VSS for vCenter outlines the issue well, and provides a workaround.
 If you experience this problem, you will see entries like this in your Veeam B&amp;amp;R backup logs:
-[caption id=&amp;laquo;attachment_2490&amp;raquo; align=&amp;laquo;aligncenter&amp;raquo; width=&amp;laquo;640&amp;raquo;] Veeam vCenterDB Backup Error[/caption]
+ Veeam vCenterDB Backup Error
 The workaround provided by Veeam is to create host VM-Host Affinity Rules, effectively pinning a VM to a given host, and then perform the VM backup through the host rather than through the vCenter.</description>
     </item>
     
     <item>
       <title>Preserve your Veeam B&amp;R Backups Jobs when Moving vCenter</title>
-      <link>/virtualization/preserve-veeam-br-backups-jobs-moving-vcenter/</link>
+      <link>https://vninja.net/virtualization/preserve-veeam-br-backups-jobs-moving-vcenter/</link>
       <pubDate>Tue, 19 Mar 2013 21:13:20 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/preserve-veeam-br-backups-jobs-moving-vcenter/</guid>
+      
+      <guid>https://vninja.net/virtualization/preserve-veeam-br-backups-jobs-moving-vcenter/</guid>
       <description>This week I´m working at a client site, upgrading their entire existing vSphere 4.1 infrastructure to vSphere 5.1. The customer engagement also includes upgrading Veeam Backup and Replication 6.0 to 6.5, and usually an isolated upgrade of Veeam B&amp;amp;R is a no-brainer next, next, next, done install.
 To complicate things in this particular environment, I also had to migrate the vCenter SQL DB from a local MS SQL Server 2005 Express instance to a full-fledged MS SQL Server 2008 R2 instance.</description>
     </item>
     
     <item>
       <title>vCenter Operations Manager and vCenter Deployment Dependency</title>
-      <link>/vmware-2/vcenter-operations-manager-vcenter-deployment-dependency/</link>
+      <link>https://vninja.net/vmware-2/vcenter-operations-manager-vcenter-deployment-dependency/</link>
       <pubDate>Wed, 16 Jan 2013 21:59:07 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/vmware-2/vcenter-operations-manager-vcenter-deployment-dependency/</guid>
+      
+      <guid>https://vninja.net/vmware-2/vcenter-operations-manager-vcenter-deployment-dependency/</guid>
       <description>In order to be able to deploy vCenter Operations Manager, the ESXi host it is deployed to needs to be managed by a vCenter. At first glance, that seems like a fair and pretty straight forward requirement, right? But, is it?
 While I can see the need for a vCenter in the environment that vCenter Operations Manager is supposed to monitor, I don´t understand why the host you want to deploy the vApp on has to be managed by a vCenter instance as well?</description>
     </item>
     
     <item>
       <title>vSphere 5: Creating a Hardware Version 4 VM</title>
-      <link>/virtualization/vsphere-5-creating-hardware-version-4-vm/</link>
+      <link>https://vninja.net/virtualization/vsphere-5-creating-hardware-version-4-vm/</link>
       <pubDate>Mon, 02 Jul 2012 19:50:03 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/vsphere-5-creating-hardware-version-4-vm/</guid>
+      
+      <guid>https://vninja.net/virtualization/vsphere-5-creating-hardware-version-4-vm/</guid>
       <description>I recently had a need to create a VM for usage on ESX 3.x, but the only thing available to me in my lab was vSphere 5, which naturally creates new VMs with the latest and greatest version 8 virtual hardware.
 The following table lists the virtual hardware versions and the corresponding ESX and ESXi releases: Version 
 Virtual Hardware Version   ESXi 5.x 

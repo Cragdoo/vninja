@@ -2,24 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nfr on vNinja.net</title>
-    <link>/tags/nfr/</link>
+    <link>https://vninja.net/tags/nfr/</link>
     <description>Recent content in Nfr on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Thu, 05 Sep 2013 15:38:56 +0000</lastBuildDate>
     
-	<atom:link href="/tags/nfr/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/nfr/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Veeam Webinar &amp; NFR Licenses</title>
-      <link>/virtualization/veeam-webinar-nfr-licenses/</link>
+      <link>https://vninja.net/virtualization/veeam-webinar-nfr-licenses/</link>
       <pubDate>Thu, 05 Sep 2013 15:38:56 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/veeam-webinar-nfr-licenses/</guid>
+      
+      <guid>https://vninja.net/virtualization/veeam-webinar-nfr-licenses/</guid>
       <description>This coming tuesday the first ever Veeam Webinar held in Norwegian will be held by yours truly. Feel free to sign up now and listen to me speak for an hour or so.
 
 Also, Veeam is continuing it´s support of the virtualization community and is yet again offering free 180-days Veeam Backup Management Suite v7 NFR licenses for VMware and Hyper-V.

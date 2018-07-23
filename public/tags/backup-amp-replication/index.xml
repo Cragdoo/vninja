@@ -2,37 +2,42 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Backup Amp Replication on vNinja.net</title>
-    <link>/tags/backup-amp-replication/</link>
+    <link>https://vninja.net/tags/backup-amp-replication/</link>
     <description>Recent content in Backup Amp Replication on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Mon, 08 Aug 2016 09:35:47 +0000</lastBuildDate>
     
-	<atom:link href="/tags/backup-amp-replication/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/backup-amp-replication/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Veeam vCenter Migration Utility</title>
-      <link>/virtualization/veeam-vcenter-migration-utility/</link>
+      <link>https://vninja.net/virtualization/veeam-vcenter-migration-utility/</link>
       <pubDate>Mon, 08 Aug 2016 09:35:47 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/veeam-vcenter-migration-utility/</guid>
-      <description>Way back in 2013, I published Preserve your Veeam B&amp;amp;R Backups Jobs when Moving vCenter, outlining how to &amp;laquo;cheat&amp;raquo; (by using a CNAME alias) to preserve your Veeam Backup &amp;amp; Replication jobs if you replace your VMware vCenter.
-Naturally, when there is a new vCenter instance, all the Virtual Machine Managed Object Reference&amp;rsquo;s (MoRef) change, which makes Veeam Backup &amp;amp; Replication start a new backup/replication chain, since all VMs are treated as new ones.</description>
+      
+      <guid>https://vninja.net/virtualization/veeam-vcenter-migration-utility/</guid>
+      <description>&lt;p&gt;Way back in 2013, I published &lt;a href=&#34;http://vninja.net/virtualization/preserve-veeam-br-backups-jobs-moving-vcenter/&#34;&gt;Preserve your Veeam B&amp;amp;R Backups Jobs when Moving vCenter&lt;/a&gt;, outlining how to &amp;laquo;cheat&amp;raquo; (by using a CNAME alias) to preserve your Veeam Backup &amp;amp; Replication jobs if you replace your VMware vCenter.&lt;/p&gt;
+
+&lt;p&gt;Naturally, when there is a new vCenter instance, all the Virtual Machine Managed Object Reference&amp;rsquo;s (MoRef) change, which makes Veeam Backup &amp;amp; Replication start a new backup/replication chain, since all VMs are treated as new ones. Not ideal by any means, but at least you wouldn&amp;rsquo;t have to recreate all your jobs.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Win Free e-copies of Learning Veeam® Backup &amp; Replication for VMware vSphere</title>
-      <link>/book/win-free-e-copies-learning-veeam-backup-replication-vmware-vsphere/</link>
+      <link>https://vninja.net/book/win-free-e-copies-learning-veeam-backup-replication-vmware-vsphere/</link>
       <pubDate>Mon, 09 Jun 2014 08:42:28 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/book/win-free-e-copies-learning-veeam-backup-replication-vmware-vsphere/</guid>
-      <description>Update: The contest is now closed, and I have forwarded all comments to Packt Publishing, and they will contact the winners directly. Thanks to everyone who entered!
-I have teamed up with Packt Publishing to organize a giveaway of my new Veeam® Backup &amp;amp; Replication for VMware vSphere book.
-3 lucky winners stand a chance to win e-copies of their new book. Keep reading to find out how you can be one of them!</description>
+      
+      <guid>https://vninja.net/book/win-free-e-copies-learning-veeam-backup-replication-vmware-vsphere/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://vninja.net/img/LearningVeeam125.png&#34; alt=&#34;LearningVeeam125&#34; /&gt;&lt;strong&gt;Update:&lt;/strong&gt; &lt;em&gt;The contest is now closed, and I have forwarded all comments to Packt Publishing, and they will contact the winners directly. Thanks to everyone who entered!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I have teamed up with Packt Publishing  to organize a giveaway of  my new &lt;strong&gt;&lt;a href=&#34;http://www.packtpub.com/learning-veeam-backup-and-replication-for-vmware-vsphere/book&#34;&gt;Veeam® Backup &amp;amp; Replication for VMware vSphere&lt;/a&gt; &lt;/strong&gt;book.&lt;/p&gt;
+
+&lt;p&gt;3 lucky winners stand a chance to win e-copies of their new book. Keep reading to find out how you can be one of them!&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

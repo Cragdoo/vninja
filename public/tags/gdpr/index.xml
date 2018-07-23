@@ -2,27 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gdpr on vNinja.net</title>
-    <link>/tags/gdpr/</link>
+    <link>https://vninja.net/tags/gdpr/</link>
     <description>Recent content in Gdpr on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Tue, 22 May 2018 21:21:27 +0000</lastBuildDate>
     
-	<atom:link href="/tags/gdpr/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/gdpr/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>I&#39;ve Complied, I think.</title>
-      <link>/rant/ive-complied-i-think/</link>
+      <link>https://vninja.net/rant/ive-complied-i-think/</link>
       <pubDate>Tue, 22 May 2018 21:21:27 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/rant/ive-complied-i-think/</guid>
-      <description>Like Sam and Simon over at definit.co.uk I&amp;rsquo;ve done a quick GDPR-related overhaul of the site.
-Like the two English scholars and gentlemen, I&amp;rsquo;ve created the required Privacy Policy page. I&amp;rsquo;ve also deleted all existing comments on the site, and disabled comments sitewide — hopefully that&amp;rsquo;s enough.
-Oh, joy.</description>
+      
+      <guid>https://vninja.net/rant/ive-complied-i-think/</guid>
+      <description>&lt;p&gt;Like Sam and Simon over at &lt;a href=&#34;https://www.definit.co.uk/2018/05/gdpr-blogging-and-definit/&#34;&gt;definit.co.uk&lt;/a&gt; I&amp;rsquo;ve done a quick GDPR-related overhaul of the site.&lt;/p&gt;
+
+&lt;p&gt;Like the two English scholars and gentlemen, I&amp;rsquo;ve created the required &lt;a href=&#34;http://vninja.net/privacy-policy/&#34;&gt;Privacy Policy&lt;/a&gt; page. I&amp;rsquo;ve also deleted all existing comments on the site, and disabled comments sitewide — hopefully that&amp;rsquo;s enough.&lt;/p&gt;
+
+&lt;p&gt;Oh, joy.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

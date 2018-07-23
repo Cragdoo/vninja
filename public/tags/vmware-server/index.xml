@@ -2,24 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vmware Server on vNinja.net</title>
-    <link>/tags/vmware-server/</link>
+    <link>https://vninja.net/tags/vmware-server/</link>
     <description>Recent content in Vmware Server on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Fri, 13 Aug 2010 23:05:33 +0000</lastBuildDate>
     
-	<atom:link href="/tags/vmware-server/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/vmware-server/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Where in the world is VMware Server?</title>
-      <link>/virtualization/where-in-the-world-is-vmware-server/</link>
+      <link>https://vninja.net/virtualization/where-in-the-world-is-vmware-server/</link>
       <pubDate>Fri, 13 Aug 2010 23:05:33 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/where-in-the-world-is-vmware-server/</guid>
+      
+      <guid>https://vninja.net/virtualization/where-in-the-world-is-vmware-server/</guid>
       <description>Over at PlanetVM Wil van Antwerpen posted The Future of VMware Server back in May 2010. Wil makes the argument that it seems like VMware is indeed abandoning VMware Server as a product, leaving us with VMware Workstation and VMware Player as the two Windows installable virtualization solutions from the company.
 This has caused some reactions, including my own comment, where I question the smartness of abandoning what might just be one of the best virtualization &amp;laquo;gateway drugs&amp;raquo; VMware has to offer.</description>
     </item>

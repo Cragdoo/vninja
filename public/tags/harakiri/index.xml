@@ -2,24 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Harakiri on vNinja.net</title>
-    <link>/tags/harakiri/</link>
+    <link>https://vninja.net/tags/harakiri/</link>
     <description>Recent content in Harakiri on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Sun, 26 Feb 2012 22:42:01 +0000</lastBuildDate>
     
-	<atom:link href="/tags/harakiri/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/harakiri/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Being Neil Armstrong</title>
-      <link>/rant/neil-armstrong/</link>
+      <link>https://vninja.net/rant/neil-armstrong/</link>
       <pubDate>Sun, 26 Feb 2012 22:42:01 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/rant/neil-armstrong/</guid>
+      
+      <guid>https://vninja.net/rant/neil-armstrong/</guid>
       <description>Now there is an ambitious post title if there ever was one, but it seems fitting as the next 12 months promises to be my most ambitious professional year to date.
 Like Neil, I´ve started a journey that could either crash and burn, or end up with my very own personal moon landing.
 Those of you that follow my antics on Twitter already know what I´m talking about, but I´ll spell it out once and for all:</description>

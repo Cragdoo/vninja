@@ -2,24 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Suggestion on vNinja.net</title>
-    <link>/tags/suggestion/</link>
+    <link>https://vninja.net/tags/suggestion/</link>
     <description>Recent content in Suggestion on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Thu, 21 Feb 2013 08:45:25 +0000</lastBuildDate>
     
-	<atom:link href="/tags/suggestion/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/suggestion/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>New Fling from VMware Labs: Makyo</title>
-      <link>/vmware-2/fling-vmware-labs-makyo/</link>
+      <link>https://vninja.net/vmware-2/fling-vmware-labs-makyo/</link>
       <pubDate>Thu, 21 Feb 2013 08:45:25 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/vmware-2/fling-vmware-labs-makyo/</guid>
+      
+      <guid>https://vninja.net/vmware-2/fling-vmware-labs-makyo/</guid>
       <description>VMware Labs has released a new fling called Makyo (魔境 _makyō_ means “ghost cave” or “devil’s cave.”) which basically is a tool to copy VMs or vApps from one vCenter instance to another.
 It works by doing an automated OVF export on the source vCenter, and then an import on the destination vCenter.
 

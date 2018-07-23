@@ -2,107 +2,124 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vmworld on vNinja.net</title>
-    <link>/tags/vmworld/</link>
+    <link>https://vninja.net/tags/vmworld/</link>
     <description>Recent content in Vmworld on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Fri, 18 Nov 2016 11:23:58 +0000</lastBuildDate>
     
-	<atom:link href="/tags/vmworld/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/vmworld/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>VMworld Dates 2017</title>
-      <link>/news/vmworld-dates-2017/</link>
+      <link>https://vninja.net/news/vmworld-dates-2017/</link>
       <pubDate>Fri, 18 Nov 2016 11:23:58 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/news/vmworld-dates-2017/</guid>
-      <description>Now that the seasons have changed, it&amp;rsquo;s time to look at 2017 and start planning the year. First up, when is VMworld 2017, and perhaps most importantly where? There has been a lot of speculation about this, and the perhaps strongest rumour was that it was moving to Berlin.
-The details for the US has already been posted on vmworld.com, but for Europe all it says is &amp;laquo;Fall&amp;raquo;.
-According to Duncan, which usually is in the know, VMworld Europe 2017 will once again be in Barcelona, but in September instead of October.</description>
+      
+      <guid>https://vninja.net/news/vmworld-dates-2017/</guid>
+      <description>&lt;p&gt;Now that the seasons have changed, it&amp;rsquo;s time to look at 2017 and start planning the year.
+First up, when is VMworld 2017, and  perhaps most importantly where? There has been a lot of speculation about this, and the perhaps strongest rumour was that it was moving to Berlin.
+&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>VMworld Europe 2016 - My takeaways</title>
-      <link>/vmware-2/vmworld-europe-2016-my-takeaways/</link>
+      <link>https://vninja.net/vmware-2/vmworld-europe-2016-my-takeaways/</link>
       <pubDate>Mon, 31 Oct 2016 23:07:40 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/vmware-2/vmworld-europe-2016-my-takeaways/</guid>
-      <description>VMworld Europe 2016 in Barcelona is a couple of weeks old now, and most of the dust has settled. Besides the general announcements around vSphere 6.5 and surrounding products, the next big thing might just be Cross-Cloud Architecture and of course VMware Cloud on AWS. The announcements around vSAN 6.5 (yes, it is now vSAN and not Virtual SAN/VSAN anymore), are also very interesting. Perhaps it&amp;rsquo;s time I revisit my earlier VMware VSAN; More than meets the eye post and update it for vSAN 6.</description>
+      
+      <guid>https://vninja.net/vmware-2/vmworld-europe-2016-my-takeaways/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://vninja.net/img//IMG_7292-1024x1024.jpg&#34; alt=&#34;VMworld Europe 2016&#34; /&gt;
+VMworld Europe 2016 in Barcelona is a couple of weeks old now, and most of the dust has settled. Besides the general announcements around vSphere 6.5 and surrounding products, the next big thing might just be &lt;a href=&#34;http://www.vmware.com/radius/cross-cloud-introduction/&#34;&gt;Cross-Cloud Architecture&lt;/a&gt; and of course &lt;a href=&#34;http://vninja.net/news/me-too-vmware-cloud-on-aws/&#34;&gt;VMware Cloud on AWS&lt;/a&gt;. The announcements around vSAN 6.5 (yes, it is now &lt;a href=&#34;https://twitter.com/leecaswell/status/790679575499907072&#34;&gt;vSAN and not Virtual SAN/VSAN anymore&lt;/a&gt;), are also very interesting. Perhaps it&amp;rsquo;s time I revisit my earlier &lt;a href=&#34;http://vninja.net/virtualization/vmware-vsan-more-than-meets-the-eye/&#34;&gt;VMware VSAN; More than meets the eye&lt;/a&gt; post and update it for vSAN 6.5?&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>VMworld 2016 Europe</title>
-      <link>/virtualization/vmworld-2016-europe/</link>
+      <link>https://vninja.net/virtualization/vmworld-2016-europe/</link>
       <pubDate>Thu, 06 Oct 2016 07:50:35 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/vmworld-2016-europe/</guid>
-      <description>VMworld Europe is just a couple of weeks away now, and I can&amp;rsquo;t wait to spend a week in sunny Barcelona. Last year my trip got cancelled in the last minute, but that will not be the case this year.
-As usual I&amp;rsquo;m looking forward to a bunch of sessions, and general announcements, but for me the value of attending VMworld is in the networking with other people. Sessions and keynotes can be reviewed later, interacting with others can not.</description>
+      
+      <guid>https://vninja.net/virtualization/vmworld-2016-europe/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://vninja.net/img/61-GpznI.jpg&#34; alt=&#34;&#34; /&gt;&lt;a href=&#34;http://vmworld.com&#34;&gt;VMworld Europe&lt;/a&gt; is just a couple of weeks away now, and I can&amp;rsquo;t wait to spend a week in sunny Barcelona. Last year my trip got cancelled in the last minute, but that will not be the case this year.&lt;/p&gt;
+
+&lt;p&gt;As usual I&amp;rsquo;m looking forward to a bunch of sessions, and general announcements, but for me the value of attending VMworld is in the networking with other people. Sessions and keynotes can be reviewed later, interacting with others can not.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>It&#39;s official EVO:RAIL it is</title>
-      <link>/vmware-2/official-evorail/</link>
+      <link>https://vninja.net/vmware-2/official-evorail/</link>
       <pubDate>Mon, 25 Aug 2014 13:30:58 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/vmware-2/official-evorail/</guid>
-      <description>VMware has finally announced what I&amp;rsquo;ve been speculating about for some time now, EVO:RAIL was announced at VMworld US this morning. Short story; It&amp;rsquo;s a HCIA (Hyper Converged Infrastructure Appliance), offered through several hardware vendors, with a new integrated management solution.
-Since I&amp;rsquo;m not at VMworld my self, I&amp;rsquo;ll leave the blog postings to those close to the action, but here is a quick collection of links to get you acquainted with the next EVOlution of SDDC from VMware:</description>
+      
+      <guid>https://vninja.net/vmware-2/official-evorail/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://vninja.net/img/image18-300x194.png#floatright&#34; alt=&#34;VMware EVO:RAIL&#34; /&gt;VMware has finally announced what I&amp;rsquo;ve been speculating about for some time now, EVO:RAIL was announced at VMworld US this morning. Short story; It&amp;rsquo;s a HCIA (&lt;strong&gt;H&lt;/strong&gt;yper &lt;strong&gt;C&lt;/strong&gt;onverged &lt;strong&gt;I&lt;/strong&gt;nfrastructure &lt;strong&gt;A&lt;/strong&gt;ppliance), offered through several hardware vendors, with a new integrated management solution.&lt;/p&gt;
+
+&lt;p&gt;Since I&amp;rsquo;m not at VMworld my self, I&amp;rsquo;ll leave the blog postings to those close to the action, but here is a quick collection of links to get you acquainted with the next &lt;strong&gt;EVO&lt;/strong&gt;lution of SDDC from VMware:
+&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>#AdviceForVMworld</title>
-      <link>/rant/adviceforvmworld/</link>
+      <link>https://vninja.net/rant/adviceforvmworld/</link>
       <pubDate>Fri, 22 Aug 2014 18:08:56 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/rant/adviceforvmworld/</guid>
-      <description>VMworld US is very soon upon us, and I&amp;rsquo;m one of the jealous ones left behind not being able to attend. I will hopefully be able to join everyone oat VMworld Europe in Barcelona on October though.
-An interesting Twitter hashtag #AdviceForVMworld appeared a week or so ago, with lots of good advice for people attending a huge tech conference.
-Here are a few good examples:
-[#AdviceForVMworld](https://twitter.com/hashtag/AdviceForVMworld?src=hash): Just Say Hi, it is all about the conversations, networking.</description>
+      
+      <guid>https://vninja.net/rant/adviceforvmworld/</guid>
+      <description>&lt;p&gt;VMworld US is very soon upon us, and I&amp;rsquo;m one of the jealous ones left behind not being able to attend. I will hopefully be able to join everyone oat VMworld Europe in Barcelona on October though.&lt;/p&gt;
+
+&lt;p&gt;An interesting Twitter hashtag &lt;a href=&#34;https://twitter.com/search?q=%23AdviceForVMworld&amp;amp;src=tyah&#34;&gt;#AdviceForVMworld&lt;/a&gt; appeared a week or so ago, with lots of good advice for people attending a huge tech conference.&lt;/p&gt;
+
+&lt;p&gt;Here are a few good examples:&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>It&#39;s EVOlution Baby!</title>
-      <link>/vmware-2/evolution-baby/</link>
+      <link>https://vninja.net/vmware-2/evolution-baby/</link>
       <pubDate>Thu, 21 Aug 2014 22:38:22 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/vmware-2/evolution-baby/</guid>
-      <description>Finally. I&amp;rsquo;ve finally found a way to put two of my favourite things together in a completely non-sensical way, namely VMware Marvin and Pearl Jam. As The Register reported earlier today, odds are that Marvin no longer responds to it&amp;rsquo;s project name, but rather to the new EVO name recently trademarked by VMware. There has been whispers of a Marvin name change for quite some time, so this isn&amp;rsquo;t really hard to believe.</description>
+      
+      <guid>https://vninja.net/vmware-2/evolution-baby/</guid>
+      <description>&lt;p&gt;Finally. I&amp;rsquo;ve finally found a way to put two of my favourite things together in a completely non-sensical way, namely VMware Marvin and Pearl Jam. As &lt;a href=&#34;http://www.theregister.co.uk/2014/08/20/vmware_seeks_two_new_hardwarerelated_trademarks/?mt=1408660085798&#34;&gt;The Register reported earlier today&lt;/a&gt;, odds are that Marvin no longer responds to it&amp;rsquo;s project name, but rather to the new EVO name recently trademarked by VMware. There has been whispers of a Marvin name change for quite some time, so this isn&amp;rsquo;t really hard to believe.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Marvin Related VMworld Sessions?</title>
-      <link>/vmware-2/marvin-related-vmworld-sessions/</link>
+      <link>https://vninja.net/vmware-2/marvin-related-vmworld-sessions/</link>
       <pubDate>Wed, 20 Aug 2014 13:05:41 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/vmware-2/marvin-related-vmworld-sessions/</guid>
-      <description>It&amp;rsquo;s been a while since I tried speculating on the soon-to-be-announced VMware Marvin project, but some very recent VMworld US 2014 session additions look really interesting in that regard:
-SDDC1818 - VMware Customers Share Experiences and Requirements for Hyper-Converged SDDC2095 - VMware and Hyper-Converged Infrastructure SDDC1767 - SDDC at Scale with VMware Hyper-Converged Infrastructure: Deeper Dive SDDC3245-S - Software-Defined Data Center through Hyper-Converged Infrastructure
-If you look at 1767 specifically, since the other sessions are still very light on details, it has a rather interesting description:</description>
+      
+      <guid>https://vninja.net/vmware-2/marvin-related-vmworld-sessions/</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s been a while since I tried speculating on the s&lt;em&gt;oon-to-be-announced&lt;/em&gt; VMware Marvin project, but some very recent VMworld US 2014 session additions look really interesting in that regard:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://vmworld2014.activeevents.com/connect/sessionDetail.ww?SESSION_ID=1818&#34;&gt;SDDC1818 - VMware Customers Share Experiences and Requirements for Hyper-Converged
+&lt;/a&gt;&lt;a href=&#34;https://vmworld2014.activeevents.com/connect/sessionDetail.ww?SESSION_ID=2095&#34;&gt;SDDC2095 - VMware and Hyper-Converged Infrastructure
+&lt;/a&gt;&lt;a href=&#34;https://vmworld2014.activeevents.com/connect/sessionDetail.ww?SESSION_ID=1767&#34;&gt;SDDC1767 - SDDC at Scale with VMware Hyper-Converged Infrastructure: Deeper Dive&lt;/a&gt;
+&lt;a href=&#34;https://vmworld2014.activeevents.com/connect/sessionDetail.ww?SESSION_ID=3245&#34;&gt;SDDC3245-S - Software-Defined Data Center through Hyper-Converged Infrastructure&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If you look at 1767 specifically, since the other sessions are still very light on details, it has a rather interesting description:&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>PernixData vSphere Pocketbook Blog Edition</title>
-      <link>/virtualization/pernixdata-vsphere-pocketbook-blog-edition/</link>
+      <link>https://vninja.net/virtualization/pernixdata-vsphere-pocketbook-blog-edition/</link>
       <pubDate>Tue, 12 Aug 2014 15:03:06 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/pernixdata-vsphere-pocketbook-blog-edition/</guid>
-      <description>Following the success of the first vSphere Design Pocketbook, PernixData has created a new version, this time dubbed &amp;laquo;Blog Edition&amp;raquo;. Where the first book focused on small &amp;laquo;tweet sized&amp;raquo; design tips, the new one allows for more in-depth articles, lifting the first editions 200 character limit.
-For some reason, I have been lucky enough to be selected as one of the contributors!
-You can pick up a printed copy at the PernixData Booth (1017) at VMworld US, or pre-order your electronic copy today.</description>
+      
+      <guid>https://vninja.net/virtualization/pernixdata-vsphere-pocketbook-blog-edition/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://vninja.net/img/vSphere_design_book_Front_246px-182x300.png#floatright&#34; alt=&#34;vSphere Design Book&#34; /&gt;Following the success of the first vSphere Design Pocketbook, &lt;a href=&#34;http://pernixdata.com&#34;&gt;PernixData &lt;/a&gt;has created a new version, this time dubbed &lt;em&gt;&amp;laquo;Blog Edition&amp;raquo;&lt;/em&gt;.  Where the first book focused on small &amp;laquo;tweet sized&amp;raquo; design tips, the new one allows for more in-depth articles, lifting the first editions 200 character limit.
+&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>VMworld Europe 2013 - Here I Come</title>
-      <link>/virtualization/vmworld-europe-2013/</link>
+      <link>https://vninja.net/virtualization/vmworld-europe-2013/</link>
       <pubDate>Wed, 09 Oct 2013 18:04:02 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/vmworld-europe-2013/</guid>
+      
+      <guid>https://vninja.net/virtualization/vmworld-europe-2013/</guid>
       <description>For the first time since 2010 I will actually be physically attending VMworld Europe! I fly over from the very cold, rainy and generally very autumny Norway to sunny Barcelona on Sunday the 13th.
 Based on my past experience from VMworld in Copenhagen, I have decided to go easy on the session scheduling and not fill my calendar to the brim.
 Sure, the sessions provide insane amounts of useful content, but for me the main reason to attend VMworld is to physically meet up and talk to a lot of the people I usually spend a lot of time communicating with.</description>
@@ -110,20 +127,20 @@ Sure, the sessions provide insane amounts of useful content, but for me the main
     
     <item>
       <title>Social Media, Karma and Being a Dick</title>
-      <link>/rant/social-media-karma-dick/</link>
+      <link>https://vninja.net/rant/social-media-karma-dick/</link>
       <pubDate>Tue, 08 Oct 2013 13:12:13 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/rant/social-media-karma-dick/</guid>
+      
+      <guid>https://vninja.net/rant/social-media-karma-dick/</guid>
       <description>Rant alert [@Acronis](https://twitter.com/Acronis) sorry, not happening. — Christian Mohn (@h0bbel) [October 8, 2013](https://twitter.com/h0bbel/statuses/387562111972683776) In and of itself, this tweet is fair enough, even if borderline spam. My reaction to it however, tells a different story. _I admit it, it´s a bit harsh and straight to the point, but something has to have triggered such a response, right? _Rewind back to VMworld US, and Acronis posted this:
 [@sbeloussov](https://twitter.com/sbeloussov) [@veeam](https://twitter.com/veeam) [@VMworld](https://twitter.com/VMworld) fortunately we don&#39;t need to make our customers drunk to persuade them to buy our soft.</description>
     </item>
     
     <item>
       <title>Want Access to the VMworld 2012 Sessions?</title>
-      <link>/vmware-2/access-vmworld-2012-sessions/</link>
+      <link>https://vninja.net/vmware-2/access-vmworld-2012-sessions/</link>
       <pubDate>Sat, 27 Oct 2012 16:42:11 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/vmware-2/access-vmworld-2012-sessions/</guid>
+      
+      <guid>https://vninja.net/vmware-2/access-vmworld-2012-sessions/</guid>
       <description>Fellow vExpert Rick Scherer is giving away a voucher that provides free access to all of the VMworld 2012 sessions, including associated MP3′s and PDF’s.
 Have a look at his post Win Access to VMworld 2012 Sessions and enter to win now!
 Good stuff Rick, real good!
@@ -133,10 +150,10 @@ Fresh VCDX and fellow vExpert Joep Piscaer has followed suit and announced his 
     
     <item>
       <title>... and All I Asked for Was a Pin</title>
-      <link>/virtualization/all-i-asked-for-was-a-pin/</link>
+      <link>https://vninja.net/virtualization/all-i-asked-for-was-a-pin/</link>
       <pubDate>Tue, 11 Sep 2012 17:33:35 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/all-i-asked-for-was-a-pin/</guid>
+      
+      <guid>https://vninja.net/virtualization/all-i-asked-for-was-a-pin/</guid>
       <description>Way back in the old days, you know when VMworld 2012 was held in San Francisco, I tweeted that if someone could get hold of a VCP pin for me, I would be very happy.
 Luckily Paul Valentino from vCommunity Trust picked that up, and apparently went on quite the scavenger hunt on my behalf.
 Imagine my surprise today when this little square meter of carton appeared, courtesy of Mr. Valentino:</description>
@@ -144,10 +161,10 @@ Imagine my surprise today when this little square meter of carton appeared, cour
     
     <item>
       <title>VMworld Session Reject Club</title>
-      <link>/virtualization/vmworld-session-reject-club/</link>
+      <link>https://vninja.net/virtualization/vmworld-session-reject-club/</link>
       <pubDate>Wed, 27 Jun 2012 00:07:18 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/vmworld-session-reject-club/</guid>
+      
+      <guid>https://vninja.net/virtualization/vmworld-session-reject-club/</guid>
       <description>**VMworld Session Reject Club 1st RULE: You do talk about Reject Club. **
 Today VMware has sent out notifications to VMworld 2012 session submitters, with a yay or nay email. Of course, this sparked a lot of conversation on Twitter, and Scott Lowe published a blog post proposing a VMworld Unconference, and exploring several options:
  A physical “unconference”
@@ -157,10 +174,10 @@ Today VMware has sent out notifications to VMworld 2012 session submitters, with
     
     <item>
       <title>VMworld Hands-on Labs going public in 2012</title>
-      <link>/virtualization/vmworld-hands-on-labs-going-public-in-2012/</link>
+      <link>https://vninja.net/virtualization/vmworld-hands-on-labs-going-public-in-2012/</link>
       <pubDate>Tue, 30 Aug 2011 10:41:03 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/vmworld-hands-on-labs-going-public-in-2012/</guid>
+      
+      <guid>https://vninja.net/virtualization/vmworld-hands-on-labs-going-public-in-2012/</guid>
       <description>VMware Labs now has fixed data centers which means that the VMworld Hands-On labs are going to be publicly available in early 20112!
 Hear Mornay Van Der Walt, Senior Director R&amp;amp;D at VMware, explain the details in this video from VMworld TV:
 This is great news, and I&amp;rsquo;m sure I&amp;rsquo;m not the only one who thinks this is a really good idea.</description>
@@ -168,20 +185,20 @@ This is great news, and I&amp;rsquo;m sure I&amp;rsquo;m not the only one who th
     
     <item>
       <title>VMworld 2011 Session Voting</title>
-      <link>/news/vmworld-2011-session-voting/</link>
+      <link>https://vninja.net/news/vmworld-2011-session-voting/</link>
       <pubDate>Mon, 09 May 2011 10:29:39 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/news/vmworld-2011-session-voting/</guid>
+      
+      <guid>https://vninja.net/news/vmworld-2011-session-voting/</guid>
       <description>VMware has opened the public voting for the VMworld 2011 sessions. Personally I haven&amp;rsquo;t submitted anything, but I do see a lot of familiar names in the voting application.
 The voting is available to anyone who has a vmworld.com account, and the voting period is from May 9th to May 18th. The voting is global, which means a vote for a session counts as a vote for both VMworld US and VMworld EMEA as 80% of the selected sessions will occur at both events.</description>
     </item>
     
     <item>
       <title>VMworld.next - a couple of suggestions</title>
-      <link>/virtualization/vmworld-next-a-couple-of-suggestions/</link>
+      <link>https://vninja.net/virtualization/vmworld-next-a-couple-of-suggestions/</link>
       <pubDate>Fri, 15 Oct 2010 08:36:39 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/vmworld-next-a-couple-of-suggestions/</guid>
+      
+      <guid>https://vninja.net/virtualization/vmworld-next-a-couple-of-suggestions/</guid>
       <description>Now that the VMworld events are over for 2010, I&amp;rsquo;m still trying to digest a lot of the impressions I&amp;rsquo;ve had over the past few days.
 However, I do have a couple of suggestions I would like to voice:
  Add contact information to the attendee badge!
@@ -190,10 +207,10 @@ However, I do have a couple of suggestions I would like to voice:
     
     <item>
       <title>VMworld Europe 2010 – The aftermath</title>
-      <link>/virtualization/vmworld-europe-2010the-aftermath/</link>
+      <link>https://vninja.net/virtualization/vmworld-europe-2010the-aftermath/</link>
       <pubDate>Fri, 15 Oct 2010 07:33:54 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/vmworld-europe-2010the-aftermath/</guid>
+      
+      <guid>https://vninja.net/virtualization/vmworld-europe-2010the-aftermath/</guid>
       <description>I’m back home again, after spending the better part of this week in Copenhagen, attending VMworld Europe 2010.
 Let me just say, straight off the bat, that attending VMworld is probably the best idea I’ve had in years. In reality, that’s not saying much, but the value of attending is immense.
 The way VMworld is organized, with lots of simultaneous sessions, labs and other activities is both a challenge and a blessing.</description>
@@ -201,10 +218,10 @@ The way VMworld is organized, with lots of simultaneous sessions, labs and other
     
     <item>
       <title>VMworld europe 2010</title>
-      <link>/virtualization/vmworld-europe-2010/</link>
+      <link>https://vninja.net/virtualization/vmworld-europe-2010/</link>
       <pubDate>Sun, 10 Oct 2010 20:25:42 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/vmworld-europe-2010/</guid>
+      
+      <guid>https://vninja.net/virtualization/vmworld-europe-2010/</guid>
       <description>[VMworld Europe 2010 is close. Very close. In fact, lots of people are already in place in Copenhagen, personally I don’t get until tomorrow evening (the 11th).
 Since I get in pretty late, I really hope I’ll be able to get to my hotel quickly, and then find Custom House for the Tweetup/VMUG Party.
 Remember I have a little contest going, where you can win a copy of Trainsignal VMware vSphere Pro Series Training Vol.</description>

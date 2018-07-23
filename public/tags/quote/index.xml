@@ -2,24 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Quote on vNinja.net</title>
-    <link>/tags/quote/</link>
+    <link>https://vninja.net/tags/quote/</link>
     <description>Recent content in Quote on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Wed, 23 Jan 2013 14:42:40 +0000</lastBuildDate>
     
-	<atom:link href="/tags/quote/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/quote/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Goodbye Mr. Herrod</title>
-      <link>/vmware-2/goodbye-mr-herrod/</link>
+      <link>https://vninja.net/vmware-2/goodbye-mr-herrod/</link>
       <pubDate>Wed, 23 Jan 2013 14:42:40 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/vmware-2/goodbye-mr-herrod/</guid>
+      
+      <guid>https://vninja.net/vmware-2/goodbye-mr-herrod/</guid>
       <description>SearchserverVirtualization published an article today called &amp;laquo;Experts weigh in on CTO Herrod&amp;rsquo;s departure, future of VMware&amp;raquo; where I have been quoted in regard toSteve Herrod&amp;rsquo;s departure from VMware.
 While the quote itself is correct, I feel that there is a need to further expand on what I said, in the context it was given in.
 So here it is, my entire response:

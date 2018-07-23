@@ -21,7 +21,7 @@
 
 <meta property="og:title" content="ESXi5.5 to 6.0 Upgrade From Local HTTP Daemon  &middot; vNinja.net ">
 <meta property="og:site_name" content="vNinja.net"/>
-<meta property="og:url" content="/vmware-2/esxi5-5-to-6-0-upgrade-from-local-http-daemon/" />
+<meta property="og:url" content="https://vninja.net/vmware-2/esxi5-5-to-6-0-upgrade-from-local-http-daemon/" />
 <meta property="og:locale" content="en">
 
 
@@ -48,8 +48,8 @@
 <meta name="twitter:creator" content="@h0bbel" />
 <meta name="twitter:title" content="ESXi5.5 to 6.0 Upgrade From Local HTTP Daemon" />
 <meta name="twitter:description" content="" />
-<meta name="twitter:url" content="/vmware-2/esxi5-5-to-6-0-upgrade-from-local-http-daemon/" />
-<meta name="twitter:domain" content="/">
+<meta name="twitter:url" content="https://vninja.net/vmware-2/esxi5-5-to-6-0-upgrade-from-local-http-daemon/" />
+<meta name="twitter:domain" content="https://vninja.net">
   
 
   
@@ -64,17 +64,17 @@
     },
     "datePublished": "2015-08-26",
     "description": "",
-    "wordCount": 563
+    "wordCount": 545
   }
 </script>
   
 
 
 
-<link rel="canonical" href="/vmware-2/esxi5-5-to-6-0-upgrade-from-local-http-daemon/" />
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/touch-icon-144-precomposed.png">
-<link rel="icon" href="/favicon.png">
-<meta name="generator" content="Hugo 0.40.3" />
+<link rel="canonical" href="https://vninja.net/vmware-2/esxi5-5-to-6-0-upgrade-from-local-http-daemon/" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://vninja.net/touch-icon-144-precomposed.png">
+<link rel="icon" href="https://vninja.net/favicon.png">
+<meta name="generator" content="Hugo 0.42.2" />
 
   <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
@@ -83,18 +83,42 @@
 
 
 
-    <link rel="stylesheet" href="/css/bootswatch/lux/bootstrap.min.css">
+    <link rel="stylesheet" href="https://vninja.net/css/bootswatch/yeti/bootstrap.min.css">
 
 
-<link rel="stylesheet" href="/css/font-awesome.min.css">
-<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="https://vninja.net/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://vninja.net/css/style.css">
 
 
-<link rel="stylesheet" href="/css/style_custom.css">
+<link rel="stylesheet" href="https://vninja.net/css/style_custom.css">
 
 
 
-  <link rel="stylesheet" href="/css/highlight/default.css">
+  <link rel="stylesheet" href="https://vninja.net/css/highlight/default.css">
+
+
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+  <script>
+  window.addEventListener("load", function(){
+  window.cookieconsent.initialise({
+    "palette": {
+      "popup": {
+        "background": "#efefef",
+        "text": "#404040"
+      },
+      "button": {
+        "background": "#8ec760",
+        "text": "#ffffff"
+      }
+    },
+    "showLink": false,
+    "position": "bottom-right"
+  })});
+  </script>
+</script>
+
+
 
 
 </head>
@@ -110,7 +134,7 @@
           <span class="icon-bar"></span>
         </button>
         
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand" href="https://vninja.net/">
           vNinja.net
           
           
@@ -126,11 +150,7 @@
                   <ul class="dropdown-menu">
                     
                       <li class="">
-                        <a href="/about/christian-mohn/"><i class='fa fa-child'></i> About vNinja</a>
-                      </li>
-                    
-                      <li class="">
-                        <a href="/about/christian-mohn/"><i class='fa fa-child'></i> About Christian</a>
+                        <a href="https://vninja.net/about/christian-mohn/"><i class='fa fa-child'></i> About Christian</a>
                       </li>
                     
                   </ul>
@@ -139,11 +159,11 @@
             
             <li class="">
               
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class='fa fa-hand-lizard-o'></i> Site Policy <span class="caret"></span></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class='fa fa-asterisk'></i> Site Policy <span class="caret"></span></a>
                   <ul class="dropdown-menu">
                     
                       <li class="">
-                        <a href="/about/privacy-policy"><i class='fa fa-hand-lizard-o'></i> Privacy Policy</a>
+                        <a href="https://vninja.net/about/privacy-policy"><i class='fa fa-asterisk'></i> Privacy Policy</a>
                       </li>
                     
                   </ul>
@@ -152,9 +172,18 @@
             
             <li class="">
               
-                <a href="/advertising" >
+                <a href="https://vninja.net/advertising" >
                   <i class='fa fa-bank'></i>
                   Advertising
+                </a>
+              
+            </li>
+            
+            <li class="">
+              
+                <a href="https://vninja.net/post/index.xml" >
+                  <i class='fa fa-rss'></i>
+                  RSS
                 </a>
               
             </li>
@@ -194,39 +223,22 @@
     &middot; by Christian Mohn
   
   &middot; Read in about 3 min
-  &middot; (563 words)
+  &middot; (545 words)
   &middot; 
-<span class="share-box">Share this on:
-    <a href="https://www.facebook.com/sharer/sharer.php?u=%2fvmware-2%2fesxi5-5-to-6-0-upgrade-from-local-http-daemon%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-facebook-official "></i></a>
 
-    <a href="https://twitter.com/intent/tweet?text=ESXi5.5%20to%206.0%20Upgrade%20From%20Local%20HTTP%20Daemon&amp;url=%2fvmware-2%2fesxi5-5-to-6-0-upgrade-from-local-http-daemon%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-twitter"></i></a>
-
-    <a href="https://plus.google.com/share?url=%2fvmware-2%2fesxi5-5-to-6-0-upgrade-from-local-http-daemon%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-google-plus"></i></a>
-
-    <a href="http://www.reddit.com/submit?url=%2fvmware-2%2fesxi5-5-to-6-0-upgrade-from-local-http-daemon%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-reddit"></i></a>
-
-    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fvmware-2%2fesxi5-5-to-6-0-upgrade-from-local-http-daemon%2f&amp;title=ESXi5.5%20to%206.0%20Upgrade%20From%20Local%20HTTP%20Daemon" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-linkedin"></i></a>
-
-    <a href="mailto:?subject=ESXi5.5%20to%206.0%20Upgrade%20From%20Local%20HTTP%20Daemon&amp;body=Check out this site %2fvmware-2%2fesxi5-5-to-6-0-upgrade-from-local-http-daemon%2f" data-proofer-ignore=""><i class="fa fa-envelope"></i></a>
-  </span>
 
   </small>
 
 <div class="margin-10">
   <i class="fa fa-tags"></i>
   
-  <a href="/tags/esxi" class="label label-primary">ESXi</a>
+  <a href="https://vninja.net/tags/esxi" class="label label-primary">ESXi</a>
   
-  <a href="/tags/vcenter" class="label label-primary">vCenter</a>
+  <a href="https://vninja.net/tags/vcenter" class="label label-primary">vCenter</a>
   
-  <a href="/tags/vmware" class="label label-primary">VMware</a>
+  <a href="https://vninja.net/tags/vmware" class="label label-primary">VMware</a>
   
-  <a href="/tags/vsphere" class="label label-primary">vSphere</a>
+  <a href="https://vninja.net/tags/vsphere" class="label label-primary">vSphere</a>
   
 
 
@@ -240,71 +252,57 @@
 
 
       <div class="content">
+
   
 
-<p>I was recently involved with consulting for a Norwegian shipping company who has quite a few remote vSphere installations, most of them with a couple of ESXi hosts, but no vCenter and hence no Update Manager. While looking at methods for managing these installations, in particular how to facilitate patching and upgrading scenarios, I remembered that way back in 2013, I posted <a href="http://vninja.net/virtualization/quick-and-dirty-http-based-deployment/">Quick and Dirty HTTP-based Deployment</a> which shows how to use the Python to run a simple http daemon, and serve files from it.</p>
+  <p>I was recently involved with consulting for a Norwegian shipping company who has quite a few remote vSphere installations, most of them with a couple of ESXi hosts, but no vCenter and hence no Update Manager. While looking at methods for managing these installations, in particular how to facilitate patching and upgrading scenarios, I remembered that way back in 2013, I posted <a href="http://vninja.net/virtualization/quick-and-dirty-http-based-deployment/">Quick and Dirty HTTP-based Deployment</a> which shows how to use the Python to run a simple http daemon, and serve files from it.
+</p>
 
 <p>Surely something similar can be used to maintain a central repository for vSphere patches? While I don&rsquo;t recommend using your MacBook as a permanent source for these updates, you really should set up a proper http server in your network and utilize that, it works as a proof of concept.</p>
 
 <h5 id="so-here-it-is-a-recipe-for-using-a-simple-http-daemon-to-host-your-own-esxi-offline-bundles-and-how-to-upgrade-from-5-5-to-6-0-from-the-command-line">So here it is, a recipe for using a simple http daemon to host your own ESXi Offline Bundles, and how to upgrade from 5.5 to 6.0 from the command line.</h5>
 
 <pre><code>1. Download the offline bundle you want to use, in my case I used _ESXi600-201507001.zip_ (ESXi 6.0.0b).
-
-
 2. Extract the .zip file into it's own directory, served by the http daemon, and rename it for simplicity.
-
-
 3. Connect to your target ESXi host via SSH
-
-
-4. Check the current running ESXi version by running _esxcli system version get
-</code></pre>
-
-<p>_[cc lang=&laquo;bash&raquo; width=&laquo;100%&raquo; theme=&laquo;blackboard&raquo; nowrap=&laquo;0&raquo;]
-The time and date of this login have been sent to the system logs.VMware offers supported, powerful system administration tools. Please
-see www.vmware.com/go/sysadmintools for details.The ESXi Shell can be disabled by an administrative user. See the
-vSphere Security documentation for more information.
-~ # esxcli system version get
-Product: VMware ESXi
-Version: 5.5.0
+4. Check the current running ESXi version by running _esxcli system version<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">The time and date of this login have been sent to the system logs.VMware offers supported, powerful system administration tools. Please
+see www.vmware.com/go/sysadmintools <span style="color:#66d9ef">for</span> details.The ESXi Shell can be disabled by an administrative user. See the
+vSphere Security documentation <span style="color:#66d9ef">for</span> more information.
+~ <span style="color:#75715e"># esxcli system version get
+</span><span style="color:#75715e"></span>Product: VMware ESXi
+Version: <span style="color:#ae81ff">5</span>.5.0
 Build: Releasebuild-1623387
-Update: 1
-~ #[/cc]</p>
-
-<pre><code>5. Enable outgoing http requests from the ESXi host by running _esxcli network firewall ruleset set -e true -r httpClient_
-
-
-6. Determine which profile to use by running __esxcli software sources profile list -d [http://daemon-ip:port/directory/]
+Update: <span style="color:#ae81ff">1</span>
+~ #</code></pre></div>
 </code></pre>
 
-<p>[cc lang=&laquo;bash&raquo; width=&laquo;100%&raquo; theme=&laquo;blackboard&raquo; nowrap=&laquo;0&raquo;]
-~ # esxcli software sources profile list -d <a href="http://172.29.100.248:8000/6.0/">http://172.29.100.248:8000/6.0/</a>
-Name Vendor Acceptance Level</p>
+<p>Enable outgoing http requests from the ESXi host by running <em>esxcli network firewall ruleset set -e true -r httpClient</em></p>
 
-<hr />
+<pre><code>6. Determine which profile to use by running __esxcli software sources profile list -d [http://daemon-ip:port/directory/]
+</code></pre>
 
-<p>ESXi-6.0.0-20150701001s-standard VMware, Inc. PartnerSupported
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">~ <span style="color:#75715e"># esxcli software sources profile list -d http://172.29.100.248:8000/6.0/
+</span><span style="color:#75715e"></span>Name Vendor Acceptance Level
+-------------------------------- ------------ ----------------
+ESXi-6.0.0-20150701001s-standard VMware, Inc. PartnerSupported
 ESXi-6.0.0-20150701001s-no-tools VMware, Inc. PartnerSupported
 ESXi-6.0.0-20150704001-no-tools VMware, Inc. PartnerSupported
 ESXi-6.0.0-20150704001-standard VMware, Inc. PartnerSupported
-~ #[/cc]__</p>
+~ #</code></pre></div>
 
 <pre><code>7. Run _vim-cmd hostsvc/maintenance_mode_enter_ to put ESXi host into maintenance mode.
 
 
-8.  Run _esxcli software profile update -d [http://daemon-ip:port/directory/] -p [profilename] _to fetch and install from http daemon[cc lang=&quot;bash&quot; width=&quot;100%&quot; theme=&quot;blackboard&quot; nowrap=&quot;0&quot;]
-</code></pre>
-
-<h1 id="esxcli-software-profile-update-d-http-172-29-100-248-8000-6-0-p-esxi-6-0-0-20150704001-standard">esxcli software profile update -d <a href="http://172.29.100.248:8000/6.0/">http://172.29.100.248:8000/6.0/</a> -p ESXi-6.0.0-20150704001-standard</h1>
-
-<p>Update Result
-Message: The update completed successfully, but the system needs to be rebooted for the changes to be effective.
+8.  Run _esxcli software profile update -d [http://daemon-ip:port/directory/] -p [profilename] _to fetch and install from http daemon<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># esxcli software profile update -d http://172.29.100.248:8000/6.0/ -p ESXi-6.0.0-20150704001-standard
+</span><span style="color:#75715e"></span>Update Result
+Message: The update completed successfully, but the system needs to be rebooted <span style="color:#66d9ef">for</span> the changes to be effective.
 Reboot Required: true
-VIBs Installed: [long list of vibs removed for brevity]
+VIBs Installed: <span style="color:#f92672">[</span>long list of vibs removed <span style="color:#66d9ef">for</span> brevity<span style="color:#f92672">]</span>
 VIBs Skipped:
-~ #[/cc]</p>
+~ #</code></pre></div>
 
-<pre><code>9. Disable outgoing http client traffic by running _esxcli network firewall ruleset set -e false httpClient_
+
+9. Disable outgoing http client traffic by running _esxcli network firewall ruleset set -e false httpClient_
 
 
 10. Reboot host by running the _reboot_ command
@@ -313,43 +311,25 @@ VIBs Skipped:
 11. When host has rebooted, connect to ESXi host again via SSH and run _esxcli system version get
 </code></pre>
 
-<p>[cc lang=&laquo;bash&raquo; width=&laquo;100%&raquo; theme=&laquo;blackboard&raquo; nowrap=&laquo;0&raquo;][root@localhost:~] esxcli system version get
+<p><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#f92672">[</span>root@localhost:~<span style="color:#f92672">]</span> esxcli system version get
 Product: VMware ESXi
-Version: 6.0.0
+Version: <span style="color:#ae81ff">6</span>.0.0
 Build: Releasebuild-2809209
-Update: 0
-Patch: 11
-[root@localhost:~][/cc]
+Update: <span style="color:#ae81ff">0</span>
+Patch: <span style="color:#ae81ff">11</span>
+<span style="color:#f92672">[</span>root@localhost:~<span style="color:#f92672">]</span></code></pre></div>
 _</p>
 
 <pre><code>12. Verify that it runs the correct version, and run _vim-cmd hostsvc/maintenance_mode_exit_ to put the host out of maintenance mode.
 </code></pre>
 
 <p>And that&rsquo;s it, the host has now been upgraded from ESXi 5.5 to 6.0, from a local centralized http-based repository without the need to connect to the outside world. All done via the command line, and without a vCenter with Update Manager. Pretty neat.</p>
-
 </div>
 
 
       <footer>
   
-<span class="share-box">Share this on:
-    <a href="https://www.facebook.com/sharer/sharer.php?u=%2fvmware-2%2fesxi5-5-to-6-0-upgrade-from-local-http-daemon%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-facebook-official "></i></a>
 
-    <a href="https://twitter.com/intent/tweet?text=ESXi5.5%20to%206.0%20Upgrade%20From%20Local%20HTTP%20Daemon&amp;url=%2fvmware-2%2fesxi5-5-to-6-0-upgrade-from-local-http-daemon%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-twitter"></i></a>
-
-    <a href="https://plus.google.com/share?url=%2fvmware-2%2fesxi5-5-to-6-0-upgrade-from-local-http-daemon%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-google-plus"></i></a>
-
-    <a href="http://www.reddit.com/submit?url=%2fvmware-2%2fesxi5-5-to-6-0-upgrade-from-local-http-daemon%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-reddit"></i></a>
-
-    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fvmware-2%2fesxi5-5-to-6-0-upgrade-from-local-http-daemon%2f&amp;title=ESXi5.5%20to%206.0%20Upgrade%20From%20Local%20HTTP%20Daemon" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-linkedin"></i></a>
-
-    <a href="mailto:?subject=ESXi5.5%20to%206.0%20Upgrade%20From%20Local%20HTTP%20Daemon&amp;body=Check out this site %2fvmware-2%2fesxi5-5-to-6-0-upgrade-from-local-http-daemon%2f" data-proofer-ignore=""><i class="fa fa-envelope"></i></a>
-  </span>
 
   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
       
@@ -357,7 +337,7 @@ _</p>
     <nav><ul class="pager">
     
         <li class="previous">
-          <a href="/virtualization/hp-proliant-dl380p-gen8-decompressed-md5-error/" title="HP Proliant DL380p Gen8 &#34;Decompressed MD5&#34; error">
+          <a href="https://vninja.net/virtualization/hp-proliant-dl380p-gen8-decompressed-md5-error/" title="HP Proliant DL380p Gen8 &#34;Decompressed MD5&#34; error">
             <span aria-hidden="true">&larr;</span>Previous
           </a>
         </li>
@@ -365,7 +345,7 @@ _</p>
 
     
       <li class="next">
-        <a href="/vmware-2/update-esxi-embedded-host-client-fling/" title="Update ESXi Embedded Host Client Fling">
+        <a href="https://vninja.net/vmware-2/update-esxi-embedded-host-client-fling/" title="Update ESXi Embedded Host Client Fling">
             Next <span aria-hidden="true">&rarr;</span>
         </a>
       </li>
@@ -386,24 +366,35 @@ _</p>
     </div>
     
       <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-        <hr>
-<div>
+        <div>
   
 
     <div class="section">
-      <div class="ads">
-        <a href="http://turbonomic.com/resources/hybrid-cloud-intelligent-bursting-aws-microsoft-azure/?utm_source=vninja&amp;utm_medium=banner-ad&amp;utm_campaign=wp-path-to-hybrid-cloud&amp;utm_content=250x250"><img width="250" height="250" src="https://i1.wp.com/vninja.net/wordpress/wp-content/uploads/2017/11/wp-intelligent-bursting-aws-azure-250x250.png?zoom=2&amp;fit=250%2C250" alt="" title="wp-intelligent-bursting-aws-azure (250x250)" src-orig="https://i1.wp.com/vninja.net/wordpress/wp-content/uploads/2017/11/wp-intelligent-bursting-aws-azure-250x250.png?fit=250%2C250" scale="2"></a>
+      <h4>Sponsors</h4>
+      <div class="ads" id="veeam">
+        <ins class='dcmads' style='display:inline-block;width:250px;height:250px' data-dcm-placement='N410401.1772869VNINJA.NET/B10464038.145283149' data-dcm-rendering-mode='iframe' data-dcm-https-only data-dcm-resettable-device-id='' data-dcm-app-id=''> <script src='https://www.googletagservices.com/dcm/dcmads.js'></script> </ins>
       </div>
-      <div class="ads">
-        <a href="http://cohesity.com"><img width="250" height="250" src="https://i2.wp.com/vninja.net/wordpress/wp-content/uploads/2016/12/250x250_cohesity_ad-1.gif?zoom=2&amp;fit=250%2C250" alt="" title="250x250_cohesity_ad-1" src-orig="https://i2.wp.com/vninja.net/wordpress/wp-content/uploads/2016/12/250x250_cohesity_ad-1.gif?fit=250%2C250" scale="2"></a>
+      <div class="ads" id="turbonomic">
+        <a href="http://turbonomic.com/resources/hybrid-cloud-intelligent-bursting-aws-microsoft-azure/?utm_source=vninja&amp;utm_medium=banner-ad&amp;utm_campaign=wp-path-to-hybrid-cloud&amp;">
+          <img width="250" height="250" src="https://vninja.net/ads/wp-intelligent-bursting-aws-azure-250x250.png"></a>
       </div>
+      <div class="ads" id="goliath">
+        <a href="http://goliathtechnologies.com/performance-monitoring/application-desktop-virtualization/vmware-horizon-view-monitoring/?utm_source=VNINJA&#038;utm_medium=PARTNER-MKTG&#038;utm_campaign=PARTNER-MKTG-VNINJA"><img width="250" height="250" src='https://vninja.net/ads/VMwareHorizon.jpg' alt='' title='VMwareHorizon' /></a>
+      </div>
+      <div class="ads" id="vembu">
+        <a href="https://www.vembu.com/free-vm-backup/?utm_source=vninja.net&#038;utm_medium=Banner"><img width="250" height="250" src='https://vninja.net/ads/vembu250-250.gif'/></a>
+      </div>
+
+
     </div>
-<hr>
+
+    <hr>
     
       
       
       <div class="section">
-        sidebar 2
+
+
       </div>
       
     
@@ -427,9 +418,7 @@ _</p>
 </div>
 <div class="pull-right">
 
-<a href="/disclaimer/">Disclaimer</a> <i>&middot;</i>
-
-<a href="/terms/">Terms</a> 
+<a href="https://vninja.net/disclaimer/">Disclaimer</a> <i>&middot;</i>
 
 </div>
 
@@ -448,7 +437,7 @@ _</p>
     
 <div class="container copyright">
     <small>
-  &copy; 2018 Copyright my blog
+  &copy; 2018 Christian Mohn
 
   </small>
 </div>
@@ -463,17 +452,17 @@ _</p>
 
     
 
-<script src="/js/jquery.min.js"></script>
-<script src="/js/bootstrap.min.js"></script>
+<script src="https://vninja.net/js/jquery.min.js"></script>
+<script src="https://vninja.net/js/bootstrap.min.js"></script>
 
 
-<script src="/js/highlight.pack.js"></script>
-<script src="/js/site.js"></script>
+<script src="https://vninja.net/js/highlight.pack.js"></script>
+<script src="https://vninja.net/js/site.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
 
 <script>
-  var _gaq=[['_setAccount','Your Google Analytics tracking code'],['_trackPageview']];
+  var _gaq=[['_setAccount','UA-121910549-1'],['_trackPageview']];
   (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
   g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
   s.parentNode.insertBefore(g,s)}(document,'script'));

@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vflash Read Cache on vNinja.net</title>
-    <link>/tags/vflash-read-cache/</link>
+    <link>https://vninja.net/tags/vflash-read-cache/</link>
     <description>Recent content in Vflash Read Cache on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Sun, 19 Jan 2014 19:19:02 +0000</lastBuildDate>
     
-	<atom:link href="/tags/vflash-read-cache/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/vflash-read-cache/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Fixing &#34;Could not create vFlash cache&#34; error when powering on a VM</title>
-      <link>/virtualization/fixing-could-create-vflash-cache-error-powering-vm/</link>
+      <link>https://vninja.net/virtualization/fixing-could-create-vflash-cache-error-powering-vm/</link>
       <pubDate>Sun, 19 Jan 2014 19:19:02 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/fixing-could-create-vflash-cache-error-powering-vm/</guid>
-      <description>During some way overdue housekeeping in my HP Microserver-based &amp;laquo;Homelab&amp;raquo; today, I ran into a rather annoying issue that prevented me from starting one of my more important VMs; namely my home Domain Controller.
-In short, I removed an old SSD drive that I&amp;rsquo;ve used for vFlash Read Cache (vFRC) testing and installed a new 1TB drive instead. Since I have a rather beefy work lab now, I need space more than speed at home, so this seemed like a good idea at the time.</description>
+      
+      <guid>https://vninja.net/virtualization/fixing-could-create-vflash-cache-error-powering-vm/</guid>
+      <description>&lt;p&gt;During some way overdue housekeeping in my HP Microserver-based &amp;laquo;Homelab&amp;raquo; today, I ran into a rather annoying issue that prevented me from starting one of my more important VMs; namely my home Domain Controller.&lt;/p&gt;
+
+&lt;p&gt;In short, I removed an old SSD drive that I&amp;rsquo;ve used for vFlash Read Cache (vFRC) testing and installed a new 1TB drive instead. Since I have a rather beefy work lab now, I need space more than speed at home, so this seemed like a good idea at the time.
+&lt;/p&gt;</description>
     </item>
     
   </channel>

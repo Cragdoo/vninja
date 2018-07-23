@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Misinformation on vNinja.net</title>
-    <link>/tags/misinformation/</link>
+    <link>https://vninja.net/tags/misinformation/</link>
     <description>Recent content in Misinformation on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Tue, 10 Feb 2015 00:06:54 +0000</lastBuildDate>
     
-	<atom:link href="/tags/misinformation/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/misinformation/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The vSphere 6.0 Launch and The Misinformation Effect</title>
-      <link>/vmware-2/vsphere-6-0-launch-misinformation-effect/</link>
+      <link>https://vninja.net/vmware-2/vsphere-6-0-launch-misinformation-effect/</link>
       <pubDate>Tue, 10 Feb 2015 00:06:54 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/vmware-2/vsphere-6-0-launch-misinformation-effect/</guid>
-      <description>Have you ever wondered what happens if you give 10.000 people access to an open-beta that is supposed to be under NDA?
-Firstly, the NDA is no-go from the get-go. There is no way you can claim that you actually expect 10.000 people to not talk about something they know about. VMware vSpere 6.0 was the worst kept secret ever, for a reason. It might have been planned that way all along for all I know, but if that was the case, the NDA should never have been in place to begin with.</description>
+      
+      <guid>https://vninja.net/vmware-2/vsphere-6-0-launch-misinformation-effect/</guid>
+      <description>&lt;p&gt;Have you ever wondered what happens if you give 10.000 people access to an open-beta that is supposed to be under &lt;a href=&#34;http://en.wikipedia.org/wiki/Non-disclosure_agreement&#34;&gt;NDA&lt;/a&gt;?&lt;/p&gt;
+
+&lt;p&gt;Firstly, the NDA is no-go from the get-go. There is no way you can claim that you actually expect 10.000 people to not talk about something they know about. VMware vSpere 6.0 was the worst kept secret ever, for a reason. It might have been planned that way all along for all I know, but if that was the case, the NDA should never have been in place to begin with.
+&lt;/p&gt;</description>
     </item>
     
   </channel>

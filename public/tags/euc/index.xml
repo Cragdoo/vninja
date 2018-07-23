@@ -2,24 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Euc on vNinja.net</title>
-    <link>/tags/euc/</link>
+    <link>https://vninja.net/tags/euc/</link>
     <description>Recent content in Euc on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Fri, 03 Aug 2012 21:17:13 +0000</lastBuildDate>
     
-	<atom:link href="/tags/euc/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/euc/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Building End-User Computing Solutions with VMware View Book Available</title>
-      <link>/virtualization/building-end-user-computing-solutions-vmware-view-book/</link>
+      <link>https://vninja.net/virtualization/building-end-user-computing-solutions-vmware-view-book/</link>
       <pubDate>Fri, 03 Aug 2012 21:17:13 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/building-end-user-computing-solutions-vmware-view-book/</guid>
+      
+      <guid>https://vninja.net/virtualization/building-end-user-computing-solutions-vmware-view-book/</guid>
       <description>Mike Laverick and Barry Coombs has released their new book, elegantly titled &amp;laquo;Building End-User Computing Solutions with VMware View&amp;raquo;.
 Not only is this a great book, it is something that every existing and potential VMware View (and related technologies in the EUC area) administrator should add to their (digital) bookshelves.
 I´ll let the authors themselves describe it:

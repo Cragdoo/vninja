@@ -2,29 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Impatient on vNinja.net</title>
-    <link>/tags/impatient/</link>
+    <link>https://vninja.net/tags/impatient/</link>
     <description>Recent content in Impatient on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Tue, 22 Oct 2013 18:42:42 +0000</lastBuildDate>
     
-	<atom:link href="/tags/impatient/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/impatient/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Check for OS X Updates Automatically</title>
-      <link>/osx/check-os-updates-automatically/</link>
+      <link>https://vninja.net/osx/check-os-updates-automatically/</link>
       <pubDate>Tue, 22 Oct 2013 18:42:42 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/osx/check-os-updates-automatically/</guid>
+      
+      <guid>https://vninja.net/osx/check-os-updates-automatically/</guid>
       <description>Yeah, I admit it. I want OS X Mavericks, and I want it now.
 Unfortunately, it´s not available yet from Software Update. So instead of manually checking every 5 minutes or so, I decided to create a small bash script that does it for me.
 It´s very, very simple, but I think it does the job:
 First off, pop into Terminal and get root access:
-[cc lang=&amp;laquo;bash&amp;raquo; width=&amp;laquo;100%&amp;raquo; theme=&amp;laquo;blackboard&amp;raquo; nowrap=&amp;laquo;0&amp;raquo;] h0bbel::h0bair { ~ }-&amp;gt; sudo su - [/cc]</description>
+h0bbel::h0bair { ~ }-&amp;gt; sudo su - Then create a small bash script, I named mine update.</description>
     </item>
     
   </channel>

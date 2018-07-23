@@ -2,37 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Unsupported on vNinja.net</title>
-    <link>/tags/unsupported/</link>
+    <link>https://vninja.net/tags/unsupported/</link>
     <description>Recent content in Unsupported on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Tue, 07 Oct 2014 23:26:03 +0000</lastBuildDate>
     
-	<atom:link href="/tags/unsupported/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/unsupported/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Building an Ubuntu 14.04 Appliance with VMware Studio 2.6</title>
-      <link>/vmware-2/building-ubuntu-14-04-appliance-vmware-studio-2-6/</link>
+      <link>https://vninja.net/vmware-2/building-ubuntu-14-04-appliance-vmware-studio-2-6/</link>
       <pubDate>Tue, 07 Oct 2014 23:26:03 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/vmware-2/building-ubuntu-14-04-appliance-vmware-studio-2-6/</guid>
-      <description>VMware Studio 2.6 was released way back in March 2012, and surprisingly there seems to be no new update in sight. While VMware Studio technically still works, even with newer versions of ESXi and vCenter, the supported operating systems for the appliances it can build is somewhat outdated:
- Red Hat Enterprise Linux 5.5/6.0
- SUSE Linux Enterprise Server 10.2/11.1
- Ubuntu 8.04.4/10.04.1
- Windows Server 2003 R2 / 2008 R2 w/SP1</description>
+      
+      <guid>https://vninja.net/vmware-2/building-ubuntu-14-04-appliance-vmware-studio-2-6/</guid>
+      <description>&lt;p&gt;VMware Studio 2.6 was released way back in March 2012,  and surprisingly there seems to be no new update in sight. While VMware Studio technically still works, even with newer versions of ESXi and vCenter, the supported operating systems for the appliances it can build is &lt;em&gt;somewhat&lt;/em&gt; outdated:&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Unsupported Network Configurations in Virtual Appliances</title>
-      <link>/vmware-2/unsupported-network-configurations-virtual-appliances/</link>
+      <link>https://vninja.net/vmware-2/unsupported-network-configurations-virtual-appliances/</link>
       <pubDate>Tue, 19 Feb 2013 23:50:20 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/vmware-2/unsupported-network-configurations-virtual-appliances/</guid>
+      
+      <guid>https://vninja.net/vmware-2/unsupported-network-configurations-virtual-appliances/</guid>
       <description>My recent experience with setting up vCenter Operations Manager on a standalone ESXi host, and the always excellent William Lam´s post Automating VCSA Network Configurations For Greenfield Deployments got me thinking.
 There are several other appliances out there that require deployment to a vCenter, to be able to configure the networking options and not just default to DHCP. In many, and perhaps even most, cases you can work around that by running the _vami_set_network _command to change from DHCP to STATIC network configurations.</description>
     </item>

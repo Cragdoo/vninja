@@ -2,29 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Awsome on vNinja.net</title>
-    <link>/tags/awsome/</link>
+    <link>https://vninja.net/tags/awsome/</link>
     <description>Recent content in Awsome on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Wed, 13 Dec 2017 15:07:40 +0000</lastBuildDate>
     
-	<atom:link href="/tags/awsome/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/awsome/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Nordic VMUG Conference 2018</title>
-      <link>/news/nordic-vmug-conference-2018/</link>
+      <link>https://vninja.net/news/nordic-vmug-conference-2018/</link>
       <pubDate>Wed, 13 Dec 2017 15:07:40 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/news/nordic-vmug-conference-2018/</guid>
-      <description>My good friends, and fellow VMUGgers, in Denmark is once again arranging the largest VMUG event in the Nordics in January 2018.
-The Nordic VMUG Conference promises to be just as awesome as previous versions, just have a look at this speaker list:
- Opening Keynote:** Kit Colbert**
- Breakout sessions: **Ole Agesen, Duncan Epping, Myles Gray, Frank Denneman, Niels Hagoort, Grant Orchard and Joerg Lew**
- Closing Keynote:** Ken Westin**</description>
+      
+      <guid>https://vninja.net/news/nordic-vmug-conference-2018/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://vninja.net/img/nmqqcqrf.jpg-300x257.png&#34; alt=&#34;&#34; /&gt;My good friends, and fellow VMUGgers, in Denmark is once again arranging the largest VMUG event in the Nordics in January 2018.&lt;/p&gt;
+
+&lt;p&gt;The Nordic VMUG Conference promises to be just as awesome as previous versions, just have a look at this speaker list:&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

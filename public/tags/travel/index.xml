@@ -2,24 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Travel on vNinja.net</title>
-    <link>/tags/travel/</link>
+    <link>https://vninja.net/tags/travel/</link>
     <description>Recent content in Travel on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Thu, 26 Apr 2012 20:35:39 +0000</lastBuildDate>
     
-	<atom:link href="/tags/travel/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/travel/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>VMware Forum 2012 Oslo</title>
-      <link>/virtualization/vmware-forum-2012-oslo/</link>
+      <link>https://vninja.net/virtualization/vmware-forum-2012-oslo/</link>
       <pubDate>Thu, 26 Apr 2012 20:35:39 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/vmware-forum-2012-oslo/</guid>
+      
+      <guid>https://vninja.net/virtualization/vmware-forum-2012-oslo/</guid>
       <description>Just like last year, I got up really early and caught a 06:40 am flight from Bergen to Oslo to attend the VMware Forum. A couple of things have changed since the last time, one of them being the venue.
 This time around it was held at Ullevaal Business Class, and the venue itself worked great for a one day conference like this, divided into three sections, two for parallel sessions and one for the exhibitor area.</description>
     </item>

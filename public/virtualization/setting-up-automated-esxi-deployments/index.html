@@ -21,7 +21,7 @@
 
 <meta property="og:title" content="Setting Up Automated ESXi Deployments  &middot; vNinja.net ">
 <meta property="og:site_name" content="vNinja.net"/>
-<meta property="og:url" content="/virtualization/setting-up-automated-esxi-deployments/" />
+<meta property="og:url" content="https://vninja.net/virtualization/setting-up-automated-esxi-deployments/" />
 <meta property="og:locale" content="en">
 
 
@@ -58,8 +58,8 @@
 <meta name="twitter:creator" content="@h0bbel" />
 <meta name="twitter:title" content="Setting Up Automated ESXi Deployments" />
 <meta name="twitter:description" content="" />
-<meta name="twitter:url" content="/virtualization/setting-up-automated-esxi-deployments/" />
-<meta name="twitter:domain" content="/">
+<meta name="twitter:url" content="https://vninja.net/virtualization/setting-up-automated-esxi-deployments/" />
+<meta name="twitter:domain" content="https://vninja.net">
   
 
   
@@ -74,17 +74,17 @@
     },
     "datePublished": "2011-07-07",
     "description": "",
-    "wordCount": 1300
+    "wordCount": 1308
   }
 </script>
   
 
 
 
-<link rel="canonical" href="/virtualization/setting-up-automated-esxi-deployments/" />
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/touch-icon-144-precomposed.png">
-<link rel="icon" href="/favicon.png">
-<meta name="generator" content="Hugo 0.40.3" />
+<link rel="canonical" href="https://vninja.net/virtualization/setting-up-automated-esxi-deployments/" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://vninja.net/touch-icon-144-precomposed.png">
+<link rel="icon" href="https://vninja.net/favicon.png">
+<meta name="generator" content="Hugo 0.42.2" />
 
   <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
@@ -93,18 +93,42 @@
 
 
 
-    <link rel="stylesheet" href="/css/bootswatch/lux/bootstrap.min.css">
+    <link rel="stylesheet" href="https://vninja.net/css/bootswatch/yeti/bootstrap.min.css">
 
 
-<link rel="stylesheet" href="/css/font-awesome.min.css">
-<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="https://vninja.net/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://vninja.net/css/style.css">
 
 
-<link rel="stylesheet" href="/css/style_custom.css">
+<link rel="stylesheet" href="https://vninja.net/css/style_custom.css">
 
 
 
-  <link rel="stylesheet" href="/css/highlight/default.css">
+  <link rel="stylesheet" href="https://vninja.net/css/highlight/default.css">
+
+
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+  <script>
+  window.addEventListener("load", function(){
+  window.cookieconsent.initialise({
+    "palette": {
+      "popup": {
+        "background": "#efefef",
+        "text": "#404040"
+      },
+      "button": {
+        "background": "#8ec760",
+        "text": "#ffffff"
+      }
+    },
+    "showLink": false,
+    "position": "bottom-right"
+  })});
+  </script>
+</script>
+
+
 
 
 </head>
@@ -120,7 +144,7 @@
           <span class="icon-bar"></span>
         </button>
         
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand" href="https://vninja.net/">
           vNinja.net
           
           
@@ -136,11 +160,7 @@
                   <ul class="dropdown-menu">
                     
                       <li class="">
-                        <a href="/about/christian-mohn/"><i class='fa fa-child'></i> About vNinja</a>
-                      </li>
-                    
-                      <li class="">
-                        <a href="/about/christian-mohn/"><i class='fa fa-child'></i> About Christian</a>
+                        <a href="https://vninja.net/about/christian-mohn/"><i class='fa fa-child'></i> About Christian</a>
                       </li>
                     
                   </ul>
@@ -149,11 +169,11 @@
             
             <li class="">
               
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class='fa fa-hand-lizard-o'></i> Site Policy <span class="caret"></span></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class='fa fa-asterisk'></i> Site Policy <span class="caret"></span></a>
                   <ul class="dropdown-menu">
                     
                       <li class="">
-                        <a href="/about/privacy-policy"><i class='fa fa-hand-lizard-o'></i> Privacy Policy</a>
+                        <a href="https://vninja.net/about/privacy-policy"><i class='fa fa-asterisk'></i> Privacy Policy</a>
                       </li>
                     
                   </ul>
@@ -162,9 +182,18 @@
             
             <li class="">
               
-                <a href="/advertising" >
+                <a href="https://vninja.net/advertising" >
                   <i class='fa fa-bank'></i>
                   Advertising
+                </a>
+              
+            </li>
+            
+            <li class="">
+              
+                <a href="https://vninja.net/post/index.xml" >
+                  <i class='fa fa-rss'></i>
+                  RSS
                 </a>
               
             </li>
@@ -204,49 +233,32 @@
     &middot; by Christian Mohn
   
   &middot; Read in about 7 min
-  &middot; (1300 words)
+  &middot; (1308 words)
   &middot; 
-<span class="share-box">Share this on:
-    <a href="https://www.facebook.com/sharer/sharer.php?u=%2fvirtualization%2fsetting-up-automated-esxi-deployments%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-facebook-official "></i></a>
 
-    <a href="https://twitter.com/intent/tweet?text=Setting%20Up%20Automated%20ESXi%20Deployments&amp;url=%2fvirtualization%2fsetting-up-automated-esxi-deployments%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-twitter"></i></a>
-
-    <a href="https://plus.google.com/share?url=%2fvirtualization%2fsetting-up-automated-esxi-deployments%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-google-plus"></i></a>
-
-    <a href="http://www.reddit.com/submit?url=%2fvirtualization%2fsetting-up-automated-esxi-deployments%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-reddit"></i></a>
-
-    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fvirtualization%2fsetting-up-automated-esxi-deployments%2f&amp;title=Setting%20Up%20Automated%20ESXi%20Deployments" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-linkedin"></i></a>
-
-    <a href="mailto:?subject=Setting%20Up%20Automated%20ESXi%20Deployments&amp;body=Check out this site %2fvirtualization%2fsetting-up-automated-esxi-deployments%2f" data-proofer-ignore=""><i class="fa fa-envelope"></i></a>
-  </span>
 
   </small>
 
 <div class="margin-10">
   <i class="fa fa-tags"></i>
   
-  <a href="/tags/automation" class="label label-primary">automation</a>
+  <a href="https://vninja.net/tags/automation" class="label label-primary">automation</a>
   
-  <a href="/tags/esxi" class="label label-primary">ESXi</a>
+  <a href="https://vninja.net/tags/esxi" class="label label-primary">ESXi</a>
   
-  <a href="/tags/fun" class="label label-primary">fun</a>
+  <a href="https://vninja.net/tags/fun" class="label label-primary">fun</a>
   
-  <a href="/tags/ops" class="label label-primary">Ops</a>
+  <a href="https://vninja.net/tags/ops" class="label label-primary">Ops</a>
   
-  <a href="/tags/powercli" class="label label-primary">PowerCLI</a>
+  <a href="https://vninja.net/tags/powercli" class="label label-primary">PowerCLI</a>
   
-  <a href="/tags/powershell" class="label label-primary">Powershell</a>
+  <a href="https://vninja.net/tags/powershell" class="label label-primary">Powershell</a>
   
-  <a href="/tags/realworld" class="label label-primary">realworld</a>
+  <a href="https://vninja.net/tags/realworld" class="label label-primary">realworld</a>
   
-  <a href="/tags/virtualization" class="label label-primary">Virtualization</a>
+  <a href="https://vninja.net/tags/virtualization" class="label label-primary">Virtualization</a>
   
-  <a href="/tags/vmware" class="label label-primary">VMware</a>
+  <a href="https://vninja.net/tags/vmware" class="label label-primary">VMware</a>
   
 
 
@@ -260,6 +272,9 @@
 
 
       <div class="content">
+
+  
+
   
 
 <p>Automating ESXi installs was made much easier after the release of vSphere 4.1 where the Scripted Install feature was added, and by using <a href="http://labs.vmware.com/flings/vmware-auto-deploy">VMware Auto Deploy</a> from <a href="http://labs.vmware.com/">VMware Labs</a>. VMware Auto Deploy requires that you have vCenter and Host Profiles in your environment, and that again requires that you have Enterprise Plus licenses in your environment.</p>
@@ -312,210 +327,188 @@ Scripts that configure the ESXi host, post installation, and copy your initial V
 <h6 id="kickstart-script">Kickstart Script</h6>
 
 <p>Our very basic kickstart script - <em>ks.cfg</em> - looks like this
-  [cc lang=&laquo;kixtart&raquo; escaped=&laquo;true&raquo; width=&laquo;95%&raquo;]
-vmaccepteula
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">vmaccepteula
 rootpw password
-autopart &ndash;firstdisk &ndash;overwritevmfs
-install url <a href="http://172.16.200.1/ESXi">http://172.16.200.1/ESXi</a>
-network &ndash;bootproto=dhcp &ndash;device=vmnic0
-reboot
-[/cc]</p>
+autopart --firstdisk --overwritevmfs
+install url http<span style="color:#960050;background-color:#1e0010">:</span>//172.16.200.1/ESXi
+network --bootproto=dhcp --device=vmnic0
+reboot</code></pre></div></p>
 
 <p>Basically this sets the root password, automatically deletes all partitions and sets up a new vmfs, tells the installer that it will find the installation files via http on the server and sets the networking configuration to DHCP. This will of course need tweaking in your environment, but this should at least get you started with building your own. More details on the ks.cfg bootstrap commands can be found in the <a href="http://www.vmware.com/pdf/vsphere4/r41/vsp_41_esx_vc_installation_guide.pdf">ESX and vCenter Server Installation Guide</a></p>
 
 <h4 id="powercli-configuration-script">PowerCLI Configuration Script</h4>
 
-<p>[cc lang=&laquo;powershell&raquo; escaped=&laquo;true&raquo; width=&laquo;95%&raquo; height=&laquo;700&raquo;]
-########################################################
-#</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell"><span style="color:#75715e">########################################################</span>
+<span style="color:#75715e">#</span>
+<span style="color:#75715e"># Created by Christian Mohn</span>
+<span style="color:#75715e"># for Seatrans AS</span>
+<span style="color:#75715e">#</span>
+<span style="color:#75715e"># No warranty suggested or implied</span>
+<span style="color:#75715e">#</span>
+<span style="color:#75715e">########################################################`</span>
 
-<h1 id="created-by-christian-mohn">Created by Christian Mohn</h1>
+<span style="color:#75715e">#connect to VirtualCenter or ESX host</span>
+<span style="color:#75715e">#</span>
+<span style="color:#66d9ef">function</span> Register-VMX {
+<span style="color:#66d9ef">param</span>($entityName = $null,$dsNames = $null,$template = $false,$ignore = $null,$checkNFS = $false,$whatif=$false)
 
-<h1 id="for-seatrans-as">for Seatrans AS</h1>
+<span style="color:#66d9ef">function</span> Get-Usage{
+Write-Host <span style="color:#e6db74">&#34;Parameters incorrect&#34;</span> -ForegroundColor red
+Write-Host <span style="color:#e6db74">&#34;Register-VMX -entityName -dsNames [,...]&#34;</span>
+Write-Host <span style="color:#e6db74">&#34;entityName : a cluster-, datacenter or ESX hostname (not together with -dsNames)&#34;</span>
+Write-Host <span style="color:#e6db74">&#34;dsNames : one or more datastorename names (not together with -entityName)&#34;</span>
+Write-Host <span style="color:#e6db74">&#34;ignore : names of folders that shouldn&#39;t be checked&#34;</span>
+Write-Host <span style="color:#e6db74">&#34;template : register guests ($false)or templates ($true) - default : $false&#34;</span>
+Write-Host <span style="color:#e6db74">&#34;checkNFS : include NFS datastores - default : $false&#34;</span>
+Write-Host <span style="color:#e6db74">&#34;whatif : when $true will only list and not execute - default : $false&#34;</span>
+}
 
-<p>#</p>
-
-<h1 id="no-warranty-suggested-or-implied">No warranty suggested or implied</h1>
-
-<p>#
-########################################################`</p>
-
-<p>#connect to VirtualCenter or ESX host
-#
-function Register-VMX {
-param($entityName = $null,$dsNames = $null,$template = $false,$ignore = $null,$checkNFS = $false,$whatif=$false)</p>
-
-<p>function Get-Usage{
-Write-Host &laquo;Parameters incorrect&raquo; -ForegroundColor red
-Write-Host &laquo;Register-VMX -entityName -dsNames [,&hellip;]&raquo;
-Write-Host &laquo;entityName : a cluster-, datacenter or ESX hostname (not together with -dsNames)&raquo;
-Write-Host &laquo;dsNames : one or more datastorename names (not together with -entityName)&raquo;
-Write-Host &laquo;ignore : names of folders that shouldn&rsquo;t be checked&raquo;
-Write-Host &laquo;template : register guests ($false)or templates ($true) - default : $false&raquo;
-Write-Host &laquo;checkNFS : include NFS datastores - default : $false&raquo;
-Write-Host &laquo;whatif : when $true will only list and not execute - default : $false&raquo;
-}</p>
-
-<p>if(($entityName -ne $null -and $dsNames -ne $null) -or ($entityName -eq $null -and $dsNames -eq $null)){
+<span style="color:#66d9ef">if</span>(($entityName <span style="color:#f92672">-ne</span> $null <span style="color:#f92672">-and</span> $dsNames <span style="color:#f92672">-ne</span> $null) <span style="color:#f92672">-or</span> ($entityName <span style="color:#f92672">-eq</span> $null <span style="color:#f92672">-and</span> $dsNames <span style="color:#f92672">-eq</span> $null)){
 Get-Usage
-break
-}</p>
+<span style="color:#66d9ef">break</span>
+}
 
-<p>if($dsNames -eq $null){
-switch((Get-Inventory -Name $entityName).GetType().Name.Replace(&laquo;Wrapper&raquo;,&laquo;&raquo;)){
-&laquo;Cluster&raquo;{
-$dsNames = Get-Cluster -Name $entityName | Get-VMHost | Get-Datastore | where {$<em>.Type -eq &laquo;VMFS&raquo; -or $checkNFS} | % {$</em>.Name}
+<span style="color:#66d9ef">if</span>($dsNames <span style="color:#f92672">-eq</span> $null){
+<span style="color:#66d9ef">switch</span>((Get-Inventory -Name $entityName).GetType().Name.Replace(<span style="color:#e6db74">&#34;Wrapper&#34;</span>,<span style="color:#e6db74">&#34;&#34;</span>)){
+<span style="color:#e6db74">&#34;Cluster&#34;</span>{
+$dsNames = Get-Cluster -Name $entityName | Get-VMHost | Get-Datastore | where {$_.Type <span style="color:#f92672">-eq</span> <span style="color:#e6db74">&#34;VMFS&#34;</span> <span style="color:#f92672">-or</span> $checkNFS} | % {$_.Name}
 }
-&laquo;Datacenter&raquo;{
-$dsNames = Get-Datacenter -Name $entityName | Get-Datastore | where {$<em>.Type -eq &laquo;VMFS&raquo; -or $checkNFS} | % {$</em>.Name}
+<span style="color:#e6db74">&#34;Datacenter&#34;</span>{
+$dsNames = Get-Datacenter -Name $entityName | Get-Datastore | where {$_.Type <span style="color:#f92672">-eq</span> <span style="color:#e6db74">&#34;VMFS&#34;</span> <span style="color:#f92672">-or</span> $checkNFS} | % {$_.Name}
 }
-&laquo;VMHost&raquo;{
-$dsNames = Get-VMHost -Name $entityName | Get-Datastore | where {$<em>.Type -eq &laquo;VMFS&raquo; -or $checkNFS} | % {$</em>.Name}
+<span style="color:#e6db74">&#34;VMHost&#34;</span>{
+$dsNames = Get-VMHost -Name $entityName | Get-Datastore | where {$_.Type <span style="color:#f92672">-eq</span> <span style="color:#e6db74">&#34;VMFS&#34;</span> <span style="color:#f92672">-or</span> $checkNFS} | % {$_.Name}
 }
-Default{
+<span style="color:#66d9ef">Default</span>{
 Get-Usage
 exit
 }
 }
 }
-else{
-$dsNames = Get-Datastore -Name $dsNames | where {$<em>.Type -eq &laquo;VMFS&raquo; -or $checkNFS} | Select -Unique | % {$</em>.Name}
-}</p>
+<span style="color:#66d9ef">else</span>{
+$dsNames = Get-Datastore -Name $dsNames | where {$_.Type <span style="color:#f92672">-eq</span> <span style="color:#e6db74">&#34;VMFS&#34;</span> <span style="color:#f92672">-or</span> $checkNFS} | Select -Unique | % {$_.Name}
+}
 
-<p>$dsNames = $dsNames | Sort-Object
-$pattern = &laquo;<em>.vmx&raquo;
-if($template){
-$pattern = &laquo;</em>.vmtx&raquo;
-}</p>
+$dsNames = $dsNames | Sort-Object
+$pattern = <span style="color:#e6db74">&#34;*.vmx&#34;</span>
+<span style="color:#66d9ef">if</span>($template){
+$pattern = <span style="color:#e6db74">&#34;*.vmtx&#34;</span>
+}
 
-<p>foreach($dsName in $dsNames){
-Write-Host &laquo;Checking &raquo; -NoNewline; Write-Host -ForegroundColor red -BackgroundColor yellow $dsName
+<span style="color:#66d9ef">foreach</span>($dsName <span style="color:#66d9ef">in</span> $dsNames){
+Write-Host <span style="color:#e6db74">&#34;Checking &#34;</span> -NoNewline; Write-Host -ForegroundColor red -BackgroundColor yellow $dsName
 $ds = Get-Datastore $dsName | Select -Unique | Get-View
 $dsBrowser = Get-View $ds.Browser
 $dc = Get-View $ds.Parent
-while($dc.MoRef.Type -ne &laquo;Datacenter&raquo;){
+<span style="color:#66d9ef">while</span>($dc.MoRef.Type <span style="color:#f92672">-ne</span> <span style="color:#e6db74">&#34;Datacenter&#34;</span>){
 $dc = Get-View $dc.Parent
 }
 $tgtfolder = Get-View $dc.VmFolder
 $esx = Get-View $ds.Host[0].Key
-$pool = Get-View (Get-View $esx.Parent).ResourcePool</p>
+$pool = Get-View (Get-View $esx.Parent).ResourcePool
 
-<p>$vms = @()
-foreach($vmImpl in $ds.Vm){
+$vms = @()
+<span style="color:#66d9ef">foreach</span>($vmImpl <span style="color:#66d9ef">in</span> $ds.Vm){
 $vm = Get-View $vmImpl
 $vms += $vm.Config.Files.VmPathName
 }
-$datastorepath = &laquo;[&raquo; + $ds.Name + &laquo;]&raquo;</p>
+$datastorepath = <span style="color:#e6db74">&#34;[&#34;</span> + $ds.Name + <span style="color:#e6db74">&#34;]&#34;</span>
 
-<p>$searchspec = New-Object VMware.Vim.HostDatastoreBrowserSearchSpec
-$searchspec.MatchPattern = $pattern</p>
+$searchspec = New-Object VMware.Vim.HostDatastoreBrowserSearchSpec
+$searchspec.MatchPattern = $pattern
 
-<p>$taskMoRef = $dsBrowser.SearchDatastoreSubFolders_Task($datastorePath, $searchSpec)</p>
+$taskMoRef = $dsBrowser.SearchDatastoreSubFolders_Task($datastorePath, $searchSpec)
 
-<p>$task = Get-View $taskMoRef
-while (&laquo;running&raquo;,&laquo;queued&raquo; -contains $task.Info.State){
-$task.UpdateViewData(&laquo;Info.State&raquo;)
+$task = Get-View $taskMoRef
+<span style="color:#66d9ef">while</span> (<span style="color:#e6db74">&#34;running&#34;</span>,<span style="color:#e6db74">&#34;queued&#34;</span> <span style="color:#f92672">-contains</span> $task.Info.State){
+$task.UpdateViewData(<span style="color:#e6db74">&#34;Info.State&#34;</span>)
 }
-$task.UpdateViewData(&laquo;Info.Result&raquo;)
-foreach ($folder in $task.Info.Result){
-if(!($ignore -and (&amp;{$res = $false; $folder.FolderPath.Split(&laquo;]&raquo;)[1].Trim(&raquo; /&laquo;).Split(&raquo;/&laquo;) | %{$res = $res -or ($ignore -contains $_)}; $res}))){
+$task.UpdateViewData(<span style="color:#e6db74">&#34;Info.Result&#34;</span>)
+<span style="color:#66d9ef">foreach</span> ($folder <span style="color:#66d9ef">in</span> $task.Info.Result){
+<span style="color:#66d9ef">if</span>(!($ignore <span style="color:#f92672">-and</span> (&amp;{$res = $false; $folder.FolderPath.Split(<span style="color:#e6db74">&#34;]&#34;</span>)[1].Trim(<span style="color:#e6db74">&#34; /&#34;</span>).Split(<span style="color:#e6db74">&#34;/&#34;</span>) | %{$res = $res <span style="color:#f92672">-or</span> ($ignore <span style="color:#f92672">-contains</span> $_)}; $res}))){
 $found = $FALSE
-if($folder.file -ne $null){
-foreach($vmx in $vms){
-if(($folder.FolderPath + $folder.File[0].Path) -eq $vmx){
+<span style="color:#66d9ef">if</span>($folder.file <span style="color:#f92672">-ne</span> $null){
+<span style="color:#66d9ef">foreach</span>($vmx <span style="color:#66d9ef">in</span> $vms){
+<span style="color:#66d9ef">if</span>(($folder.FolderPath + $folder.File[0].Path) <span style="color:#f92672">-eq</span> $vmx){
 $found = $TRUE
 }
 }
-if (-not $found){
-if($folder.FolderPath[-1] -ne &laquo;/&raquo;){$folder.FolderPath += &laquo;/&raquo;}
+<span style="color:#66d9ef">if</span> (<span style="color:#f92672">-not</span> $found){
+<span style="color:#66d9ef">if</span>($folder.FolderPath[-1] <span style="color:#f92672">-ne</span> <span style="color:#e6db74">&#34;/&#34;</span>){$folder.FolderPath += <span style="color:#e6db74">&#34;/&#34;</span>}
 $vmx = $folder.FolderPath + $folder.File[0].Path
-if($template){
+<span style="color:#66d9ef">if</span>($template){
 $params = @($vmx,$null,$true,$null,$esx.MoRef)
 }
-else{
+<span style="color:#66d9ef">else</span>{
 $params = @($vmx,$null,$false,$pool.MoRef,$null)
 }
-if(!$whatif){
-$taskMoRef = $tgtfolder.GetType().GetMethod(&laquo;RegisterVM_Task&raquo;).Invoke($tgtfolder, $params)
-Write-Host &laquo;<code>t&quot; $vmx &quot;registered&quot;
+<span style="color:#66d9ef">if</span>(!$whatif){
+$taskMoRef = $tgtfolder.GetType().GetMethod(<span style="color:#e6db74">&#34;RegisterVM_Task&#34;</span>).Invoke($tgtfolder, $params)
+Write-Host <span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">`t</span><span style="color:#e6db74">&#34;</span> $vmx <span style="color:#e6db74">&#34;registered&#34;</span>
 }
-else{
-Write-Host &quot;</code>t&raquo; $vmx &laquo;registered&raquo; -NoNewline; Write-Host -ForegroundColor blue -BackgroundColor white &laquo; ==&gt; What If&raquo;
-}
-}
+<span style="color:#66d9ef">else</span>{
+Write-Host <span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">`t</span><span style="color:#e6db74">&#34;</span> $vmx <span style="color:#e6db74">&#34;registered&#34;</span> -NoNewline; Write-Host -ForegroundColor blue -BackgroundColor white <span style="color:#e6db74">&#34; ==&gt; What If&#34;</span>
 }
 }
 }
-Write-Host &laquo;Done&raquo;
 }
-}</p>
+}
+Write-Host <span style="color:#e6db74">&#34;Done&#34;</span>
+}
+}
 
-<h1 id="register-vmx-entityname-mydatacenter">Register-VMX -entityName &laquo;MyDatacenter&raquo;</h1>
+<span style="color:#75715e"># Register-VMX -entityName &#34;MyDatacenter&#34;</span>
+<span style="color:#75715e"># Register-VMX -dsNames &#34;datastore1&#34;,&#34;datastore2&#34;</span>
+<span style="color:#75715e"># Register-VMX -dsNames &#34;datastore1&#34;,&#34;datastore2&#34; -template:$true</span>
+<span style="color:#75715e"># Register-VMX -entityName &#34;MyDatacenter&#34; -ignore &#34;SomeFolder&#34;</span>
+<span style="color:#75715e"># Register-VMX -dsNames &#34;datastore3&#34;,&#34;datastore4&#34; -ignore &#34;SomeFolder&#34; -checkNFS:$true</span>
+<span style="color:#75715e"># Register-VMX -entityName &#34;MyDatacenter&#34; -whatif:$true</span>
 
-<h1 id="register-vmx-dsnames-datastore1-datastore2">Register-VMX -dsNames &laquo;datastore1&raquo;,&laquo;datastore2&raquo;</h1>
-
-<h1 id="register-vmx-dsnames-datastore1-datastore2-template-true">Register-VMX -dsNames &laquo;datastore1&raquo;,&laquo;datastore2&raquo; -template:$true</h1>
-
-<h1 id="register-vmx-entityname-mydatacenter-ignore-somefolder">Register-VMX -entityName &laquo;MyDatacenter&raquo; -ignore &laquo;SomeFolder&raquo;</h1>
-
-<h1 id="register-vmx-dsnames-datastore3-datastore4-ignore-somefolder-checknfs-true">Register-VMX -dsNames &laquo;datastore3&raquo;,&laquo;datastore4&raquo; -ignore &laquo;SomeFolder&raquo; -checkNFS:$true</h1>
-
-<h1 id="register-vmx-entityname-mydatacenter-whatif-true">Register-VMX -entityName &laquo;MyDatacenter&raquo; -whatif:$true</h1>
-
-<p>if ($args[0] -eq $null)
-#
-{$hostName = Read-Host &laquo;Enter ESX Host Name or IP&raquo;}
-#
-else
-#
+<span style="color:#66d9ef">if</span> ($args[0] <span style="color:#f92672">-eq</span> $null)
+<span style="color:#75715e">#</span>
+{$hostName = Read-Host <span style="color:#e6db74">&#34;Enter ESX Host Name or IP&#34;</span>}
+<span style="color:#75715e">#</span>
+<span style="color:#66d9ef">else</span>
+<span style="color:#75715e">#</span>
 {$hostName = $args[0]}
-#
-#
-#connect to selected Virtualcenter or host server
-#
-Connect-VIServer $hostName</p>
+<span style="color:#75715e">#</span>
+<span style="color:#75715e">#</span>
+<span style="color:#75715e">#connect to selected Virtualcenter or host server</span>
+<span style="color:#75715e">#</span>
+Connect-VIServer $hostName
 
-<h1 id="set-datastore-name">Set Datastore Name</h1>
-
-<p>$dsName = &laquo;datastore1&raquo;
+<span style="color:#75715e"># Set Datastore Name</span>
+$dsName = <span style="color:#e6db74">&#34;datastore1&#34;</span>
 $ds = Get-Datastore -Name $dsName
-New-PSDrive -Name $dsName -Root \ -PSProvider VimDatastore -Datastore $ds</p>
+New-PSDrive -Name $dsName -Root \ -PSProvider VimDatastore -Datastore $ds
 
-<h1 id="copy-and-register-vm-from-local-drive-to-esxi-host">Copy and Register VM from local drive to ESXi Host</h1>
+<span style="color:#75715e"># Copy and Register VM from local drive to ESXi Host</span>
+Copy-DatastoreItem C<span style="color:#960050;background-color:#1e0010">:</span>\VMs\MyTestVM\* datastore1<span style="color:#960050;background-color:#1e0010">:</span>\MyTestVM\ -Force
+Register-VMX -dsNames $dsName
 
-<p>Copy-DatastoreItem C:\VMs\MyTestVM* datastore1:\MyTestVM\ -Force
-Register-VMX -dsNames $dsName</p>
+<span style="color:#75715e"># Import vMA ovf</span>
+Import-VApp -Source c<span style="color:#960050;background-color:#1e0010">:</span>\VMs\vMA\vMA-4.1.0.0-268837.ovf -VMHost $hostName -Datastore $ds
 
-<h1 id="import-vma-ovf">Import vMA ovf</h1>
+<span style="color:#75715e"># Lets configure the host</span>
 
-<p>Import-VApp -Source c:\VMs\vMA\vMA-4.1.0.0-268837.ovf -VMHost $hostName -Datastore $ds</p>
+<span style="color:#75715e">########################################################</span>
+<span style="color:#75715e"># Host Configuration #</span>
+<span style="color:#75715e">########################################################</span>
 
-<h1 id="lets-configure-the-host">Lets configure the host</h1>
+<span style="color:#75715e">#Disable IPv6</span>
+Get-VMHostNetworkAdapter | where { $_.PortGroupName <span style="color:#f92672">-eq</span> <span style="color:#e6db74">&#34;Service Console 1&#34;</span> } | Set-VMHostNetworkAdapter -IPv6Enabled $false
 
-<p>########################################################</p>
+<span style="color:#75715e"># Configure networking</span>
+<span style="color:#75715e"># Not finished</span>
 
-<h1 id="host-configuration">Host Configuration</h1>
+<span style="color:#75715e"># Configure NTP Server</span>
+Add-VMHostNtpServer -VMHost $hostName -NtpServer <span style="color:#e6db74">&#34;0.vmware.pool.ntp.org&#34;</span>
+Add-VMHostNtpServer -VMHost $hostName -NtpServer <span style="color:#e6db74">&#34;1.vmware.pool.ntp.org&#34;</span>
+Add-VMHostNtpServer -VMHost $hostName -NtpServer <span style="color:#e6db74">&#34;2.vmware.pool.ntp.org&#34;</span>
 
-<p>########################################################</p>
-
-<p>#Disable IPv6
-Get-VMHostNetworkAdapter | where { $_.PortGroupName -eq &laquo;Service Console 1&raquo; } | Set-VMHostNetworkAdapter -IPv6Enabled $false</p>
-
-<h1 id="configure-networking">Configure networking</h1>
-
-<h1 id="not-finished">Not finished</h1>
-
-<h1 id="configure-ntp-server">Configure NTP Server</h1>
-
-<p>Add-VMHostNtpServer -VMHost $hostName -NtpServer &laquo;0.vmware.pool.ntp.org&raquo;
-Add-VMHostNtpServer -VMHost $hostName -NtpServer &laquo;1.vmware.pool.ntp.org&raquo;
-Add-VMHostNtpServer -VMHost $hostName -NtpServer &laquo;2.vmware.pool.ntp.org&raquo;</p>
-
-<h1 id="set-vm-start-policy">Set VM Start Policy</h1>
-
-<p>$vmstartpolicy = Get-VMStartPolicy -VM MyTestVM
-Set-VMStartPolicy -StartPolicy $vmstartpolicy -StartAction PowerOn
-[/cc]</p>
+<span style="color:#75715e"># Set VM Start Policy</span>
+$vmstartpolicy = Get-VMStartPolicy -VM MyTestVM
+Set-VMStartPolicy -StartPolicy $vmstartpolicy -StartAction PowerOn</code></pre></div>
 
 <p>This PowerCLI script is not 100% finished yet, the networking part remains to be automated to provide correct configuration based on which vessel we are deploying to, but in general it&rsquo;s pretty much good to go.</p>
 
@@ -528,24 +521,7 @@ Set-VMStartPolicy -StartPolicy $vmstartpolicy -StartAction PowerOn
 
       <footer>
   
-<span class="share-box">Share this on:
-    <a href="https://www.facebook.com/sharer/sharer.php?u=%2fvirtualization%2fsetting-up-automated-esxi-deployments%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-facebook-official "></i></a>
 
-    <a href="https://twitter.com/intent/tweet?text=Setting%20Up%20Automated%20ESXi%20Deployments&amp;url=%2fvirtualization%2fsetting-up-automated-esxi-deployments%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-twitter"></i></a>
-
-    <a href="https://plus.google.com/share?url=%2fvirtualization%2fsetting-up-automated-esxi-deployments%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-google-plus"></i></a>
-
-    <a href="http://www.reddit.com/submit?url=%2fvirtualization%2fsetting-up-automated-esxi-deployments%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-reddit"></i></a>
-
-    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fvirtualization%2fsetting-up-automated-esxi-deployments%2f&amp;title=Setting%20Up%20Automated%20ESXi%20Deployments" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-linkedin"></i></a>
-
-    <a href="mailto:?subject=Setting%20Up%20Automated%20ESXi%20Deployments&amp;body=Check out this site %2fvirtualization%2fsetting-up-automated-esxi-deployments%2f" data-proofer-ignore=""><i class="fa fa-envelope"></i></a>
-  </span>
 
   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
       
@@ -553,7 +529,7 @@ Set-VMStartPolicy -StartPolicy $vmstartpolicy -StartAction PowerOn
     <nav><ul class="pager">
     
         <li class="previous">
-          <a href="/microsoft-2/exchange-2010-sp1-and-kb2393802-or-how-to-have-an-interesting-afternoon-at-the-office/" title="Exchange 2010 SP1 and KB2393802 or How to Have an Interesting Afternoon at the Office">
+          <a href="https://vninja.net/microsoft-2/exchange-2010-sp1-and-kb2393802-or-how-to-have-an-interesting-afternoon-at-the-office/" title="Exchange 2010 SP1 and KB2393802 or How to Have an Interesting Afternoon at the Office">
             <span aria-hidden="true">&larr;</span>Previous
           </a>
         </li>
@@ -561,7 +537,7 @@ Set-VMStartPolicy -StartPolicy $vmstartpolicy -StartAction PowerOn
 
     
       <li class="next">
-        <a href="/virtualization/online-event-raising-the-bar-part-v/" title="Online Event: Raising the Bar, Part V">
+        <a href="https://vninja.net/virtualization/online-event-raising-the-bar-part-v/" title="Online Event: Raising the Bar, Part V">
             Next <span aria-hidden="true">&rarr;</span>
         </a>
       </li>
@@ -582,24 +558,35 @@ Set-VMStartPolicy -StartPolicy $vmstartpolicy -StartAction PowerOn
     </div>
     
       <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-        <hr>
-<div>
+        <div>
   
 
     <div class="section">
-      <div class="ads">
-        <a href="http://turbonomic.com/resources/hybrid-cloud-intelligent-bursting-aws-microsoft-azure/?utm_source=vninja&amp;utm_medium=banner-ad&amp;utm_campaign=wp-path-to-hybrid-cloud&amp;utm_content=250x250"><img width="250" height="250" src="https://i1.wp.com/vninja.net/wordpress/wp-content/uploads/2017/11/wp-intelligent-bursting-aws-azure-250x250.png?zoom=2&amp;fit=250%2C250" alt="" title="wp-intelligent-bursting-aws-azure (250x250)" src-orig="https://i1.wp.com/vninja.net/wordpress/wp-content/uploads/2017/11/wp-intelligent-bursting-aws-azure-250x250.png?fit=250%2C250" scale="2"></a>
+      <h4>Sponsors</h4>
+      <div class="ads" id="veeam">
+        <ins class='dcmads' style='display:inline-block;width:250px;height:250px' data-dcm-placement='N410401.1772869VNINJA.NET/B10464038.145283149' data-dcm-rendering-mode='iframe' data-dcm-https-only data-dcm-resettable-device-id='' data-dcm-app-id=''> <script src='https://www.googletagservices.com/dcm/dcmads.js'></script> </ins>
       </div>
-      <div class="ads">
-        <a href="http://cohesity.com"><img width="250" height="250" src="https://i2.wp.com/vninja.net/wordpress/wp-content/uploads/2016/12/250x250_cohesity_ad-1.gif?zoom=2&amp;fit=250%2C250" alt="" title="250x250_cohesity_ad-1" src-orig="https://i2.wp.com/vninja.net/wordpress/wp-content/uploads/2016/12/250x250_cohesity_ad-1.gif?fit=250%2C250" scale="2"></a>
+      <div class="ads" id="turbonomic">
+        <a href="http://turbonomic.com/resources/hybrid-cloud-intelligent-bursting-aws-microsoft-azure/?utm_source=vninja&amp;utm_medium=banner-ad&amp;utm_campaign=wp-path-to-hybrid-cloud&amp;">
+          <img width="250" height="250" src="https://vninja.net/ads/wp-intelligent-bursting-aws-azure-250x250.png"></a>
       </div>
+      <div class="ads" id="goliath">
+        <a href="http://goliathtechnologies.com/performance-monitoring/application-desktop-virtualization/vmware-horizon-view-monitoring/?utm_source=VNINJA&#038;utm_medium=PARTNER-MKTG&#038;utm_campaign=PARTNER-MKTG-VNINJA"><img width="250" height="250" src='https://vninja.net/ads/VMwareHorizon.jpg' alt='' title='VMwareHorizon' /></a>
+      </div>
+      <div class="ads" id="vembu">
+        <a href="https://www.vembu.com/free-vm-backup/?utm_source=vninja.net&#038;utm_medium=Banner"><img width="250" height="250" src='https://vninja.net/ads/vembu250-250.gif'/></a>
+      </div>
+
+
     </div>
-<hr>
+
+    <hr>
     
       
       
       <div class="section">
-        sidebar 2
+
+
       </div>
       
     
@@ -623,9 +610,7 @@ Set-VMStartPolicy -StartPolicy $vmstartpolicy -StartAction PowerOn
 </div>
 <div class="pull-right">
 
-<a href="/disclaimer/">Disclaimer</a> <i>&middot;</i>
-
-<a href="/terms/">Terms</a> 
+<a href="https://vninja.net/disclaimer/">Disclaimer</a> <i>&middot;</i>
 
 </div>
 
@@ -644,7 +629,7 @@ Set-VMStartPolicy -StartPolicy $vmstartpolicy -StartAction PowerOn
     
 <div class="container copyright">
     <small>
-  &copy; 2018 Copyright my blog
+  &copy; 2018 Christian Mohn
 
   </small>
 </div>
@@ -659,17 +644,17 @@ Set-VMStartPolicy -StartPolicy $vmstartpolicy -StartAction PowerOn
 
     
 
-<script src="/js/jquery.min.js"></script>
-<script src="/js/bootstrap.min.js"></script>
+<script src="https://vninja.net/js/jquery.min.js"></script>
+<script src="https://vninja.net/js/bootstrap.min.js"></script>
 
 
-<script src="/js/highlight.pack.js"></script>
-<script src="/js/site.js"></script>
+<script src="https://vninja.net/js/highlight.pack.js"></script>
+<script src="https://vninja.net/js/site.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
 
 <script>
-  var _gaq=[['_setAccount','Your Google Analytics tracking code'],['_trackPageview']];
+  var _gaq=[['_setAccount','UA-121910549-1'],['_trackPageview']];
   (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
   g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
   s.parentNode.insertBefore(g,s)}(document,'script'));

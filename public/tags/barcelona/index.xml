@@ -2,34 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Barcelona on vNinja.net</title>
-    <link>/tags/barcelona/</link>
+    <link>https://vninja.net/tags/barcelona/</link>
     <description>Recent content in Barcelona on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Thu, 06 Oct 2016 07:50:35 +0000</lastBuildDate>
     
-	<atom:link href="/tags/barcelona/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/barcelona/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>VMworld 2016 Europe</title>
-      <link>/virtualization/vmworld-2016-europe/</link>
+      <link>https://vninja.net/virtualization/vmworld-2016-europe/</link>
       <pubDate>Thu, 06 Oct 2016 07:50:35 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/vmworld-2016-europe/</guid>
-      <description>VMworld Europe is just a couple of weeks away now, and I can&amp;rsquo;t wait to spend a week in sunny Barcelona. Last year my trip got cancelled in the last minute, but that will not be the case this year.
-As usual I&amp;rsquo;m looking forward to a bunch of sessions, and general announcements, but for me the value of attending VMworld is in the networking with other people. Sessions and keynotes can be reviewed later, interacting with others can not.</description>
+      
+      <guid>https://vninja.net/virtualization/vmworld-2016-europe/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://vninja.net/img/61-GpznI.jpg&#34; alt=&#34;&#34; /&gt;&lt;a href=&#34;http://vmworld.com&#34;&gt;VMworld Europe&lt;/a&gt; is just a couple of weeks away now, and I can&amp;rsquo;t wait to spend a week in sunny Barcelona. Last year my trip got cancelled in the last minute, but that will not be the case this year.&lt;/p&gt;
+
+&lt;p&gt;As usual I&amp;rsquo;m looking forward to a bunch of sessions, and general announcements, but for me the value of attending VMworld is in the networking with other people. Sessions and keynotes can be reviewed later, interacting with others can not.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>VMworld Europe 2013 - Here I Come</title>
-      <link>/virtualization/vmworld-europe-2013/</link>
+      <link>https://vninja.net/virtualization/vmworld-europe-2013/</link>
       <pubDate>Wed, 09 Oct 2013 18:04:02 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/vmworld-europe-2013/</guid>
+      
+      <guid>https://vninja.net/virtualization/vmworld-europe-2013/</guid>
       <description>For the first time since 2010 I will actually be physically attending VMworld Europe! I fly over from the very cold, rainy and generally very autumny Norway to sunny Barcelona on Sunday the 13th.
 Based on my past experience from VMworld in Copenhagen, I have decided to go easy on the session scheduling and not fill my calendar to the brim.
 Sure, the sessions provide insane amounts of useful content, but for me the main reason to attend VMworld is to physically meet up and talk to a lot of the people I usually spend a lot of time communicating with.</description>

@@ -2,56 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dell on vNinja.net</title>
-    <link>/tags/dell/</link>
+    <link>https://vninja.net/tags/dell/</link>
     <description>Recent content in Dell on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Mon, 10 Oct 2016 13:18:30 +0000</lastBuildDate>
     
-	<atom:link href="/tags/dell/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/dell/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Patch those Dell Servers easily!</title>
-      <link>/hardware/patch-those-dell-servers-easily/</link>
+      <link>https://vninja.net/hardware/patch-those-dell-servers-easily/</link>
       <pubDate>Mon, 10 Oct 2016 13:18:30 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/hardware/patch-those-dell-servers-easily/</guid>
-      <description>Did you know that Dell has a bootable linux ISO with firmware upgrades for their servers available? Neither did I, but luckily I found it today when needing it at a customer site.
-Check out Updating Dell PowerEdge servers via bootable media / ISO where you can download bootable ISOs for specific server models, and get all your firmware upgraded in one fell swoop.
-Be warned though, it takes quite some time to run though it all (125 update packages in this instance), but it sure beats installing manually or creating your own bootable ISO with the Dell Repository Manager or even using Dell Server Update Utility.</description>
+      
+      <guid>https://vninja.net/hardware/patch-those-dell-servers-easily/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://vninja.net/img/Screenshot-2016-10-10-15.13.59-300x181.png&#34; alt=&#34;screenshot-2016-10-10-15-13-59&#34; /&gt;Did you know that Dell has a bootable linux ISO with firmware upgrades for their servers available? Neither did I, but luckily I found it today when needing it at a customer site.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Configuring VSAN on a Dell PowerEdge VRTX</title>
-      <link>/virtualization/configuring-vsan-dell-poweredge-vrtx/</link>
+      <link>https://vninja.net/virtualization/configuring-vsan-dell-poweredge-vrtx/</link>
       <pubDate>Wed, 19 Feb 2014 12:30:08 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/configuring-vsan-dell-poweredge-vrtx/</guid>
-      <description>The Dell PowerEdge VRTX shared infrastructure platform is interesting, and I&amp;rsquo;ve been lucky enough to be able to borrow one from Dell for testing purposes.
-One of the things I wanted to test, was if it was possible to run VMware VSAN on it, even if the Shared PERC8 RAID controller it comes with is not on the VMware VSAN HCL, nor does it provide a method to do passthrough to present raw disks directly to the hosts.</description>
+      
+      <guid>https://vninja.net/virtualization/configuring-vsan-dell-poweredge-vrtx/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://vninja.net/img/OriginalJPG.jpeg&#34; alt=&#34;OriginalJPG&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&#34;http://www.dell.com/us/business/p/poweredge-vrtx/pd&#34;&gt;Dell PowerEdge VRTX shared infrastructure platform&lt;/a&gt; is interesting, and I&amp;rsquo;ve been lucky enough to be able to borrow one from Dell for testing purposes.&lt;/p&gt;
+
+&lt;p&gt;One of the things I wanted to test, was if it was possible to run &lt;a href=&#34;http://www.vmware.com/products/virtual-san&#34;&gt;VMware VSAN&lt;/a&gt; on it, even if the Shared PERC8 RAID controller it comes with is not on the &lt;a href=&#34;http://www.vmware.com/resources/compatibility/search.php&#34;&gt;VMware VSAN HCL&lt;/a&gt;, nor does it provide a method to do passthrough to present raw disks directly to the hosts.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Installing Dell Equallogic Multipathing Extension Module (MEM) in vSphere 5.1</title>
-      <link>/virtualization/installing-dell-equallogic-multipathing-extension-module-mem-vsphere-5-1/</link>
+      <link>https://vninja.net/virtualization/installing-dell-equallogic-multipathing-extension-module-mem-vsphere-5-1/</link>
       <pubDate>Mon, 22 Apr 2013 21:31:46 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/installing-dell-equallogic-multipathing-extension-module-mem-vsphere-5-1/</guid>
+      
+      <guid>https://vninja.net/virtualization/installing-dell-equallogic-multipathing-extension-module-mem-vsphere-5-1/</guid>
       <description>Dell offers a Multipathing Extension Module (MEM) for vSphere, and in this post I´ll highlight how to &amp;laquo;manually&amp;raquo; install it on a ESXi 5.1 host. I will not cover the network setup part of the equation, but rather go through the simple steps required to get the MEM installed on the hosts in question.
 First of all, you need to download the MEM installation package. At the time of writing, the latest version is v1.</description>
     </item>
     
     <item>
       <title>Dell (VKernel) vOPS Server Explorer 6.3 Released</title>
-      <link>/virtualization/dell-vkernel-vops-server-explorer-6-3-released/</link>
+      <link>https://vninja.net/virtualization/dell-vkernel-vops-server-explorer-6-3-released/</link>
       <pubDate>Mon, 14 Jan 2013 23:53:50 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/dell-vkernel-vops-server-explorer-6-3-released/</guid>
-      <description>[caption id=&amp;laquo;attachment_2341&amp;raquo; align=&amp;laquo;alignright&amp;raquo; width=&amp;laquo;300&amp;raquo;] vOPS 6.3 Environment Explorer[/caption]
+      
+      <guid>https://vninja.net/virtualization/dell-vkernel-vops-server-explorer-6-3-released/</guid>
+      <description>vOPS 6.3 Environment Explorer
 Yesterday fellow vExpert Mattias Sundling gave me a little pre-release briefing of the new Dell/VKernel vOPS Server Explorer 6.3 release.
 While I don´t normally do press release posts like these, I´m willing to make an exception in this case.
 Not only is vOPS Server Explorer 6.3 available in a free version, with the familiar tools from previous versions, the new release also comes armed with a couple of new interesting tools in the suite:</description>

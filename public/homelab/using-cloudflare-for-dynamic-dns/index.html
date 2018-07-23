@@ -21,7 +21,7 @@
 
 <meta property="og:title" content="Using CloudFlare for Dynamic DNS  &middot; vNinja.net ">
 <meta property="og:site_name" content="vNinja.net"/>
-<meta property="og:url" content="/homelab/using-cloudflare-for-dynamic-dns/" />
+<meta property="og:url" content="https://vninja.net/homelab/using-cloudflare-for-dynamic-dns/" />
 <meta property="og:locale" content="en">
 
 
@@ -52,8 +52,8 @@
 <meta name="twitter:creator" content="@h0bbel" />
 <meta name="twitter:title" content="Using CloudFlare for Dynamic DNS" />
 <meta name="twitter:description" content="" />
-<meta name="twitter:url" content="/homelab/using-cloudflare-for-dynamic-dns/" />
-<meta name="twitter:domain" content="/">
+<meta name="twitter:url" content="https://vninja.net/homelab/using-cloudflare-for-dynamic-dns/" />
+<meta name="twitter:domain" content="https://vninja.net">
   
 
   
@@ -68,17 +68,17 @@
     },
     "datePublished": "2016-08-09",
     "description": "",
-    "wordCount": 444
+    "wordCount": 440
   }
 </script>
   
 
 
 
-<link rel="canonical" href="/homelab/using-cloudflare-for-dynamic-dns/" />
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/touch-icon-144-precomposed.png">
-<link rel="icon" href="/favicon.png">
-<meta name="generator" content="Hugo 0.40.3" />
+<link rel="canonical" href="https://vninja.net/homelab/using-cloudflare-for-dynamic-dns/" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://vninja.net/touch-icon-144-precomposed.png">
+<link rel="icon" href="https://vninja.net/favicon.png">
+<meta name="generator" content="Hugo 0.42.2" />
 
   <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
@@ -87,18 +87,42 @@
 
 
 
-    <link rel="stylesheet" href="/css/bootswatch/lux/bootstrap.min.css">
+    <link rel="stylesheet" href="https://vninja.net/css/bootswatch/yeti/bootstrap.min.css">
 
 
-<link rel="stylesheet" href="/css/font-awesome.min.css">
-<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="https://vninja.net/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://vninja.net/css/style.css">
 
 
-<link rel="stylesheet" href="/css/style_custom.css">
+<link rel="stylesheet" href="https://vninja.net/css/style_custom.css">
 
 
 
-  <link rel="stylesheet" href="/css/highlight/default.css">
+  <link rel="stylesheet" href="https://vninja.net/css/highlight/default.css">
+
+
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+  <script>
+  window.addEventListener("load", function(){
+  window.cookieconsent.initialise({
+    "palette": {
+      "popup": {
+        "background": "#efefef",
+        "text": "#404040"
+      },
+      "button": {
+        "background": "#8ec760",
+        "text": "#ffffff"
+      }
+    },
+    "showLink": false,
+    "position": "bottom-right"
+  })});
+  </script>
+</script>
+
+
 
 
 </head>
@@ -114,7 +138,7 @@
           <span class="icon-bar"></span>
         </button>
         
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand" href="https://vninja.net/">
           vNinja.net
           
           
@@ -130,11 +154,7 @@
                   <ul class="dropdown-menu">
                     
                       <li class="">
-                        <a href="/about/christian-mohn/"><i class='fa fa-child'></i> About vNinja</a>
-                      </li>
-                    
-                      <li class="">
-                        <a href="/about/christian-mohn/"><i class='fa fa-child'></i> About Christian</a>
+                        <a href="https://vninja.net/about/christian-mohn/"><i class='fa fa-child'></i> About Christian</a>
                       </li>
                     
                   </ul>
@@ -143,11 +163,11 @@
             
             <li class="">
               
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class='fa fa-hand-lizard-o'></i> Site Policy <span class="caret"></span></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class='fa fa-asterisk'></i> Site Policy <span class="caret"></span></a>
                   <ul class="dropdown-menu">
                     
                       <li class="">
-                        <a href="/about/privacy-policy"><i class='fa fa-hand-lizard-o'></i> Privacy Policy</a>
+                        <a href="https://vninja.net/about/privacy-policy"><i class='fa fa-asterisk'></i> Privacy Policy</a>
                       </li>
                     
                   </ul>
@@ -156,9 +176,18 @@
             
             <li class="">
               
-                <a href="/advertising" >
+                <a href="https://vninja.net/advertising" >
                   <i class='fa fa-bank'></i>
                   Advertising
+                </a>
+              
+            </li>
+            
+            <li class="">
+              
+                <a href="https://vninja.net/post/index.xml" >
+                  <i class='fa fa-rss'></i>
+                  RSS
                 </a>
               
             </li>
@@ -198,43 +227,26 @@
     &middot; by Christian Mohn
   
   &middot; Read in about 3 min
-  &middot; (444 words)
+  &middot; (440 words)
   &middot; 
-<span class="share-box">Share this on:
-    <a href="https://www.facebook.com/sharer/sharer.php?u=%2fhomelab%2fusing-cloudflare-for-dynamic-dns%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-facebook-official "></i></a>
 
-    <a href="https://twitter.com/intent/tweet?text=Using%20CloudFlare%20for%20Dynamic%20DNS&amp;url=%2fhomelab%2fusing-cloudflare-for-dynamic-dns%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-twitter"></i></a>
-
-    <a href="https://plus.google.com/share?url=%2fhomelab%2fusing-cloudflare-for-dynamic-dns%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-google-plus"></i></a>
-
-    <a href="http://www.reddit.com/submit?url=%2fhomelab%2fusing-cloudflare-for-dynamic-dns%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-reddit"></i></a>
-
-    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fhomelab%2fusing-cloudflare-for-dynamic-dns%2f&amp;title=Using%20CloudFlare%20for%20Dynamic%20DNS" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-linkedin"></i></a>
-
-    <a href="mailto:?subject=Using%20CloudFlare%20for%20Dynamic%20DNS&amp;body=Check out this site %2fhomelab%2fusing-cloudflare-for-dynamic-dns%2f" data-proofer-ignore=""><i class="fa fa-envelope"></i></a>
-  </span>
 
   </small>
 
 <div class="margin-10">
   <i class="fa fa-tags"></i>
   
-  <a href="/tags/api" class="label label-primary">API</a>
+  <a href="https://vninja.net/tags/api" class="label label-primary">API</a>
   
-  <a href="/tags/cloudflare" class="label label-primary">Cloudflare</a>
+  <a href="https://vninja.net/tags/cloudflare" class="label label-primary">Cloudflare</a>
   
-  <a href="/tags/dns" class="label label-primary">DNS</a>
+  <a href="https://vninja.net/tags/dns" class="label label-primary">DNS</a>
   
-  <a href="/tags/dynamic-dns" class="label label-primary">Dynamic DNS</a>
+  <a href="https://vninja.net/tags/dynamic-dns" class="label label-primary">Dynamic DNS</a>
   
-  <a href="/tags/homelab" class="label label-primary">Homelab</a>
+  <a href="https://vninja.net/tags/homelab" class="label label-primary">Homelab</a>
   
-  <a href="/tags/scripting" class="label label-primary">Scripting</a>
+  <a href="https://vninja.net/tags/scripting" class="label label-primary">Scripting</a>
   
 
 
@@ -248,47 +260,50 @@
 
 
       <div class="content">
+
   
 
-<p><a href="http://vninja.net/homelab/dynamic-dns-requirements/">In my previous post</a>, I tried to lay out the foundation and reasoning behind requiring a Dynamic DNS Service, and here is how I solved it using CloudFlare.</p>
+  <p><a href="http://vninja.net/homelab/dynamic-dns-requirements/">In my previous post</a>, I tried to lay out the foundation and reasoning behind requiring a Dynamic DNS Service, and here is how I solved it using CloudFlare.</p>
 
 <p>First of all, I moved my chosen domain name to CloudFlare, and made sure everything resolved ok with static records. Once that was working, I started playing around with the CloudFlare API, using <a href="http://mmattozzi.github.io/cocoa-rest-client/">Cocoa Rest Client</a>. I&rsquo;m no developer (as is probably very apparent by the script below), nor API wizard of any kind, but it was fairly easy figuring out how to craft a request that lists my DNS zone.</p>
+
+<p></p>
 
 <p>By using the <a href="https://api.cloudflare.com/#dns-records-for-a-zone-list-dns-records">List DNS Records</a> query, I found the unique ID for the hostnames I wanted to update, and created a new <a href="https://api.cloudflare.com/#dns-records-for-a-zone-update-dns-record">Update DNS record query</a> to update it with a new IP address. Since the Cocoa Rest Client is pretty clever, it has an option to &laquo;Copy Curl Command&raquo;, that basically gives you a preformatted  curl command to run the query you just crafted in it. Pasting that into a Terminal window on my Mac, verified that it worked as intended. From there on, I simply wrapped these commands in a little bash script, to avoid hitting the API unless there was an actual public IP change.</p>
 
 <p>In the end, my script ended up looking like this.</p>
 
-<p>UPDATE:
-I&rsquo;ve published a more fleshed out script on GitHub, <a href="http://vninja.net/homelab/cloudflare-dynamic-dns-update-script-cf-ddns-sh/">details here</a>.
-<em>NOTE: You will need to fill out your own values for {TOKEN}, {EMAIL}, {DOMAIN}, {ID} and {HOSTNAME} in line 18 and 21 for this to work for you. </em></p>
+<h3 id="update">UPDATE:</h3>
+
+<p>I&rsquo;ve published a more fleshed out script on GitHub, <a href="http://vninja.net/homelab/cloudflare-dynamic-dns-update-script-cf-ddns-sh/">details here</a>.</p>
+
+<p><em>NOTE</em>: You will need to fill out your own values for {TOKEN}, {EMAIL}, {DOMAIN}, {ID} and {HOSTNAME} in line 18 and 21 for this to work for you. </p>
 
 <p><strong>cloudflare-ddns.sh</strong>
-[cc lang=&laquo;bash&raquo; escaped=&laquo;true&raquo;]
-#!/bin/sh</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#!/bin/sh
+</span><span style="color:#75715e"></span>
+<span style="color:#75715e">#get public ip
+</span><span style="color:#75715e"></span>
+MYIP<span style="color:#f92672">=</span><span style="color:#66d9ef">$(</span>curl ifconfig.me/ip<span style="color:#66d9ef">)</span>
+OLDIP<span style="color:#f92672">=</span><span style="color:#e6db74">`</span>cat oldip.txt<span style="color:#e6db74">`</span>
 
-<p>#get public ip</p>
+echo <span style="color:#e6db74">&#34;Current public IP is:&#34;</span> $MYIP
 
-<p>MYIP=$(curl ifconfig.me/ip)
-OLDIP=<code>cat oldip.txt</code></p>
+<span style="color:#66d9ef">if</span> <span style="color:#f92672">[</span> <span style="color:#e6db74">&#34;</span>$MYIP<span style="color:#e6db74">&#34;</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;</span>$OLDIP<span style="color:#e6db74">&#34;</span> <span style="color:#f92672">]</span>
+<span style="color:#66d9ef">then</span>
+echo <span style="color:#e6db74">&#34;No change detected. Exiting&#34;</span>
+<span style="color:#66d9ef">else</span>
 
-<p>echo &laquo;Current public IP is:&raquo; $MYIP</p>
+echo <span style="color:#e6db74">&#34;IP change detected, updating CloudFlare&#34;</span>
 
-<p>if [ &laquo;$MYIP&raquo; = &laquo;$OLDIP&raquo; ]
-then
-echo &laquo;No change detected. Exiting&raquo;
-else</p>
+<span style="color:#75715e">#WEB01
+</span><span style="color:#75715e"></span>curl -k -L -X POST -H <span style="color:#e6db74">&#39;Content-Type: application/x-www-form-urlencoded&#39;</span> -d <span style="color:#e6db74">&#39;a=rec_edit&amp;tkn={TOKEN}&amp;email={EMAIL}&amp;z={DOMAIN}&amp;id={ID}&amp;type=A&amp;name={HOSTNAME}&amp;ttl=1&amp;content=&#39;</span>$MYIP <span style="color:#e6db74">&#39;https://www.cloudflare.com/api_json.html&#39;</span>
 
-<p>echo &laquo;IP change detected, updating CloudFlare&raquo;</p>
+<span style="color:#75715e">#WEB02
+</span><span style="color:#75715e"></span>curl -k -L -X POST -H <span style="color:#e6db74">&#39;Content-Type: application/x-www-form-urlencoded&#39;</span> -d <span style="color:#e6db74">&#39;a=rec_edit&amp;tkn={TOKEN}&amp;email={EMAIL}&amp;z={DOMAIN}&amp;id={ID}&amp;type=A&amp;name={HOSTNAME}&amp;ttl=1&amp;content=&#39;</span>$MYIP <span style="color:#e6db74">&#39;https://www.cloudflare.com/api_json.html&#39;</span>
 
-<p>#WEB01
-curl -k -L -X POST -H &lsquo;Content-Type: application/x-www-form-urlencoded&rsquo; -d &lsquo;a=rec_edit&amp;tkn={TOKEN}&amp;email={EMAIL}&amp;z={DOMAIN}&amp;id={ID}&amp;type=A&amp;name={HOSTNAME}&amp;ttl=1&amp;content=&lsquo;$MYIP &lsquo;<a href="https://www.cloudflare.com/api_json.html'">https://www.cloudflare.com/api_json.html'</a></p>
-
-<p>#WEB02
-curl -k -L -X POST -H &lsquo;Content-Type: application/x-www-form-urlencoded&rsquo; -d &lsquo;a=rec_edit&amp;tkn={TOKEN}&amp;email={EMAIL}&amp;z={DOMAIN}&amp;id={ID}&amp;type=A&amp;name={HOSTNAME}&amp;ttl=1&amp;content=&lsquo;$MYIP &lsquo;<a href="https://www.cloudflare.com/api_json.html'">https://www.cloudflare.com/api_json.html'</a></p>
-
-<p>echo $MYIP &gt; oldip.txt
-fi
-[/cc]</p>
+echo $MYIP &gt; oldip.txt
+<span style="color:#66d9ef">fi</span></code></pre></div></p>
 
 <h5 id="explanation">Explanation:</h5>
 
@@ -299,30 +314,12 @@ fi
 <p>It then writes the new IP address to the oldip.txt file (line 23) and exits.</p>
 
 <p><strong>Configure this as a cronjob the runs every 5 - 10 minutes or so and you&rsquo;re set! Simple, not pretty, but oh-so awesome!</strong></p>
-
 </div>
 
 
       <footer>
   
-<span class="share-box">Share this on:
-    <a href="https://www.facebook.com/sharer/sharer.php?u=%2fhomelab%2fusing-cloudflare-for-dynamic-dns%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-facebook-official "></i></a>
 
-    <a href="https://twitter.com/intent/tweet?text=Using%20CloudFlare%20for%20Dynamic%20DNS&amp;url=%2fhomelab%2fusing-cloudflare-for-dynamic-dns%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-twitter"></i></a>
-
-    <a href="https://plus.google.com/share?url=%2fhomelab%2fusing-cloudflare-for-dynamic-dns%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-google-plus"></i></a>
-
-    <a href="http://www.reddit.com/submit?url=%2fhomelab%2fusing-cloudflare-for-dynamic-dns%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-reddit"></i></a>
-
-    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fhomelab%2fusing-cloudflare-for-dynamic-dns%2f&amp;title=Using%20CloudFlare%20for%20Dynamic%20DNS" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-linkedin"></i></a>
-
-    <a href="mailto:?subject=Using%20CloudFlare%20for%20Dynamic%20DNS&amp;body=Check out this site %2fhomelab%2fusing-cloudflare-for-dynamic-dns%2f" data-proofer-ignore=""><i class="fa fa-envelope"></i></a>
-  </span>
 
   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
       
@@ -330,7 +327,7 @@ fi
     <nav><ul class="pager">
     
         <li class="previous">
-          <a href="/homelab/dynamic-dns-requirements/" title="Dynamic DNS Requirements">
+          <a href="https://vninja.net/homelab/dynamic-dns-requirements/" title="Dynamic DNS Requirements">
             <span aria-hidden="true">&larr;</span>Previous
           </a>
         </li>
@@ -338,7 +335,7 @@ fi
 
     
       <li class="next">
-        <a href="/homelab/cloudflare-dynamic-dns-update-script-cf-ddns-sh/" title="CloudFlare Dynamic DNS Update Script (cf-ddns.sh)">
+        <a href="https://vninja.net/homelab/cloudflare-dynamic-dns-update-script-cf-ddns-sh/" title="CloudFlare Dynamic DNS Update Script (cf-ddns.sh)">
             Next <span aria-hidden="true">&rarr;</span>
         </a>
       </li>
@@ -359,24 +356,35 @@ fi
     </div>
     
       <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-        <hr>
-<div>
+        <div>
   
 
     <div class="section">
-      <div class="ads">
-        <a href="http://turbonomic.com/resources/hybrid-cloud-intelligent-bursting-aws-microsoft-azure/?utm_source=vninja&amp;utm_medium=banner-ad&amp;utm_campaign=wp-path-to-hybrid-cloud&amp;utm_content=250x250"><img width="250" height="250" src="https://i1.wp.com/vninja.net/wordpress/wp-content/uploads/2017/11/wp-intelligent-bursting-aws-azure-250x250.png?zoom=2&amp;fit=250%2C250" alt="" title="wp-intelligent-bursting-aws-azure (250x250)" src-orig="https://i1.wp.com/vninja.net/wordpress/wp-content/uploads/2017/11/wp-intelligent-bursting-aws-azure-250x250.png?fit=250%2C250" scale="2"></a>
+      <h4>Sponsors</h4>
+      <div class="ads" id="veeam">
+        <ins class='dcmads' style='display:inline-block;width:250px;height:250px' data-dcm-placement='N410401.1772869VNINJA.NET/B10464038.145283149' data-dcm-rendering-mode='iframe' data-dcm-https-only data-dcm-resettable-device-id='' data-dcm-app-id=''> <script src='https://www.googletagservices.com/dcm/dcmads.js'></script> </ins>
       </div>
-      <div class="ads">
-        <a href="http://cohesity.com"><img width="250" height="250" src="https://i2.wp.com/vninja.net/wordpress/wp-content/uploads/2016/12/250x250_cohesity_ad-1.gif?zoom=2&amp;fit=250%2C250" alt="" title="250x250_cohesity_ad-1" src-orig="https://i2.wp.com/vninja.net/wordpress/wp-content/uploads/2016/12/250x250_cohesity_ad-1.gif?fit=250%2C250" scale="2"></a>
+      <div class="ads" id="turbonomic">
+        <a href="http://turbonomic.com/resources/hybrid-cloud-intelligent-bursting-aws-microsoft-azure/?utm_source=vninja&amp;utm_medium=banner-ad&amp;utm_campaign=wp-path-to-hybrid-cloud&amp;">
+          <img width="250" height="250" src="https://vninja.net/ads/wp-intelligent-bursting-aws-azure-250x250.png"></a>
       </div>
+      <div class="ads" id="goliath">
+        <a href="http://goliathtechnologies.com/performance-monitoring/application-desktop-virtualization/vmware-horizon-view-monitoring/?utm_source=VNINJA&#038;utm_medium=PARTNER-MKTG&#038;utm_campaign=PARTNER-MKTG-VNINJA"><img width="250" height="250" src='https://vninja.net/ads/VMwareHorizon.jpg' alt='' title='VMwareHorizon' /></a>
+      </div>
+      <div class="ads" id="vembu">
+        <a href="https://www.vembu.com/free-vm-backup/?utm_source=vninja.net&#038;utm_medium=Banner"><img width="250" height="250" src='https://vninja.net/ads/vembu250-250.gif'/></a>
+      </div>
+
+
     </div>
-<hr>
+
+    <hr>
     
       
       
       <div class="section">
-        sidebar 2
+
+
       </div>
       
     
@@ -400,9 +408,7 @@ fi
 </div>
 <div class="pull-right">
 
-<a href="/disclaimer/">Disclaimer</a> <i>&middot;</i>
-
-<a href="/terms/">Terms</a> 
+<a href="https://vninja.net/disclaimer/">Disclaimer</a> <i>&middot;</i>
 
 </div>
 
@@ -421,7 +427,7 @@ fi
     
 <div class="container copyright">
     <small>
-  &copy; 2018 Copyright my blog
+  &copy; 2018 Christian Mohn
 
   </small>
 </div>
@@ -436,17 +442,17 @@ fi
 
     
 
-<script src="/js/jquery.min.js"></script>
-<script src="/js/bootstrap.min.js"></script>
+<script src="https://vninja.net/js/jquery.min.js"></script>
+<script src="https://vninja.net/js/bootstrap.min.js"></script>
 
 
-<script src="/js/highlight.pack.js"></script>
-<script src="/js/site.js"></script>
+<script src="https://vninja.net/js/highlight.pack.js"></script>
+<script src="https://vninja.net/js/site.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
 
 <script>
-  var _gaq=[['_setAccount','Your Google Analytics tracking code'],['_trackPageview']];
+  var _gaq=[['_setAccount','UA-121910549-1'],['_trackPageview']];
   (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
   g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
   s.parentNode.insertBefore(g,s)}(document,'script'));

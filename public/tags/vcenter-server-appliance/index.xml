@@ -2,24 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vcenter Server Appliance on vNinja.net</title>
-    <link>/tags/vcenter-server-appliance/</link>
+    <link>https://vninja.net/tags/vcenter-server-appliance/</link>
     <description>Recent content in Vcenter Server Appliance on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Sun, 29 Sep 2013 23:16:25 +0000</lastBuildDate>
     
-	<atom:link href="/tags/vcenter-server-appliance/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/vcenter-server-appliance/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>VMware vCenter Server Appliance Error: VPXD must be stopped to perform this operation</title>
-      <link>/vmware-2/vmware-vcenter-server-appliance-error-vpxd-stopped-perform-operation/</link>
+      <link>https://vninja.net/vmware-2/vmware-vcenter-server-appliance-error-vpxd-stopped-perform-operation/</link>
       <pubDate>Sun, 29 Sep 2013 23:16:25 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/vmware-2/vmware-vcenter-server-appliance-error-vpxd-stopped-perform-operation/</guid>
+      
+      <guid>https://vninja.net/vmware-2/vmware-vcenter-server-appliance-error-vpxd-stopped-perform-operation/</guid>
       <description>While deploying a fresh vCenter Server 5.5 Appliance, I ran into an issue getting it configured.
 When the appliance is deployed, the first time you log in you get presented with the configuration wizard. The wizard clearly states that if you want to set a static ip, or hostname, you should cancel the wizard, do the network configuration and then re-run the wizard after the fact.
 Well, that´s what I did, and it resulted in the following error when trying to create the embedded database:</description>

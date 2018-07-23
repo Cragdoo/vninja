@@ -21,7 +21,7 @@
 
 <meta property="og:title" content="Purging the vCenter Operations Manager 5.x Database  &middot; vNinja.net ">
 <meta property="og:site_name" content="vNinja.net"/>
-<meta property="og:url" content="/vmware-2/purging-vcenter-operations-manager-5-x-database/" />
+<meta property="og:url" content="https://vninja.net/vmware-2/purging-vcenter-operations-manager-5-x-database/" />
 <meta property="og:locale" content="en">
 
 
@@ -48,8 +48,8 @@
 <meta name="twitter:creator" content="@h0bbel" />
 <meta name="twitter:title" content="Purging the vCenter Operations Manager 5.x Database" />
 <meta name="twitter:description" content="" />
-<meta name="twitter:url" content="/vmware-2/purging-vcenter-operations-manager-5-x-database/" />
-<meta name="twitter:domain" content="/">
+<meta name="twitter:url" content="https://vninja.net/vmware-2/purging-vcenter-operations-manager-5-x-database/" />
+<meta name="twitter:domain" content="https://vninja.net">
   
 
   
@@ -64,17 +64,17 @@
     },
     "datePublished": "2013-02-05",
     "description": "",
-    "wordCount": 514
+    "wordCount": 502
   }
 </script>
   
 
 
 
-<link rel="canonical" href="/vmware-2/purging-vcenter-operations-manager-5-x-database/" />
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/touch-icon-144-precomposed.png">
-<link rel="icon" href="/favicon.png">
-<meta name="generator" content="Hugo 0.40.3" />
+<link rel="canonical" href="https://vninja.net/vmware-2/purging-vcenter-operations-manager-5-x-database/" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://vninja.net/touch-icon-144-precomposed.png">
+<link rel="icon" href="https://vninja.net/favicon.png">
+<meta name="generator" content="Hugo 0.42.2" />
 
   <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
@@ -83,18 +83,42 @@
 
 
 
-    <link rel="stylesheet" href="/css/bootswatch/lux/bootstrap.min.css">
+    <link rel="stylesheet" href="https://vninja.net/css/bootswatch/yeti/bootstrap.min.css">
 
 
-<link rel="stylesheet" href="/css/font-awesome.min.css">
-<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="https://vninja.net/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://vninja.net/css/style.css">
 
 
-<link rel="stylesheet" href="/css/style_custom.css">
+<link rel="stylesheet" href="https://vninja.net/css/style_custom.css">
 
 
 
-  <link rel="stylesheet" href="/css/highlight/default.css">
+  <link rel="stylesheet" href="https://vninja.net/css/highlight/default.css">
+
+
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+  <script>
+  window.addEventListener("load", function(){
+  window.cookieconsent.initialise({
+    "palette": {
+      "popup": {
+        "background": "#efefef",
+        "text": "#404040"
+      },
+      "button": {
+        "background": "#8ec760",
+        "text": "#ffffff"
+      }
+    },
+    "showLink": false,
+    "position": "bottom-right"
+  })});
+  </script>
+</script>
+
+
 
 
 </head>
@@ -110,7 +134,7 @@
           <span class="icon-bar"></span>
         </button>
         
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand" href="https://vninja.net/">
           vNinja.net
           
           
@@ -126,11 +150,7 @@
                   <ul class="dropdown-menu">
                     
                       <li class="">
-                        <a href="/about/christian-mohn/"><i class='fa fa-child'></i> About vNinja</a>
-                      </li>
-                    
-                      <li class="">
-                        <a href="/about/christian-mohn/"><i class='fa fa-child'></i> About Christian</a>
+                        <a href="https://vninja.net/about/christian-mohn/"><i class='fa fa-child'></i> About Christian</a>
                       </li>
                     
                   </ul>
@@ -139,11 +159,11 @@
             
             <li class="">
               
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class='fa fa-hand-lizard-o'></i> Site Policy <span class="caret"></span></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class='fa fa-asterisk'></i> Site Policy <span class="caret"></span></a>
                   <ul class="dropdown-menu">
                     
                       <li class="">
-                        <a href="/about/privacy-policy"><i class='fa fa-hand-lizard-o'></i> Privacy Policy</a>
+                        <a href="https://vninja.net/about/privacy-policy"><i class='fa fa-asterisk'></i> Privacy Policy</a>
                       </li>
                     
                   </ul>
@@ -152,9 +172,18 @@
             
             <li class="">
               
-                <a href="/advertising" >
+                <a href="https://vninja.net/advertising" >
                   <i class='fa fa-bank'></i>
                   Advertising
+                </a>
+              
+            </li>
+            
+            <li class="">
+              
+                <a href="https://vninja.net/post/index.xml" >
+                  <i class='fa fa-rss'></i>
+                  RSS
                 </a>
               
             </li>
@@ -194,39 +223,22 @@
     &middot; by Christian Mohn
   
   &middot; Read in about 3 min
-  &middot; (514 words)
+  &middot; (502 words)
   &middot; 
-<span class="share-box">Share this on:
-    <a href="https://www.facebook.com/sharer/sharer.php?u=%2fvmware-2%2fpurging-vcenter-operations-manager-5-x-database%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-facebook-official "></i></a>
 
-    <a href="https://twitter.com/intent/tweet?text=Purging%20the%20vCenter%20Operations%20Manager%205.x%20Database&amp;url=%2fvmware-2%2fpurging-vcenter-operations-manager-5-x-database%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-twitter"></i></a>
-
-    <a href="https://plus.google.com/share?url=%2fvmware-2%2fpurging-vcenter-operations-manager-5-x-database%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-google-plus"></i></a>
-
-    <a href="http://www.reddit.com/submit?url=%2fvmware-2%2fpurging-vcenter-operations-manager-5-x-database%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-reddit"></i></a>
-
-    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fvmware-2%2fpurging-vcenter-operations-manager-5-x-database%2f&amp;title=Purging%20the%20vCenter%20Operations%20Manager%205.x%20Database" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-linkedin"></i></a>
-
-    <a href="mailto:?subject=Purging%20the%20vCenter%20Operations%20Manager%205.x%20Database&amp;body=Check out this site %2fvmware-2%2fpurging-vcenter-operations-manager-5-x-database%2f" data-proofer-ignore=""><i class="fa fa-envelope"></i></a>
-  </span>
 
   </small>
 
 <div class="margin-10">
   <i class="fa fa-tags"></i>
   
-  <a href="/tags/vcenter" class="label label-primary">vCenter</a>
+  <a href="https://vninja.net/tags/vcenter" class="label label-primary">vCenter</a>
   
-  <a href="/tags/vcenter-operations-manager" class="label label-primary">vCenter Operations Manager</a>
+  <a href="https://vninja.net/tags/vcenter-operations-manager" class="label label-primary">vCenter Operations Manager</a>
   
-  <a href="/tags/virtualization" class="label label-primary">Virtualization</a>
+  <a href="https://vninja.net/tags/virtualization" class="label label-primary">Virtualization</a>
   
-  <a href="/tags/vmware" class="label label-primary">VMware</a>
+  <a href="https://vninja.net/tags/vmware" class="label label-primary">VMware</a>
   
 
 
@@ -240,6 +252,9 @@
 
 
       <div class="content">
+
+  
+
   <p>A client of mine recently had their vCenter 5.0 appliance replaced with a new vCenter 5.1 appliance, something vCenter Operations Manager did not enjoy. In this case the original vCenter 5.0 Appliance was turned shut down, a new 5.1 Appliance deployed, with the same IP as the old one,  and then configured. Naturally the existing hosts were added to the fresh vCenter, clusters recreated and in general everything was reconfigured.</p>
 
 <p>Why a simple <a href="http://kb.vmware.com/selfservice/microsites/search.do?language=en_US&amp;cmd=displayKC&amp;externalId=2033990">upgrade from 5.0 to 5.1</a> wasn&rsquo;t performed is beyond me, but the end result was that the existing vCenter Operations Manager I had deployed in this environment was no longer able to monitor the environment.</p>
@@ -250,9 +265,7 @@
 
 <p>Trying to force the registration from the command line on the vCenter Operations Manager UI VM using the following command also failed, with the same error message:</p>
 
-<p>[cc lang=&laquo;bash&raquo; width=&laquo;95%&raquo; theme=&laquo;blackboard&raquo; nowrap=&laquo;0&raquo;]
-vcops-admin register update &ndash;vc-name [vc-name] &ndash;vc-server [<a href="https://vc-server/sdk">https://vc-server/sdk</a>] &ndash;username [vc-username] &ndash;password [vc-password] &ndash;force
-[/cc]</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">vcops-admin register update --vc-name <span style="color:#f92672">[</span>vc-name<span style="color:#f92672">]</span> --vc-server <span style="color:#f92672">[</span>https://vc-server/sdk<span style="color:#f92672">]</span> --username <span style="color:#f92672">[</span>vc-username<span style="color:#f92672">]</span> --password <span style="color:#f92672">[</span>vc-password<span style="color:#f92672">]</span> --force</code></pre></div>
 
 <p>Naturally the issue is caused by the non-standard &laquo;upgrade&raquo; performed on the vCenter, but the end result that I no longer had old performance data available anywhere. The vCenter database was no longer available, since no actual upgrade was performed and the old vCenter had been removed from vCenter Operations Manager.</p>
 
@@ -260,9 +273,7 @@ vcops-admin register update &ndash;vc-name [vc-name] &ndash;vc-server [<a href="
 
 <p>After some playing around to try to avoid deploying again over a slow WAN link, I discovered a somewhat undocumented parameter for the _vcops-admin (run on the UI VM command line)_ command.</p>
 
-<p>[cc lang=&laquo;bash&raquo; width=&laquo;95%&raquo; theme=&laquo;blackboard&raquo; nowrap=&laquo;0&raquo;]
-vcops-admin purge &ndash;vc-name
-[/cc]</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">vcops-admin purge --vc-name</code></pre></div>
 
 <p>This parameter is not listed in the man pages for the _vcops-admin_ command, and what it does is to completely purge a previously registered vCenter. And by purge, it really means purge. <strong>All traces of the old vCenter data is removed from the vCenter Operations Manager database, any old performance data and metrics are completely removed.</strong></p>
 
@@ -277,24 +288,7 @@ vcops-admin purge &ndash;vc-name
 
       <footer>
   
-<span class="share-box">Share this on:
-    <a href="https://www.facebook.com/sharer/sharer.php?u=%2fvmware-2%2fpurging-vcenter-operations-manager-5-x-database%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-facebook-official "></i></a>
 
-    <a href="https://twitter.com/intent/tweet?text=Purging%20the%20vCenter%20Operations%20Manager%205.x%20Database&amp;url=%2fvmware-2%2fpurging-vcenter-operations-manager-5-x-database%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-twitter"></i></a>
-
-    <a href="https://plus.google.com/share?url=%2fvmware-2%2fpurging-vcenter-operations-manager-5-x-database%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-google-plus"></i></a>
-
-    <a href="http://www.reddit.com/submit?url=%2fvmware-2%2fpurging-vcenter-operations-manager-5-x-database%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-reddit"></i></a>
-
-    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fvmware-2%2fpurging-vcenter-operations-manager-5-x-database%2f&amp;title=Purging%20the%20vCenter%20Operations%20Manager%205.x%20Database" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-linkedin"></i></a>
-
-    <a href="mailto:?subject=Purging%20the%20vCenter%20Operations%20Manager%205.x%20Database&amp;body=Check out this site %2fvmware-2%2fpurging-vcenter-operations-manager-5-x-database%2f" data-proofer-ignore=""><i class="fa fa-envelope"></i></a>
-  </span>
 
   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
       
@@ -302,7 +296,7 @@ vcops-admin purge &ndash;vc-name
     <nav><ul class="pager">
     
         <li class="previous">
-          <a href="/vmware-2/goodbye-mr-herrod/" title="Goodbye Mr. Herrod">
+          <a href="https://vninja.net/vmware-2/goodbye-mr-herrod/" title="Goodbye Mr. Herrod">
             <span aria-hidden="true">&larr;</span>Previous
           </a>
         </li>
@@ -310,7 +304,7 @@ vcops-admin purge &ndash;vc-name
 
     
       <li class="next">
-        <a href="/vmware-2/unsupported-network-configurations-virtual-appliances/" title="Unsupported Network Configurations in Virtual Appliances">
+        <a href="https://vninja.net/vmware-2/unsupported-network-configurations-virtual-appliances/" title="Unsupported Network Configurations in Virtual Appliances">
             Next <span aria-hidden="true">&rarr;</span>
         </a>
       </li>
@@ -331,24 +325,35 @@ vcops-admin purge &ndash;vc-name
     </div>
     
       <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-        <hr>
-<div>
+        <div>
   
 
     <div class="section">
-      <div class="ads">
-        <a href="http://turbonomic.com/resources/hybrid-cloud-intelligent-bursting-aws-microsoft-azure/?utm_source=vninja&amp;utm_medium=banner-ad&amp;utm_campaign=wp-path-to-hybrid-cloud&amp;utm_content=250x250"><img width="250" height="250" src="https://i1.wp.com/vninja.net/wordpress/wp-content/uploads/2017/11/wp-intelligent-bursting-aws-azure-250x250.png?zoom=2&amp;fit=250%2C250" alt="" title="wp-intelligent-bursting-aws-azure (250x250)" src-orig="https://i1.wp.com/vninja.net/wordpress/wp-content/uploads/2017/11/wp-intelligent-bursting-aws-azure-250x250.png?fit=250%2C250" scale="2"></a>
+      <h4>Sponsors</h4>
+      <div class="ads" id="veeam">
+        <ins class='dcmads' style='display:inline-block;width:250px;height:250px' data-dcm-placement='N410401.1772869VNINJA.NET/B10464038.145283149' data-dcm-rendering-mode='iframe' data-dcm-https-only data-dcm-resettable-device-id='' data-dcm-app-id=''> <script src='https://www.googletagservices.com/dcm/dcmads.js'></script> </ins>
       </div>
-      <div class="ads">
-        <a href="http://cohesity.com"><img width="250" height="250" src="https://i2.wp.com/vninja.net/wordpress/wp-content/uploads/2016/12/250x250_cohesity_ad-1.gif?zoom=2&amp;fit=250%2C250" alt="" title="250x250_cohesity_ad-1" src-orig="https://i2.wp.com/vninja.net/wordpress/wp-content/uploads/2016/12/250x250_cohesity_ad-1.gif?fit=250%2C250" scale="2"></a>
+      <div class="ads" id="turbonomic">
+        <a href="http://turbonomic.com/resources/hybrid-cloud-intelligent-bursting-aws-microsoft-azure/?utm_source=vninja&amp;utm_medium=banner-ad&amp;utm_campaign=wp-path-to-hybrid-cloud&amp;">
+          <img width="250" height="250" src="https://vninja.net/ads/wp-intelligent-bursting-aws-azure-250x250.png"></a>
       </div>
+      <div class="ads" id="goliath">
+        <a href="http://goliathtechnologies.com/performance-monitoring/application-desktop-virtualization/vmware-horizon-view-monitoring/?utm_source=VNINJA&#038;utm_medium=PARTNER-MKTG&#038;utm_campaign=PARTNER-MKTG-VNINJA"><img width="250" height="250" src='https://vninja.net/ads/VMwareHorizon.jpg' alt='' title='VMwareHorizon' /></a>
+      </div>
+      <div class="ads" id="vembu">
+        <a href="https://www.vembu.com/free-vm-backup/?utm_source=vninja.net&#038;utm_medium=Banner"><img width="250" height="250" src='https://vninja.net/ads/vembu250-250.gif'/></a>
+      </div>
+
+
     </div>
-<hr>
+
+    <hr>
     
       
       
       <div class="section">
-        sidebar 2
+
+
       </div>
       
     
@@ -372,9 +377,7 @@ vcops-admin purge &ndash;vc-name
 </div>
 <div class="pull-right">
 
-<a href="/disclaimer/">Disclaimer</a> <i>&middot;</i>
-
-<a href="/terms/">Terms</a> 
+<a href="https://vninja.net/disclaimer/">Disclaimer</a> <i>&middot;</i>
 
 </div>
 
@@ -393,7 +396,7 @@ vcops-admin purge &ndash;vc-name
     
 <div class="container copyright">
     <small>
-  &copy; 2018 Copyright my blog
+  &copy; 2018 Christian Mohn
 
   </small>
 </div>
@@ -408,17 +411,17 @@ vcops-admin purge &ndash;vc-name
 
     
 
-<script src="/js/jquery.min.js"></script>
-<script src="/js/bootstrap.min.js"></script>
+<script src="https://vninja.net/js/jquery.min.js"></script>
+<script src="https://vninja.net/js/bootstrap.min.js"></script>
 
 
-<script src="/js/highlight.pack.js"></script>
-<script src="/js/site.js"></script>
+<script src="https://vninja.net/js/highlight.pack.js"></script>
+<script src="https://vninja.net/js/site.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
 
 <script>
-  var _gaq=[['_setAccount','Your Google Analytics tracking code'],['_trackPageview']];
+  var _gaq=[['_setAccount','UA-121910549-1'],['_trackPageview']];
   (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
   g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
   s.parentNode.insertBefore(g,s)}(document,'script'));

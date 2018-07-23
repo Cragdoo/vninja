@@ -2,24 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Autolab on vNinja.net</title>
-    <link>/tags/autolab/</link>
+    <link>https://vninja.net/tags/autolab/</link>
     <description>Recent content in Autolab on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Thu, 14 Mar 2013 00:02:35 +0000</lastBuildDate>
     
-	<atom:link href="/tags/autolab/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/autolab/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Autolab goes Cloudy with a Chance of Free Credits </title>
-      <link>/virtualization/autolab-meets-cloud/</link>
+      <link>https://vninja.net/virtualization/autolab-meets-cloud/</link>
       <pubDate>Thu, 14 Mar 2013 00:02:35 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/autolab-meets-cloud/</guid>
+      
+      <guid>https://vninja.net/virtualization/autolab-meets-cloud/</guid>
       <description>Autolab, that awesome &amp;laquo;little&amp;raquo; thing that automagically builds a nested vSphere Lab environment for you, was definitely not put together by Flint Lockwood but by Alastair Cooke (www.demitasse.co.nz). Unlike Flint´s inventions, this one actually makes sense and serves a purpose!
 Now, how sweet would it be to deploy Autolab without having to invest time, money and effort into acquiring your own hardware?
 Well, thanks to baremetalcloud.com, you might now actually be able to do just that (and more, if you wish).</description>

@@ -2,25 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nordic on vNinja.net</title>
-    <link>/tags/nordic/</link>
+    <link>https://vninja.net/tags/nordic/</link>
     <description>Recent content in Nordic on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Sat, 19 Nov 2016 13:04:50 +0000</lastBuildDate>
     
-	<atom:link href="/tags/nordic/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/nordic/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Nordic VMUG UserCon 2016</title>
-      <link>/news/nordic-vmug-usercon-2016/</link>
+      <link>https://vninja.net/news/nordic-vmug-usercon-2016/</link>
       <pubDate>Sat, 19 Nov 2016 13:04:50 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/news/nordic-vmug-usercon-2016/</guid>
-      <description>The 2016 Nordic VMUG UserCon in Copenhagen, Denmark, is just 11 days away, and if you haven&amp;rsquo;t registered already now is the time to do so. As usual the speaker lineup for the event is awesome, with a lot of the usual suspects like Duncan Epping (VMware), Cormac Hogan (VMware), Lee Dilworth (VMware), and Frank Denneman (VMware), but VMware is also showing it&amp;rsquo;s commitment to VMUG by sending some non-europeans as well, like Grant Orchard and_ Mike Foley_.</description>
+      
+      <guid>https://vninja.net/news/nordic-vmug-usercon-2016/</guid>
+      <description>&lt;h2 id=&#34;the-2016-nordic-vmug-usercon-in-copenhagen-denmark-is-just-11-days-away-and-if-you-haven-t-registered-already-now-is-the-time-to-do-so&#34;&gt;The 2016 Nordic VMUG UserCon in Copenhagen, Denmark, is just 11 days away, and if you haven&amp;rsquo;t registered already now is the time to do so.&lt;/h2&gt;
+
+&lt;p&gt;As usual the speaker lineup for the event is awesome, with a lot of the usual suspects like &lt;em&gt;Duncan Epping (VMware)&lt;/em&gt;, &lt;em&gt;Cormac Hogan (VMware)&lt;/em&gt;, &lt;em&gt;Lee Dilworth (VMware)&lt;/em&gt;, and &lt;em&gt;Frank Denneman (VMware)&lt;/em&gt;, but VMware is also showing it&amp;rsquo;s commitment to VMUG by sending some non-europeans as well, like &lt;em&gt;Grant Orchard&lt;/em&gt; and_ Mike Foley_. This, coupled with &amp;laquo;local&amp;raquo; speakers like &lt;em&gt;Michael Ryom&lt;/em&gt;, &lt;em&gt;Nicolai Sandager&lt;/em&gt; and &lt;em&gt;Marteinn Sigurdsson&lt;/em&gt; this promises to be every bit as awesome as the event was last year.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -2,54 +2,62 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Workflow on vNinja.net</title>
-    <link>/tags/workflow/</link>
+    <link>https://vninja.net/tags/workflow/</link>
     <description>Recent content in Workflow on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Tue, 24 Oct 2017 13:47:35 +0000</lastBuildDate>
     
-	<atom:link href="/tags/workflow/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/workflow/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Integrating Pocket with Todoist via IFTTT</title>
-      <link>/workflow/integrating-pocket-with-todoist-via-ifttt/</link>
+      <link>https://vninja.net/workflow/integrating-pocket-with-todoist-via-ifttt/</link>
       <pubDate>Tue, 24 Oct 2017 13:47:35 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/workflow/integrating-pocket-with-todoist-via-ifttt/</guid>
-      <description>Myles Gray asked me how I integrate Pocket with Todoist, after my How I use Todoist post, and the answer is very simple: IFTTT. If-This-Then-That lets you connect services, and create rules (or applets) that trigger based on events in those services, luckily both Todoist and Pocket are supported.
-Now, there is a bit of overlap between how I use Pocket and Todoist, but I mainly use Pocket to keep track of links I want to either read later, or use as basis for blog posts.</description>
+      
+      <guid>https://vninja.net/workflow/integrating-pocket-with-todoist-via-ifttt/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://twitter.com/mylesagray/status/922783625241866241&#34;&gt;Myles Gray&lt;/a&gt; asked me how I integrate Pocket with Todoist, after my &lt;a href=&#34;http://vninja.net/workflow/how-i-use-todoist/&#34;&gt;How I use Todoist&lt;/a&gt; post, and the answer is very simple: &lt;a href=&#34;https://ifttt.com/&#34;&gt;IFTTT&lt;/a&gt;. If-This-Then-That lets you connect services, and create rules (or applets) that trigger based on events in those services, luckily both Todoist and Pocket are supported.&lt;/p&gt;
+
+&lt;p&gt;Now, there is a bit of overlap between how I use Pocket and Todoist, but I mainly use Pocket to keep track of links I want to either read later, or use as basis for blog posts.
+&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>How I use Todoist</title>
-      <link>/workflow/how-i-use-todoist/</link>
+      <link>https://vninja.net/workflow/how-i-use-todoist/</link>
       <pubDate>Tue, 24 Oct 2017 10:38:13 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/workflow/how-i-use-todoist/</guid>
-      <description>As I&amp;rsquo;ve mentioned before, I use Todoist to keep track of my personal to-do list. This is the first to-do manager I&amp;rsquo;ve been able to stick with, and I&amp;rsquo;ve been using it daily for well over 2 years now. In that two year period I&amp;rsquo;ve reorganised it a bit, but for the most part I&amp;rsquo;ve been able to keep to the main structure I initially created when setting it up the first time.</description>
+      
+      <guid>https://vninja.net/workflow/how-i-use-todoist/</guid>
+      <description>&lt;p&gt;As I&amp;rsquo;ve mentioned before, &lt;a href=&#34;http://vninja.net/workflow/todoist-one-year-later/&#34;&gt;I use Todoist&lt;/a&gt; to keep track of my personal to-do list. This is the first to-do manager I&amp;rsquo;ve been able to stick with, and I&amp;rsquo;ve been using it daily for well over 2 years now. In that two year period I&amp;rsquo;ve reorganised it a bit, but for the most part I&amp;rsquo;ve been able to keep to the main structure I initially created when setting it up the first time.
+&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Do you ChangeLog?</title>
-      <link>/workflow/changelog/</link>
+      <link>https://vninja.net/workflow/changelog/</link>
       <pubDate>Wed, 18 Feb 2015 10:31:53 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/workflow/changelog/</guid>
-      <description>In my work as a consultant I often have many small tasks to perform for customers, all while completing a bigger project. I have found that an easy way to keep track of all the little and big changes, is to create a ChangeLog. Normally ChangeLog&amp;rsquo;s are referenced in development projects, but it also sense to use it to track of your own, or your team members, changes to an infrastructure environment.</description>
+      
+      <guid>https://vninja.net/workflow/changelog/</guid>
+      <description>&lt;p&gt;In my work as a consultant I often have many small tasks to perform for customers, all while completing a bigger project. I have found that an easy way to keep track of all the little and big changes, is to create a ChangeLog. Normally ChangeLog&amp;rsquo;s are referenced in development projects, but it also sense to use it to track of your own, or your team members, changes to an infrastructure environment.&lt;/p&gt;
+
+&lt;p&gt;As for &lt;a href=&#34;http://vninja.net/virtualization/markdown-things/&#34;&gt;just about everything else&lt;/a&gt;, I use Markdown to make it easy to format and edit.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Markdown All the Things!</title>
-      <link>/virtualization/markdown-things/</link>
+      <link>https://vninja.net/virtualization/markdown-things/</link>
       <pubDate>Mon, 12 Jan 2015 23:31:45 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/markdown-things/</guid>
-      <description>Obviously I&amp;rsquo;m a bit late to the party here, but I guess late is better than never. It recently dawned on me that mucking about with lots of different file formats, interfaces and ways of doing things is rather counterproductive.
-A lot of my work these days are related to generating content, be it a simple blog post like this or writing customer proposals and documentation. In the end, the deliverables are often quite different, but at the core they are strangely enough very similar.</description>
+      
+      <guid>https://vninja.net/virtualization/markdown-things/</guid>
+      <description>&lt;p&gt;Obviously I&amp;rsquo;m a bit late to the party here, but I guess late is better than never. It recently dawned on me that mucking about with lots of different file formats, interfaces and ways of doing things is rather counterproductive.&lt;/p&gt;
+
+&lt;p&gt;A lot of my work these days are related to generating content, be it a simple blog post like this or writing customer proposals and documentation. In the end, the deliverables are often quite different, but at the core they are strangely enough very similar. After all, the main thing is content, right? The file format itself, or how it is generated, doesn&amp;rsquo;t really have a bearing on the content at all, it&amp;rsquo;s just a delivery method. Lipstick on a pig, if you will.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -21,7 +21,7 @@
 
 <meta property="og:title" content="Configuring VSAN on a Dell PowerEdge VRTX  &middot; vNinja.net ">
 <meta property="og:site_name" content="vNinja.net"/>
-<meta property="og:url" content="/virtualization/configuring-vsan-dell-poweredge-vrtx/" />
+<meta property="og:url" content="https://vninja.net/virtualization/configuring-vsan-dell-poweredge-vrtx/" />
 <meta property="og:locale" content="en">
 
 
@@ -54,8 +54,8 @@
 <meta name="twitter:creator" content="@h0bbel" />
 <meta name="twitter:title" content="Configuring VSAN on a Dell PowerEdge VRTX" />
 <meta name="twitter:description" content="" />
-<meta name="twitter:url" content="/virtualization/configuring-vsan-dell-poweredge-vrtx/" />
-<meta name="twitter:domain" content="/">
+<meta name="twitter:url" content="https://vninja.net/virtualization/configuring-vsan-dell-poweredge-vrtx/" />
+<meta name="twitter:domain" content="https://vninja.net">
   
 
   
@@ -70,17 +70,17 @@
     },
     "datePublished": "2014-02-19",
     "description": "",
-    "wordCount": 585
+    "wordCount": 579
   }
 </script>
   
 
 
 
-<link rel="canonical" href="/virtualization/configuring-vsan-dell-poweredge-vrtx/" />
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/touch-icon-144-precomposed.png">
-<link rel="icon" href="/favicon.png">
-<meta name="generator" content="Hugo 0.40.3" />
+<link rel="canonical" href="https://vninja.net/virtualization/configuring-vsan-dell-poweredge-vrtx/" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://vninja.net/touch-icon-144-precomposed.png">
+<link rel="icon" href="https://vninja.net/favicon.png">
+<meta name="generator" content="Hugo 0.42.2" />
 
   <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
@@ -89,18 +89,42 @@
 
 
 
-    <link rel="stylesheet" href="/css/bootswatch/lux/bootstrap.min.css">
+    <link rel="stylesheet" href="https://vninja.net/css/bootswatch/yeti/bootstrap.min.css">
 
 
-<link rel="stylesheet" href="/css/font-awesome.min.css">
-<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="https://vninja.net/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://vninja.net/css/style.css">
 
 
-<link rel="stylesheet" href="/css/style_custom.css">
+<link rel="stylesheet" href="https://vninja.net/css/style_custom.css">
 
 
 
-  <link rel="stylesheet" href="/css/highlight/default.css">
+  <link rel="stylesheet" href="https://vninja.net/css/highlight/default.css">
+
+
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+  <script>
+  window.addEventListener("load", function(){
+  window.cookieconsent.initialise({
+    "palette": {
+      "popup": {
+        "background": "#efefef",
+        "text": "#404040"
+      },
+      "button": {
+        "background": "#8ec760",
+        "text": "#ffffff"
+      }
+    },
+    "showLink": false,
+    "position": "bottom-right"
+  })});
+  </script>
+</script>
+
+
 
 
 </head>
@@ -116,7 +140,7 @@
           <span class="icon-bar"></span>
         </button>
         
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand" href="https://vninja.net/">
           vNinja.net
           
           
@@ -132,11 +156,7 @@
                   <ul class="dropdown-menu">
                     
                       <li class="">
-                        <a href="/about/christian-mohn/"><i class='fa fa-child'></i> About vNinja</a>
-                      </li>
-                    
-                      <li class="">
-                        <a href="/about/christian-mohn/"><i class='fa fa-child'></i> About Christian</a>
+                        <a href="https://vninja.net/about/christian-mohn/"><i class='fa fa-child'></i> About Christian</a>
                       </li>
                     
                   </ul>
@@ -145,11 +165,11 @@
             
             <li class="">
               
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class='fa fa-hand-lizard-o'></i> Site Policy <span class="caret"></span></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class='fa fa-asterisk'></i> Site Policy <span class="caret"></span></a>
                   <ul class="dropdown-menu">
                     
                       <li class="">
-                        <a href="/about/privacy-policy"><i class='fa fa-hand-lizard-o'></i> Privacy Policy</a>
+                        <a href="https://vninja.net/about/privacy-policy"><i class='fa fa-asterisk'></i> Privacy Policy</a>
                       </li>
                     
                   </ul>
@@ -158,9 +178,18 @@
             
             <li class="">
               
-                <a href="/advertising" >
+                <a href="https://vninja.net/advertising" >
                   <i class='fa fa-bank'></i>
                   Advertising
+                </a>
+              
+            </li>
+            
+            <li class="">
+              
+                <a href="https://vninja.net/post/index.xml" >
+                  <i class='fa fa-rss'></i>
+                  RSS
                 </a>
               
             </li>
@@ -200,45 +229,28 @@
     &middot; by Christian Mohn
   
   &middot; Read in about 3 min
-  &middot; (585 words)
+  &middot; (579 words)
   &middot; 
-<span class="share-box">Share this on:
-    <a href="https://www.facebook.com/sharer/sharer.php?u=%2fvirtualization%2fconfiguring-vsan-dell-poweredge-vrtx%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-facebook-official "></i></a>
 
-    <a href="https://twitter.com/intent/tweet?text=Configuring%20VSAN%20on%20a%20Dell%20PowerEdge%20VRTX&amp;url=%2fvirtualization%2fconfiguring-vsan-dell-poweredge-vrtx%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-twitter"></i></a>
-
-    <a href="https://plus.google.com/share?url=%2fvirtualization%2fconfiguring-vsan-dell-poweredge-vrtx%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-google-plus"></i></a>
-
-    <a href="http://www.reddit.com/submit?url=%2fvirtualization%2fconfiguring-vsan-dell-poweredge-vrtx%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-reddit"></i></a>
-
-    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fvirtualization%2fconfiguring-vsan-dell-poweredge-vrtx%2f&amp;title=Configuring%20VSAN%20on%20a%20Dell%20PowerEdge%20VRTX" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-linkedin"></i></a>
-
-    <a href="mailto:?subject=Configuring%20VSAN%20on%20a%20Dell%20PowerEdge%20VRTX&amp;body=Check out this site %2fvirtualization%2fconfiguring-vsan-dell-poweredge-vrtx%2f" data-proofer-ignore=""><i class="fa fa-envelope"></i></a>
-  </span>
 
   </small>
 
 <div class="margin-10">
   <i class="fa fa-tags"></i>
   
-  <a href="/tags/dell" class="label label-primary">Dell</a>
+  <a href="https://vninja.net/tags/dell" class="label label-primary">Dell</a>
   
-  <a href="/tags/esxi" class="label label-primary">ESXi</a>
+  <a href="https://vninja.net/tags/esxi" class="label label-primary">ESXi</a>
   
-  <a href="/tags/hardware" class="label label-primary">Hardware</a>
+  <a href="https://vninja.net/tags/hardware" class="label label-primary">Hardware</a>
   
-  <a href="/tags/storage" class="label label-primary">storage</a>
+  <a href="https://vninja.net/tags/storage" class="label label-primary">storage</a>
   
-  <a href="/tags/vmware" class="label label-primary">VMware</a>
+  <a href="https://vninja.net/tags/vmware" class="label label-primary">VMware</a>
   
-  <a href="/tags/vrtx" class="label label-primary">VRTX</a>
+  <a href="https://vninja.net/tags/vrtx" class="label label-primary">VRTX</a>
   
-  <a href="/tags/vsan" class="label label-primary">VSAN</a>
+  <a href="https://vninja.net/tags/vsan" class="label label-primary">VSAN</a>
   
 
 
@@ -252,11 +264,16 @@
 
 
       <div class="content">
-  <p><img src="http://vninja.net/wordpress/wp-content/uploads/2014/02/OriginalJPG.jpeg" alt="OriginalJPG" /></p>
+
+  
+
+  <p><img src="https://vninja.net/img/OriginalJPG.jpeg" alt="OriginalJPG" /></p>
 
 <p>The <a href="http://www.dell.com/us/business/p/poweredge-vrtx/pd">Dell PowerEdge VRTX shared infrastructure platform</a> is interesting, and I&rsquo;ve been lucky enough to be able to borrow one from Dell for testing purposes.</p>
 
 <p>One of the things I wanted to test, was if it was possible to run <a href="http://www.vmware.com/products/virtual-san">VMware VSAN</a> on it, even if the Shared PERC8 RAID controller it comes with is not on the <a href="http://www.vmware.com/resources/compatibility/search.php">VMware VSAN HCL</a>, nor does it provide a method to do passthrough to present raw disks directly to the hosts.</p>
+
+<p></p>
 
 <p>My test setup consists of:</p>
 
@@ -267,12 +284,7 @@
 <li><p>SPERC 8</p>
 
 <ul>
-<li>7 x 300GB 15k SAS drives
-
-
-
-
-<br /></li>
+<li>7 x 300GB 15k SAS drives</li>
 </ul></li>
 
 <li><p>2 x Dell PowerEdge M520 blades</p>
@@ -295,28 +307,26 @@
 
 <p>By creating several RAID0 Virtual Volumes on the controller, each one with only one disk in it, and assigning these disks to dedicated hosts in the chassis it is possible to present the disks to ESXi in a manner that VSAN can work with:</p>
 
-<p><a href="http://vninja.net/wordpress/wp-content/uploads/2014/02/CMC-FLBNZY1-Manage-Virtual-Disks-2014-02-18-13-14-41-2014-02-18-13-14-43.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2014/02/CMC-FLBNZY1-Manage-Virtual-Disks-2014-02-18-13-14-41-2014-02-18-13-14-43-1024x489.png" alt="Dell PowerEdge VRTX VSAN Virtual Disks" /></a></p>
+<p><a href="https://vninja.net/img/CMC-FLBNZY1-Manage-Virtual-Disks-2014-02-18-13-14-41-2014-02-18-13-14-43.png"><img src="https://vninja.net/img/CMC-FLBNZY1-Manage-Virtual-Disks-2014-02-18-13-14-41-2014-02-18-13-14-43-1024x489.png" alt="Dell PowerEdge VRTX VSAN Virtual Disks" /></a></p>
 
 <p>A total of six RAID0 volumes have been created, three for each host.</p>
 
-<p><a href="http://vninja.net/wordpress/wp-content/uploads/2014/02/CMC-FLBNZY1-Assign-Virtual-Disks-2014-02-18-13-15-45-2014-02-18-13-15-47.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2014/02/CMC-FLBNZY1-Assign-Virtual-Disks-2014-02-18-13-15-45-2014-02-18-13-15-47-1024x489.png" alt="Dell PowerEdge VRTX Disk Assignment" /></a></p>
+<p><a href="https://vninja.net/img/CMC-FLBNZY1-Assign-Virtual-Disks-2014-02-18-13-15-45-2014-02-18-13-15-47.png"><img src="https://vninja.net/img/CMC-FLBNZY1-Assign-Virtual-Disks-2014-02-18-13-15-45-2014-02-18-13-15-47-1024x489.png" alt="Dell PowerEdge VRTX Disk Assignment" /></a></p>
 
 <p>Each host gets granted exclusive access to three disks, resulting in them being presented as storage devices in vCenter</p>
 
-<p><a href="http://vninja.net/wordpress/wp-content/uploads/2014/02/RawDisksVRTX.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2014/02/RawDisksVRTX.png" alt="RawDisksVRTX" /></a></p>
+<p><a href="https://vninja.net/img/RawDisksVRTX.png"><img src="https://vninja.net/img/RawDisksVRTX.png" alt="RawDisksVRTX" /></a></p>
 
 <p>Since I don&rsquo;t have any SSD drives in the chassis, something that is a requirement of VSAN, I also had to fool ESXi into believing one of the drives was in fact SSD. This is done by changing the claim rule for the given device. Find the device ID in the vSphere Client, and run the following commands to mark it as an SSD:</p>
 
 <p>(Check <a href="http://kb.vmware.com/selfservice/microsites/search.do?language=en_US&amp;cmd=displayKC&amp;externalId=2013188">KB2013188 Enabling the SSD option on SSD based disks/LUNs that are not detected as SSD</a> by default for details.)</p>
 
-<p>[cc lang=&laquo;bash&raquo; width=&laquo;100%&raquo; theme=&laquo;blackboard&raquo; nowrap=&laquo;0&raquo;]
-~ # esxcli storage nmp satp rule add &ndash;satp VMW_SATP_LOCAL &ndash;device naa.6b8ca3a0edc7a9001a961838899ee72a &ndash;option=enable_ssd
-~ # esxcli storage core claiming reclaim -d naa.6b8ca3a0edc7a9001a961838899ee72a
-[/cc]</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">~ <span style="color:#75715e"># esxcli storage nmp satp rule add --satp VMW_SATP_LOCAL --device naa.6b8ca3a0edc7a9001a961838899ee72a --option=enable_ssd
+</span><span style="color:#75715e"></span>~ # esxcli storage core claiming reclaim -d naa.6b8ca3a0edc7a9001a961838899ee72a</code></pre></div>
 
 <p>Once that part is taken care of, the rest of the setup is done by following the VSAN setup guides found in the <a href="http://www.vsanbeta.com/">beta community</a>.</p>
 
-<p><a href="http://vninja.net/wordpress/wp-content/uploads/2014/02/New-Document-Royal-TSX-2014-02-19-12-27-47-2014-02-19-12-27-50.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2014/02/New-Document-Royal-TSX-2014-02-19-12-27-47-2014-02-19-12-27-50.png" alt="VSAN Configured" /></a></p>
+<p><a href="https://vninja.net/img/New-Document-Royal-TSX-2014-02-19-12-27-47-2014-02-19-12-27-50.png"><img src="https://vninja.net/img/New-Document-Royal-TSX-2014-02-19-12-27-47-2014-02-19-12-27-50.png" alt="VSAN Configured" /></a></p>
 
 <p>Two Dell PowerEdge M520 nodes up and running, with VSAN, replicating between them inside a Dell PowerEdge VRTX chassis. Pretty nifty!</p>
 
@@ -324,30 +334,12 @@
 
 <p>I did not do any performance testing on this setup, mostly since I don&rsquo;t have SSD&rsquo;s available for it, nor does it make much sense to do that kind of testing on a total of 6 HDD spindles;
 <strong>This is more a proof of concept setup than a production environment.</strong></p>
-
 </div>
 
 
       <footer>
   
-<span class="share-box">Share this on:
-    <a href="https://www.facebook.com/sharer/sharer.php?u=%2fvirtualization%2fconfiguring-vsan-dell-poweredge-vrtx%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-facebook-official "></i></a>
 
-    <a href="https://twitter.com/intent/tweet?text=Configuring%20VSAN%20on%20a%20Dell%20PowerEdge%20VRTX&amp;url=%2fvirtualization%2fconfiguring-vsan-dell-poweredge-vrtx%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-twitter"></i></a>
-
-    <a href="https://plus.google.com/share?url=%2fvirtualization%2fconfiguring-vsan-dell-poweredge-vrtx%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-google-plus"></i></a>
-
-    <a href="http://www.reddit.com/submit?url=%2fvirtualization%2fconfiguring-vsan-dell-poweredge-vrtx%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-reddit"></i></a>
-
-    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fvirtualization%2fconfiguring-vsan-dell-poweredge-vrtx%2f&amp;title=Configuring%20VSAN%20on%20a%20Dell%20PowerEdge%20VRTX" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-linkedin"></i></a>
-
-    <a href="mailto:?subject=Configuring%20VSAN%20on%20a%20Dell%20PowerEdge%20VRTX&amp;body=Check out this site %2fvirtualization%2fconfiguring-vsan-dell-poweredge-vrtx%2f" data-proofer-ignore=""><i class="fa fa-envelope"></i></a>
-  </span>
 
   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
       
@@ -355,7 +347,7 @@
     <nav><ul class="pager">
     
         <li class="previous">
-          <a href="/vmware-2/automatically-datastores-vsphere/" title="Automatically Name Datastores in vSphere?">
+          <a href="https://vninja.net/vmware-2/automatically-datastores-vsphere/" title="Automatically Name Datastores in vSphere?">
             <span aria-hidden="true">&larr;</span>Previous
           </a>
         </li>
@@ -363,7 +355,7 @@
 
     
       <li class="next">
-        <a href="/virtualization/rock-vote-2014/" title="Rock the Vote 2014">
+        <a href="https://vninja.net/virtualization/rock-vote-2014/" title="Rock the Vote 2014">
             Next <span aria-hidden="true">&rarr;</span>
         </a>
       </li>
@@ -384,24 +376,35 @@
     </div>
     
       <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-        <hr>
-<div>
+        <div>
   
 
     <div class="section">
-      <div class="ads">
-        <a href="http://turbonomic.com/resources/hybrid-cloud-intelligent-bursting-aws-microsoft-azure/?utm_source=vninja&amp;utm_medium=banner-ad&amp;utm_campaign=wp-path-to-hybrid-cloud&amp;utm_content=250x250"><img width="250" height="250" src="https://i1.wp.com/vninja.net/wordpress/wp-content/uploads/2017/11/wp-intelligent-bursting-aws-azure-250x250.png?zoom=2&amp;fit=250%2C250" alt="" title="wp-intelligent-bursting-aws-azure (250x250)" src-orig="https://i1.wp.com/vninja.net/wordpress/wp-content/uploads/2017/11/wp-intelligent-bursting-aws-azure-250x250.png?fit=250%2C250" scale="2"></a>
+      <h4>Sponsors</h4>
+      <div class="ads" id="veeam">
+        <ins class='dcmads' style='display:inline-block;width:250px;height:250px' data-dcm-placement='N410401.1772869VNINJA.NET/B10464038.145283149' data-dcm-rendering-mode='iframe' data-dcm-https-only data-dcm-resettable-device-id='' data-dcm-app-id=''> <script src='https://www.googletagservices.com/dcm/dcmads.js'></script> </ins>
       </div>
-      <div class="ads">
-        <a href="http://cohesity.com"><img width="250" height="250" src="https://i2.wp.com/vninja.net/wordpress/wp-content/uploads/2016/12/250x250_cohesity_ad-1.gif?zoom=2&amp;fit=250%2C250" alt="" title="250x250_cohesity_ad-1" src-orig="https://i2.wp.com/vninja.net/wordpress/wp-content/uploads/2016/12/250x250_cohesity_ad-1.gif?fit=250%2C250" scale="2"></a>
+      <div class="ads" id="turbonomic">
+        <a href="http://turbonomic.com/resources/hybrid-cloud-intelligent-bursting-aws-microsoft-azure/?utm_source=vninja&amp;utm_medium=banner-ad&amp;utm_campaign=wp-path-to-hybrid-cloud&amp;">
+          <img width="250" height="250" src="https://vninja.net/ads/wp-intelligent-bursting-aws-azure-250x250.png"></a>
       </div>
+      <div class="ads" id="goliath">
+        <a href="http://goliathtechnologies.com/performance-monitoring/application-desktop-virtualization/vmware-horizon-view-monitoring/?utm_source=VNINJA&#038;utm_medium=PARTNER-MKTG&#038;utm_campaign=PARTNER-MKTG-VNINJA"><img width="250" height="250" src='https://vninja.net/ads/VMwareHorizon.jpg' alt='' title='VMwareHorizon' /></a>
+      </div>
+      <div class="ads" id="vembu">
+        <a href="https://www.vembu.com/free-vm-backup/?utm_source=vninja.net&#038;utm_medium=Banner"><img width="250" height="250" src='https://vninja.net/ads/vembu250-250.gif'/></a>
+      </div>
+
+
     </div>
-<hr>
+
+    <hr>
     
       
       
       <div class="section">
-        sidebar 2
+
+
       </div>
       
     
@@ -425,9 +428,7 @@
 </div>
 <div class="pull-right">
 
-<a href="/disclaimer/">Disclaimer</a> <i>&middot;</i>
-
-<a href="/terms/">Terms</a> 
+<a href="https://vninja.net/disclaimer/">Disclaimer</a> <i>&middot;</i>
 
 </div>
 
@@ -446,7 +447,7 @@
     
 <div class="container copyright">
     <small>
-  &copy; 2018 Copyright my blog
+  &copy; 2018 Christian Mohn
 
   </small>
 </div>
@@ -461,17 +462,17 @@
 
     
 
-<script src="/js/jquery.min.js"></script>
-<script src="/js/bootstrap.min.js"></script>
+<script src="https://vninja.net/js/jquery.min.js"></script>
+<script src="https://vninja.net/js/bootstrap.min.js"></script>
 
 
-<script src="/js/highlight.pack.js"></script>
-<script src="/js/site.js"></script>
+<script src="https://vninja.net/js/highlight.pack.js"></script>
+<script src="https://vninja.net/js/site.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
 
 <script>
-  var _gaq=[['_setAccount','Your Google Analytics tracking code'],['_trackPageview']];
+  var _gaq=[['_setAccount','UA-121910549-1'],['_trackPageview']];
   (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
   g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
   s.parentNode.insertBefore(g,s)}(document,'script'));

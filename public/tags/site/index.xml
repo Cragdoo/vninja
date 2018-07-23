@@ -2,24 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Site on vNinja.net</title>
-    <link>/tags/site/</link>
+    <link>https://vninja.net/tags/site/</link>
     <description>Recent content in Site on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
-    <lastBuildDate>Mon, 21 Mar 2011 21:34:58 +0000</lastBuildDate>
+    <copyright>(c) 2018 Christian Mohn</copyright>
+    <lastBuildDate>Sun, 22 Jul 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/site/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/site/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Migrating From Wordpress to Hugo</title>
+      <link>https://vninja.net/2018/07/22/migrating-from-wordpress-to-hugo/</link>
+      <pubDate>Sun, 22 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vninja.net/2018/07/22/migrating-from-wordpress-to-hugo/</guid>
+      <description>Migrating From Wordpress to Hugo aka The Long and Winding Road  When I decided to move away from Wordpress and over to Hugo, I really had no concept of the amount of work it would be. Simply put; I just decided to do it — without really knowing what I set out to do.
+Once I had decided on a foundation theme, I chose the Hugo Bootstrap Premium as my starting point, the real work started.</description>
+    </item>
+    
+    <item>
+      <title>Hello, My Name Is Hugo (Montoya)</title>
+      <link>https://vninja.net/2018/07/19/hello-my-name-is-hugo/</link>
+      <pubDate>Thu, 19 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vninja.net/2018/07/19/hello-my-name-is-hugo/</guid>
+      <description>Goodbye Wordpress, hello Hugo! vNinja.net has been powered by Wordpress since it was launched back in 2010, and frankly it was time for a change. What really triggered it, was my hosting providers unwillingness to upgrade basic things, like PHP versions and MySQL. That combined with the security issues you have to live with when using traditional shared hosting made me look around for alternatives. While looking at hosting options, it slowly dawned on me that perhaps I should be looking at doing something completely different.</description>
+    </item>
+    
+    <item>
       <title>vNinja.net available also on vNinja.com</title>
-      <link>/news/vninja-net-available-also-on-vninja-com/</link>
+      <link>https://vninja.net/news/vninja-net-available-also-on-vninja-com/</link>
       <pubDate>Mon, 21 Mar 2011 21:34:58 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/news/vninja-net-available-also-on-vninja-com/</guid>
+      
+      <guid>https://vninja.net/news/vninja-net-available-also-on-vninja-com/</guid>
       <description>Thanks to the generosity of Todd Wright vNinja.net is now also available via vNinja.com. Todd came out of nowhere and offered to redirect his vNinja.com domain to vNinja.net, since he didn&amp;rsquo;t have time to do anything with it himself.
 I&amp;rsquo;m very grateful that Todd wanted to do this, and thanks to some quick Apache trickery .com now redirects to .net to make sure Google doesn&amp;rsquo;t find and penalize any double content.</description>
     </item>

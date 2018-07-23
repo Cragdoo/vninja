@@ -2,24 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vmworld 2012 on vNinja.net</title>
-    <link>/tags/vmworld-2012/</link>
+    <link>https://vninja.net/tags/vmworld-2012/</link>
     <description>Recent content in Vmworld 2012 on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Sun, 22 Jul 2012 17:49:01 +0000</lastBuildDate>
     
-	<atom:link href="/tags/vmworld-2012/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/vmworld-2012/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>10 minute lightning Tech Talk at VMworld?</title>
-      <link>/vmware-2/techtalks-at-vmworld2012/</link>
+      <link>https://vninja.net/vmware-2/techtalks-at-vmworld2012/</link>
       <pubDate>Sun, 22 Jul 2012 17:49:01 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/vmware-2/techtalks-at-vmworld2012/</guid>
+      
+      <guid>https://vninja.net/vmware-2/techtalks-at-vmworld2012/</guid>
       <description>I love it when a plan comes together, especially when someone gets an idea and then someone fires on all cylinders and executes!
 As mentioned before, there has been a lot of talk about various ways to create a &amp;laquo;soapbox&amp;raquo; for all those who submitted VMworld sessions and got rejected, or those who did not submit but would still like to present.
 Thankfully the guys behind vBrownBags has teamed up with VMware communities and are now offering this opportunity at VMworld 2012.</description>

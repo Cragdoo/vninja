@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Log Insight on vNinja.net</title>
-    <link>/tags/log-insight/</link>
+    <link>https://vninja.net/tags/log-insight/</link>
     <description>Recent content in Log Insight on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Wed, 23 Nov 2016 17:37:07 +0000</lastBuildDate>
     
-	<atom:link href="/tags/log-insight/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/log-insight/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Got VMware vRealize Log Insight?</title>
-      <link>/virtualization/got-vmware-vrealize-log-insight/</link>
+      <link>https://vninja.net/virtualization/got-vmware-vrealize-log-insight/</link>
       <pubDate>Wed, 23 Nov 2016 17:37:07 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/got-vmware-vrealize-log-insight/</guid>
-      <description>Recent conversations with existing and potential clients made me realize that many are not aware that they most likely are entitled to use VMware vRealize Log Insight in their environment. For free.
-Back in March 2016 VMware announced that everyone with a valid VMware vCenter license are also entitled to 25-OSI pack of vRealize Log Insight for vCenter Server. This means that you can gather logs for up to 25 ESXi hosts, VMs or other devices, in your environment.</description>
+      
+      <guid>https://vninja.net/virtualization/got-vmware-vrealize-log-insight/</guid>
+      <description>&lt;p&gt;Recent conversations with existing and potential clients made me realize that many are not aware that they most likely are entitled to use &lt;a href=&#34;http://www.vmware.com/products/vrealize-log-insight.html&#34;&gt;VMware vRealize Log Insight&lt;/a&gt; in their environment. &lt;em&gt;For free.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Back in March 2016 VMware announced that everyone with a valid VMware vCenter license are also entitled to  25-OSI pack of vRealize Log Insight for vCenter Server. This means that you can gather logs for up to 25 ESXi hosts, VMs or other devices, in your environment.
+&lt;/p&gt;</description>
     </item>
     
   </channel>

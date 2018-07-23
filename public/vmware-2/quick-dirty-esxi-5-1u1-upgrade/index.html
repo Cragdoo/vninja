@@ -21,7 +21,7 @@
 
 <meta property="og:title" content="Quick and Dirty ESXi 5.1U1 Upgrade  &middot; vNinja.net ">
 <meta property="og:site_name" content="vNinja.net"/>
-<meta property="og:url" content="/vmware-2/quick-dirty-esxi-5-1u1-upgrade/" />
+<meta property="og:url" content="https://vninja.net/vmware-2/quick-dirty-esxi-5-1u1-upgrade/" />
 <meta property="og:locale" content="en">
 
 
@@ -50,8 +50,8 @@
 <meta name="twitter:creator" content="@h0bbel" />
 <meta name="twitter:title" content="Quick and Dirty ESXi 5.1U1 Upgrade" />
 <meta name="twitter:description" content="" />
-<meta name="twitter:url" content="/vmware-2/quick-dirty-esxi-5-1u1-upgrade/" />
-<meta name="twitter:domain" content="/">
+<meta name="twitter:url" content="https://vninja.net/vmware-2/quick-dirty-esxi-5-1u1-upgrade/" />
+<meta name="twitter:domain" content="https://vninja.net">
   
 
   
@@ -66,17 +66,17 @@
     },
     "datePublished": "2013-04-26",
     "description": "",
-    "wordCount": 455
+    "wordCount": 438
   }
 </script>
   
 
 
 
-<link rel="canonical" href="/vmware-2/quick-dirty-esxi-5-1u1-upgrade/" />
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/touch-icon-144-precomposed.png">
-<link rel="icon" href="/favicon.png">
-<meta name="generator" content="Hugo 0.40.3" />
+<link rel="canonical" href="https://vninja.net/vmware-2/quick-dirty-esxi-5-1u1-upgrade/" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://vninja.net/touch-icon-144-precomposed.png">
+<link rel="icon" href="https://vninja.net/favicon.png">
+<meta name="generator" content="Hugo 0.42.2" />
 
   <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
@@ -85,18 +85,42 @@
 
 
 
-    <link rel="stylesheet" href="/css/bootswatch/lux/bootstrap.min.css">
+    <link rel="stylesheet" href="https://vninja.net/css/bootswatch/yeti/bootstrap.min.css">
 
 
-<link rel="stylesheet" href="/css/font-awesome.min.css">
-<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="https://vninja.net/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://vninja.net/css/style.css">
 
 
-<link rel="stylesheet" href="/css/style_custom.css">
+<link rel="stylesheet" href="https://vninja.net/css/style_custom.css">
 
 
 
-  <link rel="stylesheet" href="/css/highlight/default.css">
+  <link rel="stylesheet" href="https://vninja.net/css/highlight/default.css">
+
+
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+  <script>
+  window.addEventListener("load", function(){
+  window.cookieconsent.initialise({
+    "palette": {
+      "popup": {
+        "background": "#efefef",
+        "text": "#404040"
+      },
+      "button": {
+        "background": "#8ec760",
+        "text": "#ffffff"
+      }
+    },
+    "showLink": false,
+    "position": "bottom-right"
+  })});
+  </script>
+</script>
+
+
 
 
 </head>
@@ -112,7 +136,7 @@
           <span class="icon-bar"></span>
         </button>
         
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand" href="https://vninja.net/">
           vNinja.net
           
           
@@ -128,11 +152,7 @@
                   <ul class="dropdown-menu">
                     
                       <li class="">
-                        <a href="/about/christian-mohn/"><i class='fa fa-child'></i> About vNinja</a>
-                      </li>
-                    
-                      <li class="">
-                        <a href="/about/christian-mohn/"><i class='fa fa-child'></i> About Christian</a>
+                        <a href="https://vninja.net/about/christian-mohn/"><i class='fa fa-child'></i> About Christian</a>
                       </li>
                     
                   </ul>
@@ -141,11 +161,11 @@
             
             <li class="">
               
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class='fa fa-hand-lizard-o'></i> Site Policy <span class="caret"></span></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class='fa fa-asterisk'></i> Site Policy <span class="caret"></span></a>
                   <ul class="dropdown-menu">
                     
                       <li class="">
-                        <a href="/about/privacy-policy"><i class='fa fa-hand-lizard-o'></i> Privacy Policy</a>
+                        <a href="https://vninja.net/about/privacy-policy"><i class='fa fa-asterisk'></i> Privacy Policy</a>
                       </li>
                     
                   </ul>
@@ -154,9 +174,18 @@
             
             <li class="">
               
-                <a href="/advertising" >
+                <a href="https://vninja.net/advertising" >
                   <i class='fa fa-bank'></i>
                   Advertising
+                </a>
+              
+            </li>
+            
+            <li class="">
+              
+                <a href="https://vninja.net/post/index.xml" >
+                  <i class='fa fa-rss'></i>
+                  RSS
                 </a>
               
             </li>
@@ -196,41 +225,24 @@
     &middot; by Christian Mohn
   
   &middot; Read in about 3 min
-  &middot; (455 words)
+  &middot; (438 words)
   &middot; 
-<span class="share-box">Share this on:
-    <a href="https://www.facebook.com/sharer/sharer.php?u=%2fvmware-2%2fquick-dirty-esxi-5-1u1-upgrade%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-facebook-official "></i></a>
 
-    <a href="https://twitter.com/intent/tweet?text=Quick%20and%20Dirty%20ESXi%205.1U1%20Upgrade&amp;url=%2fvmware-2%2fquick-dirty-esxi-5-1u1-upgrade%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-twitter"></i></a>
-
-    <a href="https://plus.google.com/share?url=%2fvmware-2%2fquick-dirty-esxi-5-1u1-upgrade%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-google-plus"></i></a>
-
-    <a href="http://www.reddit.com/submit?url=%2fvmware-2%2fquick-dirty-esxi-5-1u1-upgrade%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-reddit"></i></a>
-
-    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fvmware-2%2fquick-dirty-esxi-5-1u1-upgrade%2f&amp;title=Quick%20and%20Dirty%20ESXi%205.1U1%20Upgrade" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-linkedin"></i></a>
-
-    <a href="mailto:?subject=Quick%20and%20Dirty%20ESXi%205.1U1%20Upgrade&amp;body=Check out this site %2fvmware-2%2fquick-dirty-esxi-5-1u1-upgrade%2f" data-proofer-ignore=""><i class="fa fa-envelope"></i></a>
-  </span>
 
   </small>
 
 <div class="margin-10">
   <i class="fa fa-tags"></i>
   
-  <a href="/tags/command-line" class="label label-primary">Command Line</a>
+  <a href="https://vninja.net/tags/command-line" class="label label-primary">Command Line</a>
   
-  <a href="/tags/esxi" class="label label-primary">ESXi</a>
+  <a href="https://vninja.net/tags/esxi" class="label label-primary">ESXi</a>
   
-  <a href="/tags/host" class="label label-primary">Host</a>
+  <a href="https://vninja.net/tags/host" class="label label-primary">Host</a>
   
-  <a href="/tags/upgrade" class="label label-primary">Upgrade</a>
+  <a href="https://vninja.net/tags/upgrade" class="label label-primary">Upgrade</a>
   
-  <a href="/tags/vmware" class="label label-primary">VMware</a>
+  <a href="https://vninja.net/tags/vmware" class="label label-primary">VMware</a>
   
 
 
@@ -244,6 +256,9 @@
 
 
       <div class="content">
+
+  
+
   <p>Now that <a href="http://www.vmware.com/support/vsphere5/doc/vsphere-esxi-51u1-release-notes.html">VMware ESXi 5.1 Update 1</a> has been released I decided to do a quick and dirty upgrade of my home installation. I refuse to call it a lab these days, since it´s one singular host and all it does it contain my home domain controller&hellip;</p>
 
 <p>Anyway, the following procedure upgraded the host from 5.1b to 5.1U1, by downloading the upgrade directly from VMware and installing it. <strong>Make sure the host is in maintenance mode before attempting this procedure.</strong></p>
@@ -252,38 +267,32 @@
 
 <p>SSH into your host, and issue the following command:</p>
 
-<p>[cc lang=&laquo;bash&raquo; width=&laquo;100%&raquo; theme=&laquo;blackboard&raquo; nowrap=&laquo;0&raquo;]
-~ # esxcli software profile update -d <a href="https://hostupdate.vmware.com/software/VUM/PRODUCTION/main/vmw-depot-index.xml">https://hostupdate.vmware.com/software/VUM/PRODUCTION/main/vmw-depot-index.xml</a> -p ESXi-5.1.0-20130402001-standard
-[/cc]</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">~ # esxcli software profile update -d https://hostupdate.vmware.com/software/VUM/PRODUCTION/main/vmw-depot-index.xml -p ESXi-5.1.0-20130402001-standard</code></pre></div>
 
 <p>This will initiate a download of the new ESXi version and install the update automatically, beware that it will not show any progress bar or indication while the file is being downloaded from the VMware repository.</p>
 
 <p>The command above will only work, as <a href="http://twitter.com/ErikBussink">Erik</a> pointed out in the <a href="http://vninja.net/vmware-2/quick-dirty-esxi-5-1u1-upgrade/#comment-12275">comments</a>, if you have allowed the httpClient outgoing access on the ESXi server. If not, you can enable it by running the following command on the host (or by using the vSphere Client):
-[cc lang=&laquo;bash&raquo; width=&laquo;100%&raquo; theme=&laquo;blackboard&raquo; nowrap=&laquo;0&raquo;]
-~ # esxcli network firewall ruleset set -e true -r httpClient
-[/cc]</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">~ # esxcli network firewall ruleset set -e true -r httpClient</code></pre></div></p>
 
 <p>You can of course monitor your download with the vSphere Client (web or otherwise), to make sure nothing has stopped.</p>
 
-<p><a href="http://vninja.net/wordpress/wp-content/uploads/2013/04/QuickDirtyUpgrade011.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2013/04/QuickDirtyUpgrade011-300x83.png" alt="QuickDirtyUpgrade01" /></a></p>
+<p><a href="https://vninja.net/img/QuickDirtyUpgrade011.png"><img src="https://vninja.net/img/QuickDirtyUpgrade011-300x83.png" alt="QuickDirtyUpgrade01" /></a></p>
 
 <p>You can also monitor the upgrade process by looking at the VMware logs <a href="http://vninja.net/vmware-2/monitoring-esxi-upgrade-process/">Monitoring the ESXi Upgrade Process</a> as Paul suggested in the <a href="http://vninja.net/vmware-2/quick-dirty-esxi-5-1u1-upgrade/#comment-12609">comments</a>.</p>
 
 <p>Once it´s done, it will look like this:</p>
 
-<p>[cc lang=&laquo;bash&raquo; width=&laquo;100%&raquo; theme=&laquo;blackboard&raquo; nowrap=&laquo;0&raquo;]</p>
-
-<p>Update Result
-Message: The update completed successfully, but the system needs to be rebooted for the changes to be effective.
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">Update Result
+Message: The update completed successfully, but the system needs to be rebooted <span style="color:#66d9ef">for</span> the changes to be effective.
 Reboot Required: true
 VIBs Installed: VMware_bootbank_esx-base_5.1.0-1.12.1065491, VMware_bootbank_esx-xserver_5.1.0-0.11.1063671, VMware_bootbank_ipmi-ipmi-si-drv_39.1-4vmw.510.1.12.1065491, VMware_bootbank_misc-drivers_5.1.0-1.12.1065491, VMware_bootbank_net-bnx2_2.0.15g.v50.11-7vmw.510.1.12.1065491, VMware_bootbank_net-bnx2x_1.61.15.v50.3-1vmw.510.0.11.1063671, VMware_bootbank_net-e1000e_1.1.2-3vmw.510.1.12.1065491, VMware_bootbank_net-igb_2.1.11.1-3vmw.510.1.12.1065491, VMware_bootbank_net-ixgbe_3.7.13.6iov-10vmw.510.1.12.1065491, VMware_bootbank_net-tg3_3.123b.v50.1-1vmw.510.1.12.1065491, VMware_bootbank_scsi-megaraid-sas_5.34-4vmw.510.1.12.1065491, VMware_locker_tools-light_5.1.0-1.12.1065491
 VIBs Removed: VMware_bootbank_esx-base_5.1.0-0.10.1021289, VMware_bootbank_esx-xserver_5.1.0-0.0.799733, VMware_bootbank_ipmi-ipmi-si-drv_39.1-4vmw.510.0.0.799733, VMware_bootbank_misc-drivers_5.1.0-0.0.799733, VMware_bootbank_net-bnx2_2.0.15g.v50.11-7vmw.510.0.0.799733, VMware_bootbank_net-bnx2x_1.61.15.v50.3-1vmw.510.0.0.799733, VMware_bootbank_net-e1000e_1.1.2-3vmw.510.0.0.799733, VMware_bootbank_net-igb_2.1.11.1-3vmw.510.0.0.799733, VMware_bootbank_net-ixgbe_3.7.13.6iov-10vmw.510.0.0.799733, VMware_bootbank_net-tg3_3.110h.v50.4-4vmw.510.0.0.799733, VMware_bootbank_scsi-megaraid-sas_5.34-4vmw.510.0.0.799733, VMware_locker_tools-light_5.1.0-0.9.914609
 VIBs Skipped: VMware_bootbank_ata-pata-amd_0.3.10-3vmw.510.0.0.799733, VMware_bootbank_ata-pata-atiixp_0.4.6-4vmw.510.0.0.799733, VMware_bootbank_ata-pata-cmd64x_0.2.5-3vmw.510.0.0.799733, VMware_bootbank_ata-pata-hpt3x2n_0.3.4-3vmw.510.0.0.799733, VMware_bootbank_ata-pata-pdc2027x_1.0-3vmw.510.0.0.799733, VMware_bootbank_ata-pata-serverworks_0.4.3-3vmw.510.0.0.799733, VMware_bootbank_ata-pata-sil680_0.4.8-3vmw.510.0.0.799733, VMware_bootbank_ata-pata-via_0.3.3-2vmw.510.0.0.799733, VMware_bootbank_block-cciss_3.6.14-10vmw.510.0.0.799733, VMware_bootbank_ehci-ehci-hcd_1.0-3vmw.510.0.0.799733, VMware_bootbank_esx-dvfilter-generic-fastpath_5.1.0-0.0.799733, VMware_bootbank_esx-tboot_5.1.0-0.0.799733, VMware_bootbank_esx-xlibs_5.1.0-0.0.799733, VMware_bootbank_ima-qla4xxx_2.01.31-1vmw.510.0.0.799733, VMware_bootbank_ipmi-ipmi-devintf_39.1-4vmw.510.0.0.799733, VMware_bootbank_ipmi-ipmi-msghandler_39.1-4vmw.510.0.0.799733, VMware_bootbank_misc-cnic-register_1.1-1vmw.510.0.0.799733, VMware_bootbank_net-be2net_4.1.255.11-1vmw.510.0.0.799733, VMware_bootbank_net-cnic_1.10.2j.v50.7-3vmw.510.0.0.799733, VMware_bootbank_net-e1000_8.0.3.1-2vmw.510.0.0.799733, VMware_bootbank_net-enic_1.4.2.15a-1vmw.510.0.0.799733, VMware_bootbank_net-forcedeth_0.61-2vmw.510.0.0.799733, VMware_bootbank_net-nx-nic_4.0.558-3vmw.510.0.0.799733, VMware_bootbank_net-r8168_8.013.00-3vmw.510.0.0.799733, VMware_bootbank_net-r8169_6.011.00-2vmw.510.0.0.799733, VMware_bootbank_net-s2io_2.1.4.13427-3vmw.510.0.0.799733, VMware_bootbank_net-sky2_1.20-2vmw.510.0.0.799733, VMware_bootbank_net-vmxnet3_1.1.3.0-3vmw.510.0.0.799733, VMware_bootbank_ohci-usb-ohci_1.0-3vmw.510.0.0.799733, VMware_bootbank_sata-ahci_3.0-13vmw.510.0.0.799733, VMware_bootbank_sata-ata-piix_2.12-6vmw.510.0.0.799733, VMware_bootbank_sata-sata-nv_3.5-4vmw.510.0.0.799733, VMware_bootbank_sata-sata-promise_2.12-3vmw.510.0.0.799733, VMware_bootbank_sata-sata-sil24_1.1-1vmw.510.0.0.799733, VMware_bootbank_sata-sata-sil_2.3-4vmw.510.0.0.799733, VMware_bootbank_sata-sata-svw_2.3-3vmw.510.0.0.799733, VMware_bootbank_scsi-aacraid_1.1.5.1-9vmw.510.0.0.799733, VMware_bootbank_scsi-adp94xx_1.0.8.12-6vmw.510.0.0.799733, VMware_bootbank_scsi-aic79xx_3.1-5vmw.510.0.0.799733, VMware_bootbank_scsi-bnx2i_1.9.1d.v50.1-5vmw.510.0.0.799733, VMware_bootbank_scsi-fnic_1.5.0.3-1vmw.510.0.0.799733, VMware_bootbank_scsi-hpsa_5.0.0-21vmw.510.0.0.799733, VMware_bootbank_scsi-ips_7.12.05-4vmw.510.0.0.799733, VMware_bootbank_scsi-lpfc820_8.2.3.1-127vmw.510.0.0.799733, VMware_bootbank_scsi-megaraid-mbox_2.20.5.1-6vmw.510.0.0.799733, VMware_bootbank_scsi-megaraid2_2.00.4-9vmw.510.0.0.799733, VMware_bootbank_scsi-mpt2sas_10.00.00.00-5vmw.510.0.0.799733, VMware_bootbank_scsi-mptsas_4.23.01.00-6vmw.510.0.0.799733, VMware_bootbank_scsi-mptspi_4.23.01.00-6vmw.510.0.0.799733, VMware_bootbank_scsi-qla2xxx_902.k1.1-9vmw.510.0.0.799733, VMware_bootbank_scsi-qla4xxx_5.01.03.2-4vmw.510.0.0.799733, VMware_bootbank_scsi-rste_2.0.2.0088-1vmw.510.0.0.799733, VMware_bootbank_uhci-usb-uhci_1.0-3vmw.510.0.0.799733
-~ #[/cc]</p>
+~ #</code></pre></div>
 
 <p>Reboot your host, and behold the glory of the new ESXi 5.1 Update 1 version!</p>
 
-<p><a href="http://vninja.net/wordpress/wp-content/uploads/2013/04/QuickDirtyUpgrade022.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2013/04/QuickDirtyUpgrade022-300x65.png" alt="QuickDirtyUpgrade02" /></a></p>
+<p><a href="https://vninja.net/img/QuickDirtyUpgrade022.png"><img src="https://vninja.net/img/QuickDirtyUpgrade022-300x65.png" alt="QuickDirtyUpgrade02" /></a></p>
 
 <p>If you want to know how to figure out how to find the correct URL and file, check out William Lam´s excellent <a href="http://www.virtuallyghetto.com/2012/09/a-pretty-cool-method-of-upgrading-to.html">A Pretty Cool Method of Upgrading to ESXi 5.1</a> post, which provides more details.</p>
 
@@ -295,24 +304,7 @@ _</p>
 
       <footer>
   
-<span class="share-box">Share this on:
-    <a href="https://www.facebook.com/sharer/sharer.php?u=%2fvmware-2%2fquick-dirty-esxi-5-1u1-upgrade%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-facebook-official "></i></a>
 
-    <a href="https://twitter.com/intent/tweet?text=Quick%20and%20Dirty%20ESXi%205.1U1%20Upgrade&amp;url=%2fvmware-2%2fquick-dirty-esxi-5-1u1-upgrade%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-twitter"></i></a>
-
-    <a href="https://plus.google.com/share?url=%2fvmware-2%2fquick-dirty-esxi-5-1u1-upgrade%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-google-plus"></i></a>
-
-    <a href="http://www.reddit.com/submit?url=%2fvmware-2%2fquick-dirty-esxi-5-1u1-upgrade%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-reddit"></i></a>
-
-    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fvmware-2%2fquick-dirty-esxi-5-1u1-upgrade%2f&amp;title=Quick%20and%20Dirty%20ESXi%205.1U1%20Upgrade" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-linkedin"></i></a>
-
-    <a href="mailto:?subject=Quick%20and%20Dirty%20ESXi%205.1U1%20Upgrade&amp;body=Check out this site %2fvmware-2%2fquick-dirty-esxi-5-1u1-upgrade%2f" data-proofer-ignore=""><i class="fa fa-envelope"></i></a>
-  </span>
 
   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
       
@@ -320,7 +312,7 @@ _</p>
     <nav><ul class="pager">
     
         <li class="previous">
-          <a href="/virtualization/adding-secondary-nic-vcenter-5-1-appliance-vcsa/" title="Adding a secondary NIC to the vCenter 5.1 Appliance (VCSA)">
+          <a href="https://vninja.net/virtualization/adding-secondary-nic-vcenter-5-1-appliance-vcsa/" title="Adding a secondary NIC to the vCenter 5.1 Appliance (VCSA)">
             <span aria-hidden="true">&larr;</span>Previous
           </a>
         </li>
@@ -328,7 +320,7 @@ _</p>
 
     
       <li class="next">
-        <a href="/virtualization/quick-and-dirty-http-based-deployment/" title="Quick and Dirty HTTP Based Deployment">
+        <a href="https://vninja.net/virtualization/quick-and-dirty-http-based-deployment/" title="Quick and Dirty HTTP Based Deployment">
             Next <span aria-hidden="true">&rarr;</span>
         </a>
       </li>
@@ -349,24 +341,35 @@ _</p>
     </div>
     
       <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-        <hr>
-<div>
+        <div>
   
 
     <div class="section">
-      <div class="ads">
-        <a href="http://turbonomic.com/resources/hybrid-cloud-intelligent-bursting-aws-microsoft-azure/?utm_source=vninja&amp;utm_medium=banner-ad&amp;utm_campaign=wp-path-to-hybrid-cloud&amp;utm_content=250x250"><img width="250" height="250" src="https://i1.wp.com/vninja.net/wordpress/wp-content/uploads/2017/11/wp-intelligent-bursting-aws-azure-250x250.png?zoom=2&amp;fit=250%2C250" alt="" title="wp-intelligent-bursting-aws-azure (250x250)" src-orig="https://i1.wp.com/vninja.net/wordpress/wp-content/uploads/2017/11/wp-intelligent-bursting-aws-azure-250x250.png?fit=250%2C250" scale="2"></a>
+      <h4>Sponsors</h4>
+      <div class="ads" id="veeam">
+        <ins class='dcmads' style='display:inline-block;width:250px;height:250px' data-dcm-placement='N410401.1772869VNINJA.NET/B10464038.145283149' data-dcm-rendering-mode='iframe' data-dcm-https-only data-dcm-resettable-device-id='' data-dcm-app-id=''> <script src='https://www.googletagservices.com/dcm/dcmads.js'></script> </ins>
       </div>
-      <div class="ads">
-        <a href="http://cohesity.com"><img width="250" height="250" src="https://i2.wp.com/vninja.net/wordpress/wp-content/uploads/2016/12/250x250_cohesity_ad-1.gif?zoom=2&amp;fit=250%2C250" alt="" title="250x250_cohesity_ad-1" src-orig="https://i2.wp.com/vninja.net/wordpress/wp-content/uploads/2016/12/250x250_cohesity_ad-1.gif?fit=250%2C250" scale="2"></a>
+      <div class="ads" id="turbonomic">
+        <a href="http://turbonomic.com/resources/hybrid-cloud-intelligent-bursting-aws-microsoft-azure/?utm_source=vninja&amp;utm_medium=banner-ad&amp;utm_campaign=wp-path-to-hybrid-cloud&amp;">
+          <img width="250" height="250" src="https://vninja.net/ads/wp-intelligent-bursting-aws-azure-250x250.png"></a>
       </div>
+      <div class="ads" id="goliath">
+        <a href="http://goliathtechnologies.com/performance-monitoring/application-desktop-virtualization/vmware-horizon-view-monitoring/?utm_source=VNINJA&#038;utm_medium=PARTNER-MKTG&#038;utm_campaign=PARTNER-MKTG-VNINJA"><img width="250" height="250" src='https://vninja.net/ads/VMwareHorizon.jpg' alt='' title='VMwareHorizon' /></a>
+      </div>
+      <div class="ads" id="vembu">
+        <a href="https://www.vembu.com/free-vm-backup/?utm_source=vninja.net&#038;utm_medium=Banner"><img width="250" height="250" src='https://vninja.net/ads/vembu250-250.gif'/></a>
+      </div>
+
+
     </div>
-<hr>
+
+    <hr>
     
       
       
       <div class="section">
-        sidebar 2
+
+
       </div>
       
     
@@ -390,9 +393,7 @@ _</p>
 </div>
 <div class="pull-right">
 
-<a href="/disclaimer/">Disclaimer</a> <i>&middot;</i>
-
-<a href="/terms/">Terms</a> 
+<a href="https://vninja.net/disclaimer/">Disclaimer</a> <i>&middot;</i>
 
 </div>
 
@@ -411,7 +412,7 @@ _</p>
     
 <div class="container copyright">
     <small>
-  &copy; 2018 Copyright my blog
+  &copy; 2018 Christian Mohn
 
   </small>
 </div>
@@ -426,17 +427,17 @@ _</p>
 
     
 
-<script src="/js/jquery.min.js"></script>
-<script src="/js/bootstrap.min.js"></script>
+<script src="https://vninja.net/js/jquery.min.js"></script>
+<script src="https://vninja.net/js/bootstrap.min.js"></script>
 
 
-<script src="/js/highlight.pack.js"></script>
-<script src="/js/site.js"></script>
+<script src="https://vninja.net/js/highlight.pack.js"></script>
+<script src="https://vninja.net/js/site.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
 
 <script>
-  var _gaq=[['_setAccount','Your Google Analytics tracking code'],['_trackPageview']];
+  var _gaq=[['_setAccount','UA-121910549-1'],['_trackPageview']];
   (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
   g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
   s.parentNode.insertBefore(g,s)}(document,'script'));

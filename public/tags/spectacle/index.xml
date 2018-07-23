@@ -2,26 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Spectacle on vNinja.net</title>
-    <link>/tags/spectacle/</link>
+    <link>https://vninja.net/tags/spectacle/</link>
     <description>Recent content in Spectacle on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Thu, 24 Nov 2016 09:45:10 +0000</lastBuildDate>
     
-	<atom:link href="/tags/spectacle/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/spectacle/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>macOS: Spectacle</title>
-      <link>/osx/macos-spectacle/</link>
+      <link>https://vninja.net/osx/macos-spectacle/</link>
       <pubDate>Thu, 24 Nov 2016 09:45:10 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/osx/macos-spectacle/</guid>
-      <description>Working with the keyboard to move resize, focus and arrange your applications is a great productivity tip. When I changed from Windows to macOS a few years ago, I had a pretty convoluted setup based on Slate for managing keyboard shortcuts, especially for moving applications around, but this has since been simplified by using Spectacle instead of Slate.
-Spectacle has everything I need, especially keyboard shortcuts for maximising an application, of &amp;laquo;flinging&amp;raquo; it over to another display.</description>
+      
+      <guid>https://vninja.net/osx/macos-spectacle/</guid>
+      <description>&lt;p&gt;Working with the keyboard to move resize, focus and arrange your applications is a great productivity tip. When I changed from Windows to macOS a few years ago, I had a pretty &lt;a href=&#34;http://vninja.net/osx/slate-setup/&#34;&gt;convoluted setup based on Slate&lt;/a&gt; for managing keyboard shortcuts, especially for moving applications around, but this has since been simplified by using &lt;a href=&#34;https://www.spectacleapp.com&#34;&gt;Spectacle&lt;/a&gt; instead of Slate.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

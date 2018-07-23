@@ -2,43 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vsphere 5 on vNinja.net</title>
-    <link>/tags/vsphere-5/</link>
+    <link>https://vninja.net/tags/vsphere-5/</link>
     <description>Recent content in Vsphere 5 on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Fri, 30 Nov 2012 09:12:50 +0000</lastBuildDate>
     
-	<atom:link href="/tags/vsphere-5/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/vsphere-5/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Exporting vCenter Events with PowerCLI</title>
-      <link>/virtualization/exporting-vcenter-events-powercli/</link>
+      <link>https://vninja.net/virtualization/exporting-vcenter-events-powercli/</link>
       <pubDate>Fri, 30 Nov 2012 09:12:50 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/exporting-vcenter-events-powercli/</guid>
+      
+      <guid>https://vninja.net/virtualization/exporting-vcenter-events-powercli/</guid>
       <description>One of my clients has recently been having issues with their storage solution, and wanted to export the events from vCenter that show storage performance degradation, to aid in troubleshooting with the vendor.
 For some reason, and I have yet to confirm that this is a bug with the vCenter 5.0 appliance or the vCenter Desktop Client, when an event export is done, the storage related events are not exported with the rest of the events.</description>
     </item>
     
     <item>
       <title>Testing VMware vSphere 5 Swap to Host Cache</title>
-      <link>/vmware-2/testing-vmware-vsphere-5-swap-to-host-cache/</link>
+      <link>https://vninja.net/vmware-2/testing-vmware-vsphere-5-swap-to-host-cache/</link>
       <pubDate>Tue, 22 Nov 2011 22:59:30 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/vmware-2/testing-vmware-vsphere-5-swap-to-host-cache/</guid>
+      
+      <guid>https://vninja.net/vmware-2/testing-vmware-vsphere-5-swap-to-host-cache/</guid>
       <description>A little while ago I fitted a small 64GB SSD disk to my HP MicroServer just to have a quick look at the new vSphere 5 feature Swap to Host Cache, where vSphere 5 reclaims memory by storing the swapped out pages in the host cache on a solid-state drive. Naturally, this is a lot faster than swapping to non-SSD storage, but you will still see a performance hit when this happens.</description>
     </item>
     
     <item>
       <title>vSphere 5: ESXi Installation Video</title>
-      <link>/virtualization/vsphere-5-esxi-installation-video/</link>
+      <link>https://vninja.net/virtualization/vsphere-5-esxi-installation-video/</link>
       <pubDate>Thu, 25 Aug 2011 09:28:03 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/vsphere-5-esxi-installation-video/</guid>
+      
+      <guid>https://vninja.net/virtualization/vsphere-5-esxi-installation-video/</guid>
       <description>To celebrate vSphere 5 GA release today, I&amp;rsquo;ve recorded a quick video of the old school CD/ISO based installation:
 vSphere 5 ESXi Install Video from Christian Mohn on Vimeo.
 Seems strangely familiar, right? Enjoy!</description>
@@ -46,19 +44,19 @@ Seems strangely familiar, right? Enjoy!</description>
     
     <item>
       <title>VMFS-5: Block Size Me</title>
-      <link>/virtualization/vmfs-5-block-size-me/</link>
+      <link>https://vninja.net/virtualization/vmfs-5-block-size-me/</link>
       <pubDate>Fri, 05 Aug 2011 12:21:31 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/vmfs-5-block-size-me/</guid>
+      
+      <guid>https://vninja.net/virtualization/vmfs-5-block-size-me/</guid>
       <description>The up and coming release of VMware vSphere 5 comes with an upgraded versjon of the VMware vStorage VMFS volume file system. One of the problems with VMFS-3 an earlier is that the block size you define when you format the datastore, determines the maximum size of the VMDK files stored on it. This means that when planning your datastore infrastructure you must have an idea on how large your VMDK files will potentially be during the lifecycle of the datastore.</description>
     </item>
     
     <item>
       <title>vSphere 5 and new licensing - Good or bad?</title>
-      <link>/news/vsphere-5-and-new-licensing-good-or-bad/</link>
+      <link>https://vninja.net/news/vsphere-5-and-new-licensing-good-or-bad/</link>
       <pubDate>Tue, 12 Jul 2011 18:36:07 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/news/vsphere-5-and-new-licensing-good-or-bad/</guid>
+      
+      <guid>https://vninja.net/news/vsphere-5-and-new-licensing-good-or-bad/</guid>
       <description>As many of you did I watched todays Cloud Infrastructure Forum and the release of vSphere 5 today. I was very excited with many of the features such as Storage Profiling, Storage DRS, VMFS 5 release, and they have blown the top off of the resource limits on VMs to create Monster VMs - just to mention a few. However, one topic I notice causing quite a stir is the new licensing that seemed to be very briefly mentioned at the end of the webinar.</description>
     </item>
     

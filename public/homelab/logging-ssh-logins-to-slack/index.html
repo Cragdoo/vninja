@@ -21,7 +21,7 @@
 
 <meta property="og:title" content="Logging SSH logins to Slack  &middot; vNinja.net ">
 <meta property="og:site_name" content="vNinja.net"/>
-<meta property="og:url" content="/homelab/logging-ssh-logins-to-slack/" />
+<meta property="og:url" content="https://vninja.net/homelab/logging-ssh-logins-to-slack/" />
 <meta property="og:locale" content="en">
 
 
@@ -48,8 +48,8 @@
 <meta name="twitter:creator" content="@h0bbel" />
 <meta name="twitter:title" content="Logging SSH logins to Slack" />
 <meta name="twitter:description" content="" />
-<meta name="twitter:url" content="/homelab/logging-ssh-logins-to-slack/" />
-<meta name="twitter:domain" content="/">
+<meta name="twitter:url" content="https://vninja.net/homelab/logging-ssh-logins-to-slack/" />
+<meta name="twitter:domain" content="https://vninja.net">
   
 
   
@@ -64,17 +64,17 @@
     },
     "datePublished": "2016-10-06",
     "description": "",
-    "wordCount": 551
+    "wordCount": 549
   }
 </script>
   
 
 
 
-<link rel="canonical" href="/homelab/logging-ssh-logins-to-slack/" />
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/touch-icon-144-precomposed.png">
-<link rel="icon" href="/favicon.png">
-<meta name="generator" content="Hugo 0.40.3" />
+<link rel="canonical" href="https://vninja.net/homelab/logging-ssh-logins-to-slack/" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://vninja.net/touch-icon-144-precomposed.png">
+<link rel="icon" href="https://vninja.net/favicon.png">
+<meta name="generator" content="Hugo 0.42.2" />
 
   <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
@@ -83,18 +83,42 @@
 
 
 
-    <link rel="stylesheet" href="/css/bootswatch/lux/bootstrap.min.css">
+    <link rel="stylesheet" href="https://vninja.net/css/bootswatch/yeti/bootstrap.min.css">
 
 
-<link rel="stylesheet" href="/css/font-awesome.min.css">
-<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="https://vninja.net/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://vninja.net/css/style.css">
 
 
-<link rel="stylesheet" href="/css/style_custom.css">
+<link rel="stylesheet" href="https://vninja.net/css/style_custom.css">
 
 
 
-  <link rel="stylesheet" href="/css/highlight/default.css">
+  <link rel="stylesheet" href="https://vninja.net/css/highlight/default.css">
+
+
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+  <script>
+  window.addEventListener("load", function(){
+  window.cookieconsent.initialise({
+    "palette": {
+      "popup": {
+        "background": "#efefef",
+        "text": "#404040"
+      },
+      "button": {
+        "background": "#8ec760",
+        "text": "#ffffff"
+      }
+    },
+    "showLink": false,
+    "position": "bottom-right"
+  })});
+  </script>
+</script>
+
+
 
 
 </head>
@@ -110,7 +134,7 @@
           <span class="icon-bar"></span>
         </button>
         
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand" href="https://vninja.net/">
           vNinja.net
           
           
@@ -126,11 +150,7 @@
                   <ul class="dropdown-menu">
                     
                       <li class="">
-                        <a href="/about/christian-mohn/"><i class='fa fa-child'></i> About vNinja</a>
-                      </li>
-                    
-                      <li class="">
-                        <a href="/about/christian-mohn/"><i class='fa fa-child'></i> About Christian</a>
+                        <a href="https://vninja.net/about/christian-mohn/"><i class='fa fa-child'></i> About Christian</a>
                       </li>
                     
                   </ul>
@@ -139,11 +159,11 @@
             
             <li class="">
               
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class='fa fa-hand-lizard-o'></i> Site Policy <span class="caret"></span></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class='fa fa-asterisk'></i> Site Policy <span class="caret"></span></a>
                   <ul class="dropdown-menu">
                     
                       <li class="">
-                        <a href="/about/privacy-policy"><i class='fa fa-hand-lizard-o'></i> Privacy Policy</a>
+                        <a href="https://vninja.net/about/privacy-policy"><i class='fa fa-asterisk'></i> Privacy Policy</a>
                       </li>
                     
                   </ul>
@@ -152,9 +172,18 @@
             
             <li class="">
               
-                <a href="/advertising" >
+                <a href="https://vninja.net/advertising" >
                   <i class='fa fa-bank'></i>
                   Advertising
+                </a>
+              
+            </li>
+            
+            <li class="">
+              
+                <a href="https://vninja.net/post/index.xml" >
+                  <i class='fa fa-rss'></i>
+                  RSS
                 </a>
               
             </li>
@@ -194,39 +223,22 @@
     &middot; by Christian Mohn
   
   &middot; Read in about 3 min
-  &middot; (551 words)
+  &middot; (549 words)
   &middot; 
-<span class="share-box">Share this on:
-    <a href="https://www.facebook.com/sharer/sharer.php?u=%2fhomelab%2flogging-ssh-logins-to-slack%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-facebook-official "></i></a>
 
-    <a href="https://twitter.com/intent/tweet?text=Logging%20SSH%20logins%20to%20Slack&amp;url=%2fhomelab%2flogging-ssh-logins-to-slack%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-twitter"></i></a>
-
-    <a href="https://plus.google.com/share?url=%2fhomelab%2flogging-ssh-logins-to-slack%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-google-plus"></i></a>
-
-    <a href="http://www.reddit.com/submit?url=%2fhomelab%2flogging-ssh-logins-to-slack%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-reddit"></i></a>
-
-    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fhomelab%2flogging-ssh-logins-to-slack%2f&amp;title=Logging%20SSH%20logins%20to%20Slack" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-linkedin"></i></a>
-
-    <a href="mailto:?subject=Logging%20SSH%20logins%20to%20Slack&amp;body=Check out this site %2fhomelab%2flogging-ssh-logins-to-slack%2f" data-proofer-ignore=""><i class="fa fa-envelope"></i></a>
-  </span>
 
   </small>
 
 <div class="margin-10">
   <i class="fa fa-tags"></i>
   
-  <a href="/tags/awesome" class="label label-primary">Awesome</a>
+  <a href="https://vninja.net/tags/awesome" class="label label-primary">Awesome</a>
   
-  <a href="/tags/homelab" class="label label-primary">Homelab</a>
+  <a href="https://vninja.net/tags/homelab" class="label label-primary">Homelab</a>
   
-  <a href="/tags/homelabops" class="label label-primary">HomeLabOps</a>
+  <a href="https://vninja.net/tags/homelabops" class="label label-primary">HomeLabOps</a>
   
-  <a href="/tags/slack" class="label label-primary">Slack</a>
+  <a href="https://vninja.net/tags/slack" class="label label-primary">Slack</a>
   
 
 
@@ -240,38 +252,48 @@
 
 
       <div class="content">
+
   
 
-<p>I&rsquo;m using <a href="http://vninja.net/homelab/homelabops-via-slack/">Slack to alert and log </a>a few things in my environment, and one of the things I use it for is to alert me if someone logs on via SSH to my public facing Jumphost.</p>
+  <p>I&rsquo;m using <a href="http://vninja.net/homelab/homelabops-via-slack/">Slack to alert and log </a>a few things in my environment, and one of the things I use it for is to alert me if someone logs on via SSH to my public facing Jumphost.</p>
 
 <p><em>For a good walkthrough on how to set up such a host, check out <a href="http://www.virtualtothecore.com/en/tunnel-all-your-remote-connections-through-ssh-with-a-linux-jumpbox/">Tunnel all your remote connections through ssh with a linux jumpbox</a> by <a href="https://twitter.com/dellock6">Luca Dell&rsquo;Oca</a>.</em></p>
+
+<p></p>
 
 <p>My Ubuntu 16.04 Jumphost is set up to only accept Key-Based Authentication, to secure it as much as possible, but I would still like to get instant notification if someone logs into it interactively.</p>
 
 <h2 id="how-to-set-up-ssh-login-notification-to-slack">How to set up SSH login notification to Slack.</h2>
 
 <ol>
-<li><p><img src="http://vninja.net/wordpress/wp-content/uploads/2016/10/Screenshot-2016-10-06-13.04.51-300x182.png" alt="screenshot-2016-10-06-13-04-51" />First of all, we need  an Incoming WebHook in Slack in order to receive the notifications.
+<li><p><img src="https://vninja.net/img/Screenshot-2016-10-06-13.04.51-300x182.png" alt="screenshot-2016-10-06-13-04-51" />First of all, we need  an Incoming WebHook in Slack in order to receive the notifications.
 You configure those from the <strong>Apps &amp; Integration </strong>menu item. This in turn opens up the Slack App Directory, find <strong>Build</strong> on the top right and then choose <strong>Make a Custom Integration</strong>.</p></li>
 
-<li><p><img src="http://vninja.net/wordpress/wp-content/uploads/2016/10/Screenshot-2016-10-06-13.08.09-300x60.png" alt="screenshot-2016-10-06-13-08-09" />One your are in the <strong>Build a Custom Integration </strong>section, find (or search) <strong>Incoming WebHooks</strong> and select that.</p></li>
+<li><p><img src="https://vninja.net/img/Screenshot-2016-10-06-13.08.09-300x60.png" alt="screenshot-2016-10-06-13-08-09" />One your are in the <strong>Build a Custom Integration</strong> section, find (or search) <strong>Incoming WebHooks</strong> and select that.</p></li>
 
 <li><p>Next up, define which Slack channel should be the integration point, and click on <strong>Add Incoming WebHooks</strong> integration.</p></li>
 
 <li><p>Copy the Webhook URL presented on the next screen
 <strong>Note:</strong> keep this one a secret, anyone with access to this URL will be able to post to your Slack channel.</p></li>
 
-<li><p>On my Ubuntu 16.04 Linux jumphost I&rsquo;ve created a small bash script called <em>/etc/ssh/notify.sh</em>. This script utilizes <em>curl </em> and the WebHook URL to post information directly to Slack. The script looks like this:<strong>notify.sh</strong>
-[cc lang=&laquo;bash&raquo; escaped=&laquo;true&raquo;]
-#!/bin/sh
-url=&laquo;<a href="https://hooks.slack.com/services/*********&quot;">https://hooks.slack.com/services/*********&quot;</a>
-channel=&laquo;#messages&raquo;
-host=&raquo;<code>hostname</code>&laquo;
-content=&raquo;\&laquo;attachments\&raquo;: [ { \&laquo;mrkdwn_in\&raquo;: [\&laquo;text\&laquo;, \&laquo;fallback\&laquo;], \&laquo;fallback\&raquo;: \&laquo;SSH login: $USER connected to `$host`\&laquo;, \&laquo;text\&raquo;: \&laquo;SSH login to `$host`\&laquo;, \&laquo;fields\&raquo;: [ { \&laquo;title\&raquo;: \&laquo;User\&laquo;, \&laquo;value\&raquo;: \&laquo;$USER\&laquo;, \&laquo;short\&raquo;: true }, { \&laquo;title\&raquo;: \&laquo;IP Address\&laquo;, \&laquo;value\&raquo;: \&laquo;$SSH_CLIENT\&laquo;, \&laquo;short\&raquo;: true } ], \&laquo;color\&raquo;: \&laquo;#F35A00\&raquo; } ]&raquo;
-curl -s -X POST &ndash;data-urlencode &laquo;payload={\&laquo;channel\&raquo;: \&laquo;$channel\&laquo;, \&laquo;mrkdwn\&raquo;: true, \&laquo;username\&raquo;: \&laquo;ssh-bot\&laquo;, $content, \&laquo;icon_emoji\&raquo;: \&raquo;:computer:\&laquo;}&raquo; $url
-/bin/bash
-[/cc]Replace the  the WebHook URL with your own from step 4 and which channel to post to and you should be ready to go.  This script logs the username and the IP address the connection comes from, and then posts it to the Slack WebHook with the help of <em>curl</em>.<strong>Note:</strong> I&rsquo;ve chosen to include the WebHook name etc in the script itself, instead of via the WebHook definition on Slack, mostly since I don&rsquo;t want to create a WebHook for all hosts I want logging from. With this setup, I can just change the username part of the _curl _command. It already logs the hostname, so this is pretty much superficial, but hey, that&rsquo;s how I made it.</p></li>
+<li><p>On my Ubuntu 16.04 Linux jumphost I&rsquo;ve created a small bash script called <em>/etc/ssh/notify.sh</em>. This script utilizes <em>curl </em> and the WebHook URL to post information directly to Slack. The script looks like this:</p></li>
+</ol>
 
+<p><strong>notify.sh</strong></p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#!/bin/sh
+</span><span style="color:#75715e"></span>url<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://hooks.slack.com/services/*********&#34;</span>
+channel<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#messages&#34;</span>
+host<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;`hostname`&#34;</span>
+content<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;\&#34;attachments\&#34;: [ { \&#34;mrkdwn_in\&#34;: [\&#34;text\&#34;, \&#34;fallback\&#34;], \&#34;fallback\&#34;: \&#34;SSH login: </span>$USER<span style="color:#e6db74"> connected to \`</span>$host<span style="color:#e6db74">\`\&#34;, \&#34;text\&#34;: \&#34;SSH login to \`</span>$host<span style="color:#e6db74">\`\&#34;, \&#34;fields\&#34;: [ { \&#34;title\&#34;: \&#34;User\&#34;, \&#34;value\&#34;: \&#34;</span>$USER<span style="color:#e6db74">\&#34;, \&#34;short\&#34;: true }, { \&#34;title\&#34;: \&#34;IP Address\&#34;, \&#34;value\&#34;: \&#34;</span>$SSH_CLIENT<span style="color:#e6db74">\&#34;, \&#34;short\&#34;: true } ], \&#34;color\&#34;: \&#34;#F35A00\&#34; } ]&#34;</span>
+curl -s -X POST --data-urlencode <span style="color:#e6db74">&#34;payload={\&#34;channel\&#34;: \&#34;</span>$channel<span style="color:#e6db74">\&#34;, \&#34;mrkdwn\&#34;: true, \&#34;username\&#34;: \&#34;ssh-bot\&#34;, </span>$content<span style="color:#e6db74">, \&#34;icon_emoji\&#34;: \&#34;:computer:\&#34;}&#34;</span> $url
+/bin/bash</code></pre></div>
+
+<p>Replace the  the WebHook URL with your own from step 4 and which channel to post to and you should be ready to go.  This script logs the username and the IP address the connection comes from, and then posts it to the Slack WebHook with the help of <em>curl</em>.</p>
+
+<p><strong>Note:</strong> I&rsquo;ve chosen to include the WebHook name etc in the script itself, instead of via the WebHook definition on Slack, mostly since I don&rsquo;t want to create a WebHook for all hosts I want logging from. With this setup, I can just change the username part of the _curl _command. It already logs the hostname, so this is pretty much superficial, but hey, that&rsquo;s how I made it.</p>
+
+<ol>
 <li><p><em>chmod +x /etc/ssh/notify.sh</em> to make it executable, and test it. If everything works as expected, you should see an immediate log entry in your chosen Slack channel.</p></li>
 
 <li><p>On order to make this script runs every time someone logs into the Jumphost, I added a ForceCommand to the end of my_ /etc/ssh/sshd_config _file, like this:[cc lang=&laquo;bash&raquo; escaped=&laquo;true&raquo;]
@@ -284,30 +306,12 @@ ForceCommand /etc/ssh/notify.sh
 <p><img src="http://vninja.net/wordpress/wp-content/uploads/2016/10/Screenshot-2016-10-06-13.26.10-1-1024x179.png" alt="screenshot-2016-10-06-13-26-10" /></p>
 
 <p>How awesome is that? Of course, this just scratches the surface of what is possible with Slack&rsquo;s Incoming WebHooks, I&rsquo;m using a similar approach for logging new devices discovered in phpmyipam but that&rsquo;s for another post.</p>
-
 </div>
 
 
       <footer>
   
-<span class="share-box">Share this on:
-    <a href="https://www.facebook.com/sharer/sharer.php?u=%2fhomelab%2flogging-ssh-logins-to-slack%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-facebook-official "></i></a>
 
-    <a href="https://twitter.com/intent/tweet?text=Logging%20SSH%20logins%20to%20Slack&amp;url=%2fhomelab%2flogging-ssh-logins-to-slack%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-twitter"></i></a>
-
-    <a href="https://plus.google.com/share?url=%2fhomelab%2flogging-ssh-logins-to-slack%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-google-plus"></i></a>
-
-    <a href="http://www.reddit.com/submit?url=%2fhomelab%2flogging-ssh-logins-to-slack%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-reddit"></i></a>
-
-    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fhomelab%2flogging-ssh-logins-to-slack%2f&amp;title=Logging%20SSH%20logins%20to%20Slack" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-linkedin"></i></a>
-
-    <a href="mailto:?subject=Logging%20SSH%20logins%20to%20Slack&amp;body=Check out this site %2fhomelab%2flogging-ssh-logins-to-slack%2f" data-proofer-ignore=""><i class="fa fa-envelope"></i></a>
-  </span>
 
   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
       
@@ -315,7 +319,7 @@ ForceCommand /etc/ssh/notify.sh
     <nav><ul class="pager">
     
         <li class="previous">
-          <a href="/homelab/homelabops-via-slack/" title="HomeLabOps via Slack">
+          <a href="https://vninja.net/homelab/homelabops-via-slack/" title="HomeLabOps via Slack">
             <span aria-hidden="true">&larr;</span>Previous
           </a>
         </li>
@@ -323,7 +327,7 @@ ForceCommand /etc/ssh/notify.sh
 
     
       <li class="next">
-        <a href="/hardware/patch-those-dell-servers-easily/" title="Patch those Dell Servers easily!">
+        <a href="https://vninja.net/hardware/patch-those-dell-servers-easily/" title="Patch those Dell Servers easily!">
             Next <span aria-hidden="true">&rarr;</span>
         </a>
       </li>
@@ -344,24 +348,35 @@ ForceCommand /etc/ssh/notify.sh
     </div>
     
       <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-        <hr>
-<div>
+        <div>
   
 
     <div class="section">
-      <div class="ads">
-        <a href="http://turbonomic.com/resources/hybrid-cloud-intelligent-bursting-aws-microsoft-azure/?utm_source=vninja&amp;utm_medium=banner-ad&amp;utm_campaign=wp-path-to-hybrid-cloud&amp;utm_content=250x250"><img width="250" height="250" src="https://i1.wp.com/vninja.net/wordpress/wp-content/uploads/2017/11/wp-intelligent-bursting-aws-azure-250x250.png?zoom=2&amp;fit=250%2C250" alt="" title="wp-intelligent-bursting-aws-azure (250x250)" src-orig="https://i1.wp.com/vninja.net/wordpress/wp-content/uploads/2017/11/wp-intelligent-bursting-aws-azure-250x250.png?fit=250%2C250" scale="2"></a>
+      <h4>Sponsors</h4>
+      <div class="ads" id="veeam">
+        <ins class='dcmads' style='display:inline-block;width:250px;height:250px' data-dcm-placement='N410401.1772869VNINJA.NET/B10464038.145283149' data-dcm-rendering-mode='iframe' data-dcm-https-only data-dcm-resettable-device-id='' data-dcm-app-id=''> <script src='https://www.googletagservices.com/dcm/dcmads.js'></script> </ins>
       </div>
-      <div class="ads">
-        <a href="http://cohesity.com"><img width="250" height="250" src="https://i2.wp.com/vninja.net/wordpress/wp-content/uploads/2016/12/250x250_cohesity_ad-1.gif?zoom=2&amp;fit=250%2C250" alt="" title="250x250_cohesity_ad-1" src-orig="https://i2.wp.com/vninja.net/wordpress/wp-content/uploads/2016/12/250x250_cohesity_ad-1.gif?fit=250%2C250" scale="2"></a>
+      <div class="ads" id="turbonomic">
+        <a href="http://turbonomic.com/resources/hybrid-cloud-intelligent-bursting-aws-microsoft-azure/?utm_source=vninja&amp;utm_medium=banner-ad&amp;utm_campaign=wp-path-to-hybrid-cloud&amp;">
+          <img width="250" height="250" src="https://vninja.net/ads/wp-intelligent-bursting-aws-azure-250x250.png"></a>
       </div>
+      <div class="ads" id="goliath">
+        <a href="http://goliathtechnologies.com/performance-monitoring/application-desktop-virtualization/vmware-horizon-view-monitoring/?utm_source=VNINJA&#038;utm_medium=PARTNER-MKTG&#038;utm_campaign=PARTNER-MKTG-VNINJA"><img width="250" height="250" src='https://vninja.net/ads/VMwareHorizon.jpg' alt='' title='VMwareHorizon' /></a>
+      </div>
+      <div class="ads" id="vembu">
+        <a href="https://www.vembu.com/free-vm-backup/?utm_source=vninja.net&#038;utm_medium=Banner"><img width="250" height="250" src='https://vninja.net/ads/vembu250-250.gif'/></a>
+      </div>
+
+
     </div>
-<hr>
+
+    <hr>
     
       
       
       <div class="section">
-        sidebar 2
+
+
       </div>
       
     
@@ -385,9 +400,7 @@ ForceCommand /etc/ssh/notify.sh
 </div>
 <div class="pull-right">
 
-<a href="/disclaimer/">Disclaimer</a> <i>&middot;</i>
-
-<a href="/terms/">Terms</a> 
+<a href="https://vninja.net/disclaimer/">Disclaimer</a> <i>&middot;</i>
 
 </div>
 
@@ -406,7 +419,7 @@ ForceCommand /etc/ssh/notify.sh
     
 <div class="container copyright">
     <small>
-  &copy; 2018 Copyright my blog
+  &copy; 2018 Christian Mohn
 
   </small>
 </div>
@@ -421,17 +434,17 @@ ForceCommand /etc/ssh/notify.sh
 
     
 
-<script src="/js/jquery.min.js"></script>
-<script src="/js/bootstrap.min.js"></script>
+<script src="https://vninja.net/js/jquery.min.js"></script>
+<script src="https://vninja.net/js/bootstrap.min.js"></script>
 
 
-<script src="/js/highlight.pack.js"></script>
-<script src="/js/site.js"></script>
+<script src="https://vninja.net/js/highlight.pack.js"></script>
+<script src="https://vninja.net/js/site.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
 
 <script>
-  var _gaq=[['_setAccount','Your Google Analytics tracking code'],['_trackPageview']];
+  var _gaq=[['_setAccount','UA-121910549-1'],['_trackPageview']];
   (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
   g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
   s.parentNode.insertBefore(g,s)}(document,'script'));

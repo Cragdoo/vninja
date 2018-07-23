@@ -2,24 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vsamurai on vNinja.net</title>
-    <link>/tags/vsamurai/</link>
+    <link>https://vninja.net/tags/vsamurai/</link>
     <description>Recent content in Vsamurai on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Wed, 08 Jun 2011 13:57:40 +0000</lastBuildDate>
     
-	<atom:link href="/tags/vsamurai/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/vsamurai/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Tech Field Day #6 - Arriving in Boston</title>
-      <link>/news/tech-field-day-6-arriving-in-boston/</link>
+      <link>https://vninja.net/news/tech-field-day-6-arriving-in-boston/</link>
       <pubDate>Wed, 08 Jun 2011 13:57:40 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/news/tech-field-day-6-arriving-in-boston/</guid>
+      
+      <guid>https://vninja.net/news/tech-field-day-6-arriving-in-boston/</guid>
       <description>Yesterday I arrived at Logan International for Tech Field Day #6 in the greater Boston area. Christopher Wells had already arrived earlier in the day, and I was lucky enough to be picked up by Stephen Foskett at the airport and chauffeured to the Sheraton Framingham Hotel and Conference center.
 The travel itself was pretty uneventful, the only trouble I had was that when I landed at Schipol for transfer to the US flight, my boarding pass was nowhere to be found, and I don&amp;rsquo;t think I even received it when I checked in at Bergen Airport Flesland.</description>
     </item>

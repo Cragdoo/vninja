@@ -2,24 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Seatrans on vNinja.net</title>
-    <link>/tags/seatrans/</link>
+    <link>https://vninja.net/tags/seatrans/</link>
     <description>Recent content in Seatrans on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Fri, 04 Nov 2011 09:26:16 +0000</lastBuildDate>
     
-	<atom:link href="/tags/seatrans/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/seatrans/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>My Personal vMotion</title>
-      <link>/news/my-personal-vmotion/</link>
+      <link>https://vninja.net/news/my-personal-vmotion/</link>
       <pubDate>Fri, 04 Nov 2011 09:26:16 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/news/my-personal-vmotion/</guid>
+      
+      <guid>https://vninja.net/news/my-personal-vmotion/</guid>
       <description>Every  once in a while an opportunity presents itself that is just too good to pass up and after 8 years at Seatrans AS I&amp;rsquo;ve decided to move on and and accept a position as a Senior Consultant in the Infrastructure Consulting division of EDB ErgoGroup.
 Seatrans has been a fantastic employer, and without the backing and support I&amp;rsquo;ve had over the years I would not be in a position where this change would be possible.</description>
     </item>

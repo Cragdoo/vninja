@@ -2,24 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vninja on vNinja.net</title>
-    <link>/tags/vninja/</link>
+    <link>https://vninja.net/tags/vninja/</link>
     <description>Recent content in Vninja on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
-    <lastBuildDate>Fri, 30 Dec 2011 18:40:41 +0000</lastBuildDate>
+    <copyright>(c) 2018 Christian Mohn</copyright>
+    <lastBuildDate>Sun, 22 Jul 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/vninja/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/vninja/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Migrating From Wordpress to Hugo</title>
+      <link>https://vninja.net/2018/07/22/migrating-from-wordpress-to-hugo/</link>
+      <pubDate>Sun, 22 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vninja.net/2018/07/22/migrating-from-wordpress-to-hugo/</guid>
+      <description>Migrating From Wordpress to Hugo aka The Long and Winding Road  When I decided to move away from Wordpress and over to Hugo, I really had no concept of the amount of work it would be. Simply put; I just decided to do it — without really knowing what I set out to do.
+Once I had decided on a foundation theme, I chose the Hugo Bootstrap Premium as my starting point, the real work started.</description>
+    </item>
+    
+    <item>
+      <title>Hello, My Name Is Hugo (Montoya)</title>
+      <link>https://vninja.net/2018/07/19/hello-my-name-is-hugo/</link>
+      <pubDate>Thu, 19 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vninja.net/2018/07/19/hello-my-name-is-hugo/</guid>
+      <description>Goodbye Wordpress, hello Hugo! vNinja.net has been powered by Wordpress since it was launched back in 2010, and frankly it was time for a change. What really triggered it, was my hosting providers unwillingness to upgrade basic things, like PHP versions and MySQL. That combined with the security issues you have to live with when using traditional shared hosting made me look around for alternatives. While looking at hosting options, it slowly dawned on me that perhaps I should be looking at doing something completely different.</description>
+    </item>
+    
+    <item>
       <title>Goodbye 2011, you were great</title>
-      <link>/news/goodbye-2011-you-were-great/</link>
+      <link>https://vninja.net/news/goodbye-2011-you-were-great/</link>
       <pubDate>Fri, 30 Dec 2011 18:40:41 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/news/goodbye-2011-you-were-great/</guid>
+      
+      <guid>https://vninja.net/news/goodbye-2011-you-were-great/</guid>
       <description>Yes, this is YAEotYP, so if you&amp;rsquo;ve already read tons of them I apologize.
 2011 - My personal view 2011 has been a steamroller of a year.The vSoup Virtualization Podcast got aired the first time, and we&amp;rsquo;ve recorded and published 19 full episodes in the inaugural year. I was awarded the vExpert title for the first time, and even got invited to Tech Field Day #6 in Boston.
 In addition to this, I wrote a white paper for Veeam, was included in the Server Virtualization Advisory Board, joined Rick Vanover for a Veeam Community Podcast, and appeared in two video interviews.</description>
@@ -27,20 +44,20 @@ In addition to this, I wrote a white paper for Veeam, was included in the Server
     
     <item>
       <title>Tech Field Day #6 - Arriving in Boston</title>
-      <link>/news/tech-field-day-6-arriving-in-boston/</link>
+      <link>https://vninja.net/news/tech-field-day-6-arriving-in-boston/</link>
       <pubDate>Wed, 08 Jun 2011 13:57:40 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/news/tech-field-day-6-arriving-in-boston/</guid>
+      
+      <guid>https://vninja.net/news/tech-field-day-6-arriving-in-boston/</guid>
       <description>Yesterday I arrived at Logan International for Tech Field Day #6 in the greater Boston area. Christopher Wells had already arrived earlier in the day, and I was lucky enough to be picked up by Stephen Foskett at the airport and chauffeured to the Sheraton Framingham Hotel and Conference center.
 The travel itself was pretty uneventful, the only trouble I had was that when I landed at Schipol for transfer to the US flight, my boarding pass was nowhere to be found, and I don&amp;rsquo;t think I even received it when I checked in at Bergen Airport Flesland.</description>
     </item>
     
     <item>
       <title>vNinja enables HA</title>
-      <link>/news/vninja-enables-h/</link>
+      <link>https://vninja.net/news/vninja-enables-h/</link>
       <pubDate>Wed, 13 Apr 2011 21:02:28 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/news/vninja-enables-h/</guid>
+      
+      <guid>https://vninja.net/news/vninja-enables-h/</guid>
       <description>I&amp;rsquo;m happy to announce that my fellow vSoup Podcast co-host Ed Czerwin is on board as blogger here on vNinja.net! This means that from now on you won&amp;rsquo;t just have to put up with the content of one virtualization admin, but two!
 As all good vAdmins know, two is better than one, and it&amp;rsquo; so much easier to build HA solutions around!
 Welcome aboard Ed, glad to have you on!</description>
@@ -48,10 +65,10 @@ Welcome aboard Ed, glad to have you on!</description>
     
     <item>
       <title>vNinja.net available also on vNinja.com</title>
-      <link>/news/vninja-net-available-also-on-vninja-com/</link>
+      <link>https://vninja.net/news/vninja-net-available-also-on-vninja-com/</link>
       <pubDate>Mon, 21 Mar 2011 21:34:58 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/news/vninja-net-available-also-on-vninja-com/</guid>
+      
+      <guid>https://vninja.net/news/vninja-net-available-also-on-vninja-com/</guid>
       <description>Thanks to the generosity of Todd Wright vNinja.net is now also available via vNinja.com. Todd came out of nowhere and offered to redirect his vNinja.com domain to vNinja.net, since he didn&amp;rsquo;t have time to do anything with it himself.
 I&amp;rsquo;m very grateful that Todd wanted to do this, and thanks to some quick Apache trickery .com now redirects to .net to make sure Google doesn&amp;rsquo;t find and penalize any double content.</description>
     </item>

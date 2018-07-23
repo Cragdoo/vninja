@@ -2,24 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vcloud on vNinja.net</title>
-    <link>/tags/vcloud/</link>
+    <link>https://vninja.net/tags/vcloud/</link>
     <description>Recent content in Vcloud on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Thu, 16 Aug 2012 21:17:12 +0000</lastBuildDate>
     
-	<atom:link href="/tags/vcloud/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/vcloud/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>VMware launches Public vCloud &#34;Test-Drive&#34;</title>
-      <link>/news/vmware-launches-public-vcloud-test-driv/</link>
+      <link>https://vninja.net/news/vmware-launches-public-vcloud-test-driv/</link>
       <pubDate>Thu, 16 Aug 2012 21:17:12 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/news/vmware-launches-public-vcloud-test-driv/</guid>
+      
+      <guid>https://vninja.net/news/vmware-launches-public-vcloud-test-driv/</guid>
       <description>VMware Offers vCloud “Test-Drive” with New Evaluation Service.
 This announcement doesn´t seem to be &amp;laquo;Project Zephyr&amp;raquo; which, if the rumors are true, is VMware´s own fully fledged IaaS service.
 This Public vCloud “Test-Drive” service, which VMware themselves describe as “white-label” from a vCloud service provider, seems like a way for VMware to provide cheap test-drive access, to vCloud through their existing service providers.

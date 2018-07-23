@@ -2,28 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Winners on vNinja.net</title>
-    <link>/tags/winners/</link>
+    <link>https://vninja.net/tags/winners/</link>
     <description>Recent content in Winners on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Fri, 20 Jun 2014 09:47:22 +0000</lastBuildDate>
     
-	<atom:link href="/tags/winners/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/winners/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Learning Veeam Backup &amp; Replication for VMware vSphere Book Winners</title>
-      <link>/news/learning-veeam-backup-replication-vmware-vsphere-book-winners/</link>
+      <link>https://vninja.net/news/learning-veeam-backup-replication-vmware-vsphere-book-winners/</link>
       <pubDate>Fri, 20 Jun 2014 09:47:22 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/news/learning-veeam-backup-replication-vmware-vsphere-book-winners/</guid>
-      <description>Packt Publishing has picked three lucky winners for the Veeam® Backup &amp;amp; Replication for VMware vSphere book.
-The winners are as follows, with the winning comments:
-Chris Childerhose:
-Wow nice to see a book come out for Veeam. Look forward to the following things from this book to help better my Veeam skills - Install and manage a Veeam® Backup &amp; Replication v7 infrastructure Discover how to back up and restore data in virtual environments Utilize WAN acceleration to speed up backup to remote locations Understand what options are available for Veeam® Backup &amp; Replication, and how to configure these options These topics will help further my skills with Veeam.</description>
+      
+      <guid>https://vninja.net/news/learning-veeam-backup-replication-vmware-vsphere-book-winners/</guid>
+      <description>&lt;p&gt;Packt Publishing  has picked &lt;a href=&#34;http://vninja.net/book/win-free-e-copies-learning-veeam-backup-replication-vmware-vsphere/&#34;&gt;three lucky winners&lt;/a&gt;  for the &lt;a href=&#34;http://bit.ly/1qvBypQ&#34;&gt;Veeam® Backup &amp;amp; Replication for VMware vSphere&lt;/a&gt; book.&lt;/p&gt;
+
+&lt;p&gt;The winners are as follows, with the winning comments:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://vninja.net/book/win-free-e-copies-learning-veeam-backup-replication-vmware-vsphere/#comment-13043&#34;&gt;Chris Childerhose&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

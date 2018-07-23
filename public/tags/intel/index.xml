@@ -2,47 +2,64 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Intel on vNinja.net</title>
-    <link>/tags/intel/</link>
+    <link>https://vninja.net/tags/intel/</link>
     <description>Recent content in Intel on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Sun, 14 Jan 2018 16:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/intel/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/intel/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The Curious Case of the Intel Microcode Part #2 - It Gets Better — Then Worse</title>
-      <link>/news/curious-case-intel-microcode-part-2-gets-better-worse/</link>
+      <link>https://vninja.net/news/curious-case-intel-microcode-part-2-gets-better-worse/</link>
       <pubDate>Sun, 14 Jan 2018 16:00:00 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/news/curious-case-intel-microcode-part-2-gets-better-worse/</guid>
-      <description>This guest post by Bjørn Anders Jørgensen, Senior Systems Consultant Basefarm, first appeared on LinkedIn.
-Before you start on this rather long post, have a go at part #1:
-tl;dr This is a long read. To get to the juicy part on how Intel potentially shipped pre-release microcode to partners, skip to section 3. The short, short version is that the official Intel microcode update contains newer microcode for Skylake-SP and Kaby Lake/Coffe Lake than what currently is shipping from VMware/HPE/DellEMC etc.</description>
+      
+      <guid>https://vninja.net/news/curious-case-intel-microcode-part-2-gets-better-worse/</guid>
+      <description>&lt;p&gt;This guest post by &lt;a href=&#34;https://twitter.com/bajorgensen&#34;&gt;Bjørn Anders Jørgensen&lt;/a&gt;, Senior Systems Consultant Basefarm, first appeared on &lt;a href=&#34;https://www.linkedin.com/pulse/curious-case-intel-microcode-part-2-gets-better-worse-jørgensen/&#34;&gt;LinkedIn&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Before you start on this rather long post, &lt;a href=&#34;http://vninja.net/news/the-curious-case-of-the-intel-microcode/&#34;&gt;have a go at part #1&lt;/a&gt;:&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt; tl;dr&lt;/h2&gt;
+
+&lt;p&gt;This is a long read. To get to the juicy part on how Intel potentially shipped pre-release microcode to partners, skip to section 3. The short, short version is that the official Intel microcode update contains newer microcode for Skylake-SP and Kaby Lake/Coffe Lake than what currently is shipping from VMware/HPE/DellEMC etc.
+&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>The Curious Case of the Intel Microcode</title>
-      <link>/news/the-curious-case-of-the-intel-microcode/</link>
+      <link>https://vninja.net/news/the-curious-case-of-the-intel-microcode/</link>
       <pubDate>Tue, 09 Jan 2018 18:37:24 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/news/the-curious-case-of-the-intel-microcode/</guid>
-      <description>This guest post by Bjørn Anders Jørgensen, Senior Systems Consultant Basefarm, first appeared on LinkedIn.
-Disclaimer: This is a report based on current development as of 7. January, the situation is changing by the hour so read this opinion piece with that in hindsight.
-Unless you have been living under a rock for the last week you will know by now that there is a universal design flaw in most modern microprocessors, leaving them vulnerable to a serious information disclosure problem that requires updates to all operating systems and processors.</description>
+      
+      <guid>https://vninja.net/news/the-curious-case-of-the-intel-microcode/</guid>
+      <description>&lt;p&gt;This guest post by &lt;a href=&#34;https://twitter.com/bajorgensen&#34;&gt;Bjørn Anders Jørgensen&lt;/a&gt;, Senior Systems Consultant Basefarm, first appeared on &lt;a href=&#34;https://www.linkedin.com/pulse/curious-case-intel-microcode-bjørn-anders-jørgensen/&#34;&gt;LinkedIn&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Disclaimer: This is a report based on current development as of 7. January, the situation is changing by the hour so read this opinion piece with that in hindsight.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Unless you have been living under a rock for the last week you will know by now that there is a universal design flaw in most modern microprocessors, leaving them vulnerable to a serious information disclosure problem that requires updates to all operating systems and processors.&lt;/p&gt;
+
+&lt;p&gt;If you are not familiar with the issue, start here: &lt;a href=&#34;https://spectreattack.com&#34;&gt;Meltdown and Spectre&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://plus.google.com/+jwildeboer&#34;&gt;Jan Wildeboer&lt;/a&gt; also has a comprehensive timeline: &lt;a href=&#34;https://plus.google.com/+jwildeboer/posts/jj6a9JUaovP&#34;&gt;How we got to #Spectre and #Meltdown A Timeline&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The issue has been known by Intel at least since June, and has been under embargo while everyone has been hammering out code to mitigate the threat and be ready when the embargo was lifted.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Is Hyperconverged the be-all, end-all? No.</title>
-      <link>/rant/hyperconverged-be-all-end-all-no/</link>
+      <link>https://vninja.net/rant/hyperconverged-be-all-end-all-no/</link>
       <pubDate>Mon, 22 Sep 2014 21:48:40 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/rant/hyperconverged-be-all-end-all-no/</guid>
-      <description>First off, this is not meant to be a post negating the value of current hyperconverged solutions available in the market. I think hyperconverged has it&amp;rsquo;s place, and for many use cases it makes perfect sense to go down that route. But the idea that everyone should go hyperconverged and all data should be placed on local drives, even if made redundant inside the chassis and even between chassis, is to be blunt, a bit silly.</description>
+      
+      <guid>https://vninja.net/rant/hyperconverged-be-all-end-all-no/</guid>
+      <description>&lt;p&gt;First off, this is not meant to be a post negating the value of current hyperconverged solutions available in the market. I think hyperconverged has it&amp;rsquo;s place, and for many use cases it makes perfect sense to go down that route. But the idea that everyone should go hyperconverged and all data should be placed on local drives, even if made redundant inside the chassis and even between chassis, is to be blunt, a bit silly.&lt;/p&gt;
+
+&lt;p&gt;Parts of this post is inspired by a recent discussion on Twitter:&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

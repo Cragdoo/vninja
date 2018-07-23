@@ -21,7 +21,7 @@
 
 <meta property="og:title" content="Building an Ubuntu 14.04 Appliance with VMware Studio 2.6  &middot; vNinja.net ">
 <meta property="og:site_name" content="vNinja.net"/>
-<meta property="og:url" content="/vmware-2/building-ubuntu-14-04-appliance-vmware-studio-2-6/" />
+<meta property="og:url" content="https://vninja.net/vmware-2/building-ubuntu-14-04-appliance-vmware-studio-2-6/" />
 <meta property="og:locale" content="en">
 
 
@@ -50,8 +50,8 @@
 <meta name="twitter:creator" content="@h0bbel" />
 <meta name="twitter:title" content="Building an Ubuntu 14.04 Appliance with VMware Studio 2.6" />
 <meta name="twitter:description" content="" />
-<meta name="twitter:url" content="/vmware-2/building-ubuntu-14-04-appliance-vmware-studio-2-6/" />
-<meta name="twitter:domain" content="/">
+<meta name="twitter:url" content="https://vninja.net/vmware-2/building-ubuntu-14-04-appliance-vmware-studio-2-6/" />
+<meta name="twitter:domain" content="https://vninja.net">
   
 
   
@@ -66,17 +66,17 @@
     },
     "datePublished": "2014-10-07",
     "description": "",
-    "wordCount": 593
+    "wordCount": 583
   }
 </script>
   
 
 
 
-<link rel="canonical" href="/vmware-2/building-ubuntu-14-04-appliance-vmware-studio-2-6/" />
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/touch-icon-144-precomposed.png">
-<link rel="icon" href="/favicon.png">
-<meta name="generator" content="Hugo 0.40.3" />
+<link rel="canonical" href="https://vninja.net/vmware-2/building-ubuntu-14-04-appliance-vmware-studio-2-6/" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://vninja.net/touch-icon-144-precomposed.png">
+<link rel="icon" href="https://vninja.net/favicon.png">
+<meta name="generator" content="Hugo 0.42.2" />
 
   <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
@@ -85,18 +85,42 @@
 
 
 
-    <link rel="stylesheet" href="/css/bootswatch/lux/bootstrap.min.css">
+    <link rel="stylesheet" href="https://vninja.net/css/bootswatch/yeti/bootstrap.min.css">
 
 
-<link rel="stylesheet" href="/css/font-awesome.min.css">
-<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="https://vninja.net/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://vninja.net/css/style.css">
 
 
-<link rel="stylesheet" href="/css/style_custom.css">
+<link rel="stylesheet" href="https://vninja.net/css/style_custom.css">
 
 
 
-  <link rel="stylesheet" href="/css/highlight/default.css">
+  <link rel="stylesheet" href="https://vninja.net/css/highlight/default.css">
+
+
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+  <script>
+  window.addEventListener("load", function(){
+  window.cookieconsent.initialise({
+    "palette": {
+      "popup": {
+        "background": "#efefef",
+        "text": "#404040"
+      },
+      "button": {
+        "background": "#8ec760",
+        "text": "#ffffff"
+      }
+    },
+    "showLink": false,
+    "position": "bottom-right"
+  })});
+  </script>
+</script>
+
+
 
 
 </head>
@@ -112,7 +136,7 @@
           <span class="icon-bar"></span>
         </button>
         
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand" href="https://vninja.net/">
           vNinja.net
           
           
@@ -128,11 +152,7 @@
                   <ul class="dropdown-menu">
                     
                       <li class="">
-                        <a href="/about/christian-mohn/"><i class='fa fa-child'></i> About vNinja</a>
-                      </li>
-                    
-                      <li class="">
-                        <a href="/about/christian-mohn/"><i class='fa fa-child'></i> About Christian</a>
+                        <a href="https://vninja.net/about/christian-mohn/"><i class='fa fa-child'></i> About Christian</a>
                       </li>
                     
                   </ul>
@@ -141,11 +161,11 @@
             
             <li class="">
               
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class='fa fa-hand-lizard-o'></i> Site Policy <span class="caret"></span></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class='fa fa-asterisk'></i> Site Policy <span class="caret"></span></a>
                   <ul class="dropdown-menu">
                     
                       <li class="">
-                        <a href="/about/privacy-policy"><i class='fa fa-hand-lizard-o'></i> Privacy Policy</a>
+                        <a href="https://vninja.net/about/privacy-policy"><i class='fa fa-asterisk'></i> Privacy Policy</a>
                       </li>
                     
                   </ul>
@@ -154,9 +174,18 @@
             
             <li class="">
               
-                <a href="/advertising" >
+                <a href="https://vninja.net/advertising" >
                   <i class='fa fa-bank'></i>
                   Advertising
+                </a>
+              
+            </li>
+            
+            <li class="">
+              
+                <a href="https://vninja.net/post/index.xml" >
+                  <i class='fa fa-rss'></i>
+                  RSS
                 </a>
               
             </li>
@@ -196,41 +225,24 @@
     &middot; by Christian Mohn
   
   &middot; Read in about 3 min
-  &middot; (593 words)
+  &middot; (583 words)
   &middot; 
-<span class="share-box">Share this on:
-    <a href="https://www.facebook.com/sharer/sharer.php?u=%2fvmware-2%2fbuilding-ubuntu-14-04-appliance-vmware-studio-2-6%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-facebook-official "></i></a>
 
-    <a href="https://twitter.com/intent/tweet?text=Building%20an%20Ubuntu%2014.04%20Appliance%20with%20VMware%20Studio%202.6&amp;url=%2fvmware-2%2fbuilding-ubuntu-14-04-appliance-vmware-studio-2-6%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-twitter"></i></a>
-
-    <a href="https://plus.google.com/share?url=%2fvmware-2%2fbuilding-ubuntu-14-04-appliance-vmware-studio-2-6%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-google-plus"></i></a>
-
-    <a href="http://www.reddit.com/submit?url=%2fvmware-2%2fbuilding-ubuntu-14-04-appliance-vmware-studio-2-6%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-reddit"></i></a>
-
-    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fvmware-2%2fbuilding-ubuntu-14-04-appliance-vmware-studio-2-6%2f&amp;title=Building%20an%20Ubuntu%2014.04%20Appliance%20with%20VMware%20Studio%202.6" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-linkedin"></i></a>
-
-    <a href="mailto:?subject=Building%20an%20Ubuntu%2014.04%20Appliance%20with%20VMware%20Studio%202.6&amp;body=Check out this site %2fvmware-2%2fbuilding-ubuntu-14-04-appliance-vmware-studio-2-6%2f" data-proofer-ignore=""><i class="fa fa-envelope"></i></a>
-  </span>
 
   </small>
 
 <div class="margin-10">
   <i class="fa fa-tags"></i>
   
-  <a href="/tags/appliance" class="label label-primary">Appliance</a>
+  <a href="https://vninja.net/tags/appliance" class="label label-primary">Appliance</a>
   
-  <a href="/tags/hack" class="label label-primary">Hack</a>
+  <a href="https://vninja.net/tags/hack" class="label label-primary">Hack</a>
   
-  <a href="/tags/ubuntu" class="label label-primary">Ubuntu</a>
+  <a href="https://vninja.net/tags/ubuntu" class="label label-primary">Ubuntu</a>
   
-  <a href="/tags/unsupported" class="label label-primary">Unsupported</a>
+  <a href="https://vninja.net/tags/unsupported" class="label label-primary">Unsupported</a>
   
-  <a href="/tags/vmware-studio" class="label label-primary">VMware Studio</a>
+  <a href="https://vninja.net/tags/vmware-studio" class="label label-primary">VMware Studio</a>
   
 
 
@@ -244,9 +256,12 @@
 
 
       <div class="content">
+
   
 
-<p>VMware Studio 2.6 was released way back in March 2012,  and surprisingly there seems to be no new update in sight. While VMware Studio technically still works, even with newer versions of ESXi and vCenter, the supported operating systems for the appliances it can build is <em>somewhat</em> outdated:</p>
+  <p>VMware Studio 2.6 was released way back in March 2012,  and surprisingly there seems to be no new update in sight. While VMware Studio technically still works, even with newer versions of ESXi and vCenter, the supported operating systems for the appliances it can build is <em>somewhat</em> outdated:</p>
+
+<p></p>
 
 <ul>
 <li><p>Red Hat Enterprise Linux 5.5/6.0</p></li>
@@ -277,73 +292,46 @@
 <p>Thanks to the brilliant mind of my coworker <a href="http://twitter.com/esodesod">Espen Ødegaard,</a> we were able to come up with a set of solutions that does the trick.</p>
 
 <p>First we added a new profile to VMware Studio connecting to the VMware Studio VM via SSH, and by issuing the following command:
-[cc lang=&laquo;bash&raquo; width=&laquo;100%&raquo; theme=&laquo;blackboard&raquo; nowrap=&laquo;1&raquo;]
-studiocli &ndash;newos &ndash;osdesc &laquo;Ubuntu14.04” &ndash;profile /opt/vmware/etc/build/templates/ubuntu/10/041/build_profile.xml
-[/cc]
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">studiocli --newos --osdesc <span style="color:#e6db74">&#34;Ubuntu14.04” --profile /opt/vmware/etc/build/templates/ubuntu/10/041/build_profile.xml</span></code></pre></div>
 Basically this creates a new OS template in VMware Studio by copying the existing Ubuntu 10.04.1 profile.</p>
 
 <p>Next edit line 462 in <em>/opt/vmware/etc/build/templates/Ubuntu14.04/Ubuntu14.04.xsl</em> and change <em>scd0</em> to <em>sr0</em>.</p>
 
-<p>[cc lang=&laquo;bash&raquo; width=&laquo;100%&raquo; theme=&laquo;blackboard&raquo; nowrap=&laquo;0&raquo;]
-if ! mount -t iso9660 -r /dev/scd0 /target/${cdrom_dir} ; then <br />
-if ! mount -t iso9660 -r /dev/hda /target/${cdrom_dir} ; then <br />
-cdrom_mounted=0; <br />
-fi ; <br />
-[/cc]</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#66d9ef">if</span> ! mount -t iso9660 -r /dev/scd0 /target/<span style="color:#e6db74">${</span>cdrom_dir<span style="color:#e6db74">}</span> ; <span style="color:#66d9ef">then</span> <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span><span style="color:#66d9ef">if</span> ! mount -t iso9660 -r /dev/hda /target/<span style="color:#e6db74">${</span>cdrom_dir<span style="color:#e6db74">}</span> ; <span style="color:#66d9ef">then</span> <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>cdrom_mounted<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>; <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span><span style="color:#66d9ef">fi</span> ; <span style="color:#960050;background-color:#1e0010">\</span></code></pre></div>
 
 <p>This fixes a problem with the appliance not being able to mount the Ubuntu installation iso when it is built. Place the Ubuntu 14.04 ISO in<em> /opt/vmware/www/ISV/ISO</em>, and create a new Build profile using the VMware Studio Web Interface.</p>
 
 <p>Now, before an appliance can be built, we need to fix some other problems that prevent VAMI from starting up, and preventing login to the VAMI web interface. First of, make sure that <em>libncurses5</em> is added as package under <strong>Application</strong> -&gt; <strong>List of packages from OS install media</strong>. Next, add the following to the <em>first boot script</em> under <strong>OS</strong>-&gt;<strong>Boot Customization</strong>, we can move around those problems.</p>
 
-<p>[cc lang=&laquo;bash&raquo; width=&laquo;100%&raquo; theme=&laquo;blackboard&raquo; nowrap=&laquo;0&raquo;]</p>
-
-<h1 id="create-symlinks-required-for-ubuntu-14-04-and-vami">Create symlinks required for Ubuntu 14.04 and VAMI</h1>
-
-<h1 id="copy-and-symlink-libncurses-to-the-location-vami-looks-for-them">Copy and symlink libncurses to the location VAMI looks for them</h1>
-
-<p>cp /lib/i386-linux-gnu/libncurses.so.5.9 /opt/vmware/lib/
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># Create symlinks required for Ubuntu 14.04 and VAMI
+</span><span style="color:#75715e"></span>
+<span style="color:#75715e"># Copy and symlink libncurses to the location VAMI looks for them
+</span><span style="color:#75715e"></span>
+cp /lib/i386-linux-gnu/libncurses.so.5.9 /opt/vmware/lib/
 rm /opt/vmware/lib/libncurses.so.5
-ln -s /opt/vmware/lib/libncurses.so.5.9 /opt/vmware/lib/libncurses.so.5</p>
+ln -s /opt/vmware/lib/libncurses.so.5.9 /opt/vmware/lib/libncurses.so.5
 
-<h1 id="symlink-pam-libraries-in-order-for-them-to-work-with-vami">Symlink PAM libraries in order for them to work with VAMI</h1>
-
-<h1 id="this-unbreaks-authentication-in-the-web-interface">This &laquo;unbreaks&raquo; authentication in the web interface</h1>
-
-<p>mkdir /lib/security
-ln -s /lib/i386-linux-gnu/security/* /lib/security/
-[/cc]</p>
+<span style="color:#75715e"># Symlink PAM libraries in order for them to work with VAMI
+</span><span style="color:#75715e"># This &#34;unbreaks&#34; authentication in the web interface
+</span><span style="color:#75715e"></span>mkdir /lib/security
+ln -s /lib/i386-linux-gnu/security/* /lib/security/</code></pre></div>
 
 <p>For details on how all of this works, and how to create build profiles, check the official <a href="https://www.vmware.com/support/developer/studio/studio26/studio_developer.pdf">VMware Studio documentation</a>.</p>
 
 <p>The build process should now complete successfully, and you should have an Ubuntu 14.04 based appliance built with VMware Studio!
-<img src="http://vninja.net/wordpress/wp-content/uploads/2014/10/vStealth1.png" alt="vStealth1" />
-<img src="http://vninja.net/wordpress/wp-content/uploads/2014/10/vStealth2.png" alt="vStealth2" /></p>
+<img src="https://vninja.net/img/vStealth1.png" alt="vStealth1" />
+<img src="https://vninja.net/img/vStealth2.png" alt="vStealth2" /></p>
 
 <p><em>Note that all of this is completely unsupported by VMware, and you are pretty much on your own. Hopefully there will be a new version of VMware Studio available soon, and we won&rsquo;t have to rely on unsupported hacks to get it working with newer operating systems.</em></p>
-
 </div>
 
 
       <footer>
   
-<span class="share-box">Share this on:
-    <a href="https://www.facebook.com/sharer/sharer.php?u=%2fvmware-2%2fbuilding-ubuntu-14-04-appliance-vmware-studio-2-6%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-facebook-official "></i></a>
 
-    <a href="https://twitter.com/intent/tweet?text=Building%20an%20Ubuntu%2014.04%20Appliance%20with%20VMware%20Studio%202.6&amp;url=%2fvmware-2%2fbuilding-ubuntu-14-04-appliance-vmware-studio-2-6%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-twitter"></i></a>
-
-    <a href="https://plus.google.com/share?url=%2fvmware-2%2fbuilding-ubuntu-14-04-appliance-vmware-studio-2-6%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-google-plus"></i></a>
-
-    <a href="http://www.reddit.com/submit?url=%2fvmware-2%2fbuilding-ubuntu-14-04-appliance-vmware-studio-2-6%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-reddit"></i></a>
-
-    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fvmware-2%2fbuilding-ubuntu-14-04-appliance-vmware-studio-2-6%2f&amp;title=Building%20an%20Ubuntu%2014.04%20Appliance%20with%20VMware%20Studio%202.6" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-linkedin"></i></a>
-
-    <a href="mailto:?subject=Building%20an%20Ubuntu%2014.04%20Appliance%20with%20VMware%20Studio%202.6&amp;body=Check out this site %2fvmware-2%2fbuilding-ubuntu-14-04-appliance-vmware-studio-2-6%2f" data-proofer-ignore=""><i class="fa fa-envelope"></i></a>
-  </span>
 
   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
       
@@ -351,7 +339,7 @@ ln -s /lib/i386-linux-gnu/security/* /lib/security/
     <nav><ul class="pager">
     
         <li class="previous">
-          <a href="/rant/hyperconverged-be-all-end-all-no/" title="Is Hyperconverged the be-all, end-all? No.">
+          <a href="https://vninja.net/rant/hyperconverged-be-all-end-all-no/" title="Is Hyperconverged the be-all, end-all? No.">
             <span aria-hidden="true">&larr;</span>Previous
           </a>
         </li>
@@ -359,7 +347,7 @@ ln -s /lib/i386-linux-gnu/security/* /lib/security/
 
     
       <li class="next">
-        <a href="/virtualization/nordic-vmug-conference-2014/" title="Nordic VMUG Conference 2014">
+        <a href="https://vninja.net/virtualization/nordic-vmug-conference-2014/" title="Nordic VMUG Conference 2014">
             Next <span aria-hidden="true">&rarr;</span>
         </a>
       </li>
@@ -380,24 +368,35 @@ ln -s /lib/i386-linux-gnu/security/* /lib/security/
     </div>
     
       <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-        <hr>
-<div>
+        <div>
   
 
     <div class="section">
-      <div class="ads">
-        <a href="http://turbonomic.com/resources/hybrid-cloud-intelligent-bursting-aws-microsoft-azure/?utm_source=vninja&amp;utm_medium=banner-ad&amp;utm_campaign=wp-path-to-hybrid-cloud&amp;utm_content=250x250"><img width="250" height="250" src="https://i1.wp.com/vninja.net/wordpress/wp-content/uploads/2017/11/wp-intelligent-bursting-aws-azure-250x250.png?zoom=2&amp;fit=250%2C250" alt="" title="wp-intelligent-bursting-aws-azure (250x250)" src-orig="https://i1.wp.com/vninja.net/wordpress/wp-content/uploads/2017/11/wp-intelligent-bursting-aws-azure-250x250.png?fit=250%2C250" scale="2"></a>
+      <h4>Sponsors</h4>
+      <div class="ads" id="veeam">
+        <ins class='dcmads' style='display:inline-block;width:250px;height:250px' data-dcm-placement='N410401.1772869VNINJA.NET/B10464038.145283149' data-dcm-rendering-mode='iframe' data-dcm-https-only data-dcm-resettable-device-id='' data-dcm-app-id=''> <script src='https://www.googletagservices.com/dcm/dcmads.js'></script> </ins>
       </div>
-      <div class="ads">
-        <a href="http://cohesity.com"><img width="250" height="250" src="https://i2.wp.com/vninja.net/wordpress/wp-content/uploads/2016/12/250x250_cohesity_ad-1.gif?zoom=2&amp;fit=250%2C250" alt="" title="250x250_cohesity_ad-1" src-orig="https://i2.wp.com/vninja.net/wordpress/wp-content/uploads/2016/12/250x250_cohesity_ad-1.gif?fit=250%2C250" scale="2"></a>
+      <div class="ads" id="turbonomic">
+        <a href="http://turbonomic.com/resources/hybrid-cloud-intelligent-bursting-aws-microsoft-azure/?utm_source=vninja&amp;utm_medium=banner-ad&amp;utm_campaign=wp-path-to-hybrid-cloud&amp;">
+          <img width="250" height="250" src="https://vninja.net/ads/wp-intelligent-bursting-aws-azure-250x250.png"></a>
       </div>
+      <div class="ads" id="goliath">
+        <a href="http://goliathtechnologies.com/performance-monitoring/application-desktop-virtualization/vmware-horizon-view-monitoring/?utm_source=VNINJA&#038;utm_medium=PARTNER-MKTG&#038;utm_campaign=PARTNER-MKTG-VNINJA"><img width="250" height="250" src='https://vninja.net/ads/VMwareHorizon.jpg' alt='' title='VMwareHorizon' /></a>
+      </div>
+      <div class="ads" id="vembu">
+        <a href="https://www.vembu.com/free-vm-backup/?utm_source=vninja.net&#038;utm_medium=Banner"><img width="250" height="250" src='https://vninja.net/ads/vembu250-250.gif'/></a>
+      </div>
+
+
     </div>
-<hr>
+
+    <hr>
     
       
       
       <div class="section">
-        sidebar 2
+
+
       </div>
       
     
@@ -421,9 +420,7 @@ ln -s /lib/i386-linux-gnu/security/* /lib/security/
 </div>
 <div class="pull-right">
 
-<a href="/disclaimer/">Disclaimer</a> <i>&middot;</i>
-
-<a href="/terms/">Terms</a> 
+<a href="https://vninja.net/disclaimer/">Disclaimer</a> <i>&middot;</i>
 
 </div>
 
@@ -442,7 +439,7 @@ ln -s /lib/i386-linux-gnu/security/* /lib/security/
     
 <div class="container copyright">
     <small>
-  &copy; 2018 Copyright my blog
+  &copy; 2018 Christian Mohn
 
   </small>
 </div>
@@ -457,17 +454,17 @@ ln -s /lib/i386-linux-gnu/security/* /lib/security/
 
     
 
-<script src="/js/jquery.min.js"></script>
-<script src="/js/bootstrap.min.js"></script>
+<script src="https://vninja.net/js/jquery.min.js"></script>
+<script src="https://vninja.net/js/bootstrap.min.js"></script>
 
 
-<script src="/js/highlight.pack.js"></script>
-<script src="/js/site.js"></script>
+<script src="https://vninja.net/js/highlight.pack.js"></script>
+<script src="https://vninja.net/js/site.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
 
 <script>
-  var _gaq=[['_setAccount','Your Google Analytics tracking code'],['_trackPageview']];
+  var _gaq=[['_setAccount','UA-121910549-1'],['_trackPageview']];
   (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
   g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
   s.parentNode.insertBefore(g,s)}(document,'script'));

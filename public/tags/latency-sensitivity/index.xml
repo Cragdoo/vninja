@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Latency Sensitivity on vNinja.net</title>
-    <link>/tags/latency-sensitivity/</link>
+    <link>https://vninja.net/tags/latency-sensitivity/</link>
     <description>Recent content in Latency Sensitivity on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Tue, 15 Jul 2014 10:59:42 +0000</lastBuildDate>
     
-	<atom:link href="/tags/latency-sensitivity/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/latency-sensitivity/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Root Cause of Invalid memory setting: memory reservation (sched.mem.min) should be equal to memsize (memsize)</title>
-      <link>/vmware-2/root-invalid-memory-setting-memory-reservation-sched-mem-min-equal-memsize-memsize/</link>
+      <link>https://vninja.net/vmware-2/root-invalid-memory-setting-memory-reservation-sched-mem-min-equal-memsize-memsize/</link>
       <pubDate>Tue, 15 Jul 2014 10:59:42 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/vmware-2/root-invalid-memory-setting-memory-reservation-sched-mem-min-equal-memsize-memsize/</guid>
-      <description>While working on reconfiguring my home lab setup, and migrating all the vSphere resources into a single cluster I ran into a problem powering on one of the VMs which used to run on a single host. The power on operation yielded the following error message:
-Invalid memory setting: memory reservation (sched.mem.min) should be equal to memsize (memsize) [showhide type=&amp;laquo;errorstack&amp;raquo; more_text=&amp;laquo;Show error stack (%s More Words)&amp;raquo;]
-  **Task Details:**         Status:    Invalid memory setting: memory reservation (sched.</description>
+      
+      <guid>https://vninja.net/vmware-2/root-invalid-memory-setting-memory-reservation-sched-mem-min-equal-memsize-memsize/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://vninja.net/img/Screenshot-2014-07-12-20.04.31.png&#34;&gt;&lt;img src=&#34;https://vninja.net/img/Screenshot-2014-07-12-20.04.31-300x168.png&#34; alt=&#34;Screenshot 2014-07-12 20.04.31&#34; /&gt;&lt;/a&gt;While working on reconfiguring my home lab setup, and migrating all the vSphere resources into a single cluster I ran into a problem powering on one of the VMs which used to run on a single host. The power on operation yielded the following error message:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Invalid memory setting: memory reservation (sched.mem.min) should be equal to memsize (memsize)&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

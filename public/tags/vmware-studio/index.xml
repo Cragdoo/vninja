@@ -2,29 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vmware Studio on vNinja.net</title>
-    <link>/tags/vmware-studio/</link>
+    <link>https://vninja.net/tags/vmware-studio/</link>
     <description>Recent content in Vmware Studio on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Tue, 07 Oct 2014 23:26:03 +0000</lastBuildDate>
     
-	<atom:link href="/tags/vmware-studio/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/vmware-studio/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Building an Ubuntu 14.04 Appliance with VMware Studio 2.6</title>
-      <link>/vmware-2/building-ubuntu-14-04-appliance-vmware-studio-2-6/</link>
+      <link>https://vninja.net/vmware-2/building-ubuntu-14-04-appliance-vmware-studio-2-6/</link>
       <pubDate>Tue, 07 Oct 2014 23:26:03 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/vmware-2/building-ubuntu-14-04-appliance-vmware-studio-2-6/</guid>
-      <description>VMware Studio 2.6 was released way back in March 2012, and surprisingly there seems to be no new update in sight. While VMware Studio technically still works, even with newer versions of ESXi and vCenter, the supported operating systems for the appliances it can build is somewhat outdated:
- Red Hat Enterprise Linux 5.5/6.0
- SUSE Linux Enterprise Server 10.2/11.1
- Ubuntu 8.04.4/10.04.1
- Windows Server 2003 R2 / 2008 R2 w/SP1</description>
+      
+      <guid>https://vninja.net/vmware-2/building-ubuntu-14-04-appliance-vmware-studio-2-6/</guid>
+      <description>&lt;p&gt;VMware Studio 2.6 was released way back in March 2012,  and surprisingly there seems to be no new update in sight. While VMware Studio technically still works, even with newer versions of ESXi and vCenter, the supported operating systems for the appliances it can build is &lt;em&gt;somewhat&lt;/em&gt; outdated:&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

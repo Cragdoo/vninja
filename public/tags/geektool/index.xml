@@ -2,26 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Geektool on vNinja.net</title>
-    <link>/tags/geektool/</link>
+    <link>https://vninja.net/tags/geektool/</link>
     <description>Recent content in Geektool on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Wed, 29 Jan 2014 15:58:10 +0000</lastBuildDate>
     
-	<atom:link href="/tags/geektool/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/geektool/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Random VCDX Tips and Quotes?</title>
-      <link>/virtualization/random-vcdx-tips-quotes/</link>
+      <link>https://vninja.net/virtualization/random-vcdx-tips-quotes/</link>
       <pubDate>Wed, 29 Jan 2014 15:58:10 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/random-vcdx-tips-quotes/</guid>
-      <description>I needed something to spruce up my desktop environment, and it seems that one of the more popular ways to do that is to display random quotes and such on your desktop. Instead of hooking up to an existing quotes database, I simply made my own.
-I have collected a few VCDX related tips and quotes, primarily from the archive Duncan Epping put together of VCDX Tips from VCDX 001 John Arrasjid, but also from the &amp;laquo;submissions&amp;raquo; I got from VCDX?</description>
+      
+      <guid>https://vninja.net/virtualization/random-vcdx-tips-quotes/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://vninja.net/wordpress/wp-content/uploads/2014/01/vNinja-Labs.png&#34; alt=&#34;vNinja-Labs&#34; /&gt;I needed something to spruce up my desktop environment, and it seems that one of the more popular ways to do that is to display random quotes and such on your desktop. Instead of hooking up to an existing quotes database, I simply made my own.&lt;/p&gt;
+
+&lt;p&gt;I have collected a few VCDX related tips and quotes, primarily from the archive &lt;a href=&#34;http://twitter.com/DuncanYB&#34;&gt;Duncan Epping&lt;/a&gt; put together of &lt;a href=&#34;http://www.yellow-bricks.com/2009/10/01/vcdx-tips-from-vcdx-001-john-arrasjid/&#34;&gt;VCDX Tips from VCDX 001 John Arrasjid&lt;/a&gt;, but also from the &amp;laquo;submissions&amp;raquo; I got from &lt;a href=&#34;http://vninja.net/news/vcdx-give-quote/&#34;&gt;VCDX? Give Me a Quote!&lt;/a&gt; &lt;strong&gt;If anyone else wants their quote/tip/hint added to the database, please let me know!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

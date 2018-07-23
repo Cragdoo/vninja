@@ -2,79 +2,100 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Marvin on vNinja.net</title>
-    <link>/tags/marvin/</link>
+    <link>https://vninja.net/tags/marvin/</link>
     <description>Recent content in Marvin on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Mon, 25 Aug 2014 13:30:58 +0000</lastBuildDate>
     
-	<atom:link href="/tags/marvin/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/marvin/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>It&#39;s official EVO:RAIL it is</title>
-      <link>/vmware-2/official-evorail/</link>
+      <link>https://vninja.net/vmware-2/official-evorail/</link>
       <pubDate>Mon, 25 Aug 2014 13:30:58 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/vmware-2/official-evorail/</guid>
-      <description>VMware has finally announced what I&amp;rsquo;ve been speculating about for some time now, EVO:RAIL was announced at VMworld US this morning. Short story; It&amp;rsquo;s a HCIA (Hyper Converged Infrastructure Appliance), offered through several hardware vendors, with a new integrated management solution.
-Since I&amp;rsquo;m not at VMworld my self, I&amp;rsquo;ll leave the blog postings to those close to the action, but here is a quick collection of links to get you acquainted with the next EVOlution of SDDC from VMware:</description>
+      
+      <guid>https://vninja.net/vmware-2/official-evorail/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://vninja.net/img/image18-300x194.png#floatright&#34; alt=&#34;VMware EVO:RAIL&#34; /&gt;VMware has finally announced what I&amp;rsquo;ve been speculating about for some time now, EVO:RAIL was announced at VMworld US this morning. Short story; It&amp;rsquo;s a HCIA (&lt;strong&gt;H&lt;/strong&gt;yper &lt;strong&gt;C&lt;/strong&gt;onverged &lt;strong&gt;I&lt;/strong&gt;nfrastructure &lt;strong&gt;A&lt;/strong&gt;ppliance), offered through several hardware vendors, with a new integrated management solution.&lt;/p&gt;
+
+&lt;p&gt;Since I&amp;rsquo;m not at VMworld my self, I&amp;rsquo;ll leave the blog postings to those close to the action, but here is a quick collection of links to get you acquainted with the next &lt;strong&gt;EVO&lt;/strong&gt;lution of SDDC from VMware:
+&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>It&#39;s EVOlution Baby!</title>
-      <link>/vmware-2/evolution-baby/</link>
+      <link>https://vninja.net/vmware-2/evolution-baby/</link>
       <pubDate>Thu, 21 Aug 2014 22:38:22 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/vmware-2/evolution-baby/</guid>
-      <description>Finally. I&amp;rsquo;ve finally found a way to put two of my favourite things together in a completely non-sensical way, namely VMware Marvin and Pearl Jam. As The Register reported earlier today, odds are that Marvin no longer responds to it&amp;rsquo;s project name, but rather to the new EVO name recently trademarked by VMware. There has been whispers of a Marvin name change for quite some time, so this isn&amp;rsquo;t really hard to believe.</description>
+      
+      <guid>https://vninja.net/vmware-2/evolution-baby/</guid>
+      <description>&lt;p&gt;Finally. I&amp;rsquo;ve finally found a way to put two of my favourite things together in a completely non-sensical way, namely VMware Marvin and Pearl Jam. As &lt;a href=&#34;http://www.theregister.co.uk/2014/08/20/vmware_seeks_two_new_hardwarerelated_trademarks/?mt=1408660085798&#34;&gt;The Register reported earlier today&lt;/a&gt;, odds are that Marvin no longer responds to it&amp;rsquo;s project name, but rather to the new EVO name recently trademarked by VMware. There has been whispers of a Marvin name change for quite some time, so this isn&amp;rsquo;t really hard to believe.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Marvin Related VMworld Sessions?</title>
-      <link>/vmware-2/marvin-related-vmworld-sessions/</link>
+      <link>https://vninja.net/vmware-2/marvin-related-vmworld-sessions/</link>
       <pubDate>Wed, 20 Aug 2014 13:05:41 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/vmware-2/marvin-related-vmworld-sessions/</guid>
-      <description>It&amp;rsquo;s been a while since I tried speculating on the soon-to-be-announced VMware Marvin project, but some very recent VMworld US 2014 session additions look really interesting in that regard:
-SDDC1818 - VMware Customers Share Experiences and Requirements for Hyper-Converged SDDC2095 - VMware and Hyper-Converged Infrastructure SDDC1767 - SDDC at Scale with VMware Hyper-Converged Infrastructure: Deeper Dive SDDC3245-S - Software-Defined Data Center through Hyper-Converged Infrastructure
-If you look at 1767 specifically, since the other sessions are still very light on details, it has a rather interesting description:</description>
+      
+      <guid>https://vninja.net/vmware-2/marvin-related-vmworld-sessions/</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s been a while since I tried speculating on the s&lt;em&gt;oon-to-be-announced&lt;/em&gt; VMware Marvin project, but some very recent VMworld US 2014 session additions look really interesting in that regard:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://vmworld2014.activeevents.com/connect/sessionDetail.ww?SESSION_ID=1818&#34;&gt;SDDC1818 - VMware Customers Share Experiences and Requirements for Hyper-Converged
+&lt;/a&gt;&lt;a href=&#34;https://vmworld2014.activeevents.com/connect/sessionDetail.ww?SESSION_ID=2095&#34;&gt;SDDC2095 - VMware and Hyper-Converged Infrastructure
+&lt;/a&gt;&lt;a href=&#34;https://vmworld2014.activeevents.com/connect/sessionDetail.ww?SESSION_ID=1767&#34;&gt;SDDC1767 - SDDC at Scale with VMware Hyper-Converged Infrastructure: Deeper Dive&lt;/a&gt;
+&lt;a href=&#34;https://vmworld2014.activeevents.com/connect/sessionDetail.ww?SESSION_ID=3245&#34;&gt;SDDC3245-S - Software-Defined Data Center through Hyper-Converged Infrastructure&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If you look at 1767 specifically, since the other sessions are still very light on details, it has a rather interesting description:&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Is Marvin an Acronym?</title>
-      <link>/vmware-2/marvin-acronym/</link>
+      <link>https://vninja.net/vmware-2/marvin-acronym/</link>
       <pubDate>Tue, 10 Jun 2014 12:59:54 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/vmware-2/marvin-acronym/</guid>
-      <description>[caption id=&amp;laquo;attachment_3213&amp;raquo; align=&amp;laquo;alignright&amp;raquo; width=&amp;laquo;164&amp;raquo;] Marvin the Paranoid Android (HHGG)[/caption]
-The recent speculations surrounding Marvin has now hit The Register (to bad they don&amp;rsquo;t link this way, but I guess thats how it is) as well, but one piece is still missing, arguably the most important one. We all know that the most important piece of something like this is it&amp;rsquo;s name, or acronym, not it&amp;rsquo;s technical merit&amp;hellip;
-There has been a few attempts at guessing what Marvin is an acronym for, and here are some good ones from twitter:</description>
+      
+      <guid>https://vninja.net/vmware-2/marvin-acronym/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://vninja.net/img//Marvin_HHGG.jpg&#34;&gt;&lt;img src=&#34;https://vninja.net/img/Marvin_HHGG-182x300.jpg#floatright&#34; alt=&#34;Marvin the Paranoid Android (HHGG)&#34; /&gt;&lt;/a&gt; Marvin the Paranoid Android (HHGG)[/caption]&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&#34;http://vninja.net/vmware-2/vmwares-mystic-marvin-project/&#34;&gt;recent&lt;/a&gt; &lt;a href=&#34;http://vninja.net/vmware-2/marvin-speculation/&#34;&gt;speculations&lt;/a&gt; surrounding Marvin has now hit &lt;a href=&#34;http://www.theregister.co.uk/2014/06/10/vmware_to_build_converged_compute_and_storage_ihardwarei/&#34;&gt;The Register&lt;/a&gt; (to bad they don&amp;rsquo;t link this way, but I guess thats how it is) as well, but one piece is still missing, arguably the most important one. We all know that the most important piece of something like this is it&amp;rsquo;s name, or acronym, not it&amp;rsquo;s technical merit&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;There has been a few attempts at guessing what Marvin is an acronym for,  and here are some good ones from twitter:&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Some more Marvin Speculation</title>
-      <link>/vmware-2/marvin-speculation/</link>
+      <link>https://vninja.net/vmware-2/marvin-speculation/</link>
       <pubDate>Sun, 08 Jun 2014 22:24:23 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/vmware-2/marvin-speculation/</guid>
-      <description>[caption id=&amp;laquo;attachment_3213&amp;raquo; align=&amp;laquo;alignright&amp;raquo; width=&amp;laquo;121&amp;raquo;]Marvin the Paranoid Android (HHGG)[/caption]
-After close to a full day of Twitter speculations and discussions on what Marvin really is, some thoughts kept stuck with me, and this is my attempt at articulating what I think VMware might be up to.
-_Please note that I have no real knowledge of the status of the project, nor if it really exists outside of a poster in a window in the VMware campus.</description>
+      
+      <guid>https://vninja.net/vmware-2/marvin-speculation/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://vninja.net/wordpress/wp-content/uploads/2014/06/Marvin_HHGG.jpg#floatright&#34; alt=&#34;Marvin the Paranoid Android (HHGG)&#34; /&gt; Marvin the Paranoid Android (HHGG)&lt;/p&gt;
+
+&lt;p&gt;After close to a full day of Twitter speculations and discussions on what &lt;a href=&#34;http://vninja.net/vmware-2/vmwares-mystic-marvin-project/&#34;&gt;Marvin really is&lt;/a&gt;, some thoughts kept stuck with me, and this is my attempt at articulating what I think VMware might be up to.&lt;/p&gt;
+
+&lt;p&gt;_Please note that I have no real knowledge of the status of the project, nor if it really exists outside of a poster in a window in the VMware campus. All I do know is that there is a &lt;a href=&#34;http://trademarks.justia.com/861/60/marvin-86160864.html&#34;&gt;trademark registered&lt;/a&gt;, and that there seems to be some merit behind the speculations done by &lt;a href=&#34;30/project-mystics-potential-competitors-to-vmware-bring-it-on.htm&#34;&gt;CRN&lt;/a&gt; and &lt;a href=&#34;http://www.theregister.co.uk/2014/03/19/emc_sailing_up_the_mystic_river/&#34;&gt;The Register&lt;/a&gt;._&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>What is VMware&#39;s Mystic Marvin Project?</title>
-      <link>/vmware-2/vmwares-mystic-marvin-project/</link>
+      <link>https://vninja.net/vmware-2/vmwares-mystic-marvin-project/</link>
       <pubDate>Sun, 08 Jun 2014 09:09:20 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/vmware-2/vmwares-mystic-marvin-project/</guid>
-      <description>Yesterday Fletcher Cocquyt posted a rather interesting photo on his Twitter account:
-This is, as far as I know, the first public sighting confirming the existence of the &amp;laquo;mystic&amp;raquo; project Marvin that VMware is working on. The text reads &amp;laquo;Introducing the worlds first 100% VMware powered hyper converged infrastructure appliance.&amp;raquo; I guess some of the VMware engineers forgot that the VMware campus get external visitors from time to time&amp;hellip;
-So what is it?</description>
+      
+      <guid>https://vninja.net/vmware-2/vmwares-mystic-marvin-project/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://twitter.com/cocquyt/status/475133344837935104&#34;&gt;&lt;img src=&#34;https://pbs.twimg.com/media/BpgDQmDCYAESs-A.jpg:large&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;Yesterday &lt;a href=&#34;https://twitter.com/Cocquyt&#34;&gt;Fletcher Cocquyt&lt;/a&gt; posted a rather interesting photo on his Twitter account:&lt;/p&gt;
+
+&lt;p&gt;This is, as far as I know, the first public sighting confirming the existence of the &amp;laquo;&lt;a href=&#34;http://www.crn.com/news/data-center/300071991/sources-vmware-building-project-mystic-converged-infrastructure-appliance-for-emc.htm&#34;&gt;mystic&lt;/a&gt;&amp;raquo; project Marvin that VMware is working on. The text reads &amp;laquo;&lt;em&gt;Introducing the worlds first 100% VMware powered hyper converged infrastructure appliance&lt;/em&gt;.&amp;raquo; I guess some of the VMware engineers forgot that the VMware campus get external visitors from time to time&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;So what is it? Well, there aren&amp;rsquo;t many details available but &lt;a href=&#34;http://trademarks.justia.com/861/60/marvin-86160864.html&#34;&gt;Marvin is indeed a registered trademark&lt;/a&gt;, by VMware. According to the trademark registration, it&amp;rsquo;s purpose is pretty clear:&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

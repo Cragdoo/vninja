@@ -2,27 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Policy Based Computing on vNinja.net</title>
-    <link>/tags/policy-based-computing/</link>
+    <link>https://vninja.net/tags/policy-based-computing/</link>
     <description>Recent content in Policy Based Computing on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Tue, 18 Feb 2014 16:16:28 +0000</lastBuildDate>
     
-	<atom:link href="/tags/policy-based-computing/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/policy-based-computing/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Automatically Name Datastores in vSphere?</title>
-      <link>/vmware-2/automatically-datastores-vsphere/</link>
+      <link>https://vninja.net/vmware-2/automatically-datastores-vsphere/</link>
       <pubDate>Tue, 18 Feb 2014 16:16:28 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/vmware-2/automatically-datastores-vsphere/</guid>
-      <description>William Lam posted &amp;laquo;Why you should rename the default VSAN Datastore name&amp;raquo; where he outlines why the default name for VSAN data stores should be changed. Of course, I completely agree with his views on this; Leaving it at the default might cause confusion down the line.
-At the end of the post, William asks the following:
-I wonder if it would be a useful to have a feature in VSAN to automatically append the vSphere Cluster name to the default VSAN Datastore name?</description>
+      
+      <guid>https://vninja.net/vmware-2/automatically-datastores-vsphere/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/lamw&#34;&gt;William Lam&lt;/a&gt; posted &amp;laquo;&lt;a href=&#34;http://www.virtuallyghetto.com/2014/02/why-you-should-rename-default-vsan.html&#34;&gt;Why you should rename the default VSAN Datastore name&lt;/a&gt;&amp;raquo; where he outlines why the default name for VSAN data stores should be changed. Of course, I completely agree with his views on this; &lt;em&gt;Leaving it at the default might cause confusion down the line.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

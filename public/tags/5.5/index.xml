@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>5.5 on vNinja.net</title>
-    <link>/tags/5.5/</link>
+    <link>https://vninja.net/tags/5.5/</link>
     <description>Recent content in 5.5 on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Tue, 15 Jul 2014 10:59:42 +0000</lastBuildDate>
     
-	<atom:link href="/tags/5.5/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/5.5/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Root Cause of Invalid memory setting: memory reservation (sched.mem.min) should be equal to memsize (memsize)</title>
-      <link>/vmware-2/root-invalid-memory-setting-memory-reservation-sched-mem-min-equal-memsize-memsize/</link>
+      <link>https://vninja.net/vmware-2/root-invalid-memory-setting-memory-reservation-sched-mem-min-equal-memsize-memsize/</link>
       <pubDate>Tue, 15 Jul 2014 10:59:42 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/vmware-2/root-invalid-memory-setting-memory-reservation-sched-mem-min-equal-memsize-memsize/</guid>
-      <description>While working on reconfiguring my home lab setup, and migrating all the vSphere resources into a single cluster I ran into a problem powering on one of the VMs which used to run on a single host. The power on operation yielded the following error message:
-Invalid memory setting: memory reservation (sched.mem.min) should be equal to memsize (memsize) [showhide type=&amp;laquo;errorstack&amp;raquo; more_text=&amp;laquo;Show error stack (%s More Words)&amp;raquo;]
-  **Task Details:**         Status:    Invalid memory setting: memory reservation (sched.</description>
+      
+      <guid>https://vninja.net/vmware-2/root-invalid-memory-setting-memory-reservation-sched-mem-min-equal-memsize-memsize/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://vninja.net/img/Screenshot-2014-07-12-20.04.31.png&#34;&gt;&lt;img src=&#34;https://vninja.net/img/Screenshot-2014-07-12-20.04.31-300x168.png&#34; alt=&#34;Screenshot 2014-07-12 20.04.31&#34; /&gt;&lt;/a&gt;While working on reconfiguring my home lab setup, and migrating all the vSphere resources into a single cluster I ran into a problem powering on one of the VMs which used to run on a single host. The power on operation yielded the following error message:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Invalid memory setting: memory reservation (sched.mem.min) should be equal to memsize (memsize)&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Can you combine vSphere Host Cache and vFlash on a single SSD?</title>
-      <link>/vmware-2/combine-vsphere-host-cache-vflash-single-ssd/</link>
+      <link>https://vninja.net/vmware-2/combine-vsphere-host-cache-vflash-single-ssd/</link>
       <pubDate>Mon, 30 Sep 2013 00:12:39 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/vmware-2/combine-vsphere-host-cache-vflash-single-ssd/</guid>
+      
+      <guid>https://vninja.net/vmware-2/combine-vsphere-host-cache-vflash-single-ssd/</guid>
       <description>One of the new features in vSphere 5.5 is the vSphere vFlash that enables you to use a SSD/Flash device as a read cache for your storage. Duncan Epping has a series of posts on vSphere Flash Cache that is well worth a read.
 vSphere vFlash caches your read IOs, but at the same time you can use it as a swap device if you run into memory contention issues. The vSphere vFlash Host Cache is similar to the older Host Cache feature, but if you are upgrading from an older version of ESXi there is a couple of things that needs to be done to be able to use this feature.</description>
     </item>
     
     <item>
       <title>VMware vCenter Server Appliance Error: VPXD must be stopped to perform this operation</title>
-      <link>/vmware-2/vmware-vcenter-server-appliance-error-vpxd-stopped-perform-operation/</link>
+      <link>https://vninja.net/vmware-2/vmware-vcenter-server-appliance-error-vpxd-stopped-perform-operation/</link>
       <pubDate>Sun, 29 Sep 2013 23:16:25 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/vmware-2/vmware-vcenter-server-appliance-error-vpxd-stopped-perform-operation/</guid>
+      
+      <guid>https://vninja.net/vmware-2/vmware-vcenter-server-appliance-error-vpxd-stopped-perform-operation/</guid>
       <description>While deploying a fresh vCenter Server 5.5 Appliance, I ran into an issue getting it configured.
 When the appliance is deployed, the first time you log in you get presented with the configuration wizard. The wizard clearly states that if you want to set a static ip, or hostname, you should cancel the wizard, do the network configuration and then re-run the wizard after the fact.
 Well, that´s what I did, and it resulted in the following error when trying to create the embedded database:</description>
@@ -48,13 +48,13 @@ Well, that´s what I did, and it resulted in the following error when trying to 
     
     <item>
       <title>Quick and Dirty ESXi 5.5 Upgrade</title>
-      <link>/virtualization/quick-dirty-esxi-5-5-upgrade/</link>
+      <link>https://vninja.net/virtualization/quick-dirty-esxi-5-5-upgrade/</link>
       <pubDate>Mon, 23 Sep 2013 23:28:04 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/quick-dirty-esxi-5-5-upgrade/</guid>
+      
+      <guid>https://vninja.net/virtualization/quick-dirty-esxi-5-5-upgrade/</guid>
       <description>As I´ve posted about earlier, you can update your ESXi hosts to a new release from the command line. Now that ESXi 5.5 has been released, the same procedure can be applied to upgrade once more.
 Place the host in maintenance mode, then run the following command to do an online update to ESXi 5.5:
-[cc lang=&amp;laquo;bash&amp;raquo; width=&amp;laquo;100%&amp;raquo; theme=&amp;laquo;blackboard&amp;raquo; nowrap=&amp;laquo;0&amp;raquo;] ~ # esxcli software profile update -d https://hostupdate.vmware.com/software/VUM/PRODUCTION/main/vmw-depot-index.xml -p ESXi-5.</description>
+~ # esxcli software profile update -d https://hostupdate.vmware.com/software/VUM/PRODUCTION/main/vmw-depot-index.xml -p ESXi-5.5.0-1331820-standard While this runs, monitor the log file to check upgrade process:</description>
     </item>
     
   </channel>

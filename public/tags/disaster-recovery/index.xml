@@ -2,24 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Disaster Recovery on vNinja.net</title>
-    <link>/tags/disaster-recovery/</link>
+    <link>https://vninja.net/tags/disaster-recovery/</link>
     <description>Recent content in Disaster Recovery on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Mon, 27 Jun 2011 22:38:26 +0000</lastBuildDate>
     
-	<atom:link href="/tags/disaster-recovery/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/disaster-recovery/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Zerto: Or What I Learned at Tech Field Day #6!</title>
-      <link>/virtualization/zerto-or-what-i-learned-at-tfd-6/</link>
+      <link>https://vninja.net/virtualization/zerto-or-what-i-learned-at-tfd-6/</link>
       <pubDate>Mon, 27 Jun 2011 22:38:26 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/zerto-or-what-i-learned-at-tfd-6/</guid>
+      
+      <guid>https://vninja.net/virtualization/zerto-or-what-i-learned-at-tfd-6/</guid>
       <description>The last day of Tech Field Day #6 myself and all the other delegates were lucky enough to get a sneak peek at stealth startup &amp;lsquo;Zerto&amp;rsquo;. We weren&amp;rsquo;t allowed to talk about it until the 22nd and I know I am a little slow on the punch but I currently haven&amp;rsquo;t seen a lot of coverage. Just for an initial disclosure statement my trip to Tech Field Day 6 was paid for by the vendors we visited, however, I am in no way obligated to write about them or publicize them in any manner.</description>
     </item>
     

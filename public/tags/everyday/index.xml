@@ -2,25 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Everyday on vNinja.net</title>
-    <link>/tags/everyday/</link>
+    <link>https://vninja.net/tags/everyday/</link>
     <description>Recent content in Everyday on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Sat, 05 Nov 2016 23:16:06 +0000</lastBuildDate>
     
-	<atom:link href="/tags/everyday/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/everyday/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>What&#39;s Really in the Bag?</title>
-      <link>/misc/whats-really-in-the-bag/</link>
+      <link>https://vninja.net/misc/whats-really-in-the-bag/</link>
       <pubDate>Sat, 05 Nov 2016 23:16:06 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/misc/whats-really-in-the-bag/</guid>
-      <description>#vDM30in30 progress:        Since I &amp;laquo;launched&amp;raquo; my In the Bag series of weekly links yesterday, I figured I should really show what is indeed in the bag. Lifehacker runs a series called Featured Bag and the voyeur in me finds it interesting what other people carry around, and how they organize it.</description>
+      
+      <guid>https://vninja.net/misc/whats-really-in-the-bag/</guid>
+      <description>&lt;p&gt;Since I &amp;laquo;launched&amp;raquo; my &lt;a href=&#34;http://vninja.net/in-the-bag/&#34;&gt;In the Bag&lt;/a&gt; series of weekly links yesterday, I figured I should really show what is indeed in the bag. Lifehacker runs a series called &lt;a href=&#34;http://lifehacker.com/tag/featured-bag&#34;&gt;Featured Bag&lt;/a&gt; and the voyeur in me finds it interesting what other people carry around, and how they organize it.&lt;/p&gt;
+
+&lt;p&gt;This is my attempt at doing the same. This is my everyday carry, most of these items are always in the bag when I leave the house in the morning. I&amp;rsquo;ve been using backpacks for years, but noticed I always just carry it around on righ shoulder, so I decided to go for a shoulder bag instead. For the most part this works our fine, if I&amp;rsquo;m travelling for more than a day, I tend to re-pack in one of the backpacks I have instead.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://vninja.net/img/IMG_7371-1024x768.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

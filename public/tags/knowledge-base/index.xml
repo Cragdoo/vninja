@@ -2,26 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Knowledge Base on vNinja.net</title>
-    <link>/tags/knowledge-base/</link>
+    <link>https://vninja.net/tags/knowledge-base/</link>
     <description>Recent content in Knowledge Base on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Wed, 17 Sep 2014 21:24:24 +0000</lastBuildDate>
     
-	<atom:link href="/tags/knowledge-base/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/knowledge-base/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Need the vSphere Client? VMware Has You Covered.</title>
-      <link>/vmware-2/vsphere-client-vmware-covered/</link>
+      <link>https://vninja.net/vmware-2/vsphere-client-vmware-covered/</link>
       <pubDate>Wed, 17 Sep 2014 21:24:24 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/vmware-2/vsphere-client-vmware-covered/</guid>
-      <description>One of the more popular posts, currently in third place, on vNinja.net is my list of vSphere Client direct download links posted back in March 2012.
-Thankfully William Lam had the same idea, and got a new Knowledgebase Article published: Download URLs for VMware vSphere Client (2089791). Please use that article as the official download link documentation from now on.</description>
+      
+      <guid>https://vninja.net/vmware-2/vsphere-client-vmware-covered/</guid>
+      <description>&lt;p&gt;One of the more popular posts, currently in third place, on vNinja.net is my list of &lt;a href=&#34;http://vninja.net/vmware-2/vcenter-client-download-urls/&#34;&gt;vSphere Client direct download links&lt;/a&gt; posted back in &lt;strong&gt;March 2012&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Thankfully &lt;a href=&#34;https://twitter.com/lamw/status/512239798191284224&#34;&gt;William Lam had the same idea&lt;/a&gt;, and got a new Knowledgebase Article published: &lt;a href=&#34;http://kb.vmware.com/selfservice/microsites/search.do?language=en_US&amp;amp;cmd=displayKC&amp;amp;externalId=2089791&#34;&gt;Download URLs for VMware vSphere Client (2089791)&lt;/a&gt;. Please use that article as the official download link documentation from now on.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Node on vNinja.net</title>
-    <link>/tags/node/</link>
+    <link>https://vninja.net/tags/node/</link>
     <description>Recent content in Node on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Mon, 17 Mar 2014 22:41:34 +0000</lastBuildDate>
     
-	<atom:link href="/tags/node/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/node/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>VSAN - The Unspoken Future</title>
-      <link>/virtualization/vsan-unspoken-future/</link>
+      <link>https://vninja.net/virtualization/vsan-unspoken-future/</link>
       <pubDate>Mon, 17 Mar 2014 22:41:34 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/vsan-unspoken-future/</guid>
-      <description>This rather tongue-in-cheek title, is a play on Maish recent VSAN - The Unspoken Truth post where he highlights what he thinks is one of the hidden &amp;laquo;problems&amp;raquo; with the current version of VSAN is it&amp;rsquo;s inherent non-blade compatibility and current lack of &amp;laquo;rack based VSAN ready nodes&amp;raquo;.
-Of course, this is a reality; If you base your current infrastructure on blade servers, VSAN probably isn&amp;rsquo;t a good match as it stands today.</description>
+      
+      <guid>https://vninja.net/virtualization/vsan-unspoken-future/</guid>
+      <description>&lt;p&gt;This rather &lt;em&gt;tongue-in-cheek&lt;/em&gt; title, is a play on &lt;a href=&#34;https://twitter.com/maishsk/&#34;&gt;Maish &lt;/a&gt;recent &lt;a href=&#34;http://technodrone.blogspot.com/2014/03/vsan-unspoken-truth.html&#34;&gt;VSAN - The Unspoken Truth&lt;/a&gt; post where he highlights what he thinks is one of the hidden &amp;laquo;problems&amp;raquo; with the current version of VSAN is it&amp;rsquo;s inherent non-blade compatibility and current lack of &amp;laquo;rack based VSAN ready nodes&amp;raquo;.&lt;/p&gt;
+
+&lt;p&gt;Of course, this is a reality; If you base your current infrastructure on blade servers, &lt;a href=&#34;http://www.vmware.com/products/virtual-san&#34;&gt;VSAN&lt;/a&gt; probably isn&amp;rsquo;t a good match as it stands today. Chances are that if you are currently running a blade-based datacenter, you have traditional external storage on the back end of that, and that you for quite some time will be running a form factor that VSAN simply isn&amp;rsquo;t designed for. I don&amp;rsquo;t disagree with Maish in that conclusion, not a bit.
+&lt;/p&gt;</description>
     </item>
     
   </channel>

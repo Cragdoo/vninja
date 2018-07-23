@@ -2,27 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Scvmm on vNinja.net</title>
-    <link>/tags/scvmm/</link>
+    <link>https://vninja.net/tags/scvmm/</link>
     <description>Recent content in Scvmm on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Tue, 29 Oct 2013 23:25:14 +0000</lastBuildDate>
     
-	<atom:link href="/tags/scvmm/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/scvmm/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Can Microsoft really be Fair and Balanced?</title>
-      <link>/virtualization/microsoft-fair-balanced/</link>
+      <link>https://vninja.net/virtualization/microsoft-fair-balanced/</link>
       <pubDate>Tue, 29 Oct 2013 23:25:14 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/microsoft-fair-balanced/</guid>
-      <description>Microsoft has launched Virtualization2, a program to educate VMware administrators on Hyper-V and the System Center suite of tools. In short, these arefree online training sessiosn on November 19th and 20th, that also comes with a voucher for their new Microsoft virtualization certification exam (74-409).
-This comes in addition to their existing Microsoft Virtualization for VMware Professionals Jump Start training course.
-I think this is a good idea, and if you are able to close your eyes to the hyperbole, and disregard things like &amp;laquo;Microsoft Wants to Help VMware Experts “Future-Proof “ Their Career&amp;raquo;, I applaud this initiative.</description>
+      
+      <guid>https://vninja.net/virtualization/microsoft-fair-balanced/</guid>
+      <description>&lt;p&gt;Microsoft has launched &lt;a href=&#34;http://www.virtualizationsquared.com&#34;&gt;Virtualization2&lt;/a&gt;, a program to educate VMware administrators on  Hyper-V and the System Center suite of tools. In short, these arefree online training sessiosn on November 19th and 20th, that also comes with a voucher for their new Microsoft virtualization certification exam (74-409).&lt;/p&gt;
+
+&lt;p&gt;This comes in addition to their existing &lt;a href=&#34;http://www.microsoftvirtualacademy.com/training-courses/microsoft-virtualization-for-vmware-professionals-jump-start#?fbid=mtsMjGOuHAd&#34;&gt;Microsoft Virtualization for VMware Professionals Jump Start&lt;/a&gt; training course.
+&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -2,48 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sddc on vNinja.net</title>
-    <link>/tags/sddc/</link>
+    <link>https://vninja.net/tags/sddc/</link>
     <description>Recent content in Sddc on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Wed, 20 Aug 2014 13:05:41 +0000</lastBuildDate>
     
-	<atom:link href="/tags/sddc/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/sddc/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Marvin Related VMworld Sessions?</title>
-      <link>/vmware-2/marvin-related-vmworld-sessions/</link>
+      <link>https://vninja.net/vmware-2/marvin-related-vmworld-sessions/</link>
       <pubDate>Wed, 20 Aug 2014 13:05:41 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/vmware-2/marvin-related-vmworld-sessions/</guid>
-      <description>It&amp;rsquo;s been a while since I tried speculating on the soon-to-be-announced VMware Marvin project, but some very recent VMworld US 2014 session additions look really interesting in that regard:
-SDDC1818 - VMware Customers Share Experiences and Requirements for Hyper-Converged SDDC2095 - VMware and Hyper-Converged Infrastructure SDDC1767 - SDDC at Scale with VMware Hyper-Converged Infrastructure: Deeper Dive SDDC3245-S - Software-Defined Data Center through Hyper-Converged Infrastructure
-If you look at 1767 specifically, since the other sessions are still very light on details, it has a rather interesting description:</description>
+      
+      <guid>https://vninja.net/vmware-2/marvin-related-vmworld-sessions/</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s been a while since I tried speculating on the s&lt;em&gt;oon-to-be-announced&lt;/em&gt; VMware Marvin project, but some very recent VMworld US 2014 session additions look really interesting in that regard:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://vmworld2014.activeevents.com/connect/sessionDetail.ww?SESSION_ID=1818&#34;&gt;SDDC1818 - VMware Customers Share Experiences and Requirements for Hyper-Converged
+&lt;/a&gt;&lt;a href=&#34;https://vmworld2014.activeevents.com/connect/sessionDetail.ww?SESSION_ID=2095&#34;&gt;SDDC2095 - VMware and Hyper-Converged Infrastructure
+&lt;/a&gt;&lt;a href=&#34;https://vmworld2014.activeevents.com/connect/sessionDetail.ww?SESSION_ID=1767&#34;&gt;SDDC1767 - SDDC at Scale with VMware Hyper-Converged Infrastructure: Deeper Dive&lt;/a&gt;
+&lt;a href=&#34;https://vmworld2014.activeevents.com/connect/sessionDetail.ww?SESSION_ID=3245&#34;&gt;SDDC3245-S - Software-Defined Data Center through Hyper-Converged Infrastructure&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If you look at 1767 specifically, since the other sessions are still very light on details, it has a rather interesting description:&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Some more Marvin Speculation</title>
-      <link>/vmware-2/marvin-speculation/</link>
+      <link>https://vninja.net/vmware-2/marvin-speculation/</link>
       <pubDate>Sun, 08 Jun 2014 22:24:23 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/vmware-2/marvin-speculation/</guid>
-      <description>[caption id=&amp;laquo;attachment_3213&amp;raquo; align=&amp;laquo;alignright&amp;raquo; width=&amp;laquo;121&amp;raquo;]Marvin the Paranoid Android (HHGG)[/caption]
-After close to a full day of Twitter speculations and discussions on what Marvin really is, some thoughts kept stuck with me, and this is my attempt at articulating what I think VMware might be up to.
-_Please note that I have no real knowledge of the status of the project, nor if it really exists outside of a poster in a window in the VMware campus.</description>
+      
+      <guid>https://vninja.net/vmware-2/marvin-speculation/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://vninja.net/wordpress/wp-content/uploads/2014/06/Marvin_HHGG.jpg#floatright&#34; alt=&#34;Marvin the Paranoid Android (HHGG)&#34; /&gt; Marvin the Paranoid Android (HHGG)&lt;/p&gt;
+
+&lt;p&gt;After close to a full day of Twitter speculations and discussions on what &lt;a href=&#34;http://vninja.net/vmware-2/vmwares-mystic-marvin-project/&#34;&gt;Marvin really is&lt;/a&gt;, some thoughts kept stuck with me, and this is my attempt at articulating what I think VMware might be up to.&lt;/p&gt;
+
+&lt;p&gt;_Please note that I have no real knowledge of the status of the project, nor if it really exists outside of a poster in a window in the VMware campus. All I do know is that there is a &lt;a href=&#34;http://trademarks.justia.com/861/60/marvin-86160864.html&#34;&gt;trademark registered&lt;/a&gt;, and that there seems to be some merit behind the speculations done by &lt;a href=&#34;30/project-mystics-potential-competitors-to-vmware-bring-it-on.htm&#34;&gt;CRN&lt;/a&gt; and &lt;a href=&#34;http://www.theregister.co.uk/2014/03/19/emc_sailing_up_the_mystic_river/&#34;&gt;The Register&lt;/a&gt;._&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>VSAN - The Unspoken Future</title>
-      <link>/virtualization/vsan-unspoken-future/</link>
+      <link>https://vninja.net/virtualization/vsan-unspoken-future/</link>
       <pubDate>Mon, 17 Mar 2014 22:41:34 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/vsan-unspoken-future/</guid>
-      <description>This rather tongue-in-cheek title, is a play on Maish recent VSAN - The Unspoken Truth post where he highlights what he thinks is one of the hidden &amp;laquo;problems&amp;raquo; with the current version of VSAN is it&amp;rsquo;s inherent non-blade compatibility and current lack of &amp;laquo;rack based VSAN ready nodes&amp;raquo;.
-Of course, this is a reality; If you base your current infrastructure on blade servers, VSAN probably isn&amp;rsquo;t a good match as it stands today.</description>
+      
+      <guid>https://vninja.net/virtualization/vsan-unspoken-future/</guid>
+      <description>&lt;p&gt;This rather &lt;em&gt;tongue-in-cheek&lt;/em&gt; title, is a play on &lt;a href=&#34;https://twitter.com/maishsk/&#34;&gt;Maish &lt;/a&gt;recent &lt;a href=&#34;http://technodrone.blogspot.com/2014/03/vsan-unspoken-truth.html&#34;&gt;VSAN - The Unspoken Truth&lt;/a&gt; post where he highlights what he thinks is one of the hidden &amp;laquo;problems&amp;raquo; with the current version of VSAN is it&amp;rsquo;s inherent non-blade compatibility and current lack of &amp;laquo;rack based VSAN ready nodes&amp;raquo;.&lt;/p&gt;
+
+&lt;p&gt;Of course, this is a reality; If you base your current infrastructure on blade servers, &lt;a href=&#34;http://www.vmware.com/products/virtual-san&#34;&gt;VSAN&lt;/a&gt; probably isn&amp;rsquo;t a good match as it stands today. Chances are that if you are currently running a blade-based datacenter, you have traditional external storage on the back end of that, and that you for quite some time will be running a form factor that VSAN simply isn&amp;rsquo;t designed for. I don&amp;rsquo;t disagree with Maish in that conclusion, not a bit.
+&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Agile on vNinja.net</title>
-    <link>/tags/agile/</link>
+    <link>https://vninja.net/tags/agile/</link>
     <description>Recent content in Agile on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Mon, 02 Feb 2015 22:36:30 +0000</lastBuildDate>
     
-	<atom:link href="/tags/agile/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/agile/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>A great disturbance in the Force</title>
-      <link>/virtualization/great-disturbance-force/</link>
+      <link>https://vninja.net/virtualization/great-disturbance-force/</link>
       <pubDate>Mon, 02 Feb 2015 22:36:30 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/great-disturbance-force/</guid>
-      <description>So, the cat formerly known as vSphere.next is finally out of it&amp;rsquo;s rather big bag, and vSphere 6.0 has been officially announced and will be available some time in Q1 (no date has been announced yet). There is enough of posts going into details on what is new and what has been announced, so I won&amp;rsquo;t be going over that right now. If you want to hear me talk about vSphere 6.</description>
+      
+      <guid>https://vninja.net/virtualization/great-disturbance-force/</guid>
+      <description>&lt;p&gt;So, the cat formerly known as vSphere.next is finally out of it&amp;rsquo;s rather big bag, and vSphere 6.0 has been officially announced and will be available some time in Q1 (no date has been announced yet). There is &lt;a href=&#34;http://blogs.vmware.com/vmtn/2015/02/vsphere-6-0-vexpert-blog-articles.html&#34;&gt;enough of posts&lt;/a&gt; going into details on what is new and what has been announced, so I won&amp;rsquo;t be going over that right now. If you want to hear me talk about vSphere 6.0 and related news, you can always attend &lt;a href=&#34;http://vmug.no/pamelding-vmug-bergen-19-februar/&#34;&gt;VMUG Norway on the 19th of february&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

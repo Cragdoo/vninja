@@ -2,24 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vsphere Land on vNinja.net</title>
-    <link>/tags/vsphere-land/</link>
+    <link>https://vninja.net/tags/vsphere-land/</link>
     <description>Recent content in Vsphere Land on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Wed, 20 Feb 2013 08:14:29 +0000</lastBuildDate>
     
-	<atom:link href="/tags/vsphere-land/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/vsphere-land/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Voting Open for the 2013 Top VMware &amp; Virtualization Blogs </title>
-      <link>/virtualization/voting-open-2013-top-vmware-virtualization-blogs/</link>
+      <link>https://vninja.net/virtualization/voting-open-2013-top-vmware-virtualization-blogs/</link>
       <pubDate>Wed, 20 Feb 2013 08:14:29 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/voting-open-2013-top-vmware-virtualization-blogs/</guid>
+      
+      <guid>https://vninja.net/virtualization/voting-open-2013-top-vmware-virtualization-blogs/</guid>
       <description>Eric Siebert has yet again gone through the massive job of setting up his yearly Top VMware &amp;amp; Virtualization Blogs Vote.
 Huge kudos to Eric, I know this is a big undertaking for you, and myself and the rest of the community really appreciate the hard work you put into this each year!
 

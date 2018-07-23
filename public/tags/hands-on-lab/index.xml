@@ -2,24 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hands on Lab on vNinja.net</title>
-    <link>/tags/hands-on-lab/</link>
+    <link>https://vninja.net/tags/hands-on-lab/</link>
     <description>Recent content in Hands on Lab on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Thu, 06 Dec 2012 18:44:03 +0000</lastBuildDate>
     
-	<atom:link href="/tags/hands-on-lab/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/hands-on-lab/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>VMware Hands-on Lab Online Public Beta Review</title>
-      <link>/vmware-2/vmware-hands-on-lab-online-review/</link>
+      <link>https://vninja.net/vmware-2/vmware-hands-on-lab-online-review/</link>
       <pubDate>Thu, 06 Dec 2012 18:44:03 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/vmware-2/vmware-hands-on-lab-online-review/</guid>
+      
+      <guid>https://vninja.net/vmware-2/vmware-hands-on-lab-online-review/</guid>
       <description>A little while ago VMware announced Project Nee, something I was, and still am, pretty excited about.
 This afternoon I finally got access to the Hands-on Labs Online Beta part of Project Nee, and I have to say, this looks incredibly promising and useful.
 At the moment, the available labs are:Cloud Infrastructure:  HOL-INF-02 - Explore vSphere 5.1 Distributed Switch (vDS) New Features This lab explores the new features of the vSphere Distributed Switch (vDS).</description>

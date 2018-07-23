@@ -21,7 +21,7 @@
 
 <meta property="og:title" content="Quick and Dirty HTTP Based Deployment  &middot; vNinja.net ">
 <meta property="og:site_name" content="vNinja.net"/>
-<meta property="og:url" content="/virtualization/quick-and-dirty-http-based-deployment/" />
+<meta property="og:url" content="https://vninja.net/virtualization/quick-and-dirty-http-based-deployment/" />
 <meta property="og:locale" content="en">
 
 
@@ -58,8 +58,8 @@
 <meta name="twitter:creator" content="@h0bbel" />
 <meta name="twitter:title" content="Quick and Dirty HTTP Based Deployment" />
 <meta name="twitter:description" content="" />
-<meta name="twitter:url" content="/virtualization/quick-and-dirty-http-based-deployment/" />
-<meta name="twitter:domain" content="/">
+<meta name="twitter:url" content="https://vninja.net/virtualization/quick-and-dirty-http-based-deployment/" />
+<meta name="twitter:domain" content="https://vninja.net">
   
 
   
@@ -74,17 +74,17 @@
     },
     "datePublished": "2013-05-14",
     "description": "",
-    "wordCount": 411
+    "wordCount": 399
   }
 </script>
   
 
 
 
-<link rel="canonical" href="/virtualization/quick-and-dirty-http-based-deployment/" />
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/touch-icon-144-precomposed.png">
-<link rel="icon" href="/favicon.png">
-<meta name="generator" content="Hugo 0.40.3" />
+<link rel="canonical" href="https://vninja.net/virtualization/quick-and-dirty-http-based-deployment/" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://vninja.net/touch-icon-144-precomposed.png">
+<link rel="icon" href="https://vninja.net/favicon.png">
+<meta name="generator" content="Hugo 0.42.2" />
 
   <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
@@ -93,18 +93,42 @@
 
 
 
-    <link rel="stylesheet" href="/css/bootswatch/lux/bootstrap.min.css">
+    <link rel="stylesheet" href="https://vninja.net/css/bootswatch/yeti/bootstrap.min.css">
 
 
-<link rel="stylesheet" href="/css/font-awesome.min.css">
-<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="https://vninja.net/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://vninja.net/css/style.css">
 
 
-<link rel="stylesheet" href="/css/style_custom.css">
+<link rel="stylesheet" href="https://vninja.net/css/style_custom.css">
 
 
 
-  <link rel="stylesheet" href="/css/highlight/default.css">
+  <link rel="stylesheet" href="https://vninja.net/css/highlight/default.css">
+
+
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+  <script>
+  window.addEventListener("load", function(){
+  window.cookieconsent.initialise({
+    "palette": {
+      "popup": {
+        "background": "#efefef",
+        "text": "#404040"
+      },
+      "button": {
+        "background": "#8ec760",
+        "text": "#ffffff"
+      }
+    },
+    "showLink": false,
+    "position": "bottom-right"
+  })});
+  </script>
+</script>
+
+
 
 
 </head>
@@ -120,7 +144,7 @@
           <span class="icon-bar"></span>
         </button>
         
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand" href="https://vninja.net/">
           vNinja.net
           
           
@@ -136,11 +160,7 @@
                   <ul class="dropdown-menu">
                     
                       <li class="">
-                        <a href="/about/christian-mohn/"><i class='fa fa-child'></i> About vNinja</a>
-                      </li>
-                    
-                      <li class="">
-                        <a href="/about/christian-mohn/"><i class='fa fa-child'></i> About Christian</a>
+                        <a href="https://vninja.net/about/christian-mohn/"><i class='fa fa-child'></i> About Christian</a>
                       </li>
                     
                   </ul>
@@ -149,11 +169,11 @@
             
             <li class="">
               
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class='fa fa-hand-lizard-o'></i> Site Policy <span class="caret"></span></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class='fa fa-asterisk'></i> Site Policy <span class="caret"></span></a>
                   <ul class="dropdown-menu">
                     
                       <li class="">
-                        <a href="/about/privacy-policy"><i class='fa fa-hand-lizard-o'></i> Privacy Policy</a>
+                        <a href="https://vninja.net/about/privacy-policy"><i class='fa fa-asterisk'></i> Privacy Policy</a>
                       </li>
                     
                   </ul>
@@ -162,9 +182,18 @@
             
             <li class="">
               
-                <a href="/advertising" >
+                <a href="https://vninja.net/advertising" >
                   <i class='fa fa-bank'></i>
                   Advertising
+                </a>
+              
+            </li>
+            
+            <li class="">
+              
+                <a href="https://vninja.net/post/index.xml" >
+                  <i class='fa fa-rss'></i>
+                  RSS
                 </a>
               
             </li>
@@ -204,49 +233,32 @@
     &middot; by Christian Mohn
   
   &middot; Read in about 2 min
-  &middot; (411 words)
+  &middot; (399 words)
   &middot; 
-<span class="share-box">Share this on:
-    <a href="https://www.facebook.com/sharer/sharer.php?u=%2fvirtualization%2fquick-and-dirty-http-based-deployment%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-facebook-official "></i></a>
 
-    <a href="https://twitter.com/intent/tweet?text=Quick%20and%20Dirty%20HTTP%20Based%20Deployment&amp;url=%2fvirtualization%2fquick-and-dirty-http-based-deployment%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-twitter"></i></a>
-
-    <a href="https://plus.google.com/share?url=%2fvirtualization%2fquick-and-dirty-http-based-deployment%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-google-plus"></i></a>
-
-    <a href="http://www.reddit.com/submit?url=%2fvirtualization%2fquick-and-dirty-http-based-deployment%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-reddit"></i></a>
-
-    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fvirtualization%2fquick-and-dirty-http-based-deployment%2f&amp;title=Quick%20and%20Dirty%20HTTP%20Based%20Deployment" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-linkedin"></i></a>
-
-    <a href="mailto:?subject=Quick%20and%20Dirty%20HTTP%20Based%20Deployment&amp;body=Check out this site %2fvirtualization%2fquick-and-dirty-http-based-deployment%2f" data-proofer-ignore=""><i class="fa fa-envelope"></i></a>
-  </span>
 
   </small>
 
 <div class="margin-10">
   <i class="fa fa-tags"></i>
   
-  <a href="/tags/automation" class="label label-primary">automation</a>
+  <a href="https://vninja.net/tags/automation" class="label label-primary">automation</a>
   
-  <a href="/tags/deployment" class="label label-primary">Deployment</a>
+  <a href="https://vninja.net/tags/deployment" class="label label-primary">Deployment</a>
   
-  <a href="/tags/fun" class="label label-primary">fun</a>
+  <a href="https://vninja.net/tags/fun" class="label label-primary">fun</a>
   
-  <a href="/tags/http" class="label label-primary">http</a>
+  <a href="https://vninja.net/tags/http" class="label label-primary">http</a>
   
-  <a href="/tags/python" class="label label-primary">Python</a>
+  <a href="https://vninja.net/tags/python" class="label label-primary">Python</a>
   
-  <a href="/tags/realworld" class="label label-primary">realworld</a>
+  <a href="https://vninja.net/tags/realworld" class="label label-primary">realworld</a>
   
-  <a href="/tags/vma" class="label label-primary">vMA</a>
+  <a href="https://vninja.net/tags/vma" class="label label-primary">vMA</a>
   
-  <a href="/tags/vmware" class="label label-primary">VMware</a>
+  <a href="https://vninja.net/tags/vmware" class="label label-primary">VMware</a>
   
-  <a href="/tags/vsphere" class="label label-primary">vSphere</a>
+  <a href="https://vninja.net/tags/vsphere" class="label label-primary">vSphere</a>
   
 
 
@@ -260,19 +272,19 @@
 
 
       <div class="content">
+
+  
+
   <p>A lot of the scripted installation tools that VMware offers allows the usage of a central HTTP based repository for hosting the files. Today I stumbled over a little gem that might just help you create a &laquo;quick and dirty&raquo; HTTP based deployment scenario by running a simple command in your terminal. By default, this command works on any system that has <a href="http://www.python.org">Python</a> installed on it, so OS X and Linux should be ready to go as is. As for you Windows users out there, well, your mileage will vary.</p>
 
 <p>The trick here is a one line Python command that simply creates a HTTP server listing the files in your current directory over a given port. On my MacBook, I opened Terminal and ran the following command:</p>
 
-<p>[cc lang=&laquo;bash&raquo; width=&laquo;100%&raquo; theme=&laquo;blackboard&raquo; nowrap=&laquo;0&raquo;]
-python -m SimpleHTTPServer 8000
-Serving HTTP on 0.0.0.0 port 8000 ..</p>
-
-<p>[/cc]</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">python -m SimpleHTTPServer <span style="color:#ae81ff">8000</span>
+Serving HTTP on <span style="color:#ae81ff">0</span>.0.0.0 port <span style="color:#ae81ff">8000</span> ..</code></pre></div>
 
 <p>If I then open my browser, and point it to the IP address of my MacBook, I get a directory listing showing the contents of the current directory.</p>
 
-<p><a href="http://vninja.net/wordpress/wp-content/uploads/2013/05/QnDHTTP01.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2013/05/QnDHTTP01-300x196.png" alt="Quick and Dirty HTTP Deployment #01" /></a></p>
+<p><a href="https://vninja.net/img/QnDHTTP01.png"><img src="https://vninja.net/img/QnDHTTP01-300x196.png" alt="Quick and Dirty HTTP Deployment #01" /></a></p>
 
 <p>As you can see, the directory contains a few files, namely a <a href="http://virtuallymikebrown.com/tag/damn-small-linux-ovf/">Damn Small Linux</a> appliance packaged as an OVA, as well as the Linux installation files for <a href="http://www.vmware.com/resources/techresources/1013">ovftool</a>.</p>
 
@@ -280,22 +292,20 @@ Serving HTTP on 0.0.0.0 port 8000 ..</p>
 
 <p>By running the following command (output edited for verbosity)</p>
 
-<p>[cc lang=&laquo;bash&raquo; width=&laquo;100%&raquo; theme=&laquo;blackboard&raquo; nowrap=&laquo;0&raquo;]
-vi-admin@record:&gt; wget <a href="http://192.168.5.62:8000/VMware-ovftool-3.0.1-801290-lin.x86_64.bundle">http://192.168.5.62:8000/VMware-ovftool-3.0.1-801290-lin.x86_64.bundle</a> &amp;&amp; sudo sh VMware-ovftool-3.0.1-801290-lin.x86_64.bundle
-100%[======================================&gt;] 36,631,447  1.46M/s   in 23s
-2013-05-14 12:13:06 (1.52 MB/s) - `VMware-ovftool-3.0.1-801290-lin.x86<em>64.bundle.saved [36631447/36631447]
-&hellip;
-vi-admin&rsquo;s password:
-Extracting VMware Installer&hellip;done.
-&hellip;
-Do you agree? [yes/no]: yes
-&hellip;
-Installing VMware OVF Tool component for Linux 3.0.1
-Configuring&hellip;
-[######################################################################] 100%
-Installation was successful.
-vi-admin@record:/tmp&gt;
-[/cc]</em></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">vi-admin@record:&gt; wget http://192.168.5.62:8000/VMware-ovftool-3.0.1-801290-lin.x86_64.bundle <span style="color:#f92672">&amp;&amp;</span> sudo sh VMware-ovftool-3.0.1-801290-lin.x86_64.bundle
+<span style="color:#ae81ff">100</span>%<span style="color:#f92672">[======================================</span>&gt;<span style="color:#f92672">]</span> <span style="color:#ae81ff">36</span>,631,447  <span style="color:#ae81ff">1</span>.46M/s   in 23s
+<span style="color:#ae81ff">2013</span>-05-14 <span style="color:#ae81ff">12</span>:13:06 <span style="color:#f92672">(</span><span style="color:#ae81ff">1</span>.52 MB/s<span style="color:#f92672">)</span> - <span style="color:#e6db74">`</span>VMware-ovftool-3.0.1-801290-lin.x86_64.bundle.saved <span style="color:#f92672">[</span><span style="color:#ae81ff">36631447</span>/36631447<span style="color:#f92672">]</span>
+...
+vi-admin<span style="color:#960050;background-color:#1e0010">&#39;</span>s password:
+Extracting VMware Installer...done.
+...
+Do you agree? <span style="color:#f92672">[</span>yes/no<span style="color:#f92672">]</span>: yes
+...
+Installing VMware OVF Tool component <span style="color:#66d9ef">for</span> Linux <span style="color:#ae81ff">3</span>.0.1
+Configuring...
+<span style="color:#f92672">[</span><span style="color:#75715e">######################################################################] 100%
+</span><span style="color:#75715e"></span>Installation was successful.
+vi-admin@record:/tmp&gt;</code></pre></div>
 
 <p>I was able to download and install ovftool, in one command.</p>
 
@@ -307,24 +317,7 @@ The flexibility of having a small HTTP server available by running a single comm
 
       <footer>
   
-<span class="share-box">Share this on:
-    <a href="https://www.facebook.com/sharer/sharer.php?u=%2fvirtualization%2fquick-and-dirty-http-based-deployment%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-facebook-official "></i></a>
 
-    <a href="https://twitter.com/intent/tweet?text=Quick%20and%20Dirty%20HTTP%20Based%20Deployment&amp;url=%2fvirtualization%2fquick-and-dirty-http-based-deployment%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-twitter"></i></a>
-
-    <a href="https://plus.google.com/share?url=%2fvirtualization%2fquick-and-dirty-http-based-deployment%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-google-plus"></i></a>
-
-    <a href="http://www.reddit.com/submit?url=%2fvirtualization%2fquick-and-dirty-http-based-deployment%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-reddit"></i></a>
-
-    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fvirtualization%2fquick-and-dirty-http-based-deployment%2f&amp;title=Quick%20and%20Dirty%20HTTP%20Based%20Deployment" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-linkedin"></i></a>
-
-    <a href="mailto:?subject=Quick%20and%20Dirty%20HTTP%20Based%20Deployment&amp;body=Check out this site %2fvirtualization%2fquick-and-dirty-http-based-deployment%2f" data-proofer-ignore=""><i class="fa fa-envelope"></i></a>
-  </span>
 
   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
       
@@ -332,7 +325,7 @@ The flexibility of having a small HTTP server available by running a single comm
     <nav><ul class="pager">
     
         <li class="previous">
-          <a href="/vmware-2/quick-dirty-esxi-5-1u1-upgrade/" title="Quick and Dirty ESXi 5.1U1 Upgrade">
+          <a href="https://vninja.net/vmware-2/quick-dirty-esxi-5-1u1-upgrade/" title="Quick and Dirty ESXi 5.1U1 Upgrade">
             <span aria-hidden="true">&larr;</span>Previous
           </a>
         </li>
@@ -340,7 +333,7 @@ The flexibility of having a small HTTP server available by running a single comm
 
     
       <li class="next">
-        <a href="/storage-2/virtual-connect-flexfabric-direct-attach-fc-3par-caveat/" title="Virtual Connect FlexFabric and Direct-Attach FC 3Par Caveat">
+        <a href="https://vninja.net/storage-2/virtual-connect-flexfabric-direct-attach-fc-3par-caveat/" title="Virtual Connect FlexFabric and Direct-Attach FC 3Par Caveat">
             Next <span aria-hidden="true">&rarr;</span>
         </a>
       </li>
@@ -361,24 +354,35 @@ The flexibility of having a small HTTP server available by running a single comm
     </div>
     
       <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-        <hr>
-<div>
+        <div>
   
 
     <div class="section">
-      <div class="ads">
-        <a href="http://turbonomic.com/resources/hybrid-cloud-intelligent-bursting-aws-microsoft-azure/?utm_source=vninja&amp;utm_medium=banner-ad&amp;utm_campaign=wp-path-to-hybrid-cloud&amp;utm_content=250x250"><img width="250" height="250" src="https://i1.wp.com/vninja.net/wordpress/wp-content/uploads/2017/11/wp-intelligent-bursting-aws-azure-250x250.png?zoom=2&amp;fit=250%2C250" alt="" title="wp-intelligent-bursting-aws-azure (250x250)" src-orig="https://i1.wp.com/vninja.net/wordpress/wp-content/uploads/2017/11/wp-intelligent-bursting-aws-azure-250x250.png?fit=250%2C250" scale="2"></a>
+      <h4>Sponsors</h4>
+      <div class="ads" id="veeam">
+        <ins class='dcmads' style='display:inline-block;width:250px;height:250px' data-dcm-placement='N410401.1772869VNINJA.NET/B10464038.145283149' data-dcm-rendering-mode='iframe' data-dcm-https-only data-dcm-resettable-device-id='' data-dcm-app-id=''> <script src='https://www.googletagservices.com/dcm/dcmads.js'></script> </ins>
       </div>
-      <div class="ads">
-        <a href="http://cohesity.com"><img width="250" height="250" src="https://i2.wp.com/vninja.net/wordpress/wp-content/uploads/2016/12/250x250_cohesity_ad-1.gif?zoom=2&amp;fit=250%2C250" alt="" title="250x250_cohesity_ad-1" src-orig="https://i2.wp.com/vninja.net/wordpress/wp-content/uploads/2016/12/250x250_cohesity_ad-1.gif?fit=250%2C250" scale="2"></a>
+      <div class="ads" id="turbonomic">
+        <a href="http://turbonomic.com/resources/hybrid-cloud-intelligent-bursting-aws-microsoft-azure/?utm_source=vninja&amp;utm_medium=banner-ad&amp;utm_campaign=wp-path-to-hybrid-cloud&amp;">
+          <img width="250" height="250" src="https://vninja.net/ads/wp-intelligent-bursting-aws-azure-250x250.png"></a>
       </div>
+      <div class="ads" id="goliath">
+        <a href="http://goliathtechnologies.com/performance-monitoring/application-desktop-virtualization/vmware-horizon-view-monitoring/?utm_source=VNINJA&#038;utm_medium=PARTNER-MKTG&#038;utm_campaign=PARTNER-MKTG-VNINJA"><img width="250" height="250" src='https://vninja.net/ads/VMwareHorizon.jpg' alt='' title='VMwareHorizon' /></a>
+      </div>
+      <div class="ads" id="vembu">
+        <a href="https://www.vembu.com/free-vm-backup/?utm_source=vninja.net&#038;utm_medium=Banner"><img width="250" height="250" src='https://vninja.net/ads/vembu250-250.gif'/></a>
+      </div>
+
+
     </div>
-<hr>
+
+    <hr>
     
       
       
       <div class="section">
-        sidebar 2
+
+
       </div>
       
     
@@ -402,9 +406,7 @@ The flexibility of having a small HTTP server available by running a single comm
 </div>
 <div class="pull-right">
 
-<a href="/disclaimer/">Disclaimer</a> <i>&middot;</i>
-
-<a href="/terms/">Terms</a> 
+<a href="https://vninja.net/disclaimer/">Disclaimer</a> <i>&middot;</i>
 
 </div>
 
@@ -423,7 +425,7 @@ The flexibility of having a small HTTP server available by running a single comm
     
 <div class="container copyright">
     <small>
-  &copy; 2018 Copyright my blog
+  &copy; 2018 Christian Mohn
 
   </small>
 </div>
@@ -438,17 +440,17 @@ The flexibility of having a small HTTP server available by running a single comm
 
     
 
-<script src="/js/jquery.min.js"></script>
-<script src="/js/bootstrap.min.js"></script>
+<script src="https://vninja.net/js/jquery.min.js"></script>
+<script src="https://vninja.net/js/bootstrap.min.js"></script>
 
 
-<script src="/js/highlight.pack.js"></script>
-<script src="/js/site.js"></script>
+<script src="https://vninja.net/js/highlight.pack.js"></script>
+<script src="https://vninja.net/js/site.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
 
 <script>
-  var _gaq=[['_setAccount','Your Google Analytics tracking code'],['_trackPageview']];
+  var _gaq=[['_setAccount','UA-121910549-1'],['_trackPageview']];
   (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
   g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
   s.parentNode.insertBefore(g,s)}(document,'script'));

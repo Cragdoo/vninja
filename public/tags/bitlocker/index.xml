@@ -2,24 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bitlocker on vNinja.net</title>
-    <link>/tags/bitlocker/</link>
+    <link>https://vninja.net/tags/bitlocker/</link>
     <description>Recent content in Bitlocker on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Sat, 07 Jan 2012 22:44:33 +0000</lastBuildDate>
     
-	<atom:link href="/tags/bitlocker/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/bitlocker/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Creating and Using a Virtual Floppy in vSphere</title>
-      <link>/virtualization/creating-virtual-floppy-vsphere/</link>
+      <link>https://vninja.net/virtualization/creating-virtual-floppy-vsphere/</link>
       <pubDate>Sat, 07 Jan 2012 22:44:33 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/creating-virtual-floppy-vsphere/</guid>
+      
+      <guid>https://vninja.net/virtualization/creating-virtual-floppy-vsphere/</guid>
       <description>My new colleague Olav Tvedt asked me if I could test his method of enabling Bitlocker in a VM, on VMware vSphere. Of course, I was happy to oblige.
 I followed the same steps as he did in his Running Bitlocker on a Virtual computer post, and it worked perfectly.
 The only real difference between doing this in Hyper-V and on ESXi, is that the virtual floppy drive on ESXi by default doesn&amp;rsquo;t emulate an empty floppy.</description>

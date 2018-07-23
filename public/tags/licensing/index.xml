@@ -2,34 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Licensing on vNinja.net</title>
-    <link>/tags/licensing/</link>
+    <link>https://vninja.net/tags/licensing/</link>
     <description>Recent content in Licensing on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Mon, 01 Dec 2014 20:39:08 +0000</lastBuildDate>
     
-	<atom:link href="/tags/licensing/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/licensing/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>EVO:RAIL: Doing the methmath.</title>
-      <link>/virtualization/hyperconvergence-meth-math/</link>
+      <link>https://vninja.net/virtualization/hyperconvergence-meth-math/</link>
       <pubDate>Mon, 01 Dec 2014 20:39:08 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/hyperconvergence-meth-math/</guid>
-      <description>Howard Marks has published a post I&amp;rsquo;ve been meaning do myself, but to be honest, I&amp;rsquo;m glad Howard put it out there. His is way more researched and comprehensive than mine would ever have been.
-In his The True Cost Of Hyperconvergence article, Howard compares buying a new EVO:RAIL system, with building your own. Complete with the required hardware, licenses and support contracts. The result might come as a surprise to some&amp;hellip;</description>
+      
+      <guid>https://vninja.net/virtualization/hyperconvergence-meth-math/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/DeepStorageNet&#34;&gt;Howard Marks&lt;/a&gt; has published a post I&amp;rsquo;ve been meaning do myself, but to be honest, I&amp;rsquo;m glad Howard put it out there. His is way more researched and comprehensive than mine would ever have been.&lt;/p&gt;
+
+&lt;p&gt;In his &lt;a href=&#34;http://www.networkcomputing.com/storage/the-true-cost-of-hyperconvergence/a/d-id/1317768?_mc=sm_nwc&#34;&gt;The True Cost Of Hyperconvergence&lt;/a&gt; article, Howard compares buying a new &lt;a href=&#34;http://www.vmware.com/products/evorail&#34;&gt;EVO:RAIL&lt;/a&gt; system, with building your own. Complete with the required hardware, licenses and support contracts. The result might come as a surprise to some&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>vShield Endpoint Entitlement, not just for vSphere 5.1</title>
-      <link>/vmware-2/vshield-endpoint-entitlement-vsphere-5-1/</link>
+      <link>https://vninja.net/vmware-2/vshield-endpoint-entitlement-vsphere-5-1/</link>
       <pubDate>Fri, 05 Oct 2012 21:43:15 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/vmware-2/vshield-endpoint-entitlement-vsphere-5-1/</guid>
+      
+      <guid>https://vninja.net/vmware-2/vshield-endpoint-entitlement-vsphere-5-1/</guid>
       <description>When VMware vSphere 5.1 and vCloud Networking and Security 5.1 was launched at VMworld US in late August, one of the news items was the change in licensing relating to vShield Endpoint.
 vShield Endpoint is now included in every vSphere edition, with the exception of the lowest tier vSphere Essentials package.
 I was under the impression that you had to upgrade to the new 5.1 version to take advantage of the licensing change, and get licenses available for vShield Endpoint, but a new VMware Knowledgebase article named KB: 2036875 Downloading and enabling vShield Endpoint on supported vSphere platforms debunks that.</description>
@@ -37,19 +38,19 @@ I was under the impression that you had to upgrade to the new 5.1 version to tak
     
     <item>
       <title>vSphere 5 and new licensing - Good or bad?</title>
-      <link>/news/vsphere-5-and-new-licensing-good-or-bad/</link>
+      <link>https://vninja.net/news/vsphere-5-and-new-licensing-good-or-bad/</link>
       <pubDate>Tue, 12 Jul 2011 18:36:07 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/news/vsphere-5-and-new-licensing-good-or-bad/</guid>
+      
+      <guid>https://vninja.net/news/vsphere-5-and-new-licensing-good-or-bad/</guid>
       <description>As many of you did I watched todays Cloud Infrastructure Forum and the release of vSphere 5 today. I was very excited with many of the features such as Storage Profiling, Storage DRS, VMFS 5 release, and they have blown the top off of the resource limits on VMs to create Monster VMs - just to mention a few. However, one topic I notice causing quite a stir is the new licensing that seemed to be very briefly mentioned at the end of the webinar.</description>
     </item>
     
     <item>
       <title>Volume Activation Management Tool (VAMT) article</title>
-      <link>/news/volume-activation-management-tool-vamt-article/</link>
+      <link>https://vninja.net/news/volume-activation-management-tool-vamt-article/</link>
       <pubDate>Sun, 16 Jan 2011 22:03:48 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/news/volume-activation-management-tool-vamt-article/</guid>
+      
+      <guid>https://vninja.net/news/volume-activation-management-tool-vamt-article/</guid>
       <description>I&amp;rsquo;ve had another article posted on Petri IT Knowledgebase!
  The Volume Activation Management Tool (VAMT) is a free tool from Microsoft that can help administrators perform licensing and activation related tasks from a single viewpoint. VAMT is currently available in version 2.0, and supports the following products and operating systems:  Read the rest of the article called License &amp;amp; Activation Management with Volume Activation Management Tool (VAMT) on petri.</description>
     </item>

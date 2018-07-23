@@ -2,24 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Stickers on vNinja.net</title>
-    <link>/tags/stickers/</link>
+    <link>https://vninja.net/tags/stickers/</link>
     <description>Recent content in Stickers on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Tue, 11 Sep 2012 17:33:35 +0000</lastBuildDate>
     
-	<atom:link href="/tags/stickers/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/stickers/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>... and All I Asked for Was a Pin</title>
-      <link>/virtualization/all-i-asked-for-was-a-pin/</link>
+      <link>https://vninja.net/virtualization/all-i-asked-for-was-a-pin/</link>
       <pubDate>Tue, 11 Sep 2012 17:33:35 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/all-i-asked-for-was-a-pin/</guid>
+      
+      <guid>https://vninja.net/virtualization/all-i-asked-for-was-a-pin/</guid>
       <description>Way back in the old days, you know when VMworld 2012 was held in San Francisco, I tweeted that if someone could get hold of a VCP pin for me, I would be very happy.
 Luckily Paul Valentino from vCommunity Trust picked that up, and apparently went on quite the scavenger hunt on my behalf.
 Imagine my surprise today when this little square meter of carton appeared, courtesy of Mr. Valentino:</description>

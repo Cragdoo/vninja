@@ -2,24 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bug on vNinja.net</title>
-    <link>/tags/bug/</link>
+    <link>https://vninja.net/tags/bug/</link>
     <description>Recent content in Bug on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Thu, 30 May 2013 21:08:45 +0000</lastBuildDate>
     
-	<atom:link href="/tags/bug/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/bug/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Virtual Connect FlexFabric and Direct-Attach FC 3Par Caveat</title>
-      <link>/storage-2/virtual-connect-flexfabric-direct-attach-fc-3par-caveat/</link>
+      <link>https://vninja.net/storage-2/virtual-connect-flexfabric-direct-attach-fc-3par-caveat/</link>
       <pubDate>Thu, 30 May 2013 21:08:45 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/storage-2/virtual-connect-flexfabric-direct-attach-fc-3par-caveat/</guid>
+      
+      <guid>https://vninja.net/storage-2/virtual-connect-flexfabric-direct-attach-fc-3par-caveat/</guid>
       <description>When configuring a new C7000 Blade Enclosure with a couple of FlexFabric 10Gb/24-port modules I ran into a rather annoying issue during setup.
 HP Virtual Connect 3.70 introduced support for Direct-Attach setups of HP 3Par StoreServ 7000 storage systems, where you can eliminate the need for dedicated FC switches. For full details, have a look at Implementing HP Virtual Connect Direct-Attach Fibre Channel with HP 3PAR StoreServ Systems.
 This is excellent for setups where all your hosts are HP Blades, and you have a Virtual Connect FlexFabric setup.</description>

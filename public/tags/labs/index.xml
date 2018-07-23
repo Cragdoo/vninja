@@ -2,24 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Labs on vNinja.net</title>
-    <link>/tags/labs/</link>
+    <link>https://vninja.net/tags/labs/</link>
     <description>Recent content in Labs on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Wed, 27 Mar 2013 08:50:29 +0000</lastBuildDate>
     
-	<atom:link href="/tags/labs/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/labs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Brilliant idea: VMware Hosted Beta</title>
-      <link>/vmware-2/brilliant-idea-vmware-hosted-beta/</link>
+      <link>https://vninja.net/vmware-2/brilliant-idea-vmware-hosted-beta/</link>
       <pubDate>Wed, 27 Mar 2013 08:50:29 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/vmware-2/brilliant-idea-vmware-hosted-beta/</guid>
+      
+      <guid>https://vninja.net/vmware-2/brilliant-idea-vmware-hosted-beta/</guid>
       <description>Duncan Epping rather unceremoniously published a blog post &amp;laquo;New Beta Program offering: VMware Hosted Beta&amp;raquo; yesterday, outlining the availability of the new hosted beta offering that companions some of the current VMware beta programs.
 _Due to the very NDA nature of the beta programs, I can´t really go into details on what is currently offered, but what I can say is this: Well done VMware!_
 The VMware Hosted Beta runs on the same engine that runs the VMware Hands on Labs Online – Beta, but with a little added twist.</description>
@@ -27,20 +25,20 @@ The VMware Hosted Beta runs on the same engine that runs the VMware Hands on La
     
     <item>
       <title>Unsupported Network Configurations in Virtual Appliances</title>
-      <link>/vmware-2/unsupported-network-configurations-virtual-appliances/</link>
+      <link>https://vninja.net/vmware-2/unsupported-network-configurations-virtual-appliances/</link>
       <pubDate>Tue, 19 Feb 2013 23:50:20 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/vmware-2/unsupported-network-configurations-virtual-appliances/</guid>
+      
+      <guid>https://vninja.net/vmware-2/unsupported-network-configurations-virtual-appliances/</guid>
       <description>My recent experience with setting up vCenter Operations Manager on a standalone ESXi host, and the always excellent William Lam´s post Automating VCSA Network Configurations For Greenfield Deployments got me thinking.
 There are several other appliances out there that require deployment to a vCenter, to be able to configure the networking options and not just default to DHCP. In many, and perhaps even most, cases you can work around that by running the _vami_set_network _command to change from DHCP to STATIC network configurations.</description>
     </item>
     
     <item>
       <title>Getting It Right: VMware Training and Certification</title>
-      <link>/vmware-2/right-vmware-training-certification/</link>
+      <link>https://vninja.net/vmware-2/right-vmware-training-certification/</link>
       <pubDate>Mon, 01 Oct 2012 21:28:24 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/vmware-2/right-vmware-training-certification/</guid>
+      
+      <guid>https://vninja.net/vmware-2/right-vmware-training-certification/</guid>
       <description>Everyone, and probably their extended family including their mother-in-law, has heard me whine and complain about the VCP training requirements.
 VMware has unveiled a new lab, namely Project Nee (Next-Generation Education Environment)
 and this is something I´m really excited about.
@@ -50,10 +48,10 @@ VMware Project NEE is a new VMware Labs project providing a richly featured, pow
     
     <item>
       <title>VMware Virtual Customer Labs</title>
-      <link>/news/vmware-virtual-customer-labs/</link>
+      <link>https://vninja.net/news/vmware-virtual-customer-labs/</link>
       <pubDate>Sat, 04 Feb 2012 18:43:44 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/news/vmware-virtual-customer-labs/</guid>
+      
+      <guid>https://vninja.net/news/vmware-virtual-customer-labs/</guid>
       <description>I´ve mentioned this earlier, VMware hands-in labs going public in 2012, but finally it seems like something is happening in that regard!
 Scott Sauer has announced the availability of &amp;laquo;VMware Virtual Customer Labs” (vCL) where he walks us through the setup and delivery of the new vCL offering.
 At the moment it´s only available to &amp;laquo;selected customers&amp;raquo;, supported by a VMware pre-sales engineer, and the number of labs are limited. It´s still a work in progress, and I´m sure great things will come out of this!</description>
@@ -61,10 +59,10 @@ At the moment it´s only available to &amp;laquo;selected customers&amp;raquo;, 
     
     <item>
       <title>VMworld Hands-on Labs going public in 2012</title>
-      <link>/virtualization/vmworld-hands-on-labs-going-public-in-2012/</link>
+      <link>https://vninja.net/virtualization/vmworld-hands-on-labs-going-public-in-2012/</link>
       <pubDate>Tue, 30 Aug 2011 10:41:03 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/vmworld-hands-on-labs-going-public-in-2012/</guid>
+      
+      <guid>https://vninja.net/virtualization/vmworld-hands-on-labs-going-public-in-2012/</guid>
       <description>VMware Labs now has fixed data centers which means that the VMworld Hands-On labs are going to be publicly available in early 20112!
 Hear Mornay Van Der Walt, Senior Director R&amp;amp;D at VMware, explain the details in this video from VMworld TV:
 This is great news, and I&amp;rsquo;m sure I&amp;rsquo;m not the only one who thinks this is a really good idea.</description>

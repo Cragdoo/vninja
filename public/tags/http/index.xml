@@ -2,24 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Http on vNinja.net</title>
-    <link>/tags/http/</link>
+    <link>https://vninja.net/tags/http/</link>
     <description>Recent content in Http on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Tue, 14 May 2013 11:23:13 +0000</lastBuildDate>
     
-	<atom:link href="/tags/http/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/http/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Quick and Dirty HTTP Based Deployment</title>
-      <link>/virtualization/quick-and-dirty-http-based-deployment/</link>
+      <link>https://vninja.net/virtualization/quick-and-dirty-http-based-deployment/</link>
       <pubDate>Tue, 14 May 2013 11:23:13 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/quick-and-dirty-http-based-deployment/</guid>
+      
+      <guid>https://vninja.net/virtualization/quick-and-dirty-http-based-deployment/</guid>
       <description>A lot of the scripted installation tools that VMware offers allows the usage of a central HTTP based repository for hosting the files. Today I stumbled over a little gem that might just help you create a &amp;laquo;quick and dirty&amp;raquo; HTTP based deployment scenario by running a simple command in your terminal. By default, this command works on any system that has Python installed on it, so OS X and Linux should be ready to go as is.</description>
     </item>
     

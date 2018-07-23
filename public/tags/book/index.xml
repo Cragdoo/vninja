@@ -2,70 +2,74 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Book on vNinja.net</title>
-    <link>/tags/book/</link>
+    <link>https://vninja.net/tags/book/</link>
     <description>Recent content in Book on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Tue, 12 Aug 2014 15:03:06 +0000</lastBuildDate>
     
-	<atom:link href="/tags/book/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/book/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>PernixData vSphere Pocketbook Blog Edition</title>
-      <link>/virtualization/pernixdata-vsphere-pocketbook-blog-edition/</link>
+      <link>https://vninja.net/virtualization/pernixdata-vsphere-pocketbook-blog-edition/</link>
       <pubDate>Tue, 12 Aug 2014 15:03:06 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/pernixdata-vsphere-pocketbook-blog-edition/</guid>
-      <description>Following the success of the first vSphere Design Pocketbook, PernixData has created a new version, this time dubbed &amp;laquo;Blog Edition&amp;raquo;. Where the first book focused on small &amp;laquo;tweet sized&amp;raquo; design tips, the new one allows for more in-depth articles, lifting the first editions 200 character limit.
-For some reason, I have been lucky enough to be selected as one of the contributors!
-You can pick up a printed copy at the PernixData Booth (1017) at VMworld US, or pre-order your electronic copy today.</description>
+      
+      <guid>https://vninja.net/virtualization/pernixdata-vsphere-pocketbook-blog-edition/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://vninja.net/img/vSphere_design_book_Front_246px-182x300.png#floatright&#34; alt=&#34;vSphere Design Book&#34; /&gt;Following the success of the first vSphere Design Pocketbook, &lt;a href=&#34;http://pernixdata.com&#34;&gt;PernixData &lt;/a&gt;has created a new version, this time dubbed &lt;em&gt;&amp;laquo;Blog Edition&amp;raquo;&lt;/em&gt;.  Where the first book focused on small &amp;laquo;tweet sized&amp;raquo; design tips, the new one allows for more in-depth articles, lifting the first editions 200 character limit.
+&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Win a eBook Copy of Disaster Recovery using VMware vSphere Replication and vCenter Site Recovery Manager</title>
-      <link>/news/win-ebook-copy-disaster-recovery-vmware-vsphere-replication-vcenter-site-recovery-manager/</link>
+      <link>https://vninja.net/news/win-ebook-copy-disaster-recovery-vmware-vsphere-replication-vcenter-site-recovery-manager/</link>
       <pubDate>Fri, 20 Jun 2014 12:34:49 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/news/win-ebook-copy-disaster-recovery-vmware-vsphere-replication-vcenter-site-recovery-manager/</guid>
-      <description>[caption id=&amp;laquo;attachment_3241&amp;raquo; align=&amp;laquo;alignright&amp;raquo; width=&amp;laquo;221&amp;raquo;] Disaster Recovery using VMware vSphere Replication and vCenter Site Recovery Manager[/caption]
-Hot off the heals of the Veeam® Backup &amp;amp; Replication for VMware vSphere giveaway, here is another one for you!
-Win a free eBook copy of Disaster Recovery using VMware vSphere Replication and vCenter Site Recovery Manager, just by commenting!
-For the contest I have 2 eBook copies to be given away to 2 lucky winners.</description>
+      
+      <guid>https://vninja.net/news/win-ebook-copy-disaster-recovery-vmware-vsphere-replication-vcenter-site-recovery-manager/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://bit.ly/1kosrhz&#34;&gt;&lt;img src=&#34;https://vninja.net/img/DisasterRecoveryUsingVMwarevSphereReplication.png#floatright&#34; alt=&#34;Disaster Recovery using VMware vSphere Replication and vCenter Site Recovery Manager&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Hot off the heals of the &lt;a href=&#34;http://bit.ly/1qvBypQ&#34;&gt;Veeam® Backup &amp;amp; Replication for VMware vSphere&lt;/a&gt; giveaway, here is another one for you!
+&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Learning Veeam Backup &amp; Replication for VMware vSphere Book Winners</title>
-      <link>/news/learning-veeam-backup-replication-vmware-vsphere-book-winners/</link>
+      <link>https://vninja.net/news/learning-veeam-backup-replication-vmware-vsphere-book-winners/</link>
       <pubDate>Fri, 20 Jun 2014 09:47:22 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/news/learning-veeam-backup-replication-vmware-vsphere-book-winners/</guid>
-      <description>Packt Publishing has picked three lucky winners for the Veeam® Backup &amp;amp; Replication for VMware vSphere book.
-The winners are as follows, with the winning comments:
-Chris Childerhose:
-Wow nice to see a book come out for Veeam. Look forward to the following things from this book to help better my Veeam skills - Install and manage a Veeam® Backup &amp; Replication v7 infrastructure Discover how to back up and restore data in virtual environments Utilize WAN acceleration to speed up backup to remote locations Understand what options are available for Veeam® Backup &amp; Replication, and how to configure these options These topics will help further my skills with Veeam.</description>
+      
+      <guid>https://vninja.net/news/learning-veeam-backup-replication-vmware-vsphere-book-winners/</guid>
+      <description>&lt;p&gt;Packt Publishing  has picked &lt;a href=&#34;http://vninja.net/book/win-free-e-copies-learning-veeam-backup-replication-vmware-vsphere/&#34;&gt;three lucky winners&lt;/a&gt;  for the &lt;a href=&#34;http://bit.ly/1qvBypQ&#34;&gt;Veeam® Backup &amp;amp; Replication for VMware vSphere&lt;/a&gt; book.&lt;/p&gt;
+
+&lt;p&gt;The winners are as follows, with the winning comments:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://vninja.net/book/win-free-e-copies-learning-veeam-backup-replication-vmware-vsphere/#comment-13043&#34;&gt;Chris Childerhose&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Win Free e-copies of Learning Veeam® Backup &amp; Replication for VMware vSphere</title>
-      <link>/book/win-free-e-copies-learning-veeam-backup-replication-vmware-vsphere/</link>
+      <link>https://vninja.net/book/win-free-e-copies-learning-veeam-backup-replication-vmware-vsphere/</link>
       <pubDate>Mon, 09 Jun 2014 08:42:28 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/book/win-free-e-copies-learning-veeam-backup-replication-vmware-vsphere/</guid>
-      <description>Update: The contest is now closed, and I have forwarded all comments to Packt Publishing, and they will contact the winners directly. Thanks to everyone who entered!
-I have teamed up with Packt Publishing to organize a giveaway of my new Veeam® Backup &amp;amp; Replication for VMware vSphere book.
-3 lucky winners stand a chance to win e-copies of their new book. Keep reading to find out how you can be one of them!</description>
+      
+      <guid>https://vninja.net/book/win-free-e-copies-learning-veeam-backup-replication-vmware-vsphere/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://vninja.net/img/LearningVeeam125.png&#34; alt=&#34;LearningVeeam125&#34; /&gt;&lt;strong&gt;Update:&lt;/strong&gt; &lt;em&gt;The contest is now closed, and I have forwarded all comments to Packt Publishing, and they will contact the winners directly. Thanks to everyone who entered!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I have teamed up with Packt Publishing  to organize a giveaway of  my new &lt;strong&gt;&lt;a href=&#34;http://www.packtpub.com/learning-veeam-backup-and-replication-for-vmware-vsphere/book&#34;&gt;Veeam® Backup &amp;amp; Replication for VMware vSphere&lt;/a&gt; &lt;/strong&gt;book.&lt;/p&gt;
+
+&lt;p&gt;3 lucky winners stand a chance to win e-copies of their new book. Keep reading to find out how you can be one of them!&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Building End-User Computing Solutions with VMware View Book Available</title>
-      <link>/virtualization/building-end-user-computing-solutions-vmware-view-book/</link>
+      <link>https://vninja.net/virtualization/building-end-user-computing-solutions-vmware-view-book/</link>
       <pubDate>Fri, 03 Aug 2012 21:17:13 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/building-end-user-computing-solutions-vmware-view-book/</guid>
+      
+      <guid>https://vninja.net/virtualization/building-end-user-computing-solutions-vmware-view-book/</guid>
       <description>Mike Laverick and Barry Coombs has released their new book, elegantly titled &amp;laquo;Building End-User Computing Solutions with VMware View&amp;raquo;.
 Not only is this a great book, it is something that every existing and potential VMware View (and related technologies in the EUC area) administrator should add to their (digital) bookshelves.
 I´ll let the authors themselves describe it:

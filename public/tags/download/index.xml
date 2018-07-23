@@ -2,55 +2,60 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Download on vNinja.net</title>
-    <link>/tags/download/</link>
+    <link>https://vninja.net/tags/download/</link>
     <description>Recent content in Download on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Wed, 17 Sep 2014 21:24:24 +0000</lastBuildDate>
     
-	<atom:link href="/tags/download/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/download/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Need the vSphere Client? VMware Has You Covered.</title>
-      <link>/vmware-2/vsphere-client-vmware-covered/</link>
+      <link>https://vninja.net/vmware-2/vsphere-client-vmware-covered/</link>
       <pubDate>Wed, 17 Sep 2014 21:24:24 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/vmware-2/vsphere-client-vmware-covered/</guid>
-      <description>One of the more popular posts, currently in third place, on vNinja.net is my list of vSphere Client direct download links posted back in March 2012.
-Thankfully William Lam had the same idea, and got a new Knowledgebase Article published: Download URLs for VMware vSphere Client (2089791). Please use that article as the official download link documentation from now on.</description>
+      
+      <guid>https://vninja.net/vmware-2/vsphere-client-vmware-covered/</guid>
+      <description>&lt;p&gt;One of the more popular posts, currently in third place, on vNinja.net is my list of &lt;a href=&#34;http://vninja.net/vmware-2/vcenter-client-download-urls/&#34;&gt;vSphere Client direct download links&lt;/a&gt; posted back in &lt;strong&gt;March 2012&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Thankfully &lt;a href=&#34;https://twitter.com/lamw/status/512239798191284224&#34;&gt;William Lam had the same idea&lt;/a&gt;, and got a new Knowledgebase Article published: &lt;a href=&#34;http://kb.vmware.com/selfservice/microsites/search.do?language=en_US&amp;amp;cmd=displayKC&amp;amp;externalId=2089791&#34;&gt;Download URLs for VMware vSphere Client (2089791)&lt;/a&gt;. Please use that article as the official download link documentation from now on.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>NSX for vSphere 6.0.4 - Documentation and Download?</title>
-      <link>/vmware-2/nsx-vsphere-6-0-4-documentation-download/</link>
+      <link>https://vninja.net/vmware-2/nsx-vsphere-6-0-4-documentation-download/</link>
       <pubDate>Tue, 10 Jun 2014 12:48:10 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/vmware-2/nsx-vsphere-6-0-4-documentation-download/</guid>
-      <description>How long as NSX for vSphere 6.0.4 Documentation been publicly available? I just noticed this, and that the NSX downloads seem to be available via MyVMware - If you are entitled to it that is.
+      
+      <guid>https://vninja.net/vmware-2/nsx-vsphere-6-0-4-documentation-download/</guid>
+      <description>&lt;p&gt;How long as &lt;a href=&#34;https://www.vmware.com/support/pubs/nsx_pubs.html&#34;&gt;NSX for vSphere 6.0.4 Documentation &lt;/a&gt;been publicly available? I just noticed this, and that the NSX downloads seem to be available via MyVMware - If you are entitled to it that is.&lt;/p&gt;
 
-Does this mean it will be available for download and we get to play with it soon-ish? It might have been available earlier too, unnoticed by yours truly&amp;hellip;</description>
+&lt;p&gt;&lt;a href=&#34;https://vninja.net/img/Download-VMware-NSX.png&#34;&gt;&lt;img src=&#34;https://vninja.net/img/Download-VMware-NSX-1024x546.png&#34; alt=&#34;Download VMware NSX&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Does this mean it will be available for download and we get to play with it soon-ish? It might have been available earlier too, unnoticed by yours truly&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Verifying VMware Downloads</title>
-      <link>/vmware-2/verifying-vmware-downloads/</link>
+      <link>https://vninja.net/vmware-2/verifying-vmware-downloads/</link>
       <pubDate>Tue, 11 Sep 2012 21:19:12 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/vmware-2/verifying-vmware-downloads/</guid>
+      
+      <guid>https://vninja.net/vmware-2/verifying-vmware-downloads/</guid>
       <description>Now that vSphere 5.1 and assorted products have been released into the wild, how do you check the integrity of your downloaded file? As you might be aware of, VMware publishes both MD5 and SHA1 hashes for their files, making it possible to check if the file you just downloaded is identical to the file offered from VMware.
 Checking the MD5 or SHA1 hash for a single file is easy, at least in OS X where you don´t need any third party tools to check.</description>
     </item>
     
     <item>
       <title>vCenter Client Download URLs</title>
-      <link>/vmware-2/vcenter-client-download-urls/</link>
+      <link>https://vninja.net/vmware-2/vcenter-client-download-urls/</link>
       <pubDate>Mon, 12 Mar 2012 12:50:31 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/vmware-2/vcenter-client-download-urls/</guid>
+      
+      <guid>https://vninja.net/vmware-2/vcenter-client-download-urls/</guid>
       <description>Since the vCenter Client no longer is bundled with an ESXi host installation, I´ve compiled a quick list of direct download URLs for the most recent clients.
 Update 17th September 2014: VMware has published the official list in knowledge base article KB2089791, use that as the official list going forward.
 Remember, the client download URL is still available from the vCenter server, if you point your browser to it.</description>

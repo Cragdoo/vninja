@@ -21,7 +21,7 @@
 
 <meta property="og:title" content="Installing and configuring VMware vCenter Operations  &middot; vNinja.net ">
 <meta property="og:site_name" content="vNinja.net"/>
-<meta property="og:url" content="/virtualization/installing-and-configuring-vmware-vcenter-operations/" />
+<meta property="og:url" content="https://vninja.net/virtualization/installing-and-configuring-vmware-vcenter-operations/" />
 <meta property="og:locale" content="en">
 
 
@@ -56,8 +56,8 @@
 <meta name="twitter:creator" content="@h0bbel" />
 <meta name="twitter:title" content="Installing and configuring VMware vCenter Operations" />
 <meta name="twitter:description" content="" />
-<meta name="twitter:url" content="/virtualization/installing-and-configuring-vmware-vcenter-operations/" />
-<meta name="twitter:domain" content="/">
+<meta name="twitter:url" content="https://vninja.net/virtualization/installing-and-configuring-vmware-vcenter-operations/" />
+<meta name="twitter:domain" content="https://vninja.net">
   
 
   
@@ -79,10 +79,10 @@
 
 
 
-<link rel="canonical" href="/virtualization/installing-and-configuring-vmware-vcenter-operations/" />
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/touch-icon-144-precomposed.png">
-<link rel="icon" href="/favicon.png">
-<meta name="generator" content="Hugo 0.40.3" />
+<link rel="canonical" href="https://vninja.net/virtualization/installing-and-configuring-vmware-vcenter-operations/" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://vninja.net/touch-icon-144-precomposed.png">
+<link rel="icon" href="https://vninja.net/favicon.png">
+<meta name="generator" content="Hugo 0.42.2" />
 
   <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
@@ -91,18 +91,42 @@
 
 
 
-    <link rel="stylesheet" href="/css/bootswatch/lux/bootstrap.min.css">
+    <link rel="stylesheet" href="https://vninja.net/css/bootswatch/yeti/bootstrap.min.css">
 
 
-<link rel="stylesheet" href="/css/font-awesome.min.css">
-<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="https://vninja.net/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://vninja.net/css/style.css">
 
 
-<link rel="stylesheet" href="/css/style_custom.css">
+<link rel="stylesheet" href="https://vninja.net/css/style_custom.css">
 
 
 
-  <link rel="stylesheet" href="/css/highlight/default.css">
+  <link rel="stylesheet" href="https://vninja.net/css/highlight/default.css">
+
+
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+  <script>
+  window.addEventListener("load", function(){
+  window.cookieconsent.initialise({
+    "palette": {
+      "popup": {
+        "background": "#efefef",
+        "text": "#404040"
+      },
+      "button": {
+        "background": "#8ec760",
+        "text": "#ffffff"
+      }
+    },
+    "showLink": false,
+    "position": "bottom-right"
+  })});
+  </script>
+</script>
+
+
 
 
 </head>
@@ -118,7 +142,7 @@
           <span class="icon-bar"></span>
         </button>
         
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand" href="https://vninja.net/">
           vNinja.net
           
           
@@ -134,11 +158,7 @@
                   <ul class="dropdown-menu">
                     
                       <li class="">
-                        <a href="/about/christian-mohn/"><i class='fa fa-child'></i> About vNinja</a>
-                      </li>
-                    
-                      <li class="">
-                        <a href="/about/christian-mohn/"><i class='fa fa-child'></i> About Christian</a>
+                        <a href="https://vninja.net/about/christian-mohn/"><i class='fa fa-child'></i> About Christian</a>
                       </li>
                     
                   </ul>
@@ -147,11 +167,11 @@
             
             <li class="">
               
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class='fa fa-hand-lizard-o'></i> Site Policy <span class="caret"></span></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class='fa fa-asterisk'></i> Site Policy <span class="caret"></span></a>
                   <ul class="dropdown-menu">
                     
                       <li class="">
-                        <a href="/about/privacy-policy"><i class='fa fa-hand-lizard-o'></i> Privacy Policy</a>
+                        <a href="https://vninja.net/about/privacy-policy"><i class='fa fa-asterisk'></i> Privacy Policy</a>
                       </li>
                     
                   </ul>
@@ -160,9 +180,18 @@
             
             <li class="">
               
-                <a href="/advertising" >
+                <a href="https://vninja.net/advertising" >
                   <i class='fa fa-bank'></i>
                   Advertising
+                </a>
+              
+            </li>
+            
+            <li class="">
+              
+                <a href="https://vninja.net/post/index.xml" >
+                  <i class='fa fa-rss'></i>
+                  RSS
                 </a>
               
             </li>
@@ -204,45 +233,28 @@
   &middot; Read in about 4 min
   &middot; (790 words)
   &middot; 
-<span class="share-box">Share this on:
-    <a href="https://www.facebook.com/sharer/sharer.php?u=%2fvirtualization%2finstalling-and-configuring-vmware-vcenter-operations%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-facebook-official "></i></a>
 
-    <a href="https://twitter.com/intent/tweet?text=Installing%20and%20configuring%20VMware%20vCenter%20Operations&amp;url=%2fvirtualization%2finstalling-and-configuring-vmware-vcenter-operations%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-twitter"></i></a>
-
-    <a href="https://plus.google.com/share?url=%2fvirtualization%2finstalling-and-configuring-vmware-vcenter-operations%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-google-plus"></i></a>
-
-    <a href="http://www.reddit.com/submit?url=%2fvirtualization%2finstalling-and-configuring-vmware-vcenter-operations%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-reddit"></i></a>
-
-    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fvirtualization%2finstalling-and-configuring-vmware-vcenter-operations%2f&amp;title=Installing%20and%20configuring%20VMware%20vCenter%20Operations" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-linkedin"></i></a>
-
-    <a href="mailto:?subject=Installing%20and%20configuring%20VMware%20vCenter%20Operations&amp;body=Check out this site %2fvirtualization%2finstalling-and-configuring-vmware-vcenter-operations%2f" data-proofer-ignore=""><i class="fa fa-envelope"></i></a>
-  </span>
 
   </small>
 
 <div class="margin-10">
   <i class="fa fa-tags"></i>
   
-  <a href="/tags/maintenance" class="label label-primary">Maintenance</a>
+  <a href="https://vninja.net/tags/maintenance" class="label label-primary">Maintenance</a>
   
-  <a href="/tags/monitoring" class="label label-primary">Monitoring</a>
+  <a href="https://vninja.net/tags/monitoring" class="label label-primary">Monitoring</a>
   
-  <a href="/tags/ops" class="label label-primary">Ops</a>
+  <a href="https://vninja.net/tags/ops" class="label label-primary">Ops</a>
   
-  <a href="/tags/realworld" class="label label-primary">realworld</a>
+  <a href="https://vninja.net/tags/realworld" class="label label-primary">realworld</a>
   
-  <a href="/tags/vcenter" class="label label-primary">vCenter</a>
+  <a href="https://vninja.net/tags/vcenter" class="label label-primary">vCenter</a>
   
-  <a href="/tags/vcenter-operations" class="label label-primary">vCenter Operations</a>
+  <a href="https://vninja.net/tags/vcenter-operations" class="label label-primary">vCenter Operations</a>
   
-  <a href="/tags/virtualization" class="label label-primary">Virtualization</a>
+  <a href="https://vninja.net/tags/virtualization" class="label label-primary">Virtualization</a>
   
-  <a href="/tags/vsphere" class="label label-primary">vSphere</a>
+  <a href="https://vninja.net/tags/vsphere" class="label label-primary">vSphere</a>
   
 
 
@@ -256,6 +268,9 @@
 
 
       <div class="content">
+
+  
+
   
 
 <p>VMware vCenter Operations was released to the general public a week or so ago and is <a href="http://www.vmware.com/products/vcenter-operations/overview.html">available for download</a> right now. As usual you can download a 60 day trial, and get started immediately.</p>
@@ -266,59 +281,59 @@
 
 <p>Download <a href="http://www.vmware.com/products/vcenter-operations/overview.html">VMware vCenter Operations</a> and import by starting vCenter Client, navigate to the “<strong>File</strong>” menu and select “<strong>Deploy OVF template…</strong>”</p>
 
-<p><a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/1.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/1.png" alt="" /></a></p>
+<p><a href="https://vninja.net/img/1.png"><img src="https://vninja.net/img/1.png" alt="" /></a></p>
 
 <p>Browse to the download location, and find the “_VMware-vcops-1.0.0.0-373027_OVF10.ova_” file. Select it and click open.</p>
 
-<p><a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/2.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/2-300x208.png" alt="" /></a></p>
+<p><a href="https://vninja.net/img/2.png"><img src="https://vninja.net/img/2-300x208.png" alt="" /></a></p>
 
 <p>Click on “<strong>Next</strong>” and review the details.</p>
 
-<p><a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/3.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/3-300x225.png" alt="" /></a></p>
+<p><a href="https://vninja.net/img/3.png"><img src="https://vninja.net/img/3-300x225.png" alt="" /></a></p>
 
 <p>Hit “<strong>Next</strong>” once more, and click on “<strong>Accept</strong>” to accept the VMware EULA and enable the “<strong>Next</strong>” button.</p>
 
-<p><a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/4.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/4-300x225.png" alt="" /></a></p>
+<p><a href="https://vninja.net/img/4.png"><img src="https://vninja.net/img/4-300x225.png" alt="" /></a></p>
 
 <p>Specify the name and location of the VMware vCenter Operations VM, and click “<strong>Next</strong>” to continue.</p>
 
-<p><a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/5.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/5-300x225.png" alt="" /></a>
+<p><a href="https://vninja.net/img/5.png"><img src="https://vninja.net/img/5-300x225.png" alt="" /></a>
 Now we get to select which host or cluster the VM should be deployed to. Make your choices, and click on “<strong>Next</strong>”
-<a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/6.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/6-300x225.png" alt="" /></a>
+<a href="https://vninja.net/img/6.png"><img src="https://vninja.net/img/6-300x225.png" alt="" /></a>
 Select your preferred resource pool, if you have any, and once again click “<strong>Next</strong>”
-<a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/7.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/7-300x225.png" alt="" /></a>
+<a href="https://vninja.net/img/7.png"><img src="https://vninja.net/img/7-300x225.png" alt="" /></a>
 Now select your preferred datastore, and guess what? We get to click “<strong>Next</strong>” one more time!
-<a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/8.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/8-300x225.png" alt="" /></a>
+<a href="https://vninja.net/img/8.png"><img src="https://vninja.net/img/8-300x225.png" alt="" /></a>
 Decide if you want a thin or thick provisioned VM, the default is thick but I went with thin provisioned in this particular setup.
-<a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/9.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/9-300x225.png" alt="" /></a>
+<a href="https://vninja.net/img/9.png"><img src="https://vninja.net/img/9-300x225.png" alt="" /></a>
 The last configuration item, for now, is to map the networks. Select your network mappings and click on “<strong>Next</strong>”.
-<a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/10.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/10-300x225.png" alt="" /></a>
+<a href="https://vninja.net/img/10.png"><img src="https://vninja.net/img/10-300x225.png" alt="" /></a>
 Review the final setup screen, and once you are satisfied that your settings are correct, click on “<strong>Finish</strong>” to start the OVF template import.
-<a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/11.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/11-300x225.png" alt="" /></a>
+<a href="https://vninja.net/img/11.png"><img src="https://vninja.net/img/11-300x225.png" alt="" /></a>
 The import starts, and after a few minutes it should be ready to go!
-<a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/16.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/16-300x134.png" alt="" /></a>
-<a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/19.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/19-300x93.png" alt="" /></a>
+<a href="https://vninja.net/img/16.png"><img src="https://vninja.net/img/16-300x134.png" alt="" /></a>
+<a href="https://vninja.net/img/19.png"><img src="https://vninja.net/img/19-300x93.png" alt="" /></a>
 Success!
-<a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/20.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/20-300x221.png" alt="" /></a>
+<a href="https://vninja.net/img/20.png"><img src="https://vninja.net/img/20-300x221.png" alt="" /></a>
 Time to start it up!</p>
 
 <h3 id="configuring-vmware-vcenter-operations">Configuring VMware vCenter Operations</h3>
 
 <p>After the vCenter Operations VM has finished booting, it displays a little information screen showing the IP address and other tidbits of information. The most important piece of information right now is the DHCP assigned IP address. <em>Make a note of that IP for later.</em>
-<a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/21.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/21-300x166.png" alt="" /></a></p>
+<a href="https://vninja.net/img/21.png"><img src="https://vninja.net/img/21-300x166.png" alt="" /></a></p>
 
 <p>To make sure we don’t run into problems with time synchronization we need to make sure that the vCenter Operations VM time is synchronized with the ESX host time. To do so, right click on the VMware vCenter Operations VM inside of the vCenter Client, select “<strong>Edit Settings</strong>”.</p>
 
-<p><a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/21-2.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/21-2-275x300.png" alt="" /></a></p>
+<p><a href="https://vninja.net/img/21-2.png"><img src="https://vninja.net/img/21-2-275x300.png" alt="" /></a></p>
 
 <p>Select the “<strong>Options</strong>” tab, and find the VMware Tools section.
-<a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/21-3.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/21-3-300x264.png" alt="" /></a>
+<a href="https://vninja.net/img/21-3.png"><img src="https://vninja.net/img/21-3-300x264.png" alt="" /></a>
 Find the “<strong>Synchronize guest time with host</strong>” option, and select it.
-<a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/21-4.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/21-4.png" alt="" /></a>
+<a href="https://vninja.net/img/21-4.png"><img src="https://vninja.net/img/21-4.png" alt="" /></a>
 Open the vCenter Operations web page in a browser, and log in. The default username/password for vCenter Operations is <em>admin/admin</em>
-<a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/22.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/22-300x227.png" alt="" /></a>
+<a href="https://vninja.net/img/22.png"><img src="https://vninja.net/img/22-300x227.png" alt="" /></a>
 Log in, and follow the directions on screen to change the default username/password.
-<a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/23.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/23-300x227.png" alt="" /></a>
+<a href="https://vninja.net/img/23.png"><img src="https://vninja.net/img/23-300x227.png" alt="" /></a>
 <em>The new password must be at least 8 characters, and at least one digit and one character.</em>
 <strong>Note: This also changes the root account password for the vCenter Operations VM.</strong></p>
 
@@ -326,28 +341,28 @@ Log in, and follow the directions on screen to change the default username/passw
 
 <p>Fill out the vCenter Server information form, with information pertinent to your infrastructure.
 <em>Note that the registration credentials needs to have administrator privileges on the vCenter Server. You can use the same credentials for both registration and collection, or you can differentiate them if required in your environment.</em>
-<a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/24.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/24-300x227.png" alt="" /></a>
+<a href="https://vninja.net/img/24.png"><img src="https://vninja.net/img/24-300x227.png" alt="" /></a>
 Click on &laquo;<strong>Save</strong>&raquo;, and a test is performed to make sure that the information provided is correct.
-<a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/25.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/25-300x218.png" alt="" /></a>
+<a href="https://vninja.net/img/25.png"><img src="https://vninja.net/img/25-300x218.png" alt="" /></a>
 If registration is successful, a new popup appears explaining that you need to use the vSphere Client to assign the vCenter Operations licenses.
-<a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/26.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/26-300x227.png" alt="" /></a>
+<a href="https://vninja.net/img/26.png"><img src="https://vninja.net/img/26-300x227.png" alt="" /></a>
 Click on “<strong>Ok</strong>” and the vCenter Operations setup dashboard appears in your browser.
-<a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/27.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/27-300x227.png" alt="" /></a>
+<a href="https://vninja.net/img/27.png"><img src="https://vninja.net/img/27-300x227.png" alt="" /></a>
 Go back to your vCenter Client and navigate to the “<strong>Home</strong>” screen.
-<a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/28.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/28-300x288.png" alt="" /></a>
+<a href="https://vninja.net/img/28.png"><img src="https://vninja.net/img/28-300x288.png" alt="" /></a>
 You should now see the new &laquo;<strong>vCenter Operations</strong>” icon under “<strong>Solutions and Applications</strong>”. If it does not appear immediately, close the vCenter Client and restart it to have it pick up the installation.
 To install the vCenter Operations license, go to “<strong>Home</strong>” and find the “<strong>Licensing</strong>” icon.
-<a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/29.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/29-300x288.png" alt="" /></a>
+<a href="https://vninja.net/img/29.png"><img src="https://vninja.net/img/29-300x288.png" alt="" /></a>
 Click on it, and change the “<strong>View by:</strong>” option to “<strong>Asset</strong>”
 Right click on “<strong>vCenter Operations</strong>” and select “<strong>Change License Key</strong>”
-<a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/30.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/30-300x44.png" alt="" /></a>
+<a href="https://vninja.net/img/30.png"><img src="https://vninja.net/img/30-300x44.png" alt="" /></a>
 Select “<strong>Assign new license key to this solution</strong>”, click on “<strong>Enter Key…</strong>” and enter your license key and optionally a label for the key. Click on “<strong>_O_K</strong>” to return to the “<strong><em>Assign License</em></strong>” window, and click on “<strong>OK</strong>” again to install the license.</p>
 
-<p><a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/31.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/31-300x111.png" alt="" /></a> <a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/32.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/32-300x289.png" alt="" /></a>
+<p><a href="https://vninja.net/img/31.png"><img src="https://vninja.net/img/31-300x111.png" alt="" /></a> <a href="https://vninja.net/img/32.png"><img src="https://vninja.net/img/32-300x289.png" alt="" /></a>
 Your license should now be installed and active.</p>
 
 <p>Go back to the vCenter Client “<strong>Hom</strong>e&raquo; screen and find the vCenter Operations icon under “<strong>Solutions and Applications</strong>”. Click on it, and vCenter Operations should already be active monitoring your infrastructure.
-<a href="http://vninja.net/wordpress/wp-content/uploads/2011/03/33.png"><img src="http://vninja.net/wordpress/wp-content/uploads/2011/03/33-300x288.png" alt="" /></a></p>
+<a href="https://vninja.net/img/33.png"><img src="https://vninja.net/img/33-300x288.png" alt="" /></a></p>
 
 <p>Thats it! You now have VMware vCenter Operations running in your environment. For details on how it works and reports your operations refer to the <a href="http://www.vmware.com/products/vcenter-operations/overview.html">VMware vCenter Operations official documentation</a>. Eric Sloof has also posted a couple of great videos in his <a href="http://www.ntpro.nl/blog/archives/1712-Video-VMware-vCenter-Operations-Troubleshooting-Workflow.html">VMware vCenter Operations - Troubleshooting Workflow</a> post that gives an in-depth overview of what VMware vCenter Operations is capable of doing.</p>
 
@@ -356,24 +371,7 @@ Your license should now be installed and active.</p>
 
       <footer>
   
-<span class="share-box">Share this on:
-    <a href="https://www.facebook.com/sharer/sharer.php?u=%2fvirtualization%2finstalling-and-configuring-vmware-vcenter-operations%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-facebook-official "></i></a>
 
-    <a href="https://twitter.com/intent/tweet?text=Installing%20and%20configuring%20VMware%20vCenter%20Operations&amp;url=%2fvirtualization%2finstalling-and-configuring-vmware-vcenter-operations%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-twitter"></i></a>
-
-    <a href="https://plus.google.com/share?url=%2fvirtualization%2finstalling-and-configuring-vmware-vcenter-operations%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-google-plus"></i></a>
-
-    <a href="http://www.reddit.com/submit?url=%2fvirtualization%2finstalling-and-configuring-vmware-vcenter-operations%2f" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-reddit"></i></a>
-
-    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fvirtualization%2finstalling-and-configuring-vmware-vcenter-operations%2f&amp;title=Installing%20and%20configuring%20VMware%20vCenter%20Operations" onclick="window.open(this.href, 'mywin',
-'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-linkedin"></i></a>
-
-    <a href="mailto:?subject=Installing%20and%20configuring%20VMware%20vCenter%20Operations&amp;body=Check out this site %2fvirtualization%2finstalling-and-configuring-vmware-vcenter-operations%2f" data-proofer-ignore=""><i class="fa fa-envelope"></i></a>
-  </span>
 
   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
       
@@ -381,7 +379,7 @@ Your license should now be installed and active.</p>
     <nav><ul class="pager">
     
         <li class="previous">
-          <a href="/virtualization/vsphere-ipad-client/" title="vSphere iPad Client">
+          <a href="https://vninja.net/virtualization/vsphere-ipad-client/" title="vSphere iPad Client">
             <span aria-hidden="true">&larr;</span>Previous
           </a>
         </li>
@@ -389,7 +387,7 @@ Your license should now be installed and active.</p>
 
     
       <li class="next">
-        <a href="/news/vninja-net-available-also-on-vninja-com/" title="vNinja.net available also on vNinja.com">
+        <a href="https://vninja.net/news/vninja-net-available-also-on-vninja-com/" title="vNinja.net available also on vNinja.com">
             Next <span aria-hidden="true">&rarr;</span>
         </a>
       </li>
@@ -410,24 +408,35 @@ Your license should now be installed and active.</p>
     </div>
     
       <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-        <hr>
-<div>
+        <div>
   
 
     <div class="section">
-      <div class="ads">
-        <a href="http://turbonomic.com/resources/hybrid-cloud-intelligent-bursting-aws-microsoft-azure/?utm_source=vninja&amp;utm_medium=banner-ad&amp;utm_campaign=wp-path-to-hybrid-cloud&amp;utm_content=250x250"><img width="250" height="250" src="https://i1.wp.com/vninja.net/wordpress/wp-content/uploads/2017/11/wp-intelligent-bursting-aws-azure-250x250.png?zoom=2&amp;fit=250%2C250" alt="" title="wp-intelligent-bursting-aws-azure (250x250)" src-orig="https://i1.wp.com/vninja.net/wordpress/wp-content/uploads/2017/11/wp-intelligent-bursting-aws-azure-250x250.png?fit=250%2C250" scale="2"></a>
+      <h4>Sponsors</h4>
+      <div class="ads" id="veeam">
+        <ins class='dcmads' style='display:inline-block;width:250px;height:250px' data-dcm-placement='N410401.1772869VNINJA.NET/B10464038.145283149' data-dcm-rendering-mode='iframe' data-dcm-https-only data-dcm-resettable-device-id='' data-dcm-app-id=''> <script src='https://www.googletagservices.com/dcm/dcmads.js'></script> </ins>
       </div>
-      <div class="ads">
-        <a href="http://cohesity.com"><img width="250" height="250" src="https://i2.wp.com/vninja.net/wordpress/wp-content/uploads/2016/12/250x250_cohesity_ad-1.gif?zoom=2&amp;fit=250%2C250" alt="" title="250x250_cohesity_ad-1" src-orig="https://i2.wp.com/vninja.net/wordpress/wp-content/uploads/2016/12/250x250_cohesity_ad-1.gif?fit=250%2C250" scale="2"></a>
+      <div class="ads" id="turbonomic">
+        <a href="http://turbonomic.com/resources/hybrid-cloud-intelligent-bursting-aws-microsoft-azure/?utm_source=vninja&amp;utm_medium=banner-ad&amp;utm_campaign=wp-path-to-hybrid-cloud&amp;">
+          <img width="250" height="250" src="https://vninja.net/ads/wp-intelligent-bursting-aws-azure-250x250.png"></a>
       </div>
+      <div class="ads" id="goliath">
+        <a href="http://goliathtechnologies.com/performance-monitoring/application-desktop-virtualization/vmware-horizon-view-monitoring/?utm_source=VNINJA&#038;utm_medium=PARTNER-MKTG&#038;utm_campaign=PARTNER-MKTG-VNINJA"><img width="250" height="250" src='https://vninja.net/ads/VMwareHorizon.jpg' alt='' title='VMwareHorizon' /></a>
+      </div>
+      <div class="ads" id="vembu">
+        <a href="https://www.vembu.com/free-vm-backup/?utm_source=vninja.net&#038;utm_medium=Banner"><img width="250" height="250" src='https://vninja.net/ads/vembu250-250.gif'/></a>
+      </div>
+
+
     </div>
-<hr>
+
+    <hr>
     
       
       
       <div class="section">
-        sidebar 2
+
+
       </div>
       
     
@@ -451,9 +460,7 @@ Your license should now be installed and active.</p>
 </div>
 <div class="pull-right">
 
-<a href="/disclaimer/">Disclaimer</a> <i>&middot;</i>
-
-<a href="/terms/">Terms</a> 
+<a href="https://vninja.net/disclaimer/">Disclaimer</a> <i>&middot;</i>
 
 </div>
 
@@ -472,7 +479,7 @@ Your license should now be installed and active.</p>
     
 <div class="container copyright">
     <small>
-  &copy; 2018 Copyright my blog
+  &copy; 2018 Christian Mohn
 
   </small>
 </div>
@@ -487,17 +494,17 @@ Your license should now be installed and active.</p>
 
     
 
-<script src="/js/jquery.min.js"></script>
-<script src="/js/bootstrap.min.js"></script>
+<script src="https://vninja.net/js/jquery.min.js"></script>
+<script src="https://vninja.net/js/bootstrap.min.js"></script>
 
 
-<script src="/js/highlight.pack.js"></script>
-<script src="/js/site.js"></script>
+<script src="https://vninja.net/js/highlight.pack.js"></script>
+<script src="https://vninja.net/js/site.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
 
 <script>
-  var _gaq=[['_setAccount','Your Google Analytics tracking code'],['_trackPageview']];
+  var _gaq=[['_setAccount','UA-121910549-1'],['_trackPageview']];
   (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
   g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
   s.parentNode.insertBefore(g,s)}(document,'script'));

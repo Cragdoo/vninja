@@ -2,50 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2017 on vNinja.net</title>
-    <link>/tags/2017/</link>
+    <link>https://vninja.net/tags/2017/</link>
     <description>Recent content in 2017 on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Mon, 18 Dec 2017 14:00:55 +0000</lastBuildDate>
     
-	<atom:link href="/tags/2017/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/2017/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Evaluating 2017</title>
-      <link>/misc/evaluating-2017/</link>
+      <link>https://vninja.net/misc/evaluating-2017/</link>
       <pubDate>Mon, 18 Dec 2017 14:00:55 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/misc/evaluating-2017/</guid>
-      <description>Keeping up with tradition (you thought I was going to say Kardashians there, didn&amp;rsquo;t you?), it&amp;rsquo;s time to evaluate 2017.
-My list of goals for 2017 and the verdict is as follows:
- **Get that VCAP6-DCV Design exam out of the way **Done and dusted (for 6.5 that is, not 6.0). I&amp;rsquo;ve also updated my VCP to 6.5, and I&amp;rsquo;m currently waiting for the VCAP6.5-DCV Deploy exam. *Score: 10/10*
- **AWS Associate Certifications **Didn&amp;rsquo;t happen.</description>
+      
+      <guid>https://vninja.net/misc/evaluating-2017/</guid>
+      <description>&lt;p&gt;Keeping up with tradition (you thought I was going to say Kardashians there, didn&amp;rsquo;t you?), it&amp;rsquo;s time to evaluate 2017.&lt;/p&gt;
+
+&lt;p&gt;My list of &lt;a href=&#34;http://vninja.net/misc/2017-you-better-deliver/&#34;&gt;goals for 2017&lt;/a&gt; and the verdict is as follows:&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>2017 — You Better Deliver</title>
-      <link>/misc/2017-you-better-deliver/</link>
+      <link>https://vninja.net/misc/2017-you-better-deliver/</link>
       <pubDate>Sun, 15 Jan 2017 10:04:08 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/misc/2017-you-better-deliver/</guid>
-      <description>Considering it&amp;rsquo;s mid-january 2017 already, it&amp;rsquo;s time to do my annual goal list for the new year.
-My goals for 2017:  Get that VCAP6-DCV Design exam out of the way — I did the beta in march 2016, but missed the mark by a small margin.
- AWS Associate Certifications — Not sure how many of the three exams I want to do yet, but I&amp;rsquo;m going to at least give the AWS Certified Solutions Architect exam a go.</description>
+      
+      <guid>https://vninja.net/misc/2017-you-better-deliver/</guid>
+      <description>&lt;p&gt;Considering it&amp;rsquo;s mid-january 2017 already, it&amp;rsquo;s time to do my annual goal list for the new year.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://vninja.net/img/sport-treadmill-tor-route-163444-644x362.jpeg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;my-goals-for-2017&#34;&gt;My goals for 2017:&lt;/h1&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>VMworld Dates 2017</title>
-      <link>/news/vmworld-dates-2017/</link>
+      <link>https://vninja.net/news/vmworld-dates-2017/</link>
       <pubDate>Fri, 18 Nov 2016 11:23:58 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/news/vmworld-dates-2017/</guid>
-      <description>Now that the seasons have changed, it&amp;rsquo;s time to look at 2017 and start planning the year. First up, when is VMworld 2017, and perhaps most importantly where? There has been a lot of speculation about this, and the perhaps strongest rumour was that it was moving to Berlin.
-The details for the US has already been posted on vmworld.com, but for Europe all it says is &amp;laquo;Fall&amp;raquo;.
-According to Duncan, which usually is in the know, VMworld Europe 2017 will once again be in Barcelona, but in September instead of October.</description>
+      
+      <guid>https://vninja.net/news/vmworld-dates-2017/</guid>
+      <description>&lt;p&gt;Now that the seasons have changed, it&amp;rsquo;s time to look at 2017 and start planning the year.
+First up, when is VMworld 2017, and  perhaps most importantly where? There has been a lot of speculation about this, and the perhaps strongest rumour was that it was moving to Berlin.
+&lt;/p&gt;</description>
     </item>
     
   </channel>

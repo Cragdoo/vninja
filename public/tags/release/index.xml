@@ -2,25 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Release on vNinja.net</title>
-    <link>/tags/release/</link>
+    <link>https://vninja.net/tags/release/</link>
     <description>Recent content in Release on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Mon, 14 Jan 2013 23:53:50 +0000</lastBuildDate>
     
-	<atom:link href="/tags/release/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/release/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Dell (VKernel) vOPS Server Explorer 6.3 Released</title>
-      <link>/virtualization/dell-vkernel-vops-server-explorer-6-3-released/</link>
+      <link>https://vninja.net/virtualization/dell-vkernel-vops-server-explorer-6-3-released/</link>
       <pubDate>Mon, 14 Jan 2013 23:53:50 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/dell-vkernel-vops-server-explorer-6-3-released/</guid>
-      <description>[caption id=&amp;laquo;attachment_2341&amp;raquo; align=&amp;laquo;alignright&amp;raquo; width=&amp;laquo;300&amp;raquo;] vOPS 6.3 Environment Explorer[/caption]
+      
+      <guid>https://vninja.net/virtualization/dell-vkernel-vops-server-explorer-6-3-released/</guid>
+      <description>vOPS 6.3 Environment Explorer
 Yesterday fellow vExpert Mattias Sundling gave me a little pre-release briefing of the new Dell/VKernel vOPS Server Explorer 6.3 release.
 While I don´t normally do press release posts like these, I´m willing to make an exception in this case.
 Not only is vOPS Server Explorer 6.3 available in a free version, with the familiar tools from previous versions, the new release also comes armed with a couple of new interesting tools in the suite:</description>
@@ -28,10 +26,10 @@ Not only is vOPS Server Explorer 6.3 available in a free version, with the famil
     
     <item>
       <title>VMware vCenter Operations Manager 5.6 Available</title>
-      <link>/virtualization/vmware-vcenter-operations-manager-5-6/</link>
+      <link>https://vninja.net/virtualization/vmware-vcenter-operations-manager-5-6/</link>
       <pubDate>Fri, 30 Nov 2012 19:17:01 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/vmware-vcenter-operations-manager-5-6/</guid>
+      
+      <guid>https://vninja.net/virtualization/vmware-vcenter-operations-manager-5-6/</guid>
       <description>The new vCenter Operations Manager 5.6 is now generally available, and one of many improvements from v5.5 is the new licensing scheme.
 The new foundation edition, is the new entry-level edition which from now on is included in every licensed vSphere edition free of charge. That´s right, you can now run vCenter Operations Manager 5.6 Foundation without purchasing any additional licenses.
 vCenter Operations Manager now comes in the following flavors:</description>

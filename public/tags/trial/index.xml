@@ -2,24 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Trial on vNinja.net</title>
-    <link>/tags/trial/</link>
+    <link>https://vninja.net/tags/trial/</link>
     <description>Recent content in Trial on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Sat, 05 Nov 2011 09:55:30 +0000</lastBuildDate>
     
-	<atom:link href="/tags/trial/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/trial/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>VMTN Subscription</title>
-      <link>/virtualization/vmtn-subscription/</link>
+      <link>https://vninja.net/virtualization/vmtn-subscription/</link>
       <pubDate>Sat, 05 Nov 2011 09:55:30 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/vmtn-subscription/</guid>
+      
+      <guid>https://vninja.net/virtualization/vmtn-subscription/</guid>
       <description>Mike Laverick has started something of a petition to bring back the VMTN Subscription option, and I could not agree more!
 The VMTN Subscription was a way for interested parties to pay for a years subscription to VMware products, akin to the Microsoft Technet subscription program. It&amp;rsquo;s not intended for production use, but as a means to get hold of products for lab work, testing and development.
 I don&amp;rsquo;t understand why VMware pulled the plug on that option back in 2007, but I do understand why it&amp;rsquo;s time to bring it back to life.</description>

@@ -2,27 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Boot Camp on vNinja.net</title>
-    <link>/tags/boot-camp/</link>
+    <link>https://vninja.net/tags/boot-camp/</link>
     <description>Recent content in Boot Camp on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Wed, 27 Nov 2013 17:09:30 +0000</lastBuildDate>
     
-	<atom:link href="/tags/boot-camp/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/boot-camp/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>VMware VCAP-DCD Boot Camp</title>
-      <link>/virtualization/vmware-vcap-dcd-boot-camp/</link>
+      <link>https://vninja.net/virtualization/vmware-vcap-dcd-boot-camp/</link>
       <pubDate>Wed, 27 Nov 2013 17:09:30 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/vmware-vcap-dcd-boot-camp/</guid>
-      <description>[caption id=&amp;laquo;&amp;raquo; align=&amp;laquo;alignright&amp;raquo; width=&amp;laquo;240&amp;raquo;] Danbo Boot Camp &amp;copy; Daniel Lee[/caption]
-A while before VMworld Europe 2013 in Barcelona, I was lucky enough to be asked by John Arrasjid if I wanted to help out reviewing the new VCAP-DCD boot camp VMware Education has been working on. So far the VCAP Design Boot Camp has been tested in Spain, Singapore, and Malaysia, with over 300 participants so far.
-In addition to this, a two part vBrownbag series covering the boot camp content was recorded and released:</description>
+      
+      <guid>https://vninja.net/virtualization/vmware-vcap-dcd-boot-camp/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/dlee13/7333971644/&#34;&gt;&lt;img src=&#34;http://farm8.staticflickr.com/7212/7333971644_031f9dfbe3_m.jpg#center&#34; alt=&#34;Danbo Boot Camp&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;A while before VMworld Europe 2013 in Barcelona, I was lucky enough to be asked by &lt;a href=&#34;https://twitter.com/vcdx001/&#34;&gt;John Arrasjid&lt;/a&gt; if I wanted to help out reviewing the new &lt;a href=&#34;http://mylearn.vmware.com/mgrReg/plan.cfm?plan=30484&amp;amp;ui=www_cert&amp;amp;rct=j&amp;amp;q=&amp;amp;esrc=s&amp;amp;source=web&amp;amp;cd=1&amp;amp;ved=0CCoQFjAA&amp;amp;url=http://www.vmware.com/go/vcapdcd&amp;amp;ei=LyaWUsC9CqT3yAPxqYB4&amp;amp;usg=AFQjCNGoY_moU7jFbZNBcKR1eUiAs8BgHg&amp;amp;bvm=bv.57155469,d.bGQ&#34;&gt;VCAP-DCD&lt;/a&gt; boot camp VMware Education has been working on. So far the VCAP Design Boot Camp has been tested in Spain, Singapore, and Malaysia, with over 300 participants so far.&lt;/p&gt;
+
+&lt;p&gt;In addition to this, a two part vBrownbag series covering the boot camp content was recorded and released:&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

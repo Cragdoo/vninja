@@ -2,24 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ix2 on vNinja.net</title>
-    <link>/tags/ix2/</link>
+    <link>https://vninja.net/tags/ix2/</link>
     <description>Recent content in Ix2 on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Mon, 23 Jan 2012 19:57:49 +0000</lastBuildDate>
     
-	<atom:link href="/tags/ix2/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/ix2/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Iomega IX2 and Time Machine Support</title>
-      <link>/osx/iomega-ix2-time-machine-support/</link>
+      <link>https://vninja.net/osx/iomega-ix2-time-machine-support/</link>
       <pubDate>Mon, 23 Jan 2012 19:57:49 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/osx/iomega-ix2-time-machine-support/</guid>
+      
+      <guid>https://vninja.net/osx/iomega-ix2-time-machine-support/</guid>
       <description>As Mr. Simon Seagrave has pointed out, there is a fix available to enable OSX Lion Time Machine support for Iomega IX2 and IX4 NAS storage devices.
 I decided to take this a little step further, and try to upgrade my old (and discontinued) Iomega IX2-200 to the new IX2-200 Cloud Edition firmware.
 Initially this was a big failure, as I seemingly managed to brick my device. It was only responding to pings (so the TCP/IP stack was loaded and working), but I could not bring up the web based management tool nor connect via telnet or SSH.</description>

@@ -2,24 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tool on vNinja.net</title>
-    <link>/tags/tool/</link>
+    <link>https://vninja.net/tags/tool/</link>
     <description>Recent content in Tool on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Thu, 25 Aug 2011 21:51:37 +0000</lastBuildDate>
     
-	<atom:link href="/tags/tool/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/tool/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Poor Man&#39;s WSUS</title>
-      <link>/microsoft-2/poor-mans-wsus/</link>
+      <link>https://vninja.net/microsoft-2/poor-mans-wsus/</link>
       <pubDate>Thu, 25 Aug 2011 21:51:37 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/microsoft-2/poor-mans-wsus/</guid>
+      
+      <guid>https://vninja.net/microsoft-2/poor-mans-wsus/</guid>
       <description>Not that WSUS is expensive, after all it&amp;rsquo;s a &amp;laquo;free&amp;raquo; addon to the server you&amp;rsquo;re already running if you need it. Of course, running your own Windows Server Update Services (WSUS) infrastructure is preferable in just about every scenario except for some edge cases where bandwidth or latency issues might prevent you from syncing the updates from a central repository. Sadly, these edge cases enter the fray from time to time and I recently found myself in the middle of such a scenario.</description>
     </item>
     

@@ -2,25 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Snark on vNinja.net</title>
-    <link>/tags/snark/</link>
+    <link>https://vninja.net/tags/snark/</link>
     <description>Recent content in Snark on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Mon, 10 Mar 2014 19:43:13 +0000</lastBuildDate>
     
-	<atom:link href="/tags/snark/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/snark/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>It&#39;s All Fun and Games Until...</title>
-      <link>/vmware-2/fun-games-until/</link>
+      <link>https://vninja.net/vmware-2/fun-games-until/</link>
       <pubDate>Mon, 10 Mar 2014 19:43:13 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/vmware-2/fun-games-until/</guid>
-      <description>Remember, it&amp;rsquo;s all fun and games until someone loses a certification</description>
+      
+      <guid>https://vninja.net/vmware-2/fun-games-until/</guid>
+      <description>&lt;p&gt;Remember, it&amp;rsquo;s all fun and games until someone loses a certification&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://vninja.net/img/VCP-DQ.png&#34; alt=&#34;VCP-DQ&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

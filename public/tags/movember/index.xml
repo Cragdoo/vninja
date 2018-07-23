@@ -2,27 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Movember on vNinja.net</title>
-    <link>/tags/movember/</link>
+    <link>https://vninja.net/tags/movember/</link>
     <description>Recent content in Movember on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Sun, 01 Dec 2013 10:35:24 +0000</lastBuildDate>
     
-	<atom:link href="/tags/movember/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/movember/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Sometimes You Simply Get What You Pay For</title>
-      <link>/virtualization/simply-pay/</link>
+      <link>https://vninja.net/virtualization/simply-pay/</link>
       <pubDate>Sun, 01 Dec 2013 10:35:24 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/simply-pay/</guid>
-      <description>Some time during the Podcasting for Cancer fundraiser period I somehow suggested that we should pair it with this years Movember.
-Despite my wife and daughters strenuous protests, I signed up and went all in. By all in, I mean, all in. For the first time since I went to my then employers christmas party dressed as a woman, I shaved my whole face.
-My trusty goatee, who had been pretty much constantly with me since 1997, was gone.</description>
+      
+      <guid>https://vninja.net/virtualization/simply-pay/</guid>
+      <description>&lt;p&gt;Some time during the &lt;a href=&#34;http://podcastingforcancer.org&#34;&gt;Podcasting for Cancer&lt;/a&gt; fundraiser period I somehow suggested that we should pair it with this years &lt;a href=&#34;https://www.movember.com&#34;&gt;Movember&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Despite my wife and daughters strenuous protests, I signed up and went all in. By all in, I mean, all in. For the first time since I went to my then employers christmas party dressed as a woman, I shaved my whole face.
+&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vexpert on vNinja.net</title>
-    <link>/tags/vexpert/</link>
+    <link>https://vninja.net/tags/vexpert/</link>
     <description>Recent content in Vexpert on vNinja.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>yourname@example.com (Christian Mohn)</managingEditor>
-    <webMaster>yourname@example.com (Christian Mohn)</webMaster>
-    <copyright>(c) 2018 Copyright my blog</copyright>
+    <copyright>(c) 2018 Christian Mohn</copyright>
     <lastBuildDate>Fri, 19 Jun 2015 10:10:52 +0000</lastBuildDate>
     
-	<atom:link href="/tags/vexpert/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vninja.net/tags/vexpert/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Ravello Offers Free Lab Service for all 2015 vExperts</title>
-      <link>/virtualization/ravello/</link>
+      <link>https://vninja.net/virtualization/ravello/</link>
       <pubDate>Fri, 19 Jun 2015 10:10:52 +0000</pubDate>
-      <author>yourname@example.com (Christian Mohn)</author>
-      <guid>/virtualization/ravello/</guid>
-      <description>RavelloSystems has announced free lab service for all 2015 vExperts, which offers 1,000 free CPU hours per month for personal or home lab use.
-I was lucky enough to be one of the early VMware on AWS VIP Pass users, and I&amp;rsquo;ve been working on several setups the last few weeks. Hopefully I&amp;rsquo;ll be able to make those available as blueprints in the new Ravello Repo, once they are ready for publishing.</description>
+      
+      <guid>https://vninja.net/virtualization/ravello/</guid>
+      <description>&lt;p&gt;Ravello&lt;img src=&#34;https://vninja.net/img/ravello_logo-2-e1434699655395.png#floatright&#34; alt=&#34;ravello_logo-2&#34; /&gt; Systems has &lt;a href=&#34;http://www.ravellosystems.com/go/vexpert&#34;&gt;announced free lab service&lt;/a&gt; for all 2015 vExperts, which offers 1,000 &lt;em&gt;free&lt;/em&gt; CPU hours per month for personal or home lab use.&lt;/p&gt;
+
+&lt;p&gt;I was lucky enough to be one of the early VMware on AWS VIP Pass users, and I&amp;rsquo;ve been working on several setups the last few weeks. Hopefully I&amp;rsquo;ll be able to make those available as blueprints in the new &lt;a href=&#34;http://www.ravellosystems.com/repo&#34;&gt;Ravello Repo&lt;/a&gt;, once they are ready for publishing.
+&lt;/p&gt;</description>
     </item>
     
   </channel>
