@@ -1,5 +1,5 @@
 ---
-author: esod
+author: Espen Ødegaard
 comments: true
 date: 2015-11-10 19:30:20+00:00
 layout: post
@@ -56,7 +56,7 @@ dig +noall +answer +search -x 10.0.1.201
 
 Re-checking the domain in the vCenter Web Client, and  AD-information is retrieved correctly.
 
-![_1446154788631](http://vninja.net/wordpress/wp-content/uploads/2015/10/1446154788631.png)
+![_1446154788631](/img/1446154788631.png)
 
 
 
