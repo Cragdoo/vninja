@@ -39,7 +39,9 @@ Cache-Control: public, max-age=604800
 X-Frame-Options: DENY
 X-Content-Type-Options: nosniff
 X-XSS-Protection: 1; mode=block
-Content-Security-Policy-Report-Only: default-src https://vninja.net:*
+Content-Security-Policy-Report-Only: default-src https:; report-uri https://vninja.report-uri.com/r/d/csp/reportOnly
+
+
 Strict-Transport-Security: max-age=2628000
 Referrer-Policy: strict-origin
 Content-Security-Policy: script-src unsafe-inline vninja.net vninja.com * fonts.googleapis.com *.maxcdn.com *.cloudflare.com *.googletagservices.com *.google-analytics.com
