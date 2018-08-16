@@ -11,10 +11,14 @@ title: "Hello, My Name Is Hugo (Montoya)"
 
 description: "Goodbye Wordpress, hello Hugo! vNinja.net has been powered by Wordpress since it was launched back in 2010, and frankly it was time for a change."
 
-card: "summary_large_image"
-site: "@vninjanet"
-creator: "@h0bbel"
-image: "https://vninja.net/img/hugo-logo.png"
+twitter:
+    card: "summary_large_image"
+    site: "@vninjanet"
+    creator: "@h0bbel"
+    title: "Hello, My Name Is Hugo (Montoya)"
+    description: "Goodbye Wordpress, hello Hugo!"
+    image: "https://vninja.net/img/hugo-logo.png"
+
 ---
 
 
