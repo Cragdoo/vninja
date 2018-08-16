@@ -16,8 +16,10 @@ twitter:
     card: "summary_large_image"
     site: "@vninjanet"
     creator: "@h0bbel"
+    title: "Book Recommendations August 2018"
+    description: "Every now and then new vSphere related must-have books are released, and this month there is no less than two of them, namely the vSphere 6.7 Clustering Deep Dive and VDI Design Guide"
     image: "https://vninja.net/stock/kimberly-farmer-287677-unsplash.jpg"
-    description: "Every now and then new vSphere related must-have books are released, and this month there is no less than two of them, namely the vSphere 6.7 Clustering Deep Dive and VDI Design Guide: A comprehensive guide to help you design VMware Horizon, based on modern standards."
+    
 ---
 
 # Book Recommendations August 2018
