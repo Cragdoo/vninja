@@ -8,7 +8,7 @@ keywords: ["Books", "Recommendations"]
 topics: ["Books"]
 tags: ["Recommended", "Reading", "Books"]
 
-title: "Book Recommendations"
+title: "Book Recommendations August 2018"
 
 description: "Every now and then new vSphere related must-have books are released, and this month there is no less than two of them, namely the vSphere 6.7 Clustering Deep Dive and VDI Design Guide: A comprehensive guide to help you design VMware Horizon, based on modern standards."
 
