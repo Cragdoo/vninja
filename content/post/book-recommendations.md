@@ -41,7 +41,7 @@ Written by [Frank Denneman](https://twitter.com/frankdenneman), [Duncan Epping](
 * vSphere Network I/O Control
 * vSphere Stretched Clusters
 
-I'd like to hightlight the last one on that list; Stretched Clusters or vSphere Metro Storage Cluster (vMSC). This chapter is an entire use-case, with requirements and constraints and a real world implementation scenario. It includes DRS/HA settings, affinity rules, and detailed failure scenarios. That chapter alone is worth the cost of the book!
+I'd like to hightlight the last one on that list; Stretched Clusters or vSphere Metro Storage Cluster (vMSC). This chapter is an entire use-case, with requirements and constraints and a real world implementation scenario. It includes, amongst other things, DRS/HA settings, affinity rules, and detailed failure scenarios. That chapter alone is worth the cost of the book!
 
 Combined with the [vSphere 6.5 Host Resources Deep Dive](https://www.amazon.com/VMware-vSphere-Host-Resources-Deep/dp/1540873064/ref=sr_1_1?ie=UTF8&qid=1534415998&sr=8-1&keywords=vSphere+6.5+Host+Resources+Deep+Dive&dpID=31unEghqRrL&preST=_SY344_BO1,204,203,200_QL70_&dpSrc=srch), you get the [vSphere 6.x Deep Dive Resource Kit](http://frankdenneman.nl/2018/07/30/vsphere-6-x-deep-dive-resource-kit-completed/) — Something that every vSphere administrator out there should have readily available.
 
