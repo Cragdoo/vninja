@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>(c) 2018 Christian Mohn</copyright>
-    <lastBuildDate>Thu, 24 Nov 2016 09:45:10 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Aug 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://vninja.net/tags/recommended/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Book Recommendations August 2018</title>
+      <link>https://vninja.net/2018/08/16/book-recommendations/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vninja.net/2018/08/16/book-recommendations/</guid>
+      <description>Book Recommendations August 2018 Every now and then new vSphere related &amp;laquo;must-have&amp;raquo; books are released, and this month there is no less than two of them, namely the vSphere 6.7 Clustering Deep Dive and VDI Design Guide: A comprehensive guide to help you design VMware Horizon, based on modern standards.
+vSphere 6.7 Clustering Deep Dive This updated version (the 5th version) covers vSphere 6.7, and it&amp;rsquo;s a real brick.</description>
+    </item>
     
     <item>
       <title>macOS: Spectacle</title>
