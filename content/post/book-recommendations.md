@@ -12,11 +12,11 @@ title: "Book Recommendations August 2018"
 
 description: "Every now and then new vSphere related must-have books are released, and this month there is no less than two of them, namely the vSphere 6.7 Clustering Deep Dive and VDI Design Guide: A comprehensive guide to help you design VMware Horizon, based on modern standards."
 
-
-card: "summary_large_image"
-site: "@vninjanet"
-creator: "@h0bbel"
-image: "https://vninja.net/stock/kimberly-farmer-287677-unsplash.jpg"
+[twitter]
+    card: "summary_large_image"
+    site: "@vninjanet"
+    creator: "@h0bbel"
+    image: "https://vninja.net/stock/kimberly-farmer-287677-unsplash.jpg"
 ---
 
 # Book Recommendations August 2018
@@ -45,7 +45,7 @@ I'd like to hightlight the last one on that list; Stretched Clusters or vSphere 
 
 Combined with the [vSphere 6.5 Host Resources Deep Dive](https://www.amazon.com/VMware-vSphere-Host-Resources-Deep/dp/1540873064/ref=sr_1_1?ie=UTF8&qid=1534415998&sr=8-1&keywords=vSphere+6.5+Host+Resources+Deep+Dive&dpID=31unEghqRrL&preST=_SY344_BO1,204,203,200_QL70_&dpSrc=srch), you get the [vSphere 6.x Deep Dive Resource Kit](http://frankdenneman.nl/2018/07/30/vsphere-6-x-deep-dive-resource-kit-completed/) — Something that every vSphere administrator out there should have readily available.
 
-I've purchased both these for the entire SDDC-team in Proact Norway; they are **just that essential**.
+I've purchased both these for [the entire SDDC-team in Proact Norway](https://twitter.com/h0bbel/status/1029659734025138177); they are **just that essential**.
 
 ## VDI Design Guide: A comprehensive guide to help you design VMware Horizon, based on modern standards
 
