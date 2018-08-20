@@ -36,14 +36,8 @@ I have the following main projects defined.
 
 
   * **Work**
-
-
   * **Private**
-
-
   * **VMUG**
-
-
   * **vNinja**
 
 
@@ -64,40 +58,29 @@ My current list of labels are:
 
 
 
-  * **@Waiting**_—Anything that I'm currently waiting for someone else to to something with before I can continue._
+  * **@Waiting** — _Anything that I'm currently waiting for someone else to to something with before I can continue._
 
 
-  * **@Writing**_—Things I'm planning on writing._
+  * **@Writing** — _Things I'm planning on writing._
 
 
-  * **@Someday**_—Something I plan on doing at some point, but haven't set a deadline for._
+  * **@Someday** — _Something I plan on doing at some point, but haven't set a deadline for._
 
 
-  * **@Read**_—Things I'm planning on reading._
-
-
-
-
+  * **@Read** — _Things I'm planning on reading._
 
 ## Priorities
 
+  * **P1** — Important and urgent. Do these now.
 
 
+  * **P2** — Important but not urgent. Must have a due date. Move to P1 on or before due date.
 
 
+  * **P3** — Not important but urgent. Delegate to others, or change priority to P2 or P4.
 
 
-  * **P1**_—_Important and urgent. Do these now.
-
-
-  * **P2**_—_Important but not urgent. Must have a due date. Move to P1 on or before due date.
-
-
-  * **P3**_—_Not important but urgent. Delegate to others, or change priority to P2 or P4.
-
-
-  * **P4**_—_Not important and not urgent. Only do if time permits. No due date.
-
+  * **P4** — Not important and not urgent. Only do if time permits. No due date.
 
 
 This is based on the [Eisenhower Method](https://en.wikipedia.org/wiki/Time_management#The_Eisenhower_Method), and makes it easy to figure out which tasks I should prioritize at any given time. These tie in to the Todoist priorities as well, so I can use both filters
