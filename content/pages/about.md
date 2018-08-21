@@ -15,9 +15,9 @@ toc: false
 
 I live in [Bergen, Norway](https://en.wikipedia.org/wiki/Bergen), and I'm as old as the original Rocky movie. I currently work as a **Senior Solutions Architect** and **Technical Lead SDDC** for [Proact IT Norge AS](http://proact.no), working on building Norways best, and _strongest_, VMware SDDC practice, and I'm a strong believer in that software is indeed eating the world.
 
-I'm an IT industry "veteran", podcaster, author and blogger with over 20 years of real world IT experience. I've been running blog of some sorts for the better part of those 20 years too, which is kinda scary.
+I'm an IT industry "veteran", podcaster, author and blogger that has survived over  20 years of real world IT experience. I've been running blog of some sorts for the better part of those 20 years too, which is kinda scary.
 
-For some reason, I'm an eight time [VMware vExpert (2011-2018)](https://vexpert.vmware.com/), and an inaugural vExpert vSAN, [VMware EUC Champion (2015-2018)](https://www.vmware.com/euc-champions/current-champions.html), ex-PernixPro, and four time [Veeam Vanguard (2015-2018)](https://www.veeam.com/vanguard.html).
+For some reason, I'm an eight time [VMware vExpert (2011-2018)](https://vexpert.vmware.com/), and an inaugural vExpert vSAN, [VMware EUC Champion (2015-2018)](https://www.vmware.com/euc-champions/current-champions.html), ex-PernixPro, and four time [Veeam Vanguard (2015-2018)](https://www.veeam.com/vanguard.html). I also hold various VMware certifications, and I'm also an [SME for the VMware certification program](https://www.youracclaim.com/user/christian-mohn).
 
 Once upon a time, I also wrote a book called [Learning Veeam® Backup & Replication for VMware vSphere](http://bitly.com/1qvBypQ).
 
