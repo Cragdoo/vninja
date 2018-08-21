@@ -39,7 +39,7 @@ I like the idea of "roll your own hyper converged stack", based on an appliance 
 
 
 
-[![Marvin the Paranoid Android (HHGG)](/img/Marvin_HHGG-182x300.jpg#floatright)](/img/Marvin_HHGG.jpg) Marvin the Paranoid Android (HHGG)
+[![Marvin the Paranoid Android (HHGG)](/img/Marvin_HHGG-182x300.jpg#floatright)](/img/Marvin_HHGG.jpg)
 
 Bring on VMworld, I really want to meet Marvin, but lets hope he's a bit more upbeat than the original from [Hitchhikers Guide to the Galaxy](http://hitchhikers.wikia.com/wiki/Marvin):
 

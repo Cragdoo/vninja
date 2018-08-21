@@ -16,7 +16,7 @@ tags:
 - Speculation
 - VMware
 ---
-![Marvin the Paranoid Android (HHGG)](http://vninja.net/wordpress/wp-content/uploads/2014/06/Marvin_HHGG.jpg#floatright) Marvin the Paranoid Android (HHGG)
+![Marvin the Paranoid Android (HHGG)](/img/Marvin_HHGG.jpg#floatright) Marvin the Paranoid Android (HHGG)
 
 After close to a full day of Twitter speculations and discussions on what [Marvin really is](http://vninja.net/vmware-2/vmwares-mystic-marvin-project/), some thoughts kept stuck with me, and this is my attempt at articulating what I think VMware might be up to.
 

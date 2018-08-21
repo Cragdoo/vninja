@@ -19,6 +19,8 @@ I'm an IT industry "veteran", podcaster, author and blogger with over 20 years o
 
 For some reason, I'm an eight time [VMware vExpert (2011-2018)](https://vexpert.vmware.com/), and an inaugural vExpert vSAN, [VMware EUC Champion (2015-2018)](https://www.vmware.com/euc-champions/current-champions.html), ex-PernixPro, and four time [Veeam Vanguard (2015-2018)](https://www.veeam.com/vanguard.html).
 
+Once upon a time, I also wrote a book called [Learning Veeam® Backup & Replication for VMware vSphere](http://bitly.com/1qvBypQ).
+
 I have also been featured as a cartoon, _twice_. Once for Rubrik who made [trading cards for VMworld 2017](https://technicloud.com/2017/11/22/vmware-community-vallstars/), and once for Proact who made a rather [spiffy animated video](https://www.youtube.com/watch?v=nzm79VWWXKs).
 
 Currently serving as the vice-chairman of the the [Norwegian VMware User Group (VMUG)](http://vmug.no) leadership team and has helped launch VMUG in three Norwegian cities; Oslo, Bergen and Trondheim.
@@ -35,13 +37,11 @@ I have some stuff hosted on [GitHub](https://github.com/h0bbel/), including this
 
 As I'm a rather passionate hobby photographer, you can find most of my published photos on [500px](https://500px.com/h0bbel). If, and I don't know why, you want to know what music I'm listening to, check out [last.fm](https://www.last.fm/user/h0bbel).
 
-**Note:** My musical evolution seems to have stopped in the 90s, hence the quote below:
-
-
-<blockquote class="blockquote text-center">
+<!-- **Note:** My musical evolution seems to have stopped in the 90s, hence the quote below:
+ <blockquote class="blockquote text-center">
   <p class="mb-0">Wanting to be someone else is a waste of the person you are.</p>
   <footer class="blockquote-footer">Kurt Cobain</footer>
-</blockquote>
+</blockquote> -->
 
 <div class="alert alert-light" role="alert">
   <h4 class="alert-heading">Disclaimer</h4>
