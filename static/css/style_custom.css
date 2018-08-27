@@ -1,7 +1,9 @@
 /* Custom CSS goes here */
 
 
-
+body {
+    font-size: 18px;
+}
 
 .navbar-nav>li>a {
     padding-top: 21px;
