@@ -28,6 +28,15 @@ table {
     font-size: 16px;
 }
 
+@media (min-width: 768px)
+.lead {
+    font-size: 26px;
+}
+
+.alert {
+    font-size: 18px;
+}
+
 .ads {
   padding-top: 20px;
 }
