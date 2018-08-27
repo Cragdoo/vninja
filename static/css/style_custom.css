@@ -24,6 +24,10 @@ table {
     font-size: 18px;
 }
 
+.navbar .dropdown-menu>li>a, .navbar .dropdown-menu>li>a:focus {
+    font-size: 16px;
+}
+
 .ads {
   padding-top: 20px;
 }
