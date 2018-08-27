@@ -9,6 +9,10 @@ table {
     font-size: 18px;
 }
 
+small, .small {
+    font-size: 90%;
+}
+
 .navbar-nav>li>a {
     padding-top: 21px;
     padding-bottom: 10px;
