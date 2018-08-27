@@ -5,11 +5,23 @@ body {
     font-size: 18px;
 }
 
+table {
+    font-size: 18px;
+}
+
 .navbar-nav>li>a {
     padding-top: 21px;
     padding-bottom: 10px;
     margin-bottom: 20px;
     line-height: 21px;
+}
+
+.navbar-brand {
+    font-size: 30px;
+}
+
+.navbar {
+    font-size: 18px;
 }
 
 .ads {
