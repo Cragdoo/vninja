@@ -19,7 +19,7 @@ image: "https://vninja.net/logos/vmworld-2018-v1.jpg"
 
 Over the last couple of weeks an idea started to form, an idea that would try to combine two of my passions; **The vCommunity and photography**. 
 
-In short, the idea is to set up some kind of mini-studio at VMworld Europe, and offer free [headshots](https://en.wikipedia.org/wiki/Head_shot) to those who might be interested.
+In short, the idea is to set up some kind of mini-studio at VMworld Europe, and offer free [headshots](https://en.wikipedia.org/wiki/Head_shot) to those who might be interested. And yes, it'll be me doing the photography, not some fancy pro-photographer.
 <br/>
 {{< tweet 1036159266690875392 >}}
 <br/>
