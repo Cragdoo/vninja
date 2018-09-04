@@ -13,10 +13,10 @@ title: "IT Architect Series: Designing Risk in IT Infrastructure"
 description: "Another must-have book for system administrators and architects has been published!
 Designing Risk in IT Infrastructure By [Daemon Behr](https://twitter.com/daemonbehr) This book wil help you understand what risk really is, a variety of different risk factors and how to mitigate them. Do you know what risks exist for a given solution, and why? "
 
-aliases = [
-    "/2018/09/04/designing-risk-in-it-infrastructure/",
-    "/2018/09/04/book-recommendations-september2018/"
-]
+aliases:
+    - /2018/09/04/designing-risk-in-it-infrastructure/,
+    - /2018/09/04/book-recommendations-september2018/
+
 
 card: "summary_large_image"
 site: "@vninjanet"
@@ -43,7 +43,10 @@ Another must-have book for system administrators and architects has been publish
 This book wil help you understand what risk really is, a variety of different risk factors and how to mitigate them. <br/>
 
 **Do you know what risks exist for a given solution, and why?**
-**Do you factor in, and calculate risk when designing the architecture? If so, how do you do it? Risk analysis, do we need it and why?**
+
+**Do you factor in, and calculate risk when designing the architecture? If so, how do you do it?**
+
+**Risk analysis, do we need it?**
 
 Daemon does a great job explaining all of this, and risk analysis is an often underappreciated exercise that we leave to late in the design process:
 
