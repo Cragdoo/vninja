@@ -13,6 +13,11 @@ title: "IT Architect Series: Designing Risk in IT Infrastructure"
 description: "Another must-have book for system administrators and architects has been published!
 Designing Risk in IT Infrastructure By [Daemon Behr](https://twitter.com/daemonbehr) This book wil help you understand what risk really is, a variety of different risk factors and how to mitigate them. Do you know what risks exist for a given solution, and why? "
 
+aliases = [
+    "/2018/09/04/designing-risk-in-it-infrastructure/",
+    "/2018/09/04/book-recommendations-september2018/"
+]
+
 card: "summary_large_image"
 site: "@vninjanet"
 creator: "@h0bbel"
