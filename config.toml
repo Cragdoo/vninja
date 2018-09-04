@@ -106,8 +106,8 @@ googleAnalytics = "UA-121910549-1"
 # Sidebar social links.
 github = "h0bbel" # Your Github profile ID
 bitbucket = "" # Your Bitbucket profile ID
-linkedin = "" # Your LinkedIn profile ID (from public URL)
-googleplus = "Myprofile" # Your Google+ profile ID
+linkedin = "https://www.linkedin.com/in/christianmohn/" # Your LinkedIn profile ID (from public URL)
+googleplus = "https://plus.google.com/+ChristianMohn" # Your Google+ profile ID
 facebook = "Myprofile" # Your Facebook profile ID
 twitter = "h0bbel" # Your Twitter profile ID
 youtube = ""  # Your Youtube channel ID
