@@ -6,7 +6,7 @@ url: /about/christian-mohn/
 toc: false
 ---
 
-![](/personal/mug.jpg#profile)
+![It's just me.](/personal/mug.jpg#profile)
 ## Hey there, my name is **Christian Mohn**.
 
 <p class="lead">

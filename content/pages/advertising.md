@@ -5,10 +5,11 @@ draft: false
 url: /advertising
 ---
 
-_Thank you for your interest in advertising on vNinja.net!_
+**Thank you for your interest in advertising on vNinja.net!**
 
 vNinja.net currently **only** offers 250 x 250px ads in the site wide sidebar.
-Other suggestions are welcome, and all inquiries will be entertained on a case-by-case basis. Note: Sponsored links is completely out of the question.
+
+
 
 ## <i class='fa fa-exclamation-circle'></i> Terms and conditions
 
@@ -18,8 +19,10 @@ vNinja.net does not guarantee any given level of circulation or readership for a
 
 Advertising policies may be revised without notice, and vNinja.net reserves the right to refuse any advertisement request.
 The minimum advertising duration is three months.
-</div>
+<br/><br/>
+  <b>Note:</b> Sponsored links and content is completely out of the question.
 
+</div>
 
 
 ## <i class='fa fa-credit-card'></i> Want to sponsor vNinja.net?
