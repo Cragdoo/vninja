@@ -35,7 +35,7 @@ Of course, there are quite a few practical and logistical issues to deal with in
 <div class="jumbotron jumbotron-fluid">
 
     <div class="container">
-        <p class="lead">If someone who's reading this works for a vendor that would be interested in sponsoring this, <a href="/contact/">please reach out</a> and perhaps we can work something out. <br/><br/>I'm not talking about huge monetary sponsorships here, perhaps only some help with getting it organised/some logistics.</p>
+        <p class="lead"><i class='fa fa-exclamation-circle'></i> If someone who's reading this works for a vendor that would be interested in sponsoring this, <a href="/contact/">please reach out</a> and perhaps we can work something out. <br/><br/>I'm not talking about huge monetary sponsorships here, perhaps only some help with getting hold of some cheapish equipment and some logistics.</p>
     </div>
 
 </div>
