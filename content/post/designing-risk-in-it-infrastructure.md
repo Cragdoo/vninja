@@ -21,7 +21,7 @@ aliases:
 card: "summary_large_image"
 site: "@vninjanet"
 creator: "@h0bbel"
-image: "https://vninja.net/img/DesigningRisk.jpeg"
+twitter.image: "https://vninja.net/img/DesigningRisk.jpeg"
 ---
 
 ## [Designing Risk in IT Infrastructure](http://www.lulu.com/shop/daemon-behr/it-architect-series-designing-risk-in-it-infrastructure/paperback/product-23755418.html)
