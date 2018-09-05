@@ -37,14 +37,14 @@
   {{ end }}
 
   {{ if ne .Site.Params.twitter "" }}
-<meta name="twitter:card" content="summary" />
+<meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="@{{ .Site.Params.twitter }}" />
 <meta name="twitter:creator" content="@{{ .Site.Params.twitter }}" />
 <meta name="twitter:title" content="{{ .Title }}" />
 <meta name="twitter:description" content="{{ .Description }}" />
 <meta name="twitter:url" content="{{ .Permalink }}" />
 <meta name="twitter:domain" content="{{ .Site.BaseURL }}">
-<meta name="twitter:domain" content="https://vninja.net/img/DesigningRisk.jpeg">
+<meta name="twitter:image" content="https://vninja.net/img/DesigningRisk.jpeg">
   {{ end }}
 
   {{ if ne .Site.Params.googleplus "" }}
