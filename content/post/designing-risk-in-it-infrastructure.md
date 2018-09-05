@@ -18,11 +18,6 @@ aliases:
     - /2018/09/04/book-recommendations-september2018/
 
 
-twitter:
-- card: "summary"
-- site: "@vninjanet"
-- creator: "@h0bbel"
-- image: "https://vninja.net/img/DesigningRisk.jpeg"
 ---
 
 ## [Designing Risk in IT Infrastructure](http://www.lulu.com/shop/daemon-behr/it-architect-series-designing-risk-in-it-infrastructure/paperback/product-23755418.html)
