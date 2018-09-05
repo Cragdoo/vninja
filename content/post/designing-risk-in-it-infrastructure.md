@@ -17,6 +17,7 @@ aliases:
     - /2018/09/04/designing-risk-in-it-infrastructure/,
     - /2018/09/04/book-recommendations-september2018/
 
+twImage: "https://vninja.net/img/DesigningRisk.jpeg"
 
 ---
 
