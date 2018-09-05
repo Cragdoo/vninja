@@ -19,7 +19,7 @@ aliases:
 
 
 twitter:
-- card: "summary_large_image"
+- card: "summary"
 - site: "@vninjanet"
 - creator: "@h0bbel"
 - image: "https://vninja.net/img/DesigningRisk.jpeg"
