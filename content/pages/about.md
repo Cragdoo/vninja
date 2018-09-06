@@ -17,21 +17,9 @@ toc: false
 <p>
 
 
-
 I live in [Bergen, Norway](https://en.wikipedia.org/wiki/Bergen), and I'm as old as the original Rocky movie. I currently work as a **Senior Solutions Architect** and **Technical Lead SDDC** for [Proact IT Norge AS](http://proact.no), working on building Norways best, and _strongest_, VMware SDDC practice, and I'm a strong believer in that software is indeed eating the world.
 
 I'm an IT industry "veteran", podcaster, author and blogger that has survived over  20 years of real world IT experience. I've been running blog of some sorts for the better part of those 20 years too, which is kinda scary.
-
-
-<div class="social-icons">
-				<ul>
-					<li><a href="https://twitter.com"><i class="fa fa-twitter"></i></a></li>
-					<li><a href="https://facebook.com"><i class="icon-facebook"></i></a></li>
-					<li><a href="https://instagram.com"><i class="icon-instagram"></i></a></li>
-					<li><a href="https://pinterest.com"><i class="icon-pinterest"></i></a></li>
-				</ul>
-	</div>
-
 
 For some reason, I'm an eight time [VMware vExpert (2011-2018)](https://vexpert.vmware.com/), and an inaugural vExpert vSAN, [VMware EUC Champion (2015-2018)](https://www.vmware.com/euc-champions/current-champions.html), ex-PernixPro, and four time [Veeam Vanguard (2015-2018)](https://www.veeam.com/vanguard.html). I also hold various VMware certifications, and I'm also an [SME for the VMware certification program](https://www.youracclaim.com/user/christian-mohn).
 
