@@ -22,6 +22,7 @@ small, .small {
 
 .navbar-brand {
     font-size: 30px;
+    height: 65px;
 }
 
 .navbar {
@@ -187,29 +188,10 @@ div.tranbox {
     margin: -5px;
 }
 
-# Sharingbox
+/* Sharingbox */
+.fa-google-plus, .fa-facebook-official, .fa-reddit, .fa-linkedin, .fa-envelope, .fa-twitter { color: #858080; font-size:16px; margin-top: 5px; margin-bottom: 10px; }
 
-/* .fa-facebook-official {
-    color: #aeaeae;
-}
 
-.fa-twitter {
-    color: #aeaeae;
+div.metas {
+    font-size: 16px;
 }
-
-.fa-google-plus {
-    color: #aeaeae;
-}
-
-.fa-reddit {
-    color: #aeaeae;
-}
-
-.fa-linkedin {
-    color: #aeaeae;
-}
-
-.fa-envelope {
-    color: #aeaeae;
-}
-*/

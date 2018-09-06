@@ -25,6 +25,7 @@ twImage: "https://vninja.net/img/DesigningRisk.jpeg"
 
 
 ![IT Architect Series: Designing Risk in IT Infrastructure](/img/DesigningRisk.jpeg#floatright)
+
 <div class="alert alert-light" role="alert">
   <i class='fa fa-exclamation-circle'></i> <b>Disclaimer</b>: I have contributed to this book as a reviewer, for no compensation other than receiving a free copy.
 </div>
