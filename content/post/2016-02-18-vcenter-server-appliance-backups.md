@@ -14,6 +14,8 @@ tags:
 - vCenter
 - VCSA
 - VMware
+topics: ["vCenter", "VMware"]
+
 ---
 
 For some time now I've been advocating the usage of VCSA instead of the traditional Microsoft Windows based vCenter. It has feature parity with the Windows version now, it's easier to deploy, gets right-sized out of the box and eliminates the need for an external Microsoft SQL server.

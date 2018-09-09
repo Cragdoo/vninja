@@ -16,6 +16,8 @@ tags:
 - management
 - RoyalTSX
 - Software
+topics: ["Software"]
+
 ---
 
 For those who don't know, [Royal TSX](https://www.royalapplications.com/ts/mac/features) is an awesome Remote Management solution, which supports RDP, VNC, SSH, S/FTP and even ESXi and vCenter. I've been using it for years, not just because they offer [free licenses for vExperts](https://www.royalapplications.com/ts/nfr/) (and others), but simply because it works really well. Store it's config file on a synchronized file area (like Dropbox), and boom, your config follows you around from machine to machine, including custom icons. What's _not_ to like?

@@ -13,6 +13,8 @@ tags:
 - Embedded Host Client
 - ESXi
 - vSphere
+topics: ["vSphere", "ESXi"]
+
 ---
 
 ![VMware ESXi Host Client 2015-08-26 18-42-24](/img/VMware-ESXi-Host-Client-2015-08-26-18-42-24-300x164.png)The ESXi Embedded Host Client Fling [got an upgrade today](http://www.virtuallyghetto.com/2015/08/esxi-embedded-host-client-fling-updated-to-v2.html), and in addition to new features it now works properly on ESXi 5.5. In addition to this, it's also available as an [offline bundle](http://download3.vmware.com/software/vmw-tools/esxui/esxui-offline-bundle-3015331.zip) so you can distribute it with Update Manager.

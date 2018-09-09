@@ -10,6 +10,8 @@ url: /news/it-architect-foundation-in-the-art-of-infrastructure-design-a-practic
 wordpress_id: 4080
 categories:
 - News
+topics: ["Books"]
+
 ---
 
 Way back in late 2014 I volunteered to do technical review for a book called **[IT Architect: Foundation in the Art of Infrastructure Design: A Practical Guide for IT Architects](https://www.lulu.com/shop/search.ep?keyWords=arrasjid&type=). **Due to a lot of unforeseen events, the book has been delayed quite a bit, but it's finally available as hardcopy, paperback and eBook! The book is written by **J****ohn Yani Arrasjid**, VCDX-001, **Mark Gabryjelski**, VCDX-023, **Chris McCain**, VCDX-079 and as the title states it really does lay out the foundation of how to approach infrastructure design in a modern virtualised data center.

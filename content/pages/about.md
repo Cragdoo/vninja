@@ -9,9 +9,6 @@ toc: false
 ![It's just me.](/personal/mug.jpg#profile)
 ## Hey there, my name is **Christian Mohn**.
 
-
-
-
 <p class="lead">
   Come say hello to me on [Twitter](https://twitter.com/h0bbel)!
 <p>

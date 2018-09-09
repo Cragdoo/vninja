@@ -15,7 +15,9 @@ tags:
 - News
 - Operations
 - VMware
-- VSAN
+- vSAN
+topics: ["vSAN", "Storage"]
+
 ---
 
 VMware has just [announced vSAN v6.6](https://blogs.vmware.com/virtualblocks/2017/04/11/whats-new-vmware-vsan-6-6/), with over 20 new features. While new and shiny features are nice I'd like to highlight **a couple** that I think might be undervalued from release feature-set perspective, but highly valuable in day to day operations of a vSAN environment, otherwise known as _Day 2 operations_.

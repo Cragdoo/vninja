@@ -13,6 +13,8 @@ tags:
 - Barcelona
 - conference
 - vmworld
+topics: ["VMware", "VMworld"]
+
 ---
 
 ![](/img/61-GpznI.jpg)[VMworld Europe](http://vmworld.com) is just a couple of weeks away now, and I can't wait to spend a week in sunny Barcelona. Last year my trip got cancelled in the last minute, but that will not be the case this year.

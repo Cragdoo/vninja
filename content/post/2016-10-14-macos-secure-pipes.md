@@ -15,6 +15,7 @@ tags:
 - Proxy
 - SSH
 - Tunnels
+topics: ["Software", "Software Recommendation", "macOS"]
 ---
 
 Since I set up a public jumphost for my homelab/network, I've been looking for an easy way to manage my SSH tunnels. After trying a couple of different managers, I've chosen to use [Secure Pipes](https://www.opoet.com/pyro/index.php).![](/img/Screenshot-2016-10-14-11.07.46-300x243.png)

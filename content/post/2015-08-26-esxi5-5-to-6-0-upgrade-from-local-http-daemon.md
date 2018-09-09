@@ -14,6 +14,7 @@ tags:
 - vCenter
 - VMware
 - vSphere
+topics: ["vSphere", "ESXi"]
 ---
 
 I was recently involved with consulting for a Norwegian shipping company who has quite a few remote vSphere installations, most of them with a couple of ESXi hosts, but no vCenter and hence no Update Manager. While looking at methods for managing these installations, in particular how to facilitate patching and upgrading scenarios, I remembered that way back in 2013, I posted [Quick and Dirty HTTP-based Deployment](http://vninja.net/virtualization/quick-and-dirty-http-based-deployment/) which shows how to use the Python to run a simple http daemon, and serve files from it.

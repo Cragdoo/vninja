@@ -14,6 +14,7 @@ tags:
 - VMware
 - vSphere
 - Web Client
+topics: ["vSphere", "ESXi", "vCenter"]
 ---
 
 I almost choked on my coffee this morning when I saw [William Lam announcing a new VMware Fling](http://www.virtuallyghetto.com/2015/08/new-html5-embedded-host-client-for-esxi.html) called [ESXi Embedded Host Client](https://labs.vmware.com/flings/esxi-embedded-host-client). Finally the day when we can get a local vSphere Web Client on a standalone host is here, and it's not a moment too soon. This feature has been missing since ESX 3 and it's VMware Infrastructure Web Access. For now, this is a Fling (which means unsupported and so on), but I really hope that this ends up being built-in to ESXi very soon -- even on the free vSphere Hypervisor.

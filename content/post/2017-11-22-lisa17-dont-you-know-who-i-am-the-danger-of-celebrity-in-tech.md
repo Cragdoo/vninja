@@ -9,6 +9,7 @@ url: /awesometalks/lisa17-dont-you-know-who-i-am-the-danger-of-celebrity-in-tech
 wordpress_id: 4852
 categories:
 - AwesomeTalks
+topics: ["Awesome Talk"]
 ---
 
 This is the first post, in what hopefully will turn into a series of posts, highlighting awesome talks that are freely available. There is a lot of great content out there, both inspirational and funny, and I'll try to publish my favorites when I find them.

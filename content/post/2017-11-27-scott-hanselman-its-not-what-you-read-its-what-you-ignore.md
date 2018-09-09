@@ -9,6 +9,8 @@ url: /awesometalks/scott-hanselman-its-not-what-you-read-its-what-you-ignore/
 wordpress_id: 4865
 categories:
 - AwesomeTalks
+topics: ["Awesome Talk"]
+
 ---
 
 This is the second recorded talk published in the [Awesome Talks](http://vninja.net/awesome-talks/) series. This time it's [Scott Hanselman's](https://www.hanselman.com/) "**It's not what you read, it's what you ignore**" talk from Dev Day in Kraków way back in 2012.

@@ -14,6 +14,9 @@ tags:
 - NTP
 - Snapshot
 - vSphere
+topics: ["ESXi", "vSphere"]
+
+  
 ---
 
 [![](/img/eikbsc3sdti-sonja-langford-300x200.jpg)](https://unsplash.com/@sonjalangford) Photo by Sonja Langford

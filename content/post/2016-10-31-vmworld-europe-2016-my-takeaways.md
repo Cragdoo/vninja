@@ -14,6 +14,8 @@ tags:
 - vDM30in30
 - VMware
 - vmworld
+topics: ["VMware", "VMworld"]
+
 ---
 
 ![VMworld Europe 2016](/img//IMG_7292-1024x1024.jpg)

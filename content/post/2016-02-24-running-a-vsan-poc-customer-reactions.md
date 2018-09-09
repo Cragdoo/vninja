@@ -4,7 +4,7 @@ comments: true
 date: 2016-02-24 10:42:26+00:00
 layout: post
 slug: running-a-vsan-poc-customer-reactions
-title: Running a VSAN PoC - Customer reactions
+title: Running a vSAN PoC - Customer reactions
 url: /virtualization/running-a-vsan-poc-customer-reactions/
 wordpress_id: 4038
 categories:
@@ -12,7 +12,8 @@ categories:
 tags:
 - Proof-of-Concept
 - storage
-- VSAN
+- vSAN
+topics: ["Storage", "vSAN"]
 ---
 
 I recently set up a VMware Virtual SAN 6.1 Proof-of-Concept for a customer, configuring a 3-node cluster based on the following setup:

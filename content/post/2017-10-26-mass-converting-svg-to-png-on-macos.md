@@ -13,7 +13,10 @@ tags:
 - Blogtober
 - HomeBrew
 - macOS
+topics: ["macOS"]
+
 ---
+
 
 When playing around with [Royal TSX](http://vninja.net/osx/making-royal-tsx-even-more-awesome/) I needed to mass convert the [VMware Clarity](https://github.com/vmware/clarity/tree/master/src/clarity-icons) .svg files to .png files that I could use as icons in Royal TSX.
 

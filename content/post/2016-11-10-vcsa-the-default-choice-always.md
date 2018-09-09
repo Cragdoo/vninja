@@ -15,6 +15,8 @@ tags:
 - vDM30in30
 - VMware
 - vSphere 6.5
+topics: ["VCSA", "vCenter"]
+
 ---
 
 I've been a big proponent of the VMware vCenter Appliance for a long time, I even did a talk called [VCS to VCSA Converter or How a Fling Can Be Good for You!](https://www.vmug.com/p/cm/ld/fid=10931) on migrating to the VCSA at the Nordic VMUG last year.

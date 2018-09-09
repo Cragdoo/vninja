@@ -9,6 +9,8 @@ url: /virtualization/my-vcenter-web-client-customization/
 wordpress_id: 4336
 categories:
 - Virtualization
+topics: ["vCenter"]
+
 ---
 
 William Lam has a repository of [vCenter Web Client customizations](https://github.com/lamw/customize-vsphere-web-client-6.0u2) hosted over on GitHub, and I decided to add one of my own.

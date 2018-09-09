@@ -13,6 +13,8 @@ tags:
 - storage
 - VMware
 - VSAN
+topics: ["vSAN", "Storage"]
+
 ---
 
 Both in 2014 and in 2015 I wrote pieces on the current status of VMware vSAN, and it's time to revisit it for 2016.

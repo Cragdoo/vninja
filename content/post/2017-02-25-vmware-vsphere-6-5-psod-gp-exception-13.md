@@ -14,6 +14,8 @@ tags:
 - ESXi
 - KB
 - vSphere
+topics: ["vSphere", "ESXi"]
+
 ---
 
 While at a customer site, migrating an old vSphere 5.5 environment to 6.5, several hosts suddenly crashed with a PSOD during the migration. Long story short, we got hit by this: [VMware KB 2147958: _ESXi 6.5 host fails with PSOD: GP Exception 13 in multiple VMM world at VmAnon_AllocVmmPages (2147958_)](https://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=2147958)
