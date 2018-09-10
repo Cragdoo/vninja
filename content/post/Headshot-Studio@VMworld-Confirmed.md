@@ -10,7 +10,7 @@ topics: ["Photography", "VMworld"]
 
 title: "Headshot Studio @VMworld Confirmed"
 
-description: "I'm very happy to announce that I can confirm that [Headshot Studio @VMworld](/2018/09/02/headshot-studiovmworld/) will happen! A huge thanks thanks to Tom Dodds and [10zig](https://www.10zig.com/), who has stepped up as a sponsor!"
+description: "I'm very happy to announce that I can confirm that Headshot Studio @VMworld will happen! A huge thanks thanks to Tom Dodds and [10zig](https://www.10zig.com/), who has stepped up as a sponsor!"
 
 card: "summary_large_image"
 site: "@vninjanet"
