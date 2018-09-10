@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vsphere on vNinja.net</title>
+    <link>https://vninja.net/topics/vsphere/</link>
+    <description>Recent content in Vsphere on vNinja.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>(c) 2018 Christian Mohn</copyright>
+    <lastBuildDate>Sun, 26 Aug 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://vninja.net/topics/vsphere/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>VMware Cloud on AWS — New Amazon EC2 elastic, bare-metal instance for vSAN</title>
+      <link>https://vninja.net/2018/08/26/vmware-cloud-on-aws-news/</link>
+      <pubDate>Sun, 26 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vninja.net/2018/08/26/vmware-cloud-on-aws-news/</guid>
+      <description>VMware vSAN utilizing Amazon Elastic Block Storage (EBS) is an interesting one. Being able to independently increment storage in the VMC without adding compute nodes is a feature that has been missing, until now.
+Customers of VMware Cloud on AWS will now be able to scale storage independently of compute, by adding new EBS storage nodes.
+Overview R5.Metal Physical Host Configuration  ​3 disk groups per host All storage provided by EBS GP2 Raw capacity tier of 15-35TB  Configured at Cluster creation 5TB increments ​Compression Enabled      Item Available     CPU Skylake-SP   Sockets per Host 2   Cores per Socket 24   Cores per Host 48   Threads per Host 96   Memory 768 GB   Storage EBS GP2   NICs 1 x ENA    Note: This new storage cluster needs to be added to an existing SDDC and cannot be the first cluster that is provisioned in the customer environment.</description>
+    </item>
+    
+    <item>
+      <title>VMware vSphere 6.7u1 — What&#39;s New?</title>
+      <link>https://vninja.net/2018/08/26/vphere67u1-whats-new/</link>
+      <pubDate>Sun, 26 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vninja.net/2018/08/26/vphere67u1-whats-new/</guid>
+      <description>vSphere 6.7u1 Announced at VMworld 2018 US Another VMworld, another vSphere announcement. vSphere 6.7u1 comes with a bunch of new features and capabilities, some of which are listed below:
+Feature Complete HTML5 Client Finally the HTML5 client is feature complete! It&amp;rsquo;s been a long wait, but in v6.7u1 it&amp;rsquo;s here! With improved search, support for Auto Deploy, Host Profiles and vCenter High Availability (VCHA) this is your new home as a vSphere admin.</description>
+    </item>
+    
+    <item>
+      <title>VMware vSphere 6.5 PSOD: GP Exception 13</title>
+      <link>https://vninja.net/vmware-2/vmware-vsphere-6-5-psod-gp-exception-13/</link>
+      <pubDate>Sat, 25 Feb 2017 08:50:26 +0000</pubDate>
+      
+      <guid>https://vninja.net/vmware-2/vmware-vsphere-6-5-psod-gp-exception-13/</guid>
+      <description>&lt;p&gt;While at a customer site, migrating an old vSphere 5.5 environment to 6.5, several hosts suddenly crashed with a PSOD during the migration. Long story short, we got hit by this: &lt;a href=&#34;https://kb.vmware.com/selfservice/microsites/search.do?language=en_US&amp;amp;cmd=displayKC&amp;amp;externalId=2147958&#34;&gt;VMware KB 2147958: _ESXi 6.5 host fails with PSOD: GP Exception 13 in multiple VMM world at VmAnon&lt;em&gt;AllocVmmPages (2147958&lt;/em&gt;)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>ESXi Snapshot Problems: msg.snapshot.error-QUIESCINGERROR</title>
+      <link>https://vninja.net/vmware-2/esxi-snapshot-problems-msg-snapshot-error-quiescingerror/</link>
+      <pubDate>Wed, 01 Feb 2017 13:18:04 +0000</pubDate>
+      
+      <guid>https://vninja.net/vmware-2/esxi-snapshot-problems-msg-snapshot-error-quiescingerror/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://unsplash.com/@sonjalangford&#34;&gt;&lt;img src=&#34;https://vninja.net/img/eikbsc3sdti-sonja-langford-300x200.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt; Photo by Sonja Langford&lt;/p&gt;
+
+&lt;p&gt;Just a quick post about something I experienced at a client, with &lt;em&gt;ESXi 6.0 hosts&lt;/em&gt;, today:&lt;/p&gt;
+
+&lt;p&gt;If you have trouble performing VMware snapshots, and see a  &lt;em&gt;msg.snapshot.error-QUIESCINGERROR&lt;/em&gt; error, &lt;strong&gt;check the host time settings and NTP&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Update ESXi Embedded Host Client Fling</title>
+      <link>https://vninja.net/vmware-2/update-esxi-embedded-host-client-fling/</link>
+      <pubDate>Wed, 26 Aug 2015 16:45:10 +0000</pubDate>
+      
+      <guid>https://vninja.net/vmware-2/update-esxi-embedded-host-client-fling/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://vninja.net/img/VMware-ESXi-Host-Client-2015-08-26-18-42-24-300x164.png&#34; alt=&#34;VMware ESXi Host Client 2015-08-26 18-42-24&#34; /&gt;The ESXi Embedded Host Client Fling &lt;a href=&#34;http://www.virtuallyghetto.com/2015/08/esxi-embedded-host-client-fling-updated-to-v2.html&#34;&gt;got an upgrade today&lt;/a&gt;, and in addition to new features it now works properly on ESXi 5.5. In addition to this, it&amp;rsquo;s also available as an &lt;a href=&#34;http://download3.vmware.com/software/vmw-tools/esxui/esxui-offline-bundle-3015331.zip&#34;&gt;offline bundle&lt;/a&gt; so you can distribute it with Update Manager.&lt;/p&gt;
+
+&lt;p&gt;Since I&amp;rsquo;ve spent most of my day in esxcli, here is a quick post on how to perform the upgrade from a &lt;a href=&#34;http://vninja.net/vmware-2/esxi5-5-to-6-0-upgrade-from-local-http-daemon/&#34;&gt;local http repository&lt;/a&gt; hosting the .vib file.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>ESXi5.5 to 6.0 Upgrade From Local HTTP Daemon</title>
+      <link>https://vninja.net/vmware-2/esxi5-5-to-6-0-upgrade-from-local-http-daemon/</link>
+      <pubDate>Wed, 26 Aug 2015 11:35:08 +0000</pubDate>
+      
+      <guid>https://vninja.net/vmware-2/esxi5-5-to-6-0-upgrade-from-local-http-daemon/</guid>
+      <description>&lt;p&gt;I was recently involved with consulting for a Norwegian shipping company who has quite a few remote vSphere installations, most of them with a couple of ESXi hosts, but no vCenter and hence no Update Manager. While looking at methods for managing these installations, in particular how to facilitate patching and upgrading scenarios, I remembered that way back in 2013, I posted &lt;a href=&#34;http://vninja.net/virtualization/quick-and-dirty-http-based-deployment/&#34;&gt;Quick and Dirty HTTP-based Deployment&lt;/a&gt; which shows how to use the Python to run a simple http daemon, and serve files from it.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>ESXi Embedded Host Client</title>
+      <link>https://vninja.net/vmware-2/esxi-embedded-host-client/</link>
+      <pubDate>Wed, 12 Aug 2015 16:11:16 +0000</pubDate>
+      
+      <guid>https://vninja.net/vmware-2/esxi-embedded-host-client/</guid>
+      <description>&lt;p&gt;I almost choked on my coffee this morning when I saw &lt;a href=&#34;http://www.virtuallyghetto.com/2015/08/new-html5-embedded-host-client-for-esxi.html&#34;&gt;William Lam announcing a new VMware Fling&lt;/a&gt; called &lt;a href=&#34;https://labs.vmware.com/flings/esxi-embedded-host-client&#34;&gt;ESXi Embedded Host Client&lt;/a&gt;. Finally the day when we can get a local vSphere Web Client on a standalone host is here, and it&amp;rsquo;s not a moment too soon. This feature has been missing since ESX 3 and it&amp;rsquo;s VMware Infrastructure Web Access. For now, this is a Fling (which means unsupported and so on), but I really hope that this ends up being built-in to ESXi very soon &amp;ndash; even on the free vSphere Hypervisor.
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

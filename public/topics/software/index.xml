@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software on vNinja.net</title>
+    <link>https://vninja.net/topics/software/</link>
+    <description>Recent content in Software on vNinja.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>(c) 2018 Christian Mohn</copyright>
+    <lastBuildDate>Tue, 24 Oct 2017 10:38:13 +0000</lastBuildDate>
+    
+	<atom:link href="https://vninja.net/topics/software/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How I use Todoist</title>
+      <link>https://vninja.net/workflow/how-i-use-todoist/</link>
+      <pubDate>Tue, 24 Oct 2017 10:38:13 +0000</pubDate>
+      
+      <guid>https://vninja.net/workflow/how-i-use-todoist/</guid>
+      <description>&lt;p&gt;As I&amp;rsquo;ve mentioned before, &lt;a href=&#34;http://vninja.net/workflow/todoist-one-year-later/&#34;&gt;I use Todoist&lt;/a&gt; to keep track of my personal to-do list. This is the first to-do manager I&amp;rsquo;ve been able to stick with, and I&amp;rsquo;ve been using it daily for well over 2 years now. In that two year period I&amp;rsquo;ve reorganised it a bit, but for the most part I&amp;rsquo;ve been able to keep to the main structure I initially created when setting it up the first time.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Making Royal TSX Even More Awesome</title>
+      <link>https://vninja.net/osx/making-royal-tsx-even-more-awesome/</link>
+      <pubDate>Wed, 11 Oct 2017 21:45:11 +0000</pubDate>
+      
+      <guid>https://vninja.net/osx/making-royal-tsx-even-more-awesome/</guid>
+      <description>&lt;p&gt;For those who don&amp;rsquo;t know, &lt;a href=&#34;https://www.royalapplications.com/ts/mac/features&#34;&gt;Royal TSX&lt;/a&gt; is an awesome Remote Management solution, which supports RDP, VNC, SSH, S/FTP and even ESXi and vCenter. I&amp;rsquo;ve been using it for years, not just because they offer &lt;a href=&#34;https://www.royalapplications.com/ts/nfr/&#34;&gt;free licenses for vExperts&lt;/a&gt; (and others), but simply because it works really well. Store it&amp;rsquo;s config file on a synchronized file area (like Dropbox), and boom, your config follows you around from machine to machine, including custom icons. What&amp;rsquo;s &lt;em&gt;not&lt;/em&gt; to like?
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>macOS: Secure Pipes</title>
+      <link>https://vninja.net/osx/macos-secure-pipes/</link>
+      <pubDate>Fri, 14 Oct 2016 13:03:41 +0000</pubDate>
+      
+      <guid>https://vninja.net/osx/macos-secure-pipes/</guid>
+      <description>&lt;p&gt;Since I set up a public jumphost for my homelab/network, I&amp;rsquo;ve been looking for an easy way to manage my SSH tunnels. After trying a couple of different managers, I&amp;rsquo;ve chosen to use &lt;a href=&#34;https://www.opoet.com/pyro/index.php&#34;&gt;Secure Pipes&lt;/a&gt;.&lt;img src=&#34;https://vninja.net/img/Screenshot-2016-10-14-11.07.46-300x243.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

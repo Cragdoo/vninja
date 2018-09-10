@@ -15,7 +15,7 @@ tags:
 - Todoist
 - Work
 - Workflow
-topics: ["Todoist", "Software"]
+topics: ["Todoist", "Software", "Workflow"]
 
 ---
 

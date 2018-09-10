@@ -6,6 +6,7 @@ year: "2018"
 author: Christian Mohn
 keywords: ["VMworld", "VMware", "vExpert"]
 tags: ["VMworld", "VMware", "vExpert"]
+topics: ["Photography", "VMworld"]
 
 title: "Headshot Studio @VMworld?"
 

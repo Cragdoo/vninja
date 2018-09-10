@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vmware Cloud on Aws on vNinja.net</title>
+    <link>https://vninja.net/topics/vmware-cloud-on-aws/</link>
+    <description>Recent content in Vmware Cloud on Aws on vNinja.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>(c) 2018 Christian Mohn</copyright>
+    <lastBuildDate>Sun, 26 Aug 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://vninja.net/topics/vmware-cloud-on-aws/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>VMware Cloud on AWS — New Amazon EC2 elastic, bare-metal instance for vSAN</title>
+      <link>https://vninja.net/2018/08/26/vmware-cloud-on-aws-news/</link>
+      <pubDate>Sun, 26 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vninja.net/2018/08/26/vmware-cloud-on-aws-news/</guid>
+      <description>VMware vSAN utilizing Amazon Elastic Block Storage (EBS) is an interesting one. Being able to independently increment storage in the VMC without adding compute nodes is a feature that has been missing, until now.
+Customers of VMware Cloud on AWS will now be able to scale storage independently of compute, by adding new EBS storage nodes.
+Overview R5.Metal Physical Host Configuration  ​3 disk groups per host All storage provided by EBS GP2 Raw capacity tier of 15-35TB  Configured at Cluster creation 5TB increments ​Compression Enabled      Item Available     CPU Skylake-SP   Sockets per Host 2   Cores per Socket 24   Cores per Host 48   Threads per Host 96   Memory 768 GB   Storage EBS GP2   NICs 1 x ENA    Note: This new storage cluster needs to be added to an existing SDDC and cannot be the first cluster that is provisioned in the customer environment.</description>
+    </item>
+    
+  </channel>
+</rss>

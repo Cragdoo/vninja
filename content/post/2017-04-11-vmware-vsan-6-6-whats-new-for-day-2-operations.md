@@ -16,7 +16,7 @@ tags:
 - Operations
 - VMware
 - vSAN
-topics: ["vSAN", "Storage"]
+topics: ["vSAN", "Storage", "VMware"]
 
 ---
 

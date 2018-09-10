@@ -6,6 +6,7 @@ year: "2018"
 author: Christian Mohn
 tags: ["vninja", "site", "news", "hugo", "wordpress"]
 categories: ["site migration"]
+topics: ["Hugo"]
 
 title: "Hello, My Name Is Hugo (Montoya)"
 
@@ -34,7 +35,7 @@ _The allure of everything being static, just plain old files [written in Markdow
 
 So, what you're accessing right this very moment, is the new vNinja, in its new Hugo powered static glory over [HTTPS-only](https://blog.chromium.org/2018/02/a-secure-web-is-here-to-stay.html)! 
 
-[![](/img/hugo-logo.png#center)](http://gohugo.io/)
+[![Hugo logo](/img/hugo-logo.png#center)](http://gohugo.io/)
 
 When I discovered that I could combine [Hugo](http://gohugo.io/), [Github](https://github.com/h0bbel/vninja) and [Netlify](https://www.netlify.com/) it just clicked. I can now edit — and preview — locally, wherever I am, check in changes to GitHub and the [Netlify's Continous Development](https://www.netlify.com/docs/continuous-deployment/) takes care of updating the site automatically: 
 

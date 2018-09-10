@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>(c) 2018 Christian Mohn</copyright>
-    <lastBuildDate>Fri, 18 Nov 2016 11:23:58 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Sep 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://vninja.net/tags/vmworld/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Headshot Studio @VMworld?</title>
+      <link>https://vninja.net/2018/09/02/headshot-studiovmworld/</link>
+      <pubDate>Sun, 02 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vninja.net/2018/09/02/headshot-studiovmworld/</guid>
+      <description>Over the last couple of weeks an idea started to form, an idea that would try to combine two of my passions; The vCommunity and photography.
+In short, the idea is to set up some kind of mini-studio at VMworld Europe, and offer free headshots to those who might be interested. And yes, it&amp;rsquo;ll be me doing the photography, not some fancy pro-photographer.
+I’m considering setting up a photo “headshot studio” at #VMworld Europe, and some kind of schedule/signup.</description>
+    </item>
     
     <item>
       <title>VMworld Dates 2017</title>

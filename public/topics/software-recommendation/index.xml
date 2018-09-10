@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software Recommendation on vNinja.net</title>
+    <link>https://vninja.net/topics/software-recommendation/</link>
+    <description>Recent content in Software Recommendation on vNinja.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>(c) 2018 Christian Mohn</copyright>
+    <lastBuildDate>Thu, 24 Nov 2016 09:45:10 +0000</lastBuildDate>
+    
+	<atom:link href="https://vninja.net/topics/software-recommendation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>macOS: Spectacle</title>
+      <link>https://vninja.net/osx/macos-spectacle/</link>
+      <pubDate>Thu, 24 Nov 2016 09:45:10 +0000</pubDate>
+      
+      <guid>https://vninja.net/osx/macos-spectacle/</guid>
+      <description>&lt;p&gt;Working with the keyboard to move resize, focus and arrange your applications is a great productivity tip. When I changed from Windows to macOS a few years ago, I had a pretty &lt;a href=&#34;http://vninja.net/osx/slate-setup/&#34;&gt;convoluted setup based on Slate&lt;/a&gt; for managing keyboard shortcuts, especially for moving applications around, but this has since been simplified by using &lt;a href=&#34;https://www.spectacleapp.com&#34;&gt;Spectacle&lt;/a&gt; instead of Slate.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>macOS: Secure Pipes</title>
+      <link>https://vninja.net/osx/macos-secure-pipes/</link>
+      <pubDate>Fri, 14 Oct 2016 13:03:41 +0000</pubDate>
+      
+      <guid>https://vninja.net/osx/macos-secure-pipes/</guid>
+      <description>&lt;p&gt;Since I set up a public jumphost for my homelab/network, I&amp;rsquo;ve been looking for an easy way to manage my SSH tunnels. After trying a couple of different managers, I&amp;rsquo;ve chosen to use &lt;a href=&#34;https://www.opoet.com/pyro/index.php&#34;&gt;Secure Pipes&lt;/a&gt;.&lt;img src=&#34;https://vninja.net/img/Screenshot-2016-10-14-11.07.46-300x243.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

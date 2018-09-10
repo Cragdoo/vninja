@@ -14,7 +14,7 @@ tags:
 - macOS
 - Recommended
 - Spectacle
-topics: ["Software Recommendation", "macOS"]
+topics: ["Software Recommendation", "macOS", "Software"]
 
 ---
 

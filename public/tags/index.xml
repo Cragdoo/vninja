@@ -483,7 +483,7 @@
     <item>
       <title>Books</title>
       <link>https://vninja.net/tags/books/</link>
-      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 04 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>https://vninja.net/tags/books/</guid>
       <description></description>
@@ -2715,7 +2715,7 @@
     <item>
       <title>Reading</title>
       <link>https://vninja.net/tags/reading/</link>
-      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 04 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>https://vninja.net/tags/reading/</guid>
       <description></description>
@@ -2751,7 +2751,7 @@
     <item>
       <title>Recommended</title>
       <link>https://vninja.net/tags/recommended/</link>
-      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 04 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>https://vninja.net/tags/recommended/</guid>
       <description></description>
@@ -3660,7 +3660,7 @@
     <item>
       <title>Vcsa</title>
       <link>https://vninja.net/tags/vcsa/</link>
-      <pubDate>Thu, 10 Nov 2016 09:57:29 +0000</pubDate>
+      <pubDate>Sun, 26 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>https://vninja.net/tags/vcsa/</guid>
       <description></description>
@@ -3714,7 +3714,7 @@
     <item>
       <title>Vexpert</title>
       <link>https://vninja.net/tags/vexpert/</link>
-      <pubDate>Fri, 19 Jun 2015 10:10:52 +0000</pubDate>
+      <pubDate>Sun, 02 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>https://vninja.net/tags/vexpert/</guid>
       <description></description>
@@ -3894,9 +3894,18 @@
     <item>
       <title>Vmware</title>
       <link>https://vninja.net/tags/vmware/</link>
-      <pubDate>Sun, 14 Jan 2018 16:00:00 +0000</pubDate>
+      <pubDate>Sun, 02 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>https://vninja.net/tags/vmware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vmware Cloud on Aws</title>
+      <link>https://vninja.net/tags/vmware-cloud-on-aws/</link>
+      <pubDate>Sun, 26 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vninja.net/tags/vmware-cloud-on-aws/</guid>
       <description></description>
     </item>
     
@@ -3984,7 +3993,7 @@
     <item>
       <title>Vmworld</title>
       <link>https://vninja.net/tags/vmworld/</link>
-      <pubDate>Fri, 18 Nov 2016 11:23:58 +0000</pubDate>
+      <pubDate>Sun, 02 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>https://vninja.net/tags/vmworld/</guid>
       <description></description>
@@ -3996,6 +4005,15 @@
       <pubDate>Sun, 22 Jul 2012 17:49:01 +0000</pubDate>
       
       <guid>https://vninja.net/tags/vmworld-2012/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vmworld 2018</title>
+      <link>https://vninja.net/tags/vmworld-2018/</link>
+      <pubDate>Sun, 26 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vninja.net/tags/vmworld-2018/</guid>
       <description></description>
     </item>
     
@@ -4137,7 +4155,7 @@
     <item>
       <title>Vsan</title>
       <link>https://vninja.net/tags/vsan/</link>
-      <pubDate>Tue, 11 Apr 2017 16:08:30 +0000</pubDate>
+      <pubDate>Sun, 26 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>https://vninja.net/tags/vsan/</guid>
       <description></description>
@@ -4182,7 +4200,7 @@
     <item>
       <title>Vsphere</title>
       <link>https://vninja.net/tags/vsphere/</link>
-      <pubDate>Mon, 29 Jan 2018 22:49:53 +0000</pubDate>
+      <pubDate>Sun, 26 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>https://vninja.net/tags/vsphere/</guid>
       <description></description>

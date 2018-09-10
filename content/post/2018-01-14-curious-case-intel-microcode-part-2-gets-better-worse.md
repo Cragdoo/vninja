@@ -16,6 +16,8 @@ tags:
 - Security
 - Spectre
 - VMware
+topics: ["Intel", "CPU", "Meltdown", "Spectre"]
+
 ---
 
 This guest post by [Bjørn Anders Jørgensen](https://twitter.com/bajorgensen), Senior Systems Consultant Basefarm, first appeared on [LinkedIn](https://www.linkedin.com/pulse/curious-case-intel-microcode-part-2-gets-better-worse-jørgensen/).

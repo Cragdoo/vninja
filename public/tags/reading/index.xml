@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>(c) 2018 Christian Mohn</copyright>
-    <lastBuildDate>Thu, 16 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Sep 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://vninja.net/tags/reading/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>IT Architect Series: Designing Risk in IT Infrastructure</title>
+      <link>https://vninja.net/2018/09/04/designing-risk-in-it-infrastructure/</link>
+      <pubDate>Tue, 04 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vninja.net/2018/09/04/designing-risk-in-it-infrastructure/</guid>
+      <description>Designing Risk in IT Infrastructure  Disclaimer: I have contributed to this book as a reviewer, for no compensation other than receiving a free copy.  Another must-have book for system administrators and architects has been published!
+ By Daemon Behr Paperback: 416 pages Publisher: Daemon Behr (August 10, 2018) Language: English  This book wil help you understand what risk really is, a variety of different risk factors and how to mitigate them.</description>
+    </item>
     
     <item>
       <title>Book Recommendations August 2018</title>

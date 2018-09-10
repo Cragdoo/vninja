@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>(c) 2018 Christian Mohn</copyright>
-    <lastBuildDate>Tue, 11 Apr 2017 16:08:30 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 26 Aug 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://vninja.net/tags/vsan/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>VMware vSAN 6.7u1 — What&#39;s New?</title>
+      <link>https://vninja.net/2018/08/26/vsan67u1-whats-new/</link>
+      <pubDate>Sun, 26 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vninja.net/2018/08/26/vsan67u1-whats-new/</guid>
+      <description>VMworld 2018 US is upon us, and as per usual this means a lot of new announcements. One of them is vSAN 6.7u1 which comes with a bunch of new and useful features. This release mainly focuses on improved operations and maintenance, with a bunch of nice new additions.
+I&amp;rsquo;ve focused on a couple of them here, but this is not a defintive list!
+Simplified Upgrade Experience Through VMware Update Manager (VUM) Firmware and drivers for vSAN has now been moved into VMware Update Manager (VUM) for centralized management, this means that the vSAN IO Controller Firmware Tool now integrated into VUM.</description>
+    </item>
     
     <item>
       <title>VMware vSAN 6.6 - What&#39;s New for Day 2 Operations?</title>
@@ -42,7 +53,7 @@
     </item>
     
     <item>
-      <title>Running a VSAN PoC - Customer reactions</title>
+      <title>Running a vSAN PoC - Customer reactions</title>
       <link>https://vninja.net/virtualization/running-a-vsan-poc-customer-reactions/</link>
       <pubDate>Wed, 24 Feb 2016 10:42:26 +0000</pubDate>
       

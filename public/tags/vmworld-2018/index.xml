@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vmworld 2018 on vNinja.net</title>
+    <link>https://vninja.net/tags/vmworld-2018/</link>
+    <description>Recent content in Vmworld 2018 on vNinja.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>(c) 2018 Christian Mohn</copyright>
+    <lastBuildDate>Sun, 26 Aug 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://vninja.net/tags/vmworld-2018/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>VMware Cloud on AWS — New Amazon EC2 elastic, bare-metal instance for vSAN</title>
+      <link>https://vninja.net/2018/08/26/vmware-cloud-on-aws-news/</link>
+      <pubDate>Sun, 26 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vninja.net/2018/08/26/vmware-cloud-on-aws-news/</guid>
+      <description>VMware vSAN utilizing Amazon Elastic Block Storage (EBS) is an interesting one. Being able to independently increment storage in the VMC without adding compute nodes is a feature that has been missing, until now.
+Customers of VMware Cloud on AWS will now be able to scale storage independently of compute, by adding new EBS storage nodes.
+Overview R5.Metal Physical Host Configuration  ​3 disk groups per host All storage provided by EBS GP2 Raw capacity tier of 15-35TB  Configured at Cluster creation 5TB increments ​Compression Enabled      Item Available     CPU Skylake-SP   Sockets per Host 2   Cores per Socket 24   Cores per Host 48   Threads per Host 96   Memory 768 GB   Storage EBS GP2   NICs 1 x ENA    Note: This new storage cluster needs to be added to an existing SDDC and cannot be the first cluster that is provisioned in the customer environment.</description>
+    </item>
+    
+    <item>
+      <title>VMware vSAN 6.7u1 — What&#39;s New?</title>
+      <link>https://vninja.net/2018/08/26/vsan67u1-whats-new/</link>
+      <pubDate>Sun, 26 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vninja.net/2018/08/26/vsan67u1-whats-new/</guid>
+      <description>VMworld 2018 US is upon us, and as per usual this means a lot of new announcements. One of them is vSAN 6.7u1 which comes with a bunch of new and useful features. This release mainly focuses on improved operations and maintenance, with a bunch of nice new additions.
+I&amp;rsquo;ve focused on a couple of them here, but this is not a defintive list!
+Simplified Upgrade Experience Through VMware Update Manager (VUM) Firmware and drivers for vSAN has now been moved into VMware Update Manager (VUM) for centralized management, this means that the vSAN IO Controller Firmware Tool now integrated into VUM.</description>
+    </item>
+    
+    <item>
+      <title>VMware vSphere 6.7u1 — What&#39;s New?</title>
+      <link>https://vninja.net/2018/08/26/vphere67u1-whats-new/</link>
+      <pubDate>Sun, 26 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vninja.net/2018/08/26/vphere67u1-whats-new/</guid>
+      <description>vSphere 6.7u1 Announced at VMworld 2018 US Another VMworld, another vSphere announcement. vSphere 6.7u1 comes with a bunch of new features and capabilities, some of which are listed below:
+Feature Complete HTML5 Client Finally the HTML5 client is feature complete! It&amp;rsquo;s been a long wait, but in v6.7u1 it&amp;rsquo;s here! With improved search, support for Auto Deploy, Host Profiles and vCenter High Availability (VCHA) this is your new home as a vSphere admin.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Vsphere  &middot; vNinja.net</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<meta name="description" content="" />
+
+<meta name="keywords" content="">
+
+<link rel="author" href="http://plus.google.com/+ChristianMohn">
+
+
+<meta property="og:title" content="Vsphere  &middot; vNinja.net ">
+<meta property="og:site_name" content="vNinja.net"/>
+<meta property="og:url" content="https://vninja.net/topics/vsphere/" />
+<meta property="og:locale" content="en">
+
+
+<meta property="og:type" content="website" />
+
+
+
+<link href="https://vninja.net/topics/vsphere/index.xml" rel="alternate" type="application/rss+xml" title="Vsphere" />
+
+<link rel="canonical" href="https://vninja.net/topics/vsphere/" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://vninja.net/touch-icon-144-precomposed.png">
+<link rel="icon" href="https://vninja.net/favicon.png">
+<meta name="generator" content="Hugo 0.47.1" />
+
+  <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+
+
+    <link rel="stylesheet" href="https://vninja.net/css/bootswatch/yeti/bootstrap.min.css">
+
+
+<link rel="stylesheet" href="https://vninja.net/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://vninja.net/css/style.css">
+
+
+<link rel="stylesheet" href="https://vninja.net/css/style_custom.css">
+
+
+
+  <link rel="stylesheet" href="https://vninja.net/css/highlight/default.css">
+
+
+
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+  <script>
+  window.addEventListener("load", function(){
+  window.cookieconsent.initialise({
+    "palette": {
+      "popup": {
+        "background": "#efefef",
+        "text": "#404040"
+      },
+      "button": {
+        "background": "#8ec760",
+        "text": "#ffffff"
+      }
+    },
+    "showLink": false,
+    "position": "bottom-right"
+  })});
+  </script>
+
+</head>
+<body data-ng-app="myapp" data-ng-controller="MyController" data-ng-mouseleave="MouseLeave($event)">
+      <header id="main-header">
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        
+        <a class="navbar-brand" href="https://vninja.net/">
+          vNinja.net
+          
+          
+          </a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            
+            
+            <li class="">
+              
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class='fa fa-bars'></i> About <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    
+                      <li class="">
+                        <a href="https://vninja.net/about/christian-mohn/"><i class='fa fa-child'></i> About Christian</a>
+                      </li>
+                    
+                  </ul>
+              
+            </li>
+            
+            <li class="">
+              
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class='fa fa-asterisk'></i> Site Policy <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    
+                      <li class="">
+                        <a href="https://vninja.net/about/privacy-policy"><i class='fa fa-asterisk'></i> Privacy Policy</a>
+                      </li>
+                    
+                  </ul>
+              
+            </li>
+            
+            <li class="">
+              
+                <a href="https://vninja.net/advertising" >
+                  <i class='fa fa-bank'></i>
+                  Advertising
+                </a>
+              
+            </li>
+            
+            <li class="">
+              
+                <a href="https://vninja.net/post/index.xml" >
+                  <i class='fa fa-rss'></i>
+                  RSS
+                </a>
+              
+            </li>
+            
+            
+              
+          </ul>
+        </div>
+        
+      </div>
+    </nav>
+  </header>
+
+
+<section id="main-content" class="container main_content">
+  <header class="container">
+    <h1>Vsphere
+</h1>
+
+  </header>
+  
+    <div class="row">
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <div>
+  <h2><a href="https://vninja.net/2018/08/26/vmware-cloud-on-aws-news/">VMware Cloud on AWS — New Amazon EC2 elastic, bare-metal instance for vSAN</a>
+</h2>
+
+  <div class="margin-10">
+      <i class="fa fa-calendar"></i>
+  <time datetime="2018-08-26">26 Aug, 2018</time>
+
+    
+  <i class="fa fa-tags"></i>
+  
+  <a href="https://vninja.net/tags/vmware" class="label label-primary">VMware</a>
+  
+  <a href="https://vninja.net/tags/vmworld-2018" class="label label-primary">VMworld 2018</a>
+  
+  <a href="https://vninja.net/tags/vmware-cloud-on-aws" class="label label-primary">VMware Cloud on AWS</a>
+  
+
+
+  </div>
+</div>
+
+    <p>
+  
+  
+    VMware Cloud on AWS (vSAN) utilizing Amazon Elastic Block Storage (EBS) is an interesting one. Being able to independently increment storage in the VMC without adding compute nodes is a feature that has been missing, <strong>until now</strong>.
+  
+
+
+</p>
+
+
+    <p class="lead"><a href="https://vninja.net/2018/08/26/vmware-cloud-on-aws-news/" class="btn btn-default">Read more &rarr;</a></p>
+
+
+  </div>
+</div>
+
+  
+    <div class="row">
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <div>
+  <h2><a href="https://vninja.net/2018/08/26/vphere67u1-whats-new/">VMware vSphere 6.7u1 — What&#39;s New?</a>
+</h2>
+
+  <div class="margin-10">
+      <i class="fa fa-calendar"></i>
+  <time datetime="2018-08-26">26 Aug, 2018</time>
+
+    
+  <i class="fa fa-tags"></i>
+  
+  <a href="https://vninja.net/tags/vsphere" class="label label-primary">vSphere</a>
+  
+  <a href="https://vninja.net/tags/vmware" class="label label-primary">VMware</a>
+  
+  <a href="https://vninja.net/tags/vcsa" class="label label-primary">VCSA</a>
+  
+  <a href="https://vninja.net/tags/vmworld-2018" class="label label-primary">VMworld 2018</a>
+  
+
+
+  </div>
+</div>
+
+    <p>
+  
+  
+    Another VMworld, another vSphere announcement. As all new releases, vSphere 6.7u1 comes with a bunch of new features and capabilities — <strong>yay, finally feature complete HTML5 client!</strong>
+  
+
+
+</p>
+
+
+    <p class="lead"><a href="https://vninja.net/2018/08/26/vphere67u1-whats-new/" class="btn btn-default">Read more &rarr;</a></p>
+
+
+  </div>
+</div>
+
+  
+    <div class="row">
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <div>
+  <h2><a href="https://vninja.net/vmware-2/vmware-vsphere-6-5-psod-gp-exception-13/">VMware vSphere 6.5 PSOD: GP Exception 13</a>
+</h2>
+
+  <div class="margin-10">
+      <i class="fa fa-calendar"></i>
+  <time datetime="2017-02-25">25 Feb, 2017</time>
+
+    
+  <i class="fa fa-tags"></i>
+  
+  <a href="https://vninja.net/tags/6.5" class="label label-primary">6.5</a>
+  
+  <a href="https://vninja.net/tags/esxi" class="label label-primary">ESXi</a>
+  
+  <a href="https://vninja.net/tags/kb" class="label label-primary">KB</a>
+  
+  <a href="https://vninja.net/tags/vsphere" class="label label-primary">vSphere</a>
+  
+
+
+  </div>
+</div>
+
+    <p>
+  
+  
+    <p>While at a customer site, migrating an old vSphere 5.5 environment to 6.5, several hosts suddenly crashed with a PSOD during the migration. Long story short, we got hit by this: <a href="https://kb.vmware.com/selfservice/microsites/search.do?language=en_US&amp;cmd=displayKC&amp;externalId=2147958">VMware KB 2147958: _ESXi 6.5 host fails with PSOD: GP Exception 13 in multiple VMM world at VmAnon<em>AllocVmmPages (2147958</em>)</a></p>
+
+<p></p>
+  
+
+
+</p>
+
+
+    <p class="lead"><a href="https://vninja.net/vmware-2/vmware-vsphere-6-5-psod-gp-exception-13/" class="btn btn-default">Read more &rarr;</a></p>
+
+
+  </div>
+</div>
+
+  
+    <div class="row">
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <div>
+  <h2><a href="https://vninja.net/vmware-2/esxi-snapshot-problems-msg-snapshot-error-quiescingerror/">ESXi Snapshot Problems: msg.snapshot.error-QUIESCINGERROR</a>
+</h2>
+
+  <div class="margin-10">
+      <i class="fa fa-calendar"></i>
+  <time datetime="2017-02-01">1 Feb, 2017</time>
+
+    
+  <i class="fa fa-tags"></i>
+  
+  <a href="https://vninja.net/tags/esxi" class="label label-primary">ESXi</a>
+  
+  <a href="https://vninja.net/tags/ntp" class="label label-primary">NTP</a>
+  
+  <a href="https://vninja.net/tags/snapshot" class="label label-primary">Snapshot</a>
+  
+  <a href="https://vninja.net/tags/vsphere" class="label label-primary">vSphere</a>
+  
+
+
+  </div>
+</div>
+
+    <p>
+  
+  
+    <p><a href="https://unsplash.com/@sonjalangford"><img src="https://vninja.net/img/eikbsc3sdti-sonja-langford-300x200.jpg" alt="" /></a> Photo by Sonja Langford</p>
+
+<p>Just a quick post about something I experienced at a client, with <em>ESXi 6.0 hosts</em>, today:</p>
+
+<p>If you have trouble performing VMware snapshots, and see a  <em>msg.snapshot.error-QUIESCINGERROR</em> error, <strong>check the host time settings and NTP</strong>.</p>
+
+<p></p>
+  
+
+
+</p>
+
+
+    <p class="lead"><a href="https://vninja.net/vmware-2/esxi-snapshot-problems-msg-snapshot-error-quiescingerror/" class="btn btn-default">Read more &rarr;</a></p>
+
+
+  </div>
+</div>
+
+  
+    <div class="row">
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <div>
+  <h2><a href="https://vninja.net/vmware-2/update-esxi-embedded-host-client-fling/">Update ESXi Embedded Host Client Fling</a>
+</h2>
+
+  <div class="margin-10">
+      <i class="fa fa-calendar"></i>
+  <time datetime="2015-08-26">26 Aug, 2015</time>
+
+    
+  <i class="fa fa-tags"></i>
+  
+  <a href="https://vninja.net/tags/embedded-host-client" class="label label-primary">Embedded Host Client</a>
+  
+  <a href="https://vninja.net/tags/esxi" class="label label-primary">ESXi</a>
+  
+  <a href="https://vninja.net/tags/vsphere" class="label label-primary">vSphere</a>
+  
+
+
+  </div>
+</div>
+
+    <p>
+  
+  
+    <p><img src="https://vninja.net/img/VMware-ESXi-Host-Client-2015-08-26-18-42-24-300x164.png" alt="VMware ESXi Host Client 2015-08-26 18-42-24" />The ESXi Embedded Host Client Fling <a href="http://www.virtuallyghetto.com/2015/08/esxi-embedded-host-client-fling-updated-to-v2.html">got an upgrade today</a>, and in addition to new features it now works properly on ESXi 5.5. In addition to this, it&rsquo;s also available as an <a href="http://download3.vmware.com/software/vmw-tools/esxui/esxui-offline-bundle-3015331.zip">offline bundle</a> so you can distribute it with Update Manager.</p>
+
+<p>Since I&rsquo;ve spent most of my day in esxcli, here is a quick post on how to perform the upgrade from a <a href="http://vninja.net/vmware-2/esxi5-5-to-6-0-upgrade-from-local-http-daemon/">local http repository</a> hosting the .vib file.</p>
+
+<p></p>
+  
+
+
+</p>
+
+
+    <p class="lead"><a href="https://vninja.net/vmware-2/update-esxi-embedded-host-client-fling/" class="btn btn-default">Read more &rarr;</a></p>
+
+
+  </div>
+</div>
+
+  
+    <div class="row">
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <div>
+  <h2><a href="https://vninja.net/vmware-2/esxi5-5-to-6-0-upgrade-from-local-http-daemon/">ESXi5.5 to 6.0 Upgrade From Local HTTP Daemon</a>
+</h2>
+
+  <div class="margin-10">
+      <i class="fa fa-calendar"></i>
+  <time datetime="2015-08-26">26 Aug, 2015</time>
+
+    
+  <i class="fa fa-tags"></i>
+  
+  <a href="https://vninja.net/tags/esxi" class="label label-primary">ESXi</a>
+  
+  <a href="https://vninja.net/tags/vcenter" class="label label-primary">vCenter</a>
+  
+  <a href="https://vninja.net/tags/vmware" class="label label-primary">VMware</a>
+  
+  <a href="https://vninja.net/tags/vsphere" class="label label-primary">vSphere</a>
+  
+
+
+  </div>
+</div>
+
+    <p>
+  
+  
+    <p>I was recently involved with consulting for a Norwegian shipping company who has quite a few remote vSphere installations, most of them with a couple of ESXi hosts, but no vCenter and hence no Update Manager. While looking at methods for managing these installations, in particular how to facilitate patching and upgrading scenarios, I remembered that way back in 2013, I posted <a href="http://vninja.net/virtualization/quick-and-dirty-http-based-deployment/">Quick and Dirty HTTP-based Deployment</a> which shows how to use the Python to run a simple http daemon, and serve files from it.
+</p>
+  
+
+
+</p>
+
+
+    <p class="lead"><a href="https://vninja.net/vmware-2/esxi5-5-to-6-0-upgrade-from-local-http-daemon/" class="btn btn-default">Read more &rarr;</a></p>
+
+
+  </div>
+</div>
+
+  
+    <div class="row">
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <div>
+  <h2><a href="https://vninja.net/vmware-2/esxi-embedded-host-client/">ESXi Embedded Host Client</a>
+</h2>
+
+  <div class="margin-10">
+      <i class="fa fa-calendar"></i>
+  <time datetime="2015-08-12">12 Aug, 2015</time>
+
+    
+  <i class="fa fa-tags"></i>
+  
+  <a href="https://vninja.net/tags/awesome" class="label label-primary">Awesome</a>
+  
+  <a href="https://vninja.net/tags/vmware" class="label label-primary">VMware</a>
+  
+  <a href="https://vninja.net/tags/vsphere" class="label label-primary">vSphere</a>
+  
+  <a href="https://vninja.net/tags/web-client" class="label label-primary">Web Client</a>
+  
+
+
+  </div>
+</div>
+
+    <p>
+  
+  
+    <p>I almost choked on my coffee this morning when I saw <a href="http://www.virtuallyghetto.com/2015/08/new-html5-embedded-host-client-for-esxi.html">William Lam announcing a new VMware Fling</a> called <a href="https://labs.vmware.com/flings/esxi-embedded-host-client">ESXi Embedded Host Client</a>. Finally the day when we can get a local vSphere Web Client on a standalone host is here, and it&rsquo;s not a moment too soon. This feature has been missing since ESX 3 and it&rsquo;s VMware Infrastructure Web Access. For now, this is a Fling (which means unsupported and so on), but I really hope that this ends up being built-in to ESXi very soon &ndash; even on the free vSphere Hypervisor.
+</p>
+  
+
+
+</p>
+
+
+    <p class="lead"><a href="https://vninja.net/vmware-2/esxi-embedded-host-client/" class="btn btn-default">Read more &rarr;</a></p>
+
+
+  </div>
+</div>
+
+  
+  
+
+</section>
+    
+<footer class="footer hidden-print">
+  <div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+           <div class="pull-left">
+  <a class="toplink" href="javascript:" id="return-to-top">back to top</a>
+</div>
+<div class="pull-right">
+
+<a href="https://vninja.net/disclaimer/">Disclaimer</a> 
+
+</div>
+
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+              
+    
+<div class="container footline">
+    <small>
+  Built with Hugo and lots of <i class='fa fa-coffee'></i>
+
+</small>
+</div>
+
+
+    
+<div class="container copyright">
+    <small>
+  &copy; 2018 Christian Mohn
+
+  </small>
+</div>
+
+
+
+
+        </div>
+    </div>
+  </div>
+</footer>
+
+    
+
+<script src="https://vninja.net/js/jquery.min.js"></script>
+<script src="https://vninja.net/js/bootstrap.min.js"></script>
+
+
+<script src="https://vninja.net/js/highlight.pack.js"></script>
+<script src="https://vninja.net/js/site.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+<script>
+  var _gaq=[['_setAccount','UA-121910549-1'],['_trackPageview']];
+  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+  g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+  s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+
+<script>
+var ENABLE_POPOVER = "", 
+EXPIRE_COOKIE = "", 
+SHOW_MODAL_TIMEOUT = "", 
+MOUSE_LEAVE = "", 
+MODAL_SIZE = "", 
+POST_URL = "", 
+SIGNUP_HEADER = "",
+HEADER_IMAGE = "",
+IMG_DESCRIPTION = "",
+SIGNUP_TEXT = "",
+INPUT_PLACEHOLDER = "",
+SUBMIT_BUTTON = "",
+SUCCESS_MESSAGE = "",
+ERROR_MESSAGE = "",
+OPTIN = "",
+COOKIE_NAME = "",
+CONTENTLANGUAGE = ""; 
+</script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
+

@@ -10,6 +10,8 @@ wordpress_id: 4871
 categories:
 - OS X
 - Software
+topics: ["Software", "Software Recommendation", "macOS"]
+
 ---
 
 Small, unobtrusive and easy to use. That's a pretty good description for a macOS utility I recently discovered: [Vanilla](http://vanilla.wolves.fm/r/SyU119Hlz) ([non-affiliate link](http://matthewpalmer.net/vanilla/)).

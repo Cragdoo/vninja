@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Todoist on vNinja.net</title>
+    <link>https://vninja.net/topics/todoist/</link>
+    <description>Recent content in Todoist on vNinja.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>(c) 2018 Christian Mohn</copyright>
+    <lastBuildDate>Tue, 24 Oct 2017 10:38:13 +0000</lastBuildDate>
+    
+	<atom:link href="https://vninja.net/topics/todoist/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How I use Todoist</title>
+      <link>https://vninja.net/workflow/how-i-use-todoist/</link>
+      <pubDate>Tue, 24 Oct 2017 10:38:13 +0000</pubDate>
+      
+      <guid>https://vninja.net/workflow/how-i-use-todoist/</guid>
+      <description>&lt;p&gt;As I&amp;rsquo;ve mentioned before, &lt;a href=&#34;http://vninja.net/workflow/todoist-one-year-later/&#34;&gt;I use Todoist&lt;/a&gt; to keep track of my personal to-do list. This is the first to-do manager I&amp;rsquo;ve been able to stick with, and I&amp;rsquo;ve been using it daily for well over 2 years now. In that two year period I&amp;rsquo;ve reorganised it a bit, but for the most part I&amp;rsquo;ve been able to keep to the main structure I initially created when setting it up the first time.
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

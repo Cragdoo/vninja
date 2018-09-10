@@ -13,6 +13,8 @@ tags:
 - dmarc
 - email
 - Security
+topics: ["Security"]
+
 ---
 
 In the last few months, I've seen an uptick in spoofed emails being sent with my own personal email domain. Not only is this extremely annoying, but more problematic is that recipients receive spam and phishing emails from what seems to be my personal mail account, simply by spoofing the from address. I don't know why domain and email address has been "chosen" for this, but I guess this is fallout from the [LinkedIn breach](https://www.troyhunt.com/observations-and-thoughts-on-the-linkedin-data-breach/) way back in 2012.

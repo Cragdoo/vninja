@@ -15,6 +15,8 @@ tags:
 - macOS
 - VMware
 - xvMotion
+  topics: ["vCenter", "vShhere", "VMware"]
+
 ---
 
 The [VMware Cross vCenter VM Mobility - CLI](https://labs.vmware.com/flings/xvc-mobility-cli#requirements) was recently updated so I decided to try it out. In short, this little Java based application allows you to easily move or clone VMs between disparate vCenter environments.

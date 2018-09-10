@@ -13,7 +13,7 @@ tags:
 - Blogtober
 - HomeBrew
 - macOS
-topics: ["macOS"]
+topics: ["macOS", "Software"]
 
 ---
 

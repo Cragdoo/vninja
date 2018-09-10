@@ -5,6 +5,7 @@ date: "2018-07-22"
 year: "2018"
 author: Christian Mohn
 tags: ["vninja", "site", "news", "hugo", "wordpress"]
+topics: ["Hugo"]
 categories: ["site migration"]
 
 title: "Migrating From Wordpress to Hugo"

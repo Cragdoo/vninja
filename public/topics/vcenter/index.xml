@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vcenter on vNinja.net</title>
+    <link>https://vninja.net/topics/vcenter/</link>
+    <description>Recent content in Vcenter on vNinja.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>(c) 2018 Christian Mohn</copyright>
+    <lastBuildDate>Thu, 10 Nov 2016 09:57:29 +0000</lastBuildDate>
+    
+	<atom:link href="https://vninja.net/topics/vcenter/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>VCSA - The default choice. Always.</title>
+      <link>https://vninja.net/virtualization/vcsa-the-default-choice-always/</link>
+      <pubDate>Thu, 10 Nov 2016 09:57:29 +0000</pubDate>
+      
+      <guid>https://vninja.net/virtualization/vcsa-the-default-choice-always/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been a big proponent of the VMware vCenter Appliance for a long time, I even did a talk called &lt;a href=&#34;https://www.vmug.com/p/cm/ld/fid=10931&#34;&gt;VCS to VCSA Converter or How a Fling Can Be Good for You!&lt;/a&gt; on migrating to the VCSA at the Nordic VMUG last year.&lt;/p&gt;
+
+&lt;p&gt;The VCSA has gone through a few iterations and versions by now, coinciding with the vSphere releases.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>My vCenter Web Client Customization</title>
+      <link>https://vninja.net/virtualization/my-vcenter-web-client-customization/</link>
+      <pubDate>Mon, 07 Nov 2016 22:51:03 +0000</pubDate>
+      
+      <guid>https://vninja.net/virtualization/my-vcenter-web-client-customization/</guid>
+      <description>&lt;p&gt;William Lam has a repository of &lt;a href=&#34;https://github.com/lamw/customize-vsphere-web-client-6.0u2&#34;&gt;vCenter Web Client customizations&lt;/a&gt; hosted over on GitHub, and I decided to add one of my own.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/h0bbel/customize-vsphere-web-client-6.0u2/tree/master/themes/botlady&#34;&gt;&lt;strong&gt;Botlady&lt;/strong&gt;&lt;/a&gt;&lt;img src=&#34;http://vninja.net/wordpress/wp-content/uploads/2016/11/Screenshot-2016-11-07-23.13.19-1024x652.png&#34; alt=&#34;Botlady&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>vCenter Server Appliance Backups</title>
+      <link>https://vninja.net/vmware-2/vcenter-server-appliance-backups/</link>
+      <pubDate>Thu, 18 Feb 2016 18:51:14 +0000</pubDate>
+      
+      <guid>https://vninja.net/vmware-2/vcenter-server-appliance-backups/</guid>
+      <description>&lt;p&gt;For some time now I&amp;rsquo;ve been advocating the usage of VCSA instead of the traditional Microsoft Windows based vCenter. It has feature parity with the Windows version now, it&amp;rsquo;s easier to deploy, gets right-sized out of the box and eliminates the need for an external Microsoft SQL server.&lt;/p&gt;
+
+&lt;p&gt;One of the questions I often face when talking about the appliance,_ is how do we handle backups?_  Most customers are comfortable with backup up Windows servers and Microsoft SQL, but quite a few have reservations when it comes to the integrated vPostgres database that the VCSA employs. One common misconception is that a VCSA backup is only crash-consistent. Thankfully vPostgres takes care of this on it&amp;rsquo;s own, by using what it calls &lt;a href=&#34;http://www.postgresql.org/docs/9.4/static/continuous-archiving.html&#34;&gt;Continuous Archiving and Point-in-Time Recovery (PITR)&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>ESXi Embedded Host Client</title>
+      <link>https://vninja.net/vmware-2/esxi-embedded-host-client/</link>
+      <pubDate>Wed, 12 Aug 2015 16:11:16 +0000</pubDate>
+      
+      <guid>https://vninja.net/vmware-2/esxi-embedded-host-client/</guid>
+      <description>&lt;p&gt;I almost choked on my coffee this morning when I saw &lt;a href=&#34;http://www.virtuallyghetto.com/2015/08/new-html5-embedded-host-client-for-esxi.html&#34;&gt;William Lam announcing a new VMware Fling&lt;/a&gt; called &lt;a href=&#34;https://labs.vmware.com/flings/esxi-embedded-host-client&#34;&gt;ESXi Embedded Host Client&lt;/a&gt;. Finally the day when we can get a local vSphere Web Client on a standalone host is here, and it&amp;rsquo;s not a moment too soon. This feature has been missing since ESX 3 and it&amp;rsquo;s VMware Infrastructure Web Access. For now, this is a Fling (which means unsupported and so on), but I really hope that this ends up being built-in to ESXi very soon &amp;ndash; even on the free vSphere Hypervisor.
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

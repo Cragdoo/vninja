@@ -7,10 +7,63 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>(c) 2018 Christian Mohn</copyright>
-    <lastBuildDate>Thu, 16 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Sep 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://vninja.net/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>IT Architect Series: Designing Risk in IT Infrastructure</title>
+      <link>https://vninja.net/2018/09/04/designing-risk-in-it-infrastructure/</link>
+      <pubDate>Tue, 04 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vninja.net/2018/09/04/designing-risk-in-it-infrastructure/</guid>
+      <description>Designing Risk in IT Infrastructure  Disclaimer: I have contributed to this book as a reviewer, for no compensation other than receiving a free copy.  Another must-have book for system administrators and architects has been published!
+ By Daemon Behr Paperback: 416 pages Publisher: Daemon Behr (August 10, 2018) Language: English  This book wil help you understand what risk really is, a variety of different risk factors and how to mitigate them.</description>
+    </item>
+    
+    <item>
+      <title>Headshot Studio @VMworld?</title>
+      <link>https://vninja.net/2018/09/02/headshot-studiovmworld/</link>
+      <pubDate>Sun, 02 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vninja.net/2018/09/02/headshot-studiovmworld/</guid>
+      <description>Over the last couple of weeks an idea started to form, an idea that would try to combine two of my passions; The vCommunity and photography.
+In short, the idea is to set up some kind of mini-studio at VMworld Europe, and offer free headshots to those who might be interested. And yes, it&amp;rsquo;ll be me doing the photography, not some fancy pro-photographer.
+I’m considering setting up a photo “headshot studio” at #VMworld Europe, and some kind of schedule/signup.</description>
+    </item>
+    
+    <item>
+      <title>VMware Cloud on AWS — New Amazon EC2 elastic, bare-metal instance for vSAN</title>
+      <link>https://vninja.net/2018/08/26/vmware-cloud-on-aws-news/</link>
+      <pubDate>Sun, 26 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vninja.net/2018/08/26/vmware-cloud-on-aws-news/</guid>
+      <description>VMware vSAN utilizing Amazon Elastic Block Storage (EBS) is an interesting one. Being able to independently increment storage in the VMC without adding compute nodes is a feature that has been missing, until now.
+Customers of VMware Cloud on AWS will now be able to scale storage independently of compute, by adding new EBS storage nodes.
+Overview R5.Metal Physical Host Configuration  ​3 disk groups per host All storage provided by EBS GP2 Raw capacity tier of 15-35TB  Configured at Cluster creation 5TB increments ​Compression Enabled      Item Available     CPU Skylake-SP   Sockets per Host 2   Cores per Socket 24   Cores per Host 48   Threads per Host 96   Memory 768 GB   Storage EBS GP2   NICs 1 x ENA    Note: This new storage cluster needs to be added to an existing SDDC and cannot be the first cluster that is provisioned in the customer environment.</description>
+    </item>
+    
+    <item>
+      <title>VMware vSAN 6.7u1 — What&#39;s New?</title>
+      <link>https://vninja.net/2018/08/26/vsan67u1-whats-new/</link>
+      <pubDate>Sun, 26 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vninja.net/2018/08/26/vsan67u1-whats-new/</guid>
+      <description>VMworld 2018 US is upon us, and as per usual this means a lot of new announcements. One of them is vSAN 6.7u1 which comes with a bunch of new and useful features. This release mainly focuses on improved operations and maintenance, with a bunch of nice new additions.
+I&amp;rsquo;ve focused on a couple of them here, but this is not a defintive list!
+Simplified Upgrade Experience Through VMware Update Manager (VUM) Firmware and drivers for vSAN has now been moved into VMware Update Manager (VUM) for centralized management, this means that the vSAN IO Controller Firmware Tool now integrated into VUM.</description>
+    </item>
+    
+    <item>
+      <title>VMware vSphere 6.7u1 — What&#39;s New?</title>
+      <link>https://vninja.net/2018/08/26/vphere67u1-whats-new/</link>
+      <pubDate>Sun, 26 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vninja.net/2018/08/26/vphere67u1-whats-new/</guid>
+      <description>vSphere 6.7u1 Announced at VMworld 2018 US Another VMworld, another vSphere announcement. vSphere 6.7u1 comes with a bunch of new features and capabilities, some of which are listed below:
+Feature Complete HTML5 Client Finally the HTML5 client is feature complete! It&amp;rsquo;s been a long wait, but in v6.7u1 it&amp;rsquo;s here! With improved search, support for Auto Deploy, Host Profiles and vCenter High Availability (VCHA) this is your new home as a vSphere admin.</description>
+    </item>
     
     <item>
       <title>Book Recommendations August 2018</title>
@@ -101,8 +154,8 @@ Commercial Content List I have engaged in commercial (paid and non-paid) content
       
       <guid>https://vninja.net/advertising/</guid>
       <description>Thank you for your interest in advertising on vNinja.net!
-vNinja.net currently only offers 250 x 250px ads in the site wide sidebar. Other suggestions are welcome, and all inquiries will be entertained on a case-by-case basis. Note: Sponsored links is completely out of the question.
-Terms and conditions Purchasing advertising space on vNinja.net does not guarantee any, favourable or not, review of the product or services advertised, nor is it to be considered an endorsement of any kind.</description>
+vNinja.net currently only offers 250 x 250px ads in the site wide sidebar.
+ Terms and conditions Purchasing advertising space on vNinja.net does not guarantee any, favourable or not, review of the product or services advertised, nor is it to be considered an endorsement of any kind. vNinja.net does not guarantee any given level of circulation or readership for an advertisement.</description>
     </item>
     
     <item>
@@ -1041,7 +1094,7 @@ In addition to the excitement around changing employers, and roles, some other t
     </item>
     
     <item>
-      <title>Running a VSAN PoC - Customer reactions</title>
+      <title>Running a vSAN PoC - Customer reactions</title>
       <link>https://vninja.net/virtualization/running-a-vsan-poc-customer-reactions/</link>
       <pubDate>Wed, 24 Feb 2016 10:42:26 +0000</pubDate>
       
@@ -1745,7 +1798,7 @@ The VDCA550 exam is held in a live lab environment, with approximately 23 lab ac
       <pubDate>Sun, 08 Jun 2014 22:24:23 +0000</pubDate>
       
       <guid>https://vninja.net/vmware-2/marvin-speculation/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://vninja.net/wordpress/wp-content/uploads/2014/06/Marvin_HHGG.jpg#floatright&#34; alt=&#34;Marvin the Paranoid Android (HHGG)&#34; /&gt; Marvin the Paranoid Android (HHGG)&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;https://vninja.net/img/Marvin_HHGG.jpg#floatright&#34; alt=&#34;Marvin the Paranoid Android (HHGG)&#34; /&gt; Marvin the Paranoid Android (HHGG)&lt;/p&gt;
 
 &lt;p&gt;After close to a full day of Twitter speculations and discussions on what &lt;a href=&#34;http://vninja.net/vmware-2/vmwares-mystic-marvin-project/&#34;&gt;Marvin really is&lt;/a&gt;, some thoughts kept stuck with me, and this is my attempt at articulating what I think VMware might be up to.&lt;/p&gt;
 

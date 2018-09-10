@@ -3,6 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://vninja.net/2018/09/04/designing-risk-in-it-infrastructure/</loc>
+    <lastmod>2018-09-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vninja.net/2018/09/02/headshot-studiovmworld/</loc>
+    <lastmod>2018-09-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vninja.net/2018/08/26/vmware-cloud-on-aws-news/</loc>
+    <lastmod>2018-08-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vninja.net/2018/08/26/vsan67u1-whats-new/</loc>
+    <lastmod>2018-08-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vninja.net/2018/08/26/vphere67u1-whats-new/</loc>
+    <lastmod>2018-08-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://vninja.net/2018/08/16/book-recommendations/</loc>
     <lastmod>2018-08-16T00:00:00+00:00</lastmod>
   </url>
@@ -1729,6 +1754,12 @@
   </url>
   
   <url>
+    <loc>https://vninja.net/topics/awesome-talk/</loc>
+    <lastmod>2018-05-09T13:12:07+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://vninja.net/tags/awesometalk/</loc>
     <lastmod>2018-05-09T13:12:07+00:00</lastmod>
     <priority>0</priority>
@@ -1856,13 +1887,13 @@
   
   <url>
     <loc>https://vninja.net/tags/books/</loc>
-    <lastmod>2018-08-16T00:00:00+00:00</lastmod>
+    <lastmod>2018-09-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://vninja.net/topics/books/</loc>
-    <lastmod>2018-08-16T00:00:00+00:00</lastmod>
+    <lastmod>2018-09-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2246,6 +2277,12 @@
   
   <url>
     <loc>https://vninja.net/tags/esxi/</loc>
+    <lastmod>2017-02-25T08:50:26+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vninja.net/topics/esxi/</loc>
     <lastmod>2017-02-25T08:50:26+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -2863,6 +2900,12 @@
   </url>
   
   <url>
+    <loc>https://vninja.net/topics/macos/</loc>
+    <lastmod>2017-10-26T13:32:01+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://vninja.net/tags/maintenance/</loc>
     <lastmod>2013-06-26T10:34:18+00:00</lastmod>
     <priority>0</priority>
@@ -3187,6 +3230,12 @@
   </url>
   
   <url>
+    <loc>https://vninja.net/topics/photography/</loc>
+    <lastmod>2018-09-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://vninja.net/tags/php/</loc>
     <lastmod>2014-01-29T15:58:10+00:00</lastmod>
     <priority>0</priority>
@@ -3242,7 +3291,7 @@
   
   <url>
     <loc>https://vninja.net/post/</loc>
-    <lastmod>2018-08-16T00:00:00+00:00</lastmod>
+    <lastmod>2018-09-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3362,7 +3411,7 @@
   
   <url>
     <loc>https://vninja.net/tags/reading/</loc>
-    <lastmod>2018-08-16T00:00:00+00:00</lastmod>
+    <lastmod>2018-09-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3386,7 +3435,7 @@
   
   <url>
     <loc>https://vninja.net/tags/recommended/</loc>
-    <lastmod>2018-08-16T00:00:00+00:00</lastmod>
+    <lastmod>2018-09-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3595,6 +3644,18 @@
   </url>
   
   <url>
+    <loc>https://vninja.net/topics/software/</loc>
+    <lastmod>2017-10-24T10:38:13+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vninja.net/topics/software-recommendation/</loc>
+    <lastmod>2016-11-24T09:45:10+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://vninja.net/tags/speaking/</loc>
     <lastmod>2015-10-28T22:30:14+00:00</lastmod>
     <priority>0</priority>
@@ -3669,6 +3730,12 @@
   <url>
     <loc>https://vninja.net/tags/storage/</loc>
     <lastmod>2016-11-23T13:57:56+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vninja.net/topics/storage/</loc>
+    <lastmod>2018-08-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3763,6 +3830,12 @@
   </url>
   
   <url>
+    <loc>https://vninja.net/topics/todoist/</loc>
+    <lastmod>2017-10-24T10:38:13+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://vninja.net/tags/togaf/</loc>
     <lastmod>2015-02-11T23:28:23+00:00</lastmod>
     <priority>0</priority>
@@ -3776,7 +3849,7 @@
   
   <url>
     <loc>https://vninja.net/topics/</loc>
-    <lastmod>2018-08-16T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-09T13:12:07+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3937,6 +4010,12 @@
   </url>
   
   <url>
+    <loc>https://vninja.net/topics/vcenter/</loc>
+    <lastmod>2016-11-10T09:57:29+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://vninja.net/tags/vcenter-appliance/</loc>
     <lastmod>2014-01-19T19:19:02+00:00</lastmod>
     <priority>0</priority>
@@ -4004,6 +4083,12 @@
   
   <url>
     <loc>https://vninja.net/tags/vcsa/</loc>
+    <lastmod>2018-08-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vninja.net/topics/vcsa/</loc>
     <lastmod>2016-11-10T09:57:29+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -4040,7 +4125,7 @@
   
   <url>
     <loc>https://vninja.net/tags/vexpert/</loc>
-    <lastmod>2015-06-19T10:10:52+00:00</lastmod>
+    <lastmod>2018-09-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -4111,6 +4196,12 @@
   </url>
   
   <url>
+    <loc>https://vninja.net/topics/virtualization/</loc>
+    <lastmod>2018-08-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://vninja.net/tags/vkernel/</loc>
     <lastmod>2013-01-14T23:53:50+00:00</lastmod>
     <priority>0</priority>
@@ -4160,7 +4251,25 @@
   
   <url>
     <loc>https://vninja.net/tags/vmware/</loc>
-    <lastmod>2018-01-14T16:00:00+00:00</lastmod>
+    <lastmod>2018-09-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vninja.net/topics/vmware/</loc>
+    <lastmod>2016-11-18T11:23:58+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vninja.net/tags/vmware-cloud-on-aws/</loc>
+    <lastmod>2018-08-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vninja.net/topics/vmware-cloud-on-aws/</loc>
+    <lastmod>2018-08-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -4220,13 +4329,25 @@
   
   <url>
     <loc>https://vninja.net/tags/vmworld/</loc>
-    <lastmod>2016-11-18T11:23:58+00:00</lastmod>
+    <lastmod>2018-09-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vninja.net/topics/vmworld/</loc>
+    <lastmod>2018-09-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://vninja.net/tags/vmworld-2012/</loc>
     <lastmod>2012-07-22T17:49:01+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vninja.net/tags/vmworld-2018/</loc>
+    <lastmod>2018-08-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -4322,7 +4443,13 @@
   
   <url>
     <loc>https://vninja.net/tags/vsan/</loc>
-    <lastmod>2017-04-11T16:08:30+00:00</lastmod>
+    <lastmod>2018-08-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vninja.net/topics/vsan/</loc>
+    <lastmod>2018-08-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -4352,7 +4479,13 @@
   
   <url>
     <loc>https://vninja.net/tags/vsphere/</loc>
-    <lastmod>2018-01-29T22:49:53+00:00</lastmod>
+    <lastmod>2018-08-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vninja.net/topics/vsphere/</loc>
+    <lastmod>2018-08-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -4550,7 +4683,7 @@
   
   <url>
     <loc>https://vninja.net/</loc>
-    <lastmod>2018-08-16T00:00:00+00:00</lastmod>
+    <lastmod>2018-09-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

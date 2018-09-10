@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Storage on vNinja.net</title>
+    <link>https://vninja.net/topics/storage/</link>
+    <description>Recent content in Storage on vNinja.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>(c) 2018 Christian Mohn</copyright>
+    <lastBuildDate>Sun, 26 Aug 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://vninja.net/topics/storage/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>VMware vSAN 6.7u1 — What&#39;s New?</title>
+      <link>https://vninja.net/2018/08/26/vsan67u1-whats-new/</link>
+      <pubDate>Sun, 26 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vninja.net/2018/08/26/vsan67u1-whats-new/</guid>
+      <description>VMworld 2018 US is upon us, and as per usual this means a lot of new announcements. One of them is vSAN 6.7u1 which comes with a bunch of new and useful features. This release mainly focuses on improved operations and maintenance, with a bunch of nice new additions.
+I&amp;rsquo;ve focused on a couple of them here, but this is not a defintive list!
+Simplified Upgrade Experience Through VMware Update Manager (VUM) Firmware and drivers for vSAN has now been moved into VMware Update Manager (VUM) for centralized management, this means that the vSAN IO Controller Firmware Tool now integrated into VUM.</description>
+    </item>
+    
+    <item>
+      <title>VMware vSAN 6.6 - What&#39;s New for Day 2 Operations?</title>
+      <link>https://vninja.net/virtualization/vmware-vsan-6-6-whats-new-for-day-2-operations/</link>
+      <pubDate>Tue, 11 Apr 2017 16:08:30 +0000</pubDate>
+      
+      <guid>https://vninja.net/virtualization/vmware-vsan-6-6-whats-new-for-day-2-operations/</guid>
+      <description>&lt;p&gt;VMware has just &lt;a href=&#34;https://blogs.vmware.com/virtualblocks/2017/04/11/whats-new-vmware-vsan-6-6/&#34;&gt;announced vSAN v6.6&lt;/a&gt;, with over 20 new features. While new and shiny features are nice I&amp;rsquo;d like to highlight &lt;strong&gt;a couple&lt;/strong&gt; that I think might be undervalued from release feature-set perspective, but highly valuable in day to day operations of a vSAN environment, otherwise known as &lt;em&gt;Day 2 operations&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>VMware vSAN: 2016 Edition</title>
+      <link>https://vninja.net/virtualization/vmware-vsan-2016-edition/</link>
+      <pubDate>Wed, 23 Nov 2016 13:57:56 +0000</pubDate>
+      
+      <guid>https://vninja.net/virtualization/vmware-vsan-2016-edition/</guid>
+      <description>&lt;p&gt;Both in 2014 and in 2015 I wrote pieces on the current status of VMware vSAN, and it&amp;rsquo;s time to revisit it for 2016.&lt;/p&gt;
+
+&lt;p&gt;My previous posts:&lt;/p&gt;
+
+&lt;p&gt;2014: &lt;a href=&#34;http://vninja.net/virtualization/vsan-unspoken-future/&#34;&gt;VSAN: The Unspoken Future&lt;/a&gt;
+2015: &lt;a href=&#34;http://vninja.net/virtualization/vmware-vsan-more-than-meets-the-eye/&#34;&gt;VMware VSAN: More than meets the eye.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;vSAN 6.5 was released with vSphere 6.5, and brings a few new features to the table:&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Running a vSAN PoC - Customer reactions</title>
+      <link>https://vninja.net/virtualization/running-a-vsan-poc-customer-reactions/</link>
+      <pubDate>Wed, 24 Feb 2016 10:42:26 +0000</pubDate>
+      
+      <guid>https://vninja.net/virtualization/running-a-vsan-poc-customer-reactions/</guid>
+      <description>&lt;p&gt;I recently set up a VMware Virtual SAN 6.1 Proof-of-Concept for a customer, configuring a 3-node cluster based on the following setup:
+
+&lt;img src=&#34;https://vninja.net/img/c04411605-300x225.png#floatright&#34; alt=&#34;c04411605&#34; /&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

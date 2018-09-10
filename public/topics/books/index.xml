@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>(c) 2018 Christian Mohn</copyright>
-    <lastBuildDate>Thu, 16 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Sep 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://vninja.net/topics/books/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>IT Architect Series: Designing Risk in IT Infrastructure</title>
+      <link>https://vninja.net/2018/09/04/designing-risk-in-it-infrastructure/</link>
+      <pubDate>Tue, 04 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vninja.net/2018/09/04/designing-risk-in-it-infrastructure/</guid>
+      <description>Designing Risk in IT Infrastructure  Disclaimer: I have contributed to this book as a reviewer, for no compensation other than receiving a free copy.  Another must-have book for system administrators and architects has been published!
+ By Daemon Behr Paperback: 416 pages Publisher: Daemon Behr (August 10, 2018) Language: English  This book wil help you understand what risk really is, a variety of different risk factors and how to mitigate them.</description>
+    </item>
     
     <item>
       <title>Book Recommendations August 2018</title>
@@ -20,6 +30,16 @@
       <guid>https://vninja.net/2018/08/16/book-recommendations/</guid>
       <description>Book Recommendations August 2018 Every now and then new vSphere related &amp;laquo;must-have&amp;raquo; books are released, and this month there is no less than two of them, namely the vSphere 6.7 Clustering Deep Dive and VDI Design Guide: A comprehensive guide to help you design VMware Horizon, based on modern standards.
 vSphere 6.7 Clustering Deep Dive This updated version (the 5th version) covers vSphere 6.7, and it&amp;rsquo;s a real brick.</description>
+    </item>
+    
+    <item>
+      <title>IT Architect: Foundation in the Art of Infrastructure Design: A Practical Guide for IT Architects</title>
+      <link>https://vninja.net/news/it-architect-foundation-in-the-art-of-infrastructure-design-a-practical-guide-for-it-architects/</link>
+      <pubDate>Fri, 15 Apr 2016 11:12:00 +0000</pubDate>
+      
+      <guid>https://vninja.net/news/it-architect-foundation-in-the-art-of-infrastructure-design-a-practical-guide-for-it-architects/</guid>
+      <description>&lt;p&gt;Way back in late 2014 I volunteered to do technical review for a book called **&lt;a href=&#34;https://www.lulu.com/shop/search.ep?keyWords=arrasjid&amp;amp;type=&#34;&gt;IT Architect: Foundation in the Art of Infrastructure Design: A Practical Guide for IT Architects&lt;/a&gt;. &lt;strong&gt;Due to a lot of unforeseen events, the book has been delayed quite a bit, but it&amp;rsquo;s finally available as hardcopy, paperback and eBook! The book is written by &lt;/strong&gt;J**&lt;strong&gt;ohn Yani Arrasjid&lt;/strong&gt;, VCDX-001, &lt;strong&gt;Mark Gabryjelski&lt;/strong&gt;, VCDX-023, &lt;strong&gt;Chris McCain&lt;/strong&gt;, VCDX-079 and as the title states it really does lay out the foundation of how to approach infrastructure design in a modern virtualised data center.
+&lt;/p&gt;</description>
     </item>
     
   </channel>

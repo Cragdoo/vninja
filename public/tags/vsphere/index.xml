@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>(c) 2018 Christian Mohn</copyright>
-    <lastBuildDate>Mon, 29 Jan 2018 22:49:53 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 26 Aug 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://vninja.net/tags/vsphere/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>VMware vSphere 6.7u1 — What&#39;s New?</title>
+      <link>https://vninja.net/2018/08/26/vphere67u1-whats-new/</link>
+      <pubDate>Sun, 26 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vninja.net/2018/08/26/vphere67u1-whats-new/</guid>
+      <description>vSphere 6.7u1 Announced at VMworld 2018 US Another VMworld, another vSphere announcement. vSphere 6.7u1 comes with a bunch of new features and capabilities, some of which are listed below:
+Feature Complete HTML5 Client Finally the HTML5 client is feature complete! It&amp;rsquo;s been a long wait, but in v6.7u1 it&amp;rsquo;s here! With improved search, support for Auto Deploy, Host Profiles and vCenter High Availability (VCHA) this is your new home as a vSphere admin.</description>
+    </item>
     
     <item>
       <title>Alerting on &#34;Bootbank cannot be found at path ‘/bootbank’&#34; in vRealize Operations</title>

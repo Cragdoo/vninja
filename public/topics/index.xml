@@ -7,17 +7,161 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>(c) 2018 Christian Mohn</copyright>
-    <lastBuildDate>Thu, 16 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 May 2018 13:12:07 +0000</lastBuildDate>
     
 	<atom:link href="https://vninja.net/topics/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Awesome Talk</title>
+      <link>https://vninja.net/topics/awesome-talk/</link>
+      <pubDate>Wed, 09 May 2018 13:12:07 +0000</pubDate>
+      
+      <guid>https://vninja.net/topics/awesome-talk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Books</title>
       <link>https://vninja.net/topics/books/</link>
-      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 04 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>https://vninja.net/topics/books/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Esxi</title>
+      <link>https://vninja.net/topics/esxi/</link>
+      <pubDate>Sat, 25 Feb 2017 08:50:26 +0000</pubDate>
+      
+      <guid>https://vninja.net/topics/esxi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Macos</title>
+      <link>https://vninja.net/topics/macos/</link>
+      <pubDate>Thu, 26 Oct 2017 13:32:01 +0000</pubDate>
+      
+      <guid>https://vninja.net/topics/macos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Photography</title>
+      <link>https://vninja.net/topics/photography/</link>
+      <pubDate>Sun, 02 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vninja.net/topics/photography/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software</title>
+      <link>https://vninja.net/topics/software/</link>
+      <pubDate>Tue, 24 Oct 2017 10:38:13 +0000</pubDate>
+      
+      <guid>https://vninja.net/topics/software/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software Recommendation</title>
+      <link>https://vninja.net/topics/software-recommendation/</link>
+      <pubDate>Thu, 24 Nov 2016 09:45:10 +0000</pubDate>
+      
+      <guid>https://vninja.net/topics/software-recommendation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Storage</title>
+      <link>https://vninja.net/topics/storage/</link>
+      <pubDate>Sun, 26 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vninja.net/topics/storage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Todoist</title>
+      <link>https://vninja.net/topics/todoist/</link>
+      <pubDate>Tue, 24 Oct 2017 10:38:13 +0000</pubDate>
+      
+      <guid>https://vninja.net/topics/todoist/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vcenter</title>
+      <link>https://vninja.net/topics/vcenter/</link>
+      <pubDate>Thu, 10 Nov 2016 09:57:29 +0000</pubDate>
+      
+      <guid>https://vninja.net/topics/vcenter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vcsa</title>
+      <link>https://vninja.net/topics/vcsa/</link>
+      <pubDate>Thu, 10 Nov 2016 09:57:29 +0000</pubDate>
+      
+      <guid>https://vninja.net/topics/vcsa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Virtualization</title>
+      <link>https://vninja.net/topics/virtualization/</link>
+      <pubDate>Sun, 26 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vninja.net/topics/virtualization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vmware</title>
+      <link>https://vninja.net/topics/vmware/</link>
+      <pubDate>Fri, 18 Nov 2016 11:23:58 +0000</pubDate>
+      
+      <guid>https://vninja.net/topics/vmware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vmware Cloud on Aws</title>
+      <link>https://vninja.net/topics/vmware-cloud-on-aws/</link>
+      <pubDate>Sun, 26 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vninja.net/topics/vmware-cloud-on-aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vmworld</title>
+      <link>https://vninja.net/topics/vmworld/</link>
+      <pubDate>Sun, 02 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vninja.net/topics/vmworld/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vsan</title>
+      <link>https://vninja.net/topics/vsan/</link>
+      <pubDate>Sun, 26 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vninja.net/topics/vsan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vsphere</title>
+      <link>https://vninja.net/topics/vsphere/</link>
+      <pubDate>Sun, 26 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vninja.net/topics/vsphere/</guid>
       <description></description>
     </item>
     

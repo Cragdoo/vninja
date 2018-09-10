@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>VMware vSAN 6.7u1 — What&#39;s New?  &middot; vNinja.net</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<meta name="description" content="VMworld 2018 US is upon is, and as per usual this means a lot of new announcements. One of them is vSAN 6.7u1 which comes with a bunch of new and useful features. This release mainly focuses on improved operations and maintenance, with a bunch of nice new additions." />
+
+<meta name="keywords" content="vSAN, VMware, VMworld 2018, ">
+
+<link rel="author" href="http://plus.google.com/+ChristianMohn">
+
+
+<meta property="og:title" content="VMware vSAN 6.7u1 — What&#39;s New?  &middot; vNinja.net ">
+<meta property="og:site_name" content="vNinja.net"/>
+<meta property="og:url" content="https://vninja.net/2018/08/26/vsan67u1-whats-new/" />
+<meta property="og:locale" content="en">
+
+
+<meta property="og:type" content="article" />
+<meta property="og:description" content="VMworld 2018 US is upon is, and as per usual this means a lot of new announcements. One of them is vSAN 6.7u1 which comes with a bunch of new and useful features. This release mainly focuses on improved operations and maintenance, with a bunch of nice new additions."/>
+<meta property="og:article:published_time" content="2018-08-26T00:00:00Z" />
+<meta property="og:article:modified_time" content="2018-08-26T00:00:00Z" />
+
+  
+    
+<meta property="og:article:tag" content="vSAN">
+    
+<meta property="og:article:tag" content="VMware">
+    
+<meta property="og:article:tag" content="VMworld 2018">
+    
+  
+
+  
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="https://vNinja.net" />
+<meta name="twitter:creator" content="@h0bbel" />
+<meta name="twitter:title" content="VMware vSAN 6.7u1 — What&#39;s New?" />
+<meta name="twitter:description" content="VMworld 2018 US is upon is, and as per usual this means a lot of new announcements. One of them is vSAN 6.7u1 which comes with a bunch of new and useful features. This release mainly focuses on improved operations and maintenance, with a bunch of nice new additions." />
+<meta name="twitter:url" content="https://vninja.net/2018/08/26/vsan67u1-whats-new/" />
+<meta name="twitter:domain" content="https://vninja.net">
+<meta name="twitter:image" content="">
+  
+
+  
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "headline": "VMware vSAN 6.7u1 — What&#39;s New?",
+    "author": {
+      "@type": "Person",
+      "name": "http://profiles.google.com/+ChristianMohn?rel=author"
+    },
+    "datePublished": "2018-08-26",
+    "description": "VMworld 2018 US is upon is, and as per usual this means a lot of new announcements. One of them is vSAN 6.7u1 which comes with a bunch of new and useful features. This release mainly focuses on improved operations and maintenance, with a bunch of nice new additions.",
+    "wordCount": 413
+  }
+</script>
+  
+
+
+
+<link rel="canonical" href="https://vninja.net/2018/08/26/vsan67u1-whats-new/" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://vninja.net/touch-icon-144-precomposed.png">
+<link rel="icon" href="https://vninja.net/favicon.png">
+<meta name="generator" content="Hugo 0.47.1" />
+
+  <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+
+
+    <link rel="stylesheet" href="https://vninja.net/css/bootswatch/yeti/bootstrap.min.css">
+
+
+<link rel="stylesheet" href="https://vninja.net/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://vninja.net/css/style.css">
+
+
+<link rel="stylesheet" href="https://vninja.net/css/style_custom.css">
+
+
+
+  <link rel="stylesheet" href="https://vninja.net/css/highlight/default.css">
+
+
+
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+  <script>
+  window.addEventListener("load", function(){
+  window.cookieconsent.initialise({
+    "palette": {
+      "popup": {
+        "background": "#efefef",
+        "text": "#404040"
+      },
+      "button": {
+        "background": "#8ec760",
+        "text": "#ffffff"
+      }
+    },
+    "showLink": false,
+    "position": "bottom-right"
+  })});
+  </script>
+
+</head>
+<body data-ng-app="myapp" data-ng-controller="MyController" data-ng-mouseleave="MouseLeave($event)">
+      <header id="main-header">
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        
+        <a class="navbar-brand" href="https://vninja.net/">
+          vNinja.net
+          
+          
+          </a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            
+            
+            <li class="">
+              
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class='fa fa-bars'></i> About <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    
+                      <li class="">
+                        <a href="https://vninja.net/about/christian-mohn/"><i class='fa fa-child'></i> About Christian</a>
+                      </li>
+                    
+                  </ul>
+              
+            </li>
+            
+            <li class="">
+              
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class='fa fa-asterisk'></i> Site Policy <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    
+                      <li class="">
+                        <a href="https://vninja.net/about/privacy-policy"><i class='fa fa-asterisk'></i> Privacy Policy</a>
+                      </li>
+                    
+                  </ul>
+              
+            </li>
+            
+            <li class="">
+              
+                <a href="https://vninja.net/advertising" >
+                  <i class='fa fa-bank'></i>
+                  Advertising
+                </a>
+              
+            </li>
+            
+            <li class="">
+              
+                <a href="https://vninja.net/post/index.xml" >
+                  <i class='fa fa-rss'></i>
+                  RSS
+                </a>
+              
+            </li>
+            
+            
+              
+          </ul>
+        </div>
+        
+      </div>
+    </nav>
+  </header>
+
+
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-9">
+
+
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+  <div class="title-metas text-center">
+
+    <h1>VMware vSAN 6.7u1 — What&#39;s New?
+</h1>
+
+    <div class="metas">
+  <i class="fa fa-calendar"></i>
+  <time datetime="2018-08-26">26 Aug, 2018</time>
+
+
+  
+     by Christian Mohn
+  
+  &middot; Read in about 2 min
+   (413 words)
+  <br/> 
+<span class="share-box">Share this
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fvninja.net%2f2018%2f08%2f26%2fvsan67u1-whats-new%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-facebook-official"></i></a>
+
+    <a href="https://twitter.com/intent/tweet?text=VMware%20vSAN%206.7u1%20%e2%80%94%20What%27s%20New%3f&amp;url=https%3a%2f%2fvninja.net%2f2018%2f08%2f26%2fvsan67u1-whats-new%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-twitter"></i></a>
+
+    <a href="https://plus.google.com/share?url=https%3a%2f%2fvninja.net%2f2018%2f08%2f26%2fvsan67u1-whats-new%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-google-plus"></i></a>
+
+    <a href="http://www.reddit.com/submit?url=https%3a%2f%2fvninja.net%2f2018%2f08%2f26%2fvsan67u1-whats-new%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-reddit"></i></a>
+
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fvninja.net%2f2018%2f08%2f26%2fvsan67u1-whats-new%2f&amp;title=VMware%20vSAN%206.7u1%20%e2%80%94%20What%27s%20New%3f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-linkedin"></i></a>
+
+    <a href="mailto:?subject=VMware%20vSAN%206.7u1%20%e2%80%94%20What%27s%20New%3f&amp;body=https%3a%2f%2fvninja.net%2f2018%2f08%2f26%2fvsan67u1-whats-new%2f" data-proofer-ignore=""><i class="fa fa-envelope"></i></a>
+  </span>
+
+
+
+<div class="margin-10">
+  <i class="fa fa-tags"></i>
+  
+  <a href="https://vninja.net/tags/vsan" class="label label-primary">vSAN</a>
+  
+  <a href="https://vninja.net/tags/vmware" class="label label-primary">VMware</a>
+  
+  <a href="https://vninja.net/tags/vmworld-2018" class="label label-primary">VMworld 2018</a>
+  
+
+
+</div>
+
+<br>
+</div>
+
+  </div>
+</div>
+
+
+      <div class="content">
+
+  
+
+  
+
+<p><a href="https://www.vmworld.com/en/us/about.html">VMworld 2018 US</a> is upon us, and as per usual this means a lot of new announcements.
+One of them is vSAN 6.7u1 which comes with a bunch of new and useful features. This release mainly focuses on improved operations and maintenance, with a bunch of nice new additions.</p>
+
+<p>I&rsquo;ve focused on a couple of them here, but this is not a defintive list!</p>
+
+<h3 id="simplified-upgrade-experience-through-vmware-update-manager-vum">Simplified Upgrade Experience Through VMware Update Manager (VUM)</h3>
+
+<p>Firmware and drivers for vSAN has now been moved into VMware Update Manager (VUM) for centralized management, this means that the vSAN IO Controller Firmware Tool now integrated into VUM.</p>
+
+<h4 id="features">Features</h4>
+
+<ul>
+<li>​Retrieves and updates firmware for the vSAN Cluster</li>
+<li>Supports custom ISOs for OEM specific builds</li>
+<li>Supports Dell HBA330 updates</li>
+<li>Supports vCenter without internet connectivity</li>
+<li>Per-host updating with additional safeguards</li>
+<li>Included in system-managed baselines</li>
+</ul>
+
+<p><img src="https://vninja.net/img/vsan67u1/vsan67u1-updatemanager2.png" alt="vSAN 6.7u1 — vSAN Update Manager 2" /></p>
+
+<h3 id="cluster-quickstart">Cluster Quickstart</h3>
+
+<p>The vSphere Cluster Quickstart is a new cluster, host and network configuration workflow. It enables easy addition of new or existing hosts, in bulk, with built-in pre-checks and recommendations.</p>
+
+<p>It complements the <a href="https://storagehub.vmware.com/t/vmware-vsan/easy-install/">vSAN Easy Install</a> wizard, for end-to-end greenfield deployments.</p>
+
+<p><img src="https://vninja.net/img/vsan67u1/vsan67u1-quickstart.png" alt="vSAN 6.7u1 — Cluster Quickstart" /></p>
+
+<h3 id="improved-space-efficiency-using-storage-reclamation">Improved Space Efficiency Using Storage Reclamation</h3>
+
+<p>Yes! Finally we get space reclamation from guests on vSAN as well.</p>
+
+<h4 id="trim-unmap-integration-features">TRIM/UNMAP integration Features</h4>
+
+<ul>
+<li>Reclaimed guest OS capacity</li>
+<li>Reclaims storage for vSAN</li>
+<li>Reduces use of destager</li>
+<li>Supports guest OS initiated TRIM/UNMAP commands
+
+<ul>
+<li>Windows Server 2012 or Windows 8 and newer</li>
+<li>Linux supporting ext4, xfs, btrfs, etc.</li>
+</ul></li>
+<li>Automated using guest OS online mode</li>
+<li>Scheduled mode supported</li>
+</ul>
+
+<p><img src="https://vninja.net/img/vsan67u1/vsan67u1-trimunmap.png" alt="vSAN 6.7u1 — TRIM/UNMAP" /></p>
+
+<h3 id="improved-resource-decommissioning-safeguards">Improved Resource Decommissioning Safeguards</h3>
+
+<p>Enter Maintenance Mode’ (EMM) operational improvements which includes a ​EMM “fail fast” pre-check simulation which determines success/failure with no data movement</p>
+
+<ul>
+<li>​New warnings for:
+
+<ul>
+<li>Hosts already in maintenance mode</li>
+<li>Ongoing resyncs</li>
+<li>Multipledecommission actions</li>
+<li>Object repair timer adjustment available in UI</li>
+</ul></li>
+</ul>
+
+<h3 id="other-items">Other items</h3>
+
+<ul>
+<li><p>Improved vSAN Cluster Capacity insight, with historical capacity, deduplication and compression reports
+A new usable capacity estimator, whoch takes the selected storage policy into account and easy estimation of “what if” when using space efficient RAID-5/6</p></li>
+
+<li><p>Enhancements to vRealize Operations within vCenter, where dashboards are now capable of displaying vSAN stretched cluster intelligence with full Interoperability with vRealize Operations v7.0</p></li>
+
+<li><p>New PowerCLI 10.2 cmdlets that replace 18 Ruby vSphere Console (RVC) commands. Greater visibility into Cluster configuration info, Resyncing status, Healthchecks object info and status as well as  vSAN disk stats</p></li>
+</ul>
+
+<p>There are other improvements as well, but I&rsquo;ll leave those to a later post — Preferrably once I get my hands on the actual vSAN 6.7u1 bits!</p>
+
+<p><strong>Happy VMworld everyone, and <a href="https://www.vmware.com/timeline.html">happy 20 Year Anniversary VMware</a></strong></p>
+
+</div>
+
+
+      <footer>
+  
+<span class="share-box">Share this
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fvninja.net%2f2018%2f08%2f26%2fvsan67u1-whats-new%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-facebook-official"></i></a>
+
+    <a href="https://twitter.com/intent/tweet?text=VMware%20vSAN%206.7u1%20%e2%80%94%20What%27s%20New%3f&amp;url=https%3a%2f%2fvninja.net%2f2018%2f08%2f26%2fvsan67u1-whats-new%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-twitter"></i></a>
+
+    <a href="https://plus.google.com/share?url=https%3a%2f%2fvninja.net%2f2018%2f08%2f26%2fvsan67u1-whats-new%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-google-plus"></i></a>
+
+    <a href="http://www.reddit.com/submit?url=https%3a%2f%2fvninja.net%2f2018%2f08%2f26%2fvsan67u1-whats-new%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-reddit"></i></a>
+
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fvninja.net%2f2018%2f08%2f26%2fvsan67u1-whats-new%2f&amp;title=VMware%20vSAN%206.7u1%20%e2%80%94%20What%27s%20New%3f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-linkedin"></i></a>
+
+    <a href="mailto:?subject=VMware%20vSAN%206.7u1%20%e2%80%94%20What%27s%20New%3f&amp;body=https%3a%2f%2fvninja.net%2f2018%2f08%2f26%2fvsan67u1-whats-new%2f" data-proofer-ignore=""><i class="fa fa-envelope"></i></a>
+  </span>
+
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+      
+  
+    <nav><ul class="pager">
+    
+        <li class="previous">
+          <a href="https://vninja.net/2018/08/26/vphere67u1-whats-new/" title="VMware vSphere 6.7u1 — What&#39;s New?">
+            <span aria-hidden="true">&larr;</span>Previous
+          </a>
+        </li>
+    
+
+    
+      <li class="next">
+        <a href="https://vninja.net/2018/08/26/vmware-cloud-on-aws-news/" title="VMware Cloud on AWS — New Amazon EC2 elastic, bare-metal instance for vSAN">
+            Next <span aria-hidden="true">&rarr;</span>
+        </a>
+      </li>
+    
+    </ul> </nav>
+  
+
+
+</div>
+
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+  
+
+</div>
+
+</footer>
+
+    </div>
+    
+      <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+        <div>
+  
+
+    <div class="section">
+      <h2>Sponsors</h2>
+      <div class="ads" id="veeam">
+        <ins class='dcmads' style='display:inline-block;width:250px;height:250px' data-dcm-placement='N410401.1772869VNINJA.NET/B10464038.145283149' data-dcm-rendering-mode='iframe' data-dcm-https-only data-dcm-resettable-device-id='' data-dcm-app-id=''> <script src='https://www.googletagservices.com/dcm/dcmads.js'></script> </ins>
+      </div>
+      <div class="ads" id="turbonomic">
+        <a href="http://turbonomic.com/resources/hybrid-cloud-intelligent-bursting-aws-microsoft-azure/?utm_source=vninja&amp;utm_medium=banner-ad&amp;utm_campaign=wp-path-to-hybrid-cloud&amp;">
+          <img width="250" height="250" src="https://vninja.net/ads/wp-intelligent-bursting-aws-azure-250x250.png"></a>
+      </div>
+      <div class="ads" id="goliath">
+        <a href="http://goliathtechnologies.com/performance-monitoring/application-desktop-virtualization/vmware-horizon-view-monitoring/?utm_source=VNINJA&#038;utm_medium=PARTNER-MKTG&#038;utm_campaign=PARTNER-MKTG-VNINJA"><img width="250" height="250" src='https://vninja.net/ads/VMwareHorizon.jpg' alt='' title='VMwareHorizon' /></a>
+      </div>
+      <div class="ads" id="vembu">
+        <a href="https://www.vembu.com/free-vm-backup/?utm_source=vninja.net&#038;utm_medium=Banner"><img width="250" height="250" src='https://vninja.net/ads/vembu250-250.gif'/></a>
+      </div>
+
+
+    </div>
+
+    <hr>
+    
+      
+      
+      <div class="section">
+
+
+      </div>
+      
+    
+      
+      
+      <div class="section">
+
+
+      </div>
+      
+    
+
+</div>
+
+      </div>
+    
+  </div>
+</div>
+    
+<footer class="footer hidden-print">
+  <div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+           <div class="pull-left">
+  <a class="toplink" href="javascript:" id="return-to-top">back to top</a>
+</div>
+<div class="pull-right">
+
+<a href="https://vninja.net/disclaimer/">Disclaimer</a> 
+
+</div>
+
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+              
+    
+<div class="container footline">
+    <small>
+  Built with Hugo and lots of <i class='fa fa-coffee'></i>
+
+</small>
+</div>
+
+
+    
+<div class="container copyright">
+    <small>
+  &copy; 2018 Christian Mohn
+
+  </small>
+</div>
+
+
+
+
+        </div>
+    </div>
+  </div>
+</footer>
+
+    
+
+<script src="https://vninja.net/js/jquery.min.js"></script>
+<script src="https://vninja.net/js/bootstrap.min.js"></script>
+
+
+<script src="https://vninja.net/js/highlight.pack.js"></script>
+<script src="https://vninja.net/js/site.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+<script>
+  var _gaq=[['_setAccount','UA-121910549-1'],['_trackPageview']];
+  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+  g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+  s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+
+<script>
+var ENABLE_POPOVER = "", 
+EXPIRE_COOKIE = "", 
+SHOW_MODAL_TIMEOUT = "", 
+MOUSE_LEAVE = "", 
+MODAL_SIZE = "", 
+POST_URL = "", 
+SIGNUP_HEADER = "",
+HEADER_IMAGE = "",
+IMG_DESCRIPTION = "",
+SIGNUP_TEXT = "",
+INPUT_PLACEHOLDER = "",
+SUBMIT_BUTTON = "",
+SUCCESS_MESSAGE = "",
+ERROR_MESSAGE = "",
+OPTIN = "",
+COOKIE_NAME = "",
+CONTENTLANGUAGE = ""; 
+</script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
+

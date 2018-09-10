@@ -16,12 +16,12 @@
 
 <meta name="keywords" content="">
 
-<link rel="author" href="http://plus.google.com/+Myprofile">
+<link rel="author" href="http://plus.google.com/+ChristianMohn">
 
 
 <meta property="og:title" content="Posts  &middot; vNinja.net ">
 <meta property="og:site_name" content="vNinja.net"/>
-<meta property="og:url" content="/post/" />
+<meta property="og:url" content="https://vninja.net/post/" />
 <meta property="og:locale" content="en">
 
 
@@ -29,12 +29,12 @@
 
 
 
-<link href="/post/index.xml" rel="alternate" type="application/rss+xml" title="Posts" />
+<link href="https://vninja.net/post/index.xml" rel="alternate" type="application/rss+xml" title="Posts" />
 
-<link rel="canonical" href="/post/" />
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/touch-icon-144-precomposed.png">
-<link rel="icon" href="/favicon.png">
-<meta name="generator" content="Hugo 0.40.3" />
+<link rel="canonical" href="https://vninja.net/post/" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://vninja.net/touch-icon-144-precomposed.png">
+<link rel="icon" href="https://vninja.net/favicon.png">
+<meta name="generator" content="Hugo 0.47.1" />
 
   <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
@@ -43,23 +43,44 @@
 
 
 
-    <link rel="stylesheet" href="/css/bootswatch/lux/bootstrap.min.css">
+    <link rel="stylesheet" href="https://vninja.net/css/bootswatch/yeti/bootstrap.min.css">
 
 
-<link rel="stylesheet" href="/css/font-awesome.min.css">
-<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="https://vninja.net/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://vninja.net/css/style.css">
 
 
-<link rel="stylesheet" href="/css/style_custom.css">
+<link rel="stylesheet" href="https://vninja.net/css/style_custom.css">
 
 
 
-  <link rel="stylesheet" href="/css/highlight/default.css">
+  <link rel="stylesheet" href="https://vninja.net/css/highlight/default.css">
 
+
+
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+  <script>
+  window.addEventListener("load", function(){
+  window.cookieconsent.initialise({
+    "palette": {
+      "popup": {
+        "background": "#efefef",
+        "text": "#404040"
+      },
+      "button": {
+        "background": "#8ec760",
+        "text": "#ffffff"
+      }
+    },
+    "showLink": false,
+    "position": "bottom-right"
+  })});
+  </script>
 
 </head>
 <body data-ng-app="myapp" data-ng-controller="MyController" data-ng-mouseleave="MouseLeave($event)">
-    <header id="main-header">
+      <header id="main-header">
   <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
@@ -70,7 +91,7 @@
           <span class="icon-bar"></span>
         </button>
         
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand" href="https://vninja.net/">
           vNinja.net
           
           
@@ -86,11 +107,7 @@
                   <ul class="dropdown-menu">
                     
                       <li class="">
-                        <a href="/about/christian-mohn/"><i class='fa fa-child'></i> About vNinja</a>
-                      </li>
-                    
-                      <li class="">
-                        <a href="/about/christian-mohn/"><i class='fa fa-child'></i> About Christian</a>
+                        <a href="https://vninja.net/about/christian-mohn/"><i class='fa fa-child'></i> About Christian</a>
                       </li>
                     
                   </ul>
@@ -99,11 +116,11 @@
             
             <li class="">
               
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class='fa fa-hand-lizard-o'></i> Site Policy <span class="caret"></span></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class='fa fa-asterisk'></i> Site Policy <span class="caret"></span></a>
                   <ul class="dropdown-menu">
                     
                       <li class="">
-                        <a href="/about/privacy-policy"><i class='fa fa-hand-lizard-o'></i> Privacy Policy</a>
+                        <a href="https://vninja.net/about/privacy-policy"><i class='fa fa-asterisk'></i> Privacy Policy</a>
                       </li>
                     
                   </ul>
@@ -112,9 +129,18 @@
             
             <li class="">
               
-                <a href="/advertising" >
+                <a href="https://vninja.net/advertising" >
                   <i class='fa fa-bank'></i>
                   Advertising
+                </a>
+              
+            </li>
+            
+            <li class="">
+              
+                <a href="https://vninja.net/post/index.xml" >
+                  <i class='fa fa-rss'></i>
+                  RSS
                 </a>
               
             </li>
@@ -137,25 +163,27 @@
   </header>
   
     <div>
-  <h2><a href="/virtualization/dude-vaio/">Dude, where is my VAIO?</a>
+  <h2><a href="https://vninja.net/virtualization/where-in-the-world-is-vmware-server/">Where in the world is VMware Server?</a>
 </h2>
 
   <div class="margin-10">
-    <small>
-  <i class="fa fa-calendar"></i>
-  <time datetime="2015-02-03">3 Feb, 2015</time>
-</small>
+      <i class="fa fa-calendar"></i>
+  <time datetime="2010-08-13">13 Aug, 2010</time>
 
     
   <i class="fa fa-tags"></i>
   
-  <a href="/tags/gorilla" class="label label-primary">Gorilla</a>
+  <a href="https://vninja.net/tags/vcenter" class="label label-primary">vCenter</a>
   
-  <a href="/tags/sandisk" class="label label-primary">SanDisk</a>
+  <a href="https://vninja.net/tags/virtualization" class="label label-primary">Virtualization</a>
   
-  <a href="/tags/vaio" class="label label-primary">VAIO</a>
+  <a href="https://vninja.net/tags/vmware" class="label label-primary">VMware</a>
   
-  <a href="/tags/vsphere-6" class="label label-primary">vSphere 6</a>
+  <a href="https://vninja.net/tags/vmware-player" class="label label-primary">VMware Player</a>
+  
+  <a href="https://vninja.net/tags/vmware-server" class="label label-primary">VMware Server</a>
+  
+  <a href="https://vninja.net/tags/vmware-workstation" class="label label-primary">VMware Workstation</a>
   
 
 
@@ -165,25 +193,29 @@
 
   
     <div>
-  <h2><a href="/virtualization/great-disturbance-force/">A great disturbance in the Force</a>
+  <h2><a href="https://vninja.net/virtualization/using-usb-pass-through-in-vsphere-4-1/">Using USB Pass-through in vSphere 4.1</a>
 </h2>
 
   <div class="margin-10">
-    <small>
-  <i class="fa fa-calendar"></i>
-  <time datetime="2015-02-02">2 Feb, 2015</time>
-</small>
+      <i class="fa fa-calendar"></i>
+  <time datetime="2010-07-22">22 Jul, 2010</time>
 
     
   <i class="fa fa-tags"></i>
   
-  <a href="/tags/agile" class="label label-primary">Agile</a>
+  <a href="https://vninja.net/tags/esx" class="label label-primary">ESX</a>
   
-  <a href="/tags/speculation" class="label label-primary">Speculation</a>
+  <a href="https://vninja.net/tags/ops" class="label label-primary">Ops</a>
   
-  <a href="/tags/vmware" class="label label-primary">VMware</a>
+  <a href="https://vninja.net/tags/usb" class="label label-primary">USB</a>
   
-  <a href="/tags/waterfall" class="label label-primary">Waterfall</a>
+  <a href="https://vninja.net/tags/vcenter" class="label label-primary">vCenter</a>
+  
+  <a href="https://vninja.net/tags/veeam" class="label label-primary">Veeam</a>
+  
+  <a href="https://vninja.net/tags/vmware" class="label label-primary">VMware</a>
+  
+  <a href="https://vninja.net/tags/vsphere" class="label label-primary">vSphere</a>
   
 
 
@@ -193,27 +225,25 @@
 
   
     <div>
-  <h2><a href="/misc/presentation-media/">Presentation Media</a>
+  <h2><a href="https://vninja.net/virtualization/scheduling-vcenter-backups/">Scheduling vCenter Backups</a>
 </h2>
 
   <div class="margin-10">
-    <small>
-  <i class="fa fa-calendar"></i>
-  <time datetime="2015-01-24">24 Jan, 2015</time>
-</small>
+      <i class="fa fa-calendar"></i>
+  <time datetime="2010-07-22">22 Jul, 2010</time>
 
     
   <i class="fa fa-tags"></i>
   
-  <a href="/tags/cc" class="label label-primary">CC</a>
+  <a href="https://vninja.net/tags/backup" class="label label-primary">Backup</a>
   
-  <a href="/tags/images" class="label label-primary">Images</a>
+  <a href="https://vninja.net/tags/ops" class="label label-primary">Ops</a>
   
-  <a href="/tags/photos" class="label label-primary">Photos</a>
+  <a href="https://vninja.net/tags/sql-server-express" class="label label-primary">SQL Server Express</a>
   
-  <a href="/tags/presentation" class="label label-primary">Presentation</a>
+  <a href="https://vninja.net/tags/vcenter" class="label label-primary">vCenter</a>
   
-  <a href="/tags/sharing" class="label label-primary">Sharing</a>
+  <a href="https://vninja.net/tags/vmware" class="label label-primary">VMware</a>
   
 
 
@@ -223,23 +253,25 @@
 
   
     <div>
-  <h2><a href="/virtualization/veeam-backup-replication-8-rpc-erroraccess-denied-fix/">Veeam Backup &amp; Replication 8: RPC error:Access is denied Fix</a>
+  <h2><a href="https://vninja.net/virtualization/migrating-your-vcenter-from-32bit-to-64bit/">Migrating your vCenter from 32bit to 64bit</a>
 </h2>
 
   <div class="margin-10">
-    <small>
-  <i class="fa fa-calendar"></i>
-  <time datetime="2015-01-18">18 Jan, 2015</time>
-</small>
+      <i class="fa fa-calendar"></i>
+  <time datetime="2010-07-21">21 Jul, 2010</time>
 
     
   <i class="fa fa-tags"></i>
   
-  <a href="/tags/backup" class="label label-primary">Backup</a>
+  <a href="https://vninja.net/tags/maintenance" class="label label-primary">Maintenance</a>
   
-  <a href="/tags/troubleshooting" class="label label-primary">Troubleshooting</a>
+  <a href="https://vninja.net/tags/ops" class="label label-primary">Ops</a>
   
-  <a href="/tags/veeam" class="label label-primary">Veeam</a>
+  <a href="https://vninja.net/tags/upgrade" class="label label-primary">Upgrade</a>
+  
+  <a href="https://vninja.net/tags/vcenter" class="label label-primary">vCenter</a>
+  
+  <a href="https://vninja.net/tags/vmware" class="label label-primary">VMware</a>
   
 
 
@@ -249,183 +281,14 @@
 
   
     <div>
-  <h2><a href="/misc/2015-dos-it/">2015: Let&#39;s DOS IT!</a>
+  <h2><a href="https://vninja.net/news/welcome-to-vmaware/">Welcome to vNinja!</a>
 </h2>
 
   <div class="margin-10">
-    <small>
-  <i class="fa fa-calendar"></i>
-  <time datetime="2015-01-16">16 Jan, 2015</time>
-</small>
+      <i class="fa fa-calendar"></i>
+  <time datetime="2010-07-21">21 Jul, 2010</time>
 
     
-  <i class="fa fa-tags"></i>
-  
-  <a href="/tags/2015" class="label label-primary">2015</a>
-  
-  <a href="/tags/personal" class="label label-primary">Personal</a>
-  
-  <a href="/tags/prediction" class="label label-primary">Prediction</a>
-  
-
-
-  </div>
-</div>
-
-
-  
-    <div>
-  <h2><a href="/virtualization/markdown-things/">Markdown All the Things!</a>
-</h2>
-
-  <div class="margin-10">
-    <small>
-  <i class="fa fa-calendar"></i>
-  <time datetime="2015-01-12">12 Jan, 2015</time>
-</small>
-
-    
-  <i class="fa fa-tags"></i>
-  
-  <a href="/tags/automator" class="label label-primary">Automator</a>
-  
-  <a href="/tags/content-creation" class="label label-primary">Content Creation</a>
-  
-  <a href="/tags/github" class="label label-primary">GitHub</a>
-  
-  <a href="/tags/markdown" class="label label-primary">Markdown</a>
-  
-  <a href="/tags/os-x" class="label label-primary">OS X</a>
-  
-  <a href="/tags/pandoc" class="label label-primary">pandoc</a>
-  
-  <a href="/tags/workflow" class="label label-primary">Workflow</a>
-  
-
-
-  </div>
-</div>
-
-
-  
-    <div>
-  <h2><a href="/vmware-2/importing-vcloud-air-ssl-certificate-vcenter-server-appliance-5-x/">Importing vCloud Air SSL Certificate on the vCenter Server Appliance 5.x</a>
-</h2>
-
-  <div class="margin-10">
-    <small>
-  <i class="fa fa-calendar"></i>
-  <time datetime="2014-12-12">12 Dec, 2014</time>
-</small>
-
-    
-  <i class="fa fa-tags"></i>
-  
-  <a href="/tags/certificate" class="label label-primary">Certificate</a>
-  
-  <a href="/tags/ssl" class="label label-primary">SSL</a>
-  
-  <a href="/tags/vcenter" class="label label-primary">vCenter</a>
-  
-  <a href="/tags/vcenter-web-client" class="label label-primary">vCenter Web Client</a>
-  
-  <a href="/tags/vcloud-air" class="label label-primary">vCloud Air</a>
-  
-  <a href="/tags/vcsa" class="label label-primary">VCSA</a>
-  
-
-
-  </div>
-</div>
-
-
-  
-    <div>
-  <h2><a href="/workflow/combining-todoist-evernote-awesome/">Combining Todoist and Evernote, because awesome</a>
-</h2>
-
-  <div class="margin-10">
-    <small>
-  <i class="fa fa-calendar"></i>
-  <time datetime="2014-12-03">3 Dec, 2014</time>
-</small>
-
-    
-  <i class="fa fa-tags"></i>
-  
-  <a href="/tags/automation" class="label label-primary">automation</a>
-  
-  <a href="/tags/evernote" class="label label-primary">Evernote</a>
-  
-  <a href="/tags/ifttt" class="label label-primary">IFTTT</a>
-  
-  <a href="/tags/organization" class="label label-primary">Organization</a>
-  
-  <a href="/tags/productivity" class="label label-primary">Productivity</a>
-  
-  <a href="/tags/todoist" class="label label-primary">Todoist</a>
-  
-
-
-  </div>
-</div>
-
-
-  
-    <div>
-  <h2><a href="/virtualization/hyperconvergence-meth-math/">EVO:RAIL: Doing the methmath.</a>
-</h2>
-
-  <div class="margin-10">
-    <small>
-  <i class="fa fa-calendar"></i>
-  <time datetime="2014-12-01">1 Dec, 2014</time>
-</small>
-
-    
-  <i class="fa fa-tags"></i>
-  
-  <a href="/tags/evorail" class="label label-primary">EVO:RAIL</a>
-  
-  <a href="/tags/hyperconverged" class="label label-primary">Hyperconverged</a>
-  
-  <a href="/tags/licensing" class="label label-primary">Licensing</a>
-  
-  <a href="/tags/vmware" class="label label-primary">VMware</a>
-  
-
-
-  </div>
-</div>
-
-
-  
-    <div>
-  <h2><a href="/virtualization/nordic-vmug-conference-2014/">Nordic VMUG Conference 2014</a>
-</h2>
-
-  <div class="margin-10">
-    <small>
-  <i class="fa fa-calendar"></i>
-  <time datetime="2014-10-22">22 Oct, 2014</time>
-</small>
-
-    
-  <i class="fa fa-tags"></i>
-  
-  <a href="/tags/awesome" class="label label-primary">Awesome</a>
-  
-  <a href="/tags/conference" class="label label-primary">conference</a>
-  
-  <a href="/tags/copenhagen" class="label label-primary">Copenhagen</a>
-  
-  <a href="/tags/denmark" class="label label-primary">Denmark</a>
-  
-  <a href="/tags/vmug" class="label label-primary">VMUG</a>
-  
-  <a href="/tags/vmware" class="label label-primary">VMware</a>
-  
-
 
   </div>
 </div>
@@ -439,205 +302,91 @@
 
 
 <li >
-  <a aria-label="First" href="//post/">
+  <a aria-label="First" href="https://vninja.net/post/">
     <span aria-hidden="true">&laquo;&laquo;</span>
   </a>
 </li>
 
 <li >
-  <a aria-label="Previous" href="//post/page/10/">
+  <a aria-label="Previous" href="https://vninja.net/post/page/10/">
     <span aria-hidden="true">&laquo;</span>
     </a>
 </li>
 
 <li >
-  <a href="//post/">
+  <a href="https://vninja.net/post/">
     1
     </a>
 </li>
 
 <li >
-  <a href="//post/page/2/">
+  <a href="https://vninja.net/post/page/2/">
     2
     </a>
 </li>
 
 <li >
-  <a href="//post/page/3/">
+  <a href="https://vninja.net/post/page/3/">
     3
     </a>
 </li>
 
 <li >
-  <a href="//post/page/4/">
+  <a href="https://vninja.net/post/page/4/">
     4
     </a>
 </li>
 
 <li >
-  <a href="//post/page/5/">
+  <a href="https://vninja.net/post/page/5/">
     5
     </a>
 </li>
 
 <li >
-  <a href="//post/page/6/">
+  <a href="https://vninja.net/post/page/6/">
     6
     </a>
 </li>
 
 <li >
-  <a href="//post/page/7/">
+  <a href="https://vninja.net/post/page/7/">
     7
     </a>
 </li>
 
 <li >
-  <a href="//post/page/8/">
+  <a href="https://vninja.net/post/page/8/">
     8
     </a>
 </li>
 
 <li >
-  <a href="//post/page/9/">
+  <a href="https://vninja.net/post/page/9/">
     9
     </a>
 </li>
 
 <li >
-  <a href="//post/page/10/">
+  <a href="https://vninja.net/post/page/10/">
     10
     </a>
 </li>
 
 <li  class="active" >
-  <a href="//post/page/11/">
+  <a href="https://vninja.net/post/page/11/">
     11
     </a>
 </li>
 
-<li >
-  <a href="//post/page/12/">
-    12
-    </a>
-</li>
 
-<li >
-  <a href="//post/page/13/">
-    13
-    </a>
-</li>
-
-<li >
-  <a href="//post/page/14/">
-    14
-    </a>
-</li>
-
-<li >
-  <a href="//post/page/15/">
-    15
-    </a>
-</li>
-
-<li >
-  <a href="//post/page/16/">
-    16
-    </a>
-</li>
-
-<li >
-  <a href="//post/page/17/">
-    17
-    </a>
-</li>
-
-<li >
-  <a href="//post/page/18/">
-    18
-    </a>
-</li>
-
-<li >
-  <a href="//post/page/19/">
-    19
-    </a>
-</li>
-
-<li >
-  <a href="//post/page/20/">
-    20
-    </a>
-</li>
-
-<li >
-  <a href="//post/page/21/">
-    21
-    </a>
-</li>
-
-<li >
-  <a href="//post/page/22/">
-    22
-    </a>
-</li>
-
-<li >
-  <a href="//post/page/23/">
-    23
-    </a>
-</li>
-
-<li >
-  <a href="//post/page/24/">
-    24
-    </a>
-</li>
-
-<li >
-  <a href="//post/page/25/">
-    25
-    </a>
-</li>
-
-<li >
-  <a href="//post/page/26/">
-    26
-    </a>
-</li>
-
-<li >
-  <a href="//post/page/27/">
-    27
-    </a>
-</li>
-
-<li >
-  <a href="//post/page/28/">
-    28
-    </a>
-</li>
-
-<li >
-  <a href="//post/page/29/">
-    29
-    </a>
-</li>
-
-<li >
-  <a href="//post/page/30/">
-    30
-    </a>
-</li>
-
-
-<li >
-  <a aria-label="Next" href="//post/page/12/">
+<li  class="disabled" >
+  <a aria-label="Next" href="#">
     <span aria-hidden="true">&raquo;</span>
     </a>
 </li>
-<li >
-  <a aria-label="Last" href="//post/page/30/">
+<li  class="disabled" >
+  <a aria-label="Last" href="https://vninja.net/post/page/11/">
     <span aria-hidden="true">&raquo;&raquo;</span>
   </a>
 </li>
@@ -658,9 +407,7 @@
 </div>
 <div class="pull-right">
 
-<a href="/disclaimer/">Disclaimer</a> <i>&middot;</i>
-
-<a href="/terms/">Terms</a> 
+<a href="https://vninja.net/disclaimer/">Disclaimer</a> 
 
 </div>
 
@@ -679,7 +426,7 @@
     
 <div class="container copyright">
     <small>
-  &copy; 2018 Copyright my blog
+  &copy; 2018 Christian Mohn
 
   </small>
 </div>
@@ -694,17 +441,17 @@
 
     
 
-<script src="/js/jquery.min.js"></script>
-<script src="/js/bootstrap.min.js"></script>
+<script src="https://vninja.net/js/jquery.min.js"></script>
+<script src="https://vninja.net/js/bootstrap.min.js"></script>
 
 
-<script src="/js/highlight.pack.js"></script>
-<script src="/js/site.js"></script>
+<script src="https://vninja.net/js/highlight.pack.js"></script>
+<script src="https://vninja.net/js/site.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
 
 <script>
-  var _gaq=[['_setAccount','Your Google Analytics tracking code'],['_trackPageview']];
+  var _gaq=[['_setAccount','UA-121910549-1'],['_trackPageview']];
   (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
   g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
   s.parentNode.insertBefore(g,s)}(document,'script'));
