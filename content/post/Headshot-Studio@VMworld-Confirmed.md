@@ -10,7 +10,7 @@ topics: ["Photography", "VMworld"]
 
 title: "Headshot Studio @VMworld Confirmed"
 
-description: "I'm very happy to announce that I can confirm that Headshot Studio @VMworld will happen! A huge thanks thanks to Tom Dodds and [10zig](https://www.10zig.com/), who has stepped up as a sponsor!"
+description: "I'm very happy to announce that I can confirm that Headshot Studio @VMworld will happen! A huge thanks thanks to Tom Dodds and [10ZiG](https://www.10zig.com/), who has stepped up as a sponsor!"
 
 card: "summary_large_image"
 site: "@vninjanet"
@@ -18,7 +18,7 @@ creator: "@h0bbel"
 image: "https://vninja.net/logos/10zig.png"
 ---
 
-I'm very happy to announce that I can now confirm that [Headshot Studio @VMworld](/2018/09/02/headshot-studiovmworld/) will happen! Mainly due to [Tom Dodds](https://twitter.com/@Tom10ZiGTech) and [10zig](https://www.10zig.com/), who has stepped up as a sponsor!  This means I'll be able to set up a small headshot studio, complete with multiple light sources, a background, lighting and softboxes! **Huge thanks to both Tom and 10zig!**
+I'm very happy to announce that I can now confirm that [Headshot Studio @VMworld](/2018/09/02/headshot-studiovmworld/) will happen! Mainly due to [Tom Dodds](https://twitter.com/@Tom10ZiGTech) and [10ZiG](https://www.10zig.com/), who has stepped up as a sponsor!  This means I'll be able to set up a small headshot studio, complete with multiple light sources, a background, lighting and softboxes! **Huge thanks to both Tom and 10zig!**
 
 [![10zig logo](/logos/10zig.png#center)](https://www.10zig.com/)
 
