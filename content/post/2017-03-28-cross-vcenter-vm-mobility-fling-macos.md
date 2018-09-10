@@ -15,7 +15,7 @@ tags:
 - macOS
 - VMware
 - xvMotion
-  topics: ["vCenter", "vShhere", "VMware"]
+topics: ["vCenter", "vShhere", "VMware"]
 
 ---
 
