@@ -146,6 +146,13 @@ copyright = "(c) 2018 Christian Mohn"
 title = "vNinja.net" # Site title
 
 [[Languages.en.menu.main]]
+name = "Topics"
+weight = 1
+identifier = "Topics"
+url = "/topics"
+pre = "<i class='fa fa-folder-open'></i>"
+
+[[Languages.en.menu.main]]
   name = "RSS"
   url = "/post/index.xml"
   weight = 0
@@ -154,10 +161,19 @@ title = "vNinja.net" # Site title
 
 [[Languages.en.menu.main]]
 name = "About"
-weight = 1
+weight = 2
 identifier = "about"
 url = "/about"
 pre = "<i class='fa fa-bars'></i>"
+
+#[[Languages.en.menu.main]]
+#name = "Search"
+#weight = 2
+#identifier = "search"
+#url = "/search"
+#pre = "<i class='fa fa-search'></i>"
+
+
 
 #[[Languages.en.menu.main]]
 #name = "About vNinja"
@@ -178,20 +194,21 @@ pre = "<i class='fa fa-child'></i>"
 name = "Advertising"
 weight = 4
 identifier = ""
+parent = "about"
 url = "/advertising"
 pre = "<i class='fa fa-bank'></i>"
 
-[[Languages.en.menu.main]]
-name = "Site Policy"
-weight = 3
-identifier = "site"
-url = "#"
-pre = "<i class='fa fa-asterisk'></i>"
+#[[Languages.en.menu.main]]
+#name = "Site Policy"
+#weight = 3
+#identifier = "site"
+#url = "#"
+#pre = "<i class='fa fa-asterisk'></i>"
 
 [[Languages.en.menu.main]]
 name = "Privacy Policy"
 weight = 4
-parent = "site"
+parent = "about"
 identifier = ""
 url = "/about/privacy-policy"
 pre = "<i class='fa fa-asterisk'></i>"
