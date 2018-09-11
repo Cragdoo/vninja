@@ -10,7 +10,7 @@ title: "VMware vSAN 6.7u1 — What's New?"
 
 description: "VMworld 2018 US is upon is, and as per usual this means a lot of new announcements. One of them is vSAN 6.7u1 which comes with a bunch of new and useful features. This release mainly focuses on improved operations and maintenance, with a bunch of nice new additions."
 
-
+twitter:
 card: "summary_large_image"
 site: "@vninjanet"
 creator: "@h0bbel"

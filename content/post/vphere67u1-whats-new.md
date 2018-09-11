@@ -10,7 +10,7 @@ title: "VMware vSphere 6.7u1 — What's New?"
 
 description: "Another VMworld, another vSphere announcement. As all new releases, vSphere 6.7u1 comes with a bunch of new features and capabilities — **yay, finally feature complete HTML5 client!**"
 
-
+twitter:
 card: "summary_large_image"
 site: "@vninjanet"
 creator: "@h0bbel"

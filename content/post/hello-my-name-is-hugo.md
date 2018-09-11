@@ -18,7 +18,7 @@ twitter:
     creator: "@h0bbel"
     title: "Hello, My Name Is Hugo (Montoya)"
     description: "Goodbye Wordpress, hello Hugo!"
-    image: "https://vninja.net/img/hugo-logo.png"
+    twimage: "https://vninja.net/img/hugo-logo.png"
 
 ---
 

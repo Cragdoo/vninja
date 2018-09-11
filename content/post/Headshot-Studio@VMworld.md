@@ -15,7 +15,7 @@ description: "Over the last couple of weeks an idea started to form, an idea tha
 card: "summary_large_image"
 site: "@vninjanet"
 creator: "@h0bbel"  
-image: "https://vninja.net/logos/vmworld-2018-v1.jpg"
+twimage: "https://vninja.net/logos/vmworld-2018-v1.jpg"
 ---
 
 Over the last couple of weeks an idea started to form, an idea that would try to combine two of my passions; **The vCommunity and photography**. 

@@ -12,6 +12,7 @@ title: "Migrating From Wordpress to Hugo"
 
 description: "Migrating From Wordpress to Hugo aka The Long and Winding Road"
 
+twitter:
 card: "summary_large_image"
 site: "@vninjanet"
 creator: "@h0bbel"
