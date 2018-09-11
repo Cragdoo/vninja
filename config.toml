@@ -146,11 +146,36 @@ copyright = "(c) 2018 Christian Mohn"
 title = "vNinja.net" # Site title
 
 [[Languages.en.menu.main]]
+name = "Navigation"
+weight = 3
+identifier = "navigation"
+url = "/topics/"
+pre = "<i class='fa fa-folder-open'></i>"
+
+[[Languages.en.menu.main]]
 name = "Topics"
 weight = 1
+parent = "navigation"
 identifier = "Topics"
-url = "/topics"
+url = "/topics/"
 pre = "<i class='fa fa-folder-open'></i>"
+
+[[Languages.en.menu.main]]
+name = "Tags"
+weight = 2
+parent = "navigation"
+identifier = "Tags"
+url = "/tags/"
+pre = "<i class='fa fa-folder-open'></i>"
+
+[[Languages.en.menu.main]]
+name = "Search"
+weight = 3
+parent = "navigation"
+identifier = "Search"
+url = "/search/"
+pre = "<i class='fa fa-search'></i>"
+
 
 [[Languages.en.menu.main]]
   name = "RSS"
