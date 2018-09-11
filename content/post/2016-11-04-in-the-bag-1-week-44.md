@@ -9,6 +9,7 @@ url: /inthebag/in-the-bag-1-week-44/
 wordpress_id: 4303
 categories:
 - InTheBag
+topics: ["Links", "In The Bag"]
 ---
 
 Inspired by [Scott Lowe's](https://twitter.com/scott_lowe) [Technology Short Takes](http://blog.scottlowe.org/2016/10/10/technology-short-take-72/), [Duncan Eppings](https://twitter.com/DuncanYB) [Recommended Reads](http://www.yellow-bricks.com/2016/09/18/duncanybs-recommended-reads-part-5/) and [Michael White's](https://twitter.com/mwvme) [Newsletter](https://notesfrommwhite.net/category/newsletter/) here is my attempt at a weekly roundup of things I found interesting the last week or so.

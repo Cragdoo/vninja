@@ -14,6 +14,7 @@ tags:
 - conference
 - Denmark
 - VMUG
+topics: ["VMUG", "Community", "Event"]
 ---
 
 ![](/img/nmqqcqrf.jpg-300x257.png)My good friends, and fellow VMUGgers, in Denmark is once again arranging the largest VMUG event in the Nordics in January 2018.

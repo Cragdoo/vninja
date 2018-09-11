@@ -14,6 +14,7 @@ tags:
 - InTheBag
 - News
 - vDM30in30
+topics: ["Links", "In The Bag"]
 ---
 
 Welcome to the third edition of In The Bag!

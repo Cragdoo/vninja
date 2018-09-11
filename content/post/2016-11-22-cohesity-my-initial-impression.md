@@ -13,6 +13,8 @@ tags:
 - Backup
 - Cohesity
 - storage
+topics: ["Review", "Backup", "Cohesity"]
+
 ---
 
 ![cohesity-logo](/img/Cohesity-logo-300x232.png)

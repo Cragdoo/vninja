@@ -13,6 +13,8 @@ tags:
 - InTheBag
 - News
 - Weekly
+topics: ["Links", "In The Bag"]
+
 ---
 
 Welcome to the fifth edition of In The Bag!

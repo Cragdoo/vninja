@@ -12,6 +12,8 @@ categories:
 tags:
 - event
 - Veeam
+topics: ["Veeam", "Event"]
+
 ---
 
 Veeam is hosting their [VeeamOn Tour Virtual 2017](http://vee.am/qbawEw) event on December 5th, and I'll be part of the panel of bloggers in the Expert Lounge!

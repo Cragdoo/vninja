@@ -13,6 +13,7 @@ tags:
 - InTheBag
 - News
 - Weeky
+topics: ["Links", "In The Bag"]
 ---
 
 Welcome to the fourth edition of In The Bag!

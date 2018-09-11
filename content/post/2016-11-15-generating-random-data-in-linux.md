@@ -15,9 +15,11 @@ tags:
 - Linux
 - Veeam Backup &amp; Replication
 - VM
+topics: ["Linux", "Veeam", "Backup"]
+
 ---
 
-I've been fleshing out a proper[ Veeam Backup & Replication](http://veeam.com) Demo lab at work, but doing demos on static VMs isn't all that much fun and doesn't really give us much. Doing scheduled backups of non-changing data is really boring.
+I've been fleshing out a proper [Veeam Backup & Replication](http://veeam.com) Demo lab at work, but doing demos on static VMs isn't all that much fun and doesn't really give us much. Doing scheduled backups of non-changing data is really boring.
 
 So, in order to get some changes done on the file system on a few Linux VMs running in the environment, I came up with the following solution:
 <!--more-->

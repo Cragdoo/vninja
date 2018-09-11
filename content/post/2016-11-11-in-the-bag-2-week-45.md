@@ -13,6 +13,7 @@ tags:
 - InTheBag
 - News
 - vDM30in30
+topics: ["Links", "In The Bag"]
 ---
 
 Welcome to the second edition of In The Bag!

@@ -14,6 +14,8 @@ tags:
 - UserCon
 - vDM30in30
 - VMUG
+topics: ["Event", "VMUG", "Community"]
+
 ---
 
 

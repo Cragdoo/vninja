@@ -14,6 +14,8 @@ tags:
 - Log Insight
 - Software
 - VMware
+topics: ["Log Insight", "Management"]
+
 ---
 
 Recent conversations with existing and potential clients made me realize that many are not aware that they most likely are entitled to use [VMware vRealize Log Insight](http://www.vmware.com/products/vrealize-log-insight.html) in their environment. _For free._

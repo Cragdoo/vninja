@@ -16,6 +16,8 @@ tags:
 - vRLI
 - vROps
 - vSphere
+
+topics: ["Management", "vSphere"]
 ---
 
 If you boot your ESXi hosts from SD-cards or USB you might have run into this issue. Suddenly your host(s) displays the following under events:

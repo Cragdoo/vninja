@@ -13,6 +13,7 @@ tags:
 - Self Promotion
 - Veeam
 - Webinar
+topics: ["Webinar", "Veeam"]
 ---
 
 **Warning: Shameless self promotion ahead!**
