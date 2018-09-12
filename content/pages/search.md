@@ -1,9 +1,11 @@
 ---
-title: "Search"
+title: "Search the vNinja.net archives"
 date: 2018-07-06T12:57:17+02:00
 draft: false
 url: "/search/"
 ---
+**Note:** This is powered by Google Site Search.
+
 <div class="searchbox">
 <br/><br/>
 <form role="search" method="get" action="https://www.google.com/search">
