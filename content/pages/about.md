@@ -22,13 +22,14 @@ For some reason, I'm an eight time [VMware vExpert (2011-2018)](https://vexpert.
 
 Once upon a time, I also wrote a book called [Learning Veeam® Backup & Replication for VMware vSphere](http://bitly.com/1qvBypQ).
 
-
 I have also been featured as a cartoon, _twice_. Once for Rubrik who made [trading cards for VMworld 2017](https://technicloud.com/2017/11/22/vmware-community-vallstars/), and once for Proact who made a rather [spiffy animated video](https://www.youtube.com/watch?v=nzm79VWWXKs).
 
 Currently serving as the vice-chairman of the the [Norwegian VMware User Group (VMUG)](http://vmug.no) leadership team and has helped launch VMUG in three Norwegian cities; Oslo, Bergen and Trondheim.
 <p class="lead">
   For more details on work experience, certifications and such, check [LinkedIn](https://www.linkedin.com/in/christianmohn/). I tend to keep that updated.
 <p>
+
+For a more detailed list of content I've created elsewhere, have a [look at this list](/about/christian-mohn/other).
 
 On a more personal note, I'm a father of two, husband of one, and I have a potentially overshadowing passion for football – I've been a football coach for various girls teams in Bergen for a total of 11 years.
 
