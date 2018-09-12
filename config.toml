@@ -146,16 +146,16 @@ copyright = "(c) 2018 Christian Mohn"
 title = "vNinja.net" # Site title
 
 [[Languages.en.menu.main]]
-name = "Navigation"
+name = "Content"
 weight = 3
-identifier = "navigation"
+identifier = "content"
 url = "/topics/"
 pre = "<i class='fa fa-folder-open'></i>"
 
 [[Languages.en.menu.main]]
 name = "Topics"
 weight = 1
-parent = "navigation"
+parent = "content"
 identifier = "Topics"
 url = "/topics/"
 pre = "<i class='fa fa-folder-open'></i>"
@@ -163,7 +163,7 @@ pre = "<i class='fa fa-folder-open'></i>"
 [[Languages.en.menu.main]]
 name = "Tags"
 weight = 2
-parent = "navigation"
+parent = "content"
 identifier = "Tags"
 url = "/tags/"
 pre = "<i class='fa fa-folder-open'></i>"
@@ -171,7 +171,7 @@ pre = "<i class='fa fa-folder-open'></i>"
 [[Languages.en.menu.main]]
 name = "Search"
 weight = 3
-parent = "navigation"
+parent = "content"
 identifier = "Search"
 url = "/search/"
 pre = "<i class='fa fa-search'></i>"
