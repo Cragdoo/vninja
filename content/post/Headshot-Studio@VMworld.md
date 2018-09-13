@@ -12,7 +12,6 @@ title: "Headshot Studio @VMworld?"
 
 description: "Over the last couple of weeks an idea started to form, an idea that would try to combine two of my passions; The vCommunity and photography. In short, the idea is to set up some kind of mini-studio at VMworld Europe, and offer free [headshots](https://en.wikipedia.org/wiki/Head_shot) to those who might be interested."
 
-og_image: "https://vninja.net/logos/vmworld-2018-v1.jpg"
 
 twitter:
 card: "summary_large_image"
