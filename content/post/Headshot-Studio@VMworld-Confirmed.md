@@ -12,13 +12,12 @@ title: "Headshot Studio @ VMworld Confirmed"
 
 description: "I'm very happy to announce that I can now confirm that Headshot Studio @ VMworld will happen! Mainly due to Tom Dodds  and 10ZiG, who has stepped up as a sponsor!  This means I'll be able to set up a small headshot studio, complete with multiple light sources, a background, and softboxes! **Huge thanks to both Tom and 10ZiG!**"
 
-og_image: "https://vninja.net/logos/10zig.png"
+FeaturedImage: "https://vninja.net/logos/10zig.png"
 
 twitter:
 card: "summary_large_image"
 site: "@vninjanet"
 creator: "@h0bbel"  
-twimage: "https://vninja.net/logos/10zig.png"
 hashtag: test
 ---
 

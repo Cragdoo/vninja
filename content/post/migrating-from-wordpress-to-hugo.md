@@ -12,14 +12,12 @@ title: "Migrating From Wordpress to Hugo"
 
 description: "Migrating From Wordpress to Hugo aka The Long and Winding Road"
 
-og_image: "https://vninja.net/img/hugo-logo.png"
-
+FeaturedImage: "https://vninja.net/img/hugo-logo.png"
 
 twitter:
 card: "summary_large_image"
 site: "@vninjanet"
 creator: "@h0bbel"
-twimage: "https://vninja.net/img/hugo-logo.png"
 ---
 
 <h1>
