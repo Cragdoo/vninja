@@ -140,7 +140,7 @@ extensionmask = []
 
 [Languages]
 [Languages.en]
-languageCode = "en"
+languageCode = "en_US"
 weight = 1
 copyright = "(c) 2018 Christian Mohn"
 title = "vNinja.net" # Site title

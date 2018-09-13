@@ -13,7 +13,7 @@ topics: ["Software", "Software Recommendation", "macOS"]
 
 title: "macOS: Lulu"
 
-description: "**Software Recommendation:** LuLu is a small, shared-source macOS firewall that's finally reached v1.0. Unlike other macOS firewall solutions, LuLu  is 100% free, with no ads and no trial version. I've been using it on my home Mac Mini for a while, and it works perfectly"
+description: "Software Recommendation: LuLu is a small, shared-source macOS firewall that's finally reached v1.0. Unlike other macOS firewall solutions, LuLu  is 100% free, with no ads and no trial version. I've been using it on my home Mac Mini for a while, and it works perfectly."
 
 twitter:
 card: "summary_large_image"
