@@ -17,7 +17,7 @@
 <meta property="og:site_name" content="{{ .Site.Title }}"/>
 <meta property="og:url" content="{{ .Permalink }}" />
 <meta property="og:locale" content="{{ .Site.LanguageCode }}">
-<meta property="og:image" content="{{ .Params.twImage }}">
+<meta property="og:image" content="{{ .Params.FeaturedImage }}">
 
 
 {{ if not .IsPage }}
@@ -46,7 +46,7 @@
 <meta name="twitter:description" content="{{ .Description }}" />
 <meta name="twitter:url" content="{{ .Permalink }}" />
 <meta name="twitter:domain" content="{{ .Site.BaseURL }}">
-<meta name="twitter:image" content="{{ .Params.twImage }}">
+<meta name="twitter:image" content="{{ .Params.FeaturedImage }}">
   {{ end }}
 
   {{ if ne .Site.Params.googleplus "" }}
