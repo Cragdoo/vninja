@@ -14,7 +14,7 @@ twitter:
 card: "summary_large_image"
 site: "@vninjanet"
 creator: "@h0bbel"
-image: "https://vninja.net/logos/vmworld-2018-v1.jpg"
+twimage: "https://vninja.net/logos/vmworld-2018-v1.jpg"
 ---
 
 

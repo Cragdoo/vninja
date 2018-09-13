@@ -14,7 +14,7 @@ twitter:
 card: "summary_large_image"
 site: "@vninjanet"
 creator: "@h0bbel"
-image: "https://vninja.net/logos/vmworld-2018-v2.jpg"
+twimage: "https://vninja.net/logos/vmworld-2018-v2.jpg"
 ---
 
 [VMworld 2018 US](https://www.vmworld.com/en/us/about.html) is upon us, and as per usual this means a lot of new announcements. 

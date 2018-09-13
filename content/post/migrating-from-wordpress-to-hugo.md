@@ -16,7 +16,7 @@ twitter:
 card: "summary_large_image"
 site: "@vninjanet"
 creator: "@h0bbel"
-image: "https://vninja.net/img/hugo-logo.png"
+twimage: "https://vninja.net/img/hugo-logo.png"
 ---
 
 <h1>

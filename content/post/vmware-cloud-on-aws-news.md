@@ -14,7 +14,7 @@ twitter:
 card: "summary_large_image"
 site: "@vninjanet"
 creator: "@h0bbel"
-image: "https://vninja.net/logos/vmworld-2018-v1.jpg"
+twimage: "https://vninja.net/logos/vmworld-2018-v1.jpg"
 ---
 
 VMware vSAN utilizing Amazon Elastic Block Storage (EBS) is an interesting one. Being able to independently increment storage in the VMC without adding compute nodes is a feature that has been missing, **until now**.  
