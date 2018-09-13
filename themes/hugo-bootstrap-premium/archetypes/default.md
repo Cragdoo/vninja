@@ -12,9 +12,9 @@ title: "{{ replace .TranslationBaseName "-" " " | title }}"
 
 description: "description"
 
+twitter:
+card: "summary_large_image"
+site: "@vninjanet"
+creator: "@h0bbel" 
 twImage: "https://vninja.net/"
 ---
-
-# Headline
-
-Text
