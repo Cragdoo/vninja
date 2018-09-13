@@ -18,6 +18,12 @@ tags:
 - vSphere
 
 topics: ["Management", "vSphere"]
+
+twitter:
+    card: "summary_large_image"
+    site: "@vninjanet"
+    creator: "@h0bbel"
+    twImg: "https://vninja.net/img/Screenshot-2018-01-29-23.07.40-300x169.png"
 ---
 
 If you boot your ESXi hosts from SD-cards or USB you might have run into this issue. Suddenly your host(s) displays the following under events:

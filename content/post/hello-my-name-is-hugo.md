@@ -21,10 +21,6 @@ twitter:
     twimage: "https://vninja.net/img/hugo-logo.png"
 
 ---
-
-
-
-
 # Goodbye Wordpress, hello Hugo!
 
 vNinja.net has been powered by Wordpress since it was launched back in 2010, and frankly it was time for a change. What _really_ triggered it, was my hosting providers unwillingness to upgrade basic things, like PHP versions and MySQL. That combined with the security issues you have to live with when using traditional shared hosting made me look around for alternatives. While looking at hosting options, it slowly dawned on me that perhaps I should be looking at doing [something completely different](https://www.youtube.com/watch?v=FGK8IC-bGnU).
