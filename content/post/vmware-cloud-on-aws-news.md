@@ -10,6 +10,8 @@ title: "VMware Cloud on AWS — New Amazon EC2 elastic, bare-metal instance for 
 
 description: "VMware Cloud on AWS (vSAN) utilizing Amazon Elastic Block Storage (EBS) is an interesting one. Being able to independently increment storage in the VMC without adding compute nodes is a feature that has been missing, **until now**."
 
+og_image: "https://vninja.net/logos/vmworld-2018-v1.jpg"
+
 twitter:
 card: "summary_large_image"
 site: "@vninjanet"

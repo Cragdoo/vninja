@@ -12,6 +12,8 @@ title: "{{ replace .TranslationBaseName "-" " " | title }}"
 
 description: "description"
 
+og_image: "https://vninja.net/"
+
 twitter:
 card: "summary_large_image"
 site: "@vninjanet"
