@@ -2,15 +2,15 @@
 
 
 body {
-    font-size: 18px;
+    font-size: 24px;
 }
 
 table {
-    font-size: 18px;
+    font-size: 24px;
 }
 
 small, .small {
-    font-size: 90%;
+    font-size: 80%;
 }
 
 .navbar-nav>li>a {
@@ -21,25 +21,25 @@ small, .small {
 }
 
 .navbar-brand {
-    font-size: 30px;
+    font-size: 36px;
     height: 65px;
 }
 
 .navbar {
-    font-size: 18px;
+    font-size: 22px;
 }
 
 .navbar .dropdown-menu>li>a, .navbar .dropdown-menu>li>a:focus {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 @media (min-width: 768px)
 .lead {
-    font-size: 26px;
+    font-size: 28px;
 }
 
 .alert {
-    font-size: 18px;
+    font-size: 26px;
 }
 
 .ads {
@@ -184,11 +184,11 @@ div.tranbox {
 }
 
 /* Sharingbox */
-.fa-google-plus, .fa-facebook-official, .fa-reddit, .fa-linkedin, .fa-envelope, .fa-twitter { color: #858080; font-size:16px; margin-top: 5px; margin-bottom: 10px; }
+.fa-google-plus, .fa-facebook-official, .fa-reddit, .fa-linkedin, .fa-envelope, .fa-twitter { color: #858080; font-size:22px; margin-top: 5px; margin-bottom: 10px; }
 
 
 div.metas {
-    font-size: 16px;
+    font-size: 20px;
 }
 
 
