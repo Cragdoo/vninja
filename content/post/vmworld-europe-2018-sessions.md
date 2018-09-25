@@ -38,7 +38,7 @@ If you are in doubt, you sre probably better of downloading the US version of th
 * The sessions are not listed by day, but if you search for "tuesday", you'll get the sessions for that day.
 * Use the **My Schedule** view to pick a time slot you want to fill, hit the + sign and find a session for that slot. This makes it easier to make sure you have air between your scheduled sessions!
 * Use the **Add Personal Time** option wisely. Take blocks of time out of your schedule, and think about want you want to use it for. Perhaps visit the Solutions Expo and that vendor booth you wanted to check out, or hang out in the blogger space. 
-* Check out the [vBrownbag](https://vbrownbag.com/) schedule, loads of great content is scheduled there as well so make sure you account for that too.
+* Check out the [VMTN/vBrownbag](https://my.vmworld.com/widget/vmware/vmworld18eu/eucatalog?search=VMTN) schedule (search for VMTN), loads of great content is scheduled there as well so make sure you account for that too.
 
 ![VMworld Scheduler 2018](/img/vmworld-scheduler.png#center)
 
