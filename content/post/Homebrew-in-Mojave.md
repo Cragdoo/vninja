@@ -35,7 +35,7 @@ Well, that's strange, Homebrew was working just fine before the upgrade.
 
 Turns out that the Mojave upgrade didn't also upgrade my Xcode Command Line tools, which causes this error when upgrading Homebrew. 
 
-Luckily there is a really quick fix fot this; just install the Xcode command line tools!
+Luckily there is a really quick fix for this; just install the Xcode command line tools!
 
 ```
  ~ $ xcode-select --install
