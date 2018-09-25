@@ -9,15 +9,14 @@ tags: ["Homebrew", "macOS"]
 
 title: "macOS: Homebrew error in macOS 10.14 Mojave"
 
-description: "How to fix **Error: Git must be installed and in your PATH!** with Homebrew in macOS 10.14 Mojave"
+description: "How to fix **Error: Git must be installed and in your PATH!** with Homebrew in macOS 10.14 Mojave."
 
-og_image: "https://vninja.net/img/homebrew-256x256.png"
+FeaturedImage: "https://vninja.net/img/homebrew-256x256.png"
 
 twitter:
 card: "summary_large_image"
 site: "@vninjanet"
 creator: "@h0bbel" 
-twImage: "https://vninja.net/img/homebrew-256x256.png"
 ---
 Just a quick note to everyone jumping on the new [macOS Mojave release](https://www.apple.com/lae/macos/mojave/). 
 
