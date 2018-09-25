@@ -18,7 +18,7 @@ card: "summary_large_image"
 site: "@vninjanet"
 creator: "@h0bbel" 
 ---
-Just a quick note to everyone jumping on the new [macOS Mojave release](https://www.apple.com/lae/macos/mojave/). 
+Just a quick note to everyone jumping on the new [macOS Mojave release](https://notesfrommwhite.net/2018/09/24/macos-mojave-now-ga/). 
 
 I'm a big fan of [Homebrew](https://brew.sh), and after upgrading macOS I figured it would be a good idea to upgrade Homebrew as well.
 
