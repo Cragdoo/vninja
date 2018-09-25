@@ -3,7 +3,7 @@ type: "post"
 date: "2018-08-26"
 year: "2018"
 author: Christian Mohn
-topics: ["vSphere", "Virtualization", "VMware Cloud on AWS", "VMware"]
+topics: ["vSphere", "Virtualization", "VMware Cloud on AWS", "VMware", "VMworld"]
 tags: ["VMware", "VMworld 2018", "VMware Cloud on AWS"]
 
 title: "VMware Cloud on AWS — New Amazon EC2 elastic, bare-metal instance for vSAN"

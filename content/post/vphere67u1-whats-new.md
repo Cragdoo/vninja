@@ -3,7 +3,7 @@ type: "post"
 date: "2018-08-26"
 year: "2018"
 author: Christian Mohn
-topics: ["vSphere", "Virtualization", "VMware"]
+topics: ["vSphere", "Virtualization", "VMware", "VMworld"]
 tags: ["vSphere", "VMware", "VCSA", "VMworld 2018"]
 
 title: "VMware vSphere 6.7u1 — What's New?"

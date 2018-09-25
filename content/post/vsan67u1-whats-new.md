@@ -3,7 +3,7 @@ type: "post"
 date: "2018-08-26"
 year: "2018"
 author: Christian Mohn
-topics: ["Storage", "vSAN", "VMware"]
+topics: ["Storage", "vSAN", "VMware", "VMworld"]
 tags: ["vSAN", "VMware", "VMworld 2018"]
 
 title: "VMware vSAN 6.7u1 — What's New?"

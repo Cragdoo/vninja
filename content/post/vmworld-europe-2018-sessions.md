@@ -4,7 +4,8 @@ draft: "false"
 date: "2018-09-25"
 year: "2018"
 author: Christian Mohn
-keywords: ["VMworld", "VMware"]
+keywords: ["VMworld", "VMware", "VMworld"]
+topics: ["VMworld", "VMware", "VMworld"]
 tags: ["VMworld", "VMware", "VMworld 2018"]
 
 title: "VMworld Europe 2018 Sessions and Some Advice"
