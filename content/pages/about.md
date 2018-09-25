@@ -44,10 +44,10 @@ I've also published a few things over at [Medium](https://medium.com/@h0bbel/), 
 
 * [Here goes nothing.](https://medium.com/@h0bbel/here-goes-nothing-37f8cced0f6a)
 * [Ch-ch-ch-ch-changes](https://medium.com/@h0bbel/ch-ch-ch-ch-changes-44c544d0f698)
-* [Perspective. Why not get some? It’s good for you, and I promise you’ll like it.](https://medium.com/@h0bbel/perspective-why-not-get-some-it-s-good-for-you-and-i-promise-you-ll-like-it-9173d80f0a52)
+* [Perspective. Why not get some? It’s good for you, and I promise you’ll like it.](https://medium.com/@h0bbel/perspective-why-not-get-some-it-s-good-for-you-and-i-promise-you-ll-like-it-9173d80f0a52) <i class='fa fa-asterisk'></i>
 * [A Fools Guide to Public Speaking](https://medium.com/@h0bbel/a-fools-guide-to-public-speaking-105fed1b4244)
 * [My Personal Top 10 Albums of All Time.](https://medium.com/@h0bbel/my-personal-top-10-albums-of-all-time-dafb6ca3c5be)
-* [What about My ‘Man Card’?](https://medium.com/@h0bbel/what-about-my-man-card-d31c65cec315)
+* [What about My ‘Man Card’?](https://medium.com/@h0bbel/what-about-my-man-card-d31c65cec315) <i class='fa fa-asterisk'></i>
 * [The Soundtrack of My Life — Nearly Gone.](https://medium.com/@h0bbel/the-soundtrack-of-my-life-nearly-gone-e4d4c44d5d7f)
 
 
