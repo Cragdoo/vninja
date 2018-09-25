@@ -11,7 +11,7 @@ description: "description"
 twImage: "https://vninja.net/"
 ---
 
-This is a list of other content I've written, or contributed to over the years:
+This is a list of other technical content I've written, or contributed to over the years:
 
 ## Books
 * Author: [Learning Veeam® Backup & Replication for VMware vSphere](https://www.amazon.com/Learning-Veeam%C2%AE-Backup-Replication-vSphere/dp/1782174176)
