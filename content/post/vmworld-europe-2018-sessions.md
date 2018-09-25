@@ -10,7 +10,7 @@ tags: ["VMworld", "VMware", "VMworld 2018"]
 
 title: "VMworld Europe 2018 Sessions and Some Advice"
 
-description: "VMware has opened the session builder for VMworld Europe 2018, and quite a few sessions are already fullly booked. Don't despair though if you session is full, there is still a chance that some sessions will get additional slots, as well as the possibility for walk-ins at the time of the sessions. Odds are that quite a few people who have scheduled a given session doesn't show up and that'll open up slots for those waiting at the door."
+description: "VMware has opened the session builder for VMworld Europe 2018, and quite a few sessions are already fullly booked. Don't despair though if you session is full, there is still a chance that some sessions will get additional slots, as well as the possibility for walk-ins at the time of the sessions. Odds are that quite a few people who have scheduled a given session doesn't show up and that will open up slots for those waiting at the door."
 
 FeaturedImage: "https://vninja.net/logos/vmworld-2018-v1.jpg"
 
