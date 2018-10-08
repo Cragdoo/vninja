@@ -38,7 +38,7 @@ Originally designed to run on a Raspberry Pi (hence the name), it can also run j
 
 Installation of Pi-Hole is normally pretty straight forward, if you like to [install things directly off the internet](https://sandstorm.io/news/2015-09-24-is-curl-bash-insecure-pgp-verified-install) that is...
 
-Once you have your VM ready, with a static IP, SSH into it and run 
+Once you have your VM ready, with a static IP, SSH into it and run:
 
 `curl -sSL https://install.pi-hole.net | bash`
 
