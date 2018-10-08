@@ -36,7 +36,7 @@ The High Level Architecture I finally settled on looks like this:
 
 ![Pi-Hole](/img/pi-hole-architecture.png#center)
 
-Basically all DNS requests in my local network should run through the Pi-Hole, then to my local DNS server before it gets forwarded out on the big bad interwebs.
+Basically I want all DNS requests in my local network to run through the Pi-Hole, then to my local DNS server before it gets forwarded out on the big bad interwebs.
 
 Currently my Synology NAS also serves as my DHCP and DNS server for my local network. The setup will be similar on whatever DHCP and DNS servers you currently run. In order to get Pi-Hole to filter all my traffic, I configured the DHCP scope to serve the IP address of the Pi-Hole, with the IP of *192.168.5.53* (bonus points for figuring out why it's .53), instance like this
 
