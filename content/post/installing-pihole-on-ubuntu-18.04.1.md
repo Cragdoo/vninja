@@ -24,7 +24,7 @@ site: "@vninjanet"
 creator: "@h0bbel" 
 ---
 
-Pi-Hole is a nifty little software package that acts as a ad-blocking server for your entire network, or as the authors put it:
+[Pi-Hole](https://pi-hole.net/) is a nifty little software package that acts as a ad-blocking server for your entire network, or as the authors put it:
 
 > Pi-Hole®: A Black Hole for Internet Advertisements.
 
