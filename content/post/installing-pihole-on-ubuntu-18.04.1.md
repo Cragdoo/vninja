@@ -30,7 +30,7 @@ creator: "@h0bbel"
 
 In reality it's just a local DNS server that blocks out know advertising networks from your queries.
 
-Originally designed to run on a Raspberry Pi (hene the name), it can also run just fine on [any Debian-based linux distribution](https://discourse.pi-hole.net/t/hardware-software-requirements/273), and it works just fine inside a VM. It is very lightweight as it only handles DNS queries and returns a blank HTML file for the blocked requests, it really doesn’t need much processing power.
+Originally designed to run on a Raspberry Pi (hence the name), it can also run just fine on [any Debian-based linux distribution](https://discourse.pi-hole.net/t/hardware-software-requirements/273), and it works just fine inside a VM. It is very lightweight as it only handles DNS queries and returns a blank HTML file for the blocked requests, it really doesn’t need much processing power.
 
 ### Hardware requirements
 * ~52MB of free space
