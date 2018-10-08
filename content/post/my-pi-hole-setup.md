@@ -25,7 +25,7 @@ site: "@vninjanet"
 creator: "@h0bbel" 
 ---
 
-I recently configured a [VM with Pi-Hole installed](/2018/10/08/installing-pihole-on-ubuntu-18.04.1/) omn it, and after running it for a couple of weeks the results are pretty stunning.
+I recently configured a [VM with Pi-Hole installed](/2018/10/08/installing-pihole-on-ubuntu-18.04.1/) on it, and after running it for a couple of weeks the results are pretty stunning.
 
 ![Pi-Hole Admin Dashboard](/img/pi-hole2.png#center)
 
