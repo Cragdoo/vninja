@@ -35,13 +35,12 @@ fsociety@test:~$
 
 Turns out systems that are installed with the live-server installer do not have [universe](https://help.ubuntu.com/community/Repositories/Ubuntu) enabled. I don't know if this is a bug that will be fixed, or an intentional change.
 
-Either way, I've created my own version of a full sources.list file, and made it available as a [gist](https://gist.github.com/h0bbel/4b28ede18d65c3527b11b12fa36aa8d1).
+Either way, I've hacked together  my own version (copied from older releases) of a full sources.list file, and made it available as a [gist](https://gist.github.com/h0bbel/4b28ede18d65c3527b11b12fa36aa8d1).
 
 This can easily downloaded into your Ubuntu system by running the following command
 
 ```
 wget https://gist.githubusercontent.com/h0bbel/4b28ede18d65c3527b11b12fa36aa8d1/raw/a4ab1c13a92171822215143b1e3b3eb6add7a78d/sources.list
-
 ```
 This should add your familiar repositories back, and enable installation of packages from the missing universe repositories, as well as the main repositories enabled by default.
 
