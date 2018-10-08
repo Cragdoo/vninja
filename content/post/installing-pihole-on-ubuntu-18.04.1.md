@@ -14,7 +14,7 @@ topics: ["Software", "Linux", "Ubuntu", "Blogtober 2018"]
 
 title: "Trouble Installing Pi-Hole on Ubuntu 18.04.1 LTS Bionic Beaver"
 
-description: "Pi-Hole is a nifty little software package that basically acts as a ad-blocking server for your entire network. The installer silently fails on Ubuntu 18.04.1 LTS Bionic Beaver, since it can not install dependencies. That's not good, but hey, there is an easy fix!"
+description: "Pi-Hole is a nifty little software package that basically acts as a ad and tracking blocking server for your entire network. The installer silently fails on Ubuntu 18.04.1 LTS Bionic Beaver, since it can not install dependencies. That's not good, but hey, there is an easy fix!"
 
 FeaturedImage: "https://vninja.net/img/Pi-Hole_logo.png"
 
@@ -24,7 +24,7 @@ site: "@vninjanet"
 creator: "@h0bbel" 
 ---
 
-[Pi-Hole](https://pi-hole.net/) is a nifty little software package that acts as a ad-blocking server for your entire network, or as the authors put it:
+[Pi-Hole](https://pi-hole.net/) is a nifty little software package that acts as a ad and tracking blocking server for your entire network, or as the authors put it:
 
 > Pi-Hole®: A Black Hole for Internet Advertisements.
 
