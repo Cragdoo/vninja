@@ -14,7 +14,7 @@ topics: ["Software", "Linux", "Ubuntu", "Blogtober 2018"]
 
 title: "Trouble Installing Pi-Hole on Ubuntu 18.04.1 LTS Bionic Beaver"
 
-description: "Pi-Hole is a nifty little software package that basically acts as a ad-blocking server for your entire network. The installer silently fails on Ubuntu 18.04.1 LTS Bionic Beaver, since it can not install dependencies."
+description: "Pi-Hole is a nifty little software package that basically acts as a ad-blocking server for your entire network. The installer silently fails on Ubuntu 18.04.1 LTS Bionic Beaver, since it can not install dependencies. That's not good, but hey, there is an easy fix!"
 
 FeaturedImage: "https://vninja.net/img/Pi-Hole_logo.png"
 
@@ -40,11 +40,11 @@ Installation of Pi-Hole is normally pretty straight forward, if you like to [ins
 
 Once you have your VM ready, with a static IP, SSH into it and run:
 
-`curl -sSL https://install.pi-hole.net | bash`
+{{< highlight bash >}}curl -sSL https://install.pi-hole.net | bash{{< /highlight >}}
 
 In my case, on Ubuntu 18.04.1 LTS Bionic Beaver, this seemed to run fine, but after a very quick screen flash, it just stopped, looking like this:
 
-```
+{{< highlight bash >}}
 fsociety@test:/$ curl -sSL https://install.pi-hole.net | bash
 
   [✗] Root user check
@@ -93,16 +93,16 @@ fsociety@test:/$ curl -sSL https://install.pi-hole.net | bash
   [✓] Checking for iproute2
   [✓] Checking for whiptail
 fsociety@test:/$
-```
+{{< /highlight >}}
 Well, That is strange. It just stopped, no error messages or anything. Turns out the reason it stopped here is because the **dialog** and **dhcpd5** packages are missing from the system and it is unable to install them, even if it does say that they "will be installed". 
 
-[Dialog](https://www.linuxjournal.com/article/2807) is basically a utility that lets you build user interfaces for scripts, and guess what?  The Pihole installer is based on it being available. Since installations of Ubuntu 18.04.1 LTS Bionic Beaver using the [LiveCD ISO is missing the Universe repositories](https://vninja.net/2018/10/08/ubuntu-18.04.1-lts-bionic-beaver-sources.list/), the Pi-Hole installer is unable to install its requirements, and just stops in its tracks. 
+[Dialog](https://www.linuxjournal.com/article/2807) is basically a utility that lets you build user interfaces for scripts, and guess what? The Pihole installer is based on it being available. Since installations of Ubuntu 18.04.1 LTS Bionic Beaver using the [LiveCD ISO is missing the Universe repositories](https://vninja.net/2018/10/08/ubuntu-18.04.1-lts-bionic-beaver-sources.list/), the Pi-Hole installer is unable to install its requirements, and just stops in its tracks. 
 
 <!--Jumbotron-->
 <div class="jumbotron jumbotron-fluid">
 
     <div class="container">
-        <p class="lead"><i class='fa fa-exclamation-circle'></i> To get any further, you’ll have to <a href="https://vninja.net/2018/10/08/ubuntu-18.04.1-lts-bionic-beaver-sources.list/">fix your sources.list</a> to make sure you have the universe repositories and run the installer again.</p>
+        <p class="lead"><i class='fa fa-exclamation-circle'></i> To get any further, you will have to <a href="https://vninja.net/2018/10/08/ubuntu-18.04.1-lts-bionic-beaver-sources.list/">fix your sources.list</a> to make sure you have the Universe repositories and re-run the installer afterwards.</p>
     </div>
 
 </div>
@@ -114,9 +114,9 @@ Once that is done, re-run the Pi-Hole installer and it should run just fine, pre
 
 From there, you can go on and confgure it to suit your setup. 
 
-I won't go through the configuration of Pi-Hole in this post, I'll save that for a later post where I go through how it's configured in my home network, with internal upstream DNS servers. My setup also makes this my default DNS server for VPN connections as well, making me ad-blocked while mobile as well. Awesome.
+I will not go through the configuration of Pi-Hole in this post, I will save that for a later post where I go through how it is configured in my home network, with internal upstream DNS servers. My setup also makes this my default DNS server for VPN connections, making me ad-blocked while mobile as well. **Awesome**.
 
-I'll say this though, this thing works extremely well:
+I will say this though, this thing works extremely well:
 
 ![Pi-Hole Admin Dashboard](/img/pi-hole2.png#center)
 

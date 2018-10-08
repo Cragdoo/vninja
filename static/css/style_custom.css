@@ -200,3 +200,10 @@ div.metas {
 .searchbox {
     padding-top: 150px;
 }
+
+/* Custom color for bash highlight */
+
+code.language-bash.hljs {
+    color: #fff;
+    background-color: #000111;
+}
