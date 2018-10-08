@@ -40,7 +40,7 @@ Installation of Pi-Hole is normally pretty straight forward, if you like to [ins
 
 Once you have your VM ready, with a static IP, SSH into it and run:
 
-{{< highlight bash >}}curl -sSL https://install.pi-hole.net | bash{{< /highlight >}}
+{{< highlight bash >}}fsociety@test:/$ curl -sSL https://install.pi-hole.net | bash{{< /highlight >}}
 
 In my case, on Ubuntu 18.04.1 LTS Bionic Beaver, this seemed to run fine, but after a very quick screen flash, it just stopped, looking like this:
 
