@@ -45,6 +45,4 @@ wget https://gist.githubusercontent.com/h0bbel/4b28ede18d65c3527b11b12fa36aa8d1/
 ```
 This should add your familiar repositories back, and enable installation of packages from the missing universe repositories, as well as the main repositories enabled by default.
 
-### Ubuntu 18.04.1 LTS Bionic Beaver /etc/apt/sources.list [gist](https://gist.github.com/h0bbel/4b28ede18d65c3527b11b12fa36aa8d1).
-
-{{< gist h0bbel 4b28ede18d65c3527b11b12fa36aa8d1 >}}
+[Ubuntu 18.04.1 LTS Bionic Beaver /etc/apt/sources.list gist](https://gist.github.com/h0bbel/4b28ede18d65c3527b11b12fa36aa8d1).
