@@ -34,29 +34,9 @@ I used this tool to migrate our setup, from Windows Server 2003 32bit to Windows
 
 All in all, this tool is a great assistant for all of you that need to migrate to a new host for 64bit support in vCenter Server 4.1. While it could be more polished, brand a GUI and let you use network storage for the backups, it does the job at hand very well. After all, who needs a polished GUI based application for a one off job like this?
 
-
 #### Related VMware Knowledgebase Articles
 
-
-	
   * [vSphere 4.1 upgrade pre-installation requirements and considerations](http://kb.vmware.com/selfservice/microsites/search.do?cmd=displayKC&docType=kc&externalId=1022137&sliceId=1&docTypeID=DT_KB_1_1&dialogID=90426222&stateId=1%200%2090428570)
-
-
-
-
-	
   * [Migrating an existing vCenter Server database to 4.1 using the data migration tool](http://kb.vmware.com/selfservice/microsites/search.do?cmd=displayKC&docType=kc&externalId=1021635&sliceId=1&docTypeID=DT_KB_1_1&dialogID=90426222&stateId=1%200%2090428570)
-
-
-
-
-	
   * [vCenter Server 4.1 Data Migration Tool fails with the error: HResult 0x2, Level 16, State 1](http://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=1024490)
-
-
-
-
-	
   * [Using the Data Migration Tool to upgrade from vCenter Server 4.0 to vCenter Server 4.1 fails](http://kb.vmware.com/selfservice/microsites/search.do?cmd=displayKC&docType=kc&externalId=1024380&sliceId=1&docTypeID=DT_KB_1_1&dialogID=90426222&stateId=1%200%2090428570)
-
-
