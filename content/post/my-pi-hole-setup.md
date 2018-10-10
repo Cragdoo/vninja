@@ -48,7 +48,7 @@ To make sure external name resolution works too, I've configured the Synology DN
 
 ![Pi-Hole](/img/pi-hole-dns.png#center)
 
-Next up was configuring the Pi-Hole itself to forward non-blocked DNS requests to the internal Synology DNS service, and let that handle local resolution or external. Thankfully this is a pretty easy configuration as well, this time in the Pi-Hole admin interface which is available on http://pi.hole/admin
+Next up was configuring the Pi-Hole itself to forward non-blocked DNS requests to the internal Synology DNS service, and let that handle resolution either local or external. Thankfully this is a pretty easy configuration as well, this time in the Pi-Hole admin interface which is available on http://pi.hole/admin
 
 Go to **Settings -> DNS** and set your custom DNS upstream DNS servers
 
