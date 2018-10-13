@@ -32,6 +32,6 @@ Veeam has done a great job organizing the event, at least by the looks of it bef
 
 The event agenda looks great too, with a good mix of public content, enbargoed content and even some [Rickatron](https://twitter.com/RickVanover) special TOP SECRET content. There is even planned some "responsible enjoyment" in the evenings, and a boat trip with dinner on the Wednesday. 
 
-I'll be bringing my camera, and hopefully get some good shots of Old Town Prague, especially since the hotel we are staying at is very centrally placed.
-
 **Thanks a lot Rick and the rest of the Veeam Vanguard crew for arranging this, I am really looking forward to meeting a slew of old friends, and even more fun, a bunch of new ones I have yet to meet, physically.**
+
+I'll be bringing my camera, and hopefully get some good shots of Old Town Prague, especially since the hotel we are staying at is very centrally placed.
