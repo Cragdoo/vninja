@@ -26,7 +26,7 @@ creator: "@h0bbel"
 
 For the first time since the [Veeam Vanguard](https://www.veeam.com/vanguard.html) program was started in 2015, I'll be able to join the Vanguard Summit! This event takes place next week (October 15th to 18th) in lovely Prague, Czechia. 
 
-Veeam has done a great job organizing the event, at least by the looks of it before it actually starts, arranging travel and hotel accomodations for approximately 50 Vanguards from all over the world — That does take some organizing! There will be a realluy mixed bag of representatives from Brazil, the US, Australia, the Nordics, and all over Europe.
+Veeam has done a great job organizing the event, at least by the looks of it before it actually starts, arranging travel and hotel accomodations for approximately 50 Vanguards from all over the world — That does take some organizing! There will be a realluy mixed bag of representatives from Brazil, the US, Australia, the Nordics, and all over Europe. This is the Vanguards chance to get briefed on new developments, but also a great way to provide feedback to Veeam as well. One of the realluy nice things about the Vangurd program is the two-way street nature of it.
 
 ![Prague, Old Town](/img/Prague.jpg#center)
 
