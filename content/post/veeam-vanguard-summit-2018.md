@@ -24,7 +24,7 @@ creator: "@h0bbel"
 
 ![Veeam Vanguard](/img/veeam_vanguard-300x96.png#center)
 
-For the first time since the [Veeam Vanguard](https://www.veeam.com/vanguard.html) program was started in 2015, I'll be able to join the Vanguard Summit! This event takes place next week (October 15th to 18th) in lovely Prague, Czechia. I've been in Prague once before, on a school trip when I was 18. I don't really remember much of that trip though, for various reasons best left undocumented...
+For the first time since the [Veeam Vanguard](https://www.veeam.com/vanguard.html) program was started in 2015, I will be able to join the Vanguard Summit! This years event takes place next week (October 15th to 18th) in lovely Prague, Czechia. I've been in Prague once before, on a school trip when I was 18. I have to admit that I do not really remember much of that trip though, for various reasons best left undocumented...
 
 ![Prague, Old Town](/img/Prague.jpg#center)
 
