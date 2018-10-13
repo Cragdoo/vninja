@@ -28,7 +28,7 @@ For the first time since the [Veeam Vanguard](https://www.veeam.com/vanguard.htm
 
 ![Prague, Old Town](/img/Prague.jpg#center)
 
-By the looks of it, Veeam has done a great job organizing the event, arranging travel and hotel accomodations for approximately 50 Vanguards from all over the world — That  take *some* organizing! There will be a realluy mixed bag of representatives from Brazil, the US, Australia, the Nordics, and all over Europe. This is the Vanguards chance to get briefed on new developments, but also a great way to provide feedback to Veeam as well. One of the realluy nice things about the Vangurd program is the two-way street nature of it.
+By the looks of it, Veeam has done a great job organizing the event, arranging travel and hotel accomodations for approximately 50 Vanguards from all over the world — That  take *some* organizing! There will be a realluy mixed bag of representatives from Brazil, the US, Australia, the Nordics, and all over Europe. This is the Vanguards chance to get briefed on new developments, but also a great way to provide feedback to Veeam as well. One of the really nice things about the Vangurd program is the two-way street nature of it, it's not just one-way communication from Veeam, they listen as well.
 
 The event agenda looks great too, with a good mix of public content, enbargoed content and even some [Rickatron](https://twitter.com/RickVanover) special **TOP SECRET** content. There is even planned some "responsible enjoyment" in the evenings, and a boat trip with dinner on the Wednesday.
 
