@@ -34,4 +34,4 @@ The event agenda looks great too, with a good mix of public content, enbargoed c
 
 **Thanks a lot Rick and the rest of the Veeam Vanguard crew for arranging this, I am really looking forward to meeting a slew of old friends, and even more fun, a bunch of new ones I have yet to meet, physically.**
 
-I'll be bringing my camera, and hopefully get some good shots of Old Town Prague, especially since the hotel we are staying at is very centrally placed.
+I'll be bringing my camera, and hopefully get some good shots of Old Town Prague, especially since the hotel we are staying at is very centrally placed, and even the weather seems to be cooperating this week. It'll be a great break for the near constant rain we've had here in Bergen, Norway for the last month or so.
