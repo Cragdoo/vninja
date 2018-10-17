@@ -39,7 +39,7 @@ ERROR
 + </Errors>
 {{< /highlight >}}
 
-Naturally, my main suspect was DNS (It is *always* DNS. Or NTP.), but both forward and reverse DNS lookups works fine, both for my ESXi hosts as well as my existing vCenter. 
+Naturally, my main suspect was DNS (It is *always* DNS. Or NTP), but both forward and reverse DNS lookups works fine, both for my ESXi hosts as well as my existing vCenter. 
 
 Unable to pinpoint this any further, I decided to try and use IPs for both the existing vCenter as well as the target host for my new VCSA (with the migrated data on it) and all of a sudden it worked fine.
 
@@ -47,4 +47,6 @@ Unable to pinpoint this any further, I decided to try and use IPs for both the e
 
 ![VCSA 6.7u2 Upgrade Working](/img/vCenter-DarkMode.png#center)
 
-This is not really a fix, but it is a workaround and it does work. I would love to know why this was a problem, especially since both forward and reverse DNS lookups seem to work just fine in this environment.
+This is not really a fix, but it is a workaround and it does work.
+
+ I would love to know why this was a problem, especially since both forward and reverse DNS lookups seem to work just fine in this environment.
