@@ -9,7 +9,7 @@ tags: ["VCSA", "VMware", "vCenter", "Blogtober2018"]
 
 title: "vSphere VCSA 6.5 Update 2 to 6.7 Update 1 Upgrade Issues"
 
-description: "Now that vSphere 6.7 Update 1has been released, I jumped at upgrading one of my lab environments from 6.5 Update 2 (which was not a supported upgrade path until 6.7 Update 1), and I pretty much immediately ran into issues. "
+description: "Now that vSphere 6.7 Update 1 has been released, I jumped at upgrading one of my lab environments from 6.5 Update 2 (which was not a supported upgrade path until 6.7 Update 1), and I pretty much immediately ran into issues. "
 
 FeaturedImage: "https://vninja.net/img/vcsa-upgrade-error.png"
 
