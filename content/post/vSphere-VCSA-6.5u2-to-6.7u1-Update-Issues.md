@@ -45,6 +45,6 @@ Unable to pinpoint this any further, I decided to try and use IPs for both the e
 
 **I do not really know what the problem is, besides it being related to DNS somehow, but the "fix" seems to be to use IP addresses for your environment in the Upgrade Wizard for VCSA.**
 
-![VCSA 6.7u2 Upgrade Working](/img/vcsa-upgrade-working.png#center)
+![VCSA 6.7u2 Upgrade Working](/img/vCenter-DarkMode.png#center)
 
 This is not really a fix, but it is a workaround and it does work. I would love to know why this was a problem, especially since both forward and reverse DNS lookups seem to work just fine in this environment.
